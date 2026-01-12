@@ -3,19 +3,27 @@
 
 **Version**: 2.0  
 **Last Updated**: 2026-01-11  
-**Status**: REDTEAMED & REFINED
+**Status**: APPROVED
 
 ---
 
-## 1. Executive Summary
+## 1. Executive Overview
 
-Build a unified Django+Wagtail platform at `cmre.c-mtg.com` that:
-- Consolidates WordPress content + Django pricing/application backend
-- Implements AI-first user experience (chatbot, voice agent)
-- Automates Lender Rate Sheet ingestion via agentic workflows
-- Provides a seamless hand-off to Floify for applications
+The **Unified CMTG** project consolidates two legacy systems:
+1. **custommortgage** (WordPress): Content, SEO, and Marketing.
+2. **cmtgdirect** (Django): Loan Pricing Engine and API.
+
+### The Solution: A Headless Architecture
+
+| Layer | Technology | Purpose |
+|-------|------------|---------|
+| **Frontend** | Next.js 14 (React) | Premium, fast user experience |
+| **Backend** | Django | Pricing logic and API |
+| **CMS** | Wagtail | Headless content management |
+| **Orchestration** | AI Agents | Rate sheets, content, automation |
 
 ### Domain Strategy
+
 | Phase | Domain | Status |
 |-------|--------|--------|
 | Development | `cmre.c-mtg.com` | Build here |
@@ -26,230 +34,251 @@ Build a unified Django+Wagtail platform at `cmre.c-mtg.com` that:
 
 ---
 
-## 2. User Journeys
+## 2. Tool & Agent Usage Guide
 
-### 2.1 Borrower Journey
+This project uses a specific set of AI-native tools:
+
+### 🛠️ Gemini CLI (`.gemini/`)
+The central nervous system. Use it to switch contexts and run meta-commands.
+- **Context**: "I am working on the Pricing Engine." → Agents load `pricing/` context.
+- **Memory**: Stores project decisions in `GEMINI.md` (read-only for humans, write for agents).
+
+### 🤖 Agent Conductor Roles
+
+| Agent | Specialty | Focus Areas |
+|-------|-----------|-------------|
+| **Pricing Engineer** | Python/Django | `cmtgdirect` logic, `QualifyView`, matching |
+| **Wagtail Expert** | CMS modeling | StreamFields, page models, content API |
+| **Frontend Architect** | Next.js/React | Components, API clients, Tailwind |
+| **Rate Sheet Agent** | PDF extraction | OCR, LLM parsing, validation |
+| **QA Tester** | Testing | pytest, Docker, E2E tests |
+
+### 🎼 Conductor (`conductor/`)
+The workflow engine. Defines sequences of tasks agents execute.
+- **Tracks**: Long-running processes (e.g., "Rate Sheet Extraction")
+- **Usage**: Access via slash commands or automated triggers
+  - `/ratesheets sync`: Triggers the Rate Sheet Agent track
+  - `/migrate content`: Triggers WordPress → Wagtail migration
+
+---
+
+## 3. Project Organization
+
+```
+unified-cmtg/
+├── GEMINI.md                    # Agent context file
+├── README.md                    # Project overview
+├── PRD.md                       # THIS FILE
+│
+├── knowledge-base/              # Reference documentation
+│   ├── rate_extraction_field_mapping.md
+│   ├── ratesheet_extraction_sop.md
+│   └── archive-v1/              # Old v1 documentation
+│
+├── unified-platform/            # MAIN APPLICATION
+│   ├── .agent/                  # Agent definitions
+│   ├── conductor/               # Workflow orchestration
+│   │   └── tracks/              # Workflow definitions
+│   ├── backend/                 # Django + Wagtail
+│   │   ├── config/              # Settings (base, dev, prod)
+│   │   ├── api/                 # DRF endpoints
+│   │   ├── cms/                 # Wagtail page models
+│   │   ├── pricing/             # Loan matching logic
+│   │   └── ratesheets/          # Agentic ingestion
+│   ├── frontend/                # Next.js 14+
+│   │   ├── app/                 # App Router pages
+│   │   ├── components/          # Design system
+│   │   └── lib/                 # API clients
+│   └── scripts/                 # Utility scripts
+│
+├── FLOIFY-API/                  # Floify integration docs
+└── Ratesheet-samples/           # Sample rate sheets
+```
+
+---
+
+## 4. Implementation Plan
+
+### Phase 1: Foundation & Legacy Verification (Week 1)
+
+**Goal**: Get legacy apps running locally, then initialize the new stack.
+
+| Task | Description | Status |
+|------|-------------|--------|
+| Legacy Run | Start `cmtgdirect` in Docker on dell-brain | ⏳ |
+| Verification | Confirm cmtgdirect API is responding | ⏳ |
+| Repo Setup | Initialize `unified-platform` structure | ✅ |
+| Backend | Dockerize Django + Wagtail | ⏳ |
+| Frontend | Initialize Next.js 14 + Tailwind | ✅ |
+| Connectivity | Verify Next.js can fetch from Django API | ⏳ |
+
+---
+
+### Phase 2: The Core Pricing Engine (Week 2)
+
+**Goal**: Port `cmtgdirect` logic to the new structure.
+
+| Task | Description | Source → Target |
+|------|-------------|-----------------|
+| Models | Port Lender, LoanProgram | `loans/models/` → `pricing/models.py` |
+| Logic | Port QualifyView matching | `api/views.py` → `pricing/services.py` |
+| Enhancement | Implement RateAdjustment model | NEW - FICO × LTV grids |
+| API | Expose `/api/v1/quote` | DRF endpoint |
+
+**Key Files to Port**:
+```
+cmtgdirect/loans/queries.py        → get_matched_loan_programs_for_qual()
+cmtgdirect/loans/models/programs.py → Lender, LoanProgram, BaseLoan
+cmtgdirect/loans/models/program_types.py → ProgramType, LenderProgramOffering
+cmtgdirect/api/views.py            → QualifyView
+```
+
+---
+
+### Phase 3: Content Migration (Week 3)
+
+**Goal**: Move WordPress content into Wagtail.
+
+| Task | Description |
+|------|-------------|
+| Modeling | Create Wagtail `ProgramPage` matching 64 ACF fields |
+| Extraction | Update `agent_tools.py` to dump WP content to JSON |
+| Import | Django management command to ingest JSON → Wagtail |
+| Verification | Ensure URLs match (`/programs/{slug}`) |
+
+**WordPress ACF Structure (64 fields, 6 tabs)**:
+- Location Tab (23 fields) - For local pages
+- Program Info Tab (8 fields) - Core data
+- Financial Terms Tab (7 fields) - Rates, LTV
+- Program Details Tab (7 fields) - Content blocks
+- Property & Loan Tab (8 fields) - Property types
+- Borrower Details Tab (4 fields) - Eligibility
+
+---
+
+### Phase 4: The Rate Sheet Agent (Week 4)
+
+**Goal**: Automate ingestion of Excel/PDF rate sheets.
+
+| Task | Description |
+|------|-------------|
+| Ingestion | Build script to read `Ratesheet List.csv` |
+| Extraction | Connect Gemini 1.5 Pro to parse PDF → JSON |
+| Pipeline | Build `IngestionPipeline` class in Django |
+| Review UI | "Approve Rates" dashboard in Django Admin |
+
+**Pipeline Flow**:
+```
+CSV/Email → Download PDF → OCR → LLM Parse → Staging Table → Human Review → Publish
+```
+
+---
+
+### Phase 5: Floify Integration & Frontend (Week 5)
+
+**Goal**: Connect "Apply Now" button and user dashboard.
+
+| Task | Description |
+|------|-------------|
+| Lead Push | Implement `floify_create_prospect()` |
+| Webhook | Handle `application.created` from Floify |
+| UI | Build Quote Wizard and Rate Table in Next.js |
+
+**Floify Flow**:
+```
+Quote Wizard → Lead Capture → POST /prospects → Floify Email → Application → Webhook → Dashboard
+```
+
+---
+
+## 5. User Journeys
+
+### 5.1 Borrower Journey
 
 ```mermaid
 flowchart LR
     A[Discovery] --> B[Quote Wizard]
-    B --> C[Lead Capture + Prospects API]
-    C --> D[Floify Email Invite]
-    D --> E[Floify Application]
-    E --> F[Webhook -> Django Sync]
-    F --> G[Borrower Dashboard]
+    B --> C[Lead Capture]
+    C --> D[Floify Email]
+    D --> E[Application]
+    E --> F[Dashboard]
 ```
 
 | Step | Action | System |
 |------|--------|--------|
-| 1. Discovery | Finds program via search/AI | Wagtail CMS |
-| 2. Quote Wizard | `QualifyingFormWizard` (existing Django) | Django |
-| 3. Lead Capture | Chatbot/Form captures email, phone | Gemini API |
-| 4. Floify Push | `POST /prospects` creates incomplete app | Floify API |
-| 5. Email Invite | Floify sends link to applicant | Floify |
-| 6. Application | Borrower completes on `custommortgage.floify.com` | Floify |
-| 7. Webhook Sync | `application.created` triggers Django sync | Django |
-| 8. Dashboard | Borrower sees status on unified platform | Django |
+| 1 | Finds program via search/AI | Wagtail CMS |
+| 2 | Quote Wizard (existing logic) | Django |
+| 3 | Chatbot captures email, phone | Gemini API |
+| 4 | `POST /prospects` creates app | Floify API |
+| 5 | Floify sends application link | Floify |
+| 6 | Borrower completes on Floify | Floify |
+| 7 | Webhook triggers Django sync | Django |
+| 8 | Status visible on platform | Django |
 
-> **Clarification**: Borrowers apply on Floify servers (`custommortgage.floify.com`). They receive an email link from Floify to continue their application. Django acts as the "pre-application" and "post-application" context hub.
-
-### 2.2 Agentic Ratesheet Workflow
+### 5.2 Rate Sheet Agent Workflow
 
 ```mermaid
 flowchart TB
-    subgraph Input Sources
-        CSV[Ratesheet CSV] --> Agent[Browser Agent]
-        Email[ratesheets@c-mtg.com] --> Parser[Email Parser]
-    end
+    CSV[Ratesheet CSV] --> Agent[Browser Agent]
+    Email[ratesheets@c-mtg.com] --> Parser[Email Parser]
     Agent --> PDF[Download PDF]
     Parser --> PDF
     PDF --> OCR[OCR/LLM Extract]
     OCR --> JSON[Structured Rates]
     JSON --> Validate[Human Review Queue]
-    Validate --> DB[LenderProgramOffering + RateAdjustment]
+    Validate --> DB[LenderProgramOffering]
 ```
 
-**Two Ingestion Methods**:
-1. **Web Scraping**: Browser agent visits URLs from CSV, downloads PDFs.
-2. **Email Parsing**: Monitor `ratesheets@c-mtg.com` (Zoho alias) for PDF attachments.
+---
 
-| Step | Action | Tool |
-|------|--------|------|
-| 1. Input | Read `Ratesheet List - Ratesheets.csv` | Python |
-| 2. Scrape | Browser agent visits lender URLs | Antigravity |
-| 3. Download | Fetch PDFs (handle auth if needed) | Browser |
-| 4. Extract | OCR + LLM parses rate matrices | Gemini/Claude |
-| 5. Validate | Human reviews before publish | Admin UI |
-| 6. Sync | Update `LenderProgramOffering` model | Django |
+## 6. Data Models
 
-**Existing Data Model** (from `cmtgdirect`):
+### 6.1 Existing Models (Port from cmtgdirect)
+
 ```python
+class Lender(TimestampedModel):
+    company_name = CharField(max_length=500)
+    include_states = ChoiceArrayField(USStateField())
+    company_website = URLField()
+    company_email = EmailField()
+
+class LoanProgram(BaseLoan):
+    lender = ForeignKey(Lender)
+    min_credit = PositiveSmallIntegerField()
+    max_loan_to_value = FloatField()
+    min_dscr = FloatField()
+    property_types = ChoiceArrayField(...)
+    occupancy = ChoiceArrayField(...)
+    purpose = ChoiceArrayField(...)
+
 class LenderProgramOffering(TimestampedModel):
     lender = ForeignKey(Lender)
     program_type = ForeignKey(ProgramType)
-    min_rate = FloatField()         # <-- Target field
-    max_rate = FloatField()         # <-- Target field
-    min_points = FloatField()       # <-- Target field
-    max_points = FloatField()       # <-- Target field
-    rate_sheet_url = URLField()     # <-- Source URL
-    last_rate_update = DateTimeField()  # <-- Track freshness
+    min_rate = FloatField()
+    max_rate = FloatField()
+    min_fico = PositiveSmallIntegerField()
+    max_ltv = FloatField()
+    rate_sheet_url = URLField()
 ```
 
----
+### 6.2 New Models (To Implement)
 
-## 3. Quote Engine Deep Dive
-
-### 3.1 Existing Logic (Reuse)
-
-The `cmtgdirect` project already has:
-- **`QualifyingFormWizard`**: Multi-step form (purpose, purchase/refi, address, loan_info)
-- **`QualifyView`** (`POST /api/v1/qualify/`): Matches programs based on:
-  - State availability
-  - Loan amount range (min/max)
-  - Credit score minimum
-  - LTV within limits
-  - Property type match
-  - Loan purpose match
-  - Occupancy match
-
-### 3.2 Rate Adjustments (To Implement)
-
-Most lender rate sheets include "LLPA" (Loan Level Price Adjustments). We need:
-
-| Adjustment | Fields |
-|------------|--------|
-| Credit Score | Higher score = lower rate |
-| LTV | Higher LTV = higher rate |
-| Property Type | Condos/MF = higher rate |
-| Loan Purpose | Cash-out = higher rate |
-| Lock Period | Longer lock = higher rate |
-
-**Proposed Model**:
 ```python
 class RateAdjustment(TimestampedModel):
+    """LLPA adjustments from rate sheets."""
     offering = ForeignKey(LenderProgramOffering)
-    adjustment_type = CharField()  # 'fico', 'ltv', 'property', etc.
-    min_value = FloatField()       # e.g., 700
-    max_value = FloatField()       # e.g., 719
-    adjustment_bps = IntegerField() # e.g., +25 (basis points)
+    adjustment_type = CharField(choices=[
+        ('fico_ltv', 'Credit Score / LTV'),
+        ('purpose', 'Loan Purpose'),
+        ('occupancy', 'Occupancy Type'),
+        ('property_type', 'Property Type'),
+    ])
+    row_min = FloatField()  # e.g., FICO 720
+    row_max = FloatField()  # e.g., FICO 739
+    col_min = FloatField()  # e.g., LTV 70.01
+    col_max = FloatField()  # e.g., LTV 75.00
+    adjustment_points = FloatField()  # e.g., -0.625
 ```
-
-### 3.3 UI Strategy
-
-| Option | Pros | Cons |
-|--------|------|------|
-| Skin Django Wizards | Reuses logic, fast | Less "premium" feel |
-| Headless API + React | Premium UI | Logic duplication risk |
-| **Hybrid** (Recommended) | Best of both | Moderate complexity |
-
-**Hybrid Approach**:
-1. Use Django forms for validation and business logic.
-2. Create API endpoints that return form schema as JSON.
-3. Build React components that consume the schema.
-4. Submit back to Django for processing.
-
----
-
-## 4. Floify Integration Workflow
-
-### 4.1 Lead Capture → Prospects API
-
-```python
-# When chatbot/form captures lead:
-floify_client.create_prospect({
-    "firstName": "John",
-    "lastName": "Doe",
-    "email": "john@example.com",
-    "mobilePhoneNumber": "555-1234",
-    "loanAmount": 500000
-})
-# Returns: prospect_id, Floify sends email to borrower
-```
-
-### 4.2 Webhook → Django Sync
-
-```python
-# api/views.py - floify_webhook
-@api_view(['POST'])
-def floify_webhook(request):
-    event = request.data.get('event')
-    
-    if event == 'application.created':
-        # Pull full 1003 JSON
-        app_data = floify_client.get_1003_json(loan_id)
-        # Create/update local Application model
-        Application.objects.update_or_create(
-            floify_id=loan_id,
-            defaults=app_data
-        )
-    
-    if event == 'application.submitted':
-        # Notify LO, update dashboard
-        pass
-```
-
-### 4.3 Borrower Dashboard
-
-After webhook sync, the borrower can see on the unified platform:
-- Application status (from Floify)
-- Documents requested
-- Conditions outstanding, etc.
-
----
-
-## 5. Site Structure
-
-```
-cmre.c-mtg.com/
-├── /                           # Homepage
-├── /programs/                  # Program directory
-│   └── /programs/{slug}/       # Program detail
-├── /quote/                     # Quote Wizard (Django forms)
-├── /funded-loans/              # Funded loans showcase
-├── /blog/                      # Daily AI-generated news
-├── /apply/                     # → Redirect to Floify
-├── /dashboard/                 # Borrower dashboard (post-apply)
-└── /api/                       # REST API
-```
-
----
-
-## 6. Task Breakdown (Revised)
-
-### Phase 1: Setup (Week 1)
-- [ ] Create `cmre/` project, install Wagtail
-- [ ] Configure Docker Compose
-- [ ] Set up CI/CD
-
-### Phase 2: Content Migration (Week 2)
-- [ ] WP content extractor (programs, blogs, locations)
-- [ ] Import to Wagtail with 1:1 URL slugs
-- [ ] Migrate Media Library (user-uploaded only)
-
-### Phase 3: Quote Engine (Week 3)
-- [ ] Port `QualifyingFormWizard` to unified app
-- [ ] Skin forms with Tailwind
-- [ ] Create `RateAdjustment` model
-- [ ] Build headless API endpoints
-
-### Phase 4: Floify Integration (Week 4)
-- [ ] Implement `POST /prospects` lead push
-- [ ] Build `floify_webhook` handler
-- [ ] Sync 1003 JSON to local `Application` model
-- [ ] Create Borrower Dashboard views
-
-### Phase 5: Ratesheet Agent (Week 5)
-- [ ] Build CSV reader for lender list
-- [ ] Browser agent to download PDFs
-- [ ] OCR/LLM extraction pipeline
-- [ ] Human review queue UI
-- [ ] Sync to `LenderProgramOffering`
-
-### Phase 6: Chatbot & Polish (Week 6)
-- [ ] Integrate Gemini chatbot widget
-- [ ] Connect chatbot to lead capture
-- [ ] Final UI polish
-- [ ] Deploy to `cmre.c-mtg.com`
 
 ---
 
@@ -257,16 +286,33 @@ cmre.c-mtg.com/
 
 | Metric | Target |
 |--------|--------|
-| URL Parity | 100% |
-| Rate Sheet Freshness | Daily update |
+| URL Parity | 100% match with WordPress |
+| Rate Sheet Freshness | Daily updates |
 | Quote Accuracy | ±0.25% of lender sheet |
 | Lead Capture Rate | +30% vs current |
-| Application Started → Funded | Track conversion |
+| Page Load Time | < 2 seconds |
 
 ---
 
-## 8. Approval
+## 8. Red Team Analysis
 
-- [ ] User approves this PRD
-- [ ] Generate implementation tickets
-- [ ] Begin Phase 1
+### ✅ Resolved Issues
+
+| Issue | Resolution |
+|-------|------------|
+| "Why Wagtail?" | cmtgdirect has no CMS. Wagtail is headless-native. |
+| Rate sheet complexity | Using staging table with human review |
+| Missing code confusion | Legacy code clearly documented in `legacy/` |
+| Local verification | Added Phase 1 legacy verification step |
+
+---
+
+## 9. Approval
+
+- [x] User approves headless architecture
+- [x] User approves v2 PRD
+- [ ] Begin Phase 1 implementation
+
+---
+
+*Version 2.0 - Last Updated: 2026-01-11*
