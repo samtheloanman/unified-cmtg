@@ -1,0 +1,93 @@
+# Unified Platform Implementation Plan
+
+## Goal
+Build a new, decoupled application to replace `custompricing` and `custommortgage` (WordPress).
+**Structure**:
+- **Backend**: Django 5 + Wagtail 6 (Headless CMS & Pricing Engine)
+- **Frontend**: Next.js / React (Decoupled, consuming APIs)
+- **Orchestration**: Agentic workflows for rate sheets (Conductor)
+- **Backup**: WordPress (Legacy content source)
+
+---
+
+## 1. Architecture Comparison
+
+| Feature | Old Approach (`custompricing`) | New Approach (Unified Platform) |
+|---------|------------------------------|---------------------------------|
+| **Architecture** | Monolithic Django (Templates) | **Decoupled**: Backend API + Frontend App |
+| **Content** | Hardcoded or basic Django models | **Wagtail Headless CMS** (Replicating WP ACF) |
+| **Pricing Engine** | Manual data entry / Basic Models | **Agentic Pipeline**: PDF Agent -> Staging -> Live Models |
+| **Rate Logic** | Simple Min/Max rates | **Granular LLPAs**: FICO/LTV grids, Adjustments (JSON) |
+| **Frontend** | Django Templates + Vanilla JS | **Next.js / React** (Modern, fast, interactive) |
+
+---
+
+## 2. Project Structure
+The new project will be initialized in a fresh directory (e.g., `unified-platform`).
+
+```
+unified-platform/
+├── backend/                # Django + Wagtail
+│   ├── core/               # Settings, Configuration
+│   ├── api/                # DRF + Wagtail API V2
+│   ├── cms/                # Wagtail Page Models (Content)
+│   ├── pricing/            # Pricing Engine Models (LoanProgram, Lender)
+│   └── ratesheets/         # Rate Sheet Agent (Ingestion, Parsing)
+├── frontend/               # Next.js Application
+│   ├── components/         # UI Library (Tailwind)
+│   ├── app/                # Next.js 14+ Router
+│   └── lib/                # API Clients
+└── conductor/              # Agent Orchestration Configs
+```
+
+---
+
+## 3. Implementation Phases
+
+### Phase 1: The "Skeleton" (Days 1-2)
+- [ ] Initialize `unified-platform` git repo
+- [ ] Setup **Django Backend** (Dockerized) with Wagtail installed
+- [ ] Setup **Next.js Frontend** (v14, TypeScript, Tailwind)
+- [ ] Configure `conductor` for agent orchestration
+
+### Phase 2: The Pricing Engine (Backend) (Days 3-5)
+- [ ] Implement [Lender](file:///Users/maysamtehranchi/Code/Custom-MTG-Projects/WPCustommortgageinc/custompricing/loans/models/programs.py#254-269), [Program](file:///Users/maysamtehranchi/Code/Custom-MTG-Projects/WPCustommortgageinc/custompricing/loans/models/ratesheets.py#186-329), [LenderProgramOffering](file:///Users/maysamtehranchi/Code/Custom-MTG-Projects/WPCustommortgageinc/custompricing/loans/models/program_types.py#118-194) models
+- [ ] Implement **New Rate Logic**: `BaseRateMatrix` & [RateAdjustment](file:///Users/maysamtehranchi/Code/Custom-MTG-Projects/WPCustommortgageinc/custompricing/loans/models/ratesheets.py#331-414) (from logic feedback)
+- [ ] Build **Agentic Par Rate Search** (Workflow 3): Optimization logic to find price ≈ 100.00
+- [ ] Build Calculation API (`POST /api/quote`)
+
+### Phase 3: The Rate Sheet Agent (Days 6-8)
+- [ ] **Workflow 1**: Multi-Lender Ingestion (Monitor folders/email)
+- [ ] **Workflow 2**: Dynamic LLPA Engine (FICO/LTV/Property grids)
+- [ ] **Workflow 4**: Eligibility Guardrails (Hard stops for FICO, State, etc.)
+- [ ] Implement Staging Models ([RateSheet](file:///Users/maysamtehranchi/Code/Custom-MTG-Projects/WPCustommortgageinc/custompricing/loans/models/ratesheets.py#120-184), [RateProgram](file:///Users/maysamtehranchi/Code/Custom-MTG-Projects/WPCustommortgageinc/custompricing/loans/models/ratesheets.py#186-329))
+- [ ] Build "Diff View" API for validation
+
+### Phase 4: Content Migration (Wagtail) (Days 9-12)
+- [ ] Define Wagtail Page Models based on **[PROGRAMS_ACF_FIELD_LIST.md](file:///Users/maysamtehranchi/Code/Custom-MTG-Projects/WPCustommortgageinc/custommortgage/PROGRAMS_ACF_FIELD_LIST.md)** (64 fields)
+    - [ ] `Location Tab` (23 fields, conditional)
+    - [ ] `Program Info Tab` (8 fields)
+    - [ ] `Financial Terms` (7 fields)
+- [ ] Implement Conditional Logic (e.g., `is_local_variation`)
+- [ ] Build Migration Script: WP API -> Wagtail Content
+- [ ] Expose Content via GraphQL or REST API
+
+### Phase 5: The Frontend (Days 13-20)
+- [ ] Build Quote Wizard (Interactive Form)
+- [ ] Build Program Pages (SSG via Wagtail API)
+- [ ] Build Dashboard
+
+---
+
+## 4. Rate Calculation Feedback (Incorporated)
+Using the feedback from [rate_extraction_field_mapping.md](file:///Volumes/johnnytehranchi/Code-mp13/unified-cmtg/rate_extraction_field_mapping.md):
+1.  **Staging vs Live**: Raw data goes to [RateSheet](file:///Users/maysamtehranchi/Code/Custom-MTG-Projects/WPCustommortgageinc/custompricing/loans/models/ratesheets.py#120-184)/[RateProgram](file:///Users/maysamtehranchi/Code/Custom-MTG-Projects/WPCustommortgageinc/custompricing/loans/models/ratesheets.py#186-329) (Staging).
+2.  **Granularity**: We extract `BaseRateMatrix` (JSON) and [RateAdjustment](file:///Users/maysamtehranchi/Code/Custom-MTG-Projects/WPCustommortgageinc/custompricing/loans/models/ratesheets.py#331-414) (LLPAs).
+3.  **Calculation**: `Quote = Base Rate + Sum(Adjustments)`.
+4.  **Priority**: Focus on FICO x LTV grids first.
+
+---
+
+## Next Steps
+1.  **Approval**: Confirm this plan matches your vision.
+2.  **Execution**: Start Phase 1 (Directory creation & Skeleton setup).
