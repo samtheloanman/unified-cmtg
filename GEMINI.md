@@ -13,6 +13,37 @@ Build a **headless, AI-native mortgage platform** at `cmre.c-mtg.com` that unifi
 
 ---
 
+## ⚠️ CRITICAL: Development Workflow
+
+> [!CAUTION]
+> **All development happens on dell-brain server, NOT on Mac Pro 2013 or local machines.**
+
+### Primary Development Server
+- **Host**: `dell-brain` (Dell Precision 7720 running Ubuntu)
+- **Access**: `ssh dell-brain` via Tailscale
+- **Code Path**: `~/code/unified-cmtg/`
+
+### Workflow
+1. **Code changes**: Make on dell-brain via SSH
+2. **Testing**: Run Docker containers on dell-brain
+3. **Commits**: Push from dell-brain to GitHub
+4. **Other machines**: Pull from GitHub (read-only sync)
+
+### Why This Matters
+- Dell-brain has GPU for ML workloads
+- Dell-brain runs 24/7 for agent tasks
+- Centralized code prevents sync conflicts
+- All Docker containers run on dell-brain
+
+### Machine Roles
+| Machine | Role | Code Access |
+|---------|------|-------------|
+| **Dell-Brain** | Primary dev server | Read/Write |
+| Mac Pro 2013 | Backup/reference | Pull only |
+| MacBook Pro | Remote access | SSH to dell-brain |
+
+---
+
 ## 🏗️ Architecture Overview
 
 ```
