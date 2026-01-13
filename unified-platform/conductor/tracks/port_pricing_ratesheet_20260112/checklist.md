@@ -34,10 +34,20 @@
 - [x] Claude - Generate `RateSheet` and `RateAdjustment` models ✅
 - [x] Ralph - Unit tests for models ✅
 - [x] Jules - Configure Celery + Redis ✅
-- [x] Claude - PDF download/parsing service (PdfPlumber Base / Google Gemini SDK) ✅
-- [ ] Claude - Data extraction to models (Pending Gemini Logic)
-- [ ] Claude - Integrate with LoanProgram
-- [ ] Ralph - Integration tests (Gemini Verification Pending)
+- [x] Claude - PDF parsing service (PdfPlumber + Gemini AI) ✅
+- [x] Claude - Ingestion service (JSON → DB) ✅
+- [x] Antigravity - QuoteView real data integration ✅
+- [ ] Ralph - Integration tests
+
+---
+
+## Phase 3.5: Browser-Testable State (IN PROGRESS)
+
+- [ ] Jules - Fix `/api/v1/quote/` URL routing
+- [ ] Jules - Frontend build verification (`npm run build`)
+- [ ] Jules - Seed data for demo (Lender, Program, Adjustments)
+- [ ] Jules - Full stack verification (backend + frontend)
+- [ ] Conductor - Browser test review
 
 ---
 
@@ -54,7 +64,13 @@
 
 | Agent | Current Task |
 |:---|:---|
-| Jules | RateSheet models (Phase 3) |
-| Claude | PDF Parsing (Phase 3) |
-| Ralph | Integration Tests (Phase 3) |
+| Jules | **Phase 3.5**: Fix URL routing, seed data, browser test |
+| Claude | Standby (Phase 3 complete) |
+| Ralph | Integration Tests (after Jules fixes) |
 | Antigravity | Orchestration |
+
+---
+
+## Jules Prompt
+
+See `conductor/jules_sprint_prompt.md` for detailed instructions.
