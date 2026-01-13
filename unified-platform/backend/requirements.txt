@@ -19,3 +19,13 @@ gunicorn>=21.2
 
 # Utilities
 django-environ>=0.11
+
+# PDF Processing
+pdfplumber>=0.11.0
+
+# Google AI
+google-generativeai>=0.3.2
+
+# US Address Fields
+django-localflavor>=4.0
+django-phonenumber-field[phonenumbers]>=7.0

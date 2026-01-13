@@ -163,3 +163,9 @@ else:
     CELERY_RESULT_BACKEND = "redis://redis:6379/0"
 
 CELERY_TIMEZONE = TIME_ZONE
+
+# Google Gemini Configuration
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
+if not GOOGLE_API_KEY:
+    import logging
+    logging.getLogger(__name__).warning("GOOGLE_API_KEY not found in environment. Gemini features will be disabled.")

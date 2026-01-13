@@ -30,14 +30,14 @@
 
 ## Phase 3: Rate Sheet Ingestion MVP
 
-- [x] Jules - Create `ratesheets/` app with csv_reader.py, downloader.py
-- [ ] Claude - Generate `RateSheet` and `RateAdjustment` models
-- [ ] Ralph - Unit tests for models
-- [ ] Jules - Configure Celery + Redis
-- [ ] Claude - PDF download/parsing service
-- [ ] Claude - Data extraction to models
+- [x] Jules - Create `ratesheets` app infrastructure ✅
+- [x] Claude - Generate `RateSheet` and `RateAdjustment` models ✅
+- [x] Ralph - Unit tests for models ✅
+- [x] Jules - Configure Celery + Redis ✅
+- [x] Claude - PDF download/parsing service (PdfPlumber Base / Google Gemini SDK) ✅
+- [ ] Claude - Data extraction to models (Pending Gemini Logic)
 - [ ] Claude - Integrate with LoanProgram
-- [ ] Ralph - Integration tests
+- [ ] Ralph - Integration tests (Gemini Verification Pending)
 
 ---
 

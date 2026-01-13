@@ -4,6 +4,12 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+
+class RateSheetProcessingError(Exception):
+    """Exception raised when rate sheet processing fails."""
+    pass
+
+
 class BaseRateSheetProcessor(ABC):
     """
     Abstract base class for rate sheet processors.

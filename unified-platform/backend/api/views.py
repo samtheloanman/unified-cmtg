@@ -98,32 +98,19 @@ class QuoteView(APIView):
             'estimated_credit_score': int(data['credit_score'])
         }
 
-        # Get matching loan programs
+        # Get matching loan programs with real pricing adjustments
         try:
-            matches = LoanMatchingService.get_best_rates(
+            quotes = LoanMatchingService.get_quotes_with_adjustments(
                 qualification_data,
                 limit=10
             )
 
-            # Format results
-            results = []
-            for match in matches:
-                results.append({
-                    'lender': match.lender.company_name,
-                    'program': match.program_type.name,
-                    'rate_range': match.rate_range,
-                    'points_range': match.points_range,
-                    'min_loan': float(match.min_loan),
-                    'max_loan': float(match.max_loan),
-                    'lender_fee': float(match.lender_fee),
-                })
-
             return Response({
-                'quotes': results,
+                'quotes': quotes,
                 'ltv': round(ltv, 2),
                 'loan_amount': loan_amount,
                 'property_value': property_value,
-                'matches_found': len(results)
+                'matches_found': len(quotes)
             })
 
         except Exception as e:
