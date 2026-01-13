@@ -10,12 +10,10 @@ from django.utils.decorators import method_decorator
 
 from pricing.services.matching import LoanMatchingService
 
-
 @api_view(['GET'])
 def health_check(request):
     """Health check endpoint."""
     return Response({'status': 'healthy'})
-
 
 @method_decorator(csrf_exempt, name='dispatch')
 class QuoteView(APIView):
@@ -23,34 +21,7 @@ class QuoteView(APIView):
     Loan quote API endpoint.
 
     POST /api/v1/quote/
-    Body: {
-        "property_state": "CA",
-        "loan_amount": 500000,
-        "credit_score": 720,
-        "property_value": 650000,
-        "property_type": "residential" (optional),
-        "entity_type": "individual" (optional),
-        "loan_purpose": "purchase" (optional),
-        "occupancy": "owner occupied" (optional)
-    }
-
-    Returns: {
-        "quotes": [
-            {
-                "lender": "Lender Name",
-                "program": "Program Type Name",
-                "rate_range": "6.500% - 7.250%",
-                "points_range": "0.00 - 2.00",
-                "min_loan": 75000.00,
-                "max_loan": 2000000.00
-            }
-        ],
-        "ltv": 76.92,
-        "loan_amount": 500000,
-        "property_value": 650000
-    }
     """
-
     authentication_classes = []
     permission_classes = [AllowAny]
 

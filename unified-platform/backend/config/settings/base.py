@@ -12,9 +12,15 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 import os
 from pathlib import Path
+import environ
+
+env = environ.Env()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+# Take environment variables from .env file
+environ.Env.read_env(BASE_DIR / '.env')
 
 
 # Quick-start development settings - unsuitable for production
@@ -153,26 +159,15 @@ USE_TZ = True
 STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
-# Default primary key field type
-# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
-
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Celery Configuration
-# ------------------------------------------------------------------------------
-if os.environ.get("CELERY_BROKER_URL"):
-    CELERY_BROKER_URL = os.environ.get("CELERY_BROKER_URL")
-else:
-    CELERY_BROKER_URL = "redis://redis:6379/0"
-
-if os.environ.get("CELERY_RESULT_BACKEND"):
-    CELERY_RESULT_BACKEND = os.environ.get("CELERY_RESULT_BACKEND") 
-else:
-    CELERY_RESULT_BACKEND = "redis://redis:6379/0"
-
-CELERY_TIMEZONE = TIME_ZONE
+CELERY_BROKER_URL = env("CELERY_BROKER_URL", default="redis://redis:6379/0")
+CELERY_RESULT_BACKEND = env("CELERY_RESULT_BACKEND", default="redis://redis:6379/0")
+CELERY_TIMEZONE = "UTC"
 
 # Google Gemini Configuration
-GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
+GOOGLE_API_KEY = env("GOOGLE_API_KEY", default="")
 if not GOOGLE_API_KEY:
     import logging
     logging.getLogger(__name__).warning("GOOGLE_API_KEY not found in environment. Gemini features will be disabled.")

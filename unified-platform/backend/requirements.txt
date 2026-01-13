@@ -16,7 +16,6 @@ redis>=5.0
 
 # Server
 gunicorn>=21.2
-
 # Utilities
 django-environ>=0.11
 
