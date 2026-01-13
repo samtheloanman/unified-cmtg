@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     "modelcluster",
     "taggit",
     # Local
+    "common",
     "api",
     "pricing",
     "cms",
