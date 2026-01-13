@@ -61,10 +61,11 @@ The cmtgdirect Django application contains the proven loan matching algorithm th
    - Verify LenderProgramOffering records exist in the database
 
 #### Success Criteria
-- [ ] Docker containers start without errors
-- [ ] `/api/v1/health` returns 200
-- [ ] QualifyView returns matching programs
-- [ ] Database has LenderProgramOffering data
+- [x] Docker containers start without errors
+- [x] `/api/v1/health` returns 200
+- [x] QualifyView returns matching programs
+- [x] Database has LenderProgramOffering data
+- [x] Superuser created (admin/admin)
 
 ---
 
@@ -131,11 +132,12 @@ We need to create a fresh Django + Wagtail project that will eventually replace 
    ```
 
 #### Success Criteria
-- [ ] Django project structure created
-- [ ] Split settings configured (base, dev, prod)
-- [ ] Wagtail installed and configured
-- [ ] Docker container builds and runs
-- [ ] `/admin/` returns Wagtail login page
+- [x] Django project structure created
+- [x] Split settings configured (base, dev, prod)
+- [x] Wagtail installed and configured
+- [x] Docker container builds and runs
+- [x] `/admin/` returns Wagtail login page
+- [x] Superuser created (admin/admin)
 
 ---
 
@@ -186,9 +188,9 @@ The frontend is already scaffolded with Next.js 14. We need to configure it to f
    - `components/QuoteWizard.tsx`
 
 #### Success Criteria
-- [ ] `npm run dev` starts without errors
-- [ ] API client configured for Django backend
-- [ ] Tailwind configured with custom theme
+- [x] `npm run dev` starts without errors
+- [x] API client configured for Django backend
+- [x] Tailwind configured with custom theme
 - [ ] Placeholder components created
 
 ---
@@ -236,10 +238,10 @@ Before proceeding, we must confirm the Next.js frontend can successfully communi
 
 | Task | Status | Blocker | Notes |
 |------|--------|---------|-------|
-| 1.1 Legacy Verification | ⏳ | - | - |
-| 1.2 Backend Init | ⏳ | - | - |
+| 1.1 Legacy Verification | ✅ | - | Verified, superuser working (admin/admin) |
+| 1.2 Backend Init | ✅ | - | Wagtail running, superuser created |
 | 1.3 Frontend Init | ✅ | - | Already scaffolded |
-| 1.4 Connectivity | ⏳ | Needs 1.2 | - |
+| 1.4 Connectivity | ⏳ | - | Ready to verify |
 
 ---
 

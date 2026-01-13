@@ -46,3 +46,29 @@ This tier is used for strategic, design, or documentation phases where automated
     *   A link to the relevant commit(s).
     *   A notification that the track is proceeding to the next phase.
 *   **Escalation Alerts:** You will only be actively looped in for manual verification (Tier 2) or when an automated verification (Tier 1) fails and requires your intervention.
+
+## 4. Workflow Examples
+
+### Example 1: New Feature Development with TDD
+
+This example illustrates the standard TDD workflow for adding a new feature.
+
+1.  **L1 Orchestrator:** Receives the task to "add a new endpoint for user preferences".
+2.  **L1 Orchestrator:** Delegates the task to **The Closer (Ralph)** to "write an integration test for the user preferences endpoint".
+3.  **The Closer (Ralph):** Writes a failing test for the new endpoint and commits it.
+4.  **L1 Orchestrator:** Delegates the task to **The Generator (Claude)** to "implement the user preferences endpoint".
+5.  **The Generator (Claude):** Writes the code for the new endpoint, ensuring it passes the test written by Ralph.
+6.  **L1 Orchestrator:** Delegates the task back to **The Closer (Ralph)** to "run the integration tests for the user preferences endpoint".
+7.  **The Closer (Ralph):** Runs the tests. If they pass, the task is complete. If they fail, Ralph enters a "test-and-fix" loop.
+
+### Example 2: Multi-Step Workflow with Zapier MCP
+
+This example demonstrates how to use the Zapier MCP server to create a powerful, automated workflow that connects local data processing with external services.
+
+1.  **L1 Orchestrator:** Receives the task to "process new loan applications from `new_applications.csv` and create corresponding entries in Zoho and LendingPad".
+2.  **L1 Orchestrator:** Delegates the task to a **specialized agent** to "read and parse the `new_applications.csv` file".
+3.  **Specialized Agent:** Reads the CSV file and extracts the new application data.
+4.  **L1 Orchestrator:** For each application, delegates the task to the **Zapier MCP server** to:
+    *   "Create a new lead in Zoho CRM with the application data." (`zapier_zoho_create_lead`)
+    *   "Create a new contact in LendingPad with the application data." (`zapier_lendingpad_create_contact`)
+5.  **L1 Orchestrator:** Verifies that the tasks were completed successfully and reports the results to the user.

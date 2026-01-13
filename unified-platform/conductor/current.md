@@ -9,9 +9,10 @@
 
 | # | Task | Test | Status |
 |---|------|------|--------|
-| 1 | Verify legacy cmtgdirect on 8000 | `curl localhost:8000/admin/` → 200 | ⏳ |
+| 1 | Verify legacy cmtgdirect on 8000 | `curl localhost:8000/admin/` → 200 | ✅ |
 | 2 | Frontend connectivity test | Visit `localhost:3001/test` → "API ok" | ⏳ |
-| 3 | Create Wagtail superuser | Login to `localhost:8001/admin/` | ⏳ |
+| 3 | Create Wagtail superuser | Login to `localhost:8001/admin/` | ✅ |
+| 4 | Create legacy superuser | Login to `localhost:8000/admin/` | ✅ |
 
 ---
 
@@ -43,8 +44,9 @@
 - [x] Django project initialized
 - [x] Wagtail configured in INSTALLED_APPS
 - [x] Health API endpoint
-- [ ] Migrations applied
-- [x] Superuser created
+- [x] Migrations applied
+- [x] Superuser created (Wagtail: admin/admin)
+- [x] Legacy superuser created (cmtgdirect: admin/admin)
 - [ ] Frontend API test page
 
 ---
@@ -63,4 +65,5 @@
 
 ---
 
-**Next Action**: Run `docker compose exec backend python manage.py createsuperuser`
+**Next Action**: Verify frontend connectivity - visit `http://localhost:3001/test`
+

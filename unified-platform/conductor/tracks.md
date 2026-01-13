@@ -9,7 +9,7 @@
 
 | Track | Phase | Week | Status | Description |
 |-------|-------|------|--------|-------------|
-| [Port Legacy Pricing Engine & Implement Rate Sheet Ingestion MVP](./tracks/port_pricing_ratesheet_20260112/) | 1 | 1 | 🟡 In Progress | Core pricing logic & AI agent MVP |
+| [Port Legacy Pricing Engine & Implement Rate Sheet Ingestion MVP](./tracks/port_pricing_ratesheet_20260112/) | 1 | 1 | [~] In Progress | Core pricing logic & AI agent MVP |
 | [Foundation](./tracks/phase1_foundation/) | 1 | 1 | 🟡 In Progress | Docker + Django + Wagtail |
 | [Pricing Engine](./tracks/phase2_pricing/) | 2 | 2 | ⏳ Pending | Port cmtgdirect logic |
 | [Content Migration](./tracks/phase3_content/) | 3 | 3 | ⏳ Pending | WordPress → Wagtail |

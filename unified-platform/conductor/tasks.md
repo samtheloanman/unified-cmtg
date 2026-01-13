@@ -19,14 +19,16 @@
   - Test: `curl http://localhost:8001/api/v1/health/` returns `{"status":"ok"}`
 
 ### 🔄 In Progress
-- [ ] **Legacy cmtgdirect**: Verify running on port 8000
+- [x] **Legacy cmtgdirect**: Verify running on port 8000
   - Test: `curl http://localhost:8000/admin/` returns 200
+  - Superuser: admin/admin ✅
 - [ ] **Frontend Connectivity**: Next.js fetches from Django
   - Test: Visit `http://localhost:3001/test` shows "API Status: ok"
 
 ### ⏳ Not Started
 - [x] **Superuser**: Create Wagtail admin user
   - Test: Login to `http://localhost:8001/admin/` succeeds
+  - Superuser: admin/admin ✅
 
 ---
 

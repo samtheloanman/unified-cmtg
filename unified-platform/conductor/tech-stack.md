@@ -26,7 +26,11 @@
 *   **Frontend (Next.js):** Vercel
 *   **Backend (Django, Celery, Redis, PostgreSQL):** Major Cloud Provider (e.g., AWS, Google Cloud, Azure)
 
-## 5. Rationale
+## 5. Integrations
+
+*   **Zapier MCP Server:** Provides a bridge to thousands of external applications via Zapier, including Zoho, Floify, and LendingPad.
+
+## 6. Rationale
 
 This stack is chosen for its modernity, scalability, and ability to support the "AI-native" vision of the platform.
 
