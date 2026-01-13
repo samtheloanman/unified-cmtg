@@ -1,0 +1,278 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.mail.yahoo.com designates 66.163.191.147 as permitted sender) client-ip=66.163.191.147; envelope-from=antje7777@yahoo.com; helo=sonic304-21.consmr.mail.ne1.yahoo.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.mail.yahoo.com designates 66.163.191.147 as permitted sender)  smtp.mailfrom=antje7777@yahoo.com;
+	dmarc=pass(p=reject dis=none)  header.from=yahoo.com
+Return-Path: <antje7777@yahoo.com>
+Received: from sonic304-21.consmr.mail.ne1.yahoo.com (sonic304-21.consmr.mail.ne1.yahoo.com [66.163.191.147]) by mx.zohomail.com
+	with SMTPS id 1530896128337429.99021017650364; Fri, 6 Jul 2018 09:55:28 -0700 (PDT)
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic304.consmr.mail.ne1.yahoo.com with HTTP; Fri, 6 Jul 2018 16:55:27 +0000
+Received: from 72.173.20.231 (EHLO [10.0.1.5]) ([72.173.20.231])
+          by smtp409.mail.ne1.yahoo.com (Oath Hermes SMTP Server) with ESMTPA ID 048ffd00117c248fb0a548e0d3310def
+          for <sam@c-mtg.com>;
+          Fri, 06 Jul 2018 16:55:25 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1530896127; bh=+lnRY6NPopfFWGLw/o4T+CorcX5ZZyWNcW/xFAjBUhY=; h=From:Date:Subject:References:In-Reply-To:To:From:Subject; b=bn/z8ydRidNSEWTKrtunhxIHb50byU2U5b2dLjmY3whhPy1cFrMWLXxcJLtO8kv542ZsUZfsS9h2k6Qi/rBMj/DGLcFexDtjWZUdDKdFVVyPfaBVTqtFcZsMHR5DO7+lB85vHB0eDxiYS3+pjIlxvArBzJcIoOakian8Aiy3HysAtAeeLbx8eUcMaI3yU3XSh1aE+FgCN8HsFlSIXBJba5SSCaJtAGCgTHb3Coye254Y4GSkW6uvAiqAB5cqcXlkkrx8iEqSE7j+cBTipD0AwdGNCAAmbemawdIobXaUipm7snxDtfgf2RlKKNvg0NeEHZekvNns6muesqVkrr59Lw==
+X-YMail-OSG: pnukSMEVM1lTiOfJ5HdZ3aSPDKGA2jXVNSKrG1QSaz.lWnzpfRSl7CZEtBKQpSM
+ snesUUFaaqP90twKjisJJYeos8hR3nT3Vw7ANiIyhHIILhGI.Uz1K5FJSTg4XzEMJtbimFkxqYQA
+ km736Hc87LUuSzkTYl0f.X3.DtTMoX14CJL5Rj47BEAcfaTW_SOIgLs7__O9Aws1TbtnGQmeah04
+ sox4HWvuOELxLkLTBVEP9fiaAlnKDEgBRAT1XJDEUClMbbVLP6UGoI0qO7SJwHnYJ8hyOb34N7cZ
+ woi6CXcZUtv8GKTrX0qEUGE2RwN35ka0HF6CFgkoOdWNxFArrvf2VaqPTi0WsHiaUxToNhRB8O_D
+ q4BEWhjF1l7pCugchm.cVjvMPdLfMO6iDvLIIaBHHPOsrLzlLVNcJU4m1AkXzvnansRUX53EKxMN
+ 5_wLEm5TeX6Bx3RmObKXPeJbAvZd7gcsEE5pxID8.GcfFoBqZw8j8D0.m6hJkgV6q8qzbBMWYOj0
+ n6OOyv6_KQcVEw78BSNIZ9U29hdoSZA7KWcafgSl9qsZmY8xm1D0lFI82IJazFCuRJUcXcz_WanA
+ KRxuMokb2w2Zr0fHkIqJFiZUPY1uwc0vcYeAoS87ksVFIAtZcsEFiqIWJSl4ilMAXLPB_FH0nETB
+ b21VzUDjVAe21c_k2kmE0ehIaRA2XHTvEJx8ki6S67_8iDOsAsGol7NH73PRKuXbPA9V0Z.AT7QX
+ IR8czPot3EWcSSqELdeQ5obic0UQNtEmwZHm0gG8EC0DnLZ7ikzwexuQRR9Hd0ymt6I1bY08VilO
+ FGGtHZoKu5R7tKzIAxD8D8F65Ck49pcgOPBp2Do9Y6LAcV.CWlVbrtqI7a1rD.xcxN7rcE_zXZH1
+ trcr7bajqKliD1_3tAp5xNu51k53uqQLbPTeTsefK48I0zG_B3zJ94Bv3vs6O8jdNMvwCPXUAWBh
+ mrebaWtdQG_AMIRTBoASDF7Neu60OE.OWn7bHKcIuZxmfEru_JA--
+From: AS <antje7777@yahoo.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-C53184C1-3A9E-4531-B6E1-FD436E03E4F7
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0
+Date: Fri, 6 Jul 2018 09:55:16 -0700
+Subject: Re: Custom Mortgage Information
+Message-ID:<490917E0-D368-427F-A478-CE2DD0FC1337@yahoo.com>
+References: <164706da9b7.1058805cd165772.998827227448598680@c-mtg.com>
+In-Reply-To: <164706da9b7.1058805cd165772.998827227448598680@c-mtg.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+X-Mailer: iPhone Mail (15F79)
+X-ZohoMail-DKIM: pass (identity @yahoo.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_DI SPK
+X-ZM-MESSAGEID: 1530896129505000001
+X-ZohoMail-Status: 1
+
+
+
+--Apple-Mail-C53184C1-3A9E-4531-B6E1-FD436E03E4F7
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+thank you Sam.
+Given I have assets and a Fica score of around 850, what rate for a 30 year f=
+ixed might I be looking at?
+Antje=20
+
+
+> On Jul 6, 2018, at 9:29 AM, Sam Tehranchi <sam@c-mtg.com> wrote:
+>=20
+> Hi Antje
+>=20
+> Per your request on Facebook, below is the items we need to get started on=
+ your transaction.  We have over 100 loan programs for self employed borrowe=
+r including stated income, bank statement programs, investor programs, and m=
+uch more.
+>=20
+> IF PROPERTIES ARE IN CORPORATION, YOU CAN USE ANY OFFICER OF CORP FOR THE A=
+PPLICATION
+>=20
+> I have included a link for you to fill out our "Complete Application".  Pl=
+ease complete when you are ready to proceed.
+>=20
+> https://www.secureloandocs.com/app/29305173
+>=20
+> You will also need the following items to pull your credit:
+>=20
+> Borrower Authorization and Certification
+> Borrower Signature Authorization
+> Credit Card Authorization ($18 cost for pulling credit per borrower)
+>=20
+> Other than that, we will need the following docs for the loan:
+>=20
+> You need to provide:
+>=20
+> 1. 2 months most recent consecutive asset statements (all pages including d=
+isclaimer and blank pages) for all asset accounts (checking, savings, invest=
+ment, IRA, 401k, etc.)
+> 2. Legible copy of each borrower=E2=80=99s Driver=E2=80=99s License
+> 3. Social security card copy
+> 4. All properties owned (mortgage statement, insurance bill or dec page)
+> 5. Schedule of real estate (this is part of the application so please ensu=
+re you fill it out completely)
+> 6. If property is in non living entity name, please provide formation docu=
+ments (for Corporations, trusts, etc)
+>=20
+> Items we will acquire:
+> 1. Credit (*** I will order once you send back disclosures)
+> 2. Escrow instructions (*** I can order if you don't have a preference)
+> 3. Prelim Title Report (*** I can order if you don't have a preference)
+> 4. Appraisal (*** I will order)
+>=20
+>=20
+> Thank you
+>=20
+>=20
+>=20
+> Respectfully,
+>=20
+>=20
+>=20
+> Sam Tehranchi
+>=20
+> Chief Operations Officer
+>=20
+>=20
+>=20
+> Custom Mortgage and Realty
+>=20
+> NMLS CA # 1556995 - BRE CA # 02018146
+>=20
+>=20
+>=20
+> D: 310.709.6304 - F: 866.421.7694
+>=20
+> sam@c-mtg.com - www.c-mtg.com
+>=20
+> LinkedIn - Facebook - twitter - Instagram
+>=20
+>=20
+>=20
+>=20
+> <Borrower Signature Authorization(Letter).PDF>
+> <Borrowers Auth and Certification(Letter).PDF>
+> <Credit Card Authorization.pdf>
+
+--Apple-Mail-C53184C1-3A9E-4531-B6E1-FD436E03E4F7
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div></div><div>thank you Sam.</div><div>Gi=
+ven I have assets and a Fica score of around 850, what rate for a 30 year fi=
+xed might I be looking at?</div><div>Antje&nbsp;</div><div><br></div><div><b=
+r>On Jul 6, 2018, at 9:29 AM, Sam Tehranchi &lt;<a href=3D"mailto:sam@c-mtg.=
+com">sam@c-mtg.com</a>&gt; wrote:<br><br></div><blockquote type=3D"cite"><di=
+v><meta content=3D"text/html;charset=3DUTF-8" http-equiv=3D"Content-Type"><d=
+iv style=3D"font-size:10pt;font-family:Verdana,Arial,Helvetica,sans-serif;">=
+<div><div><div><p style=3D"margin: 0px; line-height: normal;"><span class=3D=
+"highlight" style=3D"background-color:rgb(255, 255, 255)"><span class=3D"siz=
+e" style=3D"font-size:14px">Hi Antje</span></span><br></p><div><br></div><di=
+v><span class=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><s=
+pan class=3D"size" style=3D"font-size:14px">Per your request on Facebook, be=
+low is the items we need to get started on your transaction. &nbsp;We have o=
+ver 100 loan programs for self employed borrower including stated income, ba=
+nk statement programs, investor programs, and much more.</span></span><br></=
+div><p style=3D"margin: 0px; line-height: normal;"><span class=3D"highlight"=
+ style=3D"background-color:rgb(255, 255, 255)"><span class=3D"size" style=3D=
+"font-size:14px"></span></span><br></p><p style=3D"margin: 0px; line-height:=
+ normal;"><span class=3D"highlight" style=3D"background-color:rgb(255, 255, 2=
+55)"><span class=3D"size" style=3D"font-size:14px"><b>IF PROPERTIES ARE IN C=
+ORPORATION, YOU CAN USE ANY OFFICER OF CORP FOR THE APPLICATION</b></span></=
+span><br></p><p style=3D"margin: 0px; line-height: normal;"><span class=3D"h=
+ighlight" style=3D"background-color:rgb(255, 255, 255)"><span class=3D"size"=
+ style=3D"font-size:14px"></span></span><br></p><p style=3D"margin: 0px; lin=
+e-height: normal;"><span class=3D"highlight" style=3D"background-color:rgb(2=
+55, 255, 255)"><span class=3D"size" style=3D"font-size:14px">I have included=
+ a link for you to fill out our "Complete Application".&nbsp; Please complet=
+e when you are ready to proceed.</span></span><br></p><p style=3D"margin: 0p=
+x; line-height: normal;"><span class=3D"highlight" style=3D"background-color=
+:rgb(255, 255, 255)"><span class=3D"size" style=3D"font-size:14px"></span></=
+span><br></p><p style=3D"margin: 0px; line-height: normal;"><span class=3D"h=
+ighlight" style=3D"background-color:rgb(255, 255, 255)"><span class=3D"size"=
+ style=3D"font-size:14px"><a style=3D"color: rgb(89, 143, 222); outline: 0px=
+" target=3D"_blank" href=3D"https://www.secureloandocs.com/app/29305173">htt=
+ps://www.secureloandocs.com/app/29305173</a></span></span><br></p><p style=3D=
+"margin: 0px; line-height: normal;"><span class=3D"highlight" style=3D"backg=
+round-color:rgb(255, 255, 255)"><span class=3D"size" style=3D"font-size:14px=
+"></span></span><br></p><p style=3D"margin: 0px; line-height: normal;"><span=
+ class=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span cla=
+ss=3D"size" style=3D"font-size:14px">You will also need the following items t=
+o pull your credit:</span></span><br></p><p style=3D"margin: 0px; line-heigh=
+t: normal;"><span class=3D"highlight" style=3D"background-color:rgb(255, 255=
+, 255)"><span class=3D"size" style=3D"font-size:14px"></span></span><br></p>=
+<p style=3D"margin: 0px; line-height: normal;"><span class=3D"highlight" sty=
+le=3D"background-color:rgb(255, 255, 255)"><span class=3D"size" style=3D"fon=
+t-size:14px">Borrower Authorization and Certification</span></span><br></p><=
+p style=3D"margin: 0px; line-height: normal;"><span class=3D"highlight" styl=
+e=3D"background-color:rgb(255, 255, 255)"><span class=3D"size" style=3D"font=
+-size:14px">Borrower Signature Authorization</span></span><br></p><p style=3D=
+"margin: 0px; line-height: normal;"><span class=3D"highlight" style=3D"backg=
+round-color:rgb(255, 255, 255)"><span class=3D"size" style=3D"font-size:14px=
+">Credit Card Authorization ($18 cost for pulling credit per borrower)</span=
+></span><br></p><p style=3D"margin: 0px; line-height: normal;"><span class=3D=
+"highlight" style=3D"background-color:rgb(255, 255, 255)"><span class=3D"siz=
+e" style=3D"font-size:14px"></span></span><br></p><p style=3D"margin: 0px; l=
+ine-height: normal;"><span class=3D"highlight" style=3D"background-color:rgb=
+(255, 255, 255)"><span class=3D"size" style=3D"font-size:14px">Other than th=
+at, we will need the following docs for the loan:</span></span><br></p><p st=
+yle=3D"margin: 0px; line-height: normal;"><span class=3D"highlight" style=3D=
+"background-color:rgb(255, 255, 255)"><span class=3D"size" style=3D"font-siz=
+e:14px"></span></span><br></p><p style=3D"margin: 0px; line-height: normal;"=
+><span class=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><sp=
+an class=3D"size" style=3D"font-size:14px">You need to provide:</span></span=
+><br></p><p style=3D"margin: 0px; line-height: normal;"><span class=3D"highl=
+ight" style=3D"background-color:rgb(255, 255, 255)"><span class=3D"size" sty=
+le=3D"font-size:14px"></span></span><br></p><p style=3D"margin: 0px; line-he=
+ight: normal;"><span class=3D"highlight" style=3D"background-color:rgb(255, 2=
+55, 255)"><span class=3D"size" style=3D"font-size:14px">1. 2 months most rec=
+ent consecutive asset statements (all pages including disclaimer and blank p=
+ages) for all asset accounts (checking, savings, investment, IRA, 401k, etc.=
+)</span></span><br></p><p style=3D"margin: 0px; line-height: normal;"><span c=
+lass=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span class=
+=3D"size" style=3D"font-size:14px">2. Legible copy of each borrower=E2=80=99=
+s Driver=E2=80=99s License</span></span><br></p><p style=3D"margin: 0px; lin=
+e-height: normal;"><span class=3D"highlight" style=3D"background-color:rgb(2=
+55, 255, 255)"><span class=3D"size" style=3D"font-size:14px">3. Social secur=
+ity card copy</span></span><br></p><p style=3D"margin: 0px; line-height: nor=
+mal;"><span class=3D"highlight" style=3D"background-color:rgb(255, 255, 255)=
+"><span class=3D"size" style=3D"font-size:14px">4. All properties owned (mor=
+tgage statement, insurance bill or dec page)</span></span><br></p><p style=3D=
+"margin: 0px; line-height: normal;"><span class=3D"highlight" style=3D"backg=
+round-color:rgb(255, 255, 255)"><span class=3D"size" style=3D"font-size:14px=
+">5. Schedule of real estate (this is part of the application so please ensu=
+re you fill it out completely)</span></span><br></p><p style=3D"margin: 0px;=
+ line-height: normal;"><span class=3D"highlight" style=3D"background-color:r=
+gb(255, 255, 255)"><span class=3D"size" style=3D"font-size:14px">6. If prope=
+rty is in non living entity name, please provide formation documents (for Co=
+rporations, trusts, etc)</span></span><br></p><p style=3D"margin: 0px; line-=
+height: normal;"><span class=3D"highlight" style=3D"background-color:rgb(255=
+, 255, 255)"><span class=3D"size" style=3D"font-size:14px"></span></span><br=
+></p><p style=3D"margin: 0px; line-height: normal;"><span class=3D"highlight=
+" style=3D"background-color:rgb(255, 255, 255)"><span class=3D"size" style=3D=
+"font-size:14px">Items we will acquire:</span></span><br></p><p style=3D"mar=
+gin: 0px; line-height: normal;"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255, 255, 255)"><span class=3D"size" style=3D"font-size:14px">1.=
+ Credit (*** I will order once you send back disclosures)</span></span><br><=
+/p><p style=3D"margin: 0px; line-height: normal;"><span class=3D"highlight" s=
+tyle=3D"background-color:rgb(255, 255, 255)"><span class=3D"size" style=3D"f=
+ont-size:14px">2. Escrow instructions (*** I can order if you don't have a p=
+reference)</span></span><br></p><p style=3D"margin: 0px; line-height: normal=
+;"><span class=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><=
+span class=3D"size" style=3D"font-size:14px">3. Prelim Title Report (*** I c=
+an order if you don't have a preference)</span></span><br></p><p style=3D"ma=
+rgin: 0px; line-height: normal;"><span class=3D"highlight" style=3D"backgrou=
+nd-color:rgb(255, 255, 255)"><span class=3D"size" style=3D"font-size:14px">4=
+. Appraisal (*** I will order)</span></span><br></p><div><br></div><div><br>=
+</div><div><p>Thank you<br></p><p><br></p><p>Respectfully,<br></p><p><br></p=
+><p>Sam Tehranchi<br></p><p><span class=3D"size" style=3D"font-size:x-small"=
+>Chief Operations Officer</span><br></p><p><span class=3D"size" style=3D"fon=
+t-size:x-small"></span><br></p><p><b>Custom Mortgage and Realty</b><br></p><=
+p><span class=3D"size" style=3D"font-size:10px">NMLS CA # 1556995 - BRE CA #=
+ 02018146</span><br></p><p><br></p><p><span>D:&nbsp;</span>310.709.6304<span=
+> - F:&nbsp;</span>866.421.7694<br></p><p><a target=3D"_blank" href=3D"mailt=
+o:sam@c-mtg.com">sam@c-mtg.com</a><span>&nbsp;-&nbsp;<span><a target=3D"_bla=
+nk" href=3D"http://www.c-mtg.com">www.c-mtg.com</a></span></span><br></p><p>=
+<a target=3D"_blank" style=3D"font-family: Helvetica; font-size: 12px" href=3D=
+"https://www.linkedin.com/company-beta/3477964">LinkedIn</a><span class=3D"f=
+ont" style=3D"font-family:Helvetica"><span class=3D"size" style=3D"font-size=
+:12px">&nbsp;-&nbsp;</span></span><a target=3D"_blank" style=3D"font-family:=
+ Helvetica; font-size: 12px" href=3D"https://www.facebook.com/Custom-Mortgag=
+e-409842885783868/">Facebook</a><span class=3D"font" style=3D"font-family:He=
+lvetica"><span class=3D"size" style=3D"font-size:12px">&nbsp;-&nbsp;</span><=
+/span><a target=3D"_blank" style=3D"font-family: Helvetica; font-size: 12px"=
+ href=3D"https://twitter.com/custommortgage1">twitter</a><span class=3D"font=
+" style=3D"font-family:Helvetica"><span class=3D"size" style=3D"font-size:12=
+px">&nbsp;-&nbsp;</span></span><a target=3D"_blank" style=3D"font-family: He=
+lvetica; font-size: 12px" href=3D"https://www.instagram.com/custommortgagein=
+c/">Instagram</a><br></p></div></div><div id=3D""><br></div></div></div><div=
+><br></div></div><br></div></blockquote><blockquote type=3D"cite"><div>&lt;B=
+orrower Signature Authorization(Letter).PDF&gt;</div></blockquote><blockquot=
+e type=3D"cite"><div>&lt;Borrowers Auth and Certification(Letter).PDF&gt;</d=
+iv></blockquote><blockquote type=3D"cite"><div>&lt;Credit Card Authorization=
+.pdf&gt;</div></blockquote></body></html>=
+
+--Apple-Mail-C53184C1-3A9E-4531-B6E1-FD436E03E4F7--

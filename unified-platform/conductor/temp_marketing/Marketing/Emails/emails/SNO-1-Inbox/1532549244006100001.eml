@@ -1,0 +1,186 @@
+Delivered-To: sam@c-mtg.com
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=none (zoho.com: 104.47.32.118 is neither permitted nor denied by domain of limaonecapital.com)  smtp.mailfrom=Broker@limaonecapital.com
+Return-Path: <Broker@limaonecapital.com>
+Received: from NAM01-SN1-obe.outbound.protection.outlook.com (mail-sn1nam01on0118.outbound.protection.outlook.com [104.47.32.118]) by mx.zohomail.com
+	with SMTPS id 1532549242262128.08547458533587; Wed, 25 Jul 2018 13:07:22 -0700 (PDT)
+Received: from DM6PR05MB4459.namprd05.prod.outlook.com (20.176.79.16) by
+ DM6PR05MB4473.namprd05.prod.outlook.com (20.176.79.18) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.995.13; Wed, 25 Jul 2018 20:07:20 +0000
+Received: from DM6PR05MB4459.namprd05.prod.outlook.com
+ ([fe80::a1df:fa65:97a7:2141]) by DM6PR05MB4459.namprd05.prod.outlook.com
+ ([fe80::a1df:fa65:97a7:2141%3]) with mapi id 15.20.0995.014; Wed, 25 Jul 2018
+ 20:07:20 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=locap.onmicrosoft.com;
+ s=selector1-limaonecapital-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=7yDYjPe5RhlT4DjvpbZ+XUgUgfVPZQn2mHS6TTmaLWU=;
+ b=hjVflmfKeGteAzpTXsCkWk18XI0nPV2n+iDLgJJ+hY17Vq8m1j0MgP13Yz6OaJzr50l6Iz6zaTlubNASQaGjdNO0Kk9DLK0AnrC/N6LWUyJz7GhIysyJ5t+kQ/ichbSHnQMGnb4zG9G11LRVi0VaIjnSTGEc/p8bLXMMXkoaZEM=
+From: Broker <Broker@limaonecapital.com>
+To: "sam@c-mtg.com" <sam@c-mtg.com>
+Subject: Loan Submission
+Thread-Topic: Loan Submission
+Thread-Index: AdQkUvYmTCa5UfiPRM6eivv6LuJHNA==
+Date: Wed, 25 Jul 2018 20:07:20 +0000
+Message-ID:<DM6PR05MB445939763684A8211388EC92B9540@DM6PR05MB4459.namprd05.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=Broker@limaonecapital.com; 
+x-originating-ip: [50.58.76.82]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;DM6PR05MB4473;6:YYi19QKPx/Szvf4o0lrt+hMVtOhNjFSXielUDThbJXlKbqU14rzxbLvhNUINYFHYVCI3OTzElos1KWBVnOxISNZgQk2OhwXfpegMiRa/lxi3zz6mtx4pZWzedDoYpomTktmP4DbISaYDNqxDpPZNr+oh7i5YroGUUaIOStLvHSBUulw+UahnlGzkVAXwbH6po/LOjMFC7ZltBMIOZqt49PWRVY7VSTS9GscF1wtuvc3wgxmL00+F0z/LG5dsAk1G9KaMyMpGcvtJ/T6vv+CDOO4wJIAfIkFwNrWjXv+jd2YIr0FxORxSTxjWXubuMG4pAopFgK8vmNOj/KRopOx2EPqFLkmDBhNFihAAeC8aqubGtTNdtzd2yAVdSF3NiMp68qTOdqoRQqV+nOx6vEuyN6Ar2DpdK/Lc0h3NtYhj2XioSkOFOLvH1TYACMU8NxNjv4qpv+MnMmpC7fwGNZ9V4A==;5:4Hyz79YbHp3aUzgsh8nBi9mkHKVr01OILIsGdCsCiTss8jRFJHDROrk7lCkc3W8jOweJlIa3HVLWSNCx8muN6qqt36UzZ5nr6q3YZWMjDbLmAmfrN4031C/ERUFCUFl3cSN7SxM4FmIDI3hHMjZny2HZEJOnqAbhY0K6zGC5oYw=;7:dI1JdnhaVHZcKB0J9PcQ1APVdDtKtGHpCMpjh8iQ3ddnxjOOPyhqt6ZeMcykJy0FYXIZUh3tEo65OSmOOiOLL4PGrQRdTg0Kndqe4FP5RGwVGSqQkKz1qvKPK9N4Yy3mQrBPJ0D0rxOTrYTEwLdp2Anqb5Z39k5SIuCU+MpeUwwQb3nfks7RLhqGmjds6K54vs63fLw8fKtl7U7RPZgO0RDiDLfFlt70OdaaTucVNnL7hmZYpTtRBNQp2/LUqd6O
+x-ms-exchange-antispam-srfa-diagnostics: SOS;
+x-ms-office365-filtering-correlation-id: c9db64be-d96d-408b-dc2e-08d5f26a3a95
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:(7020095)(4652040)(8989117)(4534165)(4627221)(201703031133081)(201702281549075)(8990107)(5600073)(711020)(2017052603328)(7153060)(7193020);SRVR:DM6PR05MB4473;
+x-ms-traffictypediagnostic: DM6PR05MB4473:
+x-microsoft-antispam-prvs: <DM6PR05MB4473BC64350FAC3525793DA9B9540@DM6PR05MB4473.namprd05.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(28532068793085)(267789802093273)(21748063052155);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(6040522)(2401047)(5005006)(8121501046)(10201501046)(93006095)(93001095)(3231311)(944501410)(52105095)(3002001)(149027)(150027)(6041310)(20161123558120)(20161123562045)(20161123564045)(20161123560045)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(6072148)(201708071742011)(7699016);SRVR:DM6PR05MB4473;BCL:0;PCL:0;RULEID:;SRVR:DM6PR05MB4473;
+x-forefront-prvs: 0744CFB5E8
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(39850400004)(136003)(346002)(376002)(366004)(396003)(252514010)(199004)(189003)(861006)(14444005)(3846002)(2900100001)(606006)(16865895004)(68736007)(316002)(6436002)(790700001)(8676002)(6116002)(733005)(256004)(33656002)(5640700003)(221733001)(74316002)(5630700001)(81166006)(81156014)(8936002)(1730700003)(7736002)(55016002)(3480700004)(53376002)(7116003)(6916009)(2501003)(7696005)(97736004)(6506007)(99286004)(6306002)(5250100002)(80792005)(102836004)(53936002)(54896002)(86362001)(236005)(476003)(186003)(26005)(72206003)(14454004)(478600001)(9686003)(486006)(106356001)(105586002)(2351001)(5660300001)(66066001)(2906002)(25786009)(15398625002)(16866105001);DIR:OUT;SFP:1102;SCL:1;SRVR:DM6PR05MB4473;H:DM6PR05MB4459.namprd05.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;A:1;MX:1;
+Received-SPF: none (zoho.com: 104.47.32.118 is neither permitted nor denied by domain of limaonecapital.com) client-ip=104.47.32.118; envelope-from=Broker@limaonecapital.com; helo=NAM01-SN1-obe.outbound.protection.outlook.com;
+received-spf: None (protection.outlook.com: limaonecapital.com does not
+ designate permitted sender hosts)
+x-microsoft-antispam-message-info: Xm4jpCoaIEHu5onZmZnPQOuBG5uXTEC1Jf9bP2/sGaS6YKPAPb7DR6sy29ouBu3MEM0MgwoAnv2YdSP3dfyy9KS5HMMzll9uZbKwCllfQQ38yul+L/Y12cpDHC/lUwFd64/cn5d4+e9axsFAmfyRgQOS59I1VqgE+qqKrkFBnWb9EURg2C5QF5wsTX37p82WPvvZUtdsEMffSaegEgICZXmpvM7AlLHPlM3E3QmnoSW7ky2YaTlLwCe4URo6yr15fRHxyP8/FT8Gfl8xo5nUXiIvPRmV+4x/5iI75EtQGkjw+Qip+u5i1YQnfJlD0uQRKAA/IFIRWSN0VmYqa3osrvzaKg+C6Osk+FhWJBy22O0=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR05MB445939763684A8211388EC92B9540DM6PR05MB4459namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: limaonecapital.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: c9db64be-d96d-408b-dc2e-08d5f26a3a95
+X-MS-Exchange-CrossTenant-originalarrivaltime: 25 Jul 2018 20:07:20.5210
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 71200e5b-3222-4964-b0f5-fd32109672e2
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM6PR05MB4473
+X-ZohoMail-DKIM: pass (identity @locap.onmicrosoft.com)
+X-ZohoMail: RDKM_0  RSF_4  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_1 S_168 FRD_HI
+X-ZM-MESSAGEID: 1532549244006100001
+X-ZohoMail-Status: 1
+
+
+--_000_DM6PR05MB445939763684A8211388EC92B9540DM6PR05MB4459namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hi, Sam,
+
+Unfortunately, the credit will not meet our minimum 600 in order to look fu=
+rther into this. In addition, the property is not something of interest as =
+our specialty is residential <2 acres.
+
+Best,
+
+ANDREW WHITMIRE
+Broker Program Consultant
+[http://limaonecapital.com/wp-content/uploads/2017/06/LimaOneLogo.png]
+P: 800-390-4212 ext. 3504
+F: 404-908-0090
+E-mail: awhitmire@limaonecapital.com<mailto:awhitmire@limaonecapital.com>
+www.limaonecapital.com<http://www.limaonecapital.com/>
+
+
+--_000_DM6PR05MB445939763684A8211388EC92B9540DM6PR05MB4459namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Hi, Sam,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Unfortunately, the credit will not meet our minimum =
+600 in order to look further into this. In addition, the property is not so=
+mething of interest as our specialty is residential &lt;2 acres.
+<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Best, <o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Arial&quot;,sans-serif;color:#222222">ANDREW WHITMIRE</span></b><br>
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;co=
+lor:#222222">Broker Program Consultant<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif"><img width=3D"300" height=3D"100" style=3D"width:3.125=
+in;height:1.0416in" id=3D"_x0000_i1025" src=3D"http://limaonecapital.com/wp=
+-content/uploads/2017/06/LimaOneLogo.png" alt=3D"http://limaonecapital.com/=
+wp-content/uploads/2017/06/LimaOneLogo.png"></span><br>
+<b><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif=
+;color:#222222">P:
+</span></b><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sa=
+ns-serif">800-390-4212 ext. 3504</span><br>
+<b><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif=
+;color:#222222">F:&nbsp;</span></b><span style=3D"font-size:10.0pt;font-fam=
+ily:&quot;Arial&quot;,sans-serif">404-908-0090</span><br>
+<b><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif=
+;color:#222222">E-mail:</span></b>
+<a href=3D"mailto:awhitmire@limaonecapital.com"><span style=3D"color:#0563C=
+1">awhitmire@limaonecapital.com</span></a><o:p></o:p></p>
+<p class=3D"MsoNormal"><a href=3D"http://www.limaonecapital.com/"><span sty=
+le=3D"color:#0563C1">www.limaonecapital.com</span></a><o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR05MB445939763684A8211388EC92B9540DM6PR05MB4459namp_--

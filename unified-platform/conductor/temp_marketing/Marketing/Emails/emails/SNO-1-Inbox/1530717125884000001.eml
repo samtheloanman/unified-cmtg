@@ -1,0 +1,396 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 209.85.192.178 as permitted sender) client-ip=209.85.192.178; envelope-from=geolrp@gmail.com; helo=mail-pf0-f178.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 209.85.192.178 as permitted sender)  smtp.mailfrom=geolrp@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Received: from mail-pf0-f178.google.com (mail-pf0-f178.google.com [209.85.192.178]) by mx.zohomail.com
+	with SMTPS id 1530717124377574.3174027363173; Wed, 4 Jul 2018 08:12:04 -0700 (PDT)
+Received: by mail-pf0-f178.google.com with SMTP id z24-v6so2829863pfe.7
+        for <sam@c-mtg.com>; Wed, 04 Jul 2018 08:12:04 -0700 (PDT)
+Return-Path: <geolrp@gmail.com>
+Return-Path: <geolrp@gmail.com>
+Received: from [192.168.1.3] (cpe-104-34-153-147.socal.res.rr.com. [104.34.153.147])
+        by smtp.gmail.com with ESMTPSA id r87-v6sm862318pfb.1.2018.07.04.08.12.01
+        for <sam@c-mtg.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 04 Jul 2018 08:12:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:content-transfer-encoding:mime-version:date:subject:message-id
+         :references:in-reply-to:to;
+        bh=q3jKRCG5akYSMfyCJdpsPsqz8y5UO+ARX/XkDFrNGv4=;
+        b=dZ9y4l62TnyS4KtRNMYqQvbYWLILAR48Gk3+BkwwhlywQQqw9sK6pqRzG9zTEtQb9m
+         6dQRT8u63VL/yHGg/6rG2WYQolVpYcmnCXH3cqxgnUKjk4Pazvuwwsl+9+jOmGAph4jd
+         puEvw+cPHJZhAU4E72i5O/8UBf7kMWiMr4ZYwPA534wVkhCSqDm5NzPEHohRpJ53eWw5
+         LEcB6cgse1igw7/Sb5GSElU0r2tf3FoyN7NbpDP0DYEv3n7I+biy+poMLlxY7zj/gpKG
+         k84Qy5cYf2cLVAwavv7K3lHFgjj+XGFSEMwjotcpyacJw4DwyydXtbAiBmA/OilYWOb0
+         xH/Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:content-transfer-encoding:mime-version:date
+         :subject:message-id:references:in-reply-to:to;
+        bh=q3jKRCG5akYSMfyCJdpsPsqz8y5UO+ARX/XkDFrNGv4=;
+        b=eVYkU8F7H7EyCPuQvjFKzFOL+dABCJTrrEFHIG+iuirgQQ5LkHqVJ8O9W8jGfJzhYy
+         fROUDpAdysDWoGjbskzpAZ5rWV0R8ghi82Mr8AVFReSiu9rsVzF9vu2cTMaxaJZ1jhTe
+         250ET8OtVlveHT/0q5wd5K1qTEDNub87EIMtoR45LXffUUuSnbSvtd7SrFLi/F3FmpAS
+         g4hVu3WYsVVzXrlxwwN1dLvgLgdJpoGNOzSANGTpUjNapBUG82BTjxp+bwuPfqfHXhp+
+         ZPAlv2dfjjQYjU5t4Y60dSnjEtrjidaivyFupds0j+uxgIOBqsR8PYhTuVq7fw/1TqWl
+         F7nQ==
+X-Gm-Message-State: APt69E2MZX+Xgkv9TnBEtgFJ0tSijRytm0XHd+8O2pcpvEMaIl+q83Nn
+	p8DkNnip9DENSRLmp0qeBY3iYw04
+X-Google-Smtp-Source: AAOMgpcO+xA7sinczb48CzKboX+BPZPNZ8CeJ+wzN9BsarSmNzszFQBf1ny4UDUohjV5TBig+kG5cA==
+X-Received: by 2002:a62:4494:: with SMTP id m20-v6mr2558764pfi.205.1530717123202;
+        Wed, 04 Jul 2018 08:12:03 -0700 (PDT)
+From: "George H." <geolrp@gmail.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-E3B26A84-BD5D-4322-A493-0DCA96378A72
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0
+Date: Wed, 4 Jul 2018 08:12:01 -0700
+Subject: Re: URGENT - UNDERWRITING CONDITIONS--------- 2819 Coldwater canyon dr 90210
+Message-ID:<A773CE66-9380-400F-997B-1C29F432C1AF@gmail.com>
+References: <61193911-AACB-4399-B3E8-FA82A9B621D6@gmail.com> <13888CA6-BBFA-456B-B359-073A255F2F5C@gmail.com> <8D3216CA-2CEE-44E6-8248-DE5EB7C671F3@c-mtg.com> <E602391D-3E06-478D-8394-5EEE31C22242@gmail.com> <DF683C53-F788-477C-94E6-7687A2475BB4@c-mtg.com>
+In-Reply-To: <DF683C53-F788-477C-94E6-7687A2475BB4@c-mtg.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+X-Mailer: iPhone Mail (15F79)
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_DI SPK
+X-ZM-MESSAGEID: 1530717125884000001
+X-ZohoMail-Status: 1
+
+
+
+--Apple-Mail-E3B26A84-BD5D-4322-A493-0DCA96378A72
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Coming just submit=20
+
+George H.=20
+818.585.5203
+Sent from my iPhone
+
+> On Jul 3, 2018, at 6:04 PM, Sam Tehranchi <sam@c-mtg.com> wrote:
+>=20
+> Ok, so I need the April, May and June for Chase Business account ending in=
+ 917672789.  These statements are beginning at the beginning of the month.  T=
+he package I received from you did not have April 2018 or May 2018 and June s=
+hould have been our on 7/2/2018.
+>=20
+> I have april for the US Bank accounts but according to the previous messag=
+e, those accounts are closed.  I don=E2=80=99t have any Chase personal accou=
+nts, only have US bank and BBVA for personal.  Attached is the Statements.zi=
+p file I received and the business account months I needs are not there.
+>=20
+> I can get this done, the lender is all over it and wants to do it but I ha=
+ve been waiting on these items since I received the package.
+>=20
+> If the borrower wants to go another direction, let=E2=80=99s not waste mor=
+e time but if he wants to do the loan, lets get the items needed to do it.
+>=20
+> Right now, I just need these statements to get an approval.  I am ready to=
+ submit and get LE out so lets get whatever fee agreement we need in place s=
+o I can get items directly from whom ever I need to get them from and get th=
+is file on track.
+>=20
+> Respectfully,  =20
+>=20
+> =20
+> Sam Tehranchi
+>=20
+> =20
+> COO
+> Custom Mortgage and Realty=20
+> NMLS CA # 1556995 - BRE CA # 02018146
+> =20
+> Direct 310.709.6304 -Efax 866.421.7694=20
+>=20
+> sam@c-mtg.com - www.c-mtg.com
+>=20
+> LinkedIn - Facebook - twitter - Instagram
+>=20
+>=20
+>> On Jul 3, 2018, at 5:19 PM, George H. <geolrp@gmail.com> wrote:
+>>=20
+>> George, he can only provide May and June, July is not ready. Usually does=
+n=E2=80=99t get that till about the 15th of the month, that=E2=80=99s Chase P=
+rivate wealth management policy.
+>>=20
+>> The other accounts are closed, and condensed.
+>>=20
+>> The corporations have been in Ben=E2=80=99s name and are only in his name=
+, the CPA letter can only be a condition, I need approval or Ben is going to=
+ go in another direction.
+>>=20
+>> George H.=20
+>> 818.585.5203
+>> Sent from my iPhone
+>>=20
+>>> On Jul 3, 2018, at 5:03 PM, Sam Tehranchi <sam@c-mtg.com> wrote:
+>>>=20
+>>> I don=E2=80=99t have the statements I requested, also, we will need the c=
+pa letter but not right now, they will condition for it.
+>>>=20
+>>> Sent from my iPhone
+>>>=20
+>>>> On Jul 3, 2018, at 4:57 PM, George H. <geolrp@gmail.com> wrote:
+>>>>=20
+>>>>=20
+>>>>> Hi George,
+>>>>>=20
+>>>>> Ben has provided April 2018 Chase what you have.
+>>>>>=20
+>>>>> You have the corporate information from the Secretary of State that sh=
+ows that Ben is the 100% owner of the corporation=E2=80=99s. They should not=
+ need anything else.
+>>>>>=20
+>>>>> The US bank accounts and BNP accounts have been closed remember everyt=
+hing is now with Chase.
+>>>>>=20
+>>>>> I have requested me in June Chase and waiting for Ben to send.=20
+>>>>>=20
+>>>>> Sent from my iPhone
+>>>>>=20
+>>>>>> On Jul 3, 2018, at 3:32 PM, <geolrp@gmail.com> <geolrp@gmail.com> wro=
+te:
+>>>>>>=20
+>>>>>> =20
+>>>>>> Hi George,
+>>>>>> =20
+>>>>>> We will now need additional bank statements since we are in July:
+>>>>>> =20
+>>>>>> 1. June, May and April 2018 for Chase statements for business account=
+ 2789
+>>>>>> 2. June 2018 for US Bank Business account (ending 6590) and Personal a=
+ccount (6574)
+>>>>>> =20
+>>>>>> 3. We will also need a CPA letter confirming two years of employment a=
+nd that borrower owns 100% of the business (or what ever percentage he owns,=
+ sample attached).
+>>>>>> =20
+>>>>>> 4. I also have a question regarding what the below US Bank accounts f=
+or, there are transfers being made into the US business bank accounts we hav=
+e on file from these bank accounts? Are these personal or business accounts?=
+ Are there additional reserves in these accounts because that will help?
+>>>>>> 157513268258, 157513846681, 157513268258, 157513846590, 157510964073
+>>>>>>=20
+>>>>>>=20
+>>>>>> Respectfully,  =20
+>>>>>>=20
+> <statements.zip>
+> <Screen Shot 2018-07-03 at 6.01.05 PM.png>
+
+--Apple-Mail-E3B26A84-BD5D-4322-A493-0DCA96378A72
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto">Coming just submit&nbsp;<br><br><div id=3D"=
+AppleMailSignature"><div>George H.&nbsp;</div><div>818.585.5203</div>Sent fr=
+om my iPhone</div><div><br>On Jul 3, 2018, at 6:04 PM, Sam Tehranchi &lt;<a h=
+ref=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&gt; wrote:<br><br></div><bloc=
+kquote type=3D"cite"><div><meta http-equiv=3D"Content-Type" content=3D"text/=
+html; charset=3Dutf-8">Ok, so I need the <b class=3D"">April, May and June f=
+or Chase Business account ending in 917672789.</b> &nbsp;These statements ar=
+e beginning at the beginning of the month. &nbsp;The package I received from=
+ you did not have April 2018 or May 2018 and June should have been our on 7/=
+2/2018.<div class=3D""><br class=3D""></div><div class=3D"">I have april for=
+ the US Bank accounts but according to the previous message, those accounts a=
+re closed. &nbsp;I don=E2=80=99t have any Chase personal accounts, only have=
+ US bank and BBVA for personal. &nbsp;Attached is the Statements.zip file I r=
+eceived and the business account months I needs are not there.<br class=3D""=
+><div class=3D""><br class=3D""></div><div class=3D"">I can get this done, t=
+he lender is all over it and wants to do it but I have been waiting on these=
+ items since I received the package.</div><div class=3D""><br class=3D""></d=
+iv><div class=3D"">If the borrower wants to go another direction, let=E2=80=99=
+s not waste more time but if he wants to do the loan, lets get the items nee=
+ded to do it.</div><div class=3D""><br class=3D""></div><div class=3D"">Righ=
+t now, I just need these statements to get an approval. &nbsp;I am ready to s=
+ubmit and get LE out so lets get whatever fee agreement we need in place so I=
+ can get items directly from whom ever I need to get them from and get this f=
+ile on track.</div><div class=3D""><br class=3D""><div class=3D"">
+<div dir=3D"auto" style=3D"caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); l=
+etter-spacing: normal; text-align: start; text-indent: 0px; text-transform: n=
+one; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px;=
+ text-decoration: none; word-wrap: break-word; -webkit-nbsp-mode: space; lin=
+e-break: after-white-space;" class=3D""><div dir=3D"auto" style=3D"color: rg=
+b(0, 0, 0); letter-spacing: normal; text-align: start; text-indent: 0px; tex=
+t-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stro=
+ke-width: 0px; word-wrap: break-word; -webkit-nbsp-mode: space; line-break: a=
+fter-white-space;" class=3D"">Respectfully, &nbsp;&nbsp;<br class=3D""><br c=
+lass=3D"">&nbsp;<br class=3D"">Sam Tehranchi<br class=3D""><br class=3D"">&n=
+bsp;<br class=3D"">COO<br class=3D"">Custom Mortgage and Realty&nbsp;<br cla=
+ss=3D"">NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br class=3D"">&nbsp;<br c=
+lass=3D"">Direct 310.709.6304 -Efax 866.421.7694&nbsp;<br class=3D""><br cla=
+ss=3D""><a href=3D"mailto:sam@c-mtg.com" class=3D"">sam@c-mtg.com</a>&nbsp;-=
+&nbsp;<a href=3D"http://www.c-mtg.com" class=3D"">www.c-mtg.com</a><br class=
+=3D""><br class=3D""><a href=3D"https://www.linkedin.com/company-beta/347796=
+4" class=3D"">LinkedIn</a>&nbsp;-&nbsp;<a href=3D"https://www.facebook.com/C=
+ustom-Mortgage-409842885783868/" class=3D"">Facebook</a>&nbsp;-&nbsp;<a href=
+=3D"https://twitter.com/custommortgage1" class=3D"">twitter</a>&nbsp;-&nbsp;=
+<a href=3D"https://www.instagram.com/custommortgageinc/" class=3D"">Instagra=
+m</a><br class=3D""><br class=3D""></div></div>
+</div>
+<div><br class=3D""><blockquote type=3D"cite" class=3D""><div class=3D"">On J=
+ul 3, 2018, at 5:19 PM, George H. &lt;<a href=3D"mailto:geolrp@gmail.com" cl=
+ass=3D"">geolrp@gmail.com</a>&gt; wrote:</div><br class=3D"Apple-interchange=
+-newline"><div class=3D""><span style=3D"caret-color: rgb(0, 0, 0); font-fam=
+ily: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: norm=
+al; font-weight: normal; letter-spacing: normal; text-align: start; text-ind=
+ent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -web=
+kit-text-stroke-width: 0px; text-decoration: none; background-color: rgba(25=
+5, 255, 255, 0);" class=3D"">George, he can only provide May and June, July i=
+s not ready. Usually doesn=E2=80=99t get that till about the 15th of the mon=
+th, that=E2=80=99s Chase Private wealth management policy.</span><div style=3D=
+"caret-color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-st=
+yle: normal; font-variant-caps: normal; font-weight: normal; letter-spacing:=
+ normal; text-align: start; text-indent: 0px; text-transform: none; white-sp=
+ace: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decorat=
+ion: none;" class=3D""><span style=3D"background-color: rgba(255, 255, 255, 0=
+);" class=3D""><br class=3D""></span></div><div style=3D"caret-color: rgb(0,=
+ 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-va=
+riant-caps: normal; font-weight: normal; letter-spacing: normal; text-align:=
+ start; text-indent: 0px; text-transform: none; white-space: normal; word-sp=
+acing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none;" class=3D=
+""><span style=3D"background-color: rgba(255, 255, 255, 0);" class=3D"">The o=
+ther accounts are closed, and condensed.</span></div><div style=3D"caret-col=
+or: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: norma=
+l; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; t=
+ext-align: start; text-indent: 0px; text-transform: none; white-space: norma=
+l; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none;=
+" class=3D""><span style=3D"background-color: rgba(255, 255, 255, 0);" class=
+=3D""><br class=3D""></span></div><div style=3D"caret-color: rgb(0, 0, 0); f=
+ont-family: Helvetica; font-size: 12px; font-style: normal; font-variant-cap=
+s: normal; font-weight: normal; letter-spacing: normal; text-align: start; t=
+ext-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0p=
+x; -webkit-text-stroke-width: 0px; text-decoration: none;" class=3D""><span s=
+tyle=3D"background-color: rgba(255, 255, 255, 0);" class=3D"">The corporatio=
+ns have been in Ben=E2=80=99s name and are only in his name, the CPA letter c=
+an only be a condition, I need approval or Ben is going to go in another dir=
+ection.</span></div><br style=3D"caret-color: rgb(0, 0, 0); font-family: Hel=
+vetica; font-size: 12px; font-style: normal; font-variant-caps: normal; font=
+-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px=
+; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text=
+-stroke-width: 0px; text-decoration: none;" class=3D""><div style=3D"caret-c=
+olor: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: nor=
+mal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal;=
+ text-align: start; text-indent: 0px; text-transform: none; white-space: nor=
+mal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: non=
+e;" class=3D""><div class=3D"">George H.&nbsp;</div><div class=3D"">818.585.=
+5203</div>Sent from my iPhone</div><div style=3D"caret-color: rgb(0, 0, 0); f=
+ont-family: Helvetica; font-size: 12px; font-style: normal; font-variant-cap=
+s: normal; font-weight: normal; letter-spacing: normal; text-align: start; t=
+ext-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0p=
+x; -webkit-text-stroke-width: 0px; text-decoration: none;" class=3D""><br cl=
+ass=3D"">On Jul 3, 2018, at 5:03 PM, Sam Tehranchi &lt;<a href=3D"mailto:sam=
+@c-mtg.com" style=3D"color: purple; text-decoration: underline;" class=3D"">=
+sam@c-mtg.com</a>&gt; wrote:<br class=3D""><br class=3D""></div><blockquote t=
+ype=3D"cite" style=3D"font-family: Helvetica; font-size: 12px; font-style: n=
+ormal; font-variant-caps: normal; font-weight: normal; letter-spacing: norma=
+l; orphans: auto; text-align: start; text-indent: 0px; text-transform: none;=
+ white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adj=
+ust: auto; -webkit-text-stroke-width: 0px; text-decoration: none;" class=3D"=
+"><div class=3D"">I don=E2=80=99t have the statements I requested, also, we w=
+ill need the cpa letter but not right now, they will condition for it.<br cl=
+ass=3D""><br class=3D""><div class=3D"">Sent from my iPhone</div><div class=3D=
+""><br class=3D"">On Jul 3, 2018, at 4:57 PM, George H. &lt;<a href=3D"mailt=
+o:geolrp@gmail.com" style=3D"color: purple; text-decoration: underline;" cla=
+ss=3D"">geolrp@gmail.com</a>&gt; wrote:<br class=3D""><br class=3D""></div><=
+blockquote type=3D"cite" class=3D""><div class=3D""><br class=3D""><blockquo=
+te type=3D"cite" class=3D""><div class=3D"">Hi George,<div class=3D""><br cl=
+ass=3D""></div><div class=3D"">Ben has provided April 2018 Chase what you ha=
+ve.<br class=3D""><div class=3D""><br class=3D""></div><div class=3D"">You h=
+ave the corporate information from the Secretary of State that shows that Be=
+n is the 100% owner of the corporation=E2=80=99s. They should not need anyth=
+ing else.</div><div class=3D""><br class=3D""></div><div class=3D"">The US b=
+ank accounts and BNP accounts have been closed remember everything is now wi=
+th Chase.</div><div class=3D""><br class=3D""></div><div class=3D"">I have r=
+equested me in June Chase and waiting for Ben to send.&nbsp;<br class=3D""><=
+br class=3D""><div class=3D"">Sent from my iPhone</div><div class=3D""><br c=
+lass=3D"">On Jul 3, 2018, at 3:32 PM, &lt;<a href=3D"mailto:geolrp@gmail.com=
+" style=3D"color: purple; text-decoration: underline;" class=3D"">geolrp@gma=
+il.com</a>&gt; &lt;<a href=3D"mailto:geolrp@gmail.com" style=3D"color: purpl=
+e; text-decoration: underline;" class=3D"">geolrp@gmail.com</a>&gt; wrote:<b=
+r class=3D""><br class=3D""></div><blockquote type=3D"cite" class=3D""><div c=
+lass=3D""><div class=3D"WordSection1" style=3D"page: WordSection1;"><div sty=
+le=3D"margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-=
+serif;" class=3D""><o:p class=3D"">&nbsp;</o:p></div><div style=3D"margin: 0=
+in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;" class=3D=
+"">Hi George,<o:p class=3D""></o:p></div><div class=3D""><div style=3D"margi=
+n: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;" cla=
+ss=3D""><o:p class=3D"">&nbsp;</o:p></div></div><div class=3D""><div style=3D=
+"margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif=
+;" class=3D"">We will now need additional bank statements since we are in Ju=
+ly:<o:p class=3D""></o:p></div></div><div class=3D""><div style=3D"margin: 0=
+in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;" class=3D=
+""><o:p class=3D"">&nbsp;</o:p></div></div><div class=3D""><div style=3D"mar=
+gin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;" c=
+lass=3D"">1. June, May and April 2018 for&nbsp;<b class=3D""><span style=3D"=
+font-size: 10pt; font-family: Helvetica, sans-serif; color: rgb(76, 76, 76);=
+" class=3D"">Chase statements for business account 2789</span></b><o:p class=
+=3D""></o:p></div></div><div class=3D""><div style=3D"margin: 0in 0in 0.0001=
+pt; font-size: 11pt; font-family: Calibri, sans-serif;" class=3D""><b class=3D=
+""><span style=3D"font-size: 10pt; font-family: Helvetica, sans-serif; color=
+: rgb(76, 76, 76);" class=3D"">2. June 2018 for US Bank Business account (en=
+ding&nbsp;6590)&nbsp;</span></b><b class=3D""><span style=3D"font-family: He=
+lvetica, sans-serif; color: rgb(76, 76, 76);" class=3D"">and Personal accoun=
+t (6574)</span></b><o:p class=3D""></o:p></div></div><div class=3D""><div cl=
+ass=3D""><div style=3D"margin: 0in 0in 0.0001pt; font-size: 11pt; font-famil=
+y: Calibri, sans-serif;" class=3D""><span style=3D"font-size: 10.5pt; font-f=
+amily: Lato, serif;" class=3D""><o:p class=3D"">&nbsp;</o:p></span></div></d=
+iv><div class=3D""><div style=3D"margin: 0in 0in 0.0001pt; font-size: 11pt; f=
+ont-family: Calibri, sans-serif;" class=3D""><span class=3D"colour"><b class=
+=3D""><span style=3D"font-size: 10pt; font-family: Helvetica, sans-serif; co=
+lor: rgb(76, 76, 76); background-color: white; background-position: initial i=
+nitial; background-repeat: initial initial;" class=3D"">3. We will also</spa=
+n></b></span><span class=3D"highlight"><b class=3D""><span style=3D"font-siz=
+e: 10.5pt; font-family: Lato, serif; background-color: white; background-pos=
+ition: initial initial; background-repeat: initial initial;" class=3D"">&nbs=
+p;need a&nbsp;CPA letter confirming two years of employment and that borrowe=
+r owns 100% of the business (or what ever percentage he owns, sample attache=
+d).</span></b></span><span style=3D"font-size: 10.5pt; font-family: Lato, se=
+rif;" class=3D""><o:p class=3D""></o:p></span></div></div><div class=3D""><d=
+iv style=3D"margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri,=
+ sans-serif;" class=3D""><span style=3D"font-size: 10.5pt; font-family: Lato=
+, serif;" class=3D""><o:p class=3D"">&nbsp;</o:p></span></div></div><div cla=
+ss=3D""><div style=3D"margin: 0in 0in 0.0001pt; font-size: 11pt; font-family=
+: Calibri, sans-serif;" class=3D""><span class=3D"colour"><span style=3D"fon=
+t-size: 10pt; font-family: Helvetica, sans-serif; color: rgb(76, 76, 76); ba=
+ckground-color: white; background-position: initial initial; background-repe=
+at: initial initial;" class=3D"">4.<span class=3D"Apple-converted-space">&nb=
+sp;</span><b class=3D"">I also have a question regarding what the below US B=
+ank accounts for, there are transfers being made into the US business bank a=
+ccounts we have on file from these bank accounts? Are these personal or busi=
+ness accounts? Are there additional reserves in these accounts because that w=
+ill help?</b></span></span><span style=3D"font-size: 10.5pt; font-family: La=
+to, serif;" class=3D""><o:p class=3D""></o:p></span></div></div><div class=3D=
+""><div style=3D"margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Cal=
+ibri, sans-serif;" class=3D""><span class=3D"colour"><span style=3D"font-siz=
+e: 10pt; font-family: Helvetica, sans-serif; color: rgb(76, 76, 76); backgro=
+und-color: white; background-position: initial initial; background-repeat: i=
+nitial initial;" class=3D"">157513268258, 157513846681, 157513268258, 157513=
+846590, 157510964073</span></span><span style=3D"font-size: 10.5pt; font-fam=
+ily: Lato, serif;" class=3D""><o:p class=3D""></o:p></span></div></div><div c=
+lass=3D""><div style=3D"margin: 0in 0in 0.0001pt; font-size: 11pt; font-fami=
+ly: Calibri, sans-serif;" class=3D""><span style=3D"font-size: 10pt; font-fa=
+mily: Helvetica, sans-serif; color: rgb(76, 76, 76); background-color: white=
+; background-position: initial initial; background-repeat: initial initial;"=
+ class=3D""><br class=3D""><br class=3D""></span><span style=3D"font-size: 1=
+0.5pt; font-family: Lato, serif;" class=3D""><o:p class=3D""></o:p></span></=
+div></div><div class=3D""><div class=3D""><div class=3D""><p class=3D"MsoNor=
+mal" style=3D"margin: 0in 0in 12pt; font-size: 11pt; font-family: Calibri, s=
+ans-serif;"><span style=3D"" class=3D"">Respectfully, &nbsp;&nbsp;</span></p=
+></div></div></div></div></div></div></blockquote></div></div></div></blockq=
+uote></div></blockquote></div></blockquote></div></blockquote></div></div></=
+div></div></blockquote><blockquote type=3D"cite"><div>&lt;statements.zip&gt;=
+</div></blockquote><blockquote type=3D"cite"><div><meta http-equiv=3D"Conten=
+t-Type" content=3D"text/html; charset=3Dus-ascii"><div><div></div></div></di=
+v></blockquote><blockquote type=3D"cite"><div>&lt;Screen Shot 2018-07-03 at 6=
+.01.05 PM.png&gt;</div></blockquote><blockquote type=3D"cite"><div><meta htt=
+p-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"><div clas=
+s=3D""><div class=3D""></div></div></div></blockquote></body></html>=
+
+--Apple-Mail-E3B26A84-BD5D-4322-A493-0DCA96378A72--

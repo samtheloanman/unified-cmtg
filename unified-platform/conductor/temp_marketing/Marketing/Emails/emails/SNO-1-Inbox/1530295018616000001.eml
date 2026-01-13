@@ -1,0 +1,650 @@
+Delivered-To: sam@c-mtg.com
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of reversefunding.com designates 74.203.184.58 as permitted sender)  smtp.mailfrom=pkulis@reversefunding.com
+Return-Path: <pkulis@reversefunding.com>
+Received: from zh-zg.zixsmbhosted.com (spfaus-c.zixsmbhosted.com [74.203.184.58]) by mx.zohomail.com
+	with SMTPS id 1530295016370136.42465533065183; Fri, 29 Jun 2018 10:56:56 -0700 (PDT)
+Received: from 127.0.0.1 (ZixVPM [127.0.0.1])
+	by Outbound.zh-zg.zixsmbhosted.com (Proprietary) with SMTP id 6CD64165201
+	for <sam@c-mtg.com>; Fri, 29 Jun 2018 12:56:55 -0500 (CDT)
+Received: from encrouter02.b.smb.prod.austin.zixnet.com (encrouter02.b.smb.prod.austin.zixnet.com [10.155.130.32])
+	by zh-zg.zixsmbhosted.com (Proprietary) with ESMTP id 5BDB6162A4F;
+	Fri, 29 Jun 2018 12:56:53 -0500 (CDT)
+Received: from NAM02-BL2-obe.outbound.protection.outlook.com (mail-bl2nam02lp0085.outbound.protection.outlook.com [207.46.163.85])
+	by encrouter02.b.smb.prod.austin.zixnet.com (Postfix) with ESMTPS id 25C9F873;
+	Fri, 29 Jun 2018 12:56:50 -0500 (CDT)
+Received: from BYAPR05MB4069.namprd05.prod.outlook.com (52.135.199.138) by
+ BYAPR05MB4359.namprd05.prod.outlook.com (52.135.202.140) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.930.10; Fri, 29 Jun 2018 17:56:46 +0000
+Received: from BYAPR05MB4069.namprd05.prod.outlook.com
+ ([fe80::8132:fc1b:f8ab:c723]) by BYAPR05MB4069.namprd05.prod.outlook.com
+ ([fe80::8132:fc1b:f8ab:c723%4]) with mapi id 15.20.0930.005; Fri, 29 Jun 2018
+ 17:56:46 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=reversemortgagefunding.onmicrosoft.com; s=selector1-reversefunding-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=3ej8nv6GGabfVg89y2j0uB58AUKzadfw7DSyf/zU6h0=;
+ b=fnSOUdGKKPeLYEw0gNUn4z4hdoutff6gCjCFgIV6MSM26chyHlqvfFMgNORrXrxtPZ2vg3l4EIc/xKLZX83qA8UDPw72pw+dVVtwalRlXUvGNUQa5gkhfkEuxUaP9jhtuxlqpkFUK2Kg8LgHtLu/DnCtaSxlv9TCqSB0MsshFqk=
+From: Peter Kulis <pkulis@reversefunding.com>
+Subject: 2018 Medicare Cards 
+Thread-Topic: 2018 Medicare Cards 
+Thread-Index: AdQP0jjb47518n+YQWyMe4Uv5ELR/A==
+Date: Fri, 29 Jun 2018 17:56:44 +0000
+Message-ID:<BYAPR05MB4069DE4E6C037792D7D29D3AB44E0@BYAPR05MB4069.namprd05.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=pkulis@reversefunding.com; 
+x-originating-ip: [75.134.5.43]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;BYAPR05MB4359;7:EhOEAN0brWyhLTYoBaWs/RegjDCykgXNICdXmiQSXa6xZtLyGn4AeYkMcjv1hrBz92dPiw/fYSjgVcfmBDTX67mvikdTqi6ImmDVuKCL/17NXlACukfLjihZhx2D7AAWU7A84uDxF7BXU2p6EW89+LSkgnaAr5cWLZr/plO35c6GyA/0LthEmMecbzqVUlohHXBEn3q07BJYxCUcb82ftnsq87Q9ujhuqAh4oLXEvM95vASllavCKlzEBcBV3BEI
+x-ms-office365-filtering-correlation-id: 31c2f2ab-10df-4706-ad8a-08d5dde9ae5b
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(7020095)(4652040)(8989117)(4534165)(4627221)(201703031133081)(201702281549075)(8990107)(5600026)(711020)(2017052603328)(7153060)(49563074)(7193020);SRVR:BYAPR05MB4359;
+x-ms-traffictypediagnostic: BYAPR05MB4359:
+x-microsoft-antispam-prvs: <BYAPR05MB4359F4982CAEB38EE346B036B44E0@BYAPR05MB4359.namprd05.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(28532068793085)(223705240517415)(281103095345865)(21748063052155);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(8211001083)(102415395)(6040522)(2401047)(5005006)(8121501046)(3231254)(944501410)(52105095)(93006095)(93001095)(10201501046)(3002001)(149027)(150027)(6041310)(20161123562045)(20161123558120)(20161123564045)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(20161123560045)(6072148)(201708071742011)(7699016);SRVR:BYAPR05MB4359;BCL:0;PCL:0;RULEID:;SRVR:BYAPR05MB4359;
+x-forefront-prvs: 0718908305
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(396003)(376002)(346002)(39850400004)(366004)(136003)(397534002)(189003)(199004)(861006)(106356001)(486006)(105586002)(2906002)(2900100001)(7116003)(316002)(1671002)(476003)(186003)(5660300001)(99936001)(256004)(14444005)(6506007)(53936002)(236005)(6116002)(3846002)(790700001)(33656002)(6436002)(65686004)(55016002)(6306002)(733005)(14454004)(54556002)(54896002)(9686003)(8676002)(881003)(7416002)(7336002)(7406005)(7366002)(7276002)(81156014)(66066001)(8936002)(86362001)(606006)(478600001)(76576003)(68736007)(99286004)(81166006)(109986005)(5250100002)(25786009)(7736002)(4743002)(39060400002)(102836004)(74316002)(97736004)(26005)(7696005);DIR:OUT;SFP:1102;SCL:1;SRVR:BYAPR05MB4359;H:BYAPR05MB4069.namprd05.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;MX:1;A:1;
+Received-SPF: pass (zoho.com: domain of reversefunding.com designates 74.203.184.58 as permitted sender) client-ip=74.203.184.58; envelope-from=pkulis@reversefunding.com; helo=zh-zg.zixsmbhosted.com;
+received-spf: None (protection.outlook.com: reversefunding.com does not
+ designate permitted sender hosts)
+x-microsoft-antispam-message-info: 7aa78SrJeTIsQYEFYvM6fQwBapLaq4Hqhpx2OeMRT3hZpLF7CEogrvkOuun9KomdfyCxI/hZOxunHpkKmu/0O2q8wqKxaCnEL/qETyGjoZ2aRFq3Ft138zy1BwjgF0kauNHCvgm8mbUuLrtRN5kVRuIS/QrwFg68TOdD0Usr1vxzp1yUixQ8g2MI8Pt7NNmzLQzY6+MtrFh3+jGfLMNtS4OQ5mcA9eq2fuNS0a2r0ltManJkAryWWZ9pDwcmtuGcD2l+J9zsz9BHJJSWsDVRcG/jovVtGM7jut6DWJKroc2hoXnH3RK5XqvG4sgvdcQKb6o+0wOGMg8N2vtspQpziMIEJsaru+/n7ERYj0b5+pM=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/related;
+	boundary="_005_BYAPR05MB4069DE4E6C037792D7D29D3AB44E0BYAPR05MB4069namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: reversefunding.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 31c2f2ab-10df-4706-ad8a-08d5dde9ae5b
+X-MS-Exchange-CrossTenant-originalarrivaltime: 29 Jun 2018 17:56:44.9842
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 24ab196b-50bb-45f6-8b1e-d53394cffc26
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BYAPR05MB4359
+X-ZIXHOSTED-CUSTOMER: rev07003
+X-VPM-HOST: zgw-rev07003.b.smb.prod.austin.zixnet.com
+X-VPM-GROUP-ID: 7e9f5e7f-15f8-4e6a-b9c9-53efc55ecdae
+X-VPM-MSG-ID: fc4d1eea-902d-4cee-b4db-21ca3bcd5b51
+X-VPM-ENC-REGIME: Plaintext
+X-VPM-IS-HYBRID: 0
+X-Zoho-Virus-Status: 1
+X-ZohoMail-DKIM: pass (identity @reversemortgagefunding.onmicrosoft.com)
+X-ZohoMail-Owner: <BYAPR05MB4069DE4E6C037792D7D29D3AB44E0@BYAPR05MB4069.namprd05.prod.outlook.com>+zmo_0_pkulis@reversefunding.com
+X-ZohoMail-Sender: fe80::8132:fc1b:f8ab:c723
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_1 IS_0 XOF A_88 COSF A88 LNKP UNK_O_0 UNK_U_0 FRD_HI_0 CCB_FRD_0 SIP_KGR_0 RPD_KN_0 CV_710IT_1 ZMHF_701_2  SC_3 SGR3_1_2_0_166_464
+X-ZM-MESSAGEID: 1530295018616000001
+X-ZohoMail-Status: 1
+
+
+--_005_BYAPR05MB4069DE4E6C037792D7D29D3AB44E0BYAPR05MB4069namp_
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR05MB4069DE4E6C037792D7D29D3AB44E0BYAPR05MB4069namp_"
+
+--_000_BYAPR05MB4069DE4E6C037792D7D29D3AB44E0BYAPR05MB4069namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Just thought I would share the following question about the new Medicare ca=
+rds that are coming out.
+
+
+Question:
+Medicare cards for 2018 are coming out starting this month and they no long=
+er will have the ssn on them. We aren't going to be able to use them for ss=
+n identification anymore, but will we accept the older ones even if the eff=
+ective dates have past?
+
+Answer:
+We can take expired Medicare cards-that along with our FraudGuard SSN valid=
+ation will suffice
+
+
+[cid:image001.jpg@01D40FB0.FD449CE0]
+
+
+Pete Kulis
+Account Executive / Sales Lead
+RMF
+Reverse Mortgage Funding LLC
+41 Pinelawn Rd - 2nd Floor
+Melville, NY 11747
+203-470-1608
+[cid:image001.jpg@01D1BBE7.90B9CBF0]
+pkulis@reversefunding.com<mailto:pkulis@reversefunding.com>
+www.reversefunding.com<http://www.reversefunding.com/>
+
+LQ: The industry's first loan qualification engine. Learn more.<https://par=
+tners.reversefunding.com/technology>
+
+
+For loan level questions please contact:
+Tammy Campanella, CRMP
+Relationship Manager
+tcampanella@reversefunding.com<mailto:tcampanella@reversefunding.com>
+Direct: (845) 391-5339
+
+CONFIDENTIALITY NOTICE: We intend only the individual or entity to which we=
+ have addressed this electronic message to view it. This message may contai=
+n privileged and/or confidential information or other information prohibite=
+d from unauthorized disclosure by law. You may not disseminate, distribute,=
+ copy or otherwise disclose the contents of this communication without our =
+prior written consent. If you are not the intended recipient, or if you hav=
+e received this communication in error, notify us immediately by return e-m=
+ail and delete the original message and any copies of it from your computer=
+ system. Reverse Mortgage Funding LLC (NMLS # 1019941).
+
+--_000_BYAPR05MB4069DE4E6C037792D7D29D3AB44E0BYAPR05MB4069namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" xmlns:m=3D"http://schema=
+s.microsoft.com/office/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html=
+40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">Just thought I would s=
+hare the following question about the new Medicare cards that are coming ou=
+t.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">Question:<o:p></o:p></=
+span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;color:#1F497D">Medic=
+are cards for 2018 are coming out starting this month and they no longer wi=
+ll have the ssn on them. We aren&#8217;t going to be able to use them for s=
+sn identification anymore, but will we accept
+ the older ones even if the effective dates have past?</span><span style=3D=
+"color:#1F497D"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">Answer:<o:p></o:p></sp=
+an></p>
+<p class=3D"MsoNormal">We can take expired Medicare cards&#8212;that along =
+with our FraudGuard SSN validation will suffice<o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><img width=3D"492" hei=
+ght=3D"246" id=3D"_x0000_i1025" src=3D"cid:image001.jpg@01D40FB0.FD449CE0">=
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span style=3D"color:#685F50">Pete Kulis<o:p></o:p><=
+/span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><span=
+ style=3D"color:#685F50">Account Executive / Sales Lead</span><span style=
+=3D"font-size:12.0pt;color:#685F50"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><b><s=
+pan style=3D"font-size:12.0pt;color:#003A4D">RM</span></b><b><span style=3D=
+"font-size:12.0pt;color:#B7A659">F
+<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><span=
+ style=3D"font-size:9.0pt;color:#685F50">Reverse Mortgage Funding LLC<o:p><=
+/o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><span=
+ style=3D"font-size:12.0pt;color:#685F50">41 Pinelawn Rd - 2<sup>nd</sup> F=
+loor<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><span=
+ style=3D"font-size:12.0pt;color:#685F50">Melville, NY 11747<o:p></o:p></sp=
+an></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><span=
+ style=3D"font-size:12.0pt;color:#685F50">203-470-1608<o:p></o:p></span></p=
+>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><span=
+ style=3D"color:#1F497D"><img width=3D"38" height=3D"39" id=3D"Picture_x002=
+0_1" src=3D"cid:image002.jpg@01D40FB0.FD449CE0" alt=3D"cid:image001.jpg@01D=
+1BBE7.90B9CBF0"></span><span style=3D"font-size:12.0pt;color:#685F50"><o:p>=
+</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><u><s=
+pan style=3D"font-size:12.0pt;color:#0563C1"><a href=3D"mailto:pkulis@rever=
+sefunding.com"><span style=3D"color:#0563C1">pkulis@reversefunding.com</spa=
+n></a>
+<o:p></o:p></span></u></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><span=
+ style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;co=
+lor:#1F497D"><a href=3D"http://www.reversefunding.com/"><span style=3D"font=
+-family:&quot;Calibri&quot;,sans-serif;color:#0563C1">www.reversefunding.co=
+m</span></a><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><span=
+ style=3D"color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><b><i><span style=3D"color:#B7A659">LQ: </span></i><=
+/b><b><i><span style=3D"color:#003A4D">The industry&#8217;s first loan qual=
+ification engine.</span></i></b><b><span style=3D"color:#B7A659">
+<i><u><a href=3D"https://partners.reversefunding.com/technology"><span styl=
+e=3D"color:#B7A659">Learn more.</span></a></u></i>
+</span></b><span style=3D"color:#1F497D"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><u><span style=3D"font-size:10.0pt;color:#0563C1"><o=
+:p><span style=3D"text-decoration:none">&nbsp;</span></o:p></span></u></p>
+<p class=3D"MsoNormal"><u><span style=3D"font-size:10.0pt;color:#0563C1"><o=
+:p><span style=3D"text-decoration:none">&nbsp;</span></o:p></span></u></p>
+<p class=3D"MsoNormal">For loan level questions please contact:<o:p></o:p><=
+/p>
+<p class=3D"MsoNormal"><b>Tammy Campanella, CRMP</b><span style=3D"font-siz=
+e:10.0pt;color:#1F497D"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in">Relat=
+ionship Manager<o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><a hr=
+ef=3D"mailto:tcampanella@reversefunding.com"><span style=3D"color:#0563C1">=
+tcampanella@reversefunding.com</span></a><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><b>Di=
+rect: (845) 391-5339<o:p></o:p></b></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+CONFIDENTIALITY NOTICE: We intend only the individual or entity to which we=
+ have addressed this electronic message to view it. This message may contai=
+n privileged and/or confidential information or other information prohibite=
+d from unauthorized disclosure by
+ law. You may not disseminate, distribute, copy or otherwise disclose the c=
+ontents of this communication without our prior written consent. If you are=
+ not the intended recipient, or if you have received this communication in =
+error, notify us immediately by
+ return e-mail and delete the original message and any copies of it from yo=
+ur computer system. Reverse Mortgage Funding LLC (NMLS # 1019941).
+</body>
+</html>
+
+--_000_BYAPR05MB4069DE4E6C037792D7D29D3AB44E0BYAPR05MB4069namp_--
+
+--_005_BYAPR05MB4069DE4E6C037792D7D29D3AB44E0BYAPR05MB4069namp_
+Content-Type: image/jpeg; name="image001.jpg"
+Content-Description: image001.jpg
+Content-Disposition: inline; filename="image001.jpg"; size=16957;
+	creation-date="Fri, 29 Jun 2018 17:56:38 GMT";
+	modification-date="Fri, 29 Jun 2018 17:56:38 GMT"
+Content-ID: <image001.jpg@01D40FB0.FD449CE0>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAD2AewDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2aiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAoopGGRQAtFNxnOevpQOcE5oAdRTCQaCe/IoAfRTOOaRuR/Fx6U
+ASUVGCSOTg04E8+lADqKaB3z1pDnpQA+imrnvTqACimE84OaUjoOaAHUUzLc8DPpS9AOaAHUU3nI
+Ofwp1ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFMPBJ5+lAD6KjBJHXPPNOB/LtQA6im59qQ5x15oAf
+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
+9V39FHJHsH9oYn+dnAf8Kl0v/n6uv++qP+FS6X/z9XX/AH1Xf0Uckewf2hif52cB/wAKl0v/AJ+r
+r/vqj/hUul/8/V1/31Xf0Uckewf2hif52cB/wqXS/wDn6uv++qP+FS6X/wA/V1/31Xf0Uckewf2h
+if52cB/wqXTByLq6z/vVt+GfBtr4Zlmlt5ZZGlGDvNdJRQopbEVMXWqR5ZyuhpzRzTqKo5gooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigD/2Q==
+
+--_005_BYAPR05MB4069DE4E6C037792D7D29D3AB44E0BYAPR05MB4069namp_
+Content-Type: image/jpeg; name="image002.jpg"
+Content-Description: image002.jpg
+Content-Disposition: inline; filename="image002.jpg"; size=1160;
+	creation-date="Fri, 29 Jun 2018 17:56:43 GMT";
+	modification-date="Fri, 29 Jun 2018 17:56:43 GMT"
+Content-ID: <image002.jpg@01D40FB0.FD449CE0>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAAnACYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD157yN
+LgxdQiF5G7IPf3/wrjNX13UNRmKWpkit8kKEOC2OuT+I4razvsL+f+KR9v4df61yLXs9uSkbYXJJ
+HY5x1/KvDzDEyso3sn2OqlTW4iw30cm5DKHDbcrJyT6DnnqK6fw/r1yZI7XUSWDj93Iw59OfXp1r
+EvPtMLPOfIdI3LJIeobIBxz6j/8AVSWt1LdXKPKQWXgEDFcdKo8PU91v07mjjzrU763uVn3rgrJG
+xVlPUe/0NFZFxObTUfOXOZYVJGe5/wD1CivoFiIrSRyum+g2ONiL6w/jOWjB74/+tiuXuGspCqSq
+8TRgbmVeWPcfn6+9dvqWnNcMtxbnbcJ6cbvx7H3rndQtLe+mP2yKW3uyOZIlzv8Aqh69Oorzsbh5
+Pb8eq/zNqc0Yq/2cUVGeYZYMW6keo6Vf022tp54o7N5XlZhww4Axyac3heONFlfUUaNiNoijLMc8
+jjPHFX9Pt8RNBpcDgPxJM5yxHpkcL9BzXJRw1TmXPFL8/wAC3NW0Zf8AJXU9SkVeYY0ChsZHH/1y
+35UVq2NkljBsXBYnLNjGT/hRXuRoJq81qczm+hNIzJE7Iu5gCQucZPpXPXGtmZSrW1vcLsViCDg8
+kN19MUUVjjKkoNKL3uOmkySS6cu0bWFo+SdxxwVXdjr/ALv60+01t5LqO3MMahpGTauc8Y/Doc0U
+Vi6k4tWe7/yL5U0btFFFeoc5/9k=
+
+--_005_BYAPR05MB4069DE4E6C037792D7D29D3AB44E0BYAPR05MB4069namp_--
+

@@ -1,0 +1,442 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 209.85.161.180 as permitted sender) client-ip=209.85.161.180; envelope-from=mikekhani@gmail.com; helo=mail-yw0-f180.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 209.85.161.180 as permitted sender)  smtp.mailfrom=mikekhani@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Received: from mail-yw0-f180.google.com (mail-yw0-f180.google.com [209.85.161.180]) by mx.zohomail.com
+	with SMTPS id 1532287529004794.0931219046496; Sun, 22 Jul 2018 12:25:29 -0700 (PDT)
+Received: by mail-yw0-f180.google.com with SMTP id q129-v6so6113003ywg.8
+        for <sam@c-mtg.com>; Sun, 22 Jul 2018 12:25:28 -0700 (PDT)
+Return-Path: <mikekhani@gmail.com>
+Return-Path: <mikekhani@gmail.com>
+Received: from [10.21.12.38] ([75.112.94.130])
+        by smtp.gmail.com with ESMTPSA id h9-v6sm3317027ywa.63.2018.07.22.12.25.26
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 22 Jul 2018 12:25:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:subject:from:in-reply-to:date:cc
+         :content-transfer-encoding:message-id:references:to;
+        bh=sbp/a9VKzFFG0j81ezvVvcBaExbTHi/HVJgT4+cPwpI=;
+        b=PaZ6oFKjM6i8q1eamSlMxzC8oXu3BCvoUDDiJ3CQFvWKaMo3gp2gy15eBbW7C7sxX6
+         9yozLGh9VKH2b746aLmOAfGcW8KsZlMzpndmAiufXNdGfcvErZsPTBeWysYDDHcOzSUw
+         FoTZB3hOT7PiK5YS7d6DD8Dh0vDleS0nsN2/2YurneCzW8uguC4LP1fwTTRDndB6E6ix
+         U3N4p7R7zm5GhfiDqCmhto+/UYLWS3YQMLKSEAjiwSplL/2d1vNqTvSpNCFMqAcVg5LV
+         xabGrXEwwzfu6nfUgBls+W01RPBjJtM+Z7EYVFkUBaFfWYQyHTU+uJ1Irgc1I1EZfbcQ
+         hUJQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:subject:from:in-reply-to:date:cc
+         :content-transfer-encoding:message-id:references:to;
+        bh=sbp/a9VKzFFG0j81ezvVvcBaExbTHi/HVJgT4+cPwpI=;
+        b=JEqlxaV5C+2I+pAld0GgYw4jrrIPRrbLgrvwE77A3neLBbYaUOu/x9RkMDjtKg1lb3
+         ZHGOmUKjMrJqzAnxwleYWAaQyD764slcIFFZscEKSW+VdFzJUQw2AbdheTnubW7wsxYl
+         0zjbWC1ym4EQ+3p7rB988AFoX0VT7Ewin3K1DCOT/jDnCjxpzcVeYpGnasx7M/FcCZh5
+         7mgvEzl/Drye6S8hjaIy/gPy8SR7xEq7XzK8R4wGgPD2Aa3K0NEraFLBk98A7IVMW1Ku
+         ghml4jNHxMKtqaJgwe0IwBsk78mVl4WGj+KPVZgx3wexIomGdAaR7W8GuESNjuaAxd9A
+         Q0EA==
+X-Gm-Message-State: AOUpUlFFEZWDy357Pag0CfXUZnULh6Y2jLHf73vZBupK5iAzhTs51UM3
+	UD52XZSPKTq0OTCXpe7FvnU=
+X-Google-Smtp-Source: AAOMgpdml5t4DvUJukCyZ5dykC4km0GuQmEHMkgjahY6t4HxM4bWgdel4ziWWnpU2bkBmU4uw/yVQw==
+X-Received: by 2002:a0d:d185:: with SMTP id t127-v6mr5449062ywd.227.1532287527760;
+        Sun, 22 Jul 2018 12:25:27 -0700 (PDT)
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-392153A7-2160-4C04-9407-B1F98F2776E6
+Mime-Version: 1.0
+Subject: Re: ETF
+From: Michael Khani <mikekhani@gmail.com>
+X-Mailer: iPhone Mail (15G77)
+In-Reply-To: <7FE9F6F6-9406-45F2-84C4-16BA94E86F90@c-mtg.com>
+Date: Sun, 22 Jul 2018 15:25:26 -0400
+Cc: mkhani@khanicapital.com
+Content-Transfer-Encoding: 7bit
+Message-ID:<D2F691CA-D7EF-4948-AA98-7A8E8BABC7C2@gmail.com>
+References: <30041941.20180619234018.5b2994628dbe05.69071890@mail186-139.suw21.mandrillapp.com> <086201d40827$409faca0$c1df05e0$@khanicapital.com> <7FE9F6F6-9406-45F2-84C4-16BA94E86F90@c-mtg.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail-Owner: <D2F691CA-D7EF-4948-AA98-7A8E8BABC7C2@gmail.com>+zmo_1_mikekhani@gmail.com
+X-ZohoMail-Sender: 75.112.94.130
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  PMF_BCN_IMG_GIP PMF_LNK_RPT_GIP PMF_LNK_IMG_GIP Ex_2 SS_6 IS_0 PIW IS_6 FMWL EML_0 DMN_0 EDR_100 SIP_KGR,RPD_KGR COSF LNKP UMS_WB FRD_NDS_0 UNK_O_0 UNK_U_0 SFP_WHTLST_0 SIP_KGR_0 RPD_KGR_0 HCOM_NSC_-3 CV_710IT_1 NAR_UD_0 CV_710LM_1  SC_-1 SGR3_1_2_0_168_651
+X-ZM-MESSAGEID: 1532287530377100001
+X-ZohoMail-Status: 1
+
+
+
+--Apple-Mail-392153A7-2160-4C04-9407-B1F98F2776E6
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+I=E2=80=99m not buying unless I see 7800 plus and holding it for at least 1 m=
+onth
+
+Khani Capital LLC.
+Michael Khani
+2932 Wilshire Boulevard Suite 205
+Santa Monica, CA. 90403
+Tel: 310-210-3373
+Fax: 310-453-9542
+www.khanicapital.com
+mkhani@khanicapital.com
+
+
+
+
+
+> On Jul 22, 2018, at 12:02 PM, Sam Tehranchi <sam@c-mtg.com> wrote:
+>=20
+> So you think its time to buy?
+>=20
+> Respectfully,  =20
+>=20
+> =20
+> Sam Tehranchi
+>=20
+> =20
+> COO
+> Custom Mortgage and Realty=20
+> NMLS CA # 1556995 - BRE CA # 02018146
+> =20
+> Direct 310.709.6304 -Efax 866.421.7694=20
+>=20
+> sam@c-mtg.com - www.c-mtg.com
+>=20
+> LinkedIn - Facebook - twitter - Instagram
+>=20
+>=20
+>> On Jun 19, 2018, at 4:42 PM, Michael Khani <mkhani@khanicapital.com> wrot=
+e:
+>>=20
+>> =20
+>> =20
+>> <image002.jpg>
+>> =20
+>> From: Patreon <bingo@patreon.com>=20
+>> Sent: Tuesday, June 19, 2018 4:40 PM
+>> To: Michael Khani <mkhani@khanicapital.com>
+>> Subject: Hyped On Crypto posted "Trade Setup"
+>> =20
+>>=20
+>>=20
+>> Hyped On Crypto posted
+>> Trade Setup
+>> Ticker: ADA/USD (Daily chart) =20
+>> Tradingview Link: https://www.tradingview.com/chart/ADAUSD/boWKq5Nz-ADA-U=
+SD/
+>>=20
+>> Entry:  15-16 cent range=20
+>>=20
+>> Stop Loss: 12.5 cent range=20
+>>=20
+>> Exit:  27 cent range=20
+>>=20
+>> Note:=20
+>>=20
+>> *Think you see a typo? Do not hesitate to let us know in the comments or v=
+ia Message! As always, be aware of Bitcoin's movements.
+>>=20
+>> CHECK IT OUT
+>> =20
+>>=20
+>> We love hearing from you!
+>> Have any questions? Please check out our help center.
+>>=20
+>> Patreon=C2=B7 Twitter=C2=B7 Facebook
+>> Patreon Inc. 230 9th Street, San Francisco, 94103 CA
+>> This email was sent to mkhani@khanicapital.com.=20
+>> You can change your preferences for Patreon emails under settings.
+>>=20
+>=20
+
+--Apple-Mail-392153A7-2160-4C04-9407-B1F98F2776E6
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto">I=E2=80=99m not buying unless I see 7800 pl=
+us and holding it for at least 1 month<br><br><div id=3D"AppleMailSignature"=
+>Khani Capital LLC.<div>Michael Khani</div><div>2932 Wilshire Boulevard Suit=
+e 205</div><div>Santa Monica, CA. 90403</div><div>Tel: 310-210-3373</div><di=
+v>Fax: 310-453-9542</div><div><a href=3D"http://www.khanicapital.com">www.kh=
+anicapital.com</a></div><div><a href=3D"mailto:mkhani@khanicapital.com">mkha=
+ni@khanicapital.com</a></div><div><br></div><div><br></div><div><br><div><br=
+></div></div></div><div><br>On Jul 22, 2018, at 12:02 PM, Sam Tehranchi &lt;=
+<a href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&gt; wrote:<br><br></div><=
+blockquote type=3D"cite"><div><meta http-equiv=3D"Content-Type" content=3D"t=
+ext/html; charset=3Dutf-8">So you think its time to buy?<div class=3D""><br c=
+lass=3D""><div class=3D"">
+<div dir=3D"auto" style=3D"caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); l=
+etter-spacing: normal; text-align: start; text-indent: 0px; text-transform: n=
+one; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px;=
+ text-decoration: none; word-wrap: break-word; -webkit-nbsp-mode: space; lin=
+e-break: after-white-space;" class=3D""><div dir=3D"auto" style=3D"color: rg=
+b(0, 0, 0); letter-spacing: normal; text-align: start; text-indent: 0px; tex=
+t-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stro=
+ke-width: 0px; word-wrap: break-word; -webkit-nbsp-mode: space; line-break: a=
+fter-white-space;" class=3D"">Respectfully, &nbsp;&nbsp;<br class=3D""><br c=
+lass=3D"">&nbsp;<br class=3D"">Sam Tehranchi<br class=3D""><br class=3D"">&n=
+bsp;<br class=3D"">COO<br class=3D"">Custom Mortgage and Realty&nbsp;<br cla=
+ss=3D"">NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br class=3D"">&nbsp;<br c=
+lass=3D"">Direct 310.709.6304 -Efax 866.421.7694&nbsp;<br class=3D""><br cla=
+ss=3D""><a href=3D"mailto:sam@c-mtg.com" class=3D"">sam@c-mtg.com</a>&nbsp;-=
+&nbsp;<a href=3D"http://www.c-mtg.com" class=3D"">www.c-mtg.com</a><br class=
+=3D""><br class=3D""><a href=3D"https://www.linkedin.com/company-beta/347796=
+4" class=3D"">LinkedIn</a>&nbsp;-&nbsp;<a href=3D"https://www.facebook.com/C=
+ustom-Mortgage-409842885783868/" class=3D"">Facebook</a>&nbsp;-&nbsp;<a href=
+=3D"https://twitter.com/custommortgage1" class=3D"">twitter</a>&nbsp;-&nbsp;=
+<a href=3D"https://www.instagram.com/custommortgageinc/" class=3D"">Instagra=
+m</a><br class=3D""><br class=3D""></div></div>
+</div>
+<div><br class=3D""><blockquote type=3D"cite" class=3D""><div class=3D"">On J=
+un 19, 2018, at 4:42 PM, Michael Khani &lt;<a href=3D"mailto:mkhani@khanicap=
+ital.com" class=3D"">mkhani@khanicapital.com</a>&gt; wrote:</div><br class=3D=
+"Apple-interchange-newline"><div class=3D""><div class=3D"WordSection1" styl=
+e=3D"page: WordSection1; caret-color: rgb(0, 0, 0); font-family: Helvetica; f=
+ont-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: n=
+ormal; letter-spacing: normal; text-align: start; text-indent: 0px; text-tra=
+nsform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-wi=
+dth: 0px; background-color: rgb(255, 255, 255); text-decoration: none;"><div=
+ style=3D"margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, s=
+ans-serif;" class=3D""><span style=3D"font-family: &quot;Century Gothic&quot=
+;, sans-serif;" class=3D""><o:p class=3D"">&nbsp;</o:p></span></div><div sty=
+le=3D"margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-=
+serif;" class=3D""><span style=3D"font-family: &quot;Century Gothic&quot;, s=
+ans-serif;" class=3D""><o:p class=3D"">&nbsp;</o:p></span></div><div class=3D=
+""><div style=3D"margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Cal=
+ibri, sans-serif;" class=3D""><span id=3D"cid:image002.jpg@01D407EC.93E98CE0=
+">&lt;image002.jpg&gt;</span><o:p class=3D""></o:p></div></div><div style=3D=
+"margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif=
+;" class=3D""><span style=3D"font-family: &quot;Century Gothic&quot;, sans-s=
+erif;" class=3D""><o:p class=3D"">&nbsp;</o:p></span></div><div class=3D""><=
+div style=3D"border-style: solid none none; border-top-width: 1pt; border-to=
+p-color: rgb(225, 225, 225); padding: 3pt 0in 0in;" class=3D""><div style=3D=
+"margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif=
+;" class=3D""><b class=3D"">From:</b><span class=3D"Apple-converted-space">&=
+nbsp;</span>Patreon &lt;<a href=3D"mailto:bingo@patreon.com" style=3D"color:=
+ purple; text-decoration: underline;" class=3D"">bingo@patreon.com</a>&gt;<s=
+pan class=3D"Apple-converted-space">&nbsp;</span><br class=3D""><b class=3D"=
+">Sent:</b><span class=3D"Apple-converted-space">&nbsp;</span>Tuesday, June 1=
+9, 2018 4:40 PM<br class=3D""><b class=3D"">To:</b><span class=3D"Apple-conv=
+erted-space">&nbsp;</span>Michael Khani &lt;<a href=3D"mailto:mkhani@khanica=
+pital.com" style=3D"color: purple; text-decoration: underline;" class=3D"">m=
+khani@khanicapital.com</a>&gt;<br class=3D""><b class=3D"">Subject:</b><span=
+ class=3D"Apple-converted-space">&nbsp;</span>Hyped On Crypto posted "Trade S=
+etup"<o:p class=3D""></o:p></div></div></div><div style=3D"margin: 0in 0in 0=
+.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;" class=3D""><o:p=
+ class=3D"">&nbsp;</o:p></div><table class=3D"MsoNormalTable" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" align=3D"left" width=3D"100%" style=3D"wi=
+dth: 706px; border-collapse: collapse;"><tbody class=3D""><tr class=3D""><td=
+ valign=3D"top" style=3D"padding: 0in;" class=3D""><div align=3D"center" cla=
+ss=3D""><table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" width=3D"600" style=3D"width: 6.25in; background-color: rgb(243=
+, 244, 245); border-collapse: collapse; background-position: initial initial=
+; background-repeat: initial initial;"><tbody class=3D""><tr class=3D""><td s=
+tyle=3D"padding: 0in;" class=3D""><div class=3D""><div style=3D"margin: 0in 0=
+in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; text-align: c=
+enter;" class=3D""><img width=3D"20" id=3D"_x0000_i1025" src=3D"https://c5.p=
+atreon.com/external/logo/rebrandLogoWordmarkNavy@2x.png" alt=3D"Patreon trad=
+emark" style=3D"width: 0.2083in;" class=3D""><o:p class=3D""></o:p></div></d=
+iv></td></tr><tr class=3D""><td style=3D"padding: 0in;" class=3D""><div clas=
+s=3D""><div class=3D""><div class=3D""><div class=3D""><div class=3D""><div s=
+tyle=3D"margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, san=
+s-serif; text-align: center; background-color: white;" class=3D""><span styl=
+e=3D"color: rgb(5, 45, 73);" class=3D""><a href=3D"http://email.patreon.com/=
+track/click/30041941/www.patreon.com?p=3DeyJzIjoiZWU3Z2F6WFBubkJnNnlVb1g1ZWR=
+CWXl0UE1rIiwidiI6MSwicCI6IntcInVcIjozMDA0MTk0MSxcInZcIjoxLFwidXJsXCI6XCJodHR=
+wczpcXFwvXFxcL3d3dy5wYXRyZW9uLmNvbVxcXC9IeXBlZE9uQ3J5cHRvXCIsXCJpZFwiOlwiMjA=
+zOWJhOGE0M2Q5NGUwNzg0OGFiNWVjOTQ4OTRiOGJcIixcInVybF9pZHNcIjpbXCJkZDBjNWYxNzB=
+mMGE5NGM2MWUzMWUxNjIxYTA2MjcyMTljYTBjY2QwXCJdfSJ9" target=3D"_self" style=3D=
+"color: purple; text-decoration: underline;" class=3D""><b class=3D""><span s=
+tyle=3D"color: rgb(249, 104, 84); text-decoration: none;" class=3D""><img bo=
+rder=3D"0" width=3D"50" height=3D"50" id=3D"_x0000_i1026" src=3D"https://c10=
+.patreonusercontent.com/3/eyJoIjozNjAsInciOjM2MH0%3D/patreon-media/user/9193=
+029/96019dc4cbd148d19eea891c245d3d81?token-time=3D2145916800&amp;token-hash=3D=
+eIiODrvh1DLaOJyQ6uhLygvMNBRSqiUwOsTi7qWj85A%3D" alt=3D"Creator Image" style=3D=
+"width: 0.5208in; height: 0.5208in;" class=3D""></span></b></a><o:p class=3D=
+""></o:p></span></div></div><div style=3D"margin: 0in 0in 0.0001pt; font-siz=
+e: 11pt; font-family: Calibri, sans-serif; text-align: center; background-co=
+lor: white;" class=3D""><span class=3D"sc-bxivhb"><span style=3D"color: rgb(=
+5, 45, 73);" class=3D""><a href=3D"http://email.patreon.com/track/click/3004=
+1941/www.patreon.com?p=3DeyJzIjoiZWU3Z2F6WFBubkJnNnlVb1g1ZWRCWXl0UE1rIiwidiI=
+6MSwicCI6IntcInVcIjozMDA0MTk0MSxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d=
+3dy5wYXRyZW9uLmNvbVxcXC9IeXBlZE9uQ3J5cHRvXCIsXCJpZFwiOlwiMjAzOWJhOGE0M2Q5NGU=
+wNzg0OGFiNWVjOTQ4OTRiOGJcIixcInVybF9pZHNcIjpbXCJkZDBjNWYxNzBmMGE5NGM2MWUzMWU=
+xNjIxYTA2MjcyMTljYTBjY2QwXCJdfSJ9" target=3D"_self" style=3D"color: purple; t=
+ext-decoration: underline;" class=3D""><b class=3D""><span style=3D"color: r=
+gb(5, 45, 73); text-decoration: none;" class=3D"">Hyped On Crypto</span></b>=
+</a><span class=3D"Apple-converted-space">&nbsp;</span>posted</span></span><=
+span style=3D"color: rgb(5, 45, 73);" class=3D""><o:p class=3D""></o:p></spa=
+n></div><div class=3D""><div class=3D""><div style=3D"margin: 0in 0in 0.0001=
+pt; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center; b=
+ackground-color: white;" class=3D""><span style=3D"color: rgb(5, 45, 73);" c=
+lass=3D""><a href=3D"https://www.patreon.com/posts/trade-setup-19554275?utm_=
+medium=3Dpost_notification_email&amp;utm_source=3Dpost_link&amp;utm_campaign=
+=3Dpatron_engagement&amp;token=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZW=
+Rpc19rZXkiOiJpbnN0YW50LWFjY2VzczozNDgyZjI4ZC04MzU4LTQ1NTUtOWEzYi02NmUzNmI3Y2=
+IxYzAifQ.HwjnJH2yqVyDge4XTsPLHr-5dP9QZGDdtjNFYzMn_hs" target=3D"_self" style=
+=3D"color: purple; text-decoration: underline;" class=3D""><b class=3D""><sp=
+an style=3D"color: rgb(5, 45, 73); text-decoration: none;" class=3D"">Trade S=
+etup</span></b></a><o:p class=3D""></o:p></span></div></div><div class=3D"">=
+<div style=3D"margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibr=
+i, sans-serif; background-color: white;" class=3D""><strong class=3D""><span=
+ style=3D"font-family: Calibri, sans-serif; color: rgb(28, 64, 89);" class=3D=
+"">Ticker:</span></strong><span style=3D"color: rgb(28, 64, 89);" class=3D""=
+><span class=3D"Apple-converted-space">&nbsp;</span>ADA/USD (Daily chart) &n=
+bsp;<o:p class=3D""></o:p></span></div><p style=3D"margin-right: 0in; margin=
+-bottom: 7.5pt; margin-left: 0in; background-color: white; background-positi=
+on: initial initial; background-repeat: initial initial;" class=3D""><strong=
+ class=3D""><span style=3D"font-family: Calibri, sans-serif; color: rgb(28, 6=
+4, 89);" class=3D"">Tradingview Link:<span class=3D"Apple-converted-space">&=
+nbsp;</span><a href=3D"http://email.patreon.com/track/click/30041941/www.tra=
+dingview.com?p=3DeyJzIjoiR3dSQzNwX3NVZERtZ1ZYNjBmSnQwUmhua0o4IiwidiI6MSwicCI=
+6IntcInVcIjozMDA0MTk0MSxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy50cmFk=
+aW5ndmlldy5jb21cXFwvY2hhcnRcXFwvQURBVVNEXFxcL2JvV0txNU56LUFEQS1VU0RcXFwvXCIs=
+XCJpZFwiOlwiMjAzOWJhOGE0M2Q5NGUwNzg0OGFiNWVjOTQ4OTRiOGJcIixcInVybF9pZHNcIjpb=
+XCJlMDkxMmJkZmJlYjlhYjE0MDJmYTMwMGI0NmMyYzAxNjA0MzNjYmE2XCJdfSJ9" target=3D"=
+_blank" style=3D"color: purple; text-decoration: underline;" class=3D"">http=
+s://www.tradingview.com/chart/ADAUSD/boWKq5Nz-ADA-USD/</a></span></strong><s=
+pan style=3D"color: rgb(28, 64, 89);" class=3D""><o:p class=3D""></o:p></spa=
+n></p><p style=3D"margin-right: 0in; margin-bottom: 7.5pt; margin-left: 0in;=
+ background-color: white; background-position: initial initial; background-r=
+epeat: initial initial;" class=3D""><strong class=3D""><span style=3D"font-f=
+amily: Calibri, sans-serif; color: rgb(28, 64, 89);" class=3D"">Entry:</span=
+></strong><span style=3D"color: rgb(28, 64, 89);" class=3D"">&nbsp; 15-16 ce=
+nt range&nbsp;<o:p class=3D""></o:p></span></p><p style=3D"margin-right: 0in=
+; margin-bottom: 7.5pt; margin-left: 0in; background-color: white; backgroun=
+d-position: initial initial; background-repeat: initial initial;" class=3D""=
+><strong class=3D""><span style=3D"font-family: Calibri, sans-serif; color: r=
+gb(28, 64, 89);" class=3D"">Stop</span></strong><span style=3D"color: rgb(28=
+, 64, 89);" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span><s=
+trong class=3D""><span style=3D"font-family: Calibri, sans-serif;" class=3D"=
+">Loss:</span></strong><span class=3D"Apple-converted-space">&nbsp;</span>12=
+.5 cent range&nbsp;<o:p class=3D""></o:p></span></p><p style=3D"margin-right=
+: 0in; margin-bottom: 7.5pt; margin-left: 0in; background-color: white; back=
+ground-position: initial initial; background-repeat: initial initial;" class=
+=3D""><strong class=3D""><span style=3D"font-family: Calibri, sans-serif; co=
+lor: rgb(28, 64, 89);" class=3D"">Exit:</span></strong><span style=3D"color:=
+ rgb(28, 64, 89);" class=3D""><span class=3D"Apple-converted-space">&nbsp;</=
+span>&nbsp;27 cent range&nbsp;<o:p class=3D""></o:p></span></p><p style=3D"m=
+argin-right: 0in; margin-bottom: 7.5pt; margin-left: 0in; background-color: w=
+hite; background-position: initial initial; background-repeat: initial initi=
+al;" class=3D""><strong class=3D""><span style=3D"font-family: Calibri, sans=
+-serif; color: rgb(28, 64, 89);" class=3D"">Note:</span></strong><span style=
+=3D"color: rgb(28, 64, 89);" class=3D"">&nbsp;<o:p class=3D""></o:p></span><=
+/p><p style=3D"margin-right: 0in; margin-bottom: 7.5pt; margin-left: 0in; ba=
+ckground-color: white; background-position: initial initial; background-repe=
+at: initial initial;" class=3D""><span style=3D"color: rgb(28, 64, 89);" cla=
+ss=3D"">*Think you see a typo? Do not hesitate to let us know in the comment=
+s or via Message! As always, be aware of Bitcoin's movements.<o:p class=3D""=
+></o:p></span></p></div><div class=3D""><div style=3D"margin: 0in 0in 0.0001=
+pt; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center; b=
+ackground-color: white;" class=3D""><span style=3D"color: rgb(5, 45, 73);" c=
+lass=3D""><a href=3D"https://www.patreon.com/posts/trade-setup-19554275?utm_=
+medium=3Dpost_notification_email&amp;utm_source=3Dpost_link&amp;utm_campaign=
+=3Dpatron_engagement&amp;token=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZW=
+Rpc19rZXkiOiJpbnN0YW50LWFjY2VzczozNDgyZjI4ZC04MzU4LTQ1NTUtOWEzYi02NmUzNmI3Y2=
+IxYzAifQ.HwjnJH2yqVyDge4XTsPLHr-5dP9QZGDdtjNFYzMn_hs" style=3D"color: purple=
+; text-decoration: underline;" class=3D""><b class=3D""><span style=3D"color=
+: white; text-transform: uppercase; border: 1.5pt solid rgb(249, 104, 84); p=
+adding: 0in; background-color: rgb(249, 104, 84); text-decoration: none; bac=
+kground-position: initial initial; background-repeat: initial initial;" clas=
+s=3D""><o:p class=3D""></o:p></span></b></a></span></div><div class=3D""><di=
+v style=3D"margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, s=
+ans-serif; text-align: center; background-color: white;" class=3D""><b class=
+=3D""><span style=3D"color: white; text-transform: uppercase; border: 1.5pt s=
+olid rgb(249, 104, 84); padding: 0in; background-color: rgb(249, 104, 84); b=
+ackground-position: initial initial; background-repeat: initial initial;" cl=
+ass=3D""><a href=3D"https://www.patreon.com/posts/trade-setup-19554275?utm_m=
+edium=3Dpost_notification_email&amp;utm_source=3Dpost_link&amp;utm_campaign=3D=
+patron_engagement&amp;token=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWRpc=
+19rZXkiOiJpbnN0YW50LWFjY2VzczozNDgyZjI4ZC04MzU4LTQ1NTUtOWEzYi02NmUzNmI3Y2IxY=
+zAifQ.HwjnJH2yqVyDge4XTsPLHr-5dP9QZGDdtjNFYzMn_hs" style=3D"color: purple; t=
+ext-decoration: underline;" class=3D""><span style=3D"color: white; text-dec=
+oration: none;" class=3D"">CHECK IT OUT</span><span style=3D"color: windowte=
+xt; text-transform: none; border: none; font-weight: normal; text-decoration=
+: none;" class=3D""><o:p class=3D""></o:p></span></a></span></b></div></div>=
+<div style=3D"margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibr=
+i, sans-serif; text-align: center; background-color: white;" class=3D""><spa=
+n style=3D"color: rgb(5, 45, 73);" class=3D""><o:p class=3D"">&nbsp;</o:p></=
+span></div></div></div></div></div></div></div></td></tr><tr class=3D""><td s=
+tyle=3D"padding: 0in;" class=3D""><div class=3D""><div class=3D""><div style=
+=3D"margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-se=
+rif; text-align: center;" class=3D""><span style=3D"color: rgb(5, 45, 73);" c=
+lass=3D""><img border=3D"0" width=3D"8" height=3D"8" id=3D"_x0000_i1027" src=
+=3D"https://c5.patreon.com/external/logo/rebrandLogoIconMark@2x.png" alt=3D"=
+Patreon trademark" style=3D"width: 0.0833in; height: 0.0833in;" class=3D""><=
+o:p class=3D""></o:p></span></div></div><div class=3D""><p class=3D"sc-ifakc=
+x" align=3D"center" style=3D"margin-right: 0in; margin-left: 0in; font-size:=
+ 11pt; font-family: Calibri, sans-serif; text-align: center;"><span style=3D=
+"color: rgb(79, 104, 122);" class=3D"">We love hearing from you!<br class=3D=
+"">Have any questions? Please check out our<span class=3D"Apple-converted-sp=
+ace">&nbsp;</span><a href=3D"http://email.patreon.com/track/click/30041941/s=
+upport.patreon.com?p=3DeyJzIjoiVkNFa1VwTk9ySzNuWDZjc1JmN21iMEVGaUQ4IiwidiI6M=
+SwicCI6IntcInVcIjozMDA0MTk0MSxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3N1c=
+HBvcnQucGF0cmVvbi5jb21cIixcImlkXCI6XCIyMDM5YmE4YTQzZDk0ZTA3ODQ4YWI1ZWM5NDg5N=
+GI4YlwiLFwidXJsX2lkc1wiOltcIjFjZTg3MGZiMDAwMWVkNjRjNDc5ZjNiY2JiMDJiMjY1MjI3N=
+zE2NTNcIl19In0" target=3D"_self" style=3D"color: purple; text-decoration: un=
+derline;" class=3D""><b class=3D""><span style=3D"color: rgb(249, 104, 84); t=
+ext-decoration: none;" class=3D"">help center</span></b></a>.<o:p class=3D""=
+></o:p></span></p></div><div class=3D""><div style=3D"margin: 0in 0in 0.0001=
+pt; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;" c=
+lass=3D""><span style=3D"color: rgb(5, 45, 73);" class=3D""><a href=3D"http:=
+//email.patreon.com/track/click/30041941/www.patreon.com?p=3DeyJzIjoickU5dUR=
+ZRHVZcVlzdENlMl9faEc4WWJDX09zIiwidiI6MSwicCI6IntcInVcIjozMDA0MTk0MSxcInZcIjo=
+xLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy5wYXRyZW9uLmNvbVwiLFwiaWRcIjpcIjIwMzl=
+iYThhNDNkOTRlMDc4NDhhYjVlYzk0ODk0YjhiXCIsXCJ1cmxfaWRzXCI6W1wiYWEyY2Q0NzQzZTFh=
+YjI3ZDY4ZWUzZTUwYTBkODA4YjY4MWI3ODlmNFwiXX0ifQ" target=3D"_self" style=3D"co=
+lor: purple; text-decoration: underline;" class=3D""><b class=3D""><span sty=
+le=3D"color: rgb(249, 104, 84); text-decoration: none;" class=3D"">Patreon</=
+span></b></a>=C2=B7<span class=3D"Apple-converted-space">&nbsp;</span><a hre=
+f=3D"http://email.patreon.com/track/click/30041941/www.twitter.com?p=3DeyJzI=
+joiVkI2dmJWQi1FUlU5OG9YNmowYTdTUlgzS013IiwidiI6MSwicCI6IntcInVcIjozMDA0MTk0M=
+SxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy50d2l0dGVyLmNvbVxcXC9wYXRyZ=
+W9uXCIsXCJpZFwiOlwiMjAzOWJhOGE0M2Q5NGUwNzg0OGFiNWVjOTQ4OTRiOGJcIixcInVybF9pZ=
+HNcIjpbXCJmODVmMjBlYTg1MjgyZjIyYjBjMzdkZmE0MjRhOGQzZTQ0NjMyYjA1XCJdfSJ9" tar=
+get=3D"_self" style=3D"color: purple; text-decoration: underline;" class=3D"=
+"><b class=3D""><span style=3D"color: rgb(249, 104, 84); text-decoration: no=
+ne;" class=3D"">Twitter</span></b></a>=C2=B7<span class=3D"Apple-converted-s=
+pace">&nbsp;</span><a href=3D"http://email.patreon.com/track/click/30041941/=
+www.facebook.com?p=3DeyJzIjoiamM5LThwYnlRanhXeHFVbmFSQm5sQVpGa1BNIiwidiI6MSw=
+icCI6IntcInVcIjozMDA0MTk0MSxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy5=
+mYWNlYm9vay5jb21cXFwvcGF0cmVvblwiLFwiaWRcIjpcIjIwMzliYThhNDNkOTRlMDc4NDhhYjV=
+lYzk0ODk0YjhiXCIsXCJ1cmxfaWRzXCI6W1wiN2ZmNDJmZjdjMTY0ZTBhZTg2ODhiODMxZGI4MDU=
+4MjQ1MjEyYTFkNVwiXX0ifQ" target=3D"_self" style=3D"color: purple; text-decor=
+ation: underline;" class=3D""><b class=3D""><span style=3D"color: rgb(249, 1=
+04, 84); text-decoration: none;" class=3D"">Facebook</span></b></a><o:p clas=
+s=3D""></o:p></span></div></div><div style=3D"margin: 0in 0in 0.0001pt; font=
+-size: 1rem; font-family: Calibri, sans-serif; letter-spacing: inherit; opac=
+ity: 1; text-align: inherit; text-transform: inherit; transition: all 300ms c=
+ubic-bezier(0.19, 1, 0.22, 1); -webkit-user-select: inherit;" class=3D""><sp=
+an style=3D"color: rgb(79, 104, 122);" class=3D"">Patreon Inc. 230 9th Stree=
+t, San Francisco, 94103 CA<o:p class=3D""></o:p></span></div><div style=3D"m=
+argin: 0.5rem 0rem; font-size: 1rem; font-family: Calibri, sans-serif; lette=
+r-spacing: inherit; opacity: 1; text-align: inherit; text-transform: inherit=
+; transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1); -webkit-user-select:=
+ inherit;" class=3D""><span style=3D"color: rgb(79, 104, 122);" class=3D"">T=
+his email was sent to<span class=3D"Apple-converted-space">&nbsp;</span><a h=
+ref=3D"mailto:mkhani@khanicapital.com" target=3D"_self" style=3D"color: purp=
+le; text-decoration: underline;" class=3D""><b class=3D""><span style=3D"col=
+or: rgb(249, 104, 84); text-decoration: none;" class=3D"">mkhani@khanicapita=
+l.com</span></b></a>.<span class=3D"Apple-converted-space">&nbsp;</span><br c=
+lass=3D"">You can change your preferences for Patreon emails under<span clas=
+s=3D"Apple-converted-space">&nbsp;</span><a href=3D"http://email.patreon.com=
+/track/click/30041941/www.patreon.com?p=3DeyJzIjoiOUtkeXlIc2tZeWRLMmRuVy1JQ0=
+pxRTBhY0pVIiwidiI6MSwicCI6IntcInVcIjozMDA0MTk0MSxcInZcIjoxLFwidXJsXCI6XCJodH=
+RwczpcXFwvXFxcL3d3dy5wYXRyZW9uLmNvbVxcXC9zZXR0aW5nc1xcXC9lbWFpbFwiLFwiaWRcIj=
+pcIjIwMzliYThhNDNkOTRlMDc4NDhhYjVlYzk0ODk0YjhiXCIsXCJ1cmxfaWRzXCI6W1wiZGQwYz=
+VmMTcwZjBhOTRjNjFlMzFlMTYyMWEwNjI3MjE5Y2EwY2NkMFwiXX0ifQ" target=3D"_self" s=
+tyle=3D"color: purple; text-decoration: underline;" class=3D""><b class=3D""=
+><span style=3D"color: rgb(249, 104, 84); text-decoration: none;" class=3D""=
+>settings</span></b></a>.<o:p class=3D""></o:p></span></div></div></td></tr>=
+</tbody></table></div></td></tr></tbody></table><div style=3D"margin: 0in 0i=
+n 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;" class=3D""><=
+span lang=3D"EN" style=3D"font-family: Arial, sans-serif;" class=3D""><img b=
+order=3D"0" width=3D"1" height=3D"1" id=3D"_x0000_i1028" src=3D"http://email=
+.patreon.com/track/open.php?u=3D30041941&amp;id=3D2039ba8a43d94e07848ab5ec94=
+894b8b" style=3D"width: 0.0069in; height: 0.0069in;" class=3D""><o:p class=3D=
+""></o:p></span></div></div></div></blockquote></div><br class=3D""></div></=
+div></blockquote></body></html>=
+
+--Apple-Mail-392153A7-2160-4C04-9407-B1F98F2776E6--

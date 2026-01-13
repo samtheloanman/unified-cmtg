@@ -1,0 +1,302 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of rentcafe.com designates 209.235.107.124 as permitted sender) client-ip=209.235.107.124; envelope-from=no-reply@rentcafe.com; helo=smtp01.rentcafe.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of rentcafe.com designates 209.235.107.124 as permitted sender)  smtp.mailfrom=no-reply@rentcafe.com;
+	dmarc=pass(p=none dis=none)  header.from=rentcafe.com
+Return-Path: <no-reply@rentcafe.com>
+Received: from smtp01.rentcafe.com (smtp01.rentcafe.com [209.235.107.124]) by mx.zohomail.com
+	with SMTPS id 1530614848184801.882567817428; Tue, 3 Jul 2018 03:47:28 -0700 (PDT)
+Received: from [10.97.90.165] ([10.71.108.10])
+	by smtp01.rentcafe.com (8.14.7/8.14.7) with ESMTP id w63AlQFh032651
+	for <sam@c-mtg.com>; Tue, 3 Jul 2018 05:47:26 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=rentcafe.com;
+	s=smtp-mc-082516; t=1530614846;
+	bh=E6oUZzyiywTXdSua+zGTotrpxPfszQfPZXS3nheq5qk=;
+	h=From:Reply-To:To:Cc:Subject:From;
+	b=fRi1vyYgIFPV8UCD51rPCTWx4Oz4MSgzeUpbHIdHNmPraV8E7ctHVsPiZ6//V41r8
+	 cdQhkPuXRd6VDi2c8Iqe39mL6HLbT6jdJ/lTkBK3ZURgy1DZpFlu7R/qC/m/SBeWzh
+	 RZc9jXX4snceRqXE7MyC0pi71eIPqSHaI2yGFRJM=
+Date: Tue, 3 Jul 2018 05:47:26 -0500
+Message-ID:<201807031047.w63AlQFh032651@smtp01.rentcafe.com>
+From: Intergroup <no-reply@rentcafe.com>
+Reply-To: noreply@intergroup.com
+To: sam@c-mtg.com
+Cc: 
+Subject: Payment Confirmation
+MIME-Version: 1.0
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+X-RCafeSMTP-Information: www.yardi.com
+X-RCafeSMTP-ID: w63AlQFh032651
+X-RCafeSMTP-Server: tycmail14
+X-ZohoMail-DKIM: pass (identity @rentcafe.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_7 RF_0 S_166
+X-ZM-MESSAGEID: 1530614849322000001
+X-ZohoMail-Status: 1
+
+
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"720"=
+ bgcolor=3D"#245c73">
+     <tbody>
+         <tr>
+             <td valign=3D"top" align=3D"center">
+             <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" w=
+idth=3D"710">
+                 <tbody>
+                     <tr>
+                         <td valign=3D"top" align=3D"center">
+                         <table border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0" width=3D"710">
+                             <tbody>
+                                 <tr>
+                                 </tr>
+                             </tbody>
+                         </table>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td valign=3D"top" align=3D"center" style=3D"=
+box-shadow: 0px 0px 8px #333333">
+                         <table border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"2" width=3D"710" bgcolor=3D"#ffffff">
+                             <tbody>
+                                 <tr>
+                                     <td valign=3D"top">
+                                     <table border=3D"0" cellspacing=3D=
+"20" cellpadding=3D"0" width=3D"100%">
+                                         <tbody>
+                                             <tr>
+                                                 <td bgcolor=3D"#fffff=
+f" valign=3D"top" align=3D"left" style=3D"text-align: left; padding-bo=
+ttom: 12px; padding-left: 12px; padding-right: 12px; font: 9pt/14pt Ar=
+ial, Helvetica; color: #3a3a3a; padding-top: 12px">
+                                                 <p><div style=3D"font=
+:12px arial,sans-serif;">Dear <span data-selenium-id=3D'UserFirstName'=
+>Johnny</span>,<BR/><BR/>This email confirms we have received your one=
+-time online payment. Please review the payment information below and =
+keep this email for your personal records.<BR/><BR/><strong>PAYMENT IN=
+FORMATION</strong><BR/>Payment Confirmation Number: <span data-seleniu=
+m-id=3D'ConfirmationNumber'>600527983</span><BR/>Payment Account: <spa=
+n data-selenium-id=3D'PaymentAccount'>C MTG INC CA Chk  *****3268</spa=
+n><br/>Payment Amount: <span data-selenium-id=3D'PaymentAmount'><span =
+data-selenium-id=3D'PP2PayAmt'>$2,841.09</span><br/>*Service Fee: <spa=
+n data-selenium-id=3D'PP2ServiceFeeAmt'>$1.25</span><br/>Total Amount:=
+ <span data-selenium-id=3D'PP2TotalAmt'>$2,842.34</span><br/><br/><spa=
+n data-selenium-id=3D'PP2ServiceFeeTerms'><i>* The service fee is coll=
+ected by the Payment Agent, not the property management company, and w=
+ill not display on your ledger.  Service fee is non-refundable.</i></s=
+pan></span><BR/><BR/><span data-selenium-id=3D'ConfirmationMessageCC'>=
+</span><BR/>To view additional payment details, please log in to your =
+Resident Portal account at:<BR/> <a style=3D"text-decoration:underline=
+;" data-selenium-id=3D"ResidentLoginUrl" href=3D"https://www.rentcafe.=
+com/t/tec?ref=3DNDU4MzQzNjkw-Xn5erG2yJVQ%3d,NDgwMTEy-h8wVE7PJ2ek%3d">L=
+ogin</a>.<BR/><BR/>Your account security is important to us. If any of=
+ the above information is inaccurate, please contact us immediately.<B=
+R/></div></p>
+                                                 <div><span style=3D"c=
+olor: #3a3a3a; font-size: 9pt">Thank you,<br />
+                                                 <strong><span data-se=
+lenium-id=3D'PropertyName'>2301 Roscomare Road</span></strong><br />
+                                                 <span data-selenium-i=
+d=3D'PropertyAddress'>2301 Roscomare Rd</span><br />
+                                                 <span data-selenium-i=
+d=3D'PropertyCity'>Los Angeles</span>,<span data-selenium-id=3D'Proper=
+tyState'>CA</span> <span data-selenium-id=3D'PropertyZip'>90077</span>=
+</span></div>
+                                                 <p><br />
+                                                 <a style=3D"cursor: p=
+ointer" href=3D"http://www.rentcafe.com/blog/"><img alt=3D"" src=3D"ht=
+tps://www.rentcafe.com/Images/email/rentcafeblog_new.png" /></a>&nbsp;=
+<br />
+                                                 <br />
+                                                 &nbsp;</p>
+                                                 <p style=3D"font-fami=
+ly: Helvetica, Arial, sans-serif; color: #777777; font-size: 11px"><a =
+style=3D"color: #777777; cursor: pointer; text-decoration: none" href=3D=
+"www.RENTCafe.com">www.RENTCafe.com</a> &nbsp; | &nbsp; <a style=3D"co=
+lor: #777777; cursor: pointer" href=3D"mailto:Info@RENTCafe.com">Info@=
+RENTCafe.com</a> &nbsp; | &nbsp; (855)-RENT-CAFE</p>
+                                                 </td>
+                                             </tr>
+                                         </tbody>
+                                     </table>
+                                     </td>
+                                     <td bgcolor=3D"#efefef" valign=3D=
+"top" width=3D"222" style=3D"border-bottom: #ffffff 8px solid; border-=
+left: #ffffff 8px solid; padding-bottom: 0px; padding-left: 0px; paddi=
+ng-right: 0px; border-top: #ffffff 8px solid; border-right: #ffffff 8p=
+x solid; padding-top: 0px">
+                                     <table border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" width=3D"100%">
+                                         <tbody>
+                                             <tr>
+                                                 <td valign=3D"top">
+                                                 <table border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"10" width=3D"100%" style=3D"padding-le=
+ft: 10px">
+                                                     <tbody>
+                                                         <tr>
+                                                             <td valig=
+n=3D"top" style=3D"padding-bottom: 10px; padding-left: 10px; padding-r=
+ight: 10px; margin-left: 12px; padding-top: 10px">
+                                                             <table bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"10" width=3D"100%">
+                                                                 <tbod=
+y>
+                                                                     <=
+tr>
+                                                                      =
+   <td><a style=3D"cursor: pointer" href=3D"https://www.rentcafe.com">=
+<img alt=3D"" style=3D"text-align: left; margin-top: 6px; margin-left:=
+ 12px; vertical-align: top" src=3D"https://www.rentcafe.com/Images/ema=
+il/RENTCafelogo.png" /></a>
+                                                                      =
+   <h4 style=3D"margin: 6px 2px 0px 14px; font-family: Helvetica, Aria=
+l, sans-serif; color: #245c73; font-size: 14px; font-weight: bold">Apa=
+rtment Living Made Easy!</h4>
+                                                                      =
+   <p style=3D"line-height: 18px; font-family: Helvetica, Arial, sans-=
+serif; color: #555555; margin-left: 30px; font-size: 12px">- Execute a=
+nd renew leases<br />
+                                                                      =
+   - Complete resident surveys<br />
+                                                                      =
+   - Submit maintenance requests <br />
+                                                                      =
+   - Schedule auto-payments <br />
+                                                                      =
+   - Contact management</p>
+                                                                      =
+   </td>
+                                                                     <=
+/tr>
+                                                                     <=
+tr>
+                                                                      =
+   <td><img alt=3D"" width=3D"224" height=3D"6" style=3D"margin: 6px 0=
+px" src=3D"https://www.rentcafe.com/Images/email/bar2.png" /></td>
+                                                                     <=
+/tr>
+                                                                     <=
+tr>
+                                                                      =
+   <td>
+                                                                      =
+   <h4 style=3D"margin: 14px 2px 0px 14px; font-family: Helvetica, Ari=
+al, sans-serif; color: #245c73; font-size: 14px; font-weight: bold">Ch=
+eck Out Our Apps!</h4>
+                                                                      =
+   <img alt=3D"" style=3D"text-align: left; margin-left: 20px; vertica=
+l-align: top" src=3D"https://www.rentcafe.com/Images/email/rentcafe_mo=
+bile_apps.png" /> <a style=3D"cursor: pointer" href=3D"https://www.ren=
+tcafe.com/apartments/iphone-app.aspx"><img alt=3D"" style=3D"text-alig=
+n: left; margin-top: 6px; margin-left: 12px; vertical-align: top" src=3D=
+"https://www.rentcafe.com/Images/email/apt_search_app_btn.png" /></a> =
+<a style=3D"cursor: pointer" href=3D"https://www.rentcafe.com/apartmen=
+ts/iphone-resident-app.aspx"><img alt=3D"" style=3D"margin-top: 6px; m=
+argin-left: 2px" src=3D"https://www.rentcafe.com/Images/email/resident=
+_app_button.png" /></a><br />
+                                                                      =
+   <br />
+                                                                      =
+   &nbsp;</td>
+                                                                     <=
+/tr>
+                                                                     <=
+tr>
+                                                                      =
+   <td><img alt=3D"" width=3D"224" height=3D"6" style=3D"margin: 6px 0=
+px" src=3D"https://www.rentcafe.com/Images/email/bar2.png" /></td>
+                                                                     <=
+/tr>
+                                                                     <=
+tr>
+                                                                      =
+   <td><br />
+                                                                      =
+   <h4 style=3D"margin: 14px 2px 0px 14px; font-family: Helvetica, Ari=
+al, sans-serif; color: #245c73; font-size: 14px; font-weight: bold">Go=
+t Feedback?</h4>
+                                                                      =
+   <a style=3D"cursor: pointer" href=3D"https://www.rentcafe.com/apart=
+ments/survey.aspx"><img alt=3D"RENTCafe Feedback" style=3D"text-align:=
+ left; margin-top: 6px; margin-left: 12px; vertical-align: top" src=3D=
+"https://www.rentcafe.com/Images/email/gotfeedback.png" /></a></td>
+                                                                     <=
+/tr>
+                                                                     <=
+tr>
+                                                                      =
+   <td>
+                                                                      =
+   <p style=3D"font-family: Helvetica, Arial, sans-serif; color: #7777=
+77; font-size: 10px">&nbsp;</p>
+                                                                      =
+   </td>
+                                                                     <=
+/tr>
+                                                                 </tbo=
+dy>
+                                                             </table>
+                                                             </td>
+                                                         </tr>
+                                                     </tbody>
+                                                 </table>
+                                                 </td>
+                                             </tr>
+                                         </tbody>
+                                     </table>
+                                     </td>
+                                 </tr>
+                             </tbody>
+                         </table>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td bgcolor=3D"#245c73" height=3D"50" valign=3D=
+"middle" colspan=3D"3" align=3D"center" style=3D"font: 13px/16px Helve=
+tica,Arial; color: #ffffff">This is an auto-generated email. Please do=
+ not reply to this email.</td>
+                     </tr>
+                 </tbody>
+             </table>
+             </td>
+         </tr>
+     </tbody>
+ </table>
+ <p>&nbsp;</p><table align=3D"center">
+	<tr>
+		<td align=3D"center">
+			<table>
+				<tbody>
+					<tr>
+						<td align=3D"center" bgcolor=3D"#ffffff" colspan=3D"3" style=3D"=
+padding:15px;font: 10px Helvetica,Arial; color: #696969;border-bottom:=
+1px solid #ebebeb;" valign=3D"middle">
+							<p><span data-selenium-id=3D'PropertyAddress'>2301 Roscomare Rd=
+</span>, <span data-selenium-id=3D'PropertyCity'>Los Angeles</span>, <=
+span data-selenium-id=3D'PropertyState'>CA</span> <span data-selenium-=
+id=3D'PropertyZip'>90077</span></p>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" bgcolor=3D"#ffffff" colspan=3D"3" style=3D"=
+padding:15px;font: 10px Helvetica,Arial; color: #696969" valign=3D"mid=
+dle">
+							<p>This email was sent to sam@c-mtg.com. To ensure you continue=
+ receiving our emails, please add us to your address book or safe list=
+.<span data-selenium-id=3D'UnsubscribeUrl'> You can opt out of email n=
+otifications by <a style=3D"text-decoration:underline;" href=3D"https:=
+//www.rentcafe.com/residentservices/2301-bel-air-equity-inc/emailnotif=
+ications.aspx?eh=3Dc2FtQGMtbXRnLmNvbQ%3d%3d-WywRcyEfatM%3d&rType=3D1">=
+clicking here</a>.</span></p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+</table><img width=3D"1" height=3D"1" src=3D"https://www.rentcafe.com/=
+t/teo?ref=3DNDU4MzQzNjkw-Xn5erG2yJVQ%3d"/>=
+

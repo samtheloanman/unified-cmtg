@@ -1,0 +1,962 @@
+Delivered-To: sam@c-mtg.com
+Authentication-Results: mx.zohomail.com;
+	spf=permerror (zoho.com: Error in processing SPF Record)  smtp.mailfrom=Jim.Mitchell@impacmail.com
+Return-Path: <Jim.Mitchell@impacmail.com>
+Received: from NAM02-SN1-obe.outbound.protection.outlook.com (mail-sn1nam02on0089.outbound.protection.outlook.com [104.47.36.89]) by mx.zohomail.com
+	with SMTPS id 1531428449152719.7423970416074; Thu, 12 Jul 2018 13:47:29 -0700 (PDT)
+Received: from BN7PR07MB4596.namprd07.prod.outlook.com (52.135.249.22) by
+ BN7PR07MB4228.namprd07.prod.outlook.com (52.135.246.10) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.952.17; Thu, 12 Jul 2018 20:47:26 +0000
+Received: from BN7PR07MB4596.namprd07.prod.outlook.com
+ ([fe80::54a9:89b5:e48d:eb91]) by BN7PR07MB4596.namprd07.prod.outlook.com
+ ([fe80::54a9:89b5:e48d:eb91%3]) with mapi id 15.20.0930.022; Thu, 12 Jul 2018
+ 20:47:26 +0000
+From: Jim Mitchell <Jim.Mitchell@impacmail.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+Subject: RE: Custom Mortgage - Letter for Miguel Aguayo
+Thread-Topic: Custom Mortgage - Letter for Miguel Aguayo
+Thread-Index: AQHUAaA7xwSNdEwFwUaVh3bDn1w2/aSMPzkg
+Date: Thu, 12 Jul 2018 20:47:26 +0000
+Message-ID:<BN7PR07MB459614433FF8BC2B2F4441F994590@BN7PR07MB4596.namprd07.prod.outlook.com>
+References: <CY1PR07MB2329E5A099656124E65CEF8097780@CY1PR07MB2329.namprd07.prod.outlook.com>
+ <4815B61B-8511-4F19-B740-511A07C7D012@c-mtg.com>
+In-Reply-To: <4815B61B-8511-4F19-B740-511A07C7D012@c-mtg.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=Jim.Mitchell@impacmail.com; 
+x-originating-ip: [208.87.140.10]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;BN7PR07MB4228;7:KGt6DPRi/3ANgb57tdL9P5CI1Tvsf8zjXELclvtoSF7jtLNBVQqwKh7seDz57jg69X/5aqYLX6X7X/AoYZsgLquv2LPn+F/M+/P+eft8pAeQUAP1x4mGDT1mB0SNecaUjvpv08UgKkyFYY/+L4kqlHOWHmjbJBwlGFIfVpj8hJu3lYo0cK/5KYvFHqRjjjS07uTMQDkDyRHDK3AGUegCdMnt3FTHVPY2H/UTIq/cdJexxjDaMXv0wN+24c7UQOVl
+x-ms-exchange-antispam-srfa-diagnostics: SOS;
+x-ms-office365-filtering-correlation-id: bb312cae-2361-460c-bbb3-08d5e838ad27
+x-ms-office365-filtering-ht: Tenant
+x-microsoft-antispam: UriScan:(223705240517415);BCL:0;PCL:0;RULEID:(7020095)(4652040)(8989117)(5600053)(711020)(4534165)(4627221)(201703031133081)(201702281549075)(8990107)(48565401081)(2017052603328)(7153060)(49563074)(7193020);SRVR:BN7PR07MB4228;
+x-ms-traffictypediagnostic: BN7PR07MB4228:
+x-microsoft-antispam-prvs: <BN7PR07MB4228320C039266F1BCC4B19F94590@BN7PR07MB4228.namprd07.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(28532068793085)(148322886591682)(277860510277777)(28212336023702)(31418570063057)(116415991822766)(223705240517415)(128460861657000)(130873036417446)(86561027422486);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(8211001083)(102415395)(6040522)(2401047)(5005006)(8121501046)(3002001)(10201501046)(3231311)(944501410)(52105095)(93006095)(93001095)(6055026)(149027)(150027)(6041310)(20161123560045)(20161123564045)(20161123558120)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(20161123562045)(6072148)(201708071742011)(7699016);SRVR:BN7PR07MB4228;BCL:0;PCL:0;RULEID:;SRVR:BN7PR07MB4228;
+x-forefront-prvs: 0731AA2DE6
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(346002)(39860400002)(376002)(396003)(136003)(366004)(149574003)(199004)(189003)(7066003)(53376002)(5660300001)(5003630100001)(606006)(72206003)(14454004)(99936001)(6916009)(6246003)(53386004)(105586002)(99286004)(26005)(76176011)(53936002)(478600001)(6506007)(45080400002)(53546011)(102836004)(97736004)(7696005)(186003)(106356001)(33656002)(53366004)(256004)(81156014)(9686003)(2906002)(486006)(54896002)(55016002)(54556002)(6306002)(476003)(2900100001)(236005)(81166006)(8936002)(316002)(66066001)(8676002)(5250100002)(5024004)(790700001)(11346002)(3846002)(446003)(6436002)(6116002)(229853002)(74316002)(68736007)(25786009)(86362001)(7736002)(14444005)(111196014)(733005)(10090945008);DIR:OUT;SFP:1101;SCL:1;SRVR:BN7PR07MB4228;H:BN7PR07MB4596.namprd07.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;A:1;MX:1;
+Received-SPF: permerror (zoho.com: Error in processing SPF Record) client-ip=104.47.36.89; envelope-from=Jim.Mitchell@impacmail.com; helo=NAM02-SN1-obe.outbound.protection.outlook.com;
+received-spf: None (protection.outlook.com: impacmail.com does not designate
+ permitted sender hosts)
+x-microsoft-antispam-message-info: N2Sv8bdjNGUwUoeMXamJZYmus8+yBFTVf3VPDwE9do8bmaiW5KX1qsXqAqCtoyPBtb5ESguKLvDRB4fx9v+LY258jNi+DLWlTOCyeUU2hi9mkGB+gYFFprHZIKB2uzfqymE+cksIHAyKLssNeWwNYTC1//XqpMRf0UCM6oJZsXRSum/UGT4twvYqMN/CJQef0i3yLHUPPyasN5G4KDmJ1LsSvuxplKXCKSAfcAeNyj7mKqKPRY1YHgzYrmhmXlsGfyNbsFo7kfAMtbh/rOGFpIJhyaekTx5ecAtEpIYdQNveCKnj2trlIbCc03SPs9fAdWCP9ng+6e0VgrxBhdPHPiOo9XMTya0fSgSU4B8gngQ=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/related;
+	boundary="_005_BN7PR07MB459614433FF8BC2B2F4441F994590BN7PR07MB4596namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: impacmail.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: bb312cae-2361-460c-bbb3-08d5e838ad27
+X-MS-Exchange-CrossTenant-originalarrivaltime: 12 Jul 2018 20:47:26.3317
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 810beffb-78f3-46b0-8eea-fa83a187abcd
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN7PR07MB4228
+X-Zoho-Virus-Status: 1
+X-ZohoMail: RSF_5  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_12 RF_0 S_167 FRD_DI
+X-ZM-MESSAGEID: 1531428450371100001
+X-ZohoMail-Status: 1
+
+
+--_005_BN7PR07MB459614433FF8BC2B2F4441F994590BN7PR07MB4596namp_
+Content-Type: multipart/alternative;
+	boundary="_000_BN7PR07MB459614433FF8BC2B2F4441F994590BN7PR07MB4596namp_"
+
+--_000_BN7PR07MB459614433FF8BC2B2F4441F994590BN7PR07MB4596namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Sam
+Our QC department just notified me that we have not yet received the update=
+d QC plan. Can you get that to us and let me know if you have any questions=
+.
+
+Jim Mitchell
+National Sales Manger, Inside
+Impac Mortgage Corp.
+949.475.4917 - Office
+
+
+[cid:image001.jpg@01D26B4C.59D56710][cid:image002.jpg@01D26B4C.59D56710]
+Please consider the environment before printing.
+
+Secure Portal for Sensitive Info<https://submissions.impacmortgage.com/ryan=
+.carry>rmation
+www.ImpacCompanies.com<http://www.impaccompanies.com/>
+
+From: Sam Tehranchi <sam@c-mtg.com>
+Sent: Monday, June 11, 2018 9:21 AM
+To: Jim Mitchell <Jim.Mitchell@impacmail.com>
+Subject: Fwd: Custom Mortgage - Letter for Miguel Aguayo
+
+Good morning Jim
+
+Attached is the letter from Miguel, he was out of town over the weekend so =
+he just sent it to me.  Please let me know if you need anything else.
+
+Regarding the Prouty file, can you see if we can get ctc this morning so we=
+ can try to doc it out today.  Today is the COE and sellers are giving the =
+buyer a hard time regarding closing.
+
+
+
+Respectfully,
+
+
+
+
+Sam Tehranchi
+
+
+Custom Mortgage and Realty
+
+
+COO
+
+
+NMLS CA # 1556995 - BRE CA # 02018146
+
+
+
+
+D: 310.709.6304 - F: 866.421.7694
+
+
+sam@c-mtg.com<mailto:sam@c-mtg.com> - www.c-mtg.com<http://www.c-mtg.com>
+
+
+
+
+LinkedIn<https://www.linkedin.com/company-beta/3477964> - Facebook<https://=
+www.facebook.com/Custom-Mortgage-409842885783868/> - twitter<https://twitte=
+r.com/custommortgage1> - Instagram<https://www.instagram.com/custommortgage=
+inc/>
+
+
+Sent from my iPhone
+
+Begin forwarded message:
+From: miguel aguayo <maguayo1@hotmail.com<mailto:maguayo1@hotmail.com>>
+Date: June 11, 2018 at 8:41:18 AM PDT
+To: Sam Tehranchi <sam@c-mtg.com<mailto:sam@c-mtg.com>>
+Subject: Re: Fwd: Custom Mortgage - Letter for Miguel Aguayo
+
+here you go.
+
+
+
+Sent from Outlook<http://aka.ms/weboutlook>
+
+________________________________
+From: Sam Tehranchi <sam@c-mtg.com<mailto:sam@c-mtg.com>>
+Sent: Monday, June 11, 2018 5:24 AM
+To: maguayo1
+Subject: Re: Fwd: Custom Mortgage - Letter for Miguel Aguayo
+
+
+
+
+
+Respectfully,
+
+
+
+Sam Tehranchi
+
+Custom Mortgage and Realty
+
+COO
+
+NMLS CA # 1556995 - BRE CA # 02018146
+
+
+
+D: 310.709.6304 - F: 866.421.7694
+
+sam@c-mtg.com<mailto:sam@c-mtg.com> - www.c-mtg.com<http://www.c-mtg.com>
+
+
+
+LinkedIn<https://www.linkedin.com/company-beta/3477964> - Facebook<https://=
+www.facebook.com/Custom-Mortgage-409842885783868/> - twitter<https://twitte=
+r.com/custommortgage1> - Instagram<https://www.instagram.com/custommortgage=
+inc/>
+
+
+
+---- On Sun, 10 Jun 2018 22:19:33 -0700
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Forwarded message =3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D
+From : Jim Mitchell <Jim.Mitchell@impacmail.com<mailto:Jim.Mitchell@impacma=
+il.com>>
+To : "sam@c-mtg.com<mailto:sam@c-mtg.com>"<sam@c-mtg.com<mailto:sam@c-mtg.c=
+om>>
+Date : Fri, 08 Jun 2018 18:23:57 -0700
+Subject : Custom Mortgage - Letter for Miguel Aguayo
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Forwarded message =3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D
+
+
+
+
+Sam please find attached the document regarding the issue file. Please resp=
+ond in writing, sign and date and email back to me.
+
+We have moved your other file forward and will compete that file one time.
+
+Thank you.
+
+
+
+Jim Mitchell
+
+National Sales Manger, Inside
+
+Impac Mortgage Corp.
+
+949.475.4917 - Office
+
+
+
+
+[cid:image001.jpg@01D419E6.DCCB4AF0]
+[cid:image002.jpg@01D419E6.DCCB4AF0]
+
+
+
+Please consider the environment before printing.
+
+
+
+Secure Portal for Sensitive Info<https://submissions.impacmortgage.com/ryan=
+.carry>rmation
+www.ImpacCompanies.com<http://www.impaccompanies.com/>
+
+
+Attention: This e-mail message is privileged and confidential. If you are n=
+ot the intended recipient please delete the message and notify the sender. =
+Any views or opinions presented are solely those of the author.
+
+
+Attention: This e-mail message is privileged and confidential. If you are n=
+ot the intended recipient please delete the message and notify the sender. =
+Any views or opinions presented are solely those of the author.
+
+--_000_BN7PR07MB459614433FF8BC2B2F4441F994590BN7PR07MB4596namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.xxsize
+	{mso-style-name:x_x_size;}
+span.xxcolour
+	{mso-style-name:x_x_colour;}
+span.xxfont
+	{mso-style-name:x_x_font;}
+p.xxmsonormal, li.xxmsonormal, div.xxmsonormal
+	{mso-style-name:x_x_msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.EmailStyle23
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D">Hi Sam
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D">Our QC department just notified me th=
+at we have not yet received the updated QC plan. Can you get that to us and=
+ let me know if you have any questions.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#404040">Jim Mitchell<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#404040">National Sales&nbsp;Manger, Inside&nb=
+sp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#404040">Impac Mortgage Corp.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:#404040">949.475.4917 - Office
+<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:#404040"><o:p>&nbsp;</o:p></span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:#404040"><o:p>&nbsp;</o:p></span></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D"><img width=3D"236" height=3D"83" styl=
+e=3D"width:2.4583in;height:.8645in" id=3D"Picture_x0020_1" src=3D"cid:image=
+001.jpg@01D419E6.DCCB4AF0" alt=3D"cid:image001.jpg@01D26B4C.59D56710"><img =
+width=3D"32" height=3D"34" style=3D"width:.3333in;height:.3541in" id=3D"Pic=
+ture_x0020_2" src=3D"cid:image002.jpg@01D419E6.DCCB4AF0" alt=3D"cid:image00=
+2.jpg@01D26B4C.59D56710"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span lang=3D"IT" style=3D"font-size:7.5pt;font-f=
+amily:&quot;Tahoma&quot;,sans-serif;color:green">Please consider the enviro=
+nment before printing.</span></b><span lang=3D"IT" style=3D"font-size:10.0p=
+t;font-family:&quot;Arial&quot;,sans-serif;color:green">
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"IT" style=3D"font-size:10.0pt;font-fam=
+ily:&quot;Arial&quot;,sans-serif;color:green"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><u><span style=3D"font-size:10.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:red"><a href=3D"https://submissions.impacmo=
+rtgage.com/ryan.carry"><span style=3D"color:red">Secure Portal for Sensitiv=
+e Info</span></a>rmation</span></u><span style=3D"font-size:10.0pt;font-fam=
+ily:&quot;Calibri&quot;,sans-serif;color:#404040"><br>
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Calibri&quot;,sans=
+-serif;color:#1F497D"><a href=3D"http://www.impaccompanies.com/">www.ImpacC=
+ompanies.com</a></span><span style=3D"font-size:10.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D"><o:p></o:p></span></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif"> Sam Tehranchi &lt;sam@c-mtg.co=
+m&gt;
+<br>
+<b>Sent:</b> Monday, June 11, 2018 9:21 AM<br>
+<b>To:</b> Jim Mitchell &lt;Jim.Mitchell@impacmail.com&gt;<br>
+<b>Subject:</b> Fwd: Custom Mortgage - Letter for Miguel Aguayo<o:p></o:p><=
+/span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<p class=3D"MsoNormal">Good morning Jim <o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Attached is the letter from Miguel, he was out of to=
+wn over the weekend so he just sent it to me. &nbsp;Please let me know if y=
+ou need anything else.<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Regarding the Prouty file, can you see if we can get=
+ ctc this morning so we can try to doc it out today. &nbsp;Today is the COE=
+ and sellers are giving the buyer a hard time regarding closing.<o:p></o:p>=
+</p>
+</div>
+<div>
+<p class=3D"MsoNormal"><br>
+<br>
+<o:p></o:p></p>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div id=3D"x_divtagdefaultwrapper">
+<div>
+<div id=3D"x_x_Zm-_Id_-Sgn">
+<p><span style=3D"color:black">Respectfully,<br>
+<br>
+</span><o:p></o:p></p>
+<p><span style=3D"color:black"><br>
+<br>
+</span><o:p></o:p></p>
+<p><span style=3D"color:black">Sam Tehranchi<br>
+<br>
+</span><o:p></o:p></p>
+<p><b><span style=3D"color:black">Custom Mortgage and Realty</span></b><spa=
+n style=3D"color:black"><br>
+<br>
+</span><o:p></o:p></p>
+<p><span class=3D"xxsize"><span style=3D"color:black">COO</span></span><spa=
+n style=3D"color:black"><br>
+<br>
+</span><o:p></o:p></p>
+<p><span class=3D"xxsize"><span style=3D"color:black">NMLS CA # 1556995 - B=
+RE CA # 02018146</span></span><span style=3D"color:black"><br>
+<br>
+</span><o:p></o:p></p>
+<p><span style=3D"color:black"><br>
+<br>
+</span><o:p></o:p></p>
+<p><span style=3D"color:black">D:&nbsp;310.709.6304&nbsp;- F:&nbsp;866.421.=
+7694<br>
+<br>
+</span><o:p></o:p></p>
+<p><span style=3D"color:black"><a href=3D"mailto:sam@c-mtg.com" id=3D"LPlnk=
+681946">sam@c-mtg.com</a>&nbsp;-&nbsp;<a href=3D"http://www.c-mtg.com" id=
+=3D"LPlnk465289">www.c-mtg.com</a><br>
+<br>
+</span><o:p></o:p></p>
+<p><span style=3D"color:black"><br>
+<br>
+</span><o:p></o:p></p>
+<p><span style=3D"color:black"><a href=3D"https://www.linkedin.com/company-=
+beta/3477964" id=3D"LPlnk197626">LinkedIn</a><span class=3D"xxsize">&nbsp;-=
+&nbsp;</span><a href=3D"https://www.facebook.com/Custom-Mortgage-4098428857=
+83868/" id=3D"LPlnk449530">Facebook</a><span class=3D"xxsize">&nbsp;-&nbsp;=
+</span><a href=3D"https://twitter.com/custommortgage1" id=3D"LPlnk42705">tw=
+itter</a><span class=3D"xxsize">&nbsp;-&nbsp;</span><a href=3D"https://www.=
+instagram.com/custommortgageinc/" id=3D"LPlnk481769">Instagram</a><br>
+<br>
+</span><o:p></o:p></p>
+</div>
+</div>
+</div>
+</blockquote>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</div>
+</div>
+</div>
+<div id=3D"x_AppleMailSignature">
+<p class=3D"MsoNormal">Sent from my iPhone<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><br>
+Begin forwarded message:<o:p></o:p></p>
+</div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><b>From:</b> miguel a=
+guayo &lt;<a href=3D"mailto:maguayo1@hotmail.com">maguayo1@hotmail.com</a>&=
+gt;<br>
+<b>Date:</b> June 11, 2018 at 8:41:18 AM PDT<br>
+<b>To:</b> Sam Tehranchi &lt;<a href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com=
+</a>&gt;<br>
+<b>Subject:</b> <b>Re: Fwd: Custom Mortgage - Letter for Miguel Aguayo</b><=
+o:p></o:p></p>
+</div>
+</blockquote>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div id=3D"x_divtagdefaultwrapper">
+<p style=3D"margin:0in;margin-bottom:.0001pt"><span style=3D"font-family:&q=
+uot;Calibri&quot;,sans-serif;color:black">here you go.<o:p></o:p></span></p=
+>
+<p style=3D"margin:0in;margin-bottom:.0001pt"><span style=3D"font-family:&q=
+uot;Calibri&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+<div id=3D"x_Signature">
+<p><span style=3D"font-family:&quot;Calibri&quot;,sans-serif;color:black">S=
+ent from <a href=3D"http://aka.ms/weboutlook" id=3D"LPNoLP">
+Outlook</a><o:p></o:p></span></p>
+</div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span style=3D"font-f=
+amily:&quot;Calibri&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span><=
+/p>
+<div>
+<div class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Calibri&quot;,sans-serif;color:black">
+<hr size=3D"2" width=3D"98%" align=3D"center">
+</span></div>
+<div id=3D"x_divRplyFwdMsg">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:black">From:</span></b><span style=3D"font-=
+size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:black"> Sam Te=
+hranchi &lt;<a href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&gt;<br>
+<b>Sent:</b> Monday, June 11, 2018 5:24 AM<br>
+<b>To:</b> maguayo1<br>
+<b>Subject:</b> Re: Fwd: Custom Mortgage - Letter for Miguel Aguayo</span><=
+span style=3D"font-family:&quot;Calibri&quot;,sans-serif;color:black">
+<o:p></o:p></span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Calibri&quot;,sans-=
+serif;color:black">&nbsp;<o:p></o:p></span></p>
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+</div>
+<div id=3D"x_x_Zm-_Id_-Sgn">
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if;color:black"><o:p>&nbsp;</o:p></span></p>
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if;color:black">Respectfully,<o:p></o:p></span></p>
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if;color:black"><o:p>&nbsp;</o:p></span></p>
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if;color:black">Sam Tehranchi<o:p></o:p></span></p>
+<p><b><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-=
+serif;color:black">Custom Mortgage and Realty</span></b><span style=3D"font=
+-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:black"><o:p><=
+/o:p></span></p>
+<p><span class=3D"xxsize"><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif;color:black">COO</span></span><span style=3D"font=
+-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:black"><o:p><=
+/o:p></span></p>
+<p><span class=3D"xxsize"><span style=3D"font-size:7.5pt;font-family:&quot;=
+Verdana&quot;,sans-serif;color:black">NMLS CA # 1556995 - BRE CA # 02018146=
+</span></span><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quo=
+t;,sans-serif;color:black"><o:p></o:p></span></p>
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if;color:black"><o:p>&nbsp;</o:p></span></p>
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if;color:black">D:&nbsp;310.709.6304 - F:&nbsp;866.421.7694<o:p></o:p></spa=
+n></p>
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if;color:black"><a href=3D"mailto:sam@c-mtg.com" id=3D"LPlnk681946">sam@c-m=
+tg.com</a>&nbsp;-&nbsp;<a href=3D"http://www.c-mtg.com" id=3D"LPlnk465289">=
+www.c-mtg.com</a><o:p></o:p></span></p>
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if;color:black"><o:p>&nbsp;</o:p></span></p>
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if;color:black"><a href=3D"https://www.linkedin.com/company-beta/3477964" i=
+d=3D"LPlnk197626"><span style=3D"font-size:9.0pt;font-family:&quot;Helvetic=
+a&quot;,sans-serif">LinkedIn</span></a></span><span class=3D"xxsize"><span =
+style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif;color=
+:black">&nbsp;-&nbsp;</span></span><span style=3D"font-size:10.0pt;font-fam=
+ily:&quot;Verdana&quot;,sans-serif;color:black"><a href=3D"https://www.face=
+book.com/Custom-Mortgage-409842885783868/" id=3D"LPlnk449530"><span style=
+=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif">Facebook<=
+/span></a></span><span class=3D"xxsize"><span style=3D"font-size:9.0pt;font=
+-family:&quot;Helvetica&quot;,sans-serif;color:black">&nbsp;-&nbsp;</span><=
+/span><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-=
+serif;color:black"><a href=3D"https://twitter.com/custommortgage1" id=3D"LP=
+lnk42705"><span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,=
+sans-serif">twitter</span></a></span><span class=3D"xxsize"><span style=3D"=
+font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif;color:black">&=
+nbsp;-&nbsp;</span></span><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif;color:black"><a href=3D"https://www.instagram.com=
+/custommortgageinc/" id=3D"LPlnk481769"><span style=3D"font-size:9.0pt;font=
+-family:&quot;Helvetica&quot;,sans-serif">Instagram</span></a><o:p></o:p></=
+span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+</div>
+<div>
+<div id=3D"x_x_Zm-_Id_-Sgn1">
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black">---- On Sun, 10 Jun 2018 22:19:33 -0700=
+&nbsp;<o:p></o:p></span></p>
+</div>
+</div>
+<blockquote style=3D"border:none;border-left:solid #CCCCCC 1.0pt;padding:0i=
+n 0in 0in 5.0pt;margin-left:3.75pt;margin-right:0in">
+<div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black">=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Fo=
+rwarded message =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black">From : Jim Mitchell &lt;<a href=3D"mail=
+to:Jim.Mitchell@impacmail.com" target=3D"_blank" id=3D"LPlnk750923">Jim.Mit=
+chell@impacmail.com</a>&gt;<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black">To : &quot;<a href=3D"mailto:sam@c-mtg.=
+com" target=3D"_blank" id=3D"LPlnk964690">sam@c-mtg.com</a>&quot;&lt;<a hre=
+f=3D"mailto:sam@c-mtg.com" target=3D"_blank" id=3D"LPlnk24412">sam@c-mtg.co=
+m</a>&gt;<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black">Date : Fri, 08 Jun 2018 18:23:57 -0700<=
+o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black">Subject : Custom Mortgage - Letter for =
+Miguel Aguayo<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black">=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Fo=
+rwarded message =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></span></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+</div>
+</div>
+</div>
+<blockquote style=3D"border:none;border-left:solid #CCCCCC 1.0pt;padding:0i=
+n 0in 0in 5.0pt;margin-left:3.75pt;margin-right:0in">
+<div>
+<div>
+<p class=3D"xxmsonormal"><span style=3D"font-size:10.0pt;font-family:&quot;=
+Verdana&quot;,sans-serif;color:black">Sam please find attached the document=
+ regarding the issue file. Please respond in writing, sign and date and ema=
+il back to me.<o:p></o:p></span></p>
+<p class=3D"xxmsonormal"><span style=3D"font-size:10.0pt;font-family:&quot;=
+Verdana&quot;,sans-serif;color:black">We have moved your other file forward=
+ and will compete that file one time.<o:p></o:p></span></p>
+<p class=3D"xxmsonormal"><span style=3D"font-size:10.0pt;font-family:&quot;=
+Verdana&quot;,sans-serif;color:black">Thank you.<o:p></o:p></span></p>
+<p class=3D"xxmsonormal"><span style=3D"font-size:10.0pt;font-family:&quot;=
+Verdana&quot;,sans-serif;color:black">&nbsp;<o:p></o:p></span></p>
+<p class=3D"xxmsonormal"><span class=3D"xxsize"><span style=3D"font-size:10=
+.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:#404040">Jim Mitchell=
+</span></span><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quo=
+t;,sans-serif;color:black"><o:p></o:p></span></p>
+<p class=3D"xxmsonormal"><span class=3D"xxsize"><span style=3D"font-size:10=
+.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:#404040">National Sal=
+es&nbsp;Manger, Inside&nbsp;</span></span><span style=3D"font-size:10.0pt;f=
+ont-family:&quot;Verdana&quot;,sans-serif;color:black"><o:p></o:p></span></=
+p>
+<p class=3D"xxmsonormal"><span class=3D"xxsize"><span style=3D"font-size:10=
+.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:#404040">Impac Mortga=
+ge Corp.</span></span><span style=3D"font-size:10.0pt;font-family:&quot;Ver=
+dana&quot;,sans-serif;color:black"><o:p></o:p></span></p>
+<p class=3D"xxmsonormal"><span class=3D"xxsize"><b><span style=3D"font-size=
+:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:#404040">949.475.4=
+917 - Office</span></b></span><span style=3D"font-size:10.0pt;font-family:&=
+quot;Verdana&quot;,sans-serif;color:black"><o:p></o:p></span></p>
+<p class=3D"xxmsonormal"><span class=3D"xxsize"><b><span style=3D"font-size=
+:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:#404040">&nbsp;</s=
+pan></b></span><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&qu=
+ot;,sans-serif;color:black"><o:p></o:p></span></p>
+<p class=3D"xxmsonormal"><span class=3D"xxsize"><b><span style=3D"font-size=
+:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:#404040">&nbsp;</s=
+pan></b></span><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&qu=
+ot;,sans-serif;color:black"><o:p></o:p></span></p>
+</div>
+</div>
+</blockquote>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><img border=3D"0" width=3D"236" height=3D"83" style=
+=3D"width:2.4583in;height:.8645in" id=3D"_x0000_i1026" src=3D"cid:image001.=
+jpg@01D419E6.DCCB4AF0"><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><img border=3D"0" width=3D"32" height=3D"34" style=
+=3D"width:.3333in;height:.3541in" id=3D"_x0000_i1027" src=3D"cid:image002.j=
+pg@01D419E6.DCCB4AF0"><o:p></o:p></p>
+</div>
+<div>
+<div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div id=3D"x_divtagdefaultwrapper">
+<div>
+<div>
+<div>
+<div>
+<blockquote style=3D"border:none;border-left:solid #CCCCCC 1.0pt;padding:0i=
+n 0in 0in 5.0pt;margin-left:3.75pt;margin-right:0in">
+<blockquote style=3D"border:none;border-left:solid #CCCCCC 1.0pt;padding:0i=
+n 0in 0in 5.0pt;margin-left:3.75pt;margin-right:0in">
+<div>
+<div>
+<p class=3D"xxmsonormal"><span style=3D"font-size:10.0pt;font-family:&quot;=
+Verdana&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"xxmsonormal"><span class=3D"xxsize"><b><span style=3D"font-size=
+:7.5pt;font-family:&quot;Tahoma&quot;,sans-serif;color:green">Please consid=
+er the environment before printing.</span></b></span><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:black"><o:p></o:=
+p></span></p>
+<p class=3D"xxmsonormal"><span class=3D"xxsize"><span style=3D"font-size:10=
+.0pt;font-family:&quot;Arial&quot;,sans-serif;color:green">&nbsp;</span></s=
+pan><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-se=
+rif;color:black"><o:p></o:p></span></p>
+<p class=3D"xxmsonormal"><span class=3D"xxsize"><u><span style=3D"font-size=
+:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:red"><a href=3D"ht=
+tps://submissions.impacmortgage.com/ryan.carry" target=3D"_blank" id=3D"LPl=
+nk207006"><span class=3D"xxcolour"><span style=3D"color:red">Secure
+ Portal for Sensitive Info</span></span></a>rmation</span></u></span><span =
+style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:=
+#404040"><br>
+</span><span class=3D"xxsize"><span style=3D"font-size:10.0pt;font-family:&=
+quot;Verdana&quot;,sans-serif;color:#1F497D"><a href=3D"http://www.impaccom=
+panies.com/" target=3D"_blank" id=3D"LPlnk994239"><span class=3D"xxcolour">=
+www.ImpacCompanies.com</span></a></span></span><span style=3D"font-size:10.=
+0pt;font-family:&quot;Verdana&quot;,sans-serif;color:black"><o:p></o:p></sp=
+an></p>
+<p class=3D"xxmsonormal"><span style=3D"font-size:10.0pt;font-family:&quot;=
+Verdana&quot;,sans-serif;color:black">&nbsp;<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black">Attention: This e-mail message is privi=
+leged and confidential. If you are not the intended recipient please delete=
+ the message and notify the sender. Any views
+ or opinions presented are solely those of the author.<o:p></o:p></span></p=
+>
+</div>
+</div>
+</blockquote>
+</blockquote>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Calibri&quot;,sans-=
+serif;color:black"><o:p>&nbsp;</o:p></span></p>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+Attention: This e-mail message is privileged and confidential. If you are n=
+ot the intended recipient please delete the message and notify the sender. =
+Any views or opinions presented are solely those of the author.
+</body>
+</html>
+
+--_000_BN7PR07MB459614433FF8BC2B2F4441F994590BN7PR07MB4596namp_--
+
+--_005_BN7PR07MB459614433FF8BC2B2F4441F994590BN7PR07MB4596namp_
+Content-Type: image/jpeg; name="image001.jpg"
+Content-Description: image001.jpg
+Content-Disposition: inline; filename="image001.jpg"; size=4862;
+	creation-date="Thu, 12 Jul 2018 20:47:25 GMT";
+	modification-date="Thu, 12 Jul 2018 20:47:25 GMT"
+Content-ID: <image001.jpg@01D419E6.DCCB4AF0>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCABTAOwDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2aiii
+gArgLnxnqkXxht/DS+R/Z8ke45T58+WW659RXf15De/8nIWf/XEf+iGoA9anmW3gkmkOEjUsx9gM
+1y3w18Tt4p8JR3U77rqKV4ps9cg5X/x0irXxC1D+zPAWs3Abaxt2jU+7/KP/AEKvLfgrqE+i+Iv7
+MvAUg1e28+3yeGKlsEfUB/yFAHutZHivWl8PeF9Q1JiA0EJKZ7ueFH5kVr15R8a9QuL1dN8NaeDJ
+cXJa5lRf7qA4/kx/4DQB33hDU31nwhpV9K++Wa2QyN6uBhv1Bri/iF428RaJ4xsNF8Px20jXcKsi
+Spks5ZhjOQB0FW/gnqH2zwCkBbLWlxJFj0B+Yf8AoVYnjr/kuHhb/dh/9GNQAlx43+I/h+NrrWvD
+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
+UUAFFFFABRRRQAUUUUAf/9k=
+
+--_005_BN7PR07MB459614433FF8BC2B2F4441F994590BN7PR07MB4596namp_
+Content-Type: image/jpeg; name="image002.jpg"
+Content-Description: image002.jpg
+Content-Disposition: inline; filename="image002.jpg"; size=832;
+	creation-date="Thu, 12 Jul 2018 20:47:25 GMT";
+	modification-date="Thu, 12 Jul 2018 20:47:25 GMT"
+Content-ID: <image002.jpg@01D419E6.DCCB4AF0>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/wAALCAAiACABAREA/8QAHwAAAQUBAQEB
+AQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1Fh
+ByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZ
+WmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/9oACAEBAAA/APY5JUhjaSV1RFGWZjgA
+e5ribv4gXGsXRsPBFgdTnztkvZQy2sPuW/i+g/DNNtvG+peHJ47Lx1ZfZw2Fj1S2Ba3kOcfNgfIf
+84Art4LiG6gSa3lSWJxlXjYMrD1BFeZ/G7Rby78PjVI9QaK0sgBJaDOJWZ1APXHGe4rU8Qa5c+D9
+L0i20MaBaQSQkmO+kMQyAv3QCM9Tn8KseD9eu/F0eoW2tf2DdQIqDy7GQyg5zneCTxwMfjWT8L9E
+u7LVtcu4L7ZpIvbi2j08A7Y2WThhzxxkcVs/EyOHVPCl5o4vILe6mRJQZ9wQIrhmJIBwMKfyrnJr
+DxhqqxRXa+CL426HYJ42kZFwM9Rx2zUVg/inS4mn0yTwLaxzOsZkto2QSsSQoyo+bkNj6H0NdT8P
+YmsNImivb/T7m8vbya6JspN8Z3HnHHYqw/Cl8Qz2T+K0sNRispI5dMkkiS4RS0kiuMKM9eMnbWBY
+akltDaXtu2m3jBT9omt44i0bOyKhJj4wNxBB7NntVCHUhNFKpm0qJGuG8yUwQotoRJIqxnd8pLBA
+cnkc/wB6tDwtdyf8JtHCI7E2SyT29vNFbRqH2IrfIyHOTuJORtx0NelNFG7qzIrMvQkZIpI4IogR
+HEiA9QqgZpDbwshQwxlSdxBUYJ9acsMaY2xouOmB0r//2Q==
+
+--_005_BN7PR07MB459614433FF8BC2B2F4441F994590BN7PR07MB4596namp_--

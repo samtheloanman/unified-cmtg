@@ -1,0 +1,444 @@
+Delivered-To: sam@c-mtg.com
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of reversefunding.com designates 199.30.234.216 as permitted sender)  smtp.mailfrom=pkulis@reversefunding.com
+Return-Path: <pkulis@reversefunding.com>
+Received: from zh-zg.zixsmbhosted.com (spfdal-g.zixsmbhosted.com [199.30.234.216]) by mx.zohomail.com
+	with SMTPS id 1532107790006418.8750067827383; Fri, 20 Jul 2018 10:29:50 -0700 (PDT)
+Received: from 127.0.0.1 (ZixVPM [127.0.0.1])
+	by Outbound.zh-zg.zixsmbhosted.com (Proprietary) with SMTP id E3B1EA3767
+	for <sam@c-mtg.com>; Fri, 20 Jul 2018 12:29:48 -0500 (CDT)
+Received: from encrouter02.b.smb.prod.dallas.zixnet.com (encrouter02.b.smb.prod.dallas.zixnet.com [10.154.130.32])
+	by zh-zg.zixsmbhosted.com (Proprietary) with ESMTP id 4FD0FA3653;
+	Fri, 20 Jul 2018 12:29:48 -0500 (CDT)
+Received: from NAM03-BY2-obe.outbound.protection.outlook.com (mail-by2nam03lp0053.outbound.protection.outlook.com [216.32.180.53])
+	by encrouter02.b.smb.prod.dallas.zixnet.com (Postfix) with ESMTPS id 292A6E98;
+	Fri, 20 Jul 2018 12:29:46 -0500 (CDT)
+Received: from SN6PR05MB4606.namprd05.prod.outlook.com (52.135.114.147) by
+ SN6PR05MB4078.namprd05.prod.outlook.com (52.135.66.148) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.995.12; Fri, 20 Jul 2018 17:29:43 +0000
+Received: from SN6PR05MB4606.namprd05.prod.outlook.com
+ ([fe80::2c48:471b:b60:2695]) by SN6PR05MB4606.namprd05.prod.outlook.com
+ ([fe80::2c48:471b:b60:2695%4]) with mapi id 15.20.0995.008; Fri, 20 Jul 2018
+ 17:29:43 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=reversemortgagefunding.onmicrosoft.com; s=selector1-reversefunding-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=xQZ6DP0LIAq9bhKpeZbEhkCR8iYPFlL1Bmn6PaHCL+o=;
+ b=t5b63Yyx7QP2//oC8kTMUztgRvuUPOGmwZbWe1Y+KVzlDbukNtcLbh9MDCfyzXcfZEnQRFKXIxASnqtzuom5v13NxEdllZqjcD/6OKN4Y9zgh/sLxk2gY5r3oZdqQ1zMsJI5l4tiEcM9pwQCZwpEEG1cfwr5zCuAHEDCgFZ1wrY=
+From: Peter Kulis <pkulis@reversefunding.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+CC: Followers of CALL-BACK-2-27-5PM-PT <miguel@c-mtg.com>
+Subject: RE: New Broker Application: Custom Mortgage
+Thread-Topic: New Broker Application: Custom Mortgage
+Thread-Index: AQHUGu14rW7vcuPym0GKakbBOm5DrKSYaHOw
+Date: Fri, 20 Jul 2018 17:29:43 +0000
+Message-ID:<SN6PR05MB4606BA1F39B15BEC2BF0FCFBB4510@SN6PR05MB4606.namprd05.prod.outlook.com>
+References: <FB0F5497-EEA9-4325-8613-8A228F94CA91@c-mtg.com>
+In-Reply-To: <FB0F5497-EEA9-4325-8613-8A228F94CA91@c-mtg.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=pkulis@reversefunding.com; 
+x-originating-ip: [75.134.5.43]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;SN6PR05MB4078;6:cwtUOG6HakX/qPjp+flsbN3lJXIxHlf0T6/AIIi7A8FYOfBPwgm7NHbmuPHEsH0wGAtO/Tw2jY2giOHj7Tg7q7j8Ya92Y1lKgYIKmiEG8EwrV4nLMH3F4hYy3ch/NW2RXoY54YgFQxbV1QqMTEYnAw2CMe0h+Yz7HKgPfPfkwY1lYe7rT0Ul6GhCHSkQc+g5DqOV8we/BXgWpnOAEfBpnMRR9pYei/QIsce37+Ks6H+upJvrGiYo6PW/M6qEdlSWcXLXkPmbdSR/lLbVwO1xPMBrfonZ4xiVSPP6tEaSaVfgKYw5B6fSTLrXRc4FLnYkpNXzvPC+hqFSu6aKywVZS+YsS9xRtcoxQfeNUXd9D3hyGVGK1i7iTUscF7rB+lBDveDpgjb/Z2ATAfeMl3o39hcmJ/aLWf24/2gzr6VPKGGBt6h0T10zChhmhe0Q7Gcy68wBd3DzSSxQ3bROwTc5wA==;5:WGoVwNumiTFeJE2lOCZ/aCEY/AovR8A//qgmJRRrVf/xjdK+BNazQqgv9gSEBtcaGqTTCkP2FHtf7jgEdA8MNP4M3DrFvG6Q/mH8QgqVE5IIpcF519eaELOasTEbiIXpWUDpYXTF9LM05YRt/b3vnn0mf6XPfFwwv8cTXYVGyXE=;7:f3ANsdUrAmGvI2TTWVPFtE3/syZfurYYHWevRItL8U+v9mBmlb49CeRqjrxEgrpDdLbrPTF/vN4kIz9tLKlPOEpaXwpuvUG5ESt1/8bpfmGqPxdNSRX8/q+AQmtysfjDSpcM1rNxBDXMwTb3SlZErUtBgKCt1sjfg2d4VBHGswwP/Mbw4Wme+SqFsruhV/XWfBCSGA9fSrXlO2jdU7N8DOGLpo7yyIhDd0oB4enC5RX8a4ylWyCYGMXmMcMufZPo
+x-ms-exchange-antispam-srfa-diagnostics: SOS;
+x-ms-office365-filtering-correlation-id: b45b449f-625d-4f3c-ecc9-08d5ee6661a4
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(7020095)(4652040)(8989117)(5600053)(711020)(4534165)(4627221)(201703031133081)(201702281549075)(8990107)(2017052603328)(7153060)(49563074)(7193020);SRVR:SN6PR05MB4078;
+x-ms-traffictypediagnostic: SN6PR05MB4078:
+x-microsoft-antispam-prvs: <SN6PR05MB40788EB191F6500670A2685CB4510@SN6PR05MB4078.namprd05.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(28532068793085)(148322886591682)(277860510277777)(28212336023702)(31418570063057)(116415991822766)(223705240517415)(281103095345865)(128460861657000)(86561027422486);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(8211001083)(102415395)(6040522)(2401047)(8121501046)(5005006)(10201501046)(93006095)(93001095)(3002001)(3231311)(944501410)(52105095)(149027)(150027)(6041310)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(20161123560045)(20161123564045)(20161123562045)(20161123558120)(6072148)(201708071742011)(7699016);SRVR:SN6PR05MB4078;BCL:0;PCL:0;RULEID:;SRVR:SN6PR05MB4078;
+x-forefront-prvs: 073966E86B
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(136003)(346002)(396003)(366004)(39850400004)(376002)(149574003)(189003)(199004)(397534002)(45080400002)(229853002)(2900100001)(6916009)(486006)(97736004)(99936001)(99286004)(1680700002)(5660300001)(33656002)(256004)(14444005)(733005)(5024004)(2906002)(8676002)(81156014)(81166006)(6436002)(25786009)(106356001)(9326002)(8936002)(66066001)(105586002)(74316002)(316002)(790700001)(6116002)(3846002)(7736002)(55016002)(53546011)(102836004)(6506007)(478600001)(186003)(5250100002)(9686003)(26005)(76176011)(606006)(14454004)(236005)(476003)(68736007)(86362001)(6306002)(6246003)(11346002)(53386004)(53936002)(4326008)(450100002)(446003)(54556002)(54896002)(7696005);DIR:OUT;SFP:1102;SCL:1;SRVR:SN6PR05MB4078;H:SN6PR05MB4606.namprd05.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;MX:1;A:1;
+Received-SPF: pass (zoho.com: domain of reversefunding.com designates 199.30.234.216 as permitted sender) client-ip=199.30.234.216; envelope-from=pkulis@reversefunding.com; helo=zh-zg.zixsmbhosted.com;
+received-spf: None (protection.outlook.com: reversefunding.com does not
+ designate permitted sender hosts)
+x-microsoft-antispam-message-info: SgZQfAEMdFHdtZfdJX1+KGVbyR8nTOfNKBVtmvQEJqPYc7iKgSkvdfWp3uZwJ+Ke4zVn7Y1RHRWSwtJr/F8K0FJ35cdCiUCe7tlgEN0eabMRDf+OuYV/UVQ0SMe+59JNtB8rfH2x98J//pWJXWYl8c77hgDP/q3MkXcLMGQRIdsM+LCIxtVFodejQ1K8X99p2jtHQxQpWF/HMIm6vrBsq45vEQuN2PX/u7NDmc0KbTfUH5SShHtKx+AQNPbVcfhurWQNdJbRobr01u9bEliwMwVy9fFc51yygfCcE2l6tQWBbR4/0vBp5FguPIqgVmLbCltgk+7aCzvUFhNPJ2ZKxoPlhYaShYHezmAA+WljQxg=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/related;
+	boundary="_004_SN6PR05MB4606BA1F39B15BEC2BF0FCFBB4510SN6PR05MB4606namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: reversefunding.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: b45b449f-625d-4f3c-ecc9-08d5ee6661a4
+X-MS-Exchange-CrossTenant-originalarrivaltime: 20 Jul 2018 17:29:43.3972
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 24ab196b-50bb-45f6-8b1e-d53394cffc26
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN6PR05MB4078
+X-ZIXHOSTED-CUSTOMER: rev07003
+X-VPM-HOST: zgw-rev07003.b.smb.prod.dallas.zixnet.com
+X-VPM-GROUP-ID: ca4cbd4d-7d4c-4fb9-b0bc-ec59c646067f
+X-VPM-MSG-ID: 565236c9-130c-4b21-b451-70cfc0c62d07
+X-VPM-ENC-REGIME: Plaintext
+X-VPM-IS-HYBRID: 0
+X-Zoho-Virus-Status: 1
+X-ZohoMail-DKIM: pass (identity @reversemortgagefunding.onmicrosoft.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_168 SPK
+X-ZM-MESSAGEID: 1532107790658100001
+X-ZohoMail-Status: 1
+
+
+--_004_SN6PR05MB4606BA1F39B15BEC2BF0FCFBB4510SN6PR05MB4606namp_
+Content-Type: multipart/alternative;
+	boundary="_000_SN6PR05MB4606BA1F39B15BEC2BF0FCFBB4510SN6PR05MB4606namp_"
+
+--_000_SN6PR05MB4606BA1F39B15BEC2BF0FCFBB4510SN6PR05MB4606namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Sam,
+
+I am not sure why you are forwarding me items for Recovco Mortgage. Please =
+advise.
+
+Pete Kulis
+Account Executive / Sales Lead
+RMF
+Reverse Mortgage Funding LLC
+41 Pinelawn Rd - 2nd Floor
+Melville, NY 11747
+203-470-1608
+[cid:image001.jpg@01D1BBE7.90B9CBF0]
+pkulis@reversefunding.com<mailto:pkulis@reversefunding.com>
+www.reversefunding.com<http://www.reversefunding.com/>
+
+LQ: The industry's first loan qualification engine. Learn more.<https://par=
+tners.reversefunding.com/technology>
+
+
+For loan level questions please contact:
+Tammy Campanella, CRMP
+Relationship Manager
+tcampanella@reversefunding.com<mailto:tcampanella@reversefunding.com>
+Direct: (845) 391-5339
+
+From: Sam Tehranchi [mailto:sam@c-mtg.com]
+Sent: Friday, July 13, 2018 5:06 PM
+To: Peter Kulis <pkulis@reversefunding.com>
+Cc: Art Chandler <Art.Chandler@SproutMortgage.com>; Followers of CALL-BACK-=
+2-27-5PM-PT <miguel@c-mtg.com>
+Subject: New Broker Application: Custom Mortgage
+
+CAUTION: This email originated from outside of RMF. Do not click links or o=
+pen attachments unless you recognize the sender and know the content is saf=
+e.
+
+Hi Peter
+
+Attached are some additional documents that were provided by Art, our AE fo=
+r sprout regarding our appllication, please let us know if there is anythin=
+g else you need.
+
+We have several files we need to submit urgently so please expedite this re=
+quest.  Thank you
+
+Respectfully,
+
+
+Sam Tehranchi
+
+
+COO
+Custom Mortgage and Realty
+NMLS CA # 1556995 - BRE CA # 02018146
+
+Direct 310.709.6304 -Efax 866.421.7694
+
+sam@c-mtg.com<mailto:sam@c-mtg.com> - www.c-mtg.com<http://www.c-mtg.com>
+
+LinkedIn<https://www.linkedin.com/company-beta/3477964> - Facebook<https://=
+www.facebook.com/Custom-Mortgage-409842885783868/> - twitter<https://twitte=
+r.com/custommortgage1> - Instagram<https://www.instagram.com/custommortgage=
+inc/>
+CONFIDENTIALITY NOTICE: We intend only the individual or entity to which we=
+ have addressed this electronic message to view it. This message may contai=
+n privileged and/or confidential information or other information prohibite=
+d from unauthorized disclosure by law. You may not disseminate, distribute,=
+ copy or otherwise disclose the contents of this communication without our =
+prior written consent. If you are not the intended recipient, or if you hav=
+e received this communication in error, notify us immediately by return e-m=
+ail and delete the original message and any copies of it from your computer=
+ system. Reverse Mortgage Funding LLC (NMLS # 1019941).
+
+--_000_SN6PR05MB4606BA1F39B15BEC2BF0FCFBB4510SN6PR05MB4606namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D">Hi Sam,
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D">I am not sure why you are forwarding =
+me items for Recovco Mortgage. Please advise.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#685F50">Pete Kulis<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><span=
+ style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color=
+:#685F50">Account Executive / Sales Lead</span><span style=3D"font-family:&=
+quot;Calibri&quot;,sans-serif;color:#685F50"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><b><s=
+pan style=3D"font-family:&quot;Calibri&quot;,sans-serif;color:#003A4D">RM</=
+span></b><b><span style=3D"font-family:&quot;Calibri&quot;,sans-serif;color=
+:#B7A659">F
+<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><span=
+ style=3D"font-size:9.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:=
+#685F50">Reverse Mortgage Funding LLC<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><span=
+ style=3D"font-family:&quot;Calibri&quot;,sans-serif;color:#685F50">41 Pine=
+lawn Rd - 2<sup>nd</sup> Floor<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><span=
+ style=3D"font-family:&quot;Calibri&quot;,sans-serif;color:#685F50">Melvill=
+e, NY 11747<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><span=
+ style=3D"font-family:&quot;Calibri&quot;,sans-serif;color:#685F50">203-470=
+-1608<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><span=
+ style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color=
+:#1F497D"><img width=3D"38" height=3D"39" id=3D"Picture_x0020_1" src=3D"cid=
+:image001.jpg@01D4202D.B60B5480" alt=3D"cid:image001.jpg@01D1BBE7.90B9CBF0"=
+></span><span style=3D"font-family:&quot;Calibri&quot;,sans-serif;color:#68=
+5F50"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><u><s=
+pan style=3D"font-family:&quot;Calibri&quot;,sans-serif;color:#0563C1"><a h=
+ref=3D"mailto:pkulis@reversefunding.com"><span style=3D"color:#0563C1">pkul=
+is@reversefunding.com</span></a>
+<o:p></o:p></span></u></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><span=
+ style=3D"color:#1F497D"><a href=3D"http://www.reversefunding.com/"><span s=
+tyle=3D"font-family:&quot;Calibri&quot;,sans-serif;color:#0563C1">www.rever=
+sefunding.com</span></a><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><span=
+ style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color=
+:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><b><i><span style=3D"font-size:11.0pt;font-family:&q=
+uot;Calibri&quot;,sans-serif;color:#B7A659">LQ:
+</span></i></b><b><i><span style=3D"font-size:11.0pt;font-family:&quot;Cali=
+bri&quot;,sans-serif;color:#003A4D">The industry&#8217;s first loan qualifi=
+cation engine.</span></i></b><b><span style=3D"font-size:11.0pt;font-family=
+:&quot;Calibri&quot;,sans-serif;color:#B7A659">
+<i><u><a href=3D"https://partners.reversefunding.com/technology"><span styl=
+e=3D"color:#B7A659">Learn more.</span></a></u></i>
+</span></b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,=
+sans-serif;color:#1F497D"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><u><span style=3D"font-size:10.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:#0563C1"><o:p><span style=3D"text-decoratio=
+n:none">&nbsp;</span></o:p></span></u></p>
+<p class=3D"MsoNormal"><u><span style=3D"font-size:10.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:#0563C1"><o:p><span style=3D"text-decoratio=
+n:none">&nbsp;</span></o:p></span></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D">For loan level questions please conta=
+ct:<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:#1F497D">Tammy Campanella, CRMP</span></b><=
+span style=3D"font-size:10.0pt;font-family:&quot;Calibri&quot;,sans-serif;c=
+olor:#1F497D"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><span=
+ style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color=
+:#1F497D">Relationship Manager<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><span=
+ style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color=
+:#1F497D"><a href=3D"mailto:tcampanella@reversefunding.com"><span style=3D"=
+color:#0563C1">tcampanella@reversefunding.com</span></a><o:p></o:p></span><=
+/p>
+<p class=3D"MsoNormal" style=3D"margin-left:.25in;text-indent:-.25in"><b><s=
+pan style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;co=
+lor:#1F497D">Direct: (845) 391-5339<o:p></o:p></span></b></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif"> Sam Tehranchi [mailto:sam@c-mt=
+g.com]
+<br>
+<b>Sent:</b> Friday, July 13, 2018 5:06 PM<br>
+<b>To:</b> Peter Kulis &lt;pkulis@reversefunding.com&gt;<br>
+<b>Cc:</b> Art Chandler &lt;Art.Chandler@SproutMortgage.com&gt;; Followers =
+of CALL-BACK-2-27-5PM-PT &lt;miguel@c-mtg.com&gt;<br>
+<b>Subject:</b> New Broker Application: Custom Mortgage<o:p></o:p></span></=
+p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div style=3D"border:solid #9C6500 1.0pt;padding:2.0pt 2.0pt 2.0pt 2.0pt">
+<p class=3D"MsoNormal" style=3D"line-height:12.0pt;background:#FFEB9C"><b><=
+span style=3D"font-size:10.0pt;font-family:&quot;Calibri&quot;,sans-serif;c=
+olor:#9C6500">CAUTION:</span></b><span style=3D"font-size:10.0pt;font-famil=
+y:&quot;Calibri&quot;,sans-serif;color:black"> This email originated
+ from outside of RMF. Do not click links or open attachments unless you rec=
+ognize the sender and know the content is safe.<o:p></o:p></span></p>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<p class=3D"MsoNormal">Hi Peter <o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Attached are some additional documents that were pro=
+vided by Art, our AE for sprout regarding our appllication, please let us k=
+now if there is anything else you need.<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">We have several files we need to submit urgently so =
+please expedite this request. &nbsp;Thank you<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span style=3D"color:=
+black">Respectfully, &nbsp;&nbsp;<br>
+<br>
+&nbsp;<br>
+Sam Tehranchi<br>
+<br>
+&nbsp;<br>
+COO<br>
+Custom Mortgage and Realty&nbsp;<br>
+NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br>
+&nbsp;<br>
+Direct 310.709.6304 -Efax 866.421.7694&nbsp;<br>
+<br>
+<a href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&nbsp;-&nbsp;<a href=3D"h=
+ttp://www.c-mtg.com">www.c-mtg.com</a><br>
+<br>
+<a href=3D"https://www.linkedin.com/company-beta/3477964">LinkedIn</a>&nbsp=
+;-&nbsp;<a href=3D"https://www.facebook.com/Custom-Mortgage-409842885783868=
+/">Facebook</a>&nbsp;-&nbsp;<a href=3D"https://twitter.com/custommortgage1"=
+>twitter</a>&nbsp;-&nbsp;<a href=3D"https://www.instagram.com/custommortgag=
+einc/">Instagram</a><o:p></o:p></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+CONFIDENTIALITY NOTICE: We intend only the individual or entity to which we=
+ have addressed this electronic message to view it. This message may contai=
+n privileged and/or confidential information or other information prohibite=
+d from unauthorized disclosure by
+ law. You may not disseminate, distribute, copy or otherwise disclose the c=
+ontents of this communication without our prior written consent. If you are=
+ not the intended recipient, or if you have received this communication in =
+error, notify us immediately by
+ return e-mail and delete the original message and any copies of it from yo=
+ur computer system. Reverse Mortgage Funding LLC (NMLS # 1019941).
+</body>
+</html>
+
+--_000_SN6PR05MB4606BA1F39B15BEC2BF0FCFBB4510SN6PR05MB4606namp_--
+
+--_004_SN6PR05MB4606BA1F39B15BEC2BF0FCFBB4510SN6PR05MB4606namp_
+Content-Type: image/jpeg; name="image001.jpg"
+Content-Description: image001.jpg
+Content-Disposition: inline; filename="image001.jpg"; size=1160;
+	creation-date="Fri, 20 Jul 2018 17:29:41 GMT";
+	modification-date="Fri, 20 Jul 2018 17:29:41 GMT"
+Content-ID: <image001.jpg@01D4202D.B60B5480>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAAnACYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD157yN
+LgxdQiF5G7IPf3/wrjNX13UNRmKWpkit8kKEOC2OuT+I4razvsL+f+KR9v4df61yLXs9uSkbYXJJ
+HY5x1/KvDzDEyso3sn2OqlTW4iw30cm5DKHDbcrJyT6DnnqK6fw/r1yZI7XUSWDj93Iw59OfXp1r
+EvPtMLPOfIdI3LJIeobIBxz6j/8AVSWt1LdXKPKQWXgEDFcdKo8PU91v07mjjzrU763uVn3rgrJG
+xVlPUe/0NFZFxObTUfOXOZYVJGe5/wD1CivoFiIrSRyum+g2ONiL6w/jOWjB74/+tiuXuGspCqSq
+8TRgbmVeWPcfn6+9dvqWnNcMtxbnbcJ6cbvx7H3rndQtLe+mP2yKW3uyOZIlzv8Aqh69Oorzsbh5
+Pb8eq/zNqc0Yq/2cUVGeYZYMW6keo6Vf022tp54o7N5XlZhww4Axyac3heONFlfUUaNiNoijLMc8
+jjPHFX9Pt8RNBpcDgPxJM5yxHpkcL9BzXJRw1TmXPFL8/wAC3NW0Zf8AJXU9SkVeYY0ChsZHH/1y
+35UVq2NkljBsXBYnLNjGT/hRXuRoJq81qczm+hNIzJE7Iu5gCQucZPpXPXGtmZSrW1vcLsViCDg8
+kN19MUUVjjKkoNKL3uOmkySS6cu0bWFo+SdxxwVXdjr/ALv60+01t5LqO3MMahpGTauc8Y/Doc0U
+Vi6k4tWe7/yL5U0btFFFeoc5/9k=
+
+--_004_SN6PR05MB4606BA1F39B15BEC2BF0FCFBB4510SN6PR05MB4606namp_--
+

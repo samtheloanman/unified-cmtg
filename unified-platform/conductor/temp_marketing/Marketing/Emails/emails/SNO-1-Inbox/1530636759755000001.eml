@@ -1,0 +1,567 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of mail.toptal.com designates 54.174.63.102 as permitted sender) client-ip=54.174.63.102; envelope-from=1axb9gpn1058vz94kfbrt2evj81adcdokh2ny0-sam=c-mtg.com@mail.toptal.com; helo=pgg4ag.mail.toptal.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=@mail.toptal.com;
+	spf=pass (zoho.com: domain of mail.toptal.com designates 54.174.63.102 as permitted sender)  smtp.mailfrom=1axb9gpn1058vz94kfbrt2evj81adcdokh2ny0-sam=c-mtg.com@mail.toptal.com;
+	dmarc=pass(p=none dis=none)  header.from=toptal.com
+Received: from pgg4ag.mail.toptal.com (pgg4ag.mail.toptal.com [54.174.63.102]) by mx.zohomail.com
+	with SMTPS id 1530636758285611.6092608733751; Tue, 3 Jul 2018 09:52:38 -0700 (PDT)
+Received: by 172.16.62.47 with SMTP id azlpzyulybvgvwsnysfaf7enpfuhyhh6faenn8m2b;
+        Tue, 3 Jul 2018 16:52:37 GMT
+Return-Path: <1axb9gpn1058vz94kfbrt2evj81adcdokh2ny0-sam=c-mtg.com@mail.toptal.com>
+Return-Path: <1axb9gpn1058vz94kfbrt2evj81adcdokh2ny0-sam=c-mtg.com@mail.toptal.com>
+DKIM-Signature: v=1; s=hs1; d=mail.toptal.com; 
+        i=@mail.toptal.com; 
+        h=sender:from:reply-to:to:subject:mime-version:content-type:list-unsubscribe:x-report-abuse:form-sub; 
+        a=rsa-sha256; c=relaxed/relaxed; 
+        bh=dumbGEX8A7ilTgUiqdo+oCmvUrTREOFEF0qriXnzTrQ=; 
+        b=WlpNaP1af3u+vl7E2hEEyy3uFMTBJl9UJmLafN7fYrKain2R08DrDh70PL96PT
+         j8yKi74paFp5ZxT8BMRRCpPwlS5tbc73H0d55FR/ZXLMRcX4eB5cQaJ7IMa16/e
+         sFpYSVDFbBIMPFGKVyoQirZjgOMJuM8TypwkiQqNsBKpg5wlgUwWJ5/8o+rLC9W
+         MFcWnO9Yhc59cLv5ES2Vjv3iXzMna+KE/cJVqzGvLmnuCC7k6ueSctmwdj8+PWI
+         v/M0wWx//B0911S07VOC+BABr5pFrmrH1s1jOuz2wa4wj5SmY9AvKRmciGpCoAw
+         +B1aPKm02nO3+So3OcQNfeHSWwfg==; q=dns/txt; t=1530636757;
+DKIM-Signature: v=1; s=hs1; d=toptal.com; i=@toptal.com; 
+        h=sender:from:reply-to:to:subject:mime-version:content-type:list-unsubscribe:x-report-abuse:form-sub; 
+        a=rsa-sha256; c=relaxed/relaxed; 
+        bh=dumbGEX8A7ilTgUiqdo+oCmvUrTREOFEF0qriXnzTrQ=; 
+        b=wWayOLp9bWqp9QQDQFj5n0fvaMEqvue+yIPJByiwh5NLOnE57nobN8vgKGUfOS
+         8osD+Cu2M5DX/NhqrGYDt3fhNFVYQ/LgwobM92rAjMGcl55rdBtneq3Hnjv0fiY
+         emO+wmnFbhC3Yjf5Ik2tCmYcfzeFw+4EgNB2aPLjMaKUgvlB8YOkpBhBLbjpKi4
+         HgoXO5+NyZJGLkDFqL2l01PL1NQUQbwo+La93oVkDirnVY0rxSZw+mpXc192cRB
+         X5lg0j3bb2X/IrFps5fjymHaFovmjjZ0O68oXN/AyYoALzWc9SGam+7vhbcrLA5
+         qZZ8PwW4Lk6HY7w6Zn1P1nALVrNQ==; q=dns/txt; t=1530636757;
+X-HS-Cid: 1axf2e8mps1wi4pe4usrh0wml9hq4tgfoxvwl4
+List-Unsubscribe: <mailto:1axc9fomw8i4hg8owfjfv9e7jx4vj3b30s7fmk-sam=c-mtg.com@mail.toptal.com?subject=unsubscribe>
+Date: Tue, 3 Jul 2018 10:52:37 -0600
+From: Toptal Engineering Blog <editor@toptal.com>
+Reply-To: editor@toptal.com
+To: sam@c-mtg.com
+Message-ID:<1530634736588.7e11c685-a166-449e-b7ae-c918aa795856@mail.toptal.com>
+Subject: What Is The Financial Cost of Technical Debt?
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3557382_1766006960.1530636757120"
+X-Report-Abuse-To: abuse@hubspot.com (see https://www.hubspot.com/abuse-complaints)
+X-ZohoMail-DKIM: pass (identity @toptal.com) (identity @mail.toptal.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_12 RF_0 S_166
+X-ZM-MESSAGEID: 1530636759755000001
+X-ZohoMail-Status: 1
+
+
+------=_Part_3557382_1766006960.1530636757120
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Engineering Blog (https://hs-2799924.t.hubspotemail.net/e1t/sc2/MmZ-8ykrL6S=
+W7Ln_507VDFb4W5PQC2r7_M3HnW4CQ8PG75Rw7qdBzP8M04 )
+
+(https://hs-2799924.t.hubspotemail.net/e1t/sc2/MmZ-8ykrL6SW7Ln_507VDFb4W5PQ=
+C2r7_M3HnW4CQ8PG75Rw7qdBzP8N04 )
+
+What Is The Financial Cost of Technical Debt?
+(https://hs-2799924.t.hubspotemail.net/e1t/sc2/MmZ-8ykrL6SW7Ln_507VDFb4W5PQ=
+C2r7_M3HnW4CQ8PG75Rw7qdBzP8P04 )
+
+Technical debt causes inertia in teams and hampers product development. As =
+the name suggests though, it also has financial implications that can cause=
+ issues for companies as a whole.
+
+This article from the Toptal Finance Blog looks at technical debt from a CF=
+O=E2=80=99s perspective, and how businesses can take better charge of monit=
+oring it and reducing the negative effects of its presence.
+
+Continue Reading (https://hs-2799924.t.hubspotemail.net/e1t/sc2/MmZ-8ykrL6S=
+W7Ln_507VDFb4W5PQC2r7_M3HnW4CQ8PG75Rw7qdBzP8Q04 )
+
+About the Author
+
+Other recommended articles:
+
+-
+Broad vs. Narrow Skillsets: Software Engineering Skills Demystified (https:=
+//hs-2799924.t.hubspotemail.net/e1t/sc2/MmZ-8ykrL6SW7Ln_507VDFb4W5PQC2r7_M3=
+HnW4CQ8PG75Rw7qdBzP8R04 )
+
+-
+Software Entropy Explained: Causes, Effects, and Remedies (https://hs-27999=
+24.t.hubspotemail.net/e1t/sc2/MmZ-8ykrL6SW7Ln_507VDFb4W5PQC2r7_M3HnW4CQ8PG7=
+5Rw7qdBzP8S04 )
+
+-
+Creating Truly Modular Code with No Dependencies (https://hs-2799924.t.hubs=
+potemail.net/e1t/sc2/MmZ-8ykrL6SW7Ln_507VDFb4W5PQC2r7_M3HnW4CQ8PG75Rw7qdBzP=
+8T04 )
+
+-
+How to Avoid the Curse of Premature Optimization (https://hs-2799924.t.hubs=
+potemail.net/e1t/sc2/MmZ-8ykrL6SW7Ln_507VDFb4W5PQC2r7_M3HnW4CQ8PG75Rw7qdBzP=
+8V04 )
+
+-
+Startup Financing for Founders: Your Companion Checklist (https://hs-279992=
+4.t.hubspotemail.net/e1t/sc2/MmZ-8ykrL6SW7Ln_507VDFb4W5PQC2r7_M3HnW4CQ8PG75=
+Rw7qdBzP8W04 )
+
+Erik Frederick
+
+Finance Expert
+
+Erik has served as the CFO of a $1.8 billion business unit at Staples and o=
+f venture-backed startups and private equity portfolio companies with $20 m=
+illion to $700 million in revenue. He=E2=80=99s also worked with management=
+ teams in profitability improvements, corporate strategy, financial models,=
+ and board reporting.
+
+Hiring Software Experts?
+
+Looking for an elite software expert to join your team? Get started with a =
+Toptal account.
+
+Start Hiring (https://hs-2799924.t.hubspotemail.net/e1t/sc2/MmZ-8ykrL6SW7Ln=
+_507VDFb4W5PQC2r7_M3HnW4CQ8PG75Rw7qdBzP8X04 )
+
+=C2=A9 2010-2018 Toptal, LLC. All rights reserved. Toptal, LLC, 548 Market =
+Street, San Francisco, California 94104.
+
+Update your subscription preferences (https://hs-2799924.s.hubspotemail.net=
+/hs/manage-preferences/unsubscribe?d=3DeyJlYSI6InNhbUBjLW10Zy5jb20iLCJlYyI6=
+NjQyMTA1MjYsInN1YnNjcmlwdGlvbklkIjoxMjYyODMxLCJldCI6MTUzMDYzNDczNjU4OCwiZXU=
+iOiI3ZTExYzY4NS1hMTY2LTQ0OWUtYjdhZS1jOTE4YWE3OTU4NTYifQ%3D%3D&v=3D1&_hsenc=
+=3Dp2ANqtz-9j-UCfRDXXiSnGUGX8lMbHQvC_U1Aq_Nnp2zEiRmx-nhku_-x1egLXL4CDglh89f=
+SJnbK4dTrcAwfcmLNnZO8Zt60kRw&_hsmi=3D64210526 )
+------=_Part_3557382_1766006960.1530636757120
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><!-- start coded_template: id:5876930156 path:Custom/email/E=
+ngineering_Blog_Emails/New_Article_v2.html --><html lang=3D"en"><head>
+    <meta charset=3D"UTF-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"ie=3Dedge">
+    <title></title>
+    <style type=3D"text/css"></style>
+<meta name=3D"generator" content=3D"HubSpot"><meta property=3D"og:url" cont=
+ent=3D"http://toptal-2799924.hs-sites.com/-temporary-slug-e8078bef-1933-45c=
+7-b9a3-72717a6a867d"><meta name=3D"x-apple-disable-message-reformatting"></=
+head>
+<body style=3D"min-width: 640px; margin: 0; padding: 0;">
+   =20
+    <div style=3D"width: 640px; margin: 0 auto;">
+        <div style=3D"letter-spacing: 636px; line-height: 0; mso-hide: all"=
+>&nbsp;</div>
+        <table style=3D"width: 100%; border-spacing: 0; border-collapse: co=
+llapse;">
+            <tbody>
+                <tr>
+                    <td style=3D"padding: 0;">
+                       =20
+                       =20
+                       =20
+                       =20
+                       =20
+                        <div style=3D"display: block; width: 100%; height: =
+76px; background: #204ECF;">
+                            <div style=3D"width: 588px; margin: 0 auto; pad=
+ding: 23px 10px 0;">
+                                <div style=3D"float: right;">
+                                    <a href=3D"https://hs-2799924.t.hubspot=
+email.net/e1t/c/*W8h-75560Qz1qW3Cx4xD6-b_290/*W19hbsl5d23Y5W6MjN784LtpTD0/5=
+/f18dQhb0Sjvg8YXMVzN7rRy-jHyjJqN3LyGB8f6t_nN3hHhbrVMsQMVnQ9Qq8Z_pJ9W2MyX6Q8=
+YztwfW8Z_tb32K85XMW31mwRD2MznrNN5nbq6BGXpVfW3ZD1X32qVftPW3ppM5y8W51BJW1TxP_=
+c2cHyfvW4fhyL7560qrCW5ZpycS57-ZBTW83C5JP37RhtbW7NrMZs3ndfYDW5DFWr25mKjF6W3m=
+2lpt2x-ccwW7d094f6G7FblW4DFfS36Rr8lPW7Zk7L03tcfy-VSkJvq7yvw0NV3qh5n8KJsXmW4=
+FlLLm4WfVx2W1wcSgt5k8ly3W5tsQVV51GxJMVQj5fH8JF97rW62hjym3TV-zvW8x9qfQ2p_ysN=
+W2-R2v53SHPvYW1JTp5r2ZZpvkW5brc741VtdWZW2jLV6N22TNxnV9Mb6y4dN9d3W8qfTz78q-m=
+qZW4x_ZJT1ny5pjW47QqQX7rfSz7W3rcZM-1P3fm8W92H-rp2bcH_MW1DjCKb2PwhjyW4Q-5SV4=
+Hzl-Kf1H-7Dm11" style=3D"margin-left: 20px;" data-hs-link-id=3D"0" target=
+=3D"_blank"><img src=3D"https://uploads.toptal.io/blog/image/125668/toptal-=
+blog-image-1521005292111-0582221c638699855c9370718a6dc648.png" alt=3D"" wid=
+th=3D"32"></a><a href=3D"https://hs-2799924.t.hubspotemail.net/e1t/c/*W8h-7=
+5560Qz1qW3Cx4xD6-b_290/*V1KBM180GDnKW3P5d761kQ5wp0/5/f18dQhb0SbTN8Y9ZP0W5vB=
+61F1m4DtzN7t5k3zvd-3vW6BlzjT1SrC8dVLDpF18CSvhfW8DrTT23KzZKHW8rCJJ_8tBFq3N8m=
+1tVXRJWYmW8l2nK08r4b46W63lffJ5_MPY7W81gM8-7d-tJnVQJ99n8tsM52W62cMPM3ppM5yW8=
+W51BJ1TxP_cW2cHyfv4fhHg6W8hTJV48lwVXYW8hS2967bj20MW3c_zs67J39qHW2m8DqK2HT8m=
+rW6lxcBk8DNj1dW8QKpyr4sj3hVW2BcyM91mGWmCW2Hx2h43sbFgpN5C66h7Y9NX-W42b6fn7c9=
+RysW7mS1M55Dz6NWW3BlP018pglTSW2j0rm07mM2_MW5VWvcL7bMwXGN1dgjSWNVmXHW4KRHst8=
+JPyt7W8KM9Jh2h7MhBW8dLsNC3z49bkW1wR_yz6SSJNcVw9bwq3f_5_KW4p7yDT2Bj61ZVQKDQ4=
+1lSSWPW60CrPP4J35S4W2N6Z0g4XH-2hVRgx8g5MpFYYN8tmw2cSTzrFW2JdZG069rl2FM4ZDML=
+2LMBkTSX2d7Q3GHH103" style=3D"margin-left: 20px;" data-hs-link-id=3D"0" tar=
+get=3D"_blank"><img src=3D"https://uploads.toptal.io/blog/image/125667/topt=
+al-blog-image-1521005283540-4d933a4bb042a18e5843222a037d0201.png" alt=3D"" =
+width=3D"32"></a><a href=3D"https://hs-2799924.t.hubspotemail.net/e1t/c/*W8=
+h-75560Qz1qW3Cx4xD6-b_290/*W7RYwHf63ks8FW8kK0DP7CDLjW0/5/f18dQhb0SbTH8YXNq0=
+N7rRy-jHyjJqN3LyGB8f6t_nW3hHhdt2P7_nXVcnTGj992gLmW4txBlX6b16HkW7Z5GVw6PZb6J=
+Vb8m6N1xbWNZW26nPn92yH4W5W1nrCGB51LTg5W5DHNj21f1W6KVqmbPC3ppM5yW8W51BJ1TxP_=
+cW2cHyfv4fhHf-W8hTJV48lwVXYW8hS2967bj1_4VFLkzn5rC5Q6W80MMfG5DFWr2W5mKjF63m2=
+gsrW53X_Zp52YlfxW3_8mpl9fgwMTW4fPjVl6wzhDPW6WrycV1FHSznN5JX06z6R7QVW82jws79=
+gJ2_5VrqjFj32pQtNW1hcdHl1BQMWmVKcbCS1zDdDhW828VPl2NrKb6W7JP_dX7JdZFcW4P06YL=
+5ZF52YW7Jm8xf3mMdPqW5XWP-F11MynNW3MYtL84GshMKN45Ly2MkwRLWW8txlxT7tqgDMW7vRS=
+-w4rsbmLW2L5Ghq8kz-zGW5ynmM36RsZDVW3x7ZhT8KhZ2zW4lsRvj3gBlrZN5B087tdSQk9V1_=
+PYB2wfVWV111" style=3D"margin-left: 20px;" data-hs-link-id=3D"0" target=3D"=
+_blank"><img src=3D"https://uploads.toptal.io/blog/image/125666/toptal-blog=
+-image-1521005268330-d7ae3975c766ab789a8da965bd772e6a.png" alt=3D"" width=
+=3D"32"></a>
+                                </div>
+                                <div>
+                                    <a href=3D"https://hs-2799924.t.hubspot=
+email.net/e1t/c/*W8h-75560Qz1qW3Cx4xD6-b_290/*W8X2xV83tbMLRW1VJLNC2DDVxx0/5=
+/f18dQhb0S5fp8YHtb0N7rRy-jHyjJqN3LyGB8f6t_nN3hHh9SXL0jYVnQ9Qq8--HBkW8Z_2Kr2=
+K85-MW5mZ50N8HbRxPN8k1dMQpSBF3N8WhRybHRJWlW6nfQxS4s2K_hW5CRkYj5Pn_RFW6QbzkZ=
+47YlYyW4bfcHb47Xx4zW3C810n1Df0XLW6yBPHz1gzN0qW5pfw1S5mg0ggW1BxxTf2Fq95DW22W=
+LyB6HBHnDW6qG7343b4MzmW81LnQX1BjQKGW1fB6cc7ZNq9dW2mJv5N84rdBYW1LbLHL7CVmCcW=
+1ng_dc1TgmTcW7HNY4v7FPC27W1gz0kv6X8SPYW7ND2VS7vYWtTW2fWfxr1vDL8TW1ztBjt1G5C=
+1gW7c45jL1y78CrVFk2JC64TTbkMg66QRfTlLHV1KsXy1KtWrlW3nzDfc83c8hgW4lS7s08mhg5=
+wW6n8DX06NT07dW8DmBs18qKJvdW6ZPT-m2Djsx1W8nVGyy8x21xRW1MWhN-1MKddrf28HwVZ11=
+" data-hs-link-id=3D"0" target=3D"_blank"><img src=3D"https://uploads.topta=
+l.io/blog/image/125665/toptal-blog-image-1521005132699-7486e1a3f893da03c82a=
+2b83f4aaba58.png" alt=3D"" width=3D"97" style=3D"float: left;"></a>
+                                    <a href=3D"https://hs-2799924.t.hubspot=
+email.net/e1t/c/*W8h-75560Qz1qW3Cx4xD6-b_290/*N2XNvh4wM4GcW2HtJfS8XxrWp0/5/=
+f18dQhb0Sjvh8YXN32N7rRy-jHyjJqN3LyGB8f6t_nW3hHh8X2P7_nXVcnTGj992gLmW4t0sSr1=
+n3kJCW7nwMJH1xbWNZW26nPn92yH5cmW26p8qv61SSZmW7mG7sD51vX4yW6Gmspn1dqWs6W6nfQ=
+xS4s2K_hW5CRkYj5NWmFkV-zk2J47YlYyW4bfcHb47Xx4zW3C811X4-TPrsW2KQ2YY6lD20dW49=
+WVtr3VVg3wW3y7v1R6G2lbzN7NMdQN4cNXyW75WRHJ84k_lnW2MlDfy8P6Pf_W9cjNqV2tD5kgW=
+84QBxQ7jpMvcW8Q6qnY91LlzCW5rVYMs2wpKrWW89N3dM7TR_QHW944hKr4NDhyWW6qmjjR8M3s=
+H-W138kHn46Wkq0W2mwryF5Tz6bmW7j0fVb4_v007W5gSHY56H5W1XN5L6ThvVR6H2W4q1LMp4p=
+Ss4ZW14lQc52NCv90VR8ckW8j1V_qW6HSsZc6nSjNjW43QyB27TGv4ZW7SgwqS4g_By4W17_8wd=
+5_5dj9w3xWwfqgM_f2QbdZV02" style=3D"text-decoration: none;" data-hs-link-id=
+=3D"0" target=3D"_blank"><span style=3D"display: inline-block; margin-top: =
+10px; margin-left: 12px; font-family: 'Helvetica Neue', Helvetica, 'Segoe U=
+I', Arial, sans-serif; font-size: 14px; text-transform: uppercase; color: #=
+FFFFFF; opacity: 0.54;">Engineering Blog</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style=3D"padding: 0;">
+                        <div style=3D"display: block; width: 100%; overflow=
+: hidden; background: #FFFFFF; background: linear-gradient(180deg, #11286C =
+334px, #FFFFFF 334px);">
+                            <div style=3D"display: block; width: 640px; mar=
+gin: 0 auto; padding: 0 0 8px; background: url(https://cdn2.hubspot.net/hub=
+fs/2799924/0323_02_Technical-Debt_Dan_Thumbnail.png?t=3D1530623448788) 0% 0=
+% / 640px 334px no-repeat;  background-image: url(https://cdn2.hubspot.net/=
+hubfs/2799924/0323_02_Technical-Debt_Dan_Thumbnail.png?t=3D1530623448788); =
+background-size: 640px 334px; background-repeat: no-repeat;">
+                                <a href=3D"https://hs-2799924.t.hubspotemai=
+l.net/e1t/c/*W8h-75560Qz1qW3Cx4xD6-b_290/*N8g4Gg9x6P38W4dWg2p2YF6DF0/5/f18d=
+Qhb0Sq5K8XJ8dWN7rRy-jHyjJqN3LyGB8f6t_nW3hHhcp5zh-NRVnQ9Qq8--HBkW8Z_2Kr2K85-=
+MW5mZ50N7KKvhWN8WBG_ZpSLjKW4fsHqV32HhhSW8Tztlc30Y3D0W1SPxG14fx32cW2LRNVf4bJ=
+02hW4b_rKw7MbC3kW3fsRC-58j9SkW7HMmhx32ShdrW7JlxgG5LMjltW2zKx3C9dSlS6W35rgCl=
+94-4T0W7sLfyr520N2HW7v70tS2Hyb60W9dH8_66V4mf7W1mflxx8gjY6LW8WBKbV56sy_8W2Nh=
+XH15p0cv_W6YmQZd1V5kzYW1WkHPN84ndvMW55dkDZ5nzD4qW1W0nHp78Jz4PW7pshm54C0sdpW=
+5nnf652sH3s6W54mKt52qyGQLN1yMLMC6x1xLW82tFrM84nW-PW4Cg24l76mt2HW786VVR31GzD=
+wN4lBZ6Fnpt28W6w-c_q8Ph58-W58Cd3W1GpnDLW2GKLRN2H4Qz4V10N9F5xftxXVvg3c91Hw9f=
+mW29Hn_g7yFBPBW1JL6Px5ntXnMN2ZPfKJ9XfwsM7s2GR149Mhf8vwZV203" style=3D"displ=
+ay: block; width: 100%; height: 296px; text-decoration: none;" data-hs-link=
+-id=3D"0" target=3D"_blank">&nbsp;</a>
+                                <div style=3D"display: block; width: 548px;=
+ margin: 0 auto 0; padding: 30px; background: #FFFFFF;">
+                                    <a href=3D"https://hs-2799924.t.hubspot=
+email.net/e1t/c/*W8h-75560Qz1qW3Cx4xD6-b_290/*N1RsstzzbcNjVWmKsd4-9pPW0/5/f=
+18dQhb0Sq5K8XJ8dWN7rRy-jHyjJqN3LyGB8f6t_nW3hHhcp5zh-NRVnQ9Qq8--HBkW8Z_2Kr2K=
+85-MW5mZ50N7KKvhWN8WBG_ZpSLjKW4fsHqV32HhhSW8Tztlc30Y3D0W1SPxG14fx32cW2LRNVf=
+4bJ02hW4b_rKw7MbC3kW3fsRC-58j9SkW7HMmhx32ShdrW7JlxgG5LMjltW2zKx3C9dSlS6W35r=
+gCl94-4T0W7sLfyr520N2HW7v70tS2Hyb60W9dH8_66V4mf7W1mflxx8gjY6LW8WBKbV56sy_8W=
+2NhXH15p0cv_W6YmQZd1V5kzYW1WkHPN84ndvMW55dkDZ5nzD4qW1W0nHp78Jz4PW7pshm54C0s=
+dpW5nnf652sH3s6W54mKt52qyGQLN1yMLMC6x1xLW82tFrM84nW-PW4Cg24l76mt2HW786VVR31=
+GzDwN4lBZ6Fnpt28W6w-c_q8Ph58-W58Cd3W1GpnDLW2GKLRN2H4Qz4V10N9F5xftxXVvg3c91H=
+w9fmW29Hn_g7yFBPBW1JL6Px5ntXnMN2ZPfKJ9XfxFD7s2GRsXYGf7Q1Bjx03" style=3D"tex=
+t-decoration: none;" data-hs-link-id=3D"1" target=3D"_blank"><h1 style=3D"m=
+argin: 0; font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans=
+-serif; font-weight: 400; font-size: 30px; color: #204ECF;">What Is The Fin=
+ancial Cost of Technical Debt?</h1></a>
+                                    <div style=3D"margin-top: 24px; font-fa=
+mily: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; font-size=
+: 16px; line-height: 23px;">Technical debt causes inertia in teams and hamp=
+ers product development. As the name suggests though, it also has financial=
+ implications that can cause issues for companies as a whole.<br><br>This a=
+rticle from&nbsp;the Toptal Finance Blog looks at technical debt from a CFO=
+=E2=80=99s perspective, and how businesses can take better charge of monito=
+ring it and reducing the negative effects of its presence.</div>
+                                    <a href=3D"https://hs-2799924.t.hubspot=
+email.net/e1t/c/*W8h-75560Qz1qW3Cx4xD6-b_290/*W1CG9jp3yFH70W5VNDCr3k1hgv0/5=
+/f18dQhb0Sq5K8XJ8dWN7rRy-jHyjJqN3LyGB8f6t_nW3hHhcp5zh-NRVnQ9Qq8--HBkW8Z_2Kr=
+2K85-MW5mZ50N7KKvhWN8WBG_ZpSLjKW4fsHqV32HhhSW8Tztlc30Y3D0W1SPxG14fx32cW2LRN=
+Vf4bJ02hW4b_rKw7MbC3kW3fsRC-58j9SkW7HMmhx32ShdrW7JlxgG5LMjltW2zKx3C9dSlS6W3=
+5rgCl94-4T0W7sLfyr520N2HW7v70tS2Hyb60W9dH8_66V4mf7W1mflxx8gjY6LW8WBKbV56sy_=
+8W2NhXH15p0cv_W6YmQZd1V5kzYW1WkHPN84ndvMW55dkDZ5nzD4qW1W0nHp78Jz4PW7pshm54C=
+0sdpW5nnf652sH3s6W54mKt52qyGQLN1yMLMC6x1xLW82tFrM84nW-PW4Cg24l76mt2HW786VVR=
+31GzDwN4lBZ6Fnpt28W6w-c_q8Ph58-W58Cd3W1GpnDLW2GKLRN2H4Qz4V10N9F5xftxXVvg3c9=
+1Hw9fmW29Hn_g7yFBPBW1JL6Px5ntXnMN2ZPfKJ9Xfx2M7s2GR1R31Df5lR-B603" style=3D"=
+display: inline-block; margin-top: 32px; padding: 14px 48px; border-radius:=
+ 4px; background: #00CC83; color: #FFFFFF; font-family: 'Helvetica Neue', H=
+elvetica, 'Segoe UI', Arial, sans-serif; font-size: 15px; font-weight: 700;=
+ text-decoration: none; text-align: center;" data-hs-link-id=3D"2" target=
+=3D"_blank">Continue Reading</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style=3D"padding: 0;">
+                        <div style=3D"display: block; width: 100%; backgrou=
+nd: #F3F3F3;">
+                            <div style=3D"width: 548px; margin: 0 auto; pad=
+ding: 40px 0;">
+                                <h2 style=3D"margin: 0 0 20px; font-family:=
+ 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; font-weight: 4=
+00; font-size: 24px;">About the Author</h2>
+                                <div style=3D"float: right; width: 292px;">
+                                    <h3 style=3D"margin-bottom: 32px; font-=
+family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; font-we=
+ight: 400; font-size: 18px; color: #455065;">Other recommended articles:</h=
+3>
+                                    <ul style=3D"padding: 0 0 0 20px;">
+                                       =20
+                                       =20
+                                       =20
+                                            <li style=3D"margin: 0 0 32px;"=
+>
+                                                <a href=3D"https://hs-27999=
+24.t.hubspotemail.net/e1t/c/*W8h-75560Qz1qW3Cx4xD6-b_290/*W1ZRbyD49P89rW6Fz=
+L1h2C7GCf0/5/f18dQhb0Sq5J8Y9ZwPW5vB61F1m4DtzN7t5k3zvd-3vW6BlzlY1Nvw7TVLDpF1=
+8CSvhfW8CRP2G5qjcTMN1nPLDMV8-Y9W5qk70k74-JXBW4syk-J6bMPqgW7dnbDw25_rzXW4r3j=
+rn3VKBC1W3SLYcb49JfBwW3C8bwH3_7dFMW35_0JD68JVybW4f71NL1rrHK1W60YZ4c6Bt4HJW1=
+_Qrvg1Y_Y5JW2D9R2l1fwyVVW6yBPJM30q8CNW2kGjZw6qQkKCW854_nt94q7cqW6VKJl21hC_8=
+gW5lppHt1lg159W1L5xqn2P3_H8Vs5Dcp6KF349W3BCFzw8lv9CxW7vkPBS1PHCdRW8Vb5RM5Sy=
+cD_W8mqMJN2YZslHW3Bpbvq5hHVDSW53vq8L2mqyqHW92rtVv92Xh_zW5S64l445nsHBW6sC11T=
+5qtZgsW3qY36q4P7Lk2W6hz0s82bzNQYW5_bg8W54q25rW5l-G8h7HT5xqW714h8Q1nztsNW78n=
+J9354H_kpW7xNg-74cJJ2JVpZ0wC1lDtP7W7Ngpdc4L1MmrN4JXQH_1zyClf4BwkG203" style=
+=3D"font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif=
+; font-size: 14px; text-decoration: none; color: #204ECF;" data-hs-link-id=
+=3D"0" target=3D"_blank">Broad vs. Narrow Skillsets: Software Engineering S=
+kills Demystified</a>
+                                            </li>
+                                       =20
+                                       =20
+                                       =20
+                                       =20
+                                            <li style=3D"margin: 0 0 32px;"=
+>
+                                                <a href=3D"https://hs-27999=
+24.t.hubspotemail.net/e1t/c/*W8h-75560Qz1qW3Cx4xD6-b_290/*W4NBNgJ5rfPhfW69b=
+BRF8q495v0/5/f18dQhb0Sq5F8XJ9nxN7rRy-jHyjJqN3LyGB8f6t_nW3hHh915zh-NRVnQ9Qq8=
+--HBkW8Z_2Kr2K85-MW5mZ50N567qTqW7nKvYT8d2hrTW6W3Mfq4N4b2jW53hMYC7t-2yzW9bTN=
+XY954KlMW4P0Yt62d3ZBsN5GZv5p7Br5lW5TpVyB3L-Z5KW8sY2vQ6nSMmhW2_1lbg5rcZX1W2-=
+294g5J0bHmW1y7l3t5F_2JdW3XsqW05pfw1SV4m4YY46Cpr-W6G2lbz7NMdQNV4cNXy75WRHJW8=
+4k_ln2MlDfyW8P6Pf_9cjNqVW2tD5kg84QBxQW7jpMvc8Q6qnYW91LlzC5rVYMsW2wpKrW89N3d=
+MW7TR_QH944hKrW4NDhyW6qmjjRW8M3sH-138kHnW46Wkq02mwryFW5Tz6bm7j0fVbW4_v0075g=
+SHY5W6H5W1X5L6ThvVVR6H24q1LMpW4pSs4Z14lQc5W2NCvbS1bDs3cW7gYswV40B311W3qzMGc=
+89BFzxW6q9FKZ6kr831W8y_8_q2kYTqWW2D4BKZ73Q0vRV1-zQB3f4v2y102" style=3D"font=
+-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; font-s=
+ize: 14px; text-decoration: none; color: #204ECF;" data-hs-link-id=3D"0" ta=
+rget=3D"_blank">Software Entropy Explained: Causes, Effects, and Remedies</=
+a>
+                                            </li>
+                                       =20
+                                       =20
+                                       =20
+                                       =20
+                                            <li style=3D"margin: 0 0 32px;"=
+>
+                                                <a href=3D"https://hs-27999=
+24.t.hubspotemail.net/e1t/c/*W8h-75560Qz1qW3Cx4xD6-b_290/*N69cwhm4j80TW1XDc=
+BZ5sKlCg0/5/f18dQhb0S9r69jx8hqN7rRy-jHyjJqN3LyGB8f6t_nW3hHh8V5zh-NRVnQ9Qq8-=
+-HBkW8Z_2Kr2K85-MW5mZ50N567qTqW7nKvYT8-yglqVK3HFh7JfDrfW32ll0v558t19W32pH2r=
+1Vc8JTW8XkHvB2_VwPmW30rkBx1VgFm3W2MznrN5nbq6BVGXpVf3ZDc3jW69GbHC8r4wd2W62Sg=
+Pp7vvpw6W4bQlSL2lmmfDW2N33B53_t0gLW32Gf2Q4dnWJcW69NG1w6PqSXLW389rjM6W3RDgVH=
+d1d118dKPTW1VJwzT7WmcjJW97rB1b8yxMPfW3H0Khr4rNF6KW3fp7Dz24HHTXVfDV876Lw80VN=
+98j63dTRbP_W66NL_52zqtfYW3cBFRh1qqpcHW35fwlw6Ldk8WW5vWTZP60w-GCN61n2p18XSBD=
+W2z8LDl61Cs95W6NsCwG2xHHZYW25tF9-7wTZy2W9jW91Q8csGDVVD2JBL7y-JfvW5BL4M-5HxQ=
+2qVm-PjT1wlbN3W5c08JC3tjzfqW8yGylg4Lt59kW6SRx407WQPF_W3N9DMv3DPffvMZpcmq9ZL=
+d9f756rJX11" style=3D"font-family: 'Helvetica Neue', Helvetica, 'Segoe UI',=
+ Arial, sans-serif; font-size: 14px; text-decoration: none; color: #204ECF;=
+" data-hs-link-id=3D"0" target=3D"_blank">Creating Truly Modular Code with =
+No Dependencies</a>
+                                            </li>
+                                       =20
+                                       =20
+                                       =20
+                                       =20
+                                            <li style=3D"margin: 0 0 32px;"=
+>
+                                                <a href=3D"https://hs-27999=
+24.t.hubspotemail.net/e1t/c/*W8h-75560Qz1qW3Cx4xD6-b_290/*W463GPj1l2-ptW3V6=
+lVS3blDnH0/5/f18dQhb0Sq5x8Y9XHdW5vB61F1m4DtzN7t5k3zvd-3vW6Blzl21Vq7GqVLDpF1=
+8CSvhfW8CRP2G5qjcTMW1nPLDM65HfBsW8q514k67jJCZMQB1PlQzD78W1q7rkx63mynkW3J4xv=
+v1n8QHFW8tsNC28mp2bwW8p-Vr065kbjqN4JZymRYMD8XN3Q0gzbRbrg5V6T6QB975bfYW4VZ3n=
+92yJF1WVYT2gn6yzQ0nW3CPQ_B5D8zFFW2XTdXt52g270W7NM5zG7449f8W7P1-wW33FK-yMqPk=
+xDnjZC8W4h_jDn1HfyY4W759kf28SVQpPVwm86L4fZrqHW14m7lf759wBSW85zjZX31m3gcVKsJ=
+xV4BNytXW3q0P_n8g_l-4VqcyB56XdY8PW6T-4WF4dCtS0N76v2nZ4XsSxW4P05yP12MMkRW1fL=
+5hK2p8_TTW7-cq4L46mrwvW3ygvH88c388BW8ggl2M4hqdYkW1Gl-XB52hD1lW12qclB6Ddrf5W=
+4m85P-4B56jCW6WxJXZ6JrkY4W68D3kt9cSnVVN13fYwccTSRKVcSGlK1nPy0y102" style=3D=
+"font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; f=
+ont-size: 14px; text-decoration: none; color: #204ECF;" data-hs-link-id=3D"=
+0" target=3D"_blank">How to Avoid the Curse of Premature Optimization</a>
+                                            </li>
+                                       =20
+                                       =20
+                                       =20
+                                       =20
+                                            <li style=3D"margin: 0 0 32px;"=
+>
+                                                <a href=3D"https://hs-27999=
+24.t.hubspotemail.net/e1t/c/*W8h-75560Qz1qW3Cx4xD6-b_290/*N8J4PcBDPCgJW8hd9=
+z295F6RH0/5/f18dQhb0SfHn9ctx9FN7rRy-jHyjJqN3LyGB8f6t_nW3hHhd75Cgxh0VnQ9Qq8-=
+-HBkW8Z_2Kr2K85-MW5mZ50N7KKvhWW8WBG_Z54SbbVW2KBfnC7KWtKbW1TxP-_5pXSKPW2MTZS=
+s8W1PGmN2xXNQ4YdpjkW1Th67k4gwBR_W1ywjjY8HbRxPN8k1dMQpSBF3W8WhRwg5-74hcVspf6=
+21Ww7dLW55fh3v4rlH1mN8xyFZsRYqvDN2yJF1WYT2jkW6P4lCX6hF8n1W69NG1w6Pr3nqW1S88=
+n231H380V9_9Ks30T_rPW2Vv3cs1G8MxxW1Bb4rM7PTR4XN6H_nN4pl0NbW7lcCQt1_s3fYW7CM=
+NK94mnHhQVrjvKl4f00VpW2Hmhrh2QSpNRW8Y1FH-4d_b7gW4-JZyT1KQhjMW8-KYCX8VzHzJN7=
+Bjt0-nGgY0MpD7gZpPg8cW4733sq52SJkXV9zM7D3Swq4pW74mkM54M1133W4H_8kT55HbNmW7T=
+tlLy6Jm0NqW22wsd249FShzW7TF2bN83tLgwW8_dL6l8VX3Z0W89rFHt5-cV_vW8T0vwf4f1M0R=
+MVs7V_Vmsdlf4d4hv902" style=3D"font-family: 'Helvetica Neue', Helvetica, 'S=
+egoe UI', Arial, sans-serif; font-size: 14px; text-decoration: none; color:=
+ #204ECF;" data-hs-link-id=3D"0" target=3D"_blank">Startup Financing for Fo=
+unders: Your Companion Checklist</a>
+                                            </li>
+                                       =20
+                                    </ul>
+                                </div>
+                                <div style=3D"width: 228px;">
+                                    <div style=3D"width: 100%; overflow: hi=
+dden; background: #C6C9CD;">
+                                        <a href=3D"https://hs-2799924.t.hub=
+spotemail.net/e1t/c/*W8h-75560Qz1qW3Cx4xD6-b_290/*W7zXHjs38zs_9W25jF6L4l00H=
+Z0/5/f18dQhb0SbTX8XJ8kFN7rRy-jHyjJqN3LyGB8f6t_nW3hHhbQ5zh-NRVnQ9Qq8--HBkW8Z=
+_2Kr2K85-MW5mZ50N7KKvhWW8WBG_Z54Wj6LW4cyNRB54G2s_W7LnSZf4JFzYMW9bTNXY954KlM=
+W4P0Yt62d3ZBsN6yjC9S7Br7KW7tZSml4yn-9PW8sY2vQ6nSMmhW2_1lbg5rcZX1W2-294g5J0b=
+HmW1y7l3t5F_2JdW3XsqW05pfw1SW5mg0gg1Bh9xBW5jPVDH47P0wCW403tVS3vbpkwW6n94G56=
+HnmffW3bBMn72y6mmfW6zqZyQ4Jq0dLW6SLzbx3vn0NWW5WDpRc2KBr1-W3Hzbcd62qxPNW5Ytk=
+672y5C9mW4wbn6X6b6GsFW5FNY4k4tQZFqW2ZgvrG34-DbvW3jbNv9551hKTW34gk661jCFWnN2=
+PGKtHzbQ6RMwKJnC3qXXRW3n-RVV6N7dvqF6NjTc66R3TW5mRgWy6MsFSGW8p9TcN6n9rkPW5Bz=
+DF39bWqGpW146zMh5vc1y_W64PSSz73yKD2W70RWHv7gcY1p111" data-hs-link-id=3D"0" =
+target=3D"_blank"><img src=3D"https://cdn2.hubspot.net/hubfs/2799924/large_=
+815fa8d5a1640e5375dd2d479fd8c7e5.jpg?t=3D1530623448788" alt=3D"" style=3D"d=
+isplay: block; width: 100%;"></a>
+                                    </div>
+                                    <div style=3D"padding: 24px 22px; backg=
+round: #FFFFFF;">
+                                        <h3 style=3D"margin: 0 0 6px; font-=
+family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; font-we=
+ight: 400; font-size: 18px;">Erik Frederick</h3>
+                                        <p style=3D"margin-bottom: 1em; mar=
+gin: 0; font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-s=
+erif; font-weight: 700; font-size: 13px; color: #455065;">Finance Expert</p=
+>
+                                        <p style=3D"margin-bottom: 1em; lin=
+e-height: 22px; font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial=
+, sans-serif; font-size: 14px; color: #455065;">Erik has served as the CFO =
+of a $1.8 billion business unit at Staples and of venture-backed startups a=
+nd private equity portfolio companies with $20 million to $700 million in r=
+evenue. He=E2=80=99s also worked with management teams in profitability imp=
+rovements, corporate strategy, financial models, and board reporting.</p>
+                                       =20
+                                       =20
+                                    </div>
+                                </div>
+                                <div style=3D"clear: both;"></div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style=3D"padding: 0;">
+                        <div style=3D"display: block; width: 100%; backgrou=
+nd: #FFFFFF;">
+                            <div style=3D"width: 548px; margin: 0 auto; pad=
+ding: 40px 0;">
+                               =20
+                                <h2 style=3D"margin: 0 0 20px; font-family:=
+ 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; font-weight: 4=
+00; font-size: 24px;">Hiring Software Experts?</h2>
+                                <p style=3D"margin-bottom: 1em; font-family=
+: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; font-size: 14=
+px; line-height: 20px;">Looking for an elite software expert to join your t=
+eam? Get started with a Toptal account.</p>
+                                <a href=3D"https://hs-2799924.t.hubspotemai=
+l.net/e1t/c/*W8h-75560Qz1qW3Cx4xD6-b_290/*W93zw1H8-Z7zrW6VYY7L5JV_4L0/5/f18=
+dQhb0Sjvh8YXN32N7rRy-jHyjJqN3LyGB8f6t_nW3hHh8X2P7_nXVcnTGj992gLmW4t0sSr1n3k=
+JCW7nwMJH2l_vBgW5y6kC85RpDVPW32Bb_x5lhgkKVhZ1mT7BQDltW7PkS8t1Sxgm1W7C06FN1H=
+l_t1VhHQ6l8V6nHWW1YXXdV2N33B5W3_t0gL32Gf2QW4cBzLv49z-4PN2MV0XLbG0m9W8W1JLS2=
+KSp23W2gvtCX3NnV4FW1nJpwv26pdfjW35yfrj963QSMW4rHJ314tpGdQW6Lvj6q35Nk0PW9bGQ=
+VM4-j1kSW3LrCFG96BR3vW8skpYF3G_fCbW39ZGcj4tmYw5W10Jm_l34WxcZW8m71ff5G6NKjW3=
+Ng8vB3bbHyxW60Thmr5JfNQ8W3JR0Kj8ljwkPW7q7-Qc6kl2SzW7dr9qW72YqDyW3KVdZ15K-Vm=
+lN6jzFbzyvGxRW4QDcJ_1vs-v1W2WdXyc86XNQSW5_5gN85DBT_WW4zvfdL23VwjdN99DB8XcYJ=
+KQW7dJ18n8Frc3mf2QYvdW04" style=3D"display: inline-block; margin-top: 32px;=
+ padding: 14px 48px; border: 1px solid #C4C6CA; border-radius: 4px; backgro=
+und: #FFFFFF; color: #00CC83; font-family: 'Helvetica Neue', Helvetica, 'Se=
+goe UI', Arial, sans-serif; font-size: 15px; font-weight: 700; text-decorat=
+ion: none; text-align: center;" data-hs-link-id=3D"0" target=3D"_blank">Sta=
+rt Hiring</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style=3D"padding: 0;">
+                        <div style=3D"display: block; width: 100%; backgrou=
+nd: #262D3D;">
+                            <div style=3D"width: 548px; margin: 0 auto; pad=
+ding: 30px;">
+                                <p style=3D"margin-bottom: 20px; font-famil=
+y: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; font-size: 1=
+3px; line-height: 22px; color: #C4C6CA;">
+                                    =C2=A9 2010-2018 Toptal, LLC. All right=
+s reserved. Toptal, LLC, 548 Market Street, San Francisco, California 94104=
+.
+                                </p>
+                                <p style=3D"margin-bottom: 1em; font-family=
+: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; font-size: 13=
+px;"><a href=3D"https://hs-2799924.s.hubspotemail.net/hs/manage-preferences=
+/unsubscribe?d=3DeyJlYSI6InNhbUBjLW10Zy5jb20iLCJlYyI6NjQyMTA1MjYsInN1YnNjcm=
+lwdGlvbklkIjoxMjYyODMxLCJldCI6MTUzMDYzNDczNjU4OCwiZXUiOiI3ZTExYzY4NS1hMTY2L=
+TQ0OWUtYjdhZS1jOTE4YWE3OTU4NTYifQ%3D%3D&amp;v=3D1&amp;utm_campaign=3DToptal=
+%20Engineering%20Blog&amp;utm_source=3Dhs_email&amp;utm_medium=3Demail&amp;=
+utm_content=3D64210526&amp;_hsenc=3Dp2ANqtz--bLk9JJJWiH8ohFC1FyP-sLGAcUNWik=
+qGVOddwmYaLkyMcyaEUHx_s0GpTyuJxlfKQ4glGhRWGyZQLffRW6DAVjZXdnA&amp;_hsmi=3D6=
+4210526" style=3D"text-decoration: none; color: #FFFFFF;" data-hs-link-id=
+=3D"0" target=3D"_blank">Update your subscription preferences</a></p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+<!-- end coded_template: id:5876930156 path:Custom/email/Engineering_Blog_E=
+mails/New_Article_v2.html -->
+<img src=3D"https://hs-2799924.t.hubspotemail.net/e1t/o/*Mxsjd0gR8VtN3Wc7qB=
+ZwYWy0/*W2X7FRg6rSCF_W3xPmGz8K3Zqb0/5/f18dQhb0KdhFBRNfmW7KFVlX2qwv1SVJN33f3=
+21_W1VSn87f2jz_TZVcWjvG7dHy9TW1T_n4279rCd4W85MyxM6YHzwYW6rn2TS1Jp45JW10vGXx=
+3k1Q4gW4kmQ_L5M9jJNW3rqnwV1rRwjyN5Xzwx6mRsPPf4TFZP401" alt=3D"" width=3D"1"=
+ height=3D"1" border=3D"0" style=3D"display:none!important;min-height:1px!i=
+mportant;width:1px!important;border-width:0!important;margin-top:0!importan=
+t;margin-bottom:0!important;margin-right:0!important;margin-left:0!importan=
+t;padding-top:0!important;padding-bottom:0!important;padding-right:0!import=
+ant;padding-left:0!important"><style>@media print{#_hs { background-image: =
+url('https://hs-2799924.t.hubspotemail.net/e1t/o/*Mxsjd0gR8VtN3Wc7qBZwYWy0/=
+*W8-pqYq4DK6HRW5HXyD47FrTSc0/5/f18dQhb0J6q1h4LsW7jMd8Y6crlb_W1f7_Hj1S1PGGW1=
+S3Tvt2YtZD-F346K26vFvnTDk7H1-DJ63W3zdtcS1GF7CQN1JxwY5bg9kjW15gBJz7SCyr_W53y=
+xy16J4r3jW51vMTK7Fg94lVWYhFb4ZWdQTLnykQxk5Ng103');}} div.OutlookMessageHead=
+er {background-image:url('https://hs-2799924.t.hubspotemail.net/e1t/o/*Mxsj=
+d0gR8VtN3Wc7qBZwYWy0/*W7NcPH44XQXzrW8ZskjJ7tP9440/5/f18dQhb0J6s1gfPdW7CxCbq=
+6crlb_W1f7_Hj1S1PGGW1S3Tvw2zLf-3F2nVMD-s7yKM2xwK0vlG0gVvy6HJ2m2fbyW4fHkmf43=
+T13VN4RF_rdNw8cKW8pt8Cw6xV1KXVCPL6N55Z0PyW4_jPs4670c3MW1D3mp_3nNdM4101')} t=
+able.moz-email-headers-table {background-image:url('https://hs-2799924.t.hu=
+bspotemail.net/e1t/o/*Mxsjd0gR8VtN3Wc7qBZwYWy0/*W7NcPH44XQXzrW8ZskjJ7tP9440=
+/5/f18dQhb0J6s1gfPdW7CxCbq6crlb_W1f7_Hj1S1PGGW1S3Tvw2zLf-3F2nVMD-s7yKM2xwK0=
+vlG0gVvy6HJ2m2fbyW4fHkmf43T13VN4RF_rdNw8cKW8pt8Cw6xV1KXVCPL6N55Z0PyW4_jPs46=
+70c3MW1D3mp_3nNdM4101')} blockquote #_hs {background-image:url('https://hs-=
+2799924.t.hubspotemail.net/e1t/o/*Mxsjd0gR8VtN3Wc7qBZwYWy0/*W7NcPH44XQXzrW8=
+ZskjJ7tP9440/5/f18dQhb0J6s1gfPdW7CxCbq6crlb_W1f7_Hj1S1PGGW1S3Tvw2zLf-3F2nVM=
+D-s7yKM2xwK0vlG0gVvy6HJ2m2fbyW4fHkmf43T13VN4RF_rdNw8cKW8pt8Cw6xV1KXVCPL6N55=
+Z0PyW4_jPs4670c3MW1D3mp_3nNdM4101')} #MailContainerBody #_hs {background-im=
+age:url('https://hs-2799924.t.hubspotemail.net/e1t/o/*Mxsjd0gR8VtN3Wc7qBZwY=
+Wy0/*W7NcPH44XQXzrW8ZskjJ7tP9440/5/f18dQhb0J6s1gfPdW7CxCbq6crlb_W1f7_Hj1S1P=
+GGW1S3Tvw2zLf-3F2nVMD-s7yKM2xwK0vlG0gVvy6HJ2m2fbyW4fHkmf43T13VN4RF_rdNw8cKW=
+8pt8Cw6xV1KXVCPL6N55Z0PyW4_jPs4670c3MW1D3mp_3nNdM4101')}</style><div id=3D"=
+_hs"></div></body></html>
+------=_Part_3557382_1766006960.1530636757120--
+

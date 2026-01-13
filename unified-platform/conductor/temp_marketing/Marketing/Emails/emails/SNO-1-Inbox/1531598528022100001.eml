@@ -1,0 +1,580 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: none (zoho.com: 209.85.214.53 is neither permitted nor denied by domain of shanklinrealty.com) client-ip=209.85.214.53; envelope-from=sherman@shanklinrealty.com; helo=mail-it0-f53.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=none (zoho.com: 209.85.214.53 is neither permitted nor denied by domain of shanklinrealty.com)  smtp.mailfrom=sherman@shanklinrealty.com
+Return-Path: <sherman@shanklinrealty.com>
+Received: from mail-it0-f53.google.com (mail-it0-f53.google.com [209.85.214.53]) by mx.zohomail.com
+	with SMTPS id 1531598526238128.30486624429852; Sat, 14 Jul 2018 13:02:06 -0700 (PDT)
+Received: by mail-it0-f53.google.com with SMTP id s7-v6so15753340itb.4
+        for <sam@c-mtg.com>; Sat, 14 Jul 2018 13:02:05 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=shanklinrealty-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=wG9GpEzPBjci8DW8PW4BtQ+jhWVPiGUaH48AQhOeN2U=;
+        b=je9N/d2l+KgQoJW/W/xAi0IBzDkcoiDAzFCVFjPP5TDGDcmlcqUezVrOyl8DFv2Nl+
+         S4V2ETwcQl+9H8y8lK2f0y5idtxkjCb2PZjyImqzxShh0NgUJDeIVRAzFJiG09Bc8dK3
+         fdnO+4Gl1BANKHt+IdvyGgRjA0nlrZtq/FeMn9+ICKLQ3gYPsnzi6oE82faMoFQGGc40
+         ukMTXGNipc00EU4d63w6ZLS+BEBgV9SwyJRBs8tcfjFD8Auqyt3ls+NplmMIJ58FUqMG
+         ygYZnzLqt2Jtco502Ri6ANxqzwMNqWGS/oDXBfwhSPsbw6pKCse+viyD0JjQsEtfvzsG
+         Rbgg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=wG9GpEzPBjci8DW8PW4BtQ+jhWVPiGUaH48AQhOeN2U=;
+        b=t1mU5XtAdcETSjlF5gh3Ny5I8vbpP58TUV8/FdkUBwHnjAN2KSJV4AxNa3ZgGw0gst
+         FVugX+ZeSOmcW6OgCgoe4Eb3PHa6MyTKyzl8Od9obziWeGnF7bBbnKgJsgcjfSKc6GWZ
+         4d65MCAzXpNDr6i7o4sxtOtu04nYyWAcdAp6J91VT40IZLj3W1IhnV9JhdxawbFp9gU8
+         D5OJaL4Q3cPO8x3PCwQXCTlWecMwCSvyswkbJouHILJJ7rnFAbrlynaxSyaoV7lnS7ow
+         Nebd6H8QT5gj1J6dICWfiHHi6N3nFwnu4hzfBzztwff3fH+eEEujXHHymL0FbzWOKAEO
+         D4DA==
+X-Gm-Message-State: AOUpUlHrtAfdyK17zc/AVFfNdBkmliE+ZtVhOFalX8aeW+N0swSaeZQU
+	+FgQjWKsu82Eg0qn2a4f4i+Zr3AV6z5FsAEgr0fbRA==
+X-Google-Smtp-Source: AAOMgpd+oS+G1xA+G9Bg+bwWOzjfZtHwILGi2LSolxGEWA+BByup3KR91f++4ccxGYsc/zMkW59aE0szce1stiAlVNU=
+X-Received: by 2002:a02:3f25:: with SMTP id d37-v6mr9034348jaa.109.1531598524538;
+ Sat, 14 Jul 2018 13:02:04 -0700 (PDT)
+MIME-Version: 1.0
+References: <5b4a495b.1c69fb81.3a058.482bSMTPIN_ADDED_MISSING@mx.google.com>
+In-Reply-To: <5b4a495b.1c69fb81.3a058.482bSMTPIN_ADDED_MISSING@mx.google.com>
+From: Sherman Shanklin <sherman@shanklinrealty.com>
+Date: Sat, 14 Jul 2018 14:01:52 -0600
+Message-ID:<CAA9O7ecnJxrPOh_iZJRGsLA4ik78ei9yw5rYqM_HwHpDocvcwQ@mail.gmail.com>
+Subject: Re: LoopNet Lead for RR 1
+To: Sam Tehranchi <sam@c-mtg.com>
+Content-Type: multipart/alternative; boundary="000000000000fe76240570fb1175"
+X-ZohoMail-DKIM: pass (identity @shanklinrealty-com.20150623.gappssmtp.com)
+X-ZohoMail: RDKM_0  RSF_4  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_1 S_167 FRD_HI
+X-ZM-MESSAGEID: 1531598528022100001
+X-ZohoMail-Status: 1
+
+
+--000000000000fe76240570fb1175
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Sam it is currently in contract.   I will let you know if it falls through.
+   I appreciate the inquiry.
+
+On Sat, Jul 14, 2018 at 2:04 PM Sam Tehranchi(sam@c-mtg.com) via loopnet.co=
+m
+<inquiry@loopnet.com> wrote:
+
+> [image: LoopNet Logo] <http://www.Loopnet.com?sourcecode=3D1aeewc015a0031=
+4>
+>
+> New Lead
+> This email has been sent to you from your * Home with Cell Tower and
+> 30.45 acres
+> <http://www.loopnet.com/Listing/12425987?sourcecode=3D1aeewc015a00314> *
+> listing:
+> *From:* Sam Tehranchi <sam@c-mtg.com> | +13107096304
+> *To:* Ana Anfpac, Sherman Shanklin
+>
+> Hi Sherman, I am have an interested buyer for this property, the buyer is
+> mainly buying the property based on the cell tower on the property, can y=
+ou
+> please provide a copy of the lease for review before getting contract
+> prepared. Respectfully, Sam Tehranchi COO Custom Mortgage and Realty NMLS
+> CA # 1556995 - BRE CA # 02018146 Direct 310.709.6304 -Efax 866.421.7694
+>
+> *View All Leads*
+> <http://www.loopnet.com/xNet/MainSite/Listing/AddEdit/EmailLeads.aspx?LID=
+=3D12425987&linkcode=3D31686&utm_source=3Dloopnet&utm_medium=3Demailsite&ut=
+m_campaign=3Demailleadlisting&sourcecode=3D1aeewc015a00314&sourcecode=3D1ae=
+ewc015a00314>
+>
+> If the message above is not a legitimate lead, forward this message to
+> help@loopnet.com.
+>
+> If the listing is no longer on the market, please click here
+> <https://listingmanager.costar.com/my-listings/?linkcode=3D31685&utm_sour=
+ce=3Dloopnet&utm_medium=3Demailsite&utm_campaign=3Demailleadlisting&sourcec=
+ode=3D1aeewc015a00314>
+> to update.
+>
+> [image: Google Plus] <https://plus.google.com/+LoopNet> [image: Facebook]
+> <http://facebook.com/loopnet> [image: LinkedIn]
+> <http://linkedin.com/company/loopnet> [image: Twitter]
+> <http://twitter.com/loopnet>
+>
+> *Find your next space on the go!*
+>
+> Leverage the power of LoopNet anytime, anywhere with our mobile apps.
+> [image: Apple App Store]
+> <http://itunes.apple.com/us/app/loopnet-commercial-real-estate/id34956144=
+8?mt=3D8> [image:
+> Google Play Store]
+> <https://play.google.com/store/apps/details?id=3Dcom.loopnet.android&feat=
+ure=3Dnav_result#?t=3DW251bGwsMSwxLDMsImNvbS5sb29wbmV0LmFuZHJvaWQiXQ>
+>
+>
+>
+>
+> Reference code: 5.4ELL-C1574976909
+>
+--=20
+
+
+
+
+  *=E2=80=9CSelling Land since 1987=E2=80=9D*
+
+* Land Is Our Business*
+
+*Find us on Social Media!*
+<https://www.facebook.com/remaxgreencountry/>
+<https://www.instagram.com/remaxofgreencountry/>
+<https://twitter.com/ShermShanklin> [image:
+https://www.linkedin.com/in/sherman-shanklin-87a62668/]
+<https://www.linkedin.com/in/sherman-shanklin-87a62668/>
+<https://www.youtube.com/channel/UCNRysnNAJXEb5K_JBEYbDGw>
+<https://www.pinterest.com/shanklinteam/>
+
+Sherman Shanklin
+
+Broker- Owner
+
+RE/MAX of Green Country
+
+111 S. Ash St. Nowata, OK 74048
+
+Office: 918.273.2344
+
+Cell:     918.521.4696
+
+www.shanklinrealty.com
+
+sherman@shanklinrealty.com
+
+
+Oh, by the way=E2=80=A6
+
+I'm never too busy for any of your referrals!
+
+
+Review me on Zillow.com here! <https://rem.ax/2hBcmy2>
+
+*Review me on Realtor.com here!* <https://rem.ax/2zayfyq>
+
+Please Note: Neither RE/MAX of Green Country, nor RE/MAX of Green Country
+Associates will send wiring instructions to a buyer for the closing of the
+sale of a property purchase through RE/MAX of Green Country. Wiring
+instructions will ONLY come from the title company or institution that is
+handling the closing of the sale of the property.  IN THE EVENT THAT YOU
+RECEIVE WIRING INSTRUCTIONS IN AN EMAIL, PLEASE VERIFY WITH THE CLOSING
+COMPANY THAT IT ACTUALLY CAME FROM THAT INSTITUTION.
+
+--000000000000fe76240570fb1175
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div><div><div dir=3D"auto">Sam it is currently in contract. =C2=A0 I will =
+let you know if it falls through. =C2=A0 =C2=A0I appreciate the inquiry. =
+=C2=A0 =C2=A0</div></div></div><div><div><br><div class=3D"gmail_quote"><di=
+v dir=3D"ltr">On Sat, Jul 14, 2018 at 2:04 PM Sam Tehranchi(<a href=3D"mail=
+to:sam@c-mtg.com" target=3D"_blank">sam@c-mtg.com</a>) via <a href=3D"http:=
+//loopnet.com" target=3D"_blank">loopnet.com</a> &lt;<a href=3D"mailto:inqu=
+iry@loopnet.com" target=3D"_blank">inquiry@loopnet.com</a>&gt; wrote:<br></=
+div><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-lef=
+t:1px #ccc solid;padding-left:1ex"><u></u>
+
+
+   =20
+   =20
+   =20
+
+<div style=3D"width:100%!important;margin:0!important;padding:20px!importan=
+t;background-color:#ffffff">
+    <div class=3D"m_6799256577507615081m_-7293115268834961761container" sty=
+le=3D"width:640px!important;margin:0 auto">
+        <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" id=3D"m_679=
+9256577507615081m_-7293115268834961761backgroundTable" width=3D"640" style=
+=3D"height:auto!important;margin:0;padding:0;background-color:#ffffff;color=
+:#222222">
+            <tbody><tr>
+                <td>
+                    <div id=3D"m_6799256577507615081m_-7293115268834961761t=
+ablewrap" style=3D"width:100%!important;text-align:center!important;margin-=
+top:0!important;margin-right:auto!important;margin-bottom:0!important;margi=
+n-left:auto!important">
+                        <table id=3D"m_6799256577507615081m_-72931152688349=
+61761contenttable" width=3D"640" align=3D"center" cellpadding=3D"0" cellspa=
+cing=3D"0" border=3D"0" style=3D"background-color:#ffffff;text-align:center=
+!important;margin-top:0!important;margin-right:auto!important;margin-bottom=
+:0!important;margin-left:auto!important;border:1px solid #b1b3b0;width:100%=
+!important;max-width:640px!important">
+                            <tbody><tr>
+                                <td width=3D"100%">
+                                    <table bgcolor=3D"#ffffff" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+                                        <tbody><tr>
+                                            <td width=3D"100%" bgcolor=3D"#=
+ffffff" style=3D"text-align:left">
+                                                <table bgcolor=3D"#ffffff" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td width=3D"10=
+0%" bgcolor=3D"#ffffff" style=3D"text-align:left">
+                                                                <table bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"12" width=3D"100%" class=3D"m_679=
+9256577507615081m_-7293115268834961761emailwrapto100pc">
+                                                                    <tbody>
+                                                                        <tr=
+>
+                                                                           =
+ <td bgcolor=3D"ffffff" align=3D"left" valign=3D"middle" style=3D"padding:0=
+px;margin:0">
+                                                                           =
+     <a href=3D"http://www.Loopnet.com?sourcecode=3D1aeewc015a00314" target=
+=3D"_blank"><img src=3D"http://www.loopnet.com/emailimages/LS_Header_img_lf=
+t_logo-LN-Short.jpg" border=3D"0" width=3D"217" height=3D"90" alt=3D"LoopNe=
+t Logo"></a>
+                                                                           =
+ </td>
+                                                                           =
+ <td bgcolor=3D"#cf0000" style=3D"width:100%;padding:0;margin:0">=C2=A0</td=
+>
+                                                                        </t=
+r>
+                                                                    </tbody=
+>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+
+                                    <table bgcolor=3D"#ffffff" id=3D"m_6799=
+256577507615081m_-7293115268834961761contenttable" align=3D"center" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"560" class=3D"m_6799256=
+577507615081m_-7293115268834961761emailwrapto100pc">
+                                        <tbody><tr>
+                                            <td align=3D"left" valign=3D"to=
+p" style=3D"color:#63666a;font-family:Arial,Helvetica,sans-serif;font-size:=
+17px;margin:0 auto;padding:20px 0 15px 0;font-weight:normal">
+                                                <table width=3D"600">
+                                                    <tbody>
+
+                                                        <tr>
+                                                            <td valign=3D"t=
+op" style=3D"font-size:12px;padding:0 0 0;font-family:Arial,Helvetica,sans-=
+serif;vertical-align:top">
+                                                                <h1 id=3D"m=
+_6799256577507615081m_-7293115268834961761welcome" style=3D"font-size:24px;=
+font-weight:bold;margin:0 0 10px;font-family:Arial,Helvetica,sans-serif;col=
+or:#000000">
+                                                                    New Lea=
+d
+                                                                </h1>
+                                                            </td>
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td align=3D"le=
+ft" style=3D"font-size:14px;font-family:Arial,Helvetica,sans-serif;color:#0=
+00000">
+                                                                This email =
+has been sent to you from your <b>
+                                                                <a href=3D"=
+http://www.loopnet.com/Listing/12425987?sourcecode=3D1aeewc015a00314" style=
+=3D"color:#0080b5" target=3D"_blank">Home with Cell Tower and 30.45 acres</=
+a>
+                                                                </b>listing=
+:<br>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td width=3D"10=
+0%" class=3D"m_6799256577507615081m_-7293115268834961761modList m_679925657=
+7507615081m_-7293115268834961761primary m_6799256577507615081m_-72931152688=
+34961761bottomSpacing" style=3D"border-collapse:collapse;margin-bottom:23px=
+!important;table-layout:auto;text-align:left;background-color:#efefef;paddi=
+ng:10px;margin-bottom:20px;border:1px solid #d6d6d6;font-size:14px;font-fam=
+ily:Arial,Helvetica,sans-serif;color:#000000" bgcolor=3D"#efefef">
+
+                                                                <b>From:</b=
+> <a style=3D"text-decoration:none;color:#5badcd" href=3D"mailto:sam@c-mtg.=
+com" target=3D"_blank">Sam Tehranchi</a> | +13107096304<br>
+                                                                <b>To:</b> =
+Ana Anfpac, Sherman Shanklin <br><br>
+                                                                Hi Sherman,=
+ I am have an interested buyer for this property, the buyer is mainly buyin=
+g the property based on the cell tower on the property, can you please prov=
+ide a copy of the lease for review before getting contract prepared.=20
+Respectfully,  =20
+
+=20
+Sam Tehranchi
+COO
+Custom Mortgage and Realty=20
+NMLS CA # 1556995 - BRE CA # 02018146
+Direct 310.709.6304 -Efax 866.421.7694
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td width=3D"10=
+0%" align=3D"center">
+                                                                <br>
+                                                                <table cell=
+padding=3D"7" cellspacing=3D"0" bgcolor=3D"#CF0000" style=3D"border:1px sol=
+id #cf0000" width=3D"155">
+                                                                    <tbody>=
+<tr>
+                                                                        <td=
+ style=3D"font-size:15px;font-family:Arial,Helvetica,sans-serif;color:#ffff=
+ff" width=3D"139" align=3D"center"><a href=3D"http://www.loopnet.com/xNet/M=
+ainSite/Listing/AddEdit/EmailLeads.aspx?LID=3D12425987&amp;linkcode=3D31686=
+&amp;utm_source=3Dloopnet&amp;utm_medium=3Demailsite&amp;utm_campaign=3Dema=
+illeadlisting&amp;sourcecode=3D1aeewc015a00314&amp;sourcecode=3D1aeewc015a0=
+0314" style=3D"color:#ffffff;text-decoration:none" target=3D"_blank"><b>Vie=
+w All Leads</b></a></td>
+                                                                    </tr>
+                                                                </tbody></t=
+able><br>
+                                                            </td>
+                                                        </tr><tr>
+                                                            <td align=3D"le=
+ft" style=3D"font-size:14px;font-family:Arial,Helvetica,sans-serif;color:#0=
+00000">
+                                                                <p>If the m=
+essage above is not a legitimate lead, forward this message to <a href=3D"m=
+ailto:help@loopnet.com" style=3D"color:#5badcd" target=3D"_blank">help@loop=
+net.com</a>.</p>
+                                                                <p>If the l=
+isting is no longer on the market, please <a style=3D"text-decoration:none;=
+color:#a6192e" href=3D"https://listingmanager.costar.com/my-listings/?linkc=
+ode=3D31685&amp;utm_source=3Dloopnet&amp;utm_medium=3Demailsite&amp;utm_cam=
+paign=3Demailleadlisting&amp;sourcecode=3D1aeewc015a00314" target=3D"_blank=
+">click here</a> to update.</p>
+                                                                <p align=3D=
+"center"><a href=3D"https://plus.google.com/+LoopNet" target=3D"_blank"><im=
+g src=3D"http://www.loopnet.com/emailimages/social/google-plus.jpg" alt=3D"=
+Google Plus"></a> <a href=3D"http://facebook.com/loopnet" target=3D"_blank"=
+><img src=3D"http://www.loopnet.com/emailimages/social/facebook.jpg" alt=3D=
+"Facebook"></a> <a href=3D"http://linkedin.com/company/loopnet" target=3D"_=
+blank"><img src=3D"http://www.loopnet.com/emailimages/social/linkedin.jpg" =
+alt=3D"LinkedIn"></a> <a href=3D"http://twitter.com/loopnet" target=3D"_bla=
+nk"><img src=3D"http://www.loopnet.com/emailimages/social/twitter.jpg" alt=
+=3D"Twitter"></a></p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                        </tbody></table>
+
+                       =20
+
+                        <table width=3D"640" align=3D"center" style=3D"back=
+ground-color:#ffffff;text-align:center!important;margin-top:10px!important;=
+margin-right:auto!important;margin-bottom:0!important;margin-left:auto!impo=
+rtant;width:100%!important;max-width:640px!important">
+                            <tbody>
+                                <tr>
+                                    <td valign=3D"top" style=3D"font-family=
+:Arial,Helvetica,sans-serif;text-align:left;padding:20px;color:#63666a;vert=
+ical-align:top;text-align:center;max-width:640px">
+                                        <p style=3D"font-size:15px;margin:0=
+ 0 8px 0;color:#000000"><strong>Find your next space on the go!</strong></p=
+>
+                                        <p style=3D"font-size:15px;margin:0=
+ 0 8px 0">Leverage the power of LoopNet anytime, anywhere with our mobile a=
+pps.</p>
+                                        <center>
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td style=3D"paddin=
+g-right:5px">
+                                                            <a href=3D"http=
+://itunes.apple.com/us/app/loopnet-commercial-real-estate/id349561448?mt=3D=
+8" rel=3D"noopener" target=3D"_blank">
+                                                                <img class=
+=3D"m_6799256577507615081m_-7293115268834961761apple" src=3D"http://www.loo=
+pnet.com/emailimages/app-store-apple.png" width=3D"134" height=3D"45" style=
+=3D"height:45px;width:auto" alt=3D"Apple App Store">
+                                                            </a>
+                                                        </td>
+                                                        <td style=3D"paddin=
+g-left:5px">
+                                                            <a href=3D"http=
+s://play.google.com/store/apps/details?id=3Dcom.loopnet.android&amp;feature=
+=3Dnav_result#?t=3DW251bGwsMSwxLDMsImNvbS5sb29wbmV0LmFuZHJvaWQiXQ" rel=3D"n=
+oopener" target=3D"_blank">
+                                                                <img class=
+=3D"m_6799256577507615081m_-7293115268834961761google" src=3D"http://www.lo=
+opnet.com/emailimages/app-store-google.png" width=3D"152" height=3D"45" sty=
+le=3D"height:45px;width:auto" alt=3D"Google Play Store">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </center>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td valign=3D"top" style=3D"font-size:1=
+1px;font-family:Arial,Helvetica,sans-serif;text-align:left;padding:20px;col=
+or:#aaaaaa;vertical-align:top" width=3D"640">
+                                        <br><br>
+                                        <br><br>
+                                        Reference code: 5.4ELL-C1574976909
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+<img width=3D"1" height=3D"1" src=3D"http://www.loopnet.com/xNet/MainSite/M=
+arketing/EmailImage.aspx?Ref=3D5.4ELL-C1574976909&amp;DateTimeCreated=3D7%2=
+f14%2f2018+3%3a04%3a58+PM&amp;Template=3DEmailLeadListing&amp;RecipientList=
+=3DSherman@shanklinrealty.com&amp;SenderEmail=3Dsam@c-mtg.com&amp;LMesID=3D=
+21003802" border=3D""></div>
+
+
+</blockquote></div></div></div><div>-- <br><div dir=3D"ltr" class=3D"m_6799=
+256577507615081gmail_signature" data-smartmail=3D"gmail_signature"><div dir=
+=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr">=
+<div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div=
+ dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"l=
+tr"><div><div dir=3D"ltr"><span><p dir=3D"ltr" style=3D"line-height:1.38;ma=
+rgin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:6pt;font-family:Ve=
+rdana;color:rgb(255,0,0);vertical-align:baseline;white-space:pre-wrap"><spa=
+n><br></span></span></p><div dir=3D"ltr" style=3D"margin-left:24.75pt"><tab=
+le style=3D"border:none;border-collapse:collapse"><colgroup><col width=3D"1=
+73"><col width=3D"291"></colgroup><tbody><tr style=3D"height:188pt"><td sty=
+le=3D"border-bottom:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5p=
+t 5pt"><p dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom=
+:0pt;text-align:center"><span style=3D"font-size:11pt;font-family:Arial;col=
+or:#000000;background-color:transparent;font-weight:400;font-style:normal;f=
+ont-variant:normal;text-decoration:none;vertical-align:baseline;white-space=
+:pre-wrap;white-space:pre-wrap"> =C2=A0=C2=A0=C2=A0</span><img src=3D"https=
+://lh6.googleusercontent.com/gNEJRdiaCEmhkfHTts5P_AMRVsHsBJ7E03Q0rN_lU-6mn-=
+Cyq0vOE9Tchu7wKEgr9bdz2OFa5-j9lfkGSNgBSZTHaFA3GG9BkZVA--xVjiXdtE5RJDDVaxEO5=
+VEhlUoJtf70sfAL" width=3D"134" height=3D"160" style=3D"border:none"></p><p =
+dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt"><spa=
+n style=3D"font-size:12pt;font-family:Arial;color:#000000;background-color:=
+transparent;font-weight:700;font-style:normal;font-variant:normal;text-deco=
+ration:none;vertical-align:baseline;white-space:pre-wrap;white-space:pre-wr=
+ap"> =C2=A0 </span><span style=3D"background-color:transparent;color:rgb(0,=
+0,0);font-family:Arial;white-space:pre-wrap"><b><font size=3D"1">=E2=80=9CS=
+elling Land since 1987=E2=80=9D</font></b></span></p><p dir=3D"ltr" style=
+=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt"><b style=3D"backgroun=
+d-color:transparent;color:rgb(0,0,0);white-space:pre-wrap"><font size=3D"1"=
+ face=3D"times new roman, serif">           Land Is Our Business</font></b>=
+</p><br><b><font face=3D"arial, helvetica, sans-serif">Find us on Social Me=
+dia!</font></b><br><a href=3D"https://www.facebook.com/remaxgreencountry/" =
+target=3D"_blank"><img src=3D"https://cdn0.iconfinder.com/data/icons/social=
+-flat-rounded-rects/512/facebook-20.png"></a>=C2=A0<a href=3D"https://www.i=
+nstagram.com/remaxofgreencountry/" target=3D"_blank"><img src=3D"https://cd=
+n0.iconfinder.com/data/icons/social-flat-rounded-rects/512/instagram-20.png=
+"></a>=C2=A0<a href=3D"https://twitter.com/ShermShanklin" target=3D"_blank"=
+><img src=3D"https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rec=
+ts/512/twitter-20.png"></a>=C2=A0<a href=3D"https://www.linkedin.com/in/she=
+rman-shanklin-87a62668/" target=3D"_blank"><img src=3D"https://cdn0.iconfin=
+der.com/data/icons/social-flat-rounded-rects/512/linkedin-20.png" alt=3D"ht=
+tps://www.linkedin.com/in/sherman-shanklin-87a62668/"></a>=C2=A0<a href=3D"=
+https://www.youtube.com/channel/UCNRysnNAJXEb5K_JBEYbDGw" target=3D"_blank"=
+><img src=3D"https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rec=
+ts/512/youtube_v2-20.png"></a>=C2=A0<a href=3D"https://www.pinterest.com/sh=
+anklinteam/" target=3D"_blank"><img src=3D"https://cdn0.iconfinder.com/data=
+/icons/social-flat-rounded-rects/512/pinterest-20.png"></a><br></td><td sty=
+le=3D"border-bottom:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5p=
+t 5pt"><p dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom=
+:0pt"><span style=3D"font-family:&quot;Playfair Display&quot;;background-co=
+lor:transparent;font-weight:700;font-style:italic;font-variant:normal;text-=
+decoration:none;vertical-align:baseline;white-space:pre-wrap"><font size=3D=
+"4" color=3D"#0000ff">Sherman Shanklin</font></span></p><p dir=3D"ltr" styl=
+e=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-=
+size:10pt;font-family:&#39;Playfair Display&#39;;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;white-space:p=
+re-wrap">Broker- Owner</span></p><br><p dir=3D"ltr" style=3D"line-height:1.=
+2;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-fami=
+ly:&#39;Playfair Display&#39;;color:#000000;background-color:transparent;fo=
+nt-weight:700;font-style:normal;font-variant:normal;text-decoration:none;ve=
+rtical-align:baseline;white-space:pre-wrap;white-space:pre-wrap">RE/MAX of =
+Green Country</span></p><p dir=3D"ltr" style=3D"line-height:1.2;margin-top:=
+0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Spectral;c=
+olor:#000000;background-color:transparent;font-weight:700;font-style:normal=
+;font-variant:normal;text-decoration:none;vertical-align:baseline;white-spa=
+ce:pre-wrap;white-space:pre-wrap">111 S. Ash St. Nowata, OK 74048</span></p=
+><p dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt">=
+<span style=3D"font-size:10pt;font-family:Spectral;color:#000000;background=
+-color:transparent;font-weight:700;font-style:normal;font-variant:normal;te=
+xt-decoration:none;vertical-align:baseline;white-space:pre-wrap;white-space=
+:pre-wrap">Office: 918.273.2344</span></p><p dir=3D"ltr" style=3D"line-heig=
+ht:1.2;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font=
+-family:Spectral;color:#000000;background-color:transparent;font-weight:700=
+;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:=
+baseline;white-space:pre-wrap;white-space:pre-wrap">Cell: =C2=A0=C2=A0=C2=
+=A0=C2=A0918.521.4696</span></p><p dir=3D"ltr" style=3D"line-height:1.2;mar=
+gin-top:0pt;margin-bottom:0pt"><a href=3D"http://www.shanklinrealty.com" st=
+yle=3D"text-decoration:none" target=3D"_blank"><span style=3D"font-size:10p=
+t;font-family:Spectral;color:#1155cc;background-color:transparent;font-weig=
+ht:700;font-style:normal;font-variant:normal;text-decoration:underline;vert=
+ical-align:baseline;white-space:pre-wrap;white-space:pre-wrap">www.shanklin=
+realty.com</span></a></p><p dir=3D"ltr" style=3D"line-height:1.2;margin-top=
+:0pt;margin-bottom:0pt"><a href=3D"mailto:sherman@shanklinrealty.com" style=
+=3D"text-decoration:none" target=3D"_blank"><span style=3D"font-size:10pt;f=
+ont-family:Spectral;color:#1155cc;background-color:transparent;font-weight:=
+700;font-style:normal;font-variant:normal;text-decoration:underline;vertica=
+l-align:baseline;white-space:pre-wrap;white-space:pre-wrap">sherman@shankli=
+nrealty.com</span></a></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-t=
+op:0pt;margin-bottom:0pt"><span style=3D"color:rgb(24,23,23);font-family:Sp=
+ectral;font-size:10.5pt;font-weight:700;white-space:pre-wrap"><br></span></=
+p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt=
+"><span style=3D"color:rgb(24,23,23);font-family:Spectral;font-size:10.5pt;=
+font-weight:700;white-space:pre-wrap">Oh, by the way=E2=80=A6</span><br></p=
+><p dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt">=
+<span style=3D"font-size:10.5pt;font-family:Spectral;color:#181717;backgrou=
+nd-color:#ffffff;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;white-space:p=
+re-wrap">I&#39;m never too busy for any of your referrals!</span></p><p dir=
+=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt"><br></p=
+><p dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt">=
+<a href=3D"https://rem.ax/2hBcmy2" style=3D"font-weight:700;white-space:pre=
+-wrap" target=3D"_blank"><font face=3D"times new roman, serif" size=3D"2">R=
+eview me on Zillow.com here!</font></a></p><p dir=3D"ltr" style=3D"line-hei=
+ght:1.2;margin-top:0pt;margin-bottom:0pt"><a href=3D"https://rem.ax/2zayfyq=
+" target=3D"_blank"><b><font size=3D"2" face=3D"times new roman, serif">Rev=
+iew me on Realtor.com here!</font></b></a><br></p></td></tr></tbody></table=
+></div><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-botto=
+m:0pt"><span style=3D"color:rgb(255,0,0);font-family:Verdana;font-size:6pt;=
+white-space:pre-wrap">Please Note: Neither RE/MAX of Green Country, nor RE/=
+MAX of Green Country Associates will send wiring </span><span style=3D"colo=
+r:rgb(255,0,0);font-family:Verdana;font-size:6pt;white-space:pre-wrap">inst=
+ructions to a buyer for the closing of the sale of a property purchase thro=
+ugh RE/MAX of Green Country. Wiring instructions will ONLY come from the ti=
+tle company or institution that is handling the closing of the sale of the =
+property.=C2=A0 IN THE EVENT THAT YOU RECEIVE WIRING INSTRUCTIONS IN AN EMA=
+IL, PLEASE VERIFY WITH THE CLOSING COMPANY THAT IT ACTUALLY CAME FROM THAT =
+INSTITUTION.</span></p><div><span style=3D"font-size:6pt;font-family:Verdan=
+a;color:rgb(255,0,0);vertical-align:baseline;white-space:pre-wrap"><br></sp=
+an></div></span></div></div></div></div></div></div></div></div></div></div=
+></div></div></div></div></div></div></div></div></div></div></div></div></=
+div></div>
+</div>
+
+--000000000000fe76240570fb1175--

@@ -1,0 +1,589 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of mail.toptal.com designates 54.174.63.102 as permitted sender) client-ip=54.174.63.102; envelope-from=1axbyb0klig7rr0r80ea0eg6jhddjr61lot28c-sam=c-mtg.com@mail.toptal.com; helo=pgg4ag.mail.toptal.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=@toptal.com;
+	spf=pass (zoho.com: domain of mail.toptal.com designates 54.174.63.102 as permitted sender)  smtp.mailfrom=1axbyb0klig7rr0r80ea0eg6jhddjr61lot28c-sam=c-mtg.com@mail.toptal.com;
+	dmarc=pass(p=none dis=none)  header.from=toptal.com
+Received: from pgg4ag.mail.toptal.com (pgg4ag.mail.toptal.com [54.174.63.102]) by mx.zohomail.com
+	with SMTPS id 1532438725843758.7820817398107; Tue, 24 Jul 2018 06:25:25 -0700 (PDT)
+Received: by 172.16.62.47 with SMTP id azlpzyulybvgvws69x7i77p9fprposfl8ygg6wkv4;
+        Tue, 24 Jul 2018 13:25:25 GMT
+Return-Path: <1axbyb0klig7rr0r80ea0eg6jhddjr61lot28c-sam=c-mtg.com@mail.toptal.com>
+Return-Path: <1axbyb0klig7rr0r80ea0eg6jhddjr61lot28c-sam=c-mtg.com@mail.toptal.com>
+DKIM-Signature: v=1; s=hs1; d=mail.toptal.com; 
+        i=@mail.toptal.com; 
+        h=sender:from:reply-to:to:subject:mime-version:content-type:list-unsubscribe:x-report-abuse:form-sub; 
+        a=rsa-sha256; c=relaxed/relaxed; 
+        bh=2x83Vc6HF0HAKyASYKzDmv7Sdxd6GA87ITCucmJ+g3Q=; 
+        b=rdXtS62urd6ty8doikT/bnWOYMnMXj2wTly95BRAAFzqZM3lqGLCYwvOW88kF7
+         tIZRaG+Sb+5K2URPnbzxIjbKdbRy4mQXQmH6SnL2/g1eONMB0n9sKP77m96Onzk
+         wNnZWGTGPzAyPf1X4MnR9LJ5JaKTyObjfYdbMIy0CnpBBsB5xUsTAXvLiUQrlhP
+         OlPvl+37yt95YI23T8qkYfhP0K4YMNgt6Drzj91QwDKpv3Giu4AWN4YfMMgF85j
+         Ik6Oy0xTBbPuB/eGROnkJ6UyW8m5Q48sLkcLOkTBNAJ2OLxlE5iruD6fvXRGl2U
+         d5BE61FwDXeJQ/n1AviFFytZSNmg==; q=dns/txt; t=1532438725;
+DKIM-Signature: v=1; s=hs1; d=toptal.com; i=@toptal.com; 
+        h=sender:from:reply-to:to:subject:mime-version:content-type:list-unsubscribe:x-report-abuse:form-sub; 
+        a=rsa-sha256; c=relaxed/relaxed; 
+        bh=2x83Vc6HF0HAKyASYKzDmv7Sdxd6GA87ITCucmJ+g3Q=; 
+        b=HptCCwpGo7pOTDi7R28XVUHTAHKwRsp02vb99i7EJUH+JeObSKydjeoJ7mzSfo
+         hMmOlSlwFjUfV5O+Yd2WTt7/Suej0Kk3/fINZJvfcS5txZgb2nD98DaIuXLaeOg
+         egxFkAGn7vIusjwRirYZDnWXeYdQEwDScotC6eIFZzfPuQ2p+aAAGICwKyO65t7
+         G0JkPg/ncJW8lxZlsltVqs6t110Kq3oj8OtGFNUjVJmNSD5d4BKu0Z/kkjQB7Ld
+         ufXPggZof2YEjMACwTlKd2aYj+VtDBPnJe2bROch9qWDoPDbPNTaxS3FbcWR0vn
+         wzJ8+rth4NWHjrtQV6VkbkRGYBAQ==; q=dns/txt; t=1532438725;
+X-HS-Cid: 1axe4zhcfcgwpn3kbo0vaccb8tl383pq6fsvy0
+List-Unsubscribe: <mailto:1axczl8p5fxcttnazn8qjqr5ocji19c7qu5i94-sam=c-mtg.com@mail.toptal.com?subject=unsubscribe>
+Date: Tue, 24 Jul 2018 07:25:25 -0600
+From: Toptal Engineering Blog <editor@toptal.com>
+Reply-To: editor@toptal.com
+To: sam@c-mtg.com
+Message-ID:<1532438415004.d07bd2af-99e7-4951-a272-d027653b639d@mail.toptal.com>
+Subject: Web Scraping with a Headless Browser: A Puppeteer Tutorial
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_517395_1063794248.1532438724849"
+X-Report-Abuse-To: abuse@hubspot.com (see https://www.hubspot.com/abuse-complaints)
+X-ZohoMail-DKIM: pass (identity @toptal.com) (identity @mail.toptal.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_12 RF_0 S_168
+X-ZM-MESSAGEID: 1532438727171100001
+X-ZohoMail-Status: 1
+
+
+------=_Part_517395_1063794248.1532438724849
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Scraping JavaScript-heavy sites used to be difficult. This tutorial shows h=
+ow to take screenshots and gather structured data with Puppeteer.
+
+Engineering Blog (https://hs-2799924.t.hubspotemail.net/e1t/sc2/Mm-nFbk0257=
+W6clYvj6Pgw6jW7GwcmN96Z4YtW7Cq5lR59NtTdf1CYJMH03 )
+
+(https://hs-2799924.t.hubspotemail.net/e1t/sc2/Mm-nFbk0257W6clYvj6Pgw6jW7Gw=
+cmN96Z4YtW7Cq5lR59NtTdf1CYJMH13 )
+
+Web Scraping with a Headless Browser: A Puppeteer Tutorial
+(https://hs-2799924.t.hubspotemail.net/e1t/sc2/Mm-nFbk0257W6clYvj6Pgw6jW7Gw=
+cmN96Z4YtW7Cq5lR59NtTdf1CYJMH23 )
+
+JavaScript's ubiquity has meant that automating the scraping of data from w=
+ebsites has become increasingly difficult. Puppeteer makes the road smooth =
+again by allowing you to control a headless instance of Google Chrome.
+
+In this article, Toptal Freelance JavaScript Developer Nick Chikovani shows=
+ how easy it is to automatically take screenshots and gather structured dat=
+a using Puppeteer and Node.js.
+
+Continue Reading (https://hs-2799924.t.hubspotemail.net/e1t/sc2/Mm-nFbk0257=
+W6clYvj6Pgw6jW7GwcmN96Z4YtW7Cq5lR59NtTdf1CYJMH33 )
+
+About the Author
+
+Other recommended articles:
+
+-
+Why The Hell Would I Use Node.js? A Case-by-Case Tutorial (https://hs-27999=
+24.t.hubspotemail.net/e1t/sc2/Mm-nFbk0257W6clYvj6Pgw6jW7GwcmN96Z4YtW7Cq5lR5=
+9NtTdf1CYJMH43 )
+
+-
+Asynchronous JavaScript: From Callback Hell to Async and Await (https://hs-=
+2799924.t.hubspotemail.net/e1t/sc2/Mm-nFbk0257W6clYvj6Pgw6jW7GwcmN96Z4YtW7C=
+q5lR59NtTdf1CYJMH53 )
+
+-
+Automation in Selenium: Page Object Model and Page Factory (https://hs-2799=
+924.t.hubspotemail.net/e1t/sc2/Mm-nFbk0257W6clYvj6Pgw6jW7GwcmN96Z4YtW7Cq5lR=
+59NtTdf1CYJMH63 )
+
+-
+An Introduction to JavaScript Automation with Gulp (https://hs-2799924.t.hu=
+bspotemail.net/e1t/sc2/Mm-nFbk0257W6clYvj6Pgw6jW7GwcmN96Z4YtW7Cq5lR59NtTdf1=
+CYJMH73 )
+
+Nick Chikovani
+
+JavaScript Developer
+
+Along with more than six years of experience working as a developer and tea=
+m lead for various startups, Nick brings his passion for robust, scalable a=
+nd clean code design for every project. His specialties include real-time s=
+ystems, RESTful web services, web automation, business intelligence, scalab=
+ility, and open-source software. Nick is eager to take on new challenges an=
+d is fast to adapt to new development environments.
+
+Hire the Author (https://hs-2799924.t.hubspotemail.net/e1t/sc2/Mm-nFbk0257W=
+6clYvj6Pgw6jW7GwcmN96Z4YtW7Cq5lR59NtTdf1CYJMH83 )
+
+Hiring JavaScript Developers?
+
+Looking for an elite JavaScript developer to join your team? Get started wi=
+th a Toptal account to hire experts like Nick Chikovani (https://hs-2799924=
+.t.hubspotemail.net/e1t/sc2/Mm-nFbk0257W6clYvj6Pgw6jW7GwcmN96Z4YtW7Cq5lR59N=
+tTdf1CYJMH93 ) .
+
+Start Hiring (https://hs-2799924.t.hubspotemail.net/e1t/sc2/Mm-nFbk0257W6cl=
+Yvj6Pgw6jW7GwcmN96Z4YtW7Cq5lR59NtTdf1CYJMHb3 )
+
+=C2=A9 2010-2018 Toptal, LLC. All rights reserved. Toptal, LLC, 548 Market =
+Street, San Francisco, California 94104.
+
+Update your subscription preferences (https://hs-2799924.s.hubspotemail.net=
+/hs/manage-preferences/unsubscribe?d=3DeyJlYSI6InNhbUBjLW10Zy5jb20iLCJlYyI6=
+NjQ2NzI3MDQsInN1YnNjcmlwdGlvbklkIjoxMjYyODMxLCJldCI6MTUzMjQzODQxNTAwNCwiZXU=
+iOiJkMDdiZDJhZi05OWU3LTQ5NTEtYTI3Mi1kMDI3NjUzYjYzOWQifQ%3D%3D&v=3D1&_hsenc=
+=3Dp2ANqtz-_1MunWtL-TgkkrgnmJ11nwJygx8pxIeK1qNEakD-a1_vqR3XGFR9DqNtxMuK9OMH=
+7AtufOyXaQp5g883M5zHNvaaYwGg&_hsmi=3D64672704 )
+------=_Part_517395_1063794248.1532438724849
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><!-- start coded_template: id:5876930156 path:Custom/email/E=
+ngineering_Blog_Emails/New_Article_v2.html --><html lang=3D"en"><head>
+    <meta charset=3D"UTF-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"ie=3Dedge">
+    <title></title>
+    <style type=3D"text/css"></style>
+<meta name=3D"generator" content=3D"HubSpot"><meta property=3D"og:url" cont=
+ent=3D"http://toptal-2799924.hs-sites.com/-temporary-slug-594135ae-7d3d-4a6=
+4-939f-3330a96c56c3"><meta name=3D"x-apple-disable-message-reformatting"></=
+head>
+<body style=3D"min-width: 640px; margin: 0; padding: 0;">
+    <div id=3D"preview_text" style=3D"display: none; font-size: 1px; color:=
+ #f2f2f2; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; ov=
+erflow: hidden;">Scraping JavaScript-heavy sites used to be difficult. This=
+ tutorial shows how to take screenshots and gather structured data with Pup=
+peteer.</div>
+    <div style=3D"width: 640px; margin: 0 auto;">
+        <div style=3D"letter-spacing: 636px; line-height: 0; mso-hide: all"=
+>&nbsp;</div>
+        <table style=3D"width: 100%; border-spacing: 0; border-collapse: co=
+llapse;">
+            <tbody>
+                <tr>
+                    <td style=3D"padding: 0;">
+                       =20
+                       =20
+                       =20
+                       =20
+                       =20
+                        <div style=3D"display: block; width: 100%; height: =
+76px; background: #204ECF;">
+                            <div style=3D"width: 588px; margin: 0 auto; pad=
+ding: 23px 10px 0;">
+                                <div style=3D"float: right;">
+                                    <a href=3D"https://hs-2799924.t.hubspot=
+email.net/e1t/c/*W1QbmGV1KGyB7W7t3qKk4j_-VJ0/*W7cV3N11gs07HW8LX17B60-PDV0/5=
+/f18dQhb0Sjv58YXMxCN7rRy-jGZ5t0W1yMd9m5B4NzkN10s9VGXjzMnW1td_cl6HLbb3W1xvDN=
+h2HnZzQW7z32H77lZs1QW7t3ZNG1Cfk9cW7mHF3-7sTjsdW2Qy-df3zy1hcW1YZZk32NBsYLW2R=
+h6Y02M2hnsN4bQlSLVNfdKW8W2c9W32CQ2lW8jxMNS1VwV0kW1kXfyt1SdKWJW1m2kWg8Xl1blW=
+8W1M0p4qsQQqW6b-vF067h1zcMQC5z2PC2cVW7fDx2C5zcdGQVcFHt28sYxhwW4TnJLc395-HqM=
+SBd0Sb2-sKW2z82wR8mDtyRW5qtr0K4XX39RVc7s2q2C77MjN8r4tRygsZn2W4nQkzJ8n29RtVX=
+CMWM6TVBGzW3KcBmp5s1WnnVT4b454PkBg5W6BkmNH8bQGpzW72zrXT712jpZW7cpN688CPCQtW=
+3lHwqF6mkh80W2cyH2G83RTgwW4DrLkM4c29ljW7cgb_t9lB-BGW8LCNVQ25Y43RW5Sk_nR7D7H=
+xjW1Dy_KC3zJPFtf2H2jd804" style=3D"margin-left: 20px;" data-hs-link-id=3D"0=
+" target=3D"_blank"><img src=3D"https://uploads.toptal.io/blog/image/125668=
+/toptal-blog-image-1521005292111-0582221c638699855c9370718a6dc648.png" alt=
+=3D"" width=3D"32"></a><a href=3D"https://hs-2799924.t.hubspotemail.net/e1t=
+/c/*W1QbmGV1KGyB7W7t3qKk4j_-VJ0/*M8964r6kWRHW5zrbN394F8Dx0/5/f18dQhb0SbTV8Y=
+9ZP0W5vB61F1mTkZBW35v1Pm1Q44KTW20WmT21NWFTMW2-swXT3-m-4hW3sbNgh5pddYkW5F_8j=
+V5y7J47W3vG3D_5PZpmzW6d8Gxc2Y-K-3W5lNtrH5nP4NnW353GJS3jJ_1yW5K-FKH5B4_2rV_h=
+RL-1YZZk3W2NBsYL2Rh6Y0W2M2hns4bQlSLW2lmmfD2N33B5W3_t0gL32Gf2QW4dnWJc2l-ZZ5W=
+3_bFb596dt4SW4r1QvY6yH2RNW7cvxVf8q5qBxVVQf4X5vDhWYW4wp4wT1qM4g1W8qSxnL5tqzL=
+lW99Pf_-6M_35JMYw_N3WylMqV8y8vj8kXcdsW28sDsl7b0MW5N61MG2Bc84PbW62dNcX34xsVT=
+M8m6bN-sNMJW1kBc9X94gMqXN4qX_j9cP_NyW3jlQfM8GclM4VPNtBv3-DmCxW8csLSq1035ycW=
+3lMWh15hswNtN5l9D1r215_BW1J7MY_7jmRnRW7SD98Q1fDXKwW5pRj6Q4sFq58VqPjCG4tkFhH=
+W5-Vcl073yKD2W70RWKD2lhFfw111" style=3D"margin-left: 20px;" data-hs-link-id=
+=3D"0" target=3D"_blank"><img src=3D"https://uploads.toptal.io/blog/image/1=
+25667/toptal-blog-image-1521005283540-4d933a4bb042a18e5843222a037d0201.png"=
+ alt=3D"" width=3D"32"></a><a href=3D"https://hs-2799924.t.hubspotemail.net=
+/e1t/c/*W1QbmGV1KGyB7W7t3qKk4j_-VJ0/*W18XZ8B6NCNMsW3LKfvq9bkZWd0/5/f18dQhb0=
+SbTW8XJ888N7rRy-jGZ5t0W1yMd9m5B4NzkN10s9VGWMxw3W5r8vwP3mm44rW5y5Ln91mjjlbW8=
+pDr2w1nPLDMW5yJrjj1lQGM0N5wf05gTFTmcW81gM8-7d-tJnVQJ99n8tsM6WW1Wb0xs1YZZk3W=
+2NBsYL2Rh6Y0W2M2hns4bQlSLW2n4BtX2N33B5W3_t0gL32Gf2QW4cBzMH49z-4PW2MV0YB2x9Z=
+1sW8Xl1bl8W1LYJW1rXQ-K55T8N8W7w3wPS1NC3KcW1F6KSL92MKs8W2Sv8CP7sD2TvW1BLJ2W9=
+2rbDLW46W6p81S31F3N1N684nk4jVTW7lJwtz4lVmSwW50Y3t82KpSJnVnkcBB2Nlc3DN692XNK=
+jJQS9W1YXyC62G7_QtW8SqBZd8SSz1_VrBB8c6CJCqMW7ZjRCN1BxxJmW7ZdjLr73R1h2W224l1=
+f6Jwn4rW1cQ8Mh1kg5YSV215_B1J7MY_W7jmRnR7SD98QW1fDXKw5pRj6QN4sFq58qPjCGW4tkF=
+hH5-Vcl0W73yKD270RWKlf1b1dSj11" style=3D"margin-left: 20px;" data-hs-link-i=
+d=3D"0" target=3D"_blank"><img src=3D"https://uploads.toptal.io/blog/image/=
+125666/toptal-blog-image-1521005268330-d7ae3975c766ab789a8da965bd772e6a.png=
+" alt=3D"" width=3D"32"></a>
+                                </div>
+                                <div>
+                                    <a href=3D"https://hs-2799924.t.hubspot=
+email.net/e1t/c/*W1QbmGV1KGyB7W7t3qKk4j_-VJ0/*W1g39mk8x2sb1W1rKG3_9cfFVK0/5=
+/f18dQhb0Sjvd8XJ8NlN7rRy-jGZ5t0W1yMd9m5B4NzkN10s9VGWkjlMW1td_cl6HLbb3W1L5BT=
+m7lZs1QW7v6zyM7C42nVW1HltsQ2VtC3zN7t5r0htGFGKVZvXb662mpbSW63K0ZH61BC7xW26p8=
+mW1b98DcW625bx16Gj8TSW6bVy-525hvjFVHZ5KN5D8zFFW5m3ZGG96dt4SW4r1QvY8ZF_f2W8g=
+jY6L8WBKbVW56sy_82NhXK3W6Xf_Kd5pXfgYW4cq-ty7qg0zzW9grT8w832t1XMtgc3-sgHncV4=
+gBf848ZCGCW5LPN9t8gzjY6N7Hr_fN4BNHVW7JHk0h1ygdrYN4NKNfjwcTRnVGPQRN9cJjJxN6W=
+0Y4P4Xrm_W1H8Hl54lBZ6FVnpt286GTq08W8Ph58-59BvcjW1GpnDL2GKLRNW2H5bZX4J35SnW2=
+N3p-P8RXX1fW6D-bvJ4--nGjW610-Jk3tqZ67V5cfF486H3P7W8v3v1F1MWhN-W1MKdcN6YVHXr=
+111" data-hs-link-id=3D"0" target=3D"_blank"><img src=3D"https://uploads.to=
+ptal.io/blog/image/126666/toptal-blog-image-1531806546855-56a1fdbf464fe6abb=
+e46b6216df37b4d.png" alt=3D"" width=3D"97" style=3D"float: left;"></a>
+                                    <a href=3D"https://hs-2799924.t.hubspot=
+email.net/e1t/c/*W1QbmGV1KGyB7W7t3qKk4j_-VJ0/*W8Xy3vW7btQYPW6QlqDv1qZHgw0/5=
+/f18dQhb0SbTH8YXMK4N7rRy-jGZ5t0W1yMd9m5B4NzkN10s9VGWMxdSW5r8vwP3mm44rW5y5Lm=
+V8l2nK0W8rChdm8tBV3TN5wf05gTFTmcW8B-__Y67bFksW8mp2bw8p-Vr0W65kbjq6s4vzdVZvX=
+b662mpbSW63K0ZH61BC7xW2m39wz5F1DlXW625bx16Gj8TSW6bVy-525PPknW6Pkt_V62_rWzW4=
+MW8X34r1Pm7W1nq9t318dKPTW1VJryk5lX8fqW13bD4h6dkxF9W1FQykD8TvkMhW2tpY9n82tkC=
+DW5YCbg04BNJWWW7x24fT2Rg1fjN1xWnDd6fTK9V4GX5M3383dgVsW8TT32pV5WW6hlj-l1TWxC=
+lW5NFHX77rSHYTW1k08tK2fvnJzW55-fCz4C72_hW6wdbjz8nDXSjW38H1td3Cdk0dW3wv7Sm6x=
+YSPfW2VtKnW7SRk0pVgMkQP2nRzM3W5704s16JqbmQW3-NDGb2_yS_vW6PQqZx9gzKxYW5_6VTg=
+32VbX2N1tj03zVL6QTS7bH5NSsg5102" style=3D"text-decoration: none;" data-hs-l=
+ink-id=3D"0" target=3D"_blank"><span style=3D"display: inline-block; margin=
+-top: 10px; margin-left: 12px; font-family: 'Helvetica Neue', Helvetica, 'S=
+egoe UI', Arial, sans-serif; font-size: 14px; text-transform: uppercase; co=
+lor: #FFFFFF; opacity: 0.54;">Engineering Blog</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style=3D"padding: 0;">
+                        <div style=3D"display: block; width: 100%; overflow=
+: hidden; background: #FFFFFF; background: linear-gradient(180deg, #11286C =
+334px, #FFFFFF 334px);">
+                            <div style=3D"display: block; width: 640px; mar=
+gin: 0 auto; padding: 0 0 8px; background: url(https://cdn2.hubspot.net/hub=
+fs/2799924/0716_WebScraping_Dan_Newsletter.png?t=3D1532427930058) 0% 0% / 6=
+40px 334px no-repeat;  background-image: url(https://cdn2.hubspot.net/hubfs=
+/2799924/0716_WebScraping_Dan_Newsletter.png?t=3D1532427930058); background=
+-size: 640px 334px; background-repeat: no-repeat;">
+                                <a href=3D"https://hs-2799924.t.hubspotemai=
+l.net/e1t/c/*W1QbmGV1KGyB7W7t3qKk4j_-VJ0/*VFXJBL6lptsZW8qHc0z76ll3c0/5/f18d=
+Qhb0Sq5D8Y9ZwPW5vB61F1mTkZBW35v1Pm1Q44KTW20WmT21Nq07vW2-swXT3-m-4hW3sbNf55l=
+QrGRW5B97bx5S2bz-W3jbJZn5mg0yKW5RStrF5mc5b-W6jzDBq3v9h90W5_Hr621G5L7cW1MhVg=
+-6tClrrW58R2pq1GlVNbW7BQDjJ5J4hg4W8c8L9d5BYFNNW5D2t0026dRsLW6gp8468sZ4WSW67=
+b7w67hYCG4W3N1Lh37-KgYYW64jzh47-JXR6W1lRb4_61mzVzVp4hwl5_N0_wW5K_zXK3lj2tvW=
+3blhRk116pCyN3xCPqQMFdGCN5KtR3RGnnDhW3mhMyJ3nj2YFMR87QdXsTJ3W5hfWGT2_Glz-MZ=
+rZFPPBdSYW11qhsK5G17xtW17Pv0X8d4p5YW5xN9z63Kp8nkW8Nk1Dh5rPkrTW37Tx5_3sgVqJV=
+k8xjr7K_mBdN4QT5PZ6Y9ktLTrHDTdZcHW6mSf3j41CB72W2XVql88mhVQYW8q2mf18TbqWgW5M=
+SH6t1JmSL_W9jZgd74w2StjW7vjxLc94p_NjW4Pxhj53DlwBbW4w0SvK48YJTM0" style=3D"d=
+isplay: block; width: 100%; height: 296px; text-decoration: none;" data-hs-=
+link-id=3D"0" target=3D"_blank">&nbsp;</a>
+                                <div style=3D"display: block; width: 548px;=
+ margin: 0 auto 0; padding: 30px; background: #FFFFFF;">
+                                    <a href=3D"https://hs-2799924.t.hubspot=
+email.net/e1t/c/*W1QbmGV1KGyB7W7t3qKk4j_-VJ0/*W4wfhT215Dp_SW3PVpby6yvrfL0/5=
+/f18dQhb0Sq5D8Y9ZwPW5vB61F1mTkZBW35v1Pm1Q44KTW20WmT21Nq07vW2-swXT3-m-4hW3sb=
+Nf55lQrGRW5B97bx5S2bz-W3jbJZn5mg0yKW5RStrF5mc5b-W6jzDBq3v9h90W5_Hr621G5L7cW=
+1MhVg-6tClrrW58R2pq1GlVNbW7BQDjJ5J4hg4W8c8L9d5BYFNNW5D2t0026dRsLW6gp8468sZ4=
+WSW67b7w67hYCG4W3N1Lh37-KgYYW64jzh47-JXR6W1lRb4_61mzVzVp4hwl5_N0_wW5K_zXK3l=
+j2tvW3blhRk116pCyN3xCPqQMFdGCN5KtR3RGnnDhW3mhMyJ3nj2YFMR87QdXsTJ3W5hfWGT2_G=
+lz-MZrZFPPBdSYW11qhsK5G17xtW17Pv0X8d4p5YW5xN9z63Kp8nkW8Nk1Dh5rPkrTW37Tx5_3s=
+gVqJVk8xjr7K_mBdN4QT5PZ6Y9ktLTrHDTdZcHW6mSf3j41CB72W2XVql88mhVQYW8q2mf18Tbq=
+WgW5MSH6t1JmSL_W9jZgd74w2StjW7vjxLc94p_NjW4Pxl5Q3DlwBbW7qz8RG48YJTM0" style=
+=3D"text-decoration: none;" data-hs-link-id=3D"1" target=3D"_blank"><h1 sty=
+le=3D"margin: 0; font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Aria=
+l, sans-serif; font-weight: 400; font-size: 30px; color: #204ECF;">Web Scra=
+ping with a Headless Browser: A Puppeteer Tutorial</h1></a>
+                                    <div style=3D"margin-top: 24px; font-fa=
+mily: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; font-size=
+: 16px; line-height: 23px;"><p style=3D"margin-bottom: 1em; "><span style=
+=3D"font-weight: 400;">JavaScript's ubiquity has meant that automating the =
+scraping of data from websites has become increasingly difficult. Puppeteer=
+ makes the road smooth again by allowing you to control a headless instance=
+ of Google Chrome.</span></p>
+<p style=3D"margin-bottom: 1em; "><span style=3D"font-weight: 400;">In this=
+ article, Toptal Freelance JavaScript Developer Nick Chikovani shows how ea=
+sy it is to automatically take screenshots and gather structured data using=
+ Puppeteer and Node.js.</span></p></div>
+                                    <a href=3D"https://hs-2799924.t.hubspot=
+email.net/e1t/c/*W1QbmGV1KGyB7W7t3qKk4j_-VJ0/*W8TGdPZ7tftLXW2LFywG2xGVtP0/5=
+/f18dQhb0Sq5D8Y9ZwPW5vB61F1mTkZBW35v1Pm1Q44KTW20WmT21Nq07vW2-swXT3-m-4hW3sb=
+Nf55lQrGRW5B97bx5S2bz-W3jbJZn5mg0yKW5RStrF5mc5b-W6jzDBq3v9h90W5_Hr621G5L7cW=
+1MhVg-6tClrrW58R2pq1GlVNbW7BQDjJ5J4hg4W8c8L9d5BYFNNW5D2t0026dRsLW6gp8468sZ4=
+WSW67b7w67hYCG4W3N1Lh37-KgYYW64jzh47-JXR6W1lRb4_61mzVzVp4hwl5_N0_wW5K_zXK3l=
+j2tvW3blhRk116pCyN3xCPqQMFdGCN5KtR3RGnnDhW3mhMyJ3nj2YFMR87QdXsTJ3W5hfWGT2_G=
+lz-MZrZFPPBdSYW11qhsK5G17xtW17Pv0X8d4p5YW5xN9z63Kp8nkW8Nk1Dh5rPkrTW37Tx5_3s=
+gVqJVk8xjr7K_mBdN4QT5PZ6Y9ktLTrHDTdZcHW6mSf3j41CB72W2XVql88mhVQYW8q2mf18Tbq=
+WgW5MSH6t1JmSL_W9jZgd74w2StjW7vjxLc94p_NjW4PxjJZ3DlwBbW10cnfK48YJTM0" style=
+=3D"display: inline-block; margin-top: 32px; padding: 14px 48px; border-rad=
+ius: 4px; background: #00CC83; color: #FFFFFF; font-family: 'Helvetica Neue=
+', Helvetica, 'Segoe UI', Arial, sans-serif; font-size: 15px; font-weight: =
+700; text-decoration: none; text-align: center;" data-hs-link-id=3D"2" targ=
+et=3D"_blank">Continue Reading</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style=3D"padding: 0;">
+                        <div style=3D"display: block; width: 100%; backgrou=
+nd: #F3F3F3;">
+                            <div style=3D"width: 548px; margin: 0 auto; pad=
+ding: 40px 0;">
+                                <h2 style=3D"margin: 0 0 20px; font-family:=
+ 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; font-weight: 4=
+00; font-size: 24px;">About the Author</h2>
+                                <div style=3D"float: right; width: 292px;">
+                                    <h3 style=3D"margin-bottom: 32px; font-=
+family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; font-we=
+ight: 400; font-size: 18px; color: #455065;">Other recommended articles:</h=
+3>
+                                    <ul style=3D"padding: 0 0 0 20px;">
+                                       =20
+                                       =20
+                                       =20
+                                            <li style=3D"margin: 0 0 32px;"=
+>
+                                                <a href=3D"https://hs-27999=
+24.t.hubspotemail.net/e1t/c/*W1QbmGV1KGyB7W7t3qKk4j_-VJ0/*N3C2kSHj_JVrW4tY3=
+Qm1BQLhc0/5/f18dQhb0Sq5w8YXNq0N7rRy-jGZ5t0W1yMd9m5B4NzkN10s9VGWYB-6W1td_cl6=
+HLbb3W1L5BTm7lZs1QW7v6zyM7C44yyW2WrVrd7RCRgHW7MFVMR7QSQXGW7nbVp_1Mk6rLW7x6j=
+PD2VyrfYW46CwB-6Gt3ZmW58R2pq1GlVNbW7BQDlt4gXnRJW1Sxgm17C06FNN1Hl_t1hHQ6lW8V=
+6nHW1YXXdVW2N33B53_t0gLW32Gf2Q4cBzLvW49z-4P2MV0XLVbG0m98W1JLSW2KSp0c4zZ48GW=
+7zLV652NnQ5KW4bQW_q6c3-cyW6G8SGL7nFZTxVvxtgZ4dtl1DW566Z3l91Z3ZdW1WYkzM1XYFB=
+qN67B5Wyv-MLyVnDNh32Xsv-vW1VxnbT2PxdYhW6r8ml07tC6cTW4lnV6p1F7hLbW584zXG91Xf=
+lbW1JHjYV8Xw7j0W7jJrTk5tb4QNW3fBJpB53NYtcW4PLwTV7pzJGDW22Vll53g1Q_lN13nbHls=
+k4dRW3BBnND6_BtcBW3KT0jp56fmsZW7vZQDN8zV03SVVFVXF5PJjmdW2D4BKZ73Q0vRV1-RlJ7=
+-HRvp102" style=3D"font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Ar=
+ial, sans-serif; font-size: 14px; text-decoration: none; color: #204ECF;" d=
+ata-hs-link-id=3D"0" target=3D"_blank">Why The Hell Would I Use Node.js? A =
+Case-by-Case Tutorial</a>
+                                            </li>
+                                       =20
+                                       =20
+                                       =20
+                                       =20
+                                            <li style=3D"margin: 0 0 32px;"=
+>
+                                                <a href=3D"https://hs-27999=
+24.t.hubspotemail.net/e1t/c/*W1QbmGV1KGyB7W7t3qKk4j_-VJ0/*W5LpgfN3PxbcRW5C2=
+M0_79kYJG0/5/f18dQhb0SnGT9jW3BvW8pt07H51wyFDW5sr2xn7v4B-sVvf1r257VFj5W5r8vw=
+P3mm44rW5y5LmV8l2nK0W8rChdm8tBNq5N5vfp15T8FvWW8v31gr8q5dpzN8pDF4hScZ7dW6t2P=
+3M2L8pVsW5vgm1H8vXr1RW8l2jBd8rtQDdW8mp2bw8p-Vr0W65kbjq6rjV5gVZvXb662mpbSW63=
+K0ZH61BC7xW26p8mW57qDzSW96zRPS6bT6L3W8RRjRD5CkCbgVHZ5KN5D8zFFW5m3ZGG96dt4SW=
+4r1QvY80BvvyW7cvxVf8q5qBxVVQf4X5vDhWYW4wp4wT1qM4g1W8qSxnL5tqzLlW99Pf_-6M_35=
+JMYw_N3WylMqV8y8vj8kXcdsW28sDsl7b0MW5N61MG2Bc84PbW62dNcX34xsVTM8m6bN-sNMJW1=
+kBc9X94gMqXN4qX_j9cP_NyW3jlQfM8GclM4VPNtBv3-DmCxW8csLSq1035ycW3lMWh15hswNtN=
+5l9D1C215_BW1J7MY_7jmRnRW7SD98Q1fDXKwW5pRj6Q4sFq58VqPjCG4tkFhHW5-Vcl073yKD2=
+W70RWGM6g9JDg111" style=3D"font-family: 'Helvetica Neue', Helvetica, 'Segoe=
+ UI', Arial, sans-serif; font-size: 14px; text-decoration: none; color: #20=
+4ECF;" data-hs-link-id=3D"0" target=3D"_blank">Asynchronous JavaScript: Fro=
+m Callback Hell to Async and Await</a>
+                                            </li>
+                                       =20
+                                       =20
+                                       =20
+                                       =20
+                                            <li style=3D"margin: 0 0 32px;"=
+>
+                                                <a href=3D"https://hs-27999=
+24.t.hubspotemail.net/e1t/c/*W1QbmGV1KGyB7W7t3qKk4j_-VJ0/*W2GX5Gq62zXDNVMLc=
+zd5VjrJ60/5/f18dQhb0S1Wd28-x0WTvH3G2YlYg_W60Gj5Y53m01XW3QWKs9410VMGN2RkTZrH=
+TCz7W4t0frt4d41qTW7QXlJw27TG3zW8hG3YY4_zXFzN7z2ph3Gf78hV_wgd62y3r1NW46Tx2D4=
+Y5MWlW2w1yQZ5PP_lYVr4F3Y6-c1T5W1Bt_ml6XFFNNW83dyPt2DhYyLN4kbwh8vdp0WW4K1nFC=
+2Lwcx-VrKl9V8b3h36W8btWt53sQ5z-M3LXx81ymt3W2s_5lP7n2QkCW1M2dzd4h5Z8pW3N8m9c=
+7mgCPkW7Z9Gvx4jPRPNW143MQh1VbzjJVzlSPF1DpL8yW4sNg8n5xnSz5W22Y6WW5pcJzSW94-7=
+6K6jrKZbW3T1kBB91-l5wW6FhfsQ555dt2W3MhSL01zWKrmW5N1SPJ8lpGtQW2fQ5168BP8YpW7=
+fh_wV6jyJbKW8KMjWt4N72_zW42Rc-27mp4RZN56NQ93kmG8FW4dBjxJ2NjXk2W8HFkFH7R9NKk=
+W5XHRz75D1tZzW3GtBlj5hYZdxW5gtVqM63wyJjN5TNXn1BvsRqW2hHXms41VZPpW72FT4Q97cd=
+tSW8K6NN35RbVyYW7wzM-w2KxXSZW2jQJnZ8sQ--W103" style=3D"font-family: 'Helvet=
+ica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; font-size: 14px; text-=
+decoration: none; color: #204ECF;" data-hs-link-id=3D"0" target=3D"_blank">=
+Automation in Selenium: Page Object Model and Page Factory</a>
+                                            </li>
+                                       =20
+                                       =20
+                                       =20
+                                       =20
+                                            <li style=3D"margin: 0 0 32px;"=
+>
+                                                <a href=3D"https://hs-27999=
+24.t.hubspotemail.net/e1t/c/*W1QbmGV1KGyB7W7t3qKk4j_-VJ0/*VZNFyC7gc29bW47Lm=
+zs2ry9FP0/5/f18dQhb0Sq5N8YXNq0N7rRy-jGZ5t0W1yMd9m5B4NzkN10s9VGVK0t4W1td_cl6=
+HLbb3W1L5BTm7lZs1QW7v6zyM7C44yyW2WrVrd7RT7cpW7x2-R17p9jQZW1Kk6y17KHljhW2Rgs=
+H17B1jD7W54BlDK7nbwJ5W7vQm711HltsQW2VtC3z7t5r0hVvpGTr2-dpmvW7w3z2j2MB5ksW7t=
+4H_H5KJ3ZSW7PsshG548GrJW5lKvt_5420y5VJVPWs2xqTTrW328h7y3_lZX3W5mZjbq31H380V=
+cxqFn30T_rPW2Vv3cs1G8MxxW1Bb4rM5b67bCN1NjCscpjp21N7xPFh9kJpysW6lcxZZ1J81tkV=
+q43Y_56j51FW7l8Zhq1tSpxWMvKfz_njlHnW5bfTYf7w3wfjVzWsfg8NCG2FW7qZ2gL1ScwKMW4=
+nGL047qr8F2W1zYthQ1M6XGnV9zM7D3Swq4pW74t_l94M1133W4H_8kn55HbNmW7TtlLy6Jm0Nq=
+W15cf7d8TbH5TW4d0Gzy96FcpDN7x_vMlSJ75QW9m0Sjm6X4V9ZW8rJtwx4yb_Y1W2pglVT6vc-=
+Z6W5SFyGF3_3-lR0" style=3D"font-family: 'Helvetica Neue', Helvetica, 'Segoe=
+ UI', Arial, sans-serif; font-size: 14px; text-decoration: none; color: #20=
+4ECF;" data-hs-link-id=3D"0" target=3D"_blank">An Introduction to JavaScrip=
+t Automation with Gulp</a>
+                                            </li>
+                                       =20
+                                       =20
+                                       =20
+                                       =20
+                                    </ul>
+                                </div>
+                                <div style=3D"width: 228px;">
+                                    <div style=3D"width: 100%; overflow: hi=
+dden; background: #C6C9CD;">
+                                        <a href=3D"https://hs-2799924.t.hub=
+spotemail.net/e1t/c/*W1QbmGV1KGyB7W7t3qKk4j_-VJ0/*W2wRv3T4BNV6NW8z4zNS1rGrS=
+d0/5/f18dQhb0SbTP8XJ8T4N7rRy-jGZ5t0W1yMd9m5B4NzkN10s9VGWfVZhW5r8vwP3mm44rW5=
+y5LmV8l2nK0W8rChdm8tBFrcVRBd_C8Bv8kjW3Q27N53H5t4GW1nP5Lx5y5jh-W1rfXlz1kRpb7=
+W7ZbDng4VKD_7W6MRxk18r4CHTW3L39vQ4rlH1mN8xyFZsRYqvDN2yJF1WYT2jkW6P4lCX6hF8n=
+1W69NG1w6Pr3nqW1Tcntw1njMtBN6H5HFbMNBCZVMMQxX80gSRfW97rB1b8yfX5DM93wzS9Xb6Y=
+W24g--D3Kjxz1W95-7qc1p8nhWW5s1xyn38d6WxVfCyfH38RHKXW6R1Kw53Lj4cLW26_fpd61mC=
+f1W95m54F2B2bzBW8pCtjF35WWSsW94NLqG1kQWJkW6T6bnP4RDSjsVbVd0l7wTZy2W9jW9LL8c=
+sGDVVD2JBL74kBK4W5BL4M-5HxQ2qW8TWQc55qv4fvW7jlGzB3bF83LW6x57L_72m0CQW7CpxRP=
+3L6GMbW50MVHm16qWY_W3y19vM3wMXFCV10Y5N2vRZ7v103" data-hs-link-id=3D"0" targ=
+et=3D"_blank"><img src=3D"https://uploads.toptal.io/user/photo/178943/large=
+_3bd44ae6bd3dba579b1c316ce6d693ec.jpg" alt=3D"" style=3D"display: block; wi=
+dth: 100%;"></a>
+                                    </div>
+                                    <div style=3D"padding: 24px 22px; backg=
+round: #FFFFFF;">
+                                        <h3 style=3D"margin: 0 0 6px; font-=
+family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; font-we=
+ight: 400; font-size: 18px;">Nick Chikovani</h3>
+                                        <p style=3D"margin-bottom: 1em; mar=
+gin: 0; font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-s=
+erif; font-weight: 700; font-size: 13px; color: #455065;">JavaScript Develo=
+per</p>
+                                        <p style=3D"margin-bottom: 1em; lin=
+e-height: 22px; font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial=
+, sans-serif; font-size: 14px; color: #455065;"><span>Along with more than =
+six years of experience working as a developer and team lead for various st=
+artups, Nick brings his passion for robust, scalable and clean code design =
+for every project. His specialties include real-time systems, RESTful web s=
+ervices, web automation, business intelligence, scalability, and open-sourc=
+e software. Nick is eager to take on new challenges and is fast to adapt to=
+ new development environments.</span></p>
+                                       =20
+                                        <div style=3D"text-align: center;">=
+<a href=3D"https://hs-2799924.t.hubspotemail.net/e1t/c/*W1QbmGV1KGyB7W7t3qK=
+k4j_-VJ0/*W1BDKFb7GVxFJN2k6jqpglhRq0/5/f18dQhb0SbTP8XJ8T4N7rRy-jGZ5t0W1yMd9=
+m5B4NzkN10s9VGWfVZhW5r8vwP3mm44rW5y5LmV8l2nK0W8rChdm8tBFrcVRBd_C8Bv8kjW3Q27=
+N53H5t4GW1nP5Lx5y5jh-W1rfXlz1kRpb7W7ZbDng4VKD_7W6MRxk18r4CHTW3L39vQ4rlH1mN8=
+xyFZsRYqvDN2yJF1WYT2jkW6P4lCX6hF8n1W69NG1w6Pr3nqW1Tcntw1njMtBN6H5HFbMNBCZVM=
+MQxX80gSRfW97rB1b8yfX5DM93wzS9Xb6YW24g--D3Kjxz1W95-7qc1p8nhWW5s1xyn38d6WxVf=
+CyfH38RHKXW6R1Kw53Lj4cLW26_fpd61mCf1W95m54F2B2bzBW8pCtjF35WWSsW94NLqG1kQWJk=
+W6T6bnP4RDSjsVbVd0l7wTZy2W9jW9LL8csGDVVD2JBL74kBK4W5BL4M-5HxQ2qW8TWQc55qv4f=
+vW7jlGzB3bF83LW6x57L_72m0CQW7CpxRP3L6GMbW50MVHm16qWY_W3y19vR3wMXFCTpzxr4rpW=
+Rj103" style=3D"display: block; margin-top: 32px; padding: 14px 0; border: =
+1px solid #C4C6CA; border-radius: 4px; background: #FFFFFF; color: #00CC83;=
+ font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; f=
+ont-size: 15px; font-weight: 700; text-decoration: none; text-align: center=
+;" data-hs-link-id=3D"1" target=3D"_blank">Hire the Author</a></div>
+                                    </div>
+                                </div>
+                                <div style=3D"clear: both;"></div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style=3D"padding: 0;">
+                        <div style=3D"display: block; width: 100%; backgrou=
+nd: #FFFFFF;">
+                            <div style=3D"width: 548px; margin: 0 auto; pad=
+ding: 40px 0;">
+                               =20
+                                <h2 style=3D"margin: 0 0 20px; font-family:=
+ 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; font-weight: 4=
+00; font-size: 24px;">Hiring JavaScript Developers?</h2>
+                                <p style=3D"margin-bottom: 1em; font-family=
+: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; font-size: 14=
+px; line-height: 20px;">Looking for an elite JavaScript developer to join y=
+our team? Get started with a Toptal account to hire experts like <a href=3D=
+"https://hs-2799924.t.hubspotemail.net/e1t/c/*W1QbmGV1KGyB7W7t3qKk4j_-VJ0/*=
+W3rhF3f9hMVK-W7kwhc03kbh7j0/5/f18dQhb0SbTP8XJ8T4N7rRy-jGZ5t0W1yMd9m5B4NzkN1=
+0s9VGWfVZhW5r8vwP3mm44rW5y5LmV8l2nK0W8rChdm8tBFrcVRBd_C8Bv8kjW3Q27N53H5t4GW=
+1nP5Lx5y5jh-W1rfXlz1kRpb7W7ZbDng4VKD_7W6MRxk18r4CHTW3L39vQ4rlH1mN8xyFZsRYqv=
+DN2yJF1WYT2jkW6P4lCX6hF8n1W69NG1w6Pr3nqW1Tcntw1njMtBN6H5HFbMNBCZVMMQxX80gSR=
+fW97rB1b8yfX5DM93wzS9Xb6YW24g--D3Kjxz1W95-7qc1p8nhWW5s1xyn38d6WxVfCyfH38RHK=
+XW6R1Kw53Lj4cLW26_fpd61mCf1W95m54F2B2bzBW8pCtjF35WWSsW94NLqG1kQWJkW6T6bnP4R=
+DSjsVbVd0l7wTZy2W9jW9LL8csGDVVD2JBL74kBK4W5BL4M-5HxQ2qW8TWQc55qv4fvW7jlGzB3=
+bF83LW6x57L_72m0CQW7CpxRP3L6GMbW50MVHm16qWY_W3y19vP3wMXFCV1MMH72g_H6n103" s=
+tyle=3D"text-decoration: none; color: #204ECF;" data-hs-link-id=3D"2" targe=
+t=3D"_blank">Nick Chikovani</a>.</p>
+                                <a href=3D"https://hs-2799924.t.hubspotemai=
+l.net/e1t/c/*W1QbmGV1KGyB7W7t3qKk4j_-VJ0/*W73S69Y5DFJKfW7msg7114svmY0/5/f18=
+dQhb0SbTH8YXMK4N7rRy-jGZ5t0W1yMd9m5B4NzkN10s9VGWMxdSW5r8vwP3mm44rW5y5LmV8l2=
+nK0W8rChdm8tBCGrW2p0sxg3WwPtdW2nMJtQ4Bs6cnW4yyfyq1DcmPhW1_zBjL2wR6ZqW1YYDmy=
+1L81KWW1T_tCd4dtdrSW3br4sR1vwH2NW2KDbdJ1v14y7N2SwjxDPz7-NW2StQ5c6FgYFWW2JDZ=
+Km2JDgVLVQg5FW5_N0_wW5K_zXK3lj2tvW3blhRk116pCyN3xCPqQMFdGCN5KtR3RGnnDhW3mhM=
+yJ3nj2YFMR87QdXsTJ3W5hfWGT2_Glz-MZrZFPPBdSYW11qhsK5G17xtW17Pv0X8d4p5YW5xN9z=
+63Kp8nkW8Nk1Dh5rPkrTW37Tx5_3sgVqJVk8xjr7K_mBdN4QT5PZ6Y9ktLTrHDTdZcHW6mSf3j4=
+1CBb0W7qyNdg8TbH5TW4d0Gzy96FcpDN7x_vMlSJ75QW9m0Sjm6X4V9ZW8rJtwx4yb_Y1W2pglV=
+T6vc-Z6W5V6LP52XT6Ms0" style=3D"display: inline-block; margin-top: 32px; pa=
+dding: 14px 48px; border: 1px solid #C4C6CA; border-radius: 4px; background=
+: #FFFFFF; color: #00CC83; font-family: 'Helvetica Neue', Helvetica, 'Segoe=
+ UI', Arial, sans-serif; font-size: 15px; font-weight: 700; text-decoration=
+: none; text-align: center;" data-hs-link-id=3D"0" target=3D"_blank">Start =
+Hiring</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style=3D"padding: 0;">
+                        <div style=3D"display: block; width: 100%; backgrou=
+nd: #262D3D;">
+                            <div style=3D"width: 548px; margin: 0 auto; pad=
+ding: 30px;">
+                                <p style=3D"margin-bottom: 20px; font-famil=
+y: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; font-size: 1=
+3px; line-height: 22px; color: #C4C6CA;">
+                                    =C2=A9 2010-2018 Toptal, LLC. All right=
+s reserved. Toptal, LLC, 548 Market Street, San Francisco, California 94104=
+.
+                                </p>
+                                <p style=3D"margin-bottom: 1em; font-family=
+: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; font-size: 13=
+px;"><a href=3D"https://hs-2799924.s.hubspotemail.net/hs/manage-preferences=
+/unsubscribe?d=3DeyJlYSI6InNhbUBjLW10Zy5jb20iLCJlYyI6NjQ2NzI3MDQsInN1YnNjcm=
+lwdGlvbklkIjoxMjYyODMxLCJldCI6MTUzMjQzODQxNTAwNCwiZXUiOiJkMDdiZDJhZi05OWU3L=
+TQ5NTEtYTI3Mi1kMDI3NjUzYjYzOWQifQ%3D%3D&amp;v=3D1&amp;utm_campaign=3DToptal=
+%20Engineering%20Blog&amp;utm_source=3Dhs_email&amp;utm_medium=3Demail&amp;=
+utm_content=3D64672704&amp;_hsenc=3Dp2ANqtz-_K8P5bnRQmTCnvFhWNZMxGMcr16vP15=
+yXPyPlmQxwBQET_ejRf1CZQdengzOPyiXHSBnm1vz0aXODOHbjKsFvQLWq8jQ&amp;_hsmi=3D6=
+4672704" style=3D"text-decoration: none; color: #FFFFFF;" data-hs-link-id=
+=3D"0" target=3D"_blank">Update your subscription preferences</a></p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+<!-- end coded_template: id:5876930156 path:Custom/email/Engineering_Blog_E=
+mails/New_Article_v2.html -->
+<img src=3D"https://hs-2799924.t.hubspotemail.net/e1t/o/*W5Y67M06B-3NCN8QPX=
+TBDtPFh0/*VBjst_8_ZyHzVlRxvR7QshnB0/5/f18dQhb0J6t1fSjCW7CxCbq6crldXW5LPfw21=
+-ZdDNW1S4hwq1xWM0jW2xMf7Y26rPR9W2F3VMt3j04hZW4cGnxj3DH_QzW3NBBqr3_bcz-N4-y9=
+xKQtCL5W8HYd8-6CBCFSVD9-6D7Cm49qW6YwR-85KWfgwW7sSRpb1ZN8Qxf3pvQRd04" alt=3D=
+"" width=3D"1" height=3D"1" border=3D"0" style=3D"display:none!important;mi=
+n-height:1px!important;width:1px!important;border-width:0!important;margin-=
+top:0!important;margin-bottom:0!important;margin-right:0!important;margin-l=
+eft:0!important;padding-top:0!important;padding-bottom:0!important;padding-=
+right:0!important;padding-left:0!important"><style>@media print{#_hs { back=
+ground-image: url('https://hs-2799924.t.hubspotemail.net/e1t/o/*W5Y67M06B-3=
+NCN8QPXTBDtPFh0/*N7vfMyc_gTmQW1dWhwC6Q1FCn0/5/f18dQhb0J6t1fSjDW7CxCbq6crldX=
+W5LPfw21-ZdDNW1S4hwq1xX8zKF2HFv8Ps7yKM2xwK0vlG50Vvy6HJ2m2fbyW4fHkmf43T13VN4=
+-y9xKQtCL5W8HYd8-6CBCFSVD9-6D7Cm49qW6YwR-85KWfgwW7sSRpb1GJ1Tbf3pvQRd04');}}=
+ div.OutlookMessageHeader {background-image:url('https://hs-2799924.t.hubsp=
+otemail.net/e1t/o/*W5Y67M06B-3NCN8QPXTBDtPFh0/*W4NB-t97xqjKsW63g4TJ7KX0Sb0/=
+5/f18dQhb0J6w1f0mpW7Wj-cW6crldXW5LPfw21-ZdDNW1S4hwq1xX-FwW30t6jF2vyZ_8CvFvn=
+Dk7HW20CdDf3zdtcSW1GF7CQ1JxwY5VbhSzP17f7hvW5Nj_m390pFmrW5XFZwm5mhsgSN7R8dJY=
+28PFtW7qk9mg197RR5f1pFKhz02')} table.moz-email-headers-table {background-im=
+age:url('https://hs-2799924.t.hubspotemail.net/e1t/o/*W5Y67M06B-3NCN8QPXTBD=
+tPFh0/*W4NB-t97xqjKsW63g4TJ7KX0Sb0/5/f18dQhb0J6w1f0mpW7Wj-cW6crldXW5LPfw21-=
+ZdDNW1S4hwq1xX-FwW30t6jF2vyZ_8CvFvnDk7HW20CdDf3zdtcSW1GF7CQ1JxwY5VbhSzP17f7=
+hvW5Nj_m390pFmrW5XFZwm5mhsgSN7R8dJY28PFtW7qk9mg197RR5f1pFKhz02')} blockquot=
+e #_hs {background-image:url('https://hs-2799924.t.hubspotemail.net/e1t/o/*=
+W5Y67M06B-3NCN8QPXTBDtPFh0/*W4NB-t97xqjKsW63g4TJ7KX0Sb0/5/f18dQhb0J6w1f0mpW=
+7Wj-cW6crldXW5LPfw21-ZdDNW1S4hwq1xX-FwW30t6jF2vyZ_8CvFvnDk7HW20CdDf3zdtcSW1=
+GF7CQ1JxwY5VbhSzP17f7hvW5Nj_m390pFmrW5XFZwm5mhsgSN7R8dJY28PFtW7qk9mg197RR5f=
+1pFKhz02')} #MailContainerBody #_hs {background-image:url('https://hs-27999=
+24.t.hubspotemail.net/e1t/o/*W5Y67M06B-3NCN8QPXTBDtPFh0/*W4NB-t97xqjKsW63g4=
+TJ7KX0Sb0/5/f18dQhb0J6w1f0mpW7Wj-cW6crldXW5LPfw21-ZdDNW1S4hwq1xX-FwW30t6jF2=
+vyZ_8CvFvnDk7HW20CdDf3zdtcSW1GF7CQ1JxwY5VbhSzP17f7hvW5Nj_m390pFmrW5XFZwm5mh=
+sgSN7R8dJY28PFtW7qk9mg197RR5f1pFKhz02')}</style><div id=3D"_hs"></div></bod=
+y></html>
+------=_Part_517395_1063794248.1532438724849--
+

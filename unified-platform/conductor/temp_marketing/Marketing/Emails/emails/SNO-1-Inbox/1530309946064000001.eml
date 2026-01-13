@@ -1,0 +1,77 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of aol.com designates 204.29.186.9 as permitted sender) client-ip=204.29.186.9; envelope-from=margaretrabon@aol.com; helo=omr-m007e.mx.aol.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of aol.com designates 204.29.186.9 as permitted sender)  smtp.mailfrom=margaretrabon@aol.com;
+	dmarc=pass(p=reject dis=none)  header.from=aol.com
+Return-Path: <margaretrabon@aol.com>
+Received: from omr-m007e.mx.aol.com (omr-m007e.mx.aol.com [204.29.186.9]) by mx.zohomail.com
+	with SMTPS id 1530309944934626.3376175270146; Fri, 29 Jun 2018 15:05:44 -0700 (PDT)
+Received: from mtaomg-mbc01.mx.aol.com (mtaomg-mbc01.mx.aol.com [172.26.221.143])
+	by omr-m007e.mx.aol.com (Outbound Mail Relay) with ESMTP id 5007038001EE
+	for <sam@c-mtg.com>; Fri, 29 Jun 2018 18:05:44 -0400 (EDT)
+Received: from core-mfx09c.mail.aol.com (core-mfx09.mail.aol.com [10.74.43.4])
+	by mtaomg-mbc01.mx.aol.com (OMAG/Core Interface) with ESMTP id 138BC38000084
+	for <sam@c-mtg.com>; Fri, 29 Jun 2018 18:05:44 -0400 (EDT)
+Received: from 108.70.195.61 by webjas-vab197.srv.aolmail.net (10.96.18.200) with HTTP (WebMailUI); Fri, 29 Jun 2018 18:05:40 -0400
+Date: Fri, 29 Jun 2018 18:05:42 -0400
+From: margaretrabon@aol.com
+To: sam@c-mtg.com
+Message-ID:<1644d94962c-c8e-836f@webjas-vab197.srv.aolmail.net>
+Subject: Riverwalk Enterprise
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_45722_1385711368.1530309940780"
+X-MB-Message-Source: WebUI
+X-MB-Message-Type: User
+X-Mailer: JAS STD
+X-Originating-IP: [108.70.195.61]
+x-aol-global-disposition: G
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mx.aol.com;
+	s=20150623; t=1530309944;
+	bh=jsTQfZF1ZzzAHguFgrWmBnprcZXkn0CWAme0PpdeNmQ=;
+	h=From:To:Subject:Message-Id:Date:MIME-Version:Content-Type;
+	b=jC8SJzqz+Y/J/d8OU7RoOEVjCChz4KhcdvLlKJgupmu/kqgswLyMVDDaHzs/GysHB
+	 ybXWL3MpI6+tyJxrJMb/tBg7sifYs9UabjC98EK9gEckCQPojSQr7F1lRSULPlnFop
+	 TRiZn7RAZABdguKtXjEI9Gc6C6w7E3lRPpdRyhyI=
+x-aol-sid: 3039ac1add8f5b36ad3816b7
+X-ZohoMail-DKIM: pass (identity @mx.aol.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_DI SPK
+X-ZM-MESSAGEID: 1530309946064000001
+X-ZohoMail-Status: 1
+
+
+------=_Part_45722_1385711368.1530309940780
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Well I have my marching orders for Jury Duty. I have to be there at 1:30 pm our time.  If I do not get chosen I think that will be it. You can email me and before 1pm  I will get them  and after 5 or 6pm after I get out.
+As far as closing Jason can be there anytime.
+
+Jason's number is 704-467-2819 but he may not be able to help, he does not know where to find things.
+Have a great weekend!
+Margaret
+
+
+
+
+
+------=_Part_45722_1385711368.1530309940780
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<font color='black' size='2' face='arial'>Well I have my marching orders for Jury Duty. I have to be there at 1:30 pm our time.&nbsp; If I do not get chosen I think that will be it. You can email me and before 1pm&nbsp; I will get them&nbsp; and after 5 or 6pm after I get out.
+<div>As far as closing Jason can be there anytime.<br>
+
+<div>Jason's number is 704-467-2819 but he may not be able to help, he does not know where to find things.</div>
+
+<div>Have a great weekend!</div>
+
+<div>Margaret<br>
+
+<div><br>
+</div>
+</div>
+</div>
+</font>
+------=_Part_45722_1385711368.1530309940780--

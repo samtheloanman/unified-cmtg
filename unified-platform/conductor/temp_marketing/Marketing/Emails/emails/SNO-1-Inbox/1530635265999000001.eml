@@ -1,0 +1,1403 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of email.udemy.com designates 199.7.202.244 as permitted sender) client-ip=199.7.202.244; envelope-from=udemy@email.udemy.com; helo=omp.email.udemy.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=udemy@email.udemy.com;
+	spf=pass (zoho.com: domain of email.udemy.com designates 199.7.202.244 as permitted sender)  smtp.mailfrom=udemy@email.udemy.com;
+	dmarc=pass(p=reject dis=none)  header.from=email.udemy.com
+Return-Path: <udemy@email.udemy.com>
+Received: from omp.email.udemy.com (omp.email.udemy.com [199.7.202.244]) by mx.zohomail.com
+	with SMTPS id 15306352639511020.5420989694802; Tue, 3 Jul 2018 09:27:43 -0700 (PDT)
+Received: by omp.email.udemy.com id h7eg0s2b610q for <sam@c-mtg.com>; Tue, 3 Jul 2018 09:10:54 -0700 (envelope-from <udemy@email.udemy.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=udemy; d=email.udemy.com;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:To:From:Reply-To:
+ Subject:List-Unsubscribe:Message-ID; i=udemy@email.udemy.com;
+ bh=XzKEfQEn1uwaaLK8ce2NzRU6SRe94ufiY3J/wNBsriU=;
+ b=wUzMEXL2M2poRInH+O4+S2Mf0rCWdyJI5suTR/JmVoIxXDel4+U21p81Vhm431kOdDIv8SnuQcaU
+   E4JTzh/xGLbJluElKqpoK98jnTbgEylou7jp9o7IK6DviysOu6jk5/6ysOBqAoESbVVdS0kHnQnA
+   bF7Wdl/ZFvDsFLrqDRc=
+X-CSA-Complaints: whitelist-complaints@eco.de
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Date: Tue, 3 Jul 2018 09:27:43 -0700
+To: sam@c-mtg.com
+From: =?UTF-8?B?VWRlbXk=?= <udemy@email.udemy.com>
+Reply-To: =?UTF-8?B?VWRlbXk=?= <reply@email.udemy.com>
+Subject: =?UTF-8?B?Q2hlY2sgb3V0IFVkZW154oCZcyBsYXRlc3QgcmVsZWFzZXM=?=
+Feedback-ID: 51995:3547715:oraclersys
+List-Unsubscribe: <https://email.udemy.com/pub/optout/UnsubscribeOneStepConfirmAction?YES=true&_ri_=X0Gzc2X%3DYQpglLjHJlYQGouzeDKcLfI8A03O1A2IyIPyhj1icIyNhzgH7DHReMdzakzau8zfXKjrgsJUBGzflM7RIK7n&_ei_=EolaGGF4SNMvxFF7KucKuWOVdUf_s58AL-q5LZCQlL9D7Mwh9f-U9BebHN60YJ-tOdXTi0>, <mailto:unsubscribe-YQpglLjHJlYQGouzeDKcLfI8A03O1A2IyIPyhj1icIyNhzgH7DHReMdzakzau8zfXKjrgsJUBGzflM7RIK7n@imh.rsys5.com?subject=List-Unsubscribe>
+X-sgxh1: kHuxJqulnQJhu
+X-rext: 5.interact5.EhmV9dJeMbC6RUwS6TbPbyPorSpJbPvoFaB9a0LfKQsQmCx_drjnkc37ExtfB0bdBg
+X-cid: udemy.6274145
+Message-ID:<0.1.11A.4A5.1D412E86B2BA340.0@omp.email.udemy.com>
+X-ZohoMail-DKIM: pass (identity udemy@email.udemy.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_7 RF_0 S_166
+X-ZM-MESSAGEID: 1530635265999000001
+X-ZohoMail-Status: 1
+
+
+<=21DOCTYPE html PUBLIC =22-//W3C//DTD HTML 4=2E0 Transitional//EN=22 =22ht=
+tp://www=2Ew3=2Eorg/TR/REC-html40/loose=2Edtd=22>
+<html>
+<head>
+<meta name=3D=22x-apple-disable-message-reformatting=22 />
+<title>Udemy</title>
+<style type=3D=22text/css=22>
+=40import url('https://fonts=2Egoogleapis=2Ecom/css?family=3DSource+Sans+Pr=
+o:300,400,600');
+=40import url('https://fonts=2Egoogleapis=2Ecom/css?family=3DZilla+Slab:300=
+,400,600');
+/* CLIENT-SPECIFIC STYLES */
+body, table, td, a, p =7B-webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;=7D
+table, td =7Bmso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse:=
+ collapse;=7D
+img =7B -ms-interpolation-mode: bicubic; =7D
+/* iOS BLUE LINKS */
+a=5Bx-apple-data-detectors=5D =7B
+color: inherit =21important;
+text-decoration: none =21important;
+font-size: inherit =21important;
+font-family: inherit =21important;
+font-weight: inherit =21important;
+line-height: inherit =21important;
+=7D
+=2EappleFooter a =7B
+color:=23ffffff =21important;
+text-decoration: none=21important;
+=7D
+=2EcourseBadge =7B
+vertical-align: middle;=20
+font-size: 9px;=20
+border: none;=20
+font-weight: 700;=20
+line-height: 1=2E5;=20
+text-align: center;=20
+text-transform: uppercase;   =20
+=7D
+
+/* DESKTOP STYLES */
+=40media only screen and (min-width: 481px)=7B
+=2EdesktopNavBarText =7B
+display:block =21important;
+padding: 24px 0px 5px 10px =21important;
+float: right =21important;
+=7D
+=2EnavBarImage=7B
+float:left =21important;
+width: 150px =21important;
+padding: 5px 0px 5px 0px =21important;
+=7D=20
+=7D
+/* MOBILE STYLES */
+=40media only screen and (max-width: 480px)=7B
+=23container=7B
+width:100% =21important;
+=7D
+=23banner_text =7B
+text-align: center =21important;
+padding-bottom: 10px;
+=7D
+=2EdeviceWidth=7B
+display:block =21important;
+width:100% =21important;
+=7D
+=2Ehidden=7B
+display: none;
+=7D
+=2EcourseCardTop=7B
+width:30% =21important;
+float: left;
+min-width: 30% =21important;
+=7D
+=2EcourseCardBottom=7B
+width:70% =21important;
+float: left;
+min-width: 70% =21important;=20
+border-bottom: 0px =21important;
+=7D
+=2EmobileColor=7B
+background-color: =23ffffff =21important;
+=7D
+=2EmobileCourseLine=7B
+border-bottom: 2px =23edece6 solid;
+=7D
+=2EtitleHeight=7B
+height: auto;
+=7D
+=2EtitlePadding=7B
+padding-top: 0px =21important;
+padding-bottom: 10px =21important;
+font-size: 16px =21important;
+=7D
+=2EstarPricePadding=7B
+padding-top: 0px =21important;
+padding-bottom: 5px =21important;
+font-size: 80% =21important;
+=7D
+=2EcourseImage=7B
+width: 100%;
+height: auto =21important;
+=7D
+=2EmoduleTitlePadding=7B
+padding: 20px 5px 5px 5px =21important;
+=7D
+=2EmobileCoursePadding=7B
+padding: 15px 5px 0px 5px =21important;
+width: 100% =21important;
+=7D
+=2EtargetedSpacer=7B
+width: 5%;
+=7D
+=2EmobileNavBarImage=7B
+height: 30px =21important;
+width: auto =21important;
+=7D
+=2EinstImage=7B
+width: 30% =21important;
+float: left =21important;
+min-width: 30% =21important;
+padding-top: 15px =21important;
+=7D=09
+=2EinstDescription=7B
+width: 70% =21important;
+float: right =21important;
+min-width: 70% =21important;
+border: none =21important;
+padding-bottom: 20px;
+padding-top: 15px;
+height: auto =21important;
+=7D
+=2EinstText=7B
+text-align: left =21important;
+padding-left: 0px =21important;
+padding-right: 0px =21important;
+padding-bottom: 0px =21important;
+=7D
+
+=7D</style></head>
+<body width=3D=22100%=22 style=3D=22min-width:100% =21important; margin:0 =
+=21important; padding: 0 =21important;=22><table cellpadding=3D=220=22 cell=
+spacing=3D=220=22 style=3D=22border: 0px; padding: 0px; margin: 0px; positi=
+on: absolute; display: none; float: left=22>
+<tr>
+<td height=3D=221=22 style=3D=22font-size: 1px; line-height: 1px; padding: =
+0px;=22>
+<img src=3D=22https://email=2Eudemy=2Ecom/pub/as?_ri_=3DX0Gzc2X%3DYQpglLjHJ=
+lYQGouzeDKcLfI8A03O1A2IyIPyhj1icIyNhzgH7DHReMdzakzau8zfXKjrgsJUBGzflM7RIK7n=
+VXHkMX%3Dw&_ei_=3DEolaGGF4SNMvxFF7KucKuWOVdUf_s58AL-q5LZCQlL9D7Mwh9f-U9BebH=
+N60YJ-tOdXTi0=2E=22></img>
+</td>
+</tr>
+</table>
+
+
+<=21--=5Bif mso=5D><style type=3D=22text/css=22>body, table, td, a =7Bfont-=
+family: Helvetica, Arial, sans-serif =21important;=7D</style><=21=5Bendif=
+=5D-->
+<table cellpadding=3D=220=22 cellspacing=3D=220=22 border=3D=220=22 style=
+=3D=22position: absolute; display: none; float: left=22>
+<tr>
+<td height=3D=221=22 style=3D=22font-size: 1px; line-height: 1px; padding: =
+0px;=22>
+<img height=3D=221=22 width=3D=221=22 style=3D=22padding: 0px 0px; =21impor=
+tant; margin: 0px 0px; font-size: 1px; line-height: 1px;=22 alt=3D=22=22 sr=
+c=3D=22https://email=2Eudemy=2Ecom=22>
+</td>
+</tr>
+</table>
+<=21-- WRAPPER -->
+<table width=3D=22660=22 border=3D=220=22 cellpadding=3D=220=22 cellspacing=
+=3D=220=22 align=3D=22center=22 id=3D=22container=22 >
+<tr>
+<td width=3D=22100%=22 style=3D=22min-width: 100%;=22>
+<table align=3D=22center=22 border=3D=220=22 cellpadding=3D=220=22 cellspac=
+ing=3D=220=22 width=3D=22100%=22 style=3D=22min-width:100%; display:block;=
+=22 >
+<tr>
+<td width=3D=22100%=22 align=3D=22center=22 style=3D=22display:block; text-=
+align:center; vertical-align:top; font-size:16; min-width:100%;=22>
+<=21-- PREHEADER -->=20
+<div style=3D=22overflow:hidden;display:none;font-size:1px;color:=23ffffff;=
+line-height:1px;max-height:0px;max-width:0px;opacity:0;=22>Continue to inve=
+st in yourself with newly released courses=2E Explore new courses each mont=
+h=2E</div>
+<=21-- // PREHEADER -->
+
+
+<=21-- HEADER -->
+<table align=3D=22center=22 width=3D=22100%=22 border=3D=220=22 cellpadding=
+=3D=220=22 cellspacing=3D=220=22  bgcolor=3D=22=23ffffff=22>
+<tr>
+<td width=3D=2230=22 style=3D=22min-width:30px;=22>&nbsp;</td>
+<=21--=5Bif =21mso=5D><=21-- --><td class=3D=22navBarImage mobileNavBarImag=
+e=22 width=3D=22100%=22 align=3D=22center=22 style=3D=22padding: 5px 0px;=
+=22><=21--<=21=5Bendif=5D-->
+<=21--=5Bif mso=5D><td width=3D=2230%=22 align=3D=22left=22 style=3D=22padd=
+ing: 5px 0px;=22><=21=5Bendif=5D-->
+<a href=3D=22https://www=2Eudemy=2Ecom/courses?deal_code=3DNEWCOURSES_EMAIL=
+150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCoursesMonthly_=2E_us_=
+AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=3DNewCo=
+ursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&data_h=3DBUQccl5TTXg=
+=3D&amp;utm_term=3DHEADER=22 target=3D=22udemy=22><img class=3D=22navBarIma=
+ge mobileNavBarImage=22 width=3D=22100%=22 style=3D=22max-width:150px;=22 s=
+rc=3D=22https://s3=2Eamazonaws=2Ecom/udemy-images/fb/email/global/header/Ud=
+emy-logo-email-desktopTM=2Epng=22></a>
+</td>
+<=21--=5Bif =21mso=5D><=21-- --><td valign=3D=22top=22 class=3D=22desktopNa=
+vBarText=22 align=3D=22right=22 style=3D=22padding-top: 25px; display:none;=
+ color: =23666666; font-size: 18px;=22><=21--<=21=5Bendif=5D-->
+<=21--=5Bif mso=5D><td align=3D=22right=22 style=3D=22color: =23666666; fon=
+t-size: 18px;padding-top: 25px;=22><=21=5Bendif=5D-->
+<a href=3D=22https://www=2Eudemy=2Ecom/home/my-courses/learning/?deal_code=
+=3DNEWCOURSES_EMAIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCou=
+rsesMonthly_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_=
+&utm_medium=3DNewCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&dat=
+a_h=3DBUQccl5TTXg=3D&amp;utm_term=3DHEADER=22 style=3D=22text-decoration: n=
+one;color:=23666666;=22>My Courses</a> =7C <a href=3D=22https://www=2Eudemy=
+=2Ecom/cart/?deal_code=3DNEWCOURSES_EMAIL150&utm_source=3Demail-Pro&utm_cam=
+paign=3D_=2E_cn_NewCoursesMonthly_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=
+=2E_eg_1_=2E_la_en_=2E_&utm_medium=3DNewCoursesMonthly_AAll_T1_n&utm_conten=
+t=3Dudemy=2E6274145&data_h=3DBUQccl5TTXg=3D&amp;utm_term=3DHEADER=22 style=
+=3D=22text-decoration: none;color:=23666666;=22>Cart</a></td>
+<td width=3D=2230=22 style=3D=22min-width:30px;=22>&nbsp;</td>
+</tr>=20
+</table>
+<=21-- // HEADER -->
+
+
+
+
+
+
+
+
+
+<=21-- EMAIL CONTENT -->
+
+
+<table width=3D=22100%=22>
+<tr>
+<td width=3D=22660=22 height=3D=22100%=22 bgcolor=3D=22LOOKUP(LEFT_COLOR)=
+=24=22 style=3D =22color: =23ffffff; font-size: 36px; text-align: center; p=
+adding: 50px 30px 55px 30px; background: linear-gradient(-10deg, =2379C4D0 =
+20%, =23E1C16F 100%);=22>New Releases<div style=3D=22padding-top: 15px; pad=
+ding-bottom: 25px;font-size: 18px;=22>Continue to invest in yourself with c=
+ourses published in the last month</div>
+</td>
+</tr>
+</table>
+
+
+=20
+
+
+
+
+<=21-- MODULE -->
+<table class=3D=22mobileColor=22 class=3D=22deviceWidth=22 align=3D=22cente=
+r=22 border=3D=220=22 cellpadding=3D=220=22 cellspacing=3D=220=22 width=3D=
+=22100%=22 style=3D=22display:block; min-width:100%;background-color:=23ede=
+ce6;=22>
+<tr>
+<=21-- MODULE TITLE -->
+<td>&nbsp;</td>
+<td class=3D=22moduleTitlePadding=22 align=3D=22center=22 width=3D=22100%=
+=22 style=3D=22mso-line-height-rule:exactly;line-height: 1=2E3;min-width:10=
+0%;padding:25px 21px 20px 21px;font-size: 18px;=22><a href=3D=22https://www=
+=2Eudemy=2Ecom/courses?deal_code=3DNEWCOURSES_EMAIL150&utm_source=3Demail-P=
+ro&utm_campaign=3D_=2E_cn_NewCoursesMonthly_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=
+=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=3DNewCoursesMonthly_AAll_T1_n&u=
+tm_content=3Dudemy=2E6274145&data_h=3DBUQccl5TTXg=3D&amp;utm_term=3DNEW_TOP=
+IC_COURSES_2=22 style=3D=22text-decoration: none;color: =231e2c35;=22>Check=
+ out new <strong>Python</strong> courses:</a>
+</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<=21--=5Bif =21mso=5D><=21-- --><td colspan=3D=223=22 align=3D=22center=22>=
+<=21--<=21=5Bendif=5D-->
+<=21--=5Bif mso=5D><td colspan=3D=223=22 align=3D=22center=22 style=3D=22pa=
+dding-left: 7px;=22><=21=5Bendif=5D-->
+
+
+
+
+=20
+<=21-- COURSE CARD -->
+<div style=3D=22display:inline-block;=22>
+<table class=3D=22mobileCourseLine=22 cellpadding=3D=220=22 cellspacing=3D=
+=220=22 border=3D=220=22 align=3D=22left=22>
+<tr>
+<td class=3D=22mobileCoursePadding=22 width=3D=22190=22 style=3D=22padding:=
+ 0px 7=2E5px 20px 7=2E5px;=22><a href=3D=22https://www=2Eudemy=2Ecom/learn-=
+python-and-ethical-hacking-from-scratch/?deal_code=3DNEWCOURSES_EMAIL150&ut=
+m_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCoursesMonthly_=2E_us_AAll_=
+=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=3DNewCourses=
+Monthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&data_h=3DBUQccl5TTXg=3D&amp=
+;utm_term=3DNEW_TOPIC_COURSES_2=22 style=3D=22text-decoration: none;=22>
+<=21-- COURSE IMAGE -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;=22 class=3D=22courseCardTop=22>
+<tr>
+<td style=3D=22display: block;=22><img class=3D=22courseImage=22 img alt=3D=
+=22Learn Python & Ethical Hacking From Scratch=22 src=3D=22https://udemy-im=
+ages=2Eudemy=2Ecom/course/200_H/1527300_96c9_2=2Ejpg?deal_code=3DNEWCOURSES=
+_EMAIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCoursesMonthly_=
+=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=
+=3DNewCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&data_h=3DBUQcc=
+l5TTXg=3D&amp;utm_term=3DNEW_TOPIC_COURSES_2=22 width=3D=22190px=22 style=
+=3D=22max-width:190; height:107px; display:block;=22>=20
+</td>
+</tr>
+</table>
+<=21-- COURSE DESRIPTION -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;border-bottom: 2px solid =23B8B8B8;=22=
+ class=3D=22courseCardBottom=22 bgcolor=3D=22=23ffffff=22>
+<tr height=3D=2288=22 class=3D=22titleHeight=22>
+<td class=3D=22titlePadding=22 width=3D=22380=22 style=3D=22text-align:left=
+; padding:13px 10px 0px 10px;font-size: 15px; color: =23333333;line-height:=
+1=2E2 =21important; word-wrap: break-word;=22 valign=3D=22top=22>Learn Pyth=
+on & Ethical Hacking From Scratch
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22left=22 st=
+yle=3D=22text-align:left; padding:0px 10px 8px 10px; font-size:13px; color:=
+=23333333; text-decoration:none;=22><span style=3D=22color: =23ec5252;font-=
+weight: bold;=22>New=21</span>&nbsp;Published Jun 27
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22right=22 s=
+tyle=3D=22text-align:right; padding:10px 15px 10px 10px; font-size:13px; co=
+lor:=23999999;=22>
+
+
+<span style=3D=22font-size:12px; text-decoration: line-through=22>=24194=2E=
+99</span>&nbsp;&nbsp;<span style=3D=22font-size:16px; font-weight:600; colo=
+r:black;=22>=2447=2E99
+</span>
+</td>
+</tr>
+</table></a>
+</td>
+</tr>
+</table>
+</div>
+<=21-- // COURSE CARD -->
+
+
+
+
+=20
+<=21-- COURSE CARD -->
+<div style=3D=22display:inline-block;=22>
+<table class=3D=22mobileCourseLine=22 cellpadding=3D=220=22 cellspacing=3D=
+=220=22 border=3D=220=22 align=3D=22left=22>
+<tr>
+<td class=3D=22mobileCoursePadding=22 width=3D=22190=22 style=3D=22padding:=
+ 0px 7=2E5px 20px 7=2E5px;=22><a href=3D=22https://www=2Eudemy=2Ecom/python=
+-3-deep-dive-part-2/?deal_code=3DNEWCOURSES_EMAIL150&utm_source=3Demail-Pro=
+&utm_campaign=3D_=2E_cn_NewCoursesMonthly_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=
+=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=3DNewCoursesMonthly_AAll_T1_n&u=
+tm_content=3Dudemy=2E6274145&data_h=3DBUQccl5TTXg=3D&amp;utm_term=3DNEW_TOP=
+IC_COURSES_2=22 style=3D=22text-decoration: none;=22>
+<=21-- COURSE IMAGE -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;=22 class=3D=22courseCardTop=22>
+<tr>
+<td style=3D=22display: block;=22><img class=3D=22courseImage=22 img alt=3D=
+=22Python 3: Deep Dive (Part 2)=22 src=3D=22https://udemy-images=2Eudemy=2E=
+com/course/200_H/1647776_226e=2Ejpg?deal_code=3DNEWCOURSES_EMAIL150&utm_sou=
+rce=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCoursesMonthly_=2E_us_AAll_=2E_tl=
+_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=3DNewCoursesMonthl=
+y_AAll_T1_n&utm_content=3Dudemy=2E6274145&data_h=3DBUQccl5TTXg=3D&amp;utm_t=
+erm=3DNEW_TOPIC_COURSES_2=22 width=3D=22190px=22 style=3D=22max-width:190; =
+height:107px; display:block;=22>=20
+</td>
+</tr>
+</table>
+<=21-- COURSE DESRIPTION -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;border-bottom: 2px solid =23B8B8B8;=22=
+ class=3D=22courseCardBottom=22 bgcolor=3D=22=23ffffff=22>
+<tr height=3D=2288=22 class=3D=22titleHeight=22>
+<td class=3D=22titlePadding=22 width=3D=22380=22 style=3D=22text-align:left=
+; padding:13px 10px 0px 10px;font-size: 15px; color: =23333333;line-height:=
+1=2E2 =21important; word-wrap: break-word;=22 valign=3D=22top=22>Python 3: =
+Deep Dive (Part 2)
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22left=22 st=
+yle=3D=22text-align:left; padding:0px 10px 8px 10px; font-size:13px; color:=
+=23333333; text-decoration:none;=22><span style=3D=22color: =23ec5252;font-=
+weight: bold;=22>New=21</span>&nbsp;Published Jun 27
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22right=22 s=
+tyle=3D=22text-align:right; padding:10px 15px 10px 10px; font-size:13px; co=
+lor:=23999999;=22>
+
+
+<span style=3D=22font-size:12px; text-decoration: line-through=22>=24149=2E=
+99</span>&nbsp;&nbsp;<span style=3D=22font-size:16px; font-weight:600; colo=
+r:black;=22>=2436=2E99
+</span>
+</td>
+</tr>
+</table></a>
+</td>
+</tr>
+</table>
+</div>
+<=21-- // COURSE CARD -->
+
+
+
+
+=20
+<=21-- COURSE CARD -->
+<div style=3D=22display:inline-block;=22>
+<table class=3D=22mobileCourseLine=22 cellpadding=3D=220=22 cellspacing=3D=
+=220=22 border=3D=220=22 align=3D=22left=22>
+<tr>
+<td class=3D=22mobileCoursePadding=22 width=3D=22190=22 style=3D=22padding:=
+ 0px 7=2E5px 20px 7=2E5px;=22><a href=3D=22https://www=2Eudemy=2Ecom/beyond=
+-basic-programming-intermediate-python/?deal_code=3DNEWCOURSES_EMAIL150&utm=
+_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCoursesMonthly_=2E_us_AAll_=
+=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=3DNewCourses=
+Monthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&data_h=3DBUQccl5TTXg=3D&amp=
+;utm_term=3DNEW_TOPIC_COURSES_2=22 style=3D=22text-decoration: none;=22>
+<=21-- COURSE IMAGE -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;=22 class=3D=22courseCardTop=22>
+<tr>
+<td style=3D=22display: block;=22><img class=3D=22courseImage=22 img alt=3D=
+=22Beyond Basic Programming - Intermediate Python=22 src=3D=22https://udemy=
+-images=2Eudemy=2Ecom/course/200_H/1691576_7fa8=2Ejpg?deal_code=3DNEWCOURSE=
+S_EMAIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCoursesMonthly_=
+=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=
+=3DNewCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&data_h=3DBUQcc=
+l5TTXg=3D&amp;utm_term=3DNEW_TOPIC_COURSES_2=22 width=3D=22190px=22 style=
+=3D=22max-width:190; height:107px; display:block;=22>=20
+</td>
+</tr>
+</table>
+<=21-- COURSE DESRIPTION -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;border-bottom: 2px solid =23B8B8B8;=22=
+ class=3D=22courseCardBottom=22 bgcolor=3D=22=23ffffff=22>
+<tr height=3D=2288=22 class=3D=22titleHeight=22>
+<td class=3D=22titlePadding=22 width=3D=22380=22 style=3D=22text-align:left=
+; padding:13px 10px 0px 10px;font-size: 15px; color: =23333333;line-height:=
+1=2E2 =21important; word-wrap: break-word;=22 valign=3D=22top=22>Beyond Bas=
+ic Programming - Intermediate Python
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22left=22 st=
+yle=3D=22text-align:left; padding:0px 10px 8px 10px; font-size:13px; color:=
+=23333333; text-decoration:none;=22><span style=3D=22color: =23ec5252;font-=
+weight: bold;=22>New=21</span>&nbsp;Published Jun 16
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22right=22 s=
+tyle=3D=22text-align:right; padding:10px 15px 10px 10px; font-size:13px; co=
+lor:=23999999;=22>
+
+
+<span style=3D=22font-size:12px; text-decoration: line-through=22>=2419=2E9=
+9</span>&nbsp;&nbsp;<span style=3D=22font-size:16px; font-weight:600; color=
+:black;=22>=249=2E99
+</span>
+</td>
+</tr>
+</table></a>
+</td>
+</tr>
+</table>
+</div>
+<=21-- // COURSE CARD -->
+
+
+
+
+=20
+<=21-- COURSE CARD -->
+<div style=3D=22display:inline-block;=22>
+<table class=3D=22mobileCourseLine=22 cellpadding=3D=220=22 cellspacing=3D=
+=220=22 border=3D=220=22 align=3D=22left=22>
+<tr>
+<td class=3D=22mobileCoursePadding=22 width=3D=22190=22 style=3D=22padding:=
+ 0px 7=2E5px 20px 7=2E5px;=22><a href=3D=22https://www=2Eudemy=2Ecom/gettin=
+g-started-with-object-oriented-programming-in-python-3/?deal_code=3DNEWCOUR=
+SES_EMAIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCoursesMonthl=
+y_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_mediu=
+m=3DNewCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&data_h=3DBUQc=
+cl5TTXg=3D&amp;utm_term=3DNEW_TOPIC_COURSES_2=22 style=3D=22text-decoration=
+: none;=22>
+<=21-- COURSE IMAGE -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;=22 class=3D=22courseCardTop=22>
+<tr>
+<td style=3D=22display: block;=22><img class=3D=22courseImage=22 img alt=3D=
+=22Getting Started with Object-Oriented Programming in Python 3=22 src=3D=
+=22https://udemy-images=2Eudemy=2Ecom/course/200_H/1735616_fe51_2=2Ejpg?dea=
+l_code=3DNEWCOURSES_EMAIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_=
+NewCoursesMonthly_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_e=
+n_=2E_&utm_medium=3DNewCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E62741=
+45&data_h=3DBUQccl5TTXg=3D&amp;utm_term=3DNEW_TOPIC_COURSES_2=22 width=3D=
+=22190px=22 style=3D=22max-width:190; height:107px; display:block;=22>=20
+</td>
+</tr>
+</table>
+<=21-- COURSE DESRIPTION -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;border-bottom: 2px solid =23B8B8B8;=22=
+ class=3D=22courseCardBottom=22 bgcolor=3D=22=23ffffff=22>
+<tr height=3D=2288=22 class=3D=22titleHeight=22>
+<td class=3D=22titlePadding=22 width=3D=22380=22 style=3D=22text-align:left=
+; padding:13px 10px 0px 10px;font-size: 15px; color: =23333333;line-height:=
+1=2E2 =21important; word-wrap: break-word;=22 valign=3D=22top=22>Getting St=
+arted with Object-Oriented Programming in Python 3
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22left=22 st=
+yle=3D=22text-align:left; padding:0px 10px 8px 10px; font-size:13px; color:=
+=23333333; text-decoration:none;=22><span style=3D=22color: =23ec5252;font-=
+weight: bold;=22>New=21</span>&nbsp;Published Jun 07
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22right=22 s=
+tyle=3D=22text-align:right; padding:10px 15px 10px 10px; font-size:13px; co=
+lor:=23999999;=22>
+
+
+<span style=3D=22font-size:12px; text-decoration: line-through=22>=24124=2E=
+99</span>&nbsp;&nbsp;<span style=3D=22font-size:16px; font-weight:600; colo=
+r:black;=22>=2430=2E99
+</span>
+</td>
+</tr>
+</table></a>
+</td>
+</tr>
+</table>
+</div>
+<=21-- // COURSE CARD -->
+
+
+
+
+=20
+<=21-- COURSE CARD -->
+<div style=3D=22display:inline-block;=22>
+<table class=3D=22mobileCourseLine=22 cellpadding=3D=220=22 cellspacing=3D=
+=220=22 border=3D=220=22 align=3D=22left=22>
+<tr>
+<td class=3D=22mobileCoursePadding=22 width=3D=22190=22 style=3D=22padding:=
+ 0px 7=2E5px 20px 7=2E5px;=22><a href=3D=22https://www=2Eudemy=2Ecom/python=
+-everything-you-need-to-know-to-become-a-software-developer/?deal_code=3DNE=
+WCOURSES_EMAIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCoursesM=
+onthly_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_=
+medium=3DNewCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&data_h=
+=3DBUQccl5TTXg=3D&amp;utm_term=3DNEW_TOPIC_COURSES_2=22 style=3D=22text-dec=
+oration: none;=22>
+<=21-- COURSE IMAGE -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;=22 class=3D=22courseCardTop=22>
+<tr>
+<td style=3D=22display: block;=22><img class=3D=22courseImage=22 img alt=3D=
+=22Python: Everything you need to know to become a developer=22 src=3D=22ht=
+tps://udemy-images=2Eudemy=2Ecom/course/200_H/1740414_09a3_5=2Ejpg?deal_cod=
+e=3DNEWCOURSES_EMAIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCo=
+ursesMonthly_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E=
+_&utm_medium=3DNewCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&da=
+ta_h=3DBUQccl5TTXg=3D&amp;utm_term=3DNEW_TOPIC_COURSES_2=22 width=3D=22190p=
+x=22 style=3D=22max-width:190; height:107px; display:block;=22>=20
+</td>
+</tr>
+</table>
+<=21-- COURSE DESRIPTION -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;border-bottom: 2px solid =23B8B8B8;=22=
+ class=3D=22courseCardBottom=22 bgcolor=3D=22=23ffffff=22>
+<tr height=3D=2288=22 class=3D=22titleHeight=22>
+<td class=3D=22titlePadding=22 width=3D=22380=22 style=3D=22text-align:left=
+; padding:13px 10px 0px 10px;font-size: 15px; color: =23333333;line-height:=
+1=2E2 =21important; word-wrap: break-word;=22 valign=3D=22top=22>Python: Ev=
+erything you need to know to become a developer
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22left=22 st=
+yle=3D=22text-align:left; padding:0px 10px 8px 10px; font-size:13px; color:=
+=23333333; text-decoration:none;=22><span style=3D=22color: =23ec5252;font-=
+weight: bold;=22>New=21</span>&nbsp;Published Jun 12
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22right=22 s=
+tyle=3D=22text-align:right; padding:10px 15px 10px 10px; font-size:13px; co=
+lor:=23999999;=22>
+
+
+<span style=3D=22font-size:12px; text-decoration: line-through=22>=2419=2E9=
+9</span>&nbsp;&nbsp;<span style=3D=22font-size:16px; font-weight:600; color=
+:black;=22>=249=2E99
+</span>
+</td>
+</tr>
+</table></a>
+</td>
+</tr>
+</table>
+</div>
+<=21-- // COURSE CARD -->
+
+
+
+
+=20
+<=21-- COURSE CARD -->
+<div style=3D=22display:inline-block;=22>
+<table class=3D=22mobileCourseLine=22 cellpadding=3D=220=22 cellspacing=3D=
+=220=22 border=3D=220=22 align=3D=22left=22>
+<tr>
+<td class=3D=22mobileCoursePadding=22 width=3D=22190=22 style=3D=22padding:=
+ 0px 7=2E5px 20px 7=2E5px;=22><a href=3D=22https://www=2Eudemy=2Ecom/learn-=
+python-programming-for-java-programmers/?deal_code=3DNEWCOURSES_EMAIL150&ut=
+m_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCoursesMonthly_=2E_us_AAll_=
+=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=3DNewCourses=
+Monthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&data_h=3DBUQccl5TTXg=3D&amp=
+;utm_term=3DNEW_TOPIC_COURSES_2=22 style=3D=22text-decoration: none;=22>
+<=21-- COURSE IMAGE -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;=22 class=3D=22courseCardTop=22>
+<tr>
+<td style=3D=22display: block;=22><img class=3D=22courseImage=22 img alt=3D=
+=22Java to Python in 100 Steps=22 src=3D=22https://udemy-images=2Eudemy=2Ec=
+om/course/200_H/1772174_9e88_3=2Ejpg?deal_code=3DNEWCOURSES_EMAIL150&utm_so=
+urce=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCoursesMonthly_=2E_us_AAll_=2E_t=
+l_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=3DNewCoursesMonth=
+ly_AAll_T1_n&utm_content=3Dudemy=2E6274145&data_h=3DBUQccl5TTXg=3D&amp;utm_=
+term=3DNEW_TOPIC_COURSES_2=22 width=3D=22190px=22 style=3D=22max-width:190;=
+ height:107px; display:block;=22>=20
+</td>
+</tr>
+</table>
+<=21-- COURSE DESRIPTION -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;border-bottom: 2px solid =23B8B8B8;=22=
+ class=3D=22courseCardBottom=22 bgcolor=3D=22=23ffffff=22>
+<tr height=3D=2288=22 class=3D=22titleHeight=22>
+<td class=3D=22titlePadding=22 width=3D=22380=22 style=3D=22text-align:left=
+; padding:13px 10px 0px 10px;font-size: 15px; color: =23333333;line-height:=
+1=2E2 =21important; word-wrap: break-word;=22 valign=3D=22top=22>Java to Py=
+thon in 100 Steps
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22left=22 st=
+yle=3D=22text-align:left; padding:0px 10px 8px 10px; font-size:13px; color:=
+=23333333; text-decoration:none;=22><span style=3D=22color: =23ec5252;font-=
+weight: bold;=22>New=21</span>&nbsp;Published Jun 29
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22right=22 s=
+tyle=3D=22text-align:right; padding:10px 15px 10px 10px; font-size:13px; co=
+lor:=23999999;=22>
+
+
+<span style=3D=22font-size:12px; text-decoration: line-through=22>=24199=2E=
+99</span>&nbsp;&nbsp;<span style=3D=22font-size:16px; font-weight:600; colo=
+r:black;=22>=2449=2E99
+</span>
+</td>
+</tr>
+</table></a>
+</td>
+</tr>
+</table>
+</div>
+<=21-- // COURSE CARD -->
+</td>
+</tr>
+</table>
+<=21-- GRAY HAIRLINE -->
+<table width=3D=22100%=22 border=3D=220=22 cellpadding=3D=220=22 cellspacin=
+g=3D=220=22 style=3D=22display:block;mso-line-height-rule:exactly;line-heig=
+ht:1=2E5px;=22 bgcolor=3D=22=23d5d5d5=22>
+<tr>
+<td class=3D=22hidden=22></td>
+<td class=3D=22hidden=22>&nbsp;</td>
+<td class=3D=22hidden=22></td>
+</tr>
+</table>
+<=21-- // MODULE -->
+
+=20
+
+
+
+
+<=21-- MODULE -->
+<table class=3D=22mobileColor=22 class=3D=22deviceWidth=22 align=3D=22cente=
+r=22 border=3D=220=22 cellpadding=3D=220=22 cellspacing=3D=220=22 width=3D=
+=22100%=22 style=3D=22display:block; min-width:100%;background-color:=23ede=
+ce6;=22>
+<tr>
+<=21-- MODULE TITLE -->
+<td>&nbsp;</td>
+<td class=3D=22moduleTitlePadding=22 align=3D=22center=22 width=3D=22100%=
+=22 style=3D=22mso-line-height-rule:exactly;line-height: 1=2E3;min-width:10=
+0%;padding:25px 21px 20px 21px;font-size: 18px;=22><a href=3D=22https://www=
+=2Eudemy=2Ecom/courses?deal_code=3DNEWCOURSES_EMAIL150&utm_source=3Demail-P=
+ro&utm_campaign=3D_=2E_cn_NewCoursesMonthly_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=
+=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=3DNewCoursesMonthly_AAll_T1_n&u=
+tm_content=3Dudemy=2E6274145&data_h=3DBUQccl5TTXg=3D&amp;utm_term=3DNEW_TOP=
+IC_COURSES_2=22 style=3D=22text-decoration: none;color: =231e2c35;=22>Check=
+ out new <strong>Django</strong> courses:</a>
+</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<=21--=5Bif =21mso=5D><=21-- --><td colspan=3D=223=22 align=3D=22center=22>=
+<=21--<=21=5Bendif=5D-->
+<=21--=5Bif mso=5D><td colspan=3D=223=22 align=3D=22center=22 style=3D=22pa=
+dding-left: 7px;=22><=21=5Bendif=5D-->
+
+
+
+
+=20
+<=21-- COURSE CARD -->
+<div style=3D=22display:inline-block;=22>
+<table class=3D=22mobileCourseLine=22 cellpadding=3D=220=22 cellspacing=3D=
+=220=22 border=3D=220=22 align=3D=22left=22>
+<tr>
+<td class=3D=22mobileCoursePadding=22 width=3D=22190=22 style=3D=22padding:=
+ 0px 7=2E5px 20px 7=2E5px;=22><a href=3D=22https://www=2Eudemy=2Ecom/build-=
+a-user-authentication-web-app-with-python-and-django/?deal_code=3DNEWCOURSE=
+S_EMAIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCoursesMonthly_=
+=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=
+=3DNewCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&data_h=3DBUQcc=
+l5TTXg=3D&amp;utm_term=3DNEW_TOPIC_COURSES_2=22 style=3D=22text-decoration:=
+ none;=22>
+<=21-- COURSE IMAGE -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;=22 class=3D=22courseCardTop=22>
+<tr>
+<td style=3D=22display: block;=22><img class=3D=22courseImage=22 img alt=3D=
+=22Build a User Authentication Web App With Python and Django=22 src=3D=22h=
+ttps://udemy-images=2Eudemy=2Ecom/course/200_H/1738022_6b3b_4=2Ejpg?deal_co=
+de=3DNEWCOURSES_EMAIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewC=
+oursesMonthly_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=
+=2E_&utm_medium=3DNewCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E6274145=
+&data_h=3DBUQccl5TTXg=3D&amp;utm_term=3DNEW_TOPIC_COURSES_2=22 width=3D=221=
+90px=22 style=3D=22max-width:190; height:107px; display:block;=22>=20
+</td>
+</tr>
+</table>
+<=21-- COURSE DESRIPTION -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;border-bottom: 2px solid =23B8B8B8;=22=
+ class=3D=22courseCardBottom=22 bgcolor=3D=22=23ffffff=22>
+<tr height=3D=2288=22 class=3D=22titleHeight=22>
+<td class=3D=22titlePadding=22 width=3D=22380=22 style=3D=22text-align:left=
+; padding:13px 10px 0px 10px;font-size: 15px; color: =23333333;line-height:=
+1=2E2 =21important; word-wrap: break-word;=22 valign=3D=22top=22>Build a Us=
+er Authentication Web App With Python and Django
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22left=22 st=
+yle=3D=22text-align:left; padding:0px 10px 8px 10px; font-size:13px; color:=
+=23333333; text-decoration:none;=22><span style=3D=22color: =23ec5252;font-=
+weight: bold;=22>New=21</span>&nbsp;Published Jun 11
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22right=22 s=
+tyle=3D=22text-align:right; padding:10px 15px 10px 10px; font-size:13px; co=
+lor:=23999999;=22>
+
+
+<span style=3D=22font-size:12px; text-decoration: line-through=22>=24199=2E=
+99</span>&nbsp;&nbsp;<span style=3D=22font-size:16px; font-weight:600; colo=
+r:black;=22>=2449=2E99
+</span>
+</td>
+</tr>
+</table></a>
+</td>
+</tr>
+</table>
+</div>
+<=21-- // COURSE CARD -->
+</td>
+</tr>
+</table>
+<=21-- GRAY HAIRLINE -->
+<table width=3D=22100%=22 border=3D=220=22 cellpadding=3D=220=22 cellspacin=
+g=3D=220=22 style=3D=22display:block;mso-line-height-rule:exactly;line-heig=
+ht:1=2E5px;=22 bgcolor=3D=22=23d5d5d5=22>
+<tr>
+<td class=3D=22hidden=22></td>
+<td class=3D=22hidden=22>&nbsp;</td>
+<td class=3D=22hidden=22></td>
+</tr>
+</table>
+<=21-- // MODULE -->
+
+=20
+
+
+
+
+<=21-- MODULE -->
+<table class=3D=22mobileColor=22 class=3D=22deviceWidth=22 align=3D=22cente=
+r=22 border=3D=220=22 cellpadding=3D=220=22 cellspacing=3D=220=22 width=3D=
+=22100%=22 style=3D=22display:block; min-width:100%;background-color:=23ede=
+ce6;=22>
+<tr>
+<=21-- MODULE TITLE -->
+<td>&nbsp;</td>
+<td class=3D=22moduleTitlePadding=22 align=3D=22center=22 width=3D=22100%=
+=22 style=3D=22mso-line-height-rule:exactly;line-height: 1=2E3;min-width:10=
+0%;padding:25px 21px 20px 21px;font-size: 18px;=22><a href=3D=22https://www=
+=2Eudemy=2Ecom/courses?deal_code=3DNEWCOURSES_EMAIL150&utm_source=3Demail-P=
+ro&utm_campaign=3D_=2E_cn_NewCoursesMonthly_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=
+=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=3DNewCoursesMonthly_AAll_T1_n&u=
+tm_content=3Dudemy=2E6274145&data_h=3DBUQccl5TTXg=3D&amp;utm_term=3DNEW_TOP=
+IC_COURSES_2=22 style=3D=22text-decoration: none;color: =231e2c35;=22>Check=
+ out new <strong>Data Science</strong> courses:</a>
+</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<=21--=5Bif =21mso=5D><=21-- --><td colspan=3D=223=22 align=3D=22center=22>=
+<=21--<=21=5Bendif=5D-->
+<=21--=5Bif mso=5D><td colspan=3D=223=22 align=3D=22center=22 style=3D=22pa=
+dding-left: 7px;=22><=21=5Bendif=5D-->
+
+
+
+
+=20
+<=21-- COURSE CARD -->
+<div style=3D=22display:inline-block;=22>
+<table class=3D=22mobileCourseLine=22 cellpadding=3D=220=22 cellspacing=3D=
+=220=22 border=3D=220=22 align=3D=22left=22>
+<tr>
+<td class=3D=22mobileCoursePadding=22 width=3D=22190=22 style=3D=22padding:=
+ 0px 7=2E5px 20px 7=2E5px;=22><a href=3D=22https://www=2Eudemy=2Ecom/statis=
+tical-averages-course-in-statistics-for-data-science/?deal_code=3DNEWCOURSE=
+S_EMAIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCoursesMonthly_=
+=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=
+=3DNewCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&data_h=3DBUQcc=
+l5TTXg=3D&amp;utm_term=3DNEW_TOPIC_COURSES_2=22 style=3D=22text-decoration:=
+ none;=22>
+<=21-- COURSE IMAGE -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;=22 class=3D=22courseCardTop=22>
+<tr>
+<td style=3D=22display: block;=22><img class=3D=22courseImage=22 img alt=3D=
+=22Statistical Averages : Course in Statistics for Data Science=22 src=3D=
+=22https://udemy-images=2Eudemy=2Ecom/course/200_H/1693658_d85f_2=2Ejpg?dea=
+l_code=3DNEWCOURSES_EMAIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_=
+NewCoursesMonthly_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_e=
+n_=2E_&utm_medium=3DNewCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E62741=
+45&data_h=3DBUQccl5TTXg=3D&amp;utm_term=3DNEW_TOPIC_COURSES_2=22 width=3D=
+=22190px=22 style=3D=22max-width:190; height:107px; display:block;=22>=20
+</td>
+</tr>
+</table>
+<=21-- COURSE DESRIPTION -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;border-bottom: 2px solid =23B8B8B8;=22=
+ class=3D=22courseCardBottom=22 bgcolor=3D=22=23ffffff=22>
+<tr height=3D=2288=22 class=3D=22titleHeight=22>
+<td class=3D=22titlePadding=22 width=3D=22380=22 style=3D=22text-align:left=
+; padding:13px 10px 0px 10px;font-size: 15px; color: =23333333;line-height:=
+1=2E2 =21important; word-wrap: break-word;=22 valign=3D=22top=22>Statistica=
+l Averages : Course in Statistics for Data Science
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22left=22 st=
+yle=3D=22text-align:left; padding:0px 10px 8px 10px; font-size:13px; color:=
+=23333333; text-decoration:none;=22><span style=3D=22color: =23ec5252;font-=
+weight: bold;=22>New=21</span>&nbsp;Published Jun 28
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22right=22 s=
+tyle=3D=22text-align:right; padding:10px 15px 10px 10px; font-size:13px; co=
+lor:=23999999;=22>
+
+
+<span style=3D=22font-size:12px; text-decoration: line-through=22>=24149=2E=
+99</span>&nbsp;&nbsp;<span style=3D=22font-size:16px; font-weight:600; colo=
+r:black;=22>=2436=2E99
+</span>
+</td>
+</tr>
+</table></a>
+</td>
+</tr>
+</table>
+</div>
+<=21-- // COURSE CARD -->
+
+
+
+
+=20
+<=21-- COURSE CARD -->
+<div style=3D=22display:inline-block;=22>
+<table class=3D=22mobileCourseLine=22 cellpadding=3D=220=22 cellspacing=3D=
+=220=22 border=3D=220=22 align=3D=22left=22>
+<tr>
+<td class=3D=22mobileCoursePadding=22 width=3D=22190=22 style=3D=22padding:=
+ 0px 7=2E5px 20px 7=2E5px;=22><a href=3D=22https://www=2Eudemy=2Ecom/deploy=
+-data-science-nlp-models-with-docker-containers/?deal_code=3DNEWCOURSES_EMA=
+IL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCoursesMonthly_=2E_u=
+s_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=3DNew=
+CoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&data_h=3DBUQccl5TTXg=
+=3D&amp;utm_term=3DNEW_TOPIC_COURSES_2=22 style=3D=22text-decoration: none;=
+=22>
+<=21-- COURSE IMAGE -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;=22 class=3D=22courseCardTop=22>
+<tr>
+<td style=3D=22display: block;=22><img class=3D=22courseImage=22 img alt=3D=
+=22Deploy Machine Learning & NLP Models with Docker Containers=22 src=3D=22=
+https://udemy-images=2Eudemy=2Ecom/course/200_H/1713688_73d1=2Ejpg?deal_cod=
+e=3DNEWCOURSES_EMAIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCo=
+ursesMonthly_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E=
+_&utm_medium=3DNewCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&da=
+ta_h=3DBUQccl5TTXg=3D&amp;utm_term=3DNEW_TOPIC_COURSES_2=22 width=3D=22190p=
+x=22 style=3D=22max-width:190; height:107px; display:block;=22>=20
+</td>
+</tr>
+</table>
+<=21-- COURSE DESRIPTION -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;border-bottom: 2px solid =23B8B8B8;=22=
+ class=3D=22courseCardBottom=22 bgcolor=3D=22=23ffffff=22>
+<tr height=3D=2288=22 class=3D=22titleHeight=22>
+<td class=3D=22titlePadding=22 width=3D=22380=22 style=3D=22text-align:left=
+; padding:13px 10px 0px 10px;font-size: 15px; color: =23333333;line-height:=
+1=2E2 =21important; word-wrap: break-word;=22 valign=3D=22top=22>Deploy Mac=
+hine Learning & NLP Models with Docker Containers
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22left=22 st=
+yle=3D=22text-align:left; padding:0px 10px 8px 10px; font-size:13px; color:=
+=23333333; text-decoration:none;=22><span style=3D=22color: =23ec5252;font-=
+weight: bold;=22>New=21</span>&nbsp;Published Jun 04
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22right=22 s=
+tyle=3D=22text-align:right; padding:10px 15px 10px 10px; font-size:13px; co=
+lor:=23999999;=22>
+
+
+<span style=3D=22font-size:12px; text-decoration: line-through=22>=2499=2E9=
+9</span>&nbsp;&nbsp;<span style=3D=22font-size:16px; font-weight:600; color=
+:black;=22>=2424=2E99
+</span>
+</td>
+</tr>
+</table></a>
+</td>
+</tr>
+</table>
+</div>
+<=21-- // COURSE CARD -->
+
+
+
+
+=20
+<=21-- COURSE CARD -->
+<div style=3D=22display:inline-block;=22>
+<table class=3D=22mobileCourseLine=22 cellpadding=3D=220=22 cellspacing=3D=
+=220=22 border=3D=220=22 align=3D=22left=22>
+<tr>
+<td class=3D=22mobileCoursePadding=22 width=3D=22190=22 style=3D=22padding:=
+ 0px 7=2E5px 20px 7=2E5px;=22><a href=3D=22https://www=2Eudemy=2Ecom/the-da=
+ta-science-course-complete-data-science-bootcamp/?deal_code=3DNEWCOURSES_EM=
+AIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCoursesMonthly_=2E_=
+us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=3DNe=
+wCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&data_h=3DBUQccl5TTX=
+g=3D&amp;utm_term=3DNEW_TOPIC_COURSES_2=22 style=3D=22text-decoration: none=
+;=22>
+<=21-- COURSE IMAGE -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;=22 class=3D=22courseCardTop=22>
+<tr>
+<td style=3D=22display: block;=22><img class=3D=22courseImage=22 img alt=3D=
+=22The Data Science Course 2018: Complete Data Science Bootcamp=22 src=3D=
+=22https://udemy-images=2Eudemy=2Ecom/course/200_H/1754098_e0df_2=2Ejpg?dea=
+l_code=3DNEWCOURSES_EMAIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_=
+NewCoursesMonthly_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_e=
+n_=2E_&utm_medium=3DNewCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E62741=
+45&data_h=3DBUQccl5TTXg=3D&amp;utm_term=3DNEW_TOPIC_COURSES_2=22 width=3D=
+=22190px=22 style=3D=22max-width:190; height:107px; display:block;=22>=20
+</td>
+</tr>
+</table>
+<=21-- COURSE DESRIPTION -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;border-bottom: 2px solid =23B8B8B8;=22=
+ class=3D=22courseCardBottom=22 bgcolor=3D=22=23ffffff=22>
+<tr height=3D=2288=22 class=3D=22titleHeight=22>
+<td class=3D=22titlePadding=22 width=3D=22380=22 style=3D=22text-align:left=
+; padding:13px 10px 0px 10px;font-size: 15px; color: =23333333;line-height:=
+1=2E2 =21important; word-wrap: break-word;=22 valign=3D=22top=22>The Data S=
+cience Course 2018: Complete Data Science Bootcamp
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22left=22 st=
+yle=3D=22text-align:left; padding:0px 10px 8px 10px; font-size:13px; color:=
+=23333333; text-decoration:none;=22><span style=3D=22color: =23ec5252;font-=
+weight: bold;=22>New=21</span>&nbsp;Published Jun 21
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22right=22 s=
+tyle=3D=22text-align:right; padding:10px 15px 10px 10px; font-size:13px; co=
+lor:=23999999;=22>
+
+
+<span style=3D=22font-size:12px; text-decoration: line-through=22>=24199=2E=
+99</span>&nbsp;&nbsp;<span style=3D=22font-size:16px; font-weight:600; colo=
+r:black;=22>=2449=2E99
+</span>
+</td>
+</tr>
+</table></a>
+</td>
+</tr>
+</table>
+</div>
+<=21-- // COURSE CARD -->
+
+
+
+
+=20
+<=21-- COURSE CARD -->
+<div style=3D=22display:inline-block;=22>
+<table class=3D=22mobileCourseLine=22 cellpadding=3D=220=22 cellspacing=3D=
+=220=22 border=3D=220=22 align=3D=22left=22>
+<tr>
+<td class=3D=22mobileCoursePadding=22 width=3D=22190=22 style=3D=22padding:=
+ 0px 7=2E5px 20px 7=2E5px;=22><a href=3D=22https://www=2Eudemy=2Ecom/data-s=
+cience-analysis/?deal_code=3DNEWCOURSES_EMAIL150&utm_source=3Demail-Pro&utm=
+_campaign=3D_=2E_cn_NewCoursesMonthly_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et=
+_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=3DNewCoursesMonthly_AAll_T1_n&utm_con=
+tent=3Dudemy=2E6274145&data_h=3DBUQccl5TTXg=3D&amp;utm_term=3DNEW_TOPIC_COU=
+RSES_2=22 style=3D=22text-decoration: none;=22>
+<=21-- COURSE IMAGE -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;=22 class=3D=22courseCardTop=22>
+<tr>
+<td style=3D=22display: block;=22><img class=3D=22courseImage=22 img alt=3D=
+=22Data Science and Machine Learning with R and Python=22 src=3D=22https://=
+udemy-images=2Eudemy=2Ecom/course/200_H/1762294_cdc5_3=2Ejpg?deal_code=3DNE=
+WCOURSES_EMAIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCoursesM=
+onthly_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_=
+medium=3DNewCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&data_h=
+=3DBUQccl5TTXg=3D&amp;utm_term=3DNEW_TOPIC_COURSES_2=22 width=3D=22190px=22=
+ style=3D=22max-width:190; height:107px; display:block;=22>=20
+</td>
+</tr>
+</table>
+<=21-- COURSE DESRIPTION -->
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 style=3D=22display:block;border-bottom: 2px solid =23B8B8B8;=22=
+ class=3D=22courseCardBottom=22 bgcolor=3D=22=23ffffff=22>
+<tr height=3D=2288=22 class=3D=22titleHeight=22>
+<td class=3D=22titlePadding=22 width=3D=22380=22 style=3D=22text-align:left=
+; padding:13px 10px 0px 10px;font-size: 15px; color: =23333333;line-height:=
+1=2E2 =21important; word-wrap: break-word;=22 valign=3D=22top=22>Data Scien=
+ce and Machine Learning with R and Python
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22left=22 st=
+yle=3D=22text-align:left; padding:0px 10px 8px 10px; font-size:13px; color:=
+=23333333; text-decoration:none;=22><span style=3D=22color: =23ec5252;font-=
+weight: bold;=22>New=21</span>&nbsp;Published Jun 28
+</td>
+</tr>
+<tr>
+<td class=3D=22starPricePadding=22 valign=3D=22top=22 align=3D=22right=22 s=
+tyle=3D=22text-align:right; padding:10px 15px 10px 10px; font-size:13px; co=
+lor:=23999999;=22>
+
+
+<span style=3D=22font-size:12px; text-decoration: line-through=22>=2494=2E9=
+9</span>&nbsp;&nbsp;<span style=3D=22font-size:16px; font-weight:600; color=
+:black;=22>=2422=2E99
+</span>
+</td>
+</tr>
+</table></a>
+</td>
+</tr>
+</table>
+</div>
+<=21-- // COURSE CARD -->
+</td>
+</tr>
+</table>
+<=21-- GRAY HAIRLINE -->
+<table width=3D=22100%=22 border=3D=220=22 cellpadding=3D=220=22 cellspacin=
+g=3D=220=22 style=3D=22display:block;mso-line-height-rule:exactly;line-heig=
+ht:1=2E5px;=22 bgcolor=3D=22=23d5d5d5=22>
+<tr>
+<td class=3D=22hidden=22></td>
+<td class=3D=22hidden=22>&nbsp;</td>
+<td class=3D=22hidden=22></td>
+</tr>
+</table>
+<=21-- // MODULE -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<=21--=20
+ -->
+<=21-- FOOTER-->
+<table width=3D=22100%=22>
+<tr>
+    <td width=3D=22100%=22 bgcolor=3D=22=231A263A=22 style=3D=22padding:0px=
+ 30px =21important; background-color:=231A263A=22>
+<table width=3D=22100%=22 border=3D=220=22 cellpadding=3D=220=22  cellspaci=
+ng=3D=220=22 style=3D=22color: =23ffffff;text-align: center;font-size: 14px=
+;=22>
+<tr><td height=3D=2224px=22>&nbsp;</td></tr>   =20
+<tr>
+<td style=3D=22font-color: =23ffffff; font-size:16px; font-weight:bold;=22>
+    <a href=3D=22https://www=2Eudemy=2Ecom/email/unsubscribe/?email=3Dsam=
+=40c-mtg=2Ecom&email_data=3DeyJlbWFpbCI6InNhbUBjLW10Zy5jb20iLCJub3RpZl90eXB=
+lIjoiZGlzYWJsZUFsbEVtYWlscyJ9:1fLqvF:mIgdAM5SbkpE3PDxKWNjm9fgaU0&deal_code=
+=3DNEWCOURSES_EMAIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCou=
+rsesMonthly_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_=
+&utm_medium=3DNewCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&dat=
+a_h=3DBUQccl5TTXg=3D&utm_term=3Dunsub=22 target=3D=22udemy=22 style=3D=22te=
+xt-decoration:none; color: =23ffffff=22>UNSUBSCRIBE</a>&nbsp; =7C&nbsp; <a =
+href=3D=22https://support=2Eudemy=2Ecom/hc/en-us/?deal_code=3DNEWCOURSES_EM=
+AIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCoursesMonthly_=2E_=
+us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=3DNe=
+wCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&data_h=3DBUQccl5TTX=
+g=3D&amp;utm_term=3DFOOTER_DEAL=22 target=3D=22udemy=22 style=3D=22text-dec=
+oration:none; color: =23ffffff; font-weight:bold;=22>SUPPORT</a>&nbsp; =7C&=
+nbsp; <a href=3D=22https://email=2Eudemy=2Ecom/pub/sf/ResponseForm?_ri_=3DX=
+0Gzc2X%3DYQpglLjHJlYQGouzeDKcLfI8A03O1A2IyIPyhj1icIyNhzgH7DHReMdzakzau8zfXK=
+jrgsJUBGzflM7RIK7nVXMtX%3DYQpglLjHJlYQGNzfA7jzfg8dPLynqU4qb4niD9NzclC2kUwFD=
+N4WEF9OzdNrSzcgzbkXSC6JWgzewGzaPgIWgf&_ei_=3DEolaGGF4SNMvxFF7KucKuWOVdUf_s5=
+8AL-q5LZCQlL9D7Mwh9f-U9BebHN60YJ-tOdXTi0=22 style=3D=22text-decoration:none=
+; color:=23ffffff; font-weight:bold;=22><span style=3D=22white-space: nowra=
+p;=22>VIEW ONLINE</span></a>
+</td>
+</tr>
+<tr>
+<td style=3D=22padding: 0px 10px 5px 10px; text-decoration: none =21importa=
+nt; color:=23ffffff =21important; font-size: 14px;=22><span class=3D=22appl=
+eFooter=22>Udemy=2Ecom 600 Harrison Street, 3rd Floor San Francisco, CA 941=
+07 USA</span>
+</td>
+</tr>
+<tr>
+    <td style=3D=22padding: 0px 10px 24px 10px; font-color:=23ffffff; font-=
+size:14;=22><a href=3D=22https://www=2Eudemy=2Ecom/careers?deal_code=3DNEWC=
+OURSES_EMAIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCoursesMon=
+thly_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_me=
+dium=3DNewCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&data_h=3DB=
+UQccl5TTXg=3D&amp;utm_term=3DFOOTER_DEAL=22 target=3D=22udemy=22 style=3D=
+=22text-decoration: underline; color: =23ffffff=22>Careers at Udemy</a>&nbs=
+p;=7C <a href=3D=22https://business=2Eudemy=2Ecom/?deal_code=3DNEWCOURSES_E=
+MAIL150&utm_source=3Demail-Pro&utm_campaign=3D_=2E_cn_NewCoursesMonthly_=2E=
+_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=3DN=
+ewCoursesMonthly_AAll_T1_n&utm_content=3Dudemy=2E6274145&data_h=3DBUQccl5TT=
+Xg=3D?ref=3Demail-footer=22 style=3D=22text-decoration:underline; color:=23=
+ffffff;=22>Get Udemy for Business</a> =7C <a href=3D=22https://www=2Eudemy=
+=2Ecom/teaching?deal_code=3DNEWCOURSES_EMAIL150&utm_source=3Demail-Pro&utm_=
+campaign=3D_=2E_cn_NewCoursesMonthly_=2E_us_AAll_=2E_tl_T1_=2E_tg_n_=2E_et_=
+5_=2E_eg_1_=2E_la_en_=2E_&utm_medium=3DNewCoursesMonthly_AAll_T1_n&utm_cont=
+ent=3Dudemy=2E6274145&data_h=3DBUQccl5TTXg=3D&amp;utm_term=3DFOOTER_DEAL=22=
+ target=3D=22udemy=22 style=3D=22text-decoration: underline; color:=23fffff=
+f=22><span style=3D=22white-space: nowrap;=22>Become an Instructor</span>
+</a>
+</td>
+</tr>
+<tr>
+<td style=3D=22padding: 0px 10px 10px 0px; text-decoration: none; font-weig=
+ht:bold;color:=23ffffff;=22>Download our apps for Offline Coursetaking
+</td>
+</tr>
+<tr>
+        <td align=3D=22center=22 style=3D=22padding-top:8px; text-align:cen=
+ter;=22>
+<table align=3D=22center=22 width=3D=22100%=22 style=3D=22table-layout: fix=
+ed;=22>       =20
+    <tr>
+        <td align=3D=22center=22 >
+           =20
+<table align=3D=22center=22 style=3D=22text-align:center; table-layout: aut=
+o;=22>            =20
+    <tr>
+                    <td>
+                        <a style=3D=22text-decoration:none;=22 href=3D=22ht=
+tps://itunes=2Eapple=2Ecom/app/apple-store/id562413829?pt=3D1240482&ct=3DUd=
+emyWelcomeEmail-Footer&mt=3D8=22 target=3D=22udemy=22><img border=3D=220=22=
+ src=3D=22https://s3=2Eamazonaws=2Ecom/udemy-images/email/apple_logo=2Epng=
+=22></a>
+                    </td>=20
+                    <td style=3D=22padding-left:12px; padding-right:12px;=
+=22>
+                    &nbsp; =20
+                    </td>
+                    <td>
+                        <a style=3D=22text-decoration:none;=22 href=3D=22ht=
+tps://play=2Egoogle=2Ecom/store/apps/details?id=3Dcom=2Eudemy=2Eandroid=22>=
+<img border=3D=220=22 src=3D=22https://s3=2Eamazonaws=2Ecom/udemy-images/em=
+ail/Android_logo=2Epng=22></a>
+                    </td>
+                </tr>
+            </table>
+           =20
+        </td>
+    </tr>
+            </table> =20
+</td>
+    </tr>
+<tr>
+    <td>
+        <=21--=5Bif mso=5D>
+		<table width=3D=22600=22 align=3D=22center=22 style=3D=22text-align:cente=
+r;=22>
+			<tr>
+				<td align=3D=22center=22 style=3D=22text-align:center;=22>
+		<=21=5Bendif=5D-->
+        <table align=3D=22center=22 width=3D=22100%=22 style=3D=22min-width=
+: 100%;=22>
+            <tr>
+                <td width=3D=22100%=22 style=3D=22width:100%; border-bottom=
+:2px solid =23ffffff;=22>=20
+                    &nbsp;
+                </td>
+            </tr>
+        </table>
+            <=21--=5Bif mso=5D>
+			</td></tr></table>
+			<=21=5Bendif=5D-->
+               </td>
+    </tr>
+<tr>
+    <td width=3D=22100%=22 align=3D=22center=22 style=3D=22padding:12px 0px=
+ 24px 0px; font-size:11px;=22>
+    <a class=3D=22dealTerms=22 href=3D=22http://udemy-images=2Es3=2Eamazona=
+ws=2Ecom/fb/email/2015/Terms/fixedPriced_coupon_terms=2Ehtml=22 target=3D=
+=22udemy=22 style=3D=22text-decoration:none; color:=23ffffff;=22>Some exclu=
+sions apply=2E To redeem, visit Udemy directly from this email=2E Coupon wi=
+ll expire 5 days after first direct visit=2E</a><span class=3D=22addTerms=
+=22 style=3D=22font: inherit;=22><br/></span>
+</td>
+</tr>
+    <tr>
+        <td width=3D=22100%=22 align=3D=22center=22 style=3D=22padding:0px =
+0px 5px 0px; font-weight:bold; font-size:14px;=22>
+            Connect with us
+        </td>
+    </tr>
+    <tr>
+        <td align=3D=22center=22 style=3D=22padding-top:8px; text-align:cen=
+ter;=22>
+<table align=3D=22center=22 width=3D=22100%=22 style=3D=22table-layout: fix=
+ed;=22>       =20
+    <tr>
+        <td align=3D=22center=22 >
+           =20
+<table align=3D=22center=22 style=3D=22text-align:center; table-layout: aut=
+o;=22>            =20
+    <tr>
+                    <td>
+                        <a style=3D=22text-decoration:none;=22 href=3D=22ht=
+tps://www=2Efacebook=2Ecom/udemy/=22 target=3D=22udemy=22><img border=3D=22=
+0=22 src=3D=22https://s3=2Eamazonaws=2Ecom/udemy-images/email/Facebook_logo=
+=2Epng=22></a>
+                    </td>=20
+                    <td style=3D=22padding-left:12px; padding-right:12px;=
+=22>
+                    &nbsp; =20
+                    </td>
+                    <td>
+                        <a style=3D=22text-decoration:none;=22 href=3D=22ht=
+tps://twitter=2Ecom/udemy=22><img border=3D=220=22 src=3D=22https://s3=2Eam=
+azonaws=2Ecom/udemy-images/email/Twitter_logo=2Epng=22></a>
+                    </td>
+                </tr>
+            </table>
+           =20
+        </td>
+    </tr>
+            </table> =20
+</td>
+    </tr>
+   =20
+<tr><td height=3D=2224px=22>&nbsp;</td></tr>   =20
+   =20
+</table>
+    </td>
+    </tr>
+    </table>
+<=21-- // FOOTER --><=21-- // EMAIL CONTENT -->
+</td>
+</tr>
+<tr><td><=21-- Perfect Audience - All Users Ongoing - DO NOT MODIFY --><img=
+ src=3D=22http://ads=2Eperfectaudience=2Ecom/seg?add=3D1309468&t=3D2=22 wid=
+th=3D=221=22 height=3D=221=22 border=3D=220=22 /><=21-- End of Audience Pix=
+el --></td></tr>
+<tr><td><img src=3D=22https://page-events-ustats=2Eudemy=2Ecom/api-2=2E0/vi=
+sits/me/page-events/track/email/?courses=3D1527300_1647776_1691576_1735616_=
+1740414_1772174_1738022_1693658_1713688_1754098_1762294_&campaign_id=3Dudem=
+y=2E6274145&hash=3DBUQccl5TTXg=3D&send_date=3D2018_07_03_09_27_43=22 width=
+=3D=221=22 height=3D=221=22 border=3D=220=22 /></td></tr>
+</table>
+</td>
+</tr>
+</table><br>
+</body>
+</html>
+
+

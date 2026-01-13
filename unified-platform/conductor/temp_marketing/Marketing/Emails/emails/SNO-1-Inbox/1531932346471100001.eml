@@ -1,0 +1,303 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.mail.yahoo.com designates 66.163.184.201 as permitted sender) client-ip=66.163.184.201; envelope-from=tromboli@yahoo.com; helo=sonic301-32.consmr.mail.ne1.yahoo.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.mail.yahoo.com designates 66.163.184.201 as permitted sender)  smtp.mailfrom=tromboli@yahoo.com;
+	dmarc=pass(p=reject dis=none)  header.from=yahoo.com
+Return-Path: <tromboli@yahoo.com>
+Received: from sonic301-32.consmr.mail.ne1.yahoo.com (sonic301-32.consmr.mail.ne1.yahoo.com [66.163.184.201]) by mx.zohomail.com
+	with SMTPS id 1531932345095432.72296795968737; Wed, 18 Jul 2018 09:45:45 -0700 (PDT)
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic301.consmr.mail.ne1.yahoo.com with HTTP; Wed, 18 Jul 2018 16:45:44 +0000
+Received: from wsip-72-216-243-72.ph.ph.cox.net (EHLO [10.10.32.37]) ([72.216.243.72])
+          by smtp414.mail.ne1.yahoo.com (Oath Hermes SMTP Server) with ESMTPA ID 597491eaa2f9f6a5b2800e8e37374a57;
+          Wed, 18 Jul 2018 16:45:42 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1531932344; bh=eN7irIlahdWRTDQJing8LHWhffw/toj3k5LlFeLzf8c=; h=Subject:From:In-Reply-To:Date:Cc:References:To:From:Subject; b=sSlB0OnWkfPtD8S1S9hslKHJbsyGGH18tTrY5pyPPqsixwW9LWweX7Xru+4D5cmBUiLCrry3ZhXHQ5ewgbcebI3kclXV7Gc8c196kwiun02c4UGNTYC2E7BiQemNHxHQC3gTK27nQHj07lYj2nKb9K3nd/Gn/q3SDE71HTUreKo3CeiCM3Fus8F8XTeyr15jJPx13N30QQ4y/Y+M/9n/6hqnpT+GcJCWGp1gii113dKgMnwKuivwdkNC5Mp7GC8zxHdc0yz2NKy1acTltIIxB7po5zfy6R/gccyGQB882nZ26R4xFNQjFbYs3m8AblPgiI6yxuvlfsAWZ06/HMXTwA==
+X-YMail-OSG: q2D4aRAVM1kT_9oBNOSrz9G_hXyavTxn65l_cEwk8MohHvXf1JmN9niCg2_rLzm
+ A8a_U3xJ_l4hSazFUjpXD8tHE0H_GIHs5FSh5UB_fVV3eYE5ziHGr2ePerYYe1e..aPdEcvjVp79
+ vYhQRrFl5TsOAhSM0tJE6tVbD_KH5cGaV7y9ILxha.1Xia7vFYVJcOyed8um0.mftCwEr0c1Q8gy
+ WlXeGZv37Py.aPhzWDWIErQov_iaFWrKD0uSZFoQ8MacoVjtz9dm21M5blfNLQF1kXyaYYOsGk03
+ XRqtgbOfwcoRDbAdsNw_L5w0alBhJK1qwzPKVCt9hh41rZWQDRUcmyCl24ZKIJDosHZa0MB.ilH8
+ aW1uoLXkortlo0veHlz7QYOIF_VPEPOca4CHbH2YhEQfpbXefF8fSnQzeAaQ8YJkNXBWwPVoFEwB
+ pxm8JL6V8lW22qBMIpvNl2DYjwCK9.rXJbnEQtrPQD7ETsCHE256_fcSmnsbW9fX2MGsUreW.41o
+ mLlB4cdCz3EfJ9.I5OZLdA2ouWXzc7cBFBJ7pX9n0OUOgQgqHdJgCpUZF_9ESmfR.zmqWiBYZVeJ
+ EbSW.F30k77nv_cruHJvuVcf8Z.J70PoFjVqZVGu9bWbKz3nlJGbkGTx6eG9E0LUm7pItyZfUtqQ
+ EfJ36sE7hMw6HZWKcFwejaCfuGoK9nXWMeiwCVNVSrAdlf6AwgWVobw.319vMbBJ0lifEcjtReSn
+ Y6qoZOP3LVFs1eAPKL8htad1Xk7IoQCQ8FcJLieRJ..flhT5efE3qECaEOww5W8nuXDxnRwbzutD
+ 4hBqANdG3YdG11vpdejsTaoLjObIO.YfoNOowH2FGwbMSOP_x34JY.Xzbz3VxzCPvZ0ZjziGplWr
+ ir3.qcimVCgWRm72ULEutj8.e6kyJcWJrMelcDvtOVjkHr5vPGKUgRqtJyrr5kLvXPiGXOfX3nUf
+ M9OcfZ8Ss5IA2RO3v5q7brojcX8GtF1lFc.0hzTgJ_wci7TCb
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-C776C8D0-F49C-4D8D-AC6F-6D4305C48D71
+Mime-Version: 1.0
+Subject: Re: Homeowners Insurance Policy / ROMBOLI
+From: todd romboli <tromboli@yahoo.com>
+X-Mailer: iPhone Mail (15F79)
+In-Reply-To: <a6c319ea2984b72a74c2615f0e1e2024@mail.gmail.com>
+Date: Wed, 18 Jul 2018 09:45:40 -0700
+Cc: Eve Sanchez <eve@c-mtg.com>, etalledo@velocitymortgage.com,
+ tkappos@velocitymortgage.com, sam@c-mtg.com,
+ Stephanie Southshore <stephanie@southshore-insurance.com>
+Content-Transfer-Encoding: 7bit
+Message-ID:<A7AC0B2C-6983-4F8E-A3F9-B534B63A3843@yahoo.com>
+References: <a6c319ea2984b72a74c2615f0e1e2024@mail.gmail.com>
+To: Jennie Duke <jennie@southshore-insurance.com>
+X-ZohoMail-DKIM: pass (identity @yahoo.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_167 FRD_NDS SPK
+X-ZM-MESSAGEID: 1531932346471100001
+X-ZohoMail-Status: 1
+
+
+
+--Apple-Mail-C776C8D0-F49C-4D8D-AC6F-6D4305C48D71
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+I mailed $2667 yesterday=20
+
+Todd Romboli
+casarombo.co
+http://www.vrbo.com/498289
+312.543.1006=20
+312.264.0285 f
+Tromboli@yahoo.com
+
+> On Jul 18, 2018, at 9:00 AM, Jennie Duke <jennie@southshore-insurance.com>=
+ wrote:
+>=20
+> Good afternoon All,
+> =20
+> Per a telephone conversation with the insured yesterday, he is not aware o=
+f these endorsements requested to be made to the policy by Velocity Mortgage=
+.
+> =20
+> Please advise if we should cancel the endorsements requested which would l=
+eave the policy as originally renewed.  If you would like these endorsement r=
+equests to be cancelled we will return the check of $6,443.68 received from =
+First American Title Company as it has not been deposited.
+> =20
+> If the endorsements need to be processed as previously requested, we will n=
+eed the remaining balance of $2,667.94 in addition to the check received of $=
+6,443.68.
+> =20
+> Please advise how we should proceed.
+> =20
+> Also, just FYI the original premium is financed.  The second attachment is=
+ the payoff balance for the finance company.  The insured can continue their=
+ scheduled payments on the balance on this or pay it off.
+> =20
+> =20
+> =20
+> =20
+> Jennie Duke
+> 901 SW Martin Downs Blvd
+> Palm City, FL 34990
+> P:772-426-9973
+> F:772-221-1960
+> Check us out on Facebook:
+> https://www.facebook.com/South-Shore-Insurance-191515994206465/
+> =20
+> <image001.jpg>
+> =20
+> From: Stephanie Southshore <stephanie@southshore-insurance.com>=20
+> Sent: Tuesday, July 17, 2018 1:52 PM
+> To: Todd Romboli <tromboli@yahoo.com>; Eve Sanchez <eve@c-mtg.com>
+> Cc: Jennie Duke <jennie@southshore-insurance.com>
+> Subject: Homeowners Insurance Policy
+> =20
+> Hi Mr. Romboli,
+> =20
+> We received a check from First American Title Company after your refinance=
+ with Velocity Mortgage Capital, however the check sent to us here at South S=
+hore Insurance, Inc. was not in the correct amount due.  The amount that was=
+ due to us was in the amount of $9,121.62  we received a check for $6,443.68=
+.  *A balance due of $2,677.94 remains, this is to be made payable to South S=
+hore Insurance, Inc.*
+> =20
+> Also gotoPremiumFinance was never sent any money owed.  On July 11, 2018 a=
+n amount of $1,579.46 was due.  If you wish to continue making payments to t=
+he finance company that is your decision.  You can also opt to pay the full b=
+alance to them of $10,996.22.  *Either way the payment to them is past due a=
+nd either the installment or total balance payment must be made ASAP to avoi=
+d cancellation.*
+> You can contact them directly at: 1-877-793-9373.  I have also provided yo=
+u with their overnight payment address on their invoice.
+> =20
+> Thank you,
+> =20
+> Stephanie Timpany, Licensed Insurance Professional
+> 901 SW Martin Downs Blvd
+> Palm City, FL 34990
+> P:772-426-9973
+> F:772-221-1960
+> Check us out on Facebook:
+> https://www.facebook.com/South-Shore-Insurance-191515994206465/
+> =20
+> =20
+> <image001.jpg>
+> =20
+> <South Shore Balance.pdf>
+> <Finance Balance.pdf>
+
+--Apple-Mail-C776C8D0-F49C-4D8D-AC6F-6D4305C48D71
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto">I mailed $2667 yesterday&nbsp;<br><br><div i=
+d=3D"AppleMailSignature"><span style=3D"background-color: rgba(255, 255, 255=
+, 0);">Todd Romboli</span><div><a href=3D"http://casarombo.co">casarombo.co<=
+/a></div><div><a href=3D"http://www.vrbo.com/498289">http://www.vrbo.com/498=
+289</a><span style=3D"background-color: rgba(255, 255, 255, 0);"><br><a href=
+=3D"tel:312.543.1006" x-apple-data-detectors=3D"true" x-apple-data-detectors=
+-type=3D"telephone" x-apple-data-detectors-result=3D"0">312.543.1006</a>&nbs=
+p;<br><a href=3D"tel:312.264.0285" x-apple-data-detectors=3D"true" x-apple-d=
+ata-detectors-type=3D"telephone" x-apple-data-detectors-result=3D"1/1">312.2=
+64.0285</a>&nbsp;f<br><a href=3D"mailto:Tromboli@yahoo.com" x-apple-data-det=
+ectors=3D"true" x-apple-data-detectors-type=3D"link" x-apple-data-detectors-=
+result=3D"1/2">Tromboli@yahoo.com</a></span></div></div><div><br>On Jul 18, 2=
+018, at 9:00 AM, Jennie Duke &lt;<a href=3D"mailto:jennie@southshore-insuran=
+ce.com">jennie@southshore-insurance.com</a>&gt; wrote:<br><br></div><blockqu=
+ote type=3D"cite"><div><meta http-equiv=3D"Content-Type" content=3D"text/htm=
+l; charset=3Dutf-8"><meta name=3D"Generator" content=3D"Microsoft Word 15 (f=
+iltered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Lucida Handwriting";
+	panose-1:3 1 1 1 1 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle18
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EmailStyle19
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EmailStyle20
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><div class=3D"WordSection1"><p class=3D"MsoNormal">Good afternoon=
+ All,</p><p class=3D"MsoNormal">&nbsp;</p><p class=3D"MsoNormal">Per a telep=
+hone conversation with the insured yesterday, he is not aware of these endor=
+sements requested to be made to the policy by Velocity Mortgage.</p><p class=
+=3D"MsoNormal">&nbsp;</p><p class=3D"MsoNormal">Please advise if we should c=
+ancel the endorsements requested which would leave the policy as originally r=
+enewed.&nbsp; If you would like these endorsement requests to be cancelled w=
+e will return the check of $6,443.68 received from First American Title Comp=
+any as it has not been deposited.</p><p class=3D"MsoNormal">&nbsp;</p><p cla=
+ss=3D"MsoNormal">If the endorsements need to be processed as previously requ=
+ested, we will need the remaining balance of $2,667.94 in addition to the ch=
+eck received of $6,443.68.</p><p class=3D"MsoNormal">&nbsp;</p><p class=3D"M=
+soNormal"><span style=3D"background:yellow">Please advise how we should proc=
+eed.</span></p><p class=3D"MsoNormal">&nbsp;</p><p class=3D"MsoNormal">Also,=
+ just FYI the original premium is financed.&nbsp; The second attachment is t=
+he payoff balance for the finance company.&nbsp; The insured can continue th=
+eir scheduled payments on the balance on this or pay it off.</p><p class=3D"=
+MsoNormal">&nbsp;</p><p class=3D"MsoNormal">&nbsp;</p><p class=3D"MsoNormal"=
+>&nbsp;</p><div><p class=3D"MsoNormal">&nbsp;</p><p class=3D"MsoNormal"><b><=
+span lang=3D"EN" style=3D"font-size:14.0pt;font-family:&quot;Lucida Handwrit=
+ing&quot;;color:#222a35">Jennie Duke</span></b></p><p class=3D"MsoNormal"><b=
+><span lang=3D"EN" style=3D"font-size:9.0pt;font-family:&quot;Lucida Handwri=
+ting&quot;;color:#222a35">901 SW Martin Downs Blvd</span></b></p><p class=3D=
+"MsoNormal"><b><span lang=3D"EN" style=3D"font-size:9.0pt;font-family:&quot;=
+Lucida Handwriting&quot;;color:#222a35">Palm City, FL 34990</span></b></p><p=
+ class=3D"MsoNormal"><b><span lang=3D"EN" style=3D"font-size:9.0pt;font-fami=
+ly:&quot;Lucida Handwriting&quot;;color:#222a35">P:772-426-9973</span></b></=
+p><p class=3D"MsoNormal"><b><span lang=3D"EN" style=3D"font-size:9.0pt;font-=
+family:&quot;Lucida Handwriting&quot;;color:#222a35">F:772-221-1960</span></=
+b></p><p class=3D"MsoNormal"><b><span lang=3D"EN" style=3D"font-size:9.0pt;f=
+ont-family:&quot;Lucida Handwriting&quot;;color:#222a35">Check us out on Fac=
+ebook:</span></b></p><p class=3D"MsoNormal"><a href=3D"https://www.facebook.=
+com/South-Shore-Insurance-191515994206465/"><b><span lang=3D"EN" style=3D"fo=
+nt-size:9.0pt;font-family:&quot;Lucida Handwriting&quot;;color:blue">https:/=
+/www.facebook.com/South-Shore-Insurance-191515994206465/</span></b></a></p><=
+p class=3D"MsoNormal">&nbsp;</p><p class=3D"MsoNormal">&lt;image001.jpg&gt;<=
+/p></div><p class=3D"MsoNormal">&nbsp;</p><div><div style=3D"border:none;bor=
+der-top:solid #e1e1e1 1.0pt;padding:3.0pt 0in 0in 0in"><p class=3D"MsoNormal=
+"><b>From:</b> Stephanie Southshore &lt;<a href=3D"mailto:stephanie@southsho=
+re-insurance.com">stephanie@southshore-insurance.com</a>&gt; <br><b>Sent:</b=
+> Tuesday, July 17, 2018 1:52 PM<br><b>To:</b> Todd Romboli &lt;<a href=3D"m=
+ailto:tromboli@yahoo.com">tromboli@yahoo.com</a>&gt;; Eve Sanchez &lt;<a hre=
+f=3D"mailto:eve@c-mtg.com">eve@c-mtg.com</a>&gt;<br><b>Cc:</b> Jennie Duke &=
+lt;<a href=3D"mailto:jennie@southshore-insurance.com">jennie@southshore-insu=
+rance.com</a>&gt;<br><b>Subject:</b> Homeowners Insurance Policy</p></div></=
+div><p class=3D"MsoNormal">&nbsp;</p><p class=3D"MsoNormal">Hi Mr. Romboli,<=
+/p><p class=3D"MsoNormal">&nbsp;</p><p class=3D"MsoNormal">We received a che=
+ck from First American Title Company after your refinance with Velocity Mort=
+gage Capital, however the check sent to us here at South Shore Insurance, In=
+c. was not in the correct amount due.&nbsp; The amount that was due to us wa=
+s in the amount of $9,121.62&nbsp; we received a check for $6,443.68.&nbsp; *=
+<b>A balance due of $2,677.94 remains, this is to be made payable to South S=
+hore Insurance, Inc.</b>*</p><p class=3D"MsoNormal">&nbsp;</p><p class=3D"Ms=
+oNormal">Also gotoPremiumFinance was never sent any money owed.&nbsp; On Jul=
+y 11, 2018 an amount of $1,579.46 was due.&nbsp; If you wish to continue mak=
+ing payments to the finance company that is your decision.&nbsp; You can als=
+o opt to pay the full balance to them of $10,996.22.&nbsp; *<b>Either way th=
+e payment to them is past due and either the installment or total balance pa=
+yment must be made ASAP to avoid cancellation.</b>*</p><p class=3D"MsoNormal=
+">You can contact them directly at: 1-877-793-9373.&nbsp; I have also provid=
+ed you with their overnight payment address on their invoice.</p><p class=3D=
+"MsoNormal">&nbsp;</p><p class=3D"MsoNormal">Thank you,</p><p class=3D"MsoNo=
+rmal">&nbsp;</p><p class=3D"MsoNormal"><b><span lang=3D"EN" style=3D"font-si=
+ze:16.0pt;font-family:&quot;Lucida Handwriting&quot;;color:#00b0f0">Stephani=
+e Timpany, Licensed Insurance Professional</span></b></p><p class=3D"MsoNorm=
+al"><b><span lang=3D"EN" style=3D"font-size:9.0pt;font-family:&quot;Lucida H=
+andwriting&quot;;color:#222a35">901 SW Martin Downs Blvd</span></b></p><p cl=
+ass=3D"MsoNormal"><b><span lang=3D"EN" style=3D"font-size:9.0pt;font-family:=
+&quot;Lucida Handwriting&quot;;color:#222a35">Palm City, FL 34990</span></b>=
+</p><p class=3D"MsoNormal"><b><span lang=3D"EN" style=3D"font-size:9.0pt;fon=
+t-family:&quot;Lucida Handwriting&quot;;color:#222a35">P:772-426-9973</span>=
+</b></p><p class=3D"MsoNormal"><b><span lang=3D"EN" style=3D"font-size:9.0pt=
+;font-family:&quot;Lucida Handwriting&quot;;color:#222a35">F:772-221-1960</s=
+pan></b></p><p class=3D"MsoNormal"><b><span lang=3D"EN" style=3D"font-size:9=
+.0pt;font-family:&quot;Lucida Handwriting&quot;;color:#222a35">Check us out o=
+n Facebook:</span></b></p><p class=3D"MsoNormal"><b><span lang=3D"EN" style=3D=
+"font-size:9.0pt;font-family:&quot;Lucida Handwriting&quot;;color:#222a35"><=
+a href=3D"https://www.facebook.com/South-Shore-Insurance-191515994206465/"><=
+span style=3D"color:blue">https://www.facebook.com/South-Shore-Insurance-191=
+515994206465/</span></a></span></b></p><p class=3D"MsoNormal">&nbsp;</p><p c=
+lass=3D"MsoNormal">&nbsp;</p><p class=3D"MsoNormal">&lt;image001.jpg&gt;</p>=
+<p class=3D"MsoNormal">&nbsp;</p></div>
+</div></blockquote><blockquote type=3D"cite"><div>&lt;South Shore Balance.pd=
+f&gt;</div></blockquote><blockquote type=3D"cite"><div>&lt;Finance Balance.p=
+df&gt;</div></blockquote></body></html>=
+
+--Apple-Mail-C776C8D0-F49C-4D8D-AC6F-6D4305C48D71--

@@ -1,0 +1,125 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.mail.yahoo.com designates 74.6.135.124 as permitted sender) client-ip=74.6.135.124; envelope-from=tromboli@yahoo.com; helo=sonic310-14.consmr.mail.bf2.yahoo.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.mail.yahoo.com designates 74.6.135.124 as permitted sender)  smtp.mailfrom=tromboli@yahoo.com;
+	dmarc=pass(p=reject dis=none)  header.from=yahoo.com
+Return-Path: <tromboli@yahoo.com>
+Received: from sonic310-14.consmr.mail.bf2.yahoo.com (sonic310-14.consmr.mail.bf2.yahoo.com [74.6.135.124]) by mx.zohomail.com
+	with SMTPS id 1530890012342740.9009165199376; Fri, 6 Jul 2018 08:13:32 -0700 (PDT)
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic310.consmr.mail.bf2.yahoo.com with HTTP; Fri, 6 Jul 2018 15:13:31 +0000
+Received: from ip24-56-57-62.ph.ph.cox.net (EHLO [192.168.0.4]) ([24.56.57.62])
+          by smtp431.mail.bf1.yahoo.com (Oath Hermes SMTP Server) with ESMTPA ID 6577d5ceab6ee96428d0e7778f126385
+          for <sam@c-mtg.com>;
+          Fri, 06 Jul 2018 15:13:30 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1530890011; bh=h/h15iuG7Mwu8Q9XJDdKh1xY8yDXQndTTaptO+pJazA=; h=From:Date:Subject:References:In-Reply-To:To:From:Subject; b=dVdN31wWUNFt+hELvdlf8F5DPe8qXPHY+6U2Ib/CyW+o9jD3oSto2FH+J+zjkMa+KdzUm1qnK/oZ6fc/0iQr3l1FdczPb1Tw7YNLNUtr5lzXfMPuWnAuKVfDZhIpgyrf91CZ/hHRd6mvxtew6k+h8ngS5x2205JQv+N610Zwaf81L81DhnnBasRFUXCj4Wh6KmOoHVhhyssRq5LsYJdEvj314AKvZVgC/JKEvzkmlZ+9MGlWKe4gdCZnp6enJmkBaTms6+12Lk6FNfg7xe4Ea8eqzUT+3L1BAaylQ+JEX1Ja7wNMupiazi0vb22U4Y/FJLCcBSGfM9Mo8v/cC+lmrQ==
+X-YMail-OSG: SGHHXygVM1mg..g_3k4WEQeYDWAEHFGEqHebyJdFSLIE1CSYR3xVjadgUxWPjvb
+ e6u9FyszoDqgepPjSBO09HEKR2hObvlre9KtK4Ugj9uMqq.2QkPsSiUPIQQlMxi6o0T2kiKvybFO
+ LTTcr97EI6.CZ6rZGrIYJ84PBHGcXGuVkfKBvzWSAzJDLASe7JzbvgxAXIBt_vVbxA_TCxvLhl5X
+ kFqo95dYbNxO0CEGMh0qjMyiFepPZF0FUObuNsUF0nNABM6pymqPawqYv24alTZHbqk8UR_FY76R
+ _CeC_IeRY.aytZJD3gR1ERFRpa3VKZ28CwuchYsToyUQNyG15dJXziVtbGc5UmzieO_eLSmazM8j
+ XrfhuWveBqFR5vGkF9bkTzKwsh7xX5kFS5wDyWQm2kMf4aLaioJgFb8Vlvl5zcUDE60AvEfzCqt.
+ iz8lKtVzJpwwACWPMcinGr3aCz_XVfm8I2.PLf_CbzO.xyRQkpn9feaSzrmCCiHVsyfr5Y7Qb5r0
+ Kk7ZRHkDBS8Styk_519f8mpLqPTsI9pf4g8VBBX.YndyGNlO1JGVJmD7ymfgAExpI8Olfau00ElF
+ 0OAX3IuXaFGnnldI3oAgVgLnXMzQ0AnhOX7KCcVtLz7UwBU6KUWcqtXXzqipivPloY8vErIwFsqX
+ 148nnUqP7deLUDpxga9Q10v8puI5zfdPJ06_YnTieC3KmB0atAbMF_b558z0q3f5VggJpL7qVFJH
+ j1CiK.7nJTt2Skw0EOuGRYINs4MnjkCUsVIgPXcG8XCO_wwBDd2BiGDhcEdk4qpOGUpeDNbieNd8
+ 9tPR9RUEZFPCOALw7e0KqAU3Ot3LMsnkWK1FkKLZNrApx_IzDidijtqZmRhxE93ddPYeuHeTdTQr
+ nX2RnBfsg4dfrwBdjJSHHpKoRFLUX_m1LoZE4agw8C5D8EwHOGK27.t09p7NOueTO7k1roZXYzWn
+ D6vg9CW46laFMaa2g8jBQw7ewBYErie4A7k4-
+From: todd romboli <tromboli@yahoo.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-139A2854-3D40-4315-B9D6-BD5021904D79
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0
+Date: Fri, 6 Jul 2018 08:13:28 -0700
+Subject: Re: IMG_6670.PNG
+Message-ID:<6ACD69CF-E119-487B-A943-D525077BA299@yahoo.com>
+References: <FA846D29-3DAD-475F-ACBA-30C33B8D84FA@yahoo.com> <4EB5997A-F452-48E7-BCF9-F24A6103F906@c-mtg.com>
+In-Reply-To: <4EB5997A-F452-48E7-BCF9-F24A6103F906@c-mtg.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+X-Mailer: iPhone Mail (15F79)
+X-ZohoMail-DKIM: pass (identity @yahoo.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_NDS SPK
+X-ZM-MESSAGEID: 1530890013630000001
+X-ZohoMail-Status: 1
+
+
+
+--Apple-Mail-139A2854-3D40-4315-B9D6-BD5021904D79
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Sweet
+
+Todd Romboli
+casarombo.co
+http://www.vrbo.com/498289
+312.543.1006=20
+312.264.0285 f
+Tromboli@yahoo.com
+
+> On Jul 6, 2018, at 7:31 AM, Sam Tehranchi <sam@c-mtg.com> wrote:
+>=20
+> Just received and uploaded the new insurance : ) that should be it
+>=20
+> Sent from my iPhone
+>=20
+>> On Jul 5, 2018, at 6:56 PM, todd romboli <tromboli@yahoo.com> wrote:
+>>=20
+>> I guess =E2=80=9CIslamorada=E2=80=9D is spelled wrong on the insurance? I=
+f this is true could you please remedy ASAP=F0=9F=99=8F=F0=9F=8F=BD
+>>=20
+>> <IMG_6670.PNG>
+>>=20
+>>=20
+>> Todd Romboli
+>> casarombo.co
+>> http://www.vrbo.com/498289
+>> 312.543.1006=20
+>> 312.264.0285 f
+>> Tromboli@yahoo.com
+
+--Apple-Mail-139A2854-3D40-4315-B9D6-BD5021904D79
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto">Sweet<br><br><div id=3D"AppleMailSignature"=
+><span style=3D"background-color: rgba(255, 255, 255, 0);">Todd Romboli</spa=
+n><div><a href=3D"http://casarombo.co">casarombo.co</a></div><div><a href=3D=
+"http://www.vrbo.com/498289">http://www.vrbo.com/498289</a><span style=3D"ba=
+ckground-color: rgba(255, 255, 255, 0);"><br><a href=3D"tel:312.543.1006" x-=
+apple-data-detectors=3D"true" x-apple-data-detectors-type=3D"telephone" x-ap=
+ple-data-detectors-result=3D"0">312.543.1006</a>&nbsp;<br><a href=3D"tel:312=
+.264.0285" x-apple-data-detectors=3D"true" x-apple-data-detectors-type=3D"te=
+lephone" x-apple-data-detectors-result=3D"1/1">312.264.0285</a>&nbsp;f<br><a=
+ href=3D"mailto:Tromboli@yahoo.com" x-apple-data-detectors=3D"true" x-apple-=
+data-detectors-type=3D"link" x-apple-data-detectors-result=3D"1/2">Tromboli@=
+yahoo.com</a></span></div></div><div><br>On Jul 6, 2018, at 7:31 AM, Sam Teh=
+ranchi &lt;<a href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&gt; wrote:<br>=
+<br></div><blockquote type=3D"cite"><div><meta http-equiv=3D"content-type" c=
+ontent=3D"text/html; charset=3Dutf-8">Just received and uploaded the new ins=
+urance : ) that should be it<br><br><div id=3D"AppleMailSignature">Sent from=
+ my iPhone</div><div><br>On Jul 5, 2018, at 6:56 PM, todd romboli &lt;<a hre=
+f=3D"mailto:tromboli@yahoo.com">tromboli@yahoo.com</a>&gt; wrote:<br><br></d=
+iv><blockquote type=3D"cite"><div><meta http-equiv=3D"content-type" content=3D=
+"text/html; charset=3Dutf-8"><div>I guess =E2=80=9CIslamorada=E2=80=9D is sp=
+elled wrong on the insurance? If this is true could you please remedy ASAP=F0=
+=9F=99=8F=F0=9F=8F=BD<br><br>&lt;IMG_6670.PNG&gt;</div><br><br><div id=3D"Ap=
+pleMailSignature"><span style=3D"background-color: rgba(255, 255, 255, 0);">=
+Todd Romboli</span><div><a href=3D"http://casarombo.co">casarombo.co</a></di=
+v><div><a href=3D"http://www.vrbo.com/498289">http://www.vrbo.com/498289</a>=
+<span style=3D"background-color: rgba(255, 255, 255, 0);"><br><a href=3D"tel=
+:312.543.1006" x-apple-data-detectors=3D"true" x-apple-data-detectors-type=3D=
+"telephone" x-apple-data-detectors-result=3D"0">312.543.1006</a>&nbsp;<br><a=
+ href=3D"tel:312.264.0285" x-apple-data-detectors=3D"true" x-apple-data-dete=
+ctors-type=3D"telephone" x-apple-data-detectors-result=3D"1/1">312.264.0285<=
+/a>&nbsp;f<br><a href=3D"mailto:Tromboli@yahoo.com" x-apple-data-detectors=3D=
+"true" x-apple-data-detectors-type=3D"link" x-apple-data-detectors-result=3D=
+"1/2">Tromboli@yahoo.com</a></span></div></div></div></blockquote>
+</div></blockquote></body></html>=
+
+--Apple-Mail-139A2854-3D40-4315-B9D6-BD5021904D79--

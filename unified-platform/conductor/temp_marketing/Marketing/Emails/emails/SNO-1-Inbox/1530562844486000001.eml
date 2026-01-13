@@ -1,0 +1,1249 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of e.stacksource.com designates 167.89.100.163 as permitted sender) client-ip=167.89.100.163; envelope-from=bounces+3574878-699b-sam=c-mtg.com@e.stacksource.com; helo=o1.lv1n.shared.sendgrid.net;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of e.stacksource.com designates 167.89.100.163 as permitted sender)  smtp.mailfrom=bounces+3574878-699b-sam=c-mtg.com@e.stacksource.com
+Received: from o1.lv1n.shared.sendgrid.net (o1.lv1n.shared.sendgrid.net [167.89.100.163]) by mx.zohomail.com
+	with SMTPS id 1530562843043692.1634645620751; Mon, 2 Jul 2018 13:20:43 -0700 (PDT)
+Return-Path: <bounces+3574878-699b-sam=c-mtg.com@e.stacksource.com>
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; 
+	d=stacksource.com; 
+	h=content-type:from:mime-version:reply-to:subject:to:list-unsubscribe; 
+	s=s1; bh=0uo6pTAlEata6cvFimJL33vGM9o=; b=7+Bt5CLqZzY2Jnxnhoz1NMH
+	MxcDHhEqGfU2Gd3WqlBwoB02ZHewDJAiCnYza9IfejyPToWQw+U1ROGsfh54y3Na
+	U+PgWePZ9fD8Y+IByrVPU4DbLtBrILkK86Be9ynp8Jgv3LNJe/GohJc+k6CLzl6C
+	aTrhcDTuYwNxDOUs9qQQ=
+Content-Type: multipart/alternative; boundary=76350a7e5284418b4d4841417d5f229d90030fa108a4fa9d389423533752
+Date: Mon, 02 Jul 2018 20:20:41 +0000 (UTC)
+From: "Tim (StackSource)" <tim@stacksource.com>
+Mime-Version: 1.0
+Reply-to: hello@stacksource.com
+Subject: Bridge to Agency Financing
+To: sam@c-mtg.com
+Message-ID:<bLUtd0kHQRiAB21429GPEA@ismtpd0002p1iad1.sendgrid.net>
+List-Unsubscribe: <mailto:unsubscribe@e.stacksource.com?subject=http://links.stacksource.com/asm/unsubscribe/*q*user_id=3574878*a*data=1youlTbqSuNbTwVJk84ERY0-K5PUkyPhUtv0HtO4f6oHNPLUtBjpnBKmC7gLwWCgi5u59O84HOz7Xpdz_H1MMYJahSUgAFay3uSKgIH-X3H_3XHCMFWKerZvIIA-emwBfDudtIDlP7z5LYr2UwJFrrjuUMkvFsh0IOheRvqADqRAQ1nB6hQnOMTJfLCUcQLhxqLPN5EVPypo-DHNqQxsWYc8VSAw35TXrkM6yaiTP0dp12JnfN2e0fNESPyL_Rjmctg1HiSckr2MpP4YU831TDDPsxztH1ggGChO29YRcvTsS7oa3mVaScFpQZyw2xrIdE1b9TE5q2_daGbkcNx8Jd5fSeFI-Q8CuuPrcbwNAvKsaB-p8pxaXZBtueaHrDYlxHwGbZsofOOd4UNZUkwtW9KPQiWR1cenwnQ2sW5rEQSKi-9NH6v2AtvWHeqeids2JsnkFHen7z3dKEBTne20ea2oFfw2uGubj6XtOmj9y-dqy2W6R_ukcB6RLA_bM06afBEcs1o25CLQDM8C9Pqtm-FReGsQlxvhWoRktSjpuio=>
+X-SG-EID: sJ5jPJCVabzDYf0vjXbBS6e/YBkrVaT2Tnh+L6xvQEeL/7aCF62IKJFEkohIv9lg1SYu335e6ocFVD
+ z7JODnaFAU/XdCg/o+YMNqIeesJGaonO9Qn1uaq+TQGREPcwwPoi6A2bLK3gMKoCEBi+nOkyMsPnVB
+ GvrtqgncaIn6d07BPPWMgjxle+BUyEVZZ9DUsmDL264gBsveknfYqevKZ8sYjrjGwxHEyOoLEhRxx1
+ s=
+X-SG-ID: Z2FxZazunBjVeNuNdzHDqrF8mxuCpi0krmont6YQrP2RMOlMBATliLzMx458TeC6ZGK0bP7Q9+J06A
+ t4InTFtj1kyCsrWjRgCxfltpblM9Q7h3eFfQFLhw8xv7cWe6D11CDwQk45er5LtwMXP7QTEDzxZk4n
+ yRYd7jvtLaf6uTJT6IHOZFxxnYAr+JioLiNT
+X-ZohoMail-DKIM: pass (identity @stacksource.com)
+X-ZohoMail-Owner: <bLUtd0kHQRiAB21429GPEA@ismtpd0002p1iad1.sendgrid.net>+zmo_0_bounces@e.stacksource.com
+X-ZohoMail-Sender: 167.89.100.163
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  SAS2 Ex_2 SS_1 IS_0 PIC IS_-4 ZMKF_NWSLTR EML_0 DMN_0 EDR_100 COSF LNKP CV_710BCNIM UMS_WB SF_UCSIP_4 UNK_O_0 CHF_NWSUSR_0 ZMKF_NWS_RPD_UN_0 SIP_KMR_0 RPD_UN_0 PIS_DPR_KN_0 SDFE_NA_MXPR_0 ZMHF_701_4 CV_710IT_1 CV_HID_0  SC_9 SGR3_1_2_0_166_442
+X-ZM-MESSAGEID: 1530562844486000001
+X-ZohoMail-Status: 1
+
+
+--76350a7e5284418b4d4841417d5f229d90030fa108a4fa9d389423533752
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+Mime-Version: 1.0
+
+Monthly news, blogs, and updates from StackSource
+
+Email not displaying correctly? View it https://sg-mktg.com/MTUzMDU2MjgzMnx=
+0dEJyczlGWDdEZ2x3dUczbUxoblYta014YkFmWk05a3dtNk5IX3VRWHQxWnJwMTl6aVl0Q1B2dU=
+VlRmpkbWZVSDRZcHRwdnJHbVlOQ1p1WlZSOWJha2VlZ2FRcWtxU1NHNGlDNmtDTmRYbndmOTdOR=
+VNCMjFRMWNxQTY2ODN5SlllbW1kTlpfWjVVVkR3bWhZSUtPUjVpMU1hSWFnOElZSV9Ka3dnbWVG=
+QjVIVmZfYjJ3eVNMejVnemJaLXVhd3RhVDZsRlk4alVmcEg1UFdFZmRyRUtId0FSY2s4d1plTzF=
+fdHFmLWthaGtuRXZJa0EydjhIfGetcBFYYZj7j04-tpjGdFgVctrrb7NwG3TTpN0-FiF3 in yo=
+ur browser.
+
+https://www.StackSource.com
+
+Facebook.com/StackSource
+
+Twitter.com/StackSource
+
+https://www.linkedin.com/company/15087468
+
+The Stack
+
+Latest=C2=A0from the StackSource blog
+
+https://blog.stacksource.com/how-and-why-nnn-construction-loans-go-up-to-10=
+0-ltc-f9144ea71d44
+
+How and why NNN construction loans go up to 100% LTC
+
+Why it works for the lender, why the tenants don't=C2=A0just "do it themsel=
+ves", and thoughts from one of these developers.
+
+READ IT https://blog.stacksource.com/how-and-why-nnn-construction-loans-go-=
+up-to-100-ltc-f9144ea71d44
+
+https://blog.stacksource.com/bridge-to-agency-financing-for-multifamily-rea=
+l-estate-4d052f954fb3
+
+Bridge to Agency Financing for Multifamily Real Estate
+
+Agency loans are awesome - but what if you have/acquire a property that nee=
+ds time to stabilize first?
+
+READ IT https://blog.stacksource.com/bridge-to-agency-financing-for-multifa=
+mily-real-estate-4d052f954fb3
+
+Fannie Mae & Freddie Mac's Supplemental Loan Programs
+
+Perfect for when your agency loan has some time left and a biting pre-pay p=
+enalty, but you want additional leverage.
+
+READ IT https://blog.stacksource.com/fannie-mae-and-freddie-macs-supplement=
+al-loan-programs-8bdf7c3db597
+
+https://blog.stacksource.com/fannie-mae-and-freddie-macs-supplemental-loan-=
+programs-8bdf7c3db597
+
+Still not convinced about=C2=A0StackSource? Hear from another one of our cl=
+ients:
+
+"As luck would have it, I came across StackSource... within a few days, I w=
+as connected with a private lending group that presented us with a 100% LTC=
+ term sheet.
+
+We ended up closing 9 deals with a total project value of ~$9 Million in le=
+ss than 60 days."
+
+From construction lending, to bridge, to permanent loans, StackSource conne=
+cts you with a wide array of loan options from top national lenders.
+
+Learn more https://www.stacksource.com/howitworks?utm_source=3DBlog%2Bnewsl=
+etter&utm_medium=3Demail&utm_campaign=3DThe_Stack&utm_content=3D2018-07
+
+StackSource is the online platform for commercial real estate loans. StackS=
+ource.com http://stacksource.com/ =C2=A0
+
+StackSource Flatiron District New York, NY 10011 =C2=A0 Unsubscribe http://=
+links.stacksource.com/asm/unsubscribe/?user_id=3D3574878&data=3D1youlTbqSuN=
+bTwVJk84ERY0-K5PUkyPhUtv0HtO4f6oHNPLUtBjpnBKmC7gLwWCgi5u59O84HOz7Xpdz_H1MMY=
+JahSUgAFay3uSKgIH-X3H_3XHCMFWKerZvIIA-emwBfDudtIDlP7z5LYr2UwJFrrjuUMkvFsh0I=
+OheRvqADqRAQ1nB6hQnOMTJfLCUcQLhxqLPN5EVPypo-DHNqQxsWYc8VSAw35TXrkM6yaiTP0dp=
+12JnfN2e0fNESPyL_Rjmctg1HiSckr2MpP4YU831TDDPsxztH1ggGChO29YRcvTsS7oa3mVaScF=
+pQZyw2xrIdE1b9TE5q2_daGbkcNx8Jd5fSeFI-Q8CuuPrcbwNAvKsaB-p8pxaXZBtueaHrDYlxH=
+wGbZsofOOd4UNZUkwtW9KPQiWR1cenwnQ2sW5rEQSKi-9NH6v2AtvWHeqeids2JsnkFHen7z3dK=
+EBTne20ea2oFfw2uGubj6XtOmj9y-dqy2W6R_ukcB6RLA_bM06afBEcs1o25CLQDM8C9Pqtm-FR=
+eGsQlxvhWoRktSjpuio=3D | Update Preferences http://links.stacksource.com/as=
+m/?user_id=3D3574878&data=3DOk04Jaa5VMCLdcNruIq-H7RSOGBV933mRKSddOXEz-YOMW3=
+4tfxidcoaosCWym0FOxXf0KEBzsxvOeoc8lCFoxdzHzU9BxchgUwMt9GlAIVnz6_9JEBvb_3izJ=
+06xJnsVebPHUFrm3x_lp4qF_HKnNlZUoL3YZ3vQS58_2PoDKffLENjtGTrp8ueVU-xpn_ARbgFw=
+I20Yyr-sxW9gfpXiaiOiWY83V0xQ6nDQ7ulzQLAenpmTjAsKWJbuuOOZFgGhuEoAaf3f6XB_RAr=
+W_fk3KJF1P8hCulgcjlZyUXKzNApSLIx1GRHb-U7c1cKt8edbzI73WA55qm6cd8zCXOQJ3DWf8N=
+FrvdYw0D7c091tsE17fM3WU3kkY3yu8MjpOYRUWX3LcS8BooZ-SPkNg0q0LKqoKXgqN8ajAXOfg=
+EHryKck8wjZeNZ5fq0qObV6Yq34q5CWMYh-G4VoOXW6P0OwdLqQ7dej9X7TlGsAkaGzVK5yZHoU=
+R0S3zUNMhZiNuPCkwdJD_oBqGvzBGuU-Nl53A=3D=3D=
+
+--76350a7e5284418b4d4841417d5f229d90030fa108a4fa9d389423533752
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+Mime-Version: 1.0
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html data-editor-version=3D"2" class=3D"sg-campaigns" xmlns=3D"http://www.=
+w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+" />
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1, minimum-scale=3D1, maximum-scale=3D1" /><!--[if !mso]><!-->
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3DEdge" /><!--<![end=
+if]-->
+    <!--[if (gte mso 9)|(IE)]>
+    <xml>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+    <!--[if (gte mso 9)|(IE)]>
+    <style type=3D"text/css">
+      body {width: 600px;margin: 0 auto;}
+      table {border-collapse: collapse;}
+      table, td {mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+      img {-ms-interpolation-mode: bicubic;}
+    </style>
+    <![endif]-->
+
+    <style type=3D"text/css">
+      body, p, div {
+        font-family: verdana,arial,sans-serif;
+        font-size: 15px;
+      }
+      body {
+        color: #444444;
+      }
+      body a {
+        color: #0073e6;
+        text-decoration: none;
+      }
+      p { margin: 0; padding: 0; }
+      table.wrapper {
+        width:100% !important;
+        table-layout: fixed;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      img.max-width {
+        max-width: 100% !important;
+      }
+      .column.of-2 {
+        width: 50%;
+      }
+      .column.of-3 {
+        width: 33.333%;
+      }
+      .column.of-4 {
+        width: 25%;
+      }
+      @media screen and (max-width:480px) {
+        .preheader .rightColumnContent,
+        .footer .rightColumnContent {
+            text-align: left !important;
+        }
+        .preheader .rightColumnContent div,
+        .preheader .rightColumnContent span,
+        .footer .rightColumnContent div,
+        .footer .rightColumnContent span {
+          text-align: left !important;
+        }
+        .preheader .rightColumnContent,
+        .preheader .leftColumnContent {
+          font-size: 80% !important;
+          padding: 5px 0;
+        }
+        table.wrapper-mobile {
+          width: 100% !important;
+          table-layout: fixed;
+        }
+        img.max-width {
+          height: auto !important;
+          max-width: 480px !important;
+        }
+        a.bulletproof-button {
+          display: block !important;
+          width: auto !important;
+          font-size: 80%;
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+        .columns {
+          width: 100% !important;
+        }
+        .column {
+          display: block !important;
+          width: 100% !important;
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+          margin-left: 0 !important;
+          margin-right: 0 !important;
+        }
+      }
+    </style>
+    <!--user entered Head Start-->
+=20=20=20=20
+     <!--End Head user entered-->
+  </head>
+  <body>
+    <center class=3D"wrapper" data-link-color=3D"#0073e6" data-body-style=
+=3D"font-size: 15px; font-family: verdana,arial,sans-serif; color: #444444;=
+ background-color: #FFFFFF;">
+      <div class=3D"webkit">
+        <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"10=
+0%" class=3D"wrapper" bgcolor=3D"#FFFFFF">
+          <tr>
+            <td valign=3D"top" bgcolor=3D"#FFFFFF" width=3D"100%">
+              <table width=3D"100%" role=3D"content-container" class=3D"out=
+er" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+                <tr>
+                  <td width=3D"100%">
+                    <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0">
+                      <tr>
+                        <td>
+                          <!--[if mso]>
+                          <center>
+                          <table><tr><td width=3D"600">
+                          <![endif]-->
+                          <table width=3D"100%" cellpadding=3D"0" cellspaci=
+ng=3D"0" border=3D"0" style=3D"width: 100%; max-width:600px;" align=3D"cent=
+er">
+                            <tr>
+                              <td role=3D"modules-container" style=3D"paddi=
+ng: 0px 0px 0px 0px; color: #444444; text-align: left;" bgcolor=3D"#FFFFFF"=
+ width=3D"100%" align=3D"left">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20
+    <table class=3D"module preheader preheader-hide" role=3D"module" data-t=
+ype=3D"preheader" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"100%"
+           style=3D"display: none !important; mso-hide: all; visibility: hi=
+dden; opacity: 0; color: transparent; height: 0; width: 0;">
+      <tr>
+        <td role=3D"module-content">
+          <p>Monthly news, blogs, and updates from StackSource</p>
+        </td>
+      </tr>
+    </table>
+=20=20
+    <table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: =
+fixed;">
+      <tr>
+        <td style=3D"padding:0px 0px 0px 0px;background-color:#ffffff;"
+            height=3D"100%"
+            valign=3D"top"
+            bgcolor=3D"#ffffff">
+            <div style=3D"text-align: right;"><span style=3D"font-family:ve=
+rdana,geneva,sans-serif;"><span style=3D"font-size:10px;">Email not display=
+ing correctly? <a clicktracking=3Doff href=3D"https://sg-mktg.com/MTUzMDU2M=
+jgzMnx0dEJyczlGWDdEZ2x3dUczbUxoblYta014YkFmWk05a3dtNk5IX3VRWHQxWnJwMTl6aVl0=
+Q1B2dUVlRmpkbWZVSDRZcHRwdnJHbVlOQ1p1WlZSOWJha2VlZ2FRcWtxU1NHNGlDNmtDTmRYbnd=
+mOTdORVNCMjFRMWNxQTY2ODN5SlllbW1kTlpfWjVVVkR3bWhZSUtPUjVpMU1hSWFnOElZSV9Ka3=
+dnbWVGQjVIVmZfYjJ3eVNMejVnemJaLXVhd3RhVDZsRlk4alVmcEg1UFdFZmRyRUtId0FSY2s4d=
+1plTzFfdHFmLWthaGtuRXZJa0EydjhIfGetcBFYYZj7j04-tpjGdFgVctrrb7NwG3TTpN0-FiF3=
+"><span style=3D"color:#1188E6;">View it</span></a> in your browser.</span>=
+</span></div>
+        </td>
+      </tr>
+    </table>
+=20=20
+    <table  border=3D"0"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"center"
+            width=3D"100%"
+            role=3D"module"
+            data-type=3D"columns"
+            data-version=3D"2"
+            style=3D"padding:25px 2px 23px 2px;box-sizing:border-box;"
+            bgcolor=3D"">
+      <tr role=3D'module-content'>
+        <td height=3D"100%" valign=3D"top">
+            <!--[if (gte mso 9)|(IE)]>
+              <center>
+                <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" wid=
+th=3D"100%" style=3D"border-spacing:0;border-collapse:collapse;table-layout=
+: fixed;" >
+                  <tr>
+            <![endif]-->
+=20=20=20=20=20=20=20=20=20=20
+    <!--[if (gte mso 9)|(IE)]>
+      <td width=3D"298.000px" valign=3D"top" style=3D"padding: 0px 0px 0px =
+0px;border-collapse: collapse;" >
+    <![endif]-->
+
+    <table  width=3D"298.000"
+            style=3D"width:298.000px;border-spacing:0;border-collapse:colla=
+pse;margin:0px 0px 0px 0px;"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"left"
+            border=3D"0"
+            bgcolor=3D""
+            class=3D"column column-0 of-2
+                  empty"
+      >
+      <tr>
+        <td style=3D"padding:0px;margin:0px;border-spacing:0;">
+=20=20=20=20=20=20=20=20=20=20=20=20
+    <table class=3D"wrapper" role=3D"module" data-type=3D"image" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout=
+: fixed;">
+      <tr>
+        <td style=3D"font-size:6px;line-height:10px;background-color:#FFFFF=
+F;padding:0px 0px 0px 0px;" valign=3D"top" align=3D"left">
+          <a href=3D"http://links.stacksource.com/wf/click?upn=3DdoGFjk2AM9=
+zxZHWPlAfeJ7Y-2BzfpUkOOoMiFYv-2F7JGDTV-2Fs6tb61UE9uj0FM6GBrT_49LhmdSuYO-2Bc=
+RCHP9kI26zRHSYRoDtkFjoRJUQ-2FgyX19rQm1Qq1MRqr4BexWJ1c-2BXcpUXIdqthF-2BeaCaI=
+-2F88r4DUm0n4-2FhLza3EeNI3x9SVQkkfKzeflEDW00wlIqqlYfk9iiSxV-2Ftvz2-2Bzc4wKI=
+oFDDBxBI56SFS5QvAmiU7hlK-2FCpjo70-2BcZ-2Be-2Fi-2FL6whajquuQUJ8Zpr3WUXszkiSk=
+oIfFg69IRJQA3SHmM91Bykz4EBpSc8d4JFc1-2FOOXi3pY5QR3tl7pO1wzwX78iEHLYOURovfuJ=
+Ftxhk4qU39zgGV7GhsoQ4XsOjoHnPphDmrff54vZ-2FRhEAhOpRWtdJ79qSD8NybTJC6aoEAY0z=
+w-2FlmcrDPdfWBQE-2BGvkAazgPA4RJ1oHsRvaKWQBH-2FYbS79cUN-2FZ7JMbFBo0Vq9q-2BMM=
+IaA-3D"><img class=3D"max-width" width=3D"298" src=3D"https://marketing-ima=
+ge-production.s3.amazonaws.com/uploads/427d7c5b59a96bcd6b780d465977223f556c=
+6a9be22379e9e89d894bdf520f1b7c5945f286116d4d515a30bab7ade9eddb2de716760e2cf=
+8a8bb229cbf176afd.png" alt=3D"StackSource logo" border=3D"0" style=3D"displ=
+ay:block;color:#000;text-decoration:none;font-family:Helvetica, arial, sans=
+-serif;font-size:16px;max-width:100% !important;width:100%;height:auto !imp=
+ortant;"></a>
+        </td>
+      </tr>
+    </table>
+=20=20
+        </td>
+      </tr>
+    </table>
+
+    <!--[if (gte mso 9)|(IE)]>
+      </td>
+    <![endif]-->
+    <!--[if (gte mso 9)|(IE)]>
+      <td width=3D"298.000px" valign=3D"top" style=3D"padding: 0px 0px 0px =
+0px;border-collapse: collapse;" >
+    <![endif]-->
+
+    <table  width=3D"298.000"
+            style=3D"width:298.000px;border-spacing:0;border-collapse:colla=
+pse;margin:0px 0px 0px 0px;"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"left"
+            border=3D"0"
+            bgcolor=3D""
+            class=3D"column column-1 of-2
+                  empty"
+      >
+      <tr>
+        <td style=3D"padding:0px;margin:0px;border-spacing:0;">
+=20=20=20=20=20=20=20=20=20=20=20=20
+    <table class=3D"module" role=3D"module" data-type=3D"social" align=3D"r=
+ight" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=
+=3D"table-layout: fixed;">
+      <tbody>
+        <tr>
+          <td valign=3D"top" style=3D"font-size:6px;line-height:10px;paddin=
+g:4px 0px 0px 0px;">
+            <table align=3D"right">
+              <tbody>
+                <tr>
+                  <td style=3D"padding: 0px 5px;">
+        <a role=3D"social-icon-link"  href=3D"Facebook.com/StackSource" tar=
+get=3D"_blank" alt=3D"Facebook"
+          data-nolink=3D"false"
+          title=3D"Facebook "
+          style=3D"background-color:rgb(0, 115, 230);border-radius:10px;-we=
+bkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-b=
+order-radius:10px;color:white;display:inline-block;outline:none;text-decora=
+tion:none;border:none;font-family:Helvetica, arial, sans-serif;">
+          <img role=3D"social-icon" alt=3D"Facebook" title=3D"Facebook "
+            height=3D"30"
+            width=3D"30"
+            style=3D"height: 30px, width: 30px"
+            src=3D"https://marketing-image-production.s3.amazonaws.com/soci=
+al/white/facebook.png" />
+        </a>
+      </td>
+                  <td style=3D"padding: 0px 5px;">
+        <a role=3D"social-icon-link"  href=3D"Twitter.com/StackSource" targ=
+et=3D"_blank" alt=3D"Twitter"
+          data-nolink=3D"false"
+          title=3D"Twitter "
+          style=3D"background-color:rgb(0, 115, 230);border-radius:10px;-we=
+bkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-b=
+order-radius:10px;color:white;display:inline-block;outline:none;text-decora=
+tion:none;border:none;font-family:Helvetica, arial, sans-serif;">
+          <img role=3D"social-icon" alt=3D"Twitter" title=3D"Twitter "
+            height=3D"30"
+            width=3D"30"
+            style=3D"height: 30px, width: 30px"
+            src=3D"https://marketing-image-production.s3.amazonaws.com/soci=
+al/white/twitter.png" />
+        </a>
+      </td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                  <td style=3D"padding: 0px 5px;">
+        <a role=3D"social-icon-link"  href=3D"http://links.stacksource.com/=
+wf/click?upn=3DdoGFjk2AM9zxZHWPlAfeJwNNfLAb9u-2FtMFJUJ-2BS9RXCiRtzKvbfQQx0K=
+dOneA60jOGdn-2F28Gudz3GEOqs-2BuRZA-3D-3D_49LhmdSuYO-2BcRCHP9kI26zRHSYRoDtkF=
+joRJUQ-2FgyX19rQm1Qq1MRqr4BexWJ1c-2BXcpUXIdqthF-2BeaCaI-2F88r4DUm0n4-2FhLza=
+3EeNI3x9SVQkkfKzeflEDW00wlIqqlYfk9iiSxV-2Ftvz2-2Bzc4wKIoFDDBxBI56SFS5QvAmiU=
+7hlK-2FCpjo70-2BcZ-2Be-2Fi-2FL6whajquuQUJ8Zpr3WUXszkiSkt7ZmHQTp78uVMgRZ-2Bn=
+oFkAz998-2F-2FPIRfbwOiiM54lNXQ36n1zrAaF1PgZf1NMDDN2Lza2R1KStkJWEnKvu4ru-2F-=
+2Fd74bsoCb2a98DWvotqOaMPTGJhoT6gbKnMFdxMfPFYepuQgDK4-2FiIuJKI0prJcxfsSUyXB3=
+-2BgQj1w0jwksWh6LcoSMeFuxQc-2FvsbyZpRMZi6SsY-2B4q2BAbhvVMa5KV4-3D" target=
+=3D"_blank" alt=3D"LinkedIn"
+          data-nolink=3D"false"
+          title=3D"LinkedIn "
+          style=3D"background-color:rgb(0, 115, 230);border-radius:10px;-we=
+bkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-b=
+order-radius:10px;color:white;display:inline-block;outline:none;text-decora=
+tion:none;border:none;font-family:Helvetica, arial, sans-serif;">
+          <img role=3D"social-icon" alt=3D"LinkedIn" title=3D"LinkedIn "
+            height=3D"30"
+            width=3D"30"
+            style=3D"height: 30px, width: 30px"
+            src=3D"https://marketing-image-production.s3.amazonaws.com/soci=
+al/white/linkedin.png" />
+        </a>
+      </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+=20=20
+        </td>
+      </tr>
+    </table>
+
+    <!--[if (gte mso 9)|(IE)]>
+      </td>
+    <![endif]-->
+            <!--[if (gte mso 9)|(IE)]>
+                  <tr>
+                </table>
+              </center>
+            <![endif]-->
+        </td>
+      </tr>
+    </table>
+=20=20
+    <table class=3D"module"
+           role=3D"module"
+           data-type=3D"spacer"
+           border=3D"0"
+           cellpadding=3D"0"
+           cellspacing=3D"0"
+           width=3D"100%"
+           style=3D"table-layout: fixed;">
+      <tr>
+        <td style=3D"padding:0px 0px 2px 0px;"
+            role=3D"module-content"
+            bgcolor=3D"#4A90E2">
+        </td>
+      </tr>
+    </table>
+=20=20
+    <table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: =
+fixed;">
+      <tr>
+        <td style=3D"padding:18px 0px 18px 0px;line-height:22px;text-align:=
+inherit;"
+            height=3D"100%"
+            valign=3D"top"
+            bgcolor=3D"">
+            <div style=3D"font-family: verdana, arial, sans-serif; font-siz=
+e: 15px; color: rgb(68, 68, 68); font-style: normal; font-variant-ligatures=
+: normal; font-variant-caps: normal; font-weight: normal;"><span style=3D"c=
+olor: rgb(0, 115, 230);"><span style=3D"font-size: 36px;">The Stack</span><=
+/span></div>
+
+<div style=3D"font-family: verdana, arial, sans-serif; font-size: 15px; col=
+or: rgb(68, 68, 68); font-style: normal; font-variant-ligatures: normal; fo=
+nt-variant-caps: normal; font-weight: normal;"><em style=3D"color: rgb(105,=
+ 105, 105); font-family: verdana, geneva, sans-serif; font-size: 15px; font=
+-variant-ligatures: normal; font-variant-caps: normal; background-color: rg=
+b(255, 255, 255);"><span style=3D"font-size: 22px;">Latest&nbsp;from the St=
+ackSource blog</span></em></div>
+        </td>
+      </tr>
+    </table>
+=20=20
+    <table class=3D"wrapper" role=3D"module" data-type=3D"image" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout=
+: fixed;">
+      <tr>
+        <td style=3D"font-size:6px;line-height:10px;background-color:#FFFFF=
+F;padding:0px 0px 0px 0px;" valign=3D"top" align=3D"center">
+          <a href=3D"http://links.stacksource.com/wf/click?upn=3DdoGFjk2AM9=
+zxZHWPlAfeJ30EtYZC6-2BUAqD4vFPaXSBRd-2BZLAKaFTkvOTJyKbdFrWox90gh-2B0SNyCFMQ=
+enQB2kCyngZWmu11838OzUsdUhVEpZGsgqiqMJ4eG3HZSb-2B5jh82irjdx50n4GhanGPNuGQ-3=
+D-3D_49LhmdSuYO-2BcRCHP9kI26zRHSYRoDtkFjoRJUQ-2FgyX19rQm1Qq1MRqr4BexWJ1c-2B=
+XcpUXIdqthF-2BeaCaI-2F88r4DUm0n4-2FhLza3EeNI3x9SVQkkfKzeflEDW00wlIqqlYfk9ii=
+SxV-2Ftvz2-2Bzc4wKIoFDDBxBI56SFS5QvAmiU7hlK-2FCpjo70-2BcZ-2Be-2Fi-2FL6whajq=
+uuQUJ8Zpr3WUXszkiSktxFrMsHPCUq-2B9xtsCrR6TWL6Nc6GKi77wL9mIB4OeVnGWXE-2F3lmC=
+ZVLOd9qwAJdHqp1VbfXad3WKSA4SfSjFYOovAODMKPPppE5vByoMbvB9umlvdUTqiKgdtRyc2qf=
+QVCGMbhsqt-2FAdkwH1FQuA2y9fUsdVWpHhxKsavTFc-2FccK8epqS26-2BDnRyjBbufl4YNWww=
+b4Kqhu-2FlW1JRIUjd38-3D"><img class=3D"max-width" width=3D"600" src=3D"http=
+s://marketing-image-production.s3.amazonaws.com/uploads/c692349fb3b5cec1b77=
+d8d861fefdf15b08a315d4cd4b3690db2acefcf927ffc9bc5dd171fe7cedc11a5f273932fb4=
+2c6c5273dc809c17861139fb24275b1157.jpg" alt=3D"$100 bill with Ben Franklin =
+wearing a hard hat" border=3D"0" style=3D"display:block;color:#000;text-dec=
+oration:none;font-family:Helvetica, arial, sans-serif;font-size:16px;max-wi=
+dth:100% !important;width:100%;height:auto !important;"></a>
+        </td>
+      </tr>
+    </table>
+=20=20
+    <table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: =
+fixed;">
+      <tr>
+        <td style=3D"padding:34px 0px 34px 0px;background-color:#ffffff;"
+            height=3D"100%"
+            valign=3D"top"
+            bgcolor=3D"#ffffff">
+            <div style=3D"font-family: verdana, geneva, sans-serif; color: =
+rgb(68, 68, 68); font-style: normal; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; font-weight: normal; background-color: rgb(255, 255, 2=
+55);"><span style=3D"font-size: 28px;">How and why NNN construction loans g=
+o up to 100% LTC</span></div>
+
+<div style=3D"font-family: verdana, geneva, sans-serif; font-size: 15px; co=
+lor: rgb(68, 68, 68); font-style: normal; font-variant-ligatures: normal; f=
+ont-variant-caps: normal; font-weight: normal; background-color: rgb(255, 2=
+55, 255);">&nbsp;</div>
+
+<div style=3D"font-family: verdana, geneva, sans-serif; font-size: 15px; co=
+lor: rgb(68, 68, 68); font-style: normal; font-variant-ligatures: normal; f=
+ont-variant-caps: normal; font-weight: normal; background-color: rgb(255, 2=
+55, 255);">Why it works for the lender, why the tenants don't&nbsp;just "do=
+ it themselves", and thoughts from one of these developers.</div>
+        </td>
+      </tr>
+    </table>
+  <table border=3D"0" cellPadding=3D"0" cellSpacing=3D"0" class=3D"module" =
+data-role=3D"module-button" data-type=3D"button" role=3D"module" style=3D"t=
+able-layout:fixed" width=3D"100%"><tbody><tr><td align=3D"center" class=3D"=
+outer-td" style=3D"padding:0px 0px 18px 0px"><table border=3D"0" cellPaddin=
+g=3D"0" cellSpacing=3D"0" class=3D"button-css__deep-table___2OZyb wrapper-m=
+obile" style=3D"text-align:center"><tbody><tr><td align=3D"center" bgcolor=
+=3D"#52cc7a" class=3D"inner-td" style=3D"border-radius:6px;font-size:16px;t=
+ext-align:center;background-color:inherit"><a style=3D"background-color:#52=
+cc7a;border:1px solid #333333;border-color:#52cc7a;border-radius:6px;border=
+-width:1px;color:#ffffff;display:inline-block;font-family:arial,helvetica,s=
+ans-serif;font-size:16px;font-weight:normal;letter-spacing:0px;line-height:=
+16px;padding:12px 18px 12px 18px;text-align:center;text-decoration:none" hr=
+ef=3D"http://links.stacksource.com/wf/click?upn=3DdoGFjk2AM9zxZHWPlAfeJ30Et=
+YZC6-2BUAqD4vFPaXSBRd-2BZLAKaFTkvOTJyKbdFrWox90gh-2B0SNyCFMQenQB2kCyngZWmu1=
+1838OzUsdUhVEpZGsgqiqMJ4eG3HZSb-2B5jh82irjdx50n4GhanGPNuGQ-3D-3D_49LhmdSuYO=
+-2BcRCHP9kI26zRHSYRoDtkFjoRJUQ-2FgyX19rQm1Qq1MRqr4BexWJ1c-2BXcpUXIdqthF-2Be=
+aCaI-2F88r4DUm0n4-2FhLza3EeNI3x9SVQkkfKzeflEDW00wlIqqlYfk9iiSxV-2Ftvz2-2Bzc=
+4wKIoFDDBxBI56SFS5QvAmiU7hlK-2FCpjo70-2BcZ-2Be-2Fi-2FL6whajquuQUJ8Zpr3WUXsz=
+kiSkuR5Ug4RSmIjZ5e36i1ffmZsmwaZQC5FpgHnnsfAyfaTipUKryeCGKIEZouuVq5FcbPuJ-2B=
+B5UaV602lTwGxUZXEYD0Ef2QxvUr9LsdLbXpiopHDgenbemI7iM-2FmTRvKGvuhCXgUV0TaZJcZ=
+3jOxyLuQoZlA4p3mW-2Bi56cNmjTu-2BNbP34V2P2CapWyDpCwZtuKXyL3ySkGyqvwsyheS9xUI=
+E-3D" target=3D"_blank">READ IT</a></td></tr></tbody></table></td></tr></tb=
+ody></table>
+    <table class=3D"module"
+           role=3D"module"
+           data-type=3D"spacer"
+           border=3D"0"
+           cellpadding=3D"0"
+           cellspacing=3D"0"
+           width=3D"100%"
+           style=3D"table-layout: fixed;">
+      <tr>
+        <td style=3D"padding:0px 0px 2px 0px;"
+            role=3D"module-content"
+            bgcolor=3D"#4A90E2">
+        </td>
+      </tr>
+    </table>
+=20=20
+    <table  border=3D"0"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"center"
+            width=3D"100%"
+            role=3D"module"
+            data-type=3D"columns"
+            data-version=3D"2"
+            style=3D"padding:18px 0px 18px 0px;box-sizing:border-box;"
+            bgcolor=3D"">
+      <tr role=3D'module-content'>
+        <td height=3D"100%" valign=3D"top">
+            <!--[if (gte mso 9)|(IE)]>
+              <center>
+                <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" wid=
+th=3D"100%" style=3D"border-spacing:0;border-collapse:collapse;table-layout=
+: fixed;" >
+                  <tr>
+            <![endif]-->
+=20=20=20=20=20=20=20=20=20=20
+    <!--[if (gte mso 9)|(IE)]>
+      <td width=3D"294.000px" valign=3D"top" style=3D"padding: 0px 0px 0px =
+0px;border-collapse: collapse;" >
+    <![endif]-->
+
+    <table  width=3D"294.000"
+            style=3D"width:294.000px;border-spacing:0;border-collapse:colla=
+pse;margin:0px 6px 0px 0px;"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"left"
+            border=3D"0"
+            bgcolor=3D""
+            class=3D"column column-0 of-2
+                  empty"
+      >
+      <tr>
+        <td style=3D"padding:0px;margin:0px;border-spacing:0;">
+=20=20=20=20=20=20=20=20=20=20=20=20
+    <table class=3D"wrapper" role=3D"module" data-type=3D"image" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout=
+: fixed;">
+      <tr>
+        <td style=3D"font-size:6px;line-height:10px;padding:0px 0px 0px 0px=
+;" valign=3D"top" align=3D"center">
+          <a href=3D"http://links.stacksource.com/wf/click?upn=3DdoGFjk2AM9=
+zxZHWPlAfeJ30EtYZC6-2BUAqD4vFPaXSBRZxkZe6OVcSYsphuFJeaX3RLrTn9qaZ7ftl0r88rB=
+g-2BDX680da85k1xqxxj0r1uvcRKdRhQHrcoJwREvLsUYIGFJ-2BjntvLjCvqqT53OWXCuQ-3D-=
+3D_49LhmdSuYO-2BcRCHP9kI26zRHSYRoDtkFjoRJUQ-2FgyX19rQm1Qq1MRqr4BexWJ1c-2BXc=
+pUXIdqthF-2BeaCaI-2F88r4DUm0n4-2FhLza3EeNI3x9SVQkkfKzeflEDW00wlIqqlYfk9iiSx=
+V-2Ftvz2-2Bzc4wKIoFDDBxBI56SFS5QvAmiU7hlK-2FCpjo70-2BcZ-2Be-2Fi-2FL6whajquu=
+QUJ8Zpr3WUXszkiSkgq4sbUhHYi0djZBjwnIL1yH8EzUMPi1POd-2FdPgkeRVhD4522FwEetMPb=
+06XiGI7izzfYG1sPllclonKVJKnViInIhZKGjayQ6bwxbRpQIGR0IwMTDbElb9Ba7zkftpzPx2L=
+tDOfYtbDEhn7wlccb49xeN-2Bxe6Qm-2BTPwJOhOhXNNAYTDf7Y-2FiwATJiuq4VE7BVDzrNIAK=
+FDVcS46iVTScvc-3D"><img class=3D"max-width" border=3D"0" style=3D"display:b=
+lock;color:#000000;text-decoration:none;font-family:Helvetica, arial, sans-=
+serif;font-size:16px;max-width:100% !important;width:100%;height:auto !impo=
+rtant;" src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/=
+a38ebd6afc78dbece088035908536b7037d1a1ff79080ea202e7868f6f4f764b8e177f02eb6=
+e31183538584e4f77db9e67270970d388608c04b9af001f6af568.jpg" alt=3D"Red bridg=
+e-shaped block connected two piles of blocks" width=3D"297"></a>
+        </td>
+      </tr>
+    </table>
+=20=20
+        </td>
+      </tr>
+    </table>
+
+    <!--[if (gte mso 9)|(IE)]>
+      </td>
+    <![endif]-->
+    <!--[if (gte mso 9)|(IE)]>
+      <td width=3D"294.000px" valign=3D"top" style=3D"padding: 0px 0px 0px =
+0px;border-collapse: collapse;" >
+    <![endif]-->
+
+    <table  width=3D"294.000"
+            style=3D"width:294.000px;border-spacing:0;border-collapse:colla=
+pse;margin:0px 0px 0px 6px;"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"left"
+            border=3D"0"
+            bgcolor=3D""
+            class=3D"column column-1 of-2
+                  empty"
+      >
+      <tr>
+        <td style=3D"padding:0px;margin:0px;border-spacing:0;">
+=20=20=20=20=20=20=20=20=20=20=20=20
+    <table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: =
+fixed;">
+      <tr>
+        <td style=3D"padding:4px 0px 18px 0px;line-height:22px;text-align:i=
+nherit;"
+            height=3D"100%"
+            valign=3D"top"
+            bgcolor=3D"">
+            <div style=3D"font-family: verdana, geneva, sans-serif; color: =
+rgb(68, 68, 68); font-style: normal; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; font-weight: normal; background-color: rgb(255, 255, 2=
+55);"><span style=3D"font-size: 22px;">Bridge to Agency Financing for Multi=
+family Real Estate</span></div>
+
+<div style=3D"font-family: verdana, geneva, sans-serif; font-size: 15px; co=
+lor: rgb(68, 68, 68); font-style: normal; font-variant-ligatures: normal; f=
+ont-variant-caps: normal; font-weight: normal; background-color: rgb(255, 2=
+55, 255);">&nbsp;</div>
+
+<div style=3D"font-family: verdana, geneva, sans-serif; font-size: 15px; co=
+lor: rgb(68, 68, 68); font-style: normal; font-variant-ligatures: normal; f=
+ont-variant-caps: normal; font-weight: normal; background-color: rgb(255, 2=
+55, 255);">Agency loans are awesome - but what if you have/acquire a proper=
+ty that needs time to stabilize first?</div>
+        </td>
+      </tr>
+    </table>
+  <table border=3D"0" cellPadding=3D"0" cellSpacing=3D"0" class=3D"module" =
+data-role=3D"module-button" data-type=3D"button" role=3D"module" style=3D"t=
+able-layout:fixed" width=3D"100%"><tbody><tr><td align=3D"center" class=3D"=
+outer-td" style=3D"padding:0px 0px 0px 0px"><table border=3D"0" cellPadding=
+=3D"0" cellSpacing=3D"0" class=3D"button-css__deep-table___2OZyb wrapper-mo=
+bile" style=3D"text-align:center"><tbody><tr><td align=3D"center" bgcolor=
+=3D"#52cc7a" class=3D"inner-td" style=3D"border-radius:6px;font-size:16px;t=
+ext-align:center;background-color:inherit"><a style=3D"background-color:#52=
+cc7a;border:1px solid #333333;border-color:#52cc7a;border-radius:6px;border=
+-width:1px;color:#ffffff;display:inline-block;font-family:arial,helvetica,s=
+ans-serif;font-size:16px;font-weight:normal;letter-spacing:0px;line-height:=
+16px;padding:12px 18px 12px 18px;text-align:center;text-decoration:none" hr=
+ef=3D"http://links.stacksource.com/wf/click?upn=3DdoGFjk2AM9zxZHWPlAfeJ30Et=
+YZC6-2BUAqD4vFPaXSBRZxkZe6OVcSYsphuFJeaX3RLrTn9qaZ7ftl0r88rBg-2BDX680da85k1=
+xqxxj0r1uvcRKdRhQHrcoJwREvLsUYIGFJ-2BjntvLjCvqqT53OWXCuQ-3D-3D_49LhmdSuYO-2=
+BcRCHP9kI26zRHSYRoDtkFjoRJUQ-2FgyX19rQm1Qq1MRqr4BexWJ1c-2BXcpUXIdqthF-2BeaC=
+aI-2F88r4DUm0n4-2FhLza3EeNI3x9SVQkkfKzeflEDW00wlIqqlYfk9iiSxV-2Ftvz2-2Bzc4w=
+KIoFDDBxBI56SFS5QvAmiU7hlK-2FCpjo70-2BcZ-2Be-2Fi-2FL6whajquuQUJ8Zpr3WUXszki=
+SkgwEBvmRk-2FwRh2cLmgpBGU6pdBtr1qyyM278kpk3jdHZ6G-2BKojYykRvjT9Zde0LfRKgD6P=
+xO-2BoBHuFGvGrOmu-2FFDhADL212DETcFCR4Aw2CDDI3BAxrsihzae3Q3XDdJ6KnVtgsD8HQP8=
+Y316nsDF1OgPok4dw9dhpmb4n9pss7aGUymNHYC3PTd5E5pbbWSFXSaHeG-2Fcsbz74beNlTBsP=
+Y-3D" target=3D"_blank">READ IT</a></td></tr></tbody></table></td></tr></tb=
+ody></table>
+        </td>
+      </tr>
+    </table>
+
+    <!--[if (gte mso 9)|(IE)]>
+      </td>
+    <![endif]-->
+            <!--[if (gte mso 9)|(IE)]>
+                  <tr>
+                </table>
+              </center>
+            <![endif]-->
+        </td>
+      </tr>
+    </table>
+=20=20
+    <table class=3D"module"
+           role=3D"module"
+           data-type=3D"divider"
+           border=3D"0"
+           cellpadding=3D"0"
+           cellspacing=3D"0"
+           width=3D"100%"
+           style=3D"table-layout: fixed;">
+      <tr>
+        <td style=3D"padding:0px 0px 0px 0px;"
+            role=3D"module-content"
+            height=3D"100%"
+            valign=3D"top"
+            bgcolor=3D"">
+          <table border=3D"0"
+                 cellpadding=3D"0"
+                 cellspacing=3D"0"
+                 align=3D"center"
+                 width=3D"100%"
+                 height=3D"2px"
+                 style=3D"line-height:2px; font-size:2px;">
+            <tr>
+              <td
+                style=3D"padding: 0px 0px 2px 0px;"
+                bgcolor=3D"#d3d3d3"></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+=20=20
+    <table  border=3D"0"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"center"
+            width=3D"100%"
+            role=3D"module"
+            data-type=3D"columns"
+            data-version=3D"2"
+            style=3D"padding:18px 0px 18px 0px;box-sizing:border-box;"
+            bgcolor=3D"">
+      <tr role=3D'module-content'>
+        <td height=3D"100%" valign=3D"top">
+            <!--[if (gte mso 9)|(IE)]>
+              <center>
+                <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" wid=
+th=3D"100%" style=3D"border-spacing:0;border-collapse:collapse;table-layout=
+: fixed;" >
+                  <tr>
+            <![endif]-->
+=20=20=20=20=20=20=20=20=20=20
+    <!--[if (gte mso 9)|(IE)]>
+      <td width=3D"294.000px" valign=3D"top" style=3D"padding: 0px 0px 0px =
+0px;border-collapse: collapse;" >
+    <![endif]-->
+
+    <table  width=3D"294.000"
+            style=3D"width:294.000px;border-spacing:0;border-collapse:colla=
+pse;margin:0px 6px 0px 0px;"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"left"
+            border=3D"0"
+            bgcolor=3D""
+            class=3D"column column-0 of-2
+                  empty"
+      >
+      <tr>
+        <td style=3D"padding:0px;margin:0px;border-spacing:0;">
+=20=20=20=20=20=20=20=20=20=20=20=20
+    <table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: =
+fixed;">
+      <tr>
+        <td style=3D"padding:4px 0px 18px 0px;line-height:22px;text-align:i=
+nherit;"
+            height=3D"100%"
+            valign=3D"top"
+            bgcolor=3D"">
+            <div style=3D"font-family: verdana, geneva, sans-serif; color: =
+rgb(68, 68, 68); font-style: normal; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; font-weight: normal; background-color: rgb(255, 255, 2=
+55);"><span style=3D"font-size: 22px;">Fannie Mae &amp; Freddie Mac's Suppl=
+emental Loan Programs</span></div>
+
+<div style=3D"font-family: verdana, geneva, sans-serif; font-size: 15px; co=
+lor: rgb(68, 68, 68); font-style: normal; font-variant-ligatures: normal; f=
+ont-variant-caps: normal; font-weight: normal; background-color: rgb(255, 2=
+55, 255);">&nbsp;</div>
+
+<div style=3D"font-family: verdana, geneva, sans-serif; font-size: 15px; co=
+lor: rgb(68, 68, 68); font-style: normal; font-variant-ligatures: normal; f=
+ont-variant-caps: normal; font-weight: normal; background-color: rgb(255, 2=
+55, 255);">Perfect for when your agency loan has some time left and a bitin=
+g pre-pay penalty, but you want additional leverage.</div>
+        </td>
+      </tr>
+    </table>
+  <table border=3D"0" cellPadding=3D"0" cellSpacing=3D"0" class=3D"module" =
+data-role=3D"module-button" data-type=3D"button" role=3D"module" style=3D"t=
+able-layout:fixed" width=3D"100%"><tbody><tr><td align=3D"center" class=3D"=
+outer-td" style=3D"padding:0px 0px 0px 0px"><table border=3D"0" cellPadding=
+=3D"0" cellSpacing=3D"0" class=3D"button-css__deep-table___2OZyb wrapper-mo=
+bile" style=3D"text-align:center"><tbody><tr><td align=3D"center" bgcolor=
+=3D"#52cc7a" class=3D"inner-td" style=3D"border-radius:6px;font-size:16px;t=
+ext-align:center;background-color:inherit"><a style=3D"background-color:#52=
+cc7a;border:1px solid #333333;border-color:#52cc7a;border-radius:6px;border=
+-width:1px;color:#ffffff;display:inline-block;font-family:arial,helvetica,s=
+ans-serif;font-size:16px;font-weight:normal;letter-spacing:0px;line-height:=
+16px;padding:12px 18px 12px 18px;text-align:center;text-decoration:none" hr=
+ef=3D"http://links.stacksource.com/wf/click?upn=3DdoGFjk2AM9zxZHWPlAfeJ30Et=
+YZC6-2BUAqD4vFPaXSBSfSjtmEHye0ESlgUrTTxm-2Bq-2FZP75PDabZTg8Ht-2BOxuybxTE4ZD=
+8-2BXY8DBQjAkFpLOp-2B5K4Gv1FqfsAMBR78g3X3hZStAo-2BFHeMHQrrz156xg-3D-3D_49Lh=
+mdSuYO-2BcRCHP9kI26zRHSYRoDtkFjoRJUQ-2FgyX19rQm1Qq1MRqr4BexWJ1c-2BXcpUXIdqt=
+hF-2BeaCaI-2F88r4DUm0n4-2FhLza3EeNI3x9SVQkkfKzeflEDW00wlIqqlYfk9iiSxV-2Ftvz=
+2-2Bzc4wKIoFDDBxBI56SFS5QvAmiU7hlK-2FCpjo70-2BcZ-2Be-2Fi-2FL6whajquuQUJ8Zpr=
+3WUXszkiSkvZmaf3KvNJ4U4UlZtERUom8stzebgHHBaQ65uI-2BeH48mxfFSlCJDwtPapdbUPqs=
+agMJU1MPOd6IUCUHQWVsObOhtYnmf4K-2BkwU2hdAmZe774cl3ZzWJ97ia3qDlhRfP7uyNCqmdg=
+N1IUmcpk2WxG2-2FEdV361wCNtyCR5RjkyXwT9UhuYBCRZYK2HNLQPv0bf21Zbl6i3IbzpvGA-2=
+FODHmng-3D" target=3D"_blank">READ IT</a></td></tr></tbody></table></td></t=
+r></tbody></table>
+        </td>
+      </tr>
+    </table>
+
+    <!--[if (gte mso 9)|(IE)]>
+      </td>
+    <![endif]-->
+    <!--[if (gte mso 9)|(IE)]>
+      <td width=3D"294.000px" valign=3D"top" style=3D"padding: 0px 0px 0px =
+0px;border-collapse: collapse;" >
+    <![endif]-->
+
+    <table  width=3D"294.000"
+            style=3D"width:294.000px;border-spacing:0;border-collapse:colla=
+pse;margin:0px 0px 0px 6px;"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"left"
+            border=3D"0"
+            bgcolor=3D""
+            class=3D"column column-1 of-2
+                  empty"
+      >
+      <tr>
+        <td style=3D"padding:0px;margin:0px;border-spacing:0;">
+=20=20=20=20=20=20=20=20=20=20=20=20
+    <table class=3D"wrapper" role=3D"module" data-type=3D"image" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout=
+: fixed;">
+      <tr>
+        <td style=3D"font-size:6px;line-height:10px;padding:0px 0px 0px 0px=
+;" valign=3D"top" align=3D"center">
+          <a href=3D"http://links.stacksource.com/wf/click?upn=3DdoGFjk2AM9=
+zxZHWPlAfeJ30EtYZC6-2BUAqD4vFPaXSBSfSjtmEHye0ESlgUrTTxm-2Bq-2FZP75PDabZTg8H=
+t-2BOxuybxTE4ZD8-2BXY8DBQjAkFpLOp-2B5K4Gv1FqfsAMBR78g3X3hZStAo-2BFHeMHQrrz1=
+56xg-3D-3D_49LhmdSuYO-2BcRCHP9kI26zRHSYRoDtkFjoRJUQ-2FgyX19rQm1Qq1MRqr4BexW=
+J1c-2BXcpUXIdqthF-2BeaCaI-2F88r4DUm0n4-2FhLza3EeNI3x9SVQkkfKzeflEDW00wlIqql=
+Yfk9iiSxV-2Ftvz2-2Bzc4wKIoFDDBxBI56SFS5QvAmiU7hlK-2FCpjo70-2BcZ-2Be-2Fi-2FL=
+6whajquuQUJ8Zpr3WUXszkiSkjR2-2FYVDk0KorU1I9tr4V3UnaSkFCtry6r-2BVRINtKnj-2FI=
+hBiNzy9jH73dIBoo8I7i2ou7iZ9jkILNEYwusN2DFhEVSIKRUxOyJ7o6Pw-2FN3XrnIPX2L-2BE=
+SxCMeQZN6a0Q17vt9JZLfE8xRFghCe5x1mCfb-2FycZrJ-2Fazh9vWjJdrmfGa1DEb3CFeExpVr=
+PVrgdeH0nlAPhMLa-2FcHXFpWHGkj4-3D"><img class=3D"max-width" border=3D"0" st=
+yle=3D"display:block;color:#000000;text-decoration:none;font-family:Helveti=
+ca, arial, sans-serif;font-size:16px;max-width:100% !important;width:100%;h=
+eight:auto !important;" src=3D"https://marketing-image-production.s3.amazon=
+aws.com/uploads/252b09078acf4a42a88c8d74965b064640769c0596ac602b30406c8d489=
+19aa440d0db1099a7b03a21167c895b79523eed74f875fe7f30e8f313539236a3cab6.jpg" =
+alt=3D"Hand adding coins to a stack" width=3D"297"></a>
+        </td>
+      </tr>
+    </table>
+=20=20
+        </td>
+      </tr>
+    </table>
+
+    <!--[if (gte mso 9)|(IE)]>
+      </td>
+    <![endif]-->
+            <!--[if (gte mso 9)|(IE)]>
+                  <tr>
+                </table>
+              </center>
+            <![endif]-->
+        </td>
+      </tr>
+    </table>
+=20=20
+    <table class=3D"module"
+           role=3D"module"
+           data-type=3D"spacer"
+           border=3D"0"
+           cellpadding=3D"0"
+           cellspacing=3D"0"
+           width=3D"100%"
+           style=3D"table-layout: fixed;">
+      <tr>
+        <td style=3D"padding:0px 0px 2px 0px;"
+            role=3D"module-content"
+            bgcolor=3D"#4A90E2">
+        </td>
+      </tr>
+    </table>
+=20=20
+    <table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: =
+fixed;">
+      <tr>
+        <td style=3D"padding:18px 0px 18px 0px;line-height:22px;text-align:=
+inherit;"
+            height=3D"100%"
+            valign=3D"top"
+            bgcolor=3D"">
+            <div>Still not convinced about&nbsp;StackSource? Hear from anot=
+her one of our clients:</div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"color: rgba(0, 0, 0, 0.75); font-family: -apple-system,=
+ system-ui, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helveti=
+ca Neue&quot;, &quot;Fira Sans&quot;, Ubuntu, Oxygen, &quot;Oxygen Sans&quo=
+t;, Cantarell, &quot;Droid Sans&quot;, &quot;Apple Color Emoji&quot;, &quot=
+;Segoe UI Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&qu=
+ot;, &quot;Lucida Grande&quot;, Helvetica, Arial, sans-serif; font-size: 14=
+px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: =
+normal; font-weight: 400; white-space: pre-wrap;"><em>"As luck would have i=
+t, I came across StackSource... within a few days, I was connected with a p=
+rivate lending group that presented us with a 100% LTC term sheet.</em></sp=
+an></div>
+
+<div><span style=3D"color: rgba(0, 0, 0, 0.75); font-family: -apple-system,=
+ system-ui, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helveti=
+ca Neue&quot;, &quot;Fira Sans&quot;, Ubuntu, Oxygen, &quot;Oxygen Sans&quo=
+t;, Cantarell, &quot;Droid Sans&quot;, &quot;Apple Color Emoji&quot;, &quot=
+;Segoe UI Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&qu=
+ot;, &quot;Lucida Grande&quot;, Helvetica, Arial, sans-serif; font-size: 14=
+px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: =
+normal; font-weight: 400; white-space: pre-wrap;"><em>We ended up closing 9=
+ deals with a total project value of ~$9 Million in less than 60 days."</em=
+></span></div>
+
+<div>&nbsp;</div>
+
+<div>From construction lending, to bridge, to permanent loans, StackSource =
+connects you with a wide array of loan options from top national lenders.</=
+div>
+        </td>
+      </tr>
+    </table>
+  <table border=3D"0" cellPadding=3D"0" cellSpacing=3D"0" class=3D"module" =
+data-role=3D"module-button" data-type=3D"button" role=3D"module" style=3D"t=
+able-layout:fixed" width=3D"100%"><tbody><tr><td align=3D"center" class=3D"=
+outer-td" style=3D"padding:0px 0px 0px 0px"><table border=3D"0" cellPadding=
+=3D"0" cellSpacing=3D"0" class=3D"button-css__deep-table___2OZyb wrapper-mo=
+bile" style=3D"text-align:center"><tbody><tr><td align=3D"center" bgcolor=
+=3D"#0073e6" class=3D"inner-td" style=3D"border-radius:6px;font-size:16px;t=
+ext-align:center;background-color:inherit"><a style=3D"background-color:#00=
+73e6;border:1px solid #333333;border-color:#0073e6;border-radius:6px;border=
+-width:1px;color:#ffffff;display:inline-block;font-family:verdana,geneva,sa=
+ns-serif;font-size:16px;font-weight:normal;letter-spacing:0px;line-height:1=
+6px;padding:12px 18px 12px 18px;text-align:center;text-decoration:none" hre=
+f=3D"http://links.stacksource.com/wf/click?upn=3DdoGFjk2AM9zxZHWPlAfeJ2z7IO=
+M8nZKdhKv0UBoVjsiJ4irDfDGr0NAnHut2Kf4rT6Ru81NL3xf8H4Yk-2FrM1gG4gzhX2xpElWt7=
+3YxP27M4omYmiaJVKaEsKGYC85dRPbgXLwcFXPFjxyqFSFlbCO1zMcYhg-2FYuVzC0Ox59rZel6=
+1U7YnWVu7YtWCIS0FFIh_49LhmdSuYO-2BcRCHP9kI26zRHSYRoDtkFjoRJUQ-2FgyX19rQm1Qq=
+1MRqr4BexWJ1c-2BXcpUXIdqthF-2BeaCaI-2F88r4DUm0n4-2FhLza3EeNI3x9SVQkkfKzeflE=
+DW00wlIqqlYfk9iiSxV-2Ftvz2-2Bzc4wKIoFDDBxBI56SFS5QvAmiU7hlK-2FCpjo70-2BcZ-2=
+Be-2Fi-2FL6whajquuQUJ8Zpr3WUXszkiSkqzySyDhO3Wr9GoxFd0Fn8KBNEWayg1p-2F-2BUsQ=
+EGnqn6HYr05Y6kHGFsxEgcodxiR3GrCDxvCoD11U8XMpcHQtiKud-2B-2BisAKwi-2Bl8SHhrwJ=
+QbDmLRAwyZOZZxioC1hMHS-2FWJaQl4md8Js49UZfTF4LLmcu5p78F7Y8E8imrgrENqgRAwtgJ-=
+2Flo976Pue64NfyTz90JbpGGjLA0pOY-2BCrdLlw-3D" target=3D"_blank">Learn more</=
+a></td></tr></tbody></table></td></tr></tbody></table>
+    <table  border=3D"0"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"center"
+            width=3D"100%"
+            role=3D"module"
+            data-type=3D"columns"
+            data-version=3D"2"
+            style=3D"padding:23px 5px 40px 5px;background-color:#ffffff;box=
+-sizing:border-box;"
+            bgcolor=3D"#ffffff">
+      <tr role=3D'module-content'>
+        <td height=3D"100%" valign=3D"top">
+            <!--[if (gte mso 9)|(IE)]>
+              <center>
+                <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" wid=
+th=3D"100%" style=3D"border-spacing:0;border-collapse:collapse;table-layout=
+: fixed;" >
+                  <tr>
+            <![endif]-->
+=20=20=20=20=20=20=20=20=20=20
+    <!--[if (gte mso 9)|(IE)]>
+      <td width=3D"295.000px" valign=3D"top" style=3D"padding: 0px 0px 0px =
+0px;border-collapse: collapse;" >
+    <![endif]-->
+
+    <table  width=3D"295.000"
+            style=3D"width:295.000px;border-spacing:0;border-collapse:colla=
+pse;margin:0px 0px 0px 0px;"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"left"
+            border=3D"0"
+            bgcolor=3D"#ffffff"
+            class=3D"column column-0 of-2
+                  empty"
+      >
+      <tr>
+        <td style=3D"padding:0px;margin:0px;border-spacing:0;">
+=20=20=20=20=20=20=20=20=20=20=20=20
+    <table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: =
+fixed;">
+      <tr>
+        <td style=3D"padding:0px 0px 0px 0px;background-color:#ffffff;"
+            height=3D"100%"
+            valign=3D"top"
+            bgcolor=3D"#ffffff">
+            <div> <div style=3D"font-family: verdana, arial, sans-serif; fo=
+nt-size: 15px; color: rgb(68, 68, 68); font-style: normal; font-variant-lig=
+atures: normal; font-variant-caps: normal; font-weight: normal; line-height=
+: normal;">StackSource is the online platform for commercial real estate lo=
+ans.</div>  <div style=3D"font-family: verdana, arial, sans-serif; font-siz=
+e: 15px; color: rgb(68, 68, 68); font-style: normal; font-variant-ligatures=
+: normal; font-variant-caps: normal; font-weight: normal; line-height: norm=
+al;"><a href=3D"http://links.stacksource.com/wf/click?upn=3DPWSjPZehxjROOqZ=
+Qp7-2Fz5TI8RD-2F1b7cft-2FHEX8QlUzk-3D_49LhmdSuYO-2BcRCHP9kI26zRHSYRoDtkFjoR=
+JUQ-2FgyX19rQm1Qq1MRqr4BexWJ1c-2BXcpUXIdqthF-2BeaCaI-2F88r4DUm0n4-2FhLza3Ee=
+NI3x9SVQkkfKzeflEDW00wlIqqlYfk9iiSxV-2Ftvz2-2Bzc4wKIoFDDBxBI56SFS5QvAmiU7hl=
+K-2FCpjo70-2BcZ-2Be-2Fi-2FL6whajquuQUJ8Zpr3WUXszkiSki2rKXiGr4EARq-2FD5NX-2B=
+c-2FlMtUuYv1fU3tvXoLDyS7oWi62AqaZw8R9vnGehYeXcpcDquSUEpelh1ae709JWsn5xIhKbS=
+O-2FF-2F-2B2TzaCffEjUU6vraYQtXZgeLcPAy9yOhaBJ5LbVp74fltmkh96T2tnkh0E1sulzIR=
+Prsvi0YFYIr6b6Erp7HZwbm9YnheJEA7z4XxqHpj4RkLEqtRzTKok-3D">StackSource.com</=
+a></div> </div>  <div>&nbsp;</div>
+        </td>
+      </tr>
+    </table>
+=20=20
+        </td>
+      </tr>
+    </table>
+
+    <!--[if (gte mso 9)|(IE)]>
+      </td>
+    <![endif]-->
+    <!--[if (gte mso 9)|(IE)]>
+      <td width=3D"295.000px" valign=3D"top" style=3D"padding: 0px 0px 0px =
+0px;border-collapse: collapse;" >
+    <![endif]-->
+
+    <table  width=3D"295.000"
+            style=3D"width:295.000px;border-spacing:0;border-collapse:colla=
+pse;margin:0px 0px 0px 0px;"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"left"
+            border=3D"0"
+            bgcolor=3D"#ffffff"
+            class=3D"column column-1 of-2
+                  empty"
+      >
+      <tr>
+        <td style=3D"padding:0px;margin:0px;border-spacing:0;">
+=20=20=20=20=20=20=20=20=20=20=20=20
+    <table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: =
+fixed;">
+      <tr>
+        <td style=3D"padding:0px 0px 0px 0px;background-color:#ffffff;"
+            height=3D"100%"
+            valign=3D"top"
+            bgcolor=3D"#ffffff">
+            <div style=3D"text-align: right;"><font color=3D"#7f7f7f"><span=
+ style=3D"font-size: 10px;">StackSource</span></font></div>  <div style=3D"=
+text-align: right;"><span style=3D"color:#7F7F7F;"><span style=3D"font-size=
+:10px;">Flatiron District</span></span></div>  <div style=3D"text-align: ri=
+ght;"><span style=3D"color:#7F7F7F;"><span style=3D"font-size:10px;">New Yo=
+rk, NY 10011</span></span></div>  <div style=3D"text-align: right;">&nbsp;<=
+/div>  <div style=3D"text-align: right;"><span style=3D"font-size:10px;"><a=
+ href=3D"http://links.stacksource.com/asm/unsubscribe/?user_id=3D3574878&da=
+ta=3D1youlTbqSuNbTwVJk84ERY0-K5PUkyPhUtv0HtO4f6oHNPLUtBjpnBKmC7gLwWCgi5u59O=
+84HOz7Xpdz_H1MMYJahSUgAFay3uSKgIH-X3H_3XHCMFWKerZvIIA-emwBfDudtIDlP7z5LYr2U=
+wJFrrjuUMkvFsh0IOheRvqADqRAQ1nB6hQnOMTJfLCUcQLhxqLPN5EVPypo-DHNqQxsWYc8VSAw=
+35TXrkM6yaiTP0dp12JnfN2e0fNESPyL_Rjmctg1HiSckr2MpP4YU831TDDPsxztH1ggGChO29Y=
+RcvTsS7oa3mVaScFpQZyw2xrIdE1b9TE5q2_daGbkcNx8Jd5fSeFI-Q8CuuPrcbwNAvKsaB-p8p=
+xaXZBtueaHrDYlxHwGbZsofOOd4UNZUkwtW9KPQiWR1cenwnQ2sW5rEQSKi-9NH6v2AtvWHeqei=
+ds2JsnkFHen7z3dKEBTne20ea2oFfw2uGubj6XtOmj9y-dqy2W6R_ukcB6RLA_bM06afBEcs1o2=
+5CLQDM8C9Pqtm-FReGsQlxvhWoRktSjpuio=3D"><span style=3D"color:#1188E6;">Unsu=
+bscribe</span></a><span style=3D"color:#000000;"> | </span><a href=3D"http:=
+//links.stacksource.com/asm/?user_id=3D3574878&data=3DOk04Jaa5VMCLdcNruIq-H=
+7RSOGBV933mRKSddOXEz-YOMW34tfxidcoaosCWym0FOxXf0KEBzsxvOeoc8lCFoxdzHzU9Bxch=
+gUwMt9GlAIVnz6_9JEBvb_3izJ06xJnsVebPHUFrm3x_lp4qF_HKnNlZUoL3YZ3vQS58_2PoDKf=
+fLENjtGTrp8ueVU-xpn_ARbgFwI20Yyr-sxW9gfpXiaiOiWY83V0xQ6nDQ7ulzQLAenpmTjAsKW=
+JbuuOOZFgGhuEoAaf3f6XB_RArW_fk3KJF1P8hCulgcjlZyUXKzNApSLIx1GRHb-U7c1cKt8edb=
+zI73WA55qm6cd8zCXOQJ3DWf8NFrvdYw0D7c091tsE17fM3WU3kkY3yu8MjpOYRUWX3LcS8BooZ=
+-SPkNg0q0LKqoKXgqN8ajAXOfgEHryKck8wjZeNZ5fq0qObV6Yq34q5CWMYh-G4VoOXW6P0OwdL=
+qQ7dej9X7TlGsAkaGzVK5yZHoUR0S3zUNMhZiNuPCkwdJD_oBqGvzBGuU-Nl53A=3D=3D"><spa=
+n style=3D"color:#1188E6;">Update Preferences</span></a></span></div>
+        </td>
+      </tr>
+    </table>
+=20=20
+        </td>
+      </tr>
+    </table>
+
+    <!--[if (gte mso 9)|(IE)]>
+      </td>
+    <![endif]-->
+            <!--[if (gte mso 9)|(IE)]>
+                  <tr>
+                </table>
+              </center>
+            <![endif]-->
+        </td>
+      </tr>
+    </table>
+=20=20
+                              </td>
+                            </tr>
+                          </table>
+                          <!--[if mso]>
+                          </td></tr></table>
+                          </center>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </center>
+=20=20
+<img src=3D"http://links.stacksource.com/wf/open?upn=3D49LhmdSuYO-2BcRCHP9k=
+I26zRHSYRoDtkFjoRJUQ-2FgyX19rQm1Qq1MRqr4BexWJ1c-2BXcpUXIdqthF-2BeaCaI-2F88r=
+4DUm0n4-2FhLza3EeNI3x9SVQkkfKzeflEDW00wlIqqlYfk9iiSxV-2Ftvz2-2Bzc4wKIoFDDBx=
+BI56SFS5QvAmiU7hlK-2FCpjo70-2BcZ-2Be-2Fi-2FL6whajquuQUJ8Zpr3WUXszkiSkimeoHk=
+46lemn9cUhF9tcYpaAY6B2GfKkkE17RQm3clr7dUPCUliFVsimQZT0QPbq7EtWYoay9rHXJy8cW=
+AiUojzeUWpgr54ATEoSh7yQfA1sV6pETrAauLUKR55IKhZio3EoCsARo0mPBuVZ6IZGNRI1WDvz=
+4rVLTKz8pGrdD557cf-2BcGYeAgp1u8pzw-2BtSzsqUMp1Xad90RRWL15o76DFc-2B-2BUmkmeA=
+W2Y5OuH5CtkM" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"heigh=
+t:1px !important;width:1px !important;border-width:0 !important;margin-top:=
+0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-le=
+ft:0 !important;padding-top:0 !important;padding-bottom:0 !important;paddin=
+g-right:0 !important;padding-left:0 !important;"/>
+</body>
+</html>
+
+--76350a7e5284418b4d4841417d5f229d90030fa108a4fa9d389423533752--

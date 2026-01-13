@@ -1,0 +1,887 @@
+Delivered-To: sam@c-mtg.com
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of velocitymortgage.com designates 12.20.168.21 as permitted sender)  smtp.mailfrom=tkappos@velocitymortgage.com;
+	dmarc=pass(p=none dis=none)  header.from=velocitymortgage.com
+Return-Path: <tkappos@velocitymortgage.com>
+Received: from mail.velocitycommercial.com (mail.velocitycommercial.com [12.20.168.21]) by mx.zohomail.com
+	with SMTPS id 1532104077916673.8832614413623; Fri, 20 Jul 2018 09:27:57 -0700 (PDT)
+Received: from NAM04-SN1-obe.outbound.protection.outlook.com (unknown [216.32.180.82])
+	by Forcepoint Email with ESMTPS id 09257E285264329BBDDA
+	for <sam@c-mtg.com>; Fri, 20 Jul 2018 09:27:56 -0700 (PDT)
+Received: from BN3PR20MB0529.namprd20.prod.outlook.com (10.165.118.25) by
+ BN3PR20MB0594.namprd20.prod.outlook.com (10.165.118.148) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.973.21; Fri, 20 Jul 2018 16:27:54 +0000
+Received: from BN3PR20MB0529.namprd20.prod.outlook.com
+ ([fe80::e910:46b:69fb:434f]) by BN3PR20MB0529.namprd20.prod.outlook.com
+ ([fe80::e910:46b:69fb:434f%3]) with mapi id 15.20.0973.016; Fri, 20 Jul 2018
+ 16:27:54 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=velocitymortgage.com;
+	s=Selector3; t=1532104077;
+	bh=kDW5KyuVyn8wm87Vrf3Q7YNDz0QY/UDcuQbiihn31nI=; l=44523; h=From;
+	b=OFF4BUbW7UgQyFaickTBQ5ByCcOYazPMaSzSBL+YO/NT+5C6+vseGO52UYMfW1uZX
+	 N/BDGl5fonDfod9j/ra145CIgIErGP0mZq0cg8N3WrHYTQe7abJm3fzMqRpwWrvvPw
+	 YEc1VFl8RgW0Zn8vs2JHXvk8YLpdDd27KGikToRc=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=velocitymortgage.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=zQ3d1vzFH5P5+u7mly1+RtkiqTeCUdbB4Ys8JPBXAZA=;
+ b=Tdlls+rTQD7CbHEoM/VYwBlIPmaJAO81nhvz9P2/DsYNxcocWq1O1bGkA43wA7Ts3+G7F4KiCACQalKtRPEzsmNGh5LkG/hvldclR2ELPb802y4Ft6IXUkwbLLP8dBfWvwIgJ9QufTtc+QlMrAU4cIFxmdEeaoNY1ik28/ldp7E=
+From: Tony Kappos <tkappos@velocitymortgage.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+Subject: RE: New File: 1111 W Nolana ave
+Thread-Topic: New File: 1111 W Nolana ave
+Thread-Index: AQHUIEXW2Ccjy0Xh1keXiepB9nlS06SYTIMg
+Date: Fri, 20 Jul 2018 16:27:54 +0000
+Message-ID:<BN3PR20MB0529FBDDCEC3C315DFDD4BABC0510@BN3PR20MB0529.namprd20.prod.outlook.com>
+References: <1643e2cb495.ed5a378375051.7302967665918702893@c-mtg.com>
+ <A2C88F85-5311-4B85-AB07-50486AA71136@c-mtg.com>
+In-Reply-To: <A2C88F85-5311-4B85-AB07-50486AA71136@c-mtg.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=tkappos@velocitymortgage.com; 
+x-originating-ip: [12.20.168.18]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;BN3PR20MB0594;20:NaWhBrbFcSNWNWaooafy2NzkjKgGD5c5DpJg9c5euCOymyl6X/rPaGLJ1tmMLbJblFPiOi2pbDrxcyBnbF5GI5OiROWYB90bLZjpdPvfHRnfxD5uCqZQy947JVXcspP6u6tyrP5CPdX57MTefPho5fRbco8DlK0J/V6E7/UpQ0Y=
+x-ms-exchange-antispam-srfa-diagnostics: SOS;
+x-ms-office365-filtering-correlation-id: 39d4cf1f-ac66-4ce2-3749-08d5ee5dbed6
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(7020095)(4652040)(8989117)(5600053)(711020)(4534165)(4627221)(201703031133081)(201702281549075)(8990107)(2017052603328)(7153060)(49563074)(7193020);SRVR:BN3PR20MB0594;
+x-ms-traffictypediagnostic: BN3PR20MB0594:
+x-microsoft-antispam-prvs: <BN3PR20MB05943E5C3FC57C671B6A17A6C0510@BN3PR20MB0594.namprd20.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(28532068793085)(148322886591682)(277860510277777)(28212336023702)(31418570063057)(116415991822766)(223705240517415)(128460861657000)(86561027422486)(81227570615382);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(102415395)(6040522)(2401047)(5005006)(8121501046)(10201501046)(93006095)(93001095)(3231311)(944501410)(52105095)(3002001)(149027)(150027)(6041310)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(20161123560045)(20161123564045)(20161123558120)(20161123562045)(6072148)(201708071742011)(7699016);SRVR:BN3PR20MB0594;BCL:0;PCL:0;RULEID:;SRVR:BN3PR20MB0594;
+x-forefront-prvs: 073966E86B
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(396003)(366004)(39850400004)(376002)(346002)(136003)(397534002)(149574003)(189003)(199004)(40134004)(102836004)(106356001)(105586002)(74316002)(5660300001)(66066001)(53546011)(6506007)(7696005)(2906002)(478600001)(45080400002)(2900100001)(606006)(14454004)(8936002)(14444005)(790700001)(6116002)(256004)(3846002)(6916009)(5250100002)(99936001)(81166006)(446003)(68736007)(486006)(33656002)(8676002)(25786009)(229853002)(86362001)(551944002)(97736004)(76176011)(7736002)(561924002)(26005)(186003)(53936002)(55016002)(6246003)(11346002)(99286004)(6306002)(9686003)(316002)(54896002)(54556002)(236005)(6436002)(476003)(733005)(81156014);DIR:OUT;SFP:1102;SCL:1;SRVR:BN3PR20MB0594;H:BN3PR20MB0529.namprd20.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;MX:1;A:1;
+Received-SPF: pass (zoho.com: domain of velocitymortgage.com designates 12.20.168.21 as permitted sender) client-ip=12.20.168.21; envelope-from=tkappos@velocitymortgage.com; helo=mail.velocitycommercial.com;
+received-spf: None (protection.outlook.com: velocitymortgage.com does not
+ designate permitted sender hosts)
+x-microsoft-antispam-message-info: hJKE7sYl0rOFwOH1OypozID4oe4mbLYU/Gio3j/EGUXQdUQ70sNPdjmhtTXcjxghsGYTxH8z/jPkZ62agbx4w7zoPCh60BUIU+HGwhC6Mu/BxQm1u61+lfHXw7bL5gnWqDl7S7jvfg+WFRr1OL24aOYiv80JR6htBkErXUjhMkkPQdxinPK5zbWy7S4gnhpCuPl+Vvd2thDM5JABYfxMwZ52pg8jLTMEf0L22CVcQL7rYs1zaGcwAK3UeoI4LiuwIJuPJCJYvZLEY3iOLqgifmdCu2duDd/Rx2CStc4mYDSPUncbz5xu3vudHidsIS+9m5u7wrV8mBrSAMewGLR+3tmQBv4S9TOMziLvJDwuPSs=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/related;
+	boundary="_004_BN3PR20MB0529FBDDCEC3C315DFDD4BABC0510BN3PR20MB0529namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: velocitymortgage.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 39d4cf1f-ac66-4ce2-3749-08d5ee5dbed6
+X-MS-Exchange-CrossTenant-originalarrivaltime: 20 Jul 2018 16:27:54.3403
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 86ef3bda-a8c7-4134-a319-ac18a377c1bf
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN3PR20MB0594
+X-Zoho-Virus-Status: 1
+X-ZohoMail-DKIM: pass (identity @velocitymortgage.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_168 SPK
+X-ZM-MESSAGEID: 1532104079412100001
+X-ZohoMail-Status: 1
+
+
+--_004_BN3PR20MB0529FBDDCEC3C315DFDD4BABC0510BN3PR20MB0529namp_
+Content-Type: multipart/alternative;
+	boundary="_000_BN3PR20MB0529FBDDCEC3C315DFDD4BABC0510BN3PR20MB0529namp_"
+
+--_000_BN3PR20MB0529FBDDCEC3C315DFDD4BABC0510BN3PR20MB0529namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Sam,
+
+Please send the credit report. The one you sent was for Romboli.
+
+Tony Kappos
+Senior Account Executive
+
+Velocity Mortgage Capital
+30699 Russell Ranch Rd, Ste. 295
+Westlake Village, CA 91362
+818.338.9538 Direct
+818.337.2470 Direct Fax
+818.384.1846 Cell
+tkappos@velocitymortgage.com<mailto:tkappos@velocitymortgage.com>
+[cid:image003.png@01D24B0D.0526E9A0]
+www.velocitymortgage.com<http://www.velocitymortgage.com/>
+
+
+
+From: Sam Tehranchi <sam@c-mtg.com>
+Sent: Friday, July 20, 2018 9:21 AM
+To: Tony Kappos <tkappos@velocitymortgage.com>
+Subject: New File: 1111 W Nolana ave
+
+
+Hi Tony
+
+
+I have a deal in TX that is a commercial office building.
+
+Can you advise what terms would look like on this scenario:
+
+- Cash out Refinance
+- Loan Amount: 915,000
+- Value: 1,850,000
+- Office building with 13 units - 1 occupied by borrower
+- $5,150 in rental income per month from 11 units - property does not debt =
+service above 1
+- Current debt (Hard Money): 815,000 with 10k per month payment borrower is=
+ looking to reduce
+- Credit 620 (only revolving debt maxed out, no derogatory items)
+- Borrower Schedule of RE is 3 million + with only 815k in debt.
+
+Borrower does make good money as an attorney so can we do a stated deal or =
+use a global income for debt service.
+
+Please advise, thank you
+
+Thank you
+
+Respectfully,
+
+Sam Tehranchi
+Custom Mortgage and Realty
+COO
+NMLS CA # 1556995 - BRE CA # 02018146
+
+D: 310.709.6304 - F: 866.421.7694
+sam@c-mtg.com<mailto:sam@c-mtg.com> - www.c-mtg.com<http://www.c-mtg.com/>
+
+LinkedIn<https://www.linkedin.com/company-beta/3477964> - Facebook<https://=
+www.facebook.com/Custom-Mortgage-409842885783868/> - twitter<https://twitte=
+r.com/custommortgage1> - Instagram<https://www.instagram.com/custommortgage=
+inc/>
+
+
+
+
+
+This message is intended only for the use of the individual or entity to wh=
+ich it is addressed and may contain information that is privileged, confide=
+ntial, and exempt from disclosure under applicable law. If the reader of th=
+is message is not the intended recipient, or the employee or agent responsi=
+ble to deliver it to the intended recipient, you are hereby notified that r=
+eading, disseminating, distributing, or copying this communication is stric=
+tly prohibited. If you have received this communication in error, please im=
+mediately notify us by telephone, and discard the original message. Thank y=
+ou.
+
+--_000_BN3PR20MB0529FBDDCEC3C315DFDD4BABC0510BN3PR20MB0529namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.xsize
+	{mso-style-name:x_size;}
+span.xcolour
+	{mso-style-name:x_colour;}
+span.xfont
+	{mso-style-name:x_font;}
+span.EmailStyle21
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Sam,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Please send the credit report. The one you sent was =
+for Romboli.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"color:black">Tony Kappos</span></b=
+><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,se=
+rif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><i><span style=3D"color:black">Senior Account Execut=
+ive</span></i><span style=3D"font-size:12.0pt;font-family:&quot;Times New R=
+oman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:black">&nbsp;</span><span style=
+=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif"><o:p></=
+o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"color:black">Velocity Mortgage Cap=
+ital</span></b><span style=3D"font-size:12.0pt;font-family:&quot;Times New =
+Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:black">30699 Russell Ranch Rd, =
+Ste. 295<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:black">Westlake Village, <span =
+style=3D"text-transform:uppercase">
+CA 91362<o:p></o:p></span></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:black">818.338.9538&nbsp;Direct=
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:black">818.337.2470&nbsp;Direct=
+ Fax</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roma=
+n&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:black">818.384.1846&nbsp;Cell</=
+span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot=
+;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><u><span style=3D"color:#0070C0"><a href=3D"mailto:t=
+kappos@velocitymortgage.com">tkappos@velocitymortgage.com</a><o:p></o:p></s=
+pan></u></p>
+<p class=3D"MsoNormal"><span style=3D"color:#0070C0"><img border=3D"0" widt=
+h=3D"191" height=3D"81" style=3D"width:1.9895in;height:.8437in" id=3D"Pictu=
+re_x0020_1" src=3D"cid:image001.png@01D4200B.EE47A9B0" alt=3D"cid:image003.=
+png@01D24B0D.0526E9A0"><u><o:p></o:p></u></span></p>
+<p class=3D"MsoNormal"><a href=3D"http://www.velocitymortgage.com/"><b><spa=
+n style=3D"color:#1F497D">www.velocitymortgage.com</span></b></a><o:p></o:p=
+></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#404040">&nbsp;</span><span sty=
+le=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:=
+#404040"><o:p></o:p></span></p>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b>From:</b> Sam Tehranchi &lt;sam@c-mtg.com&gt; <br=
+>
+<b>Sent:</b> Friday, July 20, 2018 9:21 AM<br>
+<b>To:</b> Tony Kappos &lt;tkappos@velocitymortgage.com&gt;<br>
+<b>Subject:</b> New File: 1111 W Nolana ave<o:p></o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<div>
+<div>
+<div>
+<blockquote style=3D"border:none;border-left:solid #CCCCCC 1.0pt;padding:0i=
+n 0in 0in 5.0pt;margin-left:3.75pt;margin-right:0in">
+<div>
+<div>
+<div>
+<blockquote style=3D"border:none;border-left:solid #CCCCCC 1.0pt;padding:0i=
+n 0in 0in 5.0pt;margin-left:3.75pt;margin-right:0in">
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"color:black">Hi Tony</span><o:p></o:p=
+></p>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+<p class=3D"MsoNormal"><br>
+<br>
+<o:p></o:p></p>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<div>
+<div>
+<div>
+<blockquote style=3D"border:none;border-left:solid #CCCCCC 1.0pt;padding:0i=
+n 0in 0in 5.0pt;margin-left:3.75pt;margin-right:0in">
+<div>
+<div>
+<div>
+<blockquote style=3D"border:none;border-left:solid #CCCCCC 1.0pt;padding:0i=
+n 0in 0in 5.0pt;margin-left:3.75pt;margin-right:0in">
+<div>
+<div>
+<blockquote style=3D"border:none;border-left:solid #CCCCCC 1.0pt;padding:0i=
+n 0in 0in 5.0pt;margin-left:3.75pt;margin-right:0in">
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">I have a deal in TX that is a commercial office bui=
+lding.<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">Can you advise what terms would look like on this s=
+cenario:<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">- Cash out Refinance<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">- Loan Amount: 915,000<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">- Value: 1,850,000<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">- Office building with 13 units - 1 occupied by bor=
+rower<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">- $5,150 in rental income per month from 11 units -=
+ property does not debt service above 1<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">- Current debt (Hard Money): 815,000 with 10k per m=
+onth payment borrower is looking to reduce<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">- Credit 620 (only revolving debt maxed out, no der=
+ogatory items)<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">- Borrower Schedule of RE is 3 million &#43; with o=
+nly 815k in debt.<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">Borrower does make good money as an attorney so can=
+ we do a stated deal or use a global income for debt service.<o:p></o:p></s=
+pan></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">Please advise, thank you<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+<div id=3D"">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sa=
+ns-serif">Thank you<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sa=
+ns-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sa=
+ns-serif">Respectfully,<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sa=
+ns-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sa=
+ns-serif">Sam Tehranchi<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><b><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;=
+,sans-serif">Custom Mortgage and Realty</span></b><span style=3D"font-size:=
+10.0pt;font-family:&quot;Verdana&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span class=3D"xsize"><span style=3D"font-size:10.0pt;font-family:=
+&quot;Verdana&quot;,sans-serif">COO</span></span><span style=3D"font-size:1=
+0.0pt;font-family:&quot;Verdana&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span class=3D"xsize"><span style=3D"font-size:7.5pt;font-family:&=
+quot;Verdana&quot;,sans-serif">NMLS CA # 1556995 - BRE CA # 02018146</span>=
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans=
+-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sa=
+ns-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sa=
+ns-serif">D:&nbsp;310.709.6304 - F:&nbsp;866.421.7694<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sa=
+ns-serif"><a href=3D"mailto:sam@c-mtg.com" target=3D"_blank">sam@c-mtg.com<=
+/a>&nbsp;-&nbsp;<a href=3D"http://www.c-mtg.com/" target=3D"_blank">www.c-m=
+tg.com</a><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sa=
+ns-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sa=
+ns-serif"><a href=3D"https://www.linkedin.com/company-beta/3477964" target=
+=3D"_blank"><span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot=
+;,sans-serif">LinkedIn</span></a></span><span class=3D"xsize"><span style=
+=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif">&nbsp;-&n=
+bsp;</span></span><span style=3D"font-size:10.0pt;font-family:&quot;Verdana=
+&quot;,sans-serif"><a href=3D"https://www.facebook.com/Custom-Mortgage-4098=
+42885783868/" target=3D"_blank"><span style=3D"font-size:9.0pt;font-family:=
+&quot;Helvetica&quot;,sans-serif">Facebook</span></a></span><span class=3D"=
+xsize"><span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,san=
+s-serif">&nbsp;-&nbsp;</span></span><span style=3D"font-size:10.0pt;font-fa=
+mily:&quot;Verdana&quot;,sans-serif"><a href=3D"https://twitter.com/customm=
+ortgage1" target=3D"_blank"><span style=3D"font-size:9.0pt;font-family:&quo=
+t;Helvetica&quot;,sans-serif">twitter</span></a></span><span class=3D"xsize=
+"><span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-ser=
+if">&nbsp;-&nbsp;</span></span><span style=3D"font-size:10.0pt;font-family:=
+&quot;Verdana&quot;,sans-serif"><a href=3D"https://www.instagram.com/custom=
+mortgageinc/" target=3D"_blank"><span style=3D"font-size:9.0pt;font-family:=
+&quot;Helvetica&quot;,sans-serif">Instagram</span></a><o:p></o:p></span></p=
+>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+</div>
+</blockquote>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+This message is intended only for the use of the individual or entity to wh=
+ich it is addressed and may contain information that is privileged, confide=
+ntial, and exempt from disclosure under applicable law. If the reader of th=
+is message is not the intended recipient,
+ or the employee or agent responsible to deliver it to the intended recipie=
+nt, you are hereby notified that reading, disseminating, distributing, or c=
+opying this communication is strictly prohibited. If you have received this=
+ communication in error, please
+ immediately notify us by telephone, and discard the original message. Than=
+k you.
+</body>
+</html>
+
+--_000_BN3PR20MB0529FBDDCEC3C315DFDD4BABC0510BN3PR20MB0529namp_--
+
+--_004_BN3PR20MB0529FBDDCEC3C315DFDD4BABC0510BN3PR20MB0529namp_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=18374;
+	creation-date="Fri, 20 Jul 2018 16:27:53 GMT";
+	modification-date="Fri, 20 Jul 2018 16:27:53 GMT"
+Content-ID: <image001.png@01D4200B.EE47A9B0>
+Content-Transfer-Encoding: base64
+
+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
+1Be1Jhs166kAAAAASUVORK5CYII=
+
+--_004_BN3PR20MB0529FBDDCEC3C315DFDD4BABC0510BN3PR20MB0529namp_--

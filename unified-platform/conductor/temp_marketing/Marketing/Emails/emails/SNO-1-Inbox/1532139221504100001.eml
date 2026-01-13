@@ -1,0 +1,134 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of softlayer.com designates 173.192.119.25 as permitted sender) client-ip=173.192.119.25; envelope-from=noreply@softlayer.com; helo=mx.softlayer.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of softlayer.com designates 173.192.119.25 as permitted sender)  smtp.mailfrom=noreply@softlayer.com;
+	dmarc=pass(p=none dis=none)  header.from=softlayer.com
+Return-Path: <noreply@softlayer.com>
+Received: from mx.softlayer.com (mx.softlayer.com [173.192.119.25]) by mx.zohomail.com
+	with SMTPS id 1532139220991612.2013141794123; Fri, 20 Jul 2018 19:13:40 -0700 (PDT)
+Received: from txndal0101b.softlayer.local
+	by mx.softlayer.com with esmtp
+	(Exim)
+	(envelope-from <noreply@softlayer.com>)
+	for sam@c-mtg.com
+	id 1fghOu-0007rx-BG; Fri, 20 Jul 2018 21:13:40 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=softlayer.com; s=ims13; h=Message-Id:MIME-Version:Content-Type:Date:From:
+	Subject:To; bh=drD+1HaT8hS/maldm51ZuVnALshzwXbbepj+9Ydrd5g=; b=nTUeJ9Ch0kY9Pc
+	pk5AP9RhsoJrFDvQRVrhD4jwG2heo0/XzbqOQAMOK+ddIVB89EKoAYmABYrshX7BD1hPcslrbVAtv
+	uaaFXxa5paeSo5hnv/c4m0PzYil4+lP9LEDXYDuM3ckLk197bOWBVT0eCwToeVHRvavGvGmvFudbl
+	k4T5RFGCW/Ux9hM9qA8mHaM+IILYVyVl832j52SHF6oaXGVQqRpmjQh0YAhHGKJA0VRYF6pMlhTTq
+	z1Nyedc56gwber7fMdYhxhUgYC02hOq7DCVMszjW39ovYKdCTlF/BA2zh20TH/RbpGC3jMh4WrlCt
+	WtmiarimoRT6UMLvmqDg==;
+To: sam@c-mtg.com
+Subject: [IBM Cloud Event] ID: 62289667 - Issue with creating/modifying/deleting orders
+From: noreply@softlayer.com
+Date: Fri, 20 Jul 2018 21:13:40 -0500
+Content-Type: multipart/alternative;
+ boundary="=_add70bb8225f067495bd5b655a0944fc"
+MIME-Version: 1.0
+Message-ID:<E1fghOu-0007rx-BG@mxdal0501.softlayer.local>
+X-ZohoMail-DKIM: pass (identity @softlayer.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_7 RF_0 S_168
+X-ZM-MESSAGEID: 1532139221504100001
+X-ZohoMail-Status: 1
+
+
+--=_add70bb8225f067495bd5b655a0944fc
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Customer Identification: Custom mtg (1395829)=0AStart Date: Friday 20-Ju=
+l-2018 16:08 UTC=0AEvent Type: Unplanned Event=0ASubject: Event 62289667=
+ - Issue with creating/modifying/deleting orders=0A=0A=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=0A/ Latest Update /=0A- As of Saturday=
+ 21-Jul-2018 00:44 UTC=0AAt 2018-7-21 00:44 UTC issues were identified i=
+n code and resolved with patching affected code via an emergency code pu=
+sh. Internal reviews and steps will be taken to prevent this issue from=
+ occurring in the future.=0A=0A/ Items Associated With This Event /=0AIt=
+em ID | Hostname | Public IP | Private IP | Item Type=0A=0A=0A/ Update H=
+istory /=0A- As of Saturday 21-Jul-2018 00:44 UTC=0AAt 2018-7-21 00:44 U=
+TC issues were identified in code and resolved with patching affected co=
+de via an emergency code push. Internal reviews and steps will be taken=
+ to prevent this issue from occurring in the future.=0A=0A- As of Saturd=
+ay 21-Jul-2018 00:44 UTC=0AAt 2018-7-21 00:44 UTC issues were identified=
+ in code and resolved with patching affected code via an emergency code=
+ push. Internal reviews and steps will be taken to prevent this issue fr=
+om occurring in the future.  =0A=0A- As of Saturday 21-Jul-2018 00:44 UT=
+C=0AAt 2018-7-21 00:44 UTC issues were identified in code and resolved w=
+ith patching affected code via an emergency code push. Internal reviews=
+ and steps will be taken to prevent this issue from occurring in the fut=
+ure.=0A=0A- As of Friday 20-Jul-2018 20:30 UTC=0AStarting at 2018-07-20=
+ 16:08 UTC engineers have determined the cause of the issue in our order=
+ing systems. Engineers will restore services to affected customers quick=
+ly as possible.=0A=0A=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=0AThe times above are shown in UTC/GMT. Please visit http://www.timeand=
+date.com/worldclock/converter.html?iso=3D20180720T1605&p1=3D0 to convert=
+ start time of this event to your local time.=0A=0AIBM Cloud (formerly S=
+oftLayer) sent you this email because your contact address is linked to=
+ an account in our customer database. This email is used exclusively as=
+ our channel for notifying you about critical issues that may affect you=
+r service, and for important company news that could affect your busines=
+s.  You are receiving this note because the message above directly conce=
+rns one of your accounts. If you do not wish to receive these important=
+ notifications at this address, please update your contact information o=
+r notification subscriptions in the customer portal.=0A=0AIf you have re=
+ceived this email in error, or you are concerned about suspicious activi=
+ty concerning your account, please contact accounting@softlayer.com.=0AI=
+BM Cloud | 14001 North Dallas Tollway Suite M100 Dallas, TX 75240 | +1-8=
+66-325-0045
+
+--=_add70bb8225f067495bd5b655a0944fc
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<pre style=3D"white-space:pre-wrap">Customer Identification: Custom mtg=
+ (1395829)=0AStart Date: Friday 20-Jul-2018 16:08 UTC=0AEvent Type: Unpl=
+anned Event=0ASubject: Event 62289667 - Issue with creating/modifying/de=
+leting orders=0A=0A=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=0A/ Latest Update /=0A- As of Saturday 21-Jul-2018 00:44 UTC=0AAt 2018-=
+7-21 00:44 UTC issues were identified in code and resolved with patching=
+ affected code via an emergency code push. Internal reviews and steps wi=
+ll be taken to prevent this issue from occurring in the future.=0A=0A/ I=
+tems Associated With This Event /=0AItem ID | Hostname | Public IP | Pri=
+vate IP | Item Type=0A=0A=0A/ Update History /=0A- As of Saturday 21-Jul=
+-2018 00:44 UTC=0AAt 2018-7-21 00:44 UTC issues were identified in code=
+ and resolved with patching affected code via an emergency code push. In=
+ternal reviews and steps will be taken to prevent this issue from occurr=
+ing in the future.=0A=0A- As of Saturday 21-Jul-2018 00:44 UTC=0AAt 2018=
+-7-21 00:44 UTC issues were identified in code and resolved with patchin=
+g affected code via an emergency code push. Internal reviews and steps w=
+ill be taken to prevent this issue from occurring in the future.  =0A=0A=
+- As of Saturday 21-Jul-2018 00:44 UTC=0AAt 2018-7-21 00:44 UTC issues w=
+ere identified in code and resolved with patching affected code via an e=
+mergency code push. Internal reviews and steps will be taken to prevent=
+ this issue from occurring in the future.=0A=0A- As of Friday 20-Jul-201=
+8 20:30 UTC=0AStarting at 2018-07-20 16:08 UTC engineers have determined=
+ the cause of the issue in our ordering systems. Engineers will restore=
+ services to affected customers quickly as possible.=0A=0A=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=0AThe times above are shown in U=
+TC/GMT. Please visit http://www.timeanddate.com/worldclock/converter.htm=
+l?iso=3D20180720T1605&amp;p1=3D0 to convert start time of this event to=
+ your local time.=0A=0AIBM Cloud (formerly SoftLayer) sent you this emai=
+l because your contact address is linked to an account in our customer d=
+atabase. This email is used exclusively as our channel for notifying you=
+ about critical issues that may affect your service, and for important c=
+ompany news that could affect your business.  You are receiving this not=
+e because the message above directly concerns one of your accounts. If y=
+ou do not wish to receive these important notifications at this address,=
+ please update your contact information or notification subscriptions in=
+ the customer portal.=0A=0AIf you have received this email in error, or=
+ you are concerned about suspicious activity concerning your account, pl=
+ease contact accounting@softlayer.com.=0AIBM Cloud | 14001 North Dallas=
+ Tollway Suite M100 Dallas, TX 75240 | +1-866-325-0045</pre>
+
+--=_add70bb8225f067495bd5b655a0944fc--

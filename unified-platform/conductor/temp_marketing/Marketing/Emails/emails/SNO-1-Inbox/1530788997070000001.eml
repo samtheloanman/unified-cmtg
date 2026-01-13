@@ -1,0 +1,2263 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of sp05b.hubspotemail.net designates 52.89.43.183 as permitted sender) client-ip=52.89.43.183; envelope-from=msprvs1=1772485LhAcPd=bounces-1-2@sp05b.hubspotemail.net; helo=mta1b35-hubspot.mta.e.sparkpost.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=@caymanenterprisecity.com;
+	spf=pass (zoho.com: domain of sp05b.hubspotemail.net designates 52.89.43.183 as permitted sender)  smtp.mailfrom=msprvs1=1772485LhAcPd=bounces-1-2@sp05b.hubspotemail.net
+Received: from mta1b35-hubspot.mta.e.sparkpost.com (mta1b35-hubspot.mta.e.sparkpost.com [52.89.43.183]) by mx.zohomail.com
+	with SMTPS id 1530788995345566.0922226980883; Thu, 5 Jul 2018 04:09:55 -0700 (PDT)
+Return-Path: <msprvs1=1772485LhAcPd=bounces-1-2@sp05b.hubspotemail.net>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=caymanenterprisecity.com; s=hs2; t=1530788992;
+	i=@caymanenterprisecity.com;
+	bh=jYL8g9HtEhUM6P7kF1+qL0QzgzkDG7OyC/p3ABveKvA=;
+	h=To:Date:Reply-To:Subject:From:List-Unsubscribe:List-Id;
+	b=VlonIxBvox2JSNvNHhvzvcdtSBafCHZ2tZ2jFqslId3UcJAMEjffEXItNs0bQnA12
+	 hwwSfm3+w/QgJU4Ru9XyouwhKLjdc8dYSBMOLvTPp7zsgNJq+a4mJlfeIGQVYxAdEM
+	 inGA4d/1f8j6z7niGQ52Z33/X1XINIoXq9q8Bk90=
+X-MSFBL: +zSBBeuLbW3SDZyJMdfwkg9M3cKbDzvfM+Ivf9altdM=|eyJtZXNzYWdlX2lkIjo
+	iMDAwODgwZmMzZDViNWNiMTY3MWUiLCJzdWJhY2NvdW50X2lkIjoiMiIsImN1c3R
+	vbWVyX2lkIjoiMSIsInIiOiJzYW1AYy1tdGcuY29tIiwidGVuYW50X2lkIjoiaHV
+	ic3BvdCJ9
+To: sam@c-mtg.com
+Date: Thu, 05 Jul 2018 11:09:52 +0000
+Content-Type: multipart/alternative; boundary="_----DiXN5TQDsKfTIPwY0nPNUA===_65/E1-45404-08CFD3B5"
+MIME-Version: 1.0
+X-HubSpot-MID: CiRiNjVkYmJkZi1hMzQ1LTQxNTYtOGJjYy1hMGI2ZmU1NDZkNjAQydkmGHEgACj489AeMIPWIjoNc2FtQGMtbXRnLmNvbUCB0OfQxixI2ckCWiBhYWUxYzBmZDQzMTc1NThjODlmODE4NDVhMGQxNGRjN2UAAJJCcLzy/gOAAQCKASQ3MTQ1MmUyNS02YjQ5LTMwY2EtOWM5Ni1mNTE2YzcwZDgwOTeYAQGgAQCoAQWwAQDIAQLSASZrLmVscGhpbnN0b25lQGNheW1hbmVudGVycHJpc2VjaXR5LmNvbeIBDHpvaG9tYWlsLmNvbegBAegBA/ABBYACAYgCAZoCEwjJ2SYSDXNhbUBjLW10Zy5jb20=
+Reply-To: k.elphinstone@caymanenterprisecity.com
+Subject: Here's what's been happening in Cayman Enterprise City
+X-HubSpot-Message-Id: <1530788440065.b65dbbdf-a345-4156-8bcc-a0b6fe546d60@sp05b.hubspotemail.net>
+From: "Kaitlyn Elphinstone" <k.elphinstone@caymanenterprisecity.com>
+X-Report-Abuse-To: abuse@hubspot.com (see https://www.hubspot.com/abuse-complaints)
+Message-ID:<1530788440065.b65dbbdf-a345-4156-8bcc-a0b6fe546d60@sp05b.hubspotemail.net>
+List-Unsubscribe: <mailto:unsubscribe@hubspot.mail.e.sparkpost.com?subject=unsubscribe:a_eDNzVyIRpvwK1vryG5bEdp_EGZ3P6tjRmrpalAboc~|eyAicmNwdF90byI6ICJzYW1AYy1tdGcuY29tIiwgInRlbmFudF9pZCI6ICJodWJzcG90IiwgImN1c3RvbWVyX2lkIjogIjEiLCAic3ViYWNjb3VudF9pZCI6ICIyIiwgIm1lc3NhZ2VfaWQiOiAiMDAwODgwZmMzZDViNWNiMTY3MWUiIH0~>
+List-Id: <hubspot-1-2>
+X-ZohoMail-DKIM: pass (identity @caymanenterprisecity.com)
+X-ZohoMail-Owner: <1530788440065.b65dbbdf-a345-4156-8bcc-a0b6fe546d60@sp05b.hubspotemail.net>+zmo_0_msprvs1=1772485LhAcPd=bounces-1-2@sp05b.hubspotemail.net
+X-ZohoMail-Sender: 52.89.43.183
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  SAS2 Ex_2 SS_1 IS_0 ZMKF_NWSLTR EML_0 DMN_0 EDR_100 COSF LNKP CV_710BCNIM UMS_WB UNK_U_0 UNK_O_0 CHF_NWSUSR_0 SIP_KMR_0 RPD_KMR_0 SDFE_NA_MXPR_0 ZMHF_701_2 CV_HID_0 CV_HIDLNG_0  SC_2 SGR3_1_2_0_166_613
+X-ZM-MESSAGEID: 1530788997070000001
+X-ZohoMail-Status: 1
+
+
+--_----DiXN5TQDsKfTIPwY0nPNUA===_65/E1-45404-08CFD3B5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="UTF-8"
+
+With an eye to the future, CEC is helping Cayman=E2=80=99s next generation =
+of local talent connect with zone employers!=0A=0AConnect:=0A=0Aheader-news=
+letter-oct2017.jpg=0A=0A(https://www.caymanenterprisecity.com/e1t/sc2/Mm-nF=
+bkwZyVW8VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJMH03 )=0A=0AGreetings Sam=
+,=0A=0ACEC actively connects SEZ companies with local talent through a numb=
+er of initiatives including: an online jobs portal (https://www.caymanenter=
+prisecity.com/e1t/sc2/Mm-nFbkwZyVW8VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1C=
+YJMH13 ) ; code workshops and training sessions; school visits to promote S=
+TEM education; science fairs; career days; through an annual internship pro=
+gramme; and by supporting local programmes like the UCCI STEM Summer Camp (=
+https://www.caymanenterprisecity.com/e1t/sc2/Mm-nFbkwZyVW8VkYvx8qVwT8W7Sfgz=
+K99crYTW6G5Wfw7Fb6HKf1CYJMH23 ) . With an eye to the future, CEC is helping=
+ Cayman=E2=80=99s next generation of local talent connect with zone employe=
+rs and assisting zone companies with recruitment efforts as they grow.=0A=
+=0AIf you are interested in getting involved by supporting a programme, men=
+toring a young Caymanian, or by speaking at a local school about your work =
+we would love to hear from you. Learn more here. (https://www.caymanenterpr=
+isecity.com/e1t/sc2/Mm-nFbkwZyVW8VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJ=
+MH33 )=0A=0AView Our Brochures (https://www.caymanenterprisecity.com/e1t/sc=
+2/Mm-nFbkwZyVW8VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJMH43 )=0A=0ACHARLI=
+E KIRKCONNELL (3).png=0A=0Acec-newsletter-calendar.png=0A=0ACEC Leads the B=
+lockchain Conversation=0A=0ACEC is marking the success of the zone=E2=80=99=
+s second major event in 2018 to bring cryptocurrency and blockchain leaders=
+, who are guiding a surging industry, to the Cayman Islands to showcase the=
+ jurisdiction=E2=80=99s benefits and attractions. CEC is driving the indust=
+ry and encouraging direct foreign investment, creating new job opportunitie=
+s for Caymanians and diversifying the economy.=0A=0AREAD MORE (https://www.=
+caymanenterprisecity.com/e1t/sc2/Mm-nFbkwZyVW8VkYvx8qVwT8W7SfgzK99crYTW6G5W=
+fw7Fb6HKf1CYJMH53 )=0A=0ASTEM_Summer_Camp_Cayman_Enterprise_City.png=0A=0AC=
+EC Partners with UCCI to Host STEM Summer Camp=0A=0AFor the second year in =
+a row, CEC, through its Enterprise Cayman (https://www.caymanenterprisecity=
+.com/e1t/sc2/Mm-nFbkwZyVW8VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJMH63 )=
+  initiative, has signed on as the presenting sponsor of the University Col=
+lege of the Cayman Islands (https://www.caymanenterprisecity.com/e1t/sc2/Mm=
+-nFbkwZyVW8VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJMH73 ) =E2=80=99 (UCCI=
+) STEM Summer Camp slated for August 20-24, 2018. The week-long camp combin=
+es Science, Technology, Engineering, and Math (STEM) subjects in a fun, int=
+eractive learning environment.=0A=0AREAD MORE (https://www.caymanenterprise=
+city.com/e1t/sc2/Mm-nFbkwZyVW8VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJMH8=
+3 )=0A=0Abad_crypot_podcast.png=0A=0AKirkconnell Talks Cayman and Cryptocur=
+rency on Popular Podcast=0A=0AJust in case you missed it: CEC's CEO Charlie=
+ Kirkconnell recently sat down with the hosts of The Bad Crypto Podcast, Tr=
+avis Wright and Joel Comm, to talk cryptocurrency during The World Tokenomi=
+c Forum (https://www.caymanenterprisecity.com/e1t/sc2/Mm-nFbkwZyVW8VkYvx8qV=
+wT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJMH93 ) . Bad Crypto is a hugely popular p=
+odcast within the crypocurrency industry. In this fast-moving interview, th=
+e action focuses on why Cayman for cryptocurrency and blockchain businesses=
+.=0A=0ACLICK TO LISTEN (https://www.caymanenterprisecity.com/e1t/sc2/Mm-nF=
+bkwZyVW8VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJMHb3 )=0A=0AAviation_City=
+_Cayman_Enterprise_City.png=0A=0ACEC and CAACI Welcome First Aviation Compa=
+ny=0A=0ACayman Maritime & Aviation City and The Civil Aviation Authority of=
+ the Cayman Islands (CAACI) announces the arrival of its first SEZ company,=
+ CHC Helicopter (https://www.caymanenterprisecity.com/e1t/sc2/Mm-nFbkwZyVW8=
+VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJMHc3 ) , a global offshore transp=
+ort company with bases in six continents. Signing a company that has been i=
+n the transportation business for 70 years is an auspicious start to a tran=
+sportation services cluster envisioned jointly by Cayman Enterprise City (C=
+EC) and CAACI.=0A=0AREAD MORE (https://www.caymanenterprisecity.com/e1t/sc2=
+/Mm-nFbkwZyVW8VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJMHd3 )=0A=0Acec-new=
+sletter-calendar.png=0A=0AThe Next CEC Community Meetup - Save the Date!=0A=
+=0AThe next CEC Community Meetup takes place 27 July 2018 at Rackhams, Nort=
+h Church St, George Town - just across from CEC's new zone building, Strath=
+vale House. Catch up with friends from CEC and meet new like-minded individ=
+uals. Mark your calendars, invites will be sent shortly. We look forward to=
+ seeing you all then.=0A=0ARSVP (mailto:S.Carrig@caymanenterprisecity.com)=
+=0A=0AWalker_Willse_Blockchain_Tech_City.png=0A=0AWalker Willse talks "Bloc=
+kchange"=0A=0AWalker Willse has been living and working in Cayman since Sep=
+tember 2017. As Vice-President of Business Development, Walker led efforts =
+to raise Kowala's (https://www.caymanenterprisecity.com/e1t/sc2/Mm-nFbkwZyV=
+W8VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJMHf3 )  initial seed round, and=
+ is currently running the sales office and developing strategic partnership=
+s within the greater Cryptocurrency and Blockchain ecosystem. CEC sat down =
+with Walker to discuss...=0A=0ARead More   (https://www.caymanenterprisecit=
+y.com/e1t/sc2/Mm-nFbkwZyVW8VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJMHg3 )=
+=0A=0ANew_Zone_Building_CEC.png=0A=0ACEC's New Zone Building=0A=0AWe celebr=
+ated the move to CEC's new facility with a =E2=80=9CBreakfast in the City=
+=E2=80=9D. The newly renovated Strathvale House boasts panoramic views of t=
+he George Town harbour and state-of-the-art facilities including =E2=80=93 =
+community work spaces, numerous collaboration spaces and work lounges with =
+shared caf=C3=A9 facilities that all complement work flexibility. Get in to=
+uch if you=E2=80=99re interested in taking a tour!=0A=0ASEE MORE  (https://=
+www.caymanenterprisecity.com/e1t/sc2/Mm-nFbkwZyVW8VkYvx8qVwT8W7SfgzK99crYTW=
+6G5Wfw7Fb6HKf1CYJMHh3 )=0A=0ACEC_Outreach.png=0A=0ACEC Sponsors Youth Cup=
+=0A=0AMore than 180 rising football stars showcased their skills on the pit=
+ch at the 2018 Cayman Airways Under-13 Youth Cup hosted by Academy Sports C=
+lub. The tournament featured three local teams facing opposition from Jamai=
+ca and the US. CEC is a proud sponsor of the event. We believe that youth s=
+ports are a fantastic way for children to explore and develop lifelong skil=
+ls.=0A=0ALEARN MORE  (https://www.caymanenterprisecity.com/e1t/sc2/Mm-nFbkw=
+ZyVW8VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJMHj3 )=0A=0AJobs at Cayman E=
+nterprise City=0A=0AMeet our member!=0A=0ACurrent Vacancies=0A=0AGeneral Su=
+pport Specialist (https://www.caymanenterprisecity.com/e1t/sc2/Mm-nFbkwZyVW=
+8VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJMHk3 )=0A=0ASoftware Engineer (h=
+ttps://www.caymanenterprisecity.com/e1t/sc2/Mm-nFbkwZyVW8VkYvx8qVwT8W7SfgzK=
+99crYTW6G5Wfw7Fb6HKf1CYJMHl3 )=0A=0AIT Project Manager (https://www.caymane=
+nterprisecity.com/e1t/sc2/Mm-nFbkwZyVW8VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6H=
+Kf1CYJMHm3 )=0A=0ABusiness Analyst (https://www.caymanenterprisecity.com/e1=
+t/sc2/Mm-nFbkwZyVW8VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJMHn3 )=0A=0ASe=
+nior Software Engineer, Blockchain (https://www.caymanenterprisecity.com/e1=
+t/sc2/Mm-nFbkwZyVW8VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJMHp3 )=0A=0ASo=
+ftware Engineer (https://www.caymanenterprisecity.com/e1t/sc2/Mm-nFbkwZyVW8=
+VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJMHq3 )=0A=0ASoftware Engineer =E2=
+=80=93 Mobile (https://www.caymanenterprisecity.com/e1t/sc2/Mm-nFbkwZyVW8Vk=
+Yvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJMHr3 )=0A=0AFX (Foreign exchange) T=
+rader (https://www.caymanenterprisecity.com/e1t/sc2/Mm-nFbkwZyVW8VkYvx8qVwT=
+8W7SfgzK99crYTW6G5Wfw7Fb6HKf1CYJMHs3 )=0A=0AWarehouse Technician (https://w=
+ww.caymanenterprisecity.com/e1t/sc2/Mm-nFbkwZyVW8VkYvx8qVwT8W7SfgzK99crYTW6=
+G5Wfw7Fb6HKf1CYJMHt3 )=0A=0Afooter-newsletter.png=0A=0A(https://www.caymane=
+nterprisecity.com/e1t/sc2/Mm-nFbkwZyVW8VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6H=
+Kf1CYJMHv3 )=0A=0ACayman Enterprise City=0A=0AP. O. Box 10315=0A=0AGrand Ca=
+yman, KY1-1003=0A=0ACayman Islands=0A=0A+1 345 945-3722=0A=0Ainfo@caymanent=
+erprisecity.com (mailto:info@caymanenterprisecity.com=3Fsubject=3D[CEC%20Ne=
+wsletter]%20General%20Inquiry)=0A=0A=C2=A9 2017 Cayman Enterprise City. All=
+ Rights Reserved.=0A=0AVisit caymanenterprisecity.com (https://www.caymanen=
+terprisecity.com/e1t/sc2/Mm-nFbkwZyVW8VkYvx8qVwT8W7SfgzK99crYTW6G5Wfw7Fb6HK=
+f1CYJMHw3 ) for more information.=0A=0ACayman Enterprise City=0A=0AHarbour =
+Drive=0A=0A3rd Floor, North Wing Flagship Building=0A=0AGeorge Town=0A=0AGr=
+and Cayman=0A=0ACayman Islands=0A=0AYou received this email because you are=
+ subscribed to CEC News Subscription=0Afrom Cayman Enterprise City.=0A=0AUp=
+date your email preferences (https://www.caymanenterprisecity.com/hs/manage=
+-preferences/unsubscribe=3Fd=3DeyJlYSI6InNhbUBjLW10Zy5jb20iLCJlYyI6NjQyNDAx=
+MjAsInN1YnNjcmlwdGlvbklkIjo1NjgwNjcsImV0IjoxNTMwNzg4NDQwMDY1LCJldSI6ImI2NWR=
+iYmRmLWEzNDUtNDE1Ni04YmNjLWEwYjZmZTU0NmQ2MCJ9&v=3D1&_hsenc=3Dp2ANqtz-88p99h=
+6-zUelMviGMf4iPExGjZoPpbyhkWsrH9oK3OnmPiKMV1FKe1m_RaAySyqcXPgeZ8kl7-YVSzEh4=
+ImMEQG9ld8A&_hsmi=3D64240120 )=0Ato choose the types of emails you receive.=
+=0A=0AUnsubscribe from all future emails (https://www.caymanenterprisecity.=
+com/hs/manage-preferences/unsubscribe-all=3Fd=3DeyJlYSI6InNhbUBjLW10Zy5jb20=
+iLCJlYyI6NjQyNDAxMjAsInN1YnNjcmlwdGlvbklkIjo1NjgwNjcsImV0IjoxNTMwNzg4NDQwMD=
+Y1LCJldSI6ImI2NWRiYmRmLWEzNDUtNDE1Ni04YmNjLWEwYjZmZTU0NmQ2MCJ9&v=3D1&_hsenc=
+=3Dp2ANqtz-88p99h6-zUelMviGMf4iPExGjZoPpbyhkWsrH9oK3OnmPiKMV1FKe1m_RaAySyqc=
+XPgeZ8kl7-YVSzEh4ImMEQG9ld8A&_hsmi=3D64240120 )
+--_----DiXN5TQDsKfTIPwY0nPNUA===_65/E1-45404-08CFD3B5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd"><!-- start coded_template: id:5662266507 =
+path:generated_layouts/5661635969.html --><html xmlns=3D"http://www.w3.org/=
+1999/xhtml" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schema=
+s-microsoft-com:office:office"><head>=0D=0A        <title>Here's what's bee=
+n happening in Cayman Enterprise City</title>=0D=0A        <meta property=
+=3D"og:title" content=3D"Here's what's been happening in Cayman Enterprise =
+City">=0D=0A        <meta name=3D"twitter:title" content=3D"Here's what's b=
+een happening in Cayman Enterprise City">=0D=0A        <meta http-equiv=3D"=
+Content-Type" content=3D"text/html; charset=3Dutf-8">=0D=0A        =0D=0A  =
+      <style type=3D"text/css" id=3D"hs-inline-css">=0D=0A/*<![CDATA[*/=0D=
+=0A  /* everything in this node will be inlined */=0D=0A  /* =3D=3D=3D=3D P=
+age Styles =3D=3D=3D=3D */=0D=0A  body, #backgroundTable {=0D=0A      backg=
+round-color: #f2f2f2; /* Use body to determine background color */=0D=0A   =
+   font-family: sans-serif;=0D=0A  }=0D=0A  #templateTable {=0D=0A      wid=
+th: 600px;=0D=0A      background-color: #ffffff;=0D=0A      -webkit-font-sm=
+oothing: antialiased;=0D=0A  }=0D=0A  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h=
+5, .h5, h6, .h6 {=0D=0A      display:block;=0D=0A      font-weight:bold;=0D=
+=0A      line-height:100%;=0D=0A      margin-top:0;=0D=0A      margin-right=
+:0;=0D=0A      margin-bottom:10px;=0D=0A      margin-left:0;=0D=0A  }=0D=0A=
+  h1, .h1 {=0D=0A      font-size:26px;=0D=0A  }=0D=0A  h2, .h2 {=0D=0A     =
+ font-size:20px;=0D=0A  }=0D=0A  h3, .h3 {=0D=0A      font-size:15px;=0D=0A=
+  }=0D=0A  h4, .h4 {=0D=0A      font-size:13px;=0D=0A  }=0D=0A  h5, .h5 {=
+=0D=0A      font-size:11px;=0D=0A  }=0D=0A  h6, .h6 {=0D=0A      font-size:=
+10px;=0D=0A  }=0D=0A  /* =3D=3D=3D=3D Header Styles =3D=3D=3D=3D */=0D=0A  =
+#headerTable {=0D=0A      background-color: #f2f2f2;=0D=0A      color:#4444=
+44;=0D=0A      font-family:sans-serif;=0D=0A      font-size:10px;=0D=0A    =
+  line-height:120%;=0D=0A      text-align:right;=0D=0A      border-collapse=
+: separate !important;=0D=0A      padding-right: 30px;=0D=0A  }=0D=0A  #hea=
+derTable a:link, #headerTable a:visited, /* Yahoo! Mail Override */ #header=
+Table a .yshortcuts /* Yahoo! Mail Override */{=0D=0A      font-weight:norm=
+al;=0D=0A      text-decoration:underline;=0D=0A  }=0D=0A  /* =3D=3D=3D=3D T=
+emplate Wrapper Styles =3D=3D=3D=3D */=0D=0A  #contentCell {=0D=0A      pad=
+ding: 10px 20px;=0D=0A      background-color: #f2f2f2;=0D=0A  }=0D=0A  #con=
+tentTableOuter {=0D=0A      border-collapse: separate !important;=0D=0A    =
+  background-color: #ffffff;=0D=0A      =0D=0A      box-shadow: 0px 1px rgb=
+a(0, 0, 0, 0.1);=0D=0A      =0D=0A      padding: 30px;=0D=0A  }=0D=0A  #con=
+tentTableInner {=0D=0A      width: 600px;=0D=0A  }=0D=0A  /* =3D=3D=3D=3D B=
+ody Styles =3D=3D=3D=3D */=0D=0A  .bodyContent {=0D=0A      color:#444444;=
+=0D=0A      font-family:sans-serif;=0D=0A      font-size: 15px;=0D=0A      =
+line-height:150%;=0D=0A      text-align:left;=0D=0A  }=0D=0A  /* =3D=3D=3D=
+=3D Column Styles =3D=3D=3D=3D */=0D=0A  table.columnContentTable {=0D=0A  =
+    border-collapse:separate !important;=0D=0A      border-spacing:0;=0D=0A=
+      background-color: #ffffff;=0D=0A  }=0D=0A  td.columnContent {=0D=0A  =
+    color:#444444;=0D=0A      font-family:sans-serif;=0D=0A      font-size:=
+15px;=0D=0A      line-height:120%;=0D=0A      padding-top:20px;=0D=0A      =
+padding-right:20px;=0D=0A      padding-bottom:20px;=0D=0A      padding-left=
+:20px;=0D=0A  }=0D=0A  /* =3D=3D=3D=3D Footer Styles =3D=3D=3D=3D */=0D=0A =
+ #footerTable {=0D=0A      background-color: #f2f2f2;=0D=0A  }=0D=0A  #foot=
+erTable a {=0D=0A      color: #999999;=0D=0A  }=0D=0A  #footerTable {=0D=0A=
+      color:#999999;=0D=0A      font-family:sans-serif;=0D=0A      font-siz=
+e:12px;=0D=0A      line-height:120%;=0D=0A      padding-top:20px;=0D=0A    =
+  padding-right:20px;=0D=0A      padding-bottom:20px;=0D=0A      padding-le=
+ft:20px;=0D=0A      text-align:center;=0D=0A  }=0D=0A  #footerTable a:link,=
+ #footerTable a:visited, /* Yahoo! Mail Override */ #footerTable a .yshortc=
+uts /* Yahoo! Mail Override */{=0D=0A      font-weight:normal;=0D=0A      t=
+ext-decoration:underline;=0D=0A  }=0D=0A  .hs-image-social-sharing-24 {=0D=
+=0A      max-width: 24px;=0D=0A      max-height: 24px;=0D=0A  }=0D=0A  /* =
+=3D=3D=3D=3D Standard Resets =3D=3D=3D=3D */=0D=0A  .ExternalClass{=0D=0A  =
+    width:100%;=0D=0A  } /* Force HM to display emails at full width */=0D=
+=0A  .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass =
+font, .ExternalClass td, .ExternalClass div {=0D=0A      line-height: 100%;=
+=0D=0A  } /* Force HM to display normal line spacing */=0D=0A  body, table,=
+ td, p, a, li, blockquote{=0D=0A      -webkit-text-size-adjust:100%;=0D=0A =
+     -ms-text-size-adjust:100%;=0D=0A  } /* Prevent WebKit and Windows mobi=
+le changing default text sizes */=0D=0A  table, td {=0D=0A      mso-table-l=
+space:0pt;=0D=0A      mso-table-rspace:0pt;=0D=0A  } /* Remove spacing betw=
+een tables in Outlook 2007 and up */=0D=0A  img {=0D=0A      vertical-align=
+: bottom;=0D=0A      -ms-interpolation-mode:bicubic;=0D=0A  } /* Allow smoo=
+ther rendering of resized image in Internet Explorer */=0D=0A  /* Reset Sty=
+les */=0D=0A  body {=0D=0A      margin:0;=0D=0A      padding:0;=0D=0A  }=0D=
+=0A  table {=0D=0A      border-collapse:collapse !important;=0D=0A  }=0D=0A=
+  body, #backgroundTable, #bodyCell{=0D=0A      height:100% !important;=0D=
+=0A      margin:0;=0D=0A      padding:0;=0D=0A      width:100% !important;=
+=0D=0A  }=0D=0A  a:link, a:visited {=0D=0A      border-bottom: none;=0D=0A =
+ }=0D=0A  /* iOS automatically adds a link to addresses */=0D=0A  /* Style =
+the footer with the same color as the footer text */=0D=0A  #footer a {=0D=
+=0A      color: #999999;;=0D=0A      -webkit-text-size-adjust: none;=0D=0A =
+     text-decoration: underline;=0D=0A      font-weight: normal=0D=0A  }=0D=
+=0A/*]]>*/=0D=0A</style>=0D=0A        <style type=3D"text/css">=0D=0A/*<![C=
+DATA[*/=0D=0A  /* =3D=3D=3D=3D Mobile Styles =3D=3D=3D=3D */=0D=0A  /* Cons=
+train email width for small screens */=0D=0A  @media screen and (max-width:=
+ 650px) {=0D=0A      table#backgroundTable {=0D=0A          width: 95% !imp=
+ortant;=0D=0A      }=0D=0A      table#templateTable {=0D=0A          max-wi=
+dth:600px !important;=0D=0A          width:100% !important;=0D=0A      }=0D=
+=0A      table#contentTableInner {=0D=0A          max-width:600px !importan=
+t;=0D=0A          width:100% !important;=0D=0A      }=0D=0A      /* Makes i=
+mage expand to take 100% of width*/=0D=0A      img {=0D=0A          width: =
+100% !important;=0D=0A          height: auto !important;=0D=0A      }=0D=0A=
+      #contentCell {=0D=0A          padding: 10px 10px !important;=0D=0A   =
+   }=0D=0A      #headerTable {=0D=0A          padding-right: 15.0px !import=
+ant;=0D=0A      }=0D=0A      #contentTableOuter {=0D=0A          padding: 1=
+5.0px !important;=0D=0A      }=0D=0A  }=0D=0A  @media only screen and (max-=
+width: 480px) {=0D=0A      /* =3D=3D=3D=3D Client-Specific Mobile Styles =
+=3D=3D=3D=3D */=0D=0A      body, table, td, p, a, li, blockquote{=0D=0A    =
+      -webkit-text-size-adjust:none !important;=0D=0A      } /* Prevent Web=
+kit platforms from changing default text sizes */=0D=0A      body{=0D=0A   =
+       width:100% !important;=0D=0A          min-width:100% !important;=0D=
+=0A      } /* Prevent iOS Mail from adding padding to the body */=0D=0A    =
+  /* =3D=3D=3D=3D Mobile Reset Styles =3D=3D=3D=3D */=0D=0A      td#bodyCel=
+l {=0D=0A          padding:10px !important;=0D=0A      }=0D=0A      /* =3D=
+=3D=3D=3D Mobile Template Styles =3D=3D=3D=3D */=0D=0A      table#templateT=
+able {=0D=0A          max-width:600px !important;=0D=0A          width:100%=
+ !important;=0D=0A      }=0D=0A      table#contentTableInner {=0D=0A       =
+   max-width:600px !important;=0D=0A          width:100% !important;=0D=0A =
+     }=0D=0A      /* =3D=3D=3D=3D Image Alignment Styles =3D=3D=3D=3D */=0D=
+=0A      h1, .h1 {=0D=0A          font-size:26px !important;=0D=0A         =
+ line-height:125% !important;=0D=0A      }=0D=0A      h2, .h2 {=0D=0A      =
+    font-size:20px !important;=0D=0A          line-height:125% !important;=
+=0D=0A      }=0D=0A      h3, .h3 {=0D=0A          font-size:15px !important=
+;=0D=0A          line-height:125% !important;=0D=0A      }=0D=0A      h4, .=
+h4 {=0D=0A          font-size:13px !important;=0D=0A          line-height:1=
+25% !important;=0D=0A      }=0D=0A      h5, .h5 {=0D=0A          font-size:=
+11px !important;=0D=0A          line-height:125% !important;=0D=0A      }=
+=0D=0A      h6, .h6 {=0D=0A          font-size:10px !important;=0D=0A      =
+    line-height:125% !important;=0D=0A      }=0D=0A      .hide {=0D=0A     =
+     display:none !important;=0D=0A      } /* Hide to save space */=0D=0A  =
+    /* =3D=3D=3D=3D Body Styles =3D=3D=3D=3D */=0D=0A      td.bodyContent {=
+=0D=0A          font-size:16px !important;=0D=0A          line-height:145% =
+!important;=0D=0A      }=0D=0A      /* =3D=3D=3D=3D Footer Styles =3D=3D=3D=
+=3D */=0D=0A      td#footerTable {=0D=0A          padding-left: 0px !import=
+ant;=0D=0A          padding-right: 0px !important;=0D=0A          font-size=
+:12px !important;=0D=0A          line-height:145% !important;=0D=0A      }=
+=0D=0A      /* =3D=3D=3D=3D Image Alignment Styles =3D=3D=3D=3D */=0D=0A   =
+   table.alignImageTable {=0D=0A          width: 100% !important;=0D=0A    =
+  }=0D=0A      td.imageTableTop {=0D=0A          display: none !important;=
+=0D=0A          /*padding-top: 10px !important;*/=0D=0A      }=0D=0A      t=
+d.imageTableRight {=0D=0A          display: none !important;=0D=0A      }=
+=0D=0A      td.imageTableBottom {=0D=0A          padding-bottom: 10px !impo=
+rtant;=0D=0A      }=0D=0A      td.imageTableLeft {=0D=0A          display: =
+none !important;=0D=0A      }=0D=0A      /* =3D=3D=3D=3D Column Styles =3D=
+=3D=3D=3D */=0D=0A      td.column {=0D=0A          display: block !importan=
+t;=0D=0A          width: 100% !important;=0D=0A          padding-top: 0 !im=
+portant;=0D=0A          padding-right: 0 !important;=0D=0A          padding=
+-bottom: 0 !important;=0D=0A          padding-left: 0 !important;=0D=0A    =
+  }=0D=0A      td.columnContent {=0D=0A          font-size:14px !important;=
+=0D=0A          line-height:145% !important;=0D=0A          padding-top: 10=
+px !important;=0D=0A          padding-right: 10px !important;=0D=0A        =
+  padding-bottom: 10px !important;=0D=0A          padding-left: 10px !impor=
+tant;=0D=0A      }=0D=0A      #contentCell {=0D=0A          padding: 10px 0=
+px !important;=0D=0A      }=0D=0A      #headerTable {=0D=0A          paddin=
+g-right: 15.0px !important;=0D=0A      }=0D=0A      #contentTableOuter {=0D=
+=0A          padding: 15.0px !important;=0D=0A      }=0D=0A  }=0D=0A/*]]>*/=
+=0D=0A</style>=0D=0A        <!-- extra whitespace to ensure email renders p=
+roperly on ipad                                                           -=
+->=0D=0A        <!--                                                       =
+                                                              -->=0D=0A    =
+    <!--                                                                   =
+                                                  -->=0D=0A        <!--    =
+                        _/    _/            _/          _/_/_/             =
+           _/                         -->=0D=0A        <!--                =
+           _/    _/  _/    _/  _/_/_/    _/        _/_/_/      _/_/    _/_/=
+_/_/                      -->=0D=0A        <!--                          _/=
+_/_/_/  _/    _/  _/    _/    _/_/    _/    _/  _/    _/    _/             =
+              -->=0D=0A        <!--                         _/    _/  _/   =
+ _/  _/    _/        _/  _/    _/  _/    _/    _/                          =
+  -->=0D=0A        <!--                        _/    _/    _/_/_/  _/_/_/  =
+  _/_/_/    _/_/_/      _/_/        _/_/                         -->=0D=0A =
+       <!--                                                               _=
+/                                                    -->=0D=0A        <!-- =
+                                                             _/            =
+                                         -->=0D=0A        <!--             =
+                                                                           =
+                             -->=0D=0A        <!--                         =
+                        Extra White Space!                                 =
+                 -->=0D=0A        <!--                                     =
+                                                                           =
+     -->=0D=0A        <!-- - - - - - - - - - - - - - - - - - - - - - - - - =
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->=0D=
+=0A        =0D=0A        <!--[if gte mso 9]>=0D=0A          <xml>=0D=0A    =
+        <o:OfficeDocumentSettings>=0D=0A              <o:AllowPNG/>=0D=0A  =
+            <o:PixelsPerInch>96</o:PixelsPerInch>=0D=0A            </o:Offi=
+ceDocumentSettings>=0D=0A          </xml>=0D=0A        <![endif]-->=0D=0A  =
+  <meta name=3D"generator" content=3D"HubSpot"><meta property=3D"og:url" co=
+ntent=3D"https://www.caymanenterprisecity.com/-temporary-slug-8c28c918-f4ab=
+-4c07-a628-0a8aeeea4545"><meta name=3D"x-apple-disable-message-reformatting=
+"></head>=0D=0A    <body class=3D"" style=3D"background-color:#f2f2f2; -web=
+kit-text-size-adjust:100%; -ms-text-size-adjust:100%; height:100% !importan=
+t; margin:0; padding:0; width:100% !important; font-family:'PT Sans',sans-s=
+erif" leftmargin=3D"0" marginwidth=3D"0" topmargin=3D"0" marginheight=3D"0"=
+ offset=3D"0" bgcolor=3D"#f2f2f2" height=3D"100%" width=3D"100%">=0D=0A    =
+    <!-- Preview text (text which appears right after subject) -->=0D=0A   =
+     <div id=3D"preview_text" style=3D"display:none;font-size:1px;color:#f2=
+f2f2;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden=
+;">=0D=0A            With an eye to the future, CEC is helping Cayman=E2=80=
+=99s next generation of local talent connect with zone employers!=0D=0A    =
+    </div>=0D=0A        <!--  The  backgroundTable table manages the color =
+of the background and then the templateTable maintains the body of =0D=0A  =
+      the email template, including preheader & footer. This is the only ta=
+ble you set the width of to, everything else is set to =0D=0A        100% a=
+nd in the CSS above. Having the width here within the table is just a small=
+ win for Lotus Notes. -->=0D=0A        <!-- Begin backgroundTable -->  =0D=
+=0A        <table align=3D"center" bgcolor=3D"#f2f2f2" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" height=3D"100%" width=3D"100%" id=3D"backgroun=
+dTable" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; =
+mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !impor=
+tant; background-color:#f2f2f2; font-family:sans-serif; height:100% !import=
+ant; margin:0; padding:0; width:100% !important">=0D=0A            <tbody><=
+tr>=0D=0A                <td align=3D"center" valign=3D"top" id=3D"bodyCell=
+" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt; height:100% !important; margin:0; pad=
+ding:0; width:100% !important" height=3D"100%" width=3D"100%"> <!-- When ne=
+sting tables within a TD, align center keeps it well, centered. -->=0D=0A  =
+                  <!-- Begin Template Container -->=0D=0A                  =
+  <!-- This holds everything together in a nice container -->=0D=0A        =
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"t=
+emplateTable" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:=
+100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse =
+!important; width:600px; background-color:#ffffff; -webkit-font-smoothing:a=
+ntialiased" width=3D"600" bgcolor=3D"#ffffff">=0D=0A                       =
+ <tbody><tr>=0D=0A                            <td align=3D"center" valign=
+=3D"top" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;=
+ mso-table-lspace:0pt; mso-table-rspace:0pt">=0D=0A                        =
+        <!-- Begin Template Preheader -->=0D=0A                            =
+    <div class=3D"header-container-wrapper">=0D=0A</div><table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" id=3D"headerTable" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt; background-color:#f2f2f2; color:#444444; fo=
+nt-family:sans-serif; font-size:10px; line-height:120%; text-align:right; b=
+order-collapse:separate !important; padding-right:30px" bgcolor=3D"#f2f2f2"=
+ align=3D"right">=0D=0A                                    <tbody><tr>=0D=
+=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent" width=3D"100%" c=
+olspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:=
+100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#444444; font-famil=
+y:sans-serif; font-size:15px; line-height:150%; text-align:left">=0D=0A<tab=
+le cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" class=3D=
+"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100%; -ms-text-si=
+ze-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse=
+:collapse !important">=0D=0A            <tbody><tr>=0D=0A<td valign=3D"top"=
+ colspan=3D"12" width=3D"100.0%" class=3D" column" style=3D"-webkit-text-si=
+ze-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-=
+rspace:0pt; width:100.0%; text-align:left; padding:0; font-family:sans-seri=
+f; font-size:15px; line-height:1.5em; color:#444444" align=3D"left">=0D=0A<=
+div class=3D"widget-span widget-type-email_view_as_web_page " style=3D"" da=
+ta-widget-type=3D"email_view_as_web_page">=0D=0A</div><!--end widget-span -=
+->=0D=0A   </td>=0D=0A           </tr>=0D=0A    </tbody></table>=0D=0A   </=
+td>=0D=0A</tr>=0D=0A<tr>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bo=
+dyContent" width=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:=
+100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt=
+; color:#444444; font-family:sans-serif; font-size:15px; line-height:150%; =
+text-align:left">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" width=3D"100%" class=3D"templateColumnWrapper" style=3D"-webkit-text-si=
+ze-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-=
+rspace:0pt; border-collapse:collapse !important">=0D=0A            <tbody><=
+tr>=0D=0A<td valign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" colum=
+n" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-t=
+able-lspace:0pt; mso-table-rspace:0pt; width:100.0%; text-align:left; paddi=
+ng:0; font-family:sans-serif; font-size:15px; line-height:1.5em; color:#444=
+444" align=3D"left">=0D=0A<div class=3D"widget-span widget-type-raw_html " =
+style=3D"" data-widget-type=3D"raw_html">=0D=0A<div class=3D"layout-widget-=
+wrapper">=0D=0A<div id=3D"hs_cos_wrapper_module_1523020864594135" class=3D"=
+hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_raw_html" style=3D=
+"color: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-gen=
+eral-type=3D"widget" data-hs-cos-type=3D"raw_html"><style>=0D=0A.email-text=
+ p, .teaser {font-size:13px;line-height:normal; color: #000000;}=0D=0A.meet=
+-member p {font-size:13px;line-height:normal;color: #000000;}=0D=0A.email-i=
+mage-article { border-left: 4px solid #FEC611;color: #000000;}=0D=0A.email-=
+image-article-left {width: 101%; color: #000000;}=0D=0A.article-heading { p=
+adding-top: 10px; font-weight:bold; font-size:16px;color: #000000;}=0D=0A</=
+style></div>=0D=0A</div><!--end layout-widget-wrapper -->=0D=0A</div><!--en=
+d widget-span -->=0D=0A   </td>=0D=0A           </tr>=0D=0A    </tbody></ta=
+ble>=0D=0A   </td>=0D=0A</tr>=0D=0A<tr>=0D=0A<td align=3D"left" valign=3D"t=
+op" class=3D"bodyContent" width=3D"100%" colspan=3D"12" style=3D"-webkit-te=
+xt-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-t=
+able-rspace:0pt; color:#444444; font-family:sans-serif; font-size:15px; lin=
+e-height:150%; text-align:left">=0D=0A<table cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"100%" class=3D"templateColumnWrapper" style=3D=
+"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace=
+:0pt; mso-table-rspace:0pt; border-collapse:collapse !important">=0D=0A    =
+        <tbody><tr>=0D=0A<td valign=3D"top" colspan=3D"12" width=3D"100.0%"=
+ class=3D" column" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-ad=
+just:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; width:100.0%; text-a=
+lign:left; padding:0; font-family:sans-serif; font-size:15px; line-height:1=
+.5em; color:#444444" align=3D"left">=0D=0A<div class=3D"widget-span widget=
+-type-raw_html " style=3D"" data-widget-type=3D"raw_html">=0D=0A<div class=
+=3D"layout-widget-wrapper">=0D=0A<div id=3D"hs_cos_wrapper_module_152301664=
+519042" class=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_r=
+aw_html" style=3D"color: inherit; font-size: inherit; line-height: inherit;=
+" data-hs-cos-general-type=3D"widget" data-hs-cos-type=3D"raw_html"><table =
+width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"-w=
+ebkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0p=
+t; mso-table-rspace:0pt; border-collapse:collapse !important">=0D=0A<tbody>=
+<tr valign=3D"bottom">=0D=0A<td width=3D"354" style=3D"-webkit-text-size-ad=
+just:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspac=
+e:0pt"></td>    =0D=0A<td width=3D"100" align=3D"right" valign=3D"bottom" s=
+tyle=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table=
+-lspace:0pt; mso-table-rspace:0pt"><font face=3D"Open Sans, Arial, Helvetic=
+a, sans-serif" size=3D"1" color=3D"#000000"> Connect: </font></td>=0D=0A<td=
+ width=3D"10" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:=
+100%; mso-table-lspace:0pt; mso-table-rspace:0pt"></td>=0D=0A<td width=3D"1=
+6" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-t=
+able-lspace:0pt; mso-table-rspace:0pt"><a  href=3D"https://www.caymanenterp=
+risecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC0/*W5V4vYh7t8Ql4W5kyP3s8JkbrQ=
+0/5/f18dQhb0SmhV8XJbp2W8lsK1w2qwv1SVJM-SJ2st9DwMf5lhlXD6prW39Dr-N8pCDKXW51T=
+Pdt97d1DWW7nwMJH7ywQVcW51fvKJ1njGWtW2ykJK97yFhDGW90G7th8S23M9N2yJF1WYT2jkW6=
+P4lCX3Vpx8-W7NrMZs3ndpyTW6qxjV82gZjw4W51FWjV90qL9GW94q7cq6VKJl2W1hC_8g5lppD=
+NW5xBD_56BX7shVmVzxh55pD7SVkvtgw5nVz28VjZkxm7ByrHHW193MX55RTyc9W7NyrJ16CgHr=
+gW72tyq07Bz23fW1tqgzc3-MzKrW4NlkFn305g4dW2ZnSPd6qSLtNW1vQbLl6KYcm4W6s5d7T3q=
+Y36qW2n6LcC9b-yd9N8csGDVD2JBLW74kBK45BL4M-W5HxQ2q8THj-cW5qv4fv7hGpm9W2kNlrR=
+8gCCWGW72dwbD6z8G9dW6JXQN92wXSLkVTv2s01NwBMnN1MVsRj1mPwQf3tTnyl03" target=
+=3D"_blank" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:10=
+0%" data-hs-link-id=3D"0"><img src=3D"https://www.caymanenterprisecity.com/=
+hs-fs/hubfs/images/icon_facebook.gif=3Ft=3D1530739259708&amp;width=3D20&amp=
+;height=3D20&amp;name=3Dicon_facebook.gif" width=3D"20" height=3D"20" align=
+=3D"middle" border=3D"0" srcset=3D"https://www.caymanenterprisecity.com/hs-=
+fs/hubfs/images/icon_facebook.gif=3Ft=3D1530739259708&amp;width=3D20&amp;he=
+ight=3D20&amp;name=3Dicon_facebook.gif 20w, https://www.caymanenterprisecit=
+y.com/hs-fs/hubfs/images/icon_facebook.gif=3Ft=3D1530739259708&amp;width=3D=
+40&amp;height=3D40&amp;name=3Dicon_facebook.gif 40w" sizes=3D"(max-width: 2=
+0px) 100vw, 20px" style=3D"vertical-align:bottom; -ms-interpolation-mode:bi=
+cubic"></a></td>=0D=0A<td width=3D"10" style=3D"-webkit-text-size-adjust:10=
+0%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">=
+</td>=0D=0A<td width=3D"16" style=3D"-webkit-text-size-adjust:100%; -ms-tex=
+t-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt"><a  href=3D=
+"https://www.caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC0/*W=
+6rNVW97GgvgFW8rVQDz5FGQbM0/5/f18dQhb0S83f8YXN5qW8lsK1w2qwv1SVJM-SJ2st9DwMf5=
+hRCXD6prW39Dr-N8pCDJGW8p0T8S69_fCSW96Ls9C6nXbCgW51t8-N4sFN9cW6PVJWy625bx1W6=
+Gj8TS6bVy-5N25hvjFHZ5KNW5D8zFF5m3ZGGW96dt4S4r1QvYVk_YQZ8gjY6LW8WBKbV56sy_8W=
+2NhXFJ3q7bztW7Jqbq01ysYy7W1Gr0gC1f-XgJW2Sjvk41fPVKyW2dVCMQ4zmpp2W4yj90M30T_=
+37N7HTyvG4C1MVW2b-hsX5_zj0yN6yWRrYr4fdLW2LcSK22sqJtNW6XdY9T5ZcqL8W83B2N5768=
+6KJN4lBZ6F5q3V4W9bfZfZ4Pw1VkN2sbPxnb2vcLW3CK3TF41W00PW7j-S9l31GHfxW11mKWS9f=
+5rQHN534DQK5CRDWW7zn_ZJ85vl8nVHCz343tVv1SW723QB271wShbLj3GdJPbJb103" target=
+=3D"_blank" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:10=
+0%" data-hs-link-id=3D"0"><img src=3D"https://www.caymanenterprisecity.com/=
+hs-fs/hubfs/images/icon_twitter.gif=3Ft=3D1530739259708&amp;width=3D20&amp;=
+height=3D20&amp;name=3Dicon_twitter.gif" width=3D"20" height=3D"20" align=
+=3D"middle" border=3D"0" srcset=3D"https://www.caymanenterprisecity.com/hs-=
+fs/hubfs/images/icon_twitter.gif=3Ft=3D1530739259708&amp;width=3D20&amp;hei=
+ght=3D20&amp;name=3Dicon_twitter.gif 20w, https://www.caymanenterprisecity.=
+com/hs-fs/hubfs/images/icon_twitter.gif=3Ft=3D1530739259708&amp;width=3D40&=
+amp;height=3D40&amp;name=3Dicon_twitter.gif 40w" sizes=3D"(max-width: 20px)=
+ 100vw, 20px" style=3D"vertical-align:bottom; -ms-interpolation-mode:bicubi=
+c"></a></td>=0D=0A<td width=3D"10" style=3D"-webkit-text-size-adjust:100%; =
+-ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt"></td=
+>=0D=0A<td width=3D"16" style=3D"-webkit-text-size-adjust:100%; -ms-text-si=
+ze-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt"><a   href=3D"ht=
+tps://www.caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC0/*W8_w=
+J3l3pyLLvW8LHZy192fnmY0/5/f18dQhb0Smh-8XJ8bxW8lsK1w2qwv1SVJM-SJ2st9DwMf5cD2=
+XD6prW39Dr-N8pCDK1W5CRjzp1x4gXRW7nwMJH2l_vBgW3b-2PC3C64KJW41Q2g65lh8KjW3v7C=
+BP3Wlz2MW5RXcQ25D7MPnW1gbY-H2Z1-NSW1wchBz5RpkcdW3bqp7v90DyF_W2hBQwB1MqhJKW7=
+ldyjx608MF6W1nGcPr6m0LxnW76hY8X1fnjwPW2qGhSl1lKVY_W7630jX1TWZmlW7h6rkv1rf21=
+DW6Fr9b41G3H5RW1N6nXz6yt7s1W7q8Vmr80x2nxW1bRKNc7NSy77W7NGB196fPzj8W7p1p2L1G=
+fSZbW1FwcDv3bwBC9W7D2tct2jLVjfN22TNxn9Mb5mW46SxKw8qfTz7W8q-mqZ2bH48CW1nCrbg=
+8SffvSW2XKWY14qqZ_zW46kmPP6j5RxhW6m1_rl7Gjw0yN4V9-26rVprCN56gBW-pGqRyf1CRsD=
+P04" target=3D"_blank" style=3D"-webkit-text-size-adjust:100%; -ms-text-siz=
+e-adjust:100%" data-hs-link-id=3D"0"><img src=3D"https://www.caymanenterpri=
+secity.com/hs-fs/hubfs/images/icon_linkedin.gif=3Ft=3D1530739259708&amp;wid=
+th=3D20&amp;height=3D20&amp;name=3Dicon_linkedin.gif" width=3D"20" height=
+=3D"20" align=3D"middle" border=3D"0" srcset=3D"https://www.caymanenterpris=
+ecity.com/hs-fs/hubfs/images/icon_linkedin.gif=3Ft=3D1530739259708&amp;widt=
+h=3D20&amp;height=3D20&amp;name=3Dicon_linkedin.gif 20w, https://www.cayman=
+enterprisecity.com/hs-fs/hubfs/images/icon_linkedin.gif=3Ft=3D1530739259708=
+&amp;width=3D40&amp;height=3D40&amp;name=3Dicon_linkedin.gif 40w" sizes=3D"=
+(max-width: 20px) 100vw, 20px" style=3D"vertical-align:bottom; -ms-interpol=
+ation-mode:bicubic"></a></td>=0D=0A<td width=3D"10" style=3D"-webkit-text-s=
+ize-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table=
+-rspace:0pt"></td>=0D=0A<td width=3D"16" style=3D"-webkit-text-size-adjust:=
+100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt=
+"><a  href=3D"https://www.caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W664=
+Vf37_z_KC0/*W4Pz73j8BZpVQN88vxFl6YcmV0/5/f18dQhb0S8358XJ9TCW8lsK1w2qwv1SVJM=
+-SJ2st9DwMf5ps0XD6prW39Dr-N8pCDLLW96zN-t2JlqM1W96Ls9w6c0k9hW5tqDVQ90G7thW8S=
+23M92yJF1WVYT2jk6P4lCXW3Vpx8-7NrMZsW3ndm6j49WVtrW3VVg177DkYybMzV2fGYSX-5W7m=
+_B1R5c8d-SW3785fR6c29kVW7bMf9w1qR2zvW1wBCSw6R6f2qW7YZ9Vw1JPRqPW1f1GWP8JPCGx=
+W1wBynJ2yX9qtW1dX1LQ6cn1csW1nHQXV4Fs9M5W6n3QRN7Zw5hVW2T48cV5ccb46W5sr7Dr8pR=
+gXWW8fb2NZ7ZfKwNW49kRzb3bFz-qW3Cdk0d3wv7SmW6xYSPf2VtKnWN7SRk0phLBfgW2nRzM35=
+7_hd1W55vtZN3mqjlVW2_yF3D7M_9P6W6_zxsS2_43W6N8VyH3vLG01PDrTzpYLFZ_f3f-CHs03=
+" target=3D"_blank" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-a=
+djust:100%" data-hs-link-id=3D"0"><img src=3D"https://www.caymanenterprisec=
+ity.com/hs-fs/hubfs/images/icon_youtube.gif=3Ft=3D1530739259708&amp;width=
+=3D20&amp;height=3D20&amp;name=3Dicon_youtube.gif" width=3D"20" height=3D"2=
+0" align=3D"middle" border=3D"0" srcset=3D"https://www.caymanenterprisecity=
+.com/hs-fs/hubfs/images/icon_youtube.gif=3Ft=3D1530739259708&amp;width=3D2=
+0&amp;height=3D20&amp;name=3Dicon_youtube.gif 20w, https://www.caymanenterp=
+risecity.com/hs-fs/hubfs/images/icon_youtube.gif=3Ft=3D1530739259708&amp;wi=
+dth=3D40&amp;height=3D40&amp;name=3Dicon_youtube.gif 40w" sizes=3D"(max-wid=
+th: 20px) 100vw, 20px" style=3D"vertical-align:bottom; -ms-interpolation-mo=
+de:bicubic"></a></td>=0D=0A<td width=3D"10" style=3D"-webkit-text-size-adju=
+st:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:=
+0pt"></td>=0D=0A<td width=3D"16" style=3D"-webkit-text-size-adjust:100%; -m=
+s-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt"><a  hr=
+ef=3D"https://www.caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_K=
+C0/*W7fVClp5yyXcpW3gNHK43tFmvV0/5/f18dQhb0Smj18XJ9fqW8lsK1w2qwv1SVJM-SJ2st9=
+DwMf5dGYXD6prN7cmS1sbjL6JW4vx1Zm8x9jdvW7nwMJH4Xr5csN2BFGMPQZcFKW3MPpWY3MqcY=
+gW3N8nCJ6PVJWyW625bx16Gj8TSW6bVy-525hvjFVHZ5KN5D8zFFW5m3ZGG96dt4SW4r1QvY24K=
+8-SW8gjY6L8WBKbVW56sy_82NhXFJW3q7bzt7Jqbq0W1ysYy71Gr0gCW1f-XgJ2Sjvk4W1fPVKy=
+2dVCMQW4zmpp24yj90MW30T_377HTyvGV4C1MV2b-hsXW5_zj0y6yWRrYVr4fdL2LcSK2W2sqJt=
+N6XdY9TW5ZcqL883B2N5W7686KJ4lBZ6FV5q49H9ddvN7W4Pw1Vk2sbPxnVb2vcL3CK3TFW41W0=
+0P7kk832W31GHfx11mKWSW9f5rQH534DQKV5CRDW7zn_ZJN85vl8nHCz34W3tVv1S723QB2F71w=
+ShbfG2Mf1pmzZg03" target=3D"_blank" style=3D"-webkit-text-size-adjust:100%;=
+ -ms-text-size-adjust:100%" data-hs-link-id=3D"0"><img src=3D"https://www.c=
+aymanenterprisecity.com/hs-fs/hubfs/images/icon_googleplus.gif=3Ft=3D153073=
+9259708&amp;width=3D20&amp;height=3D20&amp;name=3Dicon_googleplus.gif" widt=
+h=3D"20" height=3D"20" align=3D"middle" border=3D"0" srcset=3D"https://www.=
+caymanenterprisecity.com/hs-fs/hubfs/images/icon_googleplus.gif=3Ft=3D15307=
+39259708&amp;width=3D20&amp;height=3D20&amp;name=3Dicon_googleplus.gif 20w,=
+ https://www.caymanenterprisecity.com/hs-fs/hubfs/images/icon_googleplus.gi=
+f=3Ft=3D1530739259708&amp;width=3D40&amp;height=3D40&amp;name=3Dicon_google=
+plus.gif 40w" sizes=3D"(max-width: 20px) 100vw, 20px" style=3D"vertical-ali=
+gn:bottom; -ms-interpolation-mode:bicubic"></a></td>=0D=0A<td width=3D"10" =
+style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-tabl=
+e-lspace:0pt; mso-table-rspace:0pt"></td>=0D=0A<td width=3D"16" style=3D"-w=
+ebkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0p=
+t; mso-table-rspace:0pt"><a  href=3D"https://www.caymanenterprisecity.com/e=
+1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC0/*W5Tg0vX49bgsdMYnRXwSS0l_0/5/f18dQhb0Smj0=
+8YXNsnW8lsK1w2qwv1SVJM-SJ2st9DwMf5gqMXD6prW7cmS1s8pCQ6vW7mG4mh51fvg_W1njGWt=
+2ykJK9W7mNz5L4vgKM1W999f656PVJWyW625bx16Gj8TSW6bVy-525hvjFVHZ5KN5D8zFFW5m3Z=
+GG95PRYyW1nq9rw17M4wjW1VJryk5lX8fqW13bD4h6dkdDBW310lSx52p1ZdW2QG7dX319cJ0W4=
+f83P_6xPXmdW3mCHTN2v3kWjW82tMXg3194HFW55RlXH2rSw-qW33FC162NmcsVW9dXpwp3r0jh=
+kW6wYbHP5M6rnBW13jwmB1yMRS4W7sy5s075j5LHW6wrr6z8nDXS8W6Yr1-w4QT5PZD6Y9ktTrH=
+DVTdZcH6mSf3jN41CBb0fRHy-N8TbH5Tzs70CW8Yq5Rz3PYv1-W7VpR-z998-fBW6QScH658nTQ=
+pW23NZmb5V9WFRW3f5_rb5JDcVrf1xVmDq04" target=3D"_blank" style=3D"-webkit-te=
+xt-size-adjust:100%; -ms-text-size-adjust:100%" data-hs-link-id=3D"0"><img =
+src=3D"https://www.caymanenterprisecity.com/hs-fs/hubfs/images/icon_web.gif=
+=3Ft=3D1530739259708&amp;width=3D20&amp;height=3D20&amp;name=3Dicon_web.gif=
+" width=3D"20" height=3D"20" align=3D"middle" border=3D"0" srcset=3D"https:=
+//www.caymanenterprisecity.com/hs-fs/hubfs/images/icon_web.gif=3Ft=3D153073=
+9259708&amp;width=3D20&amp;height=3D20&amp;name=3Dicon_web.gif 20w, https:/=
+/www.caymanenterprisecity.com/hs-fs/hubfs/images/icon_web.gif=3Ft=3D1530739=
+259708&amp;width=3D40&amp;height=3D40&amp;name=3Dicon_web.gif 40w" sizes=3D=
+"(max-width: 20px) 100vw, 20px" style=3D"vertical-align:bottom; -ms-interpo=
+lation-mode:bicubic"></a></td>=0D=0A</tr>=0D=0A</tbody></table></div>=0D=0A=
+</div><!--end layout-widget-wrapper -->=0D=0A</div><!--end widget-span -->=
+=0D=0A   </td>=0D=0A           </tr>=0D=0A    </tbody></table>=0D=0A   </td=
+>=0D=0A</tr>=0D=0A<!--end header wrapper -->=0D=0A                         =
+       </tbody></table>=0D=0A                                <!-- End Templ=
+ate Preheader -->=0D=0A                            </td>=0D=0A             =
+           </tr>=0D=0A                        <tr>=0D=0A                   =
+         <td align=3D"center" valign=3D"top" id=3D"contentCell" style=3D"-w=
+ebkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0p=
+t; mso-table-rspace:0pt; padding:10px 20px; background-color:#f2f2f2" bgcol=
+or=3D"#f2f2f2">=0D=0A                                <!-- Begin Template Wr=
+apper -->=0D=0A                                <!-- This separates the preh=
+eader which usually contains the "open in browser, etc" content=0D=0A      =
+                          from the actual body of the email. Can alternativ=
+ely contain the footer too, but I choose not=0D=0A                         =
+       to so that it stays outside of the border. -->=0D=0A                =
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"100%" id=3D"contentTableOuter" style=3D"-webkit-text-size-adjust:100%=
+; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; bo=
+rder-collapse:separate !important; background-color:#ffffff; box-shadow:0px=
+ 1px rgba(0, 0, 0, 0.1); padding:30px; border:1px solid #cccccc; border-bot=
+tom:1px solid #acacac" bgcolor=3D"#ffffff">=0D=0A                          =
+          <tbody><tr>=0D=0A                                        <td alig=
+n=3D"center" valign=3D"top" style=3D"-webkit-text-size-adjust:100%; -ms-tex=
+t-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">=0D=0A     =
+                                       <div class=3D"body-container-wrapper=
+">=0D=0A</div><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D=
+"contentTableInner" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-a=
+djust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:col=
+lapse !important; width:600px" width=3D"600">=0D=0A                        =
+                        <tbody><tr>=0D=0A<td align=3D"left" valign=3D"top" =
+class=3D"bodyContent" width=3D"100%" colspan=3D"12" style=3D"-webkit-text-s=
+ize-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table=
+-rspace:0pt; color:#444444; font-family:sans-serif; font-size:15px; line-he=
+ight:150%; text-align:left">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0=
+" border=3D"0" width=3D"100%" class=3D"templateColumnWrapper" style=3D"-web=
+kit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt;=
+ mso-table-rspace:0pt; border-collapse:collapse !important">=0D=0A         =
+   <tbody><tr>=0D=0A<td valign=3D"top" colspan=3D"12" width=3D"100.0%" clas=
+s=3D" column" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:=
+100%; mso-table-lspace:0pt; mso-table-rspace:0pt; width:100.0%; text-align:=
+left; padding:0; font-family:sans-serif; font-size:15px; line-height:1.5em;=
+ color:#444444" align=3D"left">=0D=0A<div class=3D"widget-span widget-type-=
+custom_widget " style=3D"" data-widget-type=3D"custom_widget">=0D=0A<div cl=
+ass=3D"layout-widget-wrapper">=0D=0A<div id=3D"hs_cos_wrapper_module_152301=
+7278995139" class=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_ty=
+pe_custom_widget" style=3D"color: inherit; font-size: inherit; line-height:=
+ inherit;" data-hs-cos-general-type=3D"widget" data-hs-cos-type=3D"custom_w=
+idget"><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-t=
+able-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important"=
+>=0D=0A          <tbody><tr><td width=3D"100%" style=3D"-webkit-text-size-a=
+djust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspa=
+ce:0pt"><a href=3D"https://www.caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM=
+0W664Vf37_z_KC0/*W46yZp07W4HXHN81pqf8WFVrh0/5/f18dQhb0Smj08YXNsnW8lsK1w2qwv=
+1SVJM-SJ2st9DwMf5gqMXD6prW7cmS1s8pCQ6vW7mG4mh51fvg_W1njGWt2ykJK9W7mNz5L4vgK=
+M1W999f656PVJWyW625bx16Gj8TSW6bVy-525hvjFVHZ5KN5D8zFFW5m3ZGG95PRYyW1nq9rw17=
+M4wjW1VJryk5lX8fqW13bD4h6dkdDBW310lSx52p1ZdW2QG7dX319cJ0W4f83P_6xPXmdW3mCHT=
+N2v3kWjW82tMXg3194HFW55RlXH2rSw-qW33FC162NmcsVW9dXpwp3r0jhkW6wYbHP5M6rnBW13=
+jwmB1yMRS4W7sy5s075j5LHW6wrr6z8nDXS8W6Yr1-w4QT5PZD6Y9ktTrHDVTdZcH6mSf3jN41C=
+Bb0fRHy-N8TbH5Tzs70CW8Yq5Rz3PYv1-W7VpR-z998-fBW6QScH658nTQpW23NZmb5V9XlMW3f=
+5_rb1Crtcbf1xVmDq04" target=3D"_blank" style=3D"-webkit-text-size-adjust:10=
+0%; -ms-text-size-adjust:100%" data-hs-link-id=3D"1">=0D=0A               =
+=0D=0A    <img src=3D"https://www.caymanenterprisecity.com/hs-fs/hubfs/news=
+letter/Newsletter%20Banner%20-%20June%20(1).jpg=3Ft=3D1530739259708&amp;wid=
+th=3D600&amp;height=3D252&amp;name=3DNewsletter%20Banner%20-%20June%20(1).j=
+pg" width=3D"600" height=3D"252" alt=3D"header-newsletter-oct2017.jpg" srcs=
+et=3D"https://www.caymanenterprisecity.com/hs-fs/hubfs/newsletter/Newslette=
+r%20Banner%20-%20June%20(1).jpg=3Ft=3D1530739259708&amp;width=3D600&amp;hei=
+ght=3D252&amp;name=3DNewsletter%20Banner%20-%20June%20(1).jpg 600w, https:/=
+/www.caymanenterprisecity.com/hs-fs/hubfs/newsletter/Newsletter%20Banner%20=
+-%20June%20(1).jpg=3Ft=3D1530739259708&amp;width=3D1200&amp;height=3D504&am=
+p;name=3DNewsletter%20Banner%20-%20June%20(1).jpg 1200w" sizes=3D"(max-widt=
+h: 600px) 100vw, 600px" style=3D"vertical-align:bottom; -ms-interpolation-m=
+ode:bicubic">=0D=0A              </a></td>=0D=0A        </tr>=0D=0A      </=
+tbody></table></div>=0D=0A</div><!--end layout-widget-wrapper -->=0D=0A</di=
+v><!--end widget-span -->=0D=0A   </td>=0D=0A           </tr>=0D=0A    </tb=
+ody></table>=0D=0A   </td>=0D=0A</tr>=0D=0A<tr>=0D=0A<td align=3D"left" val=
+ign=3D"top" class=3D"bodyContent" width=3D"100%" colspan=3D"12" style=3D"-w=
+ebkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0p=
+t; mso-table-rspace:0pt; color:#444444; font-family:sans-serif; font-size:1=
+5px; line-height:150%; text-align:left">=0D=0A<table cellpadding=3D"0" cell=
+spacing=3D"0" border=3D"0" width=3D"100%" class=3D"templateColumnWrapper" s=
+tyle=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table=
+-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important">=0D=
+=0A            <tbody><tr>=0D=0A<td valign=3D"top" colspan=3D"8" width=3D"6=
+6.66666666666666%" class=3D" column" style=3D"-webkit-text-size-adjust:100%=
+; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; wi=
+dth:66.66666666666666%; text-align:left; padding:0; font-family:sans-serif;=
+ font-size:15px; line-height:1.5em; color:#444444" align=3D"left">=0D=0A<ta=
+ble cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" style=
+=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lsp=
+ace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important">=0D=0A =
+   <tbody><tr>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent"=
+ width=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-=
+text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#4=
+44444; font-family:sans-serif; font-size:15px; line-height:150%; text-align=
+:left">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=
+=3D"100%" class=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust=
+:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0p=
+t; border-collapse:collapse !important">=0D=0A                <tbody><tr>=
+=0D=0A<td valign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" =
+style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-tabl=
+e-lspace:0pt; mso-table-rspace:0pt; width:100.0%; text-align:left; padding:=
+0; font-family:sans-serif; font-size:15px; line-height:1.5em; color:#444444=
+" align=3D"left">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" width=3D"100%" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-ad=
+just:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:coll=
+apse !important">=0D=0A        <tbody><tr>=0D=0A<td align=3D"left" valign=
+=3D"top" class=3D"bodyContent" width=3D"100%" colspan=3D"12" style=3D"-webk=
+it-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; =
+mso-table-rspace:0pt; color:#444444; font-family:sans-serif; font-size:15px=
+; line-height:150%; text-align:left">=0D=0A<table cellpadding=3D"0" cellspa=
+cing=3D"0" border=3D"0" width=3D"100%" class=3D"templateColumnWrapper" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important">=0D=0A=
+                    <tbody><tr>=0D=0A<td valign=3D"top" colspan=3D"12" widt=
+h=3D"100.0%" class=3D" column" style=3D"-webkit-text-size-adjust:100%; -ms-=
+text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; width:10=
+0.0%; text-align:left; padding:0; font-family:sans-serif; font-size:15px; l=
+ine-height:1.5em; color:#444444" align=3D"left">=0D=0A<div class=3D"widget-=
+span widget-type-custom_widget " style=3D"" data-widget-type=3D"custom_widg=
+et">=0D=0A<div class=3D"layout-widget-wrapper">=0D=0A<div id=3D"hs_cos_wrap=
+per_module_152345712808785" class=3D"hs_cos_wrapper hs_cos_wrapper_widget h=
+s_cos_wrapper_type_custom_widget" style=3D"color: inherit; font-size: inher=
+it; line-height: inherit;" data-hs-cos-general-type=3D"widget" data-hs-cos-=
+type=3D"custom_widget"> <table width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-a=
+djust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:col=
+lapse !important">=0D=0A        <tbody><tr>=0D=0A          <td style=3D"-we=
+bkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt=
+; mso-table-rspace:0pt">&nbsp;</td>=0D=0A        </tr>=0D=0A</tbody></table=
+></div>=0D=0A</div><!--end layout-widget-wrapper -->=0D=0A</div><!--end wid=
+get-span -->=0D=0A           </td>=0D=0A                   </tr>=0D=0A     =
+       </tbody></table>=0D=0A           </td>=0D=0A       </tr>=0D=0A      =
+  <tr>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent" width=
+=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text-s=
+ize-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#444444;=
+ font-family:sans-serif; font-size:15px; line-height:150%; text-align:left"=
+>=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100=
+%" class=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100%; =
+-ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; bord=
+er-collapse:collapse !important">=0D=0A                    <tbody><tr>=0D=
+=0A<td valign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" sty=
+le=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-l=
+space:0pt; mso-table-rspace:0pt; width:100.0%; text-align:left; padding:0; =
+font-family:sans-serif; font-size:15px; line-height:1.5em; color:#444444" a=
+lign=3D"left">=0D=0A<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjus=
+t:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:separat=
+e !important; border-spacing:0; background-color:#ffffff" class=3D"email-te=
+xt columnContentTable" bgcolor=3D"#ffffff"><tbody><tr><td align=3D"left" va=
+lign=3D"top" class=3D"columnContent widget-span widget-type-email_body" sty=
+le=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-l=
+space:0pt; mso-table-rspace:0pt; padding-top:20px; padding-right:20px; padd=
+ing-bottom:20px; padding-left:20px; text-align:left; padding:0; font-family=
+:sans-serif; font-size:15px; line-height:1.5em; color:#444444; font-size:13=
+px; line-height:normal; padding:0px 10px 0px 0px" data-widget-type=3D"email=
+_body">=0D=0A<div id=3D"hs_cos_wrapper_hs_email_body" class=3D"hs_cos_wrapp=
+er hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style=3D"color: inh=
+erit; font-size: inherit; line-height: inherit;" data-hs-cos-general-type=
+=3D"widget" data-hs-cos-type=3D"rich_text"><p style=3D"margin-bottom: 1em; =
+-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%">Greetings&nbsp;Sa=
+m,</p>=0D=0A<p style=3D"margin-bottom: 1em; -webkit-text-size-adjust:100%; =
+-ms-text-size-adjust:100%">CEC actively connects SEZ companies with local t=
+alent through a number of initiatives including: an online <a href=3D"https=
+://www.caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC0/*W8JVZqx=
+8gfH_4W2B59XM4glBWK0/5/f18dQhb0SmhR8XJbXvW8lsK1w2qwv1SVJM-SJ2st9DwMf5tGzXD6=
+prW7cmS1s3hxns_W4vgxWp6P4hShN4r1Pl9bpJNmW6c0dXV5sYwFXW6PZxrZ1nrCGwW96zRPS6b=
+T6L3W8RRjRD5CkvplW6vYDb47v70tSW4RYYTl2YNp2XW1Hpb1C7MqlmWW8QKpyr4sj3hVW2BcyM=
+91mGWlYW1K3QtH3TJmXdMNLHyMQLdnKVF-YDM1qGf69VDWG7s5P0t3wW2j8-pM2gG4wnW69_q-g=
+3Srt_7W4LSd1m5P24cxW2-Q4xT7Zw7qTVcykQQ628G5hW5WNh9B3sDt2zW2_B_3Q42P0kBW3B3y=
+jn6SSJPNW1_cXGY6GTq08W8Ph58-59BvcjW1GpnDL2GKLRNW2H4_KT4J35SnW2N3DbN6lqF5sW2=
+WBr9F5HsN9jW7LZGL14F4v7pW58S0LB76G81NN4f1M0RVs7V_VVmhsG33tqqy102" style=3D"=
+-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%" data-hs-link-id=
+=3D"0" target=3D"_blank">jobs portal</a>; code workshops and training sessi=
+ons; school visits to promote STEM education; science fairs; career days; t=
+hrough an annual internship programme; and by supporting local programmes l=
+ike the <a href=3D"https://www.caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM=
+0W664Vf37_z_KC0/*W2C2nD78kw95nW7PCP2872b5q40/5/f18dQhb0S1Xq2nS2nsV1vjlQ2T3m=
+BMVDMlFf1WTN3rVvSG5v3nlyDTVWGhf_5Dv0_fW8Wjkff58_n2KW4l8_Yr41yvyGW5dg-RG2MCy=
+qqW4j9rtr1Kz9fKN8SvcPK8Ckp_N3b7JzQWwhx6W2PH2Wx3JxGfpW8vS6hv31WclrW3t-NxG3Qn=
+gPnN4k2W5lVyQ67W536pLK6QWVFCN5GT0Hvb-XtJW5mHHCx3M0lH2N88LW0dBZCGtW5WwVyH1xp=
+zzTW5dh9kC5_KSMrW3FCtzp7zZZMSW3SptmB8wDR_TN5BFyvkDRNxyW5649611QtbTYW8QsFVR6=
+vg50GN2_VtWv4nkzCW5sSLR_27xZxXW2wyKhS8fz6fqW5qL4rF1LVNdpW7cGnF38X2cvqW6TrCG=
+06Fs3-nW1KxJf769DmHSW1VgF6h3My9-tW1lKzx53Q2WD5W3BKr0s4jZ2nKW7clQWP1QRHWVW2x=
+DDx94MPmvQW7cMQ7d4yH1s0W50zkMN3zmsq0W2wKfmX89KX15W6ZfyL87yVVStW7ZHWxr89GHLw=
+VSTB3x4yCH5QVgp7R8135cnXf8tp-GS11" style=3D"-webkit-text-size-adjust:100%; =
+-ms-text-size-adjust:100%" data-hs-link-id=3D"0" target=3D"_blank">UCCI STE=
+M Summer Camp</a>.&nbsp;With an eye to the future, CEC is helping Cayman=E2=
+=80=99s next generation of local talent connect with zone employers and ass=
+isting zone companies with recruitment efforts as they grow. <br><br>If you=
+ are interested in getting involved by supporting a programme, mentoring a =
+young Caymanian, or by speaking at a local school about your work we would =
+love to hear from you. <a href=3D"https://www.caymanenterprisecity.com/e1t/=
+c/*W5z-fTR1RYNM0W664Vf37_z_KC0/*Vdm9zb753pf6Vd4bhz8MdRH40/5/f18dQhb0Sjv68YX=
+Mz-W8lsK1w2qwv1SVJM-SJ2st9DwMf5v0xXD6prW7cmS1s8pCQ6vW7mG4mh51fvg_W1njGWt2yk=
+JK9W7mNz5L4vgKM1W97k-Bw2V2FTzW6NwXDd2-CTwjW41Rlqf2J3TmrW2HVTVL4DqHqzW6dgmw3=
+4yv2r0W3MlV4B4-TPrsW2KQ2YY6lD20bW49qr6C6V4mbwVL4t7162nGyhW7d094f6G7FblW4DFf=
+S36R86Y5N7xYxqDdns5sW8KJ98y3gp5NMW5knnby3M3sJsW4W0GC_95jzm4VY6csy3g4K4_W8nD=
+LY18wTBMyW95z1WD7Zw5_4W8KYQwC3B8LwwN6mVKMTScfSHW4VCvVm24wNLCV2X4H15WbSp7W5b=
+rc741VDBStW69SlLK6GTq08W8Ph58-59BvcjW1GpnDL2GKLRNW2H5bZT4J35SnW2N3DbN6lqF5s=
+W2WBr9F5HsN9jW7LZGL14F4v7pW58S0LB76G81NN4f1M0RVs7V_VVmr1P6VyKFp102" style=
+=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%" data-hs-link-=
+id=3D"0" target=3D"_blank">Learn more here.</a></p></div>=0D=0A</td></tr></=
+tbody></table><!--end widget-table -->=0D=0A           </td>=0D=0A         =
+          </tr>=0D=0A            </tbody></table>=0D=0A           </td>=0D=
+=0A       </tr>=0D=0A    </tbody></table>=0D=0A   </td>=0D=0A              =
+ </tr>=0D=0A        </tbody></table>=0D=0A       </td>=0D=0A   </tr>=0D=0A =
+   <tr>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent" width=
+=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text-s=
+ize-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#444444;=
+ font-family:sans-serif; font-size:15px; line-height:150%; text-align:left"=
+>=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100=
+%" class=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100%; =
+-ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; bord=
+er-collapse:collapse !important">=0D=0A                <tbody><tr>=0D=0A<td=
+ valign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" style=3D"=
+-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:=
+0pt; mso-table-rspace:0pt; width:100.0%; text-align:left; padding:0; font-f=
+amily:sans-serif; font-size:15px; line-height:1.5em; color:#444444" align=
+=3D"left">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" wid=
+th=3D"100%" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:10=
+0%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !i=
+mportant">=0D=0A        <tbody><tr>=0D=0A<td align=3D"left" valign=3D"top" =
+class=3D"bodyContent" width=3D"100%" colspan=3D"12" style=3D"-webkit-text-s=
+ize-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table=
+-rspace:0pt; color:#444444; font-family:sans-serif; font-size:15px; line-he=
+ight:150%; text-align:left">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0=
+" border=3D"0" width=3D"100%" class=3D"templateColumnWrapper" style=3D"-web=
+kit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt;=
+ mso-table-rspace:0pt; border-collapse:collapse !important">=0D=0A         =
+           <tbody><tr>=0D=0A<td valign=3D"top" colspan=3D"12" width=3D"100.=
+0%" class=3D" column" style=3D"-webkit-text-size-adjust:100%; -ms-text-size=
+-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; width:100.0%; tex=
+t-align:left; padding:0; font-family:sans-serif; font-size:15px; line-heigh=
+t:1.5em; color:#444444" align=3D"left">=0D=0A<table border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust:=
+100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt=
+; border-collapse:separate !important; border-spacing:0; background-color:#=
+ffffff" class=3D" columnContentTable" bgcolor=3D"#ffffff"><tbody><tr><td al=
+ign=3D"left" valign=3D"top" class=3D"columnContent widget-span widget-type-=
+cta" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso=
+-table-lspace:0pt; mso-table-rspace:0pt; padding-top:20px; padding-right:20=
+px; padding-bottom:20px; padding-left:20px; text-align:left; padding:0; fon=
+t-family:sans-serif; font-size:15px; line-height:1.5em; color:#444444; padd=
+ing:0px 0px 10px 0px" data-widget-type=3D"cta">=0D=0A<div class=3D"layout-w=
+idget-wrapper">=0D=0A<div id=3D"hs_cos_wrapper_module_1523017715493174" cla=
+ss=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_cta" style=
+=3D"color: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-=
+general-type=3D"widget" data-hs-cos-type=3D"cta"><!--HubSpot Call-to-Action=
+ Code --><span class=3D"hs-cta-wrapper" data-hs-img-pg=3D"cae2be29-16ed-450=
+2-acb7-ca11d09f9ee7" id=3D"hs-cta-wrapper-cae2be29-16ed-4502-acb7-ca11d09f9=
+ee7"><span class=3D"hs-cta-node hs-cta-cae2be29-16ed-4502-acb7-ca11d09f9ee7=
+" id=3D"hs-cta-cae2be29-16ed-4502-acb7-ca11d09f9ee7"><a    href=3D"https://=
+www.caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC0/*N39M-xYZDH=
+nnW43sS7_37w59s0/5/f18dQhb0S1Wf2fcTYHTvHZm5sztFPN2nN2CJ3D56PVCf2zZ3DFzs4W8y=
+_PKn8lWFb-W3vCD0H2h3sNNW2j1qmQ7KLQfvW2GFklC6rFsjFW7kdfS03Xj28HN2QjVzHjhWqkW=
+87Xc7F9jv-YFW4Fz27_64dMcCV89GVD7c8dHHW6XjdvW64-LP8W5z0GD04vVf7RW8fxLC93QqNb=
+yVMBCTX7c1ClsW5SRlRT8bdZvNV3WvQm7WRPXhW5WHFMk8lF_rHW69JN561hCHtFW7zdSzN1WYV=
+FnW8PX9V48SZLc6W1tnYPr7SQ4bPW3MFn4d60p4mRW29wfNk6YXXp3W74_Xv94zBY5HW40Dlsz8=
+wHdz6W2C3MPk7VhMdwW3RPTzH2Nh2bmW7sXswz37gnk8W4QDcYX4y-kZsW3m_p105fPDMNN2ZqV=
+QzrRfx6W93qNBt4vDLrCW8yLrd-38zZYYW61Fcsg4-scnSW9fYBts5bXVZtW51MsW54ZDqzSW5g=
+-4Vp5mzdjRW1fvT3C4dth0RW35dnPL2FCfysW7QGyWV5vXp-wW5gqVS63bSsGXW3MW2pn1jLDwN=
+VdrT-d5Xtl8gW47LKcr2wBzDVW4BVXk24q14zfW4Fd03933f1mMW4_w45n6h5Cq6W5CJhzP2y5s=
+2YW43bBYp427R64W6DyFY697knGVW15crHS5x31SlW58XhVt7VHMsyW95h9DZ5JHvGsW7YNzLn7=
+0QF9DW8tdrPk83S3SfW8s1v-K8rcwbkMKnGxSz0Brwf8wLKNP04" target=3D"_blank" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%" data-hs-link=
+-id=3D"0"><img class=3D"hs-cta-img" id=3D"hs-cta-img-cae2be29-16ed-4502-acb=
+7-ca11d09f9ee7" style=3D"vertical-align:bottom; -ms-interpolation-mode:bicu=
+bic; border-width:0px; width:auto !important; max-width:100% !important" mc=
+e_noresize=3D"1" src=3D"https://cta-image-cms2.hubspot.com/ctas/v2/public/c=
+s/il/=3Fpg=3Dcae2be29-16ed-4502-acb7-ca11d09f9ee7&amp;pid=3D634057&amp;ecid=
+=3DACsprvvp02m8TVBVJVSYZ2QL5zcul6xO4-U4b7ysjMFnoY5Z1ALJtMNzW-ArsgIDvA6LXFmv=
+Islu&amp;hseid=3D64240120&amp;hsic=3Dfalse" alt=3D"View Our Brochures" srcs=
+et=3D"https://cta-image-cms2.hubspot.com/ctas/v2/public/cs/il/=3Fpg=3Dcae2b=
+e29-16ed-4502-acb7-ca11d09f9ee7&amp;pid=3D634057&amp;ecid=3DACsprvvp02m8TVB=
+VJVSYZ2QL5zcul6xO4-U4b7ysjMFnoY5Z1ALJtMNzW-ArsgIDvA6LXFmvIslu&amp;hseid=3D6=
+4240120&amp;hsic=3Dfalse&amp;dsf=3D2 2x, https://cta-image-cms2.hubspot.com=
+/ctas/v2/public/cs/il/=3Fpg=3Dcae2be29-16ed-4502-acb7-ca11d09f9ee7&amp;pid=
+=3D634057&amp;ecid=3DACsprvvp02m8TVBVJVSYZ2QL5zcul6xO4-U4b7ysjMFnoY5Z1ALJtM=
+NzW-ArsgIDvA6LXFmvIslu&amp;hseid=3D64240120&amp;hsic=3Dfalse&amp;dsf=3D3 3x=
+, https://cta-image-cms2.hubspot.com/ctas/v2/public/cs/il/=3Fpg=3Dcae2be29-=
+16ed-4502-acb7-ca11d09f9ee7&amp;pid=3D634057&amp;ecid=3DACsprvvp02m8TVBVJVS=
+YZ2QL5zcul6xO4-U4b7ysjMFnoY5Z1ALJtMNzW-ArsgIDvA6LXFmvIslu&amp;hseid=3D64240=
+120&amp;hsic=3Dfalse&amp;dsf=3D4 4x" width=3D"auto"></a></span></span><!-- =
+end HubSpot Call-to-Action Code --></div>=0D=0A</div><!--end layout-widget-=
+wrapper -->=0D=0A</td></tr></tbody></table><!--end widget-table -->=0D=0A  =
+         </td>=0D=0A                   </tr>=0D=0A            </tbody></tab=
+le>=0D=0A           </td>=0D=0A       </tr>=0D=0A        <tr>=0D=0A<td alig=
+n=3D"left" valign=3D"top" class=3D"bodyContent" width=3D"100%" colspan=3D"1=
+2" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-t=
+able-lspace:0pt; mso-table-rspace:0pt; color:#444444; font-family:sans-seri=
+f; font-size:15px; line-height:150%; text-align:left">=0D=0A<table cellpadd=
+ing=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" class=3D"templateCo=
+lumnWrapper" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:1=
+00%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !=
+important">=0D=0A                    <tbody><tr>=0D=0A<td valign=3D"top" co=
+lspan=3D"12" width=3D"100.0%" class=3D" column" style=3D"-webkit-text-size-=
+adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rsp=
+ace:0pt; width:100.0%; text-align:left; padding:0; font-family:sans-serif; =
+font-size:15px; line-height:1.5em; color:#444444" align=3D"left">=0D=0A<div=
+ class=3D"widget-span widget-type-custom_widget " style=3D"" data-widget-ty=
+pe=3D"custom_widget">=0D=0A<div class=3D"layout-widget-wrapper">=0D=0A<div =
+id=3D"hs_cos_wrapper_module_152345719485890" class=3D"hs_cos_wrapper hs_cos=
+_wrapper_widget hs_cos_wrapper_type_custom_widget" style=3D"color: inherit;=
+ font-size: inherit; line-height: inherit;" data-hs-cos-general-type=3D"wid=
+get" data-hs-cos-type=3D"custom_widget"> <table width=3D"100%" cellspacing=
+=3D"0" cellpadding=3D"0" border=3D"0" style=3D"-webkit-text-size-adjust:100=
+%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; b=
+order-collapse:collapse !important">=0D=0A        <tbody><tr>=0D=0A        =
+  <td style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; ms=
+o-table-lspace:0pt; mso-table-rspace:0pt">&nbsp;</td>=0D=0A        </tr>=0D=
+=0A</tbody></table></div>=0D=0A</div><!--end layout-widget-wrapper -->=0D=
+=0A</div><!--end widget-span -->=0D=0A           </td>=0D=0A               =
+    </tr>=0D=0A            </tbody></table>=0D=0A           </td>=0D=0A    =
+   </tr>=0D=0A    </tbody></table>=0D=0A   </td>=0D=0A               </tr>=
+=0D=0A        </tbody></table>=0D=0A       </td>=0D=0A   </tr>=0D=0A</tbody=
+></table>=0D=0A</td>=0D=0A<td valign=3D"top" colspan=3D"4" width=3D"33.3333=
+3333333333%" class=3D" column" style=3D"-webkit-text-size-adjust:100%; -ms-=
+text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; width:33=
+.33333333333333%; text-align:left; padding:0; font-family:sans-serif; font=
+-size:15px; line-height:1.5em; color:#444444" align=3D"left">=0D=0A<div cla=
+ss=3D"widget-span widget-type-linked_image " style=3D"" data-widget-type=3D=
+"linked_image">=0D=0A<div class=3D"layout-widget-wrapper">=0D=0A<div id=3D"=
+hs_cos_wrapper_module_1523017475428150" class=3D"hs_cos_wrapper hs_cos_wrap=
+per_widget hs_cos_wrapper_type_linked_image" style=3D"color: inherit; font-=
+size: inherit; line-height: inherit;" data-hs-cos-general-type=3D"widget" d=
+ata-hs-cos-type=3D"linked_image"><img src=3D"https://www.caymanenterpriseci=
+ty.com/hs-fs/hubfs/images/CHARLIE%20KIRKCONNELL%20(3).png=3Ft=3D15307392597=
+08&amp;width=3D200&amp;name=3DCHARLIE%20KIRKCONNELL%20(3).png" class=3D"hs-=
+image-widget " style=3D"vertical-align:bottom; -ms-interpolation-mode:bicub=
+ic; max-height:280px; max-width:200px; border-width:0px; border:0px" width=
+=3D"200" alt=3D"CHARLIE KIRKCONNELL (3).png" title=3D"CHARLIE KIRKCONNELL (=
+3).png" srcset=3D"https://www.caymanenterprisecity.com/hs-fs/hubfs/images/C=
+HARLIE%20KIRKCONNELL%20(3).png=3Ft=3D1530739259708&amp;width=3D200&amp;name=
+=3DCHARLIE%20KIRKCONNELL%20(3).png 200w, https://www.caymanenterprisecity.c=
+om/hs-fs/hubfs/images/CHARLIE%20KIRKCONNELL%20(3).png=3Ft=3D1530739259708&a=
+mp;width=3D400&amp;name=3DCHARLIE%20KIRKCONNELL%20(3).png 400w" sizes=3D"(m=
+ax-width: 200px) 100vw, 200px"></div>=0D=0A</div><!--end layout-widget-wrap=
+per -->=0D=0A</div><!--end widget-span -->=0D=0A   </td>=0D=0A           </=
+tr>=0D=0A    </tbody></table>=0D=0A   </td>=0D=0A</tr>=0D=0A<tr>=0D=0A<td a=
+lign=3D"left" valign=3D"top" class=3D"bodyContent" width=3D"100%" colspan=
+=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; =
+mso-table-lspace:0pt; mso-table-rspace:0pt; color:#444444; font-family:sans=
+-serif; font-size:15px; line-height:150%; text-align:left">=0D=0A<table cel=
+lpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" class=3D"templ=
+ateColumnWrapper" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adj=
+ust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:colla=
+pse !important">=0D=0A            <tbody><tr>=0D=0A<td valign=3D"top" colsp=
+an=3D"6" width=3D"50.0%" class=3D" column" style=3D"-webkit-text-size-adjus=
+t:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0=
+pt; width:50.0%; text-align:left; padding:0; font-family:sans-serif; font-s=
+ize:15px; line-height:1.5em; color:#444444" align=3D"left">=0D=0A<div class=
+=3D"widget-span widget-type-custom_widget " style=3D"font-size:13px;line-he=
+ight:normal;" data-widget-type=3D"custom_widget">=0D=0A<div class=3D"layout=
+-widget-wrapper">=0D=0A<div id=3D"hs_cos_wrapper_module_1523021890082153" c=
+lass=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_custom_wid=
+get" style=3D"color: inherit; font-size: inherit; line-height: inherit;" da=
+ta-hs-cos-general-type=3D"widget" data-hs-cos-type=3D"custom_widget"><table=
+ cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"-webkit-text-siz=
+e-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-r=
+space:0pt; border-collapse:collapse !important">=0D=0A    <tbody><tr>=0D=0A=
+        <td align=3D"right" style=3D"-webkit-text-size-adjust:100%; -ms-tex=
+t-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">=0D=0A    <=
+img class=3D"email-image-article-left" style=3D"vertical-align:bottom; -ms-=
+interpolation-mode:bicubic; width=3D" 300"=3D"" src=3D"https://www.caymanen=
+terprisecity.com/hs-fs/hubfs/newsletter/Newsletter%20Image%20(300x180)%20Wo=
+rld%20Tokenomic%20Forum.jpg=3Ft=3D1530739259708&amp;height=3D180&amp;name=
+=3DNewsletter%20Image%20(300x180)%20World%20Tokenomic%20Forum.jpg" height=
+=3D"180" alt=3D"cec-newsletter-calendar.png">=0D=0A</td>=0D=0A    </tr>=0D=
+=0A    <tr>=0D=0A        <td class=3D"article-heading" style=3D"-webkit-tex=
+t-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-ta=
+ble-rspace:0pt; padding-top:10px"><strong><font face=3D"Open Sans, Arial, H=
+elvetica, sans-serif" size=3D"3" color=3D"#3b3a44">CEC Leads the Blockchain=
+ Conversation</font></strong></td>=0D=0A    </tr>=0D=0A     <tr>=0D=0A     =
+   <td class=3D"teaser" style=3D"-webkit-text-size-adjust:100%; -ms-text-si=
+ze-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt"><p style=3D"mar=
+gin-bottom: 1em; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%">=
+CEC is marking the success of the zone=E2=80=99s second major event in 2018=
+ to bring cryptocurrency and blockchain leaders, who are guiding a surging =
+industry, to the Cayman Islands to showcase the jurisdiction=E2=80=99s bene=
+fits and attractions. CEC is driving the industry and encouraging direct fo=
+reign investment, creating new job opportunities for Caymanians and diversi=
+fying the economy.</p></td>=0D=0A    </tr>=0D=0A    <tr>=0D=0A        <td s=
+tyle=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table=
+-lspace:0pt; mso-table-rspace:0pt">=0D=0A        =0D=0A           <!--[if m=
+so]>=0D=0A    <v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:=
+w=3D"urn:schemas-microsoft-com:office:word" href=3D"https://www.caymanenter=
+prisecity.com/blog/cayman-enterprise-city-leads-blockchain-conversation" st=
+yle=3D"height:40px;v-text-anchor:middle;width:200px;" arcsize=3D"10%" strok=
+e=3D"f" fillcolor=3D"#E6690E">=0D=0A        <w:anchorlock/>=0D=0A        <c=
+enter style=3D"font-size: 14px; font-family: Helvetica, Arial, sans-serif; =
+font-weight: bold; color: #ffffff; text-decoration: none;">=0D=0A          =
+ READ MORE=0D=0A        </center>=0D=0A    </v:roundrect>=0D=0A    <![endif=
+]-->=0D=0A    <!--[if !mso]> <!-->=0D=0A            =0D=0A             <tab=
+le border=3D"0" bordercolor=3D"#ffffff" cellspacing=3D"0" cellpadding=3D"0"=
+ style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-tab=
+le-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important">=
+=0D=0A              <tbody><tr>=0D=0A                <td bgcolor=3D"#E6690E=
+" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt; border-radius:5px; padding:10px 10px =
+10px 10px"><a href=3D"https://www.caymanenterprisecity.com/e1t/c/*W5z-fTR1R=
+YNM0W664Vf37_z_KC0/*W1wVR6q74bXcVN3YGy9Xg3Q480/5/f18dQhb0SbTL8YXNmFW8lsK1w2=
+qwv1SVJM-SJ2st9DwMf5s32XD6prW7cmS1s8pCQ6vW7mG4mh51fvg_W1njGWt2ykJK9W7mNz5L4=
+vgKM1W97S3C58yGCJdMt6cc-t6bDdN1rSNQ-K7869W4M1yLZ7lPs7hW4s9SY14rxqKtW7cMKv_9=
+6dQrBW1nrCGw96zRPSW6bT6L38RRjRDW5Ckvrl1fdmZQW1x4lQB6HdqlTW2mXHBz3XZqFQW4CXD=
+Y37zLV65W2NnQ5K4bQW_qW6c41HM2HY-WNW1Bg2yH1NBsjxW2GD44w7DvqcQW7m0qsm45js62Vt=
+ddSl48y-rkW2JBYqJ1G68rXVqgDM42QxTZLW1FmVZL8TngY9W4jX-3J7kxwt8W4jd6Km4hbzP0W=
+6d_TMM1RNVV_VpRkD07rs1DVN5tb4Q9rHJyLMBb3VqwKJnCV3qXS-3n-RVVW6N7dvq6NjT8MW9k=
+czmq7mtWScW2cQyW57MfXBJW5PG5yW3nm2FzW8Dlgn78D4d0PW1XkLn28f6qVCW4Pxhj53DlwBb=
+W6FXjLf3cFvNY0" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjus=
+t:100%; font-size:14px; font-family:Helvetica, Arial, sans-serif; font-weig=
+ht:bold; color:#ffffff; text-decoration:none" target=3D"_blank" data-hs-lin=
+k-id=3D"0">READ MORE</a></td>=0D=0A              </tr>=0D=0A            </t=
+body></table>=0D=0A       =0D=0A        <!-- <![endif]-->=0D=0A            =
+=0D=0A        </td>=0D=0A    </tr>=0D=0A    <tr><td style=3D"-webkit-text-s=
+ize-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table=
+-rspace:0pt">&nbsp;</td></tr>=0D=0A</tbody></table></div>=0D=0A</div><!--en=
+d layout-widget-wrapper -->=0D=0A</div><!--end widget-span -->=0D=0A   </td=
+>=0D=0A<td valign=3D"top" colspan=3D"6" width=3D"50.0%" class=3D" column" s=
+tyle=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table=
+-lspace:0pt; mso-table-rspace:0pt; width:50.0%; text-align:left; padding:0;=
+ font-family:sans-serif; font-size:15px; line-height:1.5em; color:#444444" =
+align=3D"left">=0D=0A<div class=3D"widget-span widget-type-custom_widget " =
+style=3D"font-size:13px;line-height:normal;" data-widget-type=3D"custom_wid=
+get">=0D=0A<div class=3D"layout-widget-wrapper">=0D=0A<div id=3D"hs_cos_wra=
+pper_module_152301979517189" class=3D"hs_cos_wrapper hs_cos_wrapper_widget =
+hs_cos_wrapper_type_custom_widget" style=3D"color: inherit; font-size: inhe=
+rit; line-height: inherit;" data-hs-cos-general-type=3D"widget" data-hs-cos=
+-type=3D"custom_widget"><table cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; m=
+so-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !import=
+ant">=0D=0A    <tbody><tr>=0D=0A        <td width=3D"10" bgcolor=3D"#FEC611=
+" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt">&nbsp;</td>=0D=0A        <td align=3D=
+"left" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; m=
+so-table-lspace:0pt; mso-table-rspace:0pt">=0D=0A        =0D=0A        <img=
+ class=3D"email-image-article" src=3D"https://www.caymanenterprisecity.com/=
+hs-fs/hubfs/Newsletter%20Image%20(300x180)%20STEM%20Summer%20Camp-1.jpg=3Ft=
+=3D1530739259708&amp;width=3D300&amp;height=3D180&amp;name=3DNewsletter%20I=
+mage%20(300x180)%20STEM%20Summer%20Camp-1.jpg" width=3D"300" height=3D"180"=
+ alt=3D"STEM_Summer_Camp_Cayman_Enterprise_City.png" srcset=3D"https://www.=
+caymanenterprisecity.com/hs-fs/hubfs/Newsletter%20Image%20(300x180)%20STEM%=
+20Summer%20Camp-1.jpg=3Ft=3D1530739259708&amp;width=3D300&amp;height=3D180&=
+amp;name=3DNewsletter%20Image%20(300x180)%20STEM%20Summer%20Camp-1.jpg 300w=
+, https://www.caymanenterprisecity.com/hs-fs/hubfs/Newsletter%20Image%20(30=
+0x180)%20STEM%20Summer%20Camp-1.jpg=3Ft=3D1530739259708&amp;width=3D600&amp=
+;height=3D360&amp;name=3DNewsletter%20Image%20(300x180)%20STEM%20Summer%20C=
+amp-1.jpg 600w" sizes=3D"(max-width: 300px) 100vw, 300px" style=3D"vertical=
+-align:bottom; -ms-interpolation-mode:bicubic">=0D=0A        =0D=0A        =
+</td>=0D=0A    </tr>=0D=0A    <tr>=0D=0A       <td style=3D"-webkit-text-si=
+ze-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-=
+rspace:0pt"></td>=0D=0A        <td class=3D"article-heading" style=3D"-webk=
+it-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; =
+mso-table-rspace:0pt; padding-top:10px"><strong><font face=3D"Open Sans, Ar=
+ial, Helvetica, sans-serif" size=3D"3" color=3D"#3b3a44">CEC Partners with =
+UCCI to Host STEM Summer Camp</font></strong></td>=0D=0A    </tr>=0D=0A    =
+ <tr>=0D=0A       <td style=3D"-webkit-text-size-adjust:100%; -ms-text-size=
+-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt"></td>=0D=0A      =
+  <td class=3D"teaser" style=3D"-webkit-text-size-adjust:100%; -ms-text-siz=
+e-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt"><p style=3D"marg=
+in-bottom: 1em; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%">F=
+or the second year in a row, CEC, through its&nbsp;<a href=3D"https://www.c=
+aymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC0/*W4TNxLB41vTMrW5=
+S5lvg2gTmYz0/5/f18dQhb0S66Z6XgRMDV1ycDD2MyqDrW2vwDp81jQxjVW6nXBgp3_ZgbgW1zv=
+t812y2zzFW5PdtTG8tcwBWW2dZDnJ7QSrvWN5HXmP3GLj6MW7n5D1q51R-3CW7SStjX9fP_MwW4=
+dgN-V93RklnW6cHcBw2-RCr8W4gvxv_8KFCmYN5ZlH75KZmr6W5yn8_M4Dm0WxW7XFltB2cyD9_=
+W7CQgxq59P4zyW5wP79z1s2PTbN6CqG-ztvpd4Vc-mbY7lMj7WW2mgzYC3-p3TvW2QBnyk6zPvB=
+jVN5CJP5z1XmgN1CSwWRHzMSqW6cvffB1RrTt5N6yVFg14sF__W6h_ZHV3m1xVKW84WCSV18cYT=
+tW7ql1Cc5HMZ_jW6b1FgQ7nWNvtVx9_mv6GWYNYW7-HsGb6n9k-DW6rwZmD1Q0-m4W4lbx9V52k=
+Cs1W7RH23b3QxVPkW2-wzb24rTz01W8zBlV_8mxbgZW7lQlcr82N8x-W8HWvKP6jHPzwW4DzZrY=
+4chM9hW3MdTkS4kpTfGW38mFvz4Bj1GJMVb79n1xsmkW8ymmQv247b2GW4C3b3L4w715ZW2crJ_=
+-91tr2hW2hznXM1h4zXtW2XxW5p78fvS2N1jxBT_V0rx2f5LPbwK04" style=3D"-webkit-te=
+xt-size-adjust:100%; -ms-text-size-adjust:100%" data-hs-link-id=3D"0" targe=
+t=3D"_blank">Enterprise Cayman</a>&nbsp;initiative, has signed on as the pr=
+esenting sponsor of the&nbsp;<a href=3D"https://www.caymanenterprisecity.co=
+m/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC0/*W9fgfK41fZf7FW2dKDb88JvQyg0/5/f18dQhb=
+0S8388YXMd0W8lsK1w2qwv1SVJM-SJ2st9DwMf5bX6XD6prW39Dr-N8pCDM1W7n7L3n69NH3CW7=
+Zj-_M61SSZmW7dDxTN7mWsnXW7dzcsS51vDDWW56vHg569NG1wW6Pr3nq1TcntwW1njMtB6H5JS=
+_W2LGsc952YlfxW3_8mpl9fgwMTW4fdfZd5MM7SWVvLrK482jlvTW6xPcsM1hGh_jN7x5sW4nYW=
+Y7W8SwHcF1Wb-qgW6x8_Km7q81sgW7HDjxZ8V-Mr1W6wYd7Y82QbFDW78kt103qF67wN1FryKyq=
+5ylYN4c04VF7PKMvW2tgNPY13L4VZW3MYt0N73MDgwW6ylMBt4PxC8jW448fzV43VS9xW2tzTX0=
+2JtsknW4DZg3k5qv4fvW7hGpm92kNlrRW8gCCWG72dwbDW6z8G9d6JXQN9N2wXSLkTv2s0W1NwB=
+Mn1MVsRjM1nGZ0NG6Zg103" style=3D"-webkit-text-size-adjust:100%; -ms-text-si=
+ze-adjust:100%" data-hs-link-id=3D"0" target=3D"_blank">University College =
+of the Cayman Islands</a>=E2=80=99 (UCCI) STEM Summer Camp slated for Augus=
+t 20-24, 2018. The week-long camp combines Science, Technology, Engineering=
+, and Math (STEM) subjects in a fun, interactive learning environment.</p><=
+/td>=0D=0A    </tr>=0D=0A    <tr>=0D=0A       <td style=3D"-webkit-text-siz=
+e-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-r=
+space:0pt"></td>=0D=0A        <td style=3D"-webkit-text-size-adjust:100%; -=
+ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">=0D=
+=0A            =0D=0A              <!--[if mso]>=0D=0A    <v:roundrect xmln=
+s:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:=
+office:word" href=3D"https://www.caymanenterprisecity.com/blog/cayman-enter=
+prise-city-partners-with-ucci-to-host-stem-summer-camp " style=3D"height:40=
+px;v-text-anchor:middle;width:200px;" arcsize=3D"10%" stroke=3D"f" fillcolo=
+r=3D"#E6690E">=0D=0A        <w:anchorlock/>=0D=0A        <center style=3D"f=
+ont-size: 14px; font-family: Helvetica, Arial, sans-serif; font-weight: bol=
+d; color: #ffffff; text-decoration: none;">=0D=0A           READ MORE=0D=0A=
+        </center>=0D=0A    </v:roundrect>=0D=0A    <![endif]-->=0D=0A    <!=
+--[if !mso]> <!-->=0D=0A            =0D=0A             <table border=3D"0" =
+bordercolor=3D"#ffffff" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webki=
+t-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; m=
+so-table-rspace:0pt; border-collapse:collapse !important">=0D=0A           =
+   <tbody><tr>=0D=0A                <td bgcolor=3D"#E6690E" style=3D"-webki=
+t-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; m=
+so-table-rspace:0pt; border-radius:5px; padding:10px 10px 10px 10px"><a hre=
+f=3D"https://www.caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC=
+0/*W1wmK2h7KlcnQW2hsdn-79yC7Z0/5/f18dQhb0S1Xq2nS2nsV1vjlQ2T3mBMVDMlFf1WTN3r=
+VvSG5v3nlyDTVWGhf_5Dv0_fW8Wjkff58_n2KW4l8_Yr41yvyGW5dg-RG2MCyqqW4j9rtr1Kz9f=
+KN8SvcPK8Ckp_N3b7JzQWwhx6W2PH2Wx3JxGfpW8vS6hv31WclrW3t-NxG3QngPnN4k2W5lVyQ6=
+7W536pLK6QWVFCN5GT0Hvb-XtJW5mHHCx3M0lH2N88LW0dBZCGtW5WwVyH1xpzzTW5dh9kC5_KS=
+MrW3FCtzp7zZZMSW3SptmB8wDR_TN5BFyvkDRNxyW5649611QtbTYW8QsFVR6vg50GN2_VtWv4n=
+kzCW5sSLR_27xZxXW2wyKhS8fz6fqW5qL4rF1LVNdpW7cGnF38X2cvqW6TrCG06Fs3-nW1KxJf7=
+69DmHSW1VgF6h3My9-tW1lKzx53Q2WD5W3BKr0s4jZ2nKW7clQWP1QRHWVW2xDDx94MPmvQW7cM=
+Q7d4yH1s0W50zkMN3zmsq0W2wKfmX89KX15W6ZfyL87yVVStW7ZHWxr89GHLwVSTB3x4yCH5QVg=
+phVP26bqLQf7yR_DS11" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-=
+adjust:100%; font-size:14px; font-family:Helvetica, Arial, sans-serif; font=
+-weight:bold; color:#ffffff; text-decoration:none" target=3D"_blank" data-h=
+s-link-id=3D"1">READ MORE</a></td>=0D=0A              </tr>=0D=0A          =
+  </tbody></table>=0D=0A       =0D=0A        <!-- <![endif]-->=0D=0A       =
+ </td>=0D=0A    </tr>=0D=0A      <tr><td style=3D"-webkit-text-size-adjust:=
+100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt=
+"></td><td style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100=
+%; mso-table-lspace:0pt; mso-table-rspace:0pt">&nbsp;</td></tr>=0D=0A</tbod=
+y></table></div>=0D=0A</div><!--end layout-widget-wrapper -->=0D=0A</div><!=
+--end widget-span -->=0D=0A   </td>=0D=0A           </tr>=0D=0A    </tbody>=
+</table>=0D=0A   </td>=0D=0A</tr>=0D=0A<tr>=0D=0A<td align=3D"left" valign=
+=3D"top" class=3D"bodyContent" width=3D"100%" colspan=3D"12" style=3D"-webk=
+it-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; =
+mso-table-rspace:0pt; color:#444444; font-family:sans-serif; font-size:15px=
+; line-height:150%; text-align:left">=0D=0A<table cellpadding=3D"0" cellspa=
+cing=3D"0" border=3D"0" width=3D"100%" class=3D"templateColumnWrapper" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important">=0D=0A=
+            <tbody><tr>=0D=0A<td valign=3D"top" colspan=3D"6" width=3D"50.0=
+%" class=3D" column" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-=
+adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; width:50.0%; text-=
+align:left; padding:0; font-family:sans-serif; font-size:15px; line-height:=
+1.5em; color:#444444" align=3D"left">=0D=0A<div class=3D"widget-span widget=
+-type-custom_widget " style=3D"font-size:13px;line-height:normal;" data-wid=
+get-type=3D"custom_widget">=0D=0A<div class=3D"layout-widget-wrapper">=0D=
+=0A<div id=3D"hs_cos_wrapper_module_1523021908326154" class=3D"hs_cos_wrapp=
+er hs_cos_wrapper_widget hs_cos_wrapper_type_custom_widget" style=3D"color:=
+ inherit; font-size: inherit; line-height: inherit;" data-hs-cos-general-ty=
+pe=3D"widget" data-hs-cos-type=3D"custom_widget"><table cellspacing=3D"0" c=
+ellpadding=3D"0" border=3D"0" style=3D"-webkit-text-size-adjust:100%; -ms-t=
+ext-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-co=
+llapse:collapse !important">=0D=0A    <tbody><tr>=0D=0A        <td align=3D=
+"right" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; =
+mso-table-lspace:0pt; mso-table-rspace:0pt">=0D=0A    <img class=3D"email-i=
+mage-article-left" style=3D"vertical-align:bottom; -ms-interpolation-mode:b=
+icubic; width=3D" 300"=3D"" src=3D"https://www.caymanenterprisecity.com/hs-=
+fs/hubfs/newsletter/Newsletter%20Image%20(300x180)%20Bad%20Crypto.jpg=3Ft=
+=3D1530739259708&amp;height=3D180&amp;name=3DNewsletter%20Image%20(300x180)=
+%20Bad%20Crypto.jpg" height=3D"180" alt=3D"bad_crypot_podcast.png">=0D=0A</=
+td>=0D=0A    </tr>=0D=0A    <tr>=0D=0A        <td class=3D"article-heading"=
+ style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-tab=
+le-lspace:0pt; mso-table-rspace:0pt; padding-top:10px"><strong><font face=
+=3D"Open Sans, Arial, Helvetica, sans-serif" size=3D"3" color=3D"#3b3a44">K=
+irkconnell Talks Cayman and Cryptocurrency on Popular Podcast</font></stron=
+g></td>=0D=0A    </tr>=0D=0A     <tr>=0D=0A        <td class=3D"teaser" sty=
+le=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-l=
+space:0pt; mso-table-rspace:0pt"><p style=3D"margin-bottom: 1em; -webkit-te=
+xt-size-adjust:100%; -ms-text-size-adjust:100%"><strong>Just in case you mi=
+ssed it:</strong> CEC's CEO Charlie Kirkconnell recently sat down with the =
+hosts of The Bad Crypto Podcast, Travis Wright and Joel Comm, to talk crypt=
+ocurrency during The <a href=3D"https://www.caymanenterprisecity.com/e1t/c/=
+*W5z-fTR1RYNM0W664Vf37_z_KC0/*W93wS0G2LSBMkW2ljTVb5Z3cTv0/5/f18dQhb0SmhT8XJ=
+8QKW8lsK1w2qwv1SVJM-SJ2st9DwMf5n28XD6prW7cmS1s8pCQ6vW8pMTym1wbc7mW6bp5rm5Dr=
+qLhW2yqHk-7nwMJHW90G7th8S23M9N2yJF1WYT2jkW6P4lCX3Vpx8-W7NrMZs3ndm6jW49WVtr3=
+VVg3wW5BZwqP4Z09TjW57-WqM3H_PtyW2DzCtR1yBNXJW34y1bx3Bp33-VKq1kD5qmt5TW84CSN=
+t3-tQ7bW5xs7sG5j3z5XW91s1B15qmrqRW5YxfrK5j0sjCW7PdLQD5lX3G2W2kdj5T7TBSpsW3-=
+MMSn1s1z2-W7j7B_y7nPdvRW8Ws7qr8Q7ZRHW3ZFPM56PbTqBW58W2NV46p5q0W3ygvH88c3mpg=
+W8ggl2M4hqdYkW1Gl_052y74cWW5PkNwp747HxBW86FkkL6jzDlCW3kcl5c6_S5MVW6K8QcH8S0=
+QL_W7hy2081WPqF4VpV_-y5jKTHZ111" style=3D"-webkit-text-size-adjust:100%; -m=
+s-text-size-adjust:100%" data-hs-link-id=3D"0" target=3D"_blank">World Toke=
+nomic Forum</a>. Bad Crypto is a hugely popular podcast within the crypocur=
+rency industry.&nbsp;In this fast-moving interview, the action focuses on w=
+hy Cayman for cryptocurrency and blockchain businesses.</p></td>=0D=0A    <=
+/tr>=0D=0A    <tr>=0D=0A        <td style=3D"-webkit-text-size-adjust:100%;=
+ -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">=0D=
+=0A        =0D=0A           <!--[if mso]>=0D=0A    <v:roundrect xmlns:v=3D"=
+urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:=
+word" href=3D"https://www.caymanenterprisecity.com/blog/kirkconnell-bad-cry=
+pto-podcast" style=3D"height:40px;v-text-anchor:middle;width:200px;" arcsiz=
+e=3D"10%" stroke=3D"f" fillcolor=3D"#E6690E">=0D=0A        <w:anchorlock/>=
+=0D=0A        <center style=3D"font-size: 14px; font-family: Helvetica, Ari=
+al, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none;">=
+=0D=0A           CLICK TO LISTEN=0D=0A        </center>=0D=0A    </v:roundr=
+ect>=0D=0A    <![endif]-->=0D=0A    <!--[if !mso]> <!-->=0D=0A            =
+=0D=0A             <table border=3D"0" bordercolor=3D"#ffffff" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"-webkit-text-size-adjust:100%; -ms-text-s=
+ize-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collaps=
+e:collapse !important">=0D=0A              <tbody><tr>=0D=0A               =
+ <td bgcolor=3D"#E6690E" style=3D"-webkit-text-size-adjust:100%; -ms-text-s=
+ize-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-radius:=
+5px; padding:10px 10px 10px 10px"><a href=3D"https://www.caymanenterpriseci=
+ty.com/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC0/*W31QC8q3D-FRvW90GKp13h00YX0/5/f1=
+8dQhb0Sjvb8Y9Wm6W7mPw3H4T_wzTW1pwZJn4WYmf0VscWqS1VbPj2W53DQ4N7s5LskN5lcMk_L=
+mG9NW2KFPnv52HrryW5nrGQH8-y10rW8-ydbT7McydVW55Fgsc8XkDrfW49RQmn32GTPVW1xZFZ=
+04gYWppW5lcWMm8Fdh1CW8j-gCZ55nSC9W1VJH714c2Rr9W7MPDNB69NG1wW6PqScQ5SVVH-W29=
+fw_b249SKHW6dZ27b67h1zcMQC5z2PC2cVW3k0T0l9bwr2QVW0LR-295ZSYW5CqJ8Y5G2psrW62=
+58-H27p5qHVhLlqG5BRZ7gW96zl9r5J5B48W2C6LhW4ZhZ6xW6SwKhB6SMY0TW5C3kPm1q6T-tW=
+60DVLM3MbFPYVVVGPL8mhPjLVRry4L4PkBg5V8BRgs7qsdx1W53NYtc4PLwTVW7pzJGD22Vll5W=
+3g1Q_l14-V-SVd8y6q1QNVM3W1JLNJp40BS6TW2B65VV32zD-gW9g2m_R2B9BG5W7zPK2B2-zyF=
+jw1NsfDKcx5f7t6WjD02" style=3D"-webkit-text-size-adjust:100%; -ms-text-size=
+-adjust:100%; font-size:14px; font-family:Helvetica, Arial, sans-serif; fon=
+t-weight:bold; color:#ffffff; text-decoration:none" target=3D"_blank" data-=
+hs-link-id=3D"0">CLICK TO LISTEN</a></td>=0D=0A              </tr>=0D=0A   =
+         </tbody></table>=0D=0A       =0D=0A        <!-- <![endif]-->=0D=0A=
+            =0D=0A        </td>=0D=0A    </tr>=0D=0A    <tr><td style=3D"-w=
+ebkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0p=
+t; mso-table-rspace:0pt">&nbsp;</td></tr>=0D=0A</tbody></table></div>=0D=0A=
+</div><!--end layout-widget-wrapper -->=0D=0A</div><!--end widget-span -->=
+=0D=0A   </td>=0D=0A<td valign=3D"top" colspan=3D"6" width=3D"50.0%" class=
+=3D" column" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:1=
+00%; mso-table-lspace:0pt; mso-table-rspace:0pt; width:50.0%; text-align:le=
+ft; padding:0; font-family:sans-serif; font-size:15px; line-height:1.5em; c=
+olor:#444444" align=3D"left">=0D=0A<div class=3D"widget-span widget-type-cu=
+stom_widget " style=3D"font-size:13px;line-height:normal;" data-widget-type=
+=3D"custom_widget">=0D=0A<div class=3D"layout-widget-wrapper">=0D=0A<div id=
+=3D"hs_cos_wrapper_module_152301982824991" class=3D"hs_cos_wrapper hs_cos_w=
+rapper_widget hs_cos_wrapper_type_custom_widget" style=3D"color: inherit; f=
+ont-size: inherit; line-height: inherit;" data-hs-cos-general-type=3D"widge=
+t" data-hs-cos-type=3D"custom_widget"><table cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-a=
+djust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:col=
+lapse !important">=0D=0A    <tbody><tr>=0D=0A        <td width=3D"10" bgcol=
+or=3D"#FEC611" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust=
+:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">&nbsp;</td>=0D=0A       =
+ <td align=3D"left" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-a=
+djust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">=0D=0A        =0D=
+=0A        <img class=3D"email-image-article" src=3D"https://www.caymanente=
+rprisecity.com/hs-fs/hubfs/Newsletter%20Image%20(300x180)%20Aviation%20City=
+.jpg=3Ft=3D1530739259708&amp;width=3D300&amp;height=3D180&amp;name=3DNewsl=
+etter%20Image%20(300x180)%20Aviation%20City.jpg" width=3D"300" height=3D"18=
+0" alt=3D"Aviation_City_Cayman_Enterprise_City.png" srcset=3D"https://www.c=
+aymanenterprisecity.com/hs-fs/hubfs/Newsletter%20Image%20(300x180)%20Aviati=
+on%20City.jpg=3Ft=3D1530739259708&amp;width=3D300&amp;height=3D180&amp;name=
+=3DNewsletter%20Image%20(300x180)%20Aviation%20City.jpg 300w, https://www.c=
+aymanenterprisecity.com/hs-fs/hubfs/Newsletter%20Image%20(300x180)%20Aviati=
+on%20City.jpg=3Ft=3D1530739259708&amp;width=3D600&amp;height=3D360&amp;name=
+=3DNewsletter%20Image%20(300x180)%20Aviation%20City.jpg 600w" sizes=3D"(max=
+-width: 300px) 100vw, 300px" style=3D"vertical-align:bottom; -ms-interpolat=
+ion-mode:bicubic">=0D=0A        =0D=0A        </td>=0D=0A    </tr>=0D=0A   =
+ <tr>=0D=0A       <td style=3D"-webkit-text-size-adjust:100%; -ms-text-size=
+-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt"></td>=0D=0A      =
+  <td class=3D"article-heading" style=3D"-webkit-text-size-adjust:100%; -ms=
+-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; padding=
+-top:10px"><strong><font face=3D"Open Sans, Arial, Helvetica, sans-serif" s=
+ize=3D"3" color=3D"#3b3a44">CEC and CAACI Welcome First Aviation Company</f=
+ont></strong></td>=0D=0A    </tr>=0D=0A     <tr>=0D=0A       <td style=3D"-=
+webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0=
+pt; mso-table-rspace:0pt"></td>=0D=0A        <td class=3D"teaser" style=3D"=
+-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:=
+0pt; mso-table-rspace:0pt"><p style=3D"margin-bottom: 1em; -webkit-text-siz=
+e-adjust:100%; -ms-text-size-adjust:100%">Cayman Maritime &amp; Aviation Ci=
+ty and The Civil Aviation Authority of the Cayman Islands (CAACI) announces=
+ the arrival of its first SEZ company,&nbsp;<a href=3D"https://www.caymanen=
+terprisecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC0/*W6CJh4S1GPVb5W7JM4yC6v=
+FT7t0/5/f18dQhb0S8388YXMd0W8lsK1w2qwv1SVJM-SJ2st9DwMf5bX6XD6prW39Dr-N8pCDMJ=
+VYVmdS25G14_W96Lsbl61SSZmW7dDxTN7mWsnXW7dzcsS51vDDWW56vHg569NG1wW6Pr3nq1Tcn=
+twW1njMtB6H5JS_W2LGsc952YlfxW3_8mpl9fgwMTW4fdfZd5MM7SWVvLrK482jlvTW6xPcsM1h=
+Gh_jN7x5sW4nYWY7W8SwHcF1Wb-qgW6x8_Km7q81sgW7HDjxZ8V-Mr1W6wYd7Y82QbFDW78kt10=
+3qF67wN1FryKyq5ylYN4c04VF7PKMvW2tgNPY13L4VZW3MYt0N73MDgwW6ylMBt4PxC8jW448fz=
+V43VS9xW2tzTX02HvlSkV42c_83nh5hNW41NcL64FhQ2LW8570Zy5G7zvgW8_lHYz407SZhVTCt=
+Y864PSSzW73yKD270RWLzf5TmQ3K11" style=3D"-webkit-text-size-adjust:100%; -ms=
+-text-size-adjust:100%" data-hs-link-id=3D"0" target=3D"_blank">CHC Helicop=
+ter</a>, a global offshore transport company with bases in six continents.&=
+nbsp;Signing a company that has been in the transportation business for 70 =
+years is an auspicious start to a transportation services cluster envisione=
+d jointly by Cayman Enterprise City (CEC) and CAACI.</p></td>=0D=0A    </tr=
+>=0D=0A    <tr>=0D=0A       <td style=3D"-webkit-text-size-adjust:100%; -ms=
+-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt"></td>=
+=0D=0A        <td style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adj=
+ust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">=0D=0A            =0D=
+=0A              <!--[if mso]>=0D=0A    <v:roundrect xmlns:v=3D"urn:schemas=
+-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" href=
+=3D"https://www.caymanenterprisecity.com/blog/first-registrant-cayman-aviat=
+ion-city" style=3D"height:40px;v-text-anchor:middle;width:200px;" arcsize=
+=3D"10%" stroke=3D"f" fillcolor=3D"#E6690E">=0D=0A        <w:anchorlock/>=
+=0D=0A        <center style=3D"font-size: 14px; font-family: Helvetica, Ari=
+al, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none;">=
+=0D=0A           READ MORE=0D=0A        </center>=0D=0A    </v:roundrect>=
+=0D=0A    <![endif]-->=0D=0A    <!--[if !mso]> <!-->=0D=0A            =0D=
+=0A             <table border=3D"0" bordercolor=3D"#ffffff" cellspacing=3D"=
+0" cellpadding=3D"0" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-=
+adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:co=
+llapse !important">=0D=0A              <tbody><tr>=0D=0A                <td=
+ bgcolor=3D"#E6690E" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-=
+adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-radius:5px;=
+ padding:10px 10px 10px 10px"><a href=3D"https://www.caymanenterprisecity.c=
+om/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC0/*V34SZH3Yff6NW1L1fCX7Y5p-q0/5/f18dQhb=
+0Sjvh8Y9ZwPW7mPw3H4T_wzTW1pwZJn4WYmf0MscNf2XD6prW7cmS1s8pCQ6vW7mG4mh51fvg_W=
+1njGWt2ykJK9W7mNz5L4vgKM1W97S3C58yGxd9W2yGMyH2ysqsDW7b_7Sr4r1QQPW8pgMDV5CYH=
+lSW96dK6H8pLNycW6PVJWy625bx1W6Gj8TS6bVy-5W25hjVh83KHrFW7J39qH2m8wSqW5QbCnG5=
+gZfttW2htMsf3NnV4FW1nJpwv26pdfjW35y0Sn60289TVNFMxf5BkL3nW60mttZ8vj7B-W3Hwqq=
+D6LbZfXW4Y86n86LSFZ7N60mDYRRzhsNW4VJ21z65jFDPW5vLVqz96LlD0W6T0b9N3HMxv9W276=
+_VN26D0FqW37vc4C5BYVr3W4VsW0p3JLZlxW7q7Jn56lW_WfW7ZdjLr73R1h2W224l1f6Jwn4rW=
+1cQ8Mh1kg5YVV215_B1J7MVJW6Jrl3s2k85QyW41BrZ_2RzPhwW99d3H91_4TwdVrjdXK7KZ892=
+W3wPByY3wqsmRf1x7NBb11" style=3D"-webkit-text-size-adjust:100%; -ms-text-si=
+ze-adjust:100%; font-size:14px; font-family:Helvetica, Arial, sans-serif; f=
+ont-weight:bold; color:#ffffff; text-decoration:none" target=3D"_blank" dat=
+a-hs-link-id=3D"0">READ MORE</a></td>=0D=0A              </tr>=0D=0A       =
+     </tbody></table>=0D=0A       =0D=0A        <!-- <![endif]-->=0D=0A    =
+    </td>=0D=0A    </tr>=0D=0A      <tr><td style=3D"-webkit-text-size-adju=
+st:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:=
+0pt"></td><td style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:=
+100%; mso-table-lspace:0pt; mso-table-rspace:0pt">&nbsp;</td></tr>=0D=0A</t=
+body></table></div>=0D=0A</div><!--end layout-widget-wrapper -->=0D=0A</div=
+><!--end widget-span -->=0D=0A   </td>=0D=0A           </tr>=0D=0A    </tbo=
+dy></table>=0D=0A   </td>=0D=0A</tr>=0D=0A<tr>=0D=0A<td align=3D"left" vali=
+gn=3D"top" class=3D"bodyContent" width=3D"100%" colspan=3D"12" style=3D"-we=
+bkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt=
+; mso-table-rspace:0pt; color:#444444; font-family:sans-serif; font-size:15=
+px; line-height:150%; text-align:left">=0D=0A<table cellpadding=3D"0" cells=
+pacing=3D"0" border=3D"0" width=3D"100%" class=3D"templateColumnWrapper" st=
+yle=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-=
+lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important">=0D=
+=0A            <tbody><tr>=0D=0A<td valign=3D"top" colspan=3D"6" width=3D"5=
+0.0%" class=3D" column" style=3D"-webkit-text-size-adjust:100%; -ms-text-si=
+ze-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; width:50.0%; te=
+xt-align:left; padding:0; font-family:sans-serif; font-size:15px; line-heig=
+ht:1.5em; color:#444444" align=3D"left">=0D=0A<div class=3D"widget-span wid=
+get-type-custom_widget " style=3D" font-size:13px;line-height:normal;" data=
+-widget-type=3D"custom_widget">=0D=0A<div class=3D"layout-widget-wrapper">=
+=0D=0A<div id=3D"hs_cos_wrapper_module_1523021927273155" class=3D"hs_cos_wr=
+apper hs_cos_wrapper_widget hs_cos_wrapper_type_custom_widget" style=3D"col=
+or: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-general=
+-type=3D"widget" data-hs-cos-type=3D"custom_widget"><table cellspacing=3D"0=
+" cellpadding=3D"0" border=3D"0" style=3D"-webkit-text-size-adjust:100%; -m=
+s-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border=
+-collapse:collapse !important">=0D=0A    <tbody><tr>=0D=0A        <td align=
+=3D"right" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100=
+%; mso-table-lspace:0pt; mso-table-rspace:0pt">=0D=0A    <img class=3D"emai=
+l-image-article-left" style=3D"vertical-align:bottom; -ms-interpolation-mod=
+e:bicubic; width=3D" 300"=3D"" src=3D"https://www.caymanenterprisecity.com/=
+hs-fs/hubfs/Newsletter%20Image%20(300x180)%20Community%20Meet%20Up.jpg=3Ft=
+=3D1530739259708&amp;height=3D180&amp;name=3DNewsletter%20Image%20(300x180)=
+%20Community%20Meet%20Up.jpg" height=3D"180" alt=3D"cec-newsletter-calendar=
+.png">=0D=0A</td>=0D=0A    </tr>=0D=0A    <tr>=0D=0A        <td class=3D"a=
+rticle-heading" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjus=
+t:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; padding-top:10px"><stro=
+ng><font face=3D"Open Sans, Arial, Helvetica, sans-serif" size=3D"3" color=
+=3D"#3b3a44">The Next CEC Community Meetup - Save the Date! </font></strong=
+></td>=0D=0A    </tr>=0D=0A     <tr>=0D=0A        <td class=3D"teaser" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt"><p style=3D"margin-bottom: 1em; -webkit-tex=
+t-size-adjust:100%; -ms-text-size-adjust:100%">The next CEC Community Meetu=
+p takes place 27 July 2018 at Rackhams, North Church St, George Town - just=
+ across from CEC's new zone building, Strathvale House. Catch up with frien=
+ds from CEC and meet new like-minded individuals. Mark your calendars, invi=
+tes will be sent shortly. We look forward to seeing you all then.&nbsp;</p>=
+</td>=0D=0A    </tr>=0D=0A    <tr>=0D=0A        <td style=3D"-webkit-text-s=
+ize-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table=
+-rspace:0pt">=0D=0A        =0D=0A           <!--[if mso]>=0D=0A    <v:round=
+rect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-micro=
+soft-com:office:word" href=3D"mailto:S.Carrig@caymanenterprisecity.com" sty=
+le=3D"height:40px;v-text-anchor:middle;width:200px;" arcsize=3D"10%" stroke=
+=3D"f" fillcolor=3D"#E6690E">=0D=0A        <w:anchorlock/>=0D=0A        <ce=
+nter style=3D"font-size: 14px; font-family: Helvetica, Arial, sans-serif; f=
+ont-weight: bold; color: #ffffff; text-decoration: none;">=0D=0A           =
+RSVP=0D=0A        </center>=0D=0A    </v:roundrect>=0D=0A    <![endif]-->=
+=0D=0A    <!--[if !mso]> <!-->=0D=0A            =0D=0A             <table b=
+order=3D"0" bordercolor=3D"#ffffff" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-l=
+space:0pt; mso-table-rspace:0pt; border-collapse:collapse !important">=0D=
+=0A              <tbody><tr>=0D=0A                <td bgcolor=3D"#E6690E" s=
+tyle=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table=
+-lspace:0pt; mso-table-rspace:0pt; border-radius:5px; padding:10px 10px 10p=
+x 10px"><a href=3D"mailto:S.Carrig@caymanenterprisecity.com" style=3D"-webk=
+it-text-size-adjust:100%; -ms-text-size-adjust:100%; font-size:14px; font-f=
+amily:Helvetica, Arial, sans-serif; font-weight:bold; color:#ffffff; text-d=
+ecoration:none" target=3D"_blank" data-hs-link-id=3D"0">RSVP</a></td>=0D=0A=
+              </tr>=0D=0A            </tbody></table>=0D=0A       =0D=0A   =
+     <!-- <![endif]-->=0D=0A            =0D=0A        </td>=0D=0A    </tr>=
+=0D=0A    <tr><td style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adj=
+ust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">&nbsp;</td></tr>=0D=
+=0A</tbody></table></div>=0D=0A</div><!--end layout-widget-wrapper -->=0D=
+=0A</div><!--end widget-span -->=0D=0A   </td>=0D=0A<td valign=3D"top" cols=
+pan=3D"6" width=3D"50.0%" class=3D" column" style=3D"-webkit-text-size-adju=
+st:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:=
+0pt; width:50.0%; text-align:left; padding:0; font-family:sans-serif; font-=
+size:15px; line-height:1.5em; color:#444444" align=3D"left">=0D=0A<div clas=
+s=3D"widget-span widget-type-custom_widget " style=3D"font-size:13px;line-h=
+eight:normal;" data-widget-type=3D"custom_widget">=0D=0A<div class=3D"layou=
+t-widget-wrapper">=0D=0A<div id=3D"hs_cos_wrapper_module_152301984937293" c=
+lass=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_custom_wid=
+get" style=3D"color: inherit; font-size: inherit; line-height: inherit;" da=
+ta-hs-cos-general-type=3D"widget" data-hs-cos-type=3D"custom_widget"><table=
+ cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"-webkit-text-siz=
+e-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-r=
+space:0pt; border-collapse:collapse !important">=0D=0A    <tbody><tr>=0D=0A=
+        <td width=3D"10" bgcolor=3D"#FEC611" style=3D"-webkit-text-size-adj=
+ust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace=
+:0pt">&nbsp;</td>=0D=0A        <td align=3D"left" style=3D"-webkit-text-siz=
+e-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-r=
+space:0pt">=0D=0A        =0D=0A        <img class=3D"email-image-article" s=
+rc=3D"https://www.caymanenterprisecity.com/hs-fs/hubfs/Newsletter%20Image%2=
+0(300x180)%20Walker.jpg=3Ft=3D1530739259708&amp;width=3D300&amp;height=3D18=
+0&amp;name=3DNewsletter%20Image%20(300x180)%20Walker.jpg" width=3D"300" hei=
+ght=3D"180" alt=3D"Walker_Willse_Blockchain_Tech_City.png" srcset=3D"https:=
+//www.caymanenterprisecity.com/hs-fs/hubfs/Newsletter%20Image%20(300x180)%2=
+0Walker.jpg=3Ft=3D1530739259708&amp;width=3D300&amp;height=3D180&amp;name=
+=3DNewsletter%20Image%20(300x180)%20Walker.jpg 300w, https://www.caymanente=
+rprisecity.com/hs-fs/hubfs/Newsletter%20Image%20(300x180)%20Walker.jpg=3Ft=
+=3D1530739259708&amp;width=3D600&amp;height=3D360&amp;name=3DNewsletter%20I=
+mage%20(300x180)%20Walker.jpg 600w" sizes=3D"(max-width: 300px) 100vw, 300p=
+x" style=3D"vertical-align:bottom; -ms-interpolation-mode:bicubic">=0D=0A  =
+      =0D=0A        </td>=0D=0A    </tr>=0D=0A    <tr>=0D=0A       <td styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt"></td>=0D=0A        <td class=3D"article-hea=
+ding" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; ms=
+o-table-lspace:0pt; mso-table-rspace:0pt; padding-top:10px"><strong><font f=
+ace=3D"Open Sans, Arial, Helvetica, sans-serif" size=3D"3" color=3D"#3b3a44=
+">Walker Willse talks "Blockchange"</font></strong></td>=0D=0A    </tr>=0D=
+=0A     <tr>=0D=0A       <td style=3D"-webkit-text-size-adjust:100%; -ms-te=
+xt-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt"></td>=0D=
+=0A        <td class=3D"teaser" style=3D"-webkit-text-size-adjust:100%; -ms=
+-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt"><p styl=
+e=3D"margin-bottom: 1em; -webkit-text-size-adjust:100%; -ms-text-size-adjus=
+t:100%">Walker Willse has been living and working in Cayman since September=
+ 2017. As Vice-President of Business Development, Walker led efforts to rai=
+se&nbsp;<a href=3D"https://www.caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM=
+0W664Vf37_z_KC0/*Vd139s7HYBV_W4_ZQRq6xnf6Y0/5/f18dQhb0S8328XJ8K-W8lsK1w2qwv=
+1SVJM-SJ2st9DwMf5mldXD6prW7cmS1s7-4zB7W25xmrV6c01N0W90G7th8S23M9N2yJF1WYT2j=
+kW6P4lCX3Vpx8-W7NrMZs3ndm6jW49WVtr3VVg3wW5BZwqM4Z09TjW57-WqM3H_PtyW2DzCtR1y=
+BNXJW34y1bx3Bp33-VKq1kD5qmt5TW84CSNt3-tQ7bW5xs7sG5j3z5XW91s1B15qmrqRW5YxfrK=
+5j0sjCW7PdLQD5lX3G2W2kdj5T7TBSpsW3-MMSn1s1z2-W7j7B_y7nPdvRW8Ws7qr8Q7ZRHW3ZF=
+PM56PbTqBW58V_-946p5q0W3ygvH88c3mpgW8ggl2M4hqdYkW1GmkbZ7z2LRRW5hfR428jR87XW=
+8hcnPV388lrHVMVTc24jwgX9W8NcRvB5qRssCN9dKwfG9XfwsD7s2GRVCQNf54xwHx03" style=
+=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%" data-hs-link-=
+id=3D"0" target=3D"_blank">Kowala's</a>&nbsp;initial seed round, and is cur=
+rently running the sales office and developing strategic partnerships withi=
+n the greater Cryptocurrency and Blockchain ecosystem. CEC sat down with Wa=
+lker to discuss...</p></td>=0D=0A    </tr>=0D=0A    <tr>=0D=0A       <td st=
+yle=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-=
+lspace:0pt; mso-table-rspace:0pt"></td>=0D=0A        <td style=3D"-webkit-t=
+ext-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-=
+table-rspace:0pt">=0D=0A            =0D=0A              <!--[if mso]>=0D=0A=
+    <v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:s=
+chemas-microsoft-com:office:word" href=3D"https://www.caymanenterprisecity.=
+com/blog/walker-willse-blockchain " style=3D"height:40px;v-text-anchor:midd=
+le;width:200px;" arcsize=3D"10%" stroke=3D"f" fillcolor=3D"#E6690E">=0D=0A =
+       <w:anchorlock/>=0D=0A        <center style=3D"font-size: 14px; font-=
+family: Helvetica, Arial, sans-serif; font-weight: bold; color: #ffffff; te=
+xt-decoration: none;">=0D=0A           Read More  =0D=0A        </center>=
+=0D=0A    </v:roundrect>=0D=0A    <![endif]-->=0D=0A    <!--[if !mso]> <!--=
+>=0D=0A            =0D=0A             <table border=3D"0" bordercolor=3D"#f=
+fffff" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-text-size-adjus=
+t:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0=
+pt; border-collapse:collapse !important">=0D=0A              <tbody><tr>=0D=
+=0A                <td bgcolor=3D"#E6690E" style=3D"-webkit-text-size-adjus=
+t:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0=
+pt; border-radius:5px; padding:10px 10px 10px 10px"><a href=3D"https://www.=
+caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC0/*W58pbYK90f2XFW=
+5qnBZW4FGKq_0/5/f18dQhb0Sjv48YHrXgW8lsK1w2qwv1SVJM-SJ2st9DwMf5wqnXD6prW7cmS=
+1s8pCQ6vW7mG4mh51fvg_W1njGWt2ykJK9W7mNz5L4vgKM1W97S3C58yGL5LW267LyG6RN9P1W2=
+5_q5d2mxlLvW8lZ8wl2dkBRqW83_Pn-7JCxGlW81bhDK7N_KqMW11GBXT41TlcRW3TwTqz19BfX=
+KW4fCL5m5BZwqwW4Z09Tj57-WqMW3H_Pty2DzCtRW1yBNXJ34y1bxN3Bp33-Kq1kDW5qmt5T84C=
+SNtW3-tQ7b5xs7sGW5j3z5X91s1B1W5qmrqR5YxfrKW5j0sjC7PdLQDW5lX3G22kdj5TW7TBSps=
+3-MMSnW1s1z2-7j7B_yW7nPdvR8Ws7qrW8Q7ZRH3ZFPM5W6PbTqB58W49KW46p5q03ygvH8W8c3=
+mpg8ggl2MW4hqdYk1Gl-ZLW34LgNH5PkNwpW747HxB86FkkLW6jzDlC3kcl5cW6_S5MV6K8QcHW=
+8S0QL_7hy208N1WPqF4pV_-bf1nZ96D11" style=3D"-webkit-text-size-adjust:100%; =
+-ms-text-size-adjust:100%; font-size:14px; font-family:Helvetica, Arial, sa=
+ns-serif; font-weight:bold; color:#ffffff; text-decoration:none" target=3D"=
+_blank" data-hs-link-id=3D"0">Read More  </a></td>=0D=0A              </tr>=
+=0D=0A            </tbody></table>=0D=0A       =0D=0A        <!-- <![endif]=
+-->=0D=0A        </td>=0D=0A    </tr>=0D=0A      <tr><td style=3D"-webkit-t=
+ext-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-=
+table-rspace:0pt"></td><td style=3D"-webkit-text-size-adjust:100%; -ms-text=
+-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">&nbsp;</td><=
+/tr>=0D=0A</tbody></table></div>=0D=0A</div><!--end layout-widget-wrapper -=
+->=0D=0A</div><!--end widget-span -->=0D=0A   </td>=0D=0A           </tr>=
+=0D=0A    </tbody></table>=0D=0A   </td>=0D=0A</tr>=0D=0A<tr>=0D=0A<td alig=
+n=3D"left" valign=3D"top" class=3D"bodyContent" width=3D"100%" colspan=3D"1=
+2" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-t=
+able-lspace:0pt; mso-table-rspace:0pt; color:#444444; font-family:sans-seri=
+f; font-size:15px; line-height:150%; text-align:left">=0D=0A<table cellpadd=
+ing=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" class=3D"templateCo=
+lumnWrapper" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:1=
+00%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !=
+important">=0D=0A            <tbody><tr>=0D=0A<td valign=3D"top" colspan=3D=
+"6" width=3D"50.0%" class=3D" column" style=3D"-webkit-text-size-adjust:100=
+%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; w=
+idth:50.0%; text-align:left; padding:0; font-family:sans-serif; font-size:1=
+5px; line-height:1.5em; color:#444444" align=3D"left">=0D=0A<div class=3D"w=
+idget-span widget-type-custom_widget " style=3D"font-size:13px;line-height:=
+normal;" data-widget-type=3D"custom_widget">=0D=0A<div class=3D"layout-widg=
+et-wrapper">=0D=0A<div id=3D"hs_cos_wrapper_module_1523021951330156" class=
+=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_custom_widget"=
+ style=3D"color: inherit; font-size: inherit; line-height: inherit;" data-h=
+s-cos-general-type=3D"widget" data-hs-cos-type=3D"custom_widget"><table cel=
+lspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"-webkit-text-size-ad=
+just:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspac=
+e:0pt; border-collapse:collapse !important">=0D=0A    <tbody><tr>=0D=0A    =
+    <td align=3D"right" style=3D"-webkit-text-size-adjust:100%; -ms-text-si=
+ze-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">=0D=0A    <img =
+class=3D"email-image-article-left" style=3D"vertical-align:bottom; -ms-inte=
+rpolation-mode:bicubic; width=3D" 300"=3D"" src=3D"https://www.caymanenterp=
+risecity.com/hs-fs/hubfs/Newsletter%20Image%20(300x180)%20Breakfast%20in%20=
+the%20City-1.jpg=3Ft=3D1530739259708&amp;height=3D180&amp;name=3DNewsletter=
+%20Image%20(300x180)%20Breakfast%20in%20the%20City-1.jpg" height=3D"180" al=
+t=3D"New_Zone_Building_CEC.png">=0D=0A</td>=0D=0A    </tr>=0D=0A    <tr>=0D=
+=0A        <td class=3D"article-heading" style=3D"-webkit-text-size-adjust:=
+100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt=
+; padding-top:10px"><strong><font face=3D"Open Sans, Arial, Helvetica, sans=
+-serif" size=3D"3" color=3D"#3b3a44">CEC's New Zone Building</font></strong=
+></td>=0D=0A    </tr>=0D=0A     <tr>=0D=0A        <td class=3D"teaser" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt"><p style=3D"margin-bottom: 1em; -webkit-tex=
+t-size-adjust:100%; -ms-text-size-adjust:100%">We celebrated the move to CE=
+C's new facility with a =E2=80=9CBreakfast in the City=E2=80=9D.&nbsp;The n=
+ewly renovated Strathvale House boasts panoramic views of the George Town h=
+arbour and state-of-the-art facilities including =E2=80=93 community work s=
+paces, numerous collaboration spaces and work lounges with shared caf=C3=A9=
+ facilities that all complement work flexibility. Get in touch if you=E2=80=
+=99re interested in taking a tour!</p></td>=0D=0A    </tr>=0D=0A    <tr>=0D=
+=0A        <td style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust=
+:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">=0D=0A        =0D=0A    =
+       <!--[if mso]>=0D=0A    <v:roundrect xmlns:v=3D"urn:schemas-microsoft=
+-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" href=3D"https:/=
+/www.facebook.com/CaymanEnterpriseCity/posts/1823822334328320 " style=3D"he=
+ight:40px;v-text-anchor:middle;width:200px;" arcsize=3D"10%" stroke=3D"f" f=
+illcolor=3D"#E6690E">=0D=0A        <w:anchorlock/>=0D=0A        <center sty=
+le=3D"font-size: 14px; font-family: Helvetica, Arial, sans-serif; font-weig=
+ht: bold; color: #ffffff; text-decoration: none;">=0D=0A           SEE MORE=
+ =0D=0A        </center>=0D=0A    </v:roundrect>=0D=0A    <![endif]-->=0D=
+=0A    <!--[if !mso]> <!-->=0D=0A            =0D=0A             <table bord=
+er=3D"0" bordercolor=3D"#ffffff" cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lsp=
+ace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important">=0D=0A =
+             <tbody><tr>=0D=0A                <td bgcolor=3D"#E6690E" style=
+=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lsp=
+ace:0pt; mso-table-rspace:0pt; border-radius:5px; padding:10px 10px 10px 10=
+px"><a href=3D"https://www.caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W66=
+4Vf37_z_KC0/*W37bbd-8MnDMDW11fXvn8DVSdc0/5/f18dQhb0Sjv88YHs-8W8lsK1w2qwv1SV=
+JM-SJ2st9DwMf5np6XD6prW7cmS1s8pCQ6vW3TdKBL2JZXTNW4vgKM198TyKfW6P4hSn4r1Pl9V=
+bpJNm6c2kj1W5tXtbk7b_m6lN4Wzv6bQZgwHN7d-k6zRYybKW90G7th8S23M9N2yJF1WYT2jkW6=
+P4lCX3Vpx8-W7NrMZs3ndm6jW49qr7K6V4mdxVK9fZX5rkYxhVMMQxX80gSRfW97rB1b8xr3pFN=
+28nqLG_sVvWW6LwdBY3Hvr5gW2BjBVT5J5tt6VLXgrR8kXVYMW3PpYXg3JdxYbW5tbb5V6078H6=
+W8qT2sg3HMBkLW6Pt3X14XzY72W6Sgdh03gV5wRVRbHdf8p_NbXVhB11m4Yy76fW29qLbl7vx1m=
+qW9gHX3H73QsnmW1d5pgb4NB9wbW1RljFy21YgKDW8lKNy-1wRS6NW5bdPW64DyKWSW7d4jQ-4L=
+m7wSW3Q9--f42M91RW51Sg_11KZHw7W3y19vM3wMXFCV1s-8S97XyQY103" style=3D"-webki=
+t-text-size-adjust:100%; -ms-text-size-adjust:100%; font-size:14px; font-fa=
+mily:Helvetica, Arial, sans-serif; font-weight:bold; color:#ffffff; text-de=
+coration:none" target=3D"_blank" data-hs-link-id=3D"0">SEE MORE </a></td>=
+=0D=0A              </tr>=0D=0A            </tbody></table>=0D=0A       =0D=
+=0A        <!-- <![endif]-->=0D=0A            =0D=0A        </td>=0D=0A    =
+</tr>=0D=0A    <tr><td style=3D"-webkit-text-size-adjust:100%; -ms-text-siz=
+e-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">&nbsp;</td></tr>=
+=0D=0A</tbody></table></div>=0D=0A</div><!--end layout-widget-wrapper -->=
+=0D=0A</div><!--end widget-span -->=0D=0A   </td>=0D=0A<td valign=3D"top" c=
+olspan=3D"6" width=3D"50.0%" class=3D" column" style=3D"-webkit-text-size-a=
+djust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspa=
+ce:0pt; width:50.0%; text-align:left; padding:0; font-family:sans-serif; fo=
+nt-size:15px; line-height:1.5em; color:#444444" align=3D"left">=0D=0A<div c=
+lass=3D"widget-span widget-type-custom_widget " style=3D"font-size:13px;lin=
+e-height:normal;" data-widget-type=3D"custom_widget">=0D=0A<div class=3D"la=
+yout-widget-wrapper">=0D=0A<div id=3D"hs_cos_wrapper_module_152301987635795=
+" class=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_custom_=
+widget" style=3D"color: inherit; font-size: inherit; line-height: inherit;"=
+ data-hs-cos-general-type=3D"widget" data-hs-cos-type=3D"custom_widget"><ta=
+ble cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"-webkit-text-=
+size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-tabl=
+e-rspace:0pt; border-collapse:collapse !important">=0D=0A    <tbody><tr>=0D=
+=0A        <td width=3D"10" bgcolor=3D"#FEC611" style=3D"-webkit-text-size-=
+adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rsp=
+ace:0pt">&nbsp;</td>=0D=0A        <td align=3D"left" style=3D"-webkit-text-=
+size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-tabl=
+e-rspace:0pt">=0D=0A        =0D=0A        <img class=3D"email-image-article=
+" src=3D"https://www.caymanenterprisecity.com/hs-fs/hubfs/Newsletter%20Imag=
+e%20(300x180)%20Youth%20Cup.jpg=3Ft=3D1530739259708&amp;width=3D300&amp;hei=
+ght=3D180&amp;name=3DNewsletter%20Image%20(300x180)%20Youth%20Cup.jpg" widt=
+h=3D"300" height=3D"180" alt=3D"CEC_Outreach.png" srcset=3D"https://www.cay=
+manenterprisecity.com/hs-fs/hubfs/Newsletter%20Image%20(300x180)%20Youth%20=
+Cup.jpg=3Ft=3D1530739259708&amp;width=3D300&amp;height=3D180&amp;name=3DNew=
+sletter%20Image%20(300x180)%20Youth%20Cup.jpg 300w, https://www.caymanenter=
+prisecity.com/hs-fs/hubfs/Newsletter%20Image%20(300x180)%20Youth%20Cup.jpg=
+=3Ft=3D1530739259708&amp;width=3D600&amp;height=3D360&amp;name=3DNewsletter=
+%20Image%20(300x180)%20Youth%20Cup.jpg 600w" sizes=3D"(max-width: 300px) 10=
+0vw, 300px" style=3D"vertical-align:bottom; -ms-interpolation-mode:bicubic"=
+>=0D=0A        =0D=0A        </td>=0D=0A    </tr>=0D=0A    <tr>=0D=0A      =
+ <td style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso=
+-table-lspace:0pt; mso-table-rspace:0pt"></td>=0D=0A        <td class=3D"ar=
+ticle-heading" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust=
+:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; padding-top:10px"><stron=
+g><font face=3D"Open Sans, Arial, Helvetica, sans-serif" size=3D"3" color=
+=3D"#3b3a44">CEC Sponsors Youth Cup </font></strong></td>=0D=0A    </tr>=0D=
+=0A     <tr>=0D=0A       <td style=3D"-webkit-text-size-adjust:100%; -ms-te=
+xt-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt"></td>=0D=
+=0A        <td class=3D"teaser" style=3D"-webkit-text-size-adjust:100%; -ms=
+-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt"><p styl=
+e=3D"margin-bottom: 1em; -webkit-text-size-adjust:100%; -ms-text-size-adjus=
+t:100%">More than 180 rising football stars showcased their skills on the p=
+itch at the 2018 Cayman Airways Under-13 Youth Cup hosted by Academy Sports=
+ Club. The tournament featured three local teams facing opposition from Jam=
+aica and the US. CEC is a proud sponsor of the event. We believe that youth=
+ sports are a fantastic way for children to explore and develop lifelong sk=
+ills.</p></td>=0D=0A    </tr>=0D=0A    <tr>=0D=0A       <td style=3D"-webki=
+t-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; m=
+so-table-rspace:0pt"></td>=0D=0A        <td style=3D"-webkit-text-size-adju=
+st:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:=
+0pt">=0D=0A            =0D=0A              <!--[if mso]>=0D=0A    <v:roundr=
+ect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-micros=
+oft-com:office:word" href=3D"http://caymanyouthcup.ky/" style=3D"height:40p=
+x;v-text-anchor:middle;width:200px;" arcsize=3D"10%" stroke=3D"f" fillcolor=
+=3D"#E6690E">=0D=0A        <w:anchorlock/>=0D=0A        <center style=3D"fo=
+nt-size: 14px; font-family: Helvetica, Arial, sans-serif; font-weight: bold=
+; color: #ffffff; text-decoration: none;">=0D=0A           LEARN MORE =0D=
+=0A        </center>=0D=0A    </v:roundrect>=0D=0A    <![endif]-->=0D=0A   =
+ <!--[if !mso]> <!-->=0D=0A            =0D=0A             <table border=3D"=
+0" bordercolor=3D"#ffffff" cellspacing=3D"0" cellpadding=3D"0" style=3D"-we=
+bkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt=
+; mso-table-rspace:0pt; border-collapse:collapse !important">=0D=0A        =
+      <tbody><tr>=0D=0A                <td bgcolor=3D"#E6690E" style=3D"-we=
+bkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt=
+; mso-table-rspace:0pt; border-radius:5px; padding:10px 10px 10px 10px"><a =
+href=3D"https://www.caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf37_z=
+_KC0/*W75xt2F8fKNk3W6JzDns5mb9Bj0/5/f18dQhb0S83d8YXMXYW8lsK1w2qwv1SVJM-SJ2s=
+t9DwMf5jxxXD6prW39Dr-f51t8-NW4rWxyL1mbZbyVbQTxf999f65W6PVJWy625bx1W6Gj8TS6b=
+Vy-5N25hvjFHZ5KNW5D8zFF5m3ZGGW96dt4S4r1QvYVDPjSr8gjY6LW8WBKbV56sy_8W2NhXFJ3=
+q7bztW7Jqbq01ysYy7W1Gr0gC1f-XgJW2Sjvk41fPVKyW2dVCMQ4zmpp2W4yj90M30T_37N7HTy=
+vG4C1MVW2b-hsX5_zj0yN6yWRrYr4fdLW2LcSK22sqJtNW6XdY9T5ZcqL8W83B2N57686KJN4lB=
+Z6F5q3JCW96jTfB4Pw1VkN2sbPxnb2vcLW3CK3TF41W038N3sm0yM10NbdW5x6QXX3kLpkwW5S6=
+_j521Pb-pW64Sky49g8-gPW10xK0c4WbSGMW8x21xR1MWhN-W1MKdbc606Zj2111" style=3D"=
+-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; font-size:14px; f=
+ont-family:Helvetica, Arial, sans-serif; font-weight:bold; color:#ffffff; t=
+ext-decoration:none" target=3D"_blank" data-hs-link-id=3D"0">LEARN MORE </a=
+></td>=0D=0A              </tr>=0D=0A            </tbody></table>=0D=0A    =
+   =0D=0A        <!-- <![endif]-->=0D=0A        </td>=0D=0A    </tr>=0D=0A =
+     <tr><td style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:1=
+00%; mso-table-lspace:0pt; mso-table-rspace:0pt"></td><td style=3D"-webkit-=
+text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso=
+-table-rspace:0pt">&nbsp;</td></tr>=0D=0A</tbody></table></div>=0D=0A</div>=
+<!--end layout-widget-wrapper -->=0D=0A</div><!--end widget-span -->=0D=0A =
+  </td>=0D=0A           </tr>=0D=0A    </tbody></table>=0D=0A   </td>=0D=0A=
+</tr>=0D=0A<tr>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent=
+" width=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms=
+-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#=
+444444; font-family:sans-serif; font-size:15px; line-height:150%; text-alig=
+n:left">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=
+=3D"100%" class=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust=
+:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0p=
+t; border-collapse:collapse !important">=0D=0A            <tbody><tr>=0D=0A=
+<td valign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" style=
+=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lsp=
+ace:0pt; mso-table-rspace:0pt; width:100.0%; text-align:left; padding:0; fo=
+nt-family:sans-serif; font-size:15px; line-height:1.5em; color:#444444; pad=
+ding:0px 0px 0px 0px" align=3D"left">=0D=0A<table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust:1=
+00%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt;=
+ border-collapse:separate !important; border-spacing:0; background-color:#f=
+fffff" class=3D"article-heading columnContentTable" bgcolor=3D"#ffffff"><tb=
+ody><tr><td align=3D"left" valign=3D"top" class=3D"columnContent widget-spa=
+n widget-type-text" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-a=
+djust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; padding-right:20px;=
+ padding-left:20px; text-align:left; padding:0; font-family:sans-serif; fon=
+t-size:15px; line-height:1.5em; color:#444444; padding-top:10px; font-weigh=
+t:bold; padding-bottom:10px; font-size:16px; padding:0px 0px 0px 0px" data-=
+widget-type=3D"text">=0D=0A<div class=3D"layout-widget-wrapper">=0D=0A<div =
+id=3D"hs_cos_wrapper_module_1523022576568163" class=3D"hs_cos_wrapper hs_co=
+s_wrapper_widget hs_cos_wrapper_type_text" style=3D"color: inherit; font-si=
+ze: inherit; line-height: inherit;" data-hs-cos-general-type=3D"widget" dat=
+a-hs-cos-type=3D"text">Jobs at Cayman Enterprise City</div>=0D=0A</div><!--=
+end layout-widget-wrapper -->=0D=0A</td></tr></tbody></table><!--end widget=
+-table -->=0D=0A   </td>=0D=0A           </tr>=0D=0A    </tbody></table>=0D=
+=0A   </td>=0D=0A</tr>=0D=0A<tr>=0D=0A<td align=3D"left" valign=3D"top" cla=
+ss=3D"bodyContent" width=3D"100%" colspan=3D"12" style=3D"-webkit-text-size=
+-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rs=
+pace:0pt; color:#444444; font-family:sans-serif; font-size:15px; line-heigh=
+t:150%; text-align:left">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" b=
+order=3D"0" width=3D"100%" class=3D"templateColumnWrapper" style=3D"-webkit=
+-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; ms=
+o-table-rspace:0pt; border-collapse:collapse !important">=0D=0A            =
+<tbody><tr>=0D=0A<td valign=3D"top" colspan=3D"12" width=3D"100.0%" class=
+=3D" column" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:1=
+00%; mso-table-lspace:0pt; mso-table-rspace:0pt; width:100.0%; text-align:l=
+eft; padding:0; font-family:sans-serif; font-size:15px; line-height:1.5em; =
+color:#444444" align=3D"left">=0D=0A<div class=3D"widget-span widget-type-c=
+ustom_widget " style=3D"" data-widget-type=3D"custom_widget">=0D=0A<div cla=
+ss=3D"layout-widget-wrapper">=0D=0A<div id=3D"hs_cos_wrapper_module_1523625=
+932884103" class=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_typ=
+e_custom_widget" style=3D"color: inherit; font-size: inherit; line-height: =
+inherit;" data-hs-cos-general-type=3D"widget" data-hs-cos-type=3D"custom_wi=
+dget"> <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-t=
+able-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important"=
+>=0D=0A        <tbody><tr>=0D=0A          <td style=3D"-webkit-text-size-ad=
+just:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspac=
+e:0pt">&nbsp;</td>=0D=0A        </tr>=0D=0A</tbody></table></div>=0D=0A</di=
+v><!--end layout-widget-wrapper -->=0D=0A</div><!--end widget-span -->=0D=
+=0A   </td>=0D=0A           </tr>=0D=0A    </tbody></table>=0D=0A   </td>=
+=0D=0A</tr>=0D=0A<tr>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyC=
+ontent" width=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100=
+%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; c=
+olor:#444444; font-family:sans-serif; font-size:15px; line-height:150%; tex=
+t-align:left">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ width=3D"100%" class=3D"templateColumnWrapper" style=3D"-webkit-text-size-=
+adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rsp=
+ace:0pt; border-collapse:collapse !important">=0D=0A            <tbody><tr>=
+=0D=0A<td valign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" =
+style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-tabl=
+e-lspace:0pt; mso-table-rspace:0pt; width:100.0%; text-align:left; padding:=
+0; font-family:sans-serif; font-size:15px; line-height:1.5em; color:#444444=
+; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px" align=3D"left">=0D=0A<ta=
+ble cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" style=
+=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lsp=
+ace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important">=0D=0A =
+   <tbody><tr>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent"=
+ width=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-=
+text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#4=
+44444; font-family:sans-serif; font-size:15px; line-height:150%; text-align=
+:left">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=
+=3D"100%" class=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust=
+:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0p=
+t; border-collapse:collapse !important">=0D=0A                <tbody><tr>=
+=0D=0A<td valign=3D"top" colspan=3D"3" width=3D"25.0%" class=3D" column" st=
+yle=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-=
+lspace:0pt; mso-table-rspace:0pt; width:25.0%; text-align:left; padding:0; =
+font-family:sans-serif; font-size:15px; line-height:1.5em; color:#444444" a=
+lign=3D"left">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ width=3D"100%" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjus=
+t:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collaps=
+e !important">=0D=0A        <tbody><tr>=0D=0A<td align=3D"left" valign=3D"t=
+op" class=3D"bodyContent" width=3D"100%" colspan=3D"12" style=3D"-webkit-te=
+xt-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-t=
+able-rspace:0pt; color:#444444; font-family:sans-serif; font-size:15px; lin=
+e-height:150%; text-align:left">=0D=0A<table cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"100%" class=3D"templateColumnWrapper" style=3D=
+"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace=
+:0pt; mso-table-rspace:0pt; border-collapse:collapse !important">=0D=0A    =
+                <tbody><tr>=0D=0A<td valign=3D"top" colspan=3D"12" width=3D=
+"100.0%" class=3D" column" style=3D"-webkit-text-size-adjust:100%; -ms-text=
+-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; width:100.0%=
+; text-align:left; padding:0; font-family:sans-serif; font-size:15px; line-=
+height:1.5em; color:#444444" align=3D"left">=0D=0A<div class=3D"widget-span=
+ widget-type-custom_widget " style=3D"" data-widget-type=3D"custom_widget">=
+=0D=0A<div class=3D"layout-widget-wrapper">=0D=0A<div id=3D"hs_cos_wrapper_=
+module_1523022874516203" class=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_c=
+os_wrapper_type_custom_widget" style=3D"color: inherit; font-size: inherit;=
+ line-height: inherit;" data-hs-cos-general-type=3D"widget" data-hs-cos-typ=
+e=3D"custom_widget">=0D=0A    <img class=3D"meet-member-image" src=3D"https=
+://www.caymanenterprisecity.com/hs-fs/hubfs/newsletter/Job%20Vacancies%20(2=
+00x300).png=3Ft=3D1530739259708&amp;width=3D200&amp;name=3DJob%20Vacancies%=
+20(200x300).png" width=3D"200" alt=3D"Meet our member!" srcset=3D"https://w=
+ww.caymanenterprisecity.com/hs-fs/hubfs/newsletter/Job%20Vacancies%20(200x3=
+00).png=3Ft=3D1530739259708&amp;width=3D200&amp;name=3DJob%20Vacancies%20(2=
+00x300).png 200w, https://www.caymanenterprisecity.com/hs-fs/hubfs/newslett=
+er/Job%20Vacancies%20(200x300).png=3Ft=3D1530739259708&amp;width=3D400&amp;=
+name=3DJob%20Vacancies%20(200x300).png 400w" sizes=3D"(max-width: 200px) 10=
+0vw, 200px" style=3D"vertical-align:bottom; -ms-interpolation-mode:bicubic"=
+>=0D=0A</div>=0D=0A</div><!--end layout-widget-wrapper -->=0D=0A</div><!--e=
+nd widget-span -->=0D=0A           </td>=0D=0A                   </tr>=0D=
+=0A            </tbody></table>=0D=0A           </td>=0D=0A       </tr>=0D=
+=0A    </tbody></table>=0D=0A   </td>=0D=0A<td valign=3D"top" colspan=3D"9"=
+ width=3D"75.0%" class=3D" column" style=3D"-webkit-text-size-adjust:100%; =
+-ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; widt=
+h:75.0%; text-align:left; padding:0; font-family:sans-serif; font-size:15px=
+; line-height:1.5em; color:#444444" align=3D"left">=0D=0A<table cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" style=3D"-webkit-text-=
+size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-tabl=
+e-rspace:0pt; border-collapse:collapse !important">=0D=0A        <tbody><tr=
+>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent" width=3D"100=
+%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adj=
+ust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#444444; font-f=
+amily:sans-serif; font-size:15px; line-height:150%; text-align:left">=0D=0A=
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" clas=
+s=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100%; -ms-tex=
+t-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-coll=
+apse:collapse !important">=0D=0A                    <tbody><tr>=0D=0A<td va=
+lign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" style=3D"-we=
+bkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt=
+; mso-table-rspace:0pt; width:100.0%; text-align:left; padding:0; font-fami=
+ly:sans-serif; font-size:15px; line-height:1.5em; color:#444444" align=3D"l=
+eft">=0D=0A<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"100%" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; m=
+so-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:separate !import=
+ant; border-spacing:0; background-color:#ffffff" class=3D"meet-member colum=
+nContentTable" bgcolor=3D"#ffffff"><tbody><tr><td align=3D"left" valign=3D"=
+top" class=3D"columnContent widget-span widget-type-rich_text" style=3D"-we=
+bkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt=
+; mso-table-rspace:0pt; padding-top:20px; padding-right:20px; padding-botto=
+m:20px; padding-left:20px; text-align:left; padding:0; font-family:sans-ser=
+if; font-size:15px; line-height:1.5em; color:#444444; font-size:13px; line-=
+height:normal; padding:0px 0px 0px 20px" data-widget-type=3D"rich_text">=0D=
+=0A<div class=3D"layout-widget-wrapper">=0D=0A<div id=3D"hs_cos_wrapper_mod=
+ule_1523022500223157" class=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_=
+wrapper_type_rich_text" style=3D"color: inherit; font-size: inherit; line-h=
+eight: inherit;" data-hs-cos-general-type=3D"widget" data-hs-cos-type=3D"ri=
+ch_text"><p style=3D"margin-bottom: 1em; -webkit-text-size-adjust:100%; -ms=
+-text-size-adjust:100%"><strong>Current&nbsp;<strong>Vacancies</strong></st=
+rong></p>=0D=0A<p style=3D"margin-bottom: 1em; -webkit-text-size-adjust:100=
+%; -ms-text-size-adjust:100%"><a href=3D"https://www.caymanenterprisecity.c=
+om/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC0/*W4WR2YZ3kJRhXW1nN_dq8lvVf20/5/f18dQh=
+b0Sjvj8YHs-8W8lsK1w2qwv1SVJM-SJ2st9DwMf5gNKXD6prW7cmS1s3hxns_W4vgxWp6P4hShN=
+4r1Pl9bpJNmW6c0dXV5sYwFXW6Ngyd18Z3T1TW5Z876f8hy4WPW9dt7q58fYzQYW3B-9lX51P78=
+yW2HVTVL4DqHqzW6dgmw34yv2r0W3MlV2W1Df0XLW6yBPHz1ddcGDW1X3H4H7SR2c9W8nmgZs4y=
+c3CKW3sSDqD5kmcLGW2Jb9Qh2Nj19_W3jZ2H94Vt_srW2xKM374Sj96kW2JrN-K4S1CffW3NPs7=
+65f5yb1W2Wsc4Q3VNY4kW3j7lcF3xdNMnW3NPZwS5rflr1W6GYcPX2pGrxqW6bBDZd68f87nW3b=
+rQd55qZkCYW3ltRXZ3f1VRxW6p0MM07cf2BJW2jLVjf22TNxnV9Mb5m46SxKwW8qfTz78q-mqZW=
+6Vgws41nCrbgW8SffvS2XKWY1W4qqZ_z46kmPPW6j5Rxh6m1_rlW7Gjw0y4V9-26VrVprC56gBW=
+-W75qXM833MjNb0" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adju=
+st:100%" data-hs-link-id=3D"0" target=3D"_blank">General Support Specialist=
+</a></p>=0D=0A<p style=3D"margin-bottom: 1em; -webkit-text-size-adjust:100%=
+; -ms-text-size-adjust:100%"><a href=3D"https://www.caymanenterprisecity.co=
+m/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC0/*W85Cd871j7XnRW5QtLWL4sgVst0/5/f18dQhb=
+0S5fk8YHtvCW8lsK1w2qwv1SVJM-SJ2st9DwMf5sCHXD6prW7cmS1s3hxns_W4vgxWp6P4hShN4=
+r1Pl9bpJNmW6c0dXV5sYwFXW6Ngyd18hTGdzW8V035P85JhtbW7t-2D61fQln5W9bTNXY953-jP=
+W5ZpycS57-ZBTW83C5JP1ZJ1PKW3VKVtL6mGWN2W24KcB43sxsmTW4bBK5D62nGyhW7d094f6G7=
+FblW4DFfS36R86Y5N7xYxqDdns5sW8KJ98y3gp5NMW5knnby3M3sJsW4W0GC_95jzm4VY6csy3g=
+4K4_W8nDLY18wTBMyW95z1WD7Zw5_4W8KYQwC3B8LwwN6mVKMTScfSHW4VCvVm24wNLCV2X4H15=
+WbSp7W5brc741W6h2BW4Gsj5H45Ly2MVkwRPg8cKx0zW7tqgDM7vRS-wW4rns532LdjVlW8knF6=
+h5SrpnrW8RSwCf8bHb4nW3h4kBD3l-641N5Zw72Zrf19FMVMPVbVrLq8W4W_lxd2SX1M40" sty=
+le=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%" data-hs-lin=
+k-id=3D"0" target=3D"_blank">Software Engineer</a></p>=0D=0A<p style=3D"mar=
+gin-bottom: 1em; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%">=
+<a href=3D"https://www.caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf3=
+7_z_KC0/*W4dRMP87bGZ77W2Qr_bm1xBJlC0/5/f18dQhb0S5fw8XJ9l8W8lsK1w2qwv1SVJM-S=
+J2st9DwMf5fmTXD6prW7cmS1s3hxns_W4vgxWp6P4hShN4r1Pl9bpJNmW6c0dXV5sYwFXW6Ngyd=
+17sGjJdW5ZBHl08l0cyqW5Z8v441g30yRW5mNLNs9dSlS6W35rgCl94-4T0N7sLbG-FCG-jW5rC=
+5Q63l6ccQW8lRrKD4r1QvYW1YQ--58gjY6LW8WBKbV56sy_8W2NhXFJ3q7bztW7Jqbq01ysYy7W=
+1Gr0gC1f-XgJW2Sjvk41fPVKyW2dVCMQ4zmpp2W4yj90M30T_37N7HTyvG4C1MVW2b-hsX5_zj0=
+yN6yWRrYr4fdLW2LcSK22sqJtNW6XdY9T5ZcqL8W83B2N57686KJN4lBZ6F5q4xFW9gc2gk4Pw1=
+VkN2sbPxnb2vcLW3CK3TF41W00PW7kntT431GHfxW11mKWS9f5rQHN534DQK5CRDWW7zn_ZJ85v=
+l8nVHCz343tVv1SW723QB271wShbM1cw6yC4ctg103" style=3D"-webkit-text-size-adju=
+st:100%; -ms-text-size-adjust:100%" data-hs-link-id=3D"0" target=3D"_blank"=
+>IT Project Manager</a></p>=0D=0A<p style=3D"margin-bottom: 1em; -webkit-te=
+xt-size-adjust:100%; -ms-text-size-adjust:100%"><a href=3D"https://www.caym=
+anenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC0/*VZKzqb74k9TJN2cM3h=
+Z3BLT70/5/f18dQhb0Smh_8XJ8n0W8lsK1w2qwv1SVJM-SJ2st9DwMf59TdXD6prW7cmS1s3hxn=
+s_W4vgxWp6P4hShN4r1Pl9bpJNmW6c0dXV5sYwFXW6Ngy9G2scV8hW4CB5ys83_Pn-W7JCxGl81=
+bhDKW7N_KqM11GtpLW520N2H7v70tSW2Hyb604yWM1qMHd1g4zV2fGVYSX-57m_B1RW5c8d-S37=
+85fRW6c29kV7bMf9wW1qR2zv1wBCSwW6R6f2q7YZ9VwW1JPRqP1f1GWPW8JPCGx1wBynJW2yX9q=
+t1dX1LQW6cn1cs1nHQXVW4Fs9M56n3QRNW7Zw5hV2T48cVW5ccb465sr7DrW8pRgXW8fb2NZW7Z=
+fKwN49kJcmW5PwLBQ74t_l9W4M11334H_8knW55HbNm7TtlLyN6Jm0SgNrWBLN4r5l5jhd3sYW4=
+tc2ZG6z1JwGW3XKFLJ9h6JgKW84tl4k7dN54QW12VfnR7D7HxjW1Dy_KC2Yr3gQf1WCRGg04" s=
+tyle=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%" data-hs-l=
+ink-id=3D"0" target=3D"_blank">Business Analyst</a></p>=0D=0A<p style=3D"ma=
+rgin-bottom: 1em; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%"=
+><a href=3D"https://www.caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf=
+37_z_KC0/*W2JLMQ93-z9X7W8XB4ZJ8NRbWv0/5/f18dQhb0Sjv78Y9YsWW7mPw3H4T_wzTW1pw=
+ZJn4WYmf0Msd1hzXD6prW7cmS1s3hxns_W4vgxWp6P4hShN4r1Pl9bpJNmW6c0dXV5sYwFXW6Ng=
+yd18hz0-nW9cvbt-9dCSbFW79-G0D7NMts8W6WBhV-85kfVqW8mJ8Tj7bj4QwW9bTNXY953-jPW=
+5ZpycS57-ZBTW83C5JP1ZJ1PKW3VKVtL6mGWN2W24Kczw3sxGBGVlz9s331bx-4N5Vz2FFbq5fx=
+W4TKc2l5vknfMW2h7WlF2zh2DMW5blQz93Lp5Q3W63RTJj3Sjx0JN7yHmHJ2sLR_W3LLCpZ2hFk=
+zfN3M3v8NFyfK9W1dkSY16mY_9-W6n_GWy8pT5gKW2JjHXC8x-yd9N5CCZLZdtmGwW4rCfYk2xW=
+qVdW1bBvW34KJHQVW49W47x3Cdk0dW3wv7Sm6xYSPfW2VtKnW7SRk0pVhLCzn2nRzM3W57_hd15=
+5vtZNW3mqjlV2_yF3DW7M_9P66_zxsSW2_43W68VyH3vMLG01PrTzpYV1Zchj2l_Hs8103" sty=
+le=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%" data-hs-lin=
+k-id=3D"0" target=3D"_blank">Senior Software Engineer, Blockchain</a></p>=
+=0D=0A<p style=3D"margin-bottom: 1em; -webkit-text-size-adjust:100%; -ms-te=
+xt-size-adjust:100%"><a href=3D"https://www.caymanenterprisecity.com/e1t/c/=
+*W5z-fTR1RYNM0W664Vf37_z_KC0/*W3VsfhP6zRc-SN37xsq9nbq3F0/5/f18dQhb0S5fm8YHr=
+nRW8lsK1w2qwv1SVJM-SJ2st9DwMf5l_gXD6prW7cmS1s3hxns_W4vgxWp6P4hShN4r1Pl9bpJN=
+mW6c0dXV5sYwFXW6Ngyd18hTGdzW8V035P85JhtbW7t-2D61g30yRW5mNLNs9dSlS6W35rgCl94=
+-4T0W7sLbJl3dv1SsW3M3KtL2qttr9W3Q_r3G6lxcxZW8-s9Ht94q7cqW6VKJl21hC_8gW5lppD=
+N5xBD_5N6BX7shmVzxhN55pD7SkvtgwN5nVz28jZkxmW7ByrHH193MX5W5RTyc97NyrJ1W6CgHr=
+g72tyq0W7Bz23f1tqgzcW3-MzKr4NlkFnW305g4d2ZnSPdW6qSLtN1vQbLlW6KYcm46s5d7TW3q=
+Y34d55lNJfW4Bwc5j45Ly2MVkwRPg8cKx0zW7tqgDM7vRS-wW95XyBw2LdjVlW8knF6h5SrpnrW=
+8RSwCf8bHb4nW3h4kBD3l-641N5Zw72Zrf19FMVMPVbVrLq8W43sPJd2L_pdx0" style=3D"-w=
+ebkit-text-size-adjust:100%; -ms-text-size-adjust:100%" data-hs-link-id=3D"=
+0" target=3D"_blank">Software Engineer</a></p>=0D=0A<p style=3D"margin-bott=
+om: 1em; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%"><a href=
+=3D"https://www.caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC0=
+/*W5hhqdp872mYbW73x-X63TNq7l0/5/f18dQhb0Sjvd8XJ8QKW8lsK1w2qwv1SVJM-SJ2st9Dw=
+Mf598jXD6prW7cmS1s3hxns_W4vgxWp6P4hShN4r1Pl9bpJNmW6c0dXV5sYwFXW6Ngyd18hTGdz=
+W8V035P85JhtbW7t-2D61gPXq4W618N5Y4CB5ysW83_Pn-7JCxGlW81bhDK7N_KqMW11GtpL520=
+N2HW7v70tS2Hyb60W4yWB7m1nq9s9W17M4wj1VJrykW5lX8fq13bD4hW6dkdDB310lSxW52p1Zd=
+2QG7dXW319cJ04f83P_W6xPXmd3mCHTNW2v3kWj82tMXgW3194HF55RlXHW2rSw-q33FC16W2Nm=
+csV9dXpwpW3r0jhk6wYbHPW5M6rnB13jwmBW1yMRS47sy5s0W75j5LH6wrr6zW8nDXS82fYFzwN=
+4QT5PZ6Y9ktLTrHDTdZcHW6mSf3j41CBb0W4vK2Zs8TbH5TVzs70C8Yq5RzW3PYv1-7VpR-zW99=
+8-fB6QScH6W58nTQp23NZmbW5V9WFR3f5_rbW7BrB3N2F3MK-0" style=3D"-webkit-text-s=
+ize-adjust:100%; -ms-text-size-adjust:100%" data-hs-link-id=3D"0" target=3D=
+"_blank">Software Engineer =E2=80=93 Mobile</a></p>=0D=0A<p style=3D"margin=
+-bottom: 1em; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%"><a =
+href=3D"https://www.caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf37_z=
+_KC0/*N4zy6k2jVkFMW7-p-xT4Yf7_60/5/f18dQhb0Sjvg8YHsrKW8lsK1w2qwv1SVJM-SJ2st=
+9DwMf5c-0XD6prW7cmS1s3hxns_W4vgxWp6P4hShN4r1Pl9bpJNmW6c0dXV5sYwFXW6Ngyd16Bd=
+TRHW9dtsrv8XWFPCW542x2s6WRpWNW5mkwF-7Mz72cW4CB5ys83_Pn-W7JCxGl81bhDKW7N_KqM=
+11GBXTW41TlcR3TwTqCW4J9Pmn24KcBnW3sxGzC817-BGW94q7cq6VKJl2W1hC_8g5lppDNW5xB=
+D_56BX7shVmVzxh55pD7SVkvtgw5nVz28VjZkxm7ByrHHW193MX55RTyc9W7NyrJ16CgHrgW72t=
+yq07Bz23fW1tqgzc3-MzKrW4NlkFn305g4dW2ZnSPd6qSLtNW1vQbLl6KYcm4W6s5d7T3qY36qW=
+2mMLWK4DtMCvN45Ly2MkwRPgW8cKx0z7tqgDMW7vRS-w95Zcv1W2LdjVl8knF6hW5Srpnr8RSwC=
+fW8bHb4n3h4kBDW3l-6415Zw72ZMrf19FVMPVbVVrLq86cG_77f31NNg004" style=3D"-webk=
+it-text-size-adjust:100%; -ms-text-size-adjust:100%" data-hs-link-id=3D"0" =
+target=3D"_blank">FX (Foreign exchange) Trader</a></p>=0D=0A<p style=3D"mar=
+gin-bottom: 1em; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%">=
+<a href=3D"https://www.caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf3=
+7_z_KC0/*N4gCjz2rWxwDW4hq0kF4F2HQW0/5/f18dQhb0S5fy8YHtdnW8lsK1w2qwv1SVJM-SJ=
+2st9DwMf5j9zXD6prW7cmS1s3hxns_W4vgxWp6P4hShN4r1Pl9bpJNmW6c0dXV5sYwFXW6Ngyd1=
+8V0388W589KCl35s63PW8lZ7Qq8mrPR-W3pNBvw7JtTqnW8hTJV48lwVXYW8hS2967bj1-tW5gQ=
+tZx2KQ2YYW1Gk5bt360lStW3R2MTJ6l4PRrW31by0s8hz0YsW806yj370ml3sW3q4gJT3PsM8lV=
+79vMZ4mlPTsW1FbyVV2FK6BvW6zzLjc2r1gl4N9ccLHcs42fTW1F2zhj4bk4bRW8Yvdj-9clHHP=
+W3-MyZ94nsHwpW1PBzZb7VtThyW567DVk75mX98W12fVTQ4J1c3vW7DGm4W2DbVk7W5Dhs356B7=
+Y2nW3-DmCx8csLSqW1035yc3lMWh1W5hswNt5l9_s7V10Nbd5x6QXXW3kLpkw5S6_j5W21Pb-p6=
+4Sky4W9g8-gP10xK0cW4WbSGM8x21xRW1MWhN-1MKdfhf4nVP3w11" style=3D"-webkit-tex=
+t-size-adjust:100%; -ms-text-size-adjust:100%" data-hs-link-id=3D"0" target=
+=3D"_blank">Warehouse Technician</a></p></div>=0D=0A</div><!--end layout-wi=
+dget-wrapper -->=0D=0A</td></tr></tbody></table><!--end widget-table -->=0D=
+=0A           </td>=0D=0A                   </tr>=0D=0A            </tbody>=
+</table>=0D=0A           </td>=0D=0A       </tr>=0D=0A    </tbody></table>=
+=0D=0A   </td>=0D=0A               </tr>=0D=0A        </tbody></table>=0D=
+=0A       </td>=0D=0A   </tr>=0D=0A</tbody></table>=0D=0A</td>=0D=0A       =
+    </tr>=0D=0A    </tbody></table>=0D=0A   </td>=0D=0A</tr>=0D=0A<tr>=0D=
+=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent" width=3D"100%" c=
+olspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:=
+100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#444444; font-famil=
+y:sans-serif; font-size:15px; line-height:150%; text-align:left">=0D=0A<tab=
+le cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" class=3D=
+"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100%; -ms-text-si=
+ze-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse=
+:collapse !important">=0D=0A            <tbody><tr>=0D=0A<td valign=3D"top"=
+ colspan=3D"12" width=3D"100.0%" class=3D" column" style=3D"-webkit-text-si=
+ze-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-=
+rspace:0pt; width:100.0%; text-align:left; padding:0; font-family:sans-seri=
+f; font-size:15px; line-height:1.5em; color:#444444" align=3D"left">=0D=0A<=
+div class=3D"widget-span widget-type-custom_widget " style=3D"" data-widget=
+-type=3D"custom_widget">=0D=0A<div class=3D"layout-widget-wrapper">=0D=0A<d=
+iv id=3D"hs_cos_wrapper_module_152345705466266" class=3D"hs_cos_wrapper hs_=
+cos_wrapper_widget hs_cos_wrapper_type_custom_widget" style=3D"color: inher=
+it; font-size: inherit; line-height: inherit;" data-hs-cos-general-type=3D"=
+widget" data-hs-cos-type=3D"custom_widget"> <table width=3D"100%" cellspaci=
+ng=3D"0" cellpadding=3D"0" border=3D"0" style=3D"-webkit-text-size-adjust:1=
+00%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt;=
+ border-collapse:collapse !important">=0D=0A        <tbody><tr>=0D=0A      =
+    <td style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; =
+mso-table-lspace:0pt; mso-table-rspace:0pt">&nbsp;</td>=0D=0A        </tr>=
+=0D=0A</tbody></table></div>=0D=0A</div><!--end layout-widget-wrapper -->=
+=0D=0A</div><!--end widget-span -->=0D=0A   </td>=0D=0A           </tr>=0D=
+=0A    </tbody></table>=0D=0A   </td>=0D=0A</tr>=0D=0A<tr>=0D=0A<td align=
+=3D"left" valign=3D"top" class=3D"bodyContent" width=3D"100%" colspan=3D"12=
+" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt; color:#444444; font-family:sans-serif=
+; font-size:15px; line-height:150%; text-align:left">=0D=0A<table cellpaddi=
+ng=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" class=3D"templateCol=
+umnWrapper" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:10=
+0%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !i=
+mportant">=0D=0A            <tbody><tr>=0D=0A<td valign=3D"top" colspan=3D"=
+12" width=3D"100.0%" class=3D" column" style=3D"-webkit-text-size-adjust:10=
+0%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; =
+width:100.0%; text-align:left; padding:0; font-family:sans-serif; font-size=
+:15px; line-height:1.5em; color:#444444; background-color:#3b3a44" align=3D=
+"left" bgcolor=3D"#3b3a44">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0"=
+ border=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust:100%; -ms-te=
+xt-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-col=
+lapse:collapse !important">=0D=0A    <tbody><tr>=0D=0A<td align=3D"left" va=
+lign=3D"top" class=3D"bodyContent" width=3D"100%" colspan=3D"12" style=3D"-=
+webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0=
+pt; mso-table-rspace:0pt; color:#444444; font-family:sans-serif; font-size:=
+15px; line-height:150%; text-align:left">=0D=0A<table cellpadding=3D"0" cel=
+lspacing=3D"0" border=3D"0" width=3D"100%" class=3D"templateColumnWrapper" =
+style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-tabl=
+e-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important">=
+=0D=0A                <tbody><tr>=0D=0A<td valign=3D"top" colspan=3D"12" wi=
+dth=3D"100.0%" class=3D" column" style=3D"-webkit-text-size-adjust:100%; -m=
+s-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; width:=
+100.0%; text-align:left; padding:0; font-family:sans-serif; font-size:15px;=
+ line-height:1.5em; color:#444444" align=3D"left">=0D=0A<table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"-webkit-text-s=
+ize-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table=
+-rspace:0pt; border-collapse:separate !important; border-spacing:0; backgro=
+und-color:#3b3a44" class=3D" columnContentTable" bgcolor=3D"#3b3a44"><tbody=
+><tr><td align=3D"left" valign=3D"top" class=3D"columnContent widget-span w=
+idget-type-custom_widget" style=3D"-webkit-text-size-adjust:100%; -ms-text-=
+size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; padding-top:2=
+0px; padding-right:20px; padding-bottom:20px; padding-left:20px; text-align=
+:left; padding:0; font-family:sans-serif; font-size:15px; line-height:1.5em=
+; color:#444444" data-widget-type=3D"custom_widget">=0D=0A<div class=3D"lay=
+out-widget-wrapper">=0D=0A<div id=3D"hs_cos_wrapper_module_152301846933744"=
+ class=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_custom_w=
+idget" style=3D"color: inherit; font-size: inherit; line-height: inherit;" =
+data-hs-cos-general-type=3D"widget" data-hs-cos-type=3D"custom_widget"><tab=
+le width=3D"600" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"=
+center" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; =
+mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !impor=
+tant">=0D=0A        <tbody><tr>=0D=0A          <td width=3D"100%" style=3D"=
+-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:=
+0pt; mso-table-rspace:0pt">=0D=0A              <a href=3D"https://www.cayma=
+nenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC0/*W1sFn0j52B4crW2Wswc=
+03kblhf0/5/f18dQhb0Smj18XJ9fqW8lsK1w2qwv1SVJM-SJ2st9DwMf5dGYXD6prW7cmS1s8pC=
+Q6vW7mG4mh51fvg_W1njGWt2ykJK9W7mNz5L4vgKM1W98RG8y1n3zjJW999f656PVJWyW625bx1=
+6Gj8TSW6bVy-525hvjFVHZ5KN5D8zFFW5m3ZCx5sv2J6VbMJC06dZ27bN67h1zcQC5z2VPC2cV3=
+k0T0lN9bwr2QW0LR-W295ZSY5CqJ8YW5G2psr6258-HN27p5qHhLlqGW5BRZ7g96zl9rW5J5B48=
+2C6LhWW4ZhZ6x6SwKhBW6SMY0T5C3kPmW1q6T-t60DVLMN3MbFPYVVGPLN8mhPjLRry4LW4PkBg=
+56BbDMtW8_kw9f1zW062VzD-dg1t0wtxW8hrbXX3J0-ClN4f_rHMWDM01W798rZT6RXcVVN6Bkq=
+RlXn1fGW2S7QTZ92P-scVVFyYV2cTsKMW2D4BKZ73Q0vRV1-H0y1l9lMX102" target=3D"_bl=
+ank" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%" dat=
+a-hs-link-id=3D"0">=0D=0A             =0D=0A             <img src=3D"https:=
+//www.caymanenterprisecity.com/hs-fs/hubfs/newsletter/footer-newsletter.png=
+=3Ft=3D1530739259708&amp;width=3D605&amp;name=3Dfooter-newsletter.png" widt=
+h=3D"605" alt=3D"footer-newsletter.png" srcset=3D"https://www.caymanenterpr=
+isecity.com/hs-fs/hubfs/newsletter/footer-newsletter.png=3Ft=3D153073925970=
+8&amp;width=3D605&amp;name=3Dfooter-newsletter.png 605w, https://www.cayman=
+enterprisecity.com/hs-fs/hubfs/newsletter/footer-newsletter.png=3Ft=3D15307=
+39259708&amp;width=3D1210&amp;name=3Dfooter-newsletter.png 1210w" sizes=3D"=
+(max-width: 605px) 100vw, 605px" style=3D"vertical-align:bottom; -ms-interp=
+olation-mode:bicubic">=0D=0A            =0D=0A             </a>=0D=0A      =
+       </td>=0D=0A        </tr>=0D=0A</tbody></table></div>=0D=0A</div><!--=
+end layout-widget-wrapper -->=0D=0A</td></tr></tbody></table><!--end widget=
+-table -->=0D=0A       </td>=0D=0A               </tr>=0D=0A        </tbody=
+></table>=0D=0A       </td>=0D=0A   </tr>=0D=0A    <tr>=0D=0A<td align=3D"l=
+eft" valign=3D"top" class=3D"bodyContent" width=3D"100%" colspan=3D"12" sty=
+le=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-l=
+space:0pt; mso-table-rspace:0pt; color:#444444; font-family:sans-serif; fon=
+t-size:15px; line-height:150%; text-align:left">=0D=0A<table cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0" width=3D"100%" class=3D"templateColumnWr=
+apper" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; m=
+so-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !import=
+ant">=0D=0A                <tbody><tr>=0D=0A<td valign=3D"top" colspan=3D"1=
+2" width=3D"100.0%" class=3D" column" style=3D"-webkit-text-size-adjust:100=
+%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; w=
+idth:100.0%; text-align:left; padding:0; font-family:sans-serif; font-size:=
+15px; line-height:1.5em; color:#444444" align=3D"left">=0D=0A<div class=3D"=
+widget-span widget-type-raw_html " style=3D"" data-widget-type=3D"raw_html"=
+>=0D=0A<div class=3D"layout-widget-wrapper">=0D=0A<div id=3D"hs_cos_wrapper=
+_module_152301858378348" class=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_c=
+os_wrapper_type_raw_html" style=3D"color: inherit; font-size: inherit; line=
+-height: inherit;" data-hs-cos-general-type=3D"widget" data-hs-cos-type=3D"=
+raw_html"><table width=3D"600" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" bgcolor=3D"#3b3a44" style=3D"-webkit-text-size-adjust:100%; -ms-text=
+-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-colla=
+pse:collapse !important; background-color:#3b3a44">=0D=0A<tbody>=0D=0A<tr>=
+=0D=0A<td width=3D"30" style=3D"-webkit-text-size-adjust:100%; -ms-text-siz=
+e-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">&nbsp;</td>=0D=
+=0A<td style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; m=
+so-table-lspace:0pt; mso-table-rspace:0pt">&nbsp;</td>=0D=0A<td width=3D"30=
+" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt">&nbsp;</td>=0D=0A<td width=3D"250" st=
+yle=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-=
+lspace:0pt; mso-table-rspace:0pt">&nbsp;</td>=0D=0A<td width=3D"30" style=
+=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lsp=
+ace:0pt; mso-table-rspace:0pt">&nbsp;</td>=0D=0A<td style=3D"-webkit-text-s=
+ize-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table=
+-rspace:0pt">&nbsp;</td>=0D=0A<td width=3D"30" style=3D"-webkit-text-size-a=
+djust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspa=
+ce:0pt">&nbsp;</td>=0D=0A</tr>=0D=0A<tr>=0D=0A<td style=3D"-webkit-text-siz=
+e-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-r=
+space:0pt">&nbsp;</td>=0D=0A<td width=3D"78" style=3D"-webkit-text-size-adj=
+ust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace=
+:0pt"><img src=3D"https://www.caymanenterprisecity.com/hs-fs/hubfs/images/f=
+oot_star.png=3Ft=3D1530739259708&amp;width=3D78&amp;height=3D75&amp;name=3D=
+foot_star.png" width=3D"78" height=3D"75" align=3D"middle" border=3D"0" src=
+set=3D"https://www.caymanenterprisecity.com/hs-fs/hubfs/images/foot_star.pn=
+g=3Ft=3D1530739259708&amp;width=3D78&amp;height=3D75&amp;name=3Dfoot_star.p=
+ng 78w, https://www.caymanenterprisecity.com/hs-fs/hubfs/images/foot_star.p=
+ng=3Ft=3D1530739259708&amp;width=3D156&amp;height=3D150&amp;name=3Dfoot_sta=
+r.png 156w" sizes=3D"(max-width: 78px) 100vw, 78px" style=3D"vertical-align=
+:bottom; -ms-interpolation-mode:bicubic"></td>=0D=0A<td style=3D"-webkit-te=
+xt-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-t=
+able-rspace:0pt">&nbsp;</td>=0D=0A<td style=3D"-webkit-text-size-adjust:100=
+%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt"><=
+font face=3D"Open Sans, Arial, Helvetica, sans-serif" size=3D"1" color=3D"#=
+ffffff">Cayman Enterprise City <br>=0D=0AP. O. Box 10315 <br>=0D=0AGrand Ca=
+yman, KY1-1003 <br>=0D=0ACayman Islands <br>=0D=0A<br>=0D=0A+1 345 945-3722=
+ <br>=0D=0A<a href=3D"mailto:info@caymanenterprisecity.com=3Fsubject=3D[CEC=
+%20Newsletter]%20General%20Inquiry" style=3D"-webkit-text-size-adjust:100%;=
+ -ms-text-size-adjust:100%" data-hs-link-id=3D"0" target=3D"_blank"><font c=
+olor=3D"#ffffff">info@caymanenterprisecity.com</font></a> <br>=0D=0A<br>=0D=
+=0A=C2=A9 2017 Cayman Enterprise City. All Rights Reserved. <br>=0D=0AVisit=
+ <a href=3D"https://www.caymanenterprisecity.com/e1t/c/*W5z-fTR1RYNM0W664Vf=
+37_z_KC0/*W8C80Jg43L-wHW2sCC1P2w1Kd20/5/f18dQhb0Smj08YXNsnW8lsK1w2qwv1SVJM-=
+SJ2st9DwMf5gqMXD6prW7cmS1s8pCQ6vW7mG4mh51fvg_W1njGWt2ykJK9W7mNz5L4vgKM1W999=
+f656PVJWyW625bx16Gj8TSW6bVy-525hvjFVHZ5KN5D8zFFW5m3ZGG95PRYyW1nq9rw17M4wjW1=
+VJryk5lX8fqW13bD4h6dkdDBW310lSx52p1ZdW2QG7dX319cJ0W4f83P_6xPXmdW3mCHTN2v3kW=
+jW82tMXg3194HFW55RlXH2rSw-qW33FC162NmcsVW9dXpwp3r0jhkW6wYbHP5M6rnBW13jwmB1y=
+MRS4W7sy5s075j5LHW6wrr6z8nDXS8W6Yr1-w4QT5PZD6Y9ktTrHDVTdZcH6mSf3jN41CBb0fRH=
+y-N8TbH5Tzs70CW8Yq5Rz3PYv1-W7VpR-z998-fBW6QScH658nTQpW23NZmb5V9W_PW3f5_rb9b=
+F79yf1xVmDq04" target=3D"_blank" style=3D"-webkit-text-size-adjust:100%; -m=
+s-text-size-adjust:100%" data-hs-link-id=3D"2"><font color=3D"#ffffff">caym=
+anenterprisecity.com</font></a> for more information.</font></td>=0D=0A<td =
+style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-tabl=
+e-lspace:0pt; mso-table-rspace:0pt">&nbsp;</td>=0D=0A<td style=3D"-webkit-t=
+ext-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-=
+table-rspace:0pt"><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"=
+ border=3D"0" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:=
+100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse =
+!important">=0D=0A<tbody><tr>=0D=0A<td width=3D"50%" align=3D"center" style=
+=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lsp=
+ace:0pt; mso-table-rspace:0pt"><a href=3D"https://www.caymanenterprisecity.=
+com/e1t/c/*W5z-fTR1RYNM0W664Vf37_z_KC0/*W8Zk-101tr_SCW1dLBl92tfKxZ0/5/f18dQ=
+hb0S82_8XJbp2W8lsK1w2qwv1SVJM-SJ2st9DwMf5wNlXD6prW39Dr-N8pCDLQW6P4hSh1nNYbN=
+W7Z5M1L8yGMCSW1nrCGw96zRPSW6bT6L38RRjRDW5Ckvpl6vYDb4W7v70tS4RYYVxW3s1XjF50G=
+XDzW7SPb1L3X0g0yN6bp1cMbq5fxW4TKc2l5vknfMW2h7WlF2zh2DMW5blQz93Lp5Q3W63RTJj3=
+Sjx0JN7yHmHJ2sLR_W3LLCpZ2hFkzfN3M3v8NFyfK9W1dkSY16mY_9-W6n_GWy8pT5gKW2JjHXC=
+8x-yd9N5CCZLZdtmGwW4rCfYk2xWqVdW1bBvW373d3tyW46p5q03ygvH8W8c3mpg8ggl2MW4hqd=
+Yk1GmkbZW7z2LRR5hfR42W8jR87X8hcnPVN388lrHMVTc2W4jwgX98NcRvBW5qRssC9dKwfGM9X=
+fws7s2GRTtH-L95Dxnj103" target=3D"_blank" style=3D"-webkit-text-size-adjust=
+:100%; -ms-text-size-adjust:100%" data-hs-link-id=3D"0"><img src=3D"https:/=
+/www.caymanenterprisecity.com/hs-fs/hubfs/images/foot_ima.png=3Ft=3D1530739=
+259708&amp;width=3D48&amp;height=3D37&amp;name=3Dfoot_ima.png" width=3D"48"=
+ height=3D"37" align=3D"middle" border=3D"0" srcset=3D"https://www.caymanen=
+terprisecity.com/hs-fs/hubfs/images/foot_ima.png=3Ft=3D1530739259708&amp;wi=
+dth=3D48&amp;height=3D37&amp;name=3Dfoot_ima.png 48w, https://www.caymanent=
+erprisecity.com/hs-fs/hubfs/images/foot_ima.png=3Ft=3D1530739259708&amp;wid=
+th=3D96&amp;height=3D74&amp;name=3Dfoot_ima.png 96w" sizes=3D"(max-width: 4=
+8px) 100vw, 48px" style=3D"vertical-align:bottom; -ms-interpolation-mode:bi=
+cubic"></a></td>=0D=0A<td width=3D"50%" align=3D"center" style=3D"-webkit-t=
+ext-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-=
+table-rspace:0pt"><a href=3D"https://www.caymanenterprisecity.com/e1t/c/*W5=
+z-fTR1RYNM0W664Vf37_z_KC0/*W8P0GQ-38KbWNW8GGMZq5G-YKX0/5/f18dQhb0SbTY8Y9_Dz=
+W7mPw3H4T_wzTW1pwZJn4WYmf0MscWgjXD6prW39Dr-N8pCDKXW95RVzN7cFLQQW6PZs7r1njVc=
+RW2JlhcQ8xghYXW4rz3d_24PD6TN2lVqN0fNrS4W97z1Hf6RNlcmW24PxwM3SKl5mW4r3grh6b-=
+nWbW7nwKWt1mw36NW6nJ2kL3SLYcbW47YlYy4bfcHbW47Xx4z3C8dd2W2FpL-N1nnQd3VQG_rq5=
+RpkcdW3bqp5K8jq9Z4W4yc3CK3sSDqDW5kmcLG2Jb9QhW2Nj19_3jZ2H9W4Vt_sr2xKM37W4Sj9=
+6k2JrN-KW4S1Cff3NPs76W5f5yb12Wsc4QW3VNY4k3j7lcFW3xdNMn3NPZwSW5rflr16GYcPXW2=
+pGrxq6bBDZdW68f87n3brQd5W5qZkCY3ltRXZW3f1VRx6p0MKLW3xhldY4Gsj5HN45Ly2MkwRPg=
+W8cKx0z7tqgDMN7vRS-wbWw8LW5qv4fv7hGpm9W2kNlrR8gCCWGW72dwbD6z8G9dW6JXQN92wXS=
+LkVTv2s01NwBMnN1MVsRj1xV1yf4tw5Xz03" target=3D"_blank" style=3D"-webkit-tex=
+t-size-adjust:100%; -ms-text-size-adjust:100%" data-hs-link-id=3D"0"><img s=
+rc=3D"https://www.caymanenterprisecity.com/hs-fs/hubfs/images/foot_friendly=
+.png=3Ft=3D1530739259708&amp;width=3D75&amp;height=3D39&amp;name=3Dfoot_fr=
+iendly.png" width=3D"75" height=3D"39" align=3D"middle" border=3D"0" srcset=
+=3D"https://www.caymanenterprisecity.com/hs-fs/hubfs/images/foot_friendly.p=
+ng=3Ft=3D1530739259708&amp;width=3D75&amp;height=3D39&amp;name=3Dfoot_frien=
+dly.png 75w, https://www.caymanenterprisecity.com/hs-fs/hubfs/images/foot_f=
+riendly.png=3Ft=3D1530739259708&amp;width=3D150&amp;height=3D78&amp;name=3D=
+foot_friendly.png 150w" sizes=3D"(max-width: 75px) 100vw, 75px" style=3D"ve=
+rtical-align:bottom; -ms-interpolation-mode:bicubic"></a></td>=0D=0A</tr>=
+=0D=0A</tbody></table>=0D=0A<table width=3D"100%" cellspacing=3D"0" cellpad=
+ding=3D"0" border=3D"0" style=3D"-webkit-text-size-adjust:100%; -ms-text-si=
+ze-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse=
+:collapse !important">=0D=0A<tbody><tr>=0D=0A<td height=3D"20" style=3D"-we=
+bkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt=
+; mso-table-rspace:0pt"></td>=0D=0A</tr>=0D=0A<tr>=0D=0A<td width=3D"100%" =
+align=3D"center" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adju=
+st:100%; mso-table-lspace:0pt; mso-table-rspace:0pt"><img src=3D"https://ww=
+w.caymanenterprisecity.com/hs-fs/hubfs/images/foot_island.png=3Ft=3D1530739=
+259708&amp;width=3D146&amp;height=3D60&amp;name=3Dfoot_island.png" width=3D=
+"146" height=3D"60" align=3D"middle" border=3D"0" srcset=3D"https://www.cay=
+manenterprisecity.com/hs-fs/hubfs/images/foot_island.png=3Ft=3D153073925970=
+8&amp;width=3D146&amp;height=3D60&amp;name=3Dfoot_island.png 146w, https://=
+www.caymanenterprisecity.com/hs-fs/hubfs/images/foot_island.png=3Ft=3D15307=
+39259708&amp;width=3D292&amp;height=3D120&amp;name=3Dfoot_island.png 292w" =
+sizes=3D"(max-width: 146px) 100vw, 146px" style=3D"vertical-align:bottom; -=
+ms-interpolation-mode:bicubic"></td>=0D=0A</tr>=0D=0A</tbody></table></td>=
+=0D=0A<td style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%=
+; mso-table-lspace:0pt; mso-table-rspace:0pt">&nbsp;</td>=0D=0A</tr>=0D=0A<=
+tr>=0D=0A<td style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:1=
+00%; mso-table-lspace:0pt; mso-table-rspace:0pt">&nbsp;</td>=0D=0A<td style=
+=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lsp=
+ace:0pt; mso-table-rspace:0pt">&nbsp;</td>=0D=0A<td style=3D"-webkit-text-s=
+ize-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table=
+-rspace:0pt">&nbsp;</td>=0D=0A<td style=3D"-webkit-text-size-adjust:100%; -=
+ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">&nbsp=
+;</td>=0D=0A<td style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjus=
+t:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">&nbsp;</td>=0D=0A<td st=
+yle=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-=
+lspace:0pt; mso-table-rspace:0pt">&nbsp;</td>=0D=0A<td style=3D"-webkit-tex=
+t-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-ta=
+ble-rspace:0pt">&nbsp;</td>=0D=0A</tr>=0D=0A</tbody>=0D=0A</table></div>=0D=
+=0A</div><!--end layout-widget-wrapper -->=0D=0A</div><!--end widget-span -=
+->=0D=0A       </td>=0D=0A               </tr>=0D=0A        </tbody></table=
+>=0D=0A       </td>=0D=0A   </tr>=0D=0A</tbody></table>=0D=0A</td>=0D=0A   =
+        </tr>=0D=0A    </tbody></table>=0D=0A   </td>=0D=0A</tr>=0D=0A<!--e=
+nd body wrapper -->=0D=0A                                            </tbod=
+y></table>=0D=0A                                        </td>=0D=0A        =
+                            </tr>=0D=0A                                </tb=
+ody></table>=0D=0A                                <!-- End Template Wrapper=
+ -->=0D=0A                            </td>=0D=0A                        </=
+tr>=0D=0A                        <tr>=0D=0A                            <td =
+align=3D"center" valign=3D"top" style=3D"-webkit-text-size-adjust:100%; -ms=
+-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">=0D=0A =
+                               <!-- Begin Template Footer -->=0D=0A        =
+                        <div class=3D"footer-container-wrapper">=0D=0A</div=
+><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" id=
+=3D"footerTable" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adju=
+st:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collap=
+se !important; background-color:#f2f2f2; color:#999999; font-family:sans-se=
+rif; font-size:12px; line-height:120%; padding-top:20px; padding-right:20px=
+; padding-bottom:20px; padding-left:20px; text-align:center" bgcolor=3D"#f2=
+f2f2" align=3D"center">=0D=0A                                    <tbody><tr=
+>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent" width=3D"100=
+%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adj=
+ust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#444444; font-f=
+amily:sans-serif; font-size:15px; line-height:150%; text-align:left">=0D=0A=
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" clas=
+s=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100%; -ms-tex=
+t-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-coll=
+apse:collapse !important">=0D=0A            <tbody><tr>=0D=0A<td valign=3D"=
+top" colspan=3D"12" width=3D"100.0%" class=3D" column" style=3D"-webkit-tex=
+t-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-ta=
+ble-rspace:0pt; width:100.0%; text-align:left; padding:0; font-family:sans-=
+serif; font-size:15px; line-height:1.5em; color:#444444" align=3D"left">=0D=
+=0A<div class=3D"widget-span widget-type-email_can_spam " style=3D"" data-w=
+idget-type=3D"email_can_spam">=0D=0A<p id=3D"footer" style=3D"margin-bottom=
+: 1em; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; font-famil=
+y:Geneva, Verdana, Arial, Helvetica, sans-serif; text-align:center; font-si=
+ze:12px; line-height:1.34em; color:#999999; display:block" align=3D"center"=
+>=0D=0ACayman Enterprise City=0D=0A&nbsp;&nbsp;Harbour Drive=0D=0A&nbsp;3rd=
+ Floor, North Wing Flagship Building=0D=0A&nbsp;George Town=0D=0A&nbsp;Gran=
+d Cayman=0D=0A&nbsp;&nbsp;=0D=0A&nbsp;&nbsp;Cayman Islands=0D=0A<br><br>=0D=
+=0AYou received this email because you are subscribed to CEC News Subscript=
+ion=0D=0A from Cayman Enterprise City.=0D=0A<br><br>=0D=0AUpdate your <a cl=
+ass=3D"hubspot-mergetag" data-unsubscribe=3D"true" href=3D"https://www.caym=
+anenterprisecity.com/hs/manage-preferences/unsubscribe=3Fd=3DeyJlYSI6InNhbU=
+BjLW10Zy5jb20iLCJlYyI6NjQyNDAxMjAsInN1YnNjcmlwdGlvbklkIjo1NjgwNjcsImV0IjoxN=
+TMwNzg4NDQwMDY1LCJldSI6ImI2NWRiYmRmLWEzNDUtNDE1Ni04YmNjLWEwYjZmZTU0NmQ2MCJ9=
+&v=3D1&utm_source=3Dhs_email&utm_medium=3Demail&utm_content=3D64240120&_hse=
+nc=3Dp2ANqtz-9DeCLfs02x4GA8dj6X-Y54k6fXDqCIToPLGh6LdjLerw6fTgXQeoTItkEZNGEk=
+EV7pkEbuB8gUAqiJyl0Z7PnFWUrVkA&_hsmi=3D64240120" style=3D"-ms-text-size-adj=
+ust:100%; -webkit-text-size-adjust:none; font-weight:normal; text-decoratio=
+n:underline; whitespace:nowrap; color:#999999" data-hs-link-id=3D"0" target=
+=3D"_blank">email preferences</a>=0D=0A to choose the types of emails you r=
+eceive.=0D=0A<br><br>=0D=0A&nbsp;<a class=3D"hubspot-mergetag" data-unsubsc=
+ribe=3D"true" href=3D"https://www.caymanenterprisecity.com/hs/manage-prefer=
+ences/unsubscribe-all=3Fd=3DeyJlYSI6InNhbUBjLW10Zy5jb20iLCJlYyI6NjQyNDAxMjA=
+sInN1YnNjcmlwdGlvbklkIjo1NjgwNjcsImV0IjoxNTMwNzg4NDQwMDY1LCJldSI6ImI2NWRiYm=
+RmLWEzNDUtNDE1Ni04YmNjLWEwYjZmZTU0NmQ2MCJ9&v=3D1&utm_source=3Dhs_email&utm_=
+medium=3Demail&utm_content=3D64240120&_hsenc=3Dp2ANqtz-9DeCLfs02x4GA8dj6X-Y=
+54k6fXDqCIToPLGh6LdjLerw6fTgXQeoTItkEZNGEkEV7pkEbuB8gUAqiJyl0Z7PnFWUrVkA&_h=
+smi=3D64240120" style=3D"-ms-text-size-adjust:100%; -webkit-text-size-adjus=
+t:none; font-weight:normal; text-decoration:underline; whitespace:nowrap; c=
+olor:#999999" data-hs-link-id=3D"0" target=3D"_blank">Unsubscribe from all =
+future emails</a>=0D=0A&nbsp;=0D=0A</p>=0D=0A</div><!--end widget-span -->=
+=0D=0A   </td>=0D=0A           </tr>=0D=0A    </tbody></table>=0D=0A   </td=
+>=0D=0A</tr>=0D=0A<!--end footer wrapper -->=0D=0A                         =
+           <tr>=0D=0A                                        <td style=3D"-=
+webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0=
+pt; mso-table-rspace:0pt"></td>=0D=0A                                    </=
+tr>=0D=0A                                </tbody></table>=0D=0A            =
+                    <!-- End Template Footer -->=0D=0A                     =
+       </td>=0D=0A                        </tr>=0D=0A                    </=
+tbody></table>=0D=0A                    <!-- End Template Container -->=0D=
+=0A                </td>=0D=0A            </tr>=0D=0A        </tbody></tabl=
+e>=0D=0A    =0D=0A<!-- end coded_template: id:5662266507 path:generated_lay=
+outs/5661635969.html -->=0D=0A<img src=3D"https://www.caymanenterprisecity.=
+com/e1t/o/*N5SHZnYcy7jJW4Ck-hq5XQYtv0/*N1z2tjpY9zwYN743VjYyt4W-0/5/f18dQhb0=
+J6p1hwc2W70ZV-y1p8YsvVjbYdY1W-th4W1N1KtN2YnyV-Ls7yK2xwPMMvlG0gvy6HJW2m2fby4=
+fHkmfW43T0KS4-y9xKVQtKD47Hfj5WN69fLYXDd14NW5GPCjg6nKR40W4M7r0R7f0yn4W6Y5QJ6=
+3fCDQv0" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"display:no=
+ne!important;min-height:1px!important;width:1px!important;border-width:0!im=
+portant;margin-top:0!important;margin-bottom:0!important;margin-right:0!imp=
+ortant;margin-left:0!important;padding-top:0!important;padding-bottom:0!imp=
+ortant;padding-right:0!important;padding-left:0!important"><style>@media pr=
+int{#_hs { background-image: url('https://www.caymanenterprisecity.com/e1t/=
+o/*N5SHZnYcy7jJW4Ck-hq5XQYtv0/*Vb3zr42vGJ7tW3LXbWx2wJ1CS0/5/f18dQhb0KdhFBRG=
+FbN64KWJ3HzgDcW5k8spG5k4ZbmW2mp9f_4-tC2kW4Pw4J12sbPxnVXwqhr3CK3TFW41W0383sm=
+0wnW2G5Nl45x6QXXW3kLpkw5S6_j5W21Pb-p64Sky4W9g8-gP10xK0cW4WbSGM8x21vWM1vw0cR=
+6jM0103');}} div.OutlookMessageHeader {background-image:url('https://www.ca=
+ymanenterprisecity.com/e1t/o/*N5SHZnYcy7jJW4Ck-hq5XQYtv0/*W47X2c_2DR73hW3nr=
+38y4l6w090/5/f18dQhb0KdhHBTkxKN64KWJ3HzgDcW5k8spG5k4ZcSW5HQHpl3FsfphW4PFxqB=
+5ZH4gdW448hkJ43VS9xW2tzTX02JtsknW4C-5Fh5qv4fvW7hGpm92kNlrRW8gCCWG72dwbDW6z8=
+G9d6JXQN9N2wXSLkTv2s0W1MKd9S6C4jXM101')} table.moz-email-headers-table {bac=
+kground-image:url('https://www.caymanenterprisecity.com/e1t/o/*N5SHZnYcy7jJ=
+W4Ck-hq5XQYtv0/*W47X2c_2DR73hW3nr38y4l6w090/5/f18dQhb0KdhHBTkxKN64KWJ3HzgDc=
+W5k8spG5k4ZcSW5HQHpl3FsfphW4PFxqB5ZH4gdW448hkJ43VS9xW2tzTX02JtsknW4C-5Fh5qv=
+4fvW7hGpm92kNlrRW8gCCWG72dwbDW6z8G9d6JXQN9N2wXSLkTv2s0W1MKd9S6C4jXM101')} b=
+lockquote #_hs {background-image:url('https://www.caymanenterprisecity.com/=
+e1t/o/*N5SHZnYcy7jJW4Ck-hq5XQYtv0/*W47X2c_2DR73hW3nr38y4l6w090/5/f18dQhb0Kd=
+hHBTkxKN64KWJ3HzgDcW5k8spG5k4ZcSW5HQHpl3FsfphW4PFxqB5ZH4gdW448hkJ43VS9xW2tz=
+TX02JtsknW4C-5Fh5qv4fvW7hGpm92kNlrRW8gCCWG72dwbDW6z8G9d6JXQN9N2wXSLkTv2s0W1=
+MKd9S6C4jXM101')} #MailContainerBody #_hs {background-image:url('https://ww=
+w.caymanenterprisecity.com/e1t/o/*N5SHZnYcy7jJW4Ck-hq5XQYtv0/*W47X2c_2DR73h=
+W3nr38y4l6w090/5/f18dQhb0KdhHBTkxKN64KWJ3HzgDcW5k8spG5k4ZcSW5HQHpl3FsfphW4P=
+FxqB5ZH4gdW448hkJ43VS9xW2tzTX02JtsknW4C-5Fh5qv4fvW7hGpm92kNlrRW8gCCWG72dwbD=
+W6z8G9d6JXQN9N2wXSLkTv2s0W1MKd9S6C4jXM101')}</style><div id=3D"_hs"></div><=
+/body></html>
+--_----DiXN5TQDsKfTIPwY0nPNUA===_65/E1-45404-08CFD3B5--
+

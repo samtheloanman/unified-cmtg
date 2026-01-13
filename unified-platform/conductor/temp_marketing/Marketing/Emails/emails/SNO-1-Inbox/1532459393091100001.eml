@@ -1,0 +1,303 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: neutral (zoho.com: 209.85.208.73 is neither permitted nor denied by domain of flockmgmt.com) client-ip=209.85.208.73; envelope-from=liam@flockmgmt.com; helo=mail-ed1-f73.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=neutral (zoho.com: 209.85.208.73 is neither permitted nor denied by domain of flockmgmt.com)  smtp.mailfrom=liam@flockmgmt.com
+Return-Path: <liam@flockmgmt.com>
+Received: from mail-ed1-f73.google.com (mail-ed1-f73.google.com [209.85.208.73]) by mx.zohomail.com
+	with SMTPS id 1532459390344587.6698377522843; Tue, 24 Jul 2018 12:09:50 -0700 (PDT)
+Received: by mail-ed1-f73.google.com with SMTP id c2-v6so2160924edi.20
+        for <sam@c-mtg.com>; Tue, 24 Jul 2018 12:09:49 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20161025;
+        h=mime-version:reply-to:sender:message-id:date:subject:from:to;
+        bh=zNV4jrkWDraGVG3QSWqFk3FaEOeo/GCcr9gnl3QCjdY=;
+        b=HE9yMI2gowh4IGwLM5VFDWdPgli3qEpVVTrEdpruGjllTatu4rrFSde6fpwhcXceTv
+         jbgOq86Hxwdp565BsLNpzuh5/m8A6+x+HPWPVHOtmVxknORv45WzzCSAk5idgHDDREpu
+         AFuzWDsE+hIwwXXWDj6s/VRtVrOrt3Ec0lWfcA7BHma94HCvcqWi8L+cqEWF4panoQz8
+         l48xBuxzXjf2o2djKhAFq6qhbziwv+xO3lsC2Cp5aX70PDXE7FSUixGCUshruOxiKr/a
+         YPev962fZJ4jqw6zYbIb/5ZO4BCHslFLAUe8b4sLlDAmZvevU6zBGBkRFkZb8OQN+xat
+         rHZw==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=flockmgmt-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:reply-to:sender:message-id:date:subject:from:to;
+        bh=zNV4jrkWDraGVG3QSWqFk3FaEOeo/GCcr9gnl3QCjdY=;
+        b=n1M1y7VAj8WZ61TAC5rVmvNJvcIzOtq6aiP2UVA9SrTtBVOYjwZYZm/Kjyp1yn59xZ
+         ctyA6Q8wfsymIdTWpnLA23OdAEgLhRL4dK88ptgQcLCoQisNOXdt44YjguZU85x2JeR5
+         5R6a1NZcXVNb0NpCQ3y7PBY2unK/y3LbCB9n23S3Z20wr2un2WKbx91zEh58bJmpVbWI
+         2qfVxMWfAsuitx1eqmutfm4yZORAmIFYwdk9Erq7+yqIgTgAJ1yZFk37XipLMSPgRzym
+         kB2pAkuNl55F9+42gUDDvhubvyr+41Ocz/E2ZbhkaC8AyxVlUn9dl/mgk0VAPk/+O9XQ
+         Olug==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:sender:message-id:date
+         :subject:from:to;
+        bh=zNV4jrkWDraGVG3QSWqFk3FaEOeo/GCcr9gnl3QCjdY=;
+        b=hw6jxfztuE3DlBjyHijRFZKGUdCzqJfotcjikK24Ef68eQ1nyyegVt5vvnKaRTTNak
+         w+IVRkXJvuW81UCqPgt6KLVj5pwncaGcy+KsOVgQywOXnfzex5u6geETAPYRDespvaQA
+         20jy6TA5OldjzArWjC7IV6FCzO74WzILsHoIwEWytIQLrbRVh7yksTU5mXiMxpijRce/
+         lCmz8czpj4ZqL4YC0+siLk7ixk9mlW6KUtXJCZ/hi/bOxGcERAKjRMH/JN1+5C+t7Zx9
+         k4e3Qxgaz7CiLwGlTQZ96gmU5NJ1cNf3stxIamcC6PJKi10vNCTNQ5f37+AYccwgjNFl
+         eh5w==
+X-Gm-Message-State: AOUpUlGBB0f219oDPUfAlW+aGjD9Hr1rq6hAot7DtFubjATL8Ag8YFbB
+	Vqm3auFPvgJPlnOrYQjAyrX9bSLrMA5Z7DJ39F3pNrQ=
+X-Google-Smtp-Source: AAOMgpeV3jU5iVwsZwHPryPzw1fiTsjUD1Wk12thy6Ziy52ed4cgTTqBU0v7bz+0B8VFs9y76GH1Hxu3K1BCtLJS2oXq
+MIME-Version: 1.0
+X-Received: by 2002:aa7:c510:: with SMTP id o16-v6mr270442edq.7.1532459387966;
+ Tue, 24 Jul 2018 12:09:47 -0700 (PDT)
+Reply-To: liam@flockmgmt.com
+Sender: Google Calendar <calendar-notification@google.com>
+Message-ID:<00000000000073e8c70571c38189@google.com>
+Date: Tue, 24 Jul 2018 19:09:47 +0000
+Subject: Invitation: Sam Tehranchi and Liam Gibbons @ Tue Jul 24, 2018 10pm -
+ 10:10pm (CEST) (sam@c-mtg.com)
+From: liam@flockmgmt.com
+To: sam@c-mtg.com
+Content-Type: multipart/mixed; boundary="00000000000073e8b50571c38188"
+X-Zoho-Virus-Status: 1
+X-ZohoMail-DKIM: pass (identity @flockmgmt-com.20150623.gappssmtp.com)
+X-ZohoMail-Owner: <00000000000073e8c70571c38189@google.com>+zmo_0_liam@flockmgmt.com
+X-ZohoMail: RDKM_0  RSF_2  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_6 IS_0 PIW IS_6 EML_0 DMN_0 EDR_100 A_13 COSF A13 LNKP FRD_NDS_0 UNK_O_0 UNK_U_0 AT_UNA_0 ATP_0 ZFHF_SUB_ID_1 SIP_KGR_0 RPD_UN_0 PIS_DPR_KN_0 CV_710LM_1  SC_2 SGR3_1_2_0_168_490
+X-ZM-MESSAGEID: 1532459393091100001
+X-ZohoMail-Status: 1
+
+
+--00000000000073e8b50571c38188
+Content-Type: multipart/alternative; boundary="00000000000073e8b40571c38186"
+
+--00000000000073e8b40571c38186
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+WW91IGhhdmUgYmVlbiBpbnZpdGVkIHRvIHRoZSBmb2xsb3dpbmcgZXZlbnQuDQoNClRpdGxlOiBT
+YW0gVGVocmFuY2hpIGFuZCBMaWFtIEdpYmJvbnMNCkV2ZW50IE5hbWU6IDEwIE1pbnV0ZSBNZWV0
+aW5nDQoNCllvdXIgY29udGFjdCBwaG9uZTo6IDMxMC03MDktNjMwNA0KDQpZb3VyIEluc3RhZ3Jh
+bSB1c2VybmFtZTo6IEBjdXN0b21tb3J0Z2FnZWluYw0KDQpOZWVkIHRvIG1ha2UgY2hhbmdlcyB0
+byB0aGlzIGV2ZW50Pw0KQ2FuY2VsOiBodHRwczovL2NhbGVuZGx5LmNvbS9jYW5jZWxsYXRpb25z
+L0dIR1VCQ1A1Q05BVVRZV0sNClJlc2NoZWR1bGU6IGh0dHBzOi8vY2FsZW5kbHkuY29tL3Jlc2No
+ZWR1bGluZ3MvR0hHVUJDUDVDTkFVVFlXSw0KDQpXaGVuOiBUdWUgSnVsIDI0LCAyMDE4IDEwcG0g
+4oCTIDEwOjEwcG0gQ2VudHJhbCBFdXJvcGVhbiBUaW1lIC0gQmVsZ3JhZGUNCkNhbGVuZGFyOiBz
+YW1AYy1tdGcuY29tDQpXaG86DQogICAgICogbGlhbUBmbG9ja21nbXQuY29tIC0gb3JnYW5pemVy
+DQogICAgICogc2FtQGMtbXRnLmNvbQ0KDQpFdmVudCBkZXRhaWxzOiAgDQpodHRwczovL3d3dy5n
+b29nbGUuY29tL2NhbGVuZGFyL2V2ZW50P2FjdGlvbj1WSUVXJmVpZD1hVGs1WTNOaWNHVm5OV0Zr
+TW1wbWRHWnJkVzVrYUdFM1pEQWdjMkZ0UUdNdGJYUm5MbU52YlEmdG9rPU1UZ2piR2xoYlVCbWJH
+OWphMjFuYlhRdVkyOXRaV1k1WVdRek9XVmhNbVF4T0dZMVpXSXpOMk5pT1RrNVpEWXpOV05oTURB
+eU9UWm1aVFUzTXcmY3R6PUV1cm9wZSUyRkJlbGdyYWRlJmhsPWVuJmVzPTANCg0KSW52aXRhdGlv
+biBmcm9tIEdvb2dsZSBDYWxlbmRhcjogaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jYWxlbmRhci8N
+Cg0KWW91IGFyZSByZWNlaXZpbmcgdGhpcyBjb3VydGVzeSBlbWFpbCBhdCB0aGUgYWNjb3VudCBz
+YW1AYy1tdGcuY29tIGJlY2F1c2UgIA0KeW91IGFyZSBhbiBhdHRlbmRlZSBvZiB0aGlzIGV2ZW50
+Lg0KDQpUbyBzdG9wIHJlY2VpdmluZyBmdXR1cmUgdXBkYXRlcyBmb3IgdGhpcyBldmVudCwgZGVj
+bGluZSB0aGlzIGV2ZW50LiAgDQpBbHRlcm5hdGl2ZWx5IHlvdSBjYW4gc2lnbiB1cCBmb3IgYSBH
+b29nbGUgYWNjb3VudCBhdCAgDQpodHRwczovL3d3dy5nb29nbGUuY29tL2NhbGVuZGFyLyBhbmQg
+Y29udHJvbCB5b3VyIG5vdGlmaWNhdGlvbiBzZXR0aW5ncyBmb3IgIA0KeW91ciBlbnRpcmUgY2Fs
+ZW5kYXIuDQoNCkZvcndhcmRpbmcgdGhpcyBpbnZpdGF0aW9uIGNvdWxkIGFsbG93IGFueSByZWNp
+cGllbnQgdG8gbW9kaWZ5IHlvdXIgUlNWUCAgDQpyZXNwb25zZS4gTGVhcm4gbW9yZSBhdCAgDQpo
+dHRwczovL3N1cHBvcnQuZ29vZ2xlLmNvbS9jYWxlbmRhci9hbnN3ZXIvMzcxMzUjZm9yd2FyZGlu
+Zw0K
+--00000000000073e8b40571c38186
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<span itemscope itemtype=3D"http://schema.org/InformAction"><span style=3D"=
+display:none" itemprop=3D"about" itemscope itemtype=3D"http://schema.org/Pe=
+rson"><meta itemprop=3D"description" content=3D"Invitation from liam@flockm=
+gmt.com"/></span><span itemprop=3D"object" itemscope itemtype=3D"http://sch=
+ema.org/Event"><div style=3D""><table cellspacing=3D"0" cellpadding=3D"8" b=
+order=3D"0" summary=3D"" style=3D"width:100%;font-family:Arial,Sans-serif;b=
+order:1px Solid #ccc;border-width:1px 2px 2px 1px;background-color:#fff;"><=
+tr><td><meta itemprop=3D"eventStatus" content=3D"http://schema.org/EventSch=
+eduled"/><div style=3D"padding:2px"><span itemprop=3D"publisher" itemscope =
+itemtype=3D"http://schema.org/Organization"><meta itemprop=3D"name" content=
+=3D"Google Calendar"/></span><meta itemprop=3D"eventId/googleCalendar" cont=
+ent=3D"i99csbpeg5ad2jftfkundha7d0"/><div style=3D"float:right;font-weight:b=
+old;font-size:13px"> <a href=3D"https://www.google.com/calendar/event?actio=
+n=3DVIEW&amp;eid=3DaTk5Y3NicGVnNWFkMmpmdGZrdW5kaGE3ZDAgc2FtQGMtbXRnLmNvbQ&a=
+mp;tok=3DMTgjbGlhbUBmbG9ja21nbXQuY29tZWY5YWQzOWVhMmQxOGY1ZWIzN2NiOTk5ZDYzNW=
+NhMDAyOTZmZTU3Mw&amp;ctz=3DEurope%2FBelgrade&amp;hl=3Den&amp;es=3D0" style=
+=3D"color:#20c;white-space:nowrap" itemprop=3D"url">more details &raquo;</a=
+><br></div><h3 style=3D"padding:0 0 6px 0;margin:0;font-family:Arial,Sans-s=
+erif;font-size:16px;font-weight:bold;color:#222"><span itemprop=3D"name">Sa=
+m Tehranchi and Liam Gibbons</span></h3><table cellpadding=3D"0" cellspacin=
+g=3D"0" border=3D"0" summary=3D"Event details"><tr><td style=3D"padding:0 1=
+em 10px 0;font-family:Arial,Sans-serif;font-size:13px;color:#888;white-spac=
+e:nowrap;width:90px" valign=3D"top"><div><i style=3D"font-style:normal">Whe=
+n</i></div></td><td style=3D"padding-bottom:10px;font-family:Arial,Sans-ser=
+if;font-size:13px;color:#222" valign=3D"top"><div style=3D"text-indent:-1px=
+"><time itemprop=3D"startDate" datetime=3D"20180724T200000Z"></time><time i=
+temprop=3D"endDate" datetime=3D"20180724T201000Z"></time>Tue Jul 24, 2018 1=
+0pm =E2=80=93 10:10pm <span style=3D"color:#888">Central European Time - Be=
+lgrade</span></div></td></tr><tr><td style=3D"padding:0 1em 10px 0;font-fam=
+ily:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap;width:90p=
+x" valign=3D"top"><div><i style=3D"font-style:normal">Calendar</i></div></t=
+d><td style=3D"padding-bottom:10px;font-family:Arial,Sans-serif;font-size:1=
+3px;color:#222" valign=3D"top"><div style=3D"text-indent:-1px">sam@c-mtg.co=
+m</div></td></tr><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,Sa=
+ns-serif;font-size:13px;color:#888;white-space:nowrap;width:90px" valign=3D=
+"top"><div><i style=3D"font-style:normal">Who</i></div></td><td style=3D"pa=
+dding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" v=
+align=3D"top"><table cellspacing=3D"0" cellpadding=3D"0"><tr><td style=3D"p=
+adding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222;wi=
+dth:10px"><div style=3D"text-indent:-1px"><span style=3D"font-family:Courie=
+r New,monospace">&#x2022;</span></div></td><td style=3D"padding-right:10px;=
+font-family:Arial,Sans-serif;font-size:13px;color:#222"><div style=3D"text-=
+indent:-1px"><div><div style=3D"margin:0 0 0.3em 0"><span itemprop=3D"atten=
+dee" itemscope itemtype=3D"http://schema.org/Person"><span itemprop=3D"name=
+" class=3D"notranslate">liam@flockmgmt.com</span><meta itemprop=3D"email" c=
+ontent=3D"liam@flockmgmt.com"/></span><span itemprop=3D"organizer" itemscop=
+e itemtype=3D"http://schema.org/Person"><meta itemprop=3D"name" content=3D"=
+liam@flockmgmt.com"/><meta itemprop=3D"email" content=3D"liam@flockmgmt.com=
+"/></span><span style=3D"font-size:11px;color:#888"> - organizer</span></di=
+v></div></div></td></tr><tr><td style=3D"padding-right:10px;font-family:Ari=
+al,Sans-serif;font-size:13px;color:#222;width:10px"><div style=3D"text-inde=
+nt:-1px"><span style=3D"font-family:Courier New,monospace">&#x2022;</span><=
+/div></td><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;font=
+-size:13px;color:#222"><div style=3D"text-indent:-1px"><div><div style=3D"m=
+argin:0 0 0.3em 0"><span itemprop=3D"attendee" itemscope itemtype=3D"http:/=
+/schema.org/Person"><span itemprop=3D"name" class=3D"notranslate">sam@c-mtg=
+.com</span><meta itemprop=3D"email" content=3D"sam@c-mtg.com"/></span></div=
+></div></div></td></tr></table></td></tr></table><div style=3D"padding-bott=
+om:15px;font-family:Arial,Sans-serif;font-size:13px;color:#222;white-space:=
+pre-wrap!important;white-space:-moz-pre-wrap!important;white-space:-pre-wra=
+p!important;white-space:-o-pre-wrap!important;white-space:pre;word-wrap:bre=
+ak-word"><span>Event Name: 10 Minute Meeting<p>Your contact phone:: 310-709=
+-6304<p>Your Instagram username:: @custommortgageinc<p>Need to make changes=
+ to this event?<br>Cancel: <a href=3D"https://www.google.com/url?q=3Dhttps%=
+3A%2F%2Fcalendly.com%2Fcancellations%2FGHGUBCP5CNAUTYWK&amp;sa=3DD&amp;ust=
+=3D1532891387949000&amp;usg=3DAFQjCNHLeDQxfyFKBjLH_k1F_xyLfaO9Ew" target=3D=
+"_blank">https://calendly.com/cancellations/GHGUBCP5CNAUTYWK</a><br>Resched=
+ule: <a href=3D"https://www.google.com/url?q=3Dhttps%3A%2F%2Fcalendly.com%2=
+Freschedulings%2FGHGUBCP5CNAUTYWK&amp;sa=3DD&amp;ust=3D1532891387949000&amp=
+;usg=3DAFQjCNHEAsDCFsrsDfnDdyz1Rf_d4Nw4YQ" target=3D"_blank">https://calend=
+ly.com/reschedulings/GHGUBCP5CNAUTYWK</a><br></p></p></p></span><meta itemp=
+rop=3D"description" content=3D"Event Name: 10 Minute Meeting
+
+Your contact phone:: 310-709-6304
+
+Your Instagram username:: @custommortgageinc
+
+Need to make changes to this event?
+Cancel: https://calendly.com/cancellations/GHGUBCP5CNAUTYWK
+Reschedule: https://calendly.com/reschedulings/GHGUBCP5CNAUTYWK
+"/></div></div><p style=3D"color:#222;font-size:13px;margin:0"><span style=
+=3D"color:#888">Going?&nbsp;&nbsp;&nbsp;</span><wbr><strong><span itemprop=
+=3D"potentialaction" itemscope itemtype=3D"http://schema.org/RsvpAction"><m=
+eta itemprop=3D"attendance" content=3D"http://schema.org/RsvpAttendance/Yes=
+"/><span itemprop=3D"handler" itemscope itemtype=3D"http://schema.org/HttpA=
+ctionHandler"><link itemprop=3D"method" href=3D"http://schema.org/HttpReque=
+stMethod/GET"/><a href=3D"https://www.google.com/calendar/event?action=3DRE=
+SPOND&amp;eid=3DaTk5Y3NicGVnNWFkMmpmdGZrdW5kaGE3ZDAgc2FtQGMtbXRnLmNvbQ&amp;=
+rst=3D1&amp;tok=3DMTgjbGlhbUBmbG9ja21nbXQuY29tZWY5YWQzOWVhMmQxOGY1ZWIzN2NiO=
+Tk5ZDYzNWNhMDAyOTZmZTU3Mw&amp;ctz=3DEurope%2FBelgrade&amp;hl=3Den&amp;es=3D=
+0" style=3D"color:#20c;white-space:nowrap" itemprop=3D"url">Yes</a></span><=
+/span><span style=3D"margin:0 0.4em;font-weight:normal"> - </span><span ite=
+mprop=3D"potentialaction" itemscope itemtype=3D"http://schema.org/RsvpActio=
+n"><meta itemprop=3D"attendance" content=3D"http://schema.org/RsvpAttendanc=
+e/Maybe"/><span itemprop=3D"handler" itemscope itemtype=3D"http://schema.or=
+g/HttpActionHandler"><link itemprop=3D"method" href=3D"http://schema.org/Ht=
+tpRequestMethod/GET"/><a href=3D"https://www.google.com/calendar/event?acti=
+on=3DRESPOND&amp;eid=3DaTk5Y3NicGVnNWFkMmpmdGZrdW5kaGE3ZDAgc2FtQGMtbXRnLmNv=
+bQ&amp;rst=3D3&amp;tok=3DMTgjbGlhbUBmbG9ja21nbXQuY29tZWY5YWQzOWVhMmQxOGY1ZW=
+IzN2NiOTk5ZDYzNWNhMDAyOTZmZTU3Mw&amp;ctz=3DEurope%2FBelgrade&amp;hl=3Den&am=
+p;es=3D0" style=3D"color:#20c;white-space:nowrap" itemprop=3D"url">Maybe</a=
+></span></span><span style=3D"margin:0 0.4em;font-weight:normal"> - </span>=
+<span itemprop=3D"potentialaction" itemscope itemtype=3D"http://schema.org/=
+RsvpAction"><meta itemprop=3D"attendance" content=3D"http://schema.org/Rsvp=
+Attendance/No"/><span itemprop=3D"handler" itemscope itemtype=3D"http://sch=
+ema.org/HttpActionHandler"><link itemprop=3D"method" href=3D"http://schema.=
+org/HttpRequestMethod/GET"/><a href=3D"https://www.google.com/calendar/even=
+t?action=3DRESPOND&amp;eid=3DaTk5Y3NicGVnNWFkMmpmdGZrdW5kaGE3ZDAgc2FtQGMtbX=
+RnLmNvbQ&amp;rst=3D2&amp;tok=3DMTgjbGlhbUBmbG9ja21nbXQuY29tZWY5YWQzOWVhMmQx=
+OGY1ZWIzN2NiOTk5ZDYzNWNhMDAyOTZmZTU3Mw&amp;ctz=3DEurope%2FBelgrade&amp;hl=
+=3Den&amp;es=3D0" style=3D"color:#20c;white-space:nowrap" itemprop=3D"url">=
+No</a></span></span></strong>&nbsp;&nbsp;&nbsp;&nbsp;<wbr><a href=3D"https:=
+//www.google.com/calendar/event?action=3DVIEW&amp;eid=3DaTk5Y3NicGVnNWFkMmp=
+mdGZrdW5kaGE3ZDAgc2FtQGMtbXRnLmNvbQ&amp;tok=3DMTgjbGlhbUBmbG9ja21nbXQuY29tZ=
+WY5YWQzOWVhMmQxOGY1ZWIzN2NiOTk5ZDYzNWNhMDAyOTZmZTU3Mw&amp;ctz=3DEurope%2FBe=
+lgrade&amp;hl=3Den&amp;es=3D0" style=3D"color:#20c;white-space:nowrap" item=
+prop=3D"url">more options &raquo;</a></p></td></tr><tr><td style=3D"backgro=
+und-color:#f6f6f6;color:#888;border-top:1px Solid #ccc;font-family:Arial,Sa=
+ns-serif;font-size:11px"><p>Invitation from <a href=3D"https://www.google.c=
+om/calendar/" target=3D"_blank" style=3D"">Google Calendar</a></p><p>You ar=
+e receiving this courtesy email at the account sam@c-mtg.com because you ar=
+e an attendee of this event.</p><p>To stop receiving future updates for thi=
+s event, decline this event. Alternatively you can sign up for a Google acc=
+ount at https://www.google.com/calendar/ and control your notification sett=
+ings for your entire calendar.</p><p>Forwarding this invitation could allow=
+ any recipient to modify your RSVP response. <a href=3D"https://support.goo=
+gle.com/calendar/answer/37135#forwarding">Learn More</a>.</p></td></tr></ta=
+ble></div></span></span>
+--00000000000073e8b40571c38186
+Content-Type: text/calendar; charset="UTF-8"; method=REQUEST
+Content-Transfer-Encoding: 7bit
+
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20180724T200000Z
+DTEND:20180724T201000Z
+DTSTAMP:20180724T190947Z
+ORGANIZER;CN=liam@flockmgmt.com:mailto:liam@flockmgmt.com
+UID:i99csbpeg5ad2jftfkundha7d0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=liam@flockmgmt.com;X-NUM-GUESTS=0:mailto:liam@flockmgmt.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=sam@c-mtg.com;X-NUM-GUESTS=0:mailto:sam@c-mtg.com
+CREATED:20180724T190947Z
+DESCRIPTION:Event Name: 10 Minute Meeting\n\nYour contact phone:: 310-709-6
+ 304\n\nYour Instagram username:: @custommortgageinc\n\nNeed to make changes
+  to this event?\nCancel: https://calendly.com/cancellations/GHGUBCP5CNAUTYW
+ K\nReschedule: https://calendly.com/reschedulings/GHGUBCP5CNAUTYWK\n\n\n-::
+ ~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~::~:~::-\nPlease do not edit this section of the description.\n\nView your
+  event at https://www.google.com/calendar/event?action=VIEW&eid=aTk5Y3NicGV
+ nNWFkMmpmdGZrdW5kaGE3ZDAgc2FtQGMtbXRnLmNvbQ&tok=MTgjbGlhbUBmbG9ja21nbXQuY29
+ tZWY5YWQzOWVhMmQxOGY1ZWIzN2NiOTk5ZDYzNWNhMDAyOTZmZTU3Mw&ctz=Europe%2FBelgra
+ de&hl=en&es=1.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20180724T190947Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Sam Tehranchi and Liam Gibbons
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+
+--00000000000073e8b40571c38186--
+--00000000000073e8b50571c38188
+Content-Type: application/ics; name="invite.ics"
+Content-Disposition: attachment; filename="invite.ics"
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpQUk9ESUQ6LS8vR29vZ2xlIEluYy8vR29vZ2xlIENhbGVuZGFyIDcw
+LjkwNTQvL0VODQpWRVJTSU9OOjIuMA0KQ0FMU0NBTEU6R1JFR09SSUFODQpNRVRIT0Q6UkVRVUVT
+VA0KQkVHSU46VkVWRU5UDQpEVFNUQVJUOjIwMTgwNzI0VDIwMDAwMFoNCkRURU5EOjIwMTgwNzI0
+VDIwMTAwMFoNCkRUU1RBTVA6MjAxODA3MjRUMTkwOTQ3Wg0KT1JHQU5JWkVSO0NOPWxpYW1AZmxv
+Y2ttZ210LmNvbTptYWlsdG86bGlhbUBmbG9ja21nbXQuY29tDQpVSUQ6aTk5Y3NicGVnNWFkMmpm
+dGZrdW5kaGE3ZDBAZ29vZ2xlLmNvbQ0KQVRURU5ERUU7Q1VUWVBFPUlORElWSURVQUw7Uk9MRT1S
+RVEtUEFSVElDSVBBTlQ7UEFSVFNUQVQ9QUNDRVBURUQ7UlNWUD1UUlVFDQogO0NOPWxpYW1AZmxv
+Y2ttZ210LmNvbTtYLU5VTS1HVUVTVFM9MDptYWlsdG86bGlhbUBmbG9ja21nbXQuY29tDQpBVFRF
+TkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1BQ0NF
+UFRFRDtSU1ZQPVRSVUUNCiA7Q049c2FtQGMtbXRnLmNvbTtYLU5VTS1HVUVTVFM9MDptYWlsdG86
+c2FtQGMtbXRnLmNvbQ0KQ1JFQVRFRDoyMDE4MDcyNFQxOTA5NDdaDQpERVNDUklQVElPTjpFdmVu
+dCBOYW1lOiAxMCBNaW51dGUgTWVldGluZ1xuXG5Zb3VyIGNvbnRhY3QgcGhvbmU6OiAzMTAtNzA5
+LTYNCiAzMDRcblxuWW91ciBJbnN0YWdyYW0gdXNlcm5hbWU6OiBAY3VzdG9tbW9ydGdhZ2VpbmNc
+blxuTmVlZCB0byBtYWtlIGNoYW5nZXMNCiAgdG8gdGhpcyBldmVudD9cbkNhbmNlbDogaHR0cHM6
+Ly9jYWxlbmRseS5jb20vY2FuY2VsbGF0aW9ucy9HSEdVQkNQNUNOQVVUWVcNCiBLXG5SZXNjaGVk
+dWxlOiBodHRwczovL2NhbGVuZGx5LmNvbS9yZXNjaGVkdWxpbmdzL0dIR1VCQ1A1Q05BVVRZV0tc
+blxuXG4tOjoNCiB+On46On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+
+On46fjp+On46fjp+On46fjp+On46fjp+On46fjoNCiB+Ojp+On46Oi1cblBsZWFzZSBkbyBub3Qg
+ZWRpdCB0aGlzIHNlY3Rpb24gb2YgdGhlIGRlc2NyaXB0aW9uLlxuXG5WaWV3IHlvdXINCiAgZXZl
+bnQgYXQgaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jYWxlbmRhci9ldmVudD9hY3Rpb249VklFVyZl
+aWQ9YVRrNVkzTmljR1YNCiBuTldGa01tcG1kR1pyZFc1a2FHRTNaREFnYzJGdFFHTXRiWFJuTG1O
+dmJRJnRvaz1NVGdqYkdsaGJVQm1iRzlqYTIxbmJYUXVZMjkNCiB0WldZNVlXUXpPV1ZoTW1ReE9H
+WTFaV0l6TjJOaU9UazVaRFl6TldOaE1EQXlPVFptWlRVM013JmN0ej1FdXJvcGUlMkZCZWxncmEN
+CiBkZSZobD1lbiZlcz0xLlxuLTo6fjp+Ojp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+
+On46fjp+On46fjp+On46fjp+On4NCiA6fjp+On46fjp+On46fjp+On46fjo6fjp+OjotDQpMQVNU
+LU1PRElGSUVEOjIwMTgwNzI0VDE5MDk0N1oNCkxPQ0FUSU9OOg0KU0VRVUVOQ0U6MA0KU1RBVFVT
+OkNPTkZJUk1FRA0KU1VNTUFSWTpTYW0gVGVocmFuY2hpIGFuZCBMaWFtIEdpYmJvbnMNClRSQU5T
+UDpPUEFRVUUNCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==
+--00000000000073e8b50571c38188--

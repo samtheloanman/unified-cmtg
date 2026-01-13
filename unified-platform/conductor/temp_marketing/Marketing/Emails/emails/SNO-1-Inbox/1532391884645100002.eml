@@ -1,0 +1,123 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of softlayer.com designates 173.192.119.25 as permitted sender) client-ip=173.192.119.25; envelope-from=noreply@softlayer.com; helo=mx.softlayer.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of softlayer.com designates 173.192.119.25 as permitted sender)  smtp.mailfrom=noreply@softlayer.com;
+	dmarc=pass(p=none dis=none)  header.from=softlayer.com
+Return-Path: <noreply@softlayer.com>
+Received: from mx.softlayer.com (mx.softlayer.com [173.192.119.25]) by mx.zohomail.com
+	with SMTPS id 1532391883360586.0424360149451; Mon, 23 Jul 2018 17:24:43 -0700 (PDT)
+Received: from txndal0101d.softlayer.local
+	by mx.softlayer.com with esmtp
+	(Exim)
+	(envelope-from <noreply@softlayer.com>)
+	for sam@c-mtg.com
+	id 1fhl86-00056Q-O0; Mon, 23 Jul 2018 19:24:42 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=softlayer.com; s=ims13; h=Message-Id:MIME-Version:Content-Type:Date:From:
+	Subject:To; bh=YyHfNy7Ks9Ef3XIt98inZIpfhfeObW+qDyD1iwtJeTQ=; b=hbo4WkM+IcRFbq
+	/2+sxJsmwVJ/ddOhQMHmY1jyI9OgnbolxyJ9MXy4TRv/ML10MIzT70LAVvTLgp5sgd1xEiDEzqzDe
+	t7LFpDVrNJ8fvWXkfUjkJFQ+bW4Ry0xUmkKJ93tO40YT2nmw7dWzmoohf4lSSin+CAzdWaDqcSbvP
+	t3Bhh9TAkxJhT2xb4ROIBjEVL0If/BWLclX6VBVajxeacRazBZGZCC/Z4Dr0wFZGb3VboCOYhZ9/P
+	wadRRMBI0cNAz9+hspWz6FAqoETu+eLNduBW4K4I/bkQAqIeuXaZ90ZzWWT3Dl2adu089CJAg/ALa
+	/i/eiPxNspXImFq3p7JA==;
+To: sam@c-mtg.com
+Subject: [IBM Cloud Event] ID: 62402639 - Internal and Control Portal Degradation
+From: noreply@softlayer.com
+Date: Mon, 23 Jul 2018 19:24:42 -0500
+Content-Type: multipart/alternative;
+ boundary="=_a200d91b93e2814249ce2a5e0abdfc27"
+MIME-Version: 1.0
+Message-ID:<E1fhl86-00056Q-O0@mxdal0501.softlayer.local>
+X-ZohoMail-DKIM: pass (identity @softlayer.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_7 RF_0 S_168
+X-ZM-MESSAGEID: 1532391884645100002
+X-ZohoMail-Status: 1
+
+
+--=_a200d91b93e2814249ce2a5e0abdfc27
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Customer Identification: Custom mtg (1395829)=0AStart Date: Monday 23-Ju=
+l-2018 21:30 UTC=0AEvent Type: Unplanned Event=0ASubject: Event 62402639=
+ - Internal and Control Portal Degradation=0A=0A=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=0A/ Latest Update /=0A- As of Tuesday 24-Jul=
+-2018 00:10 UTC=0AAs of 23:45 UTC, the issue has been mitigated by a res=
+tart of certain internal servers. The Control and Internal portals are w=
+orking normally at this time.=0A=0A/ Items Associated With This Event /=
+=0AItem ID | Hostname | Public IP | Private IP | Item Type=0A=0A=0A/ Upd=
+ate History /=0A- As of Tuesday 24-Jul-2018 00:10 UTC=0AAs of 23:45 UTC,=
+ the issue has been mitigated by a restart of certain internal servers.=
+ The Control and Internal portals are working normally at this time.=0A=
+=0A- As of Monday 23-Jul-2018 23:41 UTC=0AStarting at 21:30 UTC, the Con=
+trol and Internal Management portals began experiencing issues, causing=
+ timeouts and general errors for users and employees attempting to updat=
+e tickets or place orders, as well as delaying employee response times t=
+o customer tickets and issues affecting transactions. Engineers are pres=
+ently investigating the issue for a solution, and we will provide an upd=
+ate when this issue is mitigated.=0A=0A=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=0AThe times above are shown in UTC/GMT. Please visit=
+ http://www.timeanddate.com/worldclock/converter.html?iso=3D20180723T213=
+0&p1=3D0 to convert start time of this event to your local time.=0A=0AIB=
+M Cloud (formerly SoftLayer) sent you this email because your contact ad=
+dress is linked to an account in our customer database. This email is us=
+ed exclusively as our channel for notifying you about critical issues th=
+at may affect your service, and for important company news that could af=
+fect your business.  You are receiving this note because the message abo=
+ve directly concerns one of your accounts. If you do not wish to receive=
+ these important notifications at this address, please update your conta=
+ct information or notification subscriptions in the customer portal.=0A=
+=0AIf you have received this email in error, or you are concerned about=
+ suspicious activity concerning your account, please contact accounting@=
+softlayer.com.=0AIBM Cloud | 14001 North Dallas Tollway Suite M100 Dalla=
+s, TX 75240 | +1-866-325-0045
+
+--=_a200d91b93e2814249ce2a5e0abdfc27
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<pre style=3D"white-space:pre-wrap">Customer Identification: Custom mtg=
+ (1395829)=0AStart Date: Monday 23-Jul-2018 21:30 UTC=0AEvent Type: Unpl=
+anned Event=0ASubject: Event 62402639 - Internal and Control Portal Degr=
+adation=0A=0A=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=0A/ L=
+atest Update /=0A- As of Tuesday 24-Jul-2018 00:10 UTC=0AAs of 23:45 UTC=
+, the issue has been mitigated by a restart of certain internal servers.=
+ The Control and Internal portals are working normally at this time.=0A=
+=0A/ Items Associated With This Event /=0AItem ID | Hostname | Public IP=
+ | Private IP | Item Type=0A=0A=0A/ Update History /=0A- As of Tuesday 2=
+4-Jul-2018 00:10 UTC=0AAs of 23:45 UTC, the issue has been mitigated by=
+ a restart of certain internal servers. The Control and Internal portals=
+ are working normally at this time.=0A=0A- As of Monday 23-Jul-2018 23:4=
+1 UTC=0AStarting at 21:30 UTC, the Control and Internal Management porta=
+ls began experiencing issues, causing timeouts and general errors for us=
+ers and employees attempting to update tickets or place orders, as well=
+ as delaying employee response times to customer tickets and issues affe=
+cting transactions. Engineers are presently investigating the issue for=
+ a solution, and we will provide an update when this issue is mitigated.=
+=0A=0A=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=0AThe times ab=
+ove are shown in UTC/GMT. Please visit http://www.timeanddate.com/worldc=
+lock/converter.html?iso=3D20180723T2130&amp;p1=3D0 to convert start time=
+ of this event to your local time.=0A=0AIBM Cloud (formerly SoftLayer) s=
+ent you this email because your contact address is linked to an account=
+ in our customer database. This email is used exclusively as our channel=
+ for notifying you about critical issues that may affect your service, a=
+nd for important company news that could affect your business.  You are=
+ receiving this note because the message above directly concerns one of=
+ your accounts. If you do not wish to receive these important notificati=
+ons at this address, please update your contact information or notificat=
+ion subscriptions in the customer portal.=0A=0AIf you have received this=
+ email in error, or you are concerned about suspicious activity concerni=
+ng your account, please contact accounting@softlayer.com.=0AIBM Cloud |=
+ 14001 North Dallas Tollway Suite M100 Dallas, TX 75240 | +1-866-325-004=
+5</pre>
+
+--=_a200d91b93e2814249ce2a5e0abdfc27--

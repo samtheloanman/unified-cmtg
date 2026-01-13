@@ -1,0 +1,2370 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.mail.yahoo.com designates 74.6.135.124 as permitted sender) client-ip=74.6.135.124; envelope-from=tromboli@yahoo.com; helo=sonic310-14.consmr.mail.bf2.yahoo.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.mail.yahoo.com designates 74.6.135.124 as permitted sender)  smtp.mailfrom=tromboli@yahoo.com;
+	dmarc=pass(p=reject dis=none)  header.from=yahoo.com
+Return-Path: <tromboli@yahoo.com>
+Received: from sonic310-14.consmr.mail.bf2.yahoo.com (sonic310-14.consmr.mail.bf2.yahoo.com [74.6.135.124]) by mx.zohomail.com
+	with SMTPS id 1531329606904602.2149209835345; Wed, 11 Jul 2018 10:20:06 -0700 (PDT)
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic310.consmr.mail.bf2.yahoo.com with HTTP; Wed, 11 Jul 2018 17:20:05 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1531329605; bh=Gmv8U+DR8j2IMx/cjkIivDUy2zOoifEdRwT0gk+n5is=; h=Date:From:Reply-To:To:Cc:In-Reply-To:References:Subject:From:Subject; b=mlLuQNb6OFNM+4Qf9mwN3VVuajy2PEeuAzjq9K8HfK+A7IR1RtYtBGwhMcbbhmup+w6rZkP9qWYOEjZoiXef/l/fBCwk0y5L7r988IKZmxtm24LdsolLEm7iRiNvmjjIFulIGyMJaXTQxz5wJnlzCqWZzpAxMo86vrKh9yyX95wv3iXIz14lyvtndmVPb7KrQDgqd6msPkMROIvzPnenlPCd8zQ8pYctTGEUj8j9CymG2sSdwJ0HazCVFZw57g0mk7ASIpAX6or8jybjWJL6NO38RknxNpgBqhvqW56lisGV0lkZfWOKKF4B1AsYyU97Ls/Ndt5yE6/MDpB8q+zPBw==
+X-YMail-OSG: Ug6b.HkVM1nj9bhyI6UpUVXCSCerx3XAx7QtkrxKuRQ3FvKnqpyi1mhc91qg0Y.
+ 4q14F2k5RhXtdIhxuAhgJmXoCzOUKM_bGCnpKau0g2bU.707T.D6YWKq7KQExusasD5PfLe7AewK
+ .07TamTtHWtB2S6_5msvDrtozjhMTFsqQVFplLVvZPN5.jVMc1GvPdP8Fu96V1RXW94Et7wvZnxT
+ .tKunVvAtZYnOxaGzinJDn.qGdkO6XVzo3.RP1IH5dt55m3S5GH78dSlO.DBQnpmgJpCPw5U6C.B
+ C1lN4x5RJRdVfZhJLRVRBKR65YSowII4gHRMv1ehTvAQZ7jbv1vxC9r1l3gtr5lrcAwoJNXIOXEP
+ 6qI6xQuxZfgvmMxVkOnxhWvdeBWPZiUar2v67URqS2ltrAKF4_RBbqqxC48uXaBcs0vcP2MnNeqv
+ M_hSas5kL7m1gzNzsYkG7iY8qiqA.cQ12SiKGYO42Torgbs1.6dnHb2MaER9Bj3f9xS8fYvsEqui
+ rMVgULx22PSLO0ZzTOE.R64KxDRbSXXtpyl4GI4pQSrnfIRsrS7Xbj3PD4L1CRIl5lSGg5ow_oiM
+ n.yFPrpKnsrh2NkrYqmUlQ41AmbVfKLLr7MRBtVF3EOtmpdNqzZEcIm.1cu2VYLDp.1qRPbJCNiU
+ AHxcEU85APmvKiCaTwRN0nRauIAWnOc6_tsrVdqQkBM.6eafAiBimZpzd7ercoouqmKUkuOFRcoE
+ ur.wXhGduwfC_TDTu44a0yPmZv3X.vWgGtgxfe_6iJR.Fp4IDTNBIoNgE86rltFfYHaO7DvC9_Wd
+ pjqwi03hzihreKWYqhCrnODty8Zire6EbNbQz6mj5LhPzLhOfLY0O3x5Mid3AGFFQjycktl0zbuZ
+ 8YVrVnTekzYho4sNLV6aby0CRDuuXcpk1JCSBGthAvhjSR2OlDXTzI0Fgj3.t3xAb9I7rl9PkyMI
+ OsLhn6r2ERpNBKahs0h3i8uC8ncGq0ZdOm.MC
+Date: Wed, 11 Jul 2018 17:20:00 +0000 (UTC)
+From: Todd Romboli <tromboli@yahoo.com>
+Reply-To: Todd Romboli <tromboli@yahoo.com>
+To: Sam Tehranchi <sam@c-mtg.com>, 
+	"corinnehunt. escrow" <corinnehunt.escrow@firstam.com>, 
+	Joel Malo <joel.malo@wellsfargoadvisors.com>
+Cc: "todd@domm.life" <todd@domm.life>
+Message-ID:<2073679580.2347650.1531329601032@mail.yahoo.com>
+In-Reply-To: <B0ACC66AD213FC40BE89DF567219C9B1B0DAF5BE@fahqsna09sxmb04.corp.firstam.com>
+References: <e2016b$lf5ga@snappesamx04.corp.firstam.com> <1646c648255.d09a9d9d48672.450012381256909959@c-mtg.com> <0C737B959A63964594A298946D01A375CAF32099@fahqsna09sxmb01.corp.firstam.com> <1646c72810d.f88f6cce50328.4362334989815347355@c-mtg.com> <0C737B959A63964594A298946D01A375CAF320B7@fahqsna09sxmb01.corp.firstam.com> <04EAC7C4-31D1-477F-B8D3-4B5487100F2D@c-mtg.com> <0C737B959A63964594A298946D01A375CAF32CA5@fahqsna09sxmb01.corp.firstam.com> <536F0B18-B41F-4916-8E86-3959BDF091BF@c-mtg.com> <0C737B959A63964594A298946D01A375D4063C1C@fahqsna09sxmb01.corp.firstam.com> <B71F02F7-238D-4E01-AB19-C01822885E92@c-mtg.com> <EB227AEC-3F44-4826-B3AA-43AAA856B86F@c-mtg.com> <B0ACC66AD213FC40BE89DF567219C9B1B0DAF5BE@fahqsna09sxmb04.corp.firstam.com>
+Subject: Re: Title Action Required-288829-Address-214 Plantation
+ Boulevard-Buyer-Todd M Romboli (Email Ref=1480157444)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_2347649_678467836.1531329601031"
+X-Mailer: WebService/1.1.12062 YMailNorrin Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+Content-Length: 78306
+X-Zoho-Virus-Status: 1
+X-ZohoMail-DKIM: pass (identity @yahoo.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_NDS SPK
+X-ZM-MESSAGEID: 1531329608092100001
+X-ZohoMail-Status: 1
+
+
+------=_Part_2347649_678467836.1531329601031
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2347648_1866306012.1531329600681"
+
+------=_Part_2347648_1866306012.1531329600681
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+my banker, at wells fargo is copied on this emailplease send fed ref to thi=
+s thread
+
+Todd Rombolicasarombo.cohttp://www.vrbo.com/498289
+312.543.1006 c
+772.264.5882=C2=A0f
+=20
+
+    On Wednesday, July 11, 2018, 10:16:38 AM MST, corinnehunt. escrow <cori=
+nnehunt.escrow@firstam.com> wrote: =20
+=20
+=20
+Good morning.=C2=A0
+=20
+ =C2=A0
+=20
+I have requested the FedID number from my accounting department and just as=
+ soon as they forward me the details I will be sure to reply to this email =
+with the specifics.=C2=A0
+=20
+ =C2=A0
+=20
+Corinne Hunt
+Escrow Officer
+=20
+
+
+First American Title Company
+1855 Gateway Blvd Ste 700, Concord, CA 94520
+http://www.firstam.com=C2=A0|=C2=A0NYSE: FAF
+=20
+Phone 925-688-3215 / Fax 866-385-0823
+=20
+ =C2=A0
+=20
+Your feedback is important to us. If you=E2=80=99d like to provide your fee=
+dback, please click on the feedback button below.
+=20
+
+=20
+ =C2=A0
+=20
+ =C2=A0
+=20
+ =C2=A0
+=20
+From: Sam Tehranchi [mailto:sam@c-mtg.com]
+Sent: Wednesday, July 11, 2018 10:12 AM
+To: corinnehunt.escrow <corinnehunt.escrow@firstam.com>
+Cc: todd@domm.life; tromboli@yahoo.com
+Subject: Re: Title Action Required-288829-Address-214 Plantation Boulevard-=
+Buyer-Todd M Romboli (Email Ref=3D1480157444)
+=20
+ =C2=A0
+=20
+Hi Corinne and Amy
+=20
+ =C2=A0
+=20
+Per our conversation, can you please forward the Fed Wire number for the bo=
+rrower=E2=80=99s funds (Todd Romboli) which have been wired already. =C2=A0=
+He needs the Fed number in order to get the funds applied to his account. =
+=C2=A0Corinne advised that she was waiting on the accounting department to =
+send her that information, if you can please advise the ETA for the Fed ref=
+erence number, we would greatly appreciate it.
+=20
+ =C2=A0
+=20
+The borrower is CC on this message so you can reply directly with the Fed R=
+eference number.
+=20
+ =C2=A0
+=20
+Thank you!!
+=20
+ =C2=A0
+=20
+Respectfully, =C2=A0=C2=A0
+
+=C2=A0
+Sam Tehranchi
+
+=C2=A0
+COO
+Custom Mortgage and Realty=C2=A0
+NMLS CA # 1556995 - BRE CA #=C2=A002018146
+=C2=A0
+Direct 310.709.6304 -Efax 866.421.7694=C2=A0
+
+sam@c-mtg.com=C2=A0-=C2=A0www.c-mtg.com
+
+LinkedIn=C2=A0-=C2=A0Facebook=C2=A0-=C2=A0twitter=C2=A0-=C2=A0Instagram
+=20
+
+
+
+=20
+
+On Jul 11, 2018, at 7:12 AM, Sam Tehranchi <sam@c-mtg.com> wrote:
+=20
+ =C2=A0
+=20
+Good morning Amy : )
+=20
+ =C2=A0
+=20
+Has the borrowers funds been wired out? =C2=A0I wanted to know if you can f=
+orward the FED Reference number for his wire.
+=20
+ =C2=A0
+=20
+Please advise at your earliest convenience. =C2=A0Thank you
+=20
+ =C2=A0
+=20
+Respectfully, =C2=A0=C2=A0
+
+=C2=A0
+Sam Tehranchi
+
+=C2=A0
+COO
+Custom Mortgage and Realty=C2=A0
+NMLS CA # 1556995 - BRE CA #=C2=A002018146
+=C2=A0
+Direct 310.709.6304 -Efax 866.421.7694=C2=A0
+
+sam@c-mtg.com=C2=A0-=C2=A0www.c-mtg.com
+
+LinkedIn=C2=A0-=C2=A0Facebook=C2=A0-=C2=A0twitter=C2=A0-=C2=A0Instagram
+=20
+
+
+
+=20
+
+On Jul 10, 2018, at 9:27 AM, corinnehunt.escrow <corinnehunt.escrow@firstam=
+.com> wrote:
+=20
+ =C2=A0
+=20
+Hi,
+=20
+=C2=A0
+=20
+Attached is a copy of the settlement statement.=C2=A0
+=20
+=C2=A0
+=20
+In order to change the instructions for funds due to borrower, we will need=
+ the attached instructions signed and notarized.
+=20
+=C2=A0
+=20
+=C2=A0
+=20
+Thank you,
+=20
+=C2=A0
+=20
+Amy Rigsby
+=20
+Escrow Assistant
+=20
+=C2=A0
+=20
+<image001.jpg>
+=20
+First American Title Company
+1855 Gateway Blvd Ste 700, Concord, CA 94520
+http://www.firstam.com=C2=A0|=C2=A0NYSE: FAF
+=20
+Phone 925-688-3215 / Fax 714-852-4677
+=20
+Please send all email=C2=A0inquiries and loan documents to=C2=A0corinnehunt=
+.escrow@firstam.com
+=20
+=C2=A0
+=20
+=E2=80=9CCalifornia Building Homes and Jobs Act =E2=80=93 Affordable Housin=
+g Fee=E2=80=9D
+=20
+Effective=C2=A0January 1, 2018=C2=A0in California, the Building Homes and J=
+obs Act will impose a new $75 recording fee surcharge on every real estate =
+instrument, paper, or notice recorded per transaction per parcel of real pr=
+operty, not to exceed $225.=E2=80=9D
+=20
+=C2=A0
+=20
+Your feedback is important to us. If you=E2=80=99d like to provide your fee=
+dback, please click on the feedback button below.
+=20
+<image002.png>
+=20
+=C2=A0
+=20
+From:=C2=A0Sam Tehranchi [mailto:sam@c-mtg.com]=C2=A0
+Sent:=C2=A0Tuesday, July 10, 2018 7:41 AM
+To:=C2=A0corinnehunt.escrow
+Cc:=C2=A0todd@domm.life;=C2=A0tromboli@yahoo.com
+Subject:=C2=A0Re: Title Action Required-288829-Address-214 Plantation Boule=
+vard-Buyer-Todd M Romboli (Email Ref=3D1480157444)
+=20
+=C2=A0
+=20
+Hi Amy and Corinne
+=20
+=C2=A0
+=20
+Can you please send us a copy of the closing statement / HUD to review. =C2=
+=A0In addition, please advise regarding funding, recording and disbursement=
+ status.
+=20
+=C2=A0
+=20
+Also, the borrower, Mr Romboli wanted to change his wiring instruction to t=
+he following:
+=20
+=C2=A0
+=20
+
+As=C2=A0 a follow up to your request, the following are the Domestic Incomi=
+ng Wire instructions for your Command account.
+=20
+=C2=A0
+=20
+Wells Fargo Bank
+=20
+420 Montgomery Street
+=20
+San Francisco, CA=C2=A0 94104
+=20
+=C2=A0
+=20
+ABA #:=C2=A0 121000248
+=20
+=C2=A0
+=20
+Beneficiary:
+=20
+=C2=A0
+=20
+First Clearing, LLC
+=20
+1 North Jefferson
+=20
+St. Louis, MO=C2=A0 63103
+=20
+=C2=A0
+=20
+Account #:=C2=A0 4122023377
+=20
+=C2=A0
+=20
+For Further Credit To:=C2=A0 Todd M. Romboli, 7145-0364
+=20
+
+=C2=A0
+=20
+Please advise at your convenience what else you will need to update the wir=
+ing instruction for the borrower=E2=80=99s funds.
+=20
+=C2=A0
+=20
+Respectfully, =C2=A0=C2=A0
+
+=C2=A0
+Sam Tehranchi
+
+=C2=A0
+COO
+Custom Mortgage and Realty=C2=A0
+NMLS CA # 1556995 - BRE CA #=C2=A002018146
+=C2=A0
+Direct 310.709.6304 -Efax 866.421.7694=C2=A0
+
+sam@c-mtg.com=C2=A0-=C2=A0www.c-mtg.com
+
+LinkedIn=C2=A0-=C2=A0Facebook=C2=A0-=C2=A0twitter=C2=A0-=C2=A0Instagram
+=20
+
+
+
+
+=20
+On Jul 6, 2018, at 2:25 PM, corinnehunt.escrow <corinnehunt.escrow@firstam.=
+com> wrote:
+=20
+=C2=A0
+=20
+We are attempting to schedule for Monday, July 9th.
+=20
+=C2=A0
+=20
+I just sent an email to Mr. Romboli to obtain the location and time he woul=
+d like to sign.
+=20
+=C2=A0
+=20
+Thank you,
+=20
+=C2=A0
+=20
+Amy Rigsby
+=20
+Escrow Assistant
+=20
+=C2=A0
+=20
+<image001.jpg>
+=20
+First American Title Company
+1855 Gateway Blvd Ste 700, Concord, CA 94520
+http://www.firstam.com=C2=A0|=C2=A0NYSE: FAF
+=20
+Phone 925-688-3215 / Fax 714-852-4677
+=20
+Please send all email=C2=A0inquiries and loan documents to=C2=A0corinnehunt=
+.escrow@firstam.com
+=20
+=C2=A0
+=20
+=E2=80=9CCalifornia Building Homes and Jobs Act =E2=80=93 Affordable Housin=
+g Fee=E2=80=9D
+=20
+Effective=C2=A0January 1, 2018=C2=A0in California, the Building Homes and J=
+obs Act will impose a new $75 recording fee surcharge on every real estate =
+instrument, paper, or notice recorded per transaction per parcel of real pr=
+operty, not to exceed $225.=E2=80=9D
+=20
+=C2=A0
+=20
+Your feedback is important to us. If you=E2=80=99d like to provide your fee=
+dback, please click on the feedback button below.
+=20
+<image002.png>
+=20
+=C2=A0
+=20
+From:=C2=A0Sam Tehranchi [mailto:sam@c-mtg.com]=C2=A0
+Sent:=C2=A0Friday, July 06, 2018 2:21 PM
+To:=C2=A0corinnehunt.escrow;=C2=A0todd@domm.life;=C2=A0tromboli@yahoo.com
+Subject:=C2=A0Re: Title Action Required-288829-Address-214 Plantation Boule=
+vard-Buyer-Todd M Romboli (Email Ref=3D1480157444)
+=20
+=C2=A0
+=20
+Hi Corinne and Amy,
+=20
+=C2=A0
+=20
+The lender said your working on scheduling the signing with the borrower. =
+=C2=A0Can you please confirm if we are attempting to sign today or Monday. =
+=C2=A0Per the lender, the docs are date sensitive.
+=20
+=C2=A0
+=20
+Sam Tehranchi
+=20
+310-709-6304
+=20
+Sent from my iPhone
+=20
+
+On Jul 5, 2018, at 3:04 PM, corinnehunt.escrow <corinnehunt.escrow@firstam.=
+com> wrote:
+=20
+
+Hi,
+=20
+=C2=A0
+=20
+Attached are the revised CPL, prelim and settlement statement.
+=20
+=C2=A0
+=20
+Thank you,
+=20
+=C2=A0
+=20
+Amy Rigsby
+=20
+Escrow Assistant
+=20
+=C2=A0
+=20
+<image001.jpg>
+=20
+First American Title Company
+1855 Gateway Blvd Ste 700, Concord, CA 94520
+http://www.firstam.com=C2=A0|=C2=A0NYSE: FAF
+=20
+Phone 925-688-3215 / Fax 714-852-4677
+=20
+Please send all email inquiries and loan documents to=C2=A0corinnehunt.escr=
+ow@firstam.com
+=20
+=C2=A0
+=20
+=E2=80=9CCalifornia Building Homes and Jobs Act =E2=80=93 Affordable Housin=
+g Fee=E2=80=9D
+=20
+Effective=C2=A0January 1, 2018=C2=A0in California, the Building Homes and J=
+obs Act will impose a new $75 recording fee surcharge on every real estate =
+instrument, paper, or notice recorded per transaction per parcel of real pr=
+operty, not to exceed $225.=E2=80=9D
+=20
+=C2=A0
+=20
+Your feedback is important to us. If you=E2=80=99d like to provide your fee=
+dback, please click on the feedback button below.
+=20
+<image002.png>
+=20
+=C2=A0
+=20
+From:=C2=A0Eve Sanchez [mailto:eve@c-mtg.com]=C2=A0
+Sent:=C2=A0Thursday, July 05, 2018 2:57 PM
+To:=C2=A0corinnehunt.escrow
+Cc:=C2=A0FACA-RA-PTD.SS; "sam@c-mtg.com"
+Subject:=C2=A0Re: Title Action Required-288829-Address-214 Plantation Boule=
+vard-Buyer-Todd M Romboli (Email Ref=3D1480157444)
+=20
+=C2=A0
+=20
+Looks like we need a revised=C2=A0CPL, TITLE, CLOSING STATEMENT=C2=A0correc=
+ting the city to Islamorada please. It was caught by audit.
+=20
+=C2=A0
+=20
+Respectfully,
+=20
+Evelyn Sanchez
+=20
+Loan=C2=A0Processor
+Custom Mortgage=C2=A0
+=20
+<image003.png>
+=20
+Direct: 818-384-7653
+=20
+Fax: 866-421-7694
+=20
+Email:=C2=A0Eve@c-mtg.com
+=20
+=C2=A0
+=20
+=C2=A0
+=20
+=C2=A0
+=20
+---- On Thu, 05 Jul 2018 14:52:28 -0700=C2=A0corinnehunt.escrow <corinnehun=
+t.escrow@firstam.com>=C2=A0wrote ----
+=20
+=C2=A0
+=20
+
+Hi,
+=20
+=C2=A0
+=20
+The correct city is Islamorada
+=20
+=C2=A0
+=20
+Thank you,
+=20
+=C2=A0
+=20
+Amy Rigsby
+=20
+Escrow Assistant
+=20
+=C2=A0
+=20
+<image001.jpg>
+=20
+First American Title Company
+1855 Gateway Blvd Ste 700, Concord, CA 94520
+http://www.firstam.com=C2=A0|=C2=A0NYSE: FAF
+=20
+Phone 925-688-3215 / Fax 714-852-4677
+=20
+Please send all email inquiries and loan documents to=C2=A0corinnehunt.escr=
+ow@firstam.com
+=20
+=C2=A0
+=20
+=E2=80=9CCalifornia Building Homes and Jobs Act =E2=80=93 Affordable Housin=
+g Fee=E2=80=9D
+=20
+Effective=C2=A0January 1, 2018=C2=A0in California, the Building Homes and J=
+obs Act will impose a new $75 recording fee surcharge on every real estate =
+instrument, paper, or notice recorded per transaction per parcel of real pr=
+operty, not to exceed $225.=E2=80=9D
+=20
+=C2=A0
+=20
+Your feedback is important to us. If you=E2=80=99d like to provide your fee=
+dback, please click on the feedback button below.
+=20
+<image002.png>
+=20
+=C2=A0
+=20
+From:=C2=A0Eve Sanchez [mailto:eve@c-mtg.com]=C2=A0
+Sent:=C2=A0Thursday, July 05, 2018 2:41 PM
+To:=C2=A0FACA-RA-PTD.SS
+Cc:=C2=A0corinnehunt.escrow;=C2=A0sam@c-mtg.com
+Subject:=C2=A0Re: Title Action Required-288829-Address-214 Plantation Boule=
+vard-Buyer-Todd M Romboli (Email Ref=3D1480157444)
+=20
+=C2=A0
+=20
+Corrine,
+=20
+=C2=A0
+=20
+Can you confirm which one is the correct city?=C2=A0 Is it =E2=80=9CISLAMOR=
+ADA=E2=80=9D or "ISLAMORA"
+=20
+=C2=A0
+=20
+Respectfully,
+=20
+Evelyn Sanchez
+=20
+Loan=C2=A0Processor
+Custom Mortgage=C2=A0
+=20
+<image003.png>
+=20
+Direct: 818-384-7653
+=20
+Fax: 866-421-7694
+=20
+Email:=C2=A0Eve@c-mtg.com
+=20
+=C2=A0
+=20
+=C2=A0
+=20
+=C2=A0
+=20
+---- On Thu, 05 Jul 2018 12:34:09 -0700=C2=A0<ptd.ss@firstam.com>=C2=A0wrot=
+e ----
+=20
+=C2=A0
+=20
+
+=C2=A0
+=20
+Hi,
+
+Attached herewith are the ff:
+CPL
+
+Update for Title is already submitted to Production Department. If there ar=
+e any issues or further information is required we will contact you.
+
+I=E2=80=99ll send it to you once I have it.
+
+Let me know if you need anything else.
+
+Thank you
+
+
+
+
+File No.: 11059 288829=C2=A0
+
+Borrower: Todd Romboli=C2=A0
+
+Property Address: 214 Plantation Boulevard, Islamora, FL 33036-3005
+
+
+You can download Acrobat Reader at=C2=A0http://www.adobe.com/products/acrob=
+at/readstep2.html
+=20
+***************************************************************************=
+***************
+=20
+This message may contain confidential or proprietary information intended o=
+nly for the use of the
+=20
+addressee(s) named above or may contain information that is legally privile=
+ged. If you are
+=20
+not the intended addressee, or the person responsible for delivering it to =
+the intended addressee,
+=20
+you are hereby notified that reading, disseminating, distributing or copyin=
+g this message is strictly
+=20
+prohibited. If you have received this message by mistake, please immediatel=
+y notify us by replying
+=20
+to the message and delete the original message and any copies immediately t=
+hereafter.
+=20
+If you received this email as a commercial message and would like to opt ou=
+t of future commercial
+=20
+messages, please let us know and we will remove you from our distribution l=
+ist.
+=20
+Thank you.~
+=20
+***************************************************************************=
+***************
+=20
+FAFLD
+=20
+
+=C2=A0
+=20
+=C2=A0
+=20
+
+=C2=A0
+=20
+=C2=A0
+=20
+
+
+<CPL.pdf>
+=20
+
+
+<Title.pdf>
+=20
+
+
+<Statement.pdf>
+=20
+
+=C2=A0
+=20
+<Statement.pdf><Wire.pdf>
+=20
+
+ =C2=A0
+=20
+
+ =C2=A0
+  =20
+------=_Part_2347648_1866306012.1531329600681
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><div style=3D"font-family:verdana, helvetica, sans=
+-serif;font-size:13px;"><div style=3D"font-family:verdana, helvetica, sans-=
+serif;font-size:13px;"><div><div>my banker, at wells fargo is copied on thi=
+s email</div><div>please send fed ref to this thread</div><div><br></div><d=
+iv><br></div><div class=3D"ydp8c3e4b15signature"><div style=3D"font-family:=
+verdana, helvetica, sans-serif;font-size:13px;"><div><b><font face=3D"times=
+ new roman, new york, times, serif" size=3D"3">Todd Romboli</font></b></div=
+><div><b><font face=3D"times new roman, new york, times, serif" size=3D"3">=
+casarombo.co</font></b></div><div><b><font face=3D"times new roman, new yor=
+k, times, serif" size=3D"3">http://www.vrbo.com/498289<br>312.543.1006 c<br=
+><span><span style=3D"color:rgb(0, 0, 0);">772.264.5882</span></span>&nbsp;=
+f</font></b><br></div></div></div></div>
+        <div><br></div><div><br></div>
+       =20
+        </div><div id=3D"ydp9baa9a29yahoo_quoted_2121072884" class=3D"ydp9b=
+aa9a29yahoo_quoted">
+            <div style=3D"font-family:'Helvetica Neue', Helvetica, Arial, s=
+ans-serif;font-size:13px;color:#26282a;">
+               =20
+                <div>
+                    On Wednesday, July 11, 2018, 10:16:38 AM MST, corinnehu=
+nt. escrow &lt;corinnehunt.escrow@firstam.com&gt; wrote:
+                </div>
+                <div><br></div>
+                <div><br></div>
+                <div><div id=3D"ydp9baa9a29yiv9312776921"><div>
+<div class=3D"ydp9baa9a29yiv9312776921WordSection1">
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">Good morning.&nbsp;
+</span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;"> &nbsp;</span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">I have requested the FedID number from my accounting department and j=
+ust as soon as they forward me the details I will be sure to reply to this =
+email with the specifics.&nbsp;
+</span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;"> &nbsp;</span></p>=20
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"margin-bottom:12.0p=
+t;"><span lang=3D"EN" style=3D"font-size:10.0pt;">Corinne Hunt</span><span =
+lang=3D"EN" style=3D"font-size:10.0pt;"><br clear=3D"none">
+Escrow Officer</span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"margin-bottom:12.0p=
+t;"><span lang=3D"EN" style=3D"font-size:8.0pt;"><br clear=3D"none">
+</span><span style=3D"font-size:8.0pt;"><img id=3D"ydp9baa9a29yiv9312776921=
+Picture_x0020_1" style=3D"width: 169px; max-width: 211px;" src=3D"cid:myWit=
+ju1isCItKHnvbTW" alt=3D"https://assets.falive.net/images/fa-logo-signature.=
+jpg" data-inlineimagemanipulating=3D"true" draggable=3D"false" data-id=3D"1=
+531329565935"></span><span lang=3D"EN" style=3D"font-size:8.0pt;"><br clear=
+=3D"none">
+</span><span lang=3D"EN" style=3D"font-size:9.0pt;">First American Title Co=
+mpany<br clear=3D"none">
+1855 Gateway Blvd Ste 700, Concord, CA 94520<br clear=3D"none">
+<a shape=3D"rect" href=3D"http://www.firstam.com/" rel=3D"nofollow" target=
+=3D"_blank"><span style=3D"color:black;">http://www.firstam.com</span></a>&=
+nbsp;|&nbsp;<a shape=3D"rect" href=3D"http://www.firstam.com/investor" rel=
+=3D"nofollow" target=3D"_blank"><span style=3D"color:black;">NYSE: FAF</spa=
+n></a></span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"margin-bottom:12.0p=
+t;"><span lang=3D"EN" style=3D"font-size:9.0pt;">Phone 925-688-3215 / Fax 8=
+66-385-0823
+</span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"vertical-align:top;=
+"><b><i><span style=3D"font-size:10.5pt;"> &nbsp;</span></i></b></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"vertical-align:top;=
+"><b><i><span style=3D"font-size:10.5pt;">Your feedback is important to us.=
+ If you=E2=80=99d like to provide your feedback, please click on the feedba=
+ck button
+ below.</span></i></b><span style=3D"font-size:9.0pt;"></span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"vertical-align:top;=
+">
+<a shape=3D"rect" href=3D"https://feedback.firstam.com/cgi-bin/qwebcorporat=
+e.dll?idx=3D36XRYU&amp;S1=3DTodd%20McGowan&amp;S2=3DHunt,Corinne&amp;S3=3Dc=
+hunt@firstam.com&amp;S4=3DConcord&amp;S5=3DCalifornia&amp;S6=3DHillaree%20G=
+uay&amp;S7=3DEscrow&amp;S8=3DCA%20LND%20RLACA%20-%20Concord%20Escrow" rel=
+=3D"nofollow" target=3D"_blank"><span style=3D"font-size:9.0pt;"><img id=3D=
+"ydp9baa9a29yiv9312776921_x0000_i1025" border=3D"0" style=3D"width: 156px; =
+max-width: 156px;" src=3D"https://feedback.firstam.com/surveys/images/YVEVU=
+V/Preview/feedback.png?cacheToken=3D20171129133144" alt=3D"https://feedback=
+.firstam.com/surveys/images/YVEVUV/Preview/feedback.png?cacheToken=3D201711=
+29133144" data-inlineimagemanipulating=3D"true" draggable=3D"false" data-id=
+=3D"1531329565936"></span></a><span style=3D"font-size:9.0pt;"></span></p>=
+=20
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"margin-bottom:12.0p=
+t;"><span lang=3D"EN" style=3D"font-size:9.0pt;"> &nbsp;</span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"margin-bottom:12.0p=
+t;"><span lang=3D"EN" style=3D"font-size:9.0pt;"> &nbsp;</span></p>=20
+</div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;"> &nbsp;</span></p>=20
+<div class=3D"ydp9baa9a29yiv9312776921yqt7555655766" id=3D"ydp9baa9a29yiv93=
+12776921yqt18674"><div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in;">
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><b><span style=3D"font-size:=
+11.0pt;">From:</span></b><span style=3D"font-size:11.0pt;"> Sam Tehranchi [=
+mailto:sam@c-mtg.com]
+<br clear=3D"none">
+<b>Sent:</b> Wednesday, July 11, 2018 10:12 AM<br clear=3D"none">
+<b>To:</b> corinnehunt.escrow &lt;corinnehunt.escrow@firstam.com&gt;<br cle=
+ar=3D"none">
+<b>Cc:</b> todd@domm.life; tromboli@yahoo.com<br clear=3D"none">
+<b>Subject:</b> Re: Title Action Required-288829-Address-214 Plantation Bou=
+levard-Buyer-Todd M Romboli (Email Ref=3D1480157444)</span></p>=20
+</div>
+</div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"> &nbsp;</p>=20
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">Hi Corinne and Amy</p>=20
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"> &nbsp;</p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">Per our conversation, can yo=
+u please forward the Fed Wire number for the borrower=E2=80=99s funds (Todd=
+ Romboli) which have been wired already. &nbsp;He needs the Fed number in o=
+rder to get the funds applied to his account. &nbsp;Corinne advised that sh=
+e
+ was waiting on the accounting department to send her that information, if =
+you can please advise the ETA for the Fed reference number, we would greatl=
+y appreciate it.</p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"> &nbsp;</p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">The borrower is CC on this m=
+essage so you can reply directly with the Fed Reference number.</p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"> &nbsp;</p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">Thank you!!</p>=20
+</div></div>
+<div>
+<div class=3D"ydp9baa9a29yiv9312776921yqt7555655766" id=3D"ydp9baa9a29yiv93=
+12776921yqt56362"><p class=3D"ydp9baa9a29yiv9312776921MsoNormal"> &nbsp;</p=
+>=20
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"margin-bottom:12.0p=
+t;"><span style=3D"color:black;">Respectfully, &nbsp;&nbsp;<br clear=3D"non=
+e">
+<br clear=3D"none">
+&nbsp;<br clear=3D"none">
+Sam Tehranchi<br clear=3D"none">
+<br clear=3D"none">
+&nbsp;<br clear=3D"none">
+COO<br clear=3D"none">
+Custom Mortgage and Realty&nbsp;<br clear=3D"none">
+NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br clear=3D"none">
+&nbsp;<br clear=3D"none">
+Direct 310.709.6304 -Efax 866.421.7694&nbsp;<br clear=3D"none">
+<br clear=3D"none">
+<a shape=3D"rect" href=3D"mailto:sam@c-mtg.com" rel=3D"nofollow" target=3D"=
+_blank">sam@c-mtg.com</a>&nbsp;-&nbsp;<a shape=3D"rect" href=3D"http://www.=
+c-mtg.com" rel=3D"nofollow" target=3D"_blank">www.c-mtg.com</a><br clear=3D=
+"none">
+<br clear=3D"none">
+<a shape=3D"rect" href=3D"https://www.linkedin.com/company-beta/3477964" re=
+l=3D"nofollow" target=3D"_blank">LinkedIn</a>&nbsp;-&nbsp;<a shape=3D"rect"=
+ href=3D"https://www.facebook.com/Custom-Mortgage-409842885783868/" rel=3D"=
+nofollow" target=3D"_blank">Facebook</a>&nbsp;-&nbsp;<a shape=3D"rect" href=
+=3D"https://twitter.com/custommortgage1" rel=3D"nofollow" target=3D"_blank"=
+>twitter</a>&nbsp;-&nbsp;<a shape=3D"rect" href=3D"https://www.instagram.co=
+m/custommortgageinc/" rel=3D"nofollow" target=3D"_blank">Instagram</a></spa=
+n></p>=20
+</div>
+</div>
+</div></div>
+<div>
+<div class=3D"ydp9baa9a29yiv9312776921yqt7555655766" id=3D"ydp9baa9a29yiv93=
+12776921yqt70505"><p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><br clear=
+=3D"none">
+<br clear=3D"none">
+</p></div>=20
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt;">
+<div class=3D"ydp9baa9a29yiv9312776921yqt7555655766" id=3D"ydp9baa9a29yiv93=
+12776921yqt58748"><div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">On Jul 11, 2018, at 7:12 AM,=
+ Sam Tehranchi &lt;<a shape=3D"rect" href=3D"mailto:sam@c-mtg.com" rel=3D"n=
+ofollow" target=3D"_blank">sam@c-mtg.com</a>&gt; wrote:</p>=20
+</div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"> &nbsp;</p></div>=20
+<div>
+<div>
+<div class=3D"ydp9baa9a29yiv9312776921yqt7555655766" id=3D"ydp9baa9a29yiv93=
+12776921yqt35289"><p class=3D"ydp9baa9a29yiv9312776921MsoNormal">Good morni=
+ng Amy : )</p>=20
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"> &nbsp;</p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">Has the borrowers funds been=
+ wired out? &nbsp;I wanted to know if you can forward the FED Reference num=
+ber for his wire.</p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"> &nbsp;</p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">Please advise at your earlie=
+st convenience. &nbsp;Thank you</p>=20
+</div></div>
+<div>
+<div class=3D"ydp9baa9a29yiv9312776921yqt7555655766" id=3D"ydp9baa9a29yiv93=
+12776921yqt15909"><p class=3D"ydp9baa9a29yiv9312776921MsoNormal"> &nbsp;</p=
+>=20
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"margin-bottom:12.0p=
+t;">Respectfully, &nbsp;&nbsp;<br clear=3D"none">
+<br clear=3D"none">
+&nbsp;<br clear=3D"none">
+Sam Tehranchi<br clear=3D"none">
+<br clear=3D"none">
+&nbsp;<br clear=3D"none">
+COO<br clear=3D"none">
+Custom Mortgage and Realty&nbsp;<br clear=3D"none">
+NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br clear=3D"none">
+&nbsp;<br clear=3D"none">
+Direct 310.709.6304 -Efax 866.421.7694&nbsp;<br clear=3D"none">
+<br clear=3D"none">
+<a shape=3D"rect" href=3D"mailto:sam@c-mtg.com" rel=3D"nofollow" target=3D"=
+_blank">sam@c-mtg.com</a>&nbsp;-&nbsp;<a shape=3D"rect" href=3D"http://www.=
+c-mtg.com/" rel=3D"nofollow" target=3D"_blank">www.c-mtg.com</a><br clear=
+=3D"none">
+<br clear=3D"none">
+<a shape=3D"rect" href=3D"https://www.linkedin.com/company-beta/3477964" re=
+l=3D"nofollow" target=3D"_blank">LinkedIn</a>&nbsp;-&nbsp;<a shape=3D"rect"=
+ href=3D"https://www.facebook.com/Custom-Mortgage-409842885783868/" rel=3D"=
+nofollow" target=3D"_blank">Facebook</a>&nbsp;-&nbsp;<a shape=3D"rect" href=
+=3D"https://twitter.com/custommortgage1" rel=3D"nofollow" target=3D"_blank"=
+>twitter</a>&nbsp;-&nbsp;<a shape=3D"rect" href=3D"https://www.instagram.co=
+m/custommortgageinc/" rel=3D"nofollow" target=3D"_blank">Instagram</a></p>=
+=20
+</div>
+</div>
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><br clear=3D"none">
+<br clear=3D"none">
+</p>=20
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt;">
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">On Jul 10, 2018, at 9:27 AM,=
+ corinnehunt.escrow &lt;<a shape=3D"rect" href=3D"mailto:corinnehunt.escrow=
+@firstam.com" rel=3D"nofollow" target=3D"_blank">corinnehunt.escrow@firstam=
+.com</a>&gt; wrote:</p>=20
+</div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"> &nbsp;</p>=20
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">Hi,</span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">Attached is a copy of the settlement statement.&nbsp;</span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">In order to change the instructions for funds due to borrower, we wil=
+l need the attached instructions signed and notarized.</span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">Thank you,</span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">Amy Rigsby</span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">Escrow Assistant</span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:8.0=
+pt;">&lt;image001.jpg&gt;</span></p>=20
+</div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"margin-bottom:12.0p=
+t;"><span lang=3D"EN" style=3D"font-size:11.0pt;">First American Title Comp=
+any<br clear=3D"none">
+1855 Gateway Blvd Ste 700, Concord, CA 94520<br clear=3D"none">
+<a shape=3D"rect" href=3D"http://www.firstam.com/" rel=3D"nofollow" target=
+=3D"_blank"><span style=3D"color:purple;">http://www.firstam.com</span></a>=
+&nbsp;|&nbsp;<a shape=3D"rect" href=3D"http://www.firstam.com/investor" rel=
+=3D"nofollow" target=3D"_blank"><span style=3D"color:purple;">NYSE: FAF</sp=
+an></a></span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"margin-bottom:12.0p=
+t;"><span lang=3D"EN" style=3D"font-size:11.0pt;">Phone 925-688-3215 / Fax =
+714-852-4677</span></p>=20
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><b><span style=3D"font-size:=
+11.0pt;">Please send all email<span class=3D"ydp9baa9a29yiv9312776921apple-=
+converted-space">&nbsp;</span>inquiries and loan documents to<span class=3D=
+"ydp9baa9a29yiv9312776921apple-converted-space">&nbsp;</span><u><a shape=3D=
+"rect" href=3D"mailto:corinnehunt.escrow@firstam.com" rel=3D"nofollow" targ=
+et=3D"_blank"><span style=3D"color:#7030A0;">corinnehunt.escrow@firstam.com=
+</span></a></u></span></b></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><b><span style=3D"font-size:=
+11.0pt;">&nbsp;</span></b></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><b><span style=3D"font-size:=
+14.0pt;">=E2=80=9CCalifornia Building Homes and Jobs Act =E2=80=93 Affordab=
+le Housing Fee=E2=80=9D</span></b></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span>Effective<span class=
+=3D"ydp9baa9a29yiv9312776921apple-converted-space">&nbsp;</span><b>January =
+1, 2018</b><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&n=
+bsp;</span>in California, the Building Homes and Jobs Act will impose
+ a new $75 recording fee surcharge on every real estate instrument, paper, =
+or notice recorded per transaction per parcel of real property, not to exce=
+ed $225.=E2=80=9D</span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"vertical-align:top;=
+"><i><span style=3D"font-size:10.5pt;">Your feedback is important to us. If=
+ you=E2=80=99d like to provide your feedback, please click on the feedback =
+button below.</span></i></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"vertical-align:top;=
+"><a shape=3D"rect" href=3D"https://feedback.firstam.com/cgi-bin/qwebcorpor=
+ate.dll?idx=3D36XRYU&amp;S1=3DTodd%20McGowan&amp;S2=3DRigsby,Amy&amp;S3=3DA=
+Rigsby@firstam.com&amp;S4=3DConcord&amp;S5=3DCalifornia&amp;S6=3DHillaree%2=
+0Guay&amp;S7=3DEscrow&amp;S8=3DCA%20LND%20RLACA%20-%20Concord%20Escrow" rel=
+=3D"nofollow" target=3D"_blank"><span style=3D"font-size:9.0pt;">&lt;image0=
+02.png&gt;</span></a></p>=20
+</div>
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+<div>
+<div style=3D"border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0in =
+0in 0in;">
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><b><span style=3D"font-size:=
+10.0pt;">From:</span></b><span class=3D"ydp9baa9a29yiv9312776921apple-conve=
+rted-space"><span style=3D"font-size:10.0pt;">&nbsp;</span></span><span sty=
+le=3D"font-size:10.0pt;">Sam
+ Tehranchi [<a shape=3D"rect" href=3D"mailto:sam@c-mtg.com" rel=3D"nofollow=
+" target=3D"_blank"><span style=3D"color:purple;">mailto:sam@c-mtg.com</spa=
+n></a>]<span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&nbsp;=
+</span><br clear=3D"none">
+<b>Sent:</b><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&=
+nbsp;</span>Tuesday, July 10, 2018 7:41 AM<br clear=3D"none">
+<b>To:</b><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&nb=
+sp;</span>corinnehunt.escrow<br clear=3D"none">
+<b>Cc:</b><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&nb=
+sp;</span><a shape=3D"rect" href=3D"mailto:todd@domm.life" rel=3D"nofollow"=
+ target=3D"_blank"><span style=3D"color:purple;">todd@domm.life</span></a>;=
+<span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&nbsp;</span>=
+<a shape=3D"rect" href=3D"mailto:tromboli@yahoo.com" rel=3D"nofollow" targe=
+t=3D"_blank"><span style=3D"color:purple;">tromboli@yahoo.com</span></a><br=
+ clear=3D"none">
+<b>Subject:</b><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space=
+">&nbsp;</span>Re: Title Action Required-288829-Address-214 Plantation Boul=
+evard-Buyer-Todd M Romboli (Email Ref=3D1480157444)</span></p>=20
+</div>
+</div>
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">&nbsp;</p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">Hi Amy and Corinne</p>=20
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">&nbsp;</p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">Can you please send us a cop=
+y of the closing statement / HUD to review. &nbsp;In addition, please advis=
+e regarding funding, recording and disbursement status.</p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">&nbsp;</p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">Also, the borrower, Mr Rombo=
+li wanted to change his wiring instruction to the following:</p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">&nbsp;</p>=20
+</div>
+</div>
+<div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt;">
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">As&nbsp; a follow up to your request, the following are the Domestic =
+Incoming Wire instructions for your Command account.</span></p>=20
+</div>
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">Wells Fargo Bank</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">420 Montgomery Street</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">San Francisco, CA&nbsp; 94104</span></p>=20
+</div>
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">ABA #:&nbsp; 121000248</span></p>=20
+</div>
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">Beneficiary:</span></p>=20
+</div>
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">First Clearing, LLC</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">1 North Jefferson</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">St. Louis, MO&nbsp; 63103</span></p>=20
+</div>
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">Account #:&nbsp; 4122023377</span></p>=20
+</div>
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">For Further Credit To:&nbsp; Todd M. Romboli, 7145-0364</span></p>=20
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">&nbsp;</p>=20
+</div>
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">Please advise at your conven=
+ience what else you will need to update the wiring instruction for the borr=
+ower=E2=80=99s funds.</p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">&nbsp;</p>=20
+</div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"margin-bottom:12.0p=
+t;">Respectfully, &nbsp;&nbsp;<br clear=3D"none">
+<br clear=3D"none">
+&nbsp;<br clear=3D"none">
+Sam Tehranchi<br clear=3D"none">
+<br clear=3D"none">
+&nbsp;<br clear=3D"none">
+COO<br clear=3D"none">
+Custom Mortgage and Realty&nbsp;<br clear=3D"none">
+NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br clear=3D"none">
+&nbsp;<br clear=3D"none">
+Direct 310.709.6304 -Efax 866.421.7694&nbsp;<br clear=3D"none">
+<br clear=3D"none">
+<a shape=3D"rect" href=3D"mailto:sam@c-mtg.com" rel=3D"nofollow" target=3D"=
+_blank"><span style=3D"color:purple;">sam@c-mtg.com</span></a>&nbsp;-&nbsp;=
+<a shape=3D"rect" href=3D"http://www.c-mtg.com/" rel=3D"nofollow" target=3D=
+"_blank"><span style=3D"color:purple;">www.c-mtg.com</span></a><br clear=3D=
+"none">
+<br clear=3D"none">
+<a shape=3D"rect" href=3D"https://www.linkedin.com/company-beta/3477964" re=
+l=3D"nofollow" target=3D"_blank"><span style=3D"color:purple;">LinkedIn</sp=
+an></a>&nbsp;-&nbsp;<a shape=3D"rect" href=3D"https://www.facebook.com/Cust=
+om-Mortgage-409842885783868/" rel=3D"nofollow" target=3D"_blank"><span styl=
+e=3D"color:purple;">Facebook</span></a>&nbsp;-&nbsp;<a shape=3D"rect" href=
+=3D"https://twitter.com/custommortgage1" rel=3D"nofollow" target=3D"_blank"=
+><span style=3D"color:purple;">twitter</span></a>&nbsp;-&nbsp;<a shape=3D"r=
+ect" href=3D"https://www.instagram.com/custommortgageinc/" rel=3D"nofollow"=
+ target=3D"_blank"><span style=3D"color:purple;">Instagram</span></a></p>=
+=20
+</div>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><br clear=3D"none">
+<br clear=3D"none">
+<br clear=3D"none">
+</p>=20
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">On Jul 6, 2018, at 2:25 PM, =
+corinnehunt.escrow &lt;<a shape=3D"rect" href=3D"mailto:corinnehunt.escrow@=
+firstam.com" rel=3D"nofollow" target=3D"_blank"><span style=3D"color:purple=
+;">corinnehunt.escrow@firstam.com</span></a>&gt; wrote:</p>=20
+</div>
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">&nbsp;</p>=20
+</div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">We are attempting to schedule for Monday, July 9<sup>th</sup>.</span>=
+</p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">I just sent an email to Mr. Romboli to obtain the location and time h=
+e would like to sign.</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">Thank you,</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">Amy Rigsby</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">Escrow Assistant</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:8.0=
+pt;">&lt;image001.jpg&gt;</span></p>=20
+</div>
+</div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"margin-bottom:12.0p=
+t;"><span lang=3D"EN" style=3D"font-size:11.0pt;">First American Title Comp=
+any<br clear=3D"none">
+1855 Gateway Blvd Ste 700, Concord, CA 94520<br clear=3D"none">
+<a shape=3D"rect" href=3D"http://www.firstam.com/" rel=3D"nofollow" target=
+=3D"_blank"><span style=3D"color:purple;">http://www.firstam.com</span></a>=
+&nbsp;|&nbsp;<a shape=3D"rect" href=3D"http://www.firstam.com/investor" rel=
+=3D"nofollow" target=3D"_blank"><span style=3D"color:purple;">NYSE: FAF</sp=
+an></a></span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"margin-bottom:12.0p=
+t;"><span lang=3D"EN" style=3D"font-size:11.0pt;">Phone 925-688-3215 / Fax =
+714-852-4677</span></p>=20
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><b><span style=3D"font-size:=
+11.0pt;">Please send all email<span class=3D"ydp9baa9a29yiv9312776921apple-=
+converted-space">&nbsp;</span>inquiries and loan documents to<span class=3D=
+"ydp9baa9a29yiv9312776921apple-converted-space">&nbsp;</span><u><a shape=3D=
+"rect" href=3D"mailto:corinnehunt.escrow@firstam.com" rel=3D"nofollow" targ=
+et=3D"_blank"><span style=3D"color:#7030A0;">corinnehunt.escrow@firstam.com=
+</span></a></u></span></b></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><b><span style=3D"font-size:=
+11.0pt;">&nbsp;</span></b></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><b><span style=3D"font-size:=
+14.0pt;">=E2=80=9CCalifornia Building Homes and Jobs Act =E2=80=93 Affordab=
+le Housing Fee=E2=80=9D</span></b></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span>Effective<span class=
+=3D"ydp9baa9a29yiv9312776921apple-converted-space">&nbsp;</span><b>January =
+1, 2018</b><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&n=
+bsp;</span>in California, the Building Homes and Jobs Act will impose
+ a new $75 recording fee surcharge on every real estate instrument, paper, =
+or notice recorded per transaction per parcel of real property, not to exce=
+ed $225.=E2=80=9D</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"vertical-align:top;=
+"><i><span style=3D"font-size:10.5pt;">Your feedback is important to us. If=
+ you=E2=80=99d like to provide your feedback, please click on the feedback =
+button below.</span></i></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"vertical-align:top;=
+"><a shape=3D"rect" href=3D"https://feedback.firstam.com/cgi-bin/qwebcorpor=
+ate.dll?idx=3D36XRYU&amp;S1=3DTodd%20McGowan&amp;S2=3DRigsby,Amy&amp;S3=3DA=
+Rigsby@firstam.com&amp;S4=3DConcord&amp;S5=3DCalifornia&amp;S6=3DHillaree%2=
+0Guay&amp;S7=3DEscrow&amp;S8=3DCA%20LND%20RLACA%20-%20Concord%20Escrow" rel=
+=3D"nofollow" target=3D"_blank"><span style=3D"font-size:9.0pt;">&lt;image0=
+02.png&gt;</span></a></p>=20
+</div>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+<div>
+<div style=3D"border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0in =
+0in 0in;">
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><b><span style=3D"font-size:=
+10.0pt;">From:</span></b><span class=3D"ydp9baa9a29yiv9312776921apple-conve=
+rted-space"><span style=3D"font-size:10.0pt;">&nbsp;</span></span><span sty=
+le=3D"font-size:10.0pt;">Sam
+ Tehranchi [<a shape=3D"rect" href=3D"mailto:sam@c-mtg.com" rel=3D"nofollow=
+" target=3D"_blank"><span style=3D"color:purple;">mailto:sam@c-mtg.com</spa=
+n></a>]<span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&nbsp;=
+</span><br clear=3D"none">
+<b>Sent:</b><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&=
+nbsp;</span>Friday, July 06, 2018 2:21 PM<br clear=3D"none">
+<b>To:</b><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&nb=
+sp;</span>corinnehunt.escrow;<span class=3D"ydp9baa9a29yiv9312776921apple-c=
+onverted-space">&nbsp;</span><a shape=3D"rect" href=3D"mailto:todd@domm.lif=
+e" rel=3D"nofollow" target=3D"_blank"><span style=3D"color:purple;">todd@do=
+mm.life</span></a>;<span class=3D"ydp9baa9a29yiv9312776921apple-converted-s=
+pace">&nbsp;</span><a shape=3D"rect" href=3D"mailto:tromboli@yahoo.com" rel=
+=3D"nofollow" target=3D"_blank"><span style=3D"color:purple;">tromboli@yaho=
+o.com</span></a><br clear=3D"none">
+<b>Subject:</b><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space=
+">&nbsp;</span>Re: Title Action Required-288829-Address-214 Plantation Boul=
+evard-Buyer-Todd M Romboli (Email Ref=3D1480157444)</span></p>=20
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">&nbsp;</p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">Hi Corinne and Amy,</p>=20
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">&nbsp;</p>=20
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">The lender said your working=
+ on scheduling the signing with the borrower. &nbsp;Can you please confirm =
+if we are attempting to sign today or Monday. &nbsp;Per the lender, the doc=
+s are date sensitive.</p>=20
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">&nbsp;</p>=20
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">Sam Tehranchi</p>=20
+</div>
+</div>
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"margin-bottom:12.0p=
+t;">310-709-6304</p>=20
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">Sent from my iPhone</p>=20
+</div>
+</div>
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"margin-bottom:12.0p=
+t;"><br clear=3D"none">
+On Jul 5, 2018, at 3:04 PM, corinnehunt.escrow &lt;<a shape=3D"rect" href=
+=3D"mailto:corinnehunt.escrow@firstam.com" rel=3D"nofollow" target=3D"_blan=
+k"><span style=3D"color:purple;">corinnehunt.escrow@firstam.com</span></a>&=
+gt; wrote:</p>=20
+</div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt;">
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">Hi,</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">Attached are the revised CPL, prelim and settlement statement.</span>=
+</p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">Thank you,</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">Amy Rigsby</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">Escrow Assistant</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:8.0=
+pt;">&lt;image001.jpg&gt;</span></p>=20
+</div>
+</div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"margin-bottom:12.0p=
+t;"><span lang=3D"EN" style=3D"font-size:11.0pt;">First American Title Comp=
+any<br clear=3D"none">
+1855 Gateway Blvd Ste 700, Concord, CA 94520<br clear=3D"none">
+<a shape=3D"rect" href=3D"http://www.firstam.com/" rel=3D"nofollow" target=
+=3D"_blank"><span style=3D"color:purple;">http://www.firstam.com</span></a>=
+&nbsp;|&nbsp;<a shape=3D"rect" href=3D"http://www.firstam.com/investor" rel=
+=3D"nofollow" target=3D"_blank"><span style=3D"color:purple;">NYSE: FAF</sp=
+an></a></span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"margin-bottom:12.0p=
+t;"><span lang=3D"EN" style=3D"font-size:11.0pt;">Phone 925-688-3215 / Fax =
+714-852-4677</span></p>=20
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><b><span style=3D"font-size:=
+11.0pt;">Please send all email inquiries and loan documents to<span class=
+=3D"ydp9baa9a29yiv9312776921apple-converted-space">&nbsp;</span><u><a shape=
+=3D"rect" href=3D"mailto:corinnehunt.escrow@firstam.com" rel=3D"nofollow" t=
+arget=3D"_blank"><span style=3D"color:#7030A0;">corinnehunt.escrow@firstam.=
+com</span></a></u></span></b></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><b><span style=3D"font-size:=
+11.0pt;">&nbsp;</span></b></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><b><span style=3D"font-size:=
+14.0pt;">=E2=80=9CCalifornia Building Homes and Jobs Act =E2=80=93 Affordab=
+le Housing Fee=E2=80=9D</span></b></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span>Effective<span class=
+=3D"ydp9baa9a29yiv9312776921apple-converted-space">&nbsp;</span><b>January =
+1, 2018</b><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&n=
+bsp;</span>in California, the Building Homes and Jobs Act will impose
+ a new $75 recording fee surcharge on every real estate instrument, paper, =
+or notice recorded per transaction per parcel of real property, not to exce=
+ed $225.=E2=80=9D</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"vertical-align:top;=
+"><i><span style=3D"font-size:10.5pt;">Your feedback is important to us. If=
+ you=E2=80=99d like to provide your feedback, please click on the feedback =
+button below.</span></i></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal" style=3D"vertical-align:top;=
+"><a shape=3D"rect" href=3D"https://feedback.firstam.com/cgi-bin/qwebcorpor=
+ate.dll?idx=3D36XRYU&amp;S1=3DTodd%20McGowan&amp;S2=3DRigsby,Amy&amp;S3=3DA=
+Rigsby@firstam.com&amp;S4=3DConcord&amp;S5=3DCalifornia&amp;S6=3DHillaree%2=
+0Guay&amp;S7=3DEscrow&amp;S8=3DCA%20LND%20RLACA%20-%20Concord%20Escrow" rel=
+=3D"nofollow" target=3D"_blank"><span style=3D"font-size:9.0pt;">&lt;image0=
+02.png&gt;</span></a></p>=20
+</div>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:11.=
+0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+<div>
+<div style=3D"border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0in =
+0in 0in;">
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><b><span style=3D"font-size:=
+10.0pt;">From:</span></b><span class=3D"ydp9baa9a29yiv9312776921apple-conve=
+rted-space"><span style=3D"font-size:10.0pt;">&nbsp;</span></span><span sty=
+le=3D"font-size:10.0pt;">Eve
+ Sanchez [<a shape=3D"rect" href=3D"mailto:eve@c-mtg.com" rel=3D"nofollow" =
+target=3D"_blank"><span style=3D"color:purple;">mailto:eve@c-mtg.com</span>=
+</a>]<span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&nbsp;</=
+span><br clear=3D"none">
+<b>Sent:</b><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&=
+nbsp;</span>Thursday, July 05, 2018 2:57 PM<br clear=3D"none">
+<b>To:</b><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&nb=
+sp;</span>corinnehunt.escrow<br clear=3D"none">
+<b>Cc:</b><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&nb=
+sp;</span>FACA-RA-PTD.SS; "<a shape=3D"rect" href=3D"mailto:sam@c-mtg.com" =
+rel=3D"nofollow" target=3D"_blank"><span style=3D"color:purple;">sam@c-mtg.=
+com</span></a>"<br clear=3D"none">
+<b>Subject:</b><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space=
+">&nbsp;</span>Re: Title Action Required-288829-Address-214 Plantation Boul=
+evard-Buyer-Todd M Romboli (Email Ref=3D1480157444)</span></p>=20
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">&nbsp;</p>=20
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:10.=
+0pt;">Looks like we need a revised<span class=3D"ydp9baa9a29yiv9312776921ap=
+ple-converted-space">&nbsp;</span><span class=3D"ydp9baa9a29yiv9312776921si=
+ze">CPL, TITLE, CLOSING STATEMENT</span><span class=3D"ydp9baa9a29yiv931277=
+6921apple-converted-space">&nbsp;</span>correcting
+ the city to Islamorada please. It was caught by audit.</span></p>=20
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:10.=
+0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+</div>
+<div id=3D"ydp9baa9a29yiv9312776921Zm-_Id_-Sgn">
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:10.=
+0pt;">Respectfully,</span></p>=20
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><i><span style=3D"font-size:=
+10.0pt;">Evelyn Sanchez</span></i></p>=20
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:10.=
+0pt;">Loan<span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&nb=
+sp;</span><i>Processor<br clear=3D"none">
+</i><b>Custom Mortgage&nbsp;</b></span></p>=20
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><b><span style=3D"font-size:=
+10.0pt;">&lt;image003.png&gt;</span></b></p>=20
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:10.=
+0pt;">Direct: 818-384-7653</span></p>=20
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:10.=
+0pt;">Fax: 866-421-7694</span></p>=20
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:10.=
+0pt;">Email:<span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&=
+nbsp;</span><u><a shape=3D"rect" href=3D"mailto:Karen@c-mtg.com" rel=3D"nof=
+ollow" target=3D"_blank"><span style=3D"color:purple;">Eve@c-mtg.com</span>=
+</a></u></span></p>=20
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:10.=
+0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:10.=
+0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+</div>
+<div>
+<div id=3D"ydp9baa9a29yiv9312776921Zm-_Id_-Sgn1">
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:10.=
+0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:10.=
+0pt;">---- On Thu, 05 Jul 2018 14:52:28 -0700&nbsp;<b>corinnehunt.escrow &l=
+t;<a shape=3D"rect" href=3D"mailto:corinnehunt.escrow@firstam.com" rel=3D"n=
+ofollow" target=3D"_blank"><span style=3D"color:purple;">corinnehunt.escrow=
+@firstam.com</span></a>&gt;</b><span class=3D"ydp9baa9a29yiv9312776921apple=
+-converted-space">&nbsp;</span>wrote
+ ----</span></p>=20
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:10.=
+0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+</div>
+<blockquote style=3D"border:none;border-left:solid #CCCCCC 1.0pt;padding:0i=
+n 0in 0in 5.0pt;margin-left:3.75pt;margin-top:5.0pt;margin-right:0in;margin=
+-bottom:5.0pt;">
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:11.0pt;">Hi,</span></=
+span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:11.0pt;">&nbsp;</span=
+></span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:11.0pt;">The correct =
+city is Islamorada</span></span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:11.0pt;">&nbsp;</span=
+></span></p>=20
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:11.0pt;">Thank you,</=
+span></span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:11.0pt;">&nbsp;</span=
+></span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:11.0pt;">Amy Rigsby</=
+span></span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:11.0pt;">Escrow Assis=
+tant</span></span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:11.0pt;">&nbsp;</span=
+></span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span style=3D"f=
+ont-size:8.0pt;">&lt;image001.jpg&gt;</span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal" style=3D"margin-=
+bottom:12.0pt;"><span class=3D"ydp9baa9a29yiv9312776921size"><span style=3D=
+"font-size:11.0pt;">First American Title Company</span></span><span style=
+=3D"font-size:11.0pt;"><br clear=3D"none">
+<span class=3D"ydp9baa9a29yiv9312776921size">1855 Gateway Blvd Ste 700, Con=
+cord, CA 94520</span><br clear=3D"none">
+<span class=3D"ydp9baa9a29yiv9312776921size"><a shape=3D"rect" href=3D"http=
+://www.firstam.com/" rel=3D"nofollow" target=3D"_blank"><span class=3D"ydp9=
+baa9a29yiv9312776921colour"><span style=3D"color:purple;">http://www.firsta=
+m.com</span></span></a>&nbsp;|&nbsp;<a shape=3D"rect" href=3D"http://www.fi=
+rstam.com/investor" rel=3D"nofollow" target=3D"_blank"><span class=3D"ydp9b=
+aa9a29yiv9312776921colour"><span style=3D"color:purple;">NYSE:
+ FAF</span></span></a></span></span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal" style=3D"margin-=
+bottom:12.0pt;"><span class=3D"ydp9baa9a29yiv9312776921size"><span style=3D=
+"font-size:11.0pt;">Phone 925-688-3215 / Fax 714-852-4677</span></span></p>=
+=20
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><b><span style=3D"font-size:11.0pt;">Please se=
+nd all email inquiries and loan documents to</span></b></span><span class=
+=3D"ydp9baa9a29yiv9312776921apple-converted-space"><b><span style=3D"font-s=
+ize:11.0pt;">&nbsp;</span></b></span><span class=3D"ydp9baa9a29yiv931277692=
+1size"><b><u><span style=3D"font-size:11.0pt;"><a shape=3D"rect" href=3D"ma=
+ilto:corinnehunt.escrow@firstam.com" rel=3D"nofollow" target=3D"_blank"><sp=
+an class=3D"ydp9baa9a29yiv9312776921colour"><span style=3D"color:#7030A0;">=
+corinnehunt.escrow@firstam.com</span></span></a></span></u></b></span></p>=
+=20
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><b><span style=3D"font-size:11.0pt;">&nbsp;</s=
+pan></b></span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><b><span style=3D"font-size:14.0pt;">=E2=80=9C=
+California Building Homes and Jobs Act =E2=80=93 Affordable Housing Fee=E2=
+=80=9D</span></b></span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921font"><span style=3D"font-size:10.0pt;">Effective</s=
+pan></span><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space"><s=
+pan style=3D"font-size:10.0pt;">&nbsp;</span></span><span class=3D"ydp9baa9=
+a29yiv9312776921font"><b><span style=3D"font-size:10.0pt;">January
+ 1, 2018</span></b></span><span class=3D"ydp9baa9a29yiv9312776921apple-conv=
+erted-space"><span style=3D"font-size:10.0pt;">&nbsp;</span></span><span cl=
+ass=3D"ydp9baa9a29yiv9312776921font"><span style=3D"font-size:10.0pt;">in C=
+alifornia,
+ the Building Homes and Jobs Act will impose a new $75 recording fee surcha=
+rge on every real estate instrument, paper, or notice recorded per transact=
+ion per parcel of real property, not to exceed $225.=E2=80=9D</span></span>=
+</p>=20
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:11.0pt;">&nbsp;</span=
+></span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal" style=3D"vertica=
+l-align:top;"><span class=3D"ydp9baa9a29yiv9312776921size"><i><span style=
+=3D"font-size:10.5pt;">Your feedback is important to us. If you=E2=80=99d l=
+ike to provide your feedback, please click on the feedback button
+ below.</span></i></span></p>=20
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal" style=3D"vertica=
+l-align:top;"><span style=3D"font-size:10.0pt;"><a shape=3D"rect" href=3D"h=
+ttps://feedback.firstam.com/cgi-bin/qwebcorporate.dll?idx=3D36XRYU&amp;S1=
+=3DTodd%20McGowan&amp;S2=3DRigsby,Amy&amp;S3=3DARigsby@firstam.com&amp;S4=
+=3DConcord&amp;S5=3DCalifornia&amp;S6=3DHillaree%20Guay&amp;S7=3DEscrow&amp=
+;S8=3DCA%20LND%20RLACA%20-%20Concord%20Escrow" rel=3D"nofollow" target=3D"_=
+blank"><span style=3D"font-size:9.0pt;">&lt;image002.png&gt;</span></a></sp=
+an></p>=20
+</div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:11.0pt;">&nbsp;</span=
+></span></p>=20
+<div>
+<div style=3D"border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0in =
+0in 0in;">
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><b><span style=3D"font-size:10.0pt;">From:</sp=
+an></b></span><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space"=
+><span style=3D"font-size:10.0pt;">&nbsp;</span></span><span class=3D"ydp9b=
+aa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">Eve
+ Sanchez [mailto:<a shape=3D"rect" href=3D"mailto:eve@c-mtg.com" rel=3D"nof=
+ollow" target=3D"_blank"><span style=3D"color:purple;">eve@c-mtg.com</span>=
+</a>]</span></span><span class=3D"ydp9baa9a29yiv9312776921apple-converted-s=
+pace"><span style=3D"font-size:10.0pt;">&nbsp;</span></span><span style=3D"=
+font-size:10.0pt;"><br clear=3D"none">
+<span class=3D"ydp9baa9a29yiv9312776921size"><b>Sent:</b></span><span class=
+=3D"ydp9baa9a29yiv9312776921apple-converted-space">&nbsp;</span><span class=
+=3D"ydp9baa9a29yiv9312776921size">Thursday, July 05, 2018 2:41 PM</span><br=
+ clear=3D"none">
+<span class=3D"ydp9baa9a29yiv9312776921size"><b>To:</b></span><span class=
+=3D"ydp9baa9a29yiv9312776921apple-converted-space">&nbsp;</span><span class=
+=3D"ydp9baa9a29yiv9312776921size">FACA-RA-PTD.SS</span><br clear=3D"none">
+<span class=3D"ydp9baa9a29yiv9312776921size"><b>Cc:</b></span><span class=
+=3D"ydp9baa9a29yiv9312776921apple-converted-space">&nbsp;</span><span class=
+=3D"ydp9baa9a29yiv9312776921size">corinnehunt.escrow;</span><span class=3D"=
+ydp9baa9a29yiv9312776921apple-converted-space">&nbsp;</span><span class=3D"=
+ydp9baa9a29yiv9312776921size"><a shape=3D"rect" href=3D"mailto:sam@c-mtg.co=
+m" rel=3D"nofollow" target=3D"_blank"><span style=3D"color:purple;">sam@c-m=
+tg.com</span></a></span><br clear=3D"none">
+<span class=3D"ydp9baa9a29yiv9312776921size"><b>Subject:</b></span><span cl=
+ass=3D"ydp9baa9a29yiv9312776921apple-converted-space">&nbsp;</span><span cl=
+ass=3D"ydp9baa9a29yiv9312776921size">Re: Title Action Required-288829-Addre=
+ss-214 Plantation Boulevard-Buyer-Todd M Romboli (Email Ref=3D1480157444)</=
+span></span></p>=20
+</div>
+</div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span style=3D"f=
+ont-size:10.0pt;">&nbsp;</span></p>=20
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">Corrine,</sp=
+an></span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">&nbsp;</span=
+></span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">Can you conf=
+irm which one is the correct city?&nbsp; Is it =E2=80=9CISLAMORADA=E2=80=9D=
+ or "ISLAMORA"</span></span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">&nbsp;</span=
+></span></p>=20
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">Respectfully=
+,</span></span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><i><span style=3D"font-size:10.0pt;">Evelyn Sa=
+nchez</span></i></span></p>=20
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">Loan</span><=
+/span><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space"><span s=
+tyle=3D"font-size:10.0pt;">&nbsp;</span></span><span class=3D"ydp9baa9a29yi=
+v9312776921size"><i><span style=3D"font-size:10.0pt;">Processor</span></i><=
+/span><i><span style=3D"font-size:10.0pt;"><br clear=3D"none">
+</span></i><span class=3D"ydp9baa9a29yiv9312776921size"><b><span style=3D"f=
+ont-size:10.0pt;">Custom Mortgage&nbsp;</span></b></span></p>=20
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><b><span style=
+=3D"font-size:10.0pt;">&lt;image003.png&gt;</span></b></p>=20
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">Direct: 818-=
+384-7653</span></span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">Fax: 866-421=
+-7694</span></span></p>=20
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">Email:</span=
+></span><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space"><span=
+ style=3D"font-size:10.0pt;">&nbsp;</span></span><span class=3D"ydp9baa9a29=
+yiv9312776921size"><u><span style=3D"font-size:10.0pt;"><a shape=3D"rect" h=
+ref=3D"mailto:Karen@c-mtg.com" rel=3D"nofollow" target=3D"_blank"><span sty=
+le=3D"color:purple;">Eve@c-mtg.com</span></a></span></u></span></p>=20
+</div>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">&nbsp;</span=
+></span></p>=20
+</div>
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">&nbsp;</span=
+></span></p>=20
+</div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">&nbsp;</span=
+></span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">---- On Thu,=
+ 05 Jul 2018 12:34:09 -0700&nbsp;<b>&lt;<a shape=3D"rect" href=3D"mailto:pt=
+d.ss@firstam.com" rel=3D"nofollow" target=3D"_blank"><span style=3D"color:p=
+urple;">ptd.ss@firstam.com</span></a>&gt;</b></span></span><span class=3D"y=
+dp9baa9a29yiv9312776921apple-converted-space"><span style=3D"font-size:10.0=
+pt;">&nbsp;</span></span><span class=3D"ydp9baa9a29yiv9312776921size"><span=
+ style=3D"font-size:10.0pt;">wrote
+ ----</span></span></p>=20
+</div>
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">&nbsp;</span=
+></span></p>=20
+</div>
+<blockquote style=3D"border:none;border-left:solid #CCCCCC 1.0pt;padding:0i=
+n 0in 0in 5.0pt;margin-left:3.75pt;margin-top:5.0pt;margin-right:0in;margin=
+-bottom:5.0pt;">
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">&nbsp;</span=
+></span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921font"><span style=3D"font-size:10.0pt;">Hi,</span></=
+span><span style=3D"font-size:10.0pt;"><br clear=3D"none">
+<br clear=3D"none">
+<span class=3D"ydp9baa9a29yiv9312776921x-2101929159size">Attached herewith =
+are the ff:</span><br clear=3D"none">
+<span class=3D"ydp9baa9a29yiv9312776921x-2101929159size">CPL</span><br clea=
+r=3D"none">
+<br clear=3D"none">
+<span class=3D"ydp9baa9a29yiv9312776921x-2101929159size">Update for Title i=
+s already submitted to Production Department. If there are any issues or fu=
+rther information is required we will contact you.</span><br clear=3D"none"=
+>
+<br clear=3D"none">
+<span class=3D"ydp9baa9a29yiv9312776921x-2101929159size">I=E2=80=99ll send =
+it to you once I have it.</span><br clear=3D"none">
+<br clear=3D"none">
+<span class=3D"ydp9baa9a29yiv9312776921x-2101929159size">Let me know if you=
+ need anything else.</span><br clear=3D"none">
+<br clear=3D"none">
+<span class=3D"ydp9baa9a29yiv9312776921x-2101929159size">Thank you</span><b=
+r clear=3D"none">
+<br clear=3D"none">
+<br clear=3D"none">
+<br clear=3D"none">
+<br clear=3D"none">
+<span class=3D"ydp9baa9a29yiv9312776921x-2101929159size">File No.: 11059 28=
+8829</span><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&n=
+bsp;</span><br clear=3D"none">
+<br clear=3D"none">
+<span class=3D"ydp9baa9a29yiv9312776921x-2101929159size">Borrower: Todd Rom=
+boli</span><span class=3D"ydp9baa9a29yiv9312776921apple-converted-space">&n=
+bsp;</span><br clear=3D"none">
+<br clear=3D"none">
+<span class=3D"ydp9baa9a29yiv9312776921x-2101929159size">Property Address: =
+214 Plantation Boulevard, Islamora, FL 33036-3005</span><br clear=3D"none">
+<br clear=3D"none">
+<br clear=3D"none">
+<span class=3D"ydp9baa9a29yiv9312776921x-2101929159size">You can download A=
+crobat Reader at</span><span class=3D"ydp9baa9a29yiv9312776921apple-convert=
+ed-space">&nbsp;</span><span class=3D"ydp9baa9a29yiv9312776921x-2101929159s=
+ize"><a shape=3D"rect" href=3D"http://www.adobe.com/products/acrobat/readst=
+ep2.html" rel=3D"nofollow" target=3D"_blank"><span style=3D"color:purple;">=
+http://www.adobe.com/products/acrobat/readstep2.html</span></a></span></spa=
+n></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">************=
+***************************************************************************=
+***</span></span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">This message=
+ may contain confidential or proprietary information intended only for the =
+use of the</span></span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">addressee(s)=
+ named above or may contain information that is legally privileged. If you =
+are</span></span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">not the inte=
+nded addressee, or the person responsible for delivering it to the intended=
+ addressee,</span></span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">you are here=
+by notified that reading, disseminating, distributing or copying this messa=
+ge is strictly</span></span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">prohibited. =
+If you have received this message by mistake, please immediately notify us =
+by replying</span></span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">to the messa=
+ge and delete the original message and any copies immediately thereafter.</=
+span></span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">If you recei=
+ved this email as a commercial message and would like to opt out of future =
+commercial</span></span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">messages, pl=
+ease let us know and we will remove you from our distribution list.</span><=
+/span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">Thank you.~<=
+/span></span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">************=
+***************************************************************************=
+***</span></span></p>=20
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">FAFLD</span>=
+</span></p>=20
+</div>
+</div>
+</blockquote>
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span class=3D"y=
+dp9baa9a29yiv9312776921size"><span style=3D"font-size:10.0pt;">&nbsp;</span=
+></span></p>=20
+</div>
+</div>
+<p class=3D"ydp9baa9a29yiv9312776921x-2101929159msonormal"><span style=3D"f=
+ont-size:10.0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+</blockquote>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"><span style=3D"font-size:10.=
+0pt;">&nbsp;</span></p>=20
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">&nbsp;</p>=20
+</div>
+</div>
+</div>
+</blockquote>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt;">
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">&lt;CPL.pdf&gt;</p>=20
+</div>
+</div>
+</div>
+</blockquote>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt;">
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">&lt;Title.pdf&gt;</p>=20
+</div>
+</div>
+</div>
+</blockquote>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt;">
+<div>
+<div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">&lt;Statement.pdf&gt;</p>=20
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">&nbsp;</p>=20
+</div>
+</div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal">&lt;Statement.pdf&gt;&lt;Wir=
+e.pdf&gt;</p>=20
+</div>
+</blockquote>
+</div></div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"> &nbsp;</p>=20
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"ydp9baa9a29yiv9312776921MsoNormal"> &nbsp;</p>=20
+</div>
+</div>
+</div></div></div>
+            </div>
+        </div></div></body></html>
+------=_Part_2347648_1866306012.1531329600681--
+
+------=_Part_2347649_678467836.1531329601031
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Disposition: inline; filename="image002.jpg"
+Content-ID: <myWitju1isCItKHnvbTW>
+
+/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAA1ANMDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2aimS
+yxwxtJK6oijJZjgD8apT30rvcW9nFm4jRZEaQHy5AfQj8aaVxN2NCiqt5FczRILW4Fu4dWZigfKj
+quD69M1C1jdfarmZNQkCyxlYoigKxNgDd6np0PqaLBc0KKz9moxTwsZYpYEgIlXbh5JOMEdgOv51
+Jb3wluTbPGyzpGryAcqpPbPeiwXLlFFUpZ5F1m2gDfunt5XZcdSrRgf+hGpbsXGLk7Iu0UUUyQoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigDMlxfJOL5DDaIXiminClJU7NnsP/r1z
+9549soP9D8P263zRDbkOI4lx2BPX8OPeqfiDwn4m165Y3N/ZvbgrsgG9Y19eO+PU5+gplj8Lyiv9
+r1HB3HaII+CO2c10RVNK8mYSc27RRmp8Q9asbxbm7EVzp+4CeIQ+XLBzjpn8s5/A13upeJdO0zSY
+9QmmDwzJvhCcmQYzx+Fef694avfD+2W7uTe2bfJHcGPLwH+6wzyp6en04rn72F47ZbdpyYFj2xpv
+3eSjtltoPJBxx3HQjvWns4Ts0ZqpOF0zpJPiJr803nwppdvbHlYpixbHbJBzz9B1Fb1n4z0zWtPN
+prGbRph5bujMqD/gfBX8ePc1ztnf+HtYvU07S/DV5PLwHlEoRlHA3MQcfn71rXnwvGZPsN+2xlJ8
+uYdWzxyB0x7du/SlJU1o1YcXN6p3OusryY6nNZvGggWJXt3Qk716HJ6en/16fN/yMVn/ANes/wD6
+HDWL4Q8Oap4fRorrUEltjyLdVJVDx90nlec8cg9eK2pv+Ris/wDr1n/9DhrkqpJ6eR2Ye7evZ/kx
+uv6odE0S61ARLL9nTfsaTZu9s4PP4VTtdX1eVbKWbSLdIrnaWEd4XkiVh1KmMZxkA4PGap+PI577
+TbbTILa5ljubqL7S0ULMEhDZYkgew461H4l0OKw0G/OkWtwbu6iS3VYd7bRuyTxkjgkn1wBWsYxs
+r7swk3d26HTWcs09pHJdW5tpWHzRFw5X8RwfwqxXEW3hq11DXNSa+0+aWztYIILNJA6B9i5JHTuF
+H4VX0yx1Gx1YzJayXsDRz3Aa4tPLngkIOEL9JM7iO/4ACjkXcfO+x29rewXokNtKsixSGNmXpuHU
+Z9s1l3/iWCx8Sado/lmSW8LbnBwIsKSM8ck46fj6ZoeHI08O+B7aWPT7h7vyd0kKWzLLJKckqRjP
+BJGTxWVquk3ttLoV+jX15c/b0urpFtyQgYfORhdwwAFCkk4AGKIwXM0JzdkegUV53r2nTahJ4kuB
+p080s/k21n5ls7bV43uuRx3PH90eoovNEuo59d/sazuLaMQW1uhiiMbTruzK4OBufGRnqefahU13
+/rQHUfY9EqC7lmhtJJLeA3EyjKRBgu8+mTwK4XUNAWz0C/i0eLUy155UC7oyvAYbn2KoIwueSOff
+ve1Pw5aWl5pVjpdjNHBLfJcXbxh2TainAY8jkgfzo5F3HzvsdiuSoJGDjkUBlLFQRuHUZ5rirDTp
+Utri8v8ATrm61qO6muQ2Cv3N3lqr90ICjaM/e6daz9GtriPX4b6ayvFVLGadwtlKm6eQjdHlssxG
+OrH0xgUezWuovabaHo9Fee+H9Dkgv/DJlspknginuLu4eBgTI44RnI7ZPfsK9CqJxUXoy4yclsFF
+FFSUFFFFABRRRQBBdwtPayRxyyROR8rxkbge2M8fnXKf8JBrGnSOl9ChIYgecoiDd+GyR7d8ZHXB
+rsqZJEkyFZEV1IwQRVRkluiZRb2Z5Vr+o+JNTie5mMcFlGyq8EUoHDdOOSx+vcHgVW1Xwbd2drbX
+OoSJDZTOnnGMndEMdWGMZ6+1eqnS7QWZtYoY4YiQcRIFwc5yOOvvVZfD9sk0sgkuP3m35S+QMdeC
+O/fOa2Ve22hi6N9zBgutO8L2zWPh+1jMagGa5duNxGQWPVuPoOQO/FjTL3V9au42ffFZAAuUGzce
+uATyR0GR1x1Ga6OSytppkmkt4mlT7rlAWH0NTgADA4FZua7amig++gtZ83/IxWf/AF6z/wDocNaF
+QNbI95HcktvjjeMDthipP/oA/Wsmrm8JKLu+z/InooopkBRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAf//Z
+
+------=_Part_2347649_678467836.1531329601031--

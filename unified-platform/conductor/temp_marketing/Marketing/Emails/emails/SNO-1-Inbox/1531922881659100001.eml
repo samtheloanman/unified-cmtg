@@ -1,0 +1,197 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of trustpilot.com designates 209.85.208.46 as permitted sender) client-ip=209.85.208.46; envelope-from=bja@trustpilot.com; helo=mail-ed1-f46.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of trustpilot.com designates 209.85.208.46 as permitted sender)  smtp.mailfrom=bja@trustpilot.com;
+	dmarc=pass(p=reject dis=none)  header.from=trustpilot.com
+Return-Path: <bja@trustpilot.com>
+Received: from mail-ed1-f46.google.com (mail-ed1-f46.google.com [209.85.208.46]) by mx.zohomail.com
+	with SMTPS id 1531922879462424.19604073619985; Wed, 18 Jul 2018 07:07:59 -0700 (PDT)
+Received: by mail-ed1-f46.google.com with SMTP id o8-v6so4343300edt.13
+        for <sam@c-mtg.com>; Wed, 18 Jul 2018 07:07:58 -0700 (PDT)
+Received: by 2002:a17:906:6082:0:0:0:0 with HTTP; Wed, 18 Jul 2018 07:07:16
+ -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=trustpilot.com; s=google;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=L/bzr6TuEjm1bUBhDqG6u/2xYDPDYDLbub+9D/G72dk=;
+        b=HAAAKMqEQQqh/J3Bq3OfaWoPMWVAfAxv/56C8A6KbiUN+7fnzsbyd+RG3bMEs755A0
+         VGi1R9UUvSynyrBV608TVszQ/HUIT+iQ6Va7CrFPgsAeUsgY1f3E4WuO/00HWae5D/mX
+         24sePR8f1YjxYPpg1DjwDCAmuhL2dHTvwkKBI=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=L/bzr6TuEjm1bUBhDqG6u/2xYDPDYDLbub+9D/G72dk=;
+        b=SRPza6CJ3GbnA/tKmw88xvK0L961AqPCjziyx7topB+mKlD515TlVVK5nkHCjMPD1B
+         gzDvkB/FHhI3gv0qYa+x4wwcMQW2m3PEWFICnVMNnI3Jcb036YM71/MJkpeZ+qW8cIX5
+         AgbvllCSllf0EXjuJ+4/3Aml3CF1nfSwQdHI8vFzR38lXqdUarzkujfca0O0/tTadN56
+         LokCaUrfTs5H7LcoqsXST7O1iD5D5du8ZuLhENIRAQlvNYVUc9BdzOezMCgByDRZ3zK0
+         gbRoDfeAkUhjZ5WISSYRCj8daOW5NTzJPo16cOh08bxZwBI83G39q0IHhmzZ9+fEGfbM
+         Gvjg==
+X-Gm-Message-State: AOUpUlEwYtJLNXHw1GK+VWPZJCLHSZL67/cmzyU9u74fgkA6jj44hQDR
+	Ul2BgVO0EtWlsLYQBql16NEwCZ6OenaAU0D0tI2DvxGpi3E=
+X-Google-Smtp-Source: AAOMgpcgk+OyEHJaYnZlwYaptLsx4gYH80Td75dm0gFlEFeaJ7SCVTebsud0iX/S6e0z4/nipC/++m3ClUYrApa0oyI=
+X-Received: by 2002:a50:955e:: with SMTP id v30-v6mr7497299eda.268.1531922877299;
+ Wed, 18 Jul 2018 07:07:57 -0700 (PDT)
+MIME-Version: 1.0
+From: Brendan Jackson <bja@trustpilot.com>
+Date: Wed, 18 Jul 2018 10:07:16 -0400
+Message-ID:<CAE-DvzBR7ADuwnLLSy7kbGFHaphzoJ9x2LovLYMK-O51T0K+AA@mail.gmail.com>
+Subject: Hey Sam - have a minute this afternoon?
+To: sam@c-mtg.com
+Content-Type: multipart/alternative; boundary="000000000000ecc7a905714696c7"
+X-ZohoMail-DKIM: pass (identity @trustpilot.com)
+X-ZohoMail-Owner: <CAE-DvzBR7ADuwnLLSy7kbGFHaphzoJ9x2LovLYMK-O51T0K+AA@mail.gmail.com>+zmo_0_bja@trustpilot.com
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_6 IS_0 PIW IS_6 EML_0 DMN_0 EDR_100 SIP_KGR,RPD_KGR COSF LNKP UMS_WB UNK_U_0 UNK_O_0 ZMHF_700A_0 SIP_KGR_0 RPD_KGR_0 PMF_BCNIM_NW_0 HCOM_NSC_-3  SC_0 SGR3_1_2_0_167_354
+X-ZM-MESSAGEID: 1531922881659100001
+X-ZohoMail-Status: 1
+
+
+--000000000000ecc7a905714696c7
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+ Hey Sam,
+
+I work with some similar businesses like Veterans United
+<https://app.salesforceiq.com/r?target=3D5b4f4994c9e77c007cd92e37&t=3DAFwhZ=
+f1sBdWO1yNDScPY1JjW2bhSeUkTCbLzfeBLZpzvjQZiwuUBYhtiqDb5FM3L_A_9s9W4RjceQZFG=
+rOU55cJrZP1Ht9wRDG6sJsF404_bDoVPP6pYS6yZXIvUWDD8e2Iyau_80qA3&url=3Dhttps%3A=
+%2F%2Fwww.trustpilot.com%2Freview%2Fwww.veteransunited.com>
+and Commercial Trust
+<https://app.salesforceiq.com/r?target=3D5b4f4994c9e77c007cd92e38&t=3DAFwhZ=
+f1sBdWO1yNDScPY1JjW2bhSeUkTCbLzfeBLZpzvjQZiwuUBYhtiqDb5FM3L_A_9s9W4RjceQZFG=
+rOU55cJrZP1Ht9wRDG6sJsF404_bDoVPP6pYS6yZXIvUWDD8e2Iyau_80qA3&url=3Dhttps%3A=
+%2F%2Fwww.trustpilot.com%2Freview%2Fcommercialtrust.co.uk>
+to
+help them collect, manage, and share customer reviews in order to stand out
+from competition and engage with potential customers.
+
+I'd love to schedule a call to go over ways we can leverage your positive
+feedback - helping you stand out in search results, improving conversions
+by displaying reviews on-site, building overall brand reputation.
+
+Do you have time today at 1pm or 3pm EST?
+
+Best,
+Brendan
+
+
+--=20
+Brendan Jackson
+Account Executive
+
+bja@trustpilot.com
+(646) 291-2145
+
+DK   Pilestraede 58, 5th Floor,1112 Copenhagen K
+US   245 Fifth Avenue, 5th Floor, New York, NY 10016
+US   3000 Lawrence Street, Suite 201, Denver, CO 80205
+UK   1 St Martin's Le Grand, 7th Floor, London, EC1A 4NP
+AU   61 Porter Street, Suite 3, Prahan, 3181 VIC
+DE   Kurfuerstendamm 21, 10719 Berlin
+LT   Technopolis Ozas Alfa V.Gerulai=C4=8Dio g.1 LT-08200, 3 auk=C5=A1tas, =
+Vilnius
+
+[image: Trustpilot Logo]
+
+Email confidentiality notice
+This email is from Trustpilot A/S registration No. DK30276582. The email
+and any attachments are confidential and may contain privileged
+information, and are intended for the named addressee(s) only. If you have
+received this message in error, please notify us and remove it from your
+system.
+
+--000000000000ecc7a905714696c7
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div><div dir=3D"ltr">
+
+<span style=3D"font-size:12.8px;text-decoration-style:initial;text-decorati=
+on-color:initial;float:none;display:inline">Hey Sam,</span><div style=3D"fo=
+nt-size:12.8px;text-decoration-style:initial;text-decoration-color:initial"=
+><br></div><div style=3D"font-size:12.8px;text-decoration-style:initial;tex=
+t-decoration-color:initial">I work with some similar businesses like <a hre=
+f=3D"https://app.salesforceiq.com/r?target=3D5b4f4994c9e77c007cd92e37&amp;t=
+=3DAFwhZf1sBdWO1yNDScPY1JjW2bhSeUkTCbLzfeBLZpzvjQZiwuUBYhtiqDb5FM3L_A_9s9W4=
+RjceQZFGrOU55cJrZP1Ht9wRDG6sJsF404_bDoVPP6pYS6yZXIvUWDD8e2Iyau_80qA3&amp;ur=
+l=3Dhttps%3A%2F%2Fwww.trustpilot.com%2Freview%2Fwww.veteransunited.com" tit=
+le=3D"https://www.trustpilot.com/review/www.veteransunited.com">Veterans Un=
+ited</a> and=C2=A0<a href=3D"https://app.salesforceiq.com/r?target=3D5b4f49=
+94c9e77c007cd92e38&amp;t=3DAFwhZf1sBdWO1yNDScPY1JjW2bhSeUkTCbLzfeBLZpzvjQZi=
+wuUBYhtiqDb5FM3L_A_9s9W4RjceQZFGrOU55cJrZP1Ht9wRDG6sJsF404_bDoVPP6pYS6yZXIv=
+UWDD8e2Iyau_80qA3&amp;url=3Dhttps%3A%2F%2Fwww.trustpilot.com%2Freview%2Fcom=
+mercialtrust.co.uk" title=3D"https://www.trustpilot.com/review/commercialtr=
+ust.co.uk">Commercial Trust</a>=C2=A0to help them collect, manage, and shar=
+e customer reviews in order to stand out from competition and engage with p=
+otential customers.</div><div style=3D"font-size:12.8px;text-decoration-sty=
+le:initial;text-decoration-color:initial"><br></div><div style=3D"font-size=
+:12.8px;text-decoration-style:initial;text-decoration-color:initial"><span =
+style=3D"font-size:12.8px;background-color:rgb(255,255,255);text-decoration=
+-style:initial;text-decoration-color:initial;float:none;display:inline">I&#=
+39;d love to schedule a call to go over ways we can leverage your positive =
+feedback - helping you stand out in search results, improving conversions b=
+y displaying reviews on-site, building overall brand reputation.</span><spa=
+n>=C2=A0</span><br></div><div style=3D"font-size:12.8px;text-decoration-sty=
+le:initial;text-decoration-color:initial"><div><br></div><div>Do you have t=
+ime today at 1pm or 3pm EST?</div><div><br></div><div>Best,</div><div>Brend=
+an</div></div>
+
+<br clear=3D"all"><div><br></div>-- <br><div class=3D"gmail_signature" data=
+-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div =
+dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"=
+ltr"><div dir=3D"ltr"><table width=3D"100%" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" style=3D"font-family:&=
+quot;Times New Roman&quot;"><tbody><tr><td><table width=3D"500" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left"><tbody><tr><td valign=
+=3D"top" style=3D"font-family:&quot;Helvetica Neue&quot;,Helvetica,Arial,sa=
+ns-serif;font-weight:700;font-size:16px;color:rgb(25,25,25);height:22px">Br=
+endan Jackson</td></tr><tr><td valign=3D"top" style=3D"font-family:&quot;He=
+lvetica Neue&quot;,Helvetica,Arial,sans-serif;font-size:14px;color:rgb(25,2=
+5,25)">Account Executive</td></tr><tr><td height=3D"20">=C2=A0</td></tr><tr=
+><td valign=3D"top" style=3D"font-family:&quot;Helvetica Neue&quot;,Helveti=
+ca,Arial,sans-serif;font-size:14px;color:rgb(25,25,25);height:20px"><a href=
+=3D"mailto:bja@trustpilot.com" target=3D"_blank">bja@trustpilot.com</a></td=
+></tr><tr><td valign=3D"top" style=3D"font-family:&quot;Helvetica Neue&quot=
+;,Helvetica,Arial,sans-serif;font-size:14px;color:rgb(25,25,25);height:20px=
+">(646) 291-2145</td></tr><tr><td height=3D"12">=C2=A0</td></tr><tr><td val=
+ign=3D"top" style=3D"font-family:&quot;Helvetica Neue&quot;,Helvetica,Arial=
+,sans-serif;font-size:10px;color:rgb(108,108,108);height:14px">DK =C2=A0 Pi=
+lestraede 58, 5th Floor,1112 Copenhagen K</td></tr><tr><td valign=3D"top" s=
+tyle=3D"font-family:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif;f=
+ont-size:10px;color:rgb(108,108,108);height:14px">US =C2=A0 245 Fifth Avenu=
+e, 5th Floor, New York, NY 10016</td></tr><tr><td valign=3D"top" style=3D"f=
+ont-family:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif;font-size:=
+10px;color:rgb(108,108,108);height:14px">US =C2=A0 3000 Lawrence Street, Su=
+ite 201, Denver, CO 80205</td></tr><tr><td valign=3D"top" style=3D"font-fam=
+ily:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif;font-size:10px;co=
+lor:rgb(108,108,108);height:14px">UK =C2=A0 1 St Martin&#39;s Le Grand, 7th=
+ Floor, London, EC1A 4NP</td></tr><tr><td valign=3D"top" style=3D"font-fami=
+ly:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif;font-size:10px;col=
+or:rgb(108,108,108);height:14px">AU =C2=A0 61 Porter Street, Suite 3, Praha=
+n, 3181 VIC</td></tr><tr><td valign=3D"top" style=3D"font-family:&quot;Helv=
+etica Neue&quot;,Helvetica,Arial,sans-serif;font-size:10px;color:rgb(108,10=
+8,108);height:14px">DE =C2=A0 Kurfuerstendamm 21, 10719 Berlin</td></tr><tr=
+><td valign=3D"top" style=3D"font-family:&quot;Helvetica Neue&quot;,Helveti=
+ca,Arial,sans-serif;font-size:10px;color:rgb(108,108,108);height:14px">LT =
+=C2=A0 Technopolis Ozas Alfa V.Gerulai=C4=8Dio g.1 LT-08200, 3 auk=C5=A1tas=
+, Vilnius</td></tr><tr><td height=3D"20">=C2=A0</td></tr><tr><td><img src=
+=3D"https://emailimages.trustpilot.com/email_signature/logo_new.png" width=
+=3D"150" alt=3D"Trustpilot Logo" title=3D"Trustpilot Logo"></td></tr><tr><t=
+d height=3D"20">=C2=A0</td></tr><tr><td valign=3D"top" style=3D"font-family=
+:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif;font-size:9px;color:=
+rgb(156,156,156);height:16px">Email confidentiality notice</td></tr><tr><td=
+ style=3D"font-family:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif=
+;font-size:9px;color:rgb(156,156,156)">This email is from Trustpilot A/S re=
+gistration No. DK30276582. The email and any attachments are confidential a=
+nd may contain privileged information, and are intended for the named addre=
+ssee(s) only. If you have received this message in error, please notify us =
+and remove it from your system.</td></tr></tbody></table></td></tr></tbody>=
+</table></div></div></div></div></div></div></div></div></div></div>
+</div><img src=3D"https://app.salesforceiq.com/t.png?c=3Dchrome_gmail&amp;t=
+=3DAFwhZf1sBdWO1yNDScPY1JjW2bhSeUkTCbLzfeBLZpzvjQZiwuUBYhtiqDb5FM3L_A_9s9W4=
+RjceQZFGrOU55cJrZP1Ht9wRDG6sJsF404_bDoVPP6pYS6yZXIvUWDD8e2Iyau_80qA3" width=
+=3D"1" height=3D"1" style=3D"display:none;"></div>
+
+--000000000000ecc7a905714696c7--

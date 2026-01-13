@@ -1,0 +1,1185 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 209.85.221.52 as permitted sender) client-ip=209.85.221.52; envelope-from=mahsajune@gmail.com; helo=mail-wr1-f52.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 209.85.221.52 as permitted sender)  smtp.mailfrom=mahsajune@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Return-Path: <mahsajune@gmail.com>
+Received: from mail-wr1-f52.google.com (mail-wr1-f52.google.com [209.85.221.52]) by mx.zohomail.com
+	with SMTPS id 1531435861065167.82845390253067; Thu, 12 Jul 2018 15:51:01 -0700 (PDT)
+Received: by mail-wr1-f52.google.com with SMTP id m1-v6so10510292wrg.5
+        for <sam@c-mtg.com>; Thu, 12 Jul 2018 15:51:00 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=c+BcWdpeW+6XSM0jmPtwau6pttasP6RkxNgT4ujYZME=;
+        b=NAhgYY8NpnpPoTJkqOONkInoXYt1QIdG7p+V3Es14biAYDrOwylGsZh5ioeI0hk20M
+         vxyx8EqvgAkW41wfxrpQIezQfhRICemnwBlYvzn+UEnpJWVkggIRpNvulN4svkePN8jb
+         ucFaBNyIo4lH27ncMYTvld9PgtQagyAbi8ud3JyrcLCaaqZOc0Zhp910d894uu+3rgNE
+         ZE6iJvpoypX792vjQtWBLs+x/Moj8kRNT3uxwnkjTWw+rPr84z2rfcAe33Q+S5r/kA+a
+         G4c2oywh9p6mw5G/J6OEwrf6Qincw6/F1CYgckr5qLtS1B+bloy70O7eHRNOMfPM+lyk
+         Jq+A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=c+BcWdpeW+6XSM0jmPtwau6pttasP6RkxNgT4ujYZME=;
+        b=R7+3BSDA0iABqTPOpwTxtpoX1Y3k0d1orrcEvIyDt7dH0y4zdifvVQLucDkB72BYzO
+         96eiHxaO+ClTEg+2LqOFC1enJnRWl9Yt+aoVGdub4h7vPvg4I9Tbe5FH5qDkqqL6uzSi
+         2JIG2oNO2T/zjtE3L3HJS8JqJzhFBA12F3m8DvC1WQLUWw0m2NHceIdpnk6v72IhO6w/
+         mPGHDBqLq/Ahvw26YzdOro7C5Q+D0oKBsHd8+CRhtyRN5l2l533logZ3htPkb/w/mTYI
+         5zYzCE2/6jt8IgLSfDvorO0SJzgNAGChXDGRBnKmZlkYKDWv1a8HClgK/jtqk6FhEjsr
+         Z01Q==
+X-Gm-Message-State: AOUpUlE1VLrYVzd2Nbcp4Q4LjIWVmUp42pSf1pqrWO1CjL8EARq5HhDt
+	toaw6RxG1ePI6BHxtZ+SZ23FqipjMtoQbcVob1E=
+X-Google-Smtp-Source: AAOMgpdNrf8WPSsFE3wcxCa4c236t3n6gSARrNyHqTxJkAB98cpkOtmnoYJpwEzNsmNEnhFxID9wQu4K2PeeMvztBow=
+X-Received: by 2002:adf:99ea:: with SMTP id y97-v6mr2979771wrb.215.1531435858321;
+ Thu, 12 Jul 2018 15:50:58 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAAs4AcznbmJUy59aCg+OKu0cKqSKq-_nL1m2jxuqNOOYauuT-g@mail.gmail.com>
+ <CAE9VcrNyYAn4b9wKL60AJpC+ETCXbBB=MZj4kYc-D2D3BrjmiQ@mail.gmail.com>
+ <CAAs4AczwQwi-jke5o4pcgtFm_7Mgd1RoJqAQ=GE1fQUOqiYvEQ@mail.gmail.com>
+ <CAE9VcrO2LEzs4UpQCUHtfzYk7frs42i_Tp7aw_oJ7sXdsm13zQ@mail.gmail.com>
+ <CAE9VcrMi=p6XJD=RKptWY1+=gps3m1oE0ZBXG40u77YeN2Vd_w@mail.gmail.com>
+ <CAAs4Acx8ENFZ7TDQrJ29G8MNzVHMwWPYj4-XeLbmiNJz_VD1sg@mail.gmail.com>
+ <CAE9VcrMC+zsSStL9wbttr62ippJVMWvrMLN8vPGKJ8a__SF5=A@mail.gmail.com>
+ <CAAs4AcwBrHiAAGXN1q3G-ORFQj0D6kGhWnh-FywJc-AH8-ArcA@mail.gmail.com>
+ <CAE9VcrMoqqh2cLi-cwgEiBDakYbRSz-i3bXOHUyCap+Qenv99w@mail.gmail.com>
+ <CAE9VcrMHoJZh5LwpwoHAfFxLrdrarP3qyW8LMwb6BL3fT+agdw@mail.gmail.com>
+ <CAAs4Acw=gJ6B1CSGMN7aHYmx4bEFdRZ6d2a4YGwsb3U=TJi53g@mail.gmail.com>
+ <CAAs4AcwDNA+nuaRv8gvH_qJcPXgf5Hzon=5_8iR4JEHo=SaiLA@mail.gmail.com>
+ <CAE9VcrODc2ui9U41=afxjMHR9p0R=466gkRbQR0GuDzTR8jcxA@mail.gmail.com>
+ <CAAs4AcwP_DbAP3-t7QOrqaxgNbqwaG6tnsctK6UaoEmDa+o+Pg@mail.gmail.com>
+ <CAE9VcrPY=5QEPBKHHrErp7HjG-Ak7AAmXmtd+4UW6S5LJEeqVA@mail.gmail.com>
+ <CAAs4AcwZ5wwKjOSxmr87dQnUPaSOedEJswedVQArCcrMj2ix3Q@mail.gmail.com> <CAE9VcrNNqY2AYY_uW5E=xUKgSEsStQq7twfDnf+Y0phg1OwFZg@mail.gmail.com>
+In-Reply-To: <CAE9VcrNNqY2AYY_uW5E=xUKgSEsStQq7twfDnf+Y0phg1OwFZg@mail.gmail.com>
+From: Mahsa Jaeger <mahsajune@gmail.com>
+Date: Thu, 12 Jul 2018 15:50:21 -0700
+Message-ID:<CAAs4AczDSdFvYLGSUiQrDXHt2yW-J5z2u9SHFFsMASCEEtjA7g@mail.gmail.com>
+Subject: Fwd: Exhibits
+To: Sam Tehranchi <sam@c-mtg.com>
+Content-Type: multipart/alternative; boundary="00000000000054e6450570d532da"
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_167 FRD_NDS SPK
+X-ZM-MESSAGEID: 1531435861659100001
+X-ZohoMail-Status: 1
+
+
+--00000000000054e6450570d532da
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ---------
+From: Jamie Picus <jamie.ppas@gmail.com>
+Date: Thu, Jul 12, 2018 at 3:03 PM
+Subject: Re: Exhibits
+To: Mahsa Jaeger <mahsajune@gmail.com>
+
+
+I was not told and needed subpoena so cannot attend.  In future, you want
+to subpoena me to be there and to mark off to be able to join.  If you
+provide me w yours and Father's emails, I can send report via email. It is
+in regular mail now-I'm thinking you should have any day but who knows.  I
+realize I do not have consent to send directly to new judge-just Fish--so
+you and/or Dad would have to submit on own.
+
+On Thu, Jul 12, 2018 at 1:41 PM, Mahsa Jaeger <mahsajune@gmail.com> wrote:
+
+> Hi Jamie,
+>
+> I hope all is well. My attorney and I were wondering when we could expect
+> the report. We had a child support hearing this coming Monday July 16th, =
+my
+> attorney tried to get a continuance due to Randall not complying with
+> providing his financial affidavit, however the New Judge decided that we
+> should keep this Monday's court date and turn it into a status hearing
+> instead. So we were planing on filing a temporary order after your report
+> was filed. We were hoping the judge would have the report in front of him
+> on Monday, PLEASE=F0=9F=99=8F
+>
+> Also, Kathleen used to attend each and every one of our hearings, will yo=
+u
+> be attending this Monday's status hearing? or maybe telephonically ? I wa=
+s
+> just wondering how it works.
+>
+> Thank you so much
+>
+> Mahsa
+>
+>
+>
+>
+>
+> On Wed, Jul 11, 2018 at 4:52 PM Jamie Picus <jamie.ppas@gmail.com> wrote:
+>
+>> Ohhhh Culver!  Haha
+>>
+>> On Wed, Jul 11, 2018 at 4:48 PM, Mahsa Jaeger <mahsajune@gmail.com>
+>> wrote:
+>>
+>>> Uhh... yes please :)
+>>>
+>>> 7511 E Culver St # 200
+>>> <https://maps.google.com/?q=3D7511+E+Culver+St+%23+200+Scottsdale+AZ+85=
+257&entry=3Dgmail&source=3Dg>
+>>> Scottsdale AZ 85257
+>>> <https://maps.google.com/?q=3D7511+E+Culver+St+%23+200+Scottsdale+AZ+85=
+257&entry=3Dgmail&source=3Dg>
+>>>
+>>>
+>>> Thank you =F0=9F=99=8F
+>>>
+>>>
+>>> On Wed, Jul 11, 2018 at 4:14 PM Jamie Picus <jamie.ppas@gmail.com>
+>>> wrote:
+>>>
+>>>> couldn't read your address in my records.  I want to send you report
+>>>>
+>>>> On Tue, Jul 10, 2018 at 3:46 PM, Mahsa Jaeger <mahsajune@gmail.com>
+>>>> wrote:
+>>>>
+>>>>> =E2=80=8B
+>>>>>  SF Volunteer Acknowledgement - MJaeger.pdf
+>>>>> <https://drive.google.com/file/d/0B883yVrc7ZzScGdXV0xfQWFyZEwzeGw4cnY=
+tQmtsczRlaE5z/view?usp=3Ddrive_web>
+>>>>> =E2=80=8B
+>>>>> I work with Foster children and that's probably one of the things tha=
+t
+>>>>> keeps me strong and keeps me going!
+>>>>>
+>>>>> On Tue, Jul 10, 2018 at 3:40 PM Mahsa Jaeger <mahsajune@gmail.com>
+>>>>> wrote:
+>>>>>
+>>>>>> =E2=80=8B
+>>>>>>  Daily Recovery Plan
+>>>>>> <https://docs.google.com/document/d/17JpFW1c-HB70O3fhTsTK-B8_vhgfyTP=
+uwpRMtw9mfNE/edit?usp=3Ddrive_web>
+>>>>>> =E2=80=8B
+>>>>>> Sorry for the delay.....
+>>>>>>
+>>>>>> On Tue, Jul 10, 2018 at 2:54 PM Jamie Picus <jamie.ppas@gmail.com>
+>>>>>> wrote:
+>>>>>>
+>>>>>>> Sorry if I am asking repeated questions.  Just want to be accurate.
+>>>>>>> I appreciate you sending me docs but I am wanting to stay away from=
+ an
+>>>>>>> evaluation of your case and merely report what is related to my cur=
+rent
+>>>>>>> work with you all.  I just wanted to show what your active recovery
+>>>>>>> treatment was besides Dr. Olstein--like if you attend 12 step meeti=
+ngs and
+>>>>>>> who you might see for group or 1:1 counseling.  Then, I am done.  9=
+-10 pg
+>>>>>>> report.  I will print and sign and get to both parents.  I will fax=
+ to
+>>>>>>> judge.
+>>>>>>>
+>>>>>>> On Tue, Jul 10, 2018 at 2:17 PM, Jamie Picus <jamie.ppas@gmail.com>
+>>>>>>> wrote:
+>>>>>>>
+>>>>>>>> What is your current recovery plan.  Going far into past less
+>>>>>>>> relevant to now.  What is current treatment besides Dr. Olstein.
+>>>>>>>>
+>>>>>>>> On Tue, Jul 10, 2018 at 10:40 AM, Mahsa Jaeger <mahsajune@gmail.co=
+m
+>>>>>>>> > wrote:
+>>>>>>>>
+>>>>>>>>> I know, it's actually more than 1.5 yrs. She has only made 3
+>>>>>>>>> attempts at reunification in a Year and 8 month. I was in treatme=
+nt 60 days
+>>>>>>>>> of that time, from Dec 21st, 2016 to February 27th, 2017.
+>>>>>>>>>
+>>>>>>>>> She has only given me ONE update on my child in that email she
+>>>>>>>>> sent 20 min before a telephonic hearing during this entire time. =
+Below are
+>>>>>>>>> the exhibits of my many pleads in emails begging her to start
+>>>>>>>>> reunification. She ignored them all. These emails were filed with=
+ the court
+>>>>>>>>> at the time of her removal.
+>>>>>>>>>
+>>>>>>>>> I don't know if you recall, very early on she called me a "Camel
+>>>>>>>>> Jockey" and said derogatory stuff about me being middle eastern :=
+(
+>>>>>>>>>
+>>>>>>>>> Below is only a few of my many emails to Kathleen about
+>>>>>>>>> reunification and her made up bills that I just paid Blindly as I=
+ was
+>>>>>>>>> vulnerable and wanted to see my child. To this day I don't have o=
+ne receipt
+>>>>>>>>> or explanation of any charges. My Attorney and I are Filing all t=
+hese
+>>>>>>>>> unethical conducts to the courts and the Arizona Board of Behavio=
+ral
+>>>>>>>>> health. We will see to it, So she can never do this to another ch=
+ild or
+>>>>>>>>> Family again!! We are determined!!
+>>>>>>>>> =E2=80=8B
+>>>>>>>>>  Emails.TI.Jaeger.pdf
+>>>>>>>>> <https://drive.google.com/file/d/0B883yVrc7ZzSbHA4MndBcmJseVhLQ2R=
+hMXJsTV9sQTFRekZj/view?usp=3Ddrive_web>
+>>>>>>>>> =E2=80=8B
+>>>>>>>>> I thought this case history will help with Dates.
+>>>>>>>>> =E2=80=8B
+>>>>>>>>>  Family Court Case Information - Case History.pdf
+>>>>>>>>> <https://drive.google.com/file/d/0Bx4nBGn-F8O0OUMzVlBtUmZsMkk/vie=
+w?usp=3Ddrive_web>
+>>>>>>>>> =E2=80=8B
+>>>>>>>>> Again to this date we don't have One Piece of paper from Mr.
+>>>>>>>>> Jaeger on his health and recovery or any medication he is on. Kat=
+hleen has
+>>>>>>>>> never provided anything to the court regarding Mr Jaeger Ever!
+>>>>>>>>>
+>>>>>>>>> Let me know If you need anything else. I have all the Drug test
+>>>>>>>>> that has been taken by Mr Jaeger and Myself. You can find all the=
+se info
+>>>>>>>>> and more in the main FINALE DRIVE I shared with you.
+>>>>>>>>>
+>>>>>>>>> Thank you Thank you
+>>>>>>>>>
+>>>>>>>>> Mahsa
+>>>>>>>>>
+>>>>>>>>> On Tue, Jul 10, 2018 at 9:45 AM Jamie Picus <jamie.ppas@gmail.com=
+>
+>>>>>>>>> wrote:
+>>>>>>>>>
+>>>>>>>>>> 1.5 yrs? Wow
+>>>>>>>>>>
+>>>>>>>>>> On Tue, Jul 10, 2018 at 8:33 AM Mahsa Jaeger <mahsajune@gmail.co=
+m>
+>>>>>>>>>> wrote:
+>>>>>>>>>>
+>>>>>>>>>>> Good Morning,
+>>>>>>>>>>>
+>>>>>>>>>>> Kathleen was appointed on July 15th, 2016 and was removed from
+>>>>>>>>>>> the case on our last court day March 27th, 2018. She was reappo=
+inted in
+>>>>>>>>>>> August of 2017 for a second term. There was 2 attempts to have =
+her removed,
+>>>>>>>>>>> One was on March 28th, 2017 and another one in February on this=
+ year when
+>>>>>>>>>>> we finally succeeded in removing her.
+>>>>>>>>>>>
+>>>>>>>>>>> Let me know if I can help you with any other information.
+>>>>>>>>>>>
+>>>>>>>>>>> Thank you
+>>>>>>>>>>>
+>>>>>>>>>>> Mahsa
+>>>>>>>>>>>
+>>>>>>>>>>>
+>>>>>>>>>>> On Tue, Jul 10, 2018 at 8:03 AM Jamie Picus <
+>>>>>>>>>>> jamie.ppas@gmail.com> wrote:
+>>>>>>>>>>>
+>>>>>>>>>>>> Almost done with report.  Tomorrow I will send to Judge and ge=
+t
+>>>>>>>>>>>> to parents.  can you give me dates that kathleen was on the ca=
+se-start to
+>>>>>>>>>>>> end?
+>>>>>>>>>>>>
+>>>>>>>>>>>> On Sun, Jul 8, 2018 at 1:59 PM, Jamie Picus <
+>>>>>>>>>>>> jamie.ppas@gmail.com> wrote:
+>>>>>>>>>>>>
+>>>>>>>>>>>>> Thank you.
+>>>>>>>>>>>>>
+>>>>>>>>>>>>> On Sun, Jul 8, 2018 at 1:56 PM, Mahsa Jaeger <
+>>>>>>>>>>>>> mahsajune@gmail.com> wrote:
+>>>>>>>>>>>>>
+>>>>>>>>>>>>>> Of course, my sobriety date is  Dec 21st, 2016 is the last
+>>>>>>>>>>>>>> time I drank. I never had a problem with any other substance=
+s before,
+>>>>>>>>>>>>>> except for alcohol. Let me know if you need anything else. I=
+ sent you my
+>>>>>>>>>>>>>> Sobriety file? I think? Here it is again, just in case you n=
+eed it.
+>>>>>>>>>>>>>> =E2=80=8B
+>>>>>>>>>>>>>>  RECOVERY =F0=9F=98=87
+>>>>>>>>>>>>>> <https://drive.google.com/drive/folders/0B883yVrc7ZzSNEFJNWJ=
+kMHA4NHc>
+>>>>>>>>>>>>>> =E2=80=8B
+>>>>>>>>>>>>>> Also last time we did a test was our last court date/trial.
+>>>>>>>>>>>>>> March 27th of this year 2018. It was a hair follicle test th=
+at went back 90
+>>>>>>>>>>>>>> days.
+>>>>>>>>>>>>>> As you know I voluntarily test my self and have been for two
+>>>>>>>>>>>>>> years at Dr Olstein's office on regular bases. I wanted to a=
+lways be
+>>>>>>>>>>>>>> prepared to show my sobriety to the court even if I was not =
+ordered by the
+>>>>>>>>>>>>>> courts to test.
+>>>>>>>>>>>>>>
+>>>>>>>>>>>>>> Thank you Jamie
+>>>>>>>>>>>>>>
+>>>>>>>>>>>>>> Mahsa
+>>>>>>>>>>>>>>
+>>>>>>>>>>>>>> On Sun, Jul 8, 2018 at 11:07 AM Jamie Picus <
+>>>>>>>>>>>>>> jamie.ppas@gmail.com> wrote:
+>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>> Can you tell me when your sober date is.  Last time you use=
+d
+>>>>>>>>>>>>>>> a substance not prescribed by a doctor?  Just want to note =
+sobriety length
+>>>>>>>>>>>>>>> in report for both parents.
+>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>> On Thu, Jul 5, 2018 at 2:19 PM, Mahsa Jaeger <
+>>>>>>>>>>>>>>> mahsajune@gmail.com> wrote:
+>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>> =E2=80=8B
+>>>>>>>>>>>>>>>>  Jamie
+>>>>>>>>>>>>>>>> <https://drive.google.com/drive/folders/106e9yXuc_okH-S0ZJ=
+iqq0yRysOfU2tLD>
+>>>>>>>>>>>>>>>> =E2=80=8B
+>>>>>>>>>>>>>>>> In this File you will find:
+>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>> - (Exhibit 1) Therapist Note from a therapist Randall
+>>>>>>>>>>>>>>>> Hired. You can see the alienation starting in these Notes.
+>>>>>>>>>>>>>>>> - 2 of the 60 death threats.
+>>>>>>>>>>>>>>>> - Text Communication between Randall and Finale.(Finale's
+>>>>>>>>>>>>>>>> Texts are in Blue) This shows the relationship with Father=
+ at home. It's
+>>>>>>>>>>>>>>>> really sad :(
+>>>>>>>>>>>>>>>> - (Exhibit 11) Randall smashing my brothers X-mas present
+>>>>>>>>>>>>>>>> to Finale and having Finale video tape it and send it to u=
+s.
+>>>>>>>>>>>>>>>> -(Exhibit 7)  One of the disturbing Social Media Posts fro=
+m
+>>>>>>>>>>>>>>>> Finale.
+>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>> Jamie, almost all of what Randall claims about me and my
+>>>>>>>>>>>>>>>> Family is fabricated. He makes up stories and I think he b=
+elieves in it. He
+>>>>>>>>>>>>>>>> was diagnosed by one the rehab centers Dr's as the highest=
+ level of
+>>>>>>>>>>>>>>>> Bipolar, almost scratching the surface of Schizophrenia. I=
+ really think he
+>>>>>>>>>>>>>>>> has been seeing and hearing things. I really think he need=
+s to get some
+>>>>>>>>>>>>>>>> help :( I want nothing more then for Finale to have 2 heal=
+thy parents in
+>>>>>>>>>>>>>>>> her life.
+>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>> Below is my treatment / Recovery file:
+>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>> =E2=80=8B
+>>>>>>>>>>>>>>>>  RECOVERY =F0=9F=98=87
+>>>>>>>>>>>>>>>> <https://drive.google.com/drive/folders/0B883yVrc7ZzSNEFJN=
+WJkMHA4NHc>
+>>>>>>>>>>>>>>>> =E2=80=8B
+>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>> I have accumulated all the files for the last 2 years and
+>>>>>>>>>>>>>>>> have organized it in a DRIVE. I will just give you full ac=
+cess to it, in
+>>>>>>>>>>>>>>>> case you need anything else.
+>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>> =E2=80=8B
+>>>>>>>>>>>>>>>>  FINALE =E2=9D=A4=EF=B8=8F
+>>>>>>>>>>>>>>>> <https://drive.google.com/drive/folders/0Bx4nBGn-F8O0YnBhV=
+1FmQ3Bhd1U>
+>>>>>>>>>>>>>>>> =E2=80=8B
+>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>> All my best
+>>>>>>>>>>>>>>>> --
+>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>> *Mahsa JaegerMahsajune@gmail.com
+>>>>>>>>>>>>>>>> <Mahsajune@gmail.com>480-440-1822*
+>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>> --
+>>>>>>>>>>>>>>> There is no guarantee of confidentiality through e-mail
+>>>>>>>>>>>>>>> correspondence.
+>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>> All information transmitted in this communication is covere=
+d
+>>>>>>>>>>>>>>> by the Electronic Communications Privacy Act.  The informat=
+ion is intended
+>>>>>>>>>>>>>>> only for the person(s) or entity/entities to which it is ad=
+dressed and may
+>>>>>>>>>>>>>>> contain confidential and/or privileged material. Any review=
+,
+>>>>>>>>>>>>>>> retransmission, dissemination or other use of this informat=
+ion by persons
+>>>>>>>>>>>>>>> or entities other than the intended recipient(s) is prohibi=
+ted.  If you
+>>>>>>>>>>>>>>> received this in error, please contact the sender and delet=
+e the material
+>>>>>>>>>>>>>>> immediately.
+>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>
+>>>>>>>>>>>>>> --
+>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>
+>>>>>>>>>>>>>> *Mahsa JaegerMahsajune@gmail.com
+>>>>>>>>>>>>>> <Mahsajune@gmail.com>480-440-1822*
+>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>
+>>>>>>>>>>>>>
+>>>>>>>>>>>>>
+>>>>>>>>>>>>> --
+>>>>>>>>>>>>> There is no guarantee of confidentiality through e-mail
+>>>>>>>>>>>>> correspondence.
+>>>>>>>>>>>>>
+>>>>>>>>>>>>> All information transmitted in this communication is covered
+>>>>>>>>>>>>> by the Electronic Communications Privacy Act.  The informatio=
+n is intended
+>>>>>>>>>>>>> only for the person(s) or entity/entities to which it is addr=
+essed and may
+>>>>>>>>>>>>> contain confidential and/or privileged material. Any review,
+>>>>>>>>>>>>> retransmission, dissemination or other use of this informatio=
+n by persons
+>>>>>>>>>>>>> or entities other than the intended recipient(s) is prohibite=
+d.  If you
+>>>>>>>>>>>>> received this in error, please contact the sender and delete =
+the material
+>>>>>>>>>>>>> immediately.
+>>>>>>>>>>>>>
+>>>>>>>>>>>>
+>>>>>>>>>>>>
+>>>>>>>>>>>>
+>>>>>>>>>>>> --
+>>>>>>>>>>>> There is no guarantee of confidentiality through e-mail
+>>>>>>>>>>>> correspondence.
+>>>>>>>>>>>>
+>>>>>>>>>>>> All information transmitted in this communication is covered b=
+y
+>>>>>>>>>>>> the Electronic Communications Privacy Act.  The information is=
+ intended
+>>>>>>>>>>>> only for the person(s) or entity/entities to which it is addre=
+ssed and may
+>>>>>>>>>>>> contain confidential and/or privileged material. Any review,
+>>>>>>>>>>>> retransmission, dissemination or other use of this information=
+ by persons
+>>>>>>>>>>>> or entities other than the intended recipient(s) is prohibited=
+.  If you
+>>>>>>>>>>>> received this in error, please contact the sender and delete t=
+he material
+>>>>>>>>>>>> immediately.
+>>>>>>>>>>>>
+>>>>>>>>>>>
+>>>>>>>>>>>
+>>>>>>>>>>> --
+>>>>>>>>>>>
+>>>>>>>>>>>
+>>>>>>>>>>> *Mahsa JaegerMahsajune@gmail.com
+>>>>>>>>>>> <Mahsajune@gmail.com>480-440-1822*
+>>>>>>>>>>>
+>>>>>>>>>>> --
+>>>>>>>>>> There is no guarantee of confidentiality through e-mail
+>>>>>>>>>> correspondence.
+>>>>>>>>>>
+>>>>>>>>>> All information transmitted in this communication is covered by
+>>>>>>>>>> the Electronic Communications Privacy Act.  The information is i=
+ntended
+>>>>>>>>>> only for the person(s) or entity/entities to which it is address=
+ed and may
+>>>>>>>>>> contain confidential and/or privileged material. Any review,
+>>>>>>>>>> retransmission, dissemination or other use of this information b=
+y persons
+>>>>>>>>>> or entities other than the intended recipient(s) is prohibited. =
+ If you
+>>>>>>>>>> received this in error, please contact the sender and delete the=
+ material
+>>>>>>>>>> immediately.
+>>>>>>>>>>
+>>>>>>>>>
+>>>>>>>>>
+>>>>>>>>> --
+>>>>>>>>>
+>>>>>>>>>
+>>>>>>>>> *Mahsa JaegerMahsajune@gmail.com <Mahsajune@gmail.com>480-440-182=
+2*
+>>>>>>>>>
+>>>>>>>>>
+>>>>>>>>
+>>>>>>>>
+>>>>>>>> --
+>>>>>>>> There is no guarantee of confidentiality through e-mail
+>>>>>>>> correspondence.
+>>>>>>>>
+>>>>>>>> All information transmitted in this communication is covered by th=
+e
+>>>>>>>> Electronic Communications Privacy Act.  The information is intende=
+d only
+>>>>>>>> for the person(s) or entity/entities to which it is addressed and =
+may
+>>>>>>>> contain confidential and/or privileged material. Any review,
+>>>>>>>> retransmission, dissemination or other use of this information by =
+persons
+>>>>>>>> or entities other than the intended recipient(s) is prohibited.  I=
+f you
+>>>>>>>> received this in error, please contact the sender and delete the m=
+aterial
+>>>>>>>> immediately.
+>>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>> --
+>>>>>>> There is no guarantee of confidentiality through e-mail
+>>>>>>> correspondence.
+>>>>>>>
+>>>>>>> All information transmitted in this communication is covered by the
+>>>>>>> Electronic Communications Privacy Act.  The information is intended=
+ only
+>>>>>>> for the person(s) or entity/entities to which it is addressed and m=
+ay
+>>>>>>> contain confidential and/or privileged material. Any review,
+>>>>>>> retransmission, dissemination or other use of this information by p=
+ersons
+>>>>>>> or entities other than the intended recipient(s) is prohibited.  If=
+ you
+>>>>>>> received this in error, please contact the sender and delete the ma=
+terial
+>>>>>>> immediately.
+>>>>>>>
+>>>>>>
+>>>>>>
+>>>>>> --
+>>>>>>
+>>>>>>
+>>>>>> *Mahsa JaegerMahsajune@gmail.com <Mahsajune@gmail.com>480-440-1822*
+>>>>>>
+>>>>>>
+>>>>>
+>>>>> --
+>>>>>
+>>>>>
+>>>>> *Mahsa JaegerMahsajune@gmail.com <Mahsajune@gmail.com>480-440-1822*
+>>>>>
+>>>>>
+>>>>
+>>>>
+>>>> --
+>>>> There is no guarantee of confidentiality through e-mail correspondence=
+.
+>>>>
+>>>> All information transmitted in this communication is covered by the
+>>>> Electronic Communications Privacy Act.  The information is intended on=
+ly
+>>>> for the person(s) or entity/entities to which it is addressed and may
+>>>> contain confidential and/or privileged material. Any review,
+>>>> retransmission, dissemination or other use of this information by pers=
+ons
+>>>> or entities other than the intended recipient(s) is prohibited.  If yo=
+u
+>>>> received this in error, please contact the sender and delete the mater=
+ial
+>>>> immediately.
+>>>>
+>>> --
+>>>
+>>>
+>>> *Mahsa JaegerMahsajune@gmail.com <Mahsajune@gmail.com>480-440-1822*
+>>>
+>>>
+>>
+>>
+>> --
+>> There is no guarantee of confidentiality through e-mail correspondence.
+>>
+>> All information transmitted in this communication is covered by the
+>> Electronic Communications Privacy Act.  The information is intended only
+>> for the person(s) or entity/entities to which it is addressed and may
+>> contain confidential and/or privileged material. Any review,
+>> retransmission, dissemination or other use of this information by person=
+s
+>> or entities other than the intended recipient(s) is prohibited.  If you
+>> received this in error, please contact the sender and delete the materia=
+l
+>> immediately.
+>>
+>
+
+
+--=20
+There is no guarantee of confidentiality through e-mail correspondence.
+
+All information transmitted in this communication is covered by the
+Electronic Communications Privacy Act.  The information is intended only
+for the person(s) or entity/entities to which it is addressed and may
+contain confidential and/or privileged material. Any review,
+retransmission, dissemination or other use of this information by persons
+or entities other than the intended recipient(s) is prohibited.  If you
+received this in error, please contact the sender and delete the material
+immediately.
+
+
+--=20
+
+
+*Mahsa JaegerMahsajune@gmail.com <Mahsajune@gmail.com>480-440-1822*
+
+--00000000000054e6450570d532da
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><br><div class=3D"gmail_quote"><div dir=3D"ltr">------=
+---- Forwarded message ---------<br>From: <strong class=3D"gmail_sendername=
+" dir=3D"auto">Jamie Picus</strong> <span dir=3D"ltr">&lt;<a href=3D"mailto=
+:jamie.ppas@gmail.com">jamie.ppas@gmail.com</a>&gt;</span><br>Date: Thu, Ju=
+l 12, 2018 at 3:03 PM<br>Subject: Re: Exhibits<br>To: Mahsa Jaeger &lt;<a h=
+ref=3D"mailto:mahsajune@gmail.com">mahsajune@gmail.com</a>&gt;<br></div><br=
+><br><div dir=3D"ltr">I was not told and needed subpoena so cannot attend.=
+=C2=A0 In future, you want to subpoena me to be there and to mark off to be=
+ able to join.=C2=A0 If you provide me w yours and Father&#39;s emails, I c=
+an send report via email. It is in regular mail now-I&#39;m thinking you sh=
+ould have any day but who knows.=C2=A0 I realize I do not have consent to s=
+end directly to new judge-just Fish--so you and/or Dad would have to submit=
+ on own.=C2=A0 <br></div><div class=3D"gmail_extra"><br><div class=3D"gmail=
+_quote">On Thu, Jul 12, 2018 at 1:41 PM, Mahsa Jaeger <span dir=3D"ltr">&lt=
+;<a href=3D"mailto:mahsajune@gmail.com" target=3D"_blank">mahsajune@gmail.c=
+om</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"marg=
+in:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr"=
+>Hi Jamie,<div><br></div><div>I hope all is well. My attorney and I were wo=
+ndering when we could expect the report. We had a child support hearing thi=
+s coming Monday July 16th, my attorney tried to get a continuance due to Ra=
+ndall not complying with providing his financial affidavit, however the New=
+ Judge decided that we should keep this Monday&#39;s court date and turn it=
+ into a status hearing instead. So we were planing on filing a temporary or=
+der after your report was filed. We were hoping the judge would have the re=
+port in front of him on Monday, PLEASE=F0=9F=99=8F</div><div><br></div><div=
+>Also, Kathleen used to attend each and every one of our hearings, will you=
+ be attending this Monday&#39;s status hearing? or maybe telephonically ? I=
+ was just wondering how it works.=C2=A0</div><div><br></div><div>Thank you =
+so much=C2=A0</div><span class=3D"m_-3710765881105144692HOEnZb"><font color=
+=3D"#888888"><div><br></div><div>Mahsa=C2=A0</div><div><br></div><div><br><=
+/div><div><br></div><div>=C2=A0</div></font></span></div><div class=3D"m_-3=
+710765881105144692HOEnZb"><div class=3D"m_-3710765881105144692h5"><div><br>=
+<div class=3D"gmail_quote"><div>On Wed, Jul 11, 2018 at 4:52 PM Jamie Picus=
+ &lt;<a href=3D"mailto:jamie.ppas@gmail.com" target=3D"_blank">jamie.ppas@g=
+mail.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D=
+"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div>Ohhhh =
+Culver!=C2=A0 Haha<br></div><div class=3D"gmail_extra"><br><div class=3D"gm=
+ail_quote">On Wed, Jul 11, 2018 at 4:48 PM, Mahsa Jaeger <span>&lt;<a href=
+=3D"mailto:mahsajune@gmail.com" target=3D"_blank">mahsajune@gmail.com</a>&g=
+t;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0=
+ .8ex;border-left:1px #ccc solid;padding-left:1ex"><div><div dir=3D"auto">U=
+hh... yes please :)=C2=A0</div></div><div dir=3D"auto"><br></div><div dir=
+=3D"auto"><a href=3D"https://maps.google.com/?q=3D7511+E+Culver+St+%23+200+=
+Scottsdale+AZ+85257&amp;entry=3Dgmail&amp;source=3Dg" target=3D"_blank">751=
+1 E Culver St # 200</a></div><div dir=3D"auto"><a href=3D"https://maps.goog=
+le.com/?q=3D7511+E+Culver+St+%23+200+Scottsdale+AZ+85257&amp;entry=3Dgmail&=
+amp;source=3Dg" target=3D"_blank">Scottsdale AZ 85257</a>=C2=A0</div><div d=
+ir=3D"auto"><br></div><div dir=3D"auto">Thank you =F0=9F=99=8F=C2=A0</div><=
+div class=3D"m_-3710765881105144692m_-3367286435926178317m_2593589398074420=
+472m_-4632410863264455035m_4997525607987201651HOEnZb"><div class=3D"m_-3710=
+765881105144692m_-3367286435926178317m_2593589398074420472m_-46324108632644=
+55035m_4997525607987201651h5"><div dir=3D"auto"><br></div><div><br><div cla=
+ss=3D"gmail_quote"><div>On Wed, Jul 11, 2018 at 4:14 PM Jamie Picus &lt;<a =
+href=3D"mailto:jamie.ppas@gmail.com" target=3D"_blank">jamie.ppas@gmail.com=
+</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:=
+0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div>couldn&#39;t r=
+ead your address in my records.=C2=A0 I want to send you report<br></div><d=
+iv class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Tue, Jul 10, 201=
+8 at 3:46 PM, Mahsa Jaeger <span>&lt;<a href=3D"mailto:mahsajune@gmail.com"=
+ target=3D"_blank">mahsajune@gmail.com</a>&gt;</span> wrote:<br><blockquote=
+ class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc soli=
+d;padding-left:1ex"><div>=E2=80=8B<br><div class=3D"gmail_chip gmail_drive_=
+chip" style=3D"width:396px;height:18px;max-height:18px;background-color:#f5=
+f5f5;padding:5px;color:#222;font-family:arial;font-style:normal;font-weight=
+:bold;font-size:13px;border:1px solid #ddd;line-height:1"><a href=3D"https:=
+//drive.google.com/file/d/0B883yVrc7ZzScGdXV0xfQWFyZEwzeGw4cnYtQmtsczRlaE5z=
+/view?usp=3Ddrive_web" style=3D"display:inline-block;overflow:hidden;text-o=
+verflow:ellipsis;white-space:nowrap;text-decoration:none;padding:1px 0px;bo=
+rder:none;width:100%" target=3D"_blank"><img style=3D"vertical-align:bottom=
+;border:none" src=3D"https://drive-thirdparty.googleusercontent.com/16/type=
+/application/pdf">=C2=A0<span style=3D"color:#15c;text-decoration:none;vert=
+ical-align:bottom">SF Volunteer Acknowledgement - MJaeger.pdf</span></a></d=
+iv>=E2=80=8B<br><div>I work with Foster children and that&#39;s probably on=
+e of the things that keeps me strong and keeps me going!=C2=A0</div></div><=
+div class=3D"m_-3710765881105144692m_-3367286435926178317m_2593589398074420=
+472m_-4632410863264455035m_4997525607987201651m_-4288278753675579198m_-5379=
+141488055735908HOEnZb"><div class=3D"m_-3710765881105144692m_-3367286435926=
+178317m_2593589398074420472m_-4632410863264455035m_4997525607987201651m_-42=
+88278753675579198m_-5379141488055735908h5"><br><div class=3D"gmail_quote"><=
+div>On Tue, Jul 10, 2018 at 3:40 PM Mahsa Jaeger &lt;<a href=3D"mailto:mahs=
+ajune@gmail.com" target=3D"_blank">mahsajune@gmail.com</a>&gt; wrote:<br></=
+div><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-lef=
+t:1px #ccc solid;padding-left:1ex"><div>=E2=80=8B<br><div class=3D"gmail_ch=
+ip gmail_drive_chip" style=3D"width:396px;height:18px;max-height:18px;backg=
+round-color:#f5f5f5;padding:5px;color:#222;font-family:arial;font-style:nor=
+mal;font-weight:bold;font-size:13px;border:1px solid #ddd;line-height:1"><a=
+ href=3D"https://docs.google.com/document/d/17JpFW1c-HB70O3fhTsTK-B8_vhgfyT=
+PuwpRMtw9mfNE/edit?usp=3Ddrive_web" style=3D"display:inline-block;overflow:=
+hidden;text-overflow:ellipsis;white-space:nowrap;text-decoration:none;paddi=
+ng:1px 0px;border:none;width:100%" target=3D"_blank"><img style=3D"vertical=
+-align:bottom;border:none" src=3D"https://drive-thirdparty.googleuserconten=
+t.com/16/type/application/vnd.google-apps.document">=C2=A0<span style=3D"co=
+lor:#15c;text-decoration:none;vertical-align:bottom">Daily Recovery Plan</s=
+pan></a></div>=E2=80=8B<br><div>Sorry for the delay.....</div></div><br><di=
+v class=3D"gmail_quote"><div>On Tue, Jul 10, 2018 at 2:54 PM Jamie Picus &l=
+t;<a href=3D"mailto:jamie.ppas@gmail.com" target=3D"_blank">jamie.ppas@gmai=
+l.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"ma=
+rgin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div>Sorry if =
+I am asking repeated questions.=C2=A0 Just want to be accurate.=C2=A0 I app=
+reciate you sending me docs but I am wanting to stay away from an evaluatio=
+n of your case and merely report what is related to my current work with yo=
+u all.=C2=A0 I just wanted to show what your active recovery treatment was =
+besides Dr. Olstein--like if you attend 12 step meetings and who you might =
+see for group or 1:1 counseling.=C2=A0 Then, I am done.=C2=A0 9-10 pg repor=
+t.=C2=A0 I will print and sign and get to both parents.=C2=A0 I will fax to=
+ judge.<br></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">=
+On Tue, Jul 10, 2018 at 2:17 PM, Jamie Picus <span>&lt;<a href=3D"mailto:ja=
+mie.ppas@gmail.com" target=3D"_blank">jamie.ppas@gmail.com</a>&gt;</span> w=
+rote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;borde=
+r-left:1px #ccc solid;padding-left:1ex"><div>What is your current recovery =
+plan.=C2=A0 Going far into past less relevant to now.=C2=A0 What is current=
+ treatment besides Dr. Olstein.<br></div><div class=3D"m_-37107658811051446=
+92m_-3367286435926178317m_2593589398074420472m_-4632410863264455035m_499752=
+5607987201651m_-4288278753675579198m_-5379141488055735908m_-163874860245705=
+6453m_7669378511726735852m_-7918541535043770951HOEnZb"><div class=3D"m_-371=
+0765881105144692m_-3367286435926178317m_2593589398074420472m_-4632410863264=
+455035m_4997525607987201651m_-4288278753675579198m_-5379141488055735908m_-1=
+638748602457056453m_7669378511726735852m_-7918541535043770951h5"><div class=
+=3D"gmail_extra"><br><div class=3D"gmail_quote">On Tue, Jul 10, 2018 at 10:=
+40 AM, Mahsa Jaeger <span>&lt;<a href=3D"mailto:mahsajune@gmail.com" target=
+=3D"_blank">mahsajune@gmail.com</a>&gt;</span> wrote:<br><blockquote class=
+=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padd=
+ing-left:1ex"><div>I know, it&#39;s actually more than 1.5 yrs. She has onl=
+y made 3 attempts at reunification in a Year and 8 month. I was in treatmen=
+t 60 days of that time, from Dec 21st, 2016 to February 27th, 2017.=C2=A0<d=
+iv><br></div><div>She has only given me ONE update on my child in that emai=
+l she sent 20 min before a telephonic hearing during this entire time. Belo=
+w are the exhibits of my many pleads in emails begging her to start reunifi=
+cation. She ignored them all. These emails were filed with the court at the=
+ time of her removal.=C2=A0</div><div><br></div><div>I don&#39;t know if yo=
+u recall, very early on she called me a &quot;Camel Jockey&quot; and said d=
+erogatory stuff about me being middle eastern :(</div><div><br></div><div>B=
+elow is only a few of my many emails to Kathleen about reunification and he=
+r made up bills that I just paid Blindly as I was vulnerable and wanted to =
+see my child. To this day I don&#39;t have one receipt or explanation of an=
+y charges. My Attorney and I are Filing all these unethical conducts to the=
+ courts and the Arizona Board of Behavioral health. We will see to it, So s=
+he can never do this to another child or Family again!! We are determined!!=
+</div><div>=E2=80=8B<br><div class=3D"gmail_chip gmail_drive_chip" style=3D=
+"width:396px;height:18px;max-height:18px;background-color:#f5f5f5;padding:5=
+px;color:#222;font-family:arial;font-style:normal;font-weight:bold;font-siz=
+e:13px;border:1px solid #ddd;line-height:1"><a href=3D"https://drive.google=
+.com/file/d/0B883yVrc7ZzSbHA4MndBcmJseVhLQ2RhMXJsTV9sQTFRekZj/view?usp=3Ddr=
+ive_web" style=3D"display:inline-block;overflow:hidden;text-overflow:ellips=
+is;white-space:nowrap;text-decoration:none;padding:1px 0px;border:none;widt=
+h:100%" target=3D"_blank"><img style=3D"vertical-align:bottom;border:none" =
+src=3D"https://drive-thirdparty.googleusercontent.com/16/type/application/p=
+df">=C2=A0<span style=3D"color:#15c;text-decoration:none;vertical-align:bot=
+tom">Emails.TI.Jaeger.pdf</span></a></div>=E2=80=8B<br></div><div>I thought=
+ this case history will help with Dates.</div><div>=E2=80=8B<br><div class=
+=3D"gmail_chip gmail_drive_chip" style=3D"width:396px;height:18px;max-heigh=
+t:18px;background-color:#f5f5f5;padding:5px;color:#222;font-family:arial;fo=
+nt-style:normal;font-weight:bold;font-size:13px;border:1px solid #ddd;line-=
+height:1"><a href=3D"https://drive.google.com/file/d/0Bx4nBGn-F8O0OUMzVlBtU=
+mZsMkk/view?usp=3Ddrive_web" style=3D"display:inline-block;overflow:hidden;=
+text-overflow:ellipsis;white-space:nowrap;text-decoration:none;padding:1px =
+0px;border:none;width:100%" target=3D"_blank"><img style=3D"vertical-align:=
+bottom;border:none" src=3D"https://drive-thirdparty.googleusercontent.com/1=
+6/type/application/pdf">=C2=A0<span style=3D"color:#15c;text-decoration:non=
+e;vertical-align:bottom">Family Court Case Information - Case History.pdf</=
+span></a></div>=E2=80=8B<br></div><div>Again to this date we don&#39;t have=
+ One Piece of paper from Mr. Jaeger on his health and recovery or any medic=
+ation he is on. Kathleen has never provided anything to the court regarding=
+ Mr Jaeger Ever!</div><div><br></div><div>Let me know If you need anything =
+else. I have all the Drug test that has been taken by Mr Jaeger and Myself.=
+ You can find all these info and more in the main FINALE DRIVE I shared wit=
+h you.=C2=A0</div><div><br></div><div>Thank you Thank you</div><span class=
+=3D"m_-3710765881105144692m_-3367286435926178317m_2593589398074420472m_-463=
+2410863264455035m_4997525607987201651m_-4288278753675579198m_-5379141488055=
+735908m_-1638748602457056453m_7669378511726735852m_-7918541535043770951m_15=
+91099474067999291HOEnZb"><font color=3D"#888888"><div><br></div><div>Mahsa<=
+/div></font></span></div><div class=3D"m_-3710765881105144692m_-33672864359=
+26178317m_2593589398074420472m_-4632410863264455035m_4997525607987201651m_-=
+4288278753675579198m_-5379141488055735908m_-1638748602457056453m_7669378511=
+726735852m_-7918541535043770951m_1591099474067999291HOEnZb"><div class=3D"m=
+_-3710765881105144692m_-3367286435926178317m_2593589398074420472m_-46324108=
+63264455035m_4997525607987201651m_-4288278753675579198m_-537914148805573590=
+8m_-1638748602457056453m_7669378511726735852m_-7918541535043770951m_1591099=
+474067999291h5"><br><div class=3D"gmail_quote"><div>On Tue, Jul 10, 2018 at=
+ 9:45 AM Jamie Picus &lt;<a href=3D"mailto:jamie.ppas@gmail.com" target=3D"=
+_blank">jamie.ppas@gmail.com</a>&gt; wrote:<br></div><blockquote class=3D"g=
+mail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-l=
+eft:1ex"><div><div dir=3D"auto">1.5 yrs? Wow</div></div><div><br><div class=
+=3D"gmail_quote"><div>On Tue, Jul 10, 2018 at 8:33 AM Mahsa Jaeger &lt;<a h=
+ref=3D"mailto:mahsajune@gmail.com" target=3D"_blank">mahsajune@gmail.com</a=
+>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0 0=
+ 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div>Good Morning,<div=
+><br></div><div>Kathleen was appointed on July 15th, 2016 and was removed f=
+rom the case on our last court day March 27th, 2018. She was reappointed in=
+ August of 2017 for a second term. There was 2 attempts to have her removed=
+, One was on March 28th, 2017 and another one in February on this year when=
+ we finally succeeded in removing her.=C2=A0</div><div><br></div><div>Let m=
+e know if I can help you with any other information.</div><div><br></div><d=
+iv>Thank you=C2=A0</div></div><div><div><br></div><div>Mahsa</div><div><br>=
+</div></div><br><div class=3D"gmail_quote"><div>On Tue, Jul 10, 2018 at 8:0=
+3 AM Jamie Picus &lt;<a href=3D"mailto:jamie.ppas@gmail.com" target=3D"_bla=
+nk">jamie.ppas@gmail.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail=
+_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:=
+1ex"><div>Almost done with report.=C2=A0 Tomorrow I will send to Judge and =
+get to parents.=C2=A0 can you give me dates that kathleen was on the case-s=
+tart to end?<br></div><div class=3D"gmail_extra"><br><div class=3D"gmail_qu=
+ote">On Sun, Jul 8, 2018 at 1:59 PM, Jamie Picus <span>&lt;<a href=3D"mailt=
+o:jamie.ppas@gmail.com" target=3D"_blank">jamie.ppas@gmail.com</a>&gt;</spa=
+n> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;b=
+order-left:1px #ccc solid;padding-left:1ex"><div>Thank you.<br></div><div c=
+lass=3D"m_-3710765881105144692m_-3367286435926178317m_2593589398074420472m_=
+-4632410863264455035m_4997525607987201651m_-4288278753675579198m_-537914148=
+8055735908m_-1638748602457056453m_7669378511726735852m_-7918541535043770951=
+m_1591099474067999291m_1941710587096760819m_4424894871880283125m_-567147334=
+0339996617m_8352403943287880308HOEnZb"><div class=3D"m_-3710765881105144692=
+m_-3367286435926178317m_2593589398074420472m_-4632410863264455035m_49975256=
+07987201651m_-4288278753675579198m_-5379141488055735908m_-16387486024570564=
+53m_7669378511726735852m_-7918541535043770951m_1591099474067999291m_1941710=
+587096760819m_4424894871880283125m_-5671473340339996617m_835240394328788030=
+8h5"><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Sun, Jul =
+8, 2018 at 1:56 PM, Mahsa Jaeger <span>&lt;<a href=3D"mailto:mahsajune@gmai=
+l.com" target=3D"_blank">mahsajune@gmail.com</a>&gt;</span> wrote:<br><bloc=
+kquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #cc=
+c solid;padding-left:1ex"><div>Of course, my sobriety date is=C2=A0 Dec 21s=
+t, 2016 is the last time I drank. I never had a problem with any other subs=
+tances before, except for alcohol. Let me know if you need anything else. I=
+ sent you my Sobriety file? I think? Here it is again, just in case you nee=
+d it.<div>=E2=80=8B<br><div class=3D"gmail_chip gmail_drive_chip" style=3D"=
+width:396px;height:18px;max-height:18px;background-color:#f5f5f5;padding:5p=
+x;color:#222;font-family:arial;font-style:normal;font-weight:bold;font-size=
+:13px;border:1px solid #ddd;line-height:1"><a href=3D"https://drive.google.=
+com/drive/folders/0B883yVrc7ZzSNEFJNWJkMHA4NHc" style=3D"display:inline-blo=
+ck;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-decoratio=
+n:none;padding:1px 0px;border:none;width:100%" target=3D"_blank"><img style=
+=3D"vertical-align:bottom;border:none" src=3D"https://drive-thirdparty.goog=
+leusercontent.com/16/type/application/vnd.google-apps.folder+shared">=C2=A0=
+<span style=3D"color:#15c;text-decoration:none;vertical-align:bottom">RECOV=
+ERY =F0=9F=98=87</span></a></div>=E2=80=8B<br></div><div>Also last time we =
+did a test was our last court date/trial. March 27th of this year 2018. It =
+was a hair follicle test that went back 90 days.=C2=A0</div><div>As you kno=
+w I voluntarily test my self and have been for two years at Dr Olstein&#39;=
+s office on regular bases. I wanted to always be prepared to show my sobrie=
+ty to the court even if I was not ordered by the courts to test.=C2=A0</div=
+><div><br></div><div>Thank you Jamie=C2=A0</div><span class=3D"m_-371076588=
+1105144692m_-3367286435926178317m_2593589398074420472m_-4632410863264455035=
+m_4997525607987201651m_-4288278753675579198m_-5379141488055735908m_-1638748=
+602457056453m_7669378511726735852m_-7918541535043770951m_159109947406799929=
+1m_1941710587096760819m_4424894871880283125m_-5671473340339996617m_83524039=
+43287880308m_-4944404445740034999HOEnZb"><font color=3D"#888888"><div><br><=
+/div><div>Mahsa</div></font></span></div><div class=3D"m_-37107658811051446=
+92m_-3367286435926178317m_2593589398074420472m_-4632410863264455035m_499752=
+5607987201651m_-4288278753675579198m_-5379141488055735908m_-163874860245705=
+6453m_7669378511726735852m_-7918541535043770951m_1591099474067999291m_19417=
+10587096760819m_4424894871880283125m_-5671473340339996617m_8352403943287880=
+308m_-4944404445740034999HOEnZb"><div class=3D"m_-3710765881105144692m_-336=
+7286435926178317m_2593589398074420472m_-4632410863264455035m_49975256079872=
+01651m_-4288278753675579198m_-5379141488055735908m_-1638748602457056453m_76=
+69378511726735852m_-7918541535043770951m_1591099474067999291m_1941710587096=
+760819m_4424894871880283125m_-5671473340339996617m_8352403943287880308m_-49=
+44404445740034999h5"><br><div class=3D"gmail_quote"><div>On Sun, Jul 8, 201=
+8 at 11:07 AM Jamie Picus &lt;<a href=3D"mailto:jamie.ppas@gmail.com" targe=
+t=3D"_blank">jamie.ppas@gmail.com</a>&gt; wrote:<br></div><blockquote class=
+=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padd=
+ing-left:1ex"><div>Can you tell me when your sober date is.=C2=A0 Last time=
+ you used a substance not prescribed by a doctor?=C2=A0 Just want to note s=
+obriety length in report for both parents.<br></div><div class=3D"gmail_ext=
+ra"><br><div class=3D"gmail_quote">On Thu, Jul 5, 2018 at 2:19 PM, Mahsa Ja=
+eger <span>&lt;<a href=3D"mailto:mahsajune@gmail.com" target=3D"_blank">mah=
+sajune@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote"=
+ style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><d=
+iv><div><br></div>=E2=80=8B<br><div class=3D"gmail_chip gmail_drive_chip" s=
+tyle=3D"width:396px;height:18px;max-height:18px;background-color:#f5f5f5;pa=
+dding:5px;color:#222;font-family:arial;font-style:normal;font-weight:bold;f=
+ont-size:13px;border:1px solid #ddd;line-height:1"><a href=3D"https://drive=
+.google.com/drive/folders/106e9yXuc_okH-S0ZJiqq0yRysOfU2tLD" style=3D"displ=
+ay:inline-block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;t=
+ext-decoration:none;padding:1px 0px;border:none;width:100%" target=3D"_blan=
+k"><img style=3D"vertical-align:bottom;border:none" src=3D"https://drive-th=
+irdparty.googleusercontent.com/16/type/application/vnd.google-apps.folder+s=
+hared">=C2=A0<span style=3D"color:#15c;text-decoration:none;vertical-align:=
+bottom">Jamie</span></a></div>=E2=80=8B<br><div>In this File you will find:=
+</div><div><br></div><span style=3D"font-size:small;text-decoration-style:i=
+nitial;text-decoration-color:initial;float:none;display:inline">- (Exhibit =
+1) Therapist Note from a therapist Randall Hired. You can see the alienatio=
+n starting in these Notes.=C2=A0=C2=A0</span><div>- 2 of the 60 death threa=
+ts.</div><div>- Text Communication between Randall and Finale.(Finale&#39;s=
+ Texts are in Blue) This shows the relationship with Father at home. It&#39=
+;s really sad :(<br clear=3D"all"><div>- (Exhibit 11) Randall smashing my b=
+rothers X-mas present to Finale and having Finale video tape it and send it=
+ to us.=C2=A0</div><div>-(Exhibit 7)=C2=A0 One of the disturbing Social Med=
+ia Posts from Finale.=C2=A0</div><div><br></div><div><br></div><div>Jamie, =
+almost all of what Randall claims about me and my Family is fabricated. He =
+makes up stories and I think he believes in it. He was diagnosed by one the=
+ rehab centers Dr&#39;s as the highest level of Bipolar, almost scratching =
+the surface of Schizophrenia. I really think he has been seeing and hearing=
+ things. I really think he needs to get some help :( I want nothing more th=
+en for Finale to have 2 healthy parents in her life.=C2=A0</div><div><br></=
+div><div>Below is my treatment / Recovery file:</div><div><br></div><div>=
+=E2=80=8B<br><div class=3D"gmail_chip gmail_drive_chip" style=3D"width:396p=
+x;height:18px;max-height:18px;background-color:#f5f5f5;padding:5px;color:#2=
+22;font-family:arial;font-style:normal;font-weight:bold;font-size:13px;bord=
+er:1px solid #ddd;line-height:1"><a href=3D"https://drive.google.com/drive/=
+folders/0B883yVrc7ZzSNEFJNWJkMHA4NHc" style=3D"display:inline-block;overflo=
+w:hidden;text-overflow:ellipsis;white-space:nowrap;text-decoration:none;pad=
+ding:1px 0px;border:none;width:100%" target=3D"_blank"><img style=3D"vertic=
+al-align:bottom;border:none" src=3D"https://drive-thirdparty.googleusercont=
+ent.com/16/type/application/vnd.google-apps.folder+shared">=C2=A0<span styl=
+e=3D"color:#15c;text-decoration:none;vertical-align:bottom">RECOVERY =F0=9F=
+=98=87</span></a></div>=E2=80=8B<br></div><div><br></div><div>I have accumu=
+lated all the files for the last 2 years and have organized it in a DRIVE. =
+I will just give you full access to it, in case you need anything else.=C2=
+=A0</div><div><br></div><div>=E2=80=8B<br><div class=3D"gmail_chip gmail_dr=
+ive_chip" style=3D"width:396px;height:18px;max-height:18px;background-color=
+:#f5f5f5;padding:5px;color:#222;font-family:arial;font-style:normal;font-we=
+ight:bold;font-size:13px;border:1px solid #ddd;line-height:1"><a href=3D"ht=
+tps://drive.google.com/drive/folders/0Bx4nBGn-F8O0YnBhV1FmQ3Bhd1U" style=3D=
+"display:inline-block;overflow:hidden;text-overflow:ellipsis;white-space:no=
+wrap;text-decoration:none;padding:1px 0px;border:none;width:100%" target=3D=
+"_blank"><img style=3D"vertical-align:bottom;border:none" src=3D"https://dr=
+ive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.fo=
+lder+27+shared">=C2=A0<span style=3D"color:#15c;text-decoration:none;vertic=
+al-align:bottom">FINALE =E2=9D=A4=EF=B8=8F</span></a></div>=E2=80=8B<br></d=
+iv><div><br></div><div>All my best</div><span class=3D"m_-37107658811051446=
+92m_-3367286435926178317m_2593589398074420472m_-4632410863264455035m_499752=
+5607987201651m_-4288278753675579198m_-5379141488055735908m_-163874860245705=
+6453m_7669378511726735852m_-7918541535043770951m_1591099474067999291m_19417=
+10587096760819m_4424894871880283125m_-5671473340339996617m_8352403943287880=
+308m_-4944404445740034999m_3247976355845712674m_-2608421510937042711HOEnZb"=
+><font color=3D"#888888">-- <br><div class=3D"m_-3710765881105144692m_-3367=
+286435926178317m_2593589398074420472m_-4632410863264455035m_499752560798720=
+1651m_-4288278753675579198m_-5379141488055735908m_-1638748602457056453m_766=
+9378511726735852m_-7918541535043770951m_1591099474067999291m_19417105870967=
+60819m_4424894871880283125m_-5671473340339996617m_8352403943287880308m_-494=
+4404445740034999m_3247976355845712674m_-2608421510937042711m_-6523469182453=
+143040gmail_signature" data-smartmail=3D"gmail_signature"><div><div><div><d=
+iv><div><font color=3D"#cc0000"><font size=3D"4" face=3D"verdana, sans-seri=
+f"><b style=3D"background-color:rgb(255,255,255)">Mahsa Jaeger<br><a href=
+=3D"mailto:Mahsajune@gmail.com" target=3D"_blank">Mahsajune@gmail.com</a><b=
+r>480-440-1822</b></font><br></font><br></div></div></div></div></div></div=
+></font></span></div></div>
+</blockquote></div><br><br clear=3D"all"><br>-- <br><div class=3D"m_-371076=
+5881105144692m_-3367286435926178317m_2593589398074420472m_-4632410863264455=
+035m_4997525607987201651m_-4288278753675579198m_-5379141488055735908m_-1638=
+748602457056453m_7669378511726735852m_-7918541535043770951m_159109947406799=
+9291m_1941710587096760819m_4424894871880283125m_-5671473340339996617m_83524=
+03943287880308m_-4944404445740034999m_3247976355845712674m_-260842151093704=
+2711gmail_signature" data-smartmail=3D"gmail_signature"><div>There is no gu=
+arantee of confidentiality through e-mail correspondence.<br>
+<br>
+All information transmitted in this communication is covered by the=20
+Electronic Communications Privacy Act.=C2=A0 The information is intended on=
+ly
+ for the person(s) or entity/entities to which it is addressed and may=20
+contain confidential and/or privileged material. Any review,=20
+retransmission, dissemination or other use of this information by=20
+persons or entities other than the intended recipient(s) is prohibited.=C2=
+=A0
+ If you received this in error, please contact the sender and delete the
+ material immediately.</div></div>
+</div>
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div class=3D"m_=
+-3710765881105144692m_-3367286435926178317m_2593589398074420472m_-463241086=
+3264455035m_4997525607987201651m_-4288278753675579198m_-5379141488055735908=
+m_-1638748602457056453m_7669378511726735852m_-7918541535043770951m_15910994=
+74067999291m_1941710587096760819m_4424894871880283125m_-5671473340339996617=
+m_8352403943287880308m_-4944404445740034999m_3247976355845712674gmail_signa=
+ture" data-smartmail=3D"gmail_signature"><div><div><div><div><div><font col=
+or=3D"#cc0000"><font size=3D"4" face=3D"verdana, sans-serif"><b style=3D"ba=
+ckground-color:rgb(255,255,255)">Mahsa Jaeger<br><a href=3D"mailto:Mahsajun=
+e@gmail.com" target=3D"_blank">Mahsajune@gmail.com</a><br>480-440-1822</b><=
+/font><br></font><br></div></div></div></div></div></div>
+</div></div></blockquote></div><br><br clear=3D"all"><br>-- <br><div class=
+=3D"m_-3710765881105144692m_-3367286435926178317m_2593589398074420472m_-463=
+2410863264455035m_4997525607987201651m_-4288278753675579198m_-5379141488055=
+735908m_-1638748602457056453m_7669378511726735852m_-7918541535043770951m_15=
+91099474067999291m_1941710587096760819m_4424894871880283125m_-5671473340339=
+996617m_8352403943287880308m_-4944404445740034999gmail_signature" data-smar=
+tmail=3D"gmail_signature"><div>There is no guarantee of confidentiality thr=
+ough e-mail correspondence.<br>
+<br>
+All information transmitted in this communication is covered by the=20
+Electronic Communications Privacy Act.=C2=A0 The information is intended on=
+ly
+ for the person(s) or entity/entities to which it is addressed and may=20
+contain confidential and/or privileged material. Any review,=20
+retransmission, dissemination or other use of this information by=20
+persons or entities other than the intended recipient(s) is prohibited.=C2=
+=A0
+ If you received this in error, please contact the sender and delete the
+ material immediately.</div></div>
+</div>
+</div></div></blockquote></div><br><br clear=3D"all"><br>-- <br><div class=
+=3D"m_-3710765881105144692m_-3367286435926178317m_2593589398074420472m_-463=
+2410863264455035m_4997525607987201651m_-4288278753675579198m_-5379141488055=
+735908m_-1638748602457056453m_7669378511726735852m_-7918541535043770951m_15=
+91099474067999291m_1941710587096760819m_4424894871880283125m_-5671473340339=
+996617m_8352403943287880308gmail_signature" data-smartmail=3D"gmail_signatu=
+re"><div>There is no guarantee of confidentiality through e-mail correspond=
+ence.<br>
+<br>
+All information transmitted in this communication is covered by the=20
+Electronic Communications Privacy Act.=C2=A0 The information is intended on=
+ly
+ for the person(s) or entity/entities to which it is addressed and may=20
+contain confidential and/or privileged material. Any review,=20
+retransmission, dissemination or other use of this information by=20
+persons or entities other than the intended recipient(s) is prohibited.=C2=
+=A0
+ If you received this in error, please contact the sender and delete the
+ material immediately.</div></div>
+</div>
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div class=3D"m_=
+-3710765881105144692m_-3367286435926178317m_2593589398074420472m_-463241086=
+3264455035m_4997525607987201651m_-4288278753675579198m_-5379141488055735908=
+m_-1638748602457056453m_7669378511726735852m_-7918541535043770951m_15910994=
+74067999291m_1941710587096760819m_4424894871880283125m_-5671473340339996617=
+gmail_signature" data-smartmail=3D"gmail_signature"><div><div><div><div><di=
+v><font color=3D"#cc0000"><font size=3D"4" face=3D"verdana, sans-serif"><b =
+style=3D"background-color:rgb(255,255,255)">Mahsa Jaeger<br><a href=3D"mail=
+to:Mahsajune@gmail.com" target=3D"_blank">Mahsajune@gmail.com</a><br>480-44=
+0-1822</b></font><br></font><br></div></div></div></div></div></div>
+</blockquote></div></div>-- <br><div class=3D"m_-3710765881105144692m_-3367=
+286435926178317m_2593589398074420472m_-4632410863264455035m_499752560798720=
+1651m_-4288278753675579198m_-5379141488055735908m_-1638748602457056453m_766=
+9378511726735852m_-7918541535043770951m_1591099474067999291m_19417105870967=
+60819m_4424894871880283125gmail_signature" data-smartmail=3D"gmail_signatur=
+e"><div>There is no guarantee of confidentiality through e-mail corresponde=
+nce.<br>
+<br>
+All information transmitted in this communication is covered by the=20
+Electronic Communications Privacy Act.=C2=A0 The information is intended on=
+ly
+ for the person(s) or entity/entities to which it is addressed and may=20
+contain confidential and/or privileged material. Any review,=20
+retransmission, dissemination or other use of this information by=20
+persons or entities other than the intended recipient(s) is prohibited.=C2=
+=A0
+ If you received this in error, please contact the sender and delete the
+ material immediately.</div></div>
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div class=3D"m_=
+-3710765881105144692m_-3367286435926178317m_2593589398074420472m_-463241086=
+3264455035m_4997525607987201651m_-4288278753675579198m_-5379141488055735908=
+m_-1638748602457056453m_7669378511726735852m_-7918541535043770951m_15910994=
+74067999291m_1941710587096760819gmail_signature" data-smartmail=3D"gmail_si=
+gnature"><div><div><div><div><div><font color=3D"#cc0000"><font size=3D"4" =
+face=3D"verdana, sans-serif"><b style=3D"background-color:rgb(255,255,255)"=
+>Mahsa Jaeger<br><a href=3D"mailto:Mahsajune@gmail.com" target=3D"_blank">M=
+ahsajune@gmail.com</a><br>480-440-1822</b></font><br></font><br></div></div=
+></div></div></div></div>
+</div></div></blockquote></div><br><br clear=3D"all"><br>-- <br><div class=
+=3D"m_-3710765881105144692m_-3367286435926178317m_2593589398074420472m_-463=
+2410863264455035m_4997525607987201651m_-4288278753675579198m_-5379141488055=
+735908m_-1638748602457056453m_7669378511726735852m_-7918541535043770951m_15=
+91099474067999291gmail_signature" data-smartmail=3D"gmail_signature"><div>T=
+here is no guarantee of confidentiality through e-mail correspondence.<br>
+<br>
+All information transmitted in this communication is covered by the=20
+Electronic Communications Privacy Act.=C2=A0 The information is intended on=
+ly
+ for the person(s) or entity/entities to which it is addressed and may=20
+contain confidential and/or privileged material. Any review,=20
+retransmission, dissemination or other use of this information by=20
+persons or entities other than the intended recipient(s) is prohibited.=C2=
+=A0
+ If you received this in error, please contact the sender and delete the
+ material immediately.</div></div>
+</div>
+</div></div></blockquote></div><br><br clear=3D"all"><br>-- <br><div class=
+=3D"m_-3710765881105144692m_-3367286435926178317m_2593589398074420472m_-463=
+2410863264455035m_4997525607987201651m_-4288278753675579198m_-5379141488055=
+735908m_-1638748602457056453m_7669378511726735852m_-7918541535043770951gmai=
+l_signature" data-smartmail=3D"gmail_signature"><div>There is no guarantee =
+of confidentiality through e-mail correspondence.<br>
+<br>
+All information transmitted in this communication is covered by the=20
+Electronic Communications Privacy Act.=C2=A0 The information is intended on=
+ly
+ for the person(s) or entity/entities to which it is addressed and may=20
+contain confidential and/or privileged material. Any review,=20
+retransmission, dissemination or other use of this information by=20
+persons or entities other than the intended recipient(s) is prohibited.=C2=
+=A0
+ If you received this in error, please contact the sender and delete the
+ material immediately.</div></div>
+</div>
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div class=3D"m_=
+-3710765881105144692m_-3367286435926178317m_2593589398074420472m_-463241086=
+3264455035m_4997525607987201651m_-4288278753675579198m_-5379141488055735908=
+m_-1638748602457056453m_7669378511726735852gmail_signature" data-smartmail=
+=3D"gmail_signature"><div><div><div><div><div><font color=3D"#cc0000"><font=
+ size=3D"4" face=3D"verdana, sans-serif"><b style=3D"background-color:rgb(2=
+55,255,255)">Mahsa Jaeger<br><a href=3D"mailto:Mahsajune@gmail.com" target=
+=3D"_blank">Mahsajune@gmail.com</a><br>480-440-1822</b></font><br></font><b=
+r></div></div></div></div></div></div>
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div class=3D"m_=
+-3710765881105144692m_-3367286435926178317m_2593589398074420472m_-463241086=
+3264455035m_4997525607987201651m_-4288278753675579198m_-5379141488055735908=
+m_-1638748602457056453gmail_signature" data-smartmail=3D"gmail_signature"><=
+div><div><div><div><div><font color=3D"#cc0000"><font size=3D"4" face=3D"ve=
+rdana, sans-serif"><b style=3D"background-color:rgb(255,255,255)">Mahsa Jae=
+ger<br><a href=3D"mailto:Mahsajune@gmail.com" target=3D"_blank">Mahsajune@g=
+mail.com</a><br>480-440-1822</b></font><br></font><br></div></div></div></d=
+iv></div></div>
+</div></div></blockquote></div><br><br clear=3D"all"><br>-- <br><div class=
+=3D"m_-3710765881105144692m_-3367286435926178317m_2593589398074420472m_-463=
+2410863264455035m_4997525607987201651m_-4288278753675579198m_-5379141488055=
+735908gmail_signature" data-smartmail=3D"gmail_signature"><div>There is no =
+guarantee of confidentiality through e-mail correspondence.<br>
+<br>
+All information transmitted in this communication is covered by the=20
+Electronic Communications Privacy Act.=C2=A0 The information is intended on=
+ly
+ for the person(s) or entity/entities to which it is addressed and may=20
+contain confidential and/or privileged material. Any review,=20
+retransmission, dissemination or other use of this information by=20
+persons or entities other than the intended recipient(s) is prohibited.=C2=
+=A0
+ If you received this in error, please contact the sender and delete the
+ material immediately.</div></div>
+</div>
+</blockquote></div></div>-- <br><div class=3D"m_-3710765881105144692m_-3367=
+286435926178317m_2593589398074420472m_-4632410863264455035m_499752560798720=
+1651m_-4288278753675579198gmail_signature" data-smartmail=3D"gmail_signatur=
+e"><div><div><div><div><div><font color=3D"#cc0000"><font size=3D"4" face=
+=3D"verdana, sans-serif"><b style=3D"background-color:rgb(255,255,255)">Mah=
+sa Jaeger<br><a href=3D"mailto:Mahsajune@gmail.com" target=3D"_blank">Mahsa=
+june@gmail.com</a><br>480-440-1822</b></font><br></font><br></div></div></d=
+iv></div></div></div>
+</div></div></blockquote></div><br><br clear=3D"all"><br>-- <br><div class=
+=3D"m_-3710765881105144692m_-3367286435926178317m_2593589398074420472m_-463=
+2410863264455035m_4997525607987201651gmail_signature" data-smartmail=3D"gma=
+il_signature"><div>There is no guarantee of confidentiality through e-mail =
+correspondence.<br>
+<br>
+All information transmitted in this communication is covered by the=20
+Electronic Communications Privacy Act.=C2=A0 The information is intended on=
+ly
+ for the person(s) or entity/entities to which it is addressed and may=20
+contain confidential and/or privileged material. Any review,=20
+retransmission, dissemination or other use of this information by=20
+persons or entities other than the intended recipient(s) is prohibited.=C2=
+=A0
+ If you received this in error, please contact the sender and delete the
+ material immediately.</div></div>
+</div>
+</blockquote></div></div>
+</div></div></blockquote></div><br><br clear=3D"all"><br>-- <br><div class=
+=3D"m_-3710765881105144692gmail_signature" data-smartmail=3D"gmail_signatur=
+e"><div dir=3D"ltr">There is no guarantee of confidentiality through e-mail=
+ correspondence.<br>
+<br>
+All information transmitted in this communication is covered by the=20
+Electronic Communications Privacy Act.=C2=A0 The information is intended on=
+ly
+ for the person(s) or entity/entities to which it is addressed and may=20
+contain confidential and/or privileged material. Any review,=20
+retransmission, dissemination or other use of this information by=20
+persons or entities other than the intended recipient(s) is prohibited.=C2=
+=A0
+ If you received this in error, please contact the sender and delete the
+ material immediately.</div></div>
+</div>
+</div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr" class=3D"gma=
+il_signature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div=
+ dir=3D"ltr"><div><div dir=3D"ltr"><font color=3D"#cc0000"><font size=3D"4"=
+ face=3D"verdana, sans-serif"><b style=3D"background-color:rgb(255,255,255)=
+">Mahsa Jaeger<br><a href=3D"mailto:Mahsajune@gmail.com" target=3D"_blank">=
+Mahsajune@gmail.com</a><br>480-440-1822</b></font><br></font><br></div></di=
+v></div></div></div></div></div>
+
+--00000000000054e6450570d532da--

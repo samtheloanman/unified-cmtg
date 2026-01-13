@@ -1,0 +1,120 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of softlayer.com designates 173.192.119.25 as permitted sender) client-ip=173.192.119.25; envelope-from=noreply@softlayer.com; helo=mx.softlayer.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of softlayer.com designates 173.192.119.25 as permitted sender)  smtp.mailfrom=noreply@softlayer.com;
+	dmarc=pass(p=none dis=none)  header.from=softlayer.com
+Return-Path: <noreply@softlayer.com>
+Received: from mx.softlayer.com (mx.softlayer.com [173.192.119.25]) by mx.zohomail.com
+	with SMTPS id 1530906370336960.6072591744781; Fri, 6 Jul 2018 12:46:10 -0700 (PDT)
+Received: from txndal0101e.softlayer.local
+	by mx.softlayer.com with esmtp
+	(Exim)
+	(envelope-from <noreply@softlayer.com>)
+	for sam@c-mtg.com
+	id 1fbWgD-0003gR-Uc; Fri, 06 Jul 2018 14:46:09 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=softlayer.com; s=ims13; h=Message-Id:MIME-Version:Content-Type:Date:From:
+	Subject:To; bh=JcyDzYg6TaoxVsBwf0Yf7e+HRCQhcflDyM7o1/0losY=; b=N1f6IKjl06wssw
+	Pm7Ruz4YKzOO0GQ/lqJzUs11A8bh/mdvNoULtObgmeS/K8OmY86PnXWtjcRKlvKWwJ4Cl2qRVktK0
+	4to7QjLn9EN5nbtNytgpzVcZnF2m/rgeqV9yer9pTOQkgy9YMARBNFQeUOYpRZKdpC+A1XK+f8wYu
+	5nJ3So9sABuFra4P6Kib8lcc5pYweEz82EXSQB4XwDmNTMAD3cjoa640+3B34DeA2YTzSGW6Rsdbq
+	mrX+w75SvARkWmikbMQOuXNQUxvkPp+/MSsmRMO+MtslN8Sus38thGrO9DDMsZjxmzc8lQsYq2oBj
+	3C5O3q8zXtLdqRPSCaBQ==;
+To: sam@c-mtg.com
+Subject: [IBM Cloud Event] ID:61669697 - Planned Maintenance - Phone Systems
+From: noreply@softlayer.com
+Date: Fri, 06 Jul 2018 14:46:09 -0500
+Content-Type: multipart/alternative;
+ boundary="=_ab39f157762c22c3dbf94e82f9e21081"
+MIME-Version: 1.0
+Message-ID:<E1fbWgD-0003gR-Uc@mxdal0501.softlayer.local>
+X-ZohoMail-DKIM: pass (identity @softlayer.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_7 RF_0 S_166
+X-ZM-MESSAGEID: 1530906371599000001
+X-ZohoMail-Status: 1
+
+
+--=_ab39f157762c22c3dbf94e82f9e21081
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Customer Identification: Custom mtg (1395829)=0AStart Date: Sunday 15-Ju=
+l-2018 07:00 UTC=0AEnd Date: Sunday 15-Jul-2018 13:00 UTC=0ADuration: 6=
+ hours=0AEvent Type: Planned Event=0ASubject: Event 61669697 - Planned M=
+aintenance - Phone Systems=0A=0A=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=0A/ Event Description /=0A***Corrected Maintenance Window**=
+*=0D=0AIBM Cloud Infrastructure (SoftLayer) will be performing phone sys=
+tem maintenance in a continued effort to enhance our services. We will b=
+e performing this maintenance on 2018-06-17 at 7:00 UTC through 13:00 UT=
+C. During this maintenance window we are not anticipating any interrupti=
+on to call center services. Should you be unable to reach our support st=
+aff via phone during this maintenance, you can reach out to them via cha=
+t or by opening a ticket in the portal. We will do our best to perform t=
+his maintenance in a timely fashion. We apologize for any inconvenience=
+ this may cause.=0D=0A=0D=0AIP Telephony Team =0D=0AIBM Cloud Infrastruc=
+ture (SoftLayer)=0D=0A=0A=0A/ Items Associated With This Event /=0AItem=
+ ID | Hostname | Public IP | Private IP | Item Type=0A=0A=0A/ Event Upda=
+tes /=0A=0A=0A=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=0AThe=
+ times above are shown in UTC/GMT. Please visit http://www.timeanddate.c=
+om/worldclock/converter.html?iso=3D20180715T0700&p1=3D0 to convert start=
+ time of this event to your local time.=0A=0AIBM Cloud (formerly SoftLay=
+er) sent you this email because your contact address is linked to an acc=
+ount in our customer database. This email is used exclusively as our cha=
+nnel for notifying you about critical issues that may affect your servic=
+e, and for important company news that could affect your business.  You=
+ are receiving this note because the message above directly concerns one=
+ of your accounts. If you do not wish to receive these important notific=
+ations at this address, please update your contact information or notifi=
+cation subscriptions in the customer portal.=0A=0AIf you have received t=
+his email in error, or you are concerned about suspicious activity conce=
+rning your account, please contact accounting@softlayer.com.=0AIBM Cloud=
+ | 14001 North Dallas Tollway Suite M100 Dallas, TX 75240 | +1-866-325-0=
+045
+
+--=_ab39f157762c22c3dbf94e82f9e21081
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<pre style=3D"white-space:pre-wrap">Customer Identification: Custom mtg=
+ (1395829)=0AStart Date: Sunday 15-Jul-2018 07:00 UTC=0AEnd Date: Sunday=
+ 15-Jul-2018 13:00 UTC=0ADuration: 6 hours=0AEvent Type: Planned Event=
+=0ASubject: Event 61669697 - Planned Maintenance - Phone Systems=0A=0A=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=0A/ Event Descriptio=
+n /=0A***Corrected Maintenance Window***=0D=0AIBM Cloud Infrastructure (=
+SoftLayer) will be performing phone system maintenance in a continued ef=
+fort to enhance our services. We will be performing this maintenance on=
+ 2018-06-17 at 7:00 UTC through 13:00 UTC. During this maintenance windo=
+w we are not anticipating any interruption to call center services. Shou=
+ld you be unable to reach our support staff via phone during this mainte=
+nance, you can reach out to them via chat or by opening a ticket in the=
+ portal. We will do our best to perform this maintenance in a timely fas=
+hion. We apologize for any inconvenience this may cause.=0D=0A=0D=0AIP T=
+elephony Team =0D=0AIBM Cloud Infrastructure (SoftLayer)=0D=0A=0A=0A/ It=
+ems Associated With This Event /=0AItem ID | Hostname | Public IP | Priv=
+ate IP | Item Type=0A=0A=0A/ Event Updates /=0A=0A=0A=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=0AThe times above are shown in UTC/GMT=
+. Please visit http://www.timeanddate.com/worldclock/converter.html?iso=
+=3D20180715T0700&amp;p1=3D0 to convert start time of this event to your=
+ local time.=0A=0AIBM Cloud (formerly SoftLayer) sent you this email bec=
+ause your contact address is linked to an account in our customer databa=
+se. This email is used exclusively as our channel for notifying you abou=
+t critical issues that may affect your service, and for important compan=
+y news that could affect your business.  You are receiving this note bec=
+ause the message above directly concerns one of your accounts. If you do=
+ not wish to receive these important notifications at this address, plea=
+se update your contact information or notification subscriptions in the=
+ customer portal.=0A=0AIf you have received this email in error, or you=
+ are concerned about suspicious activity concerning your account, please=
+ contact accounting@softlayer.com.=0AIBM Cloud | 14001 North Dallas Toll=
+way Suite M100 Dallas, TX 75240 | +1-866-325-0045</pre>
+
+--=_ab39f157762c22c3dbf94e82f9e21081--

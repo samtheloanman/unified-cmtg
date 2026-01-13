@@ -1,0 +1,621 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of ttc.lacounty.gov designates 159.83.131.86 as permitted sender) client-ip=159.83.131.86; envelope-from=unsecured@ttc.lacounty.gov; helo=DCSMTPX2.LACOUNTY.GOV;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=@ttc.lacounty.gov;
+	spf=pass (zoho.com: domain of ttc.lacounty.gov designates 159.83.131.86 as permitted sender)  smtp.mailfrom=unsecured@ttc.lacounty.gov;
+	dmarc=pass(p=none dis=none)  header.from=ttc.lacounty.gov
+Received: from DCSMTPX2.LACOUNTY.GOV (dcsmtpx2.lacounty.gov [159.83.131.86]) by mx.zohomail.com
+	with SMTPS id 1531518668647692.7158195097567; Fri, 13 Jul 2018 14:51:08 -0700 (PDT)
+Received: from itsslrchyb01.isd.lacounty.gov (HELO ITSSLRCHYB01.HOSTED.LAC.COM) ([10.50.29.24])
+  by DCSMTPX2.LACOUNTY.GOV with ESMTP; 13 Jul 2018 14:51:06 -0700
+Received: from ITSSDDCHYB01.HOSTED.LAC.COM (10.50.29.151) by
+ ITSSLRCHYB01.HOSTED.LAC.COM (10.50.29.24) with Microsoft SMTP Server (TLS) id
+ 15.0.1320.4; Fri, 13 Jul 2018 14:50:30 -0700
+Received: from GCC01-DM2-obe.outbound.protection.outlook.com (10.48.69.250) by
+ ITSSDDCHYB01.HOSTED.LAC.COM (10.50.29.151) with Microsoft SMTP Server (TLS)
+ id 15.0.1320.4 via Frontend Transport; Fri, 13 Jul 2018 14:50:29 -0700
+Received: from SN6PR09MB2830.namprd09.prod.outlook.com (52.135.90.20) by
+ SN6PR09MB2831.namprd09.prod.outlook.com (52.135.90.21) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.930.20; Fri, 13 Jul 2018 21:51:04 +0000
+Received: from SN6PR09MB2830.namprd09.prod.outlook.com
+ ([fe80::7c88:7d6f:cfa:7660]) by SN6PR09MB2830.namprd09.prod.outlook.com
+ ([fe80::7c88:7d6f:cfa:7660%2]) with mapi id 15.20.0952.017; Fri, 13 Jul 2018
+ 21:51:04 +0000
+Return-Path: <unsecured@ttc.lacounty.gov>
+Return-Path: unsecured@ttc.lacounty.gov
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=ttc.lacounty.gov; i=@ttc.lacounty.gov; q=dns/txt;
+  s=local; t=1531518668; x=1563054668;
+  h=from:to:cc:subject:date:message-id:references:
+   in-reply-to:mime-version;
+  bh=kercJdOgBgrwZyBHYUBUzmFH83vMV4cVxv5kVqVaKyw=;
+  b=qWyLuSZBTIYAyKf6v3GMf1IglwSGSqb0oYR2kUp31oBSqYLm/4L00O9R
+   4iZ930j8oOz/lhAGh/4hAwzaoRMAo2yVN4j6Uhv2EP+k3i+hANB+fXpkt
+   AcVcpUPcXkE3x0iVvRqigO+E9kVZuYWrKoDkmR9LMT7TF3W78olEnm5rx
+   4=;
+IronPort-PHdr: =?us-ascii?q?9a23=3Awrf0ARWe21Im1BKTdxGm9kXN3pPV8LGtZVwlr6?=
+ =?us-ascii?q?E/grcLSJyIuqrYZRSPvKdThVPEFb/W9+hDw7KP9fy4BypYud6oizMrSNR0TR?=
+ =?us-ascii?q?gLiMEbzUQLIfWuLgnFFsPsdDEwB89YVVVorDmROElRH9viNRWJ+iXhpTEdFQ?=
+ =?us-ascii?q?/iOgVrO+/7BpDdj9it1+C15pbffxhEiCCybL9uLRi6txndutULioZ+N6g9zQ?=
+ =?us-ascii?q?fErGFVcOpM32NoIlyTnxf45siu+ZNo7jpdtfE8+cNeSKv2Z6s3Q6BWAzQgKG?=
+ =?us-ascii?q?A1+dbktQLfQguV53sTSXsZnxxVCAXY9h76X5Pxsizntuph3SSRIMP7QawoVT?=
+ =?us-ascii?q?mk8qxmUwHjhjsZODEl8WHXks1wg7xdoBK9vBx03orYbJiIOPZiYq/ReNUXSm?=
+ =?us-ascii?q?RbXsZVSidPHIWyYYUSBOYFJOpUspXxq14IoBCjBwejGfnvxydIiHHowKM6z+?=
+ =?us-ascii?q?ovHwLI3AMiHtIBrHvboc7vNKsOTey41rXEwSndY/5QxDzz6JLIchckofyUQ7?=
+ =?us-ascii?q?x+b9TcxVAhGAPDlVWft5DqPy6P1usTrmeQ8u1tVf+pi248tQ5+viWvxt0yhY?=
+ =?us-ascii?q?bUnY8V1kzE+jljzIYxP9K3VEl7YcOiEJtMtyCWLYR2QsQ8Q2xxvisx174IuY?=
+ =?us-ascii?q?ajcSQX1Jgr3R7SZ+Cdf4SW5h/vTvidLDhgiH54eL+ygwy+/Euux+HmS8W4zl?=
+ =?us-ascii?q?hHojBYntTDrnwN2QLc58ubRvZ4+0qs2yqA2gPQ5+xBI007iKvWK5Akz7EsmJ?=
+ =?us-ascii?q?ocq0HOEy33lUj3kKObcFgv9PKy5OT9eLrmo4eRN4pzig7jLKsjgte/AeEkMg?=
+ =?us-ascii?q?gWWGib5Pi82KXj/ULnRLVKieU7nKrHvp7HOMoVoLK3DhFX3Ikh9huzEyqq3M?=
+ =?us-ascii?q?4ak3ceMVxLZh2JgYbzN1/IPP31E+2zjkq1njls3/zGP7vhDYvRLnXbjbvtYa?=
+ =?us-ascii?q?xx5k5AxAYp09xS44hYBq8OLf7rX0/+rt3YDhs3MwyuxObnDc1w1p4YWWKUHK?=
+ =?us-ascii?q?CWLL7SsUWW6e0yOOSMeJMVtyrnJ/gh/fHhkXg5mUIbfam13Zobcn+4HvN4I0?=
+ =?us-ascii?q?mBe3rjns8BEXsWvgo5VOHqilmCUTlIanavWaI85yg7CJ+4AojdXYCinKaB3C?=
+ =?us-ascii?q?C1H5FMem9GDVWMG2/yd4qYQ/cMdD6SIsh5nzwfT7ehTpQs2g23uA//17pnIf?=
+ =?us-ascii?q?DY9TEftZLmzNJ1/fHclQku9TxoCMSQy3yCQH9ynmMJXD85wrtyoVF7yleCyK?=
+ =?us-ascii?q?h4nuJXGsJI5/xVSAc6MpDdw/ZmBND1XwLLZs2JR0q+QtW6HTExSco8zMMQbE?=
+ =?us-ascii?q?lhG9SvlQ3D3yyrA78MiryEGoI78rnA0HjrIMZ8xWzK27Umj1kjEYNzMjiKi6?=
+ =?us-ascii?q?h+7AWbIJTVnkqQ3/KmeKIdxyPl6WGC1HeDsVpTSglvF67CWCZMSFHRqIHF2m?=
+ =?us-ascii?q?iHcrm1BL86KAZNgZqfLLBHYcDzgFluWOvoftDXaGWsnXuhQxmP2OXfP8LRZ2?=
+ =?us-ascii?q?wB0XCFWwA/mAcJ8CPDbFFmXH3zqn/CDDFoCVPkal/t9u87sn6gU0so1F/bPV?=
+ =?us-ascii?q?Z52e+z/RgYzbyHRvUf06hMmR9pqi48XTPfl8nTF8LGogNgeKtGZtZo/VFc2G?=
+ =?us-ascii?q?nErQFxFoC8JOZmj1UZbgJrrgXh0AskQog=3D?=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: =?us-ascii?q?A2EoAQDqHUlb/xgdMgpGEwMZAQEBAQE?=
+ =?us-ascii?q?BAQEBAQEBBwEBAQEBglMiJgQnZm0DBDMKl2mCUZI3gwIUgRADGDsIAQIsAoQ?=
+ =?us-ascii?q?+AoJxNRcBAgEBAgEBAgEBAmkcDII1JAFZODIBAQEBAQEBAQEBAQEBAQEBAQE?=
+ =?us-ascii?q?BAQEBAQEBAQEBAQEBAQEBAQEFAjg4AQEBBAUgCAEBEQEBNwENAgIBCBEEAQE?=
+ =?us-ascii?q?GAQEBCgMLBwcCBQ8BAQwCDBQJCAEBBA4EAQYCBoJTQIFnAxUBAp5BAooFghy?=
+ =?us-ascii?q?CcQEBBYQWGCGCagcIBQQBh2CDLiZrgxGDGQSBGQMPARECASAHDgMHCwoJCIJ?=
+ =?us-ascii?q?rgiSBI4YiCAEgjiUDHYMrCYU2AXSGYINfhBEPgl6FJIY2izcCBAIEBQINAQa?=
+ =?us-ascii?q?BQwM0YXErChgpgWeBTIIZDBeDRYpSbwwkHEmKEAGBGQEB?=
+X-IPAS-Result: =?us-ascii?q?A2EoAQDqHUlb/xgdMgpGEwMZAQEBAQEBAQEBAQEBBwEBA?=
+ =?us-ascii?q?QEBglMiJgQnZm0DBDMKl2mCUZI3gwIUgRADGDsIAQIsAoQ+AoJxNRcBAgEBA?=
+ =?us-ascii?q?gEBAgEBAmkcDII1JAFZODIBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBA?=
+ =?us-ascii?q?QEBAQEBAQEFAjg4AQEBBAUgCAEBEQEBNwENAgIBCBEEAQEGAQEBCgMLBwcCB?=
+ =?us-ascii?q?Q8BAQwCDBQJCAEBBA4EAQYCBoJTQIFnAxUBAp5BAooFghyCcQEBBYQWGCGCa?=
+ =?us-ascii?q?gcIBQQBh2CDLiZrgxGDGQSBGQMPARECASAHDgMHCwoJCIJrgiSBI4YiCAEgj?=
+ =?us-ascii?q?iUDHYMrCYU2AXSGYINfhBEPgl6FJIY2izcCBAIEBQINAQaBQwM0YXErChgpg?=
+ =?us-ascii?q?WeBTIIZDBeDRYpSbwwkHEmKEAGBGQEB?=
+X-IronPort-AV: E=Sophos;i="5.51,349,1526367600"; 
+   d="jpg'145?scan'145,208,217,145";a="162434040"
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=lacounty.onmicrosoft.com; s=selector1-ttc-lacounty-gov;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=PoVNsdijBIxO9bLD/yNAfkNN3QRzSi0llt+aDLkSv94=;
+ b=gUgilU9d9QbuY5Vh1TdEQKNEYStZxMTArtsP5LFupaOxRFmWVE9zLAQnYWfvEqasE4LVvalt9JY5Ve5W4B4hRCzV0Vk+6lxdKfbv6xBzroMcaB9P3tuQszKaJUWjsgAtLaCELZv4+vYyzp0zpJsEydmHKVrORt8fDaC109NT1no=
+From: TTC-Unsecured <unsecured@ttc.lacounty.gov>
+To: Denise Ortega <denise@uniqueescrow.com>
+CC: Cecy Ortega <cecy@uniqueescrow.com>, Jeanette Lopez
+	<jlo@uniqueescrow.com>, Sam Tehranchi <sam@c-mtg.com>
+Subject: RE: Esc# 5929-CO - 
+Thread-Topic: Esc# 5929-CO - 
+Thread-Index: AdQZREWiRNEAQlpwTWWYWBGwepqIeQBrwkyA
+Date: Fri, 13 Jul 2018 21:51:04 +0000
+Message-ID:<SN6PR09MB283076734ABA32DDB0107D1398580@SN6PR09MB2830.namprd09.prod.outlook.com>
+References: <0DC826F744FF8C47AE7008D6DFBA849C0D454D28@UNIMAIL.uniescmail.local>
+In-Reply-To: <0DC826F744FF8C47AE7008D6DFBA849C0D454D28@UNIMAIL.uniescmail.local>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=unsecured@ttc.lacounty.gov; 
+x-originating-ip: [159.83.123.14]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;SN6PR09MB2831;7:CZxS/962Drhd4HouYk+2ni0qONRkKQY5nm+3qX6yJ135t6j2Sk5FsMUIZSuuo3bivwzhj3OCaz3vgFjuAamxddkLA1PnkY5klDcV4nnKNEUqjdxLA5644MXG4ff47aBpuONeoZHbCOoUSN/OzEJu66el6GPQyxvyaCxmJg7bNj+FWrFXCLzhLjE/+T39uB5KszS8dlhv1HFfepWjw7SZoOZbWupKKXVWtPEz+wC3StvvEEtuOU/DATLt0QW8dxbi
+x-ms-exchange-antispam-srfa-diagnostics: SOS;
+x-ms-office365-filtering-correlation-id: 48266bcf-65b7-4ee7-524f-08d5e90abb2a
+x-ms-office365-filtering-ht: Tenant
+x-microsoft-antispam: UriScan:(223705240517415);BCL:0;PCL:0;RULEID:(7020095)(4652040)(8989117)(5600053)(711020)(4534165)(4627221)(201703031133081)(201702281549075)(8990107)(48565401081)(2017052603328)(7153060)(49563074)(7193020);SRVR:SN6PR09MB2831;
+x-ms-traffictypediagnostic: SN6PR09MB2831:
+x-microsoft-antispam-prvs: <SN6PR09MB283125E4A1C43816AB413B9F98580@SN6PR09MB2831.namprd09.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(28532068793085)(223705240517415)(21748063052155);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(102415395)(6040522)(2401047)(5005006)(8121501046)(3002001)(3231311)(944501410)(52105095)(93006095)(93001095)(10201501046)(6055026)(149027)(150027)(6041310)(20161123564045)(20161123560045)(20161123562045)(20161123558120)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(6072148)(201708071742011)(7699016);SRVR:SN6PR09MB2831;BCL:0;PCL:0;RULEID:;SRVR:SN6PR09MB2831;
+x-forefront-prvs: 07326CFBC4
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(366004)(39860400002)(136003)(376002)(396003)(346002)(41584004)(189003)(199004)(81156014)(733005)(2900100001)(5660300001)(106356001)(81166006)(8676002)(33656002)(256004)(76176011)(54556002)(6306002)(25786009)(6506007)(54896002)(236005)(55016002)(6116002)(3846002)(2906002)(7736002)(5024004)(790700001)(9686003)(6436002)(4326008)(186003)(6246003)(53546011)(68736007)(74316002)(26005)(7696005)(8936002)(105586002)(229853002)(14444005)(102836004)(6916009)(4743002)(476003)(446003)(14454004)(86362001)(53936002)(99286004)(486006)(11346002)(5250100002)(99936001)(66066001)(478600001)(54906003)(97736004)(316002);DIR:OUT;SFP:1101;SCL:1;SRVR:SN6PR09MB2831;H:SN6PR09MB2830.namprd09.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;MX:1;A:1;
+x-microsoft-antispam-message-info: izT+lsjEO4lXCSc2/Qxk3/Q710B+fI2TI6uM/XLch+YDmaE0vkoYIIIVb2tyeR59/wga4bBPZd2GDMEQVI4gH163wfjjIGgYA4K7GQK47YxrxX5gzMoGBRU5+nVj14eJNhsjR2aYoHfKi0hvRbhcSHGjQ2MPXAeaSnoce951JUz4jCiWn3fmsfk7LegACmR95j17XhxKNSJJ9PSK3bgQlWPAUy4mLU8K89yUoM6e6Cdrv5mNMoN4WUqqhDP2Z4uC8lZLfSOFrpDVgMGzrFBFsJzf6hWt+FpH3eJMDLZg6ZFZnsYgB85Ty4Fy8k3ajdASJ9Rs1jwKX+g0wG884GJmZb37bXnv1k6o2Gtbv3iwHgs=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/related;
+	boundary="_004_SN6PR09MB283076734ABA32DDB0107D1398580SN6PR09MB2830namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-MS-Exchange-CrossTenant-Network-Message-Id: 48266bcf-65b7-4ee7-524f-08d5e90abb2a
+X-MS-Exchange-CrossTenant-originalarrivaltime: 13 Jul 2018 21:51:04.0600
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 07597248-ea38-451b-8abe-a638eddbac81
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN6PR09MB2831
+X-OriginatorOrg: ttc.lacounty.gov
+X-Zoho-Virus-Status: 1
+X-ZohoMail-DKIM: pass (identity @ttc.lacounty.gov)
+X-ZohoMail-Owner: <SN6PR09MB283076734ABA32DDB0107D1398580@SN6PR09MB2830.namprd09.prod.outlook.com>+zmo_1_unsecured@ttc.lacounty.gov
+X-ZohoMail-Sender: fe80::7c88:7d6f:cfa:7660
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_1 IS_0 XOF EML_0 DMN_0 EDR_200 A_8 COSF A8 LNKP UNK_U_0 UNK_O_0 SIP_KGR_0 RPD_UN_0 PIS_DPR_KN_0 CV_710IT_1  SC_1 SGR3_1_2_0_167_486
+X-ZM-MESSAGEID: 1531518670548100001
+X-ZohoMail-Status: 1
+
+
+--_004_SN6PR09MB283076734ABA32DDB0107D1398580SN6PR09MB2830namp_
+Content-Type: multipart/alternative;
+	boundary="_000_SN6PR09MB283076734ABA32DDB0107D1398580SN6PR09MB2830namp_"
+
+--_000_SN6PR09MB283076734ABA32DDB0107D1398580SN6PR09MB2830namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+THE STATUS OF ACCOUNT(S):
+BILL NUMBER                                      DATE RELEASED & MAILED
+16/40251327                                                   08/08/2017
+16/40251328                                                   08/08/2017
+16/40251326                                                   08/08/2017
+16/49955910                                                   11/01/2017
+16/49955908                                                   11/01/2017
+16/40363652                                                   11/01/2017
+
+There is a $2.00 fee for each copy needed to re-print and mail the official=
+ Lien Release documents to you.
+Please mail your payment to:
+                              Los Angeles County Tax Collector, Unsecured D=
+ivision
+                              225 North Hill Street, Room 122
+                              Los Angeles, CA 90012
+
+**Please attach a copy of lien document or reference the year/bill number o=
+n the check in the memo section.
+The Lien Release(s) must be recorded at the Registrar-Recorder's Office to =
+publicly indicate the Tax Lien has been satisfied.  Otherwise, each time so=
+meone checks for recorded liens, this tax lien will show without a lien rel=
+ease as it the taxes are unpaid. You may contact our office at (213) 893-79=
+35<tel:(213)%20893-7935> at least 10 days after your remittance payment has=
+ cleared your banking institution to request a Lien Release. Our System is =
+not programmed to automatically release the lien.   Please note: All releas=
+e documents were mailed to the assesse on record.
+Thanks
+
+Shameka Newberry
+Revenue and Enforcement Division/Unsecured
+Los Angeles County Treasurer and Tax Collector
+P.O. Box 54027
+Los Angeles, CA  90054-0027
+unsecured@ttc.lacounty.gov<mailto:unsecured@ttc.lacounty.gov>
+Telephone (213) 893-7935 Fax (213) 633-5013
+
+
+
+
+From: Denise Ortega [mailto:denise@uniqueescrow.com]
+Sent: Wednesday, July 11, 2018 11:48 AM
+To: TTC-Unsecured
+Cc: Cecy Ortega; Jeanette Lopez; Sam Tehranchi
+Subject: RE: Esc# 5929-CO -
+Importance: High
+
+Hello
+
+Attached please find copy of items recorded, would you kindly please forwar=
+d updated payoffs and or releases ?
+
+YEAR/BILL #: 16/40251327
+YEAR/BILL #: 16-40251328
+YEAR/BILL #: 16/40251326
+YEAR/Bill #: 16/49955910
+YEAR/BILL #: 16/49955908
+YEAR/BILL #: 16/40363652
+
+
+Please confirm receipt of email .
+
+Thanks
+ [Description: Description: Description: cid:image006.jpg@01CB5A7C.58233CE0=
+]
+Denise Ortega
+162 Shoppers Lane
+Covina CA 91723
+Office: 626-332-7500
+DISCLOSURE: This Email message is confidential, intended only for the recip=
+ient(s) named above and may contain information that is privileged, and exe=
+mpt from disclosure under applicable law.   If you are not the intended rec=
+ipient, do not disclose or disseminate this message to anyone except the in=
+tended recipient.   If you have received this message in error, or are not =
+the named recipient(s), please, immediately notify the sender by return Ema=
+il and delete all copies of this message.
+
+
+This email and any attached files are confidential and intended solely for =
+the intended recipient(s). If you are not the named recipient you should no=
+t read, distribute, copy or alter this email. Any views or opinions express=
+ed in this email are those of the author and do not represent those of the =
+company. Warning: Although precautions have been taken to make sure no viru=
+ses are present in this email, the company cannot accept responsibility for=
+ any loss or damage that arise from the use of this email or attachments.
+
+--_000_SN6PR09MB283076734ABA32DDB0107D1398580SN6PR09MB2830namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Book Antiqua";
+	panose-1:2 4 6 2 5 3 5 3 3 4;}
+@font-face
+	{font-family:"Arial Narrow";
+	panose-1:2 11 6 6 2 2 2 3 2 4;}
+@font-face
+	{font-family:"Lucida Handwriting";
+	panose-1:3 1 1 1 1 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.EmailStyle17
+	{mso-style-type:personal;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Arial","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><b><span style=3D"font-size:12.0pt;font-family:&quot;Arial&quot;,&=
+quot;sans-serif&quot;;color:red">THE STATUS OF ACCOUNT(S): &nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;
+</span></b><span style=3D"font-size:12.0pt;font-family:&quot;Arial&quot;,&q=
+uot;sans-serif&quot;;color:red"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><u><span style=3D"font-size:12.0pt;font-family:&q=
+uot;Arial&quot;,&quot;sans-serif&quot;;color:red">BILL NUMBER</span></u></b=
+><b><span style=3D"font-size:12.0pt;font-family:&quot;Arial&quot;,&quot;san=
+s-serif&quot;;color:red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;
+<u><span style=3D"background:yellow;mso-highlight:yellow">DATE RELEASED &am=
+p; MAILED</span></u><o:p></o:p></span></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;;color:blue">16/40251327&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 08/08/2017<o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;;color:blue">16/40251328&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 08/08/2017<o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;;color:blue">16/40251326&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 08/08/2017<o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;;color:blue">16/49955910&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11/01/2017<o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;;color:blue">16/49955908&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11/01/2017<o:p></o:p></=
+span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;;color:blue">16/40363652&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11/01/2017<o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;;color:blue"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;;color:blue">There is
+<span style=3D"background:yellow;mso-highlight:yellow">a <u>$2.00</u> fee</=
+span> for each copy needed to re-print and mail the official Lien Release d=
+ocuments to you.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;;color:blue">Please mail your payment to:<o=
+:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;;color:blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Los A=
+ngeles County Tax Collector, Unsecured Division<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;;color:blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 225 N=
+orth Hill Street, Room 122<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;;color:blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Los A=
+ngeles, CA 90012<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;;color:blue"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;;color:blue">**Please attach a copy of lien=
+ document or reference the year/bill number on the check in the memo sectio=
+n.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><b><span style=3D"font-size:12.0pt;font-family:&quot;Arial&quot;,&=
+quot;sans-serif&quot;;color:blue">The Lien Release(s) must be recorded at t=
+he Registrar-Recorder&#8217;s Office to publicly indicate the Tax
+ Lien has been satisfied.</span></b><span style=3D"font-size:12.0pt;font-fa=
+mily:&quot;Arial&quot;,&quot;sans-serif&quot;;color:blue">&nbsp; Otherwise,=
+ each time someone checks for recorded liens, this tax lien will show witho=
+ut a lien release as it the taxes are unpaid. You may contact
+ our office at </span><a href=3D"tel:(213)%20893-7935" target=3D"_blank"><s=
+pan style=3D"font-size:12.0pt;font-family:&quot;Arial&quot;,&quot;sans-seri=
+f&quot;">(213) 893-7935</span></a><span style=3D"font-size:12.0pt;font-fami=
+ly:&quot;Arial&quot;,&quot;sans-serif&quot;;color:blue"> at least 10 days a=
+fter
+ your remittance payment has cleared your banking institution to request a =
+Lien Release. Our System is not programmed to automatically release the lie=
+n.&nbsp;&nbsp; Please note: All release documents were mailed to the assess=
+e on record.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;">Thanks
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><i><span style=3D"font-size:12.0pt;font-family:&quot=
+;Arial&quot;,&quot;sans-serif&quot;">Shameka Newberry<o:p></o:p></span></i>=
+</p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;">Revenue and Enforcement Division/Unsecure=
+d<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;">Los Angeles County Treasurer and Tax Coll=
+ector<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;">P.O. Box 54027<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;">Los Angeles, CA&nbsp; 90054-0027<o:p></o:=
+p></span></p>
+<p class=3D"MsoNormal"><a href=3D"mailto:unsecured@ttc.lacounty.gov"><span =
+style=3D"font-size:12.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;;color:#0070C0">unsecured@ttc.lacounty.gov</span></a><span style=3D"font=
+-size:12.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#00=
+70C0"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;">Telephone (213) 893-7935 Fax (213) 633-50=
+13<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;</o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,&quot;sans-serif&quot;">From:</span></b><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;"> Denise O=
+rtega [mailto:denise@uniqueescrow.com]
+<br>
+<b>Sent:</b> Wednesday, July 11, 2018 11:48 AM<br>
+<b>To:</b> TTC-Unsecured<br>
+<b>Cc:</b> Cecy Ortega; Jeanette Lopez; Sam Tehranchi<br>
+<b>Subject:</b> RE: Esc# 5929-CO - <br>
+<b>Importance:</b> High<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Hello <o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Attached please find copy of items recorded, would y=
+ou kindly please forward updated payoffs and or releases ?
+<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">YEAR/BILL #: 16/40251327 <o:p></o:p></p>
+<p class=3D"MsoNormal">YEAR/BILL #: 16-40251328<o:p></o:p></p>
+<p class=3D"MsoNormal">YEAR/BILL #: 16/40251326<o:p></o:p></p>
+<p class=3D"MsoNormal">YEAR/Bill #: 16/49955910<o:p></o:p></p>
+<p class=3D"MsoNormal">YEAR/BILL #: 16/49955908 <o:p></o:p></p>
+<p class=3D"MsoNormal">YEAR/BILL #: 16/40363652<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Please confirm receipt of email . <o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Thanks <o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:10.0pt;font-family:&quot;Arial Narrow&quo=
+t;,&quot;sans-serif&quot;;color:#984806">&nbsp;</span><b><span style=3D"fon=
+t-size:16.0pt;font-family:&quot;Book Antiqua&quot;,&quot;serif&quot;;color:=
+#1F497D"><img border=3D"0" width=3D"196" height=3D"75" id=3D"Picture_x0020_=
+1" src=3D"cid:image001.jpg@01D41AB8.EB75AF50" alt=3D"Description: Descripti=
+on: Description: cid:image006.jpg@01CB5A7C.58233CE0"></span></b><span style=
+=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&qu=
+ot;"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:16.0pt;font-family:&quot;Lucida Handwriti=
+ng&quot;;color:#705300">Denise Ortega
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&=
+quot;,&quot;serif&quot;">162 Shoppers Lane
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&=
+quot;,&quot;serif&quot;">Covina CA 91723
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&=
+quot;,&quot;serif&quot;">Office: 626-332-7500
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:12.0pt;font-family:&quot;Arial Narrow&quo=
+t;,&quot;sans-serif&quot;;color:black">DISCLOSURE: This Email message is co=
+nfidential, intended only for the recipient(s) named above
+ and may contain information that is privileged, and exempt from disclosure=
+ under applicable law.&nbsp;&nbsp; If you are not the intended recipient, d=
+o not disclose or disseminate this message to anyone except the intended re=
+cipient.&nbsp;&nbsp; If you have received this message
+ in error, or are not the named recipient(s), please, immediately notify th=
+e sender by return Email and delete all copies of this message.</span><span=
+ style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;se=
+rif&quot;"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p>This email and any attached files are confidential and intended solely f=
+or the intended recipient(s). If you are not the named recipient you should=
+ not read, distribute, copy or alter this email. Any views or opinions expr=
+essed in this email are those of
+ the author and do not represent those of the company. Warning: Although pr=
+ecautions have been taken to make sure no viruses are present in this email=
+, the company cannot accept responsibility for any loss or damage that aris=
+e from the use of this email or
+ attachments.<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_SN6PR09MB283076734ABA32DDB0107D1398580SN6PR09MB2830namp_--
+
+--_004_SN6PR09MB283076734ABA32DDB0107D1398580SN6PR09MB2830namp_
+Content-Type: image/jpeg; name="image001.jpg"
+Content-Description: image001.jpg
+Content-Disposition: inline; filename="image001.jpg"; size=3663;
+	creation-date="Fri, 13 Jul 2018 21:51:03 GMT";
+	modification-date="Fri, 13 Jul 2018 21:51:03 GMT"
+Content-ID: <image001.jpg@01D41AB8.EB75AF50>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCABLAMQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2aikz
+WNqviWHSZJFmtbl1QZLqh2/nSbsBs0tcjB8QLS7fbbWV3K3HCLmupSQyRq2Cu4A4I5H1oTuDViSi
+sHUvFcGlyulxa3WFP3/LO0/Q0ul+KYtWuVigtLhVYZ8xl+UfjRcdjepKQMSM4IpaYgpKM/Wgn86N
+BHP+I9bexUW9u3lzMMlyP9Xnp+dVtB8QZlFhfJIk4P8ArncFT+J6E+lHiHR3n1BboB5UmUxOh5Cj
+HXFZ2jeHr2eOzkuI4wkB+9NyWAPBx64xyalvUpbHcp068dqdTRkAClDc9qoQtFJu/CjNLcBaKTOK
+Mn8aNAFoozSZpgLRTd35UuTQA6imkkf/AKqUHJoAWiiigBKyfEyg+HL7Iz+6OK1qzPEgz4fvR/0z
+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
+uKBDTuHQcUU4dKKYH//Z
+
+--_004_SN6PR09MB283076734ABA32DDB0107D1398580SN6PR09MB2830namp_--

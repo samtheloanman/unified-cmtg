@@ -1,0 +1,490 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of fundloans.com designates 209.85.215.180 as permitted sender) client-ip=209.85.215.180; envelope-from=dhidy@fundloans.com; helo=mail-pg1-f180.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of fundloans.com designates 209.85.215.180 as permitted sender)  smtp.mailfrom=dhidy@fundloans.com
+Received: from mail-pg1-f180.google.com (mail-pg1-f180.google.com [209.85.215.180]) by mx.zohomail.com
+	with SMTPS id 1532108576856398.11166733557616; Fri, 20 Jul 2018 10:42:56 -0700 (PDT)
+Received: by mail-pg1-f180.google.com with SMTP id z8-v6so7451015pgu.8
+        for <sam@c-mtg.com>; Fri, 20 Jul 2018 10:42:56 -0700 (PDT)
+Return-Path: <dhidy@fundloans.com>
+Return-Path: <dhidy@fundloans.com>
+Received: from DAVIDSpC (rrcs-98-152-153-250.west.biz.rr.com. [98.152.153.250])
+        by smtp.gmail.com with ESMTPSA id r22-v6sm4923449pfl.112.2018.07.20.10.42.54
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 20 Jul 2018 10:42:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=fundloans-com.20150623.gappssmtp.com; s=20150623;
+        h=from:to:cc:subject:date:message-id:mime-version:thread-index
+         :content-language;
+        bh=pCDeT6PpuoKXPtJTpuJs5wEqqLyG00perUza7LFISvs=;
+        b=qpmq1pRJr8BAhjoq5eouO1wAMKoVFgN9oyuIv778CJRwUdLfWPHdlTUbChR0LCudri
+         IPsYWS3RHgkB8xibvd1F5UBL0972Xt/YUI0jDZnasU64IilNAidjsSrNIvN8+neTpnD6
+         oYO4i3gmwAv1IpO9aZ9sD3rF+68RE8PZj7x7vNrAJNb2NI7T1KSkjOLrDeRb5NZP2ojw
+         1teQNtEG25Jw/4HsxV+bAjQhXZ3G1RVJAScSguPFOsdB0dNXZEyOx6pWC9OB20dQTXZ3
+         23qWHN1EqeDyoeY2B6XGjjy5EaTwhJpNYWBTfRPEdaGMW6D9/AwdQqD1OxIec95cyu0e
+         Kciw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:to:cc:subject:date:message-id:mime-version
+         :thread-index:content-language;
+        bh=pCDeT6PpuoKXPtJTpuJs5wEqqLyG00perUza7LFISvs=;
+        b=XXeN7Q8XADAPIK/iMcyglq+7j/plqLJLGwjhzWb9ZeM/iP+2vl1jEXSxlrGqP3te6P
+         rcjVN0hlM8J6ZnhPXItazFw/GdfxW6i07dRYt9vVmmyTev9RuWwiF9iUCZgn0f5mSrCt
+         gstXNNZQQJcdPqHUXRtETxNhENf6hhPW4zuy11t0lCISrmem5vqnzKJcGTclk3HrPWoJ
+         xXozidTJHQvBa4YA9XtN/QEPc8m/g31n19JBrcbHTbl0iWZwIy/QJE99fAcdw0Esg2Cn
+         d5HhcDkRxweLnDc7/pXv5AyqUA6IukXcUbSrFQbtlQzzFj/1Vkw9MDzquuFc+/LMfJVH
+         s1cg==
+X-Gm-Message-State: AOUpUlGle4UnaHtSMHdiYHBCF/N43eLa5X2XDoPF4ujOmjse2H8lxzWG
+	OBh8xWAuVbeVEFplnTa2UgFwXmxaIo4=
+X-Google-Smtp-Source: AAOMgpe4Uc+mxFPg9cwuINfksFGCpOcw43G6c1yxAVx8m/ExPVymcoThzpfeuP8pSNK6+sKas1fMlw==
+X-Received: by 2002:a63:90c8:: with SMTP id a191-v6mr2913653pge.173.1532108575986;
+        Fri, 20 Jul 2018 10:42:55 -0700 (PDT)
+From: "David Hidy" <dhidy@fundloans.com>
+To: <sam@c-mtg.com>
+Cc: "'Shane Colson'" <scolson@fundloans.com>
+Subject: FW: Website Contact Request
+Date: Fri, 20 Jul 2018 10:42:53 -0700
+Message-ID:<065701d42051$1676c7f0$436457d0$@com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0658_01D42016.6A17EFF0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdQf74bPEjkkUHmpT5iT2ph1PtzSFAAYXSJw
+Content-Language: en-us
+X-Zoho-Virus-Status: 1
+X-ZohoMail-DKIM: pass (identity @fundloans-com.20150623.gappssmtp.com)
+X-ZohoMail-Owner: <065701d42051$1676c7f0$436457d0$@com>+zmo_1_dhidy@fundloans.com
+X-ZohoMail-Sender: 98.152.153.250
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  PMF_LNK_RPT_GIP Ex_2 SS_6 IS_0 PIW IS_6 VOOD EML_0 DMN_0 EDR_100 A_8 COSF A8 LNKP FRD_HI_0 UNK_O_0 UNK_U_0 ZMHF_S526_1 SIP_KGR_0 RPD_UN_0 PIS_DPR_KN_0 SDFE_GNAR_0 CV_710IT_1 ZMHF_701_2  SC_4 SGR3_1_2_0_168_393
+X-ZM-MESSAGEID: 1532108577785100001
+X-ZohoMail-Status: 1
+
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0658_01D42016.6A17EFF0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_0659_01D42016.6A17EFF0"
+
+
+------=_NextPart_001_0659_01D42016.6A17EFF0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Sam
+
+ 
+
+Thank you for reaching out
+
+Shane AE (CCD above) will reach out to you
+
+ 
+
+Have a nice weekend
+
+ 
+
+  DAVID HIDY    I   EVP 
+
+cid:B782BDD4-1DA8-4708-B230-69C417975D10
+
+  P 760.388.5888  
+
+  C 760.696.2236
+
+  662 Encinitas Blvd. Suite 270
+
+  Encinitas, Ca 92024
+
+   <http://www.fundloans.com/> http://www.Fundloans.com
+
+Our Products:   <http://www.fundloans.com/products.php>
+http://www.fundloans.com/products.php
+
+ 
+
+From: noreply@loanoriginator.net [mailto:noreply@loanoriginator.net] 
+Sent: Thursday, July 19, 2018 11:10 PM
+To: info@fundloans.com
+Subject: Website Contact Request
+
+ 
+
+Name: Sam Tehranchi
+Email: sam@c-mtg.com
+Phone: (310) 709-6304
+Interested In: Product & Loan Scenario Inquiries
+Referred By: scotsman guide
+How did you hear About Us?: Other
+Comment or Question: We are a new broker and have a new loan to submit.
+
+
+------=_NextPart_001_0659_01D42016.6A17EFF0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><!--[if !mso]><style>v\:* =
+{behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:AvenirNext-Regular;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.EmailStyle17
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"2050" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Sam<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Thank you for reaching out<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Shane AE (CCD above) will reach out to you<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Have a nice weekend<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><div><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><span =
+style=3D'font-size:10.5pt;font-family:AvenirNext-Regular;color:black'>&nb=
+sp;&nbsp;DAVID HIDY&nbsp; </span></b><span =
+style=3D'font-size:9.5pt;font-family:AvenirNext-Regular;color:black'>&nbs=
+p;&nbsp;I&nbsp;&nbsp; EVP </span><span =
+style=3D'font-size:9.0pt;font-family:AvenirNext-Regular;color:black'><o:p=
+></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><img width=3D207 height=3D29 =
+id=3D"_x0036_B5AB79A-3D75-4911-AB9C-6552F349AE27" =
+src=3D"cid:image001.jpg@01D42016.6977DF60" =
+alt=3D"cid:B782BDD4-1DA8-4708-B230-69C417975D10"></span><span =
+style=3D'font-size:9.0pt;font-family:AvenirNext-Regular;color:black'><o:p=
+></o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span =
+style=3D'font-size:9.5pt;font-family:AvenirNext-Regular;color:black'>&nbs=
+p; P&nbsp;<u>760.388.5888</u>&nbsp; </span><span =
+style=3D'font-size:9.5pt;font-family:AvenirNext-Regular;color:black'><o:p=
+></o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span =
+style=3D'font-size:9.5pt;font-family:AvenirNext-Regular;color:black'>&nbs=
+p; C&nbsp;760.696.2236</span><span =
+style=3D'font-size:9.5pt;font-family:AvenirNext-Regular;color:black'><o:p=
+></o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span =
+style=3D'font-size:9.5pt;font-family:AvenirNext-Regular;color:black'>&nbs=
+p; 662 Encinitas Blvd. Suite 270<o:p></o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span =
+style=3D'font-size:9.5pt;font-family:AvenirNext-Regular;color:black'> =
+&nbsp; Encinitas, Ca 92024<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span =
+style=3D'font-size:9.5pt;font-family:AvenirNext-Regular;color:black'>&nbs=
+p;&nbsp;<a href=3D"http://www.fundloans.com/" target=3D"_blank"><span =
+style=3D'color:purple'>http://www.Fundloans.com</span></a><o:p></o:p></sp=
+an></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;margin-bottom:7.5pt'><b><span =
+style=3D'font-size:9.5pt;font-family:"Cambria","serif";color:#1F497D;back=
+ground:#F3F3F3'>Our Products:</span></b><span =
+style=3D'font-size:9.5pt;font-family:"Cambria","serif";color:#1155CC;back=
+ground:#F3F3F3'>&nbsp;&nbsp;</span><span =
+style=3D'font-size:9.5pt;font-family:AvenirNext-Regular;color:#1F497D'><a=
+ href=3D"http://www.fundloans.com/products.php" =
+target=3D"_blank"><b><span =
+style=3D'font-family:"Cambria","serif";color:#1F497D'>http://www.fundloan=
+s.com/products.php</span></b></a></span><span =
+style=3D'font-size:9.5pt;font-family:AvenirNext-Regular;color:black'><o:p=
+></o:p></span></p></div><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0in =
+0in 0in'><p class=3DMsoNormal><b><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>From:</span>=
+</b><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+noreply@loanoriginator.net [mailto:noreply@loanoriginator.net] =
+<br><b>Sent:</b> Thursday, July 19, 2018 11:10 PM<br><b>To:</b> =
+info@fundloans.com<br><b>Subject:</b> Website Contact =
+Request<o:p></o:p></span></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>Name: Sam =
+Tehranchi<br>Email: <a =
+href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a><br>Phone: (310) =
+709-6304<br>Interested In: Product &amp; Loan Scenario =
+Inquiries<br>Referred By: scotsman guide<br>How did you hear About Us?: =
+Other<br>Comment or Question: We are a new broker and have a new loan to =
+submit.<o:p></o:p></p></div></body></html>
+------=_NextPart_001_0659_01D42016.6A17EFF0--
+
+------=_NextPart_000_0658_01D42016.6A17EFF0
+Content-Type: image/jpeg;
+	name="image001.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.jpg@01D42016.6977DF60>
+
+/9j/4AAQSkZJRgABAQEBLAEsAAD/4RDaRXhpZgAATU0AKgAAAAgABAE7AAIAAAAFAAAISodpAAQA
+AAABAAAIUJydAAEAAAAKAAAQyOocAAcAAAgMAAAAPgAAAAAc6gAAAAgAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHVzZXIAAAAFkAMAAgAA
+ABQAABCekAQAAgAAABQAABCykpEAAgAAAAM3MwAAkpIAAgAAAAM3MwAA6hwABwAACAwAAAiSAAAA
+ABzqAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAMjAxNjowNDoxOSAyMzowMzo0NgAyMDE2OjA0OjE5IDIzOjAzOjQ2AAAAdQBzAGUA
+cgAAAP/hCxdodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvADw/eHBhY2tldCBiZWdpbj0n77u/
+JyBpZD0nVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkJz8+DQo8eDp4bXBtZXRhIHhtbG5zOng9ImFk
+b2JlOm5zOm1ldGEvIj48cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkv
+MDIvMjItcmRmLXN5bnRheC1ucyMiPjxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSJ1dWlkOmZh
+ZjViZGQ1LWJhM2QtMTFkYS1hZDMxLWQzM2Q3NTE4MmYxYiIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJs
+Lm9yZy9kYy9lbGVtZW50cy8xLjEvIi8+PHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9InV1aWQ6
+ZmFmNWJkZDUtYmEzZC0xMWRhLWFkMzEtZDMzZDc1MTgyZjFiIiB4bWxuczp4bXA9Imh0dHA6Ly9u
+cy5hZG9iZS5jb20veGFwLzEuMC8iPjx4bXA6Q3JlYXRlRGF0ZT4yMDE2LTA0LTE5VDIzOjAzOjQ2
+LjczMTwveG1wOkNyZWF0ZURhdGU+PC9yZGY6RGVzY3JpcHRpb24+PHJkZjpEZXNjcmlwdGlvbiBy
+ZGY6YWJvdXQ9InV1aWQ6ZmFmNWJkZDUtYmEzZC0xMWRhLWFkMzEtZDMzZDc1MTgyZjFiIiB4bWxu
+czpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iPjxkYzpjcmVhdG9yPjxyZGY6
+U2VxIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5z
+IyI+PHJkZjpsaT51c2VyPC9yZGY6bGk+PC9yZGY6U2VxPg0KCQkJPC9kYzpjcmVhdG9yPjwvcmRm
+OkRlc2NyaXB0aW9uPjwvcmRmOlJERj48L3g6eG1wbWV0YT4NCiAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPD94cGFja2V0IGVuZD0ndyc/Pv/bAEMA
+AgEBAgEBAgICAgICAgIDBQMDAwMDBgQEAwUHBgcHBwYHBwgJCwkICAoIBwcKDQoKCwwMDAwHCQ4P
+DQwOCwwMDP/bAEMBAgICAwMDBgMDBgwIBwgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDP/AABEIAB0AzwMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAA
+AAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGR
+oQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdo
+aWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU
+1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJ
+Cgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVi
+ctEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqC
+g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl
+5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP3z1fUTpOmTXIt7m78ldxit1DSuO+0EjJ746nHG
+TgVwPwn/AGntB+OmlanfeEtP8Q6tbaLqMukX5ksfsElpeRKjSQPFdNFIGUSJn5cZOM5DAej18m/s
+IfETT/ANn8fpr631ydI/i74inYadot5qTbQYOAtvFIS3H3QN3tyKAPfvhz8e9B+J3jvxN4ZsF1a2
+17wetq+q2l/p01q0C3Pm+SyM6hJVbyZPmjZl+XrzWX4+/an8M/DT4o6N4N1W28SL4i8SM66Rb2+j
+XFxHqewbn8uWNTH8i/M+5lKL8zbVwatfs9+LdN+M3w/0f4kW+mxWN94y0m2cv/y1NorzS20TkEgl
+PtEh4ON0j44NeT/tR/8AKRD9lr/rr4q/9NS0Ae/+LPFy+D/DUmqT6bq95FCu+aCwtTd3Ma4JOIo8
+vIR02xhmJPAI5rJ+DPxo0f49eC7bxH4ej1RtDvkElnd3ljJZi8Q5+eNJQrlOAQxUKwIKlhXW1xH7
+NFvHafs5+AookWOOLw9YIiKMKii3jAAHoBQBj337X3gjRPjdp/w71a71PQ/FerMVsLfUNMngt748
+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
+B//Z
+
+------=_NextPart_000_0658_01D42016.6A17EFF0--
+

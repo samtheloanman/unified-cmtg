@@ -1,0 +1,85 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of att.com designates 67.231.157.136 as permitted sender) client-ip=67.231.157.136; envelope-from=buscontractsnoreply@att.com; helo=mx0a-00191d01.pphosted.com;
+Authentication-Results: mx.zohomail.com;
+	spf=pass (zoho.com: domain of att.com designates 67.231.157.136 as permitted sender)  smtp.mailfrom=buscontractsnoreply@att.com;
+	dmarc=pass(p=none dis=none)  header.from=att.com
+Return-Path: <buscontractsnoreply@att.com>
+Received: from mx0a-00191d01.pphosted.com (mx0b-00191d01.pphosted.com [67.231.157.136]) by mx.zohomail.com
+	with SMTPS id 1532484002679395.1343912208206; Tue, 24 Jul 2018 19:00:02 -0700 (PDT)
+Received: from pps.filterd (m0049463.ppops.net [127.0.0.1])
+	by m0049463.ppops.net-00191d01. (8.16.0.22/8.16.0.22) with SMTP id w6P1tAPa041331
+	for <sam@c-mtg.com>; Tue, 24 Jul 2018 22:00:01 -0400
+Received: from alpi155.enaf.aldc.att.com (sbcsmtp7.sbc.com [144.160.229.24])
+	by m0049463.ppops.net-00191d01. with ESMTP id 2ked4mjk6h-1
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT)
+	for <sam@c-mtg.com>; Tue, 24 Jul 2018 22:00:01 -0400
+Received: from enaf.aldc.att.com (localhost [127.0.0.1])
+	by alpi155.enaf.aldc.att.com (8.14.5/8.14.5) with ESMTP id w6P200le008082
+	for <sam@c-mtg.com>; Tue, 24 Jul 2018 22:00:00 -0400
+Received: from zlp27127.vci.att.com (zlp27127.vci.att.com [135.66.87.31])
+	by alpi155.enaf.aldc.att.com (8.14.5/8.14.5) with ESMTP id w6P1xvR1008058
+	for <sam@c-mtg.com>; Tue, 24 Jul 2018 21:59:57 -0400
+Received: from zlp27127.vci.att.com (zlp27127.vci.att.com [127.0.0.1])
+	by zlp27127.vci.att.com (Service) with ESMTP id BC236400579E
+	for <sam@c-mtg.com>; Wed, 25 Jul 2018 01:59:57 +0000 (GMT)
+Received: from olpv0105.bodc.att.com (unknown [141.204.82.128])
+	by zlp27127.vci.att.com (Service) with ESMTP id 84FC640006FC
+	for <sam@c-mtg.com>; Wed, 25 Jul 2018 01:59:57 +0000 (GMT)
+Received: from bodc.att.com (localhost [127.0.0.1])
+	by olpv0105.bodc.att.com (8.14.5/8.14.5) with ESMTP id w6P1xv84032428
+	for <sam@c-mtg.com>; Tue, 24 Jul 2018 18:59:57 -0700
+Received: from blph289 (blph289.bhdc.att.com [130.5.110.94])
+	by olpv0105.bodc.att.com (8.14.5/8.14.5) with ESMTP id w6P1xoRv032414
+	for <sam@c-mtg.com>; Tue, 24 Jul 2018 18:59:51 -0700
+Message-ID:<201807250159.w6P1xoRv032414@olpv0105.bodc.att.com>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Type: text/html;
+	charset="UTF-8"
+Date: 24 Jul 2018 21:59:50 -0400
+From: buscontractsnoreply@att.com
+Reply-To: g01834@ems.att.com
+Subject: Thank you for joining AT&T for your wireless needs
+To: sam@c-mtg.com
+X-Mailer: Siebel 8.1.1.14 SIA [23044] LANG_INDEPENDENT
+X-MSMail-Priority: Normal
+X-Priority: 3
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10434:,, definitions=2018-07-24_07:,,
+ signatures=0
+X-Proofpoint-Spam-Details: rule=outbound_policy_notspam policy=outbound_policy score=0
+ priorityscore=1501 malwarescore=0 suspectscore=3 phishscore=0 bulkscore=0
+ spamscore=0 clxscore=1011 lowpriorityscore=0 mlxscore=0 impostorscore=0
+ mlxlogscore=835 adultscore=0 classifier=spam adjust=0 reason=mlx
+ scancount=1 engine=8.0.1-1806210000 definitions=main-1807250017
+X-ZohoMail-Owner: <201807250159.w6P1xoRv032414@olpv0105.bodc.att.com>+zmo_0_buscontractsnoreply@att.com
+X-ZohoMail-Sender: 130.5.110.94
+X-ZohoMail: RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_1 IS_0 FMWL RTD EML_0 DMN_0 EDR_100 COSF LNKP FRD_NDS_0 SFP_WHTLST_0 UNK_U_0 UNK_O_0 SIP_KMR_0 RPD_KN_0 RPD_CL_MA_L2_0 SDFE_GNMXR_0  SC_0 SGR3_1_2_0_168_318
+X-ZM-MESSAGEID: 1532484003993100001
+X-ZohoMail-Status: 1
+
+
+<HTML><p>Congratulations, your new profile is now active! We look forward to using your profile in order to assist your entire organization to the best of our abilities. </p>
+<ul>
+<li>You can contact us the traditional way for support at 866-288-7629 or your end users can use 800-331-0500 for assistance. </li></ul>
+<ul>
+<li>Or anyone on the account can get support via our Social Media and Online Support sites, which is available to you 24 hours a day, 7 days a week. </li></ul>
+<ul>
+<table border="1" summary="layout table" ;="">
+<tbody>
+<tr>
+<td><a href="http://forums.wireless.att.com/t5/AT-T-Wireless-Community/ct-p/attwireless">AT&amp;T Wireless Community</a></td>
+<td>Come Visit the AT&amp;T Community Forums to get help and exchange ideas, tips, information, and techniques related to our products and services.</td></tr>
+<tr>
+<td><a href="http://www.wireless.att.com/businesssupport/">Business Mobility Support</a></td>
+<td>On-line support that includes device tutorials and device setup.</td></tr>
+<tr>
+<td><a href="https://www.wireless.att.com/business/index.jsp">Premier Support</a></td>
+<td>Utilize Premier to review, make changes, and make updates to your account on-line without contacting customer service.</td></tr>
+<tr>
+<td><a href="http://twitter.com/#!/BizSolutions">Twitter</a></td>
+<td>Come follow us on the official AT&amp;T Enterprise Solutions page for tips and tricks for your device, as well as self-help and self-service options.</td></tr>
+<tr>
+<td><a href="http://www.youtube.com/user/ATTEnterprise">YouTube</a></td>
+<td>Check out our Business YouTube channel for video tutorials on your device or service.</td></tr></tbody></table></ul>
+<p>. </p>
+<p>. </p></HTML>

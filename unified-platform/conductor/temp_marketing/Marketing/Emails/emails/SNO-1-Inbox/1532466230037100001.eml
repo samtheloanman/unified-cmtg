@@ -1,0 +1,713 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 74.125.82.47 as permitted sender) client-ip=74.125.82.47; envelope-from=mahsajune@gmail.com; helo=mail-wm0-f47.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 74.125.82.47 as permitted sender)  smtp.mailfrom=mahsajune@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Return-Path: <mahsajune@gmail.com>
+Received: from mail-wm0-f47.google.com (mail-wm0-f47.google.com [74.125.82.47]) by mx.zohomail.com
+	with SMTPS id 1532466229425284.96868578513727; Tue, 24 Jul 2018 14:03:49 -0700 (PDT)
+Received: by mail-wm0-f47.google.com with SMTP id o18-v6so3902374wmc.0
+        for <sam@c-mtg.com>; Tue, 24 Jul 2018 14:03:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=kBvQAF/yfhatcIt2m47fN4d1UfLSwlB6j7aAVDma0v4=;
+        b=drMea5F9zecfDTChFavXxmkdbg9L3VTppehETM1jUnm6moYxbXTHH85J2yLDy9GN9M
+         EtyUxTtAg9a6bZHvM45w8o+pRkTqg3Kkz6hseoTeJ7t+DG3QY9b2KgE7dOyQjA+VP+Kf
+         7LQpK2J2A2NNq0sl80GZPHQ0GdDie9FtfTNlQsQHgeF+AYVOs3YKRkp3vGQDKKf4NsDY
+         x3tbzATw6Phq+xSI6OdLaJmoZ8VA3y0nh5dXqJQlh/4x7aY2f8raS1lo3yroF3Mi6KsM
+         MitPEO9ipxEXyF/u+Z3sIH9F/taShecqGn/mO9P/hZGyXo8Tve95AKf9MUiAH/o9uy31
+         AA9w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=kBvQAF/yfhatcIt2m47fN4d1UfLSwlB6j7aAVDma0v4=;
+        b=LUPpKXmp7R9e2AffuB7dikxOvruLHRGEKNy/tkapBzS87iVm/WE88WJpU2FIJO1hYu
+         sGagsPRUKPjgOaaPPNF8gcF1kIlyGjozA2pFy9+kKuegFs0CGecPBFSpl5i4esWOkxIR
+         AP48lUHGFTXqMeUkLQxVu+eI5kqa8bLErf3QVooEvzN2FRW2f2My9OcYZrI4tDxAho5F
+         JrL8kxBEtB72wE3O71oVda9n85/cbd1XNlBAyqWBfOfV+kv8LRUSy4EtmFMYZJWIBBGG
+         4ff3Zs4kQfaxswkWiuayoqK2B9lS6+9C6Lih5lUdRn4KaWyml++NyiYwyj/6jV4ft9AW
+         yrqg==
+X-Gm-Message-State: AOUpUlHbh+h5WjM56eFBa+olnxqh8IbGyd25614VhBBq3q4ijXDjHmSE
+	vDOUukfs6vHsXlmBMUxX95ZVIlwLg22qZ7VXUyG2jQ==
+X-Google-Smtp-Source: AAOMgpdFKUaMZqs7tm6RhBxS+IQNBswdLY25EV7zCG6L+aAhOrlV9VQSX1rPuoVg0KEcpdJxMeCasXg2ixG5bo8OLng=
+X-Received: by 2002:a1c:8010:: with SMTP id b16-v6mr3097004wmd.41.1532466226875;
+ Tue, 24 Jul 2018 14:03:46 -0700 (PDT)
+MIME-Version: 1.0
+References: <CO2PR05MB2503F195EE5C07C732ABC91FC2550@CO2PR05MB2503.namprd05.prod.outlook.com>
+ <CAAs4AcyVCgY66Ak2hU2FBXKAtZJQW8cjE47NU07GF4d+7TzpHQ@mail.gmail.com>
+ <CAAs4AcyFKGs-S7KHsBN3rKjU6A_kvF_0OCkCuxNo62LHuO_juA@mail.gmail.com>
+ <CO2PR05MB2503A8812C0D21B64CA91976C2550@CO2PR05MB2503.namprd05.prod.outlook.com>
+ <CAAs4AczRKpqo8KxwGUVX_YwhWZ6-do_LLjOeeORabjf7FStgaQ@mail.gmail.com>
+ <CAAs4AcyUHVVtmR8Tn2ZgNSjCFs8SSgVTidoJN4UnBmDGUNyGbg@mail.gmail.com> <CO2PR05MB250353267E3B5EFB54DBF71CC2550@CO2PR05MB2503.namprd05.prod.outlook.com>
+In-Reply-To: <CO2PR05MB250353267E3B5EFB54DBF71CC2550@CO2PR05MB2503.namprd05.prod.outlook.com>
+From: Mahsa Jaeger <mahsajune@gmail.com>
+Date: Tue, 24 Jul 2018 14:03:10 -0700
+Message-ID:<CAAs4AcwNRYsk2F+4ULxDheJNEhrw1PaGem5_Bf40+HMmiGFBaw@mail.gmail.com>
+Subject: Fwd: Please Review
+To: Sam Tehranchi <sam@c-mtg.com>
+Content-Type: multipart/alternative; boundary="0000000000001551450571c519ec"
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_168 FRD_DI SPK
+X-ZM-MESSAGEID: 1532466230037100001
+X-ZohoMail-Status: 1
+
+
+--0000000000001551450571c519ec
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ---------
+From: Allie Stoddard <allie@stoddardlawgroup.com>
+Date: Tue, Jul 24, 2018 at 1:09 PM
+Subject: RE: Please Review
+To: Mahsa Jaeger <mahsajune@gmail.com>
+
+
+Mahsa,
+
+I am not going to include the text message quotes.  We will have an
+evidentiary hearing, and we will use ALL of them at that time.  The string
+of texts is much more powerful than taking clips out.  This, along with the
+audio of the calls, will be used at trial.  The judge will see from the
+pleading that we intend to use all of the recordings, and the texts.
+
+
+
+I will need you to have the Verification notarized on both the Petition and
+the Motion.  I can do it for you, or you can print it and take it to a
+bank.  Where are you today? DOMM?
+
+
+
+Cordially,
+
+Allie Stoddard
+
+Stoddard Law Group, P.C.
+
+2375 E Camelback Road, Suite 600
+
+Phoenix, Arizona 85016
+
+T- 602.635.3100
+
+F- 602.635.3184
+
+
+
+Legal Notice: This email and attachments are intended for use only by the
+individual(s) to whom they are specifically addressed and may contain
+information that is privileged and confidential.  Review, use,
+dissemination, distribution or copying of the information contained in this
+email is strictly prohibited unless you are the intended recipient and/or
+the employee or agent responsible for delivering this message to the
+intended recipient.  If you have received this email in error or without
+authorization, please inform the author at the above address and delete
+this email from your computer.  If this email is of settlement in nature,
+the document transmitted on the condition it is subject to Rule 408 of the
+Arizona Rules of Evidence.
+
+
+
+*From:* Mahsa Jaeger <mahsajune@gmail.com>
+*Sent:* Tuesday, July 24, 2018 12:12 PM
+*To:* Allie Stoddard <allie@stoddardlawgroup.com>
+*Subject:* Re: Please Review
+
+
+
+=E2=80=8B
+
+* IMG_0471.PNG
+<https://drive.google.com/file/d/0B883yVrc7ZzSdHp1Mmg5aFRWdFoycXRmM0J2R1RyZ=
+lNzSlVj/view?usp=3Ddrive_web>*
+
+=E2=80=8B=E2=80=8B
+
+* IMG_0473.PNG
+<https://drive.google.com/file/d/0B883yVrc7ZzSY0E2bF9TN1hxaEpUUlRyWFBtVV95V=
+FZPRHlB/view?usp=3Ddrive_web>*
+
+=E2=80=8B=E2=80=8B
+
+* IMG_0474.PNG
+<https://drive.google.com/file/d/0B883yVrc7ZzSY192R0l1MFp3MVZUUlpDZDNVazFqM=
+mVzZ1Rv/view?usp=3Ddrive_web>*
+
+=E2=80=8B
+
+
+
+On Tue, Jul 24, 2018 at 11:33 AM Mahsa Jaeger <mahsajune@gmail.com> wrote:
+
+Ok great...Sending in a few min...
+
+
+
+On Tue, Jul 24, 2018 at 11:29 AM Allie Stoddard <allie@stoddardlawgroup.com=
+>
+wrote:
+
+No, but send me two screen shots of text messages, and I will include them.
+
+
+
+Cordially,
+
+Allie Stoddard
+
+Stoddard Law Group, P.C.
+
+2375 E Camelback Road, Suite 600
+
+Phoenix, Arizona 85016
+
+T- 602.635.3100
+
+F- 602.635.3184
+
+
+
+Legal Notice: This email and attachments are intended for use only by the
+individual(s) to whom they are specifically addressed and may contain
+information that is privileged and confidential.  Review, use,
+dissemination, distribution or copying of the information contained in this
+email is strictly prohibited unless you are the intended recipient and/or
+the employee or agent responsible for delivering this message to the
+intended recipient.  If you have received this email in error or without
+authorization, please inform the author at the above address and delete
+this email from your computer.  If this email is of settlement in nature,
+the document transmitted on the condition it is subject to Rule 408 of the
+Arizona Rules of Evidence.
+
+
+
+*From:* Mahsa Jaeger <mahsajune@gmail.com>
+*Sent:* Tuesday, July 24, 2018 11:24 AM
+*To:* Allie Stoddard <allie@stoddardlawgroup.com>
+*Subject:* Re: Please Review
+
+
+
+Sorry one more thing.... my brother wants to know is it possible to add
+audio/video as exhibits? If not, if I send you some of the Verbiage from
+the death threats, could we put a couple in since they are so Violent?
+
+
+
+On Tue, Jul 24, 2018 at 11:19 AM Mahsa Jaeger <mahsajune@gmail.com> wrote:
+
+Thank you Allie....everything is perfect on the emergency order. I only
+have a couple of things to add.
+
+
+
+could you please change my treatment stay from 30 to 60, thats how long I
+was there. From Dec 20th - February 27th.
+
+
+
+One last thing could we please put in the fact that he does not follow any
+court order and has not been sending weekly reports either? Another form of
+alienation, not letting me know how my child is doing?
+
+
+
+Please go ahead and file the order.
+
+
+
+Could you please use a processor, and I will pay for the cost.
+
+
+
+Thank you so much again
+
+
+
+
+
+On Tue, Jul 24, 2018 at 8:29 AM Allie Stoddard <allie@stoddardlawgroup.com>
+wrote:
+
+Mahsa,
+
+Please review the Emergency Motion. Let me know if you want me to change or
+add anything.  I am also drafting a Petition, along with an Order, which
+will both be finished this morning.  I=E2=80=99d like to get this filed asa=
+p.  Do
+you want to take it downtown, or do you want me to get my process server to
+do it?  (it=E2=80=99s not necessary for me to be there).
+
+
+
+I=E2=80=99m also attaching a recent copy of the Case Status Report. Let me =
+know if
+you have any questions.
+
+
+
+
+
+Cordially,
+
+Allie Stoddard
+
+Stoddard Law Group, P.C.
+
+2375 E Camelback Road, Suite 600
+
+Phoenix, Arizona 85016
+
+T- 602.635.3100
+
+F- 602.635.3184
+
+
+
+Legal Notice: This email and attachments are intended for use only by the
+individual(s) to whom they are specifically addressed and may contain
+information that is privileged and confidential.  Review, use,
+dissemination, distribution or copying of the information contained in this
+email is strictly prohibited unless you are the intended recipient and/or
+the employee or agent responsible for delivering this message to the
+intended recipient.  If you have received this email in error or without
+authorization, please inform the author at the above address and delete
+this email from your computer.  If this email is of settlement in nature,
+the document transmitted on the condition it is subject to Rule 408 of the
+Arizona Rules of Evidence.
+
+
+
+
+
+
+--=20
+
+
+
+*Mahsa Jaeger Mahsajune@gmail.com <Mahsajune@gmail.com> 480-440-1822*
+
+
+
+
+--=20
+
+
+
+*Mahsa Jaeger Mahsajune@gmail.com <Mahsajune@gmail.com> 480-440-1822*
+
+
+
+
+--=20
+
+
+
+*Mahsa Jaeger Mahsajune@gmail.com <Mahsajune@gmail.com> 480-440-1822*
+
+
+
+
+--=20
+
+
+
+*Mahsa Jaeger Mahsajune@gmail.com <Mahsajune@gmail.com> 480-440-1822*
+
+
+--=20
+
+
+*Mahsa JaegerMahsajune@gmail.com <Mahsajune@gmail.com>480-440-1822*
+
+--0000000000001551450571c519ec
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><br><div class=3D"gmail_quote"><div dir=3D"ltr">------=
+---- Forwarded message ---------<br>From: <strong class=3D"gmail_sendername=
+" dir=3D"auto">Allie Stoddard</strong> <span dir=3D"ltr">&lt;<a href=3D"mai=
+lto:allie@stoddardlawgroup.com">allie@stoddardlawgroup.com</a>&gt;</span><b=
+r>Date: Tue, Jul 24, 2018 at 1:09 PM<br>Subject: RE: Please Review<br>To: M=
+ahsa Jaeger &lt;<a href=3D"mailto:mahsajune@gmail.com">mahsajune@gmail.com<=
+/a>&gt;<br></div><br><br>
+
+
+
+
+
+<div lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"m_4923193533556732893WordSection1">
+<p class=3D"MsoNormal">Mahsa,<u></u><u></u></p>
+<p class=3D"MsoNormal">I am not going to include the text message quotes.=
+=C2=A0 We will have an evidentiary hearing, and we will use ALL of them at =
+that time.=C2=A0 The string of texts is much more powerful than taking clip=
+s out.=C2=A0 This, along with the audio of the calls,
+ will be used at trial.=C2=A0 The judge will see from the pleading that we =
+intend to use all of the recordings, and the texts.=C2=A0
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">I will need you to have the Verification notarized o=
+n both the Petition and the Motion.=C2=A0 I can do it for you, or you can p=
+rint it and take it to a bank.=C2=A0 Where are you today? DOMM?<u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Cordially,<u></u><u></u></p>
+<p class=3D"MsoNormal">Allie Stoddard<u></u><u></u></p>
+<p class=3D"MsoNormal">Stoddard Law Group, P.C.<u></u><u></u></p>
+<p class=3D"MsoNormal">2375 E Camelback Road, Suite 600<u></u><u></u></p>
+<p class=3D"MsoNormal">Phoenix, Arizona 85016<u></u><u></u></p>
+<p class=3D"MsoNormal">T- 602.635.3100<u></u><u></u></p>
+<p class=3D"MsoNormal">F- 602.635.3184<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Legal Notice: This email and attachments are intende=
+d for use only by the individual(s) to whom they are specifically addressed=
+ and may contain information that is privileged and confidential.=C2=A0 Rev=
+iew, use, dissemination, distribution or
+ copying of the information contained in this email is strictly prohibited =
+unless you are the intended recipient and/or the employee or agent responsi=
+ble for delivering this message to the intended recipient.=C2=A0 If you hav=
+e received this email in error or without
+ authorization, please inform the author at the above address and delete th=
+is email from your computer.=C2=A0 If this email=C2=A0is of settlement in n=
+ature, the document transmitted on the condition it is subject to Rule 408 =
+of the Arizona Rules of Evidence.<span style=3D"font-size:8.0pt;font-family=
+:&quot;Times New Roman&quot;,serif"><u></u><u></u></span></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><b>From:</b> Mahsa Jaeger &lt;<a href=3D"mailto:mahs=
+ajune@gmail.com" target=3D"_blank">mahsajune@gmail.com</a>&gt; <br>
+<b>Sent:</b> Tuesday, July 24, 2018 12:12 PM<br>
+<b>To:</b> Allie Stoddard &lt;<a href=3D"mailto:allie@stoddardlawgroup.com"=
+ target=3D"_blank">allie@stoddardlawgroup.com</a>&gt;<br>
+<b>Subject:</b> Re: Please Review<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<p class=3D"MsoNormal">=E2=80=8B<u></u><u></u></p>
+<div style=3D"border:solid #dddddd 1.0pt;padding:4.0pt 4.0pt 4.0pt 4.0pt;ma=
+x-height:18px">
+<p class=3D"MsoNormal" style=3D"background:whitesmoke"><b><span style=3D"fo=
+nt-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#222222"><a h=
+ref=3D"https://drive.google.com/file/d/0B883yVrc7ZzSdHp1Mmg5aFRWdFoycXRmM0J=
+2R1RyZlNzSlVj/view?usp=3Ddrive_web" target=3D"_blank"><span style=3D"border=
+:none windowtext 1.0pt;padding:0in;text-decoration:none"><img border=3D"0" =
+id=3D"m_4923193533556732893_x0000_i1025" src=3D"https://drive-thirdparty.go=
+ogleusercontent.com/16/type/image/png">=C2=A0</span><span style=3D"color:#1=
+155cc;border:none windowtext 1.0pt;padding:0in;text-decoration:none">IMG_04=
+71.PNG</span></a><u></u><u></u></span></b></p>
+</div>
+<p class=3D"MsoNormal">=E2=80=8B=E2=80=8B<u></u><u></u></p>
+<div style=3D"border:solid #dddddd 1.0pt;padding:4.0pt 4.0pt 4.0pt 4.0pt;ma=
+x-height:18px">
+<p class=3D"MsoNormal" style=3D"background:whitesmoke"><b><span style=3D"fo=
+nt-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#222222"><a h=
+ref=3D"https://drive.google.com/file/d/0B883yVrc7ZzSY0E2bF9TN1hxaEpUUlRyWFB=
+tVV95VFZPRHlB/view?usp=3Ddrive_web" target=3D"_blank"><span style=3D"border=
+:none windowtext 1.0pt;padding:0in;text-decoration:none"><img border=3D"0" =
+id=3D"m_4923193533556732893_x0000_i1026" src=3D"https://drive-thirdparty.go=
+ogleusercontent.com/16/type/image/png">=C2=A0</span><span style=3D"color:#1=
+155cc;border:none windowtext 1.0pt;padding:0in;text-decoration:none">IMG_04=
+73.PNG</span></a><u></u><u></u></span></b></p>
+</div>
+<p class=3D"MsoNormal">=E2=80=8B=E2=80=8B<u></u><u></u></p>
+<div style=3D"border:solid #dddddd 1.0pt;padding:4.0pt 4.0pt 4.0pt 4.0pt;ma=
+x-height:18px">
+<p class=3D"MsoNormal" style=3D"background:whitesmoke"><b><span style=3D"fo=
+nt-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#222222"><a h=
+ref=3D"https://drive.google.com/file/d/0B883yVrc7ZzSY192R0l1MFp3MVZUUlpDZDN=
+VazFqMmVzZ1Rv/view?usp=3Ddrive_web" target=3D"_blank"><span style=3D"border=
+:none windowtext 1.0pt;padding:0in;text-decoration:none"><img border=3D"0" =
+id=3D"m_4923193533556732893_x0000_i1027" src=3D"https://drive-thirdparty.go=
+ogleusercontent.com/16/type/image/png">=C2=A0</span><span style=3D"color:#1=
+155cc;border:none windowtext 1.0pt;padding:0in;text-decoration:none">IMG_04=
+74.PNG</span></a><u></u><u></u></span></b></p>
+</div>
+<p class=3D"MsoNormal">=E2=80=8B<u></u><u></u></p>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal">On Tue, Jul 24, 2018 at 11:33 AM Mahsa Jaeger &lt;<a=
+ href=3D"mailto:mahsajune@gmail.com" target=3D"_blank">mahsajune@gmail.com<=
+/a>&gt; wrote:<u></u><u></u></p>
+</div>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<div>
+<p class=3D"MsoNormal">Ok great...Sending in a few min...<u></u><u></u></p>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal">On Tue, Jul 24, 2018 at 11:29 AM Allie Stoddard &lt;=
+<a href=3D"mailto:allie@stoddardlawgroup.com" target=3D"_blank">allie@stodd=
+ardlawgroup.com</a>&gt; wrote:<u></u><u></u></p>
+</div>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<div>
+<div>
+<p class=3D"MsoNormal">No, but send me two screen shots of text messages, a=
+nd I will include them.<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Cordially,<u></u><u></u></p>
+<p class=3D"MsoNormal">Allie Stoddard<u></u><u></u></p>
+<p class=3D"MsoNormal">Stoddard Law Group, P.C.<u></u><u></u></p>
+<p class=3D"MsoNormal">2375 E Camelback Road, Suite 600<u></u><u></u></p>
+<p class=3D"MsoNormal">Phoenix, Arizona 85016<u></u><u></u></p>
+<p class=3D"MsoNormal">T- 602.635.3100<u></u><u></u></p>
+<p class=3D"MsoNormal">F- 602.635.3184<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Legal Notice: This email and attachments are intende=
+d for use only by the individual(s) to whom they are specifically addressed=
+ and may contain information that is privileged and
+ confidential.=C2=A0 Review, use, dissemination, distribution or copying of=
+ the information contained in this email is strictly prohibited unless you =
+are the intended recipient and/or the employee or agent responsible for del=
+ivering this message to the intended
+ recipient.=C2=A0 If you have received this email in error or without autho=
+rization, please inform the author at the above address and delete this ema=
+il from your computer.=C2=A0 If this email=C2=A0is of settlement in nature,=
+ the document transmitted on the condition it is
+ subject to Rule 408 of the Arizona Rules of Evidence.<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal"><b>From:</b> Mahsa Jaeger &lt;<a href=3D"mailto:mahs=
+ajune@gmail.com" target=3D"_blank">mahsajune@gmail.com</a>&gt;
+<br>
+<b>Sent:</b> Tuesday, July 24, 2018 11:24 AM<br>
+<b>To:</b> Allie Stoddard &lt;<a href=3D"mailto:allie@stoddardlawgroup.com"=
+ target=3D"_blank">allie@stoddardlawgroup.com</a>&gt;<br>
+<b>Subject:</b> Re: Please Review<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">Sorry one more thing.... my brother wants to know is=
+ it possible to add audio/video as exhibits? If not, if I send you some of =
+the Verbiage from the death threats, could we put
+ a couple in since they are so Violent?=C2=A0<u></u><u></u></p>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal">On Tue, Jul 24, 2018 at 11:19 AM Mahsa Jaeger &lt;<a=
+ href=3D"mailto:mahsajune@gmail.com" target=3D"_blank">mahsajune@gmail.com<=
+/a>&gt; wrote:<u></u><u></u></p>
+</div>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-top:5.0pt;margin-right:0in;margin-=
+bottom:5.0pt">
+<div>
+<p class=3D"MsoNormal">Thank you Allie....everything is perfect on the emer=
+gency order. I only have a couple of things to add.<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">could you please change my treatment stay from 30 to=
+ 60, thats how long I was there. From Dec 20th - February 27th.<u></u><u></=
+u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">One last thing could we please put in the fact that =
+he does not follow any court order and has not been sending weekly reports =
+either? Another form of alienation, not letting me
+ know how my child is doing?=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Please go ahead and file the order.<u></u><u></u></p=
+>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Could you please use a processor, and I will pay for=
+ the cost.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Thank you so much again<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal">On Tue, Jul 24, 2018 at 8:29 AM Allie Stoddard &lt;<=
+a href=3D"mailto:allie@stoddardlawgroup.com" target=3D"_blank">allie@stodda=
+rdlawgroup.com</a>&gt; wrote:<u></u><u></u></p>
+</div>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-top:5.0pt;margin-right:0in;margin-=
+bottom:5.0pt">
+<div>
+<div>
+<p class=3D"MsoNormal">Mahsa,<u></u><u></u></p>
+<p class=3D"MsoNormal">Please review the Emergency Motion. Let me know if y=
+ou want me to change or add anything.=C2=A0 I am also drafting a Petition, =
+along with an Order, which will both be finished this morning.=C2=A0
+ I=E2=80=99d like to get this filed asap.=C2=A0 Do you want to take it down=
+town, or do you want me to get my process server to do it?=C2=A0 (it=E2=80=
+=99s not necessary for me to be there).=C2=A0
+<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">I=E2=80=99m also attaching a recent copy of the Case=
+ Status Report. Let me know if you have any questions.
+<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Cordially,<u></u><u></u></p>
+<p class=3D"MsoNormal">Allie Stoddard<u></u><u></u></p>
+<p class=3D"MsoNormal">Stoddard Law Group, P.C.<u></u><u></u></p>
+<p class=3D"MsoNormal">2375 E Camelback Road, Suite 600<u></u><u></u></p>
+<p class=3D"MsoNormal">Phoenix, Arizona 85016<u></u><u></u></p>
+<p class=3D"MsoNormal">T- 602.635.3100<u></u><u></u></p>
+<p class=3D"MsoNormal">F- 602.635.3184<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Legal Notice: This email and attachments are intende=
+d for use only by the individual(s) to whom they are specifically addressed=
+ and may contain information that is privileged and
+ confidential.=C2=A0 Review, use, dissemination, distribution or copying of=
+ the information contained in this email is strictly prohibited unless you =
+are the intended recipient and/or the employee or agent responsible for del=
+ivering this message to the intended
+ recipient.=C2=A0 If you have received this email in error or without autho=
+rization, please inform the author at the above address and delete this ema=
+il from your computer.=C2=A0 If this email=C2=A0is of settlement in nature,=
+ the document transmitted on the condition it is
+ subject to Rule 408 of the Arizona Rules of Evidence.<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<p class=3D"MsoNormal">--
+<u></u><u></u></p>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><b><span style=3D"fon=
+t-size:13.5pt;font-family:&quot;Verdana&quot;,sans-serif;color:#cc0000;back=
+ground:white">Mahsa Jaeger<br>
+<a href=3D"mailto:Mahsajune@gmail.com" target=3D"_blank">Mahsajune@gmail.co=
+m</a><br>
+480-440-1822</span></b><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<p class=3D"MsoNormal">--
+<u></u><u></u></p>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><b><span style=3D"fon=
+t-size:13.5pt;font-family:&quot;Verdana&quot;,sans-serif;color:#cc0000;back=
+ground:white">Mahsa Jaeger<br>
+<a href=3D"mailto:Mahsajune@gmail.com" target=3D"_blank">Mahsajune@gmail.co=
+m</a><br>
+480-440-1822</span></b><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<p class=3D"MsoNormal">-- <u></u><u></u></p>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><b><span style=3D"fon=
+t-size:13.5pt;font-family:&quot;Verdana&quot;,sans-serif;color:#cc0000;back=
+ground:white">Mahsa Jaeger<br>
+<a href=3D"mailto:Mahsajune@gmail.com" target=3D"_blank">Mahsajune@gmail.co=
+m</a><br>
+480-440-1822</span></b><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<p class=3D"MsoNormal">-- <u></u><u></u></p>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><b><span style=3D"fon=
+t-size:13.5pt;font-family:&quot;Verdana&quot;,sans-serif;color:#cc0000;back=
+ground:white">Mahsa Jaeger<br>
+<a href=3D"mailto:Mahsajune@gmail.com" target=3D"_blank">Mahsajune@gmail.co=
+m</a><br>
+480-440-1822</span></b><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr" class=3D"gma=
+il_signature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div=
+ dir=3D"ltr"><div><div dir=3D"ltr"><font color=3D"#cc0000"><font size=3D"4"=
+ face=3D"verdana, sans-serif"><b style=3D"background-color:rgb(255,255,255)=
+">Mahsa Jaeger<br><a href=3D"mailto:Mahsajune@gmail.com" target=3D"_blank">=
+Mahsajune@gmail.com</a><br>480-440-1822</b></font><br></font><br></div></di=
+v></div></div></div></div></div>
+
+--0000000000001551450571c519ec--

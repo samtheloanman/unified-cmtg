@@ -1,0 +1,127 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of southendcapital.com designates 209.85.208.42 as permitted sender) client-ip=209.85.208.42; envelope-from=noah@southendcapital.com; helo=mail-ed1-f42.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of southendcapital.com designates 209.85.208.42 as permitted sender)  smtp.mailfrom=noah@southendcapital.com
+Return-Path: <noah@southendcapital.com>
+Received: from mail-ed1-f42.google.com (mail-ed1-f42.google.com [209.85.208.42]) by mx.zohomail.com
+	with SMTPS id 1532558174841521.1782642995414; Wed, 25 Jul 2018 15:36:14 -0700 (PDT)
+Received: by mail-ed1-f42.google.com with SMTP id o8-v6so37729edt.13
+        for <sam@c-mtg.com>; Wed, 25 Jul 2018 15:36:14 -0700 (PDT)
+Received: from 927538837578 named unknown by gmailapi.google.com with
+ HTTPREST; Wed, 25 Jul 2018 15:36:12 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=southendcapital.com; s=google;
+        h=mime-version:from:reply-to:date:message-id:subject:to:cc;
+        bh=Z+FhvF1i0s+HmG55V9N/xR5doZh08Bn/huzfhaOFV7E=;
+        b=c9GvUkMj0KszpHG71wTMwnh+SwbCsvpZMpT+R4ZKKml7FGmU4DnijQk/s42GImPKOc
+         9UsPodADplVOkXAyMS66QWZucTz82X4oUrQtQ3gSvVq8SszRx/uGrqYRoB7ilohkvh+T
+         hESUbJ0RDk30hcv4mNqK3M4GymlnKJYSASeBw=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:reply-to:date:message-id
+         :subject:to:cc;
+        bh=Z+FhvF1i0s+HmG55V9N/xR5doZh08Bn/huzfhaOFV7E=;
+        b=QhRMLW7JRxyhf8Xyr7G1Iqz/BeNxmwBCJVODE7NmVisNxNwKfIJW9Ct6AG9tBS4C46
+         Gm5yr7H0A1Q68Qy189ZzVwmGR0viDOLSq7ex0fCE7Y8VP2Z6tfG5iyIYgHepdgwPcVhg
+         A06vskor4egs0SKdqvppzsiku1IumwdilmH9MpMVurqlQ556sZrLJE4WSrBjo7cJY9uK
+         xBsHJGTRvDvwH5pIP0P719iHn1F5ykQ/plve8uJf7lIqXpk67jyNlFRKoaFdWPifvDLl
+         PpcnxoFFB+hG5d5RTGTIRL0ktKr7y1Qh255F8I4qD3Jm23N/epq3HBbydW7DEd/bHK4k
+         arfw==
+X-Gm-Message-State: AOUpUlH4l/JYweA33/dR13EbFGYwtLi2JGoqh9x/9jpYeUrp1l9Q0Kd1
+	kFwAATAIWrl3NlkQdPvoHj9TNbSmpyF0k7hnsZpdyi8g
+X-Google-Smtp-Source: AAOMgpeK488JDCBUxprPmBEiYEJTe9QBqZHjpqOKPefAE8dObjR0vl/qtwCnFr6H4VraEZ5ab3QF+jTAZNyam03LWR4=
+X-Received: by 2002:a50:d429:: with SMTP id t41-v6mr24881612edh.75.1532558172391;
+ Wed, 25 Jul 2018 15:36:12 -0700 (PDT)
+MIME-Version: 1.0
+From: South End Capital <info@southendcapital.com>
+Reply-To: david@southendcapital.com
+Date: Wed, 25 Jul 2018 15:36:12 -0700
+Message-ID:<CAHtjQXXdd-6c8LsMnsVSQiTD6yutzMmWLJa02W2Cm1PmPFi0ow@mail.gmail.com>
+Subject: SECC - Real Estate and Business Loan Programs
+To: sam@c-mtg.com
+Cc: david@southendcapital.com
+Content-Type: multipart/alternative; boundary="000000000000769c3f0571da8166"
+X-ZohoMail-DKIM: pass (identity @southendcapital.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5_FRD RF_0 S_168 FRD_NDS SPK
+X-ZM-MESSAGEID: 1532558176824100001
+X-ZohoMail-Status: 1
+
+
+--000000000000769c3f0571da8166
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Thank you for your interest in working with South End Capital. Linked to
+this email below is a rate sheet for our *Real Estate *and* Business Loan
+Programs. *
+
+   - Stated Income Commercial Real Estate Program
+   <http://southendcapital.com/wp-content/uploads/2015/04/SECC-SB-Matrix-07=
+1918.pdf>
+   - Subprime Small Business Administration (SBA) Program
+   <http://southendcapital.com/wp-content/uploads/2018/02/Subprime-SBA-Matr=
+ix-022618.pdf>
+
+
+If you have additional questions about our programs please reach out to
+your account executive copied on this email. You may submit an application
+for one of the above programs by visiting our website, clicking "Loan
+Programs" and then "Apply Now" under the corresponding program.
+
+*As a reminder,* *you must have an approved broker registration on file
+with us in order to submit business.* If you are not an approved broker,
+please register here <https://podio.com/webforms/19815151/1342607>.
+
+We look forward to working with you!
+
+
+
+South End Capital Corporation
+www.southendcapital.com
+
+South End Capital Corporation =E2=80=9CSECC=E2=80=9D, founded in February o=
+f 2009, is
+a nationwide, non-conforming lender (CA Finance Lenders License # 603
+L334) providing collateralized and uncollateralized loans to business
+owners and real estate investors directly and in participation with
+third-party lenders.
+
+--000000000000769c3f0571da8166
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<p>Hello,</p>
+<p>Thank you for your interest in working with South End Capital. Linked=C2=
+=A0to this email below is a rate sheet for our=C2=A0<strong>Real Estate </s=
+trong>and<strong> Business Loan Programs.=C2=A0</strong></p>
+<ul>
+<li><a href=3D"http://southendcapital.com/wp-content/uploads/2015/04/SECC-S=
+B-Matrix-071918.pdf">Stated Income Commercial Real Estate Program</a></li>
+<li><a href=3D"http://southendcapital.com/wp-content/uploads/2018/02/Subpri=
+me-SBA-Matrix-022618.pdf">Subprime Small Business Administration (SBA) Prog=
+ram</a><br><br></li>
+</ul>
+<p>If you have additional questions about our programs please reach out to =
+your account executive=C2=A0copied on this email. You may submit an applica=
+tion for one of the above programs by visiting our website, clicking &quot;=
+Loan Programs&quot; and then &quot;Apply Now&quot; under the corresponding =
+program.=C2=A0</p>
+<p><strong>As a reminder,</strong> <span style=3D"color:#ff0000"><strong>yo=
+u must have an approved broker registration on file with us in order to sub=
+mit business.</strong></span> If you are not an approved broker, please <a =
+href=3D"https://podio.com/webforms/19815151/1342607">register here</a>.=C2=
+=A0</p>
+<p>We look forward to working with you!</p>
+<p>=C2=A0</p>
+<p>South End Capital Corporation<br><a href=3D"http://www.southendcapital.c=
+om">www.southendcapital.com</a></p>
+<p>South End Capital Corporation =E2=80=9CSECC=E2=80=9D, founded in Februar=
+y of 2009, is<br>a nationwide, non-conforming lender (CA Finance Lenders Li=
+cense # 603<br>L334) providing collateralized and uncollateralized loans to=
+ business<br>owners and real estate investors directly and in participation=
+ with<br>third-party lenders.</p>
+
+--000000000000769c3f0571da8166--

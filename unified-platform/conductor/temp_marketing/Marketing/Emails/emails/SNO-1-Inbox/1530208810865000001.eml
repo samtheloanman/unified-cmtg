@@ -1,0 +1,61 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of aol.com designates 204.29.186.53 as permitted sender) client-ip=204.29.186.53; envelope-from=margaretrabon@aol.com; helo=omr-a001e.mx.aol.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of aol.com designates 204.29.186.53 as permitted sender)  smtp.mailfrom=margaretrabon@aol.com;
+	dmarc=pass(p=reject dis=none)  header.from=aol.com
+Return-Path: <margaretrabon@aol.com>
+Received: from omr-a001e.mx.aol.com (omr-a001e.mx.aol.com [204.29.186.53]) by mx.zohomail.com
+	with SMTPS id 1530208809914748.6194053959103; Thu, 28 Jun 2018 11:00:09 -0700 (PDT)
+Received: from mtaomg-mbb02.mx.aol.com (mtaomg-mbb02.mx.aol.com [172.26.254.112])
+	by omr-a001e.mx.aol.com (Outbound Mail Relay) with ESMTP id C1E1E3800096
+	for <sam@c-mtg.com>; Thu, 28 Jun 2018 14:00:07 -0400 (EDT)
+Received: from core-mfb04g.mail.aol.com (core-mfb04.mail.aol.com [172.27.32.4])
+	by mtaomg-mbb02.mx.aol.com (OMAG/Core Interface) with ESMTP id 98AA638000082
+	for <sam@c-mtg.com>; Thu, 28 Jun 2018 14:00:07 -0400 (EDT)
+Received: from 108.70.195.61 by webjas-vac136.srv.aolmail.net (10.96.19.139) with HTTP (WebMailUI); Thu, 28 Jun 2018 14:00:07 -0400
+Date: Thu, 28 Jun 2018 14:00:07 -0400
+From: margaretrabon@aol.com
+To: sam@c-mtg.com
+Message-ID:<164478d68f3-c8e-2051a@webjas-vac136.srv.aolmail.net>
+Subject: Riverwalk
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_172726_1584695726.1530208807155"
+X-MB-Message-Source: WebUI
+X-MB-Message-Type: User
+X-Mailer: JAS STD
+X-Originating-IP: [108.70.195.61]
+x-aol-global-disposition: G
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mx.aol.com;
+	s=20150623; t=1530208807;
+	bh=w/oU0TtrLvesKzW67KI+DmYbcZ4AqYPOolxRx6PfMFY=;
+	h=From:To:Subject:Message-Id:Date:MIME-Version:Content-Type;
+	b=Cb8f6VEmrNHYJPF1w7Iwpf9NB4LV5aohd7MFiVxpPNdPNCjZx6axgYg8tg0ExWje4
+	 MaGoT/WOD5Kbf5LX7q9jTRCR/ietlZp0Gz/3EHTN3MGXRcmI5G5C6IUWxJ9yO0eme7
+	 qVQywrmYsYfzNmw4zXX0SqkYN37Tw2V/xPqS0kDM=
+x-aol-sid: 3039ac1afe705b3522273b23
+X-ZohoMail-DKIM: pass (identity @mx.aol.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_DI SPK
+X-ZM-MESSAGEID: 1530208810865000001
+X-ZohoMail-Status: 1
+
+
+------=_Part_172726_1584695726.1530208807155
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Could you sent me information about loan amount, interest rate, other fees and closing cost.
+Thanks
+Margaret
+
+------=_Part_172726_1584695726.1530208807155
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<font color='black' size='2' face='arial'>Could you sent me information about loan amount, interest rate, other fees and closing cost.
+<div>Thanks</div>
+
+<div>Margaret</div>
+</font>
+------=_Part_172726_1584695726.1530208807155--

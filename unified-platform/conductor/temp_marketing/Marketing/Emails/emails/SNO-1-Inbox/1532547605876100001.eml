@@ -1,0 +1,581 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of iferganeconsultinggroup.com designates 209.85.213.52 as permitted sender) client-ip=209.85.213.52; envelope-from=wifergane@iferganeconsultinggroup.com; helo=mail-vk0-f52.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of iferganeconsultinggroup.com designates 209.85.213.52 as permitted sender)  smtp.mailfrom=wifergane@iferganeconsultinggroup.com
+Return-Path: <wifergane@iferganeconsultinggroup.com>
+Received: from mail-vk0-f52.google.com (mail-vk0-f52.google.com [209.85.213.52]) by mx.zohomail.com
+	with SMTPS id 1532547604212549.205119976379; Wed, 25 Jul 2018 12:40:04 -0700 (PDT)
+Received: by mail-vk0-f52.google.com with SMTP id s17-v6so4371735vke.10
+        for <sam@c-mtg.com>; Wed, 25 Jul 2018 12:40:03 -0700 (PDT)
+Received: by 2002:ab0:4810:0:0:0:0:0 with HTTP; Wed, 25 Jul 2018 12:40:02
+ -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=icg10.com; s=google;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=b7r/5uYSLgB8QcYVxVlEI1TFN2tt9J6soCKWSsvH3dc=;
+        b=DcwXl1NHrpTX+5rmtS7g4w5qbNV2LzFUR0Z0dDZaJa/PHUahjyIZoDxC/2mkKPzlDz
+         tVlvwCQ40CNBPmpnRkNjVPONwzjmJ6jUilK5Xluvgv+YsU2Hg/Kt7zehx7HQcgcDddiO
+         Y/dWyC7OYD+kjYWDAb4j3oeey0Vn0kU0CaegrzRv4Jql8Ie4P5C1R3p+Q2HkoEE5IiAO
+         6RVhJzO/jdTDSwcrDWtaegHdiah/8uFP1IvUXdovACgLNKAZxR6BAi+jN9KgbQBl8yuC
+         CR3q5qQucovYR0GymiKdaUJECapf+YWhRTeFbF+Fer4q/L4cmqWXvnx/G+ruAyZoWRwE
+         CvDA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=b7r/5uYSLgB8QcYVxVlEI1TFN2tt9J6soCKWSsvH3dc=;
+        b=VA/avG5In5xtQ1+nvyNXqqGtaJJ5vCu98mAVnABr4aKXbSXbmcocSM9/wmLj/kULMk
+         YSmoyB6hn9h773dHxJo8SyEHUULbncofHH05aJ3HQNol3idKKtsWfLFvLtHIEF/TPAe1
+         mWFnC+juuZoW6oszgZ0t5CKWkzSkFd1ceEhUGH4A6z8nWxXSk3anBxTnSrX327dSn3K8
+         W7c7hwXFxLoRIztJqr2k1QQa1lnl2ncnJAFHA6C/9guZpjMbcjihHSQS3rT9yAZoT9G0
+         5LxfzSIhAvlf/sEWba38z+5o2HD+GVDoSH9pxqf958aEPi88ow+dHBh5zrBjoXD17mkQ
+         HHnQ==
+X-Gm-Message-State: AOUpUlHu9dQ6WLeJzqSCAHfdy2FLBRwbuFmITmHPjKg4Rh8AhAMw7++1
+	TMx1Uq8cEtd+lCCZLM/3ISZydrouYhNFEwGCamG/2XS/GQ==
+X-Google-Smtp-Source: AAOMgpctwiZ6RjYQcPQE7CnpPI780DplpmWFcvbQTsYdxCA3jmLw6aGGiZ4Eclw7VwH5fQFnjelt/kMHWGbt+8D7RXw=
+X-Received: by 2002:a1f:5ec1:: with SMTP id s184-v6mr13771150vkb.94.1532547602646;
+ Wed, 25 Jul 2018 12:40:02 -0700 (PDT)
+MIME-Version: 1.0
+In-Reply-To: <B18A01DC-FBE9-4FBC-9577-C0762D2C890F@c-mtg.com>
+References: <164c85b24e2.fb0221d127672.3245040899383144198@c-mtg.com>
+ <8906139F-68A1-4FF5-83C1-5AC78DD90367@c-mtg.com> <164d29a22f9.e6eb82b2255816.2321171703963116536@c-mtg.com>
+ <164d2a292f2.11f407891257027.5222206963840967911@c-mtg.com>
+ <CAP3xRML_sse-3H-KiKV+U+bi3u-qGEH-Zp1NUt9ufZoB70h0=g@mail.gmail.com> <B18A01DC-FBE9-4FBC-9577-C0762D2C890F@c-mtg.com>
+From: Warren Ifergane <warren@icg10.com>
+Date: Wed, 25 Jul 2018 15:40:02 -0400
+Message-ID:<CAP3xRMLvikd5JgEJ=s=fB+k24P64Aradki8z3pEW9ZA-MpcXmQ@mail.gmail.com>
+Subject: Re: RUSH - New Loan: 16906 Highway 5 North Logansport, LA 71049
+To: Sam Tehranchi <sam@c-mtg.com>
+Content-Type: multipart/alternative; boundary="000000000000751dd80571d80bf7"
+X-ZohoMail-DKIM: pass (identity @icg10.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_168 FRD_HI SPK
+X-ZM-MESSAGEID: 1532547605876100001
+X-ZohoMail-Status: 1
+
+
+--000000000000751dd80571d80bf7
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+We don't do rural deals
+=E1=90=A7
+
+*Warren Ifergane *Chief Executive Officer
+ICG10 Capital, LLC
+2100 Van Buren St, #210, Hollywood, FL 33020
+(954) 798-0726
+*Schedule A Call* <https://calendly.com/wifergane> | *APPLY NOW*
+<http://icg10.com/apply.html>
+<https://www.facebook.com/ICG10Capital/>
+<https://www.linkedin.com/company/icg10-capital>
+<https://plus.google.com/b/104151285179846905376/104151285179846905376>
+<https://www.instagram.com/icg10capital/>
+
+Author of Amazon Favorite:
+<https://www.amazon.com/No-Nonsense-Guide-Real-Estate-Necessary/dp/15302890=
+84/ref=3Dsr_1_1?ie=3DUTF8&qid=3D1481327628&sr=3D8-1&keywords=3Dno-nonsense+=
+guide+to+real+estate>The
+No-Nonsense Guide to Real Estate
+<https://www.amazon.com/No-Nonsense-Guide-Real-Estate-Necessary/dp/15302890=
+84/ref=3Dsr_1_1?ie=3DUTF8&qid=3D1481327628&sr=3D8-1&keywords=3Dno-nonsense+=
+guide+to+real+estate>
+
+NOTE: The information in this message and any attached files contain
+information intended for the exclusive use of the individual or entity to
+whom it is addressed and may contain information that is proprietary,
+privileged, confidential and/or exempt from disclosure under applicable
+law. If the reader of this message is not the intended recipient, or an
+employee or agent responsible for delivering this message to the intended
+recipient, you are hereby notified that any dissemination, distribution or
+copying of this communication is strictly prohibited and subject to legal
+sanction. If you have received this communication in error, please notify
+us immediately by replying to the message and deleting it from your
+computer without making any copies.
+
+
+On Wed, Jul 25, 2018 at 3:34 PM, Sam Tehranchi <sam@c-mtg.com> wrote:
+
+> : ( nothing we can do to make up for it, the borrower has equipment worth
+> about 500k for concrete crushing.
+>
+> They are looking to get funds to make repairs to building and begin
+> concrete crushing operation.
+>
+> Respectfully,
+>
+>
+> Sam Tehranchi
+>
+>
+> COO
+> Custom Mortgage and Realty
+> NMLS CA # 1556995 - BRE CA # 02018146
+>
+> Direct 310.709.6304 -Efax 866.421.7694
+>
+> sam@c-mtg.com - www.c-mtg.com
+>
+> LinkedIn <https://www.linkedin.com/company-beta/3477964> - Facebook
+> <https://www.facebook.com/Custom-Mortgage-409842885783868/> - twitter
+> <https://twitter.com/custommortgage1> - Instagram
+> <https://www.instagram.com/custommortgageinc/>
+>
+>
+> On Jul 25, 2018, at 12:32 PM, Warren Ifergane <warren@icg10.com> wrote:
+>
+> Too rural
+> =E1=90=A7
+>
+> *Warren Ifergane *Chief Executive Officer
+> ICG10 Capital, LLC
+> 2100 Van Buren St, #210, Hollywood, FL 33020
+> <https://maps.google.com/?q=3D2100+Van+Buren+St,+%23210,+Hollywood,+FL+33=
+020&entry=3Dgmail&source=3Dg>
+> (954) 798-0726
+> *Schedule A Call* <https://calendly.com/wifergane> | *APPLY NOW*
+> <http://icg10.com/apply.html>
+> <https://www.facebook.com/ICG10Capital/>
+> <https://www.linkedin.com/company/icg10-capital>
+> <https://plus.google.com/b/104151285179846905376/104151285179846905376>
+> <https://www.instagram.com/icg10capital/>
+>
+> Author of Amazon Favorite:
+> <https://www.amazon.com/No-Nonsense-Guide-Real-Estate-Necessary/dp/153028=
+9084/ref=3Dsr_1_1?ie=3DUTF8&qid=3D1481327628&sr=3D8-1&keywords=3Dno-nonsens=
+e+guide+to+real+estate>The
+> No-Nonsense Guide to Real Estate
+> <https://www.amazon.com/No-Nonsense-Guide-Real-Estate-Necessary/dp/153028=
+9084/ref=3Dsr_1_1?ie=3DUTF8&qid=3D1481327628&sr=3D8-1&keywords=3Dno-nonsens=
+e+guide+to+real+estate>
+>
+> NOTE: The information in this message and any attached files contain
+> information intended for the exclusive use of the individual or entity to
+> whom it is addressed and may contain information that is proprietary,
+> privileged, confidential and/or exempt from disclosure under applicable
+> law. If the reader of this message is not the intended recipient, or an
+> employee or agent responsible for delivering this message to the intended
+> recipient, you are hereby notified that any dissemination, distribution o=
+r
+> copying of this communication is strictly prohibited and subject to legal
+> sanction. If you have received this communication in error, please notify
+> us immediately by replying to the message and deleting it from your
+> computer without making any copies.
+>
+>
+> On Wed, Jul 25, 2018 at 2:10 PM, Sam Tehranchi <sam@c-mtg.com> wrote:
+>
+>>  Hi Warren
+>>
+>>
+>> We have the following transaction that needs to get funded asap.  Can yo=
+u
+>> please advise if this is something you can fund.
+>>
+>> Property address:
+>> 16906 Highway 5 North
+>> Logansport, LA 71049
+>>
+>> Estimated Value: 3-5 million
+>>
+>> Requested Loan Amount: 350,000.00
+>>
+>> Use of Funds: Business purpose
+>>
+>> Exit strategy: Refinance into conventional loan
+>>
+>> Please see executive summary for additional details.
+>>
+>> Please give me a call when you have a moment.
+>>
+>> *Cost to replace *
+>> In order to build a facility like this would entail these major costs.
+>>
+>> 1.Land value $1,000,000
+>>
+>> 2.Concrete slab (concrete cost only) - $12,000,000 (100,000 yds @
+>> $127/yard delivered.)
+>>
+>> 3.Highway turn lane - $500,000
+>>
+>> 4.Clear span trusses (120=E2=80=99) =E2=80=93 37 trusses at $45,000 ea =
+=3D $1,665,000
+>>
+>> 5.Scales $200,000
+>> 6.Rail access -?
+>>
+>> Total (not including engineering, architectural, labor, other material) =
+-
+>> $14,865,000
+>> Estimated total cost - $25,000,000
+>>
+>> *The existing property includes *
+>> 1.Employee Parking =E2=80=93 approximately 150 spaces.
+>> 2.Office =E2=80=93 approximately 3,600 SF.
+>> 3.Scale house attached to office.
+>> 4.Two scales =E2=80=93 1 outgoing and 1 incoming.
+>> 5.Turning lane into facility from highway. To build this lane currently
+>> would cost $500,000.
+>> 6. Approximately 15 acres of concrete pad designed for heavy traffic.
+>> 7. Guardhouse.
+>> 8. Electronic gates
+>> 9. Existing useable structure =E2=80=93 approximately 108,000 SF. This w=
+as where
+>> the manufacturing facility was housed and is 75% intact.
+>> 10. Above structure consists of 3 bays 120=E2=80=99 wide (clear span) by=
+ 300=E2=80=99
+>> long by 21=E2=80=99 clearance.
+>> 11. Concrete roads throughout the facility.
+>> 12. Fire suppression throughout with existing water storage tank.
+>> 13. Existing close access to rail. Old spur has been removed but can be
+>> replaced.
+>> 14. The facility occupies 40 acres of a 163 acre track. The total track
+>> or a portion of it is available.
+>>
+>>
+>> Respectfully,
+>>
+>>
+>> Sam Tehranchi
+>>
+>>
+>> COO
+>> Custom Mortgage and Realty
+>> NMLS CA # 1556995 - BRE CA # 02018146
+>>
+>> Direct 310.709.6304 -Efax 866.421.7694
+>>
+>> sam@c-mtg.com - www.c-mtg.com
+>>
+>> LinkedIn <https://www.linkedin.com/company-beta/3477964> - Facebook
+>> <https://www.facebook.com/Custom-Mortgage-409842885783868/> - twitter
+>> <https://twitter.com/custommortgage1> - Instagram
+>> <https://www.instagram.com/custommortgageinc/>
+>>
+>>
+>>
+>>
+>>
+>>
+>
+>
+
+--000000000000751dd80571d80bf7
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">We don&#39;t do rural deals</div><div hspace=3D"streak-pt-=
+mark" style=3D"max-height:1px"><img alt=3D"" style=3D"width:0px;max-height:=
+0px;overflow:hidden" src=3D"https://mailfoogae.appspot.com/t?sender=3Dad2lm=
+ZXJnYW5lQGlmZXJnYW5lY29uc3VsdGluZ2dyb3VwLmNvbQ%3D%3D&amp;type=3Dzerocontent=
+&amp;guid=3Ddd305988-36ad-461b-8362-cc082072ccec"><font color=3D"#ffffff" s=
+ize=3D"1">=E1=90=A7</font></div><div class=3D"gmail_extra"><br clear=3D"all=
+"><div><div class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><d=
+iv dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div dir=3D"ltr"=
+><div dir=3D"ltr"><div style=3D"font-size:12.8px"><table width=3D"466" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"font-family:Montserra=
+t,Arial,Helvetica,sans-serif"><tbody></tbody></table><table width=3D"466" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"font-family:Montse=
+rrat,Arial,Helvetica,sans-serif"><tbody><tr><td width=3D"140" style=3D"bord=
+er-right:5px solid rgb(59,89,152)"><img src=3D"http://icg10.com/icglogo.jpg=
+" width=3D"125" height=3D"125" alt=3D""></td><td width=3D"326"><table borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin-left:22px"><tbo=
+dy><tr><td style=3D"font-size:14px;color:rgb(59,89,152);line-height:25px"><=
+b>Warren Ifergane=C2=A0</b><span style=3D"font-size:12px;color:rgb(51,51,51=
+)">Chief Executive Officer</span></td></tr><tr><td style=3D"font-size:11px;=
+color:rgb(153,153,153);line-height:18px">ICG10 Capital, LLC</td></tr><tr><t=
+d style=3D"font-size:11px;color:rgb(153,153,153);line-height:18px">2100 Van=
+ Buren St, #210, Hollywood, FL 33020</td></tr><tr><td style=3D"font-size:11=
+px;color:rgb(153,153,153);line-height:20px;padding-top:3px"><span style=3D"=
+color:rgb(59,89,152)"></span>(954) 798-0726</td></tr><tr><td style=3D"font-=
+size:11px;color:rgb(153,153,153);line-height:18px"><span style=3D"color:rgb=
+(59,89,152)"></span><a href=3D"https://calendly.com/wifergane" style=3D"col=
+or:rgb(153,153,153);text-decoration:none" target=3D"_blank"><b>Schedule A C=
+all</b></a>=C2=A0|=C2=A0<span style=3D"color:rgb(59,89,152)"></span><a href=
+=3D"http://icg10.com/apply.html" style=3D"color:rgb(59,89,152);text-decorat=
+ion:none" target=3D"_blank"><b>APPLY NOW</b></a></td></tr><tr><td valign=3D=
+"bottom" style=3D"padding-top:5px"><a href=3D"https://www.facebook.com/ICG1=
+0Capital/" style=3D"font-family:Montserrat,Arial,Helvetica,sans-serif;font-=
+size:medium" target=3D"_blank"><img src=3D"https://icg10.com/fbicon.png" wi=
+dth=3D"18" height=3D"17" alt=3D"" style=3D"padding-right:5px"></a><span sty=
+le=3D"color:rgb(0,0,0);font-family:Montserrat,Arial,Helvetica,sans-serif;fo=
+nt-size:medium">=C2=A0</span><a href=3D"https://www.linkedin.com/company/ic=
+g10-capital" style=3D"font-family:Montserrat,Arial,Helvetica,sans-serif;fon=
+t-size:medium" target=3D"_blank"><img src=3D"https://icg10.com/liicon.png" =
+width=3D"18" height=3D"17" alt=3D"" style=3D"padding-right:5px"></a><span s=
+tyle=3D"color:rgb(0,0,0);font-family:Montserrat,Arial,Helvetica,sans-serif;=
+font-size:medium">=C2=A0</span><a href=3D"https://plus.google.com/b/1041512=
+85179846905376/104151285179846905376" style=3D"font-family:Montserrat,Arial=
+,Helvetica,sans-serif;font-size:medium" target=3D"_blank"><img src=3D"https=
+://icg10.com/gplusicon.png" width=3D"18" height=3D"17" alt=3D"" style=3D"pa=
+dding-right:5px"></a><span style=3D"color:rgb(0,0,0);font-family:Montserrat=
+,Arial,Helvetica,sans-serif;font-size:medium">=C2=A0</span><a href=3D"https=
+://www.instagram.com/icg10capital/" style=3D"font-family:Montserrat,Arial,H=
+elvetica,sans-serif;font-size:medium" target=3D"_blank"><img src=3D"https:/=
+/icg10.com/instaicon.png" width=3D"18" height=3D"17" alt=3D"" style=3D"padd=
+ing-right:5px"></a><br></td></tr></tbody></table></td></tr></tbody></table>=
+<table width=3D"466" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"font-family:Montserrat,Arial,Helvetica,sans-serif"><tbody></tbody></tab=
+le></div><div style=3D"font-size:12.8px"><br></div><div style=3D"font-size:=
+12.8px"><a href=3D"https://www.amazon.com/No-Nonsense-Guide-Real-Estate-Nec=
+essary/dp/1530289084/ref=3Dsr_1_1?ie=3DUTF8&amp;qid=3D1481327628&amp;sr=3D8=
+-1&amp;keywords=3Dno-nonsense+guide+to+real+estate" style=3D"font-size:11px=
+;color:rgb(153,153,153);text-decoration:none" target=3D"_blank">Author of A=
+mazon Favorite:=C2=A0</a><a href=3D"https://www.amazon.com/No-Nonsense-Guid=
+e-Real-Estate-Necessary/dp/1530289084/ref=3Dsr_1_1?ie=3DUTF8&amp;qid=3D1481=
+327628&amp;sr=3D8-1&amp;keywords=3Dno-nonsense+guide+to+real+estate" style=
+=3D"font-size:11px;color:rgb(153,153,153)" target=3D"_blank">The No-Nonsens=
+e Guide to Real Estate</a><font color=3D"#cccccc" style=3D"font-size:small"=
+><br></font></div><div style=3D"font-size:12.8px"><br></div><div style=3D"f=
+ont-size:12.8px"><font color=3D"#cccccc" style=3D"font-size:small">NOTE: Th=
+e information in this message and any attached files contain information in=
+tended for the exclusive use of the individual or entity to whom it is addr=
+essed and may contain information that is proprietary, privileged, confiden=
+tial and/or exempt from disclosure under applicable law. If the reader of t=
+his message is not the intended recipient, or an employee or agent responsi=
+ble for delivering this message to the intended recipient, you are hereby n=
+otified that any dissemination, distribution or copying of this communicati=
+on is strictly prohibited and subject to legal sanction. If you have receiv=
+ed this communication in error, please notify us immediately by replying to=
+ the message and deleting it from your computer without making any copies.<=
+/font></div><div style=3D"font-size:12.8px"><br></div></div></div></div></d=
+iv></div></div></div></div></div>
+<br><div class=3D"gmail_quote">On Wed, Jul 25, 2018 at 3:34 PM, Sam Tehranc=
+hi <span dir=3D"ltr">&lt;<a href=3D"mailto:sam@c-mtg.com" target=3D"_blank"=
+>sam@c-mtg.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" s=
+tyle=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div=
+ style=3D"word-wrap:break-word;line-break:after-white-space">: ( nothing we=
+ can do to make up for it, the borrower has equipment worth about 500k for =
+concrete crushing.<div><br></div><div>They are looking to get funds to make=
+ repairs to building and begin concrete crushing operation.</div><div><br><=
+/div><div><span class=3D""><div>
+<div dir=3D"auto" style=3D"color:rgb(0,0,0);letter-spacing:normal;text-alig=
+n:start;text-indent:0px;text-transform:none;white-space:normal;word-spacing=
+:0px;text-decoration:none;word-wrap:break-word;line-break:after-white-space=
+"><div dir=3D"auto" style=3D"color:rgb(0,0,0);letter-spacing:normal;text-al=
+ign:start;text-indent:0px;text-transform:none;white-space:normal;word-spaci=
+ng:0px;word-wrap:break-word;line-break:after-white-space">Respectfully, =C2=
+=A0=C2=A0<br><br>=C2=A0<br>Sam Tehranchi<br><br>=C2=A0<br>COO<br>Custom Mor=
+tgage and Realty=C2=A0<br>NMLS CA # 1556995 - BRE CA #=C2=A002018146<br>=C2=
+=A0<br>Direct 310.709.6304 -Efax 866.421.7694=C2=A0<br><br><a href=3D"mailt=
+o:sam@c-mtg.com" target=3D"_blank">sam@c-mtg.com</a>=C2=A0-=C2=A0<a href=3D=
+"http://www.c-mtg.com" target=3D"_blank">www.c-mtg.com</a><br><br><a href=
+=3D"https://www.linkedin.com/company-beta/3477964" target=3D"_blank">Linked=
+In</a>=C2=A0-=C2=A0<a href=3D"https://www.facebook.com/Custom-Mortgage-4098=
+42885783868/" target=3D"_blank">Facebook</a>=C2=A0-=C2=A0<a href=3D"https:/=
+/twitter.com/custommortgage1" target=3D"_blank">twitter</a>=C2=A0<wbr>-=C2=
+=A0<a href=3D"https://www.instagram.com/custommortgageinc/" target=3D"_blan=
+k">Instagram</a><br><br></div></div>
+</div>
+</span><div><div class=3D"h5"><div><br><blockquote type=3D"cite"><div>On Ju=
+l 25, 2018, at 12:32 PM, Warren Ifergane &lt;<a href=3D"mailto:warren@icg10=
+.com" target=3D"_blank">warren@icg10.com</a>&gt; wrote:</div><br class=3D"m=
+_-1103172994412892921Apple-interchange-newline"><div><div dir=3D"ltr">Too r=
+ural</div><div hspace=3D"streak-pt-mark" style=3D"max-height:1px"><img alt=
+=3D"" style=3D"width:0px;max-height:0px;overflow:hidden" src=3D"https://mai=
+lfoogae.appspot.com/t?sender=3Dad2lmZXJnYW5lQGlmZXJnYW5lY29uc3VsdGluZ2dyb3V=
+wLmNvbQ%3D%3D&amp;type=3Dzerocontent&amp;guid=3D08ba66e4-7e0e-4790-894d-3a7=
+891d90df2"><font color=3D"#ffffff" size=3D"1">=E1=90=A7</font></div><div cl=
+ass=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"m_-110317299441289=
+2921gmail_signature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><d=
+iv><div dir=3D"ltr"><div><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"=
+><div style=3D"font-size:12.8px"><table width=3D"466" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" style=3D"font-family:Montserrat,Arial,Helvetica=
+,sans-serif"><tbody></tbody></table><table width=3D"466" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" style=3D"font-family:Montserrat,Arial,Helvet=
+ica,sans-serif"><tbody><tr><td width=3D"140" style=3D"border-right:5px soli=
+d rgb(59,89,152)"><img src=3D"http://icg10.com/icglogo.jpg" width=3D"125" h=
+eight=3D"125" alt=3D""></td><td width=3D"326"><table border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" style=3D"margin-left:22px"><tbody><tr><td style=
+=3D"font-size:14px;color:rgb(59,89,152);line-height:25px"><b>Warren Ifergan=
+e=C2=A0</b><span style=3D"font-size:12px;color:rgb(51,51,51)">Chief Executi=
+ve Officer</span></td></tr><tr><td style=3D"font-size:11px;color:rgb(153,15=
+3,153);line-height:18px">ICG10 Capital, LLC</td></tr><tr><td style=3D"font-=
+size:11px;color:rgb(153,153,153);line-height:18px"><a href=3D"https://maps.=
+google.com/?q=3D2100+Van+Buren+St,+%23210,+Hollywood,+FL+33020&amp;entry=3D=
+gmail&amp;source=3Dg">2100 Van Buren St, #210, Hollywood, FL 33020</a></td>=
+</tr><tr><td style=3D"font-size:11px;color:rgb(153,153,153);line-height:20p=
+x;padding-top:3px"><span style=3D"color:rgb(59,89,152)"></span>(954) 798-07=
+26</td></tr><tr><td style=3D"font-size:11px;color:rgb(153,153,153);line-hei=
+ght:18px"><span style=3D"color:rgb(59,89,152)"></span><a href=3D"https://ca=
+lendly.com/wifergane" style=3D"color:rgb(153,153,153);text-decoration:none"=
+ target=3D"_blank"><b>Schedule A Call</b></a>=C2=A0|=C2=A0<span style=3D"co=
+lor:rgb(59,89,152)"></span><a href=3D"http://icg10.com/apply.html" style=3D=
+"color:rgb(59,89,152);text-decoration:none" target=3D"_blank"><b>APPLY NOW<=
+/b></a></td></tr><tr><td valign=3D"bottom" style=3D"padding-top:5px"><a hre=
+f=3D"https://www.facebook.com/ICG10Capital/" style=3D"font-family:Montserra=
+t,Arial,Helvetica,sans-serif;font-size:12px" target=3D"_blank"><img src=3D"=
+https://icg10.com/fbicon.png" width=3D"18" height=3D"17" alt=3D"" style=3D"=
+padding-right:5px"></a><span style=3D"font-family:Montserrat,Arial,Helvetic=
+a,sans-serif;font-size:12px">=C2=A0</span><a href=3D"https://www.linkedin.c=
+om/company/icg10-capital" style=3D"font-family:Montserrat,Arial,Helvetica,s=
+ans-serif;font-size:12px" target=3D"_blank"><img src=3D"https://icg10.com/l=
+iicon.png" width=3D"18" height=3D"17" alt=3D"" style=3D"padding-right:5px">=
+</a><span style=3D"font-family:Montserrat,Arial,Helvetica,sans-serif;font-s=
+ize:12px">=C2=A0</span><a href=3D"https://plus.google.com/b/104151285179846=
+905376/104151285179846905376" style=3D"font-family:Montserrat,Arial,Helveti=
+ca,sans-serif;font-size:12px" target=3D"_blank"><img src=3D"https://icg10.c=
+om/gplusicon.png" width=3D"18" height=3D"17" alt=3D"" style=3D"padding-righ=
+t:5px"></a><span style=3D"font-family:Montserrat,Arial,Helvetica,sans-serif=
+;font-size:12px">=C2=A0</span><a href=3D"https://www.instagram.com/icg10cap=
+ital/" style=3D"font-family:Montserrat,Arial,Helvetica,sans-serif;font-size=
+:12px" target=3D"_blank"><img src=3D"https://icg10.com/instaicon.png" width=
+=3D"18" height=3D"17" alt=3D"" style=3D"padding-right:5px"></a><br></td></t=
+r></tbody></table></td></tr></tbody></table><table width=3D"466" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" style=3D"font-family:Montserrat,Aria=
+l,Helvetica,sans-serif"><tbody></tbody></table></div><div style=3D"font-siz=
+e:12.8px"><br></div><div style=3D"font-size:12.8px"><a href=3D"https://www.=
+amazon.com/No-Nonsense-Guide-Real-Estate-Necessary/dp/1530289084/ref=3Dsr_1=
+_1?ie=3DUTF8&amp;qid=3D1481327628&amp;sr=3D8-1&amp;keywords=3Dno-nonsense+g=
+uide+to+real+estate" style=3D"font-size:11px;color:rgb(153,153,153);text-de=
+coration:none" target=3D"_blank">Author of Amazon Favorite:=C2=A0</a><a hre=
+f=3D"https://www.amazon.com/No-Nonsense-Guide-Real-Estate-Necessary/dp/1530=
+289084/ref=3Dsr_1_1?ie=3DUTF8&amp;qid=3D1481327628&amp;sr=3D8-1&amp;keyword=
+s=3Dno-nonsense+guide+to+real+estate" style=3D"font-size:11px;color:rgb(153=
+,153,153)" target=3D"_blank">The No-Nonsense Guide to Real Estate</a><font =
+color=3D"#cccccc" style=3D"font-size:small"><br></font></div><div style=3D"=
+font-size:12.8px"><br></div><div style=3D"font-size:12.8px"><font color=3D"=
+#cccccc" style=3D"font-size:small">NOTE: The information in this message an=
+d any attached files contain information intended for the exclusive use of =
+the individual or entity to whom it is addressed and may contain informatio=
+n that is proprietary, privileged, confidential and/or exempt from disclosu=
+re under applicable law. If the reader of this message is not the intended =
+recipient, or an employee or agent responsible for delivering this message =
+to the intended recipient, you are hereby notified that any dissemination, =
+distribution or copying of this communication is strictly prohibited and su=
+bject to legal sanction. If you have received this communication in error, =
+please notify us immediately by replying to the message and deleting it fro=
+m your computer without making any copies.</font></div><div style=3D"font-s=
+ize:12.8px"><br></div></div></div></div></div></div></div></div></div></div=
+>
+<br><div class=3D"gmail_quote">On Wed, Jul 25, 2018 at 2:10 PM, Sam Tehranc=
+hi <span dir=3D"ltr">&lt;<a href=3D"mailto:sam@c-mtg.com" target=3D"_blank"=
+>sam@c-mtg.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" s=
+tyle=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><u><=
+/u><div><div style=3D"font-size:10pt;font-family:Verdana,Arial,Helvetica,sa=
+ns-serif"><div>=C2=A0Hi Warren</div><div class=3D"m_-1103172994412892921m_4=
+489663068017956586zmail_extra"><blockquote style=3D"border-left:1px solid #=
+cccccc;padding-left:6px;margin:0 0 0 5px"><div><div style=3D"font-size:10pt=
+;font-family:Verdana,Arial,Helvetica,sans-serif"><div class=3D"m_-110317299=
+4412892921m_4489663068017956586x_-1621476212zmail_extra"><blockquote style=
+=3D"border-left:1px solid rgb(204,204,204);padding-left:6px;margin:0 0 0 5p=
+x"><div><div><blockquote><div><div><div style=3D"font-size:10pt;font-family=
+:Verdana,Arial,Helvetica,sans-serif;color:Default"><div><br></div><div>We h=
+ave the following transaction that needs to get funded asap.=C2=A0 Can you =
+please advise if this is something you can fund.<br></div><div><br></div><d=
+iv class=3D"m_-1103172994412892921m_4489663068017956586x_-1621476212x_-1825=
+94455zmail_extra"><blockquote style=3D"border-left:1px solid rgb(204,204,20=
+4);padding-left:6px;margin:0 0 0 5px"><div><div>Property address:=C2=A0<br>=
+</div><div>16906 Highway 5 North=C2=A0<br></div><div>Logansport, LA 71049=
+=C2=A0<br></div><div><br></div><div>Estimated Value: 3-5 million<br></div><=
+div><br></div><div>Requested Loan Amount: 350,000.00<br></div><div><br></di=
+v><div>Use of Funds: Business purpose<br></div><div><br></div><div>Exit str=
+ategy: Refinance into conventional loan<br></div><div><br></div><div>Please=
+ see executive summary for additional details.<br></div><div><br></div><div=
+>Please give me a call when you have a moment.<br></div><div><br></div><div=
+><div style=3D"margin:0px;font-stretch:normal;font-size:11.5px;line-height:=
+normal;font-family:&quot;Times New Roman&quot;"><b>Cost to replace=C2=A0</b=
+><br></div><div style=3D"margin:0px;font-stretch:normal;font-size:11px;line=
+-height:normal;font-family:&quot;Times New Roman&quot;">In order to build a=
+ facility like this would entail these major costs.=C2=A0<br></div><p style=
+=3D"margin:0px 0px 1.1px;font-stretch:normal;line-height:normal"><span clas=
+s=3D"m_-1103172994412892921m_4489663068017956586font" style=3D"font-family:=
+&quot;Times New Roman&quot;"><span class=3D"m_-1103172994412892921m_4489663=
+068017956586size" style=3D"font-size:11px">1.Land value $1,000,000</span></=
+span><br></p><p style=3D"margin:0px 0px 1.1px;font-stretch:normal;line-heig=
+ht:normal"><span class=3D"m_-1103172994412892921m_4489663068017956586font" =
+style=3D"font-family:&quot;Times New Roman&quot;"><span class=3D"m_-1103172=
+994412892921m_4489663068017956586size" style=3D"font-size:11px">2.Concrete =
+slab (concrete cost only) - $12,000,000 (100,000 yds @ $127/yard delivered.=
+)</span></span><br></p><p style=3D"margin:0px 0px 1.1px;font-stretch:normal=
+;line-height:normal"><span class=3D"m_-1103172994412892921m_448966306801795=
+6586font" style=3D"font-family:&quot;Times New Roman&quot;"><span class=3D"=
+m_-1103172994412892921m_4489663068017956586size" style=3D"font-size:11px">3=
+.Highway turn lane - $500,000</span></span><br></p><p style=3D"margin:0px 0=
+px 1.1px;font-stretch:normal;line-height:normal"><span class=3D"m_-11031729=
+94412892921m_4489663068017956586font" style=3D"font-family:&quot;Times New =
+Roman&quot;"><span class=3D"m_-1103172994412892921m_4489663068017956586size=
+" style=3D"font-size:11px">4.Clear span trusses (120=E2=80=99) =E2=80=93 37=
+ trusses at $45,000 ea =3D $1,665,000</span></span><br></p><p style=3D"marg=
+in:0px 0px 1.1px;font-stretch:normal;line-height:normal"><span class=3D"m_-=
+1103172994412892921m_4489663068017956586font" style=3D"font-family:&quot;Ti=
+mes New Roman&quot;"><span class=3D"m_-1103172994412892921m_448966306801795=
+6586size" style=3D"font-size:11px">5.Scales $200,000</span></span><br></p><=
+div style=3D"margin:0px;font-stretch:normal;font-size:11px;line-height:norm=
+al;font-family:&quot;Times New Roman&quot;">6.Rail access -?<br></div><div =
+style=3D"margin:0px;font-stretch:normal;font-size:11px;line-height:normal;f=
+ont-family:&quot;Times New Roman&quot;;min-height:12px"><br></div><div styl=
+e=3D"margin:0px;font-stretch:normal;font-size:11px;line-height:normal;font-=
+family:&quot;Times New Roman&quot;">Total (not including engineering, archi=
+tectural, labor, other material) - $14,865,000=C2=A0<br></div><div style=3D=
+"margin:0px;font-stretch:normal;font-size:11px;line-height:normal;font-fami=
+ly:&quot;Times New Roman&quot;">Estimated total cost - $25,000,000=C2=A0<br=
+></div><div style=3D"margin:0px;font-stretch:normal;font-size:11px;line-hei=
+ght:normal;font-family:&quot;Times New Roman&quot;"><b></b><br></div><div s=
+tyle=3D"margin:0px;font-stretch:normal;font-size:11px;line-height:normal;fo=
+nt-family:&quot;Times New Roman&quot;"><b>The existing property includes=C2=
+=A0</b><br></div><div style=3D"margin:0px;font-stretch:normal;font-size:11p=
+x;line-height:normal;font-family:&quot;Times New Roman&quot;">1.Employee Pa=
+rking =E2=80=93 approximately 150 spaces.<br></div><div style=3D"margin:0px=
+;font-stretch:normal;font-size:11px;line-height:normal;font-family:&quot;Ti=
+mes New Roman&quot;;min-height:12px">2.Office =E2=80=93 approximately 3,600=
+ SF.<br></div><div style=3D"margin:0px;font-stretch:normal;font-size:11px;l=
+ine-height:normal;font-family:&quot;Times New Roman&quot;;min-height:12px">=
+3.Scale house attached to office.<br></div><div style=3D"margin:0px;font-st=
+retch:normal;font-size:11px;line-height:normal;font-family:&quot;Times New =
+Roman&quot;;min-height:12px">4.Two scales =E2=80=93 1 outgoing and 1 incomi=
+ng.<br></div><div style=3D"margin:0px;font-stretch:normal;font-size:11px;li=
+ne-height:normal;font-family:&quot;Times New Roman&quot;;min-height:12px">5=
+.Turning lane into facility from highway. To build this lane currently woul=
+d cost $500,000.<br></div><div style=3D"margin:0px;font-stretch:normal;font=
+-size:11px;line-height:normal;font-family:&quot;Times New Roman&quot;;min-h=
+eight:12px">6. Approximately 15 acres of concrete pad designed for heavy tr=
+affic.=C2=A0<br></div><div style=3D"margin:0px;font-stretch:normal;font-siz=
+e:11px;line-height:normal;font-family:&quot;Times New Roman&quot;;min-heigh=
+t:12px">7. Guardhouse.=C2=A0<br></div><div style=3D"margin:0px;font-stretch=
+:normal;font-size:11px;line-height:normal;font-family:&quot;Times New Roman=
+&quot;;min-height:12px">8. Electronic gates=C2=A0<br></div><div style=3D"ma=
+rgin:0px;font-stretch:normal;font-size:11px;line-height:normal;font-family:=
+&quot;Times New Roman&quot;;min-height:12px">9. Existing useable structure =
+=E2=80=93 approximately 108,000 SF. This was where the manufacturing facili=
+ty was housed and is 75% intact.=C2=A0<br></div><div style=3D"margin:0px;fo=
+nt-stretch:normal;font-size:11px;line-height:normal;font-family:&quot;Times=
+ New Roman&quot;">10. Above structure consists of 3 bays 120=E2=80=99 wide =
+(clear span) by 300=E2=80=99 long by 21=E2=80=99 clearance.=C2=A0<br></div>=
+<div style=3D"margin:0px;font-stretch:normal;font-size:11px;line-height:nor=
+mal;font-family:&quot;Times New Roman&quot;;min-height:12px">11. Concrete r=
+oads throughout the facility.=C2=A0<br></div><div style=3D"margin:0px;font-=
+stretch:normal;font-size:11px;line-height:normal;font-family:&quot;Times Ne=
+w Roman&quot;;min-height:12px">12. Fire suppression throughout with existin=
+g water storage tank.=C2=A0<br></div><div style=3D"margin:0px;font-stretch:=
+normal;font-size:11px;line-height:normal;font-family:&quot;Times New Roman&=
+quot;;min-height:12px">13. Existing close access to rail. Old spur has been=
+ removed but can be replaced.=C2=A0<br></div><div style=3D"margin:0px;font-=
+stretch:normal;font-size:11px;line-height:normal;font-family:&quot;Times Ne=
+w Roman&quot;;min-height:12px">14. The facility occupies 40 acres of a 163 =
+acre track. The total track or a portion of it is available.=C2=A0<br></div=
+></div><div><br></div><div><br></div><div><div style=3D"letter-spacing:norm=
+al;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;=
+text-decoration:none" dir=3D"auto"><div style=3D"letter-spacing:normal;text=
+-indent:0px;text-transform:none;white-space:normal;word-spacing:0px" dir=3D=
+"auto"><div>Respectfully, =C2=A0=C2=A0<br></div><div><br></div><div>=C2=A0<=
+br></div><div>Sam Tehranchi<br></div><div><br></div><div>=C2=A0<br></div><d=
+iv>COO<br></div><div>Custom Mortgage and Realty=C2=A0<br></div><div>NMLS CA=
+ # 1556995 - BRE CA #=C2=A002018146<br></div><div>=C2=A0<br></div><div>Dire=
+ct 310.709.6304 -Efax 866.421.7694=C2=A0<br></div><div><br></div><div><a hr=
+ef=3D"mailto:sam@c-mtg.com" target=3D"_blank">sam@c-mtg.com</a>=C2=A0-=C2=
+=A0<a href=3D"http://www.c-mtg.com/" target=3D"_blank">www.c-mtg.com</a><br=
+></div><div><br></div><div><a href=3D"https://www.linkedin.com/company-beta=
+/3477964" target=3D"_blank">LinkedIn</a>=C2=A0-=C2=A0<a href=3D"https://www=
+.facebook.com/Custom-Mortgage-409842885783868/" target=3D"_blank">Facebook<=
+/a>=C2=A0-=C2=A0<a href=3D"https://twitter.com/custommortgage1" target=3D"_=
+blank">twitter</a>=C2=A0<wbr>-=C2=A0<a href=3D"https://www.instagram.com/cu=
+stommortgageinc/" target=3D"_blank">Instagram</a><br></div></div></div></di=
+v></div><div><br></div></blockquote></div><div><br></div></div></div></div>=
+</blockquote></div></div><div><div><blockquote><div><br></div></blockquote>=
+</div></div></blockquote></div><div><br></div></div></div></blockquote></di=
+v></div><br></div></blockquote></div><br></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+
+--000000000000751dd80571d80bf7--

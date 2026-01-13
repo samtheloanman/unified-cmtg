@@ -9,6 +9,7 @@
 
 | Track | Phase | Week | Status | Description |
 |-------|-------|------|--------|-------------|
+| [Port Legacy Pricing Engine & Implement Rate Sheet Ingestion MVP](./tracks/port_pricing_ratesheet_20260112/) | 1 | 1 | 🟡 In Progress | Core pricing logic & AI agent MVP |
 | [Foundation](./tracks/phase1_foundation/) | 1 | 1 | 🟡 In Progress | Docker + Django + Wagtail |
 | [Pricing Engine](./tracks/phase2_pricing/) | 2 | 2 | ⏳ Pending | Port cmtgdirect logic |
 | [Content Migration](./tracks/phase3_content/) | 3 | 3 | ⏳ Pending | WordPress → Wagtail |
@@ -24,8 +25,8 @@
 
 ## 🔴 Current Priority
 
-**Active Track**: Phase 1 - Foundation  
-**Next Task**: Verify frontend connectivity test
+**Active Track**: Port Legacy Pricing Engine & Implement Rate Sheet Ingestion MVP  
+**Next Task**: Jules - Set up core Django/Wagtail backend project in `unified-platform/backend/`
 
 ---
 
@@ -69,14 +70,15 @@ flowchart TD
 
 ### Start a Track
 ```bash
-/conductor start phase1_foundation
+/conductor start port_pricing_ratesheet_20260112
 ```
 
 ### Track Structure
 ```
-tracks/phase1_foundation/
+tracks/port_pricing_ratesheet_20260112/
 ├── plan.md          # Task breakdown + tests
-├── context.md       # Background for agents
+├── spec.md          # Track specification
+├── metadata.json    # Track metadata
 └── checklist.md     # Progress tracking
 ```
 
@@ -93,4 +95,5 @@ tracks/phase1_foundation/
 
 ---
 
-**Last Updated**: 2026-01-12 01:14 PST
+**Last Updated**: 2026-01-12 12:00 PST
+

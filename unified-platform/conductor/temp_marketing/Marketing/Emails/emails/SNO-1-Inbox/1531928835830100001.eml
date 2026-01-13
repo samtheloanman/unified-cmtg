@@ -1,0 +1,295 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of bounce.altramortgage-email.com designates 13.111.60.224 as permitted sender) client-ip=13.111.60.224; envelope-from=bounce-91_HTML-16344455-36022-100001819-86@bounce.altramortgage-email.com; helo=mta.altramortgage-email.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=rates@altloan-email.com;
+	spf=pass (zoho.com: domain of bounce.altramortgage-email.com designates 13.111.60.224 as permitted sender)  smtp.mailfrom=bounce-91_HTML-16344455-36022-100001819-86@bounce.altramortgage-email.com;
+	dmarc=pass(p=reject dis=none)  header.from=altloan-email.com
+Return-Path: <bounce-91_HTML-16344455-36022-100001819-86@bounce.altramortgage-email.com>
+Received: from mta.altramortgage-email.com (mta.altramortgage-email.com [13.111.60.224]) by mx.zohomail.com
+	with SMTPS id 1531928835259917.9317145783735; Wed, 18 Jul 2018 08:47:15 -0700 (PDT)
+Received: by mta.altramortgage-email.com id h9tghi163hsv for <sam@c-mtg.com>; Wed, 18 Jul 2018 15:47:21 +0000 (envelope-from <bounce-91_HTML-16344455-36022-100001819-86@bounce.altramortgage-email.com>)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=10dkim1; d=altloan-email.com;
+ h=From:To:Subject:Date:List-Unsubscribe:MIME-Version:List-ID:Message-ID:Content-Type:Content-Transfer-Encoding; i=rates@altloan-email.com;
+ bh=2Sx2hqN//eWNojZd0TMCPqDIqI8=;
+ b=MDcOfjbaRG44SHt3CGCXBLDZVIfh8lW1qydiTRavkO1y+B8mZvBupd7FngRVyBCgGlwRqLQd1TK2
+   5QLduuboj/NNEikuJarBC4utGXs0NBP5gZ/StlPWZrYlW/XniKqEyTJr1OJy+xWBzsPKrfHhnk0l
+   Z4uy3x7Er5fG0Eb1JxMowoS2l4F0Q520DBDbDu8d88+TRNvMZ5YY27KBV93aTney8sahvIJNVyh5
+   sUVv06d86406pyXbUZdLRONcNRHn0CfgXewgCNvlCyfPThXu4CKatS5U8fQaGy6DsOl9gJRIGKbL
+   4S3UCZPTVD//g2uvclSTXuiXDnRcW3HU07pirg==
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=10dkim1; d=altloan-email.com;
+ b=SzCyK6Vb1aThTAWBNXGwx8BST5MPUObZ5aagk009J4xoTwcoZQFZx66Cmp05BcRH0J4ojy0TTOAD
+   ZYhsY/SSgQmueHTroRMVgv14RQfDg4SBS7+ovdB+nUZYS+xJGaJp8+QOdNuLZ5R2ZojV41lSiFv6
+   wLQToDFsw+aDMbx+o7IzaCAC4LgOylvNqwrerQbZxKfvZyUzyHMfwNOrNbABxyKy6plCTFzocoH0
+   zcTwhXOxMDiOjBP3gp9hP8p8Sa6TPcysPey+pyGskSZhdKYSJ468r8YaMHRzEN0ZO7jBifTuV6c5
+   v4dJg0kDnsZgl4ExurPmGkXAvO/OG2Fv7i2Dxw==;
+From: "ALTLOAN (833.258.5626)" <rates@altloan-email.com>
+To: <sam@c-mtg.com>
+Subject: Sam, Investor No Doc - Up To <3.000> Rebate - 75% LTV - Individual(s) or Entity
+Date: Wed, 18 Jul 2018 09:46:58 -0600
+List-Unsubscribe: <mailto:leave-fd811d711a3c402029-fe5f1576766000797011-ff021776756606-fe3b15707564047c7d1579-ff911c76@leave.altramortgage-email.com>
+MIME-Version: 1.0
+List-ID: <100001819.xt.local>
+X-CSA-Complaints: whitelistcomplaints@eco.de
+x-job: 100001819_36022
+Message-ID:<4b9b99f5-ec4f-4a2c-847f-347a606593fa@dfw1s10mta107.xt.local>
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+X-ZohoMail-DKIM: pass (identity rates@altloan-email.com)
+X-ZohoMail-Owner: <4b9b99f5-ec4f-4a2c-847f-347a606593fa@dfw1s10mta107.xt.local>+zmo_0_bounce-91_HTML-16344455-36022-100001819-86@bounce.altramortgage-email.com
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_1 IS_0 ZMKF_NWSLTR EML_0 DMN_0 EDR_100 SIP_KGR,RPD_KGR COSF LNKP CV_710BCNIM UMS_WB UNK_U_0 UNK_O_0 CHF_NWSUSR_0 ZMHF_S524_2 SIP_KGR_0 RPD_KGR_0 SDFE_NA_MXPR_0 HCOM_NSC_-3 ZMHF_701_2 CV_HID_0  SC_4 SGR3_1_2_0_167_374
+X-ZM-MESSAGEID: 1531928835830100001
+X-ZohoMail-Status: 1
+
+
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+      ReadMsgBody{ width: 100%;} 
+      .ExternalClass {width: 100%;} 
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+      body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important;}
+      p { margin: 1em 0;} 
+      table td { border-collapse: collapse;} 
+      img {outline:0;}
+      a img {border:none;}
+      p {margin: 1em 0;} 
+      @-ms-viewport{ width: device-width;}
+    </style>
+    <style type="text/css">
+      @media only screen and (max-width: 480px) {
+        .container {width: 100% !important;}
+        .footer { width:auto !important; margin-left:0; }
+        .content-padding{ padding:4px !important; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        img { max-width:100% !important; height:auto !important; max-height:auto !important;}
+        .header img{max-width:100% !important;height:auto !important; max-height:auto !important;}
+        .photo img { width:100% !important; max-width:100% !important; height:auto !important;}
+        .drop { display:block !important; width: 100% !important; float:left; clear:both;}
+        .footerlogo { display:block !important; width: 100% !important; padding-top:15px; float:left; clear:both;}
+        .nav4, .nav5, .nav6 { display: none !important; }
+        .tableBlock {width:100% !important;}
+        .responsive-td {width:100% !important; display:block !important; padding:0 !important; }
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        body { padding: 0px !important; font-size: 16px !important; line-height: 150% !important;}
+        h1 { font-size: 22px !important; line-height: normal !important;}
+        h2 { font-size: 20px !important; line-height: normal !important;}
+        h3 { font-size: 18px !important; line-height: normal !important;}
+        .buttonstyles {
+          font-family:arial,helvetica,sans-serif !important; 
+          font-size: 16px !important; 
+          color: #FFFFFF !important; 
+          padding: 10px !important;
+        }
+        /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+      }
+      @media only screen and (max-width: 640px) {
+        .container { width:100% !important; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        .photo img { width:100% !important; height:auto !important;}
+        .nav5, .nav6 { display: none !important;}
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+      }
+    </style>
+    <!--[if mso]>       <style type="text/css">           /* Begin Outlook Font Fix */           body, table, td {               font-family: Arial, Helvetica, sans-serif ;               font-size:16px;               color:#808080;               line-height:1;           }           /* End Outlook Font Fix */       </style>     <![endif]-->
+  </head>
+  <body bgcolor="#efefef" text="#808080" style="background-color: #efefef; color: #808080; margin: 0px; padding: 20px; -webkit-text-size-adjust:none; line-height: normal; font-size: 16px; font-family:arial,helvetica,sans-serif;"><style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;">Investor No Doc 75% LTV - Individual(s) or Entity</div>    
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td align="center" valign="top">
+          <div style="margin:18px 0;"><!--   To view this email as a web page, click on the link below,  or copy and paste it into your browser's address window.  http://view.altramortgage-email.com/?qs=38a4bfbc48d6cbb00f3ae7da99da628247524ff85d880a1d07e68d16aa9888ab50f250b678ac8e4a1878ea73828d377a16f79bf79660f1f2  .//-->
+<font face="verdana" size="1" color="#444444">To view this email as a web page, go <a href="http://view.altramortgage-email.com/?qs=38a4bfbc48d6cbb00f3ae7da99da628247524ff85d880a1d07e68d16aa9888ab50f250b678ac8e4a1878ea73828d377a36ae42b54eb932046134e559671cbeae1305252727049237" >here.</a></font></div>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <table cellspacing="0" cellpadding="0" border="0" width="600" class="container" align="center">
+            <tr>
+              <td>
+                <!-- added the border style here -->
+                <table class="tb_properties border_style" cellspacing="0" cellpadding="0" bgcolor="#ffffff" width="100%">
+                  <!-- end of comment -->
+                  <tr>
+                    <td align="center" valign="top">
+                      <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <!-- added padding here -->
+                          <td class="content_padding" style="padding:10px;border:0px;">
+                            <!-- end of comment -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td align="left" class="header" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" class="slot-styling" style="border-bottom: 1px solid #AEAEAE; min-width: 100%;"><tr><td class="slot-styling camarker-inner" width="100%" style="padding-bottom: 20px;"><!----><table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;" class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><img data-assetid="363" height="87" src="http://image.S10.exacttarget.com/lib/fe3b15707564047c7d1579/m/1/27a0328b-d596-4cc8-8648-ed5ad8e1b34d.png" style="height: 87px; width: 313px;" width="313"></td></tr></table><!----></td></tr></table>
+                                  
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" class="slot-styling" style="border-bottom: 1px solid #AEAEAE; min-width: 100%;"><tr><td class="slot-styling camarker-inner" width="100%" style="padding-top: 10px; padding-bottom: 10px;"><!----><table cellpadding="0" cellspacing="0" width="100%" style="width: 100%; min-width: 100%;" class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px;" class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td class="responsive-td" valign="top" style="width: 100%;"><!----><table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;" class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0"><tr>
+<td align="center"><img data-assetid="6672" src="http://image.altramortgage-email.com/lib/fe3b15707564047c7d1579/m/1/1bd93784-2605-49f3-8898-6bed290889eb.jpg" height="565" width="849" style="display: block; height: auto; width: 100%; padding: 0px; text-align: center;"></td></tr></table></td></tr></table><!----><!----><table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;" class="stylingblock-content-wrapper"><tr><td style="padding-top: 15px;" class="stylingblock-content-wrapper camarker-inner"><h1 style="text-align: center; font-family: arial, helvetica, sans-serif; font-size: 28px; line-height: 1; font-weight: bold; font-style: normal;">
+	<span style="font-size:20px;"><span style="color:#FF0000;">&nbsp;</span><span style="color:#000000;">INVESTOR NO DOC</span><span style="color:#FF0000;"> UP TO &lt;3.000&gt;&nbsp;REBATE</span></span></h1><div style="text-align: center;">
+	<table align="center" border="2" cellpadding="1" cellspacing="1" dir="ltr" style="background-color:rgb(255, 255, 255);color:rgb(128, 128, 128);font-family:arial,helvetica,sans-serif;font-size:16px;text-align:center;width:0px;" xmlns="http://www.w3.org/1999/xhtml">
+		<colgroup>
+			<col>
+			<col>
+			<col>
+			<col>
+		</colgroup><thead>
+			<tr>
+				<th data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Loan Amount&quot;}" scope="col" style="vertical-align: middle; background-color: rgb(187, 187, 187);">
+					<b><span style="color: rgb(0, 0, 0);">Loan Amount</span></b></th><th data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Purchase LTV&quot;}" scope="col" style="vertical-align: middle; background-color: rgb(187, 187, 187);">
+					<b><span style="color: rgb(0, 0, 0);">Purchase LTV</span></b></th><th data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;R&amp;T LTV&quot;}" scope="col" style="vertical-align: middle; background-color: rgb(187, 187, 187);">
+					<b><span style="color: rgb(0, 0, 0);">R&amp;T LTV</span></b></th><th data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Cash Out LTV&quot;}" scope="col" style="vertical-align: middle; background-color: rgb(187, 187, 187);">
+					<b><span style="color: rgb(0, 0, 0);">Cash Out LTV</span></b></th></tr></thead>
+			<tr>
+				<td data-sheets-numberformat="[null,4,&quot;\&quot;$\&quot;#,##0&quot;,1]" data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1000000}">
+					<span style="color: rgb(0, 0, 0);">$1,000,000</span></td><td data-sheets-numberformat="[null,3,&quot;0%&quot;,1]" data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0.75}">
+					<span style="color: rgb(0, 0, 0);">75%</span></td><td data-sheets-numberformat="[null,3,&quot;0%&quot;,1]" data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0.75}">
+					<span style="color: rgb(0, 0, 0);">75%</span></td><td data-sheets-numberformat="[null,3,&quot;0%&quot;,1]" data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0.7}">
+					<span style="color: rgb(0, 0, 0);">70%</span></td></tr><tr>
+				<td data-sheets-numberformat="[null,4,&quot;\&quot;$\&quot;#,##0&quot;,1]" data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:2000000}">
+					<span style="color: rgb(0, 0, 0);">$2,000,000</span></td><td data-sheets-numberformat="[null,3,&quot;0%&quot;,1]" data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0.7}">
+					<span style="color: rgb(0, 0, 0);">70%</span></td><td data-sheets-numberformat="[null,3,&quot;0%&quot;,1]" data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0.7}">
+					<span style="color: rgb(0, 0, 0);">70%</span></td><td data-sheets-numberformat="[null,3,&quot;0%&quot;,1]" data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0.65}">
+					<span style="color: rgb(0, 0, 0);">65%</span></td></tr><tr>
+				<td data-sheets-numberformat="[null,4,&quot;\&quot;$\&quot;#,##0&quot;,1]" data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:3000000}">
+					<span style="color: rgb(0, 0, 0);">$3,000,000</span></td><td data-sheets-numberformat="[null,3,&quot;0%&quot;,1]" data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0.65}">
+					<span style="color: rgb(0, 0, 0);">65%</span></td><td colspan="1" data-sheets-numberformat="[null,3,&quot;0%&quot;,1]" data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0.6}" rowspan="2">
+					<span style="color: rgb(0, 0, 0);">60%</span></td><td data-sheets-numberformat="[null,3,&quot;0%&quot;,1]" data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0.55}">
+					<span style="color: rgb(0, 0, 0);">55%</span></td></tr><tr>
+				<td data-sheets-numberformat="[null,4,&quot;\&quot;$\&quot;#,##0&quot;,1]" data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:4000000}">
+					<span style="color: rgb(0, 0, 0);">$4,000,000</span></td><td data-sheets-numberformat="[null,3,&quot;0%&quot;,1]" data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0.6}">
+					<span style="color: rgb(0, 0, 0);">60%</span></td><td colspan="1" data-sheets-numberformat="[null,3,&quot;0%&quot;,1]" data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0.5}" rowspan="2">
+					<span style="color: rgb(0, 0, 0);">50%</span></td></tr><tr>
+				<td data-sheets-numberformat="[null,4,&quot;\&quot;$\&quot;#,##0&quot;,1]" data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:5000000}">
+					<span style="color: rgb(0, 0, 0);">$5,000,000</span></td><td data-sheets-numberformat="[null,3,&quot;0%&quot;,1]" data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0.55}">
+					<span style="color: rgb(0, 0, 0);">55%</span></td><td data-sheets-numberformat="[null,3,&quot;0%&quot;,1]" data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0.55}">
+					<span style="color: rgb(0, 0, 0);">55%</span></td></tr></table>&nbsp;<div style="line-height: 1.38; margin-top: 0pt; margin-bottom: 10pt;">
+		<span style="font-size:20px;"><b><span style="color:#000000;">Program Highlights</span></b></span></div><div style="line-height: 1.38; margin-top: 0pt; margin-bottom: 10pt; text-align: left;">
+		<ul style="list-style-type: square;">
+			<li>
+				<span style="color:#000000;">No Lease Required if Purchase</span></li><li>
+				<span style="color:#000000;">No Lease Required if Refi Loan Amount <u>&lt;</u> $1.0M and LTV <u>&lt;</u> 65%</span></li><li>
+				<span style="color:#000000;">No Lease Required if Refi Loan Amount &gt; $1.0M and LTV <u>&lt;</u> 60%</span></li><li>
+				<span style="color:#000000;">If Lease, no DSCR Calculation Requirements</span></li><li>
+				<span style="color:#000000;">Credit Score As-Low-As 640</span></li><li>
+				<span style="color:#000000;">0 - 6&nbsp;Months Reserves</span></li></ul><div style="text-align: center;">
+			<span style="font-size:20px;"><span style="color:#FF0000;"><span style="font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><b>Want Higher Leverage<span style="font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><b> </b></span></b></span></span><span style="color:#000000;"><span style="font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><b>&amp; Lower Pricing?</b></span></span><span style="color:#FF0000;"><b style="text-align: center;"><span style="font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span></b></span>
+<span style="font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span></span></div></div></div></td></tr></table><!----></td></tr></table></td></tr></table></td></tr></table><!----><!----><table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;" class="stylingblock-content-wrapper"><tr><td style="padding: 10px;" class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td valign="top" class="responsive-td" style="width: 50%; padding-right: 3px;"><!----><table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td align="center">
+<table border="0" cellspacing="0" cellpadding="0"><tr><td class="innertd buttonblock" bgcolor="#FFFFFF" style=" border-radius: 72px; -moz-border-radius: 72px; -webkit-border-radius: 72px; background-color: #FFFFFF;">
+<a target="_blank" class="buttonstyles" style=" min-width: 200px; display: block; margin-right: 20px; text-align: center; text-transform: uppercase; font-size: 1em; font-weight: 500; color: #C1282D !important; text-decoration: none; font-family: Arial, Helvetica, sans-serif; padding-top: 10px; padding-right: 1px; padding-bottom: 10px; padding-left: 1px; margin-bottom: 7px; background-color: #FFFFFF; border-color: #C1282D; border-style: solid; border-width: 2px; padding: 10px 1px; border-radius: 72px; -moz-border-radius: 72px; -webkit-border-radius: 72px;" href="http://click.altramortgage-email.com/?qs=4f34a15c740dd6228f84cc0b2f1022a7921096313522c19a328f275b0756446ea10f9a90504fe99def4e0ad20afefaef32949c6b836c18713de232a8e076f9bf" title="Get Pricing at ALTLOAN.com"   data-linkto="https://">PRICING ENGINE</a></td></tr></table></td></tr></table></td></tr></table><!----></td><td valign="top" class="responsive-td" style="width: 50%; padding-left: 3px;"><!---->
+<table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td align="center"><table border="0" cellspacing="0" cellpadding="0"><tr><td class="innertd buttonblock" bgcolor="#FFFFFF" style=" border-radius: 72px; -moz-border-radius: 72px; -webkit-border-radius: 72px; background-color: #FFFFFF;">
+<a target="_blank" class="buttonstyles" style=" min-width: 200px; display: block; margin-right: 20px; text-align: center; text-transform: uppercase; font-size: 1em; font-weight: 500; color: #C1282D !important; text-decoration: none; font-family: Arial, Helvetica, sans-serif; padding-top: 10px; padding-right: 1px; padding-bottom: 10px; padding-left: 1px; margin-bottom: 7px; background-color: #FFFFFF; border-color: #C1282D; border-style: solid; border-width: 2px; padding: 10px 1px; border-radius: 72px; -moz-border-radius: 72px; -webkit-border-radius: 72px;" href="http://click.altramortgage-email.com/?qs=4f34a15c740dd622081993d7a113bdbaf43b841e058fe6d3741d7f8c9e1504d86c6e7ae64ef5a91d251a313081aafd249c9eb146b7bb96b1a3514eda71d7ac28" title="Get Rate Sheets at ALTLOAN.com"   data-linkto="https://">RATE SHEETS</a></td></tr></table></td></tr></table></td></tr></table><!----></td></tr></table></td></tr></table></td></tr></table><!----></td></tr></table>
+                                  
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" class="slot-styling" style="border-bottom: 1px solid #AEAEAE; min-width: 100%;"><tr><td class="slot-styling camarker-inner" width="100%" style="padding-top: 10px; padding-bottom: 10px;"><!----><table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;" class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;">
+	<span style="color:#000000;">1-833-ALTLOAN</span></div></td></tr></table><!----><!----><table cellpadding="0" cellspacing="0" width="100%" style="text-align: left; min-width: 100%;" class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><table cellpadding="0" cellspacing="0" class="socialshare-wrapper" width="100%"><tr><td align="center"><table cellpadding="0" cellspacing="0" align="center"><tr><td align="center"><!--[if mso]><table border="0" cellspacing="0" cellpadding="0"><tr><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="http://click.altramortgage-email.com/?qs=4f34a15c740dd622db5bc7ebeaa1ce60f22cf36ebe3974c5aae824ad1617b0ba3bc4ee4628ca37abec4759c35866b2cf289c629eb269f7a6" >
+<img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/e76b988d-8feb-4d15-b8d9-1ccf4bee17cd.png" alt="Facebook" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="http://click.altramortgage-email.com/?qs=4f34a15c740dd62289dda67ac76ef007893a4c6e052e9bfadcf79a1a377924e045df472c8dbf8f54b2feea9d40382e3073439bc773ec4fa7" ><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/f071eec4-5672-4190-b5c4-03c64fd3f5bd.png" alt="Twitter" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td><![endif]-->
+<table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="http://click.altramortgage-email.com/?qs=4f34a15c740dd6226e5e5abbe9a40dac4dddf27496cbfcd6cde438d18a0d756ed1a0830fdc1a3b51cb8848e36bebf3b9bcc48a78b50c2d8e" ><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/43511da8-7916-47f0-8134-5b478ce22f3c.png" alt="LinkedIn" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td></tr></table><![endif]--></td></tr></table></td></tr></table></td></tr></table><!----></td></tr></table>
+                                  
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" class="slot-styling" style="min-width: 100%;"><tr><td class="slot-styling camarker-inner" width="100%" style="padding-top: 20px;"><!----><table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;" class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px;" class="stylingblock-content-wrapper camarker-inner"><div style="text-align: justify;">
+	<span style="font-size:10px;">&copy; 2018&nbsp;ALTRA Mortgage Capital LLC, dba ALTLOAN. NMLS#1622235.&nbsp;Rates, fees and programs are subject to change without notice.&nbsp; Other restrictions may apply.&nbsp; Information is intended solely for mortgage bankers, mortgage brokers, financial institutions and correspondent lenders.&nbsp; Not intended for distribution to consumers, as defined by Section 1026.2 of Regulation Z, which implements the Truth-In-Lending Act.&nbsp;www.nmlsconsumeraccess.org.&nbsp;</span></div><div>
+	<span style="font-size:10px;">&nbsp;</span></div><div style="text-align: center;">
+	<span style="font-size:10px;">To ensure future delivery of email, please add <b>rates@altloan.com</b> to your address book, contacts, or safe sender list.<br>
+	&nbsp;</span></div></td></tr></table><!----></td></tr></table>
+                                  
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <table width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#fff;">
+    <!-- SALESFORCE MARKETING CLOUD IMAGE -->
+    <tr>
+        <td bgcolor="#FFFFFF">
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+            <tr>
+                <td align="center">
+                <table class="container" cellpadding="0" cellspacing="0" border="0" width="550">
+                    <tr>
+                        <td align="center">&nbsp;</td>
+                    </tr>
+                </table>
+                </td>
+            </tr>
+        </table>
+        </td>
+    </tr>    
+    <!-- FOOTER CONTENT -->
+    <tr>
+        <td align="center" valign="top" style="background:#fff;" width="100%">
+        <table class="container" cellpadding="0" cellspacing="0" width="600">
+            <tr>
+                <td align="center" style="font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 11px; color: #959595; padding:0px 0px 25px 0px;">
+                This email was sent by: 
+                <span>ALTLOAN<br>
+                3420 Bristol Street, Suite 600, Costa Mesa, California, 92626 US</span>
+                <br>
+                <br>
+                <a href="http://click.altramortgage-email.com/?qs=4f34a15c740dd622a02a660ebc1f2460b7b043cb13f40bed4e3604e59d32a3c87100b0c680936c425626752523d84811ab1d6076e4e05689"  target="_blank" style="font-size:12px; color: #959595; text-decoration: none; font-weight:bold;">Privacy Policy</a>
+                <br>
+                <br>
+                <a href="http://click.altramortgage-email.com/profile_center.aspx?qs=17261a3b7b07e54013b9209b12377c2416fdc836cfc36b96d48acc7b25292d8df522bf352e81d41f994ed3ffaa0c6aea9a1552b968cbd1748485ef334d2a121a"  target="_blank" style="font-size:12px; color: #959595; text-decoration: none; font-weight:bold;">Update Profile</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://click.altramortgage-email.com/subscription_center.aspx?qs=17261a3b7b07e5403c040353db1026fd10f4dba942668e5e8f7515b0c6ea49cc5453217b08f0298c766c311c3681761b2e04d9f07760c0d88c4a753d60935ead"  target="_blank" style="font-size:12px; color: #959595; text-decoration: none; font-weight:bold;">Manage Subscriptions</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://click.altramortgage-email.com/unsub_center.aspx?qs=17261a3b7b07e5403c040353db1026fd10f4dba942668e5e8f7515b0c6ea49ccf4a6e34edc36507affeea96a275931bafdc83a2acea335d0d6cfbea7424b9f95"  target="_blank" style="font-size:12px; color: #959595; text-decoration: none; font-weight:bold;">Unsubscribe</a>
+<span style="color:#ffffff;>"ALTRA Mortgage Capital LLC</span>
+                </td>
+            </tr>
+        </table>
+        </td>
+    </tr> 
+</table>
+
+        </td>
+      </tr>
+    </table>
+    <img src="http://click.altramortgage-email.com/open.aspx?ffcb10-ff021776756606-fe5f1574756c0c787512-fe3b15707564047c7d1579-ff951d71-fe5f1576766000797011-ff911c76" width="1" height="1">
+  </body>
+</html> 

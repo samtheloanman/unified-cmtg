@@ -1,0 +1,1512 @@
+Delivered-To: sam@c-mtg.com
+Return-Path: <eve@c-mtg.com>
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; 
+  s=zoho; d=c-mtg.com; 
+  h=date:from:to:cc:message-id:in-reply-to:references:subject:mime-version:content-type:user-agent; 
+  b=E6bFidxRy9cYwRRPbgiUleH4P2p98EUhZ61iypbNkwkTojj+MTeU07C7s9fWKg+3InYb4UUlCv0t
+    RzZlP9x/3jFFRk4zHdERLFZUVXHn5y+oeK0NYG1YXyoMDHPmhrnNyGSDUvdhj3SXNNsdS31lA2xN
+    l3sIGIG/Uwin94s9zlo=  
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1531320432;
+	s=zoho; d=c-mtg.com; i=eve@c-mtg.com;
+	h=Date:From:To:Cc:Message-Id:In-Reply-To:References:Subject:MIME-Version:Content-Type;
+	l=111860; bh=bd1v4uQURvkuKxMcMChrUBsOC+wKT18V9GeFPwHQq7s=;
+	b=jOdp6IP2izCmJ6r5JIafkzzPBNVCAWvsWUu2RlOy4NKCLSyuR7krj1UWMsnCvrHY
+	KjqAsmZFrc8XLi3OdNbv3SlAlp5JnUEz4CtOoUTZnzJ3hibk1GCW6WayKbkrZotBh5e
+	t5Nhf8Ops2zFb9L+KJyJQ+N3gQVSM6Mc5dGFAz5U=
+Received: from mail.zoho.com by mx.zohomail.com
+	with SMTP id 1531320432290228.65609470809045; Wed, 11 Jul 2018 07:47:12 -0700 (PDT)
+Date: Wed, 11 Jul 2018 07:47:12 -0700
+From: Eve Sanchez <eve@c-mtg.com>
+To: "\"Carrie Lewis\"" <clewis@finkellaw.com>
+Cc: "\"Sam Tehranchi\"" <sam@c-mtg.com>,
+	"\"LeAnne Guimond\"" <Leanne@athascapital.com>,
+	"\"Tiffany Guimond\"" <Tguimond@athascapital.com>,
+	"\"Kimberly Scott\"" <Kimberly@athascapital.com>,
+	"\"Docs\"" <Docs@athascapital.com>,
+	"\"John Pina\"" <John@athascapital.com>
+Message-ID:<16489cf767f.119ce0c1c21812.5943349829987762737@c-mtg.com>
+In-Reply-To: <6EB099FA-F785-46D6-9D60-2D0624137E6E@finkellaw.com>
+References: <d7b5658aefa14079809e64a69ecfcc34@athascapital.com>
+ <9E6991DCD100F540A8BEAB39D961E75B9435C1F8@Alaska.FinkelLaw.local>
+ <0104bd606c244997abf1abef70460d07@athascapital.com>
+ <9E6991DCD100F540A8BEAB39D961E75B9435C87A@Alaska.FinkelLaw.local>
+ <fbfe4c1a526d4ee2a6d47fe4b5d115bf@athascapital.com>
+ <9E6991DCD100F540A8BEAB39D961E75B9435CC53@Alaska.FinkelLaw.local>
+ <16470240bae.b826d2ef14270.7580777219313269350@c-mtg.com>
+ <D1AC06F3-589C-468F-8159-3700CB88D53F@c-mtg.com>
+ <9E6991DCD100F540A8BEAB39D961E75B9435CF69@Alaska.FinkelLaw.local>
+ <1647f257a04.e6a8a1f8115148.3888455630621405798@c-mtg.com>
+ <dc946d4183614777b1bd0082a0420e73@athascapital.com>
+ <CE5F1E41-FC45-42E2-88E8-2061DD2CAB48@c-mtg.com>
+ <b63b1faaaf654026947241cba3ec95e5@athascapital.com>
+ <2c5fc736ffce4933a40e63906a6a6aea@athascapital.com>
+ <C6FE5FF0-61FC-4D64-B36C-49DD18B0221F@c-mtg.com>
+ <b1308a1ec6b444978a026df49f58b054@athascapital.com>
+ <f9b808d6578b4aed8323a22abdc5f06c@athascapital.com>
+ <16485d43456.d85b984240017.244138989291884 4848@c-mtg.com>
+ <6298de3866154e4cbfe459f2f8d196fa@athascapital.com>
+ <1648608a36e.10fafd2a646245.3795213432059739413@c-mtg.com>
+ <165C1FDC-81A7-4D64-A2D3-95B28B20176C@c-mtg.com>
+ <f93e723f0cd64bec9f696138c8f97eb3@athascapital.com>,<34E601A9-52A5-40B6-B119-BDD502F0C708@c-mtg.com> <6EB099FA-F785-46D6-9D60-2D0624137E6E@finkellaw.com>
+Subject: JP - Josey - **Urgent**
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_68943_1317871434.1531320432259"
+X-Priority: Medium
+User-Agent: Zoho Mail
+X-Mailer: Zoho Mail
+X-Zoho-Virus-Status: 1
+X-ZohoMail: Z_33125594 SPT_1 Z_33131583 SPT_1
+X-ZM-MESSAGEID: 1531320434210100001
+X-ZohoMail-Status: 1
+
+
+------=_Part_68943_1317871434.1531320432259
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Docs, Tiffany and Kimberly, What is the ETA for loan docs? Carrie nee=
+ded them by 7am today so she can squeeze in for signing today. Please advis=
+e. Respectfully, Evelyn Sanchez Loan Processor Custom Mortgage=C2=A0 Direct=
+: 818-384-7653 Fax: 866-421-7694 Email: Eve@c-mtg.com ---- On Tue, 10 Jul 2=
+018 19:39:04 -0700=C2=A0Carrie Lewis <clewis@finkellaw.com> wrote ---- We w=
+ill need time to review the documents and we already have a full schedule t=
+omorrow. If you want this to close tomorrow, we will need the documents by =
+10:00 am EST. Sent from my iPhone On Jul 10, 2018, at 8:46 PM, Sam Tehranch=
+i <sam@c-mtg.com<mailto:sam@c-mtg.com>> wrote: Hi LeAnne, I wanted to keep =
+you in the loop, I just spoke with the borrower and he is loosing his patie=
+nts. He said he will not proceed with the loan if we don=E2=80=99t get loan=
+ docs tomorrow. I don=E2=80=99t know if he is serious but I wanted to make =
+sure we can get the loan docs out tomorrow, we have worked too hard for thi=
+s file to get canceled by the borrower. Thank you Respectfully, Sam Tehranc=
+hi COO Custom Mortgage and Realty NMLS CA # 1556995 - BRE CA # 02018146 Dir=
+ect 310.709.6304 -Efax 866.421.7694 sam@c-mtg.com<mailto:sam@c-mtg.com> - w=
+ww.c-mtg.com<http://www.c-mtg.com> LinkedIn<https://www.linkedin.com/compan=
+y-beta/3477964> - Facebook<https://www.facebook.com/Custom-Mortgage-4098428=
+85783868/> - twitter<https://twitter.com/custommortgage1> - Instagram<https=
+://www.instagram.com/custommortgageinc/> On Jul 10, 2018, at 5:11 PM, LeAnn=
+e Guimond <Leanne@athascapital.com<mailto:Leanne@athascapital.com>> wrote: =
+I reach out to the Doc Service, We should have them tomorrow. When is the b=
+orrower leaving out of Town?? LeAnne Guimond Wholesale Account Manager 877-=
+877-1477 x1112 27001 Agoura Rd, Suite 200 Calabasas, CA 91301 leanne@athasc=
+apital.com<mailto:leanne@athascapital.com> www.athascapital.com<http://www.=
+athascapital.com/> ______________________________ <image001.jpg> __________=
+____________________ Athas Capital Group's NMLS#: 275237 Athas Capital Grou=
+p's DBO#: 603 F869 CONFIDENTIALITY NOTICE -- PRIVILEGED AND CONFIDENTIAL Th=
+is communication and any accompanying documents are confidential and privil=
+eged. They are intended for the sole use of the addressee. If you receive t=
+his transmission in error, you are advised that any disclosure, copying, di=
+stribution, or the taking of any action in reliance upon this communication=
+ is strictly prohibited. Moreover, any such inadvertent disclosure shall no=
+t compromise or waive any attorney-client privileges as to this communicati=
+on or otherwise. If you have received this communication in error, please c=
+ontact me at the above internet e-mail address. Thank you. Please Note: All=
+ Athas Capital Account Managers are unavailable every day up until 9:30 AM.=
+ This time is dedicated solely for processing Pre-disclosures, conditions a=
+nd vendor orders in an effort to provide our clients with faster over-all t=
+urn times in all facets of processing your loan. All emails and voicemails =
+will be reviewed and addressed after 9:30 AM. In the event you need to reac=
+h me for a valid emergency please let reception know the nature of your cal=
+l and needs. We appreciate your understanding and continued business! From:=
+ Sam Tehranchi <sam@c-mtg.com<mailto:sam@c-mtg.com>> Sent: Tuesday, July 10=
+, 2018 5:05 PM To: Eve Sanchez <eve@c-mtg.com<mailto:eve@c-mtg.com>> Cc: Le=
+Anne Guimond <Leanne@athascapital.com<mailto:Leanne@athascapital.com>>; Tif=
+fany Guimond <Tguimond@athascapital.com<mailto:Tguimond@athascapital.com>>;=
+ Kimberly Scott <Kimberly@athascapital.com<mailto:Kimberly@athascapital.com=
+>>; Docs <Docs@athascapital.com<mailto:Docs@athascapital.com>>; John Pina <=
+John@athascapital.com<mailto:John@athascapital.com>>; Carrie Lewis <clewis@=
+finkellaw.com<mailto:clewis@finkellaw.com>>; Margaret Rabon <margaretrabon@=
+aol.com<mailto:margaretrabon@aol.com>> Subject: Re: APPROVED!! JP - Josey -=
+ **Urgent** Hi LeAnne Can you please advice regarding docs, borrower is wai=
+ting to sign before leaving put town. Please advise at your earliest conven=
+ience. Thank you Sam Tehranchi 310-709-6304 Sent from my iPhone On Jul 10, =
+2018, at 2:11 PM, Eve Sanchez <eve@c-mtg.com<mailto:eve@c-mtg.com>> wrote: =
+Hey guys, I just removed "Julie" the insurance agent from this email thread=
+. Let's make sure we are not copying her in future email correspondence for=
+ privacy purposes. "Burnham, Julie" <julie.burnham@nationwide.com<mailto:ju=
+lie.burnham@nationwide.com>> Respectfully, Evelyn Sanchez Loan Processor Cu=
+stom Mortgage <1.png> Direct: 818-384-7653 Fax: 866-421-7694 Email: Eve@c-m=
+tg.com<mailto:Karen@c-mtg.com> ---- On Tue, 10 Jul 2018 14:01:27 -0700 LeAn=
+ne Guimond <Leanne@athascapital.com<mailto:Leanne@athascapital.com>> wrote =
+---- I am looking into it. I will circle back to you all shortly LeAnne Gui=
+mond Wholesale Account Manager 877-877-1477 x1112 27001 Agoura Rd, Suite 20=
+0 Calabasas, CA 91301 leanne@athascapital.com<mailto:leanne@athascapital.co=
+m> www.athascapital.com<http://www.athascapital.com/> _____________________=
+_________ <2.jpg> ______________________________ Athas Capital Group's NMLS=
+#: 275237 Athas Capital Group's DBO#: 603 F869 CONFIDENTIALITY NOTICE -- PR=
+IVILEGED AND CONFIDENTIAL This communication and any accompanying documents=
+ are confidential and privileged. They are intended for the sole use of the=
+ addressee. If you receive this transmission in error, you are advised that=
+ any disclosure, copying, distribution, or the taking of any action in reli=
+ance upon this communication is strictly prohibited. Moreover, any such ina=
+dvertent disclosure shall not compromise or waive any attorney-client privi=
+leges as to this communication or otherwise. If you have received this comm=
+unication in error, please contact me at the above internet e-mail address.=
+ Thank you. Please Note: All Athas Capital Account Managers are unavailable=
+ every day up until 9:30 AM. This time is dedicated solely for processing P=
+re-disclosures, conditions and vendor orders in an effort to provide our cl=
+ients with faster over-all turn times in all facets of processing your loan=
+. All emails and voicemails will be reviewed and addressed after 9:30 AM. I=
+n the event you need to reach me for a valid emergency please let reception=
+ know the nature of your call and needs. We appreciate your understanding a=
+nd continued business! From: Eve Sanchez <eve@c-mtg.com<mailto:eve@c-mtg.co=
+m>> Sent: Tuesday, July 10, 2018 1:14 PM To: Tiffany Guimond <Tguimond@atha=
+scapital.com<mailto:Tguimond@athascapital.com>> Cc: LeAnne Guimond <Leanne@=
+athascapital.com<mailto:Leanne@athascapital.com>>; "Sam Tehranchi" <sam@c-m=
+tg.com<mailto:sam@c-mtg.com>>; Kimberly Scott <Kimberly@athascapital.com<ma=
+ilto:Kimberly@athascapital.com>>; Docs <Docs@athascapital.com<mailto:Docs@a=
+thascapital.com>>; John Pina <John@athascapital.com<mailto:John@athascapita=
+l.com>>; "Burnham, Julie" <julie.burnham@nationwide.com<mailto:julie.burnha=
+m@nationwide.com>>; "Carrie Lewis" <clewis@finkellaw.com<mailto:clewis@fink=
+ellaw.com>>; "Margaret Rabon" <margaretrabon@aol.com<mailto:margaretrabon@a=
+ol.com>> Subject: RE: APPROVED!! JP - Josey - **Urgent** Hello All, Revised=
+ policy attached. Can we still get docs out today? Respectfully, Evelyn San=
+chez Loan Processor Custom Mortgage <3.png> Direct: 818-384-7653 Fax: 866-4=
+21-7694 Email: Eve@c-mtg.com<mailto:Karen@c-mtg.com> ---- On Tue, 10 Jul 20=
+18 09:55:41 -0700 Tiffany Guimond <Tguimond@athascapital.com<mailto:Tguimon=
+d@athascapital.com>>wrote ---- We need the increased coverage on this ASAP =
+Sincerely, Tiffany Guimond Funding Manager 27001 Agoura Road, Ste. 200 Cala=
+basas, CA 91301 <4.jpg> ph: 877.877.1477 ext. 1502 fax: 818.647.0175 Tguimo=
+nd@athascapital.com<mailto:Tguimond@athascapital.com> Web: www.athascapital=
+.com<http://www.athascapital.com/> CONFIDENTIALITY NOTICE -- PRIVILEGED AND=
+ CONFIDENTIAL This communication and any accompanying documents are confide=
+ntial and privileged. They are intended for the sole use of the addressee. =
+If you receive this transmission in error, you are advised that any disclos=
+ure, copying, distribution, or the taking of any action in reliance upon th=
+is communication is strictly prohibited. Moreover, any such inadvertent dis=
+closure shall not compromise or waive the attorney-client privileges as to =
+this communication or otherwise. If you have received this communication in=
+ error, please contact me at the above internet e-mail address. Thank you. =
+From: LeAnne Guimond Sent: Monday, July 09, 2018 1:40 PM To: Sam Tehranchi =
+<sam@c-mtg.com<mailto:sam@c-mtg.com>>; Kimberly Scott <Kimberly@athascapita=
+l.com<mailto:Kimberly@athascapital.com>> Cc: Docs <Docs@athascapital.com<ma=
+ilto:Docs@athascapital.com>>; Followers of Ramirez-CA-Short-Sale-Loan-Mod <=
+eve@c-mtg.com<mailto:eve@c-mtg.com>>; John Pina <John@athascapital.com<mail=
+to:John@athascapital.com>>; Burnham, Julie <julie.burnham@nationwide.com<ma=
+ilto:julie.burnham@nationwide.com>>; Carrie Lewis <clewis@finkellaw.com<mai=
+lto:clewis@finkellaw.com>>; Margaret Rabon <margaretrabon@aol.com<mailto:ma=
+rgaretrabon@aol.com>> Subject: RE: APPROVED!! JP - Josey - **Urgent** We no=
+t trying to Just the Dwelling please and hurry LeAnne Guimond Wholesale Acc=
+ount Manager 877-877-1477 x1112 27001 Agoura Rd, Suite 200 Calabasas, CA 91=
+301 leanne@athascapital.com<mailto:leanne@athascapital.com> www.athascapita=
+l.com<http://www.athascapital.com/> ______________________________ <2.jpg> =
+______________________________ Athas Capital Group's NMLS#: 275237 Athas Ca=
+pital Group's DBO#: 603 F869 CONFIDENTIALITY NOTICE -- PRIVILEGED AND CONFI=
+DENTIAL This communication and any accompanying documents are confidential =
+and privileged. They are intended for the sole use of the addressee. If you=
+ receive this transmission in error, you are advised that any disclosure, c=
+opying, distribution, or the taking of any action in reliance upon this com=
+munication is strictly prohibited. Moreover, any such inadvertent disclosur=
+e shall not compromise or waive any attorney-client privileges as to this c=
+ommunication or otherwise. If you have received this communication in error=
+, please contact me at the above internet e-mail address. Thank you. Please=
+ Note: All Athas Capital Account Managers are unavailable every day up unti=
+l 9:30 AM. This time is dedicated solely for processing Pre-disclosures, co=
+nditions and vendor orders in an effort to provide our clients with faster =
+over-all turn times in all facets of processing your loan. All emails and v=
+oicemails will be reviewed and addressed after 9:30 AM. In the event you ne=
+ed to reach me for a valid emergency please let reception know the nature o=
+f your call and needs. We appreciate your understanding and continued busin=
+ess! From: Sam Tehranchi <sam@c-mtg.com<mailto:sam@c-mtg.com>> Sent: Monday=
+, July 09, 2018 1:25 PM To: Kimberly Scott <Kimberly@athascapital.com<mailt=
+o:Kimberly@athascapital.com>> Cc: LeAnne Guimond <Leanne@athascapital.com<m=
+ailto:Leanne@athascapital.com>>; Docs <Docs@athascapital.com<mailto:Docs@at=
+hascapital.com>>; Followers of Ramirez-CA-Short-Sale-Loan-Mod <eve@c-mtg.co=
+m<mailto:eve@c-mtg.com>>; John Pina <John@athascapital.com<mailto:John@atha=
+scapital.com>>; Burnham, Julie <julie.burnham@nationwide.com<mailto:julie.b=
+urnham@nationwide.com>>; Carrie Lewis <clewis@finkellaw.com<mailto:clewis@f=
+inkellaw.com>>; Margaret Rabon <margaretrabon@aol.com<mailto:margaretrabon@=
+aol.com>> Subject: Re: APPROVED!! JP - Josey - **Urgent** Hi Kimberly, ther=
+e is two policies on this deal, one for fire and one for flood. The flood i=
+s already at the state maximum limit so I don=E2=80=99t think we can change=
+ that. Can you please confirm we only need the Fire policy updated to refle=
+ct the new loan amount of 305,500.00. Thank you Respectfully, Sam Tehranchi=
+ COO Custom Mortgage and Realty NMLS CA # 1556995 - BRE CA # 02018146 Direc=
+t 310.709.6304 -Efax 866.421.7694 sam@c-mtg.com<mailto:sam@c-mtg.com> - www=
+.c-mtg.com<http://www.c-mtg.com/> LinkedIn<https://www.linkedin.com/company=
+-beta/3477964> - Facebook<https://www.facebook.com/Custom-Mortgage-40984288=
+5783868/> - twitter<https://twitter.com/custommortgage1> - Instagram<https:=
+//www.instagram.com/custommortgageinc/> On Jul 9, 2018, at 12:16 PM, Kimber=
+ly Scott <Kimberly@athascapital.com<mailto:Kimberly@athascapital.com>> wrot=
+e: Hello, We will need the actual policy in order to release the loan docs.=
+ Sincerely, Kimberly Scott Doc Prep 27001 Agoura Road, Ste. 200 Calabasas, =
+CA 91301 <image002.jpg> ph: 877.877.1477 ext. 1119 fax: 818.647.0175 Kimber=
+ly@athascapital.com<mailto:Kimberly@athascapital.com> Web: www.athascapital=
+.com<http://www.athascapital.com/> CONFIDENTIALITY NOTICE -- PRIVILEGED AND=
+ CONFIDENTIAL This communication and any accompanying documents are confide=
+ntial and privileged. They are intended for the sole use of the addressee. =
+If you receive this transmission in error, you are advised that any disclos=
+ure, copying, distribution, or the taking of any action in reliance upon th=
+is communication is strictly prohibited. Moreover, any such inadvertent dis=
+closure shall not compromise or waive the attorney-client privileges as to =
+this communication or otherwise. If you have received this communication in=
+ error, please contact me at the above internet e-mail address. Thank you. =
+From: LeAnne Guimond Sent: Monday, July 09, 2018 12:16 PM To: Sam Tehranchi=
+ <sam@c-mtg.com<mailto:sam@c-mtg.com>> Cc: Followers of Ramirez-CA-Short-Sa=
+le-Loan-Mod <eve@c-mtg.com<mailto:eve@c-mtg.com>>; John Pina <John@athascap=
+ital.com<mailto:John@athascapital.com>>; Burnham, Julie <julie.burnham@nati=
+onwide.com<mailto:julie.burnham@nationwide.com>>; Carrie Lewis <clewis@fink=
+ellaw.com<mailto:clewis@finkellaw.com>>; Margaret Rabon <margaretrabon@aol.=
+com<mailto:margaretrabon@aol.com>>; Kimberly Scott <Kimberly@athascapital.c=
+om<mailto:Kimberly@athascapital.com>> Subject: RE: APPROVED!! JP - Josey - =
+**Urgent** I need the loan Amount or Cost to replace new Loan Amount $305,5=
+00 CTRN $366, 840 Whichever is less LeAnne Guimond Wholesale Account Manage=
+r 877-877-1477 x1112 27001 Agoura Rd, Suite 200 Calabasas, CA 91301 leanne@=
+athascapital.com<mailto:leanne@athascapital.com> www.athascapital.com<http:=
+//www.athascapital.com/> ______________________________ <image003.jpg> ____=
+__________________________ Athas Capital Group's NMLS#: 275237 Athas Capita=
+l Group's DBO#: 603 F869 CONFIDENTIALITY NOTICE -- PRIVILEGED AND CONFIDENT=
+IAL This communication and any accompanying documents are confidential and =
+privileged. They are intended for the sole use of the addressee. If you rec=
+eive this transmission in error, you are advised that any disclosure, copyi=
+ng, distribution, or the taking of any action in reliance upon this communi=
+cation is strictly prohibited. Moreover, any such inadvertent disclosure sh=
+all not compromise or waive any attorney-client privileges as to this commu=
+nication or otherwise. If you have received this communication in error, pl=
+ease contact me at the above internet e-mail address. Thank you. Please Not=
+e: All Athas Capital Account Managers are unavailable every day up until 9:=
+30 AM. This time is dedicated solely for processing Pre-disclosures, condit=
+ions and vendor orders in an effort to provide our clients with faster over=
+-all turn times in all facets of processing your loan. All emails and voice=
+mails will be reviewed and addressed after 9:30 AM. In the event you need t=
+o reach me for a valid emergency please let reception know the nature of yo=
+ur call and needs. We appreciate your understanding and continued business!=
+ From: Sam Tehranchi <sam@c-mtg.com<mailto:sam@c-mtg.com>> Sent: Monday, Ju=
+ly 09, 2018 11:41 AM To: LeAnne Guimond <Leanne@athascapital.com<mailto:Lea=
+nne@athascapital.com>> Cc: Followers of Ramirez-CA-Short-Sale-Loan-Mod <eve=
+@c-mtg.com<mailto:eve@c-mtg.com>>; John Pina <John@athascapital.com<mailto:=
+John@athascapital.com>>; Burnham, Julie <julie.burnham@nationwide.com<mailt=
+o:julie.burnham@nationwide.com>>; Carrie Lewis <clewis@finkellaw.com<mailto=
+:clewis@finkellaw.com>>; Margaret Rabon <margaretrabon@aol.com<mailto:marga=
+retrabon@aol.com>>; Kimberly Scott <Kimberly@athascapital.com<mailto:Kimber=
+ly@athascapital.com>> Subject: Re: APPROVED!! JP - Josey - **Urgent** Hi Le=
+Anne, per our previous communications with Julie from the insurance company=
+, She has mentioned that they will go to replacement value which 297k would=
+ cover. Julie, please confirm at your convenience if you can raise the cove=
+rage to 305k and if there is any changes to the premium due to the increase=
+d coverage. Respectfully, Sam Tehranchi COO Custom Mortgage and Realty NMLS=
+ CA # 1556995 - BRE CA # 02018146 Direct 310.709.6304 -Efax 866.421.7694 sa=
+m@c-mtg.com<mailto:sam@c-mtg.com> - www.c-mtg.com<http://www.c-mtg.com/> Li=
+nkedIn<https://www.linkedin.com/company-beta/3477964> - Facebook<https://ww=
+w.facebook.com/Custom-Mortgage-409842885783868/> - twitter<https://twitter.=
+com/custommortgage1> - Instagram<https://www.instagram.com/custommortgagein=
+c/> On Jul 9, 2018, at 11:31 AM, LeAnne Guimond <Leanne@athascapital.com<ma=
+ilto:Leanne@athascapital.com>> wrote: I need the Updated Insurance Coverage=
+ to 305,500 I have sent a request to Agent. Need before loan Docs can go ou=
+t LeAnne Guimond Wholesale Account Manager 877-877-1477 x1112 27001 Agoura =
+Rd, Suite 200 Calabasas, CA 91301 leanne@athascapital.com<mailto:leanne@ath=
+ascapital.com> www.athascapital.com<http://www.athascapital.com/> _________=
+_____________________ <image001.jpg> ______________________________ Athas C=
+apital Group's NMLS#: 275237 Athas Capital Group's DBO#: 603 F869 CONFIDENT=
+IALITY NOTICE -- PRIVILEGED AND CONFIDENTIAL This communication and any acc=
+ompanying documents are confidential and privileged. They are intended for =
+the sole use of the addressee. If you receive this transmission in error, y=
+ou are advised that any disclosure, copying, distribution, or the taking of=
+ any action in reliance upon this communication is strictly prohibited. Mor=
+eover, any such inadvertent disclosure shall not compromise or waive any at=
+torney-client privileges as to this communication or otherwise. If you have=
+ received this communication in error, please contact me at the above inter=
+net e-mail address. Thank you. Please Note: All Athas Capital Account Manag=
+ers are unavailable every day up until 9:30 AM. This time is dedicated sole=
+ly for processing Pre-disclosures, conditions and vendor orders in an effor=
+t to provide our clients with faster over-all turn times in all facets of p=
+rocessing your loan. All emails and voicemails will be reviewed and address=
+ed after 9:30 AM. In the event you need to reach me for a valid emergency p=
+lease let reception know the nature of your call and needs. We appreciate y=
+our understanding and continued business! From: Eve Sanchez <eve@c-mtg.com<=
+mailto:eve@c-mtg.com>> Sent: Monday, July 09, 2018 6:05 AM To: LeAnne Guimo=
+nd <Leanne@athascapital.com<mailto:Leanne@athascapital.com>>; John Pina <Jo=
+hn@athascapital.com<mailto:John@athascapital.com>> Cc: "Sam Tehranchi" <sam=
+@c-mtg.com<mailto:sam@c-mtg.com>>; LeAnne Guimond <Leanne@athascapital.com<=
+mailto:Leanne@athascapital.com>>; "Carrie Lewis" <clewis@finkellaw.com<mail=
+to:clewis@finkellaw.com>>; "Margaret Rabon" <margaretrabon@aol.com<mailto:m=
+argaretrabon@aol.com>> Subject: RE: APPROVED!! JP - Josey - **Urgent** Morn=
+ing LeAnne, We never heard back from you on Friday after multiple emails se=
+nt. Can you please advise on the status of the closing package for the abov=
+e mentioned transaction? Respectfully, Evelyn Sanchez Loan Processor Custom=
+ Mortgage <image002.png> Direct: 818-384-7653 Fax: 866-421-7694 Email: Eve@=
+c-mtg.com<mailto:Karen@c-mtg.com> ---- On Fri, 06 Jul 2018 10:23:48 -0700 D=
+arla Walls <DWalls@FinkelLaw.com<mailto:DWalls@FinkelLaw.com>> wrote ---- W=
+e have called off the closing for today as we have not received a loan pack=
+age. Darla Darla Walls Real Estate Paralegal Finkel Law Firm LLC 4000 Faber=
+ Place Drive, Suite 450 North Charleston, SC 29405 dwalls@finkellaw.com<mai=
+lto:dwalls@finkellaw.com> Direct: 843-576-6340 Fax No: 866-800-7947 Mount P=
+leasant Office: 1041 Johnnie Dodds Blvd., Suite 13-B Mount Pleasant, SC 294=
+64 Columbia Office: 1201 Main Street, Suite 1800 Columbia, SC 29201 Please =
+note that all funds for real estate closings must be wired 24 hours prior t=
+o closing. DUE TO INCREASING FRAUD, PLEASE VERBALLY CONFIRM ANY WIRING INST=
+RUCTIONS YOU RECEIVE. FINKEL LAW FIRM DOES NOT CHANGE ITS WIRING INSTRUCTIO=
+NS. PLEASE NOTIFY US IMMEDIATELY IF YOU RECEIVE REVISED INSTRUCTIONS. From:=
+ Sam Tehranchi [mailto:sam@c-mtg.com<mailto:sam@c-mtg.com>] Sent: Friday, J=
+uly 06, 2018 11:49 AM To: Followers of Ramirez-CA-Short-Sale-Loan-Mod Cc: D=
+arla Walls; LeAnne Guimond Subject: Re: APPROVED!! JP - Josey - UW Review H=
+i LeAnne, Can you please advise regarding the closing docs on this transact=
+ion, the borrower and the closing attorney are trying to figure out if we c=
+an close today and need your input. Thank you Respectfully, Sam Tehranchi C=
+OO Custom Mortgage and Realty NMLS CA # 1556995 - BRE CA # 02018146 Direct =
+310.709.6304 -Efax 866.421.7694 sam@c-mtg.com<mailto:sam@c-mtg.com> - www.c=
+-mtg.com<http://www.c-mtg.com/> LinkedIn<https://www.linkedin.com/company-b=
+eta/3477964> - Facebook<https://www.facebook.com/Custom-Mortgage-4098428857=
+83868/> - twitter<https://twitter.com/custommortgage1> - Instagram<https://=
+www.instagram.com/custommortgageinc/> On Jul 6, 2018, at 8:09 AM, Eve Sanch=
+ez <eve@c-mtg.com<mailto:eve@c-mtg.com>> wrote: Hi LeAnne, Did you receive =
+Darlas email? Please advise. Respectfully, Evelyn Sanchez Loan Processor Cu=
+stom Mortgage <1.png> Direct: 818-384-7653 Fax: 866-421-7694 Email: Eve@c-m=
+tg.com<mailto:Karen@c-mtg.com> ---- On Fri, 06 Jul 2018 07:16:13 -0700 Darl=
+a Walls <DWalls@FinkelLaw.com<mailto:DWalls@FinkelLaw.com>> wrote ---- LeAn=
+ne, Any word on the package? If we don=E2=80=99t have in the next 15 minute=
+s or so we are going to have to move the date. Our schedule today does not =
+allow for a last minute loan package. Please advise. Darla Darla Walls Real=
+ Estate Paralegal Finkel Law Firm LLC 4000 Faber Place Drive, Suite 450 Nor=
+th Charleston, SC 29405 dwalls@finkellaw.com<mailto:dwalls@finkellaw.com> D=
+irect: 843-576-6340 Fax No: 866-800-7947 Mount Pleasant Office: 1041 Johnni=
+e Dodds Blvd., Suite 13-B Mount Pleasant, SC 29464 Columbia Office: 1201 Ma=
+in Street, Suite 1800 Columbia, SC 29201 Please note that all funds for rea=
+l estate closings must be wired 24 hours prior to closing. DUE TO INCREASIN=
+G FRAUD, PLEASE VERBALLY CONFIRM ANY WIRING INSTRUCTIONS YOU RECEIVE. FINKE=
+L LAW FIRM DOES NOT CHANGE ITS WIRING INSTRUCTIONS. PLEASE NOTIFY US IMMEDI=
+ATELY IF YOU RECEIVE REVISED INSTRUCTIONS. From: LeAnne Guimond [mailto:Lea=
+nne@athascapital.com<mailto:Leanne@athascapital.com>] Sent: Thursday, July =
+05, 2018 3:18 PM To: Darla Walls; Sam Tehranchi; Followers of Ramirez-CA-Sh=
+ort-Sale-Loan-Mod Subject: RE: APPROVED!! JP - Josey - UW Review It could t=
+ake 24 =E2=80=93 48 hours. The latest would be Friday afternoon LeAnne Guim=
+ond Wholesale Account Manager 877-877-1477 x1112 27001 Agoura Rd, Suite 200=
+ Calabasas, CA 91301 leanne@athascapital.com<mailto:leanne@athascapital.com=
+> www.athascapital.com<http://www.athascapital.com/> ______________________=
+________ <2.jpg> ______________________________ Athas Capital Group's NMLS#=
+: 275237 Athas Capital Group's DBO#: 603 F869 CONFIDENTIALITY NOTICE -- PRI=
+VILEGED AND CONFIDENTIAL This communication and any accompanying documents =
+are confidential and privileged. They are intended for the sole use of the =
+addressee. If you receive this transmission in error, you are advised that =
+any disclosure, copying, distribution, or the taking of any action in relia=
+nce upon this communication is strictly prohibited. Moreover, any such inad=
+vertent disclosure shall not compromise or waive any attorney-client privil=
+eges as to this communication or otherwise. If you have received this commu=
+nication in error, please contact me at the above internet e-mail address. =
+Thank you. Please Note: All Athas Capital Account Managers are unavailable =
+every day up until 9:30 AM. This time is dedicated solely for processing Pr=
+e-disclosures, conditions and vendor orders in an effort to provide our cli=
+ents with faster over-all turn times in all facets of processing your loan.=
+ All emails and voicemails will be reviewed and addressed after 9:30 AM. In=
+ the event you need to reach me for a valid emergency please let reception =
+know the nature of your call and needs. We appreciate your understanding an=
+d continued business! From: Darla Walls <DWalls@FinkelLaw.com<mailto:DWalls=
+@FinkelLaw.com>> Sent: Thursday, July 05, 2018 12:14 PM To: LeAnne Guimond =
+<Leanne@athascapital.com<mailto:Leanne@athascapital.com>>; Sam Tehranchi <s=
+am@c-mtg.com<mailto:sam@c-mtg.com>>; Followers of Ramirez-CA-Short-Sale-Loa=
+n-Mod <eve@c-mtg.com<mailto:eve@c-mtg.com>> Subject: RE: APPROVED!! JP - Jo=
+sey - UW Review LeAnne, Will you be sending a loan package today? Darla Wal=
+ls Real Estate Paralegal Finkel Law Firm LLC 4000 Faber Place Drive, Suite =
+450 North Charleston, SC 29405 dwalls@finkellaw.com<mailto:dwalls@finkellaw=
+.com> Direct: 843-576-6340 Fax No: 866-800-7947 Mount Pleasant Office: 1041=
+ Johnnie Dodds Blvd., Suite 13-B Mount Pleasant, SC 29464 Columbia Office: =
+1201 Main Street, Suite 1800 Columbia, SC 29201 Please note that all funds =
+for real estate closings must be wired 24 hours prior to closing. DUE TO IN=
+CREASING FRAUD, PLEASE VERBALLY CONFIRM ANY WIRING INSTRUCTIONS YOU RECEIVE=
+. FINKEL LAW FIRM DOES NOT CHANGE ITS WIRING INSTRUCTIONS. PLEASE NOTIFY US=
+ IMMEDIATELY IF YOU RECEIVE REVISED INSTRUCTIONS. From: LeAnne Guimond [mai=
+lto:Leanne@athascapital.com] Sent: Thursday, July 05, 2018 11:05 AM To: Dar=
+la Walls; Sam Tehranchi; Followers of Ramirez-CA-Short-Sale-Loan-Mod Cc: ma=
+rgaretrabon@aol.com<mailto:margaretrabon@aol.com> Subject: RE: APPROVED!! J=
+P - Josey - UW Review Correct, there is not a Rescission LeAnne Guimond Who=
+lesale Account Manager 877-877-1477 x1112 27001 Agoura Rd, Suite 200 Calaba=
+sas, CA 91301 leanne@athascapital.com<mailto:leanne@athascapital.com> www.a=
+thascapital.com<http://www.athascapital.com/> _____________________________=
+_ <2.jpg> ______________________________ Athas Capital Group's NMLS#: 27523=
+7 Athas Capital Group's DBO#: 603 F869 CONFIDENTIALITY NOTICE -- PRIVILEGED=
+ AND CONFIDENTIAL This communication and any accompanying documents are con=
+fidential and privileged. They are intended for the sole use of the address=
+ee. If you receive this transmission in error, you are advised that any dis=
+closure, copying, distribution, or the taking of any action in reliance upo=
+n this communication is strictly prohibited. Moreover, any such inadvertent=
+ disclosure shall not compromise or waive any attorney-client privileges as=
+ to this communication or otherwise. If you have received this communicatio=
+n in error, please contact me at the above internet e-mail address. Thank y=
+ou. Please Note: All Athas Capital Account Managers are unavailable every d=
+ay up until 9:30 AM. This time is dedicated solely for processing Pre-discl=
+osures, conditions and vendor orders in an effort to provide our clients wi=
+th faster over-all turn times in all facets of processing your loan. All em=
+ails and voicemails will be reviewed and addressed after 9:30 AM. In the ev=
+ent you need to reach me for a valid emergency please let reception know th=
+e nature of your call and needs. We appreciate your understanding and conti=
+nued business! From: Darla Walls <DWalls@FinkelLaw.com<mailto:DWalls@Finkel=
+Law.com>> Sent: Thursday, July 05, 2018 6:43 AM To: LeAnne Guimond <Leanne@=
+athascapital.com<mailto:Leanne@athascapital.com>>; Sam Tehranchi <sam@c-mtg=
+.com<mailto:sam@c-mtg.com>>; Followers of Ramirez-CA-Short-Sale-Loan-Mod <e=
+ve@c-mtg.com<mailto:eve@c-mtg.com>> Cc: margaretrabon@aol.com<mailto:margar=
+etrabon@aol.com> Subject: RE: APPROVED!! JP - Josey - UW Review Attached is=
+ a revised settlement statement. Please confirm the interim interest amount=
+ =E2=80=93 there is not a 3 day rescission correct? Also, the title insuran=
+ce premium changed with the increased loan amount. Thanks, Darla Darla Wall=
+s Real Estate Paralegal Finkel Law Firm LLC 4000 Faber Place Drive, Suite 4=
+50 North Charleston, SC 29405 dwalls@finkellaw.com<mailto:dwalls@finkellaw.=
+com> Direct: 843-576-6340 Fax No: 866-800-7947 Mount Pleasant Office: 1041 =
+Johnnie Dodds Blvd., Suite 13-B Mount Pleasant, SC 29464 Columbia Office: 1=
+201 Main Street, Suite 1800 Columbia, SC 29201 Please note that all funds f=
+or real estate closings must be wired 24 hours prior to closing. DUE TO INC=
+REASING FRAUD, PLEASE VERBALLY CONFIRM ANY WIRING INSTRUCTIONS YOU RECEIVE.=
+ FINKEL LAW FIRM DOES NOT CHANGE ITS WIRING INSTRUCTIONS. PLEASE NOTIFY US =
+IMMEDIATELY IF YOU RECEIVE REVISED INSTRUCTIONS. From: LeAnne Guimond [mail=
+to:Leanne@athascapital.com] Sent: Wednesday, July 04, 2018 11:45 AM To: Sam=
+ Tehranchi; Followers of Ramirez-CA-Short-Sale-Loan-Mod Cc: Darla Walls; ma=
+rgaretrabon@aol.com<mailto:margaretrabon@aol.com> Subject: APPROVED!! JP - =
+Josey - UW Review Importance: High We got the loan Approved at $305,500. I =
+need an Updated Closing Statement reflecting the following Changes =E2=80=
+=A2 Loan Amount $305,500 =E2=80=A2 Lender Pts (2) $6,110 =E2=80=A2 Broker P=
+ts (1.5) $4,582.50 =E2=80=A2 ENTITY Doc Review Fee $555 =E2=80=A2 Per Diem =
+at 6.5% for 20 days Everything else stays the same until Updated Insurance =
+comes LeAnne Guimond Wholesale Account Manager 877-877-1477 x1112 27001 Ago=
+ura Rd, Suite 200 Calabasas, CA 91301 leanne@athascapital.com<mailto:leanne=
+@athascapital.com> www.athascapital.com<http://www.athascapital.com/> _____=
+_________________________ <2.jpg> ______________________________ Athas Capi=
+tal Group's NMLS#: 275237 Athas Capital Group's DBO#: 603 F869 CONFIDENTIAL=
+ITY NOTICE -- PRIVILEGED AND CONFIDENTIAL This communication and any accomp=
+anying documents are confidential and privileged. They are intended for the=
+ sole use of the addressee. If you receive this transmission in error, you =
+are advised that any disclosure, copying, distribution, or the taking of an=
+y action in reliance upon this communication is strictly prohibited. Moreov=
+er, any such inadvertent disclosure shall not compromise or waive any attor=
+ney-client privileges as to this communication or otherwise. If you have re=
+ceived this communication in error, please contact me at the above internet=
+ e-mail address. Thank you. Please Note: All Athas Capital Account Managers=
+ are unavailable every day up until 9:30 AM. This time is dedicated solely =
+for processing Pre-disclosures, conditions and vendor orders in an effort t=
+o provide our clients with faster over-all turn times in all facets of proc=
+essing your loan. All emails and voicemails will be reviewed and addressed =
+after 9:30 AM. In the event you need to reach me for a valid emergency plea=
+se let reception know the nature of your call and needs. We appreciate your=
+ understanding and continued business! From: Sam Tehranchi <sam@c-mtg.com<m=
+ailto:sam@c-mtg.com>> Sent: Tuesday, July 03, 2018 8:54 AM To: Followers of=
+ Ramirez-CA-Short-Sale-Loan-Mod <eve@c-mtg.com<mailto:eve@c-mtg.com>> Cc: L=
+eAnne Guimond <Leanne@athascapital.com<mailto:Leanne@athascapital.com>>; Da=
+rla Walls <dwalls@finkellaw.com<mailto:dwalls@finkellaw.com>> Subject: Re: =
+URGENT JP - Josey - UW Review Hi LeAnne : ) I am a little confused about wh=
+y we are putting South Carolina LLC on the loan docs for vesting because Ri=
+verwalk LLC is a North Carolina LLC. Please advise regarding why we are add=
+ing South Carolina. I also wanted to find out if Darla=E2=80=99s office can=
+ do the Entity check since they are already part of the transaction and hav=
+e already verified the LLC. Respectfully, Sam Tehranchi COO Custom Mortgage=
+ and Realty NMLS CA # 1556995 - BRE CA # 02018146 Direct 310.709.6304 -Efax=
+ 866.421.7694 sam@c-mtg.com<mailto:sam@c-mtg.com> - www.c-mtg.com<http://ww=
+w.c-mtg.com/> LinkedIn<https://www.linkedin.com/company-beta/3477964> - Fac=
+ebook<https://www.facebook.com/Custom-Mortgage-409842885783868/> - twitter<=
+https://twitter.com/custommortgage1> - Instagram<https://www.instagram.com/=
+custommortgageinc/> On Jul 3, 2018, at 8:33 AM, Eve Sanchez <eve@c-mtg.com<=
+mailto:eve@c-mtg.com>> wrote: Morning LeAnne, Now that you have everything,=
+ how soon can we get this one scheduled to close? Tomorrow is a holiday and=
+ our borrower leaves on Friday. Please advise. Respectfully, Evelyn Sanchez=
+ Loan Processor Custom Mortgage <1.png> Direct: 818-384-7653 Fax: 866-421-7=
+694 Email: Eve@c-mtg.com<mailto:Karen@c-mtg.com>
+------=_Part_68943_1317871434.1531320432259
+Content-Type: multipart/related; 
+	boundary="----=_Part_68944_2095037282.1531320432274"
+
+------=_Part_68944_2095037282.1531320432274
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>=
+<meta content=3D"text/html;charset=3DUTF-8" http-equiv=3D"Content-Type"></h=
+ead><body ><div style=3D"font-size:10pt;font-family:Verdana,Arial,Helvetica=
+,sans-serif;"><div><b>Hello Docs, Tiffany and Kimberly, </b><b><br></b></di=
+v><b><br></b><b><br></b><b>What is the ETA for loan docs? Carrie needed the=
+m by 7am today so she can squeeze in for signing today. Please advise.</b><=
+br><div><br></div><div id=3D"Zm-_Id_-Sgn"><div>Respectfully,<br></div><div>=
+<i>Evelyn Sanchez</i><br></div><div><div>Loan <i>Processor<br></i><b>Custom=
+ Mortgage&nbsp;</b></div><div><div><b><img src=3D"cid:0.28869215210.1556115=
+03443000549.16489cf7683__inline__img__src"></b><br></div><div><div>Direct: =
+818-384-7653<br></div><div>Fax: 866-421-7694<br></div></div><div><div>Email=
+: <u><a href=3D"mailto:Karen@c-mtg.com" target=3D"_blank">Eve@c-mtg.com</a>=
+</u><br></div></div></div></div><div><br></div></div><div><br></div><div cl=
+ass=3D"zmail_extra"><div id=3D"Zm-_Id_-Sgn1"><div><br></div><div>---- On Tu=
+e, 10 Jul 2018 19:39:04 -0700&nbsp;<b>Carrie Lewis &lt;<a target=3D"_blank"=
+ href=3D"mailto:clewis@finkellaw.com">clewis@finkellaw.com</a>&gt;</b> wrot=
+e ----<br></div></div><div><br></div><blockquote style=3D"border-left: 1px =
+solid #cccccc; padding-left: 6px; margin:0 0 0 5px"><div><div>We will need =
+time to review the documents and we already have a full schedule tomorrow. =
+ If you want this to close tomorrow, we will need the documents by 10:00 am=
+ EST. <br></div><div> <br></div><div>Sent from my iPhone <br></div><div> <b=
+r></div><div>On Jul 10, 2018, at 8:46 PM, Sam Tehranchi &lt;<a target=3D"_b=
+lank" href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&lt;mailto:<a target=
+=3D"_blank" href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&gt;&gt; wrote: =
+<br></div><div> <br></div><div>Hi LeAnne, <br></div><div> <br></div><div>I =
+wanted to keep you in the loop, I just spoke with the borrower and he is lo=
+osing his patients.  He said he will not proceed with the loan if we don=E2=
+=80=99t get loan docs tomorrow. <br></div><div> <br></div><div>I don=E2=80=
+=99t know if he is serious but I wanted to make sure we can get the loan do=
+cs out tomorrow, we have worked too hard for this file to get canceled by t=
+he borrower. <br></div><div> <br></div><div>Thank you <br></div><div> <br><=
+/div><div>Respectfully, <br></div><div> <br></div><div> <br></div><div>Sam =
+Tehranchi <br></div><div> <br></div><div> <br></div><div>COO <br></div><div=
+>Custom Mortgage and Realty <br></div><div>NMLS CA # 1556995 - BRE CA # 020=
+18146 <br></div><div> <br></div><div>Direct 310.709.6304 -Efax 866.421.7694=
+ <br></div><div> <br></div><div><a target=3D"_blank" href=3D"mailto:sam@c-m=
+tg.com">sam@c-mtg.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:sam=
+@c-mtg.com">sam@c-mtg.com</a>&gt; - <a target=3D"_blank" href=3D"http://www=
+.c-mtg.com">www.c-mtg.com</a>&lt;<a target=3D"_blank" href=3D"http://www.c-=
+mtg.com">http://www.c-mtg.com</a>&gt; <br></div><div> <br></div><div>Linked=
+In&lt;<a target=3D"_blank" href=3D"https://www.linkedin.com/company-beta/34=
+77964">https://www.linkedin.com/company-beta/3477964</a>&gt; - Facebook&lt;=
+<a target=3D"_blank" href=3D"https://www.facebook.com/Custom-Mortgage-40984=
+2885783868/">https://www.facebook.com/Custom-Mortgage-409842885783868/</a>&=
+gt; - twitter&lt;<a target=3D"_blank" href=3D"https://twitter.com/custommor=
+tgage1">https://twitter.com/custommortgage1</a>&gt; - Instagram&lt;<a targe=
+t=3D"_blank" href=3D"https://www.instagram.com/custommortgageinc/">https://=
+www.instagram.com/custommortgageinc/</a>&gt; <br></div><div> <br></div><div=
+> <br></div><div>On Jul 10, 2018, at 5:11 PM, LeAnne Guimond &lt;<a target=
+=3D"_blank" href=3D"mailto:Leanne@athascapital.com">Leanne@athascapital.com=
+</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:Leanne@athascapital.com"=
+>Leanne@athascapital.com</a>&gt;&gt; wrote: <br></div><div> <br></div><div>=
+I reach out to the Doc  Service, We should have them tomorrow. <br></div><d=
+iv> <br></div><div>When is the borrower leaving out of Town?? <br></div><di=
+v> <br></div><div> <br></div><div> <br></div><div>LeAnne Guimond <br></div>=
+<div> <br></div><div>Wholesale Account Manager <br></div><div>877-877-1477 =
+x1112 <br></div><div>27001 Agoura Rd, Suite 200 <br></div><div>Calabasas, C=
+A 91301 <br></div><div><a target=3D"_blank" href=3D"mailto:leanne@athascapi=
+tal.com">leanne@athascapital.com</a>&lt;mailto:<a target=3D"_blank" href=3D=
+"mailto:leanne@athascapital.com">leanne@athascapital.com</a>&gt; <br></div>=
+<div><a target=3D"_blank" href=3D"http://www.athascapital.com">www.athascap=
+ital.com</a>&lt;<a target=3D"_blank" href=3D"http://www.athascapital.com/">=
+http://www.athascapital.com/</a>&gt; <br></div><div>_______________________=
+_______ <br></div><div> &lt;image001.jpg&gt; <br></div><div>_______________=
+_______________ <br></div><div>Athas Capital Group's NMLS#: 275237 <br></di=
+v><div>Athas Capital Group's DBO#: 603 F869 <br></div><div> <br></div><div>=
+ <br></div><div>CONFIDENTIALITY NOTICE -- PRIVILEGED AND CONFIDENTIAL <br><=
+/div><div>This communication and any accompanying documents are confidentia=
+l and privileged. They are intended for the sole use of the addressee. If y=
+ou receive this transmission in error, you are advised that any disclosure,=
+ copying, distribution, or the taking of any action in reliance upon this c=
+ommunication is strictly prohibited. Moreover, any such inadvertent disclos=
+ure shall not compromise or waive any attorney-client privileges as to this=
+ communication or otherwise. If you have received this communication in err=
+or, please contact me at the above internet e-mail address. Thank you. <br>=
+</div><div> <br></div><div>Please Note: All Athas Capital Account Managers =
+are unavailable every day up until 9:30 AM. This time is dedicated solely f=
+or processing Pre-disclosures, conditions and vendor orders in an effort to=
+ provide our clients with faster over-all turn times in all facets of proce=
+ssing your loan.  All emails and voicemails will be reviewed and addressed =
+after 9:30 AM.  In the event you need to reach me for a valid emergency ple=
+ase let reception know the nature of your call and needs.  We appreciate yo=
+ur understanding and continued business! <br></div><div> <br></div><div>Fro=
+m: Sam Tehranchi &lt;<a target=3D"_blank" href=3D"mailto:sam@c-mtg.com">sam=
+@c-mtg.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:sam@c-mtg.com"=
+>sam@c-mtg.com</a>&gt;&gt; <br></div><div>Sent: Tuesday, July 10, 2018 5:05=
+ PM <br></div><div>To: Eve Sanchez &lt;<a target=3D"_blank" href=3D"mailto:=
+eve@c-mtg.com">eve@c-mtg.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mai=
+lto:eve@c-mtg.com">eve@c-mtg.com</a>&gt;&gt; <br></div><div>Cc: LeAnne Guim=
+ond &lt;<a target=3D"_blank" href=3D"mailto:Leanne@athascapital.com">Leanne=
+@athascapital.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:Leanne@=
+athascapital.com">Leanne@athascapital.com</a>&gt;&gt;; Tiffany Guimond &lt;=
+<a target=3D"_blank" href=3D"mailto:Tguimond@athascapital.com">Tguimond@ath=
+ascapital.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:Tguimond@at=
+hascapital.com">Tguimond@athascapital.com</a>&gt;&gt;; Kimberly Scott &lt;<=
+a target=3D"_blank" href=3D"mailto:Kimberly@athascapital.com">Kimberly@atha=
+scapital.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:Kimberly@ath=
+ascapital.com">Kimberly@athascapital.com</a>&gt;&gt;; Docs &lt;<a target=3D=
+"_blank" href=3D"mailto:Docs@athascapital.com">Docs@athascapital.com</a>&lt=
+;mailto:<a target=3D"_blank" href=3D"mailto:Docs@athascapital.com">Docs@ath=
+ascapital.com</a>&gt;&gt;; John Pina &lt;<a target=3D"_blank" href=3D"mailt=
+o:John@athascapital.com">John@athascapital.com</a>&lt;mailto:<a target=3D"_=
+blank" href=3D"mailto:John@athascapital.com">John@athascapital.com</a>&gt;&=
+gt;; Carrie Lewis &lt;<a target=3D"_blank" href=3D"mailto:clewis@finkellaw.=
+com">clewis@finkellaw.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto=
+:clewis@finkellaw.com">clewis@finkellaw.com</a>&gt;&gt;; Margaret Rabon &lt=
+;<a target=3D"_blank" href=3D"mailto:margaretrabon@aol.com">margaretrabon@a=
+ol.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:margaretrabon@aol.=
+com">margaretrabon@aol.com</a>&gt;&gt; <br></div><div>Subject: Re: APPROVED=
+!! JP - Josey - **Urgent** <br></div><div> <br></div><div>Hi LeAnne <br></d=
+iv><div> <br></div><div>Can you please advice regarding docs, borrower is w=
+aiting to sign before leaving put town. <br></div><div> <br></div><div>Plea=
+se advise at your earliest convenience. <br></div><div> <br></div><div>Than=
+k you <br></div><div> <br></div><div>Sam Tehranchi <br></div><div>310-709-6=
+304 <br></div><div>Sent from my iPhone <br></div><div> <br></div><div>On Ju=
+l 10, 2018, at 2:11 PM, Eve Sanchez &lt;<a target=3D"_blank" href=3D"mailto=
+:eve@c-mtg.com">eve@c-mtg.com</a>&lt;mailto:<a target=3D"_blank" href=3D"ma=
+ilto:eve@c-mtg.com">eve@c-mtg.com</a>&gt;&gt; wrote: <br></div><div>Hey guy=
+s, <br></div><div> <br></div><div>I just removed "Julie" the insurance  age=
+nt from this email thread. Let's make sure we are not copying her in future=
+  email correspondence for privacy purposes. <br></div><div> <br></div><div=
+>"Burnham, Julie" &lt;<a target=3D"_blank" href=3D"mailto:julie.burnham@nat=
+ionwide.com">julie.burnham@nationwide.com</a>&lt;mailto:<a target=3D"_blank=
+" href=3D"mailto:julie.burnham@nationwide.com">julie.burnham@nationwide.com=
+</a>&gt;&gt; <br></div><div> <br></div><div>Respectfully, <br></div><div>Ev=
+elyn Sanchez <br></div><div>Loan Processor <br></div><div>Custom Mortgage <=
+br></div><div>&lt;1.png&gt; <br></div><div>Direct: 818-384-7653 <br></div><=
+div>Fax: 866-421-7694 <br></div><div>Email: <a target=3D"_blank" href=3D"ma=
+ilto:Eve@c-mtg.com">Eve@c-mtg.com</a>&lt;mailto:<a target=3D"_blank" href=
+=3D"mailto:Karen@c-mtg.com">Karen@c-mtg.com</a>&gt; <br></div><div> <br></d=
+iv><div> <br></div><div> <br></div><div>---- On Tue, 10 Jul 2018 14:01:27 -=
+0700 LeAnne Guimond &lt;<a target=3D"_blank" href=3D"mailto:Leanne@athascap=
+ital.com">Leanne@athascapital.com</a>&lt;mailto:<a target=3D"_blank" href=
+=3D"mailto:Leanne@athascapital.com">Leanne@athascapital.com</a>&gt;&gt; wro=
+te ---- <br></div><div> <br></div><div> <br></div><div>I am looking into it=
+. I will circle back to you all shortly <br></div><div> <br></div><div> <br=
+></div><div> <br></div><div>LeAnne Guimond <br></div><div> <br></div><div> =
+<br></div><div> <br></div><div>Wholesale Account Manager <br></div><div> <b=
+r></div><div>877-877-1477 x1112 <br></div><div> <br></div><div>27001 Agoura=
+ Rd, Suite 200 <br></div><div> <br></div><div>Calabasas, CA 91301 <br></div=
+><div> <br></div><div><a target=3D"_blank" href=3D"mailto:leanne@athascapit=
+al.com">leanne@athascapital.com</a>&lt;mailto:<a target=3D"_blank" href=3D"=
+mailto:leanne@athascapital.com">leanne@athascapital.com</a>&gt; <br></div><=
+div> <br></div><div><a target=3D"_blank" href=3D"http://www.athascapital.co=
+m">www.athascapital.com</a>&lt;<a target=3D"_blank" href=3D"http://www.atha=
+scapital.com/">http://www.athascapital.com/</a>&gt; <br></div><div> <br></d=
+iv><div>______________________________ <br></div><div> <br></div><div> &lt;=
+2.jpg&gt; <br></div><div> <br></div><div>______________________________ <br=
+></div><div> <br></div><div>Athas Capital Group's NMLS#: 275237 <br></div><=
+div> <br></div><div>Athas Capital Group's DBO#: 603 F869 <br></div><div> <b=
+r></div><div> <br></div><div> <br></div><div> <br></div><div> <br></div><di=
+v>CONFIDENTIALITY NOTICE -- PRIVILEGED AND CONFIDENTIAL <br></div><div>This=
+ communication and any accompanying documents are confidential and privileg=
+ed. They are intended for the sole use of the addressee. If you receive thi=
+s transmission in error, you are advised that any disclosure, copying, dist=
+ribution, or the taking of any action in reliance upon this communication i=
+s strictly prohibited. Moreover, any such inadvertent disclosure shall not =
+compromise or waive any attorney-client privileges as to this communication=
+ or otherwise. If you have received this communication in error, please con=
+tact me at the above internet e-mail address. Thank you. <br></div><div> <b=
+r></div><div> <br></div><div> <br></div><div>Please Note: All Athas Capital=
+ Account Managers are unavailable every day up until 9:30 AM. This time is =
+dedicated solely for processing Pre-disclosures, conditions and vendor orde=
+rs in an effort to provide our clients with faster over-all turn times in a=
+ll facets of processing your loan.  All emails and voicemails will be revie=
+wed and addressed after 9:30 AM.  In the event you need to reach me for a v=
+alid emergency please let reception know the nature of your call and needs.=
+  We appreciate your understanding and continued business! <br></div><div> =
+<br></div><div> <br></div><div> <br></div><div>From: Eve Sanchez &lt;<a tar=
+get=3D"_blank" href=3D"mailto:eve@c-mtg.com">eve@c-mtg.com</a>&lt;mailto:<a=
+ target=3D"_blank" href=3D"mailto:eve@c-mtg.com">eve@c-mtg.com</a>&gt;&gt; =
+<br></div><div>Sent: Tuesday, July 10, 2018 1:14 PM <br></div><div>To: Tiff=
+any Guimond &lt;<a target=3D"_blank" href=3D"mailto:Tguimond@athascapital.c=
+om">Tguimond@athascapital.com</a>&lt;mailto:<a target=3D"_blank" href=3D"ma=
+ilto:Tguimond@athascapital.com">Tguimond@athascapital.com</a>&gt;&gt; <br><=
+/div><div>Cc: LeAnne Guimond &lt;<a target=3D"_blank" href=3D"mailto:Leanne=
+@athascapital.com">Leanne@athascapital.com</a>&lt;mailto:<a target=3D"_blan=
+k" href=3D"mailto:Leanne@athascapital.com">Leanne@athascapital.com</a>&gt;&=
+gt;; "Sam Tehranchi" &lt;<a target=3D"_blank" href=3D"mailto:sam@c-mtg.com"=
+>sam@c-mtg.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:sam@c-mtg.=
+com">sam@c-mtg.com</a>&gt;&gt;; Kimberly Scott &lt;<a target=3D"_blank" hre=
+f=3D"mailto:Kimberly@athascapital.com">Kimberly@athascapital.com</a>&lt;mai=
+lto:<a target=3D"_blank" href=3D"mailto:Kimberly@athascapital.com">Kimberly=
+@athascapital.com</a>&gt;&gt;; Docs &lt;<a target=3D"_blank" href=3D"mailto=
+:Docs@athascapital.com">Docs@athascapital.com</a>&lt;mailto:<a target=3D"_b=
+lank" href=3D"mailto:Docs@athascapital.com">Docs@athascapital.com</a>&gt;&g=
+t;; John Pina &lt;<a target=3D"_blank" href=3D"mailto:John@athascapital.com=
+">John@athascapital.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:J=
+ohn@athascapital.com">John@athascapital.com</a>&gt;&gt;; "Burnham, Julie" &=
+lt;<a target=3D"_blank" href=3D"mailto:julie.burnham@nationwide.com">julie.=
+burnham@nationwide.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:ju=
+lie.burnham@nationwide.com">julie.burnham@nationwide.com</a>&gt;&gt;; "Carr=
+ie Lewis" &lt;<a target=3D"_blank" href=3D"mailto:clewis@finkellaw.com">cle=
+wis@finkellaw.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:clewis@=
+finkellaw.com">clewis@finkellaw.com</a>&gt;&gt;; "Margaret Rabon" &lt;<a ta=
+rget=3D"_blank" href=3D"mailto:margaretrabon@aol.com">margaretrabon@aol.com=
+</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:margaretrabon@aol.com">m=
+argaretrabon@aol.com</a>&gt;&gt; <br></div><div>Subject: RE: APPROVED!! JP =
+- Josey - **Urgent** <br></div><div> <br></div><div> <br></div><div> <br></=
+div><div>Hello All, <br></div><div> <br></div><div> <br></div><div> <br></d=
+iv><div>Revised policy attached. Can we still get docs out today? <br></div=
+><div> <br></div><div> <br></div><div> <br></div><div>Respectfully, <br></d=
+iv><div> <br></div><div>Evelyn Sanchez <br></div><div> <br></div><div>Loan =
+Processor <br></div><div>Custom Mortgage <br></div><div> <br></div><div>&lt=
+;3.png&gt; <br></div><div> <br></div><div>Direct: 818-384-7653 <br></div><d=
+iv> <br></div><div>Fax: 866-421-7694 <br></div><div> <br></div><div>Email: =
+<a target=3D"_blank" href=3D"mailto:Eve@c-mtg.com">Eve@c-mtg.com</a>&lt;mai=
+lto:<a target=3D"_blank" href=3D"mailto:Karen@c-mtg.com">Karen@c-mtg.com</a=
+>&gt; <br></div><div> <br></div><div> <br></div><div> <br></div><div> <br><=
+/div><div> <br></div><div> <br></div><div> <br></div><div>---- On Tue, 10 J=
+ul 2018 09:55:41 -0700 Tiffany Guimond &lt;<a target=3D"_blank" href=3D"mai=
+lto:Tguimond@athascapital.com">Tguimond@athascapital.com</a>&lt;mailto:<a t=
+arget=3D"_blank" href=3D"mailto:Tguimond@athascapital.com">Tguimond@athasca=
+pital.com</a>&gt;&gt;wrote ---- <br></div><div> <br></div><div> <br></div><=
+div> <br></div><div>We need the increased coverage on this ASAP <br></div><=
+div> <br></div><div> <br></div><div> <br></div><div>Sincerely, <br></div><d=
+iv> <br></div><div> <br></div><div> <br></div><div>Tiffany Guimond <br></di=
+v><div> <br></div><div>Funding Manager <br></div><div> <br></div><div> <br>=
+</div><div> <br></div><div> <br></div><div> <br></div><div>27001 Agoura Roa=
+d, Ste. 200 <br></div><div> <br></div><div>Calabasas, CA 91301 <br></div><d=
+iv> <br></div><div>&lt;4.jpg&gt; <br></div><div> <br></div><div>ph: 877.877=
+.1477 ext. 1502 <br></div><div> <br></div><div>fax: 818.647.0175 <br></div>=
+<div> <br></div><div><a target=3D"_blank" href=3D"mailto:Tguimond@athascapi=
+tal.com">Tguimond@athascapital.com</a>&lt;mailto:<a target=3D"_blank" href=
+=3D"mailto:Tguimond@athascapital.com">Tguimond@athascapital.com</a>&gt; <br=
+></div><div> <br></div><div>Web: <a target=3D"_blank" href=3D"http://www.at=
+hascapital.com">www.athascapital.com</a>&lt;<a target=3D"_blank" href=3D"ht=
+tp://www.athascapital.com/">http://www.athascapital.com/</a>&gt; <br></div>=
+<div> <br></div><div> <br></div><div> <br></div><div>CONFIDENTIALITY NOTICE=
+ -- PRIVILEGED AND CONFIDENTIAL <br></div><div>This communication and any a=
+ccompanying documents are confidential and privileged. They are intended fo=
+r the sole use of the addressee. If you receive this transmission in error,=
+ you are advised that any disclosure, copying, distribution, or the taking =
+of any action in reliance upon this communication is strictly prohibited. M=
+oreover, any such inadvertent disclosure shall not compromise or waive the =
+attorney-client privileges as to this communication or otherwise. If you ha=
+ve received this communication in error, please contact me at the above int=
+ernet e-mail address. Thank you. <br></div><div> <br></div><div> <br></div>=
+<div> <br></div><div>From: LeAnne Guimond <br></div><div> <br></div><div>Se=
+nt: Monday, July 09, 2018 1:40 PM <br></div><div> <br></div><div>To: Sam Te=
+hranchi &lt;<a target=3D"_blank" href=3D"mailto:sam@c-mtg.com">sam@c-mtg.co=
+m</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:sam@c-mtg.com">sam@c-mt=
+g.com</a>&gt;&gt;; Kimberly Scott &lt;<a target=3D"_blank" href=3D"mailto:K=
+imberly@athascapital.com">Kimberly@athascapital.com</a>&lt;mailto:<a target=
+=3D"_blank" href=3D"mailto:Kimberly@athascapital.com">Kimberly@athascapital=
+.com</a>&gt;&gt; <br></div><div> <br></div><div>Cc: Docs &lt;<a target=3D"_=
+blank" href=3D"mailto:Docs@athascapital.com">Docs@athascapital.com</a>&lt;m=
+ailto:<a target=3D"_blank" href=3D"mailto:Docs@athascapital.com">Docs@athas=
+capital.com</a>&gt;&gt;; Followers of Ramirez-CA-Short-Sale-Loan-Mod &lt;<a=
+ target=3D"_blank" href=3D"mailto:eve@c-mtg.com">eve@c-mtg.com</a>&lt;mailt=
+o:<a target=3D"_blank" href=3D"mailto:eve@c-mtg.com">eve@c-mtg.com</a>&gt;&=
+gt;; John Pina &lt;<a target=3D"_blank" href=3D"mailto:John@athascapital.co=
+m">John@athascapital.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:=
+John@athascapital.com">John@athascapital.com</a>&gt;&gt;; Burnham, Julie &l=
+t;<a target=3D"_blank" href=3D"mailto:julie.burnham@nationwide.com">julie.b=
+urnham@nationwide.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:jul=
+ie.burnham@nationwide.com">julie.burnham@nationwide.com</a>&gt;&gt;; Carrie=
+ Lewis &lt;<a target=3D"_blank" href=3D"mailto:clewis@finkellaw.com">clewis=
+@finkellaw.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:clewis@fin=
+kellaw.com">clewis@finkellaw.com</a>&gt;&gt;; Margaret Rabon &lt;<a target=
+=3D"_blank" href=3D"mailto:margaretrabon@aol.com">margaretrabon@aol.com</a>=
+&lt;mailto:<a target=3D"_blank" href=3D"mailto:margaretrabon@aol.com">marga=
+retrabon@aol.com</a>&gt;&gt; <br></div><div> <br></div><div>Subject: RE: AP=
+PROVED!! JP - Josey - **Urgent** <br></div><div> <br></div><div> <br></div>=
+<div> <br></div><div>We not trying to Just the Dwelling please and hurry <b=
+r></div><div> <br></div><div> <br></div><div> <br></div><div>LeAnne Guimond=
+ <br></div><div> <br></div><div> <br></div><div> <br></div><div>Wholesale A=
+ccount Manager <br></div><div> <br></div><div>877-877-1477 x1112 <br></div>=
+<div> <br></div><div>27001 Agoura Rd, Suite 200 <br></div><div> <br></div><=
+div>Calabasas, CA 91301 <br></div><div> <br></div><div><a target=3D"_blank"=
+ href=3D"mailto:leanne@athascapital.com">leanne@athascapital.com</a>&lt;mai=
+lto:<a target=3D"_blank" href=3D"mailto:leanne@athascapital.com">leanne@ath=
+ascapital.com</a>&gt; <br></div><div> <br></div><div><a target=3D"_blank" h=
+ref=3D"http://www.athascapital.com">www.athascapital.com</a>&lt;<a target=
+=3D"_blank" href=3D"http://www.athascapital.com/">http://www.athascapital.c=
+om/</a>&gt; <br></div><div> <br></div><div>______________________________ <=
+br></div><div> <br></div><div> &lt;2.jpg&gt; <br></div><div> <br></div><div=
+>______________________________ <br></div><div> <br></div><div>Athas Capita=
+l Group's NMLS#: 275237 <br></div><div> <br></div><div>Athas Capital Group'=
+s DBO#: 603 F869 <br></div><div> <br></div><div> <br></div><div> <br></div>=
+<div> <br></div><div> <br></div><div>CONFIDENTIALITY NOTICE -- PRIVILEGED A=
+ND CONFIDENTIAL <br></div><div>This communication and any accompanying docu=
+ments are confidential and privileged. They are intended for the sole use o=
+f the addressee. If you receive this transmission in error, you are advised=
+ that any disclosure, copying, distribution, or the taking of any action in=
+ reliance upon this communication is strictly prohibited. Moreover, any suc=
+h inadvertent disclosure shall not compromise or waive any attorney-client =
+privileges as to this communication or otherwise. If you have received this=
+ communication in error, please contact me at the above internet e-mail add=
+ress. Thank you. <br></div><div> <br></div><div> <br></div><div> <br></div>=
+<div>Please Note: All Athas Capital Account Managers are unavailable every =
+day up until 9:30 AM. This time is dedicated solely for processing Pre-disc=
+losures, conditions and vendor orders in an effort to provide our clients w=
+ith faster over-all turn times in all facets of processing your loan.  All =
+emails and voicemails will be reviewed and addressed after 9:30 AM.  In the=
+ event you need to reach me for a valid emergency please let reception know=
+ the nature of your call and needs.  We appreciate your understanding and c=
+ontinued business! <br></div><div> <br></div><div> <br></div><div> <br></di=
+v><div>From: Sam Tehranchi &lt;<a target=3D"_blank" href=3D"mailto:sam@c-mt=
+g.com">sam@c-mtg.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:sam@=
+c-mtg.com">sam@c-mtg.com</a>&gt;&gt; <br></div><div> <br></div><div>Sent: M=
+onday, July 09, 2018 1:25 PM <br></div><div> <br></div><div>To: Kimberly Sc=
+ott &lt;<a target=3D"_blank" href=3D"mailto:Kimberly@athascapital.com">Kimb=
+erly@athascapital.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:Kim=
+berly@athascapital.com">Kimberly@athascapital.com</a>&gt;&gt; <br></div><di=
+v> <br></div><div>Cc: LeAnne Guimond &lt;<a target=3D"_blank" href=3D"mailt=
+o:Leanne@athascapital.com">Leanne@athascapital.com</a>&lt;mailto:<a target=
+=3D"_blank" href=3D"mailto:Leanne@athascapital.com">Leanne@athascapital.com=
+</a>&gt;&gt;; Docs &lt;<a target=3D"_blank" href=3D"mailto:Docs@athascapita=
+l.com">Docs@athascapital.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mai=
+lto:Docs@athascapital.com">Docs@athascapital.com</a>&gt;&gt;; Followers of =
+Ramirez-CA-Short-Sale-Loan-Mod &lt;<a target=3D"_blank" href=3D"mailto:eve@=
+c-mtg.com">eve@c-mtg.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:=
+eve@c-mtg.com">eve@c-mtg.com</a>&gt;&gt;; John Pina &lt;<a target=3D"_blank=
+" href=3D"mailto:John@athascapital.com">John@athascapital.com</a>&lt;mailto=
+:<a target=3D"_blank" href=3D"mailto:John@athascapital.com">John@athascapit=
+al.com</a>&gt;&gt;; Burnham, Julie &lt;<a target=3D"_blank" href=3D"mailto:=
+julie.burnham@nationwide.com">julie.burnham@nationwide.com</a>&lt;mailto:<a=
+ target=3D"_blank" href=3D"mailto:julie.burnham@nationwide.com">julie.burnh=
+am@nationwide.com</a>&gt;&gt;; Carrie Lewis &lt;<a target=3D"_blank" href=
+=3D"mailto:clewis@finkellaw.com">clewis@finkellaw.com</a>&lt;mailto:<a targ=
+et=3D"_blank" href=3D"mailto:clewis@finkellaw.com">clewis@finkellaw.com</a>=
+&gt;&gt;; Margaret Rabon &lt;<a target=3D"_blank" href=3D"mailto:margaretra=
+bon@aol.com">margaretrabon@aol.com</a>&lt;mailto:<a target=3D"_blank" href=
+=3D"mailto:margaretrabon@aol.com">margaretrabon@aol.com</a>&gt;&gt; <br></d=
+iv><div> <br></div><div>Subject: Re: APPROVED!! JP - Josey - **Urgent** <br=
+></div><div> <br></div><div> <br></div><div> <br></div><div>Hi Kimberly, th=
+ere is two policies on this deal, one for fire and one for flood.  The floo=
+d is already at the state maximum limit so I don=E2=80=99t think we can cha=
+nge that.  Can you please confirm we only need the Fire policy updated to r=
+eflect the new loan amount of 305,500.00. <br></div><div> <br></div><div> <=
+br></div><div> <br></div><div>Thank you <br></div><div> <br></div><div> <br=
+></div><div> <br></div><div>Respectfully, <br></div><div> <br></div><div> <=
+br></div><div>Sam Tehranchi <br></div><div> <br></div><div> <br></div><div>=
+COO <br></div><div>Custom Mortgage and Realty <br></div><div>NMLS CA # 1556=
+995 - BRE CA # 02018146 <br></div><div> <br></div><div>Direct 310.709.6304 =
+-Efax 866.421.7694 <br></div><div> <br></div><div><a target=3D"_blank" href=
+=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&lt;mailto:<a target=3D"_blank" =
+href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&gt; - <a target=3D"_blank" =
+href=3D"http://www.c-mtg.com">www.c-mtg.com</a>&lt;<a target=3D"_blank" hre=
+f=3D"http://www.c-mtg.com/">http://www.c-mtg.com/</a>&gt; <br></div><div> <=
+br></div><div>LinkedIn&lt;<a target=3D"_blank" href=3D"https://www.linkedin=
+.com/company-beta/3477964">https://www.linkedin.com/company-beta/3477964</a=
+>&gt; - Facebook&lt;<a target=3D"_blank" href=3D"https://www.facebook.com/C=
+ustom-Mortgage-409842885783868/">https://www.facebook.com/Custom-Mortgage-4=
+09842885783868/</a>&gt; - twitter&lt;<a target=3D"_blank" href=3D"https://t=
+witter.com/custommortgage1">https://twitter.com/custommortgage1</a>&gt; - I=
+nstagram&lt;<a target=3D"_blank" href=3D"https://www.instagram.com/custommo=
+rtgageinc/">https://www.instagram.com/custommortgageinc/</a>&gt; <br></div>=
+<div> <br></div><div> <br></div><div> <br></div><div>On Jul 9, 2018, at 12:=
+16 PM, Kimberly Scott &lt;<a target=3D"_blank" href=3D"mailto:Kimberly@atha=
+scapital.com">Kimberly@athascapital.com</a>&lt;mailto:<a target=3D"_blank" =
+href=3D"mailto:Kimberly@athascapital.com">Kimberly@athascapital.com</a>&gt;=
+&gt; wrote: <br></div><div> <br></div><div> <br></div><div> <br></div><div>=
+Hello, <br></div><div> <br></div><div> <br></div><div> <br></div><div>We wi=
+ll need the actual policy in order to release the loan docs. <br></div><div=
+> <br></div><div> <br></div><div> <br></div><div>Sincerely, <br></div><div>=
+ <br></div><div> <br></div><div> <br></div><div>Kimberly Scott <br></div><d=
+iv> <br></div><div>Doc Prep <br></div><div> <br></div><div> <br></div><div>=
+ <br></div><div>27001 Agoura Road, Ste. 200 <br></div><div> <br></div><div>=
+Calabasas, CA 91301 <br></div><div> <br></div><div>&lt;image002.jpg&gt; <br=
+></div><div> <br></div><div>ph: 877.877.1477 ext. 1119 <br></div><div> <br>=
+</div><div>fax: 818.647.0175 <br></div><div> <br></div><div><a target=3D"_b=
+lank" href=3D"mailto:Kimberly@athascapital.com">Kimberly@athascapital.com</=
+a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:Kimberly@athascapital.com"=
+>Kimberly@athascapital.com</a>&gt; <br></div><div> <br></div><div>Web: <a t=
+arget=3D"_blank" href=3D"http://www.athascapital.com">www.athascapital.com<=
+/a>&lt;<a target=3D"_blank" href=3D"http://www.athascapital.com/">http://ww=
+w.athascapital.com/</a>&gt; <br></div><div> <br></div><div> <br></div><div>=
+ <br></div><div>CONFIDENTIALITY NOTICE -- PRIVILEGED AND CONFIDENTIAL <br><=
+/div><div>This communication and any accompanying documents are confidentia=
+l and privileged. They are intended for the sole use of the addressee. If y=
+ou receive this transmission in error, you are advised that any disclosure,=
+ copying, distribution, or the taking of any action in reliance upon this c=
+ommunication is strictly prohibited. Moreover, any such inadvertent disclos=
+ure shall not compromise or waive the attorney-client privileges as to this=
+ communication or otherwise. If you have received this communication in err=
+or, please contact me at the above internet e-mail address. Thank you. <br>=
+</div><div> <br></div><div> <br></div><div> <br></div><div>From: LeAnne Gui=
+mond <br></div><div> <br></div><div>Sent: Monday, July 09, 2018 12:16 PM <b=
+r></div><div> <br></div><div>To: Sam Tehranchi &lt;<a target=3D"_blank" hre=
+f=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&lt;mailto:<a target=3D"_blank"=
+ href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&gt;&gt; <br></div><div> <b=
+r></div><div>Cc: Followers of Ramirez-CA-Short-Sale-Loan-Mod &lt;<a target=
+=3D"_blank" href=3D"mailto:eve@c-mtg.com">eve@c-mtg.com</a>&lt;mailto:<a ta=
+rget=3D"_blank" href=3D"mailto:eve@c-mtg.com">eve@c-mtg.com</a>&gt;&gt;; Jo=
+hn Pina &lt;<a target=3D"_blank" href=3D"mailto:John@athascapital.com">John=
+@athascapital.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:John@at=
+hascapital.com">John@athascapital.com</a>&gt;&gt;; Burnham, Julie &lt;<a ta=
+rget=3D"_blank" href=3D"mailto:julie.burnham@nationwide.com">julie.burnham@=
+nationwide.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:julie.burn=
+ham@nationwide.com">julie.burnham@nationwide.com</a>&gt;&gt;; Carrie Lewis =
+&lt;<a target=3D"_blank" href=3D"mailto:clewis@finkellaw.com">clewis@finkel=
+law.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:clewis@finkellaw.=
+com">clewis@finkellaw.com</a>&gt;&gt;; Margaret Rabon &lt;<a target=3D"_bla=
+nk" href=3D"mailto:margaretrabon@aol.com">margaretrabon@aol.com</a>&lt;mail=
+to:<a target=3D"_blank" href=3D"mailto:margaretrabon@aol.com">margaretrabon=
+@aol.com</a>&gt;&gt;; Kimberly Scott &lt;<a target=3D"_blank" href=3D"mailt=
+o:Kimberly@athascapital.com">Kimberly@athascapital.com</a>&lt;mailto:<a tar=
+get=3D"_blank" href=3D"mailto:Kimberly@athascapital.com">Kimberly@athascapi=
+tal.com</a>&gt;&gt; <br></div><div> <br></div><div>Subject: RE: APPROVED!! =
+JP - Josey - **Urgent** <br></div><div> <br></div><div> <br></div><div> <br=
+></div><div>I need the loan Amount or Cost to replace new <br></div><div> <=
+br></div><div> <br></div><div> <br></div><div>Loan Amount $305,500 <br></di=
+v><div> <br></div><div>CTRN $366, 840 <br></div><div> <br></div><div> <br><=
+/div><div> <br></div><div>Whichever is less <br></div><div> <br></div><div>=
+ <br></div><div> <br></div><div>LeAnne Guimond <br></div><div> <br></div><d=
+iv> <br></div><div> <br></div><div>Wholesale Account Manager <br></div><div=
+> <br></div><div>877-877-1477 x1112 <br></div><div> <br></div><div>27001 Ag=
+oura Rd, Suite 200 <br></div><div> <br></div><div>Calabasas, CA 91301 <br><=
+/div><div> <br></div><div><a target=3D"_blank" href=3D"mailto:leanne@athasc=
+apital.com">leanne@athascapital.com</a>&lt;mailto:<a target=3D"_blank" href=
+=3D"mailto:leanne@athascapital.com">leanne@athascapital.com</a>&gt; <br></d=
+iv><div> <br></div><div><a target=3D"_blank" href=3D"http://www.athascapita=
+l.com">www.athascapital.com</a>&lt;<a target=3D"_blank" href=3D"http://www.=
+athascapital.com/">http://www.athascapital.com/</a>&gt; <br></div><div> <br=
+></div><div>______________________________ <br></div><div> <br></div><div> =
+&lt;image003.jpg&gt; <br></div><div> <br></div><div>_______________________=
+_______ <br></div><div> <br></div><div>Athas Capital Group's NMLS#: 275237 =
+<br></div><div> <br></div><div>Athas Capital Group's DBO#: 603 F869 <br></d=
+iv><div> <br></div><div> <br></div><div> <br></div><div> <br></div><div> <b=
+r></div><div>CONFIDENTIALITY NOTICE -- PRIVILEGED AND CONFIDENTIAL <br></di=
+v><div>This communication and any accompanying documents are confidential a=
+nd privileged. They are intended for the sole use of the addressee. If you =
+receive this transmission in error, you are advised that any disclosure, co=
+pying, distribution, or the taking of any action in reliance upon this comm=
+unication is strictly prohibited. Moreover, any such inadvertent disclosure=
+ shall not compromise or waive any attorney-client privileges as to this co=
+mmunication or otherwise. If you have received this communication in error,=
+ please contact me at the above internet e-mail address. Thank you. <br></d=
+iv><div> <br></div><div> <br></div><div> <br></div><div>Please Note: All At=
+has Capital Account Managers are unavailable every day up until 9:30 AM. Th=
+is time is dedicated solely for processing Pre-disclosures, conditions and =
+vendor orders in an effort to provide our clients with faster over-all turn=
+ times in all facets of processing your loan.  All emails and voicemails wi=
+ll be reviewed and addressed after 9:30 AM.  In the event you need to reach=
+ me for a valid emergency please let reception know the nature of your call=
+ and needs.  We appreciate your understanding and continued business! <br><=
+/div><div> <br></div><div> <br></div><div> <br></div><div>From: Sam Tehranc=
+hi &lt;<a target=3D"_blank" href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>=
+&lt;mailto:<a target=3D"_blank" href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com=
+</a>&gt;&gt; <br></div><div> <br></div><div>Sent: Monday, July 09, 2018 11:=
+41 AM <br></div><div> <br></div><div>To: LeAnne Guimond &lt;<a target=3D"_b=
+lank" href=3D"mailto:Leanne@athascapital.com">Leanne@athascapital.com</a>&l=
+t;mailto:<a target=3D"_blank" href=3D"mailto:Leanne@athascapital.com">Leann=
+e@athascapital.com</a>&gt;&gt; <br></div><div> <br></div><div>Cc: Followers=
+ of Ramirez-CA-Short-Sale-Loan-Mod &lt;<a target=3D"_blank" href=3D"mailto:=
+eve@c-mtg.com">eve@c-mtg.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mai=
+lto:eve@c-mtg.com">eve@c-mtg.com</a>&gt;&gt;; John Pina &lt;<a target=3D"_b=
+lank" href=3D"mailto:John@athascapital.com">John@athascapital.com</a>&lt;ma=
+ilto:<a target=3D"_blank" href=3D"mailto:John@athascapital.com">John@athasc=
+apital.com</a>&gt;&gt;; Burnham, Julie &lt;<a target=3D"_blank" href=3D"mai=
+lto:julie.burnham@nationwide.com">julie.burnham@nationwide.com</a>&lt;mailt=
+o:<a target=3D"_blank" href=3D"mailto:julie.burnham@nationwide.com">julie.b=
+urnham@nationwide.com</a>&gt;&gt;; Carrie Lewis &lt;<a target=3D"_blank" hr=
+ef=3D"mailto:clewis@finkellaw.com">clewis@finkellaw.com</a>&lt;mailto:<a ta=
+rget=3D"_blank" href=3D"mailto:clewis@finkellaw.com">clewis@finkellaw.com</=
+a>&gt;&gt;; Margaret Rabon &lt;<a target=3D"_blank" href=3D"mailto:margaret=
+rabon@aol.com">margaretrabon@aol.com</a>&lt;mailto:<a target=3D"_blank" hre=
+f=3D"mailto:margaretrabon@aol.com">margaretrabon@aol.com</a>&gt;&gt;; Kimbe=
+rly Scott &lt;<a target=3D"_blank" href=3D"mailto:Kimberly@athascapital.com=
+">Kimberly@athascapital.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mail=
+to:Kimberly@athascapital.com">Kimberly@athascapital.com</a>&gt;&gt; <br></d=
+iv><div> <br></div><div>Subject: Re: APPROVED!! JP - Josey - **Urgent** <br=
+></div><div> <br></div><div> <br></div><div> <br></div><div>Hi LeAnne, per =
+our previous communications with Julie from the insurance company, She has =
+mentioned that they will go to replacement value which 297k would cover. <b=
+r></div><div> <br></div><div> <br></div><div> <br></div><div>Julie, please =
+confirm at your convenience if you can raise the coverage to 305k and if th=
+ere is any changes to the premium due to the increased coverage. <br></div>=
+<div> <br></div><div> <br></div><div> <br></div><div>Respectfully, <br></di=
+v><div> <br></div><div> <br></div><div> <br></div><div> <br></div><div> <br=
+></div><div>Sam Tehranchi <br></div><div> <br></div><div> <br></div><div> <=
+br></div><div> <br></div><div> <br></div><div>COO <br></div><div> <br></div=
+><div>Custom Mortgage and Realty <br></div><div> <br></div><div>NMLS CA # 1=
+556995 - BRE CA # 02018146 <br></div><div> <br></div><div> <br></div><div> =
+<br></div><div>Direct 310.709.6304 -Efax 866.421.7694 <br></div><div> <br><=
+/div><div> <br></div><div> <br></div><div><a target=3D"_blank" href=3D"mail=
+to:sam@c-mtg.com">sam@c-mtg.com</a>&lt;mailto:<a target=3D"_blank" href=3D"=
+mailto:sam@c-mtg.com">sam@c-mtg.com</a>&gt; - <a target=3D"_blank" href=3D"=
+http://www.c-mtg.com">www.c-mtg.com</a>&lt;<a target=3D"_blank" href=3D"htt=
+p://www.c-mtg.com/">http://www.c-mtg.com/</a>&gt; <br></div><div> <br></div=
+><div> <br></div><div> <br></div><div>LinkedIn&lt;<a target=3D"_blank" href=
+=3D"https://www.linkedin.com/company-beta/3477964">https://www.linkedin.com=
+/company-beta/3477964</a>&gt; - Facebook&lt;<a target=3D"_blank" href=3D"ht=
+tps://www.facebook.com/Custom-Mortgage-409842885783868/">https://www.facebo=
+ok.com/Custom-Mortgage-409842885783868/</a>&gt; - twitter&lt;<a target=3D"_=
+blank" href=3D"https://twitter.com/custommortgage1">https://twitter.com/cus=
+tommortgage1</a>&gt; - Instagram&lt;<a target=3D"_blank" href=3D"https://ww=
+w.instagram.com/custommortgageinc/">https://www.instagram.com/custommortgag=
+einc/</a>&gt; <br></div><div> <br></div><div> <br></div><div> <br></div><di=
+v>On Jul 9, 2018, at 11:31 AM, LeAnne Guimond &lt;<a target=3D"_blank" href=
+=3D"mailto:Leanne@athascapital.com">Leanne@athascapital.com</a>&lt;mailto:<=
+a target=3D"_blank" href=3D"mailto:Leanne@athascapital.com">Leanne@athascap=
+ital.com</a>&gt;&gt; wrote: <br></div><div> <br></div><div> <br></div><div>=
+ <br></div><div>I need the Updated Insurance Coverage to 305,500 <br></div>=
+<div> <br></div><div> <br></div><div> <br></div><div>I have sent a request =
+to Agent. Need before loan Docs can go out <br></div><div> <br></div><div> =
+<br></div><div> <br></div><div>LeAnne Guimond <br></div><div> <br></div><di=
+v> <br></div><div> <br></div><div>Wholesale Account Manager <br></div><div>=
+ <br></div><div>877-877-1477 x1112 <br></div><div> <br></div><div>27001 Ago=
+ura Rd, Suite 200 <br></div><div> <br></div><div>Calabasas, CA 91301 <br></=
+div><div> <br></div><div><a target=3D"_blank" href=3D"mailto:leanne@athasca=
+pital.com">leanne@athascapital.com</a>&lt;mailto:<a target=3D"_blank" href=
+=3D"mailto:leanne@athascapital.com">leanne@athascapital.com</a>&gt; <br></d=
+iv><div> <br></div><div><a target=3D"_blank" href=3D"http://www.athascapita=
+l.com">www.athascapital.com</a>&lt;<a target=3D"_blank" href=3D"http://www.=
+athascapital.com/">http://www.athascapital.com/</a>&gt; <br></div><div> <br=
+></div><div>______________________________ <br></div><div> <br></div><div> =
+&lt;image001.jpg&gt; <br></div><div> <br></div><div>_______________________=
+_______ <br></div><div> <br></div><div>Athas Capital Group's NMLS#: 275237 =
+<br></div><div> <br></div><div>Athas Capital Group's DBO#: 603 F869 <br></d=
+iv><div> <br></div><div> <br></div><div> <br></div><div> <br></div><div> <b=
+r></div><div>CONFIDENTIALITY NOTICE -- PRIVILEGED AND CONFIDENTIAL <br></di=
+v><div>This communication and any accompanying documents are confidential a=
+nd privileged. They are intended for the sole use of the addressee. If you =
+receive this transmission in error, you are advised that any disclosure, co=
+pying, distribution, or the taking of any action in reliance upon this comm=
+unication is strictly prohibited. Moreover, any such inadvertent disclosure=
+ shall not compromise or waive any attorney-client privileges as to this co=
+mmunication or otherwise. If you have received this communication in error,=
+ please contact me at the above internet e-mail address. Thank you. <br></d=
+iv><div> <br></div><div> <br></div><div> <br></div><div>Please Note: All At=
+has Capital Account Managers are unavailable every day up until 9:30 AM. Th=
+is time is dedicated solely for processing Pre-disclosures, conditions and =
+vendor orders in an effort to provide our clients with faster over-all turn=
+ times in all facets of processing your loan.  All emails and voicemails wi=
+ll be reviewed and addressed after 9:30 AM.  In the event you need to reach=
+ me for a valid emergency please let reception know the nature of your call=
+ and needs.  We appreciate your understanding and continued business! <br><=
+/div><div> <br></div><div> <br></div><div> <br></div><div>From: Eve Sanchez=
+ &lt;<a target=3D"_blank" href=3D"mailto:eve@c-mtg.com">eve@c-mtg.com</a>&l=
+t;mailto:<a target=3D"_blank" href=3D"mailto:eve@c-mtg.com">eve@c-mtg.com</=
+a>&gt;&gt; <br></div><div> <br></div><div>Sent: Monday, July 09, 2018 6:05 =
+AM <br></div><div> <br></div><div>To: LeAnne Guimond &lt;<a target=3D"_blan=
+k" href=3D"mailto:Leanne@athascapital.com">Leanne@athascapital.com</a>&lt;m=
+ailto:<a target=3D"_blank" href=3D"mailto:Leanne@athascapital.com">Leanne@a=
+thascapital.com</a>&gt;&gt;; John Pina &lt;<a target=3D"_blank" href=3D"mai=
+lto:John@athascapital.com">John@athascapital.com</a>&lt;mailto:<a target=3D=
+"_blank" href=3D"mailto:John@athascapital.com">John@athascapital.com</a>&gt=
+;&gt; <br></div><div> <br></div><div>Cc: "Sam Tehranchi" &lt;<a target=3D"_=
+blank" href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&lt;mailto:<a target=
+=3D"_blank" href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&gt;&gt;; LeAnne=
+ Guimond &lt;<a target=3D"_blank" href=3D"mailto:Leanne@athascapital.com">L=
+eanne@athascapital.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:Le=
+anne@athascapital.com">Leanne@athascapital.com</a>&gt;&gt;; "Carrie Lewis" =
+&lt;<a target=3D"_blank" href=3D"mailto:clewis@finkellaw.com">clewis@finkel=
+law.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:clewis@finkellaw.=
+com">clewis@finkellaw.com</a>&gt;&gt;; "Margaret Rabon" &lt;<a target=3D"_b=
+lank" href=3D"mailto:margaretrabon@aol.com">margaretrabon@aol.com</a>&lt;ma=
+ilto:<a target=3D"_blank" href=3D"mailto:margaretrabon@aol.com">margaretrab=
+on@aol.com</a>&gt;&gt; <br></div><div> <br></div><div>Subject: RE: APPROVED=
+!! JP - Josey - **Urgent** <br></div><div> <br></div><div> <br></div><div> =
+<br></div><div>Morning LeAnne, <br></div><div> <br></div><div> <br></div><d=
+iv> <br></div><div> <br></div><div> <br></div><div>We never heard back from=
+ you on Friday after multiple emails sent. Can you please advise on the sta=
+tus of the closing package for the above mentioned transaction? <br></div><=
+div> <br></div><div> <br></div><div> <br></div><div>Respectfully, <br></div=
+><div> <br></div><div>Evelyn Sanchez <br></div><div> <br></div><div>Loan Pr=
+ocessor <br></div><div>Custom Mortgage <br></div><div> <br></div><div>&lt;i=
+mage002.png&gt; <br></div><div> <br></div><div>Direct: 818-384-7653 <br></d=
+iv><div> <br></div><div>Fax: 866-421-7694 <br></div><div> <br></div><div>Em=
+ail: <a target=3D"_blank" href=3D"mailto:Eve@c-mtg.com">Eve@c-mtg.com</a>&l=
+t;mailto:<a target=3D"_blank" href=3D"mailto:Karen@c-mtg.com">Karen@c-mtg.c=
+om</a>&gt; <br></div><div> <br></div><div> <br></div><div> <br></div><div> =
+<br></div><div> <br></div><div> <br></div><div> <br></div><div>---- On Fri,=
+ 06 Jul 2018 10:23:48 -0700 Darla Walls &lt;<a target=3D"_blank" href=3D"ma=
+ilto:DWalls@FinkelLaw.com">DWalls@FinkelLaw.com</a>&lt;mailto:<a target=3D"=
+_blank" href=3D"mailto:DWalls@FinkelLaw.com">DWalls@FinkelLaw.com</a>&gt;&g=
+t; wrote ---- <br></div><div> <br></div><div> <br></div><div> <br></div><di=
+v>We have called off the closing for today as we have not received a loan p=
+ackage. <br></div><div> <br></div><div> <br></div><div> <br></div><div>Darl=
+a <br></div><div> <br></div><div> <br></div><div> <br></div><div>Darla Wall=
+s <br></div><div> <br></div><div>Real Estate Paralegal <br></div><div> <br>=
+</div><div>Finkel Law Firm LLC <br></div><div> <br></div><div>4000 Faber Pl=
+ace Drive, Suite 450 <br></div><div> <br></div><div>North Charleston, SC  2=
+9405 <br></div><div> <br></div><div><a target=3D"_blank" href=3D"mailto:dwa=
+lls@finkellaw.com">dwalls@finkellaw.com</a>&lt;mailto:<a target=3D"_blank" =
+href=3D"mailto:dwalls@finkellaw.com">dwalls@finkellaw.com</a>&gt; <br></div=
+><div> <br></div><div>Direct:  843-576-6340 <br></div><div> <br></div><div>=
+Fax No: 866-800-7947 <br></div><div> <br></div><div> <br></div><div> <br></=
+div><div>Mount Pleasant Office: <br></div><div> <br></div><div>1041 Johnnie=
+ Dodds Blvd., Suite 13-B <br></div><div> <br></div><div>Mount Pleasant, SC =
+29464 <br></div><div> <br></div><div> <br></div><div> <br></div><div>Columb=
+ia Office: <br></div><div> <br></div><div>1201 Main Street, Suite 1800 <br>=
+</div><div> <br></div><div>Columbia, SC 29201 <br></div><div> <br></div><di=
+v> <br></div><div> <br></div><div> <br></div><div> <br></div><div>Please no=
+te that all funds for real estate closings must be wired 24 hours prior to =
+closing.  DUE TO INCREASING FRAUD, PLEASE VERBALLY CONFIRM ANY WIRING INSTR=
+UCTIONS YOU RECEIVE.  FINKEL LAW FIRM DOES NOT CHANGE ITS WIRING INSTRUCTIO=
+NS.  PLEASE NOTIFY US IMMEDIATELY IF YOU RECEIVE REVISED INSTRUCTIONS. <br>=
+</div><div> <br></div><div> <br></div><div> <br></div><div> <br></div><div>=
+ <br></div><div> <br></div><div> <br></div><div>From: Sam Tehranchi [mailto=
+:<a target=3D"_blank" href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&lt;ma=
+ilto:<a target=3D"_blank" href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&g=
+t;] <br></div><div>Sent: Friday, July 06, 2018 11:49 AM <br></div><div>To: =
+Followers of Ramirez-CA-Short-Sale-Loan-Mod <br></div><div>Cc: Darla Walls;=
+ LeAnne Guimond <br></div><div>Subject: Re: APPROVED!! JP - Josey - UW Revi=
+ew <br></div><div> <br></div><div> <br></div><div> <br></div><div>Hi LeAnne=
+, <br></div><div> <br></div><div> <br></div><div> <br></div><div>Can you pl=
+ease advise regarding the closing docs on this transaction, the borrower an=
+d the closing attorney are trying to figure out if we can close today and n=
+eed your input.  Thank you <br></div><div> <br></div><div> <br></div><div> =
+<br></div><div>Respectfully, <br></div><div> <br></div><div> <br></div><div=
+>Sam Tehranchi <br></div><div> <br></div><div> <br></div><div>COO <br></div=
+><div>Custom Mortgage and Realty <br></div><div>NMLS CA # 1556995 - BRE CA =
+# 02018146 <br></div><div> <br></div><div>Direct 310.709.6304 -Efax 866.421=
+.7694 <br></div><div> <br></div><div><a target=3D"_blank" href=3D"mailto:sa=
+m@c-mtg.com">sam@c-mtg.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailt=
+o:sam@c-mtg.com">sam@c-mtg.com</a>&gt; - <a target=3D"_blank" href=3D"http:=
+//www.c-mtg.com">www.c-mtg.com</a>&lt;<a target=3D"_blank" href=3D"http://w=
+ww.c-mtg.com/">http://www.c-mtg.com/</a>&gt; <br></div><div> <br></div><div=
+>LinkedIn&lt;<a target=3D"_blank" href=3D"https://www.linkedin.com/company-=
+beta/3477964">https://www.linkedin.com/company-beta/3477964</a>&gt; - Faceb=
+ook&lt;<a target=3D"_blank" href=3D"https://www.facebook.com/Custom-Mortgag=
+e-409842885783868/">https://www.facebook.com/Custom-Mortgage-40984288578386=
+8/</a>&gt; - twitter&lt;<a target=3D"_blank" href=3D"https://twitter.com/cu=
+stommortgage1">https://twitter.com/custommortgage1</a>&gt; - Instagram&lt;<=
+a target=3D"_blank" href=3D"https://www.instagram.com/custommortgageinc/">h=
+ttps://www.instagram.com/custommortgageinc/</a>&gt; <br></div><div> <br></d=
+iv><div> <br></div><div> <br></div><div>On Jul 6, 2018, at 8:09 AM, Eve San=
+chez &lt;<a target=3D"_blank" href=3D"mailto:eve@c-mtg.com">eve@c-mtg.com</=
+a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:eve@c-mtg.com">eve@c-mtg.c=
+om</a>&gt;&gt; wrote: <br></div><div> <br></div><div> <br></div><div> <br><=
+/div><div>Hi LeAnne, <br></div><div> <br></div><div> <br></div><div> <br></=
+div><div>Did you receive Darlas email? Please advise. <br></div><div> <br><=
+/div><div> <br></div><div> <br></div><div> <br></div><div> <br></div><div> =
+<br></div><div> <br></div><div> <br></div><div> <br></div><div>Respectfully=
+, <br></div><div> <br></div><div>Evelyn Sanchez <br></div><div> <br></div><=
+div>Loan Processor <br></div><div>Custom Mortgage <br></div><div> <br></div=
+><div>&lt;1.png&gt; <br></div><div> <br></div><div>Direct: 818-384-7653 <br=
+></div><div> <br></div><div>Fax: 866-421-7694 <br></div><div> <br></div><di=
+v>Email: <a target=3D"_blank" href=3D"mailto:Eve@c-mtg.com">Eve@c-mtg.com</=
+a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:Karen@c-mtg.com">Karen@c-m=
+tg.com</a>&gt; <br></div><div> <br></div><div> <br></div><div> <br></div><d=
+iv> <br></div><div> <br></div><div> <br></div><div> <br></div><div>---- On =
+Fri, 06 Jul 2018 07:16:13 -0700 Darla Walls &lt;<a target=3D"_blank" href=
+=3D"mailto:DWalls@FinkelLaw.com">DWalls@FinkelLaw.com</a>&lt;mailto:<a targ=
+et=3D"_blank" href=3D"mailto:DWalls@FinkelLaw.com">DWalls@FinkelLaw.com</a>=
+&gt;&gt; wrote ---- <br></div><div> <br></div><div> <br></div><div> <br></d=
+iv><div>LeAnne, <br></div><div> <br></div><div> <br></div><div> <br></div><=
+div>Any word on the package?  If we don=E2=80=99t have in the next 15 minut=
+es or so we are going to have to move the date.  Our schedule today does no=
+t allow for a last minute loan package. <br></div><div> <br></div><div> <br=
+></div><div> <br></div><div>Please advise. <br></div><div> <br></div><div> =
+<br></div><div> <br></div><div>Darla <br></div><div> <br></div><div> <br></=
+div><div> <br></div><div>Darla Walls <br></div><div> <br></div><div>Real Es=
+tate Paralegal <br></div><div> <br></div><div>Finkel Law Firm LLC <br></div=
+><div> <br></div><div>4000 Faber Place Drive, Suite 450 <br></div><div> <br=
+></div><div>North Charleston, SC  29405 <br></div><div> <br></div><div><a t=
+arget=3D"_blank" href=3D"mailto:dwalls@finkellaw.com">dwalls@finkellaw.com<=
+/a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:dwalls@finkellaw.com">dwa=
+lls@finkellaw.com</a>&gt; <br></div><div> <br></div><div>Direct:  843-576-6=
+340 <br></div><div> <br></div><div>Fax No: 866-800-7947 <br></div><div> <br=
+></div><div> <br></div><div> <br></div><div>Mount Pleasant Office: <br></di=
+v><div> <br></div><div>1041 Johnnie Dodds Blvd., Suite 13-B <br></div><div>=
+ <br></div><div>Mount Pleasant, SC 29464 <br></div><div> <br></div><div> <b=
+r></div><div> <br></div><div>Columbia Office: <br></div><div> <br></div><di=
+v>1201 Main Street, Suite 1800 <br></div><div> <br></div><div>Columbia, SC =
+29201 <br></div><div> <br></div><div> <br></div><div> <br></div><div> <br><=
+/div><div> <br></div><div>Please note that all funds for real estate closin=
+gs must be wired 24 hours prior to closing.  DUE TO INCREASING FRAUD, PLEAS=
+E VERBALLY CONFIRM ANY WIRING INSTRUCTIONS YOU RECEIVE.  FINKEL LAW FIRM DO=
+ES NOT CHANGE ITS WIRING INSTRUCTIONS.  PLEASE NOTIFY US IMMEDIATELY IF YOU=
+ RECEIVE REVISED INSTRUCTIONS. <br></div><div> <br></div><div> <br></div><d=
+iv> <br></div><div> <br></div><div> <br></div><div> <br></div><div> <br></d=
+iv><div>From: LeAnne Guimond [mailto:<a target=3D"_blank" href=3D"mailto:Le=
+anne@athascapital.com">Leanne@athascapital.com</a>&lt;mailto:<a target=3D"_=
+blank" href=3D"mailto:Leanne@athascapital.com">Leanne@athascapital.com</a>&=
+gt;] <br></div><div>Sent: Thursday, July 05, 2018 3:18 PM <br></div><div>To=
+: Darla Walls; Sam Tehranchi; Followers of Ramirez-CA-Short-Sale-Loan-Mod <=
+br></div><div>Subject: RE: APPROVED!! JP - Josey - UW Review <br></div><div=
+> <br></div><div> <br></div><div> <br></div><div>It could take 24 =E2=80=93=
+ 48 hours. The latest would be Friday afternoon <br></div><div> <br></div><=
+div> <br></div><div> <br></div><div>LeAnne Guimond <br></div><div> <br></di=
+v><div> <br></div><div> <br></div><div>Wholesale Account Manager <br></div>=
+<div> <br></div><div>877-877-1477 x1112 <br></div><div> <br></div><div>2700=
+1 Agoura Rd, Suite 200 <br></div><div> <br></div><div>Calabasas, CA 91301 <=
+br></div><div> <br></div><div><a target=3D"_blank" href=3D"mailto:leanne@at=
+hascapital.com">leanne@athascapital.com</a>&lt;mailto:<a target=3D"_blank" =
+href=3D"mailto:leanne@athascapital.com">leanne@athascapital.com</a>&gt; <br=
+></div><div> <br></div><div><a target=3D"_blank" href=3D"http://www.athasca=
+pital.com">www.athascapital.com</a>&lt;<a target=3D"_blank" href=3D"http://=
+www.athascapital.com/">http://www.athascapital.com/</a>&gt; <br></div><div>=
+ <br></div><div>______________________________ <br></div><div> <br></div><d=
+iv> &lt;2.jpg&gt; <br></div><div> <br></div><div>__________________________=
+____ <br></div><div> <br></div><div>Athas Capital Group's NMLS#: 275237 <br=
+></div><div> <br></div><div>Athas Capital Group's DBO#: 603 F869 <br></div>=
+<div> <br></div><div> <br></div><div> <br></div><div> <br></div><div> <br><=
+/div><div>CONFIDENTIALITY NOTICE -- PRIVILEGED AND CONFIDENTIAL <br></div><=
+div>This communication and any accompanying documents are confidential and =
+privileged. They are intended for the sole use of the addressee. If you rec=
+eive this transmission in error, you are advised that any disclosure, copyi=
+ng, distribution, or the taking of any action in reliance upon this communi=
+cation is strictly prohibited. Moreover, any such inadvertent disclosure sh=
+all not compromise or waive any attorney-client privileges as to this commu=
+nication or otherwise. If you have received this communication in error, pl=
+ease contact me at the above internet e-mail address. Thank you. <br></div>=
+<div> <br></div><div> <br></div><div> <br></div><div>Please Note: All Athas=
+ Capital Account Managers are unavailable every day up until 9:30 AM. This =
+time is dedicated solely for processing Pre-disclosures, conditions and ven=
+dor orders in an effort to provide our clients with faster over-all turn ti=
+mes in all facets of processing your loan.  All emails and voicemails will =
+be reviewed and addressed after 9:30 AM.  In the event you need to reach me=
+ for a valid emergency please let reception know the nature of your call an=
+d needs.  We appreciate your understanding and continued business! <br></di=
+v><div> <br></div><div> <br></div><div> <br></div><div> <br></div><div> <br=
+></div><div>From: Darla Walls &lt;<a target=3D"_blank" href=3D"mailto:DWall=
+s@FinkelLaw.com">DWalls@FinkelLaw.com</a>&lt;mailto:<a target=3D"_blank" hr=
+ef=3D"mailto:DWalls@FinkelLaw.com">DWalls@FinkelLaw.com</a>&gt;&gt; <br></d=
+iv><div> <br></div><div>Sent: Thursday, July 05, 2018 12:14 PM <br></div><d=
+iv> <br></div><div>To: LeAnne Guimond &lt;<a target=3D"_blank" href=3D"mail=
+to:Leanne@athascapital.com">Leanne@athascapital.com</a>&lt;mailto:<a target=
+=3D"_blank" href=3D"mailto:Leanne@athascapital.com">Leanne@athascapital.com=
+</a>&gt;&gt;; Sam Tehranchi &lt;<a target=3D"_blank" href=3D"mailto:sam@c-m=
+tg.com">sam@c-mtg.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:sam=
+@c-mtg.com">sam@c-mtg.com</a>&gt;&gt;; Followers of Ramirez-CA-Short-Sale-L=
+oan-Mod &lt;<a target=3D"_blank" href=3D"mailto:eve@c-mtg.com">eve@c-mtg.co=
+m</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:eve@c-mtg.com">eve@c-mt=
+g.com</a>&gt;&gt; <br></div><div> <br></div><div>Subject: RE: APPROVED!! JP=
+ - Josey - UW Review <br></div><div> <br></div><div> <br></div><div> <br></=
+div><div> <br></div><div> <br></div><div>LeAnne, <br></div><div> <br></div>=
+<div> <br></div><div> <br></div><div>Will you be sending a loan package tod=
+ay? <br></div><div> <br></div><div> <br></div><div> <br></div><div> <br></d=
+iv><div> <br></div><div>Darla Walls <br></div><div> <br></div><div>Real Est=
+ate Paralegal <br></div><div> <br></div><div>Finkel Law Firm LLC <br></div>=
+<div> <br></div><div>4000 Faber Place Drive, Suite 450 <br></div><div> <br>=
+</div><div>North Charleston, SC  29405 <br></div><div> <br></div><div><a ta=
+rget=3D"_blank" href=3D"mailto:dwalls@finkellaw.com">dwalls@finkellaw.com</=
+a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:dwalls@finkellaw.com">dwal=
+ls@finkellaw.com</a>&gt; <br></div><div> <br></div><div>Direct:  843-576-63=
+40 <br></div><div> <br></div><div>Fax No: 866-800-7947 <br></div><div> <br>=
+</div><div> <br></div><div> <br></div><div>Mount Pleasant Office: <br></div=
+><div> <br></div><div>1041 Johnnie Dodds Blvd., Suite 13-B <br></div><div> =
+<br></div><div>Mount Pleasant, SC 29464 <br></div><div> <br></div><div> <br=
+></div><div> <br></div><div>Columbia Office: <br></div><div> <br></div><div=
+>1201 Main Street, Suite 1800 <br></div><div> <br></div><div>Columbia, SC 2=
+9201 <br></div><div> <br></div><div> <br></div><div> <br></div><div> <br></=
+div><div> <br></div><div>Please note that all funds for real estate closing=
+s must be wired 24 hours prior to closing.  DUE TO INCREASING FRAUD, PLEASE=
+ VERBALLY CONFIRM ANY WIRING INSTRUCTIONS YOU RECEIVE.  FINKEL LAW FIRM DOE=
+S NOT CHANGE ITS WIRING INSTRUCTIONS.  PLEASE NOTIFY US IMMEDIATELY IF YOU =
+RECEIVE REVISED INSTRUCTIONS. <br></div><div> <br></div><div> <br></div><di=
+v> <br></div><div> <br></div><div> <br></div><div> <br></div><div> <br></di=
+v><div>From: LeAnne Guimond [mailto:<a target=3D"_blank" href=3D"mailto:Lea=
+nne@athascapital.com">Leanne@athascapital.com</a>] <br></div><div>Sent: Thu=
+rsday, July 05, 2018 11:05 AM <br></div><div>To: Darla Walls; Sam Tehranchi=
+; Followers of Ramirez-CA-Short-Sale-Loan-Mod <br></div><div>Cc: <a target=
+=3D"_blank" href=3D"mailto:margaretrabon@aol.com">margaretrabon@aol.com</a>=
+&lt;mailto:<a target=3D"_blank" href=3D"mailto:margaretrabon@aol.com">marga=
+retrabon@aol.com</a>&gt; <br></div><div>Subject: RE: APPROVED!! JP - Josey =
+- UW Review <br></div><div> <br></div><div> <br></div><div> <br></div><div>=
+Correct, there is not a Rescission <br></div><div> <br></div><div> <br></di=
+v><div> <br></div><div>LeAnne Guimond <br></div><div> <br></div><div> <br><=
+/div><div> <br></div><div>Wholesale Account Manager <br></div><div> <br></d=
+iv><div>877-877-1477 x1112 <br></div><div> <br></div><div>27001 Agoura Rd, =
+Suite 200 <br></div><div> <br></div><div>Calabasas, CA 91301 <br></div><div=
+> <br></div><div><a target=3D"_blank" href=3D"mailto:leanne@athascapital.co=
+m">leanne@athascapital.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailt=
+o:leanne@athascapital.com">leanne@athascapital.com</a>&gt; <br></div><div> =
+<br></div><div><a target=3D"_blank" href=3D"http://www.athascapital.com">ww=
+w.athascapital.com</a>&lt;<a target=3D"_blank" href=3D"http://www.athascapi=
+tal.com/">http://www.athascapital.com/</a>&gt; <br></div><div> <br></div><d=
+iv>______________________________ <br></div><div> <br></div><div> &lt;2.jpg=
+&gt; <br></div><div> <br></div><div>______________________________ <br></di=
+v><div> <br></div><div>Athas Capital Group's NMLS#: 275237 <br></div><div> =
+<br></div><div>Athas Capital Group's DBO#: 603 F869 <br></div><div> <br></d=
+iv><div> <br></div><div> <br></div><div> <br></div><div> <br></div><div>CON=
+FIDENTIALITY NOTICE -- PRIVILEGED AND CONFIDENTIAL <br></div><div>This comm=
+unication and any accompanying documents are confidential and privileged. T=
+hey are intended for the sole use of the addressee. If you receive this tra=
+nsmission in error, you are advised that any disclosure, copying, distribut=
+ion, or the taking of any action in reliance upon this communication is str=
+ictly prohibited. Moreover, any such inadvertent disclosure shall not compr=
+omise or waive any attorney-client privileges as to this communication or o=
+therwise. If you have received this communication in error, please contact =
+me at the above internet e-mail address. Thank you. <br></div><div> <br></d=
+iv><div> <br></div><div> <br></div><div>Please Note: All Athas Capital Acco=
+unt Managers are unavailable every day up until 9:30 AM. This time is dedic=
+ated solely for processing Pre-disclosures, conditions and vendor orders in=
+ an effort to provide our clients with faster over-all turn times in all fa=
+cets of processing your loan.  All emails and voicemails will be reviewed a=
+nd addressed after 9:30 AM.  In the event you need to reach me for a valid =
+emergency please let reception know the nature of your call and needs.  We =
+appreciate your understanding and continued business! <br></div><div> <br><=
+/div><div> <br></div><div> <br></div><div> <br></div><div> <br></div><div>F=
+rom: Darla Walls &lt;<a target=3D"_blank" href=3D"mailto:DWalls@FinkelLaw.c=
+om">DWalls@FinkelLaw.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:=
+DWalls@FinkelLaw.com">DWalls@FinkelLaw.com</a>&gt;&gt; <br></div><div> <br>=
+</div><div>Sent: Thursday, July 05, 2018 6:43 AM <br></div><div> <br></div>=
+<div>To: LeAnne Guimond &lt;<a target=3D"_blank" href=3D"mailto:Leanne@atha=
+scapital.com">Leanne@athascapital.com</a>&lt;mailto:<a target=3D"_blank" hr=
+ef=3D"mailto:Leanne@athascapital.com">Leanne@athascapital.com</a>&gt;&gt;; =
+Sam Tehranchi &lt;<a target=3D"_blank" href=3D"mailto:sam@c-mtg.com">sam@c-=
+mtg.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:sam@c-mtg.com">sa=
+m@c-mtg.com</a>&gt;&gt;; Followers of Ramirez-CA-Short-Sale-Loan-Mod &lt;<a=
+ target=3D"_blank" href=3D"mailto:eve@c-mtg.com">eve@c-mtg.com</a>&lt;mailt=
+o:<a target=3D"_blank" href=3D"mailto:eve@c-mtg.com">eve@c-mtg.com</a>&gt;&=
+gt; <br></div><div> <br></div><div>Cc: <a target=3D"_blank" href=3D"mailto:=
+margaretrabon@aol.com">margaretrabon@aol.com</a>&lt;mailto:<a target=3D"_bl=
+ank" href=3D"mailto:margaretrabon@aol.com">margaretrabon@aol.com</a>&gt; <b=
+r></div><div> <br></div><div>Subject: RE: APPROVED!! JP - Josey - UW Review=
+ <br></div><div> <br></div><div> <br></div><div> <br></div><div> <br></div>=
+<div> <br></div><div>Attached is a revised settlement statement.  Please co=
+nfirm the interim interest amount =E2=80=93 there is not a 3 day rescission=
+ correct?  Also, the title insurance premium changed with the increased loa=
+n amount. <br></div><div> <br></div><div> <br></div><div> <br></div><div>Th=
+anks, <br></div><div> <br></div><div>Darla <br></div><div> <br></div><div> =
+<br></div><div> <br></div><div>Darla Walls <br></div><div> <br></div><div>R=
+eal Estate Paralegal <br></div><div> <br></div><div>Finkel Law Firm LLC <br=
+></div><div> <br></div><div>4000 Faber Place Drive, Suite 450 <br></div><di=
+v> <br></div><div>North Charleston, SC  29405 <br></div><div> <br></div><di=
+v><a target=3D"_blank" href=3D"mailto:dwalls@finkellaw.com">dwalls@finkella=
+w.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:dwalls@finkellaw.co=
+m">dwalls@finkellaw.com</a>&gt; <br></div><div> <br></div><div>Direct:  843=
+-576-6340 <br></div><div> <br></div><div>Fax No: 866-800-7947 <br></div><di=
+v> <br></div><div> <br></div><div> <br></div><div>Mount Pleasant Office: <b=
+r></div><div> <br></div><div>1041 Johnnie Dodds Blvd., Suite 13-B <br></div=
+><div> <br></div><div>Mount Pleasant, SC 29464 <br></div><div> <br></div><d=
+iv> <br></div><div> <br></div><div>Columbia Office: <br></div><div> <br></d=
+iv><div>1201 Main Street, Suite 1800 <br></div><div> <br></div><div>Columbi=
+a, SC 29201 <br></div><div> <br></div><div> <br></div><div> <br></div><div>=
+ <br></div><div> <br></div><div>Please note that all funds for real estate =
+closings must be wired 24 hours prior to closing.  DUE TO INCREASING FRAUD,=
+ PLEASE VERBALLY CONFIRM ANY WIRING INSTRUCTIONS YOU RECEIVE.  FINKEL LAW F=
+IRM DOES NOT CHANGE ITS WIRING INSTRUCTIONS.  PLEASE NOTIFY US IMMEDIATELY =
+IF YOU RECEIVE REVISED INSTRUCTIONS. <br></div><div> <br></div><div> <br></=
+div><div> <br></div><div> <br></div><div> <br></div><div> <br></div><div> <=
+br></div><div>From: LeAnne Guimond [mailto:<a target=3D"_blank" href=3D"mai=
+lto:Leanne@athascapital.com">Leanne@athascapital.com</a>] <br></div><div>Se=
+nt: Wednesday, July 04, 2018 11:45 AM <br></div><div>To: Sam Tehranchi; Fol=
+lowers of Ramirez-CA-Short-Sale-Loan-Mod <br></div><div>Cc: Darla Walls; <a=
+ target=3D"_blank" href=3D"mailto:margaretrabon@aol.com">margaretrabon@aol.=
+com</a>&lt;mailto:<a target=3D"_blank" href=3D"mailto:margaretrabon@aol.com=
+">margaretrabon@aol.com</a>&gt; <br></div><div>Subject: APPROVED!! JP - Jos=
+ey - UW Review <br></div><div>Importance: High <br></div><div> <br></div><d=
+iv> <br></div><div> <br></div><div>We got the loan Approved at $305,500. I =
+need an Updated Closing Statement reflecting the following Changes <br></di=
+v><div> <br></div><div> <br></div><div> <br></div><div>=E2=80=A2         Lo=
+an Amount $305,500 <br></div><div> <br></div><div>=E2=80=A2         Lender =
+Pts (2) $6,110 <br></div><div> <br></div><div>=E2=80=A2         Broker Pts =
+(1.5) $4,582.50 <br></div><div> <br></div><div>=E2=80=A2         ENTITY Doc=
+ Review Fee $555 <br></div><div> <br></div><div>=E2=80=A2         Per Diem =
+at 6.5% for 20 days <br></div><div> <br></div><div> <br></div><div> <br></d=
+iv><div>Everything else stays the same until Updated Insurance comes <br></=
+div><div> <br></div><div> <br></div><div> <br></div><div>LeAnne Guimond <br=
+></div><div> <br></div><div> <br></div><div> <br></div><div>Wholesale Accou=
+nt Manager <br></div><div> <br></div><div>877-877-1477 x1112 <br></div><div=
+> <br></div><div>27001 Agoura Rd, Suite 200 <br></div><div> <br></div><div>=
+Calabasas, CA 91301 <br></div><div> <br></div><div><a target=3D"_blank" hre=
+f=3D"mailto:leanne@athascapital.com">leanne@athascapital.com</a>&lt;mailto:=
+<a target=3D"_blank" href=3D"mailto:leanne@athascapital.com">leanne@athasca=
+pital.com</a>&gt; <br></div><div> <br></div><div><a target=3D"_blank" href=
+=3D"http://www.athascapital.com">www.athascapital.com</a>&lt;<a target=3D"_=
+blank" href=3D"http://www.athascapital.com/">http://www.athascapital.com/</=
+a>&gt; <br></div><div> <br></div><div>______________________________ <br></=
+div><div> <br></div><div> &lt;2.jpg&gt; <br></div><div> <br></div><div>____=
+__________________________ <br></div><div> <br></div><div>Athas Capital Gro=
+up's NMLS#: 275237 <br></div><div> <br></div><div>Athas Capital Group's DBO=
+#: 603 F869 <br></div><div> <br></div><div> <br></div><div> <br></div><div>=
+ <br></div><div> <br></div><div>CONFIDENTIALITY NOTICE -- PRIVILEGED AND CO=
+NFIDENTIAL <br></div><div>This communication and any accompanying documents=
+ are confidential and privileged. They are intended for the sole use of the=
+ addressee. If you receive this transmission in error, you are advised that=
+ any disclosure, copying, distribution, or the taking of any action in reli=
+ance upon this communication is strictly prohibited. Moreover, any such ina=
+dvertent disclosure shall not compromise or waive any attorney-client privi=
+leges as to this communication or otherwise. If you have received this comm=
+unication in error, please contact me at the above internet e-mail address.=
+ Thank you. <br></div><div> <br></div><div> <br></div><div> <br></div><div>=
+Please Note: All Athas Capital Account Managers are unavailable every day u=
+p until 9:30 AM. This time is dedicated solely for processing Pre-disclosur=
+es, conditions and vendor orders in an effort to provide our clients with f=
+aster over-all turn times in all facets of processing your loan.  All email=
+s and voicemails will be reviewed and addressed after 9:30 AM.  In the even=
+t you need to reach me for a valid emergency please let reception know the =
+nature of your call and needs.  We appreciate your understanding and contin=
+ued business! <br></div><div> <br></div><div> <br></div><div> <br></div><di=
+v> <br></div><div> <br></div><div>From: Sam Tehranchi &lt;<a target=3D"_bla=
+nk" href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&lt;mailto:<a target=3D"=
+_blank" href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&gt;&gt; <br></div><=
+div> <br></div><div>Sent: Tuesday, July 03, 2018 8:54 AM <br></div><div> <b=
+r></div><div>To: Followers of Ramirez-CA-Short-Sale-Loan-Mod &lt;<a target=
+=3D"_blank" href=3D"mailto:eve@c-mtg.com">eve@c-mtg.com</a>&lt;mailto:<a ta=
+rget=3D"_blank" href=3D"mailto:eve@c-mtg.com">eve@c-mtg.com</a>&gt;&gt; <br=
+></div><div> <br></div><div>Cc: LeAnne Guimond &lt;<a target=3D"_blank" hre=
+f=3D"mailto:Leanne@athascapital.com">Leanne@athascapital.com</a>&lt;mailto:=
+<a target=3D"_blank" href=3D"mailto:Leanne@athascapital.com">Leanne@athasca=
+pital.com</a>&gt;&gt;; Darla Walls &lt;<a target=3D"_blank" href=3D"mailto:=
+dwalls@finkellaw.com">dwalls@finkellaw.com</a>&lt;mailto:<a target=3D"_blan=
+k" href=3D"mailto:dwalls@finkellaw.com">dwalls@finkellaw.com</a>&gt;&gt; <b=
+r></div><div> <br></div><div>Subject: Re: URGENT JP - Josey - UW Review <br=
+></div><div> <br></div><div> <br></div><div> <br></div><div> <br></div><div=
+> <br></div><div>Hi LeAnne : ) <br></div><div> <br></div><div> <br></div><d=
+iv> <br></div><div>I am a little confused about why we are putting South Ca=
+rolina LLC on the loan docs for vesting because Riverwalk LLC is a North Ca=
+rolina LLC. <br></div><div> <br></div><div> <br></div><div> <br></div><div>=
+Please advise regarding why we are adding South Carolina. <br></div><div> <=
+br></div><div> <br></div><div> <br></div><div>I also wanted to find out if =
+Darla=E2=80=99s office can do the Entity check since they are already part =
+of the transaction and have already verified the LLC. <br></div><div> <br><=
+/div><div> <br></div><div> <br></div><div>Respectfully, <br></div><div> <br=
+></div><div> <br></div><div>Sam Tehranchi <br></div><div> <br></div><div> <=
+br></div><div>COO <br></div><div>Custom Mortgage and Realty <br></div><div>=
+NMLS CA # 1556995 - BRE CA # 02018146 <br></div><div> <br></div><div>Direct=
+ 310.709.6304 -Efax 866.421.7694 <br></div><div> <br></div><div><a target=
+=3D"_blank" href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&lt;mailto:<a ta=
+rget=3D"_blank" href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&gt; - <a ta=
+rget=3D"_blank" href=3D"http://www.c-mtg.com">www.c-mtg.com</a>&lt;<a targe=
+t=3D"_blank" href=3D"http://www.c-mtg.com/">http://www.c-mtg.com/</a>&gt; <=
+br></div><div> <br></div><div>LinkedIn&lt;<a target=3D"_blank" href=3D"http=
+s://www.linkedin.com/company-beta/3477964">https://www.linkedin.com/company=
+-beta/3477964</a>&gt; - Facebook&lt;<a target=3D"_blank" href=3D"https://ww=
+w.facebook.com/Custom-Mortgage-409842885783868/">https://www.facebook.com/C=
+ustom-Mortgage-409842885783868/</a>&gt; - twitter&lt;<a target=3D"_blank" h=
+ref=3D"https://twitter.com/custommortgage1">https://twitter.com/custommortg=
+age1</a>&gt; - Instagram&lt;<a target=3D"_blank" href=3D"https://www.instag=
+ram.com/custommortgageinc/">https://www.instagram.com/custommortgageinc/</a=
+>&gt; <br></div><div> <br></div><div> <br></div><div> <br></div><div>On Jul=
+ 3, 2018, at 8:33 AM, Eve Sanchez &lt;<a target=3D"_blank" href=3D"mailto:e=
+ve@c-mtg.com">eve@c-mtg.com</a>&lt;mailto:<a target=3D"_blank" href=3D"mail=
+to:eve@c-mtg.com">eve@c-mtg.com</a>&gt;&gt; wrote: <br></div><div> <br></di=
+v><div> <br></div><div> <br></div><div>Morning LeAnne, <br></div><div> <br>=
+</div><div> <br></div><div> <br></div><div>Now that you have everything, ho=
+w soon can we get this one scheduled to close? Tomorrow is a holiday and ou=
+r borrower leaves on Friday. Please advise. <br></div><div> <br></div><div>=
+ <br></div><div> <br></div><div>Respectfully, <br></div><div> <br></div><di=
+v>Evelyn Sanchez <br></div><div> <br></div><div>Loan Processor <br></div><d=
+iv>Custom Mortgage <br></div><div> <br></div><div>&lt;1.png&gt; <br></div><=
+div> <br></div><div>Direct: 818-384-7653 <br></div><div> <br></div><div>Fax=
+: 866-421-7694 <br></div><div> <br></div><div>Email: <a target=3D"_blank" h=
+ref=3D"mailto:Eve@c-mtg.com">Eve@c-mtg.com</a>&lt;mailto:<a target=3D"_blan=
+k" href=3D"mailto:Karen@c-mtg.com">Karen@c-mtg.com</a>&gt; <br></div><div> =
+<br></div></div></blockquote></div><div><br></div></div><br></body></html>
+------=_Part_68944_2095037282.1531320432274
+Content-Type: image/png; name=1.png
+Content-Transfer-Encoding: base64
+Content-Disposition: inline; filename=1.png
+Content-ID: <0.28869215210.155611503443000549.16489cf7683__inline__img__src>
+
+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
+------=_Part_68944_2095037282.1531320432274--
+
+------=_Part_68943_1317871434.1531320432259--
+

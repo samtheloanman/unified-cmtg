@@ -1,0 +1,714 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 209.85.221.53 as permitted sender) client-ip=209.85.221.53; envelope-from=mahsajune@gmail.com; helo=mail-wr1-f53.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 209.85.221.53 as permitted sender)  smtp.mailfrom=mahsajune@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Return-Path: <mahsajune@gmail.com>
+Received: from mail-wr1-f53.google.com (mail-wr1-f53.google.com [209.85.221.53]) by mx.zohomail.com
+	with SMTPS id 1531954712696794.6073323549946; Wed, 18 Jul 2018 15:58:32 -0700 (PDT)
+Received: by mail-wr1-f53.google.com with SMTP id q10-v6so6187011wrd.4
+        for <sam@c-mtg.com>; Wed, 18 Jul 2018 15:58:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=G3HiSRRQ2bZAKg/grKS7i6lcLcA2E3tX76Ezjbf5zAM=;
+        b=WDkqlz1I3cJiVODweu+OFa/zR0t/wASwpY8N6rjXwe/I+Ebpf2FcyjvPOuyN5sQsco
+         VzPnM+vy8RBGo92CWcRcqa6cSrLpzFe8MTQGuwcs6f3rO3sJrOnzi+EJvjzAl8QLYX7J
+         P0mx9ugMTdPH3eRGflT1xz4RL/W/YQOaPRc6qVGgtZ0Do+jaBEKjswhEhi3mMNBHR3BE
+         Ea4C68cbDdlN2BrJGmjoz68mLkPR4bW61uXsRG4FgQt8aCENANP5NSXg9+SwjpukQu3b
+         N1LnhzOF1nPmuAV0bgYa3U2/CEgX4uDj33Hzm+JwpVdjbyQQNaOUpv2dd0wiQFzAHyM4
+         Vj/Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=G3HiSRRQ2bZAKg/grKS7i6lcLcA2E3tX76Ezjbf5zAM=;
+        b=uAamZKMNjgJhKOV7+MCU7he0nctoYi9hUPw93I8lAqHR6PdFDx/8mRNqHpSxyiJsG1
+         AKtRwaIoDApXZWTjKIvdQkcnYzzd5DSwSlNUgW487nL584HDRu0Pd5E9dWs7zk/25ezG
+         z4VhC8pZtPzAUQdUEAezOtn3iyoZXIyqkown9A/WkLlmsX+nBR+9QJ8aRj10bS+pafSo
+         cwXOybSz5gXRTrTvguLicitAyxMVPCJChMn9UWqBnMvH5xZgZdtoOSXjfU5ddSulnW76
+         ZGKPuTqxyOCqNquq5coqhTqtKBN86wpe9CitTAkL2JT1BebJr+IKUUqeYkC5IgfWwmhX
+         sAlg==
+X-Gm-Message-State: AOUpUlFb8CDsUMfVjPoaWrs/7VmIlUbU1JR4K/xGXSwXCV30A5nDVW3u
+	gdm4P8vFddc6PdRCYFfJlvfVdqq5D0evIbSzH3U=
+X-Google-Smtp-Source: AAOMgpfaHkYCgKiGdtNXsnjnM+LEHhRzEfOHCkF5SrtiQbqGp5+eNvaKG+0qvbBcnBFDrgdBvK5SIxQSVT7H5yMmW1A=
+X-Received: by 2002:adf:d142:: with SMTP id b2-v6mr5633755wri.17.1531954710328;
+ Wed, 18 Jul 2018 15:58:30 -0700 (PDT)
+MIME-Version: 1.0
+References: <712a274d-682e-4e18-ba5b-6d17f20f110f@docs-share.google.com>
+ <00000000000026347005712b1068@google.com> <CO2PR05MB2503FC99C8D55FED7F65FE02C25C0@CO2PR05MB2503.namprd05.prod.outlook.com>
+ <CAAs4AczsSB6YLEFbrAG3XDvaHnhHDH9zjYp6-KXSThnqHiMoLQ@mail.gmail.com>
+ <CO2PR05MB25030BC4DB091856B4E64C5BC25C0@CO2PR05MB2503.namprd05.prod.outlook.com>
+ <CAAs4Acz=Kvu0Tv93A88Em+dddrLSp=bc3MZOyMS9fQ-DxT=D+w@mail.gmail.com> <CAAs4AcycNy--c9VGGyGonhSWuLUa5LTjvEZ24J_=L4ZcBrOb_A@mail.gmail.com>
+In-Reply-To: <CAAs4AcycNy--c9VGGyGonhSWuLUa5LTjvEZ24J_=L4ZcBrOb_A@mail.gmail.com>
+From: Mahsa Jaeger <mahsajune@gmail.com>
+Date: Wed, 18 Jul 2018 15:57:53 -0700
+Message-ID:<CAAs4Acxxqt0vSTD0apGTYSJSfcz8PdjSqtrafTW9YUD=0J7Bpw@mail.gmail.com>
+Subject: Re: Emergency Petition for Temporary Orders.docx - Invitation to edit
+To: Allie Stoddard <allie@stoddardlawgroup.com>, Sam Tehranchi <sam@c-mtg.com>
+Content-Type: multipart/alternative; boundary="000000000000523aae05714e00a7"
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_167 FRD_NDS SPK
+X-ZM-MESSAGEID: 1531954714764100001
+X-ZohoMail-Status: 1
+
+
+--000000000000523aae05714e00a7
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Allie, I was Just Thinking we forgot to put his propercomm update issue in
+there...I know we said its not that big of a deal, but the more I think
+about it, its another form of Alienation not letting me know how my child
+is doing. No one gave me an update on my child since Nov 2016 until Nov
+2017. Thats Alienation!
+
+I'm thinking the basics of our temporary order is that a Crazy Manic,
+Bipolar almost Schizophrenic, ( he sees stuff and believes them, thats why
+he makes things up) man with a 35 year history of Drug use, thats abusive
+in every manner was given my child, without anyone checking on his state of
+mind and health & meds.
+
+We don't have a shred of paper or evidence of his health and treatment he
+claims he attended giving us a peace of mind that my child is Ok.
+
+He is still displaying the same behavior (Jamies office) and thats
+concerning!!!
+
+I really think thats our emergency that's is way overdue!
+
+We all know he did not get well overnight....
+
+
+
+On Wed, Jul 18, 2018 at 2:37 PM Mahsa Jaeger <mahsajune@gmail.com> wrote:
+
+> Hi Allie,
+>
+> Just checking in :)
+>
+> On Tue, Jul 17, 2018 at 2:25 PM Mahsa Jaeger <mahsajune@gmail.com> wrote:
+>
+>> Hi Allie
+>>
+>> Attached is the word document and also the potential Exhibits (I know yo=
+u
+>> said no exhibits but please try to include).  The In Loco Parentis Jan
+>> Filed included several Exhibits so we wanted to try to include these
+>> crutial information.
+>>
+>> Regarding the death threats, are you able to include the sound files in
+>> the filing, my brother said you can embed sound and image files in the P=
+DF
+>> document so if that's ok.
+>>
+>> Ww believe if the judge just hears 30 sec of Randall Manic threats, he
+>> would immediately remove Finale from his care. Let us know your thoughts=
+ or
+>> if you need any Dates or have questions we can provide the info to
+>> immediately.
+>>
+>> We moved most of the relavent evidence into this folder on google drive =
+-
+>> https://drive.google.com/open?id=3D16oXoBhVoPSCEhPpVyDTIeele4LbAoEUh
+>>
+>> in includes main threats, text messages between randal and finale, as
+>> well as text's between Effi and Randal showing he has not been sober
+>> through out the time he has been caring for finale.
+>>
+>> Thank you so much
+>>
+>> Mahsa & Sam
+>>
+>>
+>>
+>>
+>>
+>> On Tue, Jul 17, 2018 at 9:38 AM Allie Stoddard <
+>> allie@stoddardlawgroup.com> wrote:
+>>
+>>> Mahsa,
+>>>
+>>> That=E2=80=99s awesome.  Just do me a favor, highlight anything you add=
+ or
+>>> change so I can easily identify mark-ups.  =F0=9F=98=8A
+>>>
+>>>
+>>>
+>>> Cordially,
+>>>
+>>> Allie Stoddard
+>>>
+>>> Stoddard Law Group, P.C.
+>>>
+>>> 2375 E Camelback Road, Suite 600
+>>>
+>>> Phoenix, Arizona 85016
+>>>
+>>> T- 602.635.3100
+>>>
+>>> F- 602.635.3184
+>>>
+>>>
+>>>
+>>> Legal Notice: This email and attachments are intended for use only by
+>>> the individual(s) to whom they are specifically addressed and may conta=
+in
+>>> information that is privileged and confidential.  Review, use,
+>>> dissemination, distribution or copying of the information contained in =
+this
+>>> email is strictly prohibited unless you are the intended recipient and/=
+or
+>>> the employee or agent responsible for delivering this message to the
+>>> intended recipient.  If you have received this email in error or withou=
+t
+>>> authorization, please inform the author at the above address and delete
+>>> this email from your computer.  If this email is of settlement in natur=
+e,
+>>> the document transmitted on the condition it is subject to Rule 408 of =
+the
+>>> Arizona Rules of Evidence.
+>>>
+>>>
+>>>
+>>> *From:* Mahsa Jaeger <mahsajune@gmail.com>
+>>> *Sent:* Tuesday, July 17, 2018 9:33 AM
+>>> *To:* Allie Stoddard <allie@stoddardlawgroup.com>
+>>> *Subject:* Re: Emergency Petition for Temporary Orders.docx -
+>>> Invitation to edit
+>>>
+>>>
+>>>
+>>> Fantastic! We are still working on it, and will have it done by today!
+>>> We worked on it all day yesterday. I know we put a lot of information i=
+n
+>>> there and have proof of almost everything we claim and have not lied or
+>>>  exaggerate  On any matter either. Thank you so much
+>>>
+>>>
+>>>
+>>> On Tue, Jul 17, 2018 at 9:28 AM Allie Stoddard <
+>>> allie@stoddardlawgroup.com> wrote:
+>>>
+>>> Mahsa,
+>>>
+>>> I do not have google docs or gmail or anything.  But I am able to open
+>>> the document.  I will cut and paste into the version I=E2=80=99ve been =
+working on
+>>> and I=E2=80=99ll send it over to you by the end of the day so you can r=
+eview.  We
+>>> will have it filed
+>>> <https://maps.google.com/?q=3D2375+E+Camelback+Road,+Suite+600+%0D%0A+P=
+hoenix,+Arizona+85016&entry=3Dgmail&source=3Dg>
+>>> tomorrow.
+>>>
+>>>
+>>>
+>>> Cordially,
+>>>
+>>> Allie Stoddard
+>>>
+>>> Stoddard Law Group, P.C.
+>>>
+>>> 2375 E Camelback Road, Suite 600
+>>> <https://maps.google.com/?q=3D2375+E+Camelback+Road,+Suite+600+%0D%0A+P=
+hoenix,+Arizona+85016&entry=3Dgmail&source=3Dg>
+>>>
+>>> Phoenix, Arizona 85016
+>>> <https://maps.google.com/?q=3D2375+E+Camelback+Road,+Suite+600+%0D%0A+P=
+hoenix,+Arizona+85016&entry=3Dgmail&source=3Dg>
+>>>
+>>> T- 602.635.3100
+>>>
+>>> F- 602.635.3184
+>>>
+>>>
+>>>
+>>> Legal Notice: This email and attachments are intended for use only by
+>>> the individual(s) to whom they are specifically addressed and may conta=
+in
+>>> information that is privileged and confidential.  Review, use,
+>>> dissemination, distribution or copying of the information contained in =
+this
+>>> email is strictly prohibited unless you are the intended recipient and/=
+or
+>>> the employee or agent responsible for delivering this message to the
+>>> intended recipient.  If you have received this email in error or withou=
+t
+>>> authorization, please inform the author at the above address and delete
+>>> this email from your computer.  If this email is of settlement in natur=
+e,
+>>> the document transmitted on the condition it is subject to Rule 408 of =
+the
+>>> Arizona Rules of Evidence.
+>>>
+>>>
+>>>
+>>> *From:* Sam Da Loan (via Google Docs) <custommtg23@gmail.com>
+>>> *Sent:* Monday, July 16, 2018 10:18 PM
+>>> *To:* Allie Stoddard <allie@stoddardlawgroup.com>
+>>> *Subject:* Emergency Petition for Temporary Orders.docx - Invitation to
+>>> edit
+>>>
+>>>
+>>>
+>>> Sam Da Loan <custommtg23@gmail.com> has invited you to *edit* the
+>>> following document:
+>>>
+>>> Emergency Petition for Temporary Orders.docx
+>>> <https://docs.google.com/document/d/1vsjEB7FrQLloVC2jy6zgr9gwByYuVv-tlR=
+1aAaGSnKM/edit?usp=3Dsharing_eil&ts=3D5b4d7bec>
+>>>
+>>> [image: Unknown profile photo]Hi Allie, do you have a gmail email to
+>>> share the file we are working on together?
+>>>
+>>> *Open in Docs*
+>>> <https://docs.google.com/document/d/1vsjEB7FrQLloVC2jy6zgr9gwByYuVv-tlR=
+1aAaGSnKM/edit?usp=3Dsharing_eip&ts=3D5b4d7bec>
+>>>
+>>> Sam Da Loan <custommtg23@gmail.com> is outside your organization.
+>>>
+>>>
+>>>
+>>> Google Docs: Create and edit documents online.
+>>> Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+>>> <https://maps.google.com/?q=3D1600+Amphitheatre+Parkway,+Mountain+View,=
++CA+94043,+USA&entry=3Dgmail&source=3Dg>
+>>> You have received this email because someone shared a document with you
+>>> from Google Docs.
+>>>
+>>> [image: Logo for Google Docs] <https://drive.google.com>
+>>>
+>>>
+>>>
+>>> --
+>>>
+>>>
+>>>
+>>> *Mahsa Jaeger Mahsajune@gmail.com <Mahsajune@gmail.com> 480-440-1822*
+>>>
+>>
+>>
+>> --
+>>
+>>
+>> *Mahsa JaegerMahsajune@gmail.com <Mahsajune@gmail.com>480-440-1822*
+>>
+>>
+>
+> --
+>
+>
+> *Mahsa JaegerMahsajune@gmail.com <Mahsajune@gmail.com>480-440-1822*
+>
+>
+
+--=20
+
+
+*Mahsa JaegerMahsajune@gmail.com <Mahsajune@gmail.com>480-440-1822*
+
+--000000000000523aae05714e00a7
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Allie, I was Just Thinking we forgot to put his propercomm=
+ update issue in there...I know we said its not that big of a deal, but the=
+ more I think about it, its another form of Alienation not letting me know =
+how my child is doing. No one gave me an update on my child since Nov 2016 =
+until Nov 2017. Thats Alienation!<div><br></div><div>I&#39;m thinking the b=
+asics of our temporary order is that a Crazy Manic, Bipolar almost Schizoph=
+renic, ( he sees stuff and believes them, thats why he makes things up) man=
+ with a 35 year history of Drug use, thats abusive in every manner was give=
+n my child, without anyone checking on his state of mind and health &amp; m=
+eds.=C2=A0</div><div><br></div><div>We don&#39;t have a shred of paper or e=
+vidence of his health and treatment he claims he attended giving us a peace=
+ of mind that my child is Ok.</div><div><br></div><div>He is still displayi=
+ng the same behavior (Jamies office) and thats concerning!!!=C2=A0</div><di=
+v><br></div><div>I really think thats our emergency that&#39;s is way overd=
+ue!</div><div><br></div><div>We all know he did not get well overnight....<=
+/div><div><br></div><div>=C2=A0</div></div><br><div class=3D"gmail_quote"><=
+div dir=3D"ltr">On Wed, Jul 18, 2018 at 2:37 PM Mahsa Jaeger &lt;<a href=3D=
+"mailto:mahsajune@gmail.com">mahsajune@gmail.com</a>&gt; wrote:<br></div><b=
+lockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px =
+#ccc solid;padding-left:1ex"><div dir=3D"ltr">Hi Allie,<div><br></div><div>=
+Just checking in :)</div></div><br><div class=3D"gmail_quote"><div dir=3D"l=
+tr">On Tue, Jul 17, 2018 at 2:25 PM Mahsa Jaeger &lt;<a href=3D"mailto:mahs=
+ajune@gmail.com" target=3D"_blank">mahsajune@gmail.com</a>&gt; wrote:<br></=
+div><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-lef=
+t:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr">Hi Allie<div><br></div>=
+<div>Attached is the word document and also the potential Exhibits (I know =
+you said no exhibits but please try to include).=C2=A0 The In Loco Parentis=
+ Jan Filed included several Exhibits so we wanted to try to include these c=
+rutial information.</div><div><br></div><div>Regarding the death threats, a=
+re you able to include the sound files in the filing, my brother said you c=
+an embed sound and image files in the PDF document so if that&#39;s ok.</di=
+v><div><br></div><div>Ww believe if the judge just hears 30 sec of Randall =
+Manic threats, he would immediately remove Finale from his care. Let us kno=
+w your thoughts or if you need any Dates or have questions we can provide t=
+he info to immediately.=C2=A0=C2=A0</div><div><br></div><div>We moved most =
+of the relavent evidence into this folder on google drive -=C2=A0<a href=3D=
+"https://drive.google.com/open?id=3D16oXoBhVoPSCEhPpVyDTIeele4LbAoEUh" targ=
+et=3D"_blank">https://drive.google.com/open?id=3D16oXoBhVoPSCEhPpVyDTIeele4=
+LbAoEUh</a></div><div><br></div><div>in includes main threats, text message=
+s between randal and finale, as well as text&#39;s between Effi and Randal =
+showing he has not been sober through out the time he has been caring for f=
+inale.</div><div><br></div><div>Thank you so much</div><div><br></div><div>=
+Mahsa &amp; Sam</div><div><br></div><div><br></div><div><br></div><div><br>=
+</div></div><br><div class=3D"gmail_quote"><div dir=3D"ltr">On Tue, Jul 17,=
+ 2018 at 9:38 AM Allie Stoddard &lt;<a href=3D"mailto:allie@stoddardlawgrou=
+p.com" target=3D"_blank">allie@stoddardlawgroup.com</a>&gt; wrote:<br></div=
+><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1=
+px #ccc solid;padding-left:1ex">
+
+
+
+
+
+<div lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"m_-9109187202628486638m_8674477930945542588m_1858103670300647=
+890WordSection1">
+<p class=3D"MsoNormal">Mahsa,<u></u><u></u></p>
+<p class=3D"MsoNormal">That=E2=80=99s awesome.=C2=A0 Just do me a favor, hi=
+ghlight anything you add or change so I can easily identify mark-ups.=C2=A0
+<span style=3D"font-family:&quot;Segoe UI Emoji&quot;,sans-serif">=F0=9F=98=
+=8A</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Cordially,<u></u><u></u></p>
+<p class=3D"MsoNormal">Allie Stoddard<u></u><u></u></p>
+<p class=3D"MsoNormal">Stoddard Law Group, P.C.<u></u><u></u></p>
+<p class=3D"MsoNormal">2375 E Camelback Road, Suite 600<u></u><u></u></p>
+<p class=3D"MsoNormal">Phoenix, Arizona 85016<u></u><u></u></p>
+<p class=3D"MsoNormal">T- 602.635.3100<u></u><u></u></p>
+<p class=3D"MsoNormal">F- 602.635.3184<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Legal Notice: This email and attachments are intende=
+d for use only by the individual(s) to whom they are specifically addressed=
+ and may contain information that is privileged and confidential.=C2=A0 Rev=
+iew, use, dissemination, distribution or
+ copying of the information contained in this email is strictly prohibited =
+unless you are the intended recipient and/or the employee or agent responsi=
+ble for delivering this message to the intended recipient.=C2=A0 If you hav=
+e received this email in error or without
+ authorization, please inform the author at the above address and delete th=
+is email from your computer.=C2=A0 If this email=C2=A0is of settlement in n=
+ature, the document transmitted on the condition it is subject to Rule 408 =
+of the Arizona Rules of Evidence.<span style=3D"font-size:8.0pt;font-family=
+:&quot;Times New Roman&quot;,serif"><u></u><u></u></span></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><b>From:</b> Mahsa Jaeger &lt;<a href=3D"mailto:mahs=
+ajune@gmail.com" target=3D"_blank">mahsajune@gmail.com</a>&gt; <br>
+<b>Sent:</b> Tuesday, July 17, 2018 9:33 AM<br>
+<b>To:</b> Allie Stoddard &lt;<a href=3D"mailto:allie@stoddardlawgroup.com"=
+ target=3D"_blank">allie@stoddardlawgroup.com</a>&gt;<br>
+<b>Subject:</b> Re: Emergency Petition for Temporary Orders.docx - Invitati=
+on to edit<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal">Fantastic! We are still working on it, and will have=
+ it done by today! We worked on it all day yesterday. I know we put a lot o=
+f information in there and have proof of almost everything we claim and hav=
+e not lied or =C2=A0exaggerate =C2=A0On any
+ matter either. Thank you so much<u></u><u></u></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal">On Tue, Jul 17, 2018 at 9:28 AM Allie Stoddard &lt;<=
+a href=3D"mailto:allie@stoddardlawgroup.com" target=3D"_blank">allie@stodda=
+rdlawgroup.com</a>&gt; wrote:<u></u><u></u></p>
+</div>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<div>
+<div>
+<p class=3D"MsoNormal">Mahsa,<u></u><u></u></p>
+<p class=3D"MsoNormal">I do not have google docs or gmail or anything.=C2=
+=A0 But I am able to open the document.=C2=A0 I will cut and paste into the=
+ version I=E2=80=99ve been working on and I=E2=80=99ll send it over to you =
+by
+ the end of the day so you can review.=C2=A0 We will have it filed<a href=
+=3D"https://maps.google.com/?q=3D2375+E+Camelback+Road,+Suite+600+%0D%0A+Ph=
+oenix,+Arizona+85016&amp;entry=3Dgmail&amp;source=3Dg" target=3D"_blank">
+</a>tomorrow.<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">Cordially,<u></u><u></u></p>
+<p class=3D"MsoNormal">Allie Stoddard<u></u><u></u></p>
+<p class=3D"MsoNormal">Stoddard Law Group, P.C.<u></u><u></u></p>
+<p class=3D"MsoNormal"><a href=3D"https://maps.google.com/?q=3D2375+E+Camel=
+back+Road,+Suite+600+%0D%0A+Phoenix,+Arizona+85016&amp;entry=3Dgmail&amp;so=
+urce=3Dg" target=3D"_blank">2375 E Camelback Road, Suite 600</a><u></u><u><=
+/u></p>
+<p class=3D"MsoNormal"><a href=3D"https://maps.google.com/?q=3D2375+E+Camel=
+back+Road,+Suite+600+%0D%0A+Phoenix,+Arizona+85016&amp;entry=3Dgmail&amp;so=
+urce=3Dg" target=3D"_blank">Phoenix, Arizona 85016</a><u></u><u></u></p>
+<p class=3D"MsoNormal">T- 602.635.3100<u></u><u></u></p>
+<p class=3D"MsoNormal">F- 602.635.3184<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Legal Notice: This email and attachments are intende=
+d for use only by the individual(s) to whom they are specifically addressed=
+ and may contain information that is privileged and
+ confidential.=C2=A0 Review, use, dissemination, distribution or copying of=
+ the information contained in this email is strictly prohibited unless you =
+are the intended recipient and/or the employee or agent responsible for del=
+ivering this message to the intended
+ recipient.=C2=A0 If you have received this email in error or without autho=
+rization, please inform the author at the above address and delete this ema=
+il from your computer.=C2=A0 If this email=C2=A0is of settlement in nature,=
+ the document transmitted on the condition it is
+ subject to Rule 408 of the Arizona Rules of Evidence.<u></u><u></u></p>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<div style=3D"border:none;border-top:solid #e1e1e1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b>From:</b> Sam Da Loan (via Google Docs) &lt;<a hr=
+ef=3D"mailto:custommtg23@gmail.com" target=3D"_blank">custommtg23@gmail.com=
+</a>&gt;
+<br>
+<b>Sent:</b> Monday, July 16, 2018 10:18 PM<br>
+<b>To:</b> Allie Stoddard &lt;<a href=3D"mailto:allie@stoddardlawgroup.com"=
+ target=3D"_blank">allie@stoddardlawgroup.com</a>&gt;<br>
+<b>Subject:</b> Emergency Petition for Temporary Orders.docx - Invitation t=
+o edit<u></u><u></u></p>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div style=3D"border-top:none;border-left:solid #f0f0f0 1.0pt;border-bottom=
+:none;border-right:solid #f0f0f0 1.0pt;padding:0in 0in 0in 0in">
+<div style=3D"border-top:none;border-left:solid #eaeaea 1.0pt;border-bottom=
+:none;border-right:solid #eaeaea 1.0pt;padding:0in 24.0pt 0in 24.0pt">
+<div>
+<p class=3D"MsoNormal" style=3D"line-height:13.5pt;background:white">
+<span style=3D"font-size:10.5pt;font-family:&quot;Arial&quot;,sans-serif;co=
+lor:#444444"><a href=3D"mailto:custommtg23@gmail.com" target=3D"_blank"><sp=
+an style=3D"text-decoration:none">Sam Da Loan</span></a> has invited you to
+<b>edit</b> the following document:</span><u></u><u></u></p>
+</div>
+<div>
+<div style=3D"border:none;border-bottom:solid white 3.0pt;padding:0in 0in 0=
+in 0in;display:table-row">
+<div>
+<p class=3D"MsoNormal" style=3D"background:white">
+<span style=3D"font-size:13.5pt;font-family:&quot;Arial&quot;,sans-serif"><=
+img border=3D"0" id=3D"m_-9109187202628486638m_8674477930945542588m_1858103=
+670300647890m_-1045047050964446144_x005f_x0000_i1025" src=3D"https://ssl.gs=
+tatic.com/docs/documents/share/images/services/document-4.png"></span><u></=
+u><u></u></p>
+</div>
+<p class=3D"MsoNormal" style=3D"background:white">
+<span style=3D"font-size:13.5pt;font-family:&quot;Arial&quot;,sans-serif"><=
+a href=3D"https://docs.google.com/document/d/1vsjEB7FrQLloVC2jy6zgr9gwByYuV=
+v-tlR1aAaGSnKM/edit?usp=3Dsharing_eil&amp;ts=3D5b4d7bec" target=3D"_blank">=
+<span style=3D"color:#3367d6;text-decoration:none">Emergency
+ Petition for Temporary Orders.docx</span></a></span><u></u><u></u></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"background:white">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif"><img border=3D"0" =
+width=3D"50" style=3D"width:.5208in" id=3D"m_-9109187202628486638m_86744779=
+30945542588m_1858103670300647890m_-1045047050964446144_x005f_x0000_i1026" s=
+rc=3D"https://ssl.gstatic.com/s2/profiles/images/silhouette64.png" alt=3D"U=
+nknown profile photo"></span><span style=3D"font-size:10.0pt;font-family:&q=
+uot;Arial&quot;,sans-serif;color:#262626">Hi
+ Allie, do you have a gmail email to share the file we are working on toget=
+her?</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"background:white">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif"><a href=3D"https:/=
+/docs.google.com/document/d/1vsjEB7FrQLloVC2jy6zgr9gwByYuVv-tlR1aAaGSnKM/ed=
+it?usp=3Dsharing_eip&amp;ts=3D5b4d7bec" target=3D"_blank"><b><span style=3D=
+"font-size:8.5pt;color:white;border:solid #3079ed 1.0pt;padding:0in;backgro=
+und:#4d90fe;text-decoration:none">Open
+ in Docs</span></b></a></span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"background:#fce8b2">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;co=
+lor:#444444"><a href=3D"mailto:custommtg23@gmail.com" target=3D"_blank"><sp=
+an style=3D"text-decoration:none">Sam Da Loan</span></a> is outside your or=
+ganization.</span><u></u><u></u></p>
+</div>
+</div>
+</div>
+<table class=3D"m_-9109187202628486638m_8674477930945542588m_18581036703006=
+47890MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%" style=3D"width:100.0%;border-collapse:collapse">
+<tbody>
+<tr>
+<td style=3D"padding:0in 0in 0in 0in">
+<table class=3D"m_-9109187202628486638m_8674477930945542588m_18581036703006=
+47890MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"3" style=3D"width:2.25pt;border-collapse:collapse">
+<tbody>
+<tr style=3D"height:.75pt">
+<td width=3D"1" style=3D"width:.75pt;background:#f0f0f0;padding:0in 0in 0in=
+ 0in;height:.75pt">
+</td>
+<td width=3D"1" style=3D"width:.75pt;background:#eaeaea;padding:0in 0in 0in=
+ 0in;height:.75pt">
+</td>
+<td width=3D"1" style=3D"width:.75pt;background:#e5e5e5;padding:0in 0in 0in=
+ 0in;height:.75pt">
+</td>
+</tr>
+<tr style=3D"height:.75pt">
+<td width=3D"1" style=3D"width:.75pt;background:#f0f0f0;padding:0in 0in 0in=
+ 0in;height:.75pt">
+</td>
+<td width=3D"1" style=3D"width:.75pt;background:#eaeaea;padding:0in 0in 0in=
+ 0in;height:.75pt">
+</td>
+<td width=3D"1" style=3D"width:.75pt;background:#eaeaea;padding:0in 0in 0in=
+ 0in;height:.75pt">
+</td>
+</tr>
+<tr style=3D"height:.75pt">
+<td width=3D"1" style=3D"width:.75pt;background:whitesmoke;padding:0in 0in =
+0in 0in;height:.75pt">
+</td>
+<td width=3D"1" style=3D"width:.75pt;background:#f0f0f0;padding:0in 0in 0in=
+ 0in;height:.75pt">
+</td>
+<td width=3D"1" style=3D"width:.75pt;background:#f0f0f0;padding:0in 0in 0in=
+ 0in;height:.75pt">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width=3D"100%" style=3D"width:100.0%;padding:0in 0in 0in 0in"></td>
+<td style=3D"padding:0in 0in 0in 0in">
+<table class=3D"m_-9109187202628486638m_8674477930945542588m_18581036703006=
+47890MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"3" style=3D"width:2.25pt;border-collapse:collapse">
+<tbody>
+<tr style=3D"height:.75pt">
+<td width=3D"1" style=3D"width:.75pt;background:#e5e5e5;padding:0in 0in 0in=
+ 0in;height:.75pt">
+</td>
+<td width=3D"1" style=3D"width:.75pt;background:#eaeaea;padding:0in 0in 0in=
+ 0in;height:.75pt">
+</td>
+<td width=3D"1" style=3D"width:.75pt;background:#f0f0f0;padding:0in 0in 0in=
+ 0in;height:.75pt">
+</td>
+</tr>
+<tr style=3D"height:.75pt">
+<td width=3D"1" style=3D"width:.75pt;background:#eaeaea;padding:0in 0in 0in=
+ 0in;height:.75pt">
+</td>
+<td width=3D"1" style=3D"width:.75pt;background:#eaeaea;padding:0in 0in 0in=
+ 0in;height:.75pt">
+</td>
+<td width=3D"1" style=3D"width:.75pt;background:#f0f0f0;padding:0in 0in 0in=
+ 0in;height:.75pt">
+</td>
+</tr>
+<tr style=3D"height:.75pt">
+<td width=3D"1" style=3D"width:.75pt;background:#f0f0f0;padding:0in 0in 0in=
+ 0in;height:.75pt">
+</td>
+<td width=3D"1" style=3D"width:.75pt;background:#f0f0f0;padding:0in 0in 0in=
+ 0in;height:.75pt">
+</td>
+<td width=3D"1" style=3D"width:.75pt;background:whitesmoke;padding:0in 0in =
+0in 0in;height:.75pt">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal" style=3D"background:whitesmoke">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">=C2=A0</span><u></=
+u><u></u></p>
+<table class=3D"m_-9109187202628486638m_8674477930945542588m_18581036703006=
+47890MsoNormalTable" border=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td width=3D"100%" style=3D"width:100.0%;padding:10.5pt 7.5pt 0in 7.5pt;min=
+-height:40px">
+<p class=3D"MsoNormal" style=3D"line-height:15.0pt">
+<span style=3D"font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:#646464">Google Docs: Create and edit documents online.
+<br>
+Google LLC, <a href=3D"https://maps.google.com/?q=3D1600+Amphitheatre+Parkw=
+ay,+Mountain+View,+CA+94043,+USA&amp;entry=3Dgmail&amp;source=3Dg" target=
+=3D"_blank">
+1600 Amphitheatre Parkway, Mountain View, CA 94043, USA</a><br>
+You have received this email because someone shared a document with you fro=
+m Google Docs.</span><u></u><u></u></p>
+</td>
+<td style=3D"padding:10.5pt 7.5pt 0in 15.0pt">
+<p class=3D"MsoNormal"><a href=3D"https://drive.google.com" target=3D"_blan=
+k"><span style=3D"text-decoration:none"><img border=3D"0" width=3D"96" styl=
+e=3D"width:1.0in" id=3D"m_-9109187202628486638m_8674477930945542588m_185810=
+3670300647890m_-1045047050964446144_x005f_x0000_i1027" src=3D"https://www.g=
+static.com/images/branding/googlelogo/1x/googlelogo_tm_black54_color_96x40d=
+p.png" alt=3D"Logo for Google Docs"></span></a><u></u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+<p class=3D"MsoNormal">-- <u></u><u></u></p>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><b><span style=3D"fon=
+t-size:13.5pt;font-family:&quot;Verdana&quot;,sans-serif;color:#cc0000;back=
+ground:white">Mahsa Jaeger<br>
+<a href=3D"mailto:Mahsajune@gmail.com" target=3D"_blank">Mahsajune@gmail.co=
+m</a><br>
+480-440-1822</span></b><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"=
+ class=3D"m_-9109187202628486638m_8674477930945542588gmail_signature" data-=
+smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div><=
+div dir=3D"ltr"><font color=3D"#cc0000"><font size=3D"4" face=3D"verdana, s=
+ans-serif"><b style=3D"background-color:rgb(255,255,255)">Mahsa Jaeger<br><=
+a href=3D"mailto:Mahsajune@gmail.com" target=3D"_blank">Mahsajune@gmail.com=
+</a><br>480-440-1822</b></font><br></font><br></div></div></div></div></div=
+></div>
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"=
+ class=3D"m_-9109187202628486638gmail_signature" data-smartmail=3D"gmail_si=
+gnature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><font=
+ color=3D"#cc0000"><font size=3D"4" face=3D"verdana, sans-serif"><b style=
+=3D"background-color:rgb(255,255,255)">Mahsa Jaeger<br><a href=3D"mailto:Ma=
+hsajune@gmail.com" target=3D"_blank">Mahsajune@gmail.com</a><br>480-440-182=
+2</b></font><br></font><br></div></div></div></div></div></div>
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"=
+ class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div dir=3D"l=
+tr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><font color=3D"#cc0000"><fo=
+nt size=3D"4" face=3D"verdana, sans-serif"><b style=3D"background-color:rgb=
+(255,255,255)">Mahsa Jaeger<br><a href=3D"mailto:Mahsajune@gmail.com" targe=
+t=3D"_blank">Mahsajune@gmail.com</a><br>480-440-1822</b></font><br></font><=
+br></div></div></div></div></div></div>
+
+--000000000000523aae05714e00a7--

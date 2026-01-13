@@ -1,0 +1,2140 @@
+Delivered-To: sam@c-mtg.com
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of velocitymortgage.com designates 104.47.36.101 as permitted sender)  smtp.mailfrom=etalledo@velocitymortgage.com;
+	dmarc=pass(p=none dis=none)  header.from=velocitymortgage.com
+Return-Path: <etalledo@velocitymortgage.com>
+Received: from NAM02-SN1-obe.outbound.protection.outlook.com (mail-sn1nam02on0101.outbound.protection.outlook.com [104.47.36.101]) by mx.zohomail.com
+	with SMTPS id 1531158961404969.1091462122341; Mon, 9 Jul 2018 10:56:01 -0700 (PDT)
+Received: from DM5PR2001MB0906.namprd20.prod.outlook.com (10.172.88.148) by
+ DM5PR2001MB1817.namprd20.prod.outlook.com (10.174.176.20) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.906.25; Mon, 9 Jul 2018 17:55:58 +0000
+Received: from DM5PR2001MB0906.namprd20.prod.outlook.com
+ ([fe80::c06e:e547:38b0:cfd5]) by DM5PR2001MB0906.namprd20.prod.outlook.com
+ ([fe80::c06e:e547:38b0:cfd5%10]) with mapi id 15.20.0930.022; Mon, 9 Jul 2018
+ 17:55:58 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=velocitymortgage.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=SYTxb7YhDUR/UPSD9UM3nSYw0AlE3qTQp7WJ/j/Dfn4=;
+ b=PnzJfVBM5oc3CTgbk3uwXw5VM3e+aEU2aIGdSx1+f5ifnUBmOZ8qvK/FdJa6O79cHcyypA4R/5FPRaNF+63AnwAUgQOhNy7KkTYQXv6bNFj3v/nh6bUYNOaI00kOtLT6HMmLbq8XR+7NFFHTnqo0cZzt8obBlq1aDCWTHvQOwj4=
+From: Eric Talledo <etalledo@velocitymortgage.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+CC: Followers of Ramirez-CA-Short-Sale-Loan-Mod <eve@c-mtg.com>, Tony Kappos
+	<tkappos@velocitymortgage.com>
+Subject: RE: Title Action Required-288829-Address-214 Plantation
+ Boulevard-Buyer-Todd M Romboli (Email Ref=1480157444)
+Thread-Topic: Title Action Required-288829-Address-214 Plantation
+ Boulevard-Buyer-Todd M Romboli (Email Ref=1480157444)
+Thread-Index: AQHUF635jPK5heQ1U0msN78B+SmO2aSHLLyg
+Date: Mon, 9 Jul 2018 17:55:58 +0000
+Message-ID:<DM5PR2001MB090696AC49C6830749F1D846BC440@DM5PR2001MB0906.namprd20.prod.outlook.com>
+References: <e2016b$lf5ga@snappesamx04.corp.firstam.com>
+ <1646c648255.d09a9d9d48672.450012381256909959@c-mtg.com>
+ <1646c7572f5.11195fda350680.8879629172702528401@c-mtg.com>
+ <1646c818c71.edb0262f51964.1112370792698395975@c-mtg.com>
+ <1646c9386c6.adeaf15453687.8446710579417524456@c-mtg.com>
+ <DM5PR2001MB0906D99CACF0C69FC9D6B8C5BC470@DM5PR2001MB0906.namprd20.prod.outlook.com>
+ <1646ffb9a74.101a700dd7458.3411245965898824934@c-mtg.com>
+ <DM5PR2001MB09066FD6BBE80F37B278142DBC470@DM5PR2001MB0906.namprd20.prod.outlook.com>
+ <164713ee67a.1127fc14047683.5058634820844019420@c-mtg.com>
+ <DM5PR2001MB0906791647999AE47BF1E637BC470@DM5PR2001MB0906.namprd20.prod.outlook.com>
+ <1647fb18d2a.10cdf5a07139052.4409097631750485314@c-mtg.com>
+ <DM5PR2001MB09067F48AA87110827DA6DBCBC440@DM5PR2001MB0906.namprd20.prod.outlook.com>
+ <5525ACDF-4218-4E38-8F6F-F34C4F53C258@c-mtg.com>
+In-Reply-To: <5525ACDF-4218-4E38-8F6F-F34C4F53C258@c-mtg.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=etalledo@velocitymortgage.com; 
+x-originating-ip: [12.20.168.18]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;DM5PR2001MB1817;7:cSIY68PGMlv3r3ZXjS7vkbSoaWnzBiB1jOa8kj0fvGGQs2TF+Z6tQ5jd02Wzz7GFcftnS672LJ0djZWi8P5BzIi3I46AnYfZzIJUbi/1TPEOQa8MBBwNkSGKZ/QUVbam90bGqGjBJZhTbTWLNDdEHEFGduxvEDojdhuYC5EbR2InvgfXLiswotpMjgso8yJ/fOm18rZ0JcY8nR2wDNcxlOnWFfQH/bJFxeYVUjE9xxUVzOqeEiJQA5/p/scpRXEa;20:G7CC8CJ0JAhQYXXiqLCXzS1g9XrFGeJBhYSyf4jGypVpn4y46PUH7AeLPmmEopjvPrMYVWUfydh1pwxutL9Y6FtcTSFpGDdrNdNmLblUUqoiTWcVaPaRqYPV7E/KqORKl15Wyf5Q7Xj36viUkfOaz/o0uJVFIEWi+Qg5g4/kyqo=
+x-ms-exchange-antispam-srfa-diagnostics: SOS;SOR;
+x-ms-office365-filtering-correlation-id: a37fb249-b03a-44e8-7e05-08d5e5c539c0
+x-microsoft-antispam: UriScan:(223705240517415);BCL:0;PCL:0;RULEID:(7020095)(4652040)(8989117)(5600053)(711020)(4534165)(4627221)(201703031133081)(201702281549075)(8990107)(2017052603328)(7153060)(49563074)(7193020);SRVR:DM5PR2001MB1817;
+x-ms-traffictypediagnostic: DM5PR2001MB1817:
+x-microsoft-antispam-prvs: <DM5PR2001MB181777E22326DB7C8FEF8943BC440@DM5PR2001MB1817.namprd20.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(28532068793085)(206168927598477)(148322886591682)(277860510277777)(28212336023702)(31418570063057)(116415991822766)(223705240517415)(128460861657000)(86561027422486);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(102415395)(6040522)(2401047)(5005006)(8121501046)(3231311)(944501410)(52105095)(10201501046)(3002001)(93006095)(93001095)(149027)(150027)(6041310)(20161123564045)(20161123558120)(20161123560045)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(20161123562045)(6072148)(201708071742011)(7699016);SRVR:DM5PR2001MB1817;BCL:0;PCL:0;RULEID:;SRVR:DM5PR2001MB1817;
+x-forefront-prvs: 07283408BE
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(39850400004)(396003)(366004)(376002)(346002)(136003)(199004)(189003)(252514010)(149574003)(40134004)(55016002)(5660300001)(8936002)(2906002)(74316002)(81156014)(81166006)(25786009)(45080400002)(106356001)(6916009)(478600001)(9686003)(54896002)(6246003)(236005)(6306002)(6436002)(107886003)(54556002)(5024004)(53946003)(102836004)(73180200002)(97736004)(7736002)(733005)(229853002)(8676002)(105586002)(33656002)(99936001)(19609705001)(14444005)(4326008)(76176011)(6506007)(66066001)(790700001)(11346002)(54906003)(3846002)(53936002)(606006)(316002)(53546011)(93886005)(256004)(86362001)(99286004)(476003)(2900100001)(450100002)(5250100002)(446003)(68736007)(14454004)(6116002)(26005)(7696005)(186003)(486006)(559001)(579004);DIR:OUT;SFP:1102;SCL:1;SRVR:DM5PR2001MB1817;H:DM5PR2001MB0906.namprd20.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;A:1;MX:1;
+Received-SPF: pass (zoho.com: domain of velocitymortgage.com designates 104.47.36.101 as permitted sender) client-ip=104.47.36.101; envelope-from=etalledo@velocitymortgage.com; helo=NAM02-SN1-obe.outbound.protection.outlook.com;
+received-spf: None (protection.outlook.com: velocitymortgage.com does not
+ designate permitted sender hosts)
+x-microsoft-antispam-message-info: ZR/Hgw60Td0ucBj+92J85Fzxk9QQxM6Bjw0NhmyweBFlr3lWUAkjwD9y7Mrz4edKYJhU6d4DDJtw91LYDJ4o8SimAqyXE45CyYXLnhf9iyay4mKjG8gEt8YoAm6p+l0brZSpA4yIqe2TNR0NiP6mxYvlzygt2GqKigMDVh7OJj9BekYjWM1zSPyWSTsDdAG6urzWPnal0VedwyfGGyyez0Zumerg80YfBOu0mzC6VEkomva4E1tB6pJHGJEDQ4/6FpRWaYsym4p2g9uRbpEbYW+VoaZcYXtTIwnuvGXGW6xMw0E1AQahU8e3mLZk+dYi7Xw1aab61+1rHBY7m22mMcGGzNxRJmmBKl8qqMtb3/0=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/related;
+	boundary="_004_DM5PR2001MB090696AC49C6830749F1D846BC440DM5PR2001MB0906_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: velocitymortgage.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: a37fb249-b03a-44e8-7e05-08d5e5c539c0
+X-MS-Exchange-CrossTenant-originalarrivaltime: 09 Jul 2018 17:55:58.1776
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 86ef3bda-a8c7-4134-a319-ac18a377c1bf
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM5PR2001MB1817
+X-Zoho-Virus-Status: 1
+X-ZohoMail-DKIM: pass (identity @velocitymortgage.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_HI SPK
+X-ZM-MESSAGEID: 1531158963325100001
+X-ZohoMail-Status: 1
+
+
+--_004_DM5PR2001MB090696AC49C6830749F1D846BC440DM5PR2001MB0906_
+Content-Type: multipart/alternative;
+	boundary="_000_DM5PR2001MB090696AC49C6830749F1D846BC440DM5PR2001MB0906_"
+
+--_000_DM5PR2001MB090696AC49C6830749F1D846BC440DM5PR2001MB0906_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Sam,
+
+This should fund today.
+
+Thank you
+
+Eric Talledo
+Loan Processor
+
+Velocity Mortgage Capital
+30699 Russell Ranch Rd, Ste 295
+Westlake Village, CA 91362
+818.483.1822 Direct
+etalledo@velocitymortgage.com<mailto:etalledo@velocitymortgage.com>
+
+[cid:image003.png@01D23B46.F77E8860]
+www.velocitymortgage.com<http://www.velocitymortgage.com/>
+
+From: Sam Tehranchi <sam@c-mtg.com>
+Sent: Monday, July 09, 2018 10:55 AM
+To: Eric Talledo <etalledo@velocitymortgage.com>
+Cc: Followers of Ramirez-CA-Short-Sale-Loan-Mod <eve@c-mtg.com>; Tony Kappo=
+s <tkappos@velocitymortgage.com>
+Subject: Re: Title Action Required-288829-Address-214 Plantation Boulevard-=
+Buyer-Todd M Romboli (Email Ref=3D1480157444)
+
+Borrower signed and finished at 10 am.  Eric, can you please advise what th=
+e estimated funding date will be.  We are trying to get this wrapped tomorr=
+ow if possible.  Thank you
+
+Respectfully,
+
+
+Sam Tehranchi
+
+
+COO
+Custom Mortgage and Realty
+NMLS CA # 1556995 - BRE CA # 02018146
+
+Direct 310.709.6304 -Efax 866.421.7694
+
+sam@c-mtg.com<mailto:sam@c-mtg.com> - www.c-mtg.com<http://hybrid-web.globa=
+l.blackspider.com/urlwrap/?q=3DAXicE2RmePCcgSHxEgNDUU6lgUW6XnFRmV5uYmZOcn5e=
+SVF-jl5yfi5DuZmlR4lRUICBiYmxuTFDakliTk5qSr5DWWpOfnJmSWVuflFJemJ6KlhxRklJgZW=
+-fnl5uV6ybm5JOliQgSEUaAUACBIkuw&Z>
+
+LinkedIn<https://www.linkedin.com/company-beta/3477964> - Facebook<https://=
+www.facebook.com/Custom-Mortgage-409842885783868/> - twitter<https://twitte=
+r.com/custommortgage1> - Instagram<https://www.instagram.com/custommortgage=
+inc/>
+
+
+On Jul 9, 2018, at 9:08 AM, Eric Talledo <etalledo@velocitymortgage.com<mai=
+lto:etalledo@velocitymortgage.com>> wrote:
+
+Hello Eve,
+
+CTC and Docs went out last Friday. As far as I know borrower is set to sign=
+/close today by 11:00 am
+
+
+
+Eric Talledo
+Loan Processor
+
+Velocity Mortgage Capital
+30699 Russell Ranch Rd, Ste 295
+Westlake Village, CA 91362
+818.483.1822 Direct
+etalledo@velocitymortgage.com<mailto:etalledo@velocitymortgage.com>
+
+<image001.png>
+www.velocitymortgage.com<http://www.velocitymortgage.com/>
+
+From: Eve Sanchez <eve@c-mtg.com<mailto:eve@c-mtg.com>>
+Sent: Monday, July 09, 2018 8:38 AM
+To: Eric Talledo <etalledo@velocitymortgage.com<mailto:etalledo@velocitymor=
+tgage.com>>
+Cc: "Sam Tehranchi" <sam@c-mtg.com<mailto:sam@c-mtg.com>>; Tony Kappos <tka=
+ppos@velocitymortgage.com<mailto:tkappos@velocitymortgage.com>>
+Subject: RE: Fwd: Re: Title Action Required-288829-Address-214 Plantation B=
+oulevard-Buyer-Todd M Romboli (Email Ref=3D1480157444)
+
+Hi Eric,
+
+Can you confirm you have everything you requested please? Sam sent you the =
+invoice. Also, what is the status of our clear to close and how soon can we=
+ get docs out?
+
+Respectfully,
+Evelyn Sanchez
+Loan Processor
+Custom Mortgage
+<image002.png>
+Direct: 818-384-7653
+Fax: 866-421-7694
+Email: Eve@c-mtg.com<mailto:Karen@c-mtg.com>
+
+
+
+---- On Fri, 06 Jul 2018 13:20:26 -0700 Eric Talledo <etalledo@velocitymort=
+gage.com<mailto:etalledo@velocitymortgage.com>> wrote ----
+
+
+YES, as long as the invoice has the matching policy number as the insurance=
+ cert in order to connect them .
+
+
+
+Thank you
+
+
+
+Eric Talledo
+Loan Processor
+
+Velocity Mortgage Capital
+30699 Russell Ranch Rd, Ste 295
+Westlake Village, CA 91362
+818.483.1822 Direct
+etalledo@velocitymortgage.com<mailto:etalledo@velocitymortgage.com>
+
+
+
+<image001.png>
+
+www.velocitymortgage.com<http://www.velocitymortgage.com/>
+
+
+From: Eve Sanchez <eve@c-mtg.com<mailto:eve@c-mtg.com>>
+Sent: Friday, July 06, 2018 1:18 PM
+To: Eric Talledo <etalledo@velocitymortgage.com<mailto:etalledo@velocitymor=
+tgage.com>>
+Cc: "Sam Tehranchi" <sam@c-mtg.com<mailto:sam@c-mtg.com>>; Tony Kappos <tka=
+ppos@velocitymortgage.com<mailto:tkappos@velocitymortgage.com>>
+Subject: RE: Fwd: Re: Title Action Required-288829-Address-214 Plantation B=
+oulevard-Buyer-Todd M Romboli (Email Ref=3D1480157444)
+
+
+
+would an invoice showing the annual premium work?
+
+
+
+Respectfully,
+
+Evelyn Sanchez
+
+Loan Processor
+Custom Mortgage
+
+<image002.png>
+
+Direct: 818-384-7653
+
+Fax: 866-421-7694
+
+Email: Eve@c-mtg.com<mailto:Karen@c-mtg.com>
+
+
+
+
+
+
+
+---- On Fri, 06 Jul 2018 13:12:56 -0700 Eric Talledo <etalledo@velocitymort=
+gage.com<mailto:etalledo@velocitymortgage.com>> wrote ----
+
+
+
+Eve,
+
+
+
+Any chance you can obtain an updated copy of hazard insurance to reflect th=
+e annual premium amount ? It is missing from the policy you provided earlie=
+r.
+
+
+
+Thank you
+
+
+
+Eric Talledo
+Loan Processor
+
+Velocity Mortgage Capital
+30699 Russell Ranch Rd, Ste 295
+Westlake Village, CA 91362
+818.483.1822 Direct
+etalledo@velocitymortgage.com<mailto:etalledo@velocitymortgage.com>
+
+
+
+<image001.png>
+
+www.velocitymortgage.com<http://www.velocitymortgage.com/>
+
+
+
+From: Eve Sanchez <eve@c-mtg.com<mailto:eve@c-mtg.com>>
+
+Sent: Friday, July 06, 2018 7:25 AM
+
+To: Eric Talledo <etalledo@velocitymortgage.com<mailto:etalledo@velocitymor=
+tgage.com>>
+
+Cc: "Sam Tehranchi" <sam@c-mtg.com<mailto:sam@c-mtg.com>>; Tony Kappos <tka=
+ppos@velocitymortgage.com<mailto:tkappos@velocitymortgage.com>>
+
+Subject: RE: Fwd: Re: Title Action Required-288829-Address-214 Plantation B=
+oulevard-Buyer-Todd M Romboli (Email Ref=3D1480157444)
+
+
+
+Morning Eric,
+
+
+
+Revised HOI with correct spelling of City attached.
+
+
+
+Respectfully,
+
+Evelyn Sanchez
+
+Loan Processor
+Custom Mortgage
+
+<image002.png>
+
+Direct: 818-384-7653
+
+Fax: 866-421-7694
+
+Email: Eve@c-mtg.com<mailto:Karen@c-mtg.com>
+
+
+
+
+
+
+
+---- On Thu, 05 Jul 2018 18:20:16 -0700 Eric Talledo <etalledo@velocitymort=
+gage.com<mailto:etalledo@velocitymortgage.com>> wrote ----
+
+
+
+Sam/Eve,
+
+
+
+The most recent revised version of insurance shows the city misspelled. (sc=
+reen shot below) This will not delay approval, as UW is already reviewing t=
+he file for final approval, but this will hold up sending out docs once its=
+ time to order docs. Please provide insurance with corrected city name:
+
+
+
+<image003.png>
+
+
+
+Eric Talledo
+Loan Processor
+
+Velocity Mortgage Capital
+30699 Russell Ranch Rd, Ste 295
+Westlake Village, CA 91362
+818.483.1822 Direct
+etalledo@velocitymortgage.com<mailto:etalledo@velocitymortgage.com>
+
+
+
+<image001.png>
+
+www.velocitymortgage.com<http://www.velocitymortgage.com/>
+
+
+
+From: Sam Tehranchi <sam@c-mtg.com<mailto:sam@c-mtg.com>>
+
+Sent: Thursday, July 05, 2018 3:33 PM
+
+To: 'Eve Sanchez' <eve@c-mtg.com<mailto:eve@c-mtg.com>>
+
+Cc: Eric Talledo <etalledo@velocitymortgage.com<mailto:etalledo@velocitymor=
+tgage.com>>; Tony Kappos <tkappos@velocitymortgage.com<mailto:tkappos@veloc=
+itymortgage.com>>
+
+Subject: Re: Fwd: Re: Title Action Required-288829-Address-214 Plantation B=
+oulevard-Buyer-Todd M Romboli (Email Ref=3D1480157444)
+
+
+
+Hi Eric, can you check to see if we can get docs out later today or tomorro=
+w so we can fund it tomorrow.  We are willing to have escrow hold our broke=
+r funds until your funding department has all the items needed and file is =
+complete (even though I think we are already there).  Borrower needs this c=
+losed urgently so anything you can do to push docs out, we will get everyth=
+ing you need if we end up missing something.
+
+
+Thank you
+
+Respectfully,
+
+Sam Tehranchi
+Custom Mortgage and Realty
+COO
+NMLS CA # 1556995 - BRE CA # 02018146
+
+D: 310.709.6304 - F: 866.421.7694
+sam@c-mtg.com<mailto:sam@c-mtg.com> - www.c-mtg.com<http://hybrid-web.globa=
+l.blackspider.com/urlwrap/?q=3DAXicE2RmePCcgSHxEgNDUU6loUGGXnFRmV5uYmZOcn5e=
+SVF-jl5yfi5DuZmpb3heiouhsbmRkQVDakliTk5qSr5DWWpOfnJmSWVuflFJemJ6KlhxRklJgZW=
+-fnl5uV6ybm5JOliQgSEUaAUAECok3Q&Z>
+
+LinkedIn<https://www.linkedin.com/company-beta/3477964> - Facebook<https://=
+www.facebook.com/Custom-Mortgage-409842885783868/> - twitter<https://twitte=
+r.com/custommortgage1> - Instagram<https://www.instagram.com/custommortgage=
+inc/>
+
+
+
+
+
+
+
+---- On Thu, 05 Jul 2018 15:13:06 -0700 Eve Sanchez <eve@c-mtg.com<mailto:e=
+ve@c-mtg.com>> wrote ----
+
+
+
+Attached is the revised CPL, TITLE, ESTIMATE. The insurances already show t=
+he city as Islamorada.
+
+
+
+<image004.jpg><image005.jpg>
+
+
+
+
+
+
+
+Respectfully,
+
+Evelyn Sanchez
+
+Loan Processor
+Custom Mortgage
+
+<image002.png>
+
+Direct: 818-384-7653
+
+Fax: 866-421-7694
+
+Email: Eve@c-mtg.com<mailto:Karen@c-mtg.com>
+
+
+
+
+
+
+
+
+
+
+
+
+
+This message is intended only for the use of the individual or entity to wh=
+ich it is addressed and may contain information that is privileged, confide=
+ntial, and exempt from disclosure under applicable law. If the reader of th=
+is message is not the intended recipient, or the employee or agent responsi=
+ble to deliver it to the intended recipient, you are hereby notified that r=
+eading, disseminating, distributing, or copying this communication is stric=
+tly prohibited. If you have received this communication in error, please im=
+mediately notify us by telephone, and discard the original message. Thank y=
+ou.
+
+
+
+
+
+
+
+
+
+
+
+
+--_000_DM5PR2001MB090696AC49C6830749F1D846BC440DM5PR2001MB0906_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+p.x1047321402msonormal, li.x1047321402msonormal, div.x1047321402msonormal
+	{mso-style-name:x1047321402msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.colour
+	{mso-style-name:colour;}
+span.size
+	{mso-style-name:size;}
+p.x1047321402x-2064743869msonormal, li.x1047321402x-2064743869msonormal, di=
+v.x1047321402x-2064743869msonormal
+	{mso-style-name:x1047321402x-2064743869msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.x1047321402colour
+	{mso-style-name:x1047321402colour;}
+p.x1047321402x-2064743869x-742607484msonormal, li.x1047321402x-2064743869x-=
+742607484msonormal, div.x1047321402x-2064743869x-742607484msonormal
+	{mso-style-name:x1047321402x-2064743869x-742607484msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.x1047321402x-2064743869colour
+	{mso-style-name:x1047321402x-2064743869colour;}
+span.EmailStyle26
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Sam,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">This should fund today. <o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Thank you<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"color:black">Eric Talledo<br>
+</span></b><i><span style=3D"color:black">Loan Processor</span></i><b><span=
+ style=3D"color:black">
+<br>
+<br>
+Velocity Mortgage Capital<br>
+</span></b><span style=3D"color:black">30699 Russell Ranch Rd, Ste 295<br>
+Westlake Village, CA 91362<br>
+818.483.1822 Direct<br>
+<a href=3D"mailto:etalledo@velocitymortgage.com"><span style=3D"color:#0563=
+C1">etalledo@velocitymortgage.com</span></a><b><o:p></o:p></b></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:5.0pt"><o:p>&nbsp;</o:p></s=
+pan></p>
+<p class=3D"MsoNormal"><img border=3D"0" width=3D"190" height=3D"80" style=
+=3D"width:1.9791in;height:.8333in" id=3D"Picture_x0020_2" src=3D"cid:image0=
+01.png@01D41773.6987EAA0" alt=3D"cid:image003.png@01D23B46.F77E8860"><o:p><=
+/o:p></p>
+<p class=3D"MsoNormal"><a href=3D"http://www.velocitymortgage.com/"><b><spa=
+n style=3D"color:#1F497D">www.velocitymortgage.com</span></b></a><o:p></o:p=
+></p>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b>From:</b> Sam Tehranchi &lt;sam@c-mtg.com&gt; <br=
+>
+<b>Sent:</b> Monday, July 09, 2018 10:55 AM<br>
+<b>To:</b> Eric Talledo &lt;etalledo@velocitymortgage.com&gt;<br>
+<b>Cc:</b> Followers of Ramirez-CA-Short-Sale-Loan-Mod &lt;eve@c-mtg.com&gt=
+;; Tony Kappos &lt;tkappos@velocitymortgage.com&gt;<br>
+<b>Subject:</b> Re: Title Action Required-288829-Address-214 Plantation Bou=
+levard-Buyer-Todd M Romboli (Email Ref=3D1480157444)<o:p></o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Borrower signed and finished at 10 am. &nbsp;Eric, c=
+an you please advise what the estimated funding date will be. &nbsp;We are =
+trying to get this wrapped tomorrow if possible. &nbsp;Thank you<o:p></o:p>=
+</p>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span style=3D"color:=
+black">Respectfully, &nbsp;&nbsp;<br>
+<br>
+&nbsp;<br>
+Sam Tehranchi<br>
+<br>
+&nbsp;<br>
+COO<br>
+Custom Mortgage and Realty&nbsp;<br>
+NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br>
+&nbsp;<br>
+Direct 310.709.6304 -Efax 866.421.7694&nbsp;<br>
+<br>
+<a href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&nbsp;-&nbsp;<a href=3D"h=
+ttp://hybrid-web.global.blackspider.com/urlwrap/?q=3DAXicE2RmePCcgSHxEgNDUU=
+6lgUW6XnFRmV5uYmZOcn5eSVF-jl5yfi5DuZmlR4lRUICBiYmxuTFDakliTk5qSr5DWWpOfnJmS=
+WVuflFJemJ6KlhxRklJgZW-fnl5uV6ybm5JOliQgSEUaAUACBIkuw&amp;Z">www.c-mtg.com<=
+/a><br>
+<br>
+<a href=3D"https://www.linkedin.com/company-beta/3477964">LinkedIn</a>&nbsp=
+;-&nbsp;<a href=3D"https://www.facebook.com/Custom-Mortgage-409842885783868=
+/">Facebook</a>&nbsp;-&nbsp;<a href=3D"https://twitter.com/custommortgage1"=
+>twitter</a>&nbsp;-&nbsp;<a href=3D"https://www.instagram.com/custommortgag=
+einc/">Instagram</a><o:p></o:p></span></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><br>
+<br>
+<o:p></o:p></p>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<p class=3D"MsoNormal">On Jul 9, 2018, at 9:08 AM, Eric Talledo &lt;<a href=
+=3D"mailto:etalledo@velocitymortgage.com">etalledo@velocitymortgage.com</a>=
+&gt; wrote:<o:p></o:p></p>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div>
+<p class=3D"MsoNormal">Hello Eve,<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">CTC and Docs went out last Friday. As far as I know =
+borrower is set to sign/close today by 11:00 am<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><b>Eric Talledo<br>
+</b><i>Loan Processor</i><span class=3D"apple-converted-space"><b>&nbsp;</b=
+></span><b><br>
+<br>
+Velocity Mortgage Capital<br>
+</b>30699 Russell Ranch Rd, Ste 295<br>
+Westlake Village, CA 91362<br>
+818.483.1822 Direct<br>
+<a href=3D"mailto:etalledo@velocitymortgage.com"><span style=3D"color:#0563=
+C1">etalledo@velocitymortgage.com</span></a><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:5.0pt">&nbsp;</span><o:p></=
+o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&lt;image001.png&gt;<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><a href=3D"http://www.velocitymortgage.com/"><b><spa=
+n style=3D"color:#1F497D">www.velocitymortgage.com</span></b></a><o:p></o:p=
+></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<div>
+<p class=3D"MsoNormal"><b>From:</b><span class=3D"apple-converted-space">&n=
+bsp;</span>Eve Sanchez &lt;<a href=3D"mailto:eve@c-mtg.com"><span style=3D"=
+color:purple">eve@c-mtg.com</span></a>&gt;<span class=3D"apple-converted-sp=
+ace">&nbsp;</span><br>
+<b>Sent:</b><span class=3D"apple-converted-space">&nbsp;</span>Monday, July=
+ 09, 2018 8:38 AM<br>
+<b>To:</b><span class=3D"apple-converted-space">&nbsp;</span>Eric Talledo &=
+lt;<a href=3D"mailto:etalledo@velocitymortgage.com"><span style=3D"color:pu=
+rple">etalledo@velocitymortgage.com</span></a>&gt;<br>
+<b>Cc:</b><span class=3D"apple-converted-space">&nbsp;</span>&quot;Sam Tehr=
+anchi&quot; &lt;<a href=3D"mailto:sam@c-mtg.com"><span style=3D"color:purpl=
+e">sam@c-mtg.com</span></a>&gt;; Tony Kappos &lt;<a href=3D"mailto:tkappos@=
+velocitymortgage.com"><span style=3D"color:purple">tkappos@velocitymortgage=
+.com</span></a>&gt;<br>
+<b>Subject:</b><span class=3D"apple-converted-space">&nbsp;</span>RE: Fwd: =
+Re: Title Action Required-288829-Address-214 Plantation Boulevard-Buyer-Tod=
+d M Romboli (Email Ref=3D1480157444)<o:p></o:p></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">Hi Eric,</span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">Can you confirm you have everything you requested p=
+lease? Sam sent you the invoice. Also, what is the status of our clear to c=
+lose and how soon can we get docs out?</span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+</div>
+</div>
+<div id=3D"Zm-_Id_-Sgn">
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">Respectfully,</span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><i><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif">Evelyn Sanchez</span></i><o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">Loan<span class=3D"apple-converted-space">&nbsp;</s=
+pan><i>Processor<br>
+</i><b>Custom Mortgage&nbsp;</b></span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif">&lt;image002.png&gt;</span></b><o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">Direct: 818-384-7653</span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">Fax: 866-421-7694</span><o:p></o:p></p>
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">Email:<span class=3D"apple-converted-space">&nbsp;<=
+/span><u><a href=3D"mailto:Karen@c-mtg.com" target=3D"_blank"><span style=
+=3D"color:purple">Eve@c-mtg.com</span></a></u></span><o:p></o:p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+</div>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<div id=3D"Zm-_Id_-Sgn1">
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">---- On Fri, 06 Jul 2018 13:20:26 -0700&nbsp;<b>Eri=
+c Talledo &lt;<a href=3D"mailto:etalledo@velocitymortgage.com"><span style=
+=3D"color:purple">etalledo@velocitymortgage.com</span></a>&gt;</b><span cla=
+ss=3D"apple-converted-space">&nbsp;</span>wrote
+ ----</span><o:p></o:p></p>
+</div>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+</div>
+</div>
+<blockquote style=3D"border:none;border-left:solid #CCCCCC 1.0pt;padding:0i=
+n 0in 0in 5.0pt;margin-left:3.75pt;margin-top:5.0pt;margin-right:0in;margin=
+-bottom:5.0pt">
+<div>
+<div>
+<p class=3D"x1047321402msonormal"><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif">YES, as long as the invoice has the matc=
+hing policy number as the insurance cert in order to connect them .</span><=
+o:p></o:p></p>
+<p class=3D"x1047321402msonormal"><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+<p class=3D"x1047321402msonormal"><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif">Thank you</span><o:p></o:p></p>
+<p class=3D"x1047321402msonormal"><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"colour"><b><span style=3D"=
+font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Eric Talledo</=
+span></b></span><b><span style=3D"font-size:10.0pt;font-family:&quot;Verdan=
+a&quot;,sans-serif"><br>
+</span></b><span class=3D"colour"><i><span style=3D"font-size:10.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif">Loan Processor</span></i></span><span=
+ class=3D"apple-converted-space"><b><span style=3D"font-size:10.0pt;font-fa=
+mily:&quot;Verdana&quot;,sans-serif">&nbsp;</span></b></span><b><span style=
+=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif"><br>
+<br>
+<span class=3D"colour">Velocity Mortgage Capital</span><br>
+</span></b><span class=3D"colour"><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif">30699 Russell Ranch Rd, Ste 295</span></=
+span><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-s=
+erif"><br>
+<span class=3D"colour">Westlake Village, CA 91362</span><br>
+<span class=3D"colour">818.483.1822 Direct</span><br>
+<span class=3D"colour"><a href=3D"mailto:etalledo@velocitymortgage.com" tar=
+get=3D"_blank"><span style=3D"color:#0563C1">etalledo@velocitymortgage.com<=
+/span></a></span></span><o:p></o:p></p>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><span style=3D"font-=
+size:5.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></span>=
+<o:p></o:p></p>
+<p class=3D"x1047321402msonormal"><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif">&lt;image001.png&gt;</span><o:p></o:p></=
+p>
+<p class=3D"x1047321402msonormal"><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif"><a href=3D"http://www.velocitymortgage.c=
+om/" target=3D"_blank"><span class=3D"colour"><b><span style=3D"color:#1F49=
+7D">www.velocitymortgage.com</span></b></span></a></span><o:p></o:p></p>
+</div>
+<p class=3D"x1047321402msonormal"><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif">From:</span></b><span class=3D"apple-converted-s=
+pace"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-=
+serif">&nbsp;</span></span><span style=3D"font-size:10.0pt;font-family:&quo=
+t;Verdana&quot;,sans-serif">Eve
+ Sanchez &lt;<a href=3D"mailto:eve@c-mtg.com" target=3D"_blank"><span style=
+=3D"color:purple">eve@c-mtg.com</span></a>&gt;</span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif">Sent:</span></b><span class=3D"apple-converted-s=
+pace"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-=
+serif">&nbsp;</span></span><span style=3D"font-size:10.0pt;font-family:&quo=
+t;Verdana&quot;,sans-serif">Friday,
+ July 06, 2018 1:18 PM</span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif">To:</span></b><span class=3D"apple-converted-spa=
+ce"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-se=
+rif">&nbsp;</span></span><span style=3D"font-size:10.0pt;font-family:&quot;=
+Verdana&quot;,sans-serif">Eric
+ Talledo &lt;<a href=3D"mailto:etalledo@velocitymortgage.com" target=3D"_bl=
+ank"><span style=3D"color:purple">etalledo@velocitymortgage.com</span></a>&=
+gt;</span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif">Cc:</span></b><span class=3D"apple-converted-spa=
+ce"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-se=
+rif">&nbsp;</span></span><span style=3D"font-size:10.0pt;font-family:&quot;=
+Verdana&quot;,sans-serif">&quot;Sam
+ Tehranchi&quot; &lt;<a href=3D"mailto:sam@c-mtg.com" target=3D"_blank"><sp=
+an style=3D"color:purple">sam@c-mtg.com</span></a>&gt;; Tony Kappos &lt;<a =
+href=3D"mailto:tkappos@velocitymortgage.com" target=3D"_blank"><span style=
+=3D"color:purple">tkappos@velocitymortgage.com</span></a>&gt;</span><o:p></=
+o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif">Subject:</span></b><span class=3D"apple-converte=
+d-space"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sa=
+ns-serif">&nbsp;</span></span><span style=3D"font-size:10.0pt;font-family:&=
+quot;Verdana&quot;,sans-serif">RE:
+ Fwd: Re: Title Action Required-288829-Address-214 Plantation Boulevard-Buy=
+er-Todd M Romboli (Email Ref=3D1480157444)</span><o:p></o:p></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"x1047321402msonormal"><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+<div>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><span style=3D"font-=
+size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">would an invoice sh=
+owing the annual premium work?</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><span style=3D"font-=
+size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></span=
+><o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><span style=3D"font-=
+size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Respectfully,</span=
+></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><i><span style=3D"fo=
+nt-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Evelyn Sanchez</=
+span></i></span><o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><span style=3D"font-=
+size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Loan</span></span><=
+span class=3D"apple-converted-space"><span style=3D"font-size:10.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif">&nbsp;</span></span><span class=3D"si=
+ze"><i><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans=
+-serif">Processor</span></i></span><i><span style=3D"font-size:10.0pt;font-=
+family:&quot;Verdana&quot;,sans-serif"><br>
+</span></i><span class=3D"size"><b><span style=3D"font-size:10.0pt;font-fam=
+ily:&quot;Verdana&quot;,sans-serif">Custom Mortgage&nbsp;</span></b></span>=
+<o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"x1047321402msonormal"><b><span style=3D"font-size:10.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif">&lt;image002.png&gt;</span></b><o:p><=
+/o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><span style=3D"font-=
+size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Direct: 818-384-765=
+3</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><span style=3D"font-=
+size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Fax: 866-421-7694</=
+span></span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><span style=3D"font-=
+size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Email:</span></span=
+><span class=3D"apple-converted-space"><span style=3D"font-size:10.0pt;font=
+-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></span><span class=3D"=
+size"><u><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sa=
+ns-serif"><a href=3D"mailto:Karen@c-mtg.com" target=3D"_blank"><span style=
+=3D"color:purple">Eve@c-mtg.com</span></a></span></u></span><o:p></o:p></p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><span style=3D"font-=
+size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></span=
+><o:p></o:p></p>
+</div>
+</div>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><span style=3D"font-=
+size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></span=
+><o:p></o:p></p>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><span style=3D"font-=
+size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></span=
+><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><span style=3D"font-=
+size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">---- On Fri, 06 Jul=
+ 2018 13:12:56 -0700&nbsp;<b>Eric Talledo &lt;<a href=3D"mailto:etalledo@ve=
+locitymortgage.com" target=3D"_blank"><span style=3D"color:purple">etalledo=
+@velocitymortgage.com</span></a>&gt;</b></span></span><span class=3D"apple-=
+converted-space"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&=
+quot;,sans-serif">&nbsp;</span></span><span class=3D"size"><span style=3D"f=
+ont-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">wrote
+ ----</span></span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><span style=3D"font-=
+size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></span=
+><o:p></o:p></p>
+</div>
+<blockquote style=3D"border:none;border-left:solid #CCCCCC 1.0pt;padding:0i=
+n 0in 0in 5.0pt;margin-left:3.75pt;margin-top:5.0pt;margin-right:0in;margin=
+-bottom:5.0pt">
+<div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Eve,</s=
+pan></span><o:p></o:p></p>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;<=
+/span></span><o:p></o:p></p>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Any cha=
+nce you can obtain an updated copy of hazard insurance to reflect the annua=
+l premium amount ? It is missing from the policy
+ you provided earlier.</span></span><o:p></o:p></p>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;<=
+/span></span><o:p></o:p></p>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Thank y=
+ou</span></span><o:p></o:p></p>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;<=
+/span></span><o:p></o:p></p>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><b><span=
+ style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Eric=
+ Talledo</span></b></span><b><span style=3D"font-size:10.0pt;font-family:&q=
+uot;Verdana&quot;,sans-serif"><br>
+</span></b><span class=3D"size"><i><span style=3D"font-size:10.0pt;font-fam=
+ily:&quot;Verdana&quot;,sans-serif">Loan Processor</span></i></span><span c=
+lass=3D"apple-converted-space"><b><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif">&nbsp;</span></b></span><b><span style=
+=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif"><br>
+<br>
+<span class=3D"x1047321402colour">Velocity Mortgage Capital</span><br>
+</span></b><span class=3D"size"><span style=3D"font-size:10.0pt;font-family=
+:&quot;Verdana&quot;,sans-serif">30699 Russell Ranch Rd, Ste 295</span></sp=
+an><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if"><br>
+<span class=3D"x1047321402colour">Westlake Village, CA 91362</span><br>
+<span class=3D"x1047321402colour">818.483.1822 Direct</span><br>
+<span class=3D"x1047321402colour"><a href=3D"mailto:etalledo@velocitymortga=
+ge.com" target=3D"_blank"><span class=3D"colour"><span style=3D"color:#0563=
+C1">etalledo@velocitymortgage.com</span></span></a></span></span><o:p></o:p=
+></p>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:5.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</=
+span></span><o:p></o:p></p>
+<p class=3D"x1047321402x-2064743869msonormal"><span style=3D"font-size:10.0=
+pt;font-family:&quot;Verdana&quot;,sans-serif">&lt;image001.png&gt;</span><=
+o:p></o:p></p>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif"><a href=
+=3D"http://www.velocitymortgage.com/" target=3D"_blank"><span class=3D"colo=
+ur"><b><span style=3D"color:#1F497D">www.velocitymortgage.com</span></b></s=
+pan></a></span></span><o:p></o:p></p>
+</div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;<=
+/span></span><o:p></o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><b><span style=3D"fo=
+nt-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">From:</span></b>=
+</span><span class=3D"apple-converted-space"><span style=3D"font-size:10.0p=
+t;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></span><span cla=
+ss=3D"size"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;=
+,sans-serif">Eve
+ Sanchez &lt;<a href=3D"mailto:eve@c-mtg.com" target=3D"_blank"><span style=
+=3D"color:purple">eve@c-mtg.com</span></a>&gt;</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><b><span style=3D"fo=
+nt-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Sent:</span></b>=
+</span><span class=3D"apple-converted-space"><span style=3D"font-size:10.0p=
+t;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></span><span cla=
+ss=3D"size"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;=
+,sans-serif">Friday,
+ July 06, 2018 7:25 AM</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><b><span style=3D"fo=
+nt-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">To:</span></b></=
+span><span class=3D"apple-converted-space"><span style=3D"font-size:10.0pt;=
+font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></span><span class=
+=3D"size"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,s=
+ans-serif">Eric
+ Talledo &lt;<a href=3D"mailto:etalledo@velocitymortgage.com" target=3D"_bl=
+ank"><span style=3D"color:purple">etalledo@velocitymortgage.com</span></a>&=
+gt;</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><b><span style=3D"fo=
+nt-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Cc:</span></b></=
+span><span class=3D"apple-converted-space"><span style=3D"font-size:10.0pt;=
+font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></span><span class=
+=3D"size"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,s=
+ans-serif">&quot;Sam
+ Tehranchi&quot; &lt;<a href=3D"mailto:sam@c-mtg.com" target=3D"_blank"><sp=
+an style=3D"color:purple">sam@c-mtg.com</span></a>&gt;; Tony Kappos &lt;<a =
+href=3D"mailto:tkappos@velocitymortgage.com" target=3D"_blank"><span style=
+=3D"color:purple">tkappos@velocitymortgage.com</span></a>&gt;</span></span>=
+<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><b><span style=3D"fo=
+nt-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Subject:</span><=
+/b></span><span class=3D"apple-converted-space"><span style=3D"font-size:10=
+.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></span><span =
+class=3D"size"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&qu=
+ot;,sans-serif">RE:
+ Fwd: Re: Title Action Required-288829-Address-214 Plantation Boulevard-Buy=
+er-Todd M Romboli (Email Ref=3D1480157444)</span></span><o:p></o:p></p>
+</div>
+</div>
+</div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;<=
+/span></span><o:p></o:p></p>
+<div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Morning=
+ Eric,</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;<=
+/span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Revised=
+ HOI with correct spelling of City attached.</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;<=
+/span></span><o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Respect=
+fully,</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><i><span=
+ style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Evel=
+yn Sanchez</span></i></span><o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Loan</s=
+pan></span><span class=3D"apple-converted-space"><span style=3D"font-size:1=
+0.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></span><span=
+ class=3D"size"><i><span style=3D"font-size:10.0pt;font-family:&quot;Verdan=
+a&quot;,sans-serif">Processor</span></i></span><i><span style=3D"font-size:=
+10.0pt;font-family:&quot;Verdana&quot;,sans-serif"><br>
+</span></i><span class=3D"size"><b><span style=3D"font-size:10.0pt;font-fam=
+ily:&quot;Verdana&quot;,sans-serif">Custom Mortgage&nbsp;</span></b></span>=
+<o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><b><span style=3D"font-size:1=
+0.0pt;font-family:&quot;Verdana&quot;,sans-serif">&lt;image002.png&gt;</spa=
+n></b><o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Direct:=
+ 818-384-7653</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Fax: 86=
+6-421-7694</span></span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Email:<=
+/span></span><span class=3D"apple-converted-space"><span style=3D"font-size=
+:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></span><sp=
+an class=3D"size"><u><span style=3D"font-size:10.0pt;font-family:&quot;Verd=
+ana&quot;,sans-serif"><a href=3D"mailto:Karen@c-mtg.com" target=3D"_blank">=
+<span style=3D"color:purple">Eve@c-mtg.com</span></a></span></u></span><o:p=
+></o:p></p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;<=
+/span></span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;<=
+/span></span><o:p></o:p></p>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;<=
+/span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">---- On=
+ Thu, 05 Jul 2018 18:20:16 -0700&nbsp;<b>Eric Talledo &lt;<a href=3D"mailto=
+:etalledo@velocitymortgage.com" target=3D"_blank"><span style=3D"color:purp=
+le">etalledo@velocitymortgage.com</span></a>&gt;</b></span></span><span cla=
+ss=3D"apple-converted-space"><span style=3D"font-size:10.0pt;font-family:&q=
+uot;Verdana&quot;,sans-serif">&nbsp;</span></span><span class=3D"size"><spa=
+n style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">wro=
+te
+ ----</span></span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;<=
+/span></span><o:p></o:p></p>
+</div>
+<blockquote style=3D"border:none;border-left:solid #CCCCCC 1.0pt;padding:0i=
+n 0in 0in 5.0pt;margin-left:3.75pt;margin-top:5.0pt;margin-right:0in;margin=
+-bottom:5.0pt">
+<div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">Sam/Eve,</span></span><o:p></o:p></p>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">The most recent revised version of insurance shows the city misspelled.=
+ (screen shot below) This will not delay approval,
+ as UW is already reviewing the file for final approval, but this will hold=
+ up sending out docs once its time to order docs. Please provide insurance =
+with corrected city name:</span></span><o:p></o:p></p>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span style=3D"fon=
+t-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&lt;image003.png&=
+gt;</span><o:p></o:p></p>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><b><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-=
+serif">Eric Talledo</span></b></span><b><span style=3D"font-size:10.0pt;fon=
+t-family:&quot;Verdana&quot;,sans-serif"><br>
+</span></b><span class=3D"size"><i><span style=3D"font-size:10.0pt;font-fam=
+ily:&quot;Verdana&quot;,sans-serif">Loan Processor</span></i></span><span c=
+lass=3D"apple-converted-space"><b><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif">&nbsp;</span></b></span><b><span style=
+=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif"><br>
+<br>
+<span class=3D"x1047321402x-2064743869colour">Velocity Mortgage Capital</sp=
+an><br>
+</span></b><span class=3D"size"><span style=3D"font-size:10.0pt;font-family=
+:&quot;Verdana&quot;,sans-serif">30699 Russell Ranch Rd, Ste 295</span></sp=
+an><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if"><br>
+<span class=3D"x1047321402x-2064743869colour">Westlake Village, CA 91362</s=
+pan><br>
+<span class=3D"x1047321402x-2064743869colour">818.483.1822 Direct</span><br=
+>
+<span class=3D"x1047321402x-2064743869colour"><a href=3D"mailto:etalledo@ve=
+locitymortgage.com" target=3D"_blank"><span class=3D"colour"><span style=3D=
+"color:#0563C1">etalledo@velocitymortgage.com</span></span></a></span></spa=
+n><o:p></o:p></p>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:5.0pt;font-family:&quot;Verdana&quot;,sans-seri=
+f">&nbsp;</span></span><o:p></o:p></p>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span style=3D"fon=
+t-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&lt;image001.png&=
+gt;</span><o:p></o:p></p>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if"><a href=3D"http://www.velocitymortgage.com/" target=3D"_blank"><span cl=
+ass=3D"colour"><b><span style=3D"color:#1F497D">www.velocitymortgage.com</s=
+pan></b></span></a></span></span><o:p></o:p></p>
+</div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><b><span=
+ style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">From=
+:</span></b></span><span class=3D"apple-converted-space"><span style=3D"fon=
+t-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></sp=
+an><span class=3D"size"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif">Sam
+ Tehranchi &lt;<a href=3D"mailto:sam@c-mtg.com" target=3D"_blank"><span sty=
+le=3D"color:purple">sam@c-mtg.com</span></a>&gt;</span></span><o:p></o:p></=
+p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><b><span=
+ style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Sent=
+:</span></b></span><span class=3D"apple-converted-space"><span style=3D"fon=
+t-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></sp=
+an><span class=3D"size"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif">Thursday,
+ July 05, 2018 3:33 PM</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><b><span=
+ style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">To:<=
+/span></b></span><span class=3D"apple-converted-space"><span style=3D"font-=
+size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></span=
+><span class=3D"size"><span style=3D"font-size:10.0pt;font-family:&quot;Ver=
+dana&quot;,sans-serif">'Eve
+ Sanchez' &lt;<a href=3D"mailto:eve@c-mtg.com" target=3D"_blank"><span styl=
+e=3D"color:purple">eve@c-mtg.com</span></a>&gt;</span></span><o:p></o:p></p=
+>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><b><span=
+ style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Cc:<=
+/span></b></span><span class=3D"apple-converted-space"><span style=3D"font-=
+size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></span=
+><span class=3D"size"><span style=3D"font-size:10.0pt;font-family:&quot;Ver=
+dana&quot;,sans-serif">Eric
+ Talledo &lt;<a href=3D"mailto:etalledo@velocitymortgage.com" target=3D"_bl=
+ank"><span style=3D"color:purple">etalledo@velocitymortgage.com</span></a>&=
+gt;; Tony Kappos &lt;<a href=3D"mailto:tkappos@velocitymortgage.com" target=
+=3D"_blank"><span style=3D"color:purple">tkappos@velocitymortgage.com</span=
+></a>&gt;</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><b><span=
+ style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Subj=
+ect:</span></b></span><span class=3D"apple-converted-space"><span style=3D"=
+font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span><=
+/span><span class=3D"size"><span style=3D"font-size:10.0pt;font-family:&quo=
+t;Verdana&quot;,sans-serif">Re:
+ Fwd: Re: Title Action Required-288829-Address-214 Plantation Boulevard-Buy=
+er-Todd M Romboli (Email Ref=3D1480157444)</span></span><o:p></o:p></p>
+</div>
+</div>
+</div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+<div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">Hi Eric, can you check to see if we can get docs out later today or tom=
+orrow so we can fund it tomorrow. &nbsp;We are willing
+ to have escrow hold our broker funds until your funding department has all=
+ the items needed and file is complete (even though I think we are already =
+there). &nbsp;Borrower needs this closed urgently so anything you can do to=
+ push docs out, we will get everything
+ you need if we end up missing something.</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span class=3D"size"><span style=3D"font-size:10.0pt;font-family:&=
+quot;Verdana&quot;,sans-serif">Thank you</span></span><span style=3D"font-s=
+ize:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif"><o:p></o:p></span><=
+/p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span class=3D"size"><span style=3D"font-size:10.0pt;font-family:&=
+quot;Verdana&quot;,sans-serif">&nbsp;</span></span><span style=3D"font-size=
+:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span class=3D"size"><span style=3D"font-size:10.0pt;font-family:&=
+quot;Verdana&quot;,sans-serif">Respectfully,</span></span><span style=3D"fo=
+nt-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif"><o:p></o:p></sp=
+an></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span class=3D"size"><span style=3D"font-size:10.0pt;font-family:&=
+quot;Verdana&quot;,sans-serif">&nbsp;</span></span><span style=3D"font-size=
+:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span class=3D"size"><span style=3D"font-size:10.0pt;font-family:&=
+quot;Verdana&quot;,sans-serif">Sam Tehranchi</span></span><span style=3D"fo=
+nt-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif"><o:p></o:p></sp=
+an></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span class=3D"size"><b><span style=3D"font-size:10.0pt;font-famil=
+y:&quot;Verdana&quot;,sans-serif">Custom Mortgage and Realty</span></b></sp=
+an><span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-se=
+rif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span class=3D"size"><span style=3D"font-size:10.0pt;font-family:&=
+quot;Verdana&quot;,sans-serif">COO</span></span><span style=3D"font-size:9.=
+0pt;font-family:&quot;Helvetica&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span class=3D"size"><span style=3D"font-size:7.5pt;font-family:&q=
+uot;Verdana&quot;,sans-serif">NMLS CA # 1556995 - BRE CA # 02018146</span><=
+/span><span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans=
+-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span class=3D"size"><span style=3D"font-size:10.0pt;font-family:&=
+quot;Verdana&quot;,sans-serif">&nbsp;</span></span><span style=3D"font-size=
+:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span class=3D"size"><span style=3D"font-size:10.0pt;font-family:&=
+quot;Verdana&quot;,sans-serif">D:&nbsp;310.709.6304 - F:&nbsp;866.421.7694<=
+/span></span><span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quo=
+t;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span class=3D"size"><span style=3D"font-size:10.0pt;font-family:&=
+quot;Verdana&quot;,sans-serif"><a href=3D"mailto:sam@c-mtg.com" target=3D"_=
+blank"><span style=3D"color:purple">sam@c-mtg.com</span></a>&nbsp;-&nbsp;<a=
+ href=3D"http://hybrid-web.global.blackspider.com/urlwrap/?q=3DAXicE2RmePCc=
+gSHxEgNDUU6loUGGXnFRmV5uYmZOcn5eSVF-jl5yfi5DuZmpb3heiouhsbmRkQVDakliTk5qSr5=
+DWWpOfnJmSWVuflFJemJ6KlhxRklJgZW-fnl5uV6ybm5JOliQgSEUaAUAECok3Q&amp;Z" targ=
+et=3D"_blank"><span style=3D"color:purple">www.c-mtg.com</span></a></span><=
+/span><span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans=
+-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span class=3D"size"><span style=3D"font-size:10.0pt;font-family:&=
+quot;Verdana&quot;,sans-serif">&nbsp;</span></span><span style=3D"font-size=
+:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span class=3D"size"><span style=3D"font-size:10.0pt;font-family:&=
+quot;Verdana&quot;,sans-serif"><a href=3D"https://www.linkedin.com/company-=
+beta/3477964" target=3D"_blank"><span style=3D"font-size:9.0pt;font-family:=
+&quot;Helvetica&quot;,sans-serif;color:purple">LinkedIn</span></a></span></=
+span><span class=3D"size"><span style=3D"font-size:9.0pt;font-family:&quot;=
+Helvetica&quot;,sans-serif">&nbsp;-&nbsp;</span></span><span class=3D"size"=
+><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif=
+"><a href=3D"https://www.facebook.com/Custom-Mortgage-409842885783868/" tar=
+get=3D"_blank"><span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&q=
+uot;,sans-serif;color:purple">Facebook</span></a></span></span><span class=
+=3D"size"><span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,=
+sans-serif">&nbsp;-&nbsp;</span></span><span class=3D"size"><span style=3D"=
+font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif"><a href=3D"htt=
+ps://twitter.com/custommortgage1" target=3D"_blank"><span style=3D"font-siz=
+e:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif;color:purple">twitter<=
+/span></a></span></span><span class=3D"size"><span style=3D"font-size:9.0pt=
+;font-family:&quot;Helvetica&quot;,sans-serif">&nbsp;-&nbsp;</span></span><=
+span class=3D"size"><span style=3D"font-size:10.0pt;font-family:&quot;Verda=
+na&quot;,sans-serif"><a href=3D"https://www.instagram.com/custommortgageinc=
+/" target=3D"_blank"><span style=3D"font-size:9.0pt;font-family:&quot;Helve=
+tica&quot;,sans-serif;color:purple">Instagram</span></a></span></span><span=
+ style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif"><o:=
+p></o:p></span></p>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">---- On Thu, 05 Jul 2018 15:13:06 -0700&nbsp;<b>Eve Sanchez &lt;<a href=
+=3D"mailto:eve@c-mtg.com" target=3D"_blank"><span style=3D"color:purple">ev=
+e@c-mtg.com</span></a>&gt;</b></span></span><span class=3D"apple-converted-=
+space"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans=
+-serif">&nbsp;</span></span><span class=3D"size"><span style=3D"font-size:1=
+0.0pt;font-family:&quot;Verdana&quot;,sans-serif">wrote
+ ----</span></span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+</div>
+<blockquote style=3D"border:none;border-left:solid #CCCCCC 1.0pt;padding:0i=
+n 0in 0in 5.0pt;margin-left:3.75pt;margin-top:5.0pt;margin-right:0in;margin=
+-bottom:5.0pt">
+<div>
+<div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">Attached is the revised CPL, TITLE, ESTIMATE.</span></span><span class=
+=3D"apple-converted-space"><span style=3D"font-size:10.0pt;font-family:&quo=
+t;Verdana&quot;,sans-serif">&nbsp;</span></span><span class=3D"size"><b><sp=
+an style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">Th=
+e
+ insurances already show the city as Islamorada.</span></b></span><o:p></o:=
+p></p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span style=3D"fon=
+t-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&lt;image004.jpg&=
+gt;&lt;image005.jpg&gt;</span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+</div>
+<div id=3D"">
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">Respectfully,</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><i><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-=
+serif">Evelyn Sanchez</span></i></span><o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">Loan</span></span><span class=3D"apple-converted-space"><span style=3D"=
+font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span><=
+/span><span class=3D"size"><i><span style=3D"font-size:10.0pt;font-family:&=
+quot;Verdana&quot;,sans-serif">Processor</span></i></span><i><span style=3D=
+"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif"><br>
+</span></i><span class=3D"size"><b><span style=3D"font-size:10.0pt;font-fam=
+ily:&quot;Verdana&quot;,sans-serif">Custom Mortgage&nbsp;</span></b></span>=
+<o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><b><span style=3D"=
+font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&lt;image002.p=
+ng&gt;</span></b><o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">Direct: 818-384-7653</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">Fax: 866-421-7694</span></span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">Email:</span></span><span class=3D"apple-converted-space"><span style=
+=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</sp=
+an></span><span class=3D"size"><u><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif"><a href=3D"mailto:Karen@c-mtg.com" targe=
+t=3D"_blank"><span style=3D"color:purple">Eve@c-mtg.com</span></a></span></=
+u></span><o:p></o:p></p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+</div>
+</div>
+<p class=3D"x1047321402x-2064743869x-742607484msonormal"><span class=3D"siz=
+e"><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">&nbsp;</span></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">This me=
+ssage is intended only for the use of the individual or entity to which it =
+is addressed and may contain information that is
+ privileged, confidential, and exempt from disclosure under applicable law.=
+ If the reader of this message is not the intended recipient, or the employ=
+ee or agent responsible to deliver it to the intended recipient, you are he=
+reby notified that reading, disseminating,
+ distributing, or copying this communication is strictly prohibited. If you=
+ have received this communication in error, please immediately notify us by=
+ telephone, and discard the original message. Thank you.</span></span><o:p>=
+</o:p></p>
+</div>
+</div>
+</blockquote>
+</div>
+<div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;<=
+/span></span><o:p></o:p></p>
+</div>
+</div>
+<p class=3D"x1047321402x-2064743869msonormal"><span class=3D"size"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;<=
+/span></span><o:p></o:p></p>
+</div>
+</div>
+</blockquote>
+</div>
+<div>
+<p class=3D"x1047321402msonormal"><span class=3D"size"><span style=3D"font-=
+size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif">&nbsp;</span></span=
+><o:p></o:p></p>
+</div>
+</div>
+<p class=3D"x1047321402msonormal"><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+</div>
+</div>
+</blockquote>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</div>
+</body>
+</html>
+
+--_000_DM5PR2001MB090696AC49C6830749F1D846BC440DM5PR2001MB0906_--
+
+--_004_DM5PR2001MB090696AC49C6830749F1D846BC440DM5PR2001MB0906_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=18358;
+	creation-date="Mon, 09 Jul 2018 17:55:57 GMT";
+	modification-date="Mon, 09 Jul 2018 17:55:57 GMT"
+Content-ID: <image001.png@01D41773.6987EAA0>
+Content-Transfer-Encoding: base64
+
+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
+rkJggg==
+
+--_004_DM5PR2001MB090696AC49C6830749F1D846BC440DM5PR2001MB0906_--

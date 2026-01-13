@@ -1,0 +1,135 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of scouted.io designates 74.125.82.67 as permitted sender) client-ip=74.125.82.67; envelope-from=ela.mitchell@scouted.io; helo=mail-wm0-f67.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of scouted.io designates 74.125.82.67 as permitted sender)  smtp.mailfrom=ela.mitchell@scouted.io;
+	dmarc=pass(p=none dis=none)  header.from=scouted.io
+Return-Path: <ela.mitchell@scouted.io>
+Received: from mail-wm0-f67.google.com (mail-wm0-f67.google.com [74.125.82.67]) by mx.zohomail.com
+	with SMTPS id 1532530874877414.987268918812; Wed, 25 Jul 2018 08:01:14 -0700 (PDT)
+Received: by mail-wm0-f67.google.com with SMTP id c14-v6so6401840wmb.4
+        for <sam@c-mtg.com>; Wed, 25 Jul 2018 08:01:14 -0700 (PDT)
+Received: from 193155701165 named unknown by gmailapi.google.com with
+ HTTPREST; Wed, 25 Jul 2018 08:01:09 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=scouted-io.20150623.gappssmtp.com; s=20150623;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=2dcBiIurF4oCVI8Ucq8HB/E9vlnpvE/dBu19GRKGAgc=;
+        b=TuKZFqPfpn4AeQWvkvs6hIKBQVPVdQT54XJLvVc6MkCi3FsCMRzRU3FGopFYkKyj0K
+         VEWJjEZzYp30+uHsV7svSnGmBg4DSI4zbfI1OLH66ct6rvyNLpjHWkqCd4/rO1m6ihm8
+         jQ6Tm0N/YRa6uNnpRHkwOCG2Z98oh/btt8138UUJXcOBIHG3BbLAbVJU6tRjhknqV18u
+         dwcYv1hvrsGMR2k3rOpBKcJsQ2HLLGSJdS2mm+Zgh1F8f7krhLIR06hO3DB2tcvVCvug
+         HCcg/D/LXtVVEk37zDmwX4crwL4fr5FO0xjdqiILGGvKEo0yOxRSDWkjq2tU6gCIsNE4
+         4lLw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=2dcBiIurF4oCVI8Ucq8HB/E9vlnpvE/dBu19GRKGAgc=;
+        b=HL4JQH7cSwG0/DgPg1sVb/OqOO1fSpAwgOoov5dn29F54tUXotW5sTAXbGCdcUB71w
+         BvsQZXaVMYApAGV9rwErXnnCKY37Xz6YzRJCvSb3mIyZAwY194o5YwII2Pn2sMQxziYe
+         njLorNOLRzXlpsYBmEXAb30fNS0uZb8vFFzjZKY6L1LdIMpLHdq8LnU8no6cYTi52ror
+         mZloKXg1OBElljSlF2tSHwv3Tk60/HXgN7S2QuaVeh4914yvBwAX0Lnf2xuu5IbXMasN
+         99IoPSLY6JS9NKzQQvF7Je8clghDE6EdTJCB+XFmCftf2BbG5rh849DTrZF8ssaXiorp
+         pGXQ==
+X-Gm-Message-State: AOUpUlE31OVKhiqsJ1p6JdV2hb2DzzjPCvw07jpRcGeRo3nNDfXv9f2z
+	8KUXZyk/TVk6pR4CxcvJOV69zh7l2aqMEG+PSp5loAey
+X-Google-Smtp-Source: AAOMgpftcuuZzUCngd4c1rqUnPKoRcDUxAW1rKxiz4L55vaR6ZYxn0fyQBU3SUIeGLJkToQAIAQMyhxg7QiZxdJFKKo=
+X-Received: by 2002:a1c:864c:: with SMTP id i73-v6mr5192307wmd.40.1532530872305;
+ Wed, 25 Jul 2018 08:01:12 -0700 (PDT)
+From: Ela Mitchell <ela.mitchell@scouted.io>
+Mime-Version: 1.0
+X-OUTREACH-SENT: true
+Date: Wed, 25 Jul 2018 08:01:09 -0700
+Message-ID:<CAMNKdC60-ZfihTbffxdAqkrZ=xNThJ_BM65FnscUF5RXh8+mHA@mail.gmail.com>
+Subject: Sam - Time To Chat?
+To: Sam Tehranchi <sam@c-mtg.com>
+Content-Type: multipart/alternative; boundary="000000000000404fd50571d42673"
+X-ZohoMail-DKIM: pass (identity @scouted-io.20150623.gappssmtp.com)
+X-ZohoMail-Owner: <CAMNKdC60-ZfihTbffxdAqkrZ=xNThJ_BM65FnscUF5RXh8+mHA@mail.gmail.com>+zmo_0_ela.mitchell@scouted.io
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_5 IS_0 PIW IS_6 EML_0 DMN_0 EDR_100 COSF LNKP UMS_WB FRD_HI_0 UNK_U_0 UNK_O_0 SIP_KN_0 RPD_UN_0 PMF_BCN_IMG_0 PIS_DPR_KN_0 CFS_710LNSP1_1  SC_1 SGR3_1_2_0_168_604
+X-ZM-MESSAGEID: 1532530877072100001
+X-ZohoMail-Status: 1
+
+
+--000000000000404fd50571d42673
+Content-Type: text/plain; charset="UTF-8"
+
+Hi Sam,
+
+I just gave you a ring. I'm Ela and I work at Scouted - a job matching
+platform founded by Bridgewater alum. I'd really like to connect and
+discuss a possible partnership between Scouted and Custom Mortgage sometime
+this week or early August.
+
+Scouted specializes in finding interns and professionals with up to 10
+years of experience and we could be an efficient pipeline for Custom
+Mortgage. Using our unique algorithm that focuses on key indicators of
+long-term success such as EQ and Grit, we can help Custom Mortgage
+efficiently and effectively evaluate talent.
+
+Is today at 4pm eastern a good time to discuss recruiting at Custom
+Mortgage? If it's more convenient here
+<https://app.hubspot.com/meetings/ela-mitchell> is a link to my calendar.
+
+Thanks,
+
+Ela Mitchell
+Development Rep
+site: www.scouted.io
+email: ela.mitchell@scouted.io
+address: 415 Madison Ave, NY, NY 10017
+****read about Scouted in the Financial Times
+<https://ftalphaville.ft.com/2017/03/08/2185684/the-hr-start-up-founded-by-bridgewater-alumni-based-on-bridgewater-principles/?mhq5j=e6>
+****
+If you'd like me to stop sending you emails, please click here
+<https://scouted.getoutreach.com/api/mailings/unsubscribe/PMRGSZBCHI3TKNJWGUWCE33SM4RDUIRXHBRTGMLFG43C2N3BG5RS2NBQG44C2YRUMQ3C2ZTFGIYGGNBRMQ2GCNBQEIWCE43JM4RDUIRULE2HOSSWKVEWOSKNMJSW6TCWJJ4WQ3KPNBMWW3CONRMHEMSVGZ3XI6TBK5WUY2KDIRRT2IT5>
+
+--000000000000404fd50571d42673
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div><span style=3D"font-family:&quot;Helvetica Neue&quot;,&quot;Liberation=
+ Sans&quot;,Arial,&quot;sans serif&quot;">Hi Sam,</span></div><div><br></di=
+v><div><span style=3D"font-family:&quot;Helvetica Neue&quot;,&quot;Liberati=
+on Sans&quot;,Arial,&quot;sans serif&quot;">I just gave you a ring. I&#39;m=
+ Ela and I work at Scouted - a job matching platform founded by Bridgewater=
+ alum. I&#39;d really like to connect and discuss a possible partnership be=
+tween Scouted and Custom Mortgage sometime this week or early August.=C2=A0=
+</span></div><div><br></div><div>Scouted specializes in finding interns and=
+ professionals with up to 10 years of experience and we could be an efficie=
+nt pipeline for Custom Mortgage. Using our unique algorithm that focuses on=
+ key indicators of long-term success such as EQ and Grit, we can help Custo=
+m Mortgage efficiently and effectively evaluate talent.</div><div><br></div=
+><div><span style=3D"font-family:&quot;Helvetica Neue&quot;,&quot;Liberatio=
+n Sans&quot;,Arial,&quot;sans serif&quot;">Is today at 4pm eastern a good t=
+ime to discuss recruiting at Custom Mortgage? If it&#39;s more convenient <=
+a href=3D"https://app.hubspot.com/meetings/ela-mitchell">here</a> is a link=
+ to my calendar.</span><span style=3D"font-size:13px;background-color:rgb(2=
+55,255,255)"><span style=3D"font-family:&quot;Helvetica Neue&quot;,&quot;Li=
+beration Sans&quot;,Arial,&quot;sans serif&quot;">=C2=A0</span></span></div=
+><div><br></div><div>Thanks,</div><div><br></div><div class=3D"outreach-sig=
+nature"><div>Ela Mitchell</div><div>Development Rep</div><div>site: <a href=
+=3D"http://www.scouted.io">www.scouted.io</a></div><div>email: <a href=3D"m=
+ailto:ela.mitchell@scouted.io">ela.mitchell@scouted.io</a></div><div><span =
+style=3D"font-family:&quot;Helvetica Neue&quot;,&quot;Liberation Sans&quot;=
+,Arial,&quot;sans serif&quot;">address: 415 Madison Ave, NY, NY 10017</span=
+></div><div><span style=3D"font-family:&quot;Helvetica Neue&quot;,&quot;Lib=
+eration Sans&quot;,Arial,&quot;sans serif&quot;">****read about Scouted in =
+the=C2=A0</span><a href=3D"https://ftalphaville.ft.com/2017/03/08/2185684/t=
+he-hr-start-up-founded-by-bridgewater-alumni-based-on-bridgewater-principle=
+s/?mhq5j=3De6"><span style=3D"font-family:&quot;Helvetica Neue&quot;,&quot;=
+Liberation Sans&quot;,Arial,&quot;sans serif&quot;">Financial Times</span><=
+/a><span style=3D"font-family:&quot;Helvetica Neue&quot;,&quot;Liberation S=
+ans&quot;,Arial,&quot;sans serif&quot;">****</span></div></div><div class=
+=3D"outreach-signature outreach-unsubscribe" style=3D"font-size:10px;color:=
+#999">If you&#39;d like me to stop sending you emails, please <a href=3D"ht=
+tps://scouted.getoutreach.com/api/mailings/unsubscribe/PMRGSZBCHI3TKNJWGUWC=
+E33SM4RDUIRXHBRTGMLFG43C2N3BG5RS2NBQG44C2YRUMQ3C2ZTFGIYGGNBRMQ2GCNBQEIWCE43=
+JM4RDUIRULE2HOSSWKVEWOSKNMJSW6TCWJJ4WQ3KPNBMWW3CONRMHEMSVGZ3XI6TBK5WUY2KDIR=
+RT2IT5">click here</a></div><img src=3D"https://scouted.getoutreach.com/api=
+/mailings/opened/PMRGSZBCHI3TKNJWGUWCE33SM4RDUIRXHBRTGMLFG43C2N3BG5RS2NBQG4=
+4C2YRUMQ3C2ZTFGIYGGNBRMQ2GCNBQEIWCE43JM4RDUISVLJ2XKZS7KBQS2VTMJE3HIT2FO54EC=
+YLCJZ4W453ZOF5GO32JPBKGUMLNJ5TUURTELBMT2IT5.gif" alt=3D"" width=3D"1" heigh=
+t=3D"1">
+
+--000000000000404fd50571d42673--

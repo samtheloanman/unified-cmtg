@@ -1,0 +1,567 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 209.85.220.176 as permitted sender) client-ip=209.85.220.176; envelope-from=gvpalmsprings@gmail.com; helo=mail-qk0-f176.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 209.85.220.176 as permitted sender)  smtp.mailfrom=gvpalmsprings@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Return-Path: <gvpalmsprings@gmail.com>
+Received: from mail-qk0-f176.google.com (mail-qk0-f176.google.com [209.85.220.176]) by mx.zohomail.com
+	with SMTPS id 1532300024233925.5225686595445; Sun, 22 Jul 2018 15:53:44 -0700 (PDT)
+Received: by mail-qk0-f176.google.com with SMTP id u21-v6so9167732qku.2;
+        Sun, 22 Jul 2018 15:53:43 -0700 (PDT)
+Received: by 2002:aed:3f1d:0:0:0:0:0 with HTTP; Sun, 22 Jul 2018 15:53:41
+ -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=R1V1nQTyoipgl4PhyiUPiNSYEo1wRtYIdfY3/3mxDTI=;
+        b=JOIi7yBDdDIZgljPLxmRVQH49dQBfg/UpWx5I8wnvaZ9iS80WFnhsiEe0CPRCKYuLS
+         g+OAohgElszry5DLtYceROG9DCBuzqk4zy8uHpGdp+9aerQnpneqjOhPNgmy89BHbfQ6
+         P4DPuKoUaRrqCikyvG+JIOyIzNXOgPrdhaBgbvnqtsbaXAaQYnbw/7goTcPiy9922tng
+         6lmOq3VgN99Jwx605Nm/rnKCQO29q3Zc5/0GxyweWDgnrvDDKPwGbUPHV6/DccYuCN6v
+         wB3/WYDD4psdRt8EvaZbvtvbAxZyOcXJXRGiBuKxjpVJi6HdjPEAOs5ANnzUf8HUyChC
+         OGlQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=R1V1nQTyoipgl4PhyiUPiNSYEo1wRtYIdfY3/3mxDTI=;
+        b=q8TUU+79uUQklRQcYQUsuhEf8tti5h9sa/BBZyDtnI0DG+7UabzaEnOq0N3z+18Gqc
+         wvDg5P56vzkTZL1uK9T6k7gscDZe4LVSuUeM8zsogzhxhJh5IAIqAyFHezdjHrxn1SJH
+         uDL05K7kgsYqZGc4X1BtNZRstRXgLiCs6+ttcc2qhVYeiKHh+nfqcx2uvxSu9iVuFNFL
+         BU1W1Q+YR8LI+CIxt6pCfyZ/5yg5XANSpXBAuWpH/amH3AhQ2jbAJ6PVKpqMyfrjjvSM
+         mASmzrNBTBidGpNHuuS5rX9lJ6WOkq42qV6aVpAuqnQnLhFQry88QpSB5+CJgf3pefEY
+         w1lQ==
+X-Gm-Message-State: AOUpUlH4JsZyqMPOXO9B62OJKWrZ4mBpgKklIHtAtl3KRhjZYtBfpr+I
+	upfOqRG0FzTKQP2GDwkSxczRaRxzk1R4AWQK9ck=
+X-Google-Smtp-Source: AAOMgpf1IsqLPNVaEf0asXETy9if2DdeOeUM/vXAXRdFtotiSTAkm5yRhGaN7nJjgoMjGFSPu9uiSpwJPIjS8Uj5Urs=
+X-Received: by 2002:a37:a745:: with SMTP id q66-v6mr9552133qke.336.1532300022176;
+ Sun, 22 Jul 2018 15:53:42 -0700 (PDT)
+MIME-Version: 1.0
+In-Reply-To: <20180721151819.1.18C4E9D7D3A96133@mail.hellosign.com>
+References: <20180721151819.1.18C4E9D7D3A96133@mail.hellosign.com>
+From: Gail Vasquez <gvpalmsprings@gmail.com>
+Date: Sun, 22 Jul 2018 15:53:41 -0700
+Message-ID:<CAJRwkY5PJkrkbTRB0fAW=5U4=5ohzSJ4gidAnEo0zpnBUZb1fA@mail.gmail.com>
+Subject: Re: Signature process for OFFERL: 1366 N Granito Cr, Palm Springs, CA
+ 92262 has started
+To: HelloSign <noreply@hellosign.com>, Sam Tehranchi <sam@c-mtg.com>, 
+	Miguel A Aguayo <miguel@c-mtg.com>
+Content-Type: multipart/alternative; boundary="00000000000082e0a405719e6659"
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_168 FRD_DI SPK
+X-ZM-MESSAGEID: 1532300024710100001
+X-ZohoMail-Status: 1
+
+
+--00000000000082e0a405719e6659
+Content-Type: text/plain; charset="UTF-8"
+
+Hi Sam,
+Thank you, I can't get this opened, it says nothing for me to do waiting
+for others.
+You're always welcome to text me so I know you've got something in work.
+Regards,
+Gail
+
+
+   GAIL VASQUEZ  |  917.747.0654
+   Douglas Elliman Real Estate
+   Gvpalmsprings@gmail.com
+
+On Sat, Jul 21, 2018 at 8:18 AM, Sam Tehranchi <noreply@mail.hellosign.com>
+wrote:
+
+>
+> [image: Logo]
+> <https://app.hellosign.com/?utm_campaign=unspecified&utm_source=default&utm_channel=product_promo&utm_medium=email>
+>
+>
+>
+> Heads up, you've been copied on a signature request
+>
+>
+> Just letting you know that sam@c-mtg.com has copied you on "OFFERL: 1366
+> N Granito Cr, Palm Springs, CA 92262
+> <https://maps.google.com/?q=1366+N+Granito+Cr,+Palm+Springs,+CA+92262&entry=gmail&source=g>".
+> The document is being sent to:
+>
+> Signers
+>
+> David Weiss (weissdsw@yahoo.com)
+>
+> Miguel A Aguayo (miguel@c-mtg.com)
+>
+> *There's nothing you need to do.* We'll email you again when everyone has
+> signed.
+>
+>
+>
+>
+
+--00000000000082e0a405719e6659
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi Sam,=C2=A0<div>Thank you, I can&#39;t get this opened, =
+it says nothing for me to do waiting for others.=C2=A0</div><div>You&#39;re=
+ always welcome to text me so I know you&#39;ve got something in work.=C2=
+=A0</div><div>Regards,</div><div>Gail=C2=A0</div></div><div class=3D"gmail_=
+extra"><br clear=3D"all"><div><div class=3D"gmail_signature" data-smartmail=
+=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=
+=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div dir=3D"ltr"><div =
+dir=3D"ltr"><div><div style=3D"font-size:12.8px;color:rgb(80,0,80)"><br></d=
+iv><div><span style=3D"font-size:12.8px"><b style=3D"color:rgb(204,204,204)=
+">=C2=A0 =C2=A0</b></span><font size=3D"2" color=3D"#666666"><font face=3D"=
+Century Gothic, sans-serif">GAIL VASQUEZ=C2=A0</font><span style=3D"line-he=
+ight:14.2667px;font-family:&#39;Century Gothic&#39;,sans-serif;background-i=
+mage:initial;background-position:initial;background-repeat:initial">=C2=A0<=
+/span><span style=3D"line-height:14.2667px;font-family:Arial,sans-serif">|<=
+/span><font face=3D"Century Gothic, sans-serif">=C2=A0 917.747.0654=C2=A0</=
+font></font></div><div><font color=3D"#666666"><font size=3D"2"><font face=
+=3D"Century Gothic, sans-serif">=C2=A0 =C2=A0Douglas Elliman Real=C2=A0</fo=
+nt></font><font face=3D"Century Gothic, sans-serif" size=3D"2">Estate</font=
+></font></div><div><font color=3D"#999999"><font face=3D"Century Gothic, sa=
+ns-serif" size=3D"2">=C2=A0 =C2=A0<a href=3D"mailto:Gvpalmsprings@gmail.com=
+" target=3D"_blank">Gvpalmsprings@gmail.com</a></font></font></div></div></=
+div></div></div></div></div></div></div></div></div></div></div></div></div=
+>
+<br><div class=3D"gmail_quote">On Sat, Jul 21, 2018 at 8:18 AM, Sam Tehranc=
+hi <span dir=3D"ltr">&lt;<a href=3D"mailto:noreply@mail.hellosign.com" targ=
+et=3D"_blank">noreply@mail.hellosign.com</a>&gt;</span> wrote:<br><blockquo=
+te class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc so=
+lid;padding-left:1ex"><u></u>
+
+
+
+
+
+   =20
+   =20
+   =20
+
+   =20
+   =20
+
+
+<div style=3D"Margin:0;background:#ffffff!important;box-sizing:border-box;c=
+olor:#1a1a1a;font-family:Arial,sans-serif;font-size:16px;font-weight:normal=
+;line-height:24px;margin:0;min-width:100%;padding:0;text-align:left;width:1=
+00%!important">
+    <span class=3D"m_369193260087281836preheader" style=3D"color:#ececec;di=
+splay:none!important;font-size:1px;line-height:1px;max-height:0px;max-width=
+:0px;opacity:0;overflow:hidden"></span>
+    <table class=3D"m_369193260087281836body" style=3D"Margin:0;background:=
+#ffffff!important;border-collapse:collapse;border-spacing:0;color:#1a1a1a;f=
+ont-family:Arial,sans-serif;font-size:16px;font-weight:normal;height:100%;l=
+ine-height:24px;margin:0;padding:0;text-align:left;vertical-align:top;width=
+:100%">
+        <tbody><tr style=3D"padding:0;text-align:left;vertical-align:top">
+            <td class=3D"m_369193260087281836center" align=3D"center" valig=
+n=3D"top" style=3D"Margin:0;border-collapse:collapse!important;color:#1a1a1=
+a;font-family:Arial,sans-serif;font-size:16px;font-weight:normal;line-heigh=
+t:24px;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:brea=
+k-word">
+                <center style=3D"min-width:574px;width:100%">
+                   =20
+                    <table align=3D"center" class=3D"m_369193260087281836co=
+ntainer m_369193260087281836float-center" style=3D"Margin:0 auto;background=
+:#fefefe;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto=
+;padding:0;text-align:center;vertical-align:top;width:574px">
+                        <tbody>
+                            <tr style=3D"padding:0;text-align:left;vertical=
+-align:top">
+                                <td style=3D"Margin:0;border-collapse:colla=
+pse!important;color:#1a1a1a;font-family:Arial,sans-serif;font-size:16px;fon=
+t-weight:normal;line-height:24px;margin:0;padding:0;text-align:left;vertica=
+l-align:top;word-wrap:break-word">
+                                    <table class=3D"m_369193260087281836spa=
+cer m_369193260087281836header__top-spacer" style=3D"border-collapse:collap=
+se;border-spacing:0;height:40px;padding:0;text-align:left;vertical-align:to=
+p;width:100%">
+                                        <tbody>
+                                            <tr style=3D"padding:0;text-ali=
+gn:left;vertical-align:top">
+                                                <td height=3D"16px" style=
+=3D"Margin:0;border-collapse:collapse!important;color:#1a1a1a;font-family:A=
+rial,sans-serif;font-size:16px;font-weight:normal;line-height:16px;margin:0=
+;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">=C2=A0<=
+/td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class=3D"m_369193260087281836row=
+" style=3D"border-collapse:collapse;border-spacing:0;display:table;padding:=
+0;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style=3D"padding:0;text-ali=
+gn:left;vertical-align:top">
+                                                <th class=3D"m_369193260087=
+281836columns m_369193260087281836first m_369193260087281836last m_36919326=
+0087281836large-12 m_369193260087281836small-12" style=3D"Margin:0 auto;col=
+or:#1a1a1a;font-family:Arial,sans-serif;font-size:16px;font-weight:normal;l=
+ine-height:24px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16=
+px;padding-right:16px;text-align:left;width:574px">
+                                                    <table style=3D"border-=
+collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align=
+:top;width:100%">
+                                                        <tbody><tr style=3D=
+"padding:0;text-align:left;vertical-align:top">
+                                                            <th style=3D"Ma=
+rgin:0;color:#1a1a1a;font-family:Arial,sans-serif;font-size:16px;font-weigh=
+t:normal;line-height:24px;margin:0;padding:0;text-align:left">
+                                                                <center sty=
+le=3D"min-width:542px;width:100%">
+                                                                    <span a=
+lign=3D"center" class=3D"m_369193260087281836float-center" style=3D"Margin:=
+0;color:#1ea2d5;font-family:Arial,sans-serif;font-weight:normal;line-height=
+:24px;margin:0;padding:0;text-align:left;text-decoration:none">
+                                                                           =
+                                                                         <a=
+ href=3D"https://app.hellosign.com/?utm_campaign=3Dunspecified&amp;utm_sour=
+ce=3Ddefault&amp;utm_channel=3Dproduct_promo&amp;utm_medium=3Demail" target=
+=3D"_blank">
+                                                                           =
+                                                                           =
+  <img src=3D"https://dyn550zzd47ox.cloudfront.net/1.58.0/css/images/2016_e=
+mail/hs-logo-color-2x.png" class=3D"m_369193260087281836logo m_369193260087=
+281836text-center" alt=3D"Logo" style=3D"Margin:0 auto;border:none;clear:bo=
+th;display:inline;float:none;margin:0 auto;max-width:150px;outline:none;tex=
+t-align:center;text-decoration:none;width:auto;height:auto">               =
+                                                                           =
+                                                          </a>
+                                                                           =
+                                                                 </span>
+                                                                           =
+                                                         </center>
+                                                            </th>
+                                                            <th class=3D"m_=
+369193260087281836expander" style=3D"Margin:0;color:#1a1a1a;font-family:Ari=
+al,sans-serif;font-size:16px;font-weight:normal;line-height:24px;margin:0;p=
+adding:0!important;text-align:left;width:0"></th>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class=3D"m_369193260087281836spa=
+cer m_369193260087281836header__bottom-spacer" style=3D"border-collapse:col=
+lapse;border-spacing:0;height:40px;padding:0;text-align:left;vertical-align=
+:top;width:100%">
+                                        <tbody>
+                                            <tr style=3D"padding:0;text-ali=
+gn:left;vertical-align:top">
+                                                <td height=3D"16px" style=
+=3D"Margin:0;border-collapse:collapse!important;color:#1a1a1a;font-family:A=
+rial,sans-serif;font-size:16px;font-weight:normal;line-height:16px;margin:0=
+;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">=C2=A0<=
+/td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                   =20
+
+                    <table align=3D"center" class=3D"m_369193260087281836co=
+ntainer m_369193260087281836float-center" style=3D"Margin:0 auto;background=
+:#fefefe;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto=
+;padding:0;text-align:center;vertical-align:top;width:574px">
+                        <tbody>
+                            <tr style=3D"padding:0;text-align:left;vertical=
+-align:top">
+                                <td style=3D"Margin:0;border-collapse:colla=
+pse!important;color:#1a1a1a;font-family:Arial,sans-serif;font-size:16px;fon=
+t-weight:normal;line-height:24px;margin:0;padding:0;text-align:left;vertica=
+l-align:top;word-wrap:break-word">
+                                    <table class=3D"m_369193260087281836row=
+" style=3D"border-collapse:collapse;border-spacing:0;display:table;padding:=
+0;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style=3D"padding:0;text-ali=
+gn:left;vertical-align:top">
+                                                <th class=3D"m_369193260087=
+281836columns m_369193260087281836first m_369193260087281836last m_36919326=
+0087281836large-12 m_369193260087281836small-12" style=3D"Margin:0 auto;col=
+or:#1a1a1a;font-family:Arial,sans-serif;font-size:16px;font-weight:normal;l=
+ine-height:24px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16=
+px;padding-right:16px;text-align:left;width:574px">
+                                                    <table style=3D"border-=
+collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align=
+:top;width:100%">
+                                                        <tbody><tr style=3D=
+"padding:0;text-align:left;vertical-align:top">
+                                                            <th class=3D"m_=
+369193260087281836main-content" style=3D"Margin:0;border:1px solid #e6e6e6;=
+border-radius:3px;color:#1a1a1a;font-family:Arial,sans-serif;font-size:16px=
+;font-weight:normal;line-height:24px;margin:0;padding:0;text-align:left">
+                                                               =20
+
+                                                               =20
+                                                                <center cla=
+ss=3D"m_369193260087281836notification m_369193260087281836fallback-font" s=
+tyle=3D"font-family:proxima-nova-bold,Arial,sans-serif;color:#1a1a1a;font-s=
+ize:22px;font-weight:700;min-width:542px;width:100%">
+                                                                    <table =
+class=3D"m_369193260087281836spacer m_369193260087281836notification__space=
+r-top m_369193260087281836float-center" style=3D"Margin:0 auto;border-colla=
+pse:collapse;border-spacing:0;float:none;height:30px;margin:0 auto;padding:=
+0;text-align:center;vertical-align:top;width:100%">
+                                                                        <tb=
+ody>
+                                                                           =
+ <tr style=3D"padding:0;text-align:left;vertical-align:top">
+                                                                           =
+     <td height=3D"30px" style=3D"Margin:0;border-collapse:collapse!importa=
+nt;color:#1a1a1a;font-family:Arial,sans-serif;font-size:30px;font-weight:no=
+rmal;line-height:30px;margin:0;padding:0;text-align:left;vertical-align:top=
+;word-wrap:break-word">=C2=A0</td>
+                                                                           =
+ </tr>
+                                                                        </t=
+body>
+                                                                    </table=
+>
+                                                                    <img sr=
+c=3D"https://dyn550zzd47ox.cloudfront.net/1.58.0/css/images/2016_email/sign=
+ature-gray-2x.png" align=3D"center" class=3D"m_369193260087281836float-cent=
+er" width=3D"48px" style=3D"Margin:0 auto;clear:both;display:block;float:no=
+ne;margin:0 auto;max-width:100%;outline:none;text-align:center;text-decorat=
+ion:none;width:48px">                                                      =
+              <table class=3D"m_369193260087281836spacer m_3691932600872818=
+36float-center" style=3D"Margin:0 auto;border-collapse:collapse;border-spac=
+ing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:t=
+op;width:100%">
+                                                                        <tb=
+ody>
+                                                                           =
+ <tr style=3D"padding:0;text-align:left;vertical-align:top">
+                                                                           =
+     <td height=3D"20px" style=3D"Margin:0;border-collapse:collapse!importa=
+nt;color:#1a1a1a;font-family:Arial,sans-serif;font-size:20px;font-weight:no=
+rmal;line-height:20px;margin:0;padding:0;text-align:left;vertical-align:top=
+;word-wrap:break-word">=C2=A0</td>
+                                                                           =
+ </tr>
+                                                                        </t=
+body>
+                                                                    </table=
+>
+                                                                    <table =
+class=3D"m_369193260087281836row m_369193260087281836collapse" style=3D"bor=
+der-collapse:collapse;border-spacing:0;display:table;padding:0;text-align:c=
+enter;vertical-align:top;width:100%"><tbody><tr style=3D"padding:0;text-ali=
+gn:left;vertical-align:top">
+                                                                        <th=
+ width=3D"35" class=3D"m_369193260087281836padder" style=3D"Margin:0;color:=
+#1a1a1a;font-family:Arial,sans-serif;font-size:16px;font-weight:normal;line=
+-height:24px;margin:0;padding:0;text-align:left;width:35px!important"><img =
+src=3D"https://dyn550zzd47ox.cloudfront.net/1.58.0/css/images/2016_email/1x=
+1.png" style=3D"clear:both;display:block;max-width:100%;outline:none;text-d=
+ecoration:none;width:auto"></th>
+                                                                        <th=
+ style=3D"text-align:center">
+                                                                           =
+ Heads up, you&#39;ve been copied on a signature request                   =
+                                                     </th>
+                                                                        <th=
+ width=3D"35" class=3D"m_369193260087281836padder" style=3D"Margin:0;color:=
+#1a1a1a;font-family:Arial,sans-serif;font-size:16px;font-weight:normal;line=
+-height:24px;margin:0;padding:0;text-align:left;width:35px!important"><img =
+src=3D"https://dyn550zzd47ox.cloudfront.net/1.58.0/css/images/2016_email/1x=
+1.png" style=3D"clear:both;display:block;max-width:100%;outline:none;text-d=
+ecoration:none;width:auto"></th>
+                                                                    </tr></=
+tbody></table>
+                                                                </center>
+                                                               =20
+
+                                                                <table clas=
+s=3D"m_369193260087281836spacer" style=3D"border-collapse:collapse;border-s=
+pacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+            <tbody>
+                <tr style=3D"padding:0;text-align:left;vertical-align:top">
+                    <td height=3D"50px" style=3D"Margin:0;border-collapse:c=
+ollapse!important;color:#1a1a1a;font-family:Arial,sans-serif;font-size:50px=
+;font-weight:normal;line-height:50px;margin:0;padding:0;text-align:left;ver=
+tical-align:top;word-wrap:break-word">=C2=A0</td>
+                </tr>
+            </tbody>
+        </table>
+                                                               =20
+                                                                <table styl=
+e=3D"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;ve=
+rtical-align:top;width:100%">
+    <tbody>
+        <tr style=3D"padding:0;text-align:left;vertical-align:top">
+            <th width=3D"35" class=3D"m_369193260087281836padder" style=3D"=
+Margin:0;color:#1a1a1a;font-family:Arial,sans-serif;font-size:16px;font-wei=
+ght:normal;line-height:24px;margin:0;padding:0;text-align:left;width:35px!i=
+mportant">
+            <img src=3D"https://dyn550zzd47ox.cloudfront.net/1.58.0/css/ima=
+ges/2016_email/1x1.png" style=3D"clear:both;display:block;max-width:100%;ou=
+tline:none;text-decoration:none;width:auto">
+        </th>
+            <th style=3D"margin:0;color:#1a1a1a;font-family:Arial,sans-seri=
+f;font-size:16px;font-weight:normal;line-height:24px;margin:0;padding:0;tex=
+t-align:left">
+            	                    <p>
+                        <span class=3D"m_369193260087281836message" style=
+=3D"color:#1a1a1a;font-family:proxima-nova-regular,Arial,sans-serif;font-si=
+ze:16px;line-height:24px;font-weight:400;margin:0;margin-bottom:10px;paddin=
+g:0;text-align:left">
+                    		Just letting you know that <a href=3D"mailto:sam@c-mt=
+g.com" target=3D"_blank">sam@c-mtg.com</a> has copied you on &quot;OFFERL: =
+<a href=3D"https://maps.google.com/?q=3D1366+N+Granito+Cr,+Palm+Springs,+CA=
++92262&amp;entry=3Dgmail&amp;source=3Dg">1366 N Granito Cr, Palm Springs, C=
+A 92262</a>&quot;. The document is being sent to:                		</span>
+                	</p>
+            =09
+				                    <p class=3D"m_369193260087281836subhead" style=3D"M=
+argin:0;Margin-bottom:10px;color:#1a1a1a;font-family:proxima-nova-semibold,=
+Arial,sans-serif;font-size:12px;font-weight:600;line-height:12px;letter-spa=
+cing:0.3px;margin:0;margin-bottom:10px;padding:0;text-align:left;text-trans=
+form:uppercase">
+            Signers
+        </p>                                            <p class=3D"m_36919=
+3260087281836signer" style=3D"color:#1a1a1a;font-family:proxima-nova-regula=
+r,Arial,sans-serif;font-size:16px;line-height:24px;font-weight:400;margin:0=
+;margin-bottom:10px;margin:0;margin-bottom:0px;padding:0;text-align:left">
+                            David Weiss (<a href=3D"mailto:weissdsw@yahoo.c=
+om" target=3D"_blank">weissdsw@yahoo.com</a>)                        </p>
+                                            <p class=3D"m_36919326008728183=
+6signer" style=3D"color:#1a1a1a;font-family:proxima-nova-regular,Arial,sans=
+-serif;font-size:16px;line-height:24px;font-weight:400;margin:0;margin-bott=
+om:10px;margin:0;margin-bottom:0px;padding:0;text-align:left">
+                            Miguel A Aguayo (<a href=3D"mailto:miguel@c-mtg=
+.com" target=3D"_blank">miguel@c-mtg.com</a>)                        </p>
+                                   =20
+                                    <p>
+                        <span class=3D"m_369193260087281836message" style=
+=3D"color:#1a1a1a;font-family:proxima-nova-regular,Arial,sans-serif;font-si=
+ze:16px;line-height:24px;font-weight:400;margin:0;margin-bottom:10px;margin=
+:0;margin-bottom:10px;padding:0;text-align:left">
+                    		<strong>There&#39;s nothing you need to do.</strong> =
+We&#39;ll email you again when everyone has signed.                		</span=
+>
+                	</p>
+            	            </th>
+            <th width=3D"35" class=3D"m_369193260087281836padder" style=3D"=
+Margin:0;color:#1a1a1a;font-family:Arial,sans-serif;font-size:16px;font-wei=
+ght:normal;line-height:24px;margin:0;padding:0;text-align:left;width:35px!i=
+mportant">
+            <img src=3D"https://dyn550zzd47ox.cloudfront.net/1.58.0/css/ima=
+ges/2016_email/1x1.png" style=3D"clear:both;display:block;max-width:100%;ou=
+tline:none;text-decoration:none;width:auto">
+        </th>        </tr>
+    </tbody>
+</table>
+
+                                                               =20
+
+                                                               =20
+                                                                           =
+                                                    =20
+
+                                                                <table clas=
+s=3D"m_369193260087281836spacer" style=3D"border-collapse:collapse;border-s=
+pacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tbody>
+                                                                        <tr=
+ style=3D"padding:0;text-align:left;vertical-align:top">
+                                                                           =
+ <td height=3D"20px" style=3D"Margin:0;border-collapse:collapse!important;c=
+olor:#1a1a1a;font-family:Arial,sans-serif;font-size:20px;font-weight:normal=
+;line-height:20px;margin:0;padding:0;text-align:left;vertical-align:top;wor=
+d-wrap:break-word">=C2=A0</td>
+                                                                        </t=
+r>
+                                                                    </tbody=
+>
+                                                                </table>
+                                                                <table styl=
+e=3D"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;ve=
+rtical-align:top;width:100%">
+                                                                    <tbody>
+                                                                        <tr=
+ style=3D"padding:0;text-align:left;vertical-align:top">
+                                                                           =
+ <th style=3D"Margin:0;color:#1a1a1a;font-family:Arial,sans-serif;font-size=
+:16px;font-weight:normal;line-height:24px;margin:0;padding:0;text-align:lef=
+t">
+                                                                           =
+     <center style=3D"margin:0 auto 0 auto;max-width:168px;width:100%">
+                                                                           =
+         <img src=3D"https://dyn550zzd47ox.cloudfront.net/1.58.0/css/images=
+/2016_email/the-hellosign-team-2x.png" align=3D"center" class=3D"m_36919326=
+0087281836float-center" style=3D"Margin:0 auto;clear:both;display:block;flo=
+at:none;margin:0 auto;max-width:100%;outline:none;text-align:center;text-de=
+coration:none;width:auto">                                                 =
+                               </center>
+                                                                           =
+ </th>
+                                                                           =
+ <th style=3D"Margin:0;color:#1a1a1a;font-family:Arial,sans-serif;font-size=
+:16px;font-weight:normal;line-height:24px;margin:0;padding:0;text-align:lef=
+t">
+                                                                           =
+ </th>
+                                                                        </t=
+r>
+                                                                    </tbody=
+>
+                                                                </table>
+                                                                <table clas=
+s=3D"m_369193260087281836spacer" style=3D"border-collapse:collapse;border-s=
+pacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tbody>
+                                                                        <tr=
+ style=3D"padding:0;text-align:left;vertical-align:top">
+                                                                           =
+ <td height=3D"50px" style=3D"Margin:0;border-collapse:collapse!important;c=
+olor:#1a1a1a;font-family:Arial,sans-serif;font-size:50px;font-weight:normal=
+;line-height:50px;margin:0;padding:0;text-align:left;vertical-align:top;wor=
+d-wrap:break-word">=C2=A0</td>
+                                                                        </t=
+r>
+                                                                    </tbody=
+>
+                                                                </table>
+
+
+                                                               =20
+                                                            </th>
+                                                            <th class=3D"m_=
+369193260087281836expander" style=3D"Margin:0;color:#1a1a1a;font-family:Ari=
+al,sans-serif;font-size:16px;font-weight:normal;line-height:24px;margin:0;p=
+adding:0!important;text-align:left;width:0"></th>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                   =20
+                                    </center>
+            </td>
+        </tr>
+    </tbody></table>
+   =20
+    <div style=3D"display:none;white-space:nowrap;font:15px courier;line-he=
+ight:0"> =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 </div=
+>
+</div>
+
+
+</blockquote></div><br></div>
+
+--00000000000082e0a405719e6659--

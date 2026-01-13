@@ -1,0 +1,193 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 209.85.215.173 as permitted sender) client-ip=209.85.215.173; envelope-from=geolrp@gmail.com; helo=mail-pg1-f173.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 209.85.215.173 as permitted sender)  smtp.mailfrom=geolrp@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Received: from mail-pg1-f173.google.com (mail-pg1-f173.google.com [209.85.215.173]) by mx.zohomail.com
+	with SMTPS id 1532374048072254.2954908122158; Mon, 23 Jul 2018 12:27:28 -0700 (PDT)
+Received: by mail-pg1-f173.google.com with SMTP id r1-v6so1061447pgp.11
+        for <sam@c-mtg.com>; Mon, 23 Jul 2018 12:27:28 -0700 (PDT)
+Return-Path: <geolrp@gmail.com>
+Return-Path: <geolrp@gmail.com>
+Received: from GeorgeHome (cpe-104-34-153-147.socal.res.rr.com. [104.34.153.147])
+        by smtp.gmail.com with ESMTPSA id f6-v6sm14989855pgf.52.2018.07.23.12.27.25
+        for <sam@c-mtg.com>
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Mon, 23 Jul 2018 12:27:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:to:references:in-reply-to:subject:date:message-id:mime-version
+         :thread-index:content-language;
+        bh=+BUNzXJuaHSrUqeAS5JSdulJr9SGu4feZ2X/hmpxecY=;
+        b=iF2kx+WEpSw8/SwdVxFhhK4xG0FRSXup5f+3MF2NXuO0rWMCWhaSQkcemXCrtoozYC
+         d1nZSGbm2c6DF+rTgJGFkNKcQ5H6g0G8poSijGYx8sd4xPCtUJXIE8CBH8f7TU+4zKwJ
+         0nuHtmQgjDCo/WmUl9HvULeXu3Tc290UxfYNUUmaM0RGy3BLINwcwKXA2lk+hU6xk50c
+         sx07dxNnaNicnL1RGxXcn4fhIHHEJfqURmqERbRBRh9iTuFvT/PQ3SbaGptFj//VIHZW
+         uVFuVacBrjc+9Z+qGhSh35kiDPiGzAvuJgoUmGSv47BZm4Jbz3cfB8AG4enuuLsHhtHB
+         0Tlw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:to:references:in-reply-to:subject:date
+         :message-id:mime-version:thread-index:content-language;
+        bh=+BUNzXJuaHSrUqeAS5JSdulJr9SGu4feZ2X/hmpxecY=;
+        b=periyFvwWHaVHZMcY4QBmXjxAMhSe7HB0gI7hdP+ER68YbgSwA3SKX2wKxVqkVFM0k
+         352FqSWkImZwNZzrtE+kNmedc2wsA2EvQ4EK0cTQWLFaeiiAbTjwX3VP0ohrAObon0oW
+         L/xdxKOUJv89iIeTzzmZa8+vzXRzsCN9S+zXcRdh0odY5dRR7I8usUSdo6kvpBAnxPoX
+         hREeH1ccBZdg0aqUrs74jb3leWYLZofC7SKjOgHpcJS4JfMc76XHeonkdCqV1oxhPsB0
+         uXTfRiJ6FrV64ydWi7COlIBcOkSjluQQkZQ/oBQe6E4g8yJ3iPkb0sTqOyA9L7k3c3WY
+         e8YA==
+X-Gm-Message-State: AOUpUlFRTDMVD2ZkN6JN8So09lGngPxCPNvJPV4sHQcHUII5Fwwm/kuZ
+	P0mEDims9V9oEISMYPF23Ixdmlv5
+X-Google-Smtp-Source: AAOMgpfVZAzgQ14xfTGI4krlqmorbUs0hxaGHujuZBJuCHW69tdDCgYCErQpgCFQ3PwEcIAReCZpDg==
+X-Received: by 2002:a63:ba10:: with SMTP id k16-v6mr13584013pgf.145.1532374047305;
+        Mon, 23 Jul 2018 12:27:27 -0700 (PDT)
+From: <geolrp@gmail.com>
+To: "'Sam Tehranchi'" <sam@c-mtg.com>
+References: <207196F6-3523-4275-910C-CD2CB2B5508F@gmail.com> <87CE2766-5583-4871-A506-677E13BCB73E@gmail.com> <68EA4B4C-2A76-4E74-A76D-86F3526A0EE0@c-mtg.com> <005001d4229c$c58d4780$50a7d680$@gmail.com> <720509B2-15C5-4400-8895-19ADD93EBE4F@gmail.com>
+In-Reply-To: <720509B2-15C5-4400-8895-19ADD93EBE4F@gmail.com>
+Subject: FW: Niko Chakrian / Hedges loan and lease
+Date: Mon, 23 Jul 2018 12:27:25 -0700
+Message-ID:<009c01d422bb$30300870$90901950$@gmail.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_009D_01D42280.83D29000"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AQHPkpEcmkObUWf4Lyc48UMam5zj6wIdtdcjAhU/FMACYiK3MQGK5MsBpGVRTrA=
+Content-Language: en-us
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_168 FRD_DI SPK
+X-ZM-MESSAGEID: 1532374048715100001
+X-ZohoMail-Status: 1
+
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_009D_01D42280.83D29000
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=20
+
+He put $7M into it.=20
+
+
+
+
+
+=20
+
+I have a lender, need to get a little more clarification to get final =
+terms.
+
+=20
+
+When did he buy the property?  I think it was 2014 based on title =
+history, please confirm.
+
+=20
+
+If he did improvements, how much were the improvements?
+
+=20
+
+Is the borrower taking ownership in personal name or entity?
+
+=20
+
+24 months of personal and business bank statements
+
+=20
+
+
+------=_NextPart_000_009D_01D42280.83D29000
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta =
+name=3DGenerator content=3D"Microsoft Word 15 (filtered =
+medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>He put $7M =
+into it.&nbsp;<o:p></o:p></p><div><div><p class=3DMsoNormal><span =
+style=3D'font-size:9.0pt;font-family:"Helvetica",sans-serif;color:black'>=
+<br><br></span><o:p></o:p></p></div></div><div><blockquote =
+style=3D'margin-top:5.0pt;margin-bottom:5.0pt'><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><div><div><p class=3DMsoNormal>I =
+have a lender, need to get a little more clarification to get final =
+terms.<o:p></o:p></p></div><div><div><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p></div></div><div><div><p =
+class=3DMsoNormal>When did he buy the property? &nbsp;I think it was =
+2014 based on title history, please =
+confirm.<o:p></o:p></p></div></div><div><div><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p></div></div><div><div><p =
+class=3DMsoNormal>If he did improvements, how much were the =
+improvements?<o:p></o:p></p></div></div><div><div><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p></div></div><div><div><p =
+class=3DMsoNormal>Is the borrower taking ownership in personal name or =
+entity?<o:p></o:p></p></div></div><div><div><p =
+class=3DMsoNormal><b><span =
+style=3D'font-size:14.0pt'>&nbsp;</span></b><o:p></o:p></p></div></div><d=
+iv><div><p class=3DMsoNormal><b><span style=3D'font-size:14.0pt'>24 =
+months of personal and business bank =
+statements</span></b><o:p></o:p></p></div></div></div></blockquote></div>=
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_000_009D_01D42280.83D29000--
+

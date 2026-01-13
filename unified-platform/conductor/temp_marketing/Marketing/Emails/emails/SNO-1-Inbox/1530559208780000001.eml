@@ -1,0 +1,383 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.mail.yahoo.com designates 66.163.186.148 as permitted sender) client-ip=66.163.186.148; envelope-from=tromboli@yahoo.com; helo=sonic302-22.consmr.mail.ne1.yahoo.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.mail.yahoo.com designates 66.163.186.148 as permitted sender)  smtp.mailfrom=tromboli@yahoo.com;
+	dmarc=pass(p=reject dis=none)  header.from=yahoo.com
+Return-Path: <tromboli@yahoo.com>
+Received: from sonic302-22.consmr.mail.ne1.yahoo.com (sonic302-22.consmr.mail.ne1.yahoo.com [66.163.186.148]) by mx.zohomail.com
+	with SMTPS id 1530559206146619.245104644942; Mon, 2 Jul 2018 12:20:06 -0700 (PDT)
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic302.consmr.mail.ne1.yahoo.com with HTTP; Mon, 2 Jul 2018 19:20:05 +0000
+Received: from wsip-72-216-243-72.ph.ph.cox.net (EHLO [10.10.32.37]) ([72.216.243.72])
+          by smtp431.mail.ne1.yahoo.com (Oath Hermes SMTP Server) with ESMTPA ID 973b651b622debe7c0c90afe0e2cf2e5;
+          Mon, 02 Jul 2018 19:20:00 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1530559205; bh=vV62XS0bj70w5Mr09uLBKcLxW0bcOCxOhEym/pBnTrI=; h=From:Date:Subject:References:In-Reply-To:To:From:Subject; b=W9lTXbyN5GdjB7kI7F6y2gxKATT88sKam1xkz6qGFXHGDcS3qt8olgb1h+tSCnphttRE+S4m+9f1u8AMdJhFANXRIg/jMjHQFW2HRwZs1m1aBYMUj7gGJAO20actw3nYBmCMbsGCauv4lNnkn9KVZsShjlGIsVGzzQxhFUhpjVL08l6I4ZUGbhx9yOmcp/BQXHHutJiCUFtJ9KpaNoCEgg69uiOGmq8tg0Dme5iDYd3QStomjBAzfSXb1Do+5qzxKJhjfEkPtCP4WEZmrRUKWYBvqekk1Wr8jPkHU54vrfd9q01aftc84nSuHq/vjzxafSgKsY1oKSgLuxkIs38kRA==
+X-YMail-OSG: y9e6VjoVM1n04C_8LJZ4sD_c_TQnKk7InyuU66uiRDMxGfLhNl8S1qmPdQyRmMI
+ .rFfg8UzNFJCAJDwyV2C1Orf2LQHfUeaw2IQ_LPdpPoV6v5237p3YlQT038MKVmwgRwE8o57pRZn
+ BFwGirOQOWjGZndcDiginMu7.horbHm8BXPugbUM9gJoOKguswNq2IYXfpnipy5Rd6McM5sTzJZk
+ uzwLE5xbiS14E6otzvJsBKFzwuV0Wn0Z9sfKA8b4uuTdf_ifS8l3uk8_53OwX9yvL2zASDQdrl7M
+ mSVo0iMQFVJyfn3mTu3ZXzOPlTJaNtMCRpxj.BgV65zKAkPm.jlWMjLXUwcNDMI8A4PP4zRjlYXx
+ 7JGHS4.PcEuyom.TL2oGWAH43gRRULywGCcMfl2T5.KeVW6lMvPGenu7qJ8I2l1_Ht_625Lj6S6k
+ U6gIFxGmpR1lmrt4bv17ZhxfBzGLjPPakAlWt5V5z_yAbiVT6qFUzLCyn7Shh_JoNwc9ShDeegWx
+ mh_HdJm9zVIOpAZfAtFjA.ZhEqgGjI2BTb7NNA4OEErUs7ew_d8bl8XR822sEAVm_ojCfXlsJUn.
+ Xf9GKvF_uxTZponLW15ak18197bRlTlhCLcTZ1tW5m2LqP7BJojSwq4D9w9_GZFiHLq2rolgGP37
+ .v2dRsWBqvwoXJP6VMsuQz8yOMQLdk23HXjL3Sp8lJVBVf4h2ELv02Ptm5wvGwRD9Za5oZL77sqB
+ 0F4OWxfYozS.Qhf.Xqt0dCMYB4lne8LLAjzYuPbLCaY6qnThHWZz.sY8lT66wKqpiSCi73yCnWo1
+ QCVCK0w1UPDuXI3eKRZ3qZeOV76jsturYFpwIJDQ0EMY9ZxLQjbi.KF43H_wEemy5RK6cP0s8SKA
+ tmr2ujp9sHB2JWTLsCnIO6binFlpL0Rs2BKmrV5JJJP0Ff7ZNjuOXV.YSzkp.zpCPLcmwzdaTuQ-
+ -
+From: todd romboli <tromboli@yahoo.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-BFEC6277-D82F-45AE-9901-823714015590
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0
+Date: Mon, 2 Jul 2018 12:19:59 -0700
+Subject: Re: Appraisal 653789354.pdf
+Message-ID:<79951D50-6179-4B09-AFAD-02B8B5BFAE73@yahoo.com>
+References: <BA176345-D308-41E3-A430-EB46015F0FF4@yahoo.com> <BN6PR2201MB16355FE40102A396593D6E4AB8430@BN6PR2201MB1635.namprd22.prod.outlook.com> <4314FDA4-4897-40B4-8FD0-F3BC0726F66D@yahoo.com> <BN6PR2201MB1635ABB0169E2B6C21F248ADB8430@BN6PR2201MB1635.namprd22.prod.outlook.com> <BN6PR2201MB1635A917DCEB74407A6FA0C9B8430@BN6PR2201MB1635.namprd22.prod.outlook.com>
+In-Reply-To: <BN6PR2201MB1635A917DCEB74407A6FA0C9B8430@BN6PR2201MB1635.namprd22.prod.outlook.com>
+To: Alina Davis <alina@yourflkeysagent.com>, Sam-Mahsa <sam@c-mtg.com>
+X-Mailer: iPhone Mail (15F79)
+X-ZohoMail-DKIM: pass (identity @yahoo.com)
+X-ZohoMail-Owner: <79951D50-6179-4B09-AFAD-02B8B5BFAE73@yahoo.com>+zmo_0_tromboli@yahoo.com
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_10 IS_0 FMWL EML_0 DMN_0 EDR_100 COSF LNKP SFP_WHTLST_0 UNK_U_0 UNK_O_0 SIP_KN_0 RPD_KMR_0 PMF_LNK_RPT_4 SDFE_RPNS_SM_0  SC_4 SGR3_1_2_0_166_416
+X-ZM-MESSAGEID: 1530559208780000001
+X-ZohoMail-Status: 1
+
+
+
+--Apple-Mail-BFEC6277-D82F-45AE-9901-823714015590
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Ok. Hopefully it won=E2=80=99t effect the lender=20
+Liliana =E2=80=AD(305) 519-7887=E2=80=AC
+
+Todd Romboli
+casarombo.co
+http://www.vrbo.com/498289
+312.543.1006=20
+312.264.0285 f
+Tromboli@yahoo.com
+
+> On Jul 2, 2018, at 12:16 PM, Alina Davis <alina@yourflkeysagent.com> wrote=
+:
+>=20
+> I spoke with Dave and he says that the system is shut down right now, it c=
+ould be a few days or as much as a couple of weeks.  As soon as it lets him c=
+hange it, he will change it.  I'll check back with him next week.  Have you s=
+poken with the appraiser?  I did not save her number when she called me. =20=
+
+>=20
+> Alina Davis, Realtor
+> Coldwell Banker Schmitt Real Estate Co.
+> 85996 Overseas Highway, Islamorada, FL  33036
+> 305-393-0541
+> Alina@YourFLKeysAgent.com
+> www.YourFLKeysAgent.com
+> www.zillow.com/profile/AlinaDavisTeam/#reviews
+> =20
+> From: Alina Davis
+> Sent: Monday, July 2, 2018 1:59:51 PM
+> To: todd romboli
+> Subject: Re: Appraisal 653789354.pdf
+> =20
+> calling now
+>=20
+> Alina Davis, Realtor
+> Coldwell Banker Schmitt Real Estate Co.
+> 85996 Overseas Highway, Islamorada, FL  33036
+> 305-393-0541
+> Alina@YourFLKeysAgent.com
+> www.YourFLKeysAgent.com
+> www.zillow.com/profile/AlinaDavisTeam/#reviews
+> =20
+> From: todd romboli <tromboli@yahoo.com>
+> Sent: Monday, July 2, 2018 1:48:34 PM
+> To: Alina Davis
+> Subject: Re: Appraisal 653789354.pdf
+> =20
+> Yes please=F0=9F=99=8F=F0=9F=8F=BD
+>=20
+> Todd Romboli
+> casarombo.co
+> http://www.vrbo.com/498289
+> 312.543.1006=20
+> 312.264.0285 f
+> Tromboli@yahoo.com
+>=20
+> On Jul 2, 2018, at 9:55 AM, Alina Davis <alina@yourflkeysagent.com> wrote:=
+
+>=20
+>> We have to call the property appraiser's office and have Dave come over a=
+nd take a look and measure so that he can document it.  I did the same thing=
+ to another house in the neighborhood.  Do you want me to call Dave and have=
+ him come out? =20
+>>=20
+>> Alina Davis, Realtor
+>> Coldwell Banker Schmitt Real Estate Co.
+>> 85996 Overseas Highway, Islamorada, FL  33036
+>> 305-393-0541
+>> Alina@YourFLKeysAgent.com
+>> www.YourFLKeysAgent.com
+>> www.zillow.com/profile/AlinaDavisTeam/#reviews
+>> =20
+>> From: todd romboli <tromboli@yahoo.com>
+>> Sent: Monday, July 2, 2018 12:44:08 PM
+>> To: Alina Davis
+>> Subject: Appraisal 653789354.pdf
+>> =20
+>> Good afternoon Alina. The Aprraiser has mentioned in the comments that th=
+e house according to the county is only 3091 so for bc the downstairs has ne=
+ver been approved by the county?? Which makes no sense. I have done nothing t=
+o the ground floor any different then when I bought it. So I am
+>> Wondering how
+>> We get the county to recognize the correct sq footage=20
+>>=20
+>>=20
+>>=20
+>> Todd Romboli
+>> casarombo.co
+>> http://www.vrbo.com/498289
+>> 312.543.1006=20
+>> 312.264.0285 f
+>> Tromboli@yahoo.com
+
+--Apple-Mail-BFEC6277-D82F-45AE-9901-823714015590
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto">Ok. Hopefully it won=E2=80=99t effect the l=
+ender&nbsp;<div>Liliana&nbsp;=E2=80=AD(305) 519-7887=E2=80=AC<br><br><div id=
+=3D"AppleMailSignature"><span style=3D"background-color: rgba(255, 255, 255,=
+ 0);">Todd Romboli</span><div><a href=3D"http://casarombo.co">casarombo.co</=
+a></div><div><a href=3D"http://www.vrbo.com/498289">http://www.vrbo.com/4982=
+89</a><span style=3D"background-color: rgba(255, 255, 255, 0);"><br><a href=3D=
+"tel:312.543.1006" x-apple-data-detectors=3D"true" x-apple-data-detectors-ty=
+pe=3D"telephone" x-apple-data-detectors-result=3D"0">312.543.1006</a>&nbsp;<=
+br><a href=3D"tel:312.264.0285" x-apple-data-detectors=3D"true" x-apple-data=
+-detectors-type=3D"telephone" x-apple-data-detectors-result=3D"1/1">312.264.=
+0285</a>&nbsp;f<br><a href=3D"mailto:Tromboli@yahoo.com" x-apple-data-detect=
+ors=3D"true" x-apple-data-detectors-type=3D"link" x-apple-data-detectors-res=
+ult=3D"1/2">Tromboli@yahoo.com</a></span></div></div><div><br>On Jul 2, 2018=
+, at 12:16 PM, Alina Davis &lt;<a href=3D"mailto:alina@yourflkeysagent.com">=
+alina@yourflkeysagent.com</a>&gt; wrote:<br><br></div><blockquote type=3D"ci=
+te"><div>
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+
+
+
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt;color:#000000;font-=
+family:Calibri,Helvetica,sans-serif;" dir=3D"ltr">
+<p style=3D"margin-top:0;margin-bottom:0">I spoke with Dave and he says that=
+ the system is shut down right now, it could be a few days or as much as a c=
+ouple of weeks.&nbsp; As soon as it lets him change it, he will change it.&n=
+bsp; I'll check back with him next week.&nbsp;
+ Have you spoken with the appraiser?&nbsp; I did not save her number when sh=
+e called me.&nbsp;&nbsp;</p>
+<p style=3D"margin-top:0;margin-bottom:0"><br>
+</p>
+<div id=3D"Signature">
+<div id=3D"divtagdefaultwrapper" dir=3D"ltr" style=3D"font-size: 12pt; color=
+: rgb(0, 0, 0); font-family: Calibri, Helvetica, sans-serif, EmojiFont, &quo=
+t;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, NotoColorEmoji, &quot=
+;Segoe UI Symbol&quot;, &quot;Android Emoji&quot;, EmojiSymbols;">
+<p>Alina Davis, Realtor</p>
+<p><span style=3D"font-size:11pt">Coldwell Banker Schmitt Real Estate Co.</s=
+pan></p>
+<p><span style=3D"font-size:11pt">85996 Overseas Highway, Islamorada, FL &nb=
+sp;33036</span></p>
+<p><span style=3D"font-size:12pt">305-393-0541</span></p>
+<p><span style=3D"font-family:&quot;Comic Sans MS&quot;,Chalkboard,cursive; f=
+ont-size:11pt"><span style=3D"font-family:&quot;Comic Sans MS&quot;,Chalkboa=
+rd,cursive; font-size:10pt">A</span><span style=3D"font-family:&quot;Comic S=
+ans MS&quot;,Chalkboard,cursive; font-size:10pt"></span><span style=3D"font-=
+family:&quot;Comic Sans MS&quot;,Chalkboard,cursive; font-size:10pt"><a href=
+=3D"mailto:lina@YourFLKeysAgent.com">lina@YourFLKeysAgent.com</a></span></sp=
+an></p>
+<p><a class=3D"OWAAutoLink" href=3D"http://www.YourFLKeysAgent.com" id=3D"LP=
+NoLP"><span style=3D"color:rgb(0,111,201); font-family:&quot;Comic Sans MS&q=
+uot;,Chalkboard,cursive; font-size:10pt">www.YourFLKeysAgent.com</span></a><=
+span style=3D"font-family:&quot;Comic Sans MS&quot;,Chalkboard,cursive; font=
+-size:11pt"></span></p>
+<p><span style=3D"font-family:&quot;Comic Sans MS&quot;,Chalkboard,cursive; f=
+ont-size:11pt"><a class=3D"OWAAutoLink" href=3D"http://www.zillow.com/profil=
+e/AlinaDavisTeam/#reviews" id=3D"LPNoLP" title=3D"http://www.zillow.com/prof=
+ile/AlinaDavisTeam/#reviews
+Ctrl+Click or tap to follow the link"><span style=3D"color:rgb(0,111,201); f=
+ont-family:&quot;Comic Sans MS&quot;,Chalkboard,cursive; font-size:10pt">www=
+.zillow.com/profile/AlinaDavisTeam/#reviews</span></a></span></p>
+</div>
+</div>
+</div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" sty=
+le=3D"font-size:11pt" color=3D"#000000"><b>From:</b> Alina Davis<br>
+<b>Sent:</b> Monday, July 2, 2018 1:59:51 PM<br>
+<b>To:</b> todd romboli<br>
+<b>Subject:</b> Re: Appraisal 653789354.pdf</font>
+<div>&nbsp;</div>
+</div>
+<meta content=3D"text/html; charset=3Dutf-8">
+<style type=3D"text/css" style=3D"display:none">
+<!--
+p
+	{margin-top:0;
+	margin-bottom:0}
+-->
+</style>
+<div dir=3D"ltr">
+<div id=3D"x_divtagdefaultwrapper" dir=3D"ltr" style=3D"font-size:12pt; colo=
+r:#000000; font-family:Calibri,Helvetica,sans-serif">
+<p style=3D"margin-top:0; margin-bottom:0">calling now</p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<div id=3D"x_Signature">
+<div id=3D"x_divtagdefaultwrapper" dir=3D"ltr" style=3D"font-size:12pt; colo=
+r:rgb(0,0,0); font-family:Calibri,Helvetica,sans-serif,EmojiFont,&quot;Apple=
+ Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,NotoColorEmoji,&quot;Segoe UI S=
+ymbol&quot;,&quot;Android Emoji&quot;,EmojiSymbols">
+<p>Alina Davis, Realtor</p>
+<p><span style=3D"font-size:11pt">Coldwell Banker Schmitt Real Estate Co.</s=
+pan></p>
+<p><span style=3D"font-size:11pt">85996 Overseas Highway, Islamorada, FL &nb=
+sp;33036</span></p>
+<p><span style=3D"font-size:12pt">305-393-0541</span></p>
+<p><span style=3D"font-family:&quot;Comic Sans MS&quot;,Chalkboard,cursive; f=
+ont-size:11pt"><span style=3D"font-family:&quot;Comic Sans MS&quot;,Chalkboa=
+rd,cursive; font-size:10pt">A</span><span style=3D"font-family:&quot;Comic S=
+ans MS&quot;,Chalkboard,cursive; font-size:10pt"></span><span style=3D"font-=
+family:&quot;Comic Sans MS&quot;,Chalkboard,cursive; font-size:10pt"><a href=
+=3D"mailto:lina@YourFLKeysAgent.com">lina@YourFLKeysAgent.com</a></span></sp=
+an></p>
+<p><a class=3D"x_OWAAutoLink" href=3D"http://www.YourFLKeysAgent.com" id=3D"=
+LPNoLP"><span style=3D"color:rgb(0,111,201); font-family:&quot;Comic Sans MS=
+&quot;,Chalkboard,cursive; font-size:10pt">www.YourFLKeysAgent.com</span></a=
+><span style=3D"font-family:&quot;Comic Sans MS&quot;,Chalkboard,cursive; fo=
+nt-size:11pt"></span></p>
+<p><span style=3D"font-family:&quot;Comic Sans MS&quot;,Chalkboard,cursive; f=
+ont-size:11pt"><a class=3D"x_OWAAutoLink" href=3D"http://www.zillow.com/prof=
+ile/AlinaDavisTeam/#reviews" id=3D"LPNoLP"><span style=3D"color:rgb(0,111,20=
+1); font-family:&quot;Comic Sans MS&quot;,Chalkboard,cursive; font-size:10pt=
+">www.zillow.com/profile/AlinaDavisTeam/#reviews</span></a></span></p>
+</div>
+</div>
+</div>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"x_divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" c=
+olor=3D"#000000" style=3D"font-size:11pt"><b>From:</b> todd romboli &lt;<a h=
+ref=3D"mailto:tromboli@yahoo.com">tromboli@yahoo.com</a>&gt;<br>
+<b>Sent:</b> Monday, July 2, 2018 1:48:34 PM<br>
+<b>To:</b> Alina Davis<br>
+<b>Subject:</b> Re: Appraisal 653789354.pdf</font>
+<div>&nbsp;</div>
+</div>
+<meta content=3D"text/html; charset=3Dutf-8">
+<div dir=3D"auto">Yes please=F0=9F=99=8F=F0=9F=8F=BD<br>
+<br>
+<div id=3D"x_x_AppleMailSignature"><span style=3D"background-color:rgba(255,=
+255,255,0)">Todd Romboli</span>
+<div><a href=3D"http://casarombo.co">casarombo.co</a></div>
+<div><a href=3D"http://www.vrbo.com/498289">http://www.vrbo.com/498289</a><s=
+pan style=3D"background-color:rgba(255,255,255,0)"><br>
+<a href=3D"tel:312.543.1006">312.543.1006</a>&nbsp;<br>
+<a href=3D"tel:312.264.0285">312.264.0285</a>&nbsp;f<br>
+<a href=3D"mailto:Tromboli@yahoo.com">Tromboli@yahoo.com</a></span></div>
+</div>
+<div><br>
+On Jul 2, 2018, at 9:55 AM, Alina Davis &lt;<a href=3D"mailto:alina@yourflke=
+ysagent.com">alina@yourflkeysagent.com</a>&gt; wrote:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div>
+<div id=3D"x_x_divtagdefaultwrapper" dir=3D"ltr" style=3D"font-size:12pt; co=
+lor:#000000; font-family:Calibri,Helvetica,sans-serif">
+<p style=3D"margin-top:0; margin-bottom:0">We have to call the property appr=
+aiser's office and have Dave come over and take a look and measure so that h=
+e can document it.&nbsp; I did the same thing to another house in the neighb=
+orhood.&nbsp; Do you want me to call Dave
+ and have him come out?&nbsp;&nbsp;</p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<div id=3D"x_x_Signature">
+<div id=3D"x_x_divtagdefaultwrapper" dir=3D"ltr" style=3D"font-size:12pt; co=
+lor:rgb(0,0,0); font-family:Calibri,Helvetica,sans-serif,EmojiFont,&quot;App=
+le Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,NotoColorEmoji,&quot;Segoe U=
+I Symbol&quot;,&quot;Android Emoji&quot;,EmojiSymbols">
+<p>Alina Davis, Realtor</p>
+<p><span style=3D"font-size:11pt">Coldwell Banker Schmitt Real Estate Co.</s=
+pan></p>
+<p><span style=3D"font-size:11pt">85996 Overseas Highway, Islamorada, FL &nb=
+sp;33036</span></p>
+<p><span style=3D"font-size:12pt">305-393-0541</span></p>
+<p><span style=3D"font-family:&quot;Comic Sans MS&quot;,Chalkboard,cursive; f=
+ont-size:11pt"><span style=3D"font-family:&quot;Comic Sans MS&quot;,Chalkboa=
+rd,cursive; font-size:10pt">A</span><span style=3D"font-family:&quot;Comic S=
+ans MS&quot;,Chalkboard,cursive; font-size:10pt"></span><span style=3D"font-=
+family:&quot;Comic Sans MS&quot;,Chalkboard,cursive; font-size:10pt"><a href=
+=3D"mailto:lina@YourFLKeysAgent.com">lina@YourFLKeysAgent.com</a></span></sp=
+an></p>
+<p><a class=3D"x_x_OWAAutoLink" href=3D"http://www.YourFLKeysAgent.com" id=3D=
+"LPNoLP"><span style=3D"color:rgb(0,111,201); font-family:&quot;Comic Sans M=
+S&quot;,Chalkboard,cursive; font-size:10pt">www.YourFLKeysAgent.com</span></=
+a><span style=3D"font-family:&quot;Comic Sans MS&quot;,Chalkboard,cursive; f=
+ont-size:11pt"></span></p>
+<p><span style=3D"font-family:&quot;Comic Sans MS&quot;,Chalkboard,cursive; f=
+ont-size:11pt"><a class=3D"x_x_OWAAutoLink" href=3D"http://www.zillow.com/pr=
+ofile/AlinaDavisTeam/#reviews" id=3D"LPNoLP"><span style=3D"color:rgb(0,111,=
+201); font-family:&quot;Comic Sans MS&quot;,Chalkboard,cursive; font-size:10=
+pt">www.zillow.com/profile/AlinaDavisTeam/#reviews</span></a></span></p>
+</div>
+</div>
+</div>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"x_x_divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif"=
+ color=3D"#000000" style=3D"font-size:11pt"><b>From:</b> todd romboli &lt;<a=
+ href=3D"mailto:tromboli@yahoo.com">tromboli@yahoo.com</a>&gt;<br>
+<b>Sent:</b> Monday, July 2, 2018 12:44:08 PM<br>
+<b>To:</b> Alina Davis<br>
+<b>Subject:</b> Appraisal 653789354.pdf</font>
+<div>&nbsp;</div>
+</div>
+<meta content=3D"text/html; charset=3Dus-ascii">
+<div>
+<div dir=3D"auto">
+<div>Good afternoon Alina. The Aprraiser has mentioned in the comments that t=
+he house according to the county is only 3091 so for bc the downstairs has n=
+ever been approved by the county?? Which makes no sense. I have done nothing=
+ to the ground floor any different
+ then when I bought it. So I am</div>
+<div>Wondering how</div>
+<div>We get the county to recognize the correct sq footage&nbsp;</div>
+<div><br>
+</div>
+</div>
+<div dir=3D"auto">
+<div></div>
+<br>
+<br>
+<div id=3D"x_x_x_x_AppleMailSignature"><span style=3D"background-color:rgba(=
+255,255,255,0)">Todd Romboli</span>
+<div><a href=3D"http://casarombo.co">casarombo.co</a></div>
+<div><a href=3D"http://www.vrbo.com/498289">http://www.vrbo.com/498289</a><s=
+pan style=3D"background-color:rgba(255,255,255,0)"><br>
+<a href=3D"tel:312.543.1006">312.543.1006</a>&nbsp;<br>
+<a href=3D"tel:312.264.0285">312.264.0285</a>&nbsp;f<br>
+<a href=3D"mailto:Tromboli@yahoo.com">Tromboli@yahoo.com</a></span></div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+
+
+</div></blockquote></div></body></html>=
+
+--Apple-Mail-BFEC6277-D82F-45AE-9901-823714015590--

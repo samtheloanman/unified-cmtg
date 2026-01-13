@@ -1,0 +1,432 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of spe.intercom-mail.com designates 52.27.255.226 as permitted sender) client-ip=52.27.255.226; envelope-from=bounces+17445793419@spe.intercom-mail.com; helo=mta1b6.spe.intercom-mail.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=@promo-bfd500d7acdb.intercom-mail.com;
+	spf=pass (zoho.com: domain of spe.intercom-mail.com designates 52.27.255.226 as permitted sender)  smtp.mailfrom=bounces+17445793419@spe.intercom-mail.com
+Received: from mta1b6.spe.intercom-mail.com (mta1b6.spe.intercom-mail.com [52.27.255.226]) by mx.zohomail.com
+	with SMTPS id 1531395136033613.459950224937; Thu, 12 Jul 2018 04:32:16 -0700 (PDT)
+Return-Path: <bounces+17445793419@spe.intercom-mail.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=promo-bfd500d7acdb.intercom-mail.com; s=intercom; t=1531395135;
+	i=@promo-bfd500d7acdb.intercom-mail.com;
+	bh=aYqMjDfuaFg67SNE17LfvbO9t+hNdIgwhG8O2kgSG8k=;
+	h=To:Content-Type:Subject:Message-ID:From:Date;
+	b=UN9Wv4gS9lgCqNol8nTMkin1c9GacZ4rPxzv0FirizvSDZK7FLeo0UK0LAy6ZZp4s
+	 N5T8SEEIWByJhAqnFRzWEoSL3X2cHbmBLiQtvYuMyoOAM0ftujS+Pd9zDWIeY9uQRL
+	 7hyrla9H4BGYfOccZNyO22bARRotnP4wLcPPAgPI=
+X-MSFBL: rKaDsSlG7xz1tc31Tlal/f9pWW+iSWxWXhYW9kl37mE=|eyJmcmllbmRseV9mcm9
+	tIjoiam9uYXRoYW4ubWVzc2lrYUBwcm9tby1iZmQ1MDBkN2FjZGIuaW50ZXJjb20
+	tbWFpbC5jb20iLCJtZXNzYWdlX2lkIjoiMDAwMTNmM2M0NzViZDBiMTQ3MGMiLCJ
+	yIjoic2FtQGMtbXRnLmNvbSIsInRyYW5zbWlzc2lvbl9pZCI6IjMwODQ5MjI2OTY
+	yOTQ2MDcwIiwidGVtcGxhdGVfdmVyc2lvbiI6IjAiLCJiIjoiaXBfNTIuMjcuMjU
+	1LjIyNiIsInN1YmFjY291bnRfaWQiOiI0MTYiLCJyY3B0X21ldGEiOnsgImludGV
+	yY29tX21lc3NhZ2VfaWQiOiAiMjMwMjkwOTYwIiwgImNvbnZlcnNhdGlvbl9pZCI
+	6ICIxNzQ0NTc5MzQxOSIsICJ1c2VyX2lkIjogIjViMTAxMTgxNDA5MmU0Yjc2YmZ
+	jOTY3MCIsICJiaW5kaW5nIjogIjUwMCIsICJhcHBfaWQiOiAidmFuMjJ3bG8iIH0
+	sInRlbmFudF9pZCI6ImludGVyY29tIiwicmNwdF90YWdzIjpbIF0sImciOiI1MDA
+	iLCJjdXN0b21lcl9pZCI6IjEiLCJ0ZW1wbGF0ZV9pZCI6InRlbXBsYXRlXzMwODQ
+	5MjI2OTYyOTQ2MDcwIn0=
+To: sam@c-mtg.com
+Content-Type: multipart/alternative; boundary="_----lKD0IPhp33DfP40RjW+KhA===_34/C0-45520-F3C374B5"
+MIME-Version: 1.0
+X-Mailgun-Variables: {"app_id":"van22wlo","conversation_id":"17445793419","intercom_message_id":230290960,"user_id":"5b1011814092e4b76bfc9670"}
+X-Auto-Response-Suppress: OOF, AutoReply
+Reply-To: Jonathan from Promo <jonathan.messika@promo-bfd500d7acdb.inbound.intercom-mail.com>
+X-Mailgun-Tag: user-personal-new
+X-Intercom-App-Id: van22wlo
+X-Intercom-Bin: 500
+Subject: [NEW FEATURE] Introducing Multi-Clips
+Message-ID:<c898e1c2-8b6414e8-1531395135-17445793419@intercom-mail.com>
+X-Mailgun-Track-Clicks: no
+From: "Jonathan from Promo" <jonathan.messika@promo-bfd500d7acdb.intercom-mail.com>
+X-Mailgun-Track-Opens: no
+List-Unsubscribe: <mailto:unsubscribe+17445793419_5b1011814092e4b76bfc9670@unsubscribes.intercom-mail.com>, <https://van22wlo.intercom-mail.com/unsubscribe?app_id=van22wlo&conversation_id=17445793419&sample=false&user_id=5b1011814092e4b76bfc9670>
+Date: Thu, 12 Jul 2018 11:32:15 +0000
+X-ZohoMail-DKIM: pass (identity @promo-bfd500d7acdb.intercom-mail.com)
+X-ZohoMail-Owner: <c898e1c2-8b6414e8-1531395135-17445793419@intercom-mail.com>+zmo_0_bounces@spe.intercom-mail.com
+X-ZohoMail-Sender: 52.27.255.226
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  SAS2 Ex_2 SS_1 IS_0 ZMKF_NWSLTR EML_0 DMN_0 EDR_100 COSF LNKP CV_710BCNIM UMS_WB CHF_NWSUSR_0 SIP_KMR_0 RPD_KF_0 SDFE_NA_MXPR_0 ZMHF_701_4 NAR_UD_0  SC_4 SGR3_1_2_0_166_791
+X-ZM-MESSAGEID: 1531395138181100001
+X-ZohoMail-Status: 1
+
+
+--_----lKD0IPhp33DfP40RjW+KhA===_34/C0-45520-F3C374B5
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+[Inline Image]=0A=0A Hey Sam, =0A Y'all ready for this=3F =0A We're proud t=
+o announce the release of multi-clip videos. =0A Yup, you can now use multi=
+ple clips in your Promo videos and take your storytelling to the next level=
+! =0A What are you waiting for=3F Take it for a spin (from your computer). =
+=0A =0A=0A[Inline Image]=0A=0A If there's anything you'd like to see in thi=
+s feature or others, please let us know, we're building this for you! =0A C=
+oming Soon: Branded Accounts, Photo Upload &amp; Templates, and much much m=
+ore! =0A We can't wait to see what you create. =0A Happy Video Making, The =
+Promo Team=0A=0A
+--_----lKD0IPhp33DfP40RjW+KhA===_34/C0-45520-F3C374B5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd">=0A<html>=0A<head>=0A<meta http-equiv=3D"Con=
+tent-Type" content=3D"text/html; charset=3DUTF-8">=0A<style type=3D"text/cs=
+s">=0A  #PreviewIntercomModal .ic_message_content h1,=0A  #PreviewIntercomM=
+odal .ic_message_content h2 {=0A    color: #0072b0 !important;=0A  }=0A  #P=
+reviewIntercomModal .ic_message_without_image > .ic_message_internals > .ic=
+_message_content {=0A    border-color: #0072b0 !important;=0A  }=0A  #Previ=
+ewIntercomModal .ic_user_comment_body {=0A    background-color: #0072b0 !im=
+portant;=0A    border-color: #0072b0 !important;=0A  }=0A  #PreviewIntercom=
+Modal .ic_message_content a {=0A    color: #0072b0 !important;=0A  }=0A  #P=
+reviewIntercomModal .ic_message_content a:hover {=0A    color: #0072b0 !imp=
+ortant;=0A  }=0A  #PreviewIntercomModal .ic_user_comment_body {=0A    backg=
+round-color: #0072b0 !important;=0A    border-color: #0072b0 !important;=0A=
+  }=0A  .intercom-h2b-button br {=0A    display: none;=0A  }=0A</style>=0A<=
+style type=3D"text/css" data-premailer=3D"ignore">=0A  /* styles in here wi=
+ll not be inlined. Use for media queries etc */=0A  /* force Outlook to pro=
+vide a "view in browser" menu link. */=0A  #outlook a {padding:0;}=0A  /* p=
+revent Webkit and Windows Mobile platforms from changing default font sizes=
+.*/=0A  body{width:100% !important; -webkit-text-size-adjust:100%; -ms-tex=
+t-size-adjust:100%; margin:0; padding:0;}=0A  /* force Hotmail to display e=
+mails at full width */=0A  .ExternalClass {width:100%;}=0A  /* force Hotmai=
+l to display normal line spacing. http://www.emailonacid.com/forum/viewthre=
+ad/43/ */=0A  .ExternalClass, .ExternalClass p, .ExternalClass span, .Exter=
+nalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}=
+=0A  /* fix a padding issue on Outlook 07, 10 */=0A  table td {border-colla=
+pse: collapse;}=0A  table {=0A    table-layout: fixed;=0A  }=0A=0A  @media =
+only screen and (max-width: 480px)=0A  {=0A    br.hidden { display: block !=
+important; }=0A    td.padding_cell { display: none !important; }=0A    tabl=
+e.message_footer_table td {=0A      font-size: 11px !important;=0A    }=0A =
+ }=0A  @media only screen and (max-device-width: 480px)=0A  {=0A    br.hidd=
+en { display: block !important; }=0A    td.padding_cell { display: none !im=
+portant; }=0A    table.message_footer_table td {=0A      font-size: 11px !i=
+mportant;=0A    }=0A  }=0A</style>=0A=0A<style type=3D"text/css" data-prema=
+iler=3D"ignore">=0A  /* styles in here will not be inlined. Use for media q=
+ueries etc */=0A  /* force Outlook to provide a "view in browser" menu link=
+. */=0A  #outlook a {padding:0;}=0A  /* prevent Webkit and Windows Mobile =
+platforms from changing default font sizes.*/=0A  body{width:100% !importan=
+t; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padd=
+ing:0;}=0A  /* force Hotmail to display emails at full width */=0A  .Extern=
+alClass {width:100%;}=0A  /* force Hotmail to display normal line spacing. =
+http://www.emailonacid.com/forum/viewthread/43/ */=0A  .ExternalClass, .Ext=
+ernalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, =
+.ExternalClass div {line-height: 100%;}=0A  /* fix a padding issue on Outl=
+ook 07, 10 */=0A  table td {border-collapse: collapse;}=0A=0A  @media only =
+screen and (max-width: 480px)=0A  {=0A    br.hidden { display: block !impor=
+tant; }=0A    td.padding_cell { display: none !important; }=0A    table.mes=
+sage_footer_table td {=0A      font-size: 11px !important;=0A    }=0A  }=0A=
+  @media only screen and (max-device-width: 480px)=0A  {=0A    br.hidden { =
+display: block !important; }=0A    td.padding_cell { display: none !importa=
+nt; }=0A    table.message_footer_table td {=0A      font-size: 11px !import=
+ant;=0A    }=0A  }=0A</style>=0A=0A<style type=3D"text/css">=0A=0A  .admin_=
+name b {=0A    color: #6f6f6f;=0A  }=0A=0A  .date_cell a {=0A    color: #99=
+9999;=0A  }=0A=0A  .comment_header_td {=0A    width: 100%;=0A    background=
+: #32BAFA;=0A    border: none;=0A    font-family: 'Helvetica Neue',Arial,sa=
+ns-serif=0A  }=0A=0A  .content-td {=0A    color: #525252;=0A    box-shadow:=
+ 0 1px 3px 0 rgba(0, 0, 0, 0.05);=0A    font-family: Helvetica, Arial, sans=
+-serif;=0A  }=0A=0A  .content-td h1 {=0A    font-size: 26px;=0A    line-hei=
+ght: 33px;=0A    color: #282F33;=0A    margin-bottom: 7px;=0A    margin-top=
+: 30px;=0A    font-weight: normal;=0A  }=0A=0A  .content-td h1 a {=0A    co=
+lor: #282F33;=0A  }=0A=0A  .content-td h2 {=0A    font-size: 18px;=0A    fo=
+nt-weight: bold;=0A    color: #282F33;=0A    margin: 30px 0 7px;=0A  }=0A=
+=0A  .content-td h2 a {=0A    color: #282F33;=0A  }=0A=0A  .content-td h1 +=
+ h2 {=0A    margin-top: 0 !important;=0A  }=0A=0A  .content-td h2 + h1 {=0A=
+    margin-top: 0 !important;=0A  }=0A=0A  .content-td h3 ,=0A  .content-td=
+ h4 ,=0A  .content-td h5 {=0A    font-size: 16px;=0A    font-weight: bold;=
+=0A    margin-bottom: 5px;=0A  }=0A=0A  .content-td p {=0A    margin: 0 0 1=
+7px 0;=0A    line-height: 1.5;=0A  }=0A=0A  .content-td p img,=0A  .content=
+-td h1 img,=0A  .content-td h2 img,=0A  .content-td li img,=0A  .content-td=
+ .intercom-h2b-button img {=0A    margin: 0;=0A    padding: 0;=0A  }=0A=0A =
+ .content-td a {=0A    color: #1251ba;=0A  }=0A=0A  .content-td p.intro {=
+=0A    font-size: 20px;=0A    line-height: 30px;=0A  }=0A=0A  .content-td b=
+lockquote {=0A    margin: 40px 0;=0A    font-style: italic;=0A    color: #8=
+C8C8C;=0A    font-size: 18px;=0A    text-align: center;=0A    padding: 0 30=
+px;=0A    font-family: Georgia, sans-serif;=0A    quotes: none;=0A  }=0A=0A=
+  .content-td blockquote a {=0A    color: #8C8C8C;=0A  }=0A=0A  .content-td=
+ ul {=0A    list-style: disc;=0A    margin: 0 0 20px 40px;=0A    padding: 0=
+;=0A  }=0A=0A  .content-td ol {=0A    list-style: decimal;=0A    margin: 0 =
+0 20px 40px;=0A    padding: 0;=0A  }=0A=0A  .content-td img {=0A    margin:=
+ 17px 0;=0A    max-width: 100%;=0A  }=0A=0A  .content-td .intercom-containe=
+r {=0A    margin-bottom: 16px;=0A  }=0A=0A  .content-td hr {=0A    border: =
+none;=0A    border-top: 1px solid #DDD;=0A    border-bottom: 0;=0A    margi=
+n: 50px 30% 50px 30%;=0A  }=0A=0A  /**/=0A  .content-td pre {=0A    margin:=
+ 0 0 10px;=0A    padding: 10px;=0A    background-color: #f5f5f5;=0A    over=
+flow: auto;=0A  }=0A=0A  .content-td pre code {=0A    font-family: Courier,=
+ monospace;=0A    font-size: 14px;=0A    line-height: 1.4;=0A    white-spac=
+e: nowrap;=0A  }=0A=0A  table.intercom-container {=0A    margin: 17px 0;=0A=
+  }=0A  table.intercom-container.intercom-align-center {=0A    margin-left:=
+ auto;=0A    margin-right: auto;=0A  }=0A=0A  table.intercom-container td {=
+=0A    background-color: #32BAFA;=0A    padding: 12px 35px;=0A    border-ra=
+dius: 3px;=0A    font-family: Helvetica, Arial, sans-serif;=0A    margin: 0=
+;=0A  }=0A=0A  .content-td .intercom-h2b-button {=0A    font-size: 14px;=0A=
+    color: #FFF;=0A    font-weight: bold;=0A    display: inline-block;=0A  =
+  text-decoration: none;=0A    background-color: #32BAFA;=0A    border: non=
+e !important;=0A    =0A  }=0A=0A  a.intercom-h2b-button {=0A    background-=
+color: #0E4595;=0A    border-radius: 5px;=0A    border: 1px solid rgba(0,0,=
+0,0.2);=0A    color:#fff;=0A    display: inline-block;=0A    font-size: 15p=
+x;=0A    font-weight: bold;=0A    min-height: 20px;=0A    text-decoration: =
+none;=0A  }=0A=0A  .content-td .intercom-h2b-button:hover {=0A    backgroun=
+d-color:#53c7fd;=0A  }=0A=0A  .message_footer_table .avatar {=0A    -ms-int=
+erpolation-mode: bicubic;=0A    -webkit-background-clip: padding-box;=0A   =
+ -webkit-border-radius: 20px;=0A    background-clip: padding-box;=0A    bor=
+der-radius: 20px;=0A    display: inline-block;=0A    height: 40px;=0A    ma=
+x-width: 100%;=0A    outline: none;=0A    text-decoration: none;=0A    widt=
+h: 40px;=0A  }=0A=0A  .powered-by-table .powered-by-text a {=0A    font-wei=
+ght: bold;=0A    text-decoration: none;=0A    color: #999;=0A  }=0A=0A  .ma=
+in_wrapper {=0A    padding: 0 20px;=0A  }=0A=0A  .margin-arrow {=0A    disp=
+lay: none;=0A    =0A    visibility:hidden;=0A    width:0;=0A    height:0;=
+=0A    max-width: 0;=0A    max-height: 0;=0A    overflow: hidden;=0A    opa=
+city: 0;=0A  }=0A=0A  .content-td > :first-child {=0A    margin-top: 0;=0A =
+   padding-top: 0;=0A  }=0A</style>=0A=0A<!-- Responsive-->=0A<style type=
+=3D"text/css" data-premailer=3D"ignore">=0A=0A  @media screen and (max-widt=
+h: 635px) {=0A    .main-wrap {=0A      width: 100% !important;=0A    }=0A  =
+}=0A=0A  @media screen and (max-width: 480px) {=0A    .content-td {=0A     =
+ padding: 30px 15px !important;=0A    }=0A    .content-td h1 {=0A      marg=
+in-bottom: 5px;=0A    }=0A    .message_footer_table .space {=0A      width:=
+ 20px !important;=0A    }=0A=0A    .message_footer_table .arrow-wrap {=0A  =
+    padding-left: 20px !important;=0A    }=0A=0A    .message_footer_table .=
+admin_name b{=0A      display: block !important;=0A    }=0A=0A    .main_wra=
+pper {=0A      padding: 0;=0A    }=0A=0A    .image-arrow {=0A      display:=
+ none !important;=0A    }=0A=0A    .margin-arrow {=0A      display: table !=
+important;=0A      visibility:visible !important;=0A      width: 100% !impo=
+rtant;=0A      height: auto !important;=0A      max-width: none !important;=
+=0A      max-height: none !important;=0A      opacity: 1 !important;=0A    =
+  overflow: visible !important;=0A    }=0A=0A    .comment_body {=0A      bo=
+rder-bottom: 1px solid #DDD !important;=0A    }=0A=0A    .footer-td-wrapper=
+ {=0A      display: block !important;=0A      width: 100% !important;=0A   =
+   text-align: left !important;=0A    }=0A    .footer-td-wrapper .date_cell=
+ {=0A      text-align: left !important;=0A      padding: 15px 0 0 20px !imp=
+ortant;=0A    }=0A  }=0A=0A</style>=0A=0A=0A<style type=3D"text/css" data-p=
+remailer=3D"ignore">=0A  .content-td blockquote + * {=0A    margin-top: 20p=
+x !important;=0A  }=0A=0A  .ExternalClass .content-td h1 {=0A    padding: 2=
+0px 0 !important;=0A  }=0A=0A  .ExternalClass .content-td h2 {=0A    paddin=
+g: 0 0 5px !important;=0A  }=0A=0A  .ExternalClass .content-td p {=0A    pa=
+dding: 10px 0 !important;=0A  }=0A=0A.ExternalClass .content-td .intercom-c=
+ontainer {=0A    padding: 5px 0 !important;=0A  }=0A=0A  .ExternalClass .co=
+ntent-td hr + * {=0A    padding-top: 30px !important;=0A  }=0A=0A  .Externa=
+lClass .content-td ol ,=0A  .ExternalClass .content-td ul {=0A    padding: =
+0 0 20px 40px !important;=0A    margin: 0 !important;=0A  }=0A=0A  .Externa=
+lClass .content-td ol li,=0A  .ExternalClass .content-td ul li {=0A    padd=
+ing: 3px 0 !important;=0A    margin: 0 !important;=0A  }=0A  .content-td > =
+:first-child {=0A    margin-top: 0 !important;=0A    padding-top: 0 !import=
+ant;=0A  }=0A=0A  .ExternalClass .content-td > :first-child {=0A    margin-=
+top: 0 !important;=0A    padding-top: 0 !important;=0A  }=0A</style>=0A=0A=
+=0A=0A<style type=3D"text/css">=0A  .intercom-align-right {=0A  text-align:=
+ right !important;=0A}=0A.intercom-align-center {=0A  text-align: center !i=
+mportant;=0A}=0A.intercom-align-left {=0A  text-align: left !important;=0A}=
+=0A/* Over-ride for RTL */=0A.right-to-left .intercom-align-right{=0A  text=
+-align: left !important;=0A}=0A.right-to-left .intercom-align-left{=0A  tex=
+t-align: right !important;=0A}=0A.right-to-left .intercom-align-left {=0A  =
+text-align:right !important;=0A}=0A.right-to-left li {=0A  text-align:right=
+ !important;=0A  direction: rtl;=0A}=0A.right-to-left .intercom-align-left =
+img,=0A.right-to-left .intercom-align-left .intercom-h2b-button {=0A  margi=
+n-left: 0 !important;=0A}=0A.intercom-attachment,=0A.intercom-attachments,=
+=0A.intercom-attachments td,=0A.intercom-attachments th,=0A.intercom-attach=
+ments tr,=0A.intercom-attachments tbody,=0A.intercom-attachments .icon,=0A.=
+intercom-attachments .icon img {=0A  border: none !important;=0A  box-shado=
+w: none !important;=0A  padding: 0 !important;=0A  margin: 0 !important;=0A=
+}=0A.intercom-attachments {=0A  margin: 10px 0 !important;=0A}=0A.intercom-=
+attachments .icon,=0A.intercom-attachments .icon img {=0A  width: 16px !imp=
+ortant;=0A  height: 16px !important;=0A}=0A.intercom-attachments .icon {=0A=
+  padding-right: 5px !important;=0A}=0A.intercom-attachment {=0A  display: =
+inline-block !important;=0A  margin-bottom: 5px !important;=0A}=0A=0A.inter=
+com-interblocks-content-card {=0A  width: 334px !important;=0A  max-height:=
+ 136px !important;=0A  max-width: 100% !important;=0A  overflow: hidden !im=
+portant;=0A  border-radius: 20px !important;=0A  font-size: 16px !important=
+;=0A  border: 1px solid #e0e0e0 !important;=0A}=0A=0A.intercom-interblocks-=
+link,=0A.intercom-interblocks-article-card {=0A  text-decoration: none !imp=
+ortant;=0A}=0A=0A.intercom-interblocks-article-icon {=0A  width: 22.5% !imp=
+ortant;=0A  height: 136px !important;=0A  float: left !important;=0A  backg=
+round-color: #fafafa !important;=0A  background-image: url('https://static.=
+intercom-mail-500.com/assets/article_book-1a595be287f73c0d02f548f513bfc831.=
+png') !important;=0A  background-repeat: no-repeat !important;=0A  backgrou=
+nd-size: 32px !important;=0A  background-position: center !important;=0A}=
+=0A=0A.intercom-interblocks-article-text {=0A  width: 77.5% !important;=0A =
+ float: right !important;=0A  background-color: #fff !important;=0A}=0A=0A.=
+intercom-interblocks-link-title,=0A.intercom-interblocks-article-title {=0A=
+  color: #519dd4 !important;=0A  font-size: 15px !important;=0A  margin: 16=
+px 18px 12px !important;=0A  line-height: 1.3em !important;=0A  overflow: h=
+idden !important;=0A}=0A=0A.intercom-interblocks-link-description,=0A.inter=
+com-interblocks-article-body {=0A  margin: 0 18px 12px !important;=0A  font=
+-size: 14px !important;=0A  color: #65757c !important;=0A  line-height: 1.3=
+em !important;=0A}=0A=0A.intercom-interblocks-link-author,=0A.intercom-inte=
+rblocks-article-author {=0A  margin: 10px 15px !important;=0A  height: 24px=
+ !important;=0A  line-height: normal !important;=0A}=0A=0A.intercom-interbl=
+ocks-link-author-avatar,=0A.intercom-interblocks-article-author-avatar {=0A=
+  width: 16px !important;=0A  height: 16px !important;=0A  display: inline-=
+block !important;=0A  vertical-align: middle !important;=0A  float: left;=
+=0A  margin-right: 5px;=0A}=0A=0A.intercom-interblocks-link-author-avatar-i=
+mage,=0A.intercom-interblocks-article-author-avatar-image {=0A  width: 16px=
+ !important;=0A  height: 16px !important;=0A  border-radius: 50% !important=
+;=0A  margin: 0 !important;=0A  vertical-align: top !important;=0A  font-si=
+ze: 12px !important;=0A}=0A=0A.intercom-interblocks-link-author-name,=0A.in=
+tercom-interblocks-article-author-name {=0A  color: #74848b !important;=0A =
+ margin: 0 0 0 5px !important;=0A  font-size: 12px !important;=0A  font-wei=
+ght: 500 !important;=0A  overflow: hidden !important;=0A}=0A=0A.intercom-in=
+terblocks-article-written-by {=0A  color: #8897a4 !important;=0A  margin: 1=
+px 0 0 5px !important;=0A  font-size: 12px !important;=0A  overflow: hidden=
+ !important;=0A  vertical-align: middle !important;=0A  float: left !import=
+ant;=0A}=0A=0A</style>=0A=0A=0A=0A=0A</head>=0A<body>=0A=0A=0A<table cellpa=
+dding=3D"0" cellspacing=3D"0" border=3D"0" class=3D"bgtc personal" align=3D=
+"center" style=3D"background-color: #f9f9f9; border-collapse: collapse; lin=
+e-height: 100% !important; margin: 0; padding: 0; width: 100% !important" b=
+gcolor=3D"#f9f9f9">=0A  <tbody>=0A<tr>=0A    <td>=0A    <!--[if (gte mso 10=
+)]>=0A      <tr>=0A      <td>=0A      <table style=3D"width: 600px">=0A    =
+<![endif]-->=0A      <table style=3D"border-collapse: collapse; margin: aut=
+o; max-width: 635px; min-width: 320px; width: 100%" class=3D"main-wrap">=0A=
+        <tbody>=0A<tr>=0A          <td valign=3D"top">=0A            <table=
+ cellpadding=3D"0" cellspacing=3D"0" border=3D"0" class=3D"reply_header_tab=
+le" style=3D"border-collapse: collapse; color: #c0c0c0; font-family: 'Helve=
+tica Neue',Arial,sans-serif; font-size: 13px; line-height: 26px; margin: 0 =
+auto 26px; width: 100%">=0A            </table>=0A          </td>=0A       =
+ </tr>=0A        <tr>=0A          <td valign=3D"top" class=3D"main_wrapper"=
+ style=3D"padding: 0 20px">=0A=0A            <table cellpadding=3D"0" cells=
+pacing=3D"0" border=3D"0" class=3D"comment_wrapper_table admin_comment" ali=
+gn=3D"center" style=3D"-webkit-background-clip: padding-box; -webkit-border=
+-radius: 3px; background-clip: padding-box; border-collapse: collapse; bord=
+er-radius: 3px; color: #545454; font-family: 'Helvetica Neue',Arial,sans-se=
+rif; font-size: 13px; line-height: 20px; margin: 0 auto; width: 100%">=0A  =
+            <tbody>=0A<tr>=0A                <td valign=3D"top" class=3D"co=
+mment_wrapper_td">=0A                  <table cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" class=3D"comment_header" style=3D"border: none; border-=
+collapse: separate; font-size: 1px; height: 2px; line-height: 3px; width: 1=
+00%">=0A                    <tbody>=0A<tr>=0A                      <td vali=
+gn=3D"top" class=3D"comment_header_td" style=3D"background-color: #32BAFA; =
+border: none; font-family: 'Helvetica Neue',Arial,sans-serif; width: 100%" =
+bgcolor=3D"#32BAFA">=C2=A0</td>=0A                    </tr>=0A             =
+     </tbody>=0A</table>=0A                  <table cellpadding=3D"0" cells=
+pacing=3D"0" border=3D"0" class=3D"comment_body" style=3D"-webkit-backgroun=
+d-clip: padding-box; -webkit-border-radius: 0 0 3px 3px; background-clip: p=
+adding-box; border-collapse: collapse; border-color: #dddddd; border-radius=
+: 0 0 3px 3px; border-style: solid solid none; border-width: 0 1px 1px; wid=
+th: 100%">=0A                    <tbody>=0A<tr>=0A                      <td=
+ class=3D"comment_body_td content-td" style=3D"-webkit-background-clip: pad=
+ding-box; -webkit-border-radius: 0 0 3px 3px; background-clip: padding-box;=
+ background-color: white; border-radius: 0 0 3px 3px; box-shadow: 0 1px 3px=
+ 0 rgba(0, 0, 0, 0.05); color: #525252; font-family: 'Helvetica Neue',Arial=
+,sans-serif; font-size: 15px; line-height: 22px; overflow: hidden; padding:=
+ 40px 40px 30px" bgcolor=3D"white">=0A                        =0A=0A       =
+                 =0A                          <div class=3D"intercom-contai=
+ner intercom-align-left" style=3D"margin-bottom: 16px; margin-top: 0; paddi=
+ng-top: 0; text-align: left !important" align=3D"left">=0A<a target=3D"_bla=
+nk" href=3D"https://via.intercom-mail-500.com/e=3Fob=3DUZRF4OBLfrvpKDjA%2BO=
+pvLDwDPU2Hz14lOWgZZotvRxxD1GVWZc%2FMYIO38sHrpeJ4MTdMJTosLrqImlxd1WNvGG5SHaX=
+YTonQLAAIjF61QNr6qnNzmpOJ77wN4YEAEOdn4e2%2BMYx6lOJmxCB%2FaTZT6A%3D%3D&h=3Dc=
+2ea4b38a4266f6d7669e8b7f5daaac98ddfaa71-17445793419" style=3D"color: #1251b=
+a">=0A<img src=3D"https://downloads.intercomcdn.com/i/o/62046749/469ff08a39=
+29d48c7f88499b/in_app_v04.gif" style=3D"margin: 17px 0; max-width: 100%">=
+=0A</a>=0A</div>=0A<p class=3D"intercom-align-left" style=3D"line-height: 1=
+.5; margin: 0 0 17px; text-align: left !important" align=3D"left">Hey Sam,=
+</p>=0A<p class=3D"intercom-align-left" style=3D"line-height: 1.5; margin: =
+0 0 17px; text-align: left !important" align=3D"left">Y'all ready for this=
+=3F</p>=0A<p class=3D"intercom-align-left" style=3D"line-height: 1.5; margi=
+n: 0 0 17px; text-align: left !important" align=3D"left">We're proud to ann=
+ounce the release of <b>multi-clip videos.</b></p>=0A<p class=3D"intercom-a=
+lign-left" style=3D"line-height: 1.5; margin: 0 0 17px; text-align: left !i=
+mportant" align=3D"left">Yup, you can now use multiple clips in your Promo =
+videos and take your storytelling to the next level!</p>=0A<p class=3D"inte=
+rcom-align-left" style=3D"line-height: 1.5; margin: 0 0 17px; text-align: l=
+eft !important" align=3D"left">What are you waiting for=3F<br>Take it for a=
+ spin (from your computer).</p>=0A<div class=3D"intercom-container intercom=
+-align-center" style=3D"margin-bottom: 16px; text-align: center !important"=
+ align=3D"center">=0A<a target=3D"_blank" href=3D"https://via.intercom-mail=
+-500.com/e=3Fob=3DUZRF4OBLfrvpKDjA%2BOpvLDwDPU2Hz14lOWgZZotvRxxD1GVWZc%2FMY=
+IO38sHrpeJ4MTdMJTosLrqImlxd1WNvGG5SHaXYTonQLAAIjF61QNr6qnNzmpOJ77wN4YEAEOdn=
+4e2%2BMYx6lOJmxCB%2FaTZT6A%3D%3D&h=3Dc2ea4b38a4266f6d7669e8b7f5daaac98ddfaa=
+71-17445793419" style=3D"color: #1251ba">=0A<img src=3D"https://downloads.i=
+ntercomcdn.com/i/o/62218962/42f978daa69f320ebfc87775/CREATE+MULTI-CLIP+VIDE=
+O.png" style=3D"margin: 17px 0; max-width: 100%">=0A</a>=0A</div>=0A<p clas=
+s=3D"intercom-align-left" style=3D"line-height: 1.5; margin: 0 0 17px; text=
+-align: left !important" align=3D"left">If there's anything you'd like to s=
+ee in this feature or others, please let us know, we're building this for y=
+ou!</p>=0A<p class=3D"intercom-align-left" style=3D"line-height: 1.5; margi=
+n: 0 0 17px; text-align: left !important" align=3D"left"><b>Coming Soon: Br=
+anded Accounts, Photo Upload &amp; Templates, and much much more!</b></p>=
+=0A<p class=3D"intercom-align-left" style=3D"line-height: 1.5; margin: 0 0 =
+17px; text-align: left !important" align=3D"left">We can't wait to see what=
+ you create.</p>=0A<p class=3D"intercom-align-left" style=3D"line-height: 1=
+.5; margin: 0 0 17px; text-align: left !important" align=3D"left">Happy Vi=
+deo Making,<br>The Promo Team</p>=0A                        =0A=0A         =
+               =0A                      </td>=0A                    </tr>=
+=0A                   </tbody>=0A</table>=0A                  </td>=0A     =
+            </tr>=0A                </tbody>=0A</table>=0A=0A              =
+  <div class=3D"margin-arrow" style=3D"display: none; height: 0; max-height=
+: 0; max-width: 0; opacity: 0; overflow: hidden; visibility: hidden; width:=
+ 0">=0A                  <table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" class=3D"message_footer_table margin-arrow" align=3D"center" style=
+=3D"border-collapse: collapse; color: #545454; display: none; font-family: =
+'Helvetica Neue',Arial,sans-serif; font-size: 13px; height: 0; line-height:=
+ 20px; margin: 0 auto; max-height: 0; max-width: 100%; opacity: 0; overflow=
+: hidden; visibility: hidden; width: 100%">=0A                    <tbody>=
+=0A<tr>=0A                      <td valign=3D"top" width=3D"80" class=3D"ar=
+row-wrap" style=3D"color: #272727; height: 18px; padding-left: 40px; text-a=
+lign: left" align=3D"left">=0A                        <img alt=3D"Triangle"=
+ class=3D"image_fix" height=3D"18" src=3D"https://marketing.intercomassets.=
+com/assets/email/personal/triangle-8747882e9ef8882f9bc057241fd3c049.png" st=
+yle=3D"-ms-interpolation-mode: bicubic; display: inline-block; margin-top: =
+-1px; max-width: 100%; outline: none; text-decoration: none" width=3D"40">=
+=0A                      </td>=0A                    </tr>=0A              =
+    </tbody>=0A</table>=0A                </div>=0A                <div cla=
+ss=3D"image-arrow">=0A                  <table cellpadding=3D"0" cellspacin=
+g=3D"0" border=3D"0" class=3D"message_footer_table image-arrow" align=3D"ce=
+nter" style=3D"border-collapse: collapse; margin: 0 auto; max-width: 100%; =
+width: 100%">=0A                    <tbody>=0A<tr>=0A                      =
+<td valign=3D"top" width=3D"100%">=0A                        <img alt=3D"" =
+src=3D"https://marketing.intercomassets.com/assets/email/personal/arrow-37f=
+6774809df6fd083bfc98e9d562e23ca6ede618e2b5e10c042de88d2f858dd.png" style=3D=
+"max-width: 100%; width: 100%">=0A                      </td>=0A           =
+         </tr>=0A                  </tbody>=0A</table>=0A                </=
+div>=0A                <table cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" class=3D"message_footer_table" align=3D"center" style=3D"border-collaps=
+e: collapse; color: #545454; font-family: 'Helvetica Neue',Arial,sans-serif=
+; font-size: 13px; line-height: 20px; margin: 0 auto; max-width: 100%; widt=
+h: 100%">=0A                  <tbody><tr>=0A                  </tr></tbody>=
+=0A</table>=0A<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bor=
+der=3D"0">=0A                      <tbody>=0A<tr>=0A                       =
+ <td width=3D"75%" class=3D"footer-td-wrapper">=0A                         =
+ <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" sty=
+le=3D"border-collapse: collapse; color: #545454; font-family: 'Helvetica Ne=
+ue',Arial,sans-serif; font-size: 13px; line-height: 20px; margin: 0 auto; m=
+ax-width: 100%; width: 100%" class=3D"message_footer_table">=0A            =
+                <tbody>=0A<tr>=0A                              <td width=3D=
+"40" class=3D"space">=C2=A0</td>=0A                              =0A  <td v=
+align=3D"middle" width=3D"50" style=3D"color: #272727" align=3D"left">=0A  =
+  <img src=3D"https://static.intercomassets.com/avatars/1743249/square_128/=
+IMG_71B3A1525788-1-1527564986.jpeg=3F1527564986" height=3D"40" width=3D"40"=
+ class=3D"avatar" alt=3D"intercomavatar" style=3D"-ms-interpolation-mode: b=
+icubic; -webkit-background-clip: padding-box; -webkit-border-radius: 20px; =
+background-clip: padding-box; border-radius: 20px; display: inline-block; h=
+eight: 40px; max-width: 100%; outline: none; text-decoration: none; width: =
+40px">=0A  </td>=0A=0A                              <td class=3D"admin_name=
+" style=3D"color: #999999">=0A                                <b style=3D"c=
+olor: #6f6f6f">Jonathan</b> from Promo=0A=0A                              <=
+/td>=0A                            </tr>=0A                          </tbod=
+y>=0A</table>=0A                        </td>=0A                        <td=
+ width=3D"25%" class=3D"footer-td-wrapper">=0A                          <ta=
+ble width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=
+=3D"border-collapse: collapse; color: #545454; font-family: 'Helvetica Neue=
+',Arial,sans-serif; font-size: 13px; line-height: 20px; margin: 0 auto; max=
+-width: 100%; width: 100%" class=3D"message_footer_table">=0A              =
+              <tbody>=0A<tr>=0A                              <td valign=3D"=
+middle" align=3D"right" class=3D"date_cell" style=3D"color: #999999; font-s=
+ize: 11px; text-align: right">=0A=0A                                =0A    =
+                              =0A                                    <a hre=
+f=3D"https://van22wlo.intercom-mail.com/unsubscribe=3Fapp_id=3Dvan22wlo&con=
+versation_id=3D17445793419&sample=3Dfalse&user_id=3D5b1011814092e4b76bfc967=
+0" style=3D"color: #999999">Unsubscribe from our emails</a>=0A             =
+                     =0A                                =0A                =
+              </td>=0A                            </tr>=0A<tr>=0A          =
+                </tr>=0A</tbody>=0A</table>=0A                        </td>=
+=0A                      </tr>=0A                    </tbody>=0A</table>=0A=
+                  </td>=0A</tr>=0A                </tbody>=0A</table>=0A   =
+           </td>=0A            </tr>=0A            <tr>=0A              <td=
+ valign=3D"top" height=3D"20"></td>=0A            </tr>=0A          </tbody=
+>=0A</table>=0A          <!--[if (gte mso 10)]>=0A            </td>=0A     =
+       </tr>=0A            </table>=0A          <![endif]-->=0A        =0A =
+     =0A    =0A    =0A=0A=0A<img src=3D"https://via.intercom-mail-500.com/o=
+=3Fh=3Dfef6b4e98317f951e078e1f3f68dc075fa69c268-17445793419" width=3D"1" he=
+ight=3D"1" style=3D"display: block;" alt=3D"intercom">=0A=0D=0A<img border=
+=3D"0" width=3D"1" height=3D"1" alt=3D"" src=3D"https://spe.via.intercom-ma=
+il.com/q/janK4MsRo83fWefV67-c9A~~/AAAAAQA~/RgRdKcE_PlcIaW50ZXJjb21YBAAAAaBC=
+CgABPzxHW9CxRwxSDXNhbUBjLW10Zy5jb20~">=0D=0A</body>=0A</html>=0A
+--_----lKD0IPhp33DfP40RjW+KhA===_34/C0-45520-F3C374B5--
+

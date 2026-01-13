@@ -1,0 +1,2576 @@
+Delivered-To: samtheloanman@gmail.com
+Received: by 2002:a6b:8e8e:0:0:0:0:0 with SMTP id q136-v6csp5434054iod;
+        Sun, 22 Jul 2018 11:31:49 -0700 (PDT)
+X-Google-Smtp-Source: AAOMgpcPLB/UhSnsGXlUa4TXFStGiCxEfyjhyX2pdoSV41KqmGBXkkf+f0GIAGmCAXWG2wAhYkzs
+X-Received: by 2002:aed:244c:: with SMTP id s12-v6mr9554998qtc.74.1532284309839;
+        Sun, 22 Jul 2018 11:31:49 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1532284309; cv=none;
+        d=google.com; s=arc-20160816;
+        b=zLG8AUz2oJ/A2GRjS4GE28j6N9W+Q6p3ZhfCfpYsjEqE3DbisTQfbFMByDmhuO4NwC
+         31jFAsKMrk34zg070HejmBcgbJleSSr9fhW644/hD2hxj0/gXBi8MY0/8q85F1fPi60Q
+         +CRQd25HO8oHSyNm8KnpbU43SJ2LQcjvw/jkBu5Wgv2hwqY6fCd1CU1n3OVFTQzy6NJu
+         mUlJlLIwSIBTgI+8jetMwYi2+VVQgXEmIXx7cm2xwdY4JgcCHRB8i/NoQ+Pug+/lcLSG
+         s1mYnJln0OEPa4mtTScLOGMcyvf9DcSg8gdgCdsTnpGoR1lr7e2aUAvU5YiRgFLlMCt5
+         czRg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:date:bounces-to:mime-version:subject:message-id:to:from
+         :dkim-signature:dkim-signature:arc-authentication-results;
+        bh=32Bv8uPGNaiGN9P82YhW8MzQncaPkcmiMg8YaTXMShQ=;
+        b=tmGdaY5CidNiIqlzRigqEfHTsfJ2L5H+aB3P187KGe/clz8nPckNCL5/FLcKsO5UOM
+         d0a/NJYb7xSJ1nRGtkP6P/WIyZMF2IWbghdywN/6Ed/qRMRqxr6oKKDZbEV4tjzbhxeL
+         pHJ5gSF32CK1uRyeseKRNsifG/rf9KBhc2dMIkBddDsTfGWvV9FtontBgQZQ7O64dZlj
+         7mBvOayk/qPZ5p+ZYP3E3DIqCzp5PKJX4sdDdZ4mAorPDxsaKjNOkpfh3Pveez40bR3z
+         JoXVIq6ClkK0mMsl+mDGadFnqzRoQ4SuLiqkw2aZUHjNh88QL8eJGcmzN/Rkkg7AQpN/
+         epVg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@amazon.com header.s=2uvkuueiefyaargm6tgkndh3xdf5ejpl header.b=etgdaWJg;
+       dkim=pass header.i=@amazonses.com header.s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug header.b=N1OJtsS1;
+       spf=pass (google.com: domain of 2018072218314938e446f16aa244bd82a1c22a3f80p0na-c22zimulcmc7d5@bounces.amazon.com designates 54.240.15.227 as permitted sender) smtp.mailfrom=2018072218314938e446f16aa244bd82a1c22a3f80p0na-C22ZIMULCMC7D5@bounces.amazon.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=amazon.com
+Return-Path: <2018072218314938e446f16aa244bd82a1c22a3f80p0na-C22ZIMULCMC7D5@bounces.amazon.com>
+Received: from a15-227.smtp-out.amazonses.com (a15-227.smtp-out.amazonses.com. [54.240.15.227])
+        by mx.google.com with ESMTPS id y24-v6si2572541qve.2.2018.07.22.11.31.49
+        for <samtheloanman@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Sun, 22 Jul 2018 11:31:49 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 2018072218314938e446f16aa244bd82a1c22a3f80p0na-c22zimulcmc7d5@bounces.amazon.com designates 54.240.15.227 as permitted sender) client-ip=54.240.15.227;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@amazon.com header.s=2uvkuueiefyaargm6tgkndh3xdf5ejpl header.b=etgdaWJg;
+       dkim=pass header.i=@amazonses.com header.s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug header.b=N1OJtsS1;
+       spf=pass (google.com: domain of 2018072218314938e446f16aa244bd82a1c22a3f80p0na-c22zimulcmc7d5@bounces.amazon.com designates 54.240.15.227 as permitted sender) smtp.mailfrom=2018072218314938e446f16aa244bd82a1c22a3f80p0na-C22ZIMULCMC7D5@bounces.amazon.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=amazon.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=2uvkuueiefyaargm6tgkndh3xdf5ejpl; d=amazon.com; t=1532284309;
+	h=From:To:Message-ID:Subject:MIME-Version:Content-Type:Date;
+	bh=9t8hkSBLUqhAbtE+9zLy+YuIPwpresL+SwRcsXLKNw0=;
+	b=etgdaWJgl3vXHOWlOqzQWC/BNZ3QJUUaq2mQbd77x9huFK4H9n3Hg8S4vnu9/8R4
+	fq3pkueH9T7eNiXyI8m5Z6Auyf1OshzEcZvqKIsXSSZm5jlmpPal/z0ROlf0Zc0YQDr
+	VHizcy86Gy/6TqnjW10VRZglMnYB+RI2oEQdMK60=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1532284309;
+	h=From:To:Message-ID:Subject:MIME-Version:Content-Type:Date:Feedback-ID;
+	bh=9t8hkSBLUqhAbtE+9zLy+YuIPwpresL+SwRcsXLKNw0=;
+	b=N1OJtsS1C2nTJ3MnAFvd5f/2q+M7ylkFfgrYZwF5WhwY3kB6/P6VFwoWfiZgyOON
+	eumu/Y5kV5btdsQsWz7HuC9FJUR364sHVvFSL2rILo+V9S+M3HT006Cx6mde/0rHHjP
+	/Au2CgkZfciSC6a5bGTzdG4XBIc3pyPMnKn8fLw4=
+From: Amazon Prime <store-news@amazon.com>
+To: samtheloanman@gmail.com
+Message-ID:<01000164c3430ef9-4f02d008-715a-42e8-93cb-019d03efa56f-000000@email.amazonses.com>
+Subject: Your Prime Membership: New movies and TV shows, last chance books,
+ the best of Prime Day 2018 and more
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_15077382_2133764704.1532284309158"
+X-AMAZON-MAIL-RELAY-TYPE: notification
+Bounces-to: 2018072218314938e446f16aa244bd82a1c22a3f80p0na-C22ZIMULCMC7D5@bounces.amazon.com
+X-AMAZON-METADATA: CA=C22ZIMULCMC7D5-CU=A1WT053AMGF2HP-RI=A2IKPQEOUTUBI3
+X-Original-MessageID: <urn.rtn.msg.2018072218314938e446f16aa244bd82a1c22a3f80p0na@1532284309162.rtn-na-mktng-m4l1d-dd91d2dd.us-east-1.amazon.com>
+Date: Sun, 22 Jul 2018 18:31:49 +0000
+X-SES-Outgoing: 2018.07.22-54.240.15.227
+Feedback-ID: 1.us-east-1.+gzE1S+MWTFXXYmwxo7wkk651GMxMPAUFYiyN/09X40=:AmazonSES
+X-ZohoMail-Sender: Amazon Prime
+X-ZM-MESSAGEID: 1532284316013100001
+X-ZohoMail-Status: 1
+
+
+------=_Part_15077382_2133764704.1532284309158
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+Last chance books in Prime Reading: Download one of many top titles for fre=
+e before they rotate out of the Prime Reading selection. And remember, once=
+ you download a book, you have as long as you like to read it. https://www.=
+amazon.com/primeinsider/reading/pr-last-chance-july.html=20
+
+Get your free Kindle book for July: With First Reads, Prime members get ear=
+ly access to editors' picks of new books and can download one title for fre=
+e each month. Choose from this month's six selected titles. https://www.ama=
+zon.com/firstreads
+
+New to Prime Video: Check out the full list of newly added movies here. htt=
+ps://www.amazon.com/primeinsider/video/july-movies-shows.html
+
+Amazon Original Movie coming to theaters in September: From the creator of =
+This Is Us comes a new Amazon Original Movie, Life Itself. Get a sneak peek=
+ with this trailer and add to your Watchlist here. https://www.amazon.com/d=
+p/B07FJNY7MT
+
+Sharks on the brain? Watch (or re-watch) all four classic Jaws blockbuster =
+films =E2=80=94 all included with your Prime membership. https://www.amazon=
+.com/primeinsider/video/pv-jaws-series.html
+
+The best of Prime Day 2018: Check out the products fellow Prime members acr=
+oss the globe loved the most this year, and see if your favorites made the =
+list. https://www.amazon.com/primeinsider/tips/best-of-prime-day-2018.html
+
+[Tip] Shop deals first: Prime Day may be over, but Prime members get exclus=
+ive 30-minute early access to Lightning Deals all year round. Browse Lightn=
+ing Deals and look for "Prime Early Access Deal.=E2=80=9D https://www.amazo=
+n.com/gp/goldbox/=20
+
+New in Prime Music: Listen to 4:44, JAY-Z's critically acclaimed thirteenth=
+ studio album, on Prime Music now =E2=80=94 or ask, "Alexa, play 4:44." Exp=
+lore more new music here. https://www.amazon.com/dp/B073RTY1G9
+
+Get the music you want with Alexa: Your favorite songs are at your vocal co=
+mmand. With Alexa and Prime, it's easier than ever to listen to all the mus=
+ic you love. Learn more here. https://www.amazon.com/primeinsider/tips/alex=
+a-music.html
+
+New Alexa Skill Blueprint: With the new Sidekick Blueprint, creating your o=
+wn personalized, fun Alexa responses is simple. Visit the Alexa Skill Bluep=
+rints site to make your own trivia game, leave helpful tips for your pet si=
+tter, curate a list of motivational quotes and more. Get started here. http=
+s://blueprints.amazon.com
+
+Most popular on Audible Channels: With Audible Channels, Prime members get =
+free, unlimited access to original audio series and podcasts. Find out whic=
+h titles Prime members listened to most this month. https://www.amazon.com/=
+primeinsider/tips/audible-channels-july.html
+
+[Spotlight] Amazon-exclusive items for home, travel and more: Did you know =
+that Prime members can get access to high-quality items like stylish lamps =
+and luggage, all at great prices, with fast, free delivery? Take advantage =
+of a limited-time offer of up to 25% off furniture and decor, grocery and h=
+ealth products, and travel and tech essentials. Show all deals by our brand=
+s here. https://smile.amazon.com/b?node=3D16205654011
+
+New Prime Exclusive Phones: Prime members get exclusive pricing on the new =
+LG V35 ThinQ as well as pre-installed Amazon apps with Alexa on the home sc=
+reen. Learn more. https://www.amazon.com/dp/B07D46BMYT
+
+
+Taking Prime Delivery to new heights: Prime members in the remote Himalayan=
+ village of Leh can now get basic goods delivered to their door. Read the f=
+ull story here and learn about Prime Delivery benefits you may not have alr=
+eady tried. https://www.amazon.com/gp/redirect.html?_encoding=3DUTF8&locati=
+on=3Dhttps%3A%2F%2Fblog.aboutamazon.com%2Ftransportation%2Famazons-most-ext=
+reme-delivery%3Futm_content%3Dextremedelivery%26utm_medium%3Dprimeinsider%2=
+6utm_source%3Dnewsletter%26utm_term%3Dpi07222018&source=3Dstandards&token=
+=3DB4E6750E7FC7D577EC4002C49B651F59930821D6
+
+
+------=_Part_15077382_2133764704.1532284309158
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" =
+/>
+    <meta name=3D"format-detection" content=3D"telephone=3Dno">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0; user-scalable=3Dno;" />
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3D9; IE=3D8; IE=3D7;=
+ IE=3DEDGE" />
+  <title>Your Prime Membership: New movies and TV shows, last chance books,=
+ the best of Prime Day 2018 and more</title>
+
+    <style type=3D"text/css">
+  /* RESET STYLES */
+  body { width:100% !important; height:100% !important; margin:0; padding:0=
+; color:#231f20; }
+  table { margin:0 auto !important; }
+  table, table td { border-collapse:collapse !important; }
+  table th { margin:0 !important; padding:0 !important; vertical-align:top;=
+ font-weight:normal; }
+  img { border:0; height:auto; line-height:100%; outline:none; text-decorat=
+ion:none; }
+  a img { border:0 none; }
+
+  * {-webkit-text-size-adjust: none; }
+
+  /* CLIENT-SPECIFIC STYLES */
+    body, table, td, a {  -webkit-text-size-adjust:100%; -ms-text-size-adju=
+st:100%; }
+  /* Prevent WebKit and Windows mobile changing default text sizes */
+    .ReadMsgBody { width:100%; } .ExternalClass { width:100%; }
+  /* Force Hotmail to display emails at full width */
+  .ExternalClass { width:100%; }
+  /* Force Hotmail to display normal line spacing */
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass f=
+ont, .ExternalClass td, .ExternalClass div { line-height: 100%; }
+  /* Force Hotmail to display normal line spacing */
+    table, td { mso-table-lspace:0pt; mso-table-rspace:0pt; }
+  /* Remove spacing between tables in Outlook 2007 and up */
+    img { display:block; -ms-interpolation-mode:bicubic; }
+  /* Allow smoother rendering of resized image in Internet Explorer */
+
+  /* iOS BLUE LINKS */
+    .appleBody a { color:#68440a; text-decoration: none; }
+    .appleFooter a { color:#999999; text-decoration: none; }
+
+  @media screen and (max-width: 480px){
+
+  /* general classes */
+  *[class].hide { display:none !important; }
+  *[class].tdwrap { display:inline-block !important; }
+  *[class].block_wrap { display:block !important; padding:0 !important; mar=
+gin:0 !important;}
+  *[class].block { display:block !important; }
+  *[class].full { width:100% !important; }
+  *[class].valignbottom { vertical-align:bottom !important; }
+  *[class].valigncentre { vertical-align:middle !important; }
+  *[class].rel { position:relative !important; }
+  *[class].abs { position:absolute !important; }
+  *[class].show { display:block !important; width:auto !important; overflow=
+:visible !important; float:none !important; max-height:inherit !important; =
+line-height:inherit !important; }
+  img[class=3D"img-max"] { width:100% !important; height:auto !important; }
+
+    *[class].bgHero { background-image: url('') !important; }
+
+  *[class].bgefefef { background-color:#efefef !important; }
+
+  *[class].marginr66 { margin-right:66px !Important; }
+  *[class].marginl66 { margin-left:66px !Important; }
+  *[class].aligncenter { text-align:center !important; }
+  *[class].alignleft { text-align:left !important; }
+  *[class].font10{ font-size:10px !important; }
+  *[class].font11{ font-size:11px !important; line-height:11px !important; =
+}
+  *[class].font21{ font-size:21px !important; }
+
+  /*widths*/
+/* REMOVED PER EB */
+
+  /*heights*/
+  *[class].hauto { height:auto !important; }
+  *[class].height0 { height:0px !important; }
+
+  /*padding*/
+  *[class].paddingt10 { padding-top:10px !important; }
+  *[class].paddingr10 {padding-right:10px !important; }
+  *[class].paddingb10 { padding-bottom:10px !important; }
+  *[class].paddingl10 {padding-left:10px !important; }
+  *[class].paddinglr60 {padding-left:60px !important; padding-right:60px !i=
+mportant; }
+
+  /*floats*/
+  *[class].fl { float:left !important;  }
+  *[class].fr { float:right !important; }
+  *[class].wrap { float:block !important; }
+  *[class].clear { clear:both !important; }
+
+  }
+  </style>
+
+  <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+  </xml>
+
+    <style type=3D"text/css">
+        .mm10 { padding:0px !important; margin-left:10px !important; margin=
+-right:10px !important; }
+        .ml10 { padding:0px !important; margin-left:10px !important; }
+        .mr10 { padding:0px !important; margin-right:10px !important; }
+    </style>
+    <![endif]-->
+   =20
+   =20
+</head>
+
+<body style=3D"-webkit-text-size-adjust:none; margin:0 auto; background:#ff=
+ffff;"><img width=3D"1" height=3D"1" src=3D"https://www.amazon.com/gp/r.htm=
+l?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f=
+16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DO&U=3Dhttps%3A%2F%2Fimages-=
+na.ssl-images-amazon.com%2Fimages%2FG%2F01%2Fnav%2Ftransp.gif&H=3DXPPICMPOJ=
+NWTMX1VYHOIDSYKZXCA&ref_=3Dpe_3326960_292801160_opens" />
+
+<center>
+<table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" width=3D"100%" =
+bgcolor=3D"#ffffff">
+<tr>
+  <td align=3D"center">
+
+      <!-- /PreHeader -->
+        <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=3D"=
+#ffffff" width=3D"500" style=3D"width:500px;" class=3D"hide width320">
+        <tr><td height=3D"10" style=3D"line-height:10px;"><img src=3D"http:=
+//g-ecx.images-amazon.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D=
+"1" height=3D"1" style=3D"display:block; border:0;" /></td></tr>
+        <tr>
+            <th align=3D"left" style=3D"font-family:Arial, sans-serif; font=
+-size:10px; color:#ffffff;" class=3D"hide">Plus Prime-exclusive savings and=
+ how to use X-Ray</a>
+            </th>
+        </tr>
+        <tr><td height=3D"10" style=3D"line-height:10px;"><img src=3D"http:=
+//g-ecx.images-amazon.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D=
+"1" height=3D"1" style=3D"display:block; border:0;" /></td></tr>
+        </table>
+    <!-- /PreHeader -->
+    <!-- Header Logo -->
+        <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"10=
+0%" style=3D"width:100%;" bgcolor=3D"#000000">
+        <tr>
+          <td width=3D"100%" height=3D"4" style=3D"line-height:4px;" bgcolo=
+r=3D"#000000"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail=
+/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; bor=
+der:0;" /></td>
+        </tr>
+        <tr>
+          <td align=3D"center" valign=3D"middle" width=3D"100%" height=3D"7=
+8" bgcolor=3D"#303D47">
+              <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=
+=3D"center" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#303D47" class=
+=3D"width320">
+                <tr>
+                    <td align=3D"center" width=3D"500" class=3D"width320" >=
+<a href=3D"https://smile.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZP=
+QA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2=
+YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fprimeinsider%2Fref%=
+3Dpe_3326960_292801160_pe_sef_logo&H=3DEELKNCEV1A9CTIUCA7YHY0XEAQKA&ref_=3D=
+pe_3326960_292801160_pe_sef_logo"><img src=3D"https://m.media-amazon.com/im=
+ages/G/01/prime/newsletter/PI_logo_newsletter_160x46._CB1513106953_.png" wi=
+dth=3D"160" height=3D"46" style=3D"display:block; border:0;" /></a></td>
+                </tr>
+                </table>
+            </td>
+        </tr>
+        </table>
+        <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"ce=
+nter" bgcolor=3D"#ffffff" width=3D"500" style=3D"width:500px;" class=3D"wid=
+th320">
+        <tr>
+          <td align=3D"center" height=3D"5" style=3D"line-height:5px;"><img=
+ src=3D"https://m.media-amazon.com/images/G/01/prime/newsletter/PI_Newslett=
+er_Arrow._CB1508364012_.jpg" width=3D"320" height=3D"5" style=3D"display:bl=
+ock; border:0;" /></td>
+        </tr>
+        </table>
+      <!-- /Header Logo -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+      <!-- INTRO: TEXT -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                  <td align=3D"center" style=3D"font-family:Helvetica, Aria=
+l, sans-serif; font-size:12px; color:#231f20; font-weight:bold;line-height:=
+ 155%; font-style:italic">
+                  Prime Day might be over, but Prime members can save every=
+ day.<br><a href=3D"https://smile.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=
+=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80=
+p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fgp%2Fgold=
+box%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_intro&H=3D21WYIHZABKVLS1GURDTSV=
+BYNDC8A&ref_=3Dpe_3326960_292801160_pmwn_7">Check out today's deals</a>.<br=
+><br>
+                  Looking for an easy way to track your Amazon orders? <a h=
+ref=3D"https://smile.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3M=
+H2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMK=
+JYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fgp%2Fcss%2Forder-histor=
+y%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_intro&H=3DXAIF4PL8H9EUK7TFQVFYTWL=
+MOA4A&ref_=3Dpe_3326960_292801160_pmwn_7">Click here</a>.
+                </td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+
+
+      <!-- /INTRO: TEXT -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+      <!-- Content Block 1: DIVIDER -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"500"=
+ style=3D"width:500px;"  bgcolor=3D"#aaaaaa" class=3D"width320">
+      <tr>
+        <td width=3D"500" class=3D"width320" align=3D"center" height=3D"1" =
+style=3D"line-height:1px;" bgcolor=3D"#aaaaaa"><img src=3D"http://g-ecx.ima=
+ges-amazon.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=
+=3D"1" style=3D"display:block; border:0;" /></td>
+      </tr>
+      </table>
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- START SLOT-BASED TARGETING FOR FREE-TRIAL HERO BLOCK -->
+
+
+<!-- FT Weblab C -->
+
+
+<!-- FT Weblab T1 -->
+ =20
+
+
+<!-- Do not add any content here - that allows FT BLOCK to disappear if use=
+r not in segment -->
+ =20
+<!-- /END SLOT-BASED TARGETING FOR FREE-TRIAL HERO BLOCK -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- START SLOT-BASED TARGETING WEBLAB FOR BPS HERO -->
+
+<!-- Do not add any content here - that allows BPS HERO to disappear if use=
+r not in segment -->
+
+<!-- /END SLOT-BASED TARGETING FOR BPS HERO -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- START SLOT-BASED TARGETING WEBLAB FOR TWITCH HERO -->
+
+<!-- Do not add any content here - that allows TWITCH HERO to disappear if =
+user not in segment -->
+
+<!-- /END SLOT-BASED TARGETING FOR TWITCH HERO -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- IMAGE -->
+      <table class=3D"width300" cellpadding=3D"10" cellspacing=3D"0" border=
+=3D"0" align=3D"center" width=3D"480" style=3D"width:480px;" bgcolor=3D"#ff=
+ffff">
+          <tr>
+              <td class=3D"fc-img-thumbnail-td" style=3D"height:343.2137285=
+49142px; --height:343.213728549142px; width:211.41965678627147px;" height=
+=3D"343.213728549142" width=3D"211.41965678627147">
+                  <a href=3D"https://smile.amazon.com/gp/f.html?C=3D264A344=
+UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1=
+c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F%2Fsmile.amazon.com%2Fdp=
+%2FB01MAWT2MO%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_prlc_img1&H=3DAATRRF3=
+ACA31SOOK7FHZLUV7ZTGA&ref_=3Dpe_3326960_292801160_pmwn_7" alt=3D"Astrophysi=
+cs for People in a Hurry">
+                  <img class=3D"fc-img-thumbnail" src=3D"https://m.media-am=
+azon.com/images/I/51%2BN0v64QkL.jpg" style=3D"height:343.213728549142px; --=
+height:343.213728549142px; width:211.41965678627147px;" height=3D"343.21372=
+8549142" width=3D"211.41965678627147"></a></td>
+              <td class=3D"fc-img-thumbnail-td" style=3D"height:343.2137285=
+49142px; --height:343.213728549142px; width:228.58034321372858px;" height=
+=3D"343.213728549142" width=3D"228.58034321372858">
+                  <a href=3D"https://smile.amazon.com/gp/f.html?C=3D264A344=
+UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1=
+c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F%2Fsmile.amazon.com%2Fdp=
+%2FB01EN506CO%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_prlc_img1&H=3DX4IWTOA=
+CVMJXNFWEOK5EJAFHUPIA&ref_=3Dpe_3326960_292801160_pmwn_7" alt=3D"A Merciful=
+ Death (Mercy Kilpatrick Book 1)">
+                  <img class=3D"fc-img-thumbnail" src=3D"https://m.media-am=
+azon.com/images/I/51stlHZDgIL.jpg" style=3D"height:343.213728549142px; --he=
+ight:343.213728549142px; width:228.58034321372858px;" height=3D"343.2137285=
+49142" width=3D"228.58034321372858"></a></td>
+          </tr>
+      </table>
+      <!-- /IMAGE -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24c: TEXT  -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                <td align=3D"left" style=3D"font-family:Helvetica, Arial, s=
+ans-serif; font-size:15px; color:#231f20; font-weight:normal; line-height: =
+155%;"><strong>Last chance books in Prime Reading:</strong> <a href=3D"http=
+s://smile.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:=
+rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=
+=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fprimeinsider%2Freading%2Fpr-last-=
+chance-july.html%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_prlc&H=3DWS958FM3A=
+ALHOILX7T0SRDBCYK4A&ref_=3Dpe_3326960_292801160_pmwn_7">Download one of man=
+y top titles for free</a> before they rotate out of the Prime Reading selec=
+tion. And remember, once you download a book, you have as long as you like =
+to read it.</td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24c: TEXT  -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24b: DIVIDER -->
+      <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" border=3D=
+"0" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#aaaaaa" class=3D"widt=
+h320">
+      <tr>
+        <td width=3D"500" class=3D"width320"  height=3D"1" style=3D"line-he=
+ight:1px;" bgcolor=3D"#aaaaaa"><img src=3D"http://g-ecx.images-amazon.com/i=
+mages/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"d=
+isplay:block; border:0;" /></td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24b: DIVIDER -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+      <!-- IMAGE -->
+      <table class=3D"width300" cellpadding=3D"10" cellspacing=3D"0" border=
+=3D"0" align=3D"center" width=3D"480" style=3D"width:480px;" bgcolor=3D"#ff=
+ffff">
+          <tr>
+              <td class=3D"fc-img-thumbnail-td" style=3D"height:330.3303303=
+303303px; --height:330.3303303303303px; width:220px;" height=3D"330.3303303=
+303303" width=3D"220">
+                  <a href=3D"https://smile.amazon.com/gp/f.html?C=3D264A344=
+UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1=
+c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F%2Fsmile.amazon.com%2Fdp=
+%2F1503901904%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_afr_img1&H=3DMBFAVCZG=
+QTDE74ZUEAFAUVC8VVEA&ref_=3Dpe_3326960_292801160_pmwn_7" alt=3D"A Killer&#x=
+27;s Mind (Zoe Bentley Mystery)">
+                  <img class=3D"fc-img-thumbnail" src=3D"https://m.media-am=
+azon.com/images/I/51hFl4XRabL.jpg" style=3D"height:330.3303303303303px; --h=
+eight:330.3303303303303px; width:220px;" height=3D"330.3303303303303" width=
+=3D"220"></a></td>
+              <td class=3D"fc-img-thumbnail-td" style=3D"height:330.3303303=
+303303px; --height:330.3303303303303px; width:220px;" height=3D"330.3303303=
+303303" width=3D"220">
+                  <a href=3D"https://smile.amazon.com/gp/f.html?C=3D264A344=
+UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1=
+c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F%2Fsmile.amazon.com%2Fdp=
+%2F1503900835%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_afr_img1&H=3DFRCZNSAD=
+JLA7AIH9TJ1W5VTHZQ4A&ref_=3Dpe_3326960_292801160_pmwn_7" alt=3D"Beautiful E=
+xiles">
+                  <img class=3D"fc-img-thumbnail" src=3D"https://m.media-am=
+azon.com/images/I/51dJ1Wzf7EL.jpg" style=3D"height:330.3303303303303px; --h=
+eight:330.3303303303303px; width:220px;" height=3D"330.3303303303303" width=
+=3D"220"></a></td>
+          </tr>
+      </table>
+      <!-- /IMAGE -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24a: TEXT  -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                  <td align=3D"left" style=3D"font-family:Helvetica, Arial,=
+ sans-serif; font-size:15px; color:#231f20; font-weight:normal; line-height=
+: 155%;"><strong>Get your free Kindle book for July:</strong> With First Re=
+ads, Prime members get early access to editors' picks of new books and can =
+download one title for free each month. <a href=3D"https://smile.amazon.com=
+/gp/f.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:201807221831=
+4938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%=
+2Fsmile.amazon.com%2Ffirstreads%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_afr=
+&H=3DTPDNZ2W9TL2CMFJ077XLPY7WVQ8A&ref_=3Dpe_3326960_292801160_pmwn_7">Choos=
+e from this month's six selected titles</a>.</td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24a: TEXT  -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24b: DIVIDER -->
+      <table cellpadding=3D"0" align=3D"center" cellspacing=3D"0" border=3D=
+"0" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#aaaaaa" class=3D"widt=
+h320">
+      <tr>
+        <td width=3D"500" class=3D"width320"  height=3D"1" style=3D"line-he=
+ight:1px;" bgcolor=3D"#aaaaaa"><img src=3D"http://g-ecx.images-amazon.com/i=
+mages/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"d=
+isplay:block; border:0;" /></td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24b: DIVIDER -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- START SLOT-BASED TARGETING KU -->
+
+
+      <!-- Content Block 3-24a: IMAGE -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"400" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                  <td align=3D"center"><a href=3D"https://smile.amazon.com/=
+gp/f.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314=
+938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F%2F=
+smile.amazon.com%2Fkuprimeday%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_ku&H=
+=3DAJJXTPCN3QFTCSMXJCVQJPV6ABKA&ref_=3Dpe_3326960_292801160_pmwn_7"><img sr=
+c=3D"https://m.media-amazon.com/images/G/01/kindle/ku/PrimeDay2018/primeins=
+ider480x100._CB1530304449_.jpg" width=3D"480" class=3D"width300" style=3D"d=
+isplay:block; border:0;" alt=3D"Amazon Key" /></a>
+                  </td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24a: IMAGE -->
+
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+      <!-- Content Block 3-24c: TEXT  -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                <td align=3D"left" style=3D"font-family:Helvetica, Arial, s=
+ans-serif; font-size:15px; color:#231f20; font-weight:normal; line-height: =
+155%;"><strong>Prime-exclusive deal on even more reads:</strong> Sign up fo=
+r Kindle Unlimited before the end of July and you'll get 3 months of access=
+ to a larger catalogue, including over 1 million books, magazines and more =
+&mdash; for $0.99. <a href=3D"https://smile.amazon.com/gp/f.html?C=3D264A34=
+4UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a=
+1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F%2Fsmile.amazon.com%2Fk=
+uprimeday%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_ku&H=3DAJJXTPCN3QFTCSMXJC=
+VQJPV6ABKA&ref_=3Dpe_3326960_292801160_pmwn_7">Learn more</a>.</td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24c: TEXT  -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24b: DIVIDER -->
+      <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" border=3D=
+"0" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#aaaaaa" class=3D"widt=
+h320">
+      <tr>
+        <td width=3D"500" class=3D"width320"  height=3D"1" style=3D"line-he=
+ight:1px;" bgcolor=3D"#aaaaaa"><img src=3D"http://g-ecx.images-amazon.com/i=
+mages/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"d=
+isplay:block; border:0;" /></td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24b: DIVIDER -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+<!-- /END SLOT-BASED TARGETING FOR KU BLOCK -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- IMAGE -->
+      <table class=3D"width300" cellpadding=3D"10" cellspacing=3D"0" border=
+=3D"0" align=3D"center" width=3D"480" style=3D"width:480px;" bgcolor=3D"#ff=
+ffff">
+          <tr>
+              <td class=3D"fc-img-thumbnail-td" style=3D"height:293.3333333=
+333333px; --height:293.3333333333333px; width:220px;" height=3D"293.3333333=
+333333" width=3D"220">
+                  <a href=3D"https://smile.amazon.com/gp/f.html?C=3D264A344=
+UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1=
+c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F%2Fsmile.amazon.com%2Fdp=
+%2FB07FD3Z7CP%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_pvnew_img1&H=3DC3BP4W=
+S8BJKAA176UOFPIHLNZDYA&ref_=3Dpe_3326960_292801160_pmwn_7" alt=3D"Zoe">
+                  <img class=3D"fc-img-thumbnail" src=3D"https://m.media-am=
+azon.com/images/I/51vFi09PneL.jpg._PJPrime-Sash-Extra-Large-2017,TopLeft,0,=
+0_.jpg" style=3D"height:293.3333333333333px; --height:293.3333333333333px; =
+width:220px;" height=3D"293.3333333333333" width=3D"220"></a></td>
+              <td class=3D"fc-img-thumbnail-td" style=3D"height:293.3333333=
+333333px; --height:293.3333333333333px; width:220px;" height=3D"293.3333333=
+333333" width=3D"220">
+                  <a href=3D"https://smile.amazon.com/gp/f.html?C=3D264A344=
+UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1=
+c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F%2Fsmile.amazon.com%2Fdp=
+%2FB077DQW73R%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_pvnew_img1&H=3DWODW0Q=
+PVZ1IQJY9ZTPOODRSX3SMA&ref_=3Dpe_3326960_292801160_pmwn_7" alt=3D"Cook Off"=
+>
+                  <img class=3D"fc-img-thumbnail" src=3D"https://m.media-am=
+azon.com/images/I/51wh7nE1WsL.jpg._PJPrime-Sash-Extra-Large-2017,TopLeft,0,=
+0_.jpg" style=3D"height:293.3333333333333px; --height:293.3333333333333px; =
+width:220px;" height=3D"293.3333333333333" width=3D"220"></a></td>
+          </tr>
+      </table>
+      <!-- /IMAGE -->
+
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24c: TEXT  -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                <td align=3D"left" style=3D"font-family:Helvetica, Arial, s=
+ans-serif; font-size:15px; color:#231f20; font-weight:normal; line-height: =
+155%;"><strong>New to Prime Video:</strong> <a href=3D"https://smile.amazon=
+.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:20180722=
+18314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A=
+%2F%2Fsmile.amazon.com%2Fprimeinsider%2Fvideo%2Fjuly-movies-shows.html%3Fre=
+f_%3Dpe_3326960_292801160_pmwn_7.22_pvnew&H=3DFMJAZAAR4J5GWNOYFSWGUCLAQAOA&=
+ref_=3Dpe_3326960_292801160_pmwn_7">Check out the full list of newly added =
+movies here</a>.</td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24c: TEXT  -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24c: DIVIDER -->
+      <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" border=3D=
+"0" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#aaaaaa" class=3D"widt=
+h320">
+      <tr>
+        <td width=3D"500" class=3D"width320" height=3D"1" style=3D"line-hei=
+ght:1px;" bgcolor=3D"#aaaaaa"><img src=3D"http://g-ecx.images-amazon.com/im=
+ages/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"di=
+splay:block; border:0;" /></td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24c: DIVIDER -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24a: IMAGE -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"400" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                  <td align=3D"center"><a href=3D"https://smile.amazon.com/=
+gp/f.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314=
+938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2=
+Fsmile.amazon.com%2Fdp%2FB07FJNY7MT%3Fref_%3Dpe_3326960_292801160_pmwn_7.22=
+_trailer&H=3DS21Y0QSPWQXOVOCFYPVNL12X4VQA&ref_=3Dpe_3326960_292801160_pmwn_=
+7"><img src=3D"https://m.media-amazon.com/images/G/01/prime/primeinsider2/n=
+ewsletters/lifeitself._CB473651831_.jpg" width=3D"480" class=3D"width300" s=
+tyle=3D"display:block; border:0;" alt=3D"Amazon Key" /></a>
+                  </td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24a: IMAGE -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24c: TEXT  -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                <td align=3D"left" style=3D"font-family:Helvetica, Arial, s=
+ans-serif; font-size:15px; color:#231f20; font-weight:normal; line-height: =
+155%;"><strong>Amazon Original Movie coming to theaters in September:</stro=
+ng> From the creator of <em>This Is Us</em> comes a new Amazon Original Mov=
+ie, <i>Life Itself</i>. <a href=3D"https://smile.amazon.com/gp/f.html?C=3D2=
+64A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244=
+bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.c=
+om%2Fdp%2FB07FJNY7MT%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_trailer&H=3DS2=
+1Y0QSPWQXOVOCFYPVNL12X4VQA&ref_=3Dpe_3326960_292801160_pmwn_7">Get a sneak =
+peek with this trailer and add to your Watchlist here</a>.</td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24c: TEXT  -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24b: DIVIDER -->
+      <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" border=3D=
+"0" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#aaaaaa" class=3D"widt=
+h320">
+      <tr>
+        <td width=3D"500" class=3D"width320"  height=3D"1" style=3D"line-he=
+ight:1px;" bgcolor=3D"#aaaaaa"><img src=3D"http://g-ecx.images-amazon.com/i=
+mages/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"d=
+isplay:block; border:0;" /></td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24b: DIVIDER -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+      <!-- IMAGE -->
+      <table class=3D"width300" cellpadding=3D"10" cellspacing=3D"0" border=
+=3D"0" align=3D"center" width=3D"480" style=3D"width:480px;" bgcolor=3D"#ff=
+ffff">
+          <tr>
+              <td class=3D"fc-img-thumbnail-td" style=3D"height:293.3333333=
+333333px; --height:293.3333333333333px; width:220px;" height=3D"293.3333333=
+333333" width=3D"220">
+                  <a href=3D"https://smile.amazon.com/gp/f.html?C=3D264A344=
+UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1=
+c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F%2Fsmile.amazon.com%2Fdp=
+%2FB008LY5VHE%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_pvjaws_img1&H=3DYQ41T=
+AEUU63M3NVJOYWA7KRJO7GA&ref_=3Dpe_3326960_292801160_pmwn_7" alt=3D"Jaws">
+                  <img class=3D"fc-img-thumbnail" src=3D"https://m.media-am=
+azon.com/images/I/415nFcSc2WL.jpg._PJPrime-Sash-Extra-Large-2017,TopLeft,0,=
+0_.jpg" style=3D"height:293.3333333333333px; --height:293.3333333333333px; =
+width:220px;" height=3D"293.3333333333333" width=3D"220"></a></td>
+              <td class=3D"fc-img-thumbnail-td" style=3D"height:293.3333333=
+333333px; --height:293.3333333333333px; width:220px;" height=3D"293.3333333=
+333333" width=3D"220">
+                  <a href=3D"https://smile.amazon.com/gp/f.html?C=3D264A344=
+UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1=
+c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F%2Fsmile.amazon.com%2Fdp=
+%2FB008LY5XUE%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_pvjaws_img1&H=3DZABDE=
+CAN0HSYRQZWN2QGWLGLMFYA&ref_=3Dpe_3326960_292801160_pmwn_7" alt=3D"Jaws 2">
+                  <img class=3D"fc-img-thumbnail" src=3D"https://m.media-am=
+azon.com/images/I/51CPFey3HnL.jpg._PJPrime-Sash-Extra-Large-2017,TopLeft,0,=
+0_.jpg" style=3D"height:293.3333333333333px; --height:293.3333333333333px; =
+width:220px;" height=3D"293.3333333333333" width=3D"220"></a></td>
+          </tr>
+      </table>
+      <!-- /IMAGE -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+      <!-- Content Block 3-24c: TEXT  -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                <td align=3D"left" style=3D"font-family:Helvetica, Arial, s=
+ans-serif; font-size:15px; color:#231f20; font-weight:normal; line-height: =
+155%;"><strong>Sharks on the brain?</strong> <a href=3D"https://smile.amazo=
+n.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072=
+218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3=
+A%2F%2Fsmile.amazon.com%2Fprimeinsider%2Fvideo%2Fpv-jaws-series.html%3Fref_=
+%3Dpe_3326960_292801160_pmwn_7.22_pvjaws&H=3DUVFLWGSN1DBTITBCEWBKCQLLT4KA&r=
+ef_=3Dpe_3326960_292801160_pmwn_7">Watch (or re-watch) all four classic <em=
+>Jaws</em> blockbuster films</a> &mdash; all included with your Prime membe=
+rship.</td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24c: TEXT  -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24b: DIVIDER -->
+      <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" border=3D=
+"0" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#aaaaaa" class=3D"widt=
+h320">
+      <tr>
+        <td width=3D"500" class=3D"width320"  height=3D"1" style=3D"line-he=
+ight:1px;" bgcolor=3D"#aaaaaa"><img src=3D"http://g-ecx.images-amazon.com/i=
+mages/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"d=
+isplay:block; border:0;" /></td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24b: DIVIDER -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- START SLOT-BASED TARGETING WEBLAB FOR JUST FOR YOU CHANNELS -->
+
+
+
+
+
+
+=20
+
+        <!-- CONTENT BLOCK STARZ -->
+    =20
+           =20
+<!-- STARZ Top 4-Blocker -->
+<!-- STARZ Top 4-blocker -->
+<table width=3D"480" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=
+=3D"width:100%; max-width:480px;background-color: #ffffff;"  align=3D"cente=
+r">
+    <tr><td style=3D"padding-bottom:5px;">
+=09=09<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"widt=
+h:100%;max-width:480px;">
+=09=09    <tr>
+=09=09      =20
+=09=09=09        <td align=3D"right" style=3D"padding:5px 5px;"><a href=3D"=
+https://smile.amazon.com/gp/f.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3D=
+urn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5=
+J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fgp%2Fproduct%2Fref%3Dpe_332696=
+0_292801160_pmwn_j4u_channelsSTARZ-shelf-img-1%2F%3FASIN%3DB07BRHSR8R&H=3D5=
+RTXNGH0KIOHRJSAYD2X0V21ZLCA&ref_=3Dpe_3326960_292801160_pmwn_j4u_channelsST=
+ARZ" style=3D"text-decoration:none;"><img src=3D"https://images-na.ssl-imag=
+es-amazon.com/images/I/51BYOYKQuoL._AC_US327_QL65_.jpg" width=3D"141" alt=
+=3D"Vida on STARZ" style=3D"width:100%;max-width:141px;height:auto;display:=
+block;padding:0;outline:0;border:0;font-family:Helvetica,Arial,sans-serif;f=
+ont-size:10px;color:#00A8E1;" /></a></td>
+=09=09=09        <td align=3D"left" style=3D"padding:5px 5px;" ><a href=3D"=
+https://smile.amazon.com/gp/f.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3D=
+urn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5=
+J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fgp%2Fproduct%2Fref%3Dpe_332696=
+0_292801160_pmwn_j4u_channelsSTARZ-shelf-img-2%2F%3FASIN%3DB073XWVKSL&H=3DA=
+MHWSWPVXLPXFZNF3CR3ENTZRACA&ref_=3Dpe_3326960_292801160_pmwn_j4u_channelsST=
+ARZ" style=3D"text-decoration:none;"><img src=3D"https://images-na.ssl-imag=
+es-amazon.com/images/I/91VYKMLCJqL._UR267,200_FMJPG_.jpg" width=3D"141" alt=
+=3D"Watch Outlander on STARZ" style=3D"width:100%;max-width:141px;height:au=
+to;display:block;padding:0;outline:0;border:0;font-family:Helvetica,Arial,s=
+ans-serif;font-size:10px;color:#00A8E1;" /></a></td>
+=09=09=09=09=09</tr>
+=09=09=09        <tr>
+=09=09=09        <td align=3D"right" style=3D"padding:5px 5px;" class=3D"mb=
+l-algn-left"><a href=3D"https://smile.amazon.com/gp/f.html?C=3D264A344UGLGH=
+L&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3=
+f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fgp%2Fp=
+roduct%2Fref%3Dpe_3326960_292801160_pmwn_j4u_channelsSTARZ-shelf-img-3%2F%3=
+FASIN%3DB078TPQ7FS&H=3DOOYG1PSKJH1VQZM6AAECVQ10JP0A&ref_=3Dpe_3326960_29280=
+1160_pmwn_j4u_channelsSTARZ" style=3D"text-decoration:none;"><img src=3D"ht=
+tps://images-na.ssl-images-amazon.com/images/I/91BjKjZWVjL._RI_SX200_.jpg" =
+width=3D"141" alt=3D"Watch Power on STARZ" style=3D"width:100%;max-width:14=
+1px;height:auto;display:block;padding:0;outline:0;border:0;font-family:Helv=
+etica,Arial,sans-serif;font-size:10px;color:#00A8E1;" /></a></td>
+=09=09=09        <td align=3D"left" style=3D"padding:5px 5px;" class=3D"mbl=
+-algn-left"><a href=3D"https://smile.amazon.com/gp/f.html?C=3D264A344UGLGHL=
+&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f=
+80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fgp%2Fpr=
+oduct%2Fref%3Dpe_3326960_292801160_pmwn_j4u_channelsSTARZ-shelf-img-4%2F%3F=
+ASIN%3DB07BQRNKHD&H=3DIYVGYHZ7DHCUHVOAVM2TNRLPXOQA&ref_=3Dpe_3326960_292801=
+160_pmwn_j4u_channelsSTARZ" style=3D"text-decoration:none;"><img src=3D"htt=
+ps://images-na.ssl-images-amazon.com/images/I/813USVBZJaL._UR267,200_FMJPG_=
+.jpg" width=3D"141" alt=3D"Watch Sweetbitter on STARZ" style=3D"width:100%;=
+max-width:141px;height:auto;display:block;padding:0;outline:0;border:0;font=
+-family:Helvetica,Arial,sans-serif;font-size:10px;color:#00A8E1;" /></a></t=
+d>
+=09=09    </tr>
+=09=09</table>
+    </td></tr>
+</table>
+<!-- /STARZ Top 4-blocker -->
+<!-- /STARZ Top 4-blocker -->
+
+
+                                         <table cellpadding=3D"0" cellspaci=
+ng=3D"0" border=3D"0"><tr><td height=3D"20"><img src=3D"http://g-ecx.images=
+-amazon.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"=
+1" style=3D"display:block; border:0;" /></td></tr></table>
+
+          <!-- Content Block STARZ: Text  -->
+        <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"ce=
+nter" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"wi=
+dth320">
+        <tr>
+
+          <td align=3D"center">
+              <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcol=
+or=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+                <tr>
+                  <td align=3D"left" style=3D"font-family:Helvetica, Arial,=
+ sans-serif; font-size:15px; color:#231f20; font-weight:normal; line-height=
+: 155%;"><strong>Just for you:</strong> Most watched on STARZ. <a href=3Dht=
+tps://smile.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Dur=
+n:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&=
+T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fb%3F_encoding%3DUTF8%26filterId%=
+3DOFFER_FILTER%253DSUBSCRIPTIONS%26node%3D2858778011%26ref_%3Dpe_3326960_29=
+2801160_pmwn_jfu_channels&H=3DVGW7YTXGA5IVCEDWIFXUNDSFETEA&ref_=3Dpe_332696=
+0_292801160_pmwn_jfu_channels">See all channels here.</a> </td>
+                </tr>
+                </table>
+            </td>
+        </tr>
+        </table>
+        <!-- /Content Block STARZ: Text  -->
+
+
+        <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td hei=
+ght=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amaz=
+on.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" st=
+yle=3D"display:block; border:0;" /></td></tr></table>    =20
+    =20
+
+        <!-- Content Block: DIVIDER -->
+        <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"50=
+0" style=3D"width:500px;" class=3D"width320" bgcolor=3D"#aaaaaa">
+        <tr>
+        =09<td width=3D"500" class=3D"width320" height=3D"1" style=3D"line-=
+height:1px;" bgcolor=3D"#aaaaaa"><img src=3D"http://g-ecx.images-amazon.com=
+/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D=
+"display:block; border:0;" /></td>
+        </tr>
+        </table>
+        <!-- /Content Block: DIVIDER -->
+       =20
+        <!-- /CONTENT BLOCK STARZ -->
+
+                              <table cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0"><tr><td height=3D"20"><img src=3D"http://g-ecx.images-amazon.com=
+/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D=
+"display:block; border:0;" /></td></tr></table>
+
+
+
+
+
+<!-- /END SLOT-BASED TARGETING WEBLAB FOR JUST FOR YOU CHANNELS -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Content Block 3-24a: IMAGE -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"400" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                  <td align=3D"center"><a href=3D"https://smile.amazon.com/=
+gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314=
+938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2=
+Fsmile.amazon.com%2Fprimeinsider%2Ftips%2Fbest-of-prime-day-2018.html%3Fref=
+_%3Dpe_3326960_292801160_pmwn_7.22_pdbest&H=3DNL0ATB3NMBCD7DGP4WM3LZ1CCAKA&=
+ref_=3Dpe_3326960_292801160_pmwn_7"><img src=3D"https://m.media-amazon.com/=
+images/G/01/prime/primeinsider/2018/07_July/BoPD2018/BOPD_NewsletterHeader.=
+_CB1531331241_.gif" width=3D"480" class=3D"width300" style=3D"display:block=
+; border:0;" alt=3D"Amazon Key" /></a>
+                  </td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24a: IMAGE -->
+
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24c: TEXT  -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                <td align=3D"left" style=3D"font-family:Helvetica, Arial, s=
+ans-serif; font-size:15px; color:#231f20; font-weight:normal; line-height: =
+155%;"><strong>The best of Prime Day 2018:</strong> Check out the products =
+fellow Prime members across the globe loved the most this year, and <a href=
+=3D"https://smile.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&=
+M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYG=
+WJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fprimeinsider%2Ftips%2Fbest=
+-of-prime-day-2018.html%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_pdbest&H=3D=
+NL0ATB3NMBCD7DGP4WM3LZ1CCAKA&ref_=3Dpe_3326960_292801160_pmwn_7">see if you=
+r favorites made the list</a>.</td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24c: TEXT  -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24b: DIVIDER -->
+      <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" border=3D=
+"0" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#aaaaaa" class=3D"widt=
+h320">
+      <tr>
+        <td width=3D"500" class=3D"width320"  height=3D"1" style=3D"line-he=
+ight:1px;" bgcolor=3D"#aaaaaa"><img src=3D"http://g-ecx.images-amazon.com/i=
+mages/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"d=
+isplay:block; border:0;" /></td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24b: DIVIDER -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+
+    =20
+
+      <!-- Content Block T: IMAGE -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"400" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                  <td align=3D"center"><a href=3D"https://smile.amazon.com/=
+gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314=
+938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2=
+Fsmile.amazon.com%2Fgp%2Fgoldbox%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_ti=
+pea&H=3DTUQBC5EBIQSQEOQJNNQ1DBUHCACA&ref_=3Dpe_3326960_292801160_pmwn_7"><i=
+mg src=3D"https://m.media-amazon.com/images/G/01/prime/newsletter/tip._CB15=
+08442642_.jpg" width=3D"480" class=3D"width300" style=3D"display:block; bor=
+der:0;" alt=3D"Prime Insider Tip" /></a>
+                  </td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block T: IMAGE -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24a: IMAGE -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"400" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                  <td align=3D"center"><a href=3D"https://smile.amazon.com/=
+gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314=
+938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2=
+Fsmile.amazon.com%2Fgp%2Fgoldbox%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_ti=
+pea&H=3DTUQBC5EBIQSQEOQJNNQ1DBUHCACA&ref_=3Dpe_3326960_292801160_pmwn_7"><i=
+mg src=3D"https://m.media-amazon.com/images/G/01/prime/newsletter/7.22early=
+access._CB1531847995_.png" width=3D"480" class=3D"width300" style=3D"displa=
+y:block; border:0;" alt=3D"Amazon Key" /></a>
+                  </td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24a: IMAGE -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24c: TEXT  -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                <td align=3D"left" style=3D"font-family:Helvetica, Arial, s=
+ans-serif; font-size:15px; color:#231f20; font-weight:normal; line-height: =
+155%;"><strong>Shop deals first:</strong> Prime Day may be over, but Prime =
+members get exclusive 30-minute early access to Lightning Deals all year ro=
+und. <a href=3D"https://smile.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A=
+0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&=
+R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fgp%2Fgoldbox%3=
+Fref_%3Dpe_3326960_292801160_pmwn_7.22_tipea&H=3DTUQBC5EBIQSQEOQJNNQ1DBUHCA=
+CA&ref_=3Dpe_3326960_292801160_pmwn_7">Browse Lightning Deals</a> and look =
+for "Prime Early Access Deal."</td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24c: TEXT  -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24b: DIVIDER -->
+      <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" border=3D=
+"0" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#aaaaaa" class=3D"widt=
+h320">
+      <tr>
+        <td width=3D"500" class=3D"width320"  height=3D"1" style=3D"line-he=
+ight:1px;" bgcolor=3D"#aaaaaa"><img src=3D"http://g-ecx.images-amazon.com/i=
+mages/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"d=
+isplay:block; border:0;" /></td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24b: DIVIDER -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24a: IMAGE -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"400" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                  <td align=3D"center"><a href=3D"https://smile.amazon.com/=
+gp/f.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314=
+938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2=
+Fsmile.amazon.com%2Fdp%2FB073RTY1G9%3Fref_%3Dpe_3326960_292801160_pmwn_7.22=
+_pmnew&H=3DOK42Q2AVAMV3U0LGYFAUAOKLL4EA&ref_=3Dpe_3326960_292801160_pmwn_7"=
+><img src=3D"https://images-na.ssl-images-amazon.com/images/I/41cStdFmCoL._=
+SS500_PIPJStripe-Robin-Large-V2,TopLeft,0,0.jpg" width=3D"250" class=3D"wid=
+th300" style=3D"display:block; border:0;" alt=3D"Amazon Key" /></a>
+                  </td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24a: IMAGE -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24c: TEXT  -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                <td align=3D"left" style=3D"font-family:Helvetica, Arial, s=
+ans-serif; font-size:15px; color:#231f20; font-weight:normal; line-height: =
+155%;"><strong>New in Prime Music:</strong> <a href=3D"https://smile.amazon=
+.com/gp/f.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:20180722=
+18314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A=
+%2F%2Fsmile.amazon.com%2Fdp%2FB073RTY1G9%3Fref_%3Dpe_3326960_292801160_pmwn=
+_7.22_pmnew&H=3DOK42Q2AVAMV3U0LGYFAUAOKLL4EA&ref_=3Dpe_3326960_292801160_pm=
+wn_7">Listen to <em>4:44</em></a>, JAY-Z's critically acclaimed thirteenth =
+studio album, on Prime Music now &mdash; or ask, "Alexa, play <em>4:44</em>=
+." <a href=3D"https://smile.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0X=
+LZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=
+=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fprimeinsider%2F=
+music%2Fpm-july-tunes.html%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_pmnew&H=
+=3DPCRGOTXVWWYGAWEGNBELAGVEEKEA&ref_=3Dpe_3326960_292801160_pmwn_7">Explore=
+ more new music here</a>.</td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24c: TEXT  -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+
+      <!-- Content Block 3-24b: DIVIDER -->
+      <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" border=3D=
+"0" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#aaaaaa" class=3D"widt=
+h320">
+      <tr>
+        <td width=3D"500" class=3D"width320"  height=3D"1" style=3D"line-he=
+ight:1px;" bgcolor=3D"#aaaaaa"><img src=3D"http://g-ecx.images-amazon.com/i=
+mages/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"d=
+isplay:block; border:0;" /></td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24b: DIVIDER -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24a: IMAGE -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"400" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                  <td align=3D"center"><a href=3D"https://smile.amazon.com/=
+gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314=
+938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2=
+Fsmile.amazon.com%2Fprimeinsider%2Ftips%2Falexa-music.html%3Fref_%3Dpe_3326=
+960_292801160_pmwn_7.22_pmalexa&H=3DN8IUUONONGQQQCXEO4R883M0DPOA&ref_=3Dpe_=
+3326960_292801160_pmwn_7"><img src=3D"https://m.media-amazon.com/images/G/0=
+1/prime/newsletter/pmalexa._CB473748921_.png" width=3D"480" class=3D"width3=
+00" style=3D"display:block; border:0;" alt=3D"Amazon Key" /></a>
+                  </td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24a: IMAGE -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24c: TEXT  -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                <td align=3D"left" style=3D"font-family:Helvetica, Arial, s=
+ans-serif; font-size:15px; color:#231f20; font-weight:normal; line-height: =
+155%;"><strong>Get the music you want with Alexa:</strong> Your favorite so=
+ngs are at your vocal command. With Alexa and Prime, it's easier than ever =
+to listen to all the music you love. <a href=3D"https://smile.amazon.com/gp=
+/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:201807221831493=
+8e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fs=
+mile.amazon.com%2Fprimeinsider%2Ftips%2Falexa-music.html%3Fref_%3Dpe_332696=
+0_292801160_pmwn_7.22_pmalexa&H=3DN8IUUONONGQQQCXEO4R883M0DPOA&ref_=3Dpe_33=
+26960_292801160_pmwn_7">Learn more here</a>.</td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24c: TEXT  -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24b: DIVIDER -->
+      <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" border=3D=
+"0" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#aaaaaa" class=3D"widt=
+h320">
+      <tr>
+        <td width=3D"500" class=3D"width320"  height=3D"1" style=3D"line-he=
+ight:1px;" bgcolor=3D"#aaaaaa"><img src=3D"http://g-ecx.images-amazon.com/i=
+mages/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"d=
+isplay:block; border:0;" /></td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24b: DIVIDER -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24a: IMAGE -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"400" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                  <td align=3D"center"><a href=3D"https://smile.amazon.com/=
+gp/f.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314=
+938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2=
+Fblueprints.amazon.com%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_blueprints&H=
+=3DC5FFICTPQCVUS3VANMO0MHTXHECA&ref_=3Dpe_3326960_292801160_pmwn_7"><img sr=
+c=3D"https://m.media-amazon.com/images/G/01/skillsstore/blueprints/ASM1780-=
+JKL-PI-1_no_JKL._CB1531866314_.jpg" width=3D"480" class=3D"width300" style=
+=3D"display:block; border:0;" alt=3D"Amazon Key" /></a>
+                  </td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24a: IMAGE -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24c: TEXT  -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                <td align=3D"left" style=3D"font-family:Helvetica, Arial, s=
+ans-serif; font-size:15px; color:#231f20; font-weight:normal; line-height: =
+155%;"><strong>New Alexa Skill Blueprint:</strong> With the new Sidekick Bl=
+ueprint, creating your own personalized, fun Alexa responses is simple. Vis=
+it the Alexa Skill Blueprints site to make your own trivia game, leave help=
+ful tips for your pet sitter, curate a list of motivational quotes and more=
+. <a href=3D"https://smile.amazon.com/gp/f.html?C=3D264A344UGLGHL&K=3D1A0XL=
+ZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=
+=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fblueprints.amazon.com%3Fref_%3Dpe_=
+3326960_292801160_pmwn_7.22_blueprints&H=3DC5FFICTPQCVUS3VANMO0MHTXHECA&ref=
+_=3Dpe_3326960_292801160_pmwn_7">Get started here</a>.</td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24c: TEXT  -->
+
+
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td height=3D"2=
+0" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon.com/i=
+mages/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"d=
+isplay:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24b: DIVIDER -->
+      <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" border=3D=
+"0" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#aaaaaa" class=3D"widt=
+h320">
+      <tr>
+        <td width=3D"500" class=3D"width320"  height=3D"1" style=3D"line-he=
+ight:1px;" bgcolor=3D"#aaaaaa"><img src=3D"http://g-ecx.images-amazon.com/i=
+mages/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"d=
+isplay:block; border:0;" /></td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24b: DIVIDER -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+
+
+      <!-- Content Block 3-24a: IMAGE -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"400" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                  <td align=3D"center"><a href=3D"https://smile.amazon.com/=
+gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314=
+938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2=
+Fsmile.amazon.com%2Fprimeinsider%2Ftips%2Faudible-channels-july.html%3Fref_=
+%3Dpe_3326960_292801160_pmwn_7.22_acpodcasts&H=3D6OSUSUEYBNTDOMPBPVNMLZYJFW=
+0A&ref_=3Dpe_3326960_292801160_pmwn_7"><img src=3D"https://m.media-amazon.c=
+om/images/G/01/prime/primeinsider2/newsletters/pmwn_7.22_podcasts_480x238._=
+CB473222565_.png" width=3D"480" class=3D"width300" style=3D"display:block; =
+border:0;" alt=3D"Amazon Key" /></a>
+                  </td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24a: IMAGE -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24c: TEXT  -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                <td align=3D"left" style=3D"font-family:Helvetica, Arial, s=
+ans-serif; font-size:15px; color:#231f20; font-weight:normal; line-height: =
+155%;"><strong>Most popular on Audible Channels:</strong> With Audible Chan=
+nels, Prime members get free, unlimited access to original audio series and=
+ podcasts. <a href=3D"https://smile.amazon.com/gp/r.html?C=3D264A344UGLGHL&=
+K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f8=
+0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fprimeins=
+ider%2Ftips%2Faudible-channels-july.html%3Fref_%3Dpe_3326960_292801160_pmwn=
+_7.22_acpodcasts&H=3D6OSUSUEYBNTDOMPBPVNMLZYJFW0A&ref_=3Dpe_3326960_2928011=
+60_pmwn_7">Find out which titles Prime members listened to most this month<=
+/a>.</td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24c: TEXT  -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24b: DIVIDER -->
+      <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" border=3D=
+"0" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#aaaaaa" class=3D"widt=
+h320">
+      <tr>
+        <td width=3D"500" class=3D"width320"  height=3D"1" style=3D"line-he=
+ight:1px;" bgcolor=3D"#aaaaaa"><img src=3D"http://g-ecx.images-amazon.com/i=
+mages/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"d=
+isplay:block; border:0;" /></td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24b: DIVIDER -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+      <!-- Content Block S: IMAGE -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"400" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                  <td align=3D"center"><a href=3D"https://smile.amazon.com/=
+gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314=
+938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2=
+Fsmile.amazon.com%2Fb%2F%3Fnode%3D17753032011%26ref_%3Dpe_3326960_292801160=
+_pmwn_7.22_deals&H=3DCRHUDAJDXMYFP5NCAEOVIOU8SGSA&ref_=3Dpe_3326960_2928011=
+60_pmwn_7"><img src=3D"https://m.media-amazon.com/images/G/01/prime/newslet=
+ter/spotlight._CB513496898_.jpg" width=3D"480" class=3D"width300" style=3D"=
+display:block; border:0;" alt=3D"Prime Insider Spotlight" /></a>
+                  </td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block S: IMAGE -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24a: IMAGE -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"400" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                  <td align=3D"center"><a href=3D"https://smile.amazon.com/=
+gp/f.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314=
+938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2=
+Fsmile.amazon.com%2Fb%3Fnode%3D16205654011%26ref_%3Dpe_3326960_292801160_pm=
+wn_7.22_spotlightdeals&H=3DAMAIE6VA3AMX1T3CLCQC8ZXG3WQA&ref_=3Dpe_3326960_2=
+92801160_pmwn_7"><img src=3D"https://m.media-amazon.com/images/G/01/Amazon-=
+Basics/PrimeDay2018/Newsletter_v2._CB1531460141_.png" width=3D"480" class=
+=3D"width300" style=3D"display:block; border:0;" alt=3D"Amazon Key" /></a>
+                  </td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24a: IMAGE -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24c: TEXT  -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                <td align=3D"left" style=3D"font-family:Helvetica, Arial, s=
+ans-serif; font-size:15px; color:#231f20; font-weight:normal; line-height: =
+155%;"><strong>Amazon-exclusive items for home, travel and more:</strong> D=
+id you know that Prime members can get access to high-quality items like st=
+ylish lamps and luggage, all at great prices, with fast, free delivery? Tak=
+e advantage of a limited-time offer of up to 25% off <a href=3D"https://smi=
+le.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg=
+:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=
+=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fb%3Fnode%3D17851520011%26ref_%3Dpe_3326=
+960_292801160_pmwn_7.22_spotlightdeals&H=3DLDPF7QO0OPBQKP6HLMFFUJHYU2SA&ref=
+_=3Dpe_3326960_292801160_pmwn_7">furniture and decor</a>, <a href=3D"https:=
+//smile.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rt=
+n:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3D=
+C&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fb%2F%3Fnode%3D17862047011%26suppress=
+-ve%3D1%26ref_%3Dpe_3326960_292801160_pmwn_7.22_spotlightdeals&H=3DHOF8V8NM=
+W33HBMQM2UYWMXLDFA0A&ref_=3Dpe_3326960_292801160_pmwn_7">grocery and health=
+ products</a>, and <a href=3D"https://smile.amazon.com/gp/r.html?C=3D264A34=
+4UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a=
+1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2F=
+b%2F%3Fnode%3D17871635011%26ref_%3Dpe_3326960_292801160_pmwn_7.22_deals&H=
+=3DOJT3Z57UH0ZRBIAL445968AAUMWA&ref_=3Dpe_3326960_292801160_pmwn_7">travel =
+and tech essentials</a>. Show all deals by our brands <a href=3D"https://sm=
+ile.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:ms=
+g:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=
+=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fb%2F%3Fnode%3D17753032011%26ref_pmwn_7.=
+22_spotlightall%26ref_%3Dpe_3326960_292801160&H=3DMZR9KMP3AEJNN0VKBESYVUP6I=
+M4A&ref_=3Dpe_3326960_292801160">here</a>.</td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24c: TEXT  -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24b: DIVIDER -->
+      <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" border=3D=
+"0" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#aaaaaa" class=3D"widt=
+h320">
+      <tr>
+        <td width=3D"500" class=3D"width320"  height=3D"1" style=3D"line-he=
+ight:1px;" bgcolor=3D"#aaaaaa"><img src=3D"http://g-ecx.images-amazon.com/i=
+mages/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"d=
+isplay:block; border:0;" /></td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24b: DIVIDER -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24a: IMAGE -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"400" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                  <td align=3D"center"><a href=3D"https://smile.amazon.com/=
+gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314=
+938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2=
+Fsmile.amazon.com%2Fdp%2FB07D46BMYT%3Fref_%3Dpe_3326960_292801160_pmwn_7.22=
+_phones&H=3DVOC56TXMRHPFNX86UUVHJOWSPF8A&ref_=3Dpe_3326960_292801160_pmwn_7=
+"><img src=3D"https://m.media-amazon.com/images/G/01/prime/primeinsider2/ne=
+wsletters/pephones._CB473271575_.png" width=3D"480" class=3D"width300" styl=
+e=3D"display:block; border:0;" alt=3D"Amazon Key" /></a>
+                  </td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24a: IMAGE -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24c: TEXT  -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                <td align=3D"left" style=3D"font-family:Helvetica, Arial, s=
+ans-serif; font-size:15px; color:#231f20; font-weight:normal; line-height: =
+155%;"><strong>New Prime Exclusive Phones:</strong> Prime members get exclu=
+sive pricing on the new LG V35 ThinQ as well as pre-installed Amazon apps w=
+ith Alexa on the home screen. <a href=3D"https://smile.amazon.com/gp/r.html=
+?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f1=
+6aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.am=
+azon.com%2Fdp%2FB07D46BMYT%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_phones&H=
+=3DVOC56TXMRHPFNX86UUVHJOWSPF8A&ref_=3Dpe_3326960_292801160_pmwn_7">Learn m=
+ore</a>.</td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24c: TEXT  -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24b: DIVIDER -->
+      <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" border=3D=
+"0" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#aaaaaa" class=3D"widt=
+h320">
+      <tr>
+        <td width=3D"500" class=3D"width320"  height=3D"1" style=3D"line-he=
+ight:1px;" bgcolor=3D"#aaaaaa"><img src=3D"http://g-ecx.images-amazon.com/i=
+mages/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"d=
+isplay:block; border:0;" /></td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24b: DIVIDER -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24a: IMAGE -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"400" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                  <td align=3D"center"><a href=3D"https://smile.amazon.com/=
+gp/f.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314=
+938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2=
+Fsmile.amazon.com%2Fgp%2Fredirect.html%3F_encoding%3DUTF8%26location%3Dhttp=
+s%253A%252F%252Fblog.aboutamazon.com%252Ftransportation%252Famazons-most-ex=
+treme-delivery%253Futm_content%253Dextremedelivery%2526utm_medium%253Dprime=
+insider%2526utm_source%253Dnewsletter%2526utm_term%253Dpi07222018%26source%=
+3Dstandards%26token%3DB4E6750E7FC7D577EC4002C49B651F59930821D6%26ref_%3Dpe_=
+3326960_292801160_pmwn_7.22_dex&H=3DXESIBA62RLKVHSJFWYWQWZM1HMCA&ref_=3Dpe_=
+3326960_292801160_pmwn_7"><img src=3D"https://m.media-amazon.com/images/G/0=
+1/prime/primeinsider2/newsletters/pmwn_7.22_dex_480x320._CB473219546_.png" =
+width=3D"480" class=3D"width300" style=3D"display:block; border:0;" alt=3D"=
+Amazon Key" /></a>
+                  </td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24a: IMAGE -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24c: TEXT  -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                <td align=3D"left" style=3D"font-family:Helvetica, Arial, s=
+ans-serif; font-size:15px; color:#231f20; font-weight:normal; line-height: =
+155%;"><strong>Taking Prime Delivery to new heights:</strong> Prime members=
+ in the remote Himalayan village of Leh can now get basic goods delivered t=
+o their door. <a href=3D"https://smile.amazon.com/gp/f.html?C=3D264A344UGLG=
+HL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a=
+3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fgp%2F=
+redirect.html%3F_encoding%3DUTF8%26location%3Dhttps%253A%252F%252Fblog.abou=
+tamazon.com%252Ftransportation%252Famazons-most-extreme-delivery%253Futm_co=
+ntent%253Dextremedelivery%2526utm_medium%253Dprimeinsider%2526utm_source%25=
+3Dnewsletter%2526utm_term%253Dpi07222018%26source%3Dstandards%26token%3DB4E=
+6750E7FC7D577EC4002C49B651F59930821D6%26ref_%3Dpe_3326960_292801160_pmwn_7.=
+22_dex&H=3DXESIBA62RLKVHSJFWYWQWZM1HMCA&ref_=3Dpe_3326960_292801160_pmwn_7"=
+>Read the full story here</a> and learn about <a href=3D"https://smile.amaz=
+on.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:201807=
+2218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%=
+3A%2F%2Fsmile.amazon.com%2Fprimeinsider%2Ftips%2F5-shipping-benefits.html%3=
+Fref_%3Dpe_3326960_292801160_pmwn_7.22_dex&H=3D01WVAU90CENCVR4JXMD92LGPBCWA=
+&ref_=3Dpe_3326960_292801160_pmwn_7">Prime Delivery benefits</a> you may no=
+t have already tried.</td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24c: TEXT  -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24b: DIVIDER -->
+      <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" border=3D=
+"0" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#aaaaaa" class=3D"widt=
+h320">
+      <tr>
+        <td width=3D"500" class=3D"width320"  height=3D"1" style=3D"line-he=
+ight:1px;" bgcolor=3D"#aaaaaa"><img src=3D"http://g-ecx.images-amazon.com/i=
+mages/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"d=
+isplay:block; border:0;" /></td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24b: DIVIDER -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+
+
+
+
+     <!-- Content Block 3-24c: TEXT  -->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                <td align=3D"left" style=3D"font-family:Helvetica, Arial, s=
+ans-serif; font-size:15px; color:#231f20; font-weight:normal; line-height: =
+155%;"><strong>P.S. We want your feedback!</strong> &mdash; <a href=3D"http=
+s://smile.amazon.com/gp/f.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:=
+rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=
+=3DC&U=3Dhttps%3A%2F%2Famazonww.qualtrics.com%2Fjfe%2Fform%2FSV_4163VquRaJN=
+cAS1%3Fref_%3Dpmwn_7.22_survey&H=3DKA95IT57NGGRZRYJTCJLYJGOSRCA">Let us kno=
+w what you think about this newsletter</a> by taking a quick survey. This s=
+urvey is hosted by an external party (Qualtrics), so the survey link does n=
+ot lead to our website. Survey responses are subject to <a href=3D"https://=
+smile.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:=
+msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&=
+U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fgp%2Fhelp%2Fcustomer%2Fdisplay.html%3F=
+nodeId%3D468496%26ref_%3Dpe_3326960_292801160_pmwn_7.22_survey&H=3D9REEDNK5=
+AOHNSWV5OLRQNQODNHUA&ref_=3Dpe_3326960_292801160_pmwn_7">Amazon's Privacy N=
+otice</a>.</td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24c: TEXT  -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+      <!-- Content Block 3-24b: DIVIDER -->
+      <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" border=3D=
+"0" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#aaaaaa" class=3D"widt=
+h320">
+      <tr>
+        <td width=3D"500" class=3D"width320"  height=3D"1" style=3D"line-he=
+ight:1px;" bgcolor=3D"#aaaaaa"><img src=3D"http://g-ecx.images-amazon.com/i=
+mages/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"d=
+isplay:block; border:0;" /></td>
+      </tr>
+      </table>
+      <!-- /Content Block 3-24b: DIVIDER -->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/img/=
+softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border:0=
+;" /></td></tr></table>
+
+
+
+
+
+      <!-- Content Block 7: HEADLINE A-->
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"widt=
+h320">
+      <tr>
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+              <tr>
+                  <td align=3D"center" style=3D"font-family:Helvetica, Aria=
+l, sans-serif; font-size:28px; color:#ff9900;" class=3D"font21">
+                  <a href=3D"https://smile.amazon.com/gp/r.html?C=3D264A344=
+UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1=
+c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fp=
+rimeinsider%2Fvideo%2Fpv-summer-films.html%3Fref_%3Dpe_3326960_292801160_pm=
+wn_7.22_icymipvsummer&H=3DSNHDDHCMHDNC3VNQL0CZS2E22QAA&ref_=3Dpe_3326960_29=
+2801160_pmwn_7" style=3D"color:#231f20; text-decoration:none;">In case you =
+missed it</a>
+                  </td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      </table>
+      <!-- /Content Block 7: HEADLINE A-->
+
+
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td heigh=
+t=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" height=3D"1" styl=
+e=3D"display:block; border:0;" /></td></tr></table>
+
+
+<!-- Content Block 7: TEXT -->
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" wi=
+dth=3D"500" style=3D"width:500px;"  bgcolor=3D"#ffffff" class=3D"width320">
+<tr>
+  <td align=3D"center">
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=3D"#f=
+fffff" width=3D"480" style=3D"width:480px;" class=3D"width300">
+        <tr>
+            <td align=3D"left" style=3D"font-family:Helvetica, Arial, sans-=
+serif; font-size:15px; color:#231f20; font-weight:normal; line-height: 155%=
+;">
+<ul><li><a href=3D"https://smile.amazon.com/gp/f.html?C=3D264A344UGLGHL&K=
+=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80=
+p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%=
+3DI-K4tGVSNcM%26feature%3Dyoutu.be&H=3DBY4V52UOCLKOOI2IKU8XAEHH9VYA">Watch =
+highlights from Unboxing Prime Day events around the globe</a></li>
+<li><a href=3D"https://smile.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0=
+XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=
+=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fprimeinsider%2F=
+video%2Fpv-summer-films.html%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_icymip=
+vsummer&H=3DSNHDDHCMHDNC3VNQL0CZS2E22QAA&ref_=3Dpe_3326960_292801160_pmwn_7=
+">Best of summer movies</a></li>
+<li><a href=3D"https://smile.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0=
+XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=
+=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fprimeinsider%2F=
+reading%2Fpr-fast-reads.html%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_icymip=
+rfast&H=3D8JZHUCX3MEQS9LBOH5CGAHWHW8IA&ref_=3Dpe_3326960_292801160_pmwn_7">=
+Fast reads in Prime Reading</a></li>
+<li><a href=3D"https://smile.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0=
+XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=
+=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fprimeinsider%2F=
+music%2Fpm-july-tunes.html%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_icymipmn=
+ew&H=3DW80NA7F7VRS20SGM4H9KBVC9APOA&ref_=3Dpe_3326960_292801160_pmwn_7">Dis=
+cover new music on Prime</a></li>
+<li><a href=3D"https://smile.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0=
+XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=
+=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fprimeinsider%2F=
+tips%2Fprime-at-wfm.html%3Fref_%3Dpe_3326960_292801160_pmwn_7.22_icymiwfm&H=
+=3DKEIEIW2D8JXYYS7JVOAISATXVASA&ref_=3Dpe_3326960_292801160_pmwn_7">Five wa=
+ys to Prime at Whole Foods Market</a></li>
+</ul>
+  </td>
+        </tr>
+        </table>
+    </td>
+</tr>
+</table>
+<!-- /Content Block 7: TEXT -->
+
+
+  <!-- end ICYMI -->
+
+                    <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+><tr><td height=3D"20" style=3D"line-height:10px;"><img src=3D"http://g-ecx=
+.images-amazon.com/images/G/01/e-mail/img/softlines/sp.gif" width=3D"1" hei=
+ght=3D"1" style=3D"display:block; border:0;" /></td></tr></table>
+
+    <!-- Footer -->
+        <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"50=
+0" style=3D"width:500px;" class=3D"width320">
+    <tr>
+          <td width=3D"10"></td>
+            <td width=3D"480" class=3D"width300" align=3D"left" valign=3D"t=
+op"  style=3D"font-family:Arial, sans-serif; font-size:10px; line-height:12=
+px; color:#666666;">
+               <span style=3D"font-size:14px;">As a Prime member you have a=
+ccess to a number of premium benefits all included with your membership. Ex=
+plore everything included with <a href=3D"https://smile.amazon.com/gp/f.htm=
+l?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f=
+16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.a=
+mazon.com%2Fdp%2FB00DBYBNEE%3Fref_%3Dpe_3326960_292801160_pmwnfooterpmp&H=
+=3DZN4CRT43JB6858S7LMCK0LASOJ0A&ref_=3Dpe_3326960_292801160_pmwnfooterpmp">=
+Prime</a>.<br /><br />
+
+
+
+             Know someone who would enjoy the weekly Prime newsletter? Forw=
+ard this to your friends or family and ask them to <a href=3D"https://smile=
+.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2=
+018072218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dh=
+ttps%3A%2F%2Fsmile.amazon.com%2Fb%3Fnode%3D16363678011%26ref_%3Dpe_3326960_=
+292801160_pmwnfootersubscribe%23&H=3DUJFQBN3Y1TA4QGR5SZICVV3EVDIA&ref_=3Dpe=
+_3326960_292801160_pmwnfootersubscribe">
+subscribe</a>.  Don=E2=80=99t forget to also subscribe to the <a href=3D"ht=
+tps://smile.amazon.com/gp/f.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Dur=
+n:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&=
+T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fgp%2Fgss%2Fdetail%2F566700%3Fref=
+_%3Dpe_3326960_292801160_pmwnfootervideoNLsub&H=3DZMCARARFOHE8JLHMAZQAWVHCC=
+KYA&ref_=3Dpe_3326960_292801160_pmwnfootervideoNLsub">Video</a> and <a href=
+=3D"https://smile.amazon.com/gp/f.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&=
+M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYG=
+WJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fgp%2Fgss%2Fdetail%2F323543=
+60%3Fref_%3Dpe_3326960_292801160_pmwnfootermusicNLsub&H=3DR739NIRKRNOAUQTAN=
+SXZFYJ1NB4A&ref_=3Dpe_3326960_292801160_pmwnfootermusicNLsub">Music</a> new=
+sletters. <br><br>
+
+    You are receiving this newsletter as a valued Prime member, so you can =
+learn what's new with your membership each week. If you'd like to make chan=
+ges to your membership, <a href=3D"https://smile.amazon.com/gp/f.html?C=3D2=
+64A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244=
+bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.c=
+om%2Fgp%2Fprimecentral%3Fref_%3Dpe_3326960_292801160_pmwnfooterprimecentral=
+&H=3D1RDEXAV5BELTSGNZ9OSNVRUXGRSA&ref_=3Dpe_3326960_292801160_pmwnfooterpri=
+mecentral">click here</a>. <br><br>
+
+            If you no longer wish to receive this email, click <a href=3D"h=
+ttps://smile.amazon.com/gp/f.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Du=
+rn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J=
+&T=3DX&U=3D%2Fgp%2Fgss%2Fo%2F1RtkgoUBCuWYqJiE.Tvf.M4thihXQGu2-ypg-vsSHzlvNd=
+UT7v8pZ8Mt4VKurWxNX&H=3DM2E4AGZ1WEC1VFU77QCCKCBRRDOA">here</a>.<br><br>
+
+
+
+
+        <br><br>
+
+
+
+            Please note that product prices and availability are subject to=
+ change. Prices and availability were accurate at the time this newsletter =
+was sent; however, they may differ from those you see when you visit <a hre=
+f=3D"https://smile.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2=
+&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJY=
+GWJE5J&T=3DC&U=3Dhttp%3A%2F%2Fsmile.amazon.com%2Fref%3Dpe_3326960_292801160=
+_pe_sef_logo&H=3DWEO70YFCB9IC6ACTIFLA6EKZS1GA&ref_=3Dpe_3326960_292801160_p=
+e_sef_logo" style=3D"color:#666666; text-decoration:underline">Amazon.com</=
+a>.
+            <br /><br />
+
+            =C2=A9 2018 <a href=3D"https://smile.amazon.com/gp/r.html?C=3D2=
+64A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244=
+bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F%2Fsmile.amazon.co=
+m%2Fref%3Dpe_3326960_292801160_pe_sef_logo&H=3DWEO70YFCB9IC6ACTIFLA6EKZS1GA=
+&ref_=3Dpe_3326960_292801160_pe_sef_logo" style=3D"color:#666666; text-deco=
+ration:underline">Amazon.com</a>, Inc. or its affiliates. All rights reserv=
+ed. Amazon, <a href=3D"https://smile.amazon.com/gp/r.html?C=3D264A344UGLGHL=
+&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f=
+80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F%2Fsmile.amazon.com%2Fref%3Dpe=
+_3326960_292801160_pe_sef_logo&H=3DWEO70YFCB9IC6ACTIFLA6EKZS1GA&ref_=3Dpe_3=
+326960_292801160_pe_sef_logo" style=3D"color:#666666; text-decoration:under=
+line">Amazon.com</a>, the <a href=3D"https://smile.amazon.com/gp/r.html?C=
+=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16a=
+a244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F%2Fsmile.amazo=
+n.com%2Fref%3Dpe_3326960_292801160_pe_sef_logo&H=3DWEO70YFCB9IC6ACTIFLA6EKZ=
+S1GA&ref_=3Dpe_3326960_292801160_pe_sef_logo" style=3D"color:#666666; text-=
+decoration:underline">Amazon.com</a> logo, Prime, Kindle Fire, and 1-Click =
+are registered trademarks of <a href=3D"https://smile.amazon.com/gp/r.html?=
+C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16=
+aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F%2Fsmile.amaz=
+on.com%2Fref%3Dpe_3326960_292801160_pe_sef_logo&H=3DWEO70YFCB9IC6ACTIFLA6EK=
+ZS1GA&ref_=3Dpe_3326960_292801160_pe_sef_logo" style=3D"color:#666666; text=
+-decoration:underline">Amazon.com</a>, Inc. or its affiliates. <a href=3D"h=
+ttps://smile.amazon.com/gp/r.html?C=3D264A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Du=
+rn:rtn:msg:2018072218314938e446f16aa244bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J=
+&T=3DC&U=3Dhttp%3A%2F%2Fsmile.amazon.com%2Fref%3Dpe_3326960_292801160_pe_se=
+f_logo&H=3DWEO70YFCB9IC6ACTIFLA6EKZS1GA&ref_=3Dpe_3326960_292801160_pe_sef_=
+logo" style=3D"color:#666666; text-decoration:underline">Amazon.com</a>, 41=
+0 Terry Avenue N., Seattle, WA 98109-5210. Reference: 292801160
+            <br /><br />
+            Please note that this message was sent to the following e-mail =
+address: samtheloanman@gmail.com
+            </td>
+            <td width=3D"10"></td>
+    </tr>
+        </table>
+
+        <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td hei=
+ght=3D"20"><img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/im=
+g/softlines/sp.gif" width=3D"1" height=3D"1" style=3D"display:block; border=
+:0;" /></td></tr></table>
+    <!-- /Footer -->
+
+
+    </td>
+</tr>
+
+<tr>
+
+  <td class=3D"hide">
+      <!-- Gmail min-width fix -->
+        <div style=3D"letter-spacing: 496px; line-height: 0; mso-hide: all"=
+>&nbsp;</div>
+        <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"ce=
+nter" width=3D"500" class=3D"width320">
+        <tr>
+            <td height=3D"1" style=3D"line-height:1px; min-width:500px;">
+            <img src=3D"http://g-ecx.images-amazon.com/images/G/01/e-mail/i=
+mg/softlines/sp.gif" height=3D"1" width=3D"500" style=3D"max-height:1px; mi=
+n-height:1px; display:block; width:500px; min-width:500px;"/>
+            </td>
+        </tr>
+        </table>
+        <!-- Gmail min-width fix -->
+  </td>
+</tr>
+
+<tr>
+  <td class=3D"hide">
+    <div style=3D"display:none; white-space:nowrap; font:15px courier; line=
+-height:0;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+    </td>
+</tr>
+</table>
+</center>
+
+<img width=3D"1" height=3D"1" src=3D"https://www.amazon.com/gp/r.html?C=3D2=
+64A344UGLGHL&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018072218314938e446f16aa244=
+bd82a1c22a3f80p0na&R=3D2YCMKJYGWJE5J&T=3DE&U=3Dhttps%3A%2F%2Fimages-na.ssl-=
+images-amazon.com%2Fimages%2FG%2F01%2Fnav%2Ftransp.gif&H=3DKA2YJVNXVNAAZUPT=
+ZXAGNX4AAD0A&ref_=3Dpe_3326960_292801160_open" /></body>
+</html>
+
+------=_Part_15077382_2133764704.1532284309158--

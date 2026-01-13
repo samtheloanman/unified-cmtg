@@ -1,0 +1,142 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 209.85.214.53 as permitted sender) client-ip=209.85.214.53; envelope-from=tommiejzito@gmail.com; helo=mail-it0-f53.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 209.85.214.53 as permitted sender)  smtp.mailfrom=tommiejzito@gmail.com
+Return-Path: <tommiejzito@gmail.com>
+Received: from mail-it0-f53.google.com (mail-it0-f53.google.com [209.85.214.53]) by mx.zohomail.com
+	with SMTPS id 1531438167054862.7228711745399; Thu, 12 Jul 2018 16:29:27 -0700 (PDT)
+Received: by mail-it0-f53.google.com with SMTP id y124-v6so3309360itc.0;
+        Thu, 12 Jul 2018 16:29:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=tommiezito-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to
+         :cc;
+        bh=Kdo6tvzEEcPsbu4jx4N8l+1XKUravA4bfdEgLY6i8iY=;
+        b=0+mkUgTH+hFsX84nlY6QZ2Vjoi5oFiuAzbvfwjK/JQL9god2FtLSDbrvB5sGdm/bCY
+         kOv0C93fJTJdXp6u9tl986+/+F0uPXDsZA7HJr4xCn6bfnIXcFmld/7qbunb+PJDzeCj
+         MhP0m4bLVdg8Xj3qEgIlIXXtiBIF4F2zMmMCKhJXi1yqPCx6BmBEJgIguCRqZ3IZSbaL
+         YWnTlch/ufCXYW96V7LTLaHuYdNI2vJGdsT+LAGlgR6e2qh2doK1HOCCXM26TkhUe6FD
+         f5I/WYFuDPp5KdYDebX2bSRbk73DTKQYgoyrnSnceh4Djc0myqieW2jW1WfkE2Cww7Ym
+         ngtA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to:cc;
+        bh=Kdo6tvzEEcPsbu4jx4N8l+1XKUravA4bfdEgLY6i8iY=;
+        b=lombz/yB2VY25eWbIawDKSGpdA74OjR9/z/aLjk5HHfU3E41c0R0g1nzaYGf2Z0/yS
+         XWkFjDxAegJJJnPI+4TIJjOIT+M8tioqzb+JWrgyD9B+LQBYkyDsSToaYC7VL+/B003e
+         cgfJFENZyyuVqRCSMOL0FOuWmfHbekD9YAiLMYmsI70CPu9W4TKS3dcJXdF4fEdgEiHS
+         lr/iyrAG6ZR/FY9nncCt/6Xa9CBVhaZg0SDnNrWo6StZt21BSRH753EwYMGQRe5V6HGy
+         dobaCFY1/HS+/Q3Q+ao3lvHvglBiJtkVtKXsPsG/ArB/STkVwRVrem+wgtwlSWA79P8Q
+         frWg==
+X-Gm-Message-State: AOUpUlEYXUJ+EVCo9snFIxeM3Iug60SfcoBv4iMMHHOVXkEc25rQvta/
+	QZWvgWSfUX9ltMr8VyI29lfB0SdII9afnmlrdUU=
+X-Google-Smtp-Source: AAOMgpcMWYoLO9C/MpB5yUJSVd6B51sYbbgNO195HxRo4raL5BECTl4DzpVUF4T6J5/aJPWUlTI52aASNYHCHUwzOS4=
+X-Received: by 2002:a24:c246:: with SMTP id i67-v6mr3164005itg.45.1531438166006;
+ Thu, 12 Jul 2018 16:29:26 -0700 (PDT)
+MIME-Version: 1.0
+References: <F7BE88C8-FDE4-40B0-82B0-5600429D270D@gmail.com>
+ <55B5D0E2-237A-4C2E-A614-B2E093D9FEA4@gmail.com> <164903d2711.1150c917349716.6290382062989975658@c-mtg.com>
+In-Reply-To: <164903d2711.1150c917349716.6290382062989975658@c-mtg.com>
+From: Tommie Zito <president@tommiezito.com>
+Date: Thu, 12 Jul 2018 17:29:14 -0600
+Message-ID:<CA+qBVs5R6JHKzodFbDwoQzKJv4GKRVowrzVRugWLNVGt12W+YQ@mail.gmail.com>
+Subject: Re: Universal Capital Solutions - Loan Application fee
+To: Mark Burins <mark@c-mtg.com>
+Cc: "\"Rev. Randy Williams\"" <rev.randy.williams@gmail.com>, "\"sam\"" <sam@c-mtg.com>
+Content-Type: multipart/alternative; boundary="000000000000e15f500570d5bb44"
+X-ZohoMail-DKIM: pass (identity @tommiezito-com.20150623.gappssmtp.com)
+X-ZohoMail-Owner: <CA+qBVs5R6JHKzodFbDwoQzKJv4GKRVowrzVRugWLNVGt12W+YQ@mail.gmail.com>+zmo_0_tommiejzito@gmail.com
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  PMF_LNK_RPT_GIP Ex_2 SS_6 IS_0 PIW IS_6 FMWL EML_0 DMN_0 EDR_150 SIP_KGR,RPD_KGR COSF UNK_U_0 SFP_WHTLST_0 SBSR_2 SIP_KGR_0 RPD_KGR_0 ZMHF_701_2  SC_4 SGR3_1_2_0_167_278
+X-ZM-MESSAGEID: 1531438168830100001
+X-ZohoMail-Status: 1
+
+
+--000000000000e15f500570d5bb44
+Content-Type: text/plain; charset="UTF-8"
+
+Hey did all this get taken care of.   Are they starting process ??
+
+On Thu, Jul 12, 2018 at 2:44 PM Mark Burins <mark@c-mtg.com> wrote:
+
+> Hi Pastor,
+>
+> Chet apologizes in advance but he thought this company would accept a
+> credit card payment but they will not.  Some of the programs they offer
+> allow it but not this one is what he's saying now and Chet has assured me
+> that the credit card won't be charged.
+>
+> He's requested a wire for the $1,495 application fee instead and the
+> wiring instructions are attached.  If you decide to send the wire, please
+> reference the Rock Church of Ft. Myers loan application fee.  Also let me
+> know when that's been done.
+>
+> Again Chet apologizes for the confusion.
+>
+> *Respectfully,*
+>
+>
+>
+>
+> *Mark Burins*
+>
+> Loan Coordinator
+>
+>
+>
+>
+> *Custom Mortgage and Real Estate*
+>
+> *Direct 818.340.0303 *
+> *Efax 866.421.7694*
+>
+> Mark@c-mtg.com  -    www.c-mtg.com
+>
+>
+> ---- On Wed, 11 Jul 2018 08:14:54 -0700 *Rev. Randy Williams
+> <rev.randy.williams@gmail.com <rev.randy.williams@gmail.com>>* wrote ----
+>
+>
+>
+>
+>
+
+--000000000000e15f500570d5bb44
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div><div dir=3D"auto">Hey did all this get taken care of. =C2=A0 Are they =
+starting process ??</div></div><div><br><div class=3D"gmail_quote"><div dir=
+=3D"ltr">On Thu, Jul 12, 2018 at 2:44 PM Mark Burins &lt;<a href=3D"mailto:=
+mark@c-mtg.com">mark@c-mtg.com</a>&gt; wrote:<br></div><blockquote class=3D=
+"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding=
+-left:1ex"><u></u><div><div style=3D"font-size:10pt;font-family:Verdana,Ari=
+al,Helvetica,sans-serif"><div>Hi Pastor,<br></div><div><br></div><div>Chet =
+apologizes in advance but he thought this company would accept a credit car=
+d payment but they will not.=C2=A0 Some of the programs they offer allow it=
+ but not this one is what he&#39;s saying now and Chet has assured me that =
+the credit card won&#39;t be charged.<br></div><div><br></div><div>He&#39;s=
+ requested a wire for the $1,495 application fee instead and the wiring ins=
+tructions are attached.=C2=A0 If you decide to send the wire, please refere=
+nce the Rock Church of Ft. Myers loan application fee.=C2=A0 Also let me kn=
+ow when that&#39;s been done.<br></div><div><br></div><div>Again Chet apolo=
+gizes for the confusion.</div><div><br></div><div id=3D"m_27518501187944757=
+66Zm-_Id_-Sgn"><div><b><i>Respectfully,</i></b><br></div><div><b><i></i></b=
+><br></div><div><b><i></i></b><br></div><div><b></b><br></div><div><b></b><=
+br></div><div><b>Mark Burins</b><br></div><div><br></div><div>Loan Coordina=
+tor<br></div><div><br></div><div><span><img></span><br></div><div><img><br>=
+</div><div><br></div><div><span><b>Custom Mortgage and Real Estate</b></spa=
+n><br></div><div><span><b></b></span><br></div><div><span><b>Direct 818.340=
+.0303=C2=A0</b></span><br></div><div><span><b>Efax 866.421.7694</b></span><=
+br></div><div><span></span><br></div><div><span><span><a>Mark@c-mtg.com</a>=
+=C2=A0 - =C2=A0 =C2=A0<a>www.c-mtg.com</a></span></span><br></div></div><di=
+v><br></div><div class=3D"m_2751850118794475766zmail_extra"><div id=3D"m_27=
+51850118794475766Zm-_Id_-Sgn1"><div><br></div><div>---- On Wed, 11 Jul 2018=
+ 08:14:54 -0700=C2=A0<b>Rev. Randy Williams &lt;<a href=3D"mailto:rev.randy=
+.williams@gmail.com" target=3D"_blank">rev.randy.williams@gmail.com</a>&gt;=
+</b> wrote ----<br></div></div><blockquote style=3D"border-left:1px solid #=
+cccccc;padding-left:6px;margin:0 0 0 5px"><br></blockquote></div><div><br><=
+/div></div><br></div></blockquote></div></div>
+
+--000000000000e15f500570d5bb44--

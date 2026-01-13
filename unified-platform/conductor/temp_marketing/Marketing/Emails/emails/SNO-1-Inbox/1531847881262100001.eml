@@ -1,0 +1,429 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of emm.ibmmail.com designates 192.86.50.46 as permitted sender) client-ip=192.86.50.46; envelope-from=emsg-11a301-299f-replies@emm.ibmmail.com; helo=emm.ibmmail.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=marketing@emm.ibmmail.com;
+	spf=pass (zoho.com: domain of emm.ibmmail.com designates 192.86.50.46 as permitted sender)  smtp.mailfrom=emsg-11a301-299f-replies@emm.ibmmail.com;
+	dmarc=pass(p=none dis=none)  header.from=emm.ibmmail.com
+Return-Path: <emsg-11a301-299f-replies@emm.ibmmail.com>
+Received: from emm.ibmmail.com (emm.ibmmail.com [192.86.50.46]) by mx.zohomail.com
+	with SMTPS id 1531847880494189.12344014517862; Tue, 17 Jul 2018 10:18:00 -0700 (PDT)
+Received: from mailout02.em.unica.net (10.40.36.17) by emm.ibmmail.com id h9oicg0u8qoq for <sam@c-mtg.com>; Tue, 17 Jul 2018 13:16:00 -0400 (envelope-from <emsg-11a301-299f-replies@emm.ibmmail.com>)
+Received: from mme03.em.unica.net (10.40.36.40) by mailout02.em.unica.net id h9oi500u8qo3 for <sam@c-mtg.com>; Tue, 17 Jul 2018 13:16:00 -0400 (envelope-from <emsg-11a301-299f-replies@emm.ibmmail.com>)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=kb; d=emm.ibmmail.com;
+ h=Date:From:Reply-To:Subject:To:Message-ID:List-Unsubscribe:Mime-Version:Content-Type:Content-Transfer-Encoding; i=marketing@emm.ibmmail.com;
+ bh=910ooBWAJLK2ytrnXe5MMMFka3M=;
+ b=KDDNojptZqtENOPwQJ8lBOlJoLxzuWsZKtyLAM7yRLB2AWy0fDOWac21eoPWXonu68yAwMt5a9pT
+   Ta/gxIoxCVCvsP7id7VHw5DIohrpuiOXloXOonn31LiYosy6mVRV80Nnzhdam5gviSV/4zOAtesd
+   ozTBRAzFwo/Mkq27sJE=
+Date: Tue, 17 Jul 2018 13:16:00 -0400
+From: "Dan Russo - IBM Watson" <marketing@emm.ibmmail.com>
+Reply-To: "wdc-dev@bg.vnet.ibm.com" <wdc-dev@bg.vnet.ibm.com>
+Subject: See how AI makes combing through contracts a breeze
+To: <sam@c-mtg.com>
+x-emsg-mtaselection: prod_4_emm.ibmmail.com
+Message-ID:<emsg.11a301.299f.164a93dd88c@mme03.em.unica.net>
+Feedback-ID: emm.ibmmail.com:10245-11a301:emsg-x
+List-Unsubscribe: <mailto:DSME-BF1F98788B9BDC670E48B67F9F26AD0AD1FF418F5CC3F81C502FDA80BA565411@emm.ibmmail.com>
+Mime-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-ZohoMail-DKIM: pass (identity marketing@emm.ibmmail.com)
+X-ZohoMail-Owner: <emsg.11a301.299f.164a93dd88c@mme03.em.unica.net>+zmo_0_emsg-11a301-299f-replies@emm.ibmmail.com
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_1 IS_0 ZMKF_NWSLTR EML_0 DMN_0 EDR_100 COSF LNKP CV_710BCNIM UMS_WB UNK_U_0 UNK_O_0 CHF_NWSUSR_0 ZFF_LSTF2_ATH_4 SIP_KMR_0 RPD_KMR_0 CV_HIDLNG_0 ZMHF_701_1 CV_710IT_1 CV_HID_0  SC_6 SGR3_1_2_0_167_284
+X-ZM-MESSAGEID: 1531847881262100001
+X-ZohoMail-Status: 1
+
+
+<!DOCTYPE html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+=09<meta charset=3D"utf-8"> <!-- utf-8 works for most cases -->
+=09<meta name=3D"viewport" content=3D"width=3Ddevice-width"> <!-- Forcing i=
+nitial-scale shouldn't be necessary -->
+=09<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"> <!-- Use the=
+ latest (edge)     <meta name=3D"x-apple-disable-message-reformatting">  <!=
+-- Disable auto-scale in iOS 10 Mail entirely -->
+    <!--version of IE rendering engine -->
+=09<title>See how AI makes combing through contracts a breeze</title> <!-- =
+The title tag shows in email notifications, like Android 4.4. -->
+=09
+=09<!-- CSS Reset -->
+    <style>
+
+=09=09/* What it does: Remove spaces around the email design added by some =
+email clients. */
+=09=09/* Beware: It can remove the padding / margin and add a background co=
+lor to the compose a reply window. */
+        html,
+        body {
+=09        margin: 0 auto !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+        }
+
+        /* What it does: Stops email clients resizing small text. */
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        /* What is does: Centers email on Android 4.4 */
+        div[style*=3D"margin: 16px 0"] {
+            margin:0 !important;
+        }
+
+        /* What it does: Stops Outlook from adding extra spacing to tables.=
+ */
+        table,
+        td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+        }
+
+        /* What it does: Fixes webkit padding issue. Fix for Yahoo mail tab=
+le alignment bug. Applies table-layout to the first 2 tables then removes f=
+or anything nested deeper. */
+        table {
+            border-spacing: 0 !important;
+            border-collapse: collapse !important;
+            table-layout: fixed !important;
+            margin: 0 auto !important;
+        }
+        table table table {
+            table-layout: auto;
+        }
+
+        /* What it does: Uses a better rendering method when resizing image=
+s in IE. */
+        img {
+            -ms-interpolation-mode:bicubic;
+        }
+
+        /* What it does: A work-around for iOS meddling in triggered links.=
+ */
+        .mobile-link--footer a,
+        a[x-apple-data-detectors] {
+            color:inherit !important;
+            text-decoration: underline !important;
+        }
+
+        /* What it does: Prevents underlining the button text in Windows 10=
+ */
+        .button-link {
+            text-decoration: none !important;
+        }
+        .blue-70{
+            color: #264a60;
+            }
+
+=09=09=09=09/*=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+=09=09=09=09Watson Styles
+=09=09=09=09=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D*/
+=09=09=09=09html {
+=09=09=09=09=09color:#323232;
+=09=09=09=09}
+=09=09=09=09a {
+=09=09=09=09=09color:#4178BE;
+=09=09=09=09=09text-decoration: underline;
+=09=09=09=09}
+=09=09=09=09a:visited {
+=09=09=09=09=09color:#4178BE;
+=09=09=09=09}
+=09=09=09=09a:hover {
+=09=09=09=09=09color:#4178BE !important;
+=09=09=09=09}
+
+    </style>
+
+    <!-- Progressive Enhancements -->
+    <style>
+
+        /* What it does: Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        .button-td:hover,
+        .button-a:hover {
+            background: #323232 !important;
+            border-color: #323232 !important;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 600px) {
+
+            .email-container {
+                width: 100% !important;
+                margin: auto !important;
+            }
+
+            /* What it does: Forces elements to resize to the full width of=
+ their container. Useful for resizing images beyond their max-width. */
+            .fluid {
+                max-width: 100% !important;
+                height: auto !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            /* What it does: Forces table cells into full-width rows. */
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                direction: ltr !important;
+            }
+            /* And center justify these ones. */
+            .stack-column-center {
+                text-align: left !important;
+            }
+
+            /* What it does: Generic utility class for centering. Useful fo=
+r images, buttons, and nested tables. */
+            .center-on-narrow {
+                text-align: left !important;
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+
+        }
+
+    </style>
+
+</head>
+<body width=3D"100%" bgcolor=3D"#f3f3f3" style=3D"margin: 0; mso-line-heigh=
+t-rule: exactly;">
+    <center style=3D"width: 100%; background: #f3f3f3;">
+
+        <!-- Visually Hidden Preheader Text : BEGIN -->
+        <div style=3D"display:none;font-size:1px;line-height:1px;max-height=
+:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans=
+-serif;">
+            Tackle the high-value, resource-intensive tasks of contract rev=
+iew - at scale.
+        </div>
+        <!-- Visually Hidden Preheader Text : END -->
+        <!-- Wrapper with Padding : BEGIN -->
+        <div class=3D"div-wrapper" style=3D"max-width: 600px; margin: auto;=
+ padding: 20px 3%;">
+            <!--[if mso]>
+            <table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0=
+" border=3D"0" width=3D"600" align=3D"center">
+            <tr>
+            <td>
+            <![endif]-->
+        <!-- Email Header : BEGIN -->
+        <table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0" align=3D"center" width=3D"600" style=3D"margin: auto;" class=3D"=
+email-container">
+            <tr>
+                <td style=3D"padding: 5px 0 15px 0; text-align: left">
+                    <a href=3D"http://content.emm.ibmmail.com/emessageIRS/s=
+ervlet/IRSL?v=3D5&a=3D10245&r=3D1155841&m=3D10655&l=3D1&e=3D2&x=3D2458408.0=
+"><img id=3D"032AZ_8151_watsonAvatar" height=3D"50" style=3D"height: auto; =
+font-family: sans-serif; font-size: 15px; line-height: 20px; color: #464646=
+;" alt=3D"Avatar" width=3D"52.196" border=3D"0"  src=3D"http://content.emm.=
+ibmmail.com/frontend/assets?accountId=3D256&amp;version=3Dec_188016_1531413=
+033992_&digitalAssetId=3D846181&ext=3Dpng" ></img></a>
+                </td>
+                <td style=3D"width: 70%; padding: 15px 0; text-align: right=
+; font-family: Helvetica Neue, sans-serif; font-size: 16px; line-height: 23=
+px; color: #323232;">
+
+                    <a href=3D"http://content.emm.ibmmail.com/emessageIRS/s=
+ervlet/IRSL?v=3D5&a=3D10245&r=3D1155841&m=3D10655&l=3D2&e=3D2&x=3D2458408.0=
+" style=3D"text-decoration: none; color:#5a5a5a;"><span style=3D"font-weigh=
+t:600">IBM </span><span style=3D"font-weight: 600;">Watson</span></a>
+                </td>
+            </tr>
+        </table>
+        <!-- Email Header : END -->
+
+        <!-- Email Body : BEGIN -->
+        <table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0" align=3D"center" width=3D"600" style=3D"margin: auto;" class=3D"=
+email-container">
+          =20
+            <!-- Hero Paragraph : Begin -->
+            <tr>
+                <td class=3D"td-wrapper" bgcolor=3D"#ffffff" style=3D"font-=
+family: Helvetica Neue, sans-serif; padding: 30px; text-align: left; font-s=
+ize: 16px; line-height: 23px; color: #323232;">
+                <p style=3D"width: 100%; min-width: 250px; margin: 0 0 20px=
+ 0;">Hi Johnny,</p>
+               =20
+                <p style=3D"width: 100%; min-width: 250px; margin: 0 0 20px=
+ 0;">AI can now make your contract governance process  faster and more accu=
+rate than ever before.</p>
+
+                <p style=3D"width: 100%; min-width: 250px; margin: 0 0 20px=
+ 0;">With Watson Compare &amp; Comply, companies are accelerating the time =
+it takes to identify insights within:
+                    <ul>
+                        <li>Large volumes of contracts</li>
+                        <li>Clauses of a specific type</li>
+                        <li>Document discrepancies</li>
+                    </ul></p>
+
+                <p style=3D"width: 100%; min-width: 250px; margin: 0 0 20px=
+ 0;"><a href=3D"http://content.emm.ibmmail.com/emessageIRS/servlet/IRSL?v=
+=3D5&a=3D10245&r=3D1155841&m=3D10655&l=3D3&e=3D2&x=3D2458408.0" target=3D"_=
+blank">Join our webcast</a> on 7/25 to hear how Aponia Data Solutions, a fi=
+nancial services and healthcare solutions provider, uses Compare & Comply t=
+o drive efficiencies in their clients=E2=80=99 contract management workflow=
+s. What used to take 2-4 hours to review now takes less than 2 minutes.</p>
+
+
+                <!-- Button : Begin -->
+                    <table role=3D"presentation" cellspacing=3D"0" cellpadd=
+ing=3D"0" border=3D"0" align=3D"left" style=3D"margin: auto">
+                        <tr>
+                            <td style=3D"border-radius: 30px; background: #=
+4178be; text-align: left;" class=3D"button-td"><a href=3D"http://content.em=
+m.ibmmail.com/emessageIRS/servlet/IRSL?v=3D5&a=3D10245&r=3D1155841&m=3D1065=
+5&l=3D4&e=3D2&x=3D2458408.0" style=3D"background: #4178be; border: 11px sol=
+id #4178be; font-family: Helvetica Neue, sans-serif; font-size: 16px; line-=
+height: 1.1; text-align: center; text-decoration: none; display: block; bor=
+der-radius: 30px;" class=3D"button-a button-link"> &nbsp;&nbsp;&nbsp; <span=
+ style=3D"color:#ffffff;">Register now</span> &nbsp;&nbsp;&nbsp; </a></td>
+                        </tr>
+                    </table><br>
+                <!-- Button : END -->
+
+
+                <p style=3D"width: 100%; min-width: 250px; margin: 35px 0 2=
+0px 0;">Best,<br>
+                Dan Russo<br>
+                <a href=3D"http://content.emm.ibmmail.com/emessageIRS/servl=
+et/IRSL?v=3D5&a=3D10245&r=3D1155841&m=3D10655&l=3D5&e=3D2&x=3D2458408.0" ta=
+rget=3D"_blank">IBM Watson</a></p>
+                =20
+                </td>
+            </tr>
+            <!-- Hero Paragrapph : END -->
+
+
+            <!-- Clear Spacer : BEGIN -->
+            <tr>
+                <td height=3D"30" style=3D"font-size: 0; line-height: 0;">&=
+nbsp;
+
+                </td>
+            </tr>
+            <!-- Clear Spacer : END -->
+            <!-- 2 Even Columns : BEGIN -->
+            <tr>
+                <td class=3D"td-wrapper" bgcolor=3D"#ffffff" align=3D"cente=
+r" valign=3D"top" style=3D"padding: 22px 30px 0 30px;">
+                    <table dir=3D"rtl" role=3D"presentation" cellspacing=3D=
+"0" cellpadding=3D"0" border=3D"0" width=3D"100%">
+                        <tr>
+                            <!-- Column : BEGIN -->
+                            <td dir=3D"ltr" class=3D"stack-column-center" s=
+tyle=3D"width:15%; vertical-align: top; text-align: right;">
+                                <a href=3D"http://content.emm.ibmmail.com/e=
+messageIRS/servlet/IRSL?v=3D5&a=3D10245&r=3D1155841&m=3D10655&l=3D6&e=3D2&x=
+=3D2458408.0"><img id=3D"032AZ_8151_ibm8barlogo" style=3D"font-family: Helv=
+etica Neue, sans-serif; color: #323232; padding-bottom: 20px; font-weight:6=
+00; font-size: 22px;" alt=3D"IBM" width=3D"56"  src=3D"http://content.emm.i=
+bmmail.com/frontend/assets?accountId=3D256&amp;version=3Dec_188016_15314130=
+33992_&digitalAssetId=3D846180&ext=3Dpng" border=3D"0"></img></a>
+                            </td>
+                            <!-- Column : END -->
+                            <!-- Column : BEGIN -->
+                            <td dir=3D"ltr" valign=3D"top" class=3D"stack-c=
+olumn-center" bgcolor=3D"#ffffff" style=3D"font-family: Helvetica Neue, san=
+s-serif; text-align: left; font-size: 12px; color: #323232;">
+                               <p style=3D"line-height: 28px; padding-botto=
+m: 20px; margin-top: 8px !important;">
+                               <a style=3D"color:#323232;padding-right:1em;=
+" href=3D"#"><a id=3D"View_in_Browser" class=3D"droppable" href=3D"http://c=
+ontent.emm.ibmmail.com/emessageIRS/servlet/IRSLP?e=3Dt9A02AD3A7F58FE2A5A3CC=
+6FDA091348F063C8C4B87FF00AD81752C4F8010E1EC716E56C9947D3EC8E0594302A14D9A80=
+C1C3ABBB0B0AE58C4962DC32FFF518D7579935BA8165A1C09F8B45104241EC854ADEA7E888A=
+F3EF5DA087CC57C7087C5F4C13C563393ACD51AEFBFF9B0229DB3502FDA80BA565411"><spa=
+n id=3D"View_in_Browser" style=3D"display:inline-block;" class=3D"droppable=
+">View in Browser</span></a></a>&nbsp;
+                               <a style=3D"color:#323232;padding-right:1em;=
+" href=3D"http://content.emm.ibmmail.com/emessageIRS/servlet/IRSL?v=3D5&a=
+=3D10245&r=3D1155841&m=3D10655&l=3D8&e=3D2&x=3D2458408.0">ibm.com/watson</a=
+>&nbsp;
+                               <a style=3D"color:#323232;" href=3D"http://c=
+ontent.emm.ibmmail.com/emessageIRS/servlet/IRSL?v=3D5&a=3D10245&r=3D1155841=
+&m=3D10655&l=3D9&e=3D2&x=3D2458408.0">Facebook</a></p>
+
+                            </td>
+                            <!-- Column : END -->
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- 2 Even Columns : BEGIN -->
+           =20
+            <!-- Footer Paragrapg : Begin -->
+            <tr>
+                <td class=3D"td-wrapper" style=3D"font-family: Helvetica Ne=
+ue, sans-serif; padding: 20px 30px; text-align: left; font-size: 16px; line=
+-height: 23px; color: #323232;">
+                    <p style=3D"font-size: 10px; font-family: Helvetica Neu=
+e, sans-serif; line-height:15px; text-align: left;">IBM Corporation, <span =
+class=3D"mobile-link--footer">11501 Burnet Rd, Bldg 904 3B-000, Austin, TX =
+78758.</span> =C2=A9 IBM Corporation 2018. This information is provided as =
+is without warranty of any kind, express or implied, and is based on curren=
+t IBM product plans strategy, which are subject to change by IBM without no=
+tice. IBM shall not be responsible for any damages arising out of the use o=
+f, or otherwise related to, this document. Nothing contained in this docume=
+nt is intended to, nor shall have the effect of, creating any warranties or=
+ representations from IBM (or its suppliers or licensors), or altering the =
+terms and conditions of the applicable license agreement governing the use =
+of IBM software. =C2=A9 International Business Machines Corp. 2018. IBM, th=
+e IBM logo, ibm.com and the planet icon are trademarks of International Bus=
+iness Machines Corporation, registered in many jurisdictions worldwide. Oth=
+er product and service names might be trademarks is available on the web at=
+ <a=20
+ href=3D"http://content.emm.ibmmail.com/emessageIRS/servlet/IRSL?v=3D5&a=3D=
+10245&r=3D1155841&m=3D10655&l=3D10&e=3D2&x=3D2458408.0"=20
+target=3D"_blank">ibm.com/legal/copytrade.shtml</a>.
+                    <br><br>If you'd like IBM to refrain from sending you s=
+imilar e-mails in the future, please <a href=3D"http://content.emm.ibmmail.=
+com/emessageIRS/servlet/IRSL?v=3D5&a=3D10245&r=3D1155841&m=3D10655&l=3D99&e=
+=3D2&x=3D2458408.0" target=3D"_blank">click&nbsp;here</a>.  You may also ma=
+il a written request to IBM&nbsp;US&nbsp;at:  IBM Corporation, 11501 Burnet=
+ Rd, BLDG 904 3B-000, Austin TX 78758
+<br>
+<br>
+ GDPR: Learn more about how IBM is handling your personal information in ou=
+r updated <a href=3D"http://content.emm.ibmmail.com/emessageIRS/servlet/IRS=
+L?v=3D5&a=3D10245&r=3D1155841&m=3D10655&l=3D100&e=3D2&x=3D2458408.0" target=
+=3D"_blank">privacy statement</a>.</br><br/>ER-8151</p>
+                </td>
+            </tr>
+            <!-- Hero Paragrapph : END -->
+      =20
+           =20
+        </table>
+       =20
+
+        <!-- Email Body : END -->
+
+       =20
+        <!-- Email Footer : END -->
+        <!-- Wrapper with Padding : END -->
+        </div>
+
+    </center>
+
+<IMG width=3D"1" height=3D"1" src=3D"http://content.emm.ibmmail.com/emessag=
+eIRS/servlet/IRSO?v=3D5&a=3D10245&r=3D1155841&m=3D10655&l=3D-1&e=3D2">
+
+<IMG width=3D"1" height=3D"1" src=3D"http://miq-p4-qa-em.unicaondemand.com/=
+C14R50A.gif?pvci=3D3505_23861_1155841" /></body>
+</html>
+

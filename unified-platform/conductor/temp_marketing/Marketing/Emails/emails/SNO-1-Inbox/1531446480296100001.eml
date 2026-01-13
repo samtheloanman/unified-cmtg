@@ -1,0 +1,274 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 209.85.213.50 as permitted sender) client-ip=209.85.213.50; envelope-from=rev.randy.williams@gmail.com; helo=mail-vk0-f50.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 209.85.213.50 as permitted sender)  smtp.mailfrom=rev.randy.williams@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Received: from mail-vk0-f50.google.com (mail-vk0-f50.google.com [209.85.213.50]) by mx.zohomail.com
+	with SMTPS id 1531446480085339.22750742977667; Thu, 12 Jul 2018 18:48:00 -0700 (PDT)
+Received: by mail-vk0-f50.google.com with SMTP id e139-v6so15937144vkf.6;
+        Thu, 12 Jul 2018 18:47:59 -0700 (PDT)
+Return-Path: <rev.randy.williams@gmail.com>
+Return-Path: <rev.randy.williams@gmail.com>
+Received: from ?IPv6:2600:1006:b042:81da:3024:ca75:f989:ec19? ([2600:1006:b042:81da:3024:ca75:f989:ec19])
+        by smtp.gmail.com with ESMTPSA id w62-v6sm425087vkf.21.2018.07.12.18.47.57
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 12 Jul 2018 18:47:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:subject:from:in-reply-to:date:cc
+         :content-transfer-encoding:message-id:references:to;
+        bh=jaXPA1COQy+M6V4P4P3kV1771KzaNrupEfTitbPlQZo=;
+        b=LFY7Bi8vaNkEDIwPtXhnVPkVjxB9GOIQakWK3sdrTaDaMFudus+8qrqK9SYY4DAs7Y
+         JmDCRrPTU1OkDbW4tOZaMQMuzto3fr2EUcZl/2JuaY+rvYXt9kh6KpgYkiY9Heqx95IB
+         pzPhWFDVzyZUQshEQ1Mpo0JWGm6AzGvPDlic+D0Z1hbJWvm2WTkIBXjJm2/E1WMGmtYF
+         qahnOkv1ThgwwbH8GjQrjUmXQzdCxAHtrPT0+/QRIsaPBjXhio4kC4JS43B4eyCFMD+U
+         S+pjRN+UzfB+1KxXMQm+4dGE3/8jVhnwuhtoKC0/4tttIOwncTaJH4Nor7lR4zqDER2v
+         yp+w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:subject:from:in-reply-to:date:cc
+         :content-transfer-encoding:message-id:references:to;
+        bh=jaXPA1COQy+M6V4P4P3kV1771KzaNrupEfTitbPlQZo=;
+        b=AT58W++YAqq8lQRBjdC/Ykw6kn7pwLRqeSa6ZwC//W2sO5D0L2URobyBbYQg/n5gLw
+         hc+kumy3oyHeZI6l0EiiXslOv5YQZQzXMos18+bCVytVPII9j0UabakoaMtJfVrQ9Sf/
+         TZKKws3skYhXwZMfQePghbByp/QCJJ5QWdff5Lcllgfg6ZdVbPMr8hHTwLeYAgoEhUo/
+         saClHSKEhZqr8ytl99OazKJ6QTtm3oAR0v4ilBECEREWEL+9EQMPQ4yZ3+e2hLqr1Vxu
+         cYV6UjJ38aT6r2CJeRNAhcyb6WYjgWQy+aYB7/I2zc3IlSlNkOa+cm83dYNSpUF775MV
+         qwcQ==
+X-Gm-Message-State: AOUpUlGwLNpn3IejH39650GPyrTbqekENBX4cEaRXIR7AEwmqTMyyCIO
+	gIroKIfDNsRgfqwkh/r9QPYYdfgzKf8=
+X-Google-Smtp-Source: AAOMgpesIvu6xgQDBSJZXtYl7VbJYqE5WCXnyU3fJkWDWRBojePwZdMzt0abIQ3dUwP9d2Eqh/GHKA==
+X-Received: by 2002:a1f:5043:: with SMTP id e64-v6mr2711413vkb.47.1531446478474;
+        Thu, 12 Jul 2018 18:47:58 -0700 (PDT)
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-AC036CF9-17F2-429A-AEA4-D65F14C10B68
+Mime-Version: 1.0
+Subject: Re: Universal Capital Solutions - Loan Application fee
+From: "Rev. Randy Williams" <rev.randy.williams@gmail.com>
+X-Mailer: iPhone Mail (15F79)
+In-Reply-To: <164913f46f4.be7af7db72535.1535062859791678742@c-mtg.com>
+Date: Thu, 12 Jul 2018 21:47:56 -0400
+Cc: Tommie Zito <president@tommiezito.com>, sam <sam@c-mtg.com>
+Content-Transfer-Encoding: 7bit
+Message-ID:<BF6CEC94-C182-4CC3-BA7B-9A1495A50988@gmail.com>
+References: <F7BE88C8-FDE4-40B0-82B0-5600429D270D@gmail.com> <55B5D0E2-237A-4C2E-A614-B2E093D9FEA4@gmail.com> <164903d2711.1150c917349716.6290382062989975658@c-mtg.com> <CA+qBVs5R6JHKzodFbDwoQzKJv4GKRVowrzVRugWLNVGt12W+YQ@mail.gmail.com> <164913f46f4.be7af7db72535.1535062859791678742@c-mtg.com>
+To: Mark Burins <mark@c-mtg.com>
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_20 RF_0 S_167 FRD_DI
+X-ZM-MESSAGEID: 1531446480296100001
+X-ZohoMail-Status: 1
+
+
+
+--Apple-Mail-AC036CF9-17F2-429A-AEA4-D65F14C10B68
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+Sorry for the oversight - I will add the missing signatures and send over ag=
+ain in the morning=20
+
+> On Jul 12, 2018, at 9:26 PM, Mark Burins <mark@c-mtg.com> wrote:
+>=20
+> The day got away from me a little but this is what is needed in addition t=
+o the wire to move it forward.
+>=20
+> He did not sign the following pages where I typed in the name for a signat=
+ure:
+> Pg. 9 Loan Structure Agreement
+> Pg. 10 Fee Agreement
+> Pg. 11 Disclaimer Contract
+> =20
+> Please have him print out, sign, and scan back all pages in order 1-13.
+>=20
+> =20
+>=20
+> Respectfully,
+>=20
+>=20
+>=20
+>=20
+> Mark Burins
+>=20
+> Loan Coordinator
+>=20
+>=20
+>=20
+>=20
+> Custom Mortgage and Real Estate
+>=20
+> Direct 818.340.0303=20
+> Efax 866.421.7694
+>=20
+> Mark@c-mtg.com  -    www.c-mtg.com
+>=20
+>=20
+> ---- On Thu, 12 Jul 2018 16:29:14 -0700 Tommie Zito <president@tommiezito.=
+com> wrote ----
+>=20
+> Hey did all this get taken care of.   Are they starting process ??
+>=20
+> On Thu, Jul 12, 2018 at 2:44 PM Mark Burins <mark@c-mtg.com> wrote:
+>=20
+>=20
+> Hi Pastor,
+>=20
+> Chet apologizes in advance but he thought this company would accept a cred=
+it card payment but they will not.  Some of the programs they offer allow it=
+ but not this one is what he's saying now and Chet has assured me that the c=
+redit card won't be charged.
+>=20
+> He's requested a wire for the $1,495 application fee instead and the wirin=
+g instructions are attached.  If you decide to send the wire, please referen=
+ce the Rock Church of Ft. Myers loan application fee.  Also let me know when=
+ that's been done.
+>=20
+> Again Chet apologizes for the confusion.
+>=20
+> Respectfully,
+>=20
+>=20
+>=20
+>=20
+> Mark Burins
+>=20
+> Loan Coordinator
+>=20
+>=20
+>=20
+>=20
+> Custom Mortgage and Real Estate
+>=20
+> Direct 818.340.0303=20
+> Efax 866.421.7694
+>=20
+> Mark@c-mtg.com  -    www.c-mtg.com
+>=20
+>=20
+> ---- On Wed, 11 Jul 2018 08:14:54 -0700 Rev. Randy Williams <rev.randy.wil=
+liams@gmail.com> wrote ----
+>=20
+>=20
+>=20
+>=20
+> <typed signed Universal Capital Solutions - Loan Application.pdf>
+> <MCS chase_wire_2016aug.pdf>
+
+--Apple-Mail-AC036CF9-17F2-429A-AEA4-D65F14C10B68
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div></div><div>Sorry for the oversight - I=
+ will add the missing signatures and send over again in the morning&nbsp;</d=
+iv><div><br>On Jul 12, 2018, at 9:26 PM, Mark Burins &lt;<a href=3D"mailto:m=
+ark@c-mtg.com">mark@c-mtg.com</a>&gt; wrote:<br><br></div><blockquote type=3D=
+"cite"><div><meta content=3D"text/html;charset=3DUTF-8" http-equiv=3D"Conten=
+t-Type"><div style=3D"font-size:10pt;font-family:Verdana,Arial,Helvetica,san=
+s-serif;"><div>The day got away from me a little but this is what is needed i=
+n addition to the wire to move it forward.<br></div><div><br></div><p style=3D=
+"margin: 0in; font-style: normal; font-variant-ligatures: normal; font-varia=
+nt-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-=
+align: start; text-indent: 0px; text-transform: none; white-space: normal; w=
+idows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration=
+-style: initial; text-decoration-color: initial;" class=3D"x_714805260MsoNor=
+mal"><span class=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"=
+><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"font" st=
+yle=3D"font-family:Calibri, sans-serif"><span class=3D"size" style=3D"font-s=
+ize:11pt">He did not sign the following pages where I typed in the name for a=
+ signature:</span></span></span></span><br></p><ul style=3D"margin-bottom: 0=
+in; color: rgb(0, 0, 0); font-family: Lato; font-size: 14px; font-style: nor=
+mal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight:=
+ 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0p=
+x; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -=
+webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-de=
+coration-style: initial; text-decoration-color: initial; margin-top: 0in;"><=
+li style=3D"margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"=
+ class=3D"x_714805260MsoListParagraph">Pg. 9 Loan Structure Agreement<br></l=
+i><li style=3D"margin: 0in; font-size: 11pt; font-family: Calibri, sans-seri=
+f;" class=3D"x_714805260MsoListParagraph">Pg. 10 Fee Agreement<br></li><li s=
+tyle=3D"margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;" cla=
+ss=3D"x_714805260MsoListParagraph">Pg. 11 Disclaimer Contract<br></li></ul><=
+p style=3D"margin: 0in; font-style: normal; font-variant-ligatures: normal; f=
+ont-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans:=
+ 2; text-align: start; text-indent: 0px; text-transform: none; white-space: n=
+ormal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-de=
+coration-style: initial; text-decoration-color: initial;" class=3D"x_7148052=
+60MsoNormal"><span class=3D"highlight" style=3D"background-color:rgb(255, 25=
+5, 255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"=
+font" style=3D"font-family:Calibri, sans-serif"><span class=3D"size" style=3D=
+"font-size:11pt">&nbsp;</span></span></span></span><br></p><p style=3D"margi=
+n: 0in; font-style: normal; font-variant-ligatures: normal; font-variant-cap=
+s: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align:=
+ start; text-indent: 0px; text-transform: none; white-space: normal; widows:=
+ 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style=
+: initial; text-decoration-color: initial;" class=3D"x_714805260MsoNormal"><=
+span class=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span=
+ class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=3D=
+"font-family:Calibri, sans-serif"><span class=3D"size" style=3D"font-size:11=
+pt">Please have him print out, sign, and scan back all pages in order 1-13.<=
+/span></span></span></span><br></p><div><br></div><p style=3D"margin: 0in; f=
+ont-style: normal; font-variant-ligatures: normal; font-variant-caps: normal=
+; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; t=
+ext-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-=
+spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial=
+; text-decoration-color: initial;" class=3D"x_714805260MsoNormal"><span clas=
+s=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span class=3D=
+"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=3D"font-fam=
+ily:Calibri, sans-serif"><span class=3D"size" style=3D"font-size:11pt">&nbsp=
+;</span></span></span></span><br></p><div><br></div><div id=3D"Zm-_Id_-Sgn">=
+<div><b><i>Respectfully,</i></b><br></div><div><b><i></i></b><br></div><div>=
+<b><i></i></b><br></div><div><b></b><br></div><div><b></b><br></div><div><b>=
+Mark Burins</b><br></div><div><br></div><div>Loan Coordinator<br></div><div>=
+<br></div><div><span><img style=3D"" src=3D"cid:"></span><br></div><div><img=
+ src=3D"cid:"><br></div><div><br></div><div><span><b>Custom Mortgage and Rea=
+l Estate</b></span><br></div><div><span><b></b></span><br></div><div><span><=
+b>Direct 818.340.0303&nbsp;</b></span><br></div><div><span><b>Efax 866.421.7=
+694</b></span><br></div><div><span></span><br></div><div><span><span><a styl=
+e=3D"">Mark@c-mtg.com</a>&nbsp; - &nbsp; &nbsp;<a style=3D"">www.c-mtg.com</=
+a></span></span><br></div></div><div><br></div><div class=3D"zmail_extra"><d=
+iv id=3D"Zm-_Id_-Sgn1"><div><br></div><div>---- On Thu, 12 Jul 2018 16:29:14=
+ -0700&nbsp;<b>Tommie Zito &lt;<a href=3D"mailto:president@tommiezito.com">p=
+resident@tommiezito.com</a>&gt;</b> wrote ----<br></div></div><div><br></div=
+><blockquote style=3D"border-left: 1px solid #cccccc; padding-left: 6px; mar=
+gin:0 0 0 5px"><div><div><div dir=3D"auto">Hey did all this get taken care o=
+f. &nbsp; Are they starting process ??<br></div></div><div><div><br></div><d=
+iv class=3D"x_-1800255757gmail_quote"><div dir=3D"ltr">On Thu, Jul 12, 2018 a=
+t 2:44 PM Mark Burins &lt;<a target=3D"_blank" href=3D"mailto:mark@c-mtg.com=
+">mark@c-mtg.com</a>&gt; wrote:<br></div><div><br></div></div></div></div><b=
+lockquote style=3D"margin: 0 0 0 0.8ex; border-left: 1px rgb(204, 204, 204) s=
+olid; padding-left: 1ex" class=3D"x_-1800255757gmail_quote"><div><u></u><br>=
+</div><div><div style=3D"font-size: 10pt; font-family: Verdana, Arial, Helve=
+tica, sans-serif"><div>Hi Pastor,<br></div><div><br></div><div>Chet apologiz=
+es in advance but he thought this company would accept a credit card payment=
+ but they will not.&nbsp; Some of the programs they offer allow it but not t=
+his one is what he's saying now and Chet has assured me that the credit card=
+ won't be charged.<br></div><div><br></div><div>He's requested a wire for th=
+e $1,495 application fee instead and the wiring instructions are attached.&n=
+bsp; If you decide to send the wire, please reference the Rock Church of Ft.=
+ Myers loan application fee.&nbsp; Also let me know when that's been done.<b=
+r></div><div><br></div><div>Again Chet apologizes for the confusion.<br></di=
+v><div><br></div><div><div><b><i>Respectfully,</i></b><br></div><div><b><i><=
+/i></b><br></div><div><b><i></i></b><br></div><div><b></b><br></div><div><b>=
+</b><br></div><div><b>Mark Burins</b><br></div><div><br></div><div>Loan Coor=
+dinator<br></div><div><br></div><div><span><img src=3D"cid:"></span><br></di=
+v><div><img src=3D"cid:"><br></div><div><br></div><div><span><b>Custom Mortg=
+age and Real Estate</b></span><br></div><div><span><b></b></span><br></div><=
+div><span><b>Direct 818.340.0303&nbsp;</b></span><br></div><div><span><b>Efa=
+x 866.421.7694</b></span><br></div><div><span></span><br></div><div><span><s=
+pan><a>Mark@c-mtg.com</a>&nbsp; - &nbsp; &nbsp;<a>www.c-mtg.com</a></span></=
+span><br></div></div><div><br></div><div class=3D"x_-1800255757m_27518501187=
+94475766zmail_extra"><div><div><br></div><div>---- On Wed, 11 Jul 2018 08:14=
+:54 -0700&nbsp;<b>Rev. Randy Williams &lt;<a target=3D"_blank" href=3D"mailt=
+o:rev.randy.williams@gmail.com">rev.randy.williams@gmail.com</a>&gt;</b> wro=
+te ----<br></div></div><blockquote style=3D"border-left: 1px solid rgb(204, 2=
+04, 204); padding-left: 6px; margin: 0 0 0 5px"><br></blockquote></div><div>=
+<br></div></div></div></blockquote></blockquote></div><div><br></div></div><=
+br></div></blockquote><blockquote type=3D"cite"><div>&lt;typed signed Univer=
+sal Capital Solutions - Loan Application.pdf&gt;</div></blockquote><blockquo=
+te type=3D"cite"><div>&lt;MCS chase_wire_2016aug.pdf&gt;</div></blockquote><=
+/body></html>=
+
+--Apple-Mail-AC036CF9-17F2-429A-AEA4-D65F14C10B68--

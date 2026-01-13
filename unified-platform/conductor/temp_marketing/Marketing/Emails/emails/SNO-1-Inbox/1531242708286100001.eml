@@ -1,0 +1,1591 @@
+Delivered-To: samtheloanman@gmail.com
+Received: by 2002:a6b:8e8e:0:0:0:0:0 with SMTP id q136-v6csp3135969iod;
+        Mon, 9 Jul 2018 11:49:49 -0700 (PDT)
+X-Google-Smtp-Source: AAOMgpf+QRJhlZd2fjnmMXZEvwvh4gmipQsE9zJl/i5yJhTuAxIyrZbc3n5bBzpZSMb5nMjIMjyz
+X-Received: by 2002:a37:c8e:: with SMTP id 136-v6mr18933983qkm.197.1531162189742;
+        Mon, 09 Jul 2018 11:49:49 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1531162189; cv=none;
+        d=google.com; s=arc-20160816;
+        b=kH7xEY+ddGgTg8K+CRUS4br9Kf2lRnUfTlyQ1uHoGIs+W+dMwMId+l4CqcYr2ylvtb
+         r3whrSUEccqVZAYSdYZZ461keThyuq1KyGD5keyYO9NUb78jltQy7/8s0prpPpoNsWXX
+         b6PLFMu09/JuO8S9SAf5Z/eW8y4nd4+NAPxQTfU/iM6Q4IXwiRcJzAVbFJS9J9x1tAtJ
+         AYfKr66D9AOH1xidrAdy7Hj4vD92CDtTuS8PaxouLY3xphp/1cUqADnOxYwCVONojHvh
+         a2/D+QYQ/jGKcQVKbT/ztDPtoejYdtfV9sYMnsS+dMy7kzxxTNHII5hc18c4pOnUd+3c
+         a33w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:date:bounces-to:mime-version:subject:message-id:to:from
+         :dkim-signature:dkim-signature:arc-authentication-results;
+        bh=8meE670g+ySJ9AZSKMGL/ZihZJ3C8mJL5mmn8OWMf/A=;
+        b=B3s0Y2sJf71mJ8/k1Oh2mkOGRXcM/g9DqjZlYxyAW0O5uMTURvYqo6YjZFXSRedSib
+         tltBlpstPW4DCu1APpo+c81ObzSo36p2I8F3TV4u410VeK5LLk25M6RUnMNjNz1UFWpf
+         notNc5I73kiW/xRKmUBMMyoDjUqKW9r2i4NTM4pJyGvhurvQnjyTLJme3yFmi5Crnto5
+         ejzebmTSdN9iWgMHLWAfCw8jbi4OEGyMDvk9OJrC6WKm2iqlcyAAW1mC7M24zU9Yoo7j
+         KVjE7NStIfDxqY7LSqAVzpTxNbiUOHsy184SLZfQe/1NlmZt6TYlK9VQiVmIfxy4jUTH
+         kYVw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@amazon.com header.s=2uvkuueiefyaargm6tgkndh3xdf5ejpl header.b="Exs/sh96";
+       dkim=pass header.i=@amazonses.com header.s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug header.b=LIlgsQWB;
+       spf=pass (google.com: domain of 20180709184948fabef1d76e8d4b0f98066c04b7f0p0na-c1uwi7cmfpk288@bounces.amazon.com designates 54.240.15.194 as permitted sender) smtp.mailfrom=20180709184948fabef1d76e8d4b0f98066c04b7f0p0na-C1UWI7CMFPK288@bounces.amazon.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=amazon.com
+Return-Path: <20180709184948fabef1d76e8d4b0f98066c04b7f0p0na-C1UWI7CMFPK288@bounces.amazon.com>
+Received: from a15-194.smtp-out.amazonses.com (a15-194.smtp-out.amazonses.com. [54.240.15.194])
+        by mx.google.com with ESMTPS id p84-v6si3164031qkp.268.2018.07.09.11.49.49
+        for <samtheloanman@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Mon, 09 Jul 2018 11:49:49 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 20180709184948fabef1d76e8d4b0f98066c04b7f0p0na-c1uwi7cmfpk288@bounces.amazon.com designates 54.240.15.194 as permitted sender) client-ip=54.240.15.194;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@amazon.com header.s=2uvkuueiefyaargm6tgkndh3xdf5ejpl header.b="Exs/sh96";
+       dkim=pass header.i=@amazonses.com header.s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug header.b=LIlgsQWB;
+       spf=pass (google.com: domain of 20180709184948fabef1d76e8d4b0f98066c04b7f0p0na-c1uwi7cmfpk288@bounces.amazon.com designates 54.240.15.194 as permitted sender) smtp.mailfrom=20180709184948fabef1d76e8d4b0f98066c04b7f0p0na-C1UWI7CMFPK288@bounces.amazon.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=amazon.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=2uvkuueiefyaargm6tgkndh3xdf5ejpl; d=amazon.com; t=1531162189;
+	h=From:To:Message-ID:Subject:MIME-Version:Content-Type:Date;
+	bh=cm0oJMjt5+8pasDEtM+3O2D9Roc6LiGkaGv6irAfTaU=;
+	b=Exs/sh96ToBHnTlWxtBM/1eP/anIqsX8aLwE6Xk40h9T2etEGHNZzSsks6qIW0gw
+	bWTYOMcxlG5GjzUJJd/LOedTYr3bOPTLT+IbtJViU8CwdiBE0bK/fj8a+4OJpOFR307
+	+V95/V3qhIiWtXR+TMXRERYp3RFmGwQr55JNwTbk=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1531162189;
+	h=From:To:Message-ID:Subject:MIME-Version:Content-Type:Date:Feedback-ID;
+	bh=cm0oJMjt5+8pasDEtM+3O2D9Roc6LiGkaGv6irAfTaU=;
+	b=LIlgsQWB/gOgm3yTgcBxB+eihS60Q98w9qJihIlOEfvBYuCA926XIfwBoz9jDKk+
+	1dZtiGD+DbZVb2A7EAlEqDrkAxEKPOoIdX0d5oHxtkF7O9afhf685JcCQvQg1qOP0Fm
+	ySLqPVkL2tPXn+JFHkAW31XNPLB0xJayVopL/Ghw=
+From: "Amazon.com" <store-news@amazon.com>
+To: samtheloanman@gmail.com
+Message-ID:<010001648060ddad-c6dd6e9a-6ff9-45e6-9470-dbed6e6b83a1-000000@email.amazonses.com>
+Subject: "Holy Stone HS110D FPV RC Drone..." and more
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_6113912_27065467.1531162189208"
+X-AMAZON-MAIL-RELAY-TYPE: notification
+Bounces-to: 20180709184948fabef1d76e8d4b0f98066c04b7f0p0na-C1UWI7CMFPK288@bounces.amazon.com
+X-AMAZON-METADATA: CA=C1UWI7CMFPK288-CU=A1WT053AMGF2HP-RI=A2IKPQEOUTUBI3
+X-Original-MessageID: <urn.rtn.msg.20180709184948fabef1d76e8d4b0f98066c04b7f0p0na@1531162189211.rtn-na-mktng-m4l1e-cfbb510c.us-east-1.amazon.com>
+Date: Mon, 9 Jul 2018 18:49:49 +0000
+X-SES-Outgoing: 2018.07.09-54.240.15.194
+Feedback-ID: 1.us-east-1.+gzE1S+MWTFXXYmwxo7wkk651GMxMPAUFYiyN/09X40=:AmazonSES
+X-ZohoMail-Sender: Amazon.com
+X-ZM-MESSAGEID: 1531242708286100001
+X-ZohoMail-Status: 1
+
+
+------=_Part_6113912_27065467.1531162189208
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D
+AMAZON.COM
+=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+
+We=E2=80=99ve found some new recommendations that you might be interested i=
+n.
+
+   =20
+
+   =20
+
+Holy Stone HS110D FPV RC Drone with 720P HD Camera Live Video 120=C2=B0 Wid=
+e-angle WiFi Quadcopter with Altitude Hold Headless Mode 3D Flips RTF with =
+4G TF Card Modular Battery, Color Black=20
+by Holy Stone
+https://www.amazon.com/gp/product/B078WKT1HL/ref=3Dpe_3730130_291745390_em_=
+1p_1_ti
+
+Price: $129.99
+...
+   =20
+
+   =20
+
+Holy Stone F181C RC Quadcopter Drone with HD Camera RTF 4 Channel 2.4GHz 6-=
+Gyro with Altitude Hold Function,Headless Mode and One Key Return Home, Col=
+or Black=20
+by Holy Stone
+https://www.amazon.com/gp/product/B00SAUAP5C/ref=3Dpe_3730130_291745390_em_=
+1p_2_ti
+
+Price: $99.99
+...
+   =20
+
+   =20
+
+Holy Stone HS200D FPV RC Drone with Camera Live Video 720P HD 120=C2=B0 FOV=
+ RTF WiFi Quadcopter for Beginners and Kids RC Helicopter with Altitude Hol=
+d Headless Mode 3D Flips Modular Battery Color Black=20
+by Holy Stone
+https://www.amazon.com/gp/product/B074HB1HZ9/ref=3Dpe_3730130_291745390_em_=
+1p_3_ti
+
+Price: $129.99
+...
+   =20
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Amazon.com
+
+http://www.amazon.com/ref=3Dpe_footer/
+
+Connect with Us
+On Facebook
+https://www.amazon.com/gp/redirect.html/ref=3Dpe_facebook_footer/?location=
+=3Dhttp://www.facebook.com/Amazon&token=3DBC8893C697F61517994AF0EDFA6B868DF=
+ACCD919
+
+On Twitter
+https://www.amazon.com/gp/redirect.html/ref=3Dpe_twitter_footer/?location=
+=3Dhttp://twitter.com/amazon&token=3D31765BA1ADB98DFFD174431508FE50D7354F3A=
+C9
+
+On Pinterest
+https://www.amazon.com/gp/redirect.html/ref=3Dpe_pinterest_footer/?location=
+=3Dhttp://www.pinterest.com/amazon&token=3DF97FDF1D770C983C5E3B6E6DEE9C6430=
+3F192AEF
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+We hope you found this message to be useful. However, if you'd rather not r=
+eceive future e-mails of this sort from Amazon.com, please visit the opt-ou=
+t link here:
+https://www.amazon.com//gp/gss/o/1d4fxN3IQglJYgLc7d4Sqh4thihXQGu2-ypg-vsSHz=
+lsb-yNLTcrSBzrsNct8wkBk.
+
+Please note that product prices and availability are subject to change. Pri=
+ces and availability were accurate at the time this email was sent; however=
+, they may differ from those you see when you visit Amazon.com.=20
+
+
+
+=C2=A9 2018 Amazon.com, Inc. or its affiliates. All rights reserved. Amazon=
+, Amazon.com, the Amazon.com logo and 1-Click are registered trademarks of =
+Amazon.com, Inc. or its affiliates. Amazon.com, 410 Terry Avenue N., Seattl=
+e, WA 98109-5210.
+
+Reference: 291745390
+
+Please note that this message was sent to the following e-mail address: sam=
+theloanman@gmail.com
+------=_Part_6113912_27065467.1531162189208
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" style=3D"width: 100%">
+ <head>=20
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" =
+/>=20
+  <meta name=3D"viewport" content=3D"target-densitydpi=3Ddevice-dpi" />=20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale =
+=3D 1.0, maximum-scale =3D 1.0" />=20
+  <style type=3D"text/css">body {
+    padding:0;
+    margin:0;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+}
+img {
+    height: auto;
+    outline:none;
+    border:0 none;
+    -ms-interpolation-mode:bicubic;
+}
+
+table {
+    mso-table-lspace:0pt;
+    mso-table-rspace:0pt;
+    border-collapse: collapse;
+}
+
+.ExternalClass{
+    width:100%;
+}
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass td,
+.ExternalClass div {
+    line-height: 100%;
+}
+
+#outlook a {
+  padding: 0;=20
+}
+
+.widgetHeader
+{
+text-decoration:none;
+color:#E47911;
+font-size:15px;
+font-family:Arial,Helvetica,sans-serif;
+font-weight:bold;
+}
+.btn-learnmore-small
+{=20
+background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+border-radius: 5px;=20
+font-family: Arial, sans-serif;=20
+font-size: 12px;
+font-weight: normal;
+border-color: #a88734 #9c7e31 #846a29 !important;
+border-style:solid !important;
+border-width:1px !important;
+border-collapse:initial !important;
+}
+.btn-addtolist-small
+{
+background: linear-gradient(to bottom,#f7f8fa,#e7e9ec);
+border-radius: 5px;
+font-family: Arial, sans-serif;=20
+font-size: 12px;
+font-weight: normal;
+border-color: #adb1b8 #a2a6ac #8d9096 !important;
+border-style:solid !important;
+border-width:1px !important;
+min-width: 100px;
+border-collapse:initial !important;
+}=20
+
+span.mainmessage {
+font-size: 34px;
+text-decoration: none;
+font-family: Arial, sans-serif;
+line-height: 1;
+color: #FF9900;
+font-weight: 500;
+margin-bottom: 5px;
+}
+.oma_pr_image {
+display:block;
+}
+.email_super_subject a {
+color: #336699 !important;
+}
+.cta-btn {
+background-color: #FFC435;
+border-radius: 5px;
+font-family: Arial, sans-serif;
+font-size: 14px;
+font-weight: bold;
+}
+.btn-learnmore-big {
+background-color: #FFC435;
+border-radius: 5px;
+font-family: Arial, sans-serif;
+font-size: 14px;
+font-weight: bold;
+}
+.btn-addtolist-big {
+background-color: #E7E7C2;
+border-radius: 5px;
+font-family: Arial, sans-serif;
+font-size: 12px;
+font-weight: bold;
+}
+.email-super-subject {
+font-family: verdana, arial, sans-serif;
+font-size: 9px;
+line-height: 11px;
+color: #555;
+}
+.header-menu {
+font-family: arial, verdana, sans-serif;
+font-size: 12px;
+color: rgb(51, 102, 153);
+text-decoration: underline;
+font-weight: bold;
+text-align: center;
+}
+.intro-text {
+font-size: 12px;
+color: #333333;
+font-weight: normal;
+text-align: left;
+font-family: Arial, sans-serif;
+line-height: 16px;
+vertical-align: top;
+padding: 6px 15px 12px 15px;
+}
+.farmhead {
+font-family: arial;
+font-size: 14px;
+color: #e47911;
+line-height: 16px;
+font-weight: bold;
+}
+.farmhead-font {
+font-family: arial;
+font-size: 14px;
+color: #e47911;
+line-height: 16px;
+}
+.linkfarm-col-s1 {
+font-family: arial, helvetica, sans-serif;
+font-size: 14px;
+}
+.linkfarm-col-s2 {
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+}
+.linkfarm-link-s1 {
+color: #666;
+text-decoration: none;
+}
+.legal-text {
+font-family: Arial, Helvetica, Sans-Serif;
+font-size: 10px;
+color: #666
+}
+.legal-text-c1 {
+font-family: Arial, Helvetica, Sans-Serif;
+font-size: 10px;
+color: #999;
+}
+.legal-text-c2 {
+font-family: Arial, Helvetica, Sans-Serif;
+font-size: 10px;
+color: #bfbfbf;
+}
+.legal-text-c3 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 7pt;
+color: #3E7CBB;
+}
+.salutation-text {
+text-decoration: none;
+color: #303942;
+font-size: 14px;
+color: #303942;
+font-weight: normal;
+}
+body {
+background-color: #e3e3e3;
+}
+body[yahoo] {
+-webkit-text-size-adjust: none;
+width: 100%;
+background-color: #e3e3e3;
+margin: 0;
+padding: 0;
+-webkit-font-smoothing: antialiased;
+}
+.ReadMsgBody {
+width: 100%;
+background-color: #e3e3e3;
+}
+.ExternalClass {
+width: 100%;
+background-color: #e3e3e3;
+}
+html {
+width: 100%;
+}
+body[yahoo] table {
+border-collapse: collapse;
+}
+body[yahoo] .btn {
+width: 100%;
+text-align: center!important;
+}
+body[yahoo] .farm-row {
+font-family: Arial, sans-serif;
+font-size: 12px;
+padding: 3px;
+color: #333333
+}
+body[yahoo] .top10-img-Width {
+width: 290px!important;
+text-align: center
+}
+span.mainmessage {
+font-size: 34px;
+text-decoration: none;
+font-family: Arial, sans-serif;
+line-height: 1;
+color: #FF9900;
+font-weight: 500
+}
+body[yahoo] .image-csslot-normal img {
+width: 100% !important;
+height: auto !important;
+}
+body[yahoo] td[class=3D"lcol"] img {
+width: 175px !important;
+height: 175px !important;
+}
+.sef_legal_footer {
+background-color: #E3E3E3;
+}
+.sef_footer_connect {
+border-bottom: 3px solid #888888;
+height: 0px !important;
+max-height: 0px !important;
+font-size: 0px;
+margin: 0;
+width: 100%;
+}
+body[yahoo] .sef_spacer div {
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/=
+template/section-div_640x8.jpg") !important;
+background-color: #FFFFFF;
+height: 10px !important;
+background-repeat: no-repeat;
+}
+@media only screen and (max-width: 680px) {
+.mobile-hide-gmail {
+    display: none !important;
+}
+
+body[yahoo] .deviceWidth {
+width: 100%!important
+}
+body[yahoo] td[class=3D"col"] a img {
+width: 100% !important;
+max-width: 60px !important;
+height: auto !important;
+min-width: 41px !important;
+}
+td[class=3D"col"] {
+width: 30% !important;
+max-width: 60px !important;
+}
+body[yahoo] .farmLinks {
+width: auto !important;
+text-align: left !important;
+}
+body[yahoo] .farmLinks td {
+text-align: left !important;
+}
+body[yahoo] td[class=3D"farmContainer"] {
+width: 50% !important;
+text-align: left !important;
+}
+body[yahoo] .sef_footer_linkfarm td {
+width: auto !important;
+}
+body[yahoo] .sef_footer_linkfarm table {
+width: 100% !important;
+}
+body[yahoo] .sef_legal_footer,
+body[yahoo] .sef_spacer,
+body[yahoo] .sef_footer_connect,
+body[yahoo] .sef_legal_footer,
+body[yahoo] .sef_footer_linkfarm {
+width: 100% !important;
+}
+body[yahoo] .sef_footer_linkfarm tr:last-child td,
+body[yahoo] .sef_footer_linkfarm tr:first-child td {
+width: 100%;
+}
+body[yahoo] .sef_footer_linkfarm tr td table {
+width: 100%;
+}
+body[yahoo] .btn {
+width: 100% !important;
+text-align: center!important;
+}
+body[yahoo] td[class=3D"x-site-tablet"] {
+display: none !important;
+}
+body[yahoo] .seperator {
+width: 100% !important;
+}
+body[yahoo] .seperator img {
+width: 100% !important;
+height: auto;
+}
+}
+@media only screen and (max-width: 599px) {
+body[yahoo] .top10-img-Width {
+width: 440px!important;
+text-align: center
+}
+body[yahoo] .center {
+text-align: center!important;
+}
+body[yahoo] .footerLinks {
+width: 32%;
+margin-bottom: 40px
+}
+body[yahoo] td[class=3D"lcol"],
+body[yahoo] td[class=3D"rcol"] {
+display: inline-block !important;
+display: inline-block;
+width: 100% !important;
+float: none !important;
+overflow: visible !important;
+max-height: none !important;
+padding: 0px !important;
+}
+body[yahoo] .farmLinks {
+min-width: 148px !important;
+}
+body[yahoo] .farmBottom {
+width: 100%!important
+}
+body[yahoo] td[class=3D"pe_asin"] {
+padding: 4px 15px 4px 15px !important;
+}
+}
+@media only screen and (max-width: 515px) {
+body[yahoo] .logoTop {
+width: 100%!important
+}
+body[yahoo] .top10-img-Width {
+width: 290px!important;
+text-align: center
+}
+body[yahoo] .center {
+text-align: center!important;
+}
+body[yahoo] .footerLinks {
+width: 32%;
+margin-bottom: 40px
+}
+body[yahoo] .btn {
+width: 100%;
+text-align: center!important;
+}
+body[yahoo] td[class=3D"x-site"],
+body[yahoo] .x-site {
+display: none;
+}
+body[yahoo] .x-site {display: none;}
+body[yahoo] .sef_footer_linkfarm {
+display: none !important;
+}
+body[yahoo] .sef_spacer {
+display: none !important;
+}
+body[yahoo] .sef_footer_connect {
+width: 100% !important;
+}
+body[yahoo] .sef_legal_footer {
+width: 100% !important;
+}
+body[yahoo] .logoTop .center a {
+text-decoration: none !important;
+}
+body[yahoo] .logoTop td {
+padding: 0px !important;
+}
+body[yahoo] .amazonLogo {
+padding: 0 10px !important;
+}
+body[yahoo] .topMenu {
+padding: 0 0 5px 0 !important;
+}
+body[yahoo] .cs-image-slot {
+margin: auto;
+}
+}
+@media only screen and (max-width: 599px) {
+body[yahoo] td[class=3D"packCol"] {
+display: inline-block !important;
+width: 100% !important;
+float: none !important;
+overflow: visible !important;
+max-height: none !important;
+padding: 0px !important;
+}
+}
+        </style>=20
+ </head>=20
+ <body yahoo=3D"fix" class=3D"oma_main_body" style=3D"padding: 0; margin: 0=
+; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;background-col=
+or: rgb(227, 227, 227);-webkit-text-size-adjust: none; width: 100%; backgro=
+und-color: rgb(227, 227, 227); margin: 0; padding: 0; -webkit-font-smoothin=
+g: antialiased"><img width=3D"1" height=3D"1" src=3D"https://www.amazon.com=
+/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:201807091849=
+48fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DO&U=3Dhttps%3A%2F%=
+2Fimages-na.ssl-images-amazon.com%2Fimages%2FG%2F01%2Fnav%2Ftransp.gif&H=3D=
+KJXUXRWHDAZ1ZOT8XLYFUS4UHO4A&ref_=3Dpe_3730130_291745390_opens" />=20
+  <table width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" s=
+tyle=3D"background-color: #e3e3e3;mso-table-lspace: 0pt; mso-table-rspace: =
+0pt; border-collapse: collapse;border-collapse: collapse" yahoo=3D"fix">=20
+   <tbody>
+    <tr>=20
+     <td valign=3D"middle">=20
+      <table width=3D"640" border=3D"0" align=3D"center" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"deviceWidth" style=3D"mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt; border-collapse: collapse;border-collapse: collapse">=
+=20
+       <tbody>
+        <tr>=20
+         <td style=3D"padding:0 0 10px 0; font-size:0; height:0;" class=3D"=
+x-site" valign=3D"bottom">=20
+          <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"=
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;bor=
+der-collapse: collapse">=20
+           <tbody>
+            <tr>=20
+             <td> <span class=3D"email_super_subject" style=3D"font-family:=
+verdana,arial,sans-serif;font-size:9px;line-height:11px;color:#555;"> We ha=
+ve some recommendations for you </span> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+         <td align=3D"right" class=3D"header-csslot">=20
+          <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" class=3D"=
+cs-image-slot" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; borde=
+r-collapse: collapse;border-collapse: collapse">=20
+           <tbody>=20
+            <tr>=20
+             <td> <map class=3D"image-csslot-normal" name=3D"email-header-r=
+ight-1-0"> <area href=3D"https://smile.amazon.com/gp/f.html?C=3D3Q2HN83Z0VW=
+R2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:20180709184948fabef1d76e8d4b0f98066c04=
+b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fref_%=
+3Dswm_alexa8%2Fb%3Fnode%3D13887280011%26ref_%3Dpe_3730130_291745390&H=3DOJF=
+7E4HHGRD5OSSLNWTN54UQJF0A&ref_=3Dpe_3730130_291745390" shape=3D"rect" coord=
+s=3D"0,0,300,50"></area> </map>=20
+              <div class=3D"image-csslot-normal">=20
+               <img border=3D"0" align=3D"middle" alt=3D"Alexa, what are my=
+ Prime Day deals?" usemap=3D"#email-header-right-1-0" src=3D"https://m.medi=
+a-amazon.com/images/G/01/VANS/Email//PD-SWM-Deals._CB1530915582_.png" style=
+=3D"height: auto; outline: none; border: 0 none; -ms-interpolation-mode: bi=
+cubic;width: 100% !important; height: auto !important" />=20
+              </div> </td>=20
+            </tr>=20
+           </tbody>=20
+          </table> </td>=20
+        </tr>=20
+       </tbody>
+      </table>=20
+      <table width=3D"640" height=3D"6" border=3D"0" align=3D"center" cellp=
+adding=3D"0" cellspacing=3D"0" class=3D"deviceWidth" style=3D"mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;border-collapse:=
+ collapse">=20
+       <tbody>
+        <tr>=20
+         <td width=3D"100%" bgcolor=3D"#e3e3e3" align=3D"center" style=3D"b=
+order-bottom: 6px solid #FF9900; height: 0px !important; max-height: 0px !i=
+mportant; font-size:0px; margin: 0;"> <p>&nbsp;</p> </td>=20
+        </tr>=20
+       </tbody>
+      </table>=20
+      <table width=3D"640" cellpadding=3D"0" cellspacing=3D"0" bgcolor=3D"#=
+ffffff" border=3D"0" align=3D"center" style=3D"background-color:#ffffff;mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;border=
+-collapse: collapse" class=3D"deviceWidth">=20
+       <tbody>
+        <tr>=20
+         <td>=20
+          <table width=3D"100%" height=3D"5px" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" align=3D"center" class=3D"deviceWidth" style=3D"mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;border-co=
+llapse: collapse">=20
+           <tbody>
+            <tr>=20
+             <td></td>=20
+            </tr>=20
+            <tr>=20
+             <td width=3D"100%" valign=3D"middle">=20
+              <!-- Begin Simple Template --> <style type=3D"text/css">
+        body[yahoo] .seperator {width: 100% !important;}
+        body[yahoo] .seperator img {width: 100% !important; height: auto;}
+</style>=20
+              <table bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" class=3D"logoTop" align=3D"left" style=3D"mso-table-lspace: =
+0pt; mso-table-rspace: 0pt; border-collapse: collapse;border-collapse: coll=
+apse">=20
+               <tbody>=20
+                <tr>=20
+                 <td class=3D"center"> <a href=3D"https://smile.amazon.com/=
+gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018070918494=
+8fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F%2F=
+smile.amazon.com%2Fref%3Dpe_3730130_291745390_sef_logo&H=3D8ASXIREOGEYKWA0K=
+3MQZSM2EWBYA&ref_=3Dpe_3730130_291745390_sef_logo"> <img src=3D"https://ima=
+ges-na.ssl-images-amazon.com/images/G/01/e-mail/logos/amzn_logo_prime_110x4=
+8.png" alt=3D"Amazon.com" border=3D"0" style=3D"padding:6px;height: auto; o=
+utline: none; border: 0 none; -ms-interpolation-mode: bicubic" class=3D"ama=
+zonLogo" /> </a> </td>=20
+                </tr>=20
+               </tbody>=20
+              </table>=20
+              <table class=3D"logoTop " border=3D"0" cellpadding=3D"10" cel=
+lspacing=3D"0" align=3D"right" style=3D"mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; border-collapse: collapse;border-collapse: collapse">=20
+               <tbody>=20
+                <tr>=20
+                 <td align=3D"right" class=3D"topMenu">=20
+                  <table cellpadding=3D"0" cellspacing=3D"0" style=3D"margi=
+n:0 auto;mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: col=
+lapse;border-collapse: collapse">=20
+                   <tbody>=20
+                    <tr>=20
+                     <td align=3D"center"><a href=3D"https://smile.amazon.c=
+om/gp/f.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018070918=
+4948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F=
+%2Fsmile.amazon.com%2Fgp%2Fyourstore%2Fhome%2Fref%3Dpe_3730130_291745390_pe=
+_yourstore%2F&H=3DFMWBA9U0MHW7UPG8ZMOIYJYN3XOA&ref_=3Dpe_3730130_291745390_=
+pe_yourstore" style=3D"font-family: arial,verdana,sans-serif; font-size: 12=
+px; color: rgb(51, 102, 153); text-decoration: underline; font-weight: bold=
+;text-align:center;word-wrap: normal ! important;"> Your Amazon.com </a></t=
+d>=20
+                     <td rowspan=3D"2" width=3D"4" class=3D"x-site">&nbsp;<=
+/td>=20
+                     <td rowspan=3D"2" width=3D"4">&nbsp;</td>=20
+                     <td align=3D"center"><a href=3D"https://smile.amazon.c=
+om/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018070918=
+4948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F=
+%2Fsmile.amazon.com%2Fgp%2Fgoldbox%2Fref%3Dpe_3730130_291745390_pe_goldbox%=
+2F&H=3DRTQHEUEKEB0FZR8ZFUGRCQABNTMA&ref_=3Dpe_3730130_291745390_pe_goldbox"=
+ style=3D"font-family: arial,verdana,sans-serif; font-size: 12px; color: rg=
+b(51, 102, 153); text-decoration: underline; font-weight: bold;text-align:c=
+enter;word-wrap: normal ! important;"> Today's Deals </a></td>=20
+                     <td rowspan=3D"2" width=3D"4" class=3D"x-site">&nbsp;<=
+/td>=20
+                     <td rowspan=3D"2" width=3D"4">&nbsp;</td>=20
+                     <td align=3D"center"><a href=3D"https://smile.amazon.c=
+om/gp/f.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018070918=
+4948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F=
+%2Fsmile.amazon.com%2Fgp%2Fsite-directory%2Fref%3Dpe_3730130_291745390_pe_d=
+ir_gw%2F&H=3DJ2DTD2ALKFV8KE6M5NKLAENVADCA&ref_=3Dpe_3730130_291745390_pe_di=
+r_gw" style=3D"font-family: arial,verdana,sans-serif; font-size: 12px; colo=
+r: rgb(51, 102, 153); text-decoration: underline; font-weight: bold;text-al=
+ign:center;word-wrap: normal ! important;"> See All Departments </a></td>=
+=20
+                     <td rowspan=3D"2" width=3D"4" class=3D"x-site">&nbsp;<=
+/td>=20
+                    </tr>=20
+                   </tbody>=20
+                  </table> </td>=20
+                </tr>=20
+               </tbody>=20
+              </table>=20
+              <!-- End Simple Template --> </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <!--  End HEADER -->=20
+          <table width=3D"640" class=3D"deviceWidth" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" align=3D"center" bgcolor=3D"#FFFFFF" style=3D"ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;borde=
+r-collapse: collapse">=20
+           <tbody>
+            <tr>=20
+             <td align=3D"center"> <img src=3D"https://images-na.ssl-images=
+-amazon.com/images/G/01/template/section-div_640x8.jpg" alt=3D"=3D =3D =3D =
+=3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D " borde=
+r=3D"0" align=3D"middle" class=3D"deviceWidth" style=3D"bicubic; max-width:=
+640px; max-height:8px; color:#CCCCCC; line-height:1px;height: auto; outline=
+: none; border: 0 none; -ms-interpolation-mode: bicubic" /> </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <table width=3D"610" cellspacing=3D"0" cellpadding=3D"15" border=
+=3D"0" align=3D"center" class=3D"deviceWidth" style=3D"width:100%;mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;border-colla=
+pse: collapse">=20
+           <tbody>=20
+            <tr>=20
+             <td class=3D"intro-text" align=3D"left" style=3D"text-align:le=
+ft;font-size: 12px; color: rgb(51, 51, 51); font-weight: normal; text-align=
+: left; font-family: Arial, sans-serif; line-height: 16px; vertical-align: =
+top; padding: 6px 15px 12px 15px"> <span class=3D"salutation-text" style=3D=
+"text-decoration: none; color: rgb(48, 57, 66); font-size: 14px; color: rgb=
+(48, 57, 66); font-weight: normal"> Hello Johnny Tehranchi, </span> <br />W=
+e=E2=80=99ve found some new recommendations that you might be interested in=
+. </td>=20
+            </tr>=20
+           </tbody>=20
+          </table>=20
+          <table width=3D"640" class=3D"deviceWidth" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" align=3D"center" bgcolor=3D"#FFFFFF" style=3D"ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;borde=
+r-collapse: collapse">=20
+           <tbody>
+            <tr>=20
+             <td align=3D"center"> <img src=3D"https://images-na.ssl-images=
+-amazon.com/images/G/01/template/section-div_640x8.jpg" alt=3D"=3D =3D =3D =
+=3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D " borde=
+r=3D"0" align=3D"middle" class=3D"deviceWidth" style=3D"bicubic; max-width:=
+640px; max-height:8px; color:#CCCCCC; line-height:1px;height: auto; outline=
+: none; border: 0 none; -ms-interpolation-mode: bicubic" /> </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <!-- check if we are getting the emailAds properly otherwise do n=
+ot display Ads-->=20
+          <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" bgcolor=
+=3D"#FFFFFF" class=3D"four_product_widget" align=3D"center" style=3D"mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;border-co=
+llapse: collapse">=20
+           <tbody>=20
+            <tr>=20
+             <td>=20
+              <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" bgc=
+olor=3D"#FFFFFF" border=3D"0" style=3D"mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; border-collapse: collapse;border-collapse: collapse">=20
+               <tbody>=20
+                <tr>=20
+                 <td class=3D"packCol" align=3D"center" valign=3D"top">=20
+                  <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"=
+ bgcolor=3D"#FFFFFF" border=3D"0" style=3D"mso-table-lspace: 0pt; mso-table=
+-rspace: 0pt; border-collapse: collapse;border-collapse: collapse">=20
+                   <tbody>=20
+                    <tr>=20
+                     <td width=3D"10">=20
+                      <div width=3D"10" class=3D"spacer" style=3D"font-size=
+:5px;line-height:5px;">
+                       &nbsp;
+                      </div> </td>=20
+                     <td valign=3D"top" class=3D"pr_container" align=3D"cen=
+ter"> <style type=3D"text/css">
+    @media only screen and (max-device-width: 599px) {
+    .pfe_sims_product {
+            width: 100% !important;
+            float: none !important;
+            overflow: visible !important;
+            max-height:none !important;
+            margin-left:auto !important;
+            margin-right:auto !important;
+            align:center !important;
+            padding:0px 0px 0px 0px!important;
+        }
+  } =20
+</style>=20
+                      <table width=3D"308" cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0" align=3D"center" class=3D"pfe_sims_product" style=3D"mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;border-c=
+ollapse: collapse">=20
+                       <tbody>
+                        <tr class=3D"pfe_sims_image">=20
+                         <td width=3D"100%" valign=3D"bottom" align=3D"cent=
+er" style=3D"padding:4px 8px 4px 8px;">=20
+                          <table width=3D"100%" cellspacing=3D"0" cellpaddi=
+ng=3D"0" border=3D"0" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; border-collapse: collapse;border-collapse: collapse">=20
+                           <tbody>=20
+                            <tr>=20
+                             <td valign=3D"bottom" align=3D"center" style=
+=3D"vertical-align: middle; padding:4px 8px 4px 8px;max-width:242px !import=
+ant;"> <a href=3D"https://smile.amazon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D=
+1A0XLZPQA3MH2&M=3Durn:rtn:msg:20180709184948fabef1d76e8d4b0f98066c04b7f0p0n=
+a&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fgp%2Fproduct=
+%2FB078WKT1HL%2Fref%3Dpe_3730130_291745390_em_1p_1_im&H=3DKPQQ8M9OR5J80OJN5=
+CNJSFDRHWWA&ref_=3Dpe_3730130_291745390_em_1p_1_im"> <img src=3D"https://im=
+ages-na.ssl-images-amazon.com/images/I/51%2BrsZanZRL._SL500_SS175_.jpg" cla=
+ss=3D"oma_pr_image" alt=3D"Holy Stone HS110D FPV RC Drone with 720P HD Came=
+ra Live Video 120&deg; Wide-angle WiFi Quadcopter with Altitude Hold Headle=
+ss Mode 3D Flips RTF with 4G TF Card Modular Battery, Color Black" border=
+=3D"0" style=3D"height: auto; outline: none; border: 0 none; -ms-interpolat=
+ion-mode: bicubic;display: block" /> </a> </td>=20
+                            </tr>=20
+                           </tbody>=20
+                          </table>  </td>=20
+                        </tr>=20
+                        <tr>=20
+                         <td width=3D"95%" height=3D"40px" valign=3D"top" a=
+lign=3D"center" class=3D"oma_generic_grid_title_bl"> <span style=3D"font-fa=
+mily:Arial,Sans-Serif;font-size:15px;font-style:normal;text-align:left;colo=
+r:#336699;"> <a class=3D"oma_pr_title" href=3D"https://smile.amazon.com/gp/=
+r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:20180709184948fa=
+bef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsm=
+ile.amazon.com%2Fgp%2Fproduct%2FB078WKT1HL%2Fref%3Dpe_3730130_291745390_em_=
+1p_1_ti&H=3DJU8GT8AZIXPRXAL3ZQUCWWSXQO8A&ref_=3Dpe_3730130_291745390_em_1p_=
+1_ti" style=3D"font-size: 14px; text-decoration: underline; color:#336699;t=
+ext-decoration: none !important"> Holy Stone HS110D FPV RC Drone with 720P =
+HD Camera Live Video... </a> </span> </td>=20
+                        </tr>=20
+                        <tr>=20
+                         <td width=3D"95%" valign=3D"bottom" align=3D"cente=
+r">=20
+                          <table class=3D"oma_generic_grid_price" height=3D=
+"70px" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collap=
+se: collapse;border-collapse: collapse;height: 30px !important">=20
+                           <tbody>
+                            <tr>=20
+                             <td valign=3D"bottom"> </td>
+                            </tr>
+                            <tr class=3D"pr_price_our">=20
+                             <td> <span style=3D"font-family: Arial, Helvet=
+ica, sans-serif; font-size: 12px;"> <span class=3D"pr_price_label">Price:</=
+span> <span style=3D"font-size: 13px; font-weight: bold; color: #CC0000;" c=
+lass=3D"pr_price_highlight">$129.99</span> </span> <img src=3D"https://imag=
+es-na.ssl-images-amazon.com/images/G/01/tea/prime-badge._CB332972885_.gif" =
+style=3D"height: auto; outline: none; border: 0 none; -ms-interpolation-mod=
+e: bicubic" /> </td>=20
+                            </tr>  =20
+                           </tbody>
+                          </table> </td>=20
+                        </tr>=20
+                        <tr>=20
+                         <td width=3D"95%" valign=3D"top" align=3D"center">=
+ <br />=20
+                          <div class=3D"pr_learn_more" align=3D"center" sty=
+le=3D"display: inline-block;">=20
+                           <table class=3D"btn-learnmore-small" cellspacing=
+=3D"0" cellpadding=3D"3" style=3D"color: #111; text-decoration:none;  white=
+-space: nowrap;background-color: #FEC650; font-size:10px; text-align:center=
+; border-radius: 5px;mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-c=
+ollapse: collapse;background: linear-gradient(to bottom, rgb(247, 223, 165)=
+, rgb(240, 193, 75)); border-radius: 5px; font-family: Arial, sans-serif; f=
+ont-size: 12px; font-weight: normal; border-color: rgb(168, 135, 52) rgb(15=
+6, 126, 49) rgb(132, 106, 41) !important; border-style: solid !important; b=
+order-width: 1px !important; border-collapse: initial !important;border-col=
+lapse: collapse">=20
+                            <tbody>=20
+                             <tr>=20
+                              <td nowrap=3D""> <a href=3D"https://smile.ama=
+zon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:20180=
+709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps=
+%3A%2F%2Fsmile.amazon.com%2Fgp%2Fproduct%2FB078WKT1HL%2Fref%3Dpe_3730130_29=
+1745390_em_1p_1_lm&H=3DMOJYEMFKY5BOVLZS1IFO7PHKCWSA&ref_=3Dpe_3730130_29174=
+5390_em_1p_1_lm" align=3D"center" valign=3D"middle" style=3D"text-decoratio=
+n:none;color:#111;"> Learn more </a> </td>=20
+                             </tr>=20
+                            </tbody>=20
+                           </table>=20
+                          </div> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table>=20
+                      <div style=3D"line-height:40px">
+                       &nbsp;
+                      </div> </td>=20
+                     <td width=3D"10">=20
+                      <div width=3D"10" class=3D"spacer" style=3D"font-size=
+:5px;line-height:5px;">
+                       &nbsp;
+                      </div> </td>=20
+                    </tr>=20
+                   </tbody>=20
+                  </table> </td>=20
+                 <td class=3D"packCol" align=3D"center" valign=3D"top">=20
+                  <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"=
+ bgcolor=3D"#FFFFFF" border=3D"0" style=3D"mso-table-lspace: 0pt; mso-table=
+-rspace: 0pt; border-collapse: collapse;border-collapse: collapse">=20
+                   <tbody>=20
+                    <tr>=20
+                     <td width=3D"10">=20
+                      <div width=3D"10" class=3D"spacer" style=3D"font-size=
+:5px;line-height:5px;">
+                       &nbsp;
+                      </div> </td>=20
+                     <td valign=3D"top" class=3D"pr_container" align=3D"cen=
+ter"> <style type=3D"text/css">
+    @media only screen and (max-device-width: 599px) {
+    .pfe_sims_product {
+            width: 100% !important;
+            float: none !important;
+            overflow: visible !important;
+            max-height:none !important;
+            margin-left:auto !important;
+            margin-right:auto !important;
+            align:center !important;
+            padding:0px 0px 0px 0px!important;
+        }
+  } =20
+</style>=20
+                      <table width=3D"308" cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0" align=3D"center" class=3D"pfe_sims_product" style=3D"mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;border-c=
+ollapse: collapse">=20
+                       <tbody>
+                        <tr class=3D"pfe_sims_image">=20
+                         <td width=3D"100%" valign=3D"bottom" align=3D"cent=
+er" style=3D"padding:4px 8px 4px 8px;">=20
+                          <table width=3D"100%" cellspacing=3D"0" cellpaddi=
+ng=3D"0" border=3D"0" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; border-collapse: collapse;border-collapse: collapse">=20
+                           <tbody>=20
+                            <tr>=20
+                             <td valign=3D"bottom" align=3D"center" style=
+=3D"vertical-align: middle; padding:4px 8px 4px 8px;max-width:242px !import=
+ant;"> <a href=3D"https://smile.amazon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D=
+1A0XLZPQA3MH2&M=3Durn:rtn:msg:20180709184948fabef1d76e8d4b0f98066c04b7f0p0n=
+a&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsmile.amazon.com%2Fgp%2Fproduct=
+%2FB00SAUAP5C%2Fref%3Dpe_3730130_291745390_em_1p_2_im&H=3DALHODID5SO59LYTPR=
+D2ID8AQL2EA&ref_=3Dpe_3730130_291745390_em_1p_2_im"> <img src=3D"https://im=
+ages-na.ssl-images-amazon.com/images/I/4131ZROyMrL._SL500_SS175_.jpg" class=
+=3D"oma_pr_image" alt=3D"Holy Stone F181C RC Quadcopter Drone with HD Camer=
+a RTF 4 Channel 2.4GHz 6-Gyro with Altitude Hold Function,Headless Mode and=
+ One Key Return Home, Color Black" border=3D"0" style=3D"height: auto; outl=
+ine: none; border: 0 none; -ms-interpolation-mode: bicubic;display: block" =
+/> </a> </td>=20
+                            </tr>=20
+                           </tbody>=20
+                          </table>  </td>=20
+                        </tr>=20
+                        <tr>=20
+                         <td width=3D"95%" height=3D"40px" valign=3D"top" a=
+lign=3D"center" class=3D"oma_generic_grid_title_bl"> <span style=3D"font-fa=
+mily:Arial,Sans-Serif;font-size:15px;font-style:normal;text-align:left;colo=
+r:#336699;"> <a class=3D"oma_pr_title" href=3D"https://smile.amazon.com/gp/=
+r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:20180709184948fa=
+bef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fsm=
+ile.amazon.com%2Fgp%2Fproduct%2FB00SAUAP5C%2Fref%3Dpe_3730130_291745390_em_=
+1p_2_ti&H=3DKPFAAAHNYEXWNE5OZSQD8OJOX5KA&ref_=3Dpe_3730130_291745390_em_1p_=
+2_ti" style=3D"font-size: 14px; text-decoration: underline; color:#336699;t=
+ext-decoration: none !important"> Holy Stone F181C RC Quadcopter Drone with=
+ HD Camera RTF 4... </a> </span> </td>=20
+                        </tr>=20
+                        <tr>=20
+                         <td width=3D"95%" valign=3D"bottom" align=3D"cente=
+r">=20
+                          <table class=3D"oma_generic_grid_price" height=3D=
+"70px" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collap=
+se: collapse;border-collapse: collapse;height: 30px !important">=20
+                           <tbody>
+                            <tr>=20
+                             <td valign=3D"bottom"> </td>
+                            </tr>
+                            <tr class=3D"pr_price_our">=20
+                             <td> <span style=3D"font-family: Arial, Helvet=
+ica, sans-serif; font-size: 12px;"> <span class=3D"pr_price_label">Price:</=
+span> <span style=3D"font-size: 13px; font-weight: bold; color: #CC0000;" c=
+lass=3D"pr_price_highlight">$99.99</span> </span> <img src=3D"https://image=
+s-na.ssl-images-amazon.com/images/G/01/tea/prime-badge._CB332972885_.gif" s=
+tyle=3D"height: auto; outline: none; border: 0 none; -ms-interpolation-mode=
+: bicubic" /> </td>=20
+                            </tr>  =20
+                           </tbody>
+                          </table> </td>=20
+                        </tr>=20
+                        <tr>=20
+                         <td width=3D"95%" valign=3D"top" align=3D"center">=
+ <br />=20
+                          <div class=3D"pr_learn_more" align=3D"center" sty=
+le=3D"display: inline-block;">=20
+                           <table class=3D"btn-learnmore-small" cellspacing=
+=3D"0" cellpadding=3D"3" style=3D"color: #111; text-decoration:none;  white=
+-space: nowrap;background-color: #FEC650; font-size:10px; text-align:center=
+; border-radius: 5px;mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-c=
+ollapse: collapse;background: linear-gradient(to bottom, rgb(247, 223, 165)=
+, rgb(240, 193, 75)); border-radius: 5px; font-family: Arial, sans-serif; f=
+ont-size: 12px; font-weight: normal; border-color: rgb(168, 135, 52) rgb(15=
+6, 126, 49) rgb(132, 106, 41) !important; border-style: solid !important; b=
+order-width: 1px !important; border-collapse: initial !important;border-col=
+lapse: collapse">=20
+                            <tbody>=20
+                             <tr>=20
+                              <td nowrap=3D""> <a href=3D"https://smile.ama=
+zon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:20180=
+709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps=
+%3A%2F%2Fsmile.amazon.com%2Fgp%2Fproduct%2FB00SAUAP5C%2Fref%3Dpe_3730130_29=
+1745390_em_1p_2_lm&H=3DTGORYACTAKFSQVV0I17XFXUJBFAA&ref_=3Dpe_3730130_29174=
+5390_em_1p_2_lm" align=3D"center" valign=3D"middle" style=3D"text-decoratio=
+n:none;color:#111;"> Learn more </a> </td>=20
+                             </tr>=20
+                            </tbody>=20
+                           </table>=20
+                          </div> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table>=20
+                      <div style=3D"line-height:40px">
+                       &nbsp;
+                      </div> </td>=20
+                     <td width=3D"10">=20
+                      <div width=3D"10" class=3D"spacer" style=3D"font-size=
+:5px;line-height:5px;">
+                       &nbsp;
+                      </div> </td>=20
+                    </tr>=20
+                   </tbody>=20
+                  </table> </td>=20
+                </tr>=20
+               </tbody>=20
+              </table> </td>=20
+            </tr>=20
+           </tbody>=20
+          </table>=20
+          <table width=3D"640" class=3D"deviceWidth" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" align=3D"center" bgcolor=3D"#FFFFFF" style=3D"ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;borde=
+r-collapse: collapse">=20
+           <tbody>
+            <tr>=20
+             <td align=3D"center"> <img src=3D"https://images-na.ssl-images=
+-amazon.com/images/G/01/template/section-div_640x8.jpg" alt=3D"=3D =3D =3D =
+=3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D " borde=
+r=3D"0" align=3D"middle" class=3D"deviceWidth" style=3D"bicubic; max-width:=
+640px; max-height:8px; color:#CCCCCC; line-height:1px;height: auto; outline=
+: none; border: 0 none; -ms-interpolation-mode: bicubic" /> </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <!-- check if we are getting the emailAds properly otherwise do n=
+ot display Ads--> <style type=3D"text/css">
+        .widgetHeader {
+            font-family: Arial,sans-serif !important;
+            font-size: 18px !important;
+            color:#333333 !important;
+            font-weight:bold !important;
+        }
+       =20
+        .oma_pr_title {
+            text-decoration:none !important;
+        }
+       =20
+        .oma_generic_grid_price {
+            height: 30px !important;
+        }
+    </style>=20
+          <table class=3D"cs-slot deviceWidth" cellspacing=3D"0" cellpaddin=
+g=3D"0" border=3D"0" align=3D"center" width=3D"640" style=3D"mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;border-collapse: =
+collapse">=20
+           <tbody>
+            <tr>=20
+             <td>=20
+              <table width=3D"640" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" align=3D"center" class=3D"deviceWidth sef_footer_linkfarm" valign=
+=3D"middle" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-c=
+ollapse: collapse;border-collapse: collapse">=20
+               <tbody>
+                <tr>=20
+                 <td width=3D"100%" class=3D"linkfarm" style=3D"font-family=
+:Helvetica, Arial, sans-serif;">=20
+                  <!-- Begin LinkFarm String -->=20
+                  <table width=3D"100%" border=3D"0" align=3D"center" cellp=
+adding=3D"10" cellspacing=3D"0" class=3D"farm" style=3D"mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; border-collapse: collapse;border-collapse: colla=
+pse">=20
+                   <tbody>
+                    <tr>=20
+                     <td width=3D"100%" align=3D"left" class=3D"farmhead" s=
+tyle=3D"font-family: arial; font-size: 14px; color: rgb(228, 121, 17); line=
+-height: 16px; font-weight: bold"> <font size=3D"3" class=3D"farmhead-font"=
+ style=3D"font-family: arial; font-size: 14px; color: rgb(228, 121, 17); li=
+ne-height: 16px"><b>Find Great Deals on Millions of Items Storewide</b></fo=
+nt> </td>=20
+                    </tr>=20
+                    <tr>=20
+                     <td>=20
+                      <table width=3D"610" cellpadding=3D"0" cellspacing=3D=
+"0" align=3D"left" class=3D"sef_footer_linkfarm" style=3D"mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt; border-collapse: collapse;border-collapse: col=
+lapse">=20
+                       <tbody>
+                        <tr>=20
+                         <td width=3D"140" valign=3D"top" class=3D"farm1">=
+=20
+                          <table class=3D"linkfarm-col-s1" width=3D"100%" b=
+order=3D"0" cellspacing=3D"2" cellpadding=3D"0" style=3D"mso-table-lspace: =
+0pt; mso-table-rspace: 0pt; border-collapse: collapse;font-family: arial, h=
+elvetica, sans-serif; font-size: 14px;border-collapse: collapse">=20
+                           <tbody>
+                            <tr>=20
+                             <td align=3D"left"><a href=3D"https://smile.am=
+azon.com/gp/f.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018=
+0709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp=
+s%3A%2F%2Fsmile.amazon.com%2Fb%2Fref%3Dpe_3730130_291745390_pe_lf1%2F%3Fnod=
+e%3D283155&H=3DNJ5QFFQVERAAHX6HKCMQZEIUBCCA&ref_=3Dpe_3730130_291745390_pe_=
+lf1" class=3D"linkfarm-link-s1" style=3D"color: rgb(102, 102, 102); text-de=
+coration: none">Books</a></td>=20
+                            </tr>=20
+                            <tr>=20
+                             <td align=3D"left"><a href=3D"https://smile.am=
+azon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018=
+0709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp=
+s%3A%2F%2Fsmile.amazon.com%2Fb%2Fref%3Dpe_3730130_291745390_pe_lf2%2F%3Fnod=
+e%3D2625373011&H=3DYJMWNM3RQZOCVPCHZXOT5FGSWC8A&ref_=3Dpe_3730130_291745390=
+_pe_lf2" class=3D"linkfarm-link-s1" style=3D"color: rgb(102, 102, 102); tex=
+t-decoration: none">Movies &amp; TV</a></td>=20
+                            </tr>=20
+                            <tr>=20
+                             <td align=3D"left"><a href=3D"https://smile.am=
+azon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018=
+0709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp=
+s%3A%2F%2Fsmile.amazon.com%2Fb%2Fref%3Dpe_3730130_291745390_pe_lf7%2F%3Fnod=
+e%3D5174&H=3D1RH5KHEL6EUAT0MD9NL4KSFPQKGA&ref_=3Dpe_3730130_291745390_pe_lf=
+7" class=3D"linkfarm-link-s1" style=3D"color: rgb(102, 102, 102); text-deco=
+ration: none">CDs &amp; Vinyl</a></td>=20
+                            </tr>=20
+                            <tr>=20
+                             <td align=3D"left"><a href=3D"https://smile.am=
+azon.com/gp/f.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018=
+0709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp=
+s%3A%2F%2Fsmile.amazon.com%2Fb%2Fref%3Dpe_3730130_291745390_pe_lf8%2F%3Fnod=
+e%3D163856011&H=3DRU5GTVI1SLQAWXSGRZYGXEJZROOA&ref_=3Dpe_3730130_291745390_=
+pe_lf8" class=3D"linkfarm-link-s1" style=3D"color: rgb(102, 102, 102); text=
+-decoration: none">Digital Music</a></td>=20
+                            </tr>=20
+                            <tr>=20
+                             <td align=3D"left"><a href=3D"https://smile.am=
+azon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018=
+0709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp=
+s%3A%2F%2Fsmile.amazon.com%2Fb%2F%3Fie%3DUTF8%26node%3D6669703011%26ref%3Dp=
+e_lf6%26ref_%3Dpe_3730130_291745390&H=3DFKKYNSPNCPIAUYZ8AZHUZACSMVMA&ref_=
+=3Dpe_3730130_291745390" class=3D"linkfarm-link-s1" style=3D"color: rgb(102=
+, 102, 102); text-decoration: none">Fire Tablets</a></td>=20
+                            </tr>=20
+                           </tbody>
+                          </table> </td>=20
+                         <td width=3D"175" valign=3D"top" class=3D"farm2">=
+=20
+                          <table class=3D"linkfarm-col-s1" width=3D"100%" b=
+order=3D"0" cellspacing=3D"2" cellpadding=3D"0" style=3D"mso-table-lspace: =
+0pt; mso-table-rspace: 0pt; border-collapse: collapse;font-family: arial, h=
+elvetica, sans-serif; font-size: 14px;border-collapse: collapse">=20
+                           <tbody>
+                            <tr>=20
+                             <td align=3D"left"><a href=3D"https://smile.am=
+azon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018=
+0709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp=
+s%3A%2F%2Fsmile.amazon.com%2Fb%2Fref%3Dpe_3730130_291745390_pe_lf9%2F%3Fnod=
+e%3D172282&H=3DSHJNKLNKSRCSBAAYC349CX9A5YYA&ref_=3Dpe_3730130_291745390_pe_=
+lf9" class=3D"linkfarm-link-s1" style=3D"color: rgb(102, 102, 102); text-de=
+coration: none">Electronics</a></td>=20
+                            </tr>=20
+                            <tr>=20
+                             <td align=3D"left"><a href=3D"https://smile.am=
+azon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018=
+0709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp=
+s%3A%2F%2Fsmile.amazon.com%2Fb%2Fref%3Dpe_3730130_291745390_pe_lf10%2F%3Fno=
+de%3D468642&H=3DUT9DF8DITNPO7EJMAIXVT05UVMSA&ref_=3Dpe_3730130_291745390_pe=
+_lf10" class=3D"linkfarm-link-s1" style=3D"color: rgb(102, 102, 102); text-=
+decoration: none">Video Games</a></td>=20
+                            </tr>=20
+                            <tr>=20
+                             <td align=3D"left"><a href=3D"https://smile.am=
+azon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018=
+0709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp=
+s%3A%2F%2Fsmile.amazon.com%2Fb%2Fref%3Dpe_3730130_291745390_pe_lf12%2F%3Fno=
+de%3D541966&H=3DYN4MUZ6OUK5IEYOPCLWWQH8LA8OA&ref_=3Dpe_3730130_291745390_pe=
+_lf12" class=3D"linkfarm-link-s1" style=3D"color: rgb(102, 102, 102); text-=
+decoration: none">Computers &amp; Software</a></td>=20
+                            </tr>=20
+                            <tr>=20
+                             <td align=3D"left"><a href=3D"https://smile.am=
+azon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018=
+0709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp=
+s%3A%2F%2Fsmile.amazon.com%2Fb%2Fref%3Dpe_3730130_291745390_pe_lf13%2F%3Fno=
+de%3D1064954&H=3D9EPLTR2L4AHR8LAREU16POP1A4IA&ref_=3Dpe_3730130_291745390_p=
+e_lf13" class=3D"linkfarm-link-s1" style=3D"color: rgb(102, 102, 102); text=
+-decoration: none">Office &amp; School Supplies</a></td>=20
+                            </tr>=20
+                           </tbody>
+                          </table> </td>=20
+                         <td width=3D"175" valign=3D"top" class=3D"farm3">=
+=20
+                          <table class=3D"linkfarm-col-s1" width=3D"100%" b=
+order=3D"0" cellspacing=3D"2" cellpadding=3D"0" style=3D"mso-table-lspace: =
+0pt; mso-table-rspace: 0pt; border-collapse: collapse;font-family: arial, h=
+elvetica, sans-serif; font-size: 14px;border-collapse: collapse">=20
+                           <tbody>
+                            <tr>=20
+                             <td align=3D"left"><a href=3D"https://smile.am=
+azon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018=
+0709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp=
+s%3A%2F%2Fsmile.amazon.com%2Fb%2Fref%3Dpe_3730130_291745390_pe_lf19%2F%3Fno=
+de%3D5754516011&H=3D8YD0PVAFRDDYRC2QKT4SA8ABAZ0A&ref_=3Dpe_3730130_29174539=
+0_pe_lf19" class=3D"linkfarm-link-s1" style=3D"color: rgb(102, 102, 102); t=
+ext-decoration: none">Clothing, Shoes &amp; More</a></td>=20
+                            </tr>=20
+                            <tr>=20
+                             <td align=3D"left"><a href=3D"https://smile.am=
+azon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018=
+0709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp=
+s%3A%2F%2Fsmile.amazon.com%2Fb%2Fref%3Dpe_3730130_291745390_pe_lf30%2F%3Fno=
+de%3D3760901&H=3DZSWVOAZ1CMDF4CDHEEPRMP4YB4KA&ref_=3Dpe_3730130_291745390_p=
+e_lf30" class=3D"linkfarm-link-s1" style=3D"color: rgb(102, 102, 102); text=
+-decoration: none">Health &amp; Personal Care</a></td>=20
+                            </tr>=20
+                            <tr>=20
+                             <td align=3D"left"><a href=3D"https://smile.am=
+azon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018=
+0709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp=
+s%3A%2F%2Fsmile.amazon.com%2Fb%2Fref%3Dpe_3730130_291745390_pe_lf13%2F%3Fno=
+de%3D165793011&H=3DF1CLUYEPKFJDOOXSQC1PELFKSXUA&ref_=3Dpe_3730130_291745390=
+_pe_lf13" class=3D"linkfarm-link-s1" style=3D"color: rgb(102, 102, 102); te=
+xt-decoration: none">Toys &amp; Games</a></td>=20
+                            </tr>=20
+                            <tr>=20
+                             <td align=3D"left"><a href=3D"https://smile.am=
+azon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018=
+0709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp=
+s%3A%2F%2Fsmile.amazon.com%2Fb%2Fref%3Dpe_3730130_291745390_pe_lf13%2F%3Fno=
+de%3D3375251&H=3DMU5LOBVGYTPJSEQIS9ZYMJFY0KGA&ref_=3Dpe_3730130_291745390_p=
+e_lf13" class=3D"linkfarm-link-s1" style=3D"color: rgb(102, 102, 102); text=
+-decoration: none">Sports &amp; Outdoors</a></td>=20
+                            </tr>=20
+                           </tbody>
+                          </table> </td>=20
+                         <td width=3D"160" valign=3D"top" class=3D"farm4">=
+=20
+                          <table class=3D"linkfarm-col-s1" width=3D"108%" b=
+order=3D"0" cellspacing=3D"2" cellpadding=3D"0" style=3D"mso-table-lspace: =
+0pt; mso-table-rspace: 0pt; border-collapse: collapse;font-family: arial, h=
+elvetica, sans-serif; font-size: 14px;border-collapse: collapse">=20
+                           <tbody>
+                            <tr>=20
+                             <td align=3D"left"><a href=3D"https://smile.am=
+azon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018=
+0709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp=
+s%3A%2F%2Fsmile.amazon.com%2Fb%3Fnode%3D10667898011%26ref_%3Dpe_3730130_291=
+745390&H=3DA5ZKJVIMPT6WMVURRXYL2BO1GQIA&ref_=3Dpe_3730130_291745390" class=
+=3D"linkfarm-link-s1" style=3D"color: rgb(102, 102, 102); text-decoration: =
+none">Amazon Dash Button</a></td>=20
+                            </tr>=20
+                            <tr>=20
+                             <td align=3D"left"><a href=3D"https://smile.am=
+azon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018=
+0709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp=
+s%3A%2F%2Fsmile.amazon.com%2Fdp%2FB00X4WHP5E%3Fref_%3Dpe_3730130_291745390&=
+H=3DYPZFT4TL8XAD2FOJ7X0OMLSYLJKA&ref_=3Dpe_3730130_291745390" class=3D"link=
+farm-link-s1" style=3D"color: rgb(102, 102, 102); text-decoration: none">Am=
+azon Echo</a></td>=20
+                            </tr>=20
+                            <tr>=20
+                             <td align=3D"left"><a href=3D"https://smile.am=
+azon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018=
+0709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp=
+s%3A%2F%2Fsmile.amazon.com%2Fb%2F%3Fie%3DUTF8%26node%3D8521791011%26ref%3Dp=
+e_lf4%26ref_%3Dpe_3730130_291745390&H=3DW1UQZWRUXOZADTJ791MFS24ILSKA&ref_=
+=3Dpe_3730130_291745390" class=3D"linkfarm-link-s1" style=3D"color: rgb(102=
+, 102, 102); text-decoration: none">Amazon Fire TV</a></td>=20
+                            </tr>=20
+                            <tr>=20
+                             <td align=3D"left"><a href=3D"https://smile.am=
+azon.com/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:2018=
+0709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp=
+s%3A%2F%2Fsmile.amazon.com%2Fb%2F%3Fie%3DUTF8%26node%3D2238192011%26ref%3Dp=
+e_lf6%26ref_%3Dpe_3730130_291745390&H=3D6KSZ6RVHTA7X2KPQZ80V3A5COC0A&ref_=
+=3Dpe_3730130_291745390" class=3D"linkfarm-link-s1" style=3D"color: rgb(102=
+, 102, 102); text-decoration: none">Gift Cards</a></td>=20
+                            </tr>=20
+                           </tbody>
+                          </table> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table> </td>=20
+                    </tr>=20
+                   </tbody>
+                  </table>=20
+                  <!-- End LinkFarm String --> </td>=20
+                </tr>=20
+               </tbody>
+              </table>=20
+              <table class=3D"sef_spacer" width=3D"640" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0px;border-collapse:c=
+ollapse;mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: coll=
+apse;border-collapse: collapse">=20
+               <tbody>
+                <tr height=3D"2">=20
+                 <td bgcolor=3D"#ccccc9" width=3D"640" height=3D"2">
+                  <div width=3D"640" style=3D"font-size:2px;line-height:2px=
+;background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/=
+template/section-div_640x8.jpg) !important; background-color: rgb(255, 255,=
+ 255); height: 10px !important; background-repeat: no-repeat">
+                   &nbsp;
+                  </div></td>=20
+                </tr>=20
+               </tbody>
+              </table>=20
+              <table width=3D"640" class=3D"deviceWidth" border=3D"0" align=
+=3D"center" cellpadding=3D"8" cellspacing=3D"0" bgcolor=3D"#FFFFFF" style=
+=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse=
+;border-collapse: collapse">=20
+               <tbody>
+                <tr>
+                 <td width=3D"50%">=20
+                  <table border=3D"0" align=3D"left" cellpadding=3D"6" cell=
+spacing=3D"0" class=3D"settings" cborder=3D"0" style=3D"mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; border-collapse: collapse;border-collapse: colla=
+pse">=20
+                   <tbody>
+                    <tr>=20
+                     <td align=3D"left"><a href=3D"https://smile.amazon.com=
+/gp/r.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:201807091849=
+48fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%=
+2Fsmile.amazon.com%2Fref%3Dpe_3730130_291745390_pe_footer_amazonlogo%2F&H=
+=3DBRLXA9OMHP01XTONAIPAB4PGEIQA&ref_=3Dpe_3730130_291745390_pe_footer_amazo=
+nlogo" target=3D"_blank"><img src=3D"http://g-ecx.images-amazon.com/images/=
+G/01/us-mail/navAmazonLogoFooter.gif" alt=3D"Amazon.com" border=3D"0" align=
+=3D"left" style=3D"height: auto; outline: none; border: 0 none; -ms-interpo=
+lation-mode: bicubic" /></a><a href=3D"https://smile.amazon.com/gp/r.html?C=
+=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:20180709184948fabef1d76e=
+8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttp%3A%2F%2Fsmile.amazo=
+n.com%2Fref%3Dpe_3730130_291745390_sef_logo&H=3D8ASXIREOGEYKWA0K3MQZSM2EWBY=
+A&ref_=3Dpe_3730130_291745390_sef_logo"></a></td>=20
+                    </tr>=20
+                   </tbody>
+                  </table></td>=20
+                 <td align=3D"right">
+                  <table class=3D"connect" border=3D"0" cellpadding=3D"6" c=
+ellspacing=3D"0" align=3D"right" style=3D"mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; border-collapse: collapse;border-collapse: collapse">=20
+                   <tbody>
+                    <tr>=20
+                     <td align=3D"right"><span style=3D"font-family:arial,s=
+ans-serif; font-size:10px; line-height:10px; color:#666">Connect with us</s=
+pan></td>=20
+                     <td class=3D"facebook"><font style=3D"font-family: ver=
+dana,arial,sans-serif; font-size: 10px; color: #999;" color=3D"#999" face=
+=3D"verdana,arial,sans-serif" size=3D"1"><a href=3D"https://smile.amazon.co=
+m/gp/f.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:20180709184=
+948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F=
+%2Fsmile.amazon.com%2Fgp%2Fredirect.html%2Fref%3Dpe_3730130_291745390_pe_fa=
+cebook_footer%2F%3Flocation%3Dhttp%3A%2F%2Fwww.facebook.com%2FAmazon%26toke=
+n%3DBC8893C697F61517994AF0EDFA6B868DFACCD919&H=3DBPW5TRR4WSCZ9WAZQODFR0ZASY=
+KA&ref_=3Dpe_3730130_291745390_pe_facebook_footer" target=3D"_blank"><img s=
+rc=3D"http://g-ecx.images-amazon.com/images/G/01/us-mail/FBlogo.gif" alt=3D=
+"image" border=3D"0" height=3D"30" hspace=3D"0" vspace=3D"0" width=3D"30" s=
+tyle=3D"width:30px; height:30px;height: auto; outline: none; border: 0 none=
+; -ms-interpolation-mode: bicubic" /></a></font></td>=20
+                     <td class=3D"twitter"><font style=3D"font-family: verd=
+ana,arial,sans-serif; font-size: 10px; color: #999;" color=3D"#999" face=3D=
+"verdana,arial,sans-serif" size=3D"1"><a href=3D"https://smile.amazon.com/g=
+p/f.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:20180709184948=
+fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2F=
+smile.amazon.com%2Fgp%2Fredirect.html%2Fref%3Dpe_3730130_291745390_pe_twitt=
+er_footer%2F%3Flocation%3Dhttp%3A%2F%2Ftwitter.com%2Famazon%26token%3D31765=
+BA1ADB98DFFD174431508FE50D7354F3AC9&H=3D41ZXWNXS0MDR186AQTKAU5W5VWWA&ref_=
+=3Dpe_3730130_291745390_pe_twitter_footer" target=3D"_blank"><img src=3D"ht=
+tp://g-ecx.images-amazon.com/images/G/01/us-mail/TwitterLogo.gif" alt=3D"im=
+age" border=3D"0" height=3D"30" hspace=3D"0" vspace=3D"0" width=3D"30" styl=
+e=3D"width:30px; height:30px;height: auto; outline: none; border: 0 none; -=
+ms-interpolation-mode: bicubic" /></a></font></td>=20
+                     <td class=3D"x-site"><font style=3D"font-family: verda=
+na,arial,sans-serif; font-size: 10px; color: #999;" color=3D"#999" face=3D"=
+verdana,arial,sans-serif" size=3D"1"><a href=3D"https://smile.amazon.com/gp=
+/f.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:20180709184948f=
+abef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DC&U=3Dhttps%3A%2F%2Fs=
+mile.amazon.com%2Fgp%2Fredirect.html%2Fref%3Dpe_3730130_291745390_pe_pinter=
+est_footer%2F%3Flocation%3Dhttp%3A%2F%2Fwww.pinterest.com%2Famazon%26token%=
+3DF97FDF1D770C983C5E3B6E6DEE9C64303F192AEF&H=3DPOTOARYZOCKQDU6MRY0R2R9BASQA=
+&ref_=3Dpe_3730130_291745390_pe_pinterest_footer" target=3D"_blank"><img sr=
+c=3D"http://g-ecx.images-amazon.com/images/G/01/us-mail/pinterest_favicon_3=
+0x30.png" alt=3D"image" border=3D"0" height=3D"30" hspace=3D"0" vspace=3D"0=
+" width=3D"30" style=3D"height: auto; outline: none; border: 0 none; -ms-in=
+terpolation-mode: bicubic" /></a></font></td>=20
+                    </tr>=20
+                   </tbody>
+                  </table></td>=20
+                </tr>=20
+               </tbody>
+              </table>=20
+              <table width=3D"640" cellspacing=3D"0" cellpadding=3D"0" bord=
+er=3D"0" bgcolor=3D"white" align=3D"center" height=3D"3" class=3D"deviceWid=
+th" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse:=
+ collapse;border-collapse: collapse">
+               <tbody>
+                <tr>=20
+                 <td width=3D"100%" bgcolor=3D"white" align=3D"center"><p w=
+idth=3D"100%" style=3D"border-bottom: 3px solid #666666; height: 0px !impor=
+tant; max-height: 0px !important; font-size:0px; margin: 0;">&nbsp;</p></td=
+>=20
+                </tr>
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+       </tbody>
+      </table>=20
+      <table align=3D"center" width=3D"640" border=3D"0" cellpadding=3D"2" =
+cellspacing=3D"0" class=3D"sef_legal_footer" style=3D"background-color:#e3e=
+3e3;mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse=
+;border-collapse: collapse;background-color: rgb(227, 227, 227)" bgcolor=3D=
+"#e3e33">=20
+       <tbody>
+        <tr height=3D"10">=20
+         <td width=3D"100%">
+          <div width=3D"100%" style=3D"font-size:10px; line-height:10px">
+           &nbsp;
+          </div></td>=20
+        </tr>=20
+        <tr>=20
+         <td align=3D"left" class=3D"legal-text" style=3D"font-family: Aria=
+l, Helvetica, Sans-Serif; font-size: 10px; color: rgb(102, 102, 102)"> We h=
+ope you found this message to be useful. However, if you'd rather not recei=
+ve future e-mails of this sort from Amazon.com, please <a href=3D"https://s=
+mile.amazon.com/gp/f.html?C=3D3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:m=
+sg:20180709184948fabef1d76e8d4b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DX&U=
+=3Dhttps%3A%2F%2Fsmile.amazon.com%2F%2Fgp%2Fgss%2Fo%2F1d4fxN3IQglJYgLc7d4Sq=
+h4thihXQGu2-ypg-vsSHzlsb-yNLTcrSBzrsNct8wkBk&H=3DJ5IMPP5T9HW3OBB0FJIBIMGXXC=
+EA" class=3D"legal-text-c1" style=3D"font-family: Arial, Helvetica, Sans-Se=
+rif; font-size: 10px; color: rgb(153, 153, 153)">unsubscribe here</a> <br /=
+> <br /> Please note that product prices and availability are subject to ch=
+ange. Prices and availability were accurate at the time this email was sent=
+; however, they may differ from those you see when you visit Amazon.com. <b=
+r /><br /> &copy; 2018 Amazon.com, Inc. or its affiliates. All rights reser=
+ved. Amazon, Amazon.com, the Amazon.com logo and 1-Click are registered tra=
+demarks of Amazon.com, Inc. or its affiliates. Amazon.com, 410 Terry Avenue=
+ N., Seattle, WA 98109-5210.<br /><br /> Reference: 291745390<br /><br /> P=
+lease note that this message was sent to the following e-mail address: <spa=
+n class=3D"legal-text-c2" style=3D"font-family: Arial, Helvetica, Sans-Seri=
+f; font-size: 10px; color: rgb(191, 191, 191)">samtheloanman@gmail.com</spa=
+n> </td>=20
+        </tr>=20
+       </tbody>=20
+      </table> </td>=20
+    </tr>=20
+   </tbody>
+  </table>
+  <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" class=3D"mobile-h=
+ide-gmail" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-co=
+llapse: collapse;border-collapse: collapse">=20
+   <tbody>
+    <tr>=20
+     <td height=3D"1" class=3D"hide" style=3D"min-width:620px; font-size:0p=
+x;line-height:0px;"> <img height=3D"1" style=3D"min-width: 620px; text-deco=
+ration: none; border: none; -ms-interpolation-mode: bicubic;height: auto; o=
+utline: none; border: 0 none; -ms-interpolation-mode: bicubic" /> </td>=20
+    </tr>=20
+   </tbody>
+  </table>   =20
+ <img width=3D"1" height=3D"1" src=3D"https://www.amazon.com/gp/r.html?C=3D=
+3Q2HN83Z0VWR2&K=3D1A0XLZPQA3MH2&M=3Durn:rtn:msg:20180709184948fabef1d76e8d4=
+b0f98066c04b7f0p0na&R=3D2YCMKJYGWJE5J&T=3DE&U=3Dhttps%3A%2F%2Fimages-na.ssl=
+-images-amazon.com%2Fimages%2FG%2F01%2Fnav%2Ftransp.gif&H=3DM335T8PABXEBCNJ=
+LMCDEYRSEYTWA&ref_=3Dpe_3730130_291745390_open" /></body>
+</html>
+
+------=_Part_6113912_27065467.1531162189208--

@@ -1,0 +1,203 @@
+Delivered-To: sam@c-mtg.com
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=none (zoho.com: 199.30.234.216 is neither permitted nor denied by domain of zh-zg.zixsmbhosted.com)  smtp.mailfrom=@
+Return-Path: <>
+Received: from zh-zg.zixsmbhosted.com (spfdal-g.zixsmbhosted.com [199.30.234.216]) by mx.zohomail.com
+	with SMTPS id 1531516040127126.19850936923706; Fri, 13 Jul 2018 14:07:20 -0700 (PDT)
+Received: from 127.0.0.1 (ZixVPM [127.0.0.1])
+	by Outbound.zh-zg.zixsmbhosted.com (Proprietary) with SMTP id 000A0A4BF6
+	for <sam@c-mtg.com>; Fri, 13 Jul 2018 16:07:18 -0500 (CDT)
+Received: from encrouter03.b.smb.prod.dallas.zixnet.com (encrouter03.b.smb.prod.dallas.zixnet.com [10.154.130.33])
+	by zh-zg.zixsmbhosted.com (Proprietary) with ESMTP id 77429A3CBD
+	for <sam@c-mtg.com>; Fri, 13 Jul 2018 16:07:18 -0500 (CDT)
+Received: from NAM01-SN1-obe.outbound.protection.outlook.com (mail-sn1nam01lp0115.outbound.protection.outlook.com [207.46.163.115])
+	by encrouter03.b.smb.prod.dallas.zixnet.com (Postfix) with ESMTPS id 1FC21E46
+	for <sam@c-mtg.com>; Fri, 13 Jul 2018 16:07:16 -0500 (CDT)
+Received: from SN6PR05MB4606.namprd05.prod.outlook.com (52.135.114.147) by
+ SN6PR05MB4046.namprd05.prod.outlook.com (52.135.66.140) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.952.8; Fri, 13 Jul 2018 21:07:14 +0000
+Received: from SN6PR05MB4606.namprd05.prod.outlook.com ([::1]) by
+ SN6PR05MB4606.namprd05.prod.outlook.com ([fe80::d8a0:5f4b:ff5a:9525%5]) with
+ Microsoft SMTP Server id 15.20.0952.017; Fri, 13 Jul 2018 21:07:14 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=reversemortgagefunding.onmicrosoft.com; s=selector1-reversefunding-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=0CsEtKc0d+7WVZPMTnVFGOG3qrcXWmK/KHxzyNShk8U=;
+ b=LYOwoH1zD+Jdw1WAE4rqH9Pd7/z1AHJ4t5an4cwNH4GlPvN2xHhzJgBCu9Pyix7Z/3L5uRRZqCOo20OSQ3gJK7u+3NeXITBtiP5vkWqtYZBRgNjSLiFaej5vn0EKpZv9LRYpTefiXG9kDc8Ic7D/n4ZyQrmbeGMBkRRyC8VC2zM=
+From: Peter Kulis <pkulis@reversefunding.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+Subject: Automatic reply: New Broker Application: Custom Mortgage
+Thread-Topic: New Broker Application: Custom Mortgage
+Thread-Index: AQHUGu14rW7vcuPym0GKakbBOm5DrKSNpRfV
+Date: Fri, 13 Jul 2018 21:07:14 +0000
+Message-ID:<dc5e798dafae4fba875d1d6d38f6ab7f@SN6PR05MB4606.namprd05.prod.outlook.com>
+References: <FB0F5497-EEA9-4325-8613-8A228F94CA91@c-mtg.com>
+In-Reply-To: <FB0F5497-EEA9-4325-8613-8A228F94CA91@c-mtg.com>
+X-MS-Has-Attach: 
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: pkulis@reversefunding.com
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is ) smtp.mailfrom=<>; 
+x-ms-exchange-parent-message-id: <FB0F5497-EEA9-4325-8613-8A228F94CA91@c-mtg.com>
+auto-submitted: auto-generated
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 8baa7025-2ef2-464a-91e6-08d5e9049bb2
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(7020095)(4652040)(8989117)(5600053)(711020)(4534165)(4627221)(201703031133081)(8559020)(8990107)(2017052603328)(7153060);SRVR:SN6PR05MB4046;
+x-microsoft-exchange-diagnostics: 1;SN6PR05MB4046;7:gHwx7BDzySHrdTJLL2TxBaso1/M6RJy2CQmx6QzWdr2oHLSYZXUcG1rA+UKXIPnuy4NuzuIDujDWYqsmW+TE/pVl95VXqh44hxuY7N4ucfbEMu6haWRBPJ1o5E/UKMV6rJUGd+y59QtLUG3n6JQ9iqyOL07dJydPC7VTZ21s8/O8gMMgZs9d/Lcl98yryBz+CDPmF5TQlveEFv/k08Lm99y+hsJOjuhOJ0yP1xtm93SzwEU1NrgzA5AnDd6QOUpD
+x-ms-traffictypediagnostic: SN6PR05MB4046:
+x-microsoft-antispam-prvs: <SN6PR05MB4046601770EC1552F95263CCB8580@SN6PR05MB4046.namprd05.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(28532068793085)(223705240517415)(21748063052155);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(8211001083)(6040522)(2401047)(5005006)(8121501046)(93006095)(10201501046)(3002001)(3231311)(944501410)(52105095)(149027)(150027)(6041310)(20161123558120)(20161123560045)(20161123564045)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061750153)(20161123562045)(6072148)(201708071742011)(7699016);SRVR:SN6PR05MB4046;BCL:0;PCL:0;RULEID:;SRVR:SN6PR05MB4046;
+x-forefront-prvs: 07326CFBC4
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(50650200002)(396003)(366004)(39860400002)(136003)(346002)(376002)(504944002)(189003)(199004)(52284002)(2906002)(81156014)(81166006)(256004)(14444005)(486006)(498600001)(78352004)(8676002)(97736004)(5660300001)(446003)(68736007)(3110400002)(53096004)(316002)(26005)(476003)(42882007)(76176011)(24736004)(108616005)(102836004)(7696005)(99286004)(55016002)(6506007)(9686003)(345774005)(6306002)(54896002)(6436002)(8936002)(6916009)(106356001)(25786009)(74316002)(11346002)(105586002)(53936002)(111220200003)(46342002)(80100003)(3720700003);DIR:OUT;SFP:1501;SCL:1;SRVR:SN6PR05MB4046;H:SN6PR05MB4606.namprd05.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;MX:0;A:0;
+Received-SPF: none (zoho.com: 199.30.234.216 is neither permitted nor denied by domain of zh-zg.zixsmbhosted.com) client-ip=199.30.234.216; envelope-from=postmaster@zh-zg.zixsmbhosted.com; helo=zh-zg.zixsmbhosted.com;
+received-spf: None (protection.outlook.com:
+ SN6PR05MB4606.namprd05.prod.outlook.com does not designate permitted sender
+ hosts)
+x-microsoft-antispam-message-info: NGWKqIUqfr3viHU9Y7+7tfesQsTSHXzrr0Xp5g0JAcwQK/7fi6DO36Cw+E1SOQfXASgr0TY2Ilv9pp6J00Pkg55pdqP4o/MX+6vD93r2XELvdptGQu78YLNlTxOoXiA08wzK5O9sOjtV1HrtBANrXb26lVMVk/ZTUIrPfrN91hQWEywLQ7QImYf4foOA+G+lcDzdy/KAQnO/UjpChVqM+C1eXhPNRc3ihWdq+qxLNtOboU59LmD0kQb+mn3XAlbblKPGAWNeb5CaCuJKqI36NIlsL7o73PqTsCV0D6m56Ntw2XlZ0t5fl2vH5Ovoh6ecDZy6S9nq5LpmWFhPTvFmBbzKIQuPl2jSpLDAHF9Kuwg=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_dc5e798dafae4fba875d1d6d38f6ab7fSN6PR05MB4606namprd05pr_"
+MIME-Version: 1.0
+X-OriginatorOrg: reversefunding.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8baa7025-2ef2-464a-91e6-08d5e9049bb2
+X-MS-Exchange-CrossTenant-originalarrivaltime: 13 Jul 2018 21:07:14.3565
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 24ab196b-50bb-45f6-8b1e-d53394cffc26
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN6PR05MB4046
+X-ZIXHOSTED-CUSTOMER: rev07003
+X-VPM-MSG-ID: b9d7132b-e41a-43b1-be46-4333c615591b
+X-VPM-HOST: zgw-rev07003.b.smb.prod.dallas.zixnet.com
+X-VPM-GROUP-ID: 97e5d652-8047-43d2-8046-d62477c2fed1
+X-VPM-ENC-REGIME: Plaintext
+X-VPM-IS-HYBRID: 0
+X-ZohoMail-DKIM: pass (identity @reversemortgagefunding.onmicrosoft.com)
+X-ZohoMail: RDKM_0  RSF_4  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_1 S_167
+X-ZM-MESSAGEID: 1531516040938100001
+X-ZohoMail-Status: 1
+
+
+--_000_dc5e798dafae4fba875d1d6d38f6ab7fSN6PR05MB4606namprd05pr_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+I will be out of the office on vacation starting on Fri 07/13, returning to=
+ the office on Monday July 23rd. During this time I will have no access to =
+email or phone.
+
+In my absense please feel free to contact Tammy Campanella at (845) 391-533=
+9 or tcampanella@reversefunding.com
+
+Thank you for your patience and look forward to speaking to you when I retu=
+rn.
+
+Pete Kulis
+203.470.1608
+
+CONFIDENTIALITY NOTICE: We intend only the individual or entity to which we=
+ have addressed this electronic message to view it. This message may contai=
+n privileged and/or confidential information or other information prohibite=
+d from unauthorized disclosure by law. You may not disseminate, distribute,=
+ copy or otherwise disclose the contents of this communication without our =
+prior written consent. If you are not the intended recipient, or if you hav=
+e received this communication in error, notify us immediately by return e-m=
+ail and delete the original message and any copies of it from your computer=
+ system. Reverse Mortgage Funding LLC (NMLS # 1019941).
+
+--_000_dc5e798dafae4fba875d1d6d38f6ab7fSN6PR05MB4606namprd05pr_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt">I will be out of the office on vacation starting on Fri 07/13, r=
+eturning to the office on Monday July 23rd. During this time I will have no=
+ access to email or phone.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt">In my absense please feel free to contact Tammy Campanella at (8=
+45) 391-5339 or tcampanella@reversefunding.com
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt">Thank you for your patience and look forward to speaking to you =
+when I return.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt"><br>
+Pete Kulis <br>
+203.470.1608<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:8.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></sp=
+an></p>
+</div>
+CONFIDENTIALITY NOTICE: We intend only the individual or entity to which we=
+ have addressed this electronic message to view it. This message may contai=
+n privileged and/or confidential information or other information prohibite=
+d from unauthorized disclosure by
+ law. You may not disseminate, distribute, copy or otherwise disclose the c=
+ontents of this communication without our prior written consent. If you are=
+ not the intended recipient, or if you have received this communication in =
+error, notify us immediately by
+ return e-mail and delete the original message and any copies of it from yo=
+ur computer system. Reverse Mortgage Funding LLC (NMLS # 1019941).
+</body>
+</html>
+
+--_000_dc5e798dafae4fba875d1d6d38f6ab7fSN6PR05MB4606namprd05pr_--
+

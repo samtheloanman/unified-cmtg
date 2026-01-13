@@ -1,0 +1,229 @@
+Delivered-To: Sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of DealerSocket.com designates 192.41.46.21 as permitted sender) client-ip=192.41.46.21; envelope-from=EmailService@DealerSocket.com; helo=mail01A4621.dealersocket.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=EmailService@DealerSocket.com;
+	spf=pass (zoho.com: domain of DealerSocket.com designates 192.41.46.21 as permitted sender)  smtp.mailfrom=EmailService@DealerSocket.com
+Return-Path: <EmailService@DealerSocket.com>
+Received: from mail01A4621.dealersocket.com (mail01a4621.dealersocket.com [192.41.46.21]) by mx.zohomail.com
+	with SMTP id 1532041091407486.01088636231384; Thu, 19 Jul 2018 15:58:11 -0700 (PDT)
+Received: from SLCEMP05 (10.100.250.7) by mail01A4621.dealersocket.com id ha4bo41qjhk5 for <Sam@c-mtg.com>; Thu, 19 Jul 2018 16:58:10 -0600 (envelope-from <EmailService@DealerSocket.com>)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=key1; d=dealersocket.com;
+ h=MIME-Version:Sender:From:To:Date:Subject:Content-Type:Content-Transfer-Encoding; i=EmailService@DealerSocket.com;
+ bh=7cvV5Er5rVb4cID6on0bHBijZP0=;
+ b=vzHKF1uqwzhnsC8Y1vdsx34XzWqcORlKJ/1pnWFQG4+fi7Fos2/i6IufnpyKUzcnwtPsdFSgWQ8M
+   YADozm36DvcuWJSxWT4uq8r3SmOZb5OzI/1Znia+s5jv1Qs6rJ5BbrBNZSv81ubZGTuQaLICd3qa
+   qSTLGvnoADDxJHo4N6o=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=key1; d=dealersocket.com;
+ b=S/BqjpWwqxNPQTYALmT+J0iRzZ5SZ6Toba1mg4Ib0TpxmQe78jQdod6wuRGHg6jf7et92JuMdETj
+   NOcqlM/5nhakStUENZ9kX88snz7md55rmGAYmVZq7/ElULu6diT7xtOMqAWPnDYBhAzk/hKAG1tM
+   lXiamTNLMxgI6iTSS48=;
+X-SI: 4158
+X-EV: 2136647
+MIME-Version: 1.0
+Sender: EmailService@DealerSocket.com
+From: assistance@offleaseonly.com
+To: Sam@c-mtg.com
+Date: 19 Jul 2018 16:58:10 -0600
+Subject: Thank you for your inquiry
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+X-ZohoMail-DKIM: pass (identity EmailService@DealerSocket.com)
+X-ZohoMail-Owner: null+zmo_0_EmailService@DealerSocket.com
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_1 IS_0 EML_0 DMN_0 EDR_100 COSF LNKP UNK_U_0 UNK_O_0 ZMHF_M531_1 SIP_KN_0 RPD_UN_0 PMF_LNK_IMG_0 PIS_DPR_KN_0 ZMHF_701_1  SC_2 SGR3_1_2_0_168_823
+X-ZM-MESSAGEID: 1532041092983100001
+X-ZohoMail-Status: 1
+Message-ID: <38486951.1493609.1698037767274@[172.18.246.51]>
+
+
+<html><head></head><body>=0D=0A     =0D=0A     =0D=0A     =0D=0A =
+        <div>=0D=0A         <table width=3D"700" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0">=0D=0A             <tbody>=0D=0A=
+                 <tr>=0D=0A                     <td><a style=3D"b=
+order: currentColor; border-image: none;" href=3D"http://www.offl=
+easeonly.com/used-cars.htm" target=3D"_blank" rel=3D"noopener"><i=
+mg width=3D"700" height=3D"250" alt=3D"" src=3D"https://media.dea=
+lersocket.com/images/i4158/2016AutoResponders/OffLeaseOnly_Miami.=
+jpg" border=3D"0" /></a></td>=0D=0A                 </tr>=0D=0A  =
+               <tr>=0D=0A                     <td>&nbsp;</td>=0D=0A=
+                 </tr>=0D=0A             </tbody>=0D=0A         <=
+/table>=0D=0A         </div>=0D=0A         <div>=0D=0A         <t=
+able width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0">=0D=0A             <tbody>=0D=0A                 <tr>=0D=0A   =
+                  <td colspan=3D"5"> <blockquote style=3D"padding=
+: 0px; border: currentColor; border-image: none; margin-left: 10p=
+x;">=0D=0A                     <h4>Hello Sam,</h4>=0D=0A         =
+            </blockquote> </td>=0D=0A                     <td wid=
+th=3D"44%">&nbsp;</td>=0D=0A                 </tr>=0D=0A         =
+        <tr>=0D=0A                     <td class=3D"introText" co=
+lspan=3D"6"><blockquote style=3D"padding: 0px; border: currentCol=
+or; border-image: none; margin-left: 10px;">=0D=0A               =
+      <div>Please forgive the automated response. Your email will=
+ be answered by a member of our team shortly.</div>=0D=0A        =
+             <div>&nbsp;</div>=0D=0A                     <div>At =
+Off Lease Only we strive to make sure you have the very best car =
+buying experience with no hidden fees and no stress of negotiatin=
+g price.</div>=0D=0A                     </blockquote> </td>=0D=0A=
+                 </tr>=0D=0A                 <tr>=0D=0A          =
+           <td class=3D"introText" colspan=3D"6"><blockquote styl=
+e=3D"padding: 0px; border: currentColor; border-image: none; marg=
+in-left: 10px;">=0D=0A                     <div>Here are some fre=
+quently asked questions we would like to give you answers to righ=
+t away:</div>=0D=0A                     </blockquote> </td>=0D=0A=
+                 </tr>=0D=0A                 <tr>=0D=0A          =
+           <td class=3D"introText" colspan=3D"6"></td>=0D=0A     =
+            </tr>=0D=0A                 <tr>=0D=0A               =
+      <td colspan=3D"6">&nbsp;</td>=0D=0A                 </tr>=0D=0A=
+                 <tr>=0D=0A                     <td width=3D"2%">=
+<img width=3D"23" height=3D"23" alt=3D"Off Lease Only - CheckMark=
+" src=3D"https://media.dealersocket.com/images/i4158/AutoResponse=
+_LW/OffLeaseOnly_CheckMark.png" hspace=3D"10" /></td>=0D=0A      =
+               <td colspan=3D"5">=0D=0A                     <p><s=
+pan class=3D"OLOcolor">WHAT DO I NEED TO BRING?</span><br />=0D=0A=
+                     <a href=3D"https://usedcars.offleaseonly.com=
+/off-lease-only-items/" target=3D"_blank">CLICK HERE</a> for a co=
+mplete list of items to bring when purchasing your vehicle.</p>=0D=0A=
+                     </td>=0D=0A                 </tr>=0D=0A     =
+            <tr>=0D=0A                     <td colspan=3D"6">&nbs=
+p;&nbsp;&nbsp;</td>=0D=0A                 </tr>=0D=0A            =
+     <tr>=0D=0A                     <td><img width=3D"23" height=3D=
+"23" alt=3D"Off Lease Only - CheckMark" src=3D"https://media.deal=
+ersocket.com/images/i4158/AutoResponse_LW/OffLeaseOnly_CheckMark.=
+png" hspace=3D"10" /></td>=0D=0A                     <td colspan=3D=
+"5">=0D=0A                     <p><span class=3D"OLOcolor">NEED F=
+INANCING?</span><br />=0D=0A                     Financing is EAS=
+Y! We are not the bank so you are in charge! Whether you have goo=
+d or bad credit, <a href=3D"https://carfinancingexperts.com/" tar=
+get=3D"_blank">CLICK HERE</a> to get pre-qualified in a matter of=
+ minutes.</p>=0D=0A                     </td>=0D=0A              =
+   </tr>=0D=0A                 <tr>=0D=0A                     <td=
+ colspan=3D"6">&nbsp;</td>=0D=0A                 </tr>=0D=0A     =
+            <tr>=0D=0A                     <td><img width=3D"23" =
+height=3D"23" alt=3D"Off Lease Only - CheckMark" src=3D"https://m=
+edia.dealersocket.com/images/i4158/AutoResponse_LW/OffLeaseOnly_C=
+heckMark.png" hspace=3D"10" /></td>=0D=0A                     <td=
+ colspan=3D"5">=0D=0A                     <p><span class=3D"OLOco=
+lor">HAVE A TRADE-IN?</span><br />=0D=0A                     <a h=
+ref=3D"http://www.offleaseonly.com/trade-in.htm" target=3D"_blank=
+" rel=3D"noopener">CLICK HERE</a> to get the Kelley Blue Book val=
+ue on your trade prior to even coming into the dealership. Make s=
+ure to also ask about available tax credits.</p>=0D=0A           =
+          </td>=0D=0A                 </tr>=0D=0A                =
+ <tr>=0D=0A                     <td colspan=3D"6">&nbsp;</td>=0D=0A=
+                 </tr>=0D=0A                 <tr>=0D=0A          =
+           <td><img width=3D"23" height=3D"23" alt=3D"Off Lease O=
+nly - CheckMark" src=3D"https://media.dealersocket.com/images/i41=
+58/AutoResponse_LW/OffLeaseOnly_CheckMark.png" hspace=3D"10" /></=
+td>=0D=0A                     <td colspan=3D"5">=0D=0A           =
+          <p><span class=3D"OLOcolor">WARRANTY COVERAGE</span><br=
+ />=0D=0A                     Most vehicles we sell are still cov=
+ered by the manufacture's factory warranty and also qualify for a=
+dditional coverage available up to 10 years/unlimited miles from =
+your date of purchase. <a href=3D"http://www.offleaseonly.com/war=
+ranty.htm" target=3D"_blank" rel=3D"noopener">CLICK HERE</a> to l=
+earn more.</p>=0D=0A                     </td>=0D=0A             =
+    </tr>=0D=0A                 <tr>=0D=0A                     <t=
+d colspan=3D"6">&nbsp;</td>=0D=0A                 </tr>=0D=0A    =
+             <tr>=0D=0A                     <td><img width=3D"23"=
+ height=3D"23" alt=3D"Off Lease Only - CheckMark" src=3D"https://=
+media.dealersocket.com/images/i4158/AutoResponse_LW/OffLeaseOnly_=
+CheckMark.png" hspace=3D"10" /></td>=0D=0A                     <t=
+d colspan=3D"5">=0D=0A                     <p>FIVE DAY / 500 MILE=
+ FREE EXCHANGE POLICY<br />=0D=0A                     Off Lease O=
+nly proudly stands behind every vehicle that we sell. Your satisf=
+action is so important to us that we offer a 5-day/500&nbsp;mile&=
+nbsp;free exchange policy. No questions asked, no reason needed, =
+simply trade into any vehicle in Off Lease Only's entire inventor=
+y. <a href=3D"https://usedcars.offleaseonly.com/offleaseonlys-fre=
+e-exchange-policy/" target=3D"_blank">CLICK HERE</a> to learn mor=
+e.</p>=0D=0A                     </td>=0D=0A                 </tr=
+>=0D=0A                 <tr>=0D=0A                     <td colspa=
+n=3D"6">&nbsp;</td>=0D=0A                 </tr>=0D=0A            =
+     <tr>=0D=0A                     <td><img width=3D"23" height=3D=
+"23" alt=3D"Off Lease Only - CheckMark" src=3D"https://media.deal=
+ersocket.com/images/i4158/AutoResponse_LW/OffLeaseOnly_CheckMark.=
+png" hspace=3D"10" /></td>=0D=0A                     <td colspan=3D=
+"5">=0D=0A                     <p><span class=3D"OLOcolor">COMPLI=
+MENTARY CARFAX REPORTS</span><br />=0D=0A                     We =
+provide a complimentary Carfax report on every car. You can also =
+feel free to take any vehicle of your choice to your own mechanic=
+ for added peace of mind prior to purchase.&nbsp;</p>=0D=0A      =
+               </td>=0D=0A                 </tr>=0D=0A           =
+      <tr>=0D=0A                     <td colspan=3D"6">&nbsp;</td=
+>=0D=0A                 </tr>=0D=0A                 <tr>=0D=0A   =
+                  <td><img width=3D"23" height=3D"23" alt=3D"Off =
+Lease Only - CheckMark" src=3D"https://media.dealersocket.com/ima=
+ges/i4158/AutoResponse_LW/OffLeaseOnly_CheckMark.png" hspace=3D"1=
+0" /></td>=0D=0A                     <td colspan=3D"5">=0D=0A    =
+                 <p>HOME DELIVERY AVAILABLE!<br />=0D=0A         =
+            Ship the vehicle of your choice right to your front&n=
+bsp;door, or you can travel a little and take advantage of our ho=
+tel and rental car partnerships. <a href=3D"http://www.offleaseon=
+ly.com/out-of-state-buyers.htm" target=3D"_blank" rel=3D"noopener=
+">CLICK HERE</a> to learn more.</p>=0D=0A                     </t=
+d>=0D=0A                 </tr>=0D=0A                 <tr>=0D=0A  =
+                   <td colspan=3D"6">&nbsp;</td>=0D=0A           =
+      </tr>=0D=0A                 <tr>=0D=0A                     =
+<td colspan=3D"6"> <blockquote style=3D"padding: 0px; border: cur=
+rentColor; border-image: none; margin-left: 10px;">=0D=0A        =
+             <p>Thank you again for your email, we look forward t=
+o helping you save thousands on your next used car!</p>=0D=0A    =
+                 </blockquote> </td>=0D=0A                 </tr>=0D=0A=
+                 <tr>=0D=0A                     <td height=3D"82"=
+ class=3D"representative" colspan=3D"5"> <blockquote style=3D"pad=
+ding: 0px; border: currentColor; border-image: none; margin-left:=
+ 10px;">=0D=0A                     <div><span style=3D"font-weigh=
+t: normal;">Sincerely,</span><br />=0D=0A                     Ray=
+ Rodriguez</div>=0D=0A                     <div><span style=3D"fo=
+nt-weight: normal;">GM Off Lease Only&nbsp;</span></div>=0D=0A   =
+                  <div><span style=3D"font-weight: normal;">5580 =
+NW 145th St.</span></div>=0D=0A                     <div><span st=
+yle=3D"font-weight: normal;">Miami, FL 33054 &nbsp;</span></div>=0D=0A=
+                     (866) 840-1209</blockquote> </td>=0D=0A     =
+                <td>&nbsp;</td>=0D=0A                 </tr>=0D=0A=
+                 <tr>=0D=0A                     <td>&nbsp;</td>=0D=0A=
+                 </tr>=0D=0A             </tbody>=0D=0A         <=
+/table>=0D=0A         </div>=0D=0A         <div>=0D=0A         <t=
+able width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0">=0D=0A             <tbody>=0D=0A                 <tr>=0D=0A   =
+                  <td width=3D"33.3%"><a style=3D"border: current=
+Color; border-image: none;" href=3D"http://www.offleaseonly.com/t=
+rade-in.htm" target=3D"_blank" rel=3D"noopener"> <img width=3D"23=
+1" alt=3D"OffLeaseOnly Sell Trade Your Used Car" src=3D"https://m=
+edia.dealersocket.com/images/i4158/2016AutoResponders/OffLeaseOnl=
+y_SellTrade.png" /> </a></td>=0D=0A                     <td width=
+=3D"33.3%"><a style=3D"border: currentColor; border-image: none;"=
+ href=3D"https://usedcars.offleaseonly.com/offleaseonlys-free-exc=
+hange-policy/" target=3D"_blank"> <img width=3D"231" alt=3D"OffLe=
+aseOnly Reviews" src=3D"https://media.dealersocket.com/images/i41=
+58/2016AutoResponders/OffLeaseOnly_Reviews.png" /> </a></td>=0D=0A=
+                     <td width=3D"33.3%"><a style=3D"border: curr=
+entColor; border-image: none;" href=3D"https://www.offleaseonlylo=
+cations.com/offleaseonly-miami.php" target=3D"_blank"> <img width=
+=3D"231" alt=3D"OffLeaseOnly Locations" src=3D"https://media.deal=
+ersocket.com/images/i4158/2016AutoResponders/OffLeaseOnly_Locatio=
+ns.png" /> </a></td>=0D=0A                 </tr>=0D=0A           =
+      <tr>=0D=0A                     <td class=3D"footerOLO" styl=
+e=3D"text-align: center;" bgcolor=3D"#902a8d" colspan=3D"3"> <blo=
+ckquote style=3D"margin: 0px; padding: 0px; border: currentColor;=
+ border-image: none;"><span style=3D"color: #ffffff;"><strong>Off=
+ Lease Only is The Nation's Used Car Destination!</strong></span>=
+</blockquote> </td>=0D=0A                 </tr>=0D=0A            =
+ </tbody>=0D=0A         </table>=0D=0A         </div>=0D=0A      =
+   <br />=0D=0A     =0D=0A<br/><br/><font style=3D'font-size:10px=
+; font-family:Tahoma, Verdana, Arial, Helvetica; color:#666666'> =
+This email was <strong>sent to:</strong> backwebs@homenetinc.com<=
+/a>.<br/> <strong>From:</strong> Off Lease Only - Miami 5580 NW 1=
+45th ST. Miami, FL   33054<br/> <br/><a href=3Dhttps://my.dealers=
+ocket.com/DealerSocket.Web/CommPrefs/CommunicationPreferences?si=3D=
+hgt0SDMdrMk%3d&em=3Dp9EKxut91S2KP7glBrswKSYiRWLSv2lN&se=3DiHWLw56=
+vmnY%3d&en=3DZSVU2l5arBg%3d&so=3D5AVMHjmGqWQ%3d&cu=3D5AVMHjmGqWQ%=
+3d title=3D'Update Preferences'>Update Preferences</a> - to updat=
+e your communication preferences.<br/><a href=3Dhttps://my.dealer=
+socket.com/dsReportAbuse/dsRef.aspx?si=3Dhgt0SDMdrMk%3d&em=3Dp9EK=
+xut91S2KP7glBrswKSYiRWLSv2lN&se=3DiHWLw56vmnY%3d&en=3DZSVU2l5arBg=
+%3d&so=3D5AVMHjmGqWQ%3d&cu=3D5AVMHjmGqWQ%3d title=3D'Unsubscribe'=
+>Unsubscribe</a> - to stop all future email communications [REF_V=
+2136647-814483_NO].<br/><a href=3Dhttps://my.dealersocket.com/crm=
+/termsandconditions.html title=3D'Terms and Conditions'>Terms and=
+ Conditions</a><br/><br/></font><br/></body></html>
+

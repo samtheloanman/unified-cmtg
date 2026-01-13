@@ -1,0 +1,47 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of aol.com designates 74.6.128.34 as permitted sender) client-ip=74.6.128.34; envelope-from=margaretrabon@aol.com; helo=sonic304-11.consmr.mail.bf2.yahoo.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of aol.com designates 74.6.128.34 as permitted sender)  smtp.mailfrom=margaretrabon@aol.com;
+	dmarc=pass(p=reject dis=none)  header.from=aol.com
+Return-Path: <margaretrabon@aol.com>
+Received: from sonic304-11.consmr.mail.bf2.yahoo.com (sonic304-11.consmr.mail.bf2.yahoo.com [74.6.128.34]) by mx.zohomail.com
+	with SMTPS id 1530381114896191.75914215014257; Sat, 30 Jun 2018 10:51:54 -0700 (PDT)
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic304.consmr.mail.bf2.yahoo.com with HTTP; Sat, 30 Jun 2018 17:51:54 +0000
+Received: from 180.sub-174-196-145.myvzw.com (EHLO [100.108.138.143]) ([174.196.145.180])
+          by smtp407.mail.bf1.yahoo.com (Oath Hermes SMTP Server) with ESMTPA ID 2edf5beeeb0277b2f3e04e483a45bba9
+          for <sam@c-mtg.com>;
+          Sat, 30 Jun 2018 17:51:53 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aol.com; s=a2048; t=1530381114; bh=pSK+rWvQbFUBYjVOSHs83TGPltS0b7NJxJAoyQnMATg=; h=From:Date:To:From:Subject; b=FFliU/B4HJGnWw4Ku3sF3trtyIeYFHEojXsTgfiCRAEjIk94sLT9ttcdY5wx7wq2kCvwuH8GKvrNXUva50LfOw7AzG6MNFhfQZYibSV1vduLeWx4wjtnHx3UF0kHtRNblahc5W0SbOZHA8V/TINrddT4zWLBXraZ7LFj8iaIesp8lqiPU9nGzd+Hl3CdJXOkXD+zs3UDv41x4GRmN45IaFausho7HOwQUn/jboKjmQyzBslEe2t8DsA95/oOZ3zOpmVNm8T8lVYiZhqhNIajkjekM+17JVWqUKB0Dr14IxQ5tjbSOz1wfEvPas1UFK8neKo+oMEyYVKMtoODoEEF3Q==
+X-YMail-OSG: mlR2HxUVM1m_Ca8oq_4N8c7MfSPZ0F8YAWlAtab6xrD8lnPqHVP4N7DKIcrDLRo
+ bfGrVhDAg17_KuMxmQMZsw8Yx2cZYtrXtxIeTKYC0tjUzfCiskpqrKO1aZN_Wic8ya01kIzPT5vJ
+ MSEBfXKp.vNrV0jOGvHzpfDH_QdlCvjzgFg7PjR3X5LXQGc7Kg_5k9hI8QVcgbFhpoHWJ4sEId.M
+ px_yIgOeBED.LqjusOXPg3zKIRebAZCMFztZvkfO1BLfOsCGQ9Yjjorv1IGv3AL96vHPqJkdhn0t
+ liX_YJQlQoYVPM0X88qnL3o5_hnlw8WJV5t0B2rIOwrpTMCURHK1QrqSyUT6LKr0o08MrI2uoEhj
+ Z0JpWTuWUrrLWom2IvSrzH0PfOeTmT2.ul3ULvzbhprz7z.kjblPEBp9ySQM0oUUj2fEnGnqnU6b
+ dn05wTVlykZz9Hu1CNaIUpbGQfFzqhjQ5KqR80f2WRu1asXnvkpamCND3pxH92Fxy3kJkYR4sTpz
+ zc9CsirqlgbLC2DH1lxFyXxGCf7AKwG1YXV0nnRGukPi0ISK00JUqzm_JLnQfALFP9NmrD_TM36q
+ tS0NFgSS7LM8GamHXcsVmdQMAQOU_Q.nodXKmdVMDImHwE0AyFVHxIVtebT8G9wDD9MaVpl1AEaF
+ IgLVDGKLwo2.i.unF2fX0.xleoqk7.Mt9H28C.d7kakwB1_kUIM5gyVo3dfh79loRXJxiwbO0.VF
+ UzetqeyZsRS5mu7FGlXWZoeM9qgBBx2VOgPgDhbiQEGe2AB0D3.mEWEmRU7GU4Q7fV3KYV94T2ml
+ d0IcGZ1T4RyfjP4Tvb_HAmo0iTpIuWE1_VAfsrVwKFmz6R1isDvQ.mMHgg.qfdFaj45Q6acrROhq
+ 1YNmQD9Mf1tmLeNuEFXEwm70apKFTjXwl6_GGnBpDrohd8JvWXTURJ812dviGKOV5LPU3wgYAHws
+ A
+From: Margaret Rabon <margaretrabon@aol.com>
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset=us-ascii
+Mime-Version: 1.0
+Date: Sat, 30 Jun 2018 13:51:51 -0400
+Message-ID:<09BD268E-5899-47F7-93CF-7CE600661F14@aol.com>
+To: sam@c-mtg.com
+X-Mailer: iPhone Mail (15D60)
+X-ZohoMail-DKIM: pass (identity @aol.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_NDS SPK
+X-ZM-MESSAGEID: 1530381116742000001
+X-ZohoMail-Status: 1
+
+
+
+That was The rest of June payment on 2nd and July 1st and 2 nd payment
+Sent from my iPhone

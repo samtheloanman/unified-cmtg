@@ -1,0 +1,808 @@
+Delivered-To: sam@c-mtg.com
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of velocitymortgage.com designates 12.20.168.21 as permitted sender)  smtp.mailfrom=RFavela@velocitymortgage.com;
+	dmarc=pass(p=none dis=none)  header.from=velocitymortgage.com
+Return-Path: <RFavela@velocitymortgage.com>
+Received: from mail.velocitycommercial.com (mail.velocitycommercial.com [12.20.168.21]) by mx.zohomail.com
+	with SMTPS id 1532104312709196.32638247031525; Fri, 20 Jul 2018 09:31:52 -0700 (PDT)
+Received: from NAM05-DM3-obe.outbound.protection.outlook.com (unknown [216.32.181.111])
+	by Forcepoint Email with ESMTPS id DD9564B6F56ABFFD89B9
+	for <sam@c-mtg.com>; Fri, 20 Jul 2018 09:31:51 -0700 (PDT)
+Received: from MWHPR20MB1182.namprd20.prod.outlook.com (10.173.105.8) by
+ MWHPR20MB1568.namprd20.prod.outlook.com (10.171.149.142) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.973.16; Fri, 20 Jul 2018 16:31:49 +0000
+Received: from MWHPR20MB1182.namprd20.prod.outlook.com
+ ([fe80::c811:c850:755a:b130]) by MWHPR20MB1182.namprd20.prod.outlook.com
+ ([fe80::c811:c850:755a:b130%4]) with mapi id 15.20.0973.018; Fri, 20 Jul 2018
+ 16:31:49 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=velocitymortgage.com;
+	s=Selector3; t=1532104312;
+	bh=8U++sk8pvNmT2xd2bSHxJe+pF5LtulJlKJpEcAOr1mc=; l=32263; h=From;
+	b=Cf0P3v2/QVPIS/61q86d/IP/eHd1shidLSiHqhMLGdjuUJJ2/Z2uKi3CAWL9ztcYY
+	 rAtZtIF/5Y/Tub+HV6e3lwPqY71x402Cbp3QEW3I+801vX2qba+MlPRQiMTPOtmkar
+	 7f2b+Y/EjAXEbypB20CPQEVQZZ5tYEsK4rccXqxI=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=velocitymortgage.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=ZFgEsJ2B32KRHGTQyBVVx/nadKaB6GOfYU7T6eq1TwU=;
+ b=TkNZEcuy9YmHWwlar/k233lKww4U8u+vPhPT1O+xR0wvYp+9aBBlAowXY50n2JFGt+hUZhnrO+Y6v2uj3hud7sSpwt4EhEQS/Cy2cqzYdvDLD3CGBU7ms0r+tGExDMgypg5eyZ7NUStc3R7k/3ievN0nI73mt9W5GNiEab9vlW4=
+From: Rick Favela <RFavela@velocitymortgage.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+CC: Tony Kappos <tkappos@velocitymortgage.com>, Renzo Della Ripa
+	<rdellaripa@hershcap.com>
+Subject: RE: New Deal 16906 Highway 5 North Logansport, LA 71049
+Thread-Topic: New Deal 16906 Highway 5 North Logansport, LA 71049
+Thread-Index: AdQesR5h88uzjRqDTHC/+fcF+XXnLQAAh+yAAA6W/EAAKeCigAAr87sQAABB2gAAAEUwkA==
+Date: Fri, 20 Jul 2018 16:31:49 +0000
+Message-ID:<MWHPR20MB11829B02C38B84AC3AF935C3C9510@MWHPR20MB1182.namprd20.prod.outlook.com>
+References: <MWHPR20MB1470B5CB4909796789734E68BB530@MWHPR20MB1470.namprd20.prod.outlook.com>
+ <27B85054-7DF2-4FB5-917F-99C9BE117F85@c-mtg.com>
+ <MWHPR20MB14706B08C85826FE28A19C03BB530@MWHPR20MB1470.namprd20.prod.outlook.com>
+ <A3739D5D-2AA6-4585-9BF8-1F2A01BBCC41@c-mtg.com>
+ <MWHPR20MB1182412353427A3BF8140335C9510@MWHPR20MB1182.namprd20.prod.outlook.com>
+ <31DA796A-190D-42B7-9D81-D555824F5925@c-mtg.com>
+In-Reply-To: <31DA796A-190D-42B7-9D81-D555824F5925@c-mtg.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-originating-ip: [12.20.168.18]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;MWHPR20MB1568;20:StBK3f4l+0/n3bGsV+M1QdetahExwUiBV4flNHJ39hMazg79glp0sGUnf9wHjfOXVm3MJlscXB7XU30HuCS/3WQkGcGgDjaqua3ChO4RzCoYGEAvmRWsFrJbjg4JEoVj95STx4bIK66fF9+RyAzNkjI1rmxBmuzWuFRvBlUrxFc=
+x-ms-exchange-antispam-srfa-diagnostics: SOS;SOR;
+x-ms-office365-filtering-correlation-id: f901898a-0672-4cd8-2544-08d5ee5e4af5
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:(7020095)(4652040)(8989117)(5600067)(711020)(4534165)(4627221)(201703031133081)(201702281549075)(8990107)(2017052603328)(7153060)(49563074)(7193020);SRVR:MWHPR20MB1568;
+x-ms-traffictypediagnostic: MWHPR20MB1568:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=RFavela@velocitymortgage.com; 
+x-microsoft-antispam-prvs: <MWHPR20MB1568E732482D15A6B0CD133EC9510@MWHPR20MB1568.namprd20.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(28532068793085)(206168927598477)(148322886591682)(277860510277777)(28212336023702)(31418570063057)(116415991822766)(223705240517415)(128460861657000)(86561027422486);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(102415395)(6040522)(2401047)(8121501046)(5005006)(3231311)(944501410)(52105095)(10201501046)(3002001)(93006095)(93001095)(149027)(150027)(6041310)(20161123562045)(20161123560045)(20161123558120)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(20161123564045)(6072148)(201708071742011)(7699016);SRVR:MWHPR20MB1568;BCL:0;PCL:0;RULEID:;SRVR:MWHPR20MB1568;
+x-forefront-prvs: 073966E86B
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(346002)(376002)(39850400004)(396003)(136003)(366004)(252514010)(149574003)(40134004)(199004)(189003)(6506007)(7696005)(186003)(76176011)(33656002)(8936002)(102836004)(54906003)(316002)(55016002)(68736007)(99936001)(53546011)(81166006)(99286004)(81156014)(8676002)(7736002)(74316002)(5250100002)(107886003)(6306002)(733005)(6436002)(6246003)(4326008)(236005)(25786009)(54556002)(9686003)(54896002)(26005)(229853002)(80792005)(97736004)(53936002)(2900100001)(5660300001)(106356001)(93886005)(45080400002)(6916009)(19609705001)(478600001)(2906002)(72206003)(14454004)(3846002)(1680700002)(6116002)(790700001)(105586002)(606006)(486006)(86362001)(476003)(256004)(446003)(14444005)(11346002)(66066001);DIR:OUT;SFP:1102;SCL:1;SRVR:MWHPR20MB1568;H:MWHPR20MB1182.namprd20.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;A:1;MX:1;
+Received-SPF: pass (zoho.com: domain of velocitymortgage.com designates 12.20.168.21 as permitted sender) client-ip=12.20.168.21; envelope-from=RFavela@velocitymortgage.com; helo=mail.velocitycommercial.com;
+received-spf: None (protection.outlook.com: velocitymortgage.com does not
+ designate permitted sender hosts)
+x-microsoft-antispam-message-info: 1AIEG5OpDvLeeuKmL8KMT9b8/PB8qPig5Vh1zrsaj2/YGTScpUPvPvRlV5vmopnCkB4PzXtSMQ+fbhsL8j4dk3/7BVNZzEynbTdOKRUV1uLvgJn32RQQnduMhL5nfU+6qT3WnWH14oDttPc8io5P4cP4VAKliNw5HznwSgiZSIVj4ehortBv4ht8D63YZToQ3HrUPYNeChPsa51VauNG6WIyVI+l03UVyVhsm3vR0oa9NRmhWEfuxKBRcb2RpKYb3AaDqYGUs3dRtlcXi/BOw1xeqwI+s8M2TlbkYVAyvHELmuViyrcm1qgRJuPByj3YURsS7nhAshtG+boUvnDali7w1GNFKrEpZiwXodBISfs=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/related;
+	boundary="_004_MWHPR20MB11829B02C38B84AC3AF935C3C9510MWHPR20MB1182namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: velocitymortgage.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: f901898a-0672-4cd8-2544-08d5ee5e4af5
+X-MS-Exchange-CrossTenant-originalarrivaltime: 20 Jul 2018 16:31:49.3168
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 86ef3bda-a8c7-4134-a319-ac18a377c1bf
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MWHPR20MB1568
+X-Zoho-Virus-Status: 1
+X-ZohoMail-DKIM: pass (identity @velocitymortgage.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_168 SPK
+X-ZM-MESSAGEID: 1532104313106100001
+X-ZohoMail-Status: 1
+
+
+--_004_MWHPR20MB11829B02C38B84AC3AF935C3C9510MWHPR20MB1182namp_
+Content-Type: multipart/alternative;
+	boundary="_000_MWHPR20MB11829B02C38B84AC3AF935C3C9510MWHPR20MB1182namp_"
+
+--_000_MWHPR20MB11829B02C38B84AC3AF935C3C9510MWHPR20MB1182namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+This is feeling more like a business loan on raw land. Does he have any add=
+itional properties with cash flow that we may include?
+
+Regards,
+
+Rick Favela
+Director of Special Servicing
+
+Velocity Commercial Capital
+30699 Russell Ranch Rd, Suite 295
+Westlake Village, CA 91362
+818-532-3735 - direct
+rfavela@velocitycommercial.com<mailto:ssimcox@velocitymortgage.com>
+
+[VCC Logo]
+www.velocitycommercial.com<http://www.velocitycommercial.com/>
+
+
+
+
+Important! This message is intended only for the use of the individual or e=
+ntity to which it is addressed and may contain information that is privileg=
+ed, confidential, and exempt from disclosure under applicable law.  If the =
+reader of this message is not the intended recipient, or the employee or ag=
+ent responsible to deliver it to the intended recipient, you are hereby not=
+ified that reading, disseminating, distributing, or copying this communicat=
+ion is strictly prohibited.  If you have received this communication in err=
+or, please immediately notify us by telephone, and discard the original mes=
+sage.  Thank you.
+
+From: Sam Tehranchi <sam@c-mtg.com>
+Sent: Friday, July 20, 2018 9:23 AM
+To: Rick Favela <RFavela@velocitymortgage.com>
+Cc: Tony Kappos <tkappos@velocitymortgage.com>; Renzo Della Ripa <rdellarip=
+a@hershcap.com>
+Subject: Re: New Deal 16906 Highway 5 North Logansport, LA 71049
+
+Hi Rick, he needs the money for cash flow, payroll, etc for about 12 months=
+.  We are requesting 500k but he only need 350k and even thats padded.
+
+Please advise regarding terms.  Time is of essence on this one.  Can you pl=
+ease send tentative terms if available.
+
+Thank you
+
+Respectfully,
+
+
+Sam Tehranchi
+
+
+COO
+Custom Mortgage and Realty
+NMLS CA # 1556995 - BRE CA # 02018146
+
+Direct 310.709.6304 -Efax 866.421.7694
+
+sam@c-mtg.com<mailto:sam@c-mtg.com> - www.c-mtg.com<http://hybrid-web.globa=
+l.blackspider.com/urlwrap/?q=3DAXicE2RmePCcgSHxEgNDUU6lkWmGXnFRmV5uYmZOcn5e=
+SVF-jl5yfi5DuZm3u1-Khb-BgYGFkRlDkFtiWWpOogOQyE_OLKnMzS8qSU9MTwWrzSgpKbDS1y8=
+vL9dL1s0tSQcLMjCEAm0AANGzJA8&Z>
+
+LinkedIn<https://www.linkedin.com/company-beta/3477964> - Facebook<https://=
+www.facebook.com/Custom-Mortgage-409842885783868/> - twitter<https://twitte=
+r.com/custommortgage1> - Instagram<https://www.instagram.com/custommortgage=
+inc/>
+
+
+On Jul 20, 2018, at 9:17 AM, Rick Favela <RFavela@velocitymortgage.com<mail=
+to:RFavela@velocitymortgage.com>> wrote:
+
+Trying to figure out what the borrower is going to do with the cash out sin=
+ce he already has the machines and the concrete to crush and is not buildin=
+g anything. Please call to discuss or respond.
+
+Regards,
+
+Rick Favela
+Director of Lending
+
+<image001.jpg>
+Hershiser Capital Finance
+30699 Russell Ranch Rd, Suite 295
+Westlake Village, CA 91362
+Direct: 818-532-3735
+Email: rfavela@hershcap.com<mailto:rfavela@hershcap.com>
+Website: www.hershcap.com<http://www.hershcap.com/>
+
+Important! This message is intended only for the use of the individual or e=
+ntity to which it is addressed and may contain information that is privileg=
+ed, confidential, and exempt from disclosure under applicable law.  If the =
+reader of this message is not the intended recipient, or the employee or ag=
+ent responsible to deliver it to the intended recipient, you are hereby not=
+ified that reading, disseminating, distributing, or copying this communicat=
+ion is strictly prohibited.  If you have received this communication in err=
+or, please immediately notify us by telephone, and discard the original mes=
+sage.  Thank you.
+
+From: Sam Tehranchi <sam@c-mtg.com<mailto:sam@c-mtg.com>>
+Sent: Thursday, July 19, 2018 12:17 PM
+To: Renzo Della Ripa <rdellaripa@hershcap.com<mailto:rdellaripa@hershcap.co=
+m>>
+Cc: Tony Kappos <tkappos@velocitymortgage.com<mailto:tkappos@velocitymortga=
+ge.com>>; Rick Favela <RFavela@velocitymortgage.com<mailto:RFavela@velocity=
+mortgage.com>>
+Subject: Re: New Deal 16906 Highway 5 North Logansport, LA 71049
+
+Hi Renzo
+
+The main thing they will be doing is the Concrete crushing business.  Once =
+that is functional, they will be proceeding with additional options.
+
+Borrower has about 200k in concrete crushing equipment that will is in the =
+process of being moved to the site and that is going to be what they will u=
+se to start operations.
+
+Respectfully,
+
+
+Sam Tehranchi
+
+
+COO
+Custom Mortgage and Realty
+NMLS CA # 1556995 - BRE CA # 02018146
+
+Direct 310.709.6304 -Efax 866.421.7694
+
+sam@c-mtg.com<mailto:sam@c-mtg.com> - www.c-mtg.com<http://hybrid-web.globa=
+l.blackspider.com/urlwrap/?q=3DAXicE2RmePCcgSHxEgNDUU6lsXGGXnFRmV5uYmZOcn5e=
+SVF-jl5yfi5DuZmXl0ewS46BiYGFiSVDkFtiWWpOogOQyE_OLKnMzS8qSU9MTwWrzSgpKbDS1y8=
+vL9dL1s0tSQcLMjCEAm0AANhRJCs&Z>
+
+LinkedIn<https://www.linkedin.com/company-beta/3477964> - Facebook<https://=
+www.facebook.com/Custom-Mortgage-409842885783868/> - twitter<https://twitte=
+r.com/custommortgage1> - Instagram<https://www.instagram.com/custommortgage=
+inc/>
+
+
+
+On Jul 18, 2018, at 4:19 PM, Renzo Della Ripa <rdellaripa@hershcap.com<mail=
+to:rdellaripa@hershcap.com>> wrote:
+
+The investors are asking what the property will be used for as the summary =
+states many different potential things.
+They just need to understand the deal a bit Better.
+
+
+--_000_MWHPR20MB11829B02C38B84AC3AF935C3C9510MWHPR20MB1182namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">This is feeling more like a business loan on raw lan=
+d. Does he have any additional properties with cash flow that we may includ=
+e?<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<p class=3D"MsoNormal">Regards,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b>Rick Favela<o:p></o:p></b></p>
+<p class=3D"MsoNormal"><i>Director of Special Servicing<o:p></o:p></i></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b><span style=3D"color:black">Velocity Commercial C=
+apital<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal"><span style=3D"color:black">30699 Russell Ranch Rd, =
+Suite 295<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:black">Westlake Village, CA 913=
+62<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:black">818-532-3735 &#8211; dir=
+ect<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><a href=3D"mailto:ssimcox@velocitymortgage.com"><spa=
+n style=3D"color:#0563C1">rfavela@velocitycommercial.com</span></a><o:p></o=
+:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><img border=3D"0" width=3D"187" height=3D"70" style=
+=3D"width:1.9479in;height:.7291in" id=3D"Picture_x0020_1" src=3D"cid:image0=
+01.png@01D4200C.7BE9E710" alt=3D"VCC Logo"><o:p></o:p></p>
+<p class=3D"MsoNormal"><a href=3D"http://www.velocitycommercial.com/">www.v=
+elocitycommercial.com</a><span style=3D"font-family:&quot;Arial&quot;,sans-=
+serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"color:black"><o:p>&nbsp;</o:p></span>=
+</p>
+<p class=3D"MsoNormal"><span style=3D"color:black"><o:p>&nbsp;</o:p></span>=
+</p>
+<p class=3D"MsoNormal" style=3D"margin-left:.5in"><span style=3D"color:blac=
+k"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Important! This message is intended only for the use=
+ of the individual or entity to which it is addressed and may contain infor=
+mation that is privileged, confidential, and exempt from disclosure under a=
+pplicable law.&nbsp; If the reader of this
+ message is not the intended recipient, or the employee or agent responsibl=
+e to deliver it to the intended recipient, you are hereby notified that rea=
+ding, disseminating, distributing, or copying this communication is strictl=
+y prohibited.&nbsp; If you have received
+ this communication in error, please immediately notify us by telephone, an=
+d discard the original message.&nbsp; Thank you.<o:p></o:p></p>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b>From:</b> Sam Tehranchi &lt;sam@c-mtg.com&gt; <br=
+>
+<b>Sent:</b> Friday, July 20, 2018 9:23 AM<br>
+<b>To:</b> Rick Favela &lt;RFavela@velocitymortgage.com&gt;<br>
+<b>Cc:</b> Tony Kappos &lt;tkappos@velocitymortgage.com&gt;; Renzo Della Ri=
+pa &lt;rdellaripa@hershcap.com&gt;<br>
+<b>Subject:</b> Re: New Deal 16906 Highway 5 North Logansport, LA 71049<o:p=
+></o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Hi Rick, he needs the money for cash flow, payroll, =
+etc for about 12 months. &nbsp;We are requesting 500k but he only need 350k=
+ and even thats padded.<o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Please advise regarding terms. &nbsp;Time is of esse=
+nce on this one. &nbsp;Can you please send tentative terms if available.<o:=
+p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Thank you<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span style=3D"color:=
+black">Respectfully, &nbsp;&nbsp;<br>
+<br>
+&nbsp;<br>
+Sam Tehranchi<br>
+<br>
+&nbsp;<br>
+COO<br>
+Custom Mortgage and Realty&nbsp;<br>
+NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br>
+&nbsp;<br>
+Direct 310.709.6304 -Efax 866.421.7694&nbsp;<br>
+<br>
+<a href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&nbsp;-&nbsp;<a href=3D"h=
+ttp://hybrid-web.global.blackspider.com/urlwrap/?q=3DAXicE2RmePCcgSHxEgNDUU=
+6lkWmGXnFRmV5uYmZOcn5eSVF-jl5yfi5DuZm3u1-Khb-BgYGFkRlDkFtiWWpOogOQyE_OLKnMz=
+S8qSU9MTwWrzSgpKbDS1y8vL9dL1s0tSQcLMjCEAm0AANGzJA8&amp;Z">www.c-mtg.com</a>=
+<br>
+<br>
+<a href=3D"https://www.linkedin.com/company-beta/3477964">LinkedIn</a>&nbsp=
+;-&nbsp;<a href=3D"https://www.facebook.com/Custom-Mortgage-409842885783868=
+/">Facebook</a>&nbsp;-&nbsp;<a href=3D"https://twitter.com/custommortgage1"=
+>twitter</a>&nbsp;-&nbsp;<a href=3D"https://www.instagram.com/custommortgag=
+einc/">Instagram</a><o:p></o:p></span></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><br>
+<br>
+<o:p></o:p></p>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<p class=3D"MsoNormal">On Jul 20, 2018, at 9:17 AM, Rick Favela &lt;<a href=
+=3D"mailto:RFavela@velocitymortgage.com">RFavela@velocitymortgage.com</a>&g=
+t; wrote:<o:p></o:p></p>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div>
+<p class=3D"MsoNormal">Trying to figure out what the borrower is going to d=
+o with the cash out since he already has the machines and the concrete to c=
+rush and is not building anything. Please call to discuss or respond.<o:p><=
+/o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">Regards,<br>
+<br>
+Rick Favela</span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">Director of Lending=
+</span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;</span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&lt;image001.jpg&gt;<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b>Hershiser Capital Finance</b><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">30699 Russell Ranch Rd, Suite 295<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"background:white">Westlake Village, CA 9136=
+2<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"background:white">Direct: 818-532-3735<o:p>=
+</o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"background:white">Email:<span class=3D"appl=
+e-converted-space">&nbsp;</span><a href=3D"mailto:rfavela@hershcap.com"><sp=
+an style=3D"color:#0563C1">rfavela@hershcap.com</span></a><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"background:white">Website:<span class=3D"ap=
+ple-converted-space">&nbsp;</span><a href=3D"http://www.hershcap.com/"><spa=
+n style=3D"color:#0563C1">www.hershcap.com</span></a><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"background:white">&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"background:white"><i>Important! This messag=
+e is intended only for the use of the individual or entity to which it is a=
+ddressed and may contain information that is privileged, confidential, and =
+exempt from disclosure under applicable
+ law.&nbsp; If the reader of this message is not the intended recipient, or=
+ the employee or agent responsible to deliver it to the intended recipient,=
+ you are hereby notified that reading, disseminating, distributing, or copy=
+ing this communication is strictly prohibited.&nbsp;
+ If you have received this communication in error, please immediately notif=
+y us by telephone, and discard the original message.&nbsp; Thank you.</i><o=
+:p></o:p></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<div>
+<p class=3D"MsoNormal"><b>From:</b><span class=3D"apple-converted-space">&n=
+bsp;</span>Sam Tehranchi &lt;<a href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com=
+</a>&gt;<span class=3D"apple-converted-space">&nbsp;</span><br>
+<b>Sent:</b><span class=3D"apple-converted-space">&nbsp;</span>Thursday, Ju=
+ly 19, 2018 12:17 PM<br>
+<b>To:</b><span class=3D"apple-converted-space">&nbsp;</span>Renzo Della Ri=
+pa &lt;<a href=3D"mailto:rdellaripa@hershcap.com">rdellaripa@hershcap.com</=
+a>&gt;<br>
+<b>Cc:</b><span class=3D"apple-converted-space">&nbsp;</span>Tony Kappos &l=
+t;<a href=3D"mailto:tkappos@velocitymortgage.com">tkappos@velocitymortgage.=
+com</a>&gt;; Rick Favela &lt;<a href=3D"mailto:RFavela@velocitymortgage.com=
+">RFavela@velocitymortgage.com</a>&gt;<br>
+<b>Subject:</b><span class=3D"apple-converted-space">&nbsp;</span>Re: New D=
+eal 16906 Highway 5 North Logansport, LA 71049<o:p></o:p></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal">Hi Renzo<o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">The main thing they will be doing is the Concrete cr=
+ushing business. &nbsp;Once that is functional, they will be proceeding wit=
+h additional options.<o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal">Borrower has about 200k in concrete crushing equipme=
+nt that will is in the process of being moved to the site and that is going=
+ to be what they will use to start operations.<o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt">Respectfully, &nbsp;&=
+nbsp;<br>
+<br>
+&nbsp;<br>
+Sam Tehranchi<br>
+<br>
+&nbsp;<br>
+COO<br>
+Custom Mortgage and Realty&nbsp;<br>
+NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br>
+&nbsp;<br>
+Direct 310.709.6304 -Efax 866.421.7694&nbsp;<br>
+<br>
+<a href=3D"mailto:sam@c-mtg.com"><span style=3D"color:purple">sam@c-mtg.com=
+</span></a>&nbsp;-&nbsp;<a href=3D"http://hybrid-web.global.blackspider.com=
+/urlwrap/?q=3DAXicE2RmePCcgSHxEgNDUU6lsXGGXnFRmV5uYmZOcn5eSVF-jl5yfi5DuZmXl=
+0ewS46BiYGFiSVDkFtiWWpOogOQyE_OLKnMzS8qSU9MTwWrzSgpKbDS1y8vL9dL1s0tSQcLMjCE=
+Am0AANhRJCs&amp;Z"><span style=3D"color:purple">www.c-mtg.com</span></a><br=
+>
+<br>
+<a href=3D"https://www.linkedin.com/company-beta/3477964"><span style=3D"co=
+lor:purple">LinkedIn</span></a>&nbsp;-&nbsp;<a href=3D"https://www.facebook=
+.com/Custom-Mortgage-409842885783868/"><span style=3D"color:purple">Faceboo=
+k</span></a>&nbsp;-&nbsp;<a href=3D"https://twitter.com/custommortgage1"><s=
+pan style=3D"color:purple">twitter</span></a>&nbsp;-&nbsp;<a href=3D"https:=
+//www.instagram.com/custommortgageinc/"><span style=3D"color:purple">Instag=
+ram</span></a><o:p></o:p></p>
+</div>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><br>
+<br>
+<br>
+<o:p></o:p></p>
+</div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<div>
+<p class=3D"MsoNormal">On Jul 18, 2018, at 4:19 PM, Renzo Della Ripa &lt;<a=
+ href=3D"mailto:rdellaripa@hershcap.com"><span style=3D"color:purple">rdell=
+aripa@hershcap.com</span></a>&gt; wrote:<o:p></o:p></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">The investors are asking what the property will be u=
+sed for as the summary states many different potential things.<o:p></o:p></=
+p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal">They just need to understand the deal a bit Better.<=
+o:p></o:p></p>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</div>
+</body>
+</html>
+
+--_000_MWHPR20MB11829B02C38B84AC3AF935C3C9510MWHPR20MB1182namp_--
+
+--_004_MWHPR20MB11829B02C38B84AC3AF935C3C9510MWHPR20MB1182namp_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=8658;
+	creation-date="Fri, 20 Jul 2018 16:31:49 GMT";
+	modification-date="Fri, 20 Jul 2018 16:31:49 GMT"
+Content-ID: <image001.png@01D4200C.7BE9E710>
+Content-Transfer-Encoding: base64
+
+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
+
+--_004_MWHPR20MB11829B02C38B84AC3AF935C3C9510MWHPR20MB1182namp_--

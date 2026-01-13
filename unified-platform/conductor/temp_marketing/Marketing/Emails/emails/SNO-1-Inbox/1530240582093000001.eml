@@ -1,0 +1,137 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.mail.yahoo.com designates 66.163.184.148 as permitted sender) client-ip=66.163.184.148; envelope-from=marta_es325@yahoo.com; helo=sonic309-22.consmr.mail.ne1.yahoo.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.mail.yahoo.com designates 66.163.184.148 as permitted sender)  smtp.mailfrom=marta_es325@yahoo.com;
+	dmarc=pass(p=reject dis=none)  header.from=yahoo.com
+Return-Path: <marta_es325@yahoo.com>
+Received: from sonic309-22.consmr.mail.ne1.yahoo.com (sonic309-22.consmr.mail.ne1.yahoo.com [66.163.184.148]) by mx.zohomail.com
+	with SMTPS id 1530240581670474.89193103718355; Thu, 28 Jun 2018 19:49:41 -0700 (PDT)
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic309.consmr.mail.ne1.yahoo.com with HTTP; Fri, 29 Jun 2018 02:49:41 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1530240581; bh=plzIkWxks/ZypLJp9kqCrG7VHIU3tgIF8a870QNLSNo=; h=Date:From:Reply-To:To:In-Reply-To:References:Subject:From:Subject; b=TkCyO7uyQhYSwJMCc6LQAgi7ecg0RH+1ESLsk63hOWtmf8a4hFuT9g8SPdSlIp/FkojGO22CD/VuRwLs/7ucr5OQTb0D3TdugHMjvixsCG5QR8i6sw1atLcMZMYwF1/CifRnfWrCLnitB0TgnF5xQbqJ4GF+qSf++JDQeqE/PahTgP1HqtTkk+2I4Kl87BGBXAbg2F4d1+fG2xxMZyjN4E3YxvDuiQgoYzLucVSxHKGDZZc8KV3FKLmQj0TPigJlZN8sYRZFFCTZJw8+FlZZWKAxZnstL2q6pyO+zcRMSx4fF2KXWW6uIKboD5XnTYRQdDwXsNlaD9e/6S9Og1jGzw==
+X-YMail-OSG: M8WWO7QVM1nGKOBSHRC0EBbGzbTqdmaWhyGmkIWHTHWXor70ZexqgZR7qvQWNr8
+ X6fOXm_u.uh0UhehxcfI8pDQyvOutVlljIKOVTzhEDFTUF_wtAyKbxMzjskcsdYV5vf7p6vVM4D7
+ hqZ0ySgSqib1TkhOnbjtGAnxPmaKaXfX5k_dmrdGhdbdWwvctk2D3onKDPwZ509YtEMhhlR6H3qR
+ _KFzJu8L_2LidkkAT7Zjkovnk4SVSV62Rx8P1QTos9pysbOSw4K8tlFg2VhnLUcuqAYaB.43wIaX
+ K13lVEJXckHiB70hXUdCpnYnQMaKd5L4wQ.pgimdVS3gM8bQBMNANFVwDuYOI.1T9.oWCq_h7fdL
+ Xsa0QtKYOqPPOzq3QtG6sthVd1R4V5aiJ3Mod59E9k4R8I_TlOm4DYgCYP3J_jnWP2qT7HgW20vD
+ zvk7Dlp.6xHGqfMnIan9CJqWweKKGtwvj0pfX6Uj3zSVmmP8ZetofnOUJ3arhZN5zcV4bxEAYLCf
+ AcfDeuKrxZIQKPM..npzvjKZpV3BAazPbzdSRAkmboEXRuALAezxG42wQqhz.yhK6yl5qSsek6xN
+ W0bTdtTi_qqhLx7CJ6cbAbZIz6RscGX8wdkklmJLPk6xUQw7pdHAEWB0.4RCJLWRPYiVyk2L6pAM
+ DrUrzGkqx7YSMEY1dMKwD3qkL3dFypZNyUtHH0JyM8meMhZras1kFewmk1BJ1PWQvMkBfKUm.fXC
+ 3A.LcPDlxK9UsvZJLXrnQjeaRF1XpXmXKw8TmTf4GKARtoKV.6_PTxAmBpyhVj.bOA1Nq2nNDNtb
+ mGAFguJ0yI1iX_JImwgFlcw9OEHcV2BlbRNjEa7bVi7CSN3loqEY_tIljIQclIIh2Go1ZD56H8am
+ ozr8Hid2exW8AF1ShcMpD5vCD59zT638ugOz5DHIA4s36UtCGcmLQHbE.GJZu2lDHcJ5rs_oHLkw
+ la0esPNL0wQTVjvw-
+Date: Fri, 29 Jun 2018 02:49:40 +0000 (UTC)
+From: Marta Solis <marta_es325@yahoo.com>
+Reply-To: "marta_es325@yahoo.com" <marta_es325@yahoo.com>
+To: "sam@c-mtg.com" <sam@c-mtg.com>
+Message-ID:<713988748.116889.1530240580332@mail.yahoo.com>
+In-Reply-To: <EF9E1989-AE9A-4A27-8DC8-A000DF3E2F80@c-mtg.com>
+References: <EF9E1989-AE9A-4A27-8DC8-A000DF3E2F80@c-mtg.com>
+Subject: Re: Summer Nanny
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_116888_1671186119.1530240580331"
+X-Mailer: WebService/1.1.12062 YahooMailAndroidMobile YMobile/1.0 (com.yahoo.mobile.client.android.mail/5.27.4; Android/8.0.0; R16NW; dream2qlteue; samsung; SM-G955U1; 5.98; 2094x1080;)
+Content-Length: 5147
+X-ZohoMail-DKIM: pass (identity @yahoo.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_NDS SPK
+X-ZM-MESSAGEID: 1530240582093000001
+X-ZohoMail-Status: 1
+
+
+------=_Part_116888_1671186119.1530240580331
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello Sam, thank you for getting back to me, I was wondering what schedule =
+you have in mind? Dates and time?=C2=A0
+
+Sent from Yahoo Mail on Android=20
+=20
+  On Tue, Jun 26, 2018 at 1:11 PM, Sam Tehranchi<sam@c-mtg.com> wrote:   Hi=
+ Martha, I received your contact info from sitter city.com and wanted to se=
+e what your availability is for the summer. =C2=A0
+Here is copy of the job post you applied for on sitter city.com
+"Looking for a nanny to play with our 7 year old daughter during some of th=
+e summer weeks. =C2=A0Activities include going to the pool, playing with to=
+ys, doing some intellectual activities and outdoor activities.=E2=80=9D
+Please advise at your convenience. =C2=A0Thank you
+Respectfully, =C2=A0=C2=A0
+
+=C2=A0
+Sam Tehranchi
+
+=C2=A0
+COO
+Custom Mortgage and Realty=C2=A0
+NMLS CA # 1556995 - BRE CA #=C2=A002018146
+=C2=A0
+Direct 310.709.6304 -Efax 866.421.7694=C2=A0
+
+sam@c-mtg.com=C2=A0-=C2=A0www.c-mtg.com
+
+LinkedIn=C2=A0-=C2=A0Facebook=C2=A0-=C2=A0twitter=C2=A0-=C2=A0Instagram
+
+
+ =20
+
+------=_Part_116888_1671186119.1530240580331
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello Sam, thank you for getting back to me, I was wondering what schedule =
+you have in mind? Dates and time?&nbsp;<br id=3D"yMail_cursorElementTracker=
+_1530240526225"><br><div id=3D"ymail_android_signature"><a href=3D"https://=
+go.onelink.me/107872968?pid=3DInProduct&amp;c=3DGlobal_Internal_YGrowth_And=
+roidEmailSig__AndroidUsers&amp;af_wl=3Dym&amp;af_sub1=3DInternal&amp;af_sub=
+2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSignature">Sent from Yahoo Mail on An=
+droid</a></div> <br> <blockquote style=3D"margin: 0 0 20px 0;"> <div style=
+=3D"font-family:Roboto, sans-serif; color:#6D00F6;"> <div>On Tue, Jun 26, 2=
+018 at 1:11 PM, Sam Tehranchi</div><div>&lt;sam@c-mtg.com&gt; wrote:</div> =
+</div> <div style=3D"padding: 10px 0 0 20px; margin: 10px 0 0 0; border-lef=
+t: 1px solid #6D00F6;"> <div id=3D"yiv4731810450"><div>Hi Martha, I receive=
+d your contact info from sitter <a rel=3D"nofollow" target=3D"_blank" href=
+=3D"http://city.com" class=3D"yiv4731810450">city.com</a> and wanted to see=
+ what your availability is for the summer. &nbsp;<div class=3D"yiv473181045=
+0"><br class=3D"yiv4731810450"></div><div class=3D"yiv4731810450">Here is c=
+opy of the job post you applied for on sitter <a rel=3D"nofollow" target=3D=
+"_blank" href=3D"http://city.com" class=3D"yiv4731810450">city.com</a></div=
+><div class=3D"yiv4731810450"><br class=3D"yiv4731810450"></div><div class=
+=3D"yiv4731810450">"Looking for a nanny to play with our 7 year old daughte=
+r during some of the summer weeks. &nbsp;Activities include going to the po=
+ol, playing with toys, doing some intellectual activities and outdoor activ=
+ities.=E2=80=9D</div><div class=3D"yiv4731810450"><br class=3D"yiv473181045=
+0"></div><div class=3D"yiv4731810450">Please advise at your convenience. &n=
+bsp;Thank you</div><div class=3D"yiv4731810450"><br class=3D"yiv4731810450"=
+><div class=3D"yiv4731810450">
+<div style=3D"color:rgb(0, 0, 0);letter-spacing:normal;text-indent:0px;text=
+-transform:none;white-space:normal;word-spacing:0px;text-decoration:none;wo=
+rd-wrap:break-word;" class=3D"yiv4731810450"><div style=3D"color:rgb(0, 0, =
+0);letter-spacing:normal;text-indent:0px;text-transform:none;white-space:no=
+rmal;word-spacing:0px;word-wrap:break-word;" class=3D"yiv4731810450">Respec=
+tfully, &nbsp;&nbsp;<br class=3D"yiv4731810450"><br class=3D"yiv4731810450"=
+>&nbsp;<br class=3D"yiv4731810450">Sam Tehranchi<br class=3D"yiv4731810450"=
+><br class=3D"yiv4731810450">&nbsp;<br class=3D"yiv4731810450">COO<br class=
+=3D"yiv4731810450">Custom Mortgage and Realty&nbsp;<br class=3D"yiv47318104=
+50">NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br class=3D"yiv4731810450">&=
+nbsp;<br class=3D"yiv4731810450">Direct 310.709.6304 -Efax 866.421.7694&nbs=
+p;<br class=3D"yiv4731810450"><br class=3D"yiv4731810450"><a rel=3D"nofollo=
+w" ymailto=3D"mailto:sam@c-mtg.com" target=3D"_blank" href=3D"mailto:sam@c-=
+mtg.com" class=3D"yiv4731810450">sam@c-mtg.com</a>&nbsp;-&nbsp;<a rel=3D"no=
+follow" target=3D"_blank" href=3D"http://www.c-mtg.com" class=3D"yiv4731810=
+450">www.c-mtg.com</a><br class=3D"yiv4731810450"><br class=3D"yiv473181045=
+0"><a rel=3D"nofollow" target=3D"_blank" href=3D"https://www.linkedin.com/c=
+ompany-beta/3477964" class=3D"yiv4731810450">LinkedIn</a>&nbsp;-&nbsp;<a re=
+l=3D"nofollow" target=3D"_blank" href=3D"https://www.facebook.com/Custom-Mo=
+rtgage-409842885783868/" class=3D"yiv4731810450">Facebook</a>&nbsp;-&nbsp;<=
+a rel=3D"nofollow" target=3D"_blank" href=3D"https://twitter.com/custommort=
+gage1" class=3D"yiv4731810450">twitter</a>&nbsp;-&nbsp;<a rel=3D"nofollow" =
+target=3D"_blank" href=3D"https://www.instagram.com/custommortgageinc/" cla=
+ss=3D"yiv4731810450">Instagram</a><br class=3D"yiv4731810450"><br class=3D"=
+yiv4731810450"></div></div>
+</div>
+<br class=3D"yiv4731810450"></div></div></div> </div> </blockquote>
+------=_Part_116888_1671186119.1530240580331--

@@ -1,0 +1,382 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.mail.yahoo.com designates 66.163.188.203 as permitted sender) client-ip=66.163.188.203; envelope-from=marta_es325@yahoo.com; helo=sonic311-22.consmr.mail.ne1.yahoo.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.mail.yahoo.com designates 66.163.188.203 as permitted sender)  smtp.mailfrom=marta_es325@yahoo.com;
+	dmarc=pass(p=reject dis=none)  header.from=yahoo.com
+Return-Path: <marta_es325@yahoo.com>
+Received: from sonic311-22.consmr.mail.ne1.yahoo.com (sonic311-22.consmr.mail.ne1.yahoo.com [66.163.188.203]) by mx.zohomail.com
+	with SMTPS id 1530288108595186.2434126066554; Fri, 29 Jun 2018 09:01:48 -0700 (PDT)
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic311.consmr.mail.ne1.yahoo.com with HTTP; Fri, 29 Jun 2018 16:01:47 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1530288107; bh=TtsBGbE+1YqpKrWHbbebHOjWOz4N/SQkfKrOZaKYQ78=; h=Date:From:Reply-To:To:In-Reply-To:References:Subject:From:Subject; b=hrL0AikSVJmK6wQ3Toy8+x2pNK2poA7knwXL9GlnAUAf4HLFJkFSCqFvHyiVVK2Tetey/zQa81ePYchzkSsGkswc05Uimd8F/DMZtWvQ/vk+hLWDbI+J3A7dq+7v/FnFjXRhWwbPXrfQCoVKzuDTfvAAnk7OEpeXUjm116Kgflwz7kB9Ujw4s4rukN3h19Ih1sAL1/EAnnCFZd2RlhPAMT8Dfl2iMO4bxnBSesrTVu2dx4fRDNkrHlLmrB3Ca3UTh0ul2Qshwa7KlY/NhABfnhQNpVP9kzonYcaUjIrseW4fS6dZheWabtNZopu6RIVLsUMRRrvw0N+RBBv4e0OqJw==
+X-YMail-OSG: ewY9VC8VM1liFxfyGtf0YR9LuRj1L99NdkQvtdRREkzNxZL_dZlUKL6aHubOEyJ
+ TTH2j5OWIC3xfmRImloHXyymRDRNmPId19NUMQAl2IE3g0aeLD01gitaGpXQ.5UndCfBf9PtYrfB
+ VZRJv6HJHiDpgNkmv4yhvX9.I0HkilB1HnOumOpvXUPeMmqNp32xWiyaKloseU1k04YsEV4ejUpB
+ NvnYRKYEQKumZJvn2lxcwrxpG.m5oWaU4vhXfK72QWkp8E3hvl7W9OWGKO6IvNZ3.c4a.CIoY.3c
+ .rPF5UpKvzEsl4HKv7lRHFsTEDnajh2sdm3WLtRiVplF3biFtPmVzplSJfHHkhnLmjwAMDrlD1WU
+ J4DwBlVdpj.G4WqC.OivYTc7EdewC9dbEC4jtWeTzWznPR8pSI64dyAmUP_m18m3cRZukWn4HB_5
+ sHDTFJPzyIx_PzkN9UgP0MoSoTWZ51RE.5Udcb3mUEXAP9KhpSM5qpObEpcadl0Qn.joe.79XSgq
+ 98cY8BQ__vIjNxgMJbb.dRuGivR0YnAu2.C76qkmkVVfRYh8QKETdKF2yTU1U3UDr6sjonjNMRWc
+ 2vXzuQ9UtiAChcRE5.shLo1EviUvNdP05ICxo.Pr8tsuS0IAE3VprnapUBLavM2BfxQRhPSQQh_V
+ ZhursrShVS.UcC5GDvIhVV270mkdpHVBkDugvHmjozpyfPZnGyddRjsUsc0bmUo2OUPM8f7PDt3g
+ odVu9tjgUPEDfadjAUcpQLQbqcdYcTFlzjsFbtQRC.wT0qzURG.W_oPwB0vQa6Mzo77B_s7YXMD1
+ btLnAVaoQ0EAB2qKAdnfEw6LejFO5pzq0S36GNPwleakVKbyvowmq0WqaUNFnznmosbAhHZx5EGl
+ YmCMfMRcmUIEgl729qF1J1V.2n5cpSb2VfAKlsyK3v6XrUj8UMU92glnKfpUCMZbQlp9ysJV9u1B
+ NwwrubFnWZiLdVO.pDAzi
+Date: Fri, 29 Jun 2018 16:01:46 +0000 (UTC)
+From: Marta Solis <marta_es325@yahoo.com>
+Reply-To: "marta_es325@yahoo.com" <marta_es325@yahoo.com>
+To: "sam@c-mtg.com" <sam@c-mtg.com>
+Message-ID:<155965720.344497.1530288106271@mail.yahoo.com>
+In-Reply-To: <868BF407-A7B2-4681-86B9-96B002B73F78@c-mtg.com>
+References: <EF9E1989-AE9A-4A27-8DC8-A000DF3E2F80@c-mtg.com> <713988748.116889.1530240580332@mail.yahoo.com> <BF1BD041-E35F-4349-AA42-A32EDAD218CC@c-mtg.com> <1997613162.316209.1530284581226@mail.yahoo.com> <1AE5946B-0DEB-45D0-8A47-457065FA4262@c-mtg.com> <1174831638.338983.1530286212374@mail.yahoo.com> <868BF407-A7B2-4681-86B9-96B002B73F78@c-mtg.com>
+Subject: Re: Summer Nanny
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_344496_425619721.1530288106265"
+X-Mailer: WebService/1.1.12062 YahooMailAndroidMobile YMobile/1.0 (com.yahoo.mobile.client.android.mail/5.27.4; Android/8.0.0; R16NW; dream2qlteue; samsung; SM-G955U1; 5.98; 2094x1080;)
+Content-Length: 19853
+X-ZohoMail-DKIM: pass (identity @yahoo.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_DI SPK
+X-ZM-MESSAGEID: 1530288110138000001
+X-ZohoMail-Status: 1
+
+
+------=_Part_344496_425619721.1530288106265
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ok, is there any days specific that you already have in mind? Just trying t=
+o check schedules and see if I'm available.=C2=A0
+
+Sent from Yahoo Mail on Android=20
+=20
+  On Fri, Jun 29, 2018 at 8:45 AM, Sam Tehranchi<sam@c-mtg.com> wrote:   Ye=
+s, currently, she had camp the 1st week of summer and was home the other 2 =
+weeks. =C2=A0It is pretty flexible and I work mostly from home so if there =
+is days that you can=E2=80=99t work, I can watch her myself.
+Respectfully, =C2=A0=C2=A0
+
+=C2=A0
+Sam Tehranchi
+
+=C2=A0
+COO
+Custom Mortgage and Realty=C2=A0
+NMLS CA # 1556995 - BRE CA #=C2=A002018146
+=C2=A0
+Direct 310.709.6304 -Efax 866.421.7694=C2=A0
+
+sam@c-mtg.com=C2=A0-=C2=A0www.c-mtg.com
+
+LinkedIn=C2=A0-=C2=A0Facebook=C2=A0-=C2=A0twitter=C2=A0-=C2=A0Instagram
+
+
+
+On Jun 29, 2018, at 8:30 AM, Marta Solis <marta_es325@yahoo.com> wrote:
+Ok, so this is more like an occasional summer time? If I'm getting that cor=
+rect? Just trying to understand it because I do have a day of each week tha=
+t alternates every week where I babysit a boy, so I wouldn't be available t=
+hat day of the week.=C2=A0
+
+Sent from Yahoo Mail on Android=20
+=20
+  On Fri, Jun 29, 2018 at 8:20 AM, Sam Tehranchi<sam@c-mtg.com> wrote:   We=
+ are at 2301 Roscomare Rd, 90077 and I was thinking 15 per hour.
+Respectfully, =C2=A0=C2=A0
+
+=C2=A0
+Sam Tehranchi
+
+=C2=A0
+COO
+Custom Mortgage and Realty=C2=A0
+NMLS CA # 1556995 - BRE CA #=C2=A002018146
+=C2=A0
+Direct 310.709.6304 -Efax 866.421.7694=C2=A0
+
+sam@c-mtg.com=C2=A0-=C2=A0www.c-mtg.com
+
+LinkedIn=C2=A0-=C2=A0Facebook=C2=A0-=C2=A0twitter=C2=A0-=C2=A0Instagram
+
+
+
+On Jun 29, 2018, at 8:03 AM, Marta Solis <marta_es325@yahoo.com> wrote:
+Ok. Where are you guys located and how much are you thinking paying the hr?=
+=C2=A0
+Sent from Yahoo Mail on Android=20
+=20
+  On Fri, Jun 29, 2018 at 8:00 AM, Sam Tehranchi<sam@c-mtg.com> wrote:   Hi=
+ Marta, I was thinking most weekdays from 10-3 for the summer. =C2=A0I am p=
+robably going to have her in camps for some of the weeks but the weeks she =
+is not in camp, I was thinking of doing 10 am to 3 pm for mon-fri of next w=
+eek and any other week she is not in camp.
+You would be mostly taking her to pool and playing with her at our place.
+
+Sent from my iPhone
+On Jun 28, 2018, at 7:49 PM, Marta Solis <marta_es325@yahoo.com> wrote:
+
+
+Hello Sam, thank you for getting back to me, I was wondering what schedule =
+you have in mind? Dates and time?=C2=A0
+
+Sent from Yahoo Mail on Android=20
+=20
+  On Tue, Jun 26, 2018 at 1:11 PM, Sam Tehranchi<sam@c-mtg.com> wrote:   Hi=
+ Martha, I received your contact info from sitter city.com and wanted to se=
+e what your availability is for the summer. =C2=A0
+Here is copy of the job post you applied for on sitter city.com
+"Looking for a nanny to play with our 7 year old daughter during some of th=
+e summer weeks. =C2=A0Activities include going to the pool, playing with to=
+ys, doing some intellectual activities and outdoor activities.=E2=80=9D
+Please advise at your convenience. =C2=A0Thank you
+Respectfully, =C2=A0=C2=A0
+
+=C2=A0
+Sam Tehranchi
+
+=C2=A0
+COO
+Custom Mortgage and Realty=C2=A0
+NMLS CA # 1556995 - BRE CA #=C2=A002018146
+=C2=A0
+Direct 310.709.6304 -Efax 866.421.7694=C2=A0
+
+sam@c-mtg.com=C2=A0-=C2=A0www.c-mtg.com
+
+LinkedIn=C2=A0-=C2=A0Facebook=C2=A0-=C2=A0twitter=C2=A0-=C2=A0Instagram
+
+
+ =20
+
+ =20
+
+
+ =20
+
+
+ =20
+
+------=_Part_344496_425619721.1530288106265
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ok, is there any days specific that you already have in mind? Just trying t=
+o check schedules and see if I'm available.&nbsp;<br id=3D"yMail_cursorElem=
+entTracker_1530288055032"><br><div id=3D"ymail_android_signature"><a href=
+=3D"https://go.onelink.me/107872968?pid=3DInProduct&amp;c=3DGlobal_Internal=
+_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=3Dym&amp;af_sub1=3DInterna=
+l&amp;af_sub2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSignature">Sent from Yaho=
+o Mail on Android</a></div> <br> <blockquote style=3D"margin: 0 0 20px 0;">=
+ <div style=3D"font-family:Roboto, sans-serif; color:#6D00F6;"> <div>On Fri=
+, Jun 29, 2018 at 8:45 AM, Sam Tehranchi</div><div>&lt;sam@c-mtg.com&gt; wr=
+ote:</div> </div> <div style=3D"padding: 10px 0 0 20px; margin: 10px 0 0 0;=
+ border-left: 1px solid #6D00F6;"> <div id=3D"yiv2493930333"><div>Yes, curr=
+ently, she had camp the 1st week of summer and was home the other 2 weeks. =
+&nbsp;It is pretty flexible and I work mostly from home so if there is days=
+ that you can=E2=80=99t work, I can watch her myself.<div class=3D"yiv24939=
+30333"><br clear=3D"none" class=3D"yiv2493930333"><div class=3D"yiv24939303=
+33">
+<div class=3D"yiv2493930333" style=3D"color:rgb(0, 0, 0);letter-spacing:nor=
+mal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px=
+;text-decoration:none;word-wrap:break-word;"><div class=3D"yiv2493930333" s=
+tyle=3D"color:rgb(0, 0, 0);letter-spacing:normal;text-indent:0px;text-trans=
+form:none;white-space:normal;word-spacing:0px;word-wrap:break-word;">Respec=
+tfully, &nbsp;&nbsp;<br clear=3D"none" class=3D"yiv2493930333"><br clear=3D=
+"none" class=3D"yiv2493930333">&nbsp;<br clear=3D"none" class=3D"yiv2493930=
+333">Sam Tehranchi<br clear=3D"none" class=3D"yiv2493930333"><br clear=3D"n=
+one" class=3D"yiv2493930333">&nbsp;<br clear=3D"none" class=3D"yiv249393033=
+3">COO<br clear=3D"none" class=3D"yiv2493930333">Custom Mortgage and Realty=
+&nbsp;<br clear=3D"none" class=3D"yiv2493930333">NMLS CA # 1556995 - BRE CA=
+ #&nbsp;02018146<br clear=3D"none" class=3D"yiv2493930333">&nbsp;<br clear=
+=3D"none" class=3D"yiv2493930333">Direct 310.709.6304 -Efax 866.421.7694&nb=
+sp;<br clear=3D"none" class=3D"yiv2493930333"><br clear=3D"none" class=3D"y=
+iv2493930333"><a rel=3D"nofollow" shape=3D"rect" class=3D"yiv2493930333" ym=
+ailto=3D"mailto:sam@c-mtg.com" target=3D"_blank" href=3D"mailto:sam@c-mtg.c=
+om">sam@c-mtg.com</a>&nbsp;-&nbsp;<a rel=3D"nofollow" shape=3D"rect" class=
+=3D"yiv2493930333" target=3D"_blank" href=3D"http://www.c-mtg.com">www.c-mt=
+g.com</a><br clear=3D"none" class=3D"yiv2493930333"><br clear=3D"none" clas=
+s=3D"yiv2493930333"><a rel=3D"nofollow" shape=3D"rect" class=3D"yiv24939303=
+33" target=3D"_blank" href=3D"https://www.linkedin.com/company-beta/3477964=
+">LinkedIn</a>&nbsp;-&nbsp;<a rel=3D"nofollow" shape=3D"rect" class=3D"yiv2=
+493930333" target=3D"_blank" href=3D"https://www.facebook.com/Custom-Mortga=
+ge-409842885783868/">Facebook</a>&nbsp;-&nbsp;<a rel=3D"nofollow" shape=3D"=
+rect" class=3D"yiv2493930333" target=3D"_blank" href=3D"https://twitter.com=
+/custommortgage1">twitter</a>&nbsp;-&nbsp;<a rel=3D"nofollow" shape=3D"rect=
+" class=3D"yiv2493930333" target=3D"_blank" href=3D"https://www.instagram.c=
+om/custommortgageinc/">Instagram</a><br clear=3D"none" class=3D"yiv24939303=
+33"><br clear=3D"none" class=3D"yiv2493930333"></div></div>
+</div>
+<div class=3D"yiv2493930333yqt7564995606 yQTDBase" id=3D"yiv2493930333yqt11=
+050"><div><br clear=3D"none" class=3D"yiv2493930333"><blockquote class=3D"y=
+iv2493930333" type=3D"cite"><div class=3D"yiv2493930333">On Jun 29, 2018, a=
+t 8:30 AM, Marta Solis &lt;<a rel=3D"nofollow" shape=3D"rect" class=3D"yiv2=
+493930333" ymailto=3D"mailto:marta_es325@yahoo.com" target=3D"_blank" href=
+=3D"mailto:marta_es325@yahoo.com">marta_es325@yahoo.com</a>&gt; wrote:</div=
+><br clear=3D"none" class=3D"yiv2493930333Apple-interchange-newline"><div c=
+lass=3D"yiv2493930333">Ok, so this is more like an occasional summer time? =
+If I'm getting that correct? Just trying to understand it because I do have=
+ a day of each week that alternates every week where I babysit a boy, so I =
+wouldn't be available that day of the week.&nbsp;<br clear=3D"none" class=
+=3D"yiv2493930333" id=3D"yiv2493930333yMail_cursorElementTracker_1530286096=
+988"><br clear=3D"none" class=3D"yiv2493930333"><div class=3D"yiv2493930333=
+" id=3D"yiv2493930333ymail_android_signature"><a rel=3D"nofollow" shape=3D"=
+rect" class=3D"yiv2493930333" target=3D"_blank" href=3D"https://go.onelink.=
+me/107872968?pid=3DInProduct&amp;c=3DGlobal_Internal_YGrowth_AndroidEmailSi=
+g__AndroidUsers&amp;af_wl=3Dym&amp;af_sub1=3DInternal&amp;af_sub2=3DGlobal_=
+YGrowth&amp;af_sub3=3DEmailSignature">Sent from Yahoo Mail on Android</a></=
+div> <br clear=3D"none" class=3D"yiv2493930333"> <blockquote class=3D"yiv24=
+93930333" style=3D"margin:0 0 20px 0;"> <div class=3D"yiv2493930333" style=
+=3D"font-family:Roboto, sans-serif;color:#6D00F6;"> <div class=3D"yiv249393=
+0333">On Fri, Jun 29, 2018 at 8:20 AM, Sam Tehranchi</div><div class=3D"yiv=
+2493930333">&lt;<a rel=3D"nofollow" shape=3D"rect" class=3D"yiv2493930333" =
+ymailto=3D"mailto:sam@c-mtg.com" target=3D"_blank" href=3D"mailto:sam@c-mtg=
+.com">sam@c-mtg.com</a>&gt; wrote:</div> </div> <div class=3D"yiv2493930333=
+" style=3D"padding:10px 0 0 20px;margin:10px 0 0 0;border-left:1px solid #6=
+D00F6;"> <div class=3D"yiv2493930333" id=3D"yiv2493930333"><div class=3D"yi=
+v2493930333">We are at 2301 Roscomare Rd, 90077 and I was thinking 15 per h=
+our.<div class=3D"yiv2493930333"><br clear=3D"none" class=3D"yiv2493930333"=
+><div class=3D"yiv2493930333">
+<div class=3D"yiv2493930333" style=3D"letter-spacing:normal;text-indent:0px=
+;text-transform:none;white-space:normal;word-spacing:0px;text-decoration:no=
+ne;word-wrap:break-word;"><div class=3D"yiv2493930333" style=3D"letter-spac=
+ing:normal;text-indent:0px;text-transform:none;white-space:normal;word-spac=
+ing:0px;word-wrap:break-word;">Respectfully, &nbsp;&nbsp;<br clear=3D"none"=
+ class=3D"yiv2493930333"><br clear=3D"none" class=3D"yiv2493930333">&nbsp;<=
+br clear=3D"none" class=3D"yiv2493930333">Sam Tehranchi<br clear=3D"none" c=
+lass=3D"yiv2493930333"><br clear=3D"none" class=3D"yiv2493930333">&nbsp;<br=
+ clear=3D"none" class=3D"yiv2493930333">COO<br clear=3D"none" class=3D"yiv2=
+493930333">Custom Mortgage and Realty&nbsp;<br clear=3D"none" class=3D"yiv2=
+493930333">NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br clear=3D"none" cla=
+ss=3D"yiv2493930333">&nbsp;<br clear=3D"none" class=3D"yiv2493930333">Direc=
+t 310.709.6304 -Efax 866.421.7694&nbsp;<br clear=3D"none" class=3D"yiv24939=
+30333"><br clear=3D"none" class=3D"yiv2493930333"><a rel=3D"nofollow" shape=
+=3D"rect" class=3D"yiv2493930333" ymailto=3D"mailto:sam@c-mtg.com" target=
+=3D"_blank" href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&nbsp;-&nbsp;<a =
+rel=3D"nofollow" shape=3D"rect" class=3D"yiv2493930333" target=3D"_blank" h=
+ref=3D"http://www.c-mtg.com/">www.c-mtg.com</a><br clear=3D"none" class=3D"=
+yiv2493930333"><br clear=3D"none" class=3D"yiv2493930333"><a rel=3D"nofollo=
+w" shape=3D"rect" class=3D"yiv2493930333" target=3D"_blank" href=3D"https:/=
+/www.linkedin.com/company-beta/3477964">LinkedIn</a>&nbsp;-&nbsp;<a rel=3D"=
+nofollow" shape=3D"rect" class=3D"yiv2493930333" target=3D"_blank" href=3D"=
+https://www.facebook.com/Custom-Mortgage-409842885783868/">Facebook</a>&nbs=
+p;-&nbsp;<a rel=3D"nofollow" shape=3D"rect" class=3D"yiv2493930333" target=
+=3D"_blank" href=3D"https://twitter.com/custommortgage1">twitter</a>&nbsp;-=
+&nbsp;<a rel=3D"nofollow" shape=3D"rect" class=3D"yiv2493930333" target=3D"=
+_blank" href=3D"https://www.instagram.com/custommortgageinc/">Instagram</a>=
+<br clear=3D"none" class=3D"yiv2493930333"><br clear=3D"none" class=3D"yiv2=
+493930333"></div></div>
+</div>
+<div class=3D"yiv2493930333yqt9961870226 yiv2493930333yQTDBase" id=3D"yiv24=
+93930333yqt38748"><div class=3D"yiv2493930333" style=3D""><br clear=3D"none=
+" class=3D"yiv2493930333"><blockquote class=3D"yiv2493930333" type=3D"cite"=
+><div class=3D"yiv2493930333">On Jun 29, 2018, at 8:03 AM, Marta Solis &lt;=
+<a rel=3D"nofollow" shape=3D"rect" class=3D"yiv2493930333" ymailto=3D"mailt=
+o:marta_es325@yahoo.com" target=3D"_blank" href=3D"mailto:marta_es325@yahoo=
+.com">marta_es325@yahoo.com</a>&gt; wrote:</div><br clear=3D"none" class=3D=
+"yiv2493930333Apple-interchange-newline"><div class=3D"yiv2493930333">Ok. W=
+here are you guys located and how much are you thinking paying the hr?&nbsp=
+;<div class=3D"yiv2493930333" id=3D"yiv2493930333yMail_cursorElementTracker=
+_1530284569252"><br clear=3D"none" class=3D"yiv2493930333"><div class=3D"yi=
+v2493930333" id=3D"yiv2493930333ymail_android_signature"><a rel=3D"nofollow=
+" shape=3D"rect" class=3D"yiv2493930333" target=3D"_blank" href=3D"https://=
+go.onelink.me/107872968?pid=3DInProduct&amp;c=3DGlobal_Internal_YGrowth_And=
+roidEmailSig__AndroidUsers&amp;af_wl=3Dym&amp;af_sub1=3DInternal&amp;af_sub=
+2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSignature">Sent from Yahoo Mail on An=
+droid</a></div> <br clear=3D"none" class=3D"yiv2493930333"> <blockquote cla=
+ss=3D"yiv2493930333" style=3D"margin:0 0 20px 0;"> <div class=3D"yiv2493930=
+333" style=3D"font-family:Roboto, sans-serif;color:#6D00F6;"> <div class=3D=
+"yiv2493930333">On Fri, Jun 29, 2018 at 8:00 AM, Sam Tehranchi</div><div cl=
+ass=3D"yiv2493930333">&lt;<a rel=3D"nofollow" shape=3D"rect" class=3D"yiv24=
+93930333" ymailto=3D"mailto:sam@c-mtg.com" target=3D"_blank" href=3D"mailto=
+:sam@c-mtg.com">sam@c-mtg.com</a>&gt; wrote:</div> </div> <div class=3D"yiv=
+2493930333" style=3D"padding:10px 0 0 20px;margin:10px 0 0 0;border-left:1p=
+x solid #6D00F6;"> <div class=3D"yiv2493930333" id=3D"yiv2493930333"><div c=
+lass=3D"yiv2493930333"><div class=3D"yiv2493930333"><span class=3D"yiv24939=
+30333"></span></div><div class=3D"yiv2493930333">Hi Marta, I was thinking m=
+ost weekdays from 10-3 for the summer. &nbsp;I am probably going to have he=
+r in camps for some of the weeks but the weeks she is not in camp, I was th=
+inking of doing 10 am to 3 pm for mon-fri of next week and any other week s=
+he is not in camp.</div><div class=3D"yiv2493930333"><br clear=3D"none" cla=
+ss=3D"yiv2493930333"></div><div class=3D"yiv2493930333">You would be mostly=
+ taking her to pool and playing with her at our place.<br clear=3D"none" cl=
+ass=3D"yiv2493930333"><br clear=3D"none" class=3D"yiv2493930333"><div class=
+=3D"yiv2493930333" id=3D"yiv2493930333AppleMailSignature">Sent from my iPho=
+ne</div><div class=3D"yiv2493930333yqt3428211088 yiv2493930333yQTDBase" id=
+=3D"yiv2493930333yqt95874"><div class=3D"yiv2493930333"><br clear=3D"none" =
+class=3D"yiv2493930333">On Jun 28, 2018, at 7:49 PM, Marta Solis &lt;<a rel=
+=3D"nofollow" shape=3D"rect" class=3D"yiv2493930333" ymailto=3D"mailto:mart=
+a_es325@yahoo.com" target=3D"_blank" href=3D"mailto:marta_es325@yahoo.com">=
+marta_es325@yahoo.com</a>&gt; wrote:<br clear=3D"none" class=3D"yiv24939303=
+33"><br clear=3D"none" class=3D"yiv2493930333"></div><blockquote class=3D"y=
+iv2493930333" type=3D"cite"><div class=3D"yiv2493930333">Hello Sam, thank y=
+ou for getting back to me, I was wondering what schedule you have in mind? =
+Dates and time?&nbsp;<br clear=3D"none" class=3D"yiv2493930333" id=3D"yiv24=
+93930333yMail_cursorElementTracker_1530240526225"><br clear=3D"none" class=
+=3D"yiv2493930333"><div class=3D"yiv2493930333" id=3D"yiv2493930333ymail_an=
+droid_signature"><a rel=3D"nofollow" shape=3D"rect" class=3D"yiv2493930333"=
+ target=3D"_blank" href=3D"https://go.onelink.me/107872968?pid=3DInProduct&=
+amp;c=3DGlobal_Internal_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=3Dy=
+m&amp;af_sub1=3DInternal&amp;af_sub2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSi=
+gnature">Sent from Yahoo Mail on Android</a></div> <br clear=3D"none" class=
+=3D"yiv2493930333"> <blockquote class=3D"yiv2493930333" style=3D"margin:0 0=
+ 20px 0;"> <div class=3D"yiv2493930333" style=3D"font-family:Roboto, sans-s=
+erif;color:#6D00F6;"> <div class=3D"yiv2493930333">On Tue, Jun 26, 2018 at =
+1:11 PM, Sam Tehranchi</div><div class=3D"yiv2493930333">&lt;<a rel=3D"nofo=
+llow" shape=3D"rect" class=3D"yiv2493930333" ymailto=3D"mailto:sam@c-mtg.co=
+m" target=3D"_blank" href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&gt; wr=
+ote:</div> </div> <div class=3D"yiv2493930333" style=3D"padding:10px 0 0 20=
+px;margin:10px 0 0 0;border-left:1px solid #6D00F6;"> <div class=3D"yiv2493=
+930333" id=3D"yiv2493930333"><div class=3D"yiv2493930333">Hi Martha, I rece=
+ived your contact info from sitter <a rel=3D"nofollow" shape=3D"rect" class=
+=3D"yiv2493930333" target=3D"_blank" href=3D"http://city.com/">city.com</a>=
+ and wanted to see what your availability is for the summer. &nbsp;<div cla=
+ss=3D"yiv2493930333"><br clear=3D"none" class=3D"yiv2493930333"></div><div =
+class=3D"yiv2493930333">Here is copy of the job post you applied for on sit=
+ter <a rel=3D"nofollow" shape=3D"rect" class=3D"yiv2493930333" target=3D"_b=
+lank" href=3D"http://city.com/">city.com</a></div><div class=3D"yiv24939303=
+33"><br clear=3D"none" class=3D"yiv2493930333"></div><div class=3D"yiv24939=
+30333">"Looking for a nanny to play with our 7 year old daughter during som=
+e of the summer weeks. &nbsp;Activities include going to the pool, playing =
+with toys, doing some intellectual activities and outdoor activities.=E2=80=
+=9D</div><div class=3D"yiv2493930333"><br clear=3D"none" class=3D"yiv249393=
+0333"></div><div class=3D"yiv2493930333">Please advise at your convenience.=
+ &nbsp;Thank you</div><div class=3D"yiv2493930333"><br clear=3D"none" class=
+=3D"yiv2493930333"><div class=3D"yiv2493930333">
+<div class=3D"yiv2493930333" style=3D"letter-spacing:normal;text-indent:0px=
+;text-transform:none;white-space:normal;word-spacing:0px;text-decoration:no=
+ne;word-wrap:break-word;"><div class=3D"yiv2493930333" style=3D"letter-spac=
+ing:normal;text-indent:0px;text-transform:none;white-space:normal;word-spac=
+ing:0px;word-wrap:break-word;">Respectfully, &nbsp;&nbsp;<br clear=3D"none"=
+ class=3D"yiv2493930333"><br clear=3D"none" class=3D"yiv2493930333">&nbsp;<=
+br clear=3D"none" class=3D"yiv2493930333">Sam Tehranchi<br clear=3D"none" c=
+lass=3D"yiv2493930333"><br clear=3D"none" class=3D"yiv2493930333">&nbsp;<br=
+ clear=3D"none" class=3D"yiv2493930333">COO<br clear=3D"none" class=3D"yiv2=
+493930333">Custom Mortgage and Realty&nbsp;<br clear=3D"none" class=3D"yiv2=
+493930333">NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br clear=3D"none" cla=
+ss=3D"yiv2493930333">&nbsp;<br clear=3D"none" class=3D"yiv2493930333">Direc=
+t 310.709.6304 -Efax 866.421.7694&nbsp;<br clear=3D"none" class=3D"yiv24939=
+30333"><br clear=3D"none" class=3D"yiv2493930333"><a rel=3D"nofollow" shape=
+=3D"rect" class=3D"yiv2493930333" ymailto=3D"mailto:sam@c-mtg.com" target=
+=3D"_blank" href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&nbsp;-&nbsp;<a =
+rel=3D"nofollow" shape=3D"rect" class=3D"yiv2493930333" target=3D"_blank" h=
+ref=3D"http://www.c-mtg.com/">www.c-mtg.com</a><br clear=3D"none" class=3D"=
+yiv2493930333"><br clear=3D"none" class=3D"yiv2493930333"><a rel=3D"nofollo=
+w" shape=3D"rect" class=3D"yiv2493930333" target=3D"_blank" href=3D"https:/=
+/www.linkedin.com/company-beta/3477964">LinkedIn</a>&nbsp;-&nbsp;<a rel=3D"=
+nofollow" shape=3D"rect" class=3D"yiv2493930333" target=3D"_blank" href=3D"=
+https://www.facebook.com/Custom-Mortgage-409842885783868/">Facebook</a>&nbs=
+p;-&nbsp;<a rel=3D"nofollow" shape=3D"rect" class=3D"yiv2493930333" target=
+=3D"_blank" href=3D"https://twitter.com/custommortgage1">twitter</a>&nbsp;-=
+&nbsp;<a rel=3D"nofollow" shape=3D"rect" class=3D"yiv2493930333" target=3D"=
+_blank" href=3D"https://www.instagram.com/custommortgageinc/">Instagram</a>=
+<br clear=3D"none" class=3D"yiv2493930333"><br clear=3D"none" class=3D"yiv2=
+493930333"></div></div>
+</div>
+<br clear=3D"none" class=3D"yiv2493930333"></div></div></div> </div> </bloc=
+kquote></div></blockquote></div></div></div></div> </div> </blockquote></di=
+v></div></blockquote></div></div><br clear=3D"none" class=3D"yiv2493930333"=
+></div></div></div> </div> </blockquote></div></blockquote></div></div><br =
+clear=3D"none" class=3D"yiv2493930333"></div></div></div> </div> </blockquo=
+te>
+------=_Part_344496_425619721.1530288106265--

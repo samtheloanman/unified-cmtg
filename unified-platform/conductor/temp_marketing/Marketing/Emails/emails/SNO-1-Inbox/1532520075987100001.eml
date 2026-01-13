@@ -1,0 +1,385 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of bounce.e.fanniemae.com designates 136.147.139.192 as permitted sender) client-ip=136.147.139.192; envelope-from=bounce-5131538_HTML-1556343692-41448791-10965074-44@bounce.e.fanniemae.com; helo=mta2.e.fanniemae.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=fanniemae_info@fanniemae.com;
+	spf=pass (zoho.com: domain of bounce.e.fanniemae.com designates 136.147.139.192 as permitted sender)  smtp.mailfrom=bounce-5131538_HTML-1556343692-41448791-10965074-44@bounce.e.fanniemae.com;
+	dmarc=pass(p=reject dis=none)  header.from=fanniemae.com
+Return-Path: <bounce-5131538_HTML-1556343692-41448791-10965074-44@bounce.e.fanniemae.com>
+Received: from mta2.e.fanniemae.com (mta2.e.fanniemae.com [136.147.139.192]) by mx.zohomail.com
+	with SMTPS id 1532520074714266.80812294776274; Wed, 25 Jul 2018 05:01:14 -0700 (PDT)
+Received: by mta2.e.fanniemae.com id hb1j8k163hst for <sam@c-mtg.com>; Wed, 25 Jul 2018 12:01:13 +0000 (envelope-from <bounce-5131538_HTML-1556343692-41448791-10965074-44@bounce.e.fanniemae.com>)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=200608; d=fanniemae.com;
+ h=From:To:Subject:Date:MIME-Version:List-ID:Message-ID:Content-Type; i=fanniemae_info@fanniemae.com;
+ bh=R9eR6f8cKsJsjAF2r4B4n3UKTa0=;
+ b=VMuJajkVIGSeSSqLtdZmGWzmSpWYuRJE3Inw+7tJXCKlfalDWyXhgEEd/ee9a5hO4VdR5UoyME+M
+   AqpOMlHgKDYChssWtP420zG9TsJCxztondOVBZn9naMu93z4fYfIdnFM/X0y3obxucrS/4uoyney
+   4wtIbrNZ6ui8dQu+wG8=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=200608; d=fanniemae.com;
+ b=ZwTPhSC175Gm+JIr095Yu1SXR6Tz79n459/FTx39uxNRnCe7iitj9GMTt2cFBk1XOlUUC+Ssb/PT
+   sjVOGeIN5jEVvRHNqLMP2Hgt7dc8avL+W+jEJcy15FBijQOGzHqQu01IanxB+nQKC/D0tR5vZ6XF
+   ES3Te4/wsCEmlYpHeI4=;
+From: "Fannie Mae Single-Family" <fanniemae_info@fanniemae.com>
+To: <sam@c-mtg.com>
+Subject: DU 10.2 September Update release notes available
+Date: Wed, 25 Jul 2018 06:01:13 -0600
+MIME-Version: 1.0
+List-ID: <10960068.xt.local>
+X-CSA-Complaints: whitelistcomplaints@eco.de
+x-job: 10965074_41448791
+Message-ID:<f3e8a682-1553-4082-84d9-00d5314ef628@xtinmta4294.xt.local>
+Content-Type: multipart/alternative;
+	boundary="uYiHtZcue3VO=_?:"
+X-ZohoMail-DKIM: pass (identity fanniemae_info@fanniemae.com)
+X-ZohoMail-Owner: <f3e8a682-1553-4082-84d9-00d5314ef628@xtinmta4294.xt.local>+zmo_0_bounce-5131538_HTML-1556343692-41448791-10965074-44@bounce.e.fanniemae.com
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  PMF_BCN_IMG_GIP PMF_LNK_IMG_GIP Ex_2 SS_1 IS_0 EML_0 DMN_0 EDR_100 COSF LNKP UMS_WB UNK_O_0 UNK_U_0 SIP_KGR_0 RPD_KGR_0 SDFE_NA_MXPR_0 ZMHF_701_2  SC_2 SGR3_1_2_0_168_671
+X-ZM-MESSAGEID: 1532520075987100001
+X-ZohoMail-Status: 1
+
+
+This is a multi-part message in MIME format.
+
+--uYiHtZcue3VO=_?:
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Fannie Mae Announcement
+
+https://view=2Eexacttarget=2Ecom/?qs=3D7501f1a03a04cee9b773af37d54881db1b87=
+9509bcede27ea6d622d054f363b09e706b7763415eb40f2fdc1a8b391148a6fed5fe712baf8=
+cefd3519264568f3320337c0d190552eb2d22d14fa4fb163a234260c40efce370 
+View in Browser
+
+July 25, 2018
+
+https://cl=2Eexct=2Enet/?qs=3Dccde60cb59d136ebbbfbbb07f527b81ed48cbee7626c1=
+47b7b8f16a40e8efdb166f52f175f6c6e88179fbabd2b818779f434bbeaee51b69f 
+    
+https://cl=2Eexct=2Enet/?qs=3Dccde60cb59d136eb4faff2b0310531f9705b5dd21f784=
+fe141e4ce80fa83b4e846fce5dc634ade4f346cbc34fddb487ea6d70f5a16aa1e3e 
+    
+https://cl=2Eexct=2Enet/?qs=3Dccde60cb59d136eb6f756ad1493799abb8ba7044cab81=
+50f4f7618f58dda471b9c0df77a17b138c66d9c39d0f4e5e9c25a038f571066cc13 
+    
+https://cl=2Eexct=2Enet/?qs=3D43bb5cedf3100477e01565de9a22f062eb9192d06e76b=
+4e16987aec27076112428851df1457ff99f9b0e5102e67839a6c5b024283e515084 
+
+DU 10=2E2 September Update release notes available
+
+During the weekend of Sept=2E 22, 2018, Fannie Mae will implement an update=
+ to Desktop Underwriter(r) (DU(r)) Version 10=2E2=2E This release includes =
+the new high loan-to-value (LTV) refinance option designed for Fannie Mae b=
+orrowers who are making their mortgage payments on time, but whose LTV rati=
+os exceed the maximum allowed for standard limited cash-out refinance trans=
+actions in the Selling Guide=2E 
+
+This release also includes the following:
+
+	- DU Validation Service Modification
+	- Updates to Align with the Selling Guide
+The changes in this release will apply to DU Version 10=2E2 loan casefiles =
+submitted or resubmitted to DU on or after the weekend of Sept=2E 22, 2018=
+=2E The high LTV refinance option will be implemented in DU Version 10=2E2 =
+the weekend of Sept=2E 22; however, only limited cash-out refinance loan ca=
+sefiles that are created on or after Nov=2E 1, 2018 will be eligible for th=
+e high LTV refinance option=2E
+
+View the 
+https://cl=2Eexct=2Enet/?qs=3D43bb5cedf31004775c4daaaf560a1eeb952d4c52215a9=
+eaad73e5bbe8066fdc96e7adab3a09aea82f179ba07a97ac2ea2d46351f56772946 
+release notes on our website for more details=2E
+
+ 
+
+https://cl=2Eexct=2Enet/?qs=3D43bb5cedf31004777732fea2d2f6dabeeb7fda4280b77=
+bd085ce46aeaa1a23b094b596afdb8c1484ef77f762c12e81452116bd87adaacc60 
+
+ 
+
+https://cl=2Eexct=2Enet/?qs=3Dccde60cb59d136ebbbfbbb07f527b81ed48cbee7626c1=
+47b7b8f16a40e8efdb166f52f175f6c6e88179fbabd2b818779f434bbeaee51b69f 
+    
+https://cl=2Eexct=2Enet/?qs=3Dccde60cb59d136eb4faff2b0310531f9705b5dd21f784=
+fe141e4ce80fa83b4e846fce5dc634ade4f346cbc34fddb487ea6d70f5a16aa1e3e 
+    
+https://cl=2Eexct=2Enet/?qs=3Dccde60cb59d136eb6f756ad1493799abb8ba7044cab81=
+50f4f7618f58dda471b9c0df77a17b138c66d9c39d0f4e5e9c25a038f571066cc13 
+    
+https://cl=2Eexct=2Enet/?qs=3D43bb5cedf3100477e01565de9a22f062eb9192d06e76b=
+4e16987aec27076112428851df1457ff99f9b0e5102e67839a6c5b024283e515084 
+
+https://cl=2Eexct=2Enet/?qs=3D43bb5cedf31004771fe6260ba8ce25aca143c499e7c8c=
+b5851b2bf1bfe8b4cc2e0d4ef639a8a459992e169103120cc607e27538385125dcd 
+Fannie Mae    
+https://cl=2Eexct=2Enet/?qs=3D43bb5cedf3100477a10d21681280c5a586d50b7108e25=
+1c7ec5f556082c3f2d987394e6a5a3ba86158f71382bf6ac3eb4c4d9f8a5c46c898 
+Single-Family    
+https://cl=2Eexct=2Enet/?qs=3D43bb5cedf3100477b340376209eeee0ae86f5754a9dbc=
+5af39324f017519339d78f098831f8b43db493f2071087450a873f11be4b88d91af 
+Privacy Policy   |   (c) 2018 Fannie Mae
+
+
+
+
+This email was sent by: Fannie Mae, 3900 Wisconsin Ave=2E NW, Washington, D=
+C 20016 USA=2E 
+
+You received this email because our records indicate 
+you are a registered user of the referenced application(s)=2E 
+For information on how to make updates to your Fannie Mae
+technology access, go to 
+https://cl=2Eexct=2Enet/?qs=3D43bb5cedf31004778b51c515219024f5a24092e2c0999=
+5d5cad2c1fba1bc898594a29e2339bda94dc64a65524f32ff41665c7dc1d16ea3b5 
+Registration & Account Management=2E
+
+Please do not reply to this message, as this is a "send only" message=2E=20=
+
+
+
+
+
+--uYiHtZcue3VO=_?:
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1=2E0 Transitional//EN" "http://ww=
+w=2Ew3=2Eorg/TR/xhtml1/DTD/xhtml1-transitional=2Edtd">
+<html xmlns=3D"http://www=2Ew3=2Eorg/1999/xhtml">
+<head>
+	<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" /=
+>
+	<title>Fannie Mae Announcement</title>
+<style type=3D"text/css">
+body {
+	background-color: #ffffff;
+}
+</style>
+</head><body>
+
+<img src=3D"https://cl=2Eexct=2Enet/open=2Easpx?ffcb10-fe59107171600c7a7c15=
+-fdc215707c6304797011777365-fe5f15707c62017d7210-fe9511717665017e7d-fdf3157=
+57062077976127977-ff971074" width=3D"1" height=3D"1">
+<table align=3D"center"  border=3D"0"  >
+
+<tr>
+  <td width=3D"0" bgcolor=3D"#ffffff" bordercolor=3D"#FFFFFF" >
+<table width=3D"700" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=
+=3D"center" style=3D"font:Arial, Helvetica, sans-serif; font-family:Arial, =
+Helvetica, sans-serif; font-variant: normal; font-weight: normal; font-styl=
+e: normal; color: #666666;">
+	
+    <tr>
+		<td height=3D"0" colspan=3D"2" valign=3D"bottom" bgcolor=3D"#000f2b"><img=
+ src=3D"http://image=2Eexct=2Enet/lib/fe5f15707c62017d7210/m/1/2016-fm-logo=
+-84height-centered-tech-updates=2Ejpg" width=3D"700" height=3D"84" alt=3D""=
+/></td>
+	</tr>
+    
+	
+	<tr>
+	  <td colspan=3D"2" align=3D"left" bgcolor=3D"#ecebee" style=3D "padding: =
+10px; ">
+		<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" ali=
+gn=3D"center" style=3D"font:Arial, Helvetica, sans-serif; font-size: 13px; =
+line-height: 18px; color: #666666;">
+			
+                                           
+<tr >
+										<td colspan=3D"2" align=3D"center" valign=3D"top" bgcolor=3D"#ece=
+bee" style=3D"padding:0px 10px 0px 10px;">
+										<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bordercol=
+or=3D"" width=3D"100%" bgcolor=3D""><tr><td><table  width=3D"100%" bgcolor=
+=3D"" border=3D"0" bordercolor=3D"" cellpadding=3D"0" cellspacing=3D"0"><tr=
+><td style=3D"font-family:Arial; font-size:13px"><div align=3D"center">
+<a   title=3D"View in Browser" href=3D"https://view=2Eexacttarget=2Ecom/?qs=
+=3D7501f1a03a04cee9b773af37d54881db1b879509bcede27ea6d622d054f363b09e706b77=
+63415eb40f2fdc1a8b391148a6fed5fe712baf8cefd3519264568f3320337c0d190552ebd94=
+d3ff361d1800b1668a00173ee4e04"><b><font color=3D"000f2b" size=3D"1">View in=
+ Browser</font></b></a><br>
+</div></td></tr></table></td></tr></table>
+										</td>
+									</tr>
+			
+                                           
+
+                                  <tr>
+										<td align=3D"left" valign=3D"middle" bgcolor=3D"#ecebee" style=3D=
+"padding:10px 10px 10px 10px;" ><table cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" bordercolor=3D"" width=3D"100%" bgcolor=3D""><tr><td><table  w=
+idth=3D"100%" bgcolor=3D"" border=3D"0" bordercolor=3D"" cellpadding=3D"0" =
+cellspacing=3D"0"><tr><td style=3D"font-family:Arial; font-size:13px"><p>
+<font color=3D"#000f2b" size=3D"2"><b>July 25, 2018</b></font>
+</p></td></tr></table></td></tr></table>
+										</td>
+										<td align=3D"right" valign=3D"middle" bgcolor=3D"#ecebee" style=
+=3D"padding:10px 12px 10px 10px;" ><a href=3D"https://cl=2Eexct=2Enet/?qs=
+=3Dccde60cb59d136ebbbfbbb07f527b81ed48cbee7626c147b7b8f16a40e8efdb166f52f17=
+5f6c6e88179fbabd2b818779f434bbeaee51b69f"><img src=3D"http://image=2Eexct=
+=2Enet/lib/fe5f15707c62017d7210/m/1/fb-logo-grey-bk=2Ejpg" width=3D"9" heig=
+ht=3D"17" alt=3D""/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=3D"https://cl=2Eexc=
+t=2Enet/?qs=3Dccde60cb59d136eb4faff2b0310531f9705b5dd21f784fe141e4ce80fa83b=
+4e846fce5dc634ade4f346cbc34fddb487ea6d70f5a16aa1e3e"><img src=3D"http://ima=
+ge=2Eexct=2Enet/lib/fe5f15707c62017d7210/m/1/tw-logo-grey-bk=2Ejpg" width=
+=3D"13" height=3D"17" alt=3D""/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=3D"http=
+s://cl=2Eexct=2Enet/?qs=3Dccde60cb59d136eb6f756ad1493799abb8ba7044cab8150f4=
+f7618f58dda471b9c0df77a17b138c66d9c39d0f4e5e9c25a038f571066cc13"><img src=
+=3D"http://image=2Eexct=2Enet/lib/fe5f15707c62017d7210/m/1/l-n-logo-grey-bk=
+=2Ejpg" width=3D"13" height=3D"17" alt=3D""/></a>&nbsp;&nbsp;&nbsp; <a href=
+=3D"https://cl=2Eexct=2Enet/?qs=3D43bb5cedf3100477e01565de9a22f062eb9192d06=
+e76b4e16987aec27076112428851df1457ff99f9b0e5102e67839a6c5b024283e515084"><i=
+mg src=3D"http://image=2Eexct=2Enet/lib/fe5f15707c62017d7210/m/1/y-t-logo-g=
+rey=2Ejpg" width=3D"12" height=3D"17" alt=3D""/></a></td>
+								  </tr>
+                                   
+                                   
+                                  
+									
+                                 
+										<tr>
+										  <td colspan=3D"2" align=3D"left" valign=3D"top" bgcolor=3D"#fff=
+fff" style=3D"padding:0px 10px 0px 10px;">
+										<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bordercol=
+or=3D"" width=3D"100%" bgcolor=3D""><tr><td><table  width=3D"100%" bgcolor=
+=3D"" border=3D"0" bordercolor=3D"" cellpadding=3D"0" cellspacing=3D"0"><tr=
+><td style=3D"font-family:Arial; font-size:13px"><p>
+<font color=3D"#000f2b"><br /></font><font color=3D"#000000" size=3D"2"><fo=
+nt color=3D"#000f2b" size=3D"4">DU 10=2E2 September Update release notes av=
+ailable</font><br /><br />During the <strong>weekend of Sept=2E 22, 2018</s=
+trong>, Fannie Mae will implement an update to Desktop Underwriter&#174; (D=
+U&#174;) Version 10=2E2=2E This release includes the new high loan-to-value=
+ (LTV) refinance option designed for Fannie Mae borrowers who are making th=
+eir mortgage payments on time, but whose LTV ratios exceed the maximum allo=
+wed for standard limited cash-out refinance transactions in the <em>Selling=
+ Guide</em>=2E <br /><br />This release also includes the following:</font>=
+</p><ul><li><font color=3D"#000000" size=3D"2">DU Validation Service Modifi=
+cation</font></li><li><font color=3D"#000000" size=3D"2">Updates to Align w=
+ith the <em>Selling Guide</em></font></li></ul><p><font color=3D"#000000" s=
+ize=3D"2">The changes in this release will apply to DU Version 10=2E2 loan =
+casefiles submitted or resubmitted to DU on or after the weekend of Sept=2E=
+ 22, 2018=2E The high LTV refinance option will be implemented in DU Versio=
+n 10=2E2 the weekend of Sept=2E 22; however, only limited cash-out refinanc=
+e loan casefiles that are created on or after Nov=2E 1, 2018 will be eligib=
+le for the high LTV refinance option=2E<br /><br />View the <a title=3D"rel=
+ease notes" href=3D"https://cl=2Eexct=2Enet/?qs=3D43bb5cedf3100477cf3a325e6=
+7a6e79d9f1060fd9a86b63a0421c75d9e7477c170e6768f9d5ede21eef70c913edae5534cf4=
+9a9e4468c75e"  ><font color=3D"#007697">release notes</font></a> on our web=
+site for more details=2E<font color=3D"#000000" size=3D"2"><font color=3D"#=
+000000" size=3D"2"><font color=3D"#000000" size=3D"2"><font color=3D"#00000=
+0" size=3D"2"><font color=3D"#000000" size=3D"2"><font color=3D"#000000" si=
+ze=3D"2"><font color=3D"#000000" size=3D"2"><font color=3D"#000000" size=3D=
+"2"><font color=3D"#000000" size=3D"2"><br />
+<br /><br /></font></font></font></font></font></font></font></font></font>=
+</font></p></td></tr></table></td></tr></table></td>
+								  </tr>
+                                   
+									<tr >
+										<td colspan=3D"2" align=3D"left" valign=3D"top" bgcolor=3D"#ecebe=
+e" style=3D"padding:0px 10px 0px 10px;">
+										<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bordercol=
+or=3D"" width=3D"100%" bgcolor=3D""><tr><td><table  width=3D"100%" bgcolor=
+=3D"" border=3D"0" bordercolor=3D"" cellpadding=3D"0" cellspacing=3D"0"><tr=
+><td style=3D"font-family:Arial; font-size:13px">&nbsp;</td></tr></table></=
+td></tr></table>
+										</td>
+									</tr>
+                                    
+                                    
+                                    <tr>
+										<td colspan=3D"2" align=3D"right" valign=3D"middle" bgcolor=3D"#0=
+07697" style=3D"padding:10px 10px 10px 10px;" ><a href=3D"https://cl=2Eexct=
+=2Enet/?qs=3D43bb5cedf31004777732fea2d2f6dabeeb7fda4280b77bd085ce46aeaa1a23=
+b094b596afdb8c1484ef77f762c12e81452116bd87adaacc60"><img src=3D"http://imag=
+e=2Eexct=2Enet/lib/fe5f15707c62017d7210/m/1/sign-up-email-lt-blue-bk=2Ejpg"=
+ width=3D"233" height=3D"27" alt=3D""/></a></td>
+								  </tr>
+                                  <tr >
+										<td colspan=3D"2" align=3D"left" valign=3D"top" bgcolor=3D"#ecebe=
+e" style=3D"padding:0px 10px 0px 10px;">
+										<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bordercol=
+or=3D"" width=3D"100%" bgcolor=3D""><tr><td><table  width=3D"100%" bgcolor=
+=3D"" border=3D"0" bordercolor=3D"" cellpadding=3D"0" cellspacing=3D"0"><tr=
+><td style=3D"font-family:Arial; font-size:13px">&nbsp;</td></tr></table></=
+td></tr></table>
+										</td>
+			  </tr>
+                                  
+                                  
+                                    
+                                    
+		</table>
+		
+		</td>
+	</tr>
+    <tr>
+				<td colspan=3D"2" bgcolor=3D"#000f2b"><table width=3D"700"><tr>						
+									<td width=3D"25%" align=3D"left" valign=3D"middle" bgcolor=3D"#000=
+f2b" style=3D"padding:10px 0px 10px 12px;" ><a href=3D"https://cl=2Eexct=2E=
+net/?qs=3Dccde60cb59d136ebbbfbbb07f527b81ed48cbee7626c147b7b8f16a40e8efdb16=
+6f52f175f6c6e88179fbabd2b818779f434bbeaee51b69f"><img src=3D"http://image=
+=2Eexct=2Enet/lib/fe5f15707c62017d7210/m/1/fb-logo-blue-bk=2Ejpg" width=3D"=
+9" height=3D"16" alt=3D""/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=3D"https://c=
+l=2Eexct=2Enet/?qs=3Dccde60cb59d136eb4faff2b0310531f9705b5dd21f784fe141e4ce=
+80fa83b4e846fce5dc634ade4f346cbc34fddb487ea6d70f5a16aa1e3e"><img src=3D"htt=
+p://image=2Eexct=2Enet/lib/fe5f15707c62017d7210/m/1/tw-logo-blue-bk=2Ejpg" =
+width=3D"13" height=3D"16" alt=3D""/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=3D=
+"https://cl=2Eexct=2Enet/?qs=3Dccde60cb59d136eb6f756ad1493799abb8ba7044cab8=
+150f4f7618f58dda471b9c0df77a17b138c66d9c39d0f4e5e9c25a038f571066cc13"><img =
+src=3D"http://image=2Eexct=2Enet/lib/fe5f15707c62017d7210/m/1/l-n-logo-blue=
+=2Ejpg" width=3D"15" height=3D"16" alt=3D""/></a>&nbsp;&nbsp;&nbsp; <a href=
+=3D"https://cl=2Eexct=2Enet/?qs=3D43bb5cedf3100477e01565de9a22f062eb9192d06=
+e76b4e16987aec27076112428851df1457ff99f9b0e5102e67839a6c5b024283e515084"><i=
+mg src=3D"http://image=2Eexct=2Enet/lib/fe5f15707c62017d7210/m/1/y-t-logo-b=
+lue-bk=2Ejpg" width=3D"13" height=3D"16" alt=3D""/></a></td>
+                                     <td width=3D"75%" align=3D"right" vali=
+gn=3D"middle" bgcolor=3D"#000f2b" style=3D"padding:10px 10px 10px 0px;" ><t=
+able cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bordercolor=3D"" widt=
+h=3D"100%" bgcolor=3D""><tr><td><table  width=3D"100%" bgcolor=3D"" border=
+=3D"0" bordercolor=3D"" cellpadding=3D"0" cellspacing=3D"0"><tr><td style=
+=3D"font-family:Arial; font-size:13px"><div align=3D"right">
+<span style=3D"padding: 5px 20px; color: #ffffff; font-family: Arial, Helve=
+tica, sans-serif; font-size: 9px; font-weight: bold;"><a style=3D"color: #f=
+fffff; text-decoration: none;" href=3D"https://cl=2Eexct=2Enet/?qs=3D43bb5c=
+edf31004771fe6260ba8ce25aca143c499e7c8cb5851b2bf1bfe8b4cc2e0d4ef639a8a45999=
+2e169103120cc607e27538385125dcd"><span style=3D"color: #ffffff; font-family=
+: Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold;">Fannie =
+Mae</span></a> &nbsp;&nbsp; <a style=3D"color: #ffffff; text-decoration: no=
+ne;" href=3D"https://cl=2Eexct=2Enet/?qs=3D43bb5cedf3100477a10d21681280c5a5=
+86d50b7108e251c7ec5f556082c3f2d987394e6a5a3ba86158f71382bf6ac3eb4c4d9f8a5c4=
+6c898"><span style=3D"color: #ffffff; font-family: Arial, Helvetica, sans-s=
+erif; font-size: 9px; font-weight: bold;">Single-Family</span></a> &nbsp;&n=
+bsp; <a style=3D"color: #ffffff; text-decoration: none;" href=3D"https://cl=
+=2Eexct=2Enet/?qs=3D43bb5cedf3100477b340376209eeee0ae86f5754a9dbc5af39324f0=
+17519339d78f098831f8b43db493f2071087450a873f11be4b88d91af"><span style=3D"c=
+olor: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 9px; f=
+ont-weight: bold;">Privacy Policy</span></a> &nbsp; | &nbsp; <span style=3D=
+"color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 9px;=
+ font-weight: bold;">&copy; 2018 Fannie Mae</span> </span>
+</div></td></tr></table></td></tr></table>
+		  </td></tr></table></td>
+	    </tr>
+     
+</table>
+</td></tr></table>
+
+</body><table  width=3D"100%" bgcolor=3D"" border=3D"0" bordercolor=3D"" ce=
+llpadding=3D"0" cellspacing=3D"0"><tr><td style=3D"font-family:Arial; font-=
+size:13px"><p align=3D"center" id=3D"text-placeholder" style=3D"text-align:=
+ center; color: #000000; line-height: 14px; font-size: 12px; margin-top: 0p=
+x; margin-bottom: 0px;">
+<font size=3D"1">This email was sent by: Fannie Mae, 3900 Wisconsin Ave=2E =
+NW, Washington, DC 20016 USA=2E <br />
+<br />You received this email because our records indicate <br />you are a =
+registered user of the referenced application(s)=2E <br />For information o=
+n how to make updates to your Fannie Mae<br />technology access, go to </fo=
+nt><a title=3D"Registration & Account Management" href=3D"https://cl=2Eexct=
+=2Enet/?qs=3D43bb5cedf31004776cadb196b40a412a3051ca30138fc78f3c7ca1c53f77cf=
+dca4bb4e4bcec9e19e40558213134f11a8f7f3ef560bba6a28"  ><font color=3D"#00769=
+7" size=3D"1">Registration & Account Management</font></a><font size=3D"1">=
+=2E<br /><br />Please do not reply to this message, as this is a &quot;send=
+ only&quot; message=2E </font><br />
+</p>
+<br /></td></tr></table></html>
+
+--uYiHtZcue3VO=_?:--
+

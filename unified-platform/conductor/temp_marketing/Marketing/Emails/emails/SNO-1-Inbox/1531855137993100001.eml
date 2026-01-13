@@ -1,0 +1,550 @@
+Delivered-To: sam@c-mtg.com
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of hibu.com designates 40.107.72.100 as permitted sender)  smtp.mailfrom=Isaah.Jackson@hibu.com
+Return-Path: <Isaah.Jackson@hibu.com>
+Received: from NAM05-CO1-obe.outbound.protection.outlook.com (mail-eopbgr720100.outbound.protection.outlook.com [40.107.72.100]) by mx.zohomail.com
+	with SMTPS id 1531855137432413.7408132219309; Tue, 17 Jul 2018 12:18:57 -0700 (PDT)
+Received: from DM6PR03MB3899.namprd03.prod.outlook.com (20.176.116.224) by
+ DM6PR03MB3721.namprd03.prod.outlook.com (20.176.86.14) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.930.21; Tue, 17 Jul 2018 19:18:55 +0000
+Received: from DM6PR03MB3899.namprd03.prod.outlook.com
+ ([fe80::c8c9:62f8:6e08:79d1]) by DM6PR03MB3899.namprd03.prod.outlook.com
+ ([fe80::c8c9:62f8:6e08:79d1%3]) with mapi id 15.20.0952.021; Tue, 17 Jul 2018
+ 19:18:55 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=hibu365.onmicrosoft.com; s=selector1-hibu-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=rsumua5tQ1wwMvlHOgXFtLDxnc683K9oFSKaXuAMB+M=;
+ b=beoch8V3Ed+XQmDJB8dTkw5+EBEF4RW4vY9O8F7nTnb0Ukqiuj2i7COrXcb3iEvQ+EFoNYAG9V0g3h/ZgxrDaLeYspKbby9gg04k/BiHlP5XcKBcmjGKndtsgjp58TWtm1BRe4yqDZsUbiMsR+31ZBAvkGqfELy0SV7HE3wGMNg=
+From: "Jackson, Isaah (US-CDR)" <Isaah.Jackson@hibu.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+Subject: RE: [EXTERNAL] Re: Marketing Campaign with Isaah at Hibu 
+Thread-Topic: [EXTERNAL] Re: Marketing Campaign with Isaah at Hibu 
+Thread-Index: AdQa56XnguSKSEJVR5aFyP+9F6ZdHQACWc2AAMRxtfA=
+Date: Tue, 17 Jul 2018 19:18:55 +0000
+Message-ID:<DM6PR03MB389965B0B9781B1D603BAAC68E5C0@DM6PR03MB3899.namprd03.prod.outlook.com>
+References: <BYAPR03MB34290AB239299374B855830F8E580@BYAPR03MB3429.namprd03.prod.outlook.com>
+ <B0625324-DD03-4FC2-ABB5-F651D2928689@c-mtg.com>
+In-Reply-To: <B0625324-DD03-4FC2-ABB5-F651D2928689@c-mtg.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=Isaah.Jackson@hibu.com; 
+x-originating-ip: [64.199.226.76]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;DM6PR03MB3721;7:nYOJMAN4wcILvRxSwtKa2OLnNjheSNvDSMkcW45lo+TeBVGcPYFRW61PCLLX/J7uNHzFYY0GoI8sGhlLNTHzCEBhtIJj9AFjKelTBbDNmm0k1Zrw+sOLISND3n8V82WsSaRqmKH73YDVcVsc08DDPgvUs/0+arnTRLpzgHDS5/GU6LnyZKGDN3ZklDl7QK0PBP9M4AUmqVU08ZtKa3o+JUdDBcVPKKVLNnOhZH2UVYF++wn5AbogWJQUqsbpI0R1
+x-ms-exchange-antispam-srfa-diagnostics: SOS;
+x-ms-office365-filtering-correlation-id: e435fed0-f928-4b4e-3553-08d5ec1a23ec
+x-ms-office365-filtering-ht: Tenant
+x-microsoft-antispam: UriScan:(223705240517415);BCL:0;PCL:0;RULEID:(7020095)(4652040)(8989117)(5600053)(711020)(4534165)(4627221)(201703031133081)(201702281549075)(8990107)(48565401081)(2017052603328)(7153060)(7193020);SRVR:DM6PR03MB3721;
+x-ms-traffictypediagnostic: DM6PR03MB3721:
+x-microsoft-antispam-prvs: <DM6PR03MB37210C595FF7674D02335B498E5C0@DM6PR03MB3721.namprd03.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(28532068793085)(148322886591682)(28212336023702)(189930954265078)(116415991822766)(223705240517415)(211451239787559)(211936372134217)(129600208495937)(219752817060721);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(8211001083)(6040522)(2401047)(5005006)(8121501046)(3002001)(93006095)(93001095)(3231311)(944501410)(52105095)(10201501046)(6055026)(149027)(150027)(6041310)(20161123562045)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(20161123560045)(20161123564045)(20161123558120)(6072148)(201708071742011)(7699016);SRVR:DM6PR03MB3721;BCL:0;PCL:0;RULEID:;SRVR:DM6PR03MB3721;
+x-forefront-prvs: 073631BD3D
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(396003)(136003)(39860400002)(366004)(346002)(376002)(149574003)(189003)(199004)(53936002)(478600001)(45080400002)(6116002)(790700001)(446003)(14454004)(33656002)(66066001)(11346002)(72206003)(7696005)(99286004)(76176011)(6246003)(476003)(26005)(6506007)(53546011)(102836004)(3846002)(25786009)(316002)(55016002)(186003)(6916009)(6306002)(5250100002)(5024004)(256004)(2900100001)(8936002)(81166006)(106356001)(81156014)(8676002)(236005)(2906002)(4743002)(9686003)(606006)(54896002)(7736002)(74316002)(97736004)(105586002)(229853002)(486006)(68736007)(6436002)(86362001)(5660300001)(19609705001);DIR:OUT;SFP:1102;SCL:1;SRVR:DM6PR03MB3721;H:DM6PR03MB3899.namprd03.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;MX:1;A:1;
+Received-SPF: pass (zoho.com: domain of hibu.com designates 40.107.72.100 as permitted sender) client-ip=40.107.72.100; envelope-from=Isaah.Jackson@hibu.com; helo=NAM05-CO1-obe.outbound.protection.outlook.com;
+received-spf: None (protection.outlook.com: hibu.com does not designate
+ permitted sender hosts)
+x-microsoft-antispam-message-info: a0shjasVUXuVkSa9Beosp1/QR+71XZ40vPhUl9HnaxWhw/7Aa5mT97PaCDiZ1rGJYgTY+RVNCegj1yAdeSY9NCUsB9BsWcxPBwhEsRUM6wP1rCenV7J+H6Who1uEWyf9dpbExjtvHVSeqtJtl1O/yIzzvPLt58nt12g8JK7Q87KFKLSP+OOEzlco+FbED+P31IuuyY6l5R0PjjvyheUt2WgRMwQ8QgaSPfzSO6BGuHYqYoT23nxPV0osQfrUh69d2AtPqMubk1Vl+ypbwcf0tzO736BVU3O15BIbvvU0IpEa1W/F+e2IuY1tKLupGXYzM2obMIFvXMYRpq9ElxAgQSMWjG5zuzR9tovSGxDj93I=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR03MB389965B0B9781B1D603BAAC68E5C0DM6PR03MB3899namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: hibu.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: e435fed0-f928-4b4e-3553-08d5ec1a23ec
+X-MS-Exchange-CrossTenant-originalarrivaltime: 17 Jul 2018 19:18:55.7289
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: dbbfd40c-f953-425d-996a-ee8aaedf5f32
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM6PR03MB3721
+X-ZohoMail-DKIM: pass (identity @hibu365.onmicrosoft.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_167 FRD_NDS SPK
+X-ZM-MESSAGEID: 1531855137993100001
+X-ZohoMail-Status: 1
+
+
+--_000_DM6PR03MB389965B0B9781B1D603BAAC68E5C0DM6PR03MB3899namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Yeah I would like to let you know pricing but everything is just based off =
+of what I believe will work for you, so if I could grab you for about 20 mi=
+nutes and just ask you some questions I could give you some pricing!
+
+Thanks,
+
+From: Sam Tehranchi [mailto:sam@c-mtg.com]
+Sent: Friday, July 13, 2018 4:33 PM
+To: Jackson, Isaah (US-CDR) <Isaah.Jackson@hibu.com>
+Subject: [EXTERNAL] Re: Marketing Campaign with Isaah at Hibu
+
+CAUTION:
+Attachments and links (urls) can contain deceptive and/or malicious content=
+. Please consider the sender and circumstances of this message to prevent f=
+alling victim to a cyber attack.
+Received, can you please advise regarding services and pricing at your conv=
+enience.  Thank you
+
+Respectfully,
+
+
+Sam Tehranchi
+
+
+COO
+Custom Mortgage and Realty
+NMLS CA # 1556995 - BRE CA # 02018146
+
+Direct 310.709.6304 -Efax 866.421.7694
+
+sam@c-mtg.com<mailto:sam@c-mtg.com> - www.c-mtg.com<https://na01.safelinks.=
+protection.outlook.com/?url=3Dhttp%3A%2F%2Fwww.c-mtg.com&data=3D01%7C01%7CI=
+saah.Jackson%40hibu.com%7C95292826dd3241a4f43508d5e9083282%7Cdbbfd40cf95342=
+5d996aee8aaedf5f32%7C0&sdata=3DWmYt5rkVpOiaHpF0ityMnUGPFx0iNsqQ5aAuO%2BPO%2=
+F%2F0%3D&reserved=3D0>
+
+LinkedIn<https://na01.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2=
+Fwww.linkedin.com%2Fcompany-beta%2F3477964&data=3D01%7C01%7CIsaah.Jackson%4=
+0hibu.com%7C95292826dd3241a4f43508d5e9083282%7Cdbbfd40cf953425d996aee8aaedf=
+5f32%7C0&sdata=3D0qAj2QIio1IJloz5J7oDFHmPpqQXMoD5rXz6i0HZ3Yg%3D&reserved=3D=
+0> - Facebook<https://na01.safelinks.protection.outlook.com/?url=3Dhttps%3A=
+%2F%2Fwww.facebook.com%2FCustom-Mortgage-409842885783868%2F&data=3D01%7C01%=
+7CIsaah.Jackson%40hibu.com%7C95292826dd3241a4f43508d5e9083282%7Cdbbfd40cf95=
+3425d996aee8aaedf5f32%7C0&sdata=3D2S8qtzpqA6h83ENGX5qMc2Ra4xI6L1ysQraQ1UGEj=
+mY%3D&reserved=3D0> - twitter<https://na01.safelinks.protection.outlook.com=
+/?url=3Dhttps%3A%2F%2Ftwitter.com%2Fcustommortgage1&data=3D01%7C01%7CIsaah.=
+Jackson%40hibu.com%7C95292826dd3241a4f43508d5e9083282%7Cdbbfd40cf953425d996=
+aee8aaedf5f32%7C0&sdata=3DPkG3CkCJURcpJzirw9L%2B0ZTxatvlP63NJbMf5ky6bI4%3D&=
+reserved=3D0> - Instagram<https://na01.safelinks.protection.outlook.com/?ur=
+l=3Dhttps%3A%2F%2Fwww.instagram.com%2Fcustommortgageinc%2F&data=3D01%7C01%7=
+CIsaah.Jackson%40hibu.com%7C95292826dd3241a4f43508d5e9083282%7Cdbbfd40cf953=
+425d996aee8aaedf5f32%7C0&sdata=3DDdSRNtML6r%2BdQL94mTdMoqDpYsyNyCx8WwUMwSWv=
+%2BGs%3D&reserved=3D0>
+
+
+On Jul 13, 2018, at 1:25 PM, Jackson, Isaah (US-CDR) <Isaah.Jackson@hibu.co=
+m<mailto:Isaah.Jackson@hibu.com>> wrote:
+
+Isaah Jackson
+Digital Marketing Specialist
+<image001.jpg>
+
+<image002.jpg><https://na01.safelinks.protection.outlook.com/?url=3Dhttps%3=
+A%2F%2Fhibu.com%2F&data=3D01%7C01%7Cisaah.jackson%40hibu.com%7C742e557b8f08=
+4ca4e00808d5e6ad2a69%7Cdbbfd40cf953425d996aee8aaedf5f32%7C0&sdata=3DfNBYFn7=
+rha0kfraur%2FFHfLQPyc17M3%2Bu5d34HwD86hY%3D&reserved=3D0>
+
+t:  319-790-3084
+221 3rd Ave. SE, Cedar Rapids, IA 52401
+www.hibu.com<https://na01.safelinks.protection.outlook.com/?url=3Dhttp%3A%2=
+F%2Fwww.hibu.com%2F&data=3D01%7C01%7Cisaah.jackson%40hibu.com%7C742e557b8f0=
+84ca4e00808d5e6ad2a69%7Cdbbfd40cf953425d996aee8aaedf5f32%7C0&sdata=3D2L%2B%=
+2FonkbiT3wo35xQ1R%2BabLFbe9JakiCd06LUGiIF3A%3D&reserved=3D0>
+
+LIKE, LOVE, AND SHARE US ON SOCIAL MEDIA
+
+<image003.png><https://na01.safelinks.protection.outlook.com/?url=3Dhttps%3=
+A%2F%2Fwww.facebook.com%2FhibuUS&data=3D01%7C01%7Cisaah.jackson%40hibu.com%=
+7C742e557b8f084ca4e00808d5e6ad2a69%7Cdbbfd40cf953425d996aee8aaedf5f32%7C0&s=
+data=3DUbtSxOx2VD0UiLVBDcBhadTmQr7zHDjmgd3PaVMrtBs%3D&reserved=3D0>   <imag=
+e004.png><https://na01.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%=
+2Ftwitter.com%2Fhibuus&data=3D01%7C01%7Cisaah.jackson%40hibu.com%7C742e557b=
+8f084ca4e00808d5e6ad2a69%7Cdbbfd40cf953425d996aee8aaedf5f32%7C0&sdata=3DRxP=
+iDOsnow8hlgWKzcaJ0uQQ5nw%2FlngSSt51sFtdaGs%3D&reserved=3D0>   <image005.png=
+><https://na01.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fwww.li=
+nkedin.com%2Fcompany%2Fhibu&data=3D01%7C01%7Cisaah.jackson%40hibu.com%7C742=
+e557b8f084ca4e00808d5e6ad2a69%7Cdbbfd40cf953425d996aee8aaedf5f32%7C0&sdata=
+=3DzAvJ5ntnMEvTH2ZP3NM9lxElSuxgq0ilUQPHKMzs00g%3D&reserved=3D0>   <image006=
+.png><https://na01.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fpl=
+us.google.com%2F115195563293334556732%2Fposts&data=3D01%7C01%7Cisaah.jackso=
+n%40hibu.com%7C742e557b8f084ca4e00808d5e6ad2a69%7Cdbbfd40cf953425d996aee8aa=
+edf5f32%7C0&sdata=3DQfsovzj%2FuKuZSdliPEqf1BYRSWATK9CZ0iVZC8aL7Ro%3D&reserv=
+ed=3D0>   <image007.png><https://na01.safelinks.protection.outlook.com/?url=
+=3Dhttp%3A%2F%2Finstagram.com%2Fhibuusa%2F&data=3D01%7C01%7Cisaah.jackson%4=
+0hibu.com%7C742e557b8f084ca4e00808d5e6ad2a69%7Cdbbfd40cf953425d996aee8aaedf=
+5f32%7C0&sdata=3DS7t4LWa%2BRpm9649IFx0BOTrym%2F22%2BfPtUWisL5oADGw%3D&reser=
+ved=3D0>   <image008.png><https://na01.safelinks.protection.outlook.com/?ur=
+l=3Dhttps%3A%2F%2Fvimeo.com%2Fhibu&data=3D01%7C01%7Cisaah.jackson%40hibu.co=
+m%7C742e557b8f084ca4e00808d5e6ad2a69%7Cdbbfd40cf953425d996aee8aaedf5f32%7C0=
+&sdata=3DhdpMYTay6kAsxEkhkAAopVRrpGkaGiqx41%2FwOyvRDv4%3D&reserved=3D0>  <i=
+mage009.png><https://na01.safelinks.protection.outlook.com/?url=3Dhttps%3A%=
+2F%2Fwww.pinterest.com%2FhibuUS%2F&data=3D01%7C01%7Cisaah.jackson%40hibu.co=
+m%7C742e557b8f084ca4e00808d5e6ad2a69%7Cdbbfd40cf953425d996aee8aaedf5f32%7C0=
+&sdata=3DHuL1qL5%2BKjgqZCacHjDmTOiPmbo2qmvjlys%2FDNw4oBw%3D&reserved=3D0>  =
+<image010.png><https://na01.safelinks.protection.outlook.com/?url=3Dhttps%3=
+A%2F%2Fblog.hibu.com%2F&data=3D01%7C01%7Cisaah.jackson%40hibu.com%7C742e557=
+b8f084ca4e00808d5e6ad2a69%7Cdbbfd40cf953425d996aee8aaedf5f32%7C0&sdata=3DdC=
+T1kIRrbdKJEdaxoXVHQRbywVazN4Gq0CknLe%2BFBHs%3D&reserved=3D0>
+
+<image011.png><https://na01.safelinks.protection.outlook.com/?url=3Dhttps%3=
+A%2F%2Fwww.google.com%2Fpartners%2F%23a_profile%3Bidtf%3D8634033029%3Bqury%=
+3DHibu&data=3D01%7C01%7Cisaah.jackson%40hibu.com%7C742e557b8f084ca4e00808d5=
+e6ad2a69%7Cdbbfd40cf953425d996aee8aaedf5f32%7C0&sdata=3D3uMjuLRQXB0qkRWThFr=
+EyGOr%2BrUFmRp5LV9euF4e9wY%3D&reserved=3D0>
+
+<image012.png><https://na01.safelinks.protection.outlook.com/?url=3Dhttps%3=
+A%2F%2Ffacebookmarketingpartners.com%2Fmarketing-partners%2Fhibu%2F&data=3D=
+01%7C01%7Cisaah.jackson%40hibu.com%7C742e557b8f084ca4e00808d5e6ad2a69%7Cdbb=
+fd40cf953425d996aee8aaedf5f32%7C0&sdata=3DtL11HhgngHegeHAZLV%2BTK5%2BYLxuxM=
+KsSFCVZTyGvecU%3D&reserved=3D0>
+
+
+The information contained in this email message, including any attachments,=
+ is intended solely for use by the individual or entity named above and may=
+ be confidential. If the reader of this message is not the intended recipie=
+nt, you are hereby notified that you must not read, use, disclose, distribu=
+te or copy any part of this communication. If you have received this commun=
+ication in error, please immediately notify me by email and destroy the ori=
+ginal message, including any attachments. Thank you. **hibu IT Code:1414593=
+000000**
+
+
+--_000_DM6PR03MB389965B0B9781B1D603BAAC68E5C0DM6PR03MB3899namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Hibu Co Headline";
+	panose-1:2 11 8 3 6 2 2 2 2 4;}
+@font-face
+	{font-family:"Hibu Co Text";
+	panose-1:2 11 6 3 6 2 2 2 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Yeah I would like to let you know pricing but everyt=
+hing is just based off of what I believe will work for you, so if I could g=
+rab you for about 20 minutes and just ask you some questions I could give y=
+ou some pricing!
+<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Thanks,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b>From:</b> Sam Tehranchi [mailto:sam@c-mtg.com] <b=
+r>
+<b>Sent:</b> Friday, July 13, 2018 4:33 PM<br>
+<b>To:</b> Jackson, Isaah (US-CDR) &lt;Isaah.Jackson@hibu.com&gt;<br>
+<b>Subject:</b> [EXTERNAL] Re: Marketing Campaign with Isaah at Hibu <o:p><=
+/o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div style=3D"border:solid red 1.5pt;padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><b><span style=3D"fon=
+t-size:12.0pt;color:red">CAUTION:</span></b><br>
+<b><span style=3D"font-size:12.0pt">Attachments and links (urls) can contai=
+n deceptive and/or malicious content. Please consider the sender and circum=
+stances of this message to prevent falling victim to a cyber attack.</span>=
+</b><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Received, can you please advise regarding services a=
+nd pricing at your convenience. &nbsp;Thank you
+<o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span style=3D"color:=
+black">Respectfully, &nbsp;&nbsp;<br>
+<br>
+&nbsp;<br>
+Sam Tehranchi<br>
+<br>
+&nbsp;<br>
+COO<br>
+Custom Mortgage and Realty&nbsp;<br>
+NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br>
+&nbsp;<br>
+Direct 310.709.6304 -Efax 866.421.7694&nbsp;<br>
+<br>
+<a href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&nbsp;-&nbsp;<a href=3D"h=
+ttps://na01.safelinks.protection.outlook.com/?url=3Dhttp%3A%2F%2Fwww.c-mtg.=
+com&amp;data=3D01%7C01%7CIsaah.Jackson%40hibu.com%7C95292826dd3241a4f43508d=
+5e9083282%7Cdbbfd40cf953425d996aee8aaedf5f32%7C0&amp;sdata=3DWmYt5rkVpOiaHp=
+F0ityMnUGPFx0iNsqQ5aAuO%2BPO%2F%2F0%3D&amp;reserved=3D0">www.c-mtg.com</a><=
+br>
+<br>
+<a href=3D"https://na01.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F=
+%2Fwww.linkedin.com%2Fcompany-beta%2F3477964&amp;data=3D01%7C01%7CIsaah.Jac=
+kson%40hibu.com%7C95292826dd3241a4f43508d5e9083282%7Cdbbfd40cf953425d996aee=
+8aaedf5f32%7C0&amp;sdata=3D0qAj2QIio1IJloz5J7oDFHmPpqQXMoD5rXz6i0HZ3Yg%3D&a=
+mp;reserved=3D0">LinkedIn</a>&nbsp;-&nbsp;<a href=3D"https://na01.safelinks=
+.protection.outlook.com/?url=3Dhttps%3A%2F%2Fwww.facebook.com%2FCustom-Mort=
+gage-409842885783868%2F&amp;data=3D01%7C01%7CIsaah.Jackson%40hibu.com%7C952=
+92826dd3241a4f43508d5e9083282%7Cdbbfd40cf953425d996aee8aaedf5f32%7C0&amp;sd=
+ata=3D2S8qtzpqA6h83ENGX5qMc2Ra4xI6L1ysQraQ1UGEjmY%3D&amp;reserved=3D0">Face=
+book</a>&nbsp;-&nbsp;<a href=3D"https://na01.safelinks.protection.outlook.c=
+om/?url=3Dhttps%3A%2F%2Ftwitter.com%2Fcustommortgage1&amp;data=3D01%7C01%7C=
+Isaah.Jackson%40hibu.com%7C95292826dd3241a4f43508d5e9083282%7Cdbbfd40cf9534=
+25d996aee8aaedf5f32%7C0&amp;sdata=3DPkG3CkCJURcpJzirw9L%2B0ZTxatvlP63NJbMf5=
+ky6bI4%3D&amp;reserved=3D0">twitter</a>&nbsp;-&nbsp;<a href=3D"https://na01=
+.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fwww.instagram.com%2F=
+custommortgageinc%2F&amp;data=3D01%7C01%7CIsaah.Jackson%40hibu.com%7C952928=
+26dd3241a4f43508d5e9083282%7Cdbbfd40cf953425d996aee8aaedf5f32%7C0&amp;sdata=
+=3DDdSRNtML6r%2BdQL94mTdMoqDpYsyNyCx8WwUMwSWv%2BGs%3D&amp;reserved=3D0">Ins=
+tagram</a><o:p></o:p></span></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><br>
+<br>
+<o:p></o:p></p>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<p class=3D"MsoNormal">On Jul 13, 2018, at 1:25 PM, Jackson, Isaah (US-CDR)=
+ &lt;<a href=3D"mailto:Isaah.Jackson@hibu.com">Isaah.Jackson@hibu.com</a>&g=
+t; wrote:<o:p></o:p></p>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><b><span lang=3D"EN-GB" style=3D"font-family:&quot;H=
+ibu Co Headline&quot;,sans-serif">Isaah Jackson</span></b><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-family:&quot;Hibu=
+ Co Text&quot;,sans-serif">Digital Marketing Specialist</span><o:p></o:p></=
+p>
+</div>
+<div>
+<p class=3D"MsoNormal">&lt;image001.jpg&gt;<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b><span lang=3D"EN-GB" style=3D"font-size:10.0pt;fo=
+nt-family:&quot;Arial&quot;,sans-serif">&nbsp;</span></b><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><a href=3D"https://na01.safelinks.protection.outlook=
+.com/?url=3Dhttps%3A%2F%2Fhibu.com%2F&amp;data=3D01%7C01%7Cisaah.jackson%40=
+hibu.com%7C742e557b8f084ca4e00808d5e6ad2a69%7Cdbbfd40cf953425d996aee8aaedf5=
+f32%7C0&amp;sdata=3DfNBYFn7rha0kfraur%2FFHfLQPyc17M3%2Bu5d34HwD86hY%3D&amp;=
+reserved=3D0"><b><span style=3D"font-size:10.0pt;font-family:&quot;Arial&qu=
+ot;,sans-serif;color:windowtext;text-decoration:none">&lt;image002.jpg&gt;<=
+/span></b></a><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:10.0pt;font-=
+family:&quot;Arial&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b><span lang=3D"EN-GB" style=3D"font-family:&quot;H=
+ibu Co Headline&quot;,sans-serif">t:&nbsp; 319-790-3084</span></b><o:p></o:=
+p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:10.0pt;font-=
+family:&quot;Hibu Co Text&quot;,sans-serif">221 3<sup>rd</sup><span class=
+=3D"apple-converted-space">&nbsp;</span>Ave. SE, Cedar Rapids, IA 52401</sp=
+an><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Hibu Co Text&quot;,=
+sans-serif"><a href=3D"https://na01.safelinks.protection.outlook.com/?url=
+=3Dhttp%3A%2F%2Fwww.hibu.com%2F&amp;data=3D01%7C01%7Cisaah.jackson%40hibu.c=
+om%7C742e557b8f084ca4e00808d5e6ad2a69%7Cdbbfd40cf953425d996aee8aaedf5f32%7C=
+0&amp;sdata=3D2L%2B%2FonkbiT3wo35xQ1R%2BabLFbe9JakiCd06LUGiIF3A%3D&amp;rese=
+rved=3D0"><b><span lang=3D"EN-GB" style=3D"font-size:10.0pt">www.hibu.com</=
+span></b></a></span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"line-height:12.65pt"><span lang=3D"EN-GB"><=
+br>
+</span><b><span style=3D"font-size:8.0pt;font-family:&quot;Arial&quot;,sans=
+-serif;color:#404040">LIKE, LOVE, AND SHARE US ON SOCIAL MEDIA</span></b><o=
+:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"line-height:12.65pt"><span style=3D"font-si=
+ze:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#404040"><br>
+</span><a href=3D"https://na01.safelinks.protection.outlook.com/?url=3Dhttp=
+s%3A%2F%2Fwww.facebook.com%2FhibuUS&amp;data=3D01%7C01%7Cisaah.jackson%40hi=
+bu.com%7C742e557b8f084ca4e00808d5e6ad2a69%7Cdbbfd40cf953425d996aee8aaedf5f3=
+2%7C0&amp;sdata=3DUbtSxOx2VD0UiLVBDcBhadTmQr7zHDjmgd3PaVMrtBs%3D&amp;reserv=
+ed=3D0"><span style=3D"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-s=
+erif;color:#404040;text-decoration:none">&lt;image003.png&gt;</span></a><sp=
+an style=3D"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:=
+#404040">&nbsp;&nbsp;<span class=3D"apple-converted-space">&nbsp;</span></s=
+pan><a href=3D"https://na01.safelinks.protection.outlook.com/?url=3Dhttps%3=
+A%2F%2Ftwitter.com%2Fhibuus&amp;data=3D01%7C01%7Cisaah.jackson%40hibu.com%7=
+C742e557b8f084ca4e00808d5e6ad2a69%7Cdbbfd40cf953425d996aee8aaedf5f32%7C0&am=
+p;sdata=3DRxPiDOsnow8hlgWKzcaJ0uQQ5nw%2FlngSSt51sFtdaGs%3D&amp;reserved=3D0=
+"><span style=3D"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;c=
+olor:#404040;text-decoration:none">&lt;image004.png&gt;</span></a><span sty=
+le=3D"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#40404=
+0">&nbsp;&nbsp;&nbsp;</span><a href=3D"https://na01.safelinks.protection.ou=
+tlook.com/?url=3Dhttps%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fhibu&amp;data=
+=3D01%7C01%7Cisaah.jackson%40hibu.com%7C742e557b8f084ca4e00808d5e6ad2a69%7C=
+dbbfd40cf953425d996aee8aaedf5f32%7C0&amp;sdata=3DzAvJ5ntnMEvTH2ZP3NM9lxElSu=
+xgq0ilUQPHKMzs00g%3D&amp;reserved=3D0"><span style=3D"font-size:8.0pt;font-=
+family:&quot;Arial&quot;,sans-serif;color:#404040;text-decoration:none">&lt=
+;image005.png&gt;</span></a><span style=3D"font-size:8.0pt;font-family:&quo=
+t;Arial&quot;,sans-serif;color:#404040">&nbsp;&nbsp;&nbsp;</span><a href=3D=
+"https://na01.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fplus.go=
+ogle.com%2F115195563293334556732%2Fposts&amp;data=3D01%7C01%7Cisaah.jackson=
+%40hibu.com%7C742e557b8f084ca4e00808d5e6ad2a69%7Cdbbfd40cf953425d996aee8aae=
+df5f32%7C0&amp;sdata=3DQfsovzj%2FuKuZSdliPEqf1BYRSWATK9CZ0iVZC8aL7Ro%3D&amp=
+;reserved=3D0"><span style=3D"font-size:8.0pt;font-family:&quot;Arial&quot;=
+,sans-serif;color:#404040;text-decoration:none">&lt;image006.png&gt;</span>=
+</a><span style=3D"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif=
+;color:#404040">&nbsp;&nbsp;&nbsp;</span><a href=3D"https://na01.safelinks.=
+protection.outlook.com/?url=3Dhttp%3A%2F%2Finstagram.com%2Fhibuusa%2F&amp;d=
+ata=3D01%7C01%7Cisaah.jackson%40hibu.com%7C742e557b8f084ca4e00808d5e6ad2a69=
+%7Cdbbfd40cf953425d996aee8aaedf5f32%7C0&amp;sdata=3DS7t4LWa%2BRpm9649IFx0BO=
+Trym%2F22%2BfPtUWisL5oADGw%3D&amp;reserved=3D0"><span style=3D"font-size:8.=
+0pt;font-family:&quot;Arial&quot;,sans-serif;color:#404040;text-decoration:=
+none">&lt;image007.png&gt;</span></a><span style=3D"font-size:8.0pt;font-fa=
+mily:&quot;Arial&quot;,sans-serif;color:#404040">&nbsp;&nbsp;&nbsp;</span><=
+a href=3D"https://na01.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%=
+2Fvimeo.com%2Fhibu&amp;data=3D01%7C01%7Cisaah.jackson%40hibu.com%7C742e557b=
+8f084ca4e00808d5e6ad2a69%7Cdbbfd40cf953425d996aee8aaedf5f32%7C0&amp;sdata=
+=3DhdpMYTay6kAsxEkhkAAopVRrpGkaGiqx41%2FwOyvRDv4%3D&amp;reserved=3D0"><span=
+ style=3D"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#4=
+04040;text-decoration:none">&lt;image008.png&gt;</span></a><span style=3D"f=
+ont-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#404040">&nbs=
+p;&nbsp;</span><a href=3D"https://na01.safelinks.protection.outlook.com/?ur=
+l=3Dhttps%3A%2F%2Fwww.pinterest.com%2FhibuUS%2F&amp;data=3D01%7C01%7Cisaah.=
+jackson%40hibu.com%7C742e557b8f084ca4e00808d5e6ad2a69%7Cdbbfd40cf953425d996=
+aee8aaedf5f32%7C0&amp;sdata=3DHuL1qL5%2BKjgqZCacHjDmTOiPmbo2qmvjlys%2FDNw4o=
+Bw%3D&amp;reserved=3D0"><span style=3D"font-size:8.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:#404040;text-decoration:none">&lt;image009.png&g=
+t;</span></a><span style=3D"font-size:8.0pt;font-family:&quot;Arial&quot;,s=
+ans-serif;color:#404040">&nbsp;&nbsp;</span><a href=3D"https://na01.safelin=
+ks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fblog.hibu.com%2F&amp;data=3D=
+01%7C01%7Cisaah.jackson%40hibu.com%7C742e557b8f084ca4e00808d5e6ad2a69%7Cdbb=
+fd40cf953425d996aee8aaedf5f32%7C0&amp;sdata=3DdCT1kIRrbdKJEdaxoXVHQRbywVazN=
+4Gq0CknLe%2BFBHs%3D&amp;reserved=3D0"><span style=3D"font-size:8.0pt;font-f=
+amily:&quot;Arial&quot;,sans-serif;color:#404040;text-decoration:none">&lt;=
+image010.png&gt;</span></a><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"line-height:12.65pt"><span style=3D"font-si=
+ze:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#404040">&nbsp;</sp=
+an><o:p></o:p></p>
+</div>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse:collapse">
+<tbody>
+<tr style=3D"height:53.1pt">
+<td width=3D"138" valign=3D"top" style=3D"width:103.5pt;padding:0in 5.4pt 0=
+in 5.4pt;height:53.1pt">
+<div>
+<p class=3D"MsoNormal" style=3D"line-height:12.65pt"><a href=3D"https://na0=
+1.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fwww.google.com%2Fpa=
+rtners%2F%23a_profile%3Bidtf%3D8634033029%3Bqury%3DHibu&amp;data=3D01%7C01%=
+7Cisaah.jackson%40hibu.com%7C742e557b8f084ca4e00808d5e6ad2a69%7Cdbbfd40cf95=
+3425d996aee8aaedf5f32%7C0&amp;sdata=3D3uMjuLRQXB0qkRWThFrEyGOr%2BrUFmRp5LV9=
+euF4e9wY%3D&amp;reserved=3D0"><span style=3D"color:#1F497D;text-decoration:=
+none">&lt;image011.png&gt;</span></a><o:p></o:p></p>
+</div>
+</td>
+<td width=3D"132" valign=3D"top" style=3D"width:99.3pt;padding:0in 5.4pt 0i=
+n 5.4pt;height:53.1pt">
+<p class=3D"MsoNormal" style=3D"margin-top:1.0pt;line-height:12.65pt"><a hr=
+ef=3D"https://na01.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Ffa=
+cebookmarketingpartners.com%2Fmarketing-partners%2Fhibu%2F&amp;data=3D01%7C=
+01%7Cisaah.jackson%40hibu.com%7C742e557b8f084ca4e00808d5e6ad2a69%7Cdbbfd40c=
+f953425d996aee8aaedf5f32%7C0&amp;sdata=3DtL11HhgngHegeHAZLV%2BTK5%2BYLxuxMK=
+sSFCVZTyGvecU%3D&amp;reserved=3D0"><span style=3D"color:#1F497D;text-decora=
+tion:none">&lt;image012.png&gt;</span></a><o:p></o:p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Hel=
+vetica&quot;,sans-serif">The information contained in this email message, i=
+ncluding any attachments, is intended solely for use by the individual or e=
+ntity named above and may be confidential. If
+ the reader of this message is not the intended recipient, you are hereby n=
+otified that you must not read, use, disclose, distribute or copy any part =
+of this communication. If you have received this communication in error, pl=
+ease immediately notify me by email
+ and destroy the original message, including any attachments. Thank you. **=
+hibu IT Code:1414593000000**</span><o:p></o:p></p>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_DM6PR03MB389965B0B9781B1D603BAAC68E5C0DM6PR03MB3899namp_--

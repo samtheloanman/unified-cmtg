@@ -1,0 +1,551 @@
+Delivered-To: sam@c-mtg.com
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of knownfinancial.com designates 104.47.37.53 as permitted sender)  smtp.mailfrom=clint@knownfinancial.com
+Return-Path: <clint@knownfinancial.com>
+Received: from NAM02-CY1-obe.outbound.protection.outlook.com (mail-cys01nam02on0053.outbound.protection.outlook.com [104.47.37.53]) by mx.zohomail.com
+	with SMTPS id 153256363654916.038944201392383; Wed, 25 Jul 2018 17:07:16 -0700 (PDT)
+Received: from MWHPR13MB1008.namprd13.prod.outlook.com (10.169.207.19) by
+ MWHPR13MB1119.namprd13.prod.outlook.com (10.173.119.13) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.995.10; Thu, 26 Jul 2018 00:07:13 +0000
+Received: from MWHPR13MB1008.namprd13.prod.outlook.com
+ ([fe80::2cf5:5f01:87e:f109]) by MWHPR13MB1008.namprd13.prod.outlook.com
+ ([fe80::2cf5:5f01:87e:f109%6]) with mapi id 15.20.0995.014; Thu, 26 Jul 2018
+ 00:07:13 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=NETORGFT1858977.onmicrosoft.com; s=selector1-knownfinancial-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=LpmGaBklNUW8O4PVr3Z2qTpV9Bug1bCyoq82MHCzpZw=;
+ b=Pf4Q4KtR8jVd+2FUbYNvqrrQvrV3/4k8hIZ3Y2OBZRGlIgquw44sbYJ1oIRXrJsb84isGR2VKWZsubyArMPcRU3gZs45bfuAbw0M8ehBP6HfFN3tqNEgdXQ821Kjna0Q557zLYTr8X5lK1/KGuFZVgNmp4nKx5ygGQOEW11SQK4=
+From: Clint Bailey <clint@knownfinancial.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+Subject: RE: RUSH - New Loan: 16906 Highway 5 North Logansport, LA 71049
+Thread-Topic: RUSH - New Loan: 16906 Highway 5 North Logansport, LA 71049
+Thread-Index: AQHUJGg3u7ejW2byvUiJ48zcE/MME6Sgnwtg
+Importance: high
+X-Priority: 1
+Date: Thu, 26 Jul 2018 00:07:13 +0000
+Message-ID:<MWHPR13MB100802BFDC811DDDAA5E4864D32B0@MWHPR13MB1008.namprd13.prod.outlook.com>
+References: <003001d42465$30e492d0$92adb870$@tmfunding.com>
+ <D244E998-5BE2-473C-A34E-E9A33AA3EE1C@c-mtg.com>
+In-Reply-To: <D244E998-5BE2-473C-A34E-E9A33AA3EE1C@c-mtg.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=clint@knownfinancial.com; 
+x-originating-ip: [2600:8800:6901:4550:a091:b2c7:ed19:763d]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;MWHPR13MB1119;6:9K0Uwovn0n6KEP0ZyuBJbxo14dPFEjFbL72WL24Q7ho1k5PWjn1C9zmai4jiHUhF6DVF1Y67LxpQi5U/HV3mIcExp6lpnKXlpraxHcPo3Z+tKE37cS7YyhBPpQ8kuAh8tVuOlmv5k70X7qQJ6WIDZi3NaEWu6vKpBrRhpfKX0AuDOcwucX4zTYiqsXL9IBf5LzwftJJ3tspFaI7cPGGbFWH1CPKev7vmfMR7dWdru4a+d67QbSKyG/1WrFSQgtBmAf+SLy/drOZYX5o4+TzpEtmntflTu11Stro8D+g5ZuV57VWgjlkWjg+nk/n0FcK+yT6dm3JJUZZE08PEw0R/ESOYj5jL9zMOVKCxrm5bqiaxa2jc6dSpaLntDCeKvNt7APWCfqJZV9BI6RJrYrZv56mBEK0lDDuxulKkXmd+Ak1F5BKVtBiPezxcQXGLuJxBjovjoTEWGmYuZuAtDChTLA==;5:sOVsNVwNknPfgBZLrHtHpoZx1AIxt5Kwu/YC8l1HShBm7PKic/eo3zwJ0FhMuXeaXS2Fcw1ymkUVop/D3JXjGR8InGQtyecq0HHl9PkPG1CjWRIjALx11icQq63UWzKc49lsimOiUMECsQGRdFpaMCtuWuociT9P5wR6goij0Ko=;7:N8NshrU673QgMiDQeUPYgNAo0DYwdl2vNSnrHtFW5+dcSWGm/VMfPZXDfsstsbBQBEqQNI8B409tdAG0rxevhqEaf3muuEdkT52qDk2T6rzJquvfgRDjL3mgytoXv5ishzbG3ttMAnqWeTXWOVMSZBHV1SjXy+TcWm7P10ZE2cIK/s/g6ZFJvIaJ8WYZ3Z8nrZ76CTHZk2Zk/VMkhUyHvibW+MdYwQXE6pnXw/uu3WZA422z3a1S3EmKvp9bn3Ie
+x-ms-exchange-antispam-srfa-diagnostics: SOS;
+x-ms-office365-filtering-correlation-id: 02d0d1a8-2088-435e-7bd4-08d5f28bbd8b
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:(7020095)(4652040)(7021125)(8989117)(4534165)(7022125)(4603075)(4627221)(201702281549075)(8990107)(7048125)(7024125)(7027125)(7028125)(7023125)(5600073)(711020)(2017052603328)(7153060)(49563074)(7193020);SRVR:MWHPR13MB1119;
+x-ms-traffictypediagnostic: MWHPR13MB1119:
+x-microsoft-antispam-prvs: <MWHPR13MB11196DF6782D4D78C032E408D32B0@MWHPR13MB1119.namprd13.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(28532068793085)(148322886591682)(277860510277777)(28212336023702)(31418570063057)(116415991822766)(128460861657000)(86561027422486)(81227570615382)(21748063052155);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(102415395)(6040522)(2401047)(5005006)(8121501046)(3002001)(10201501046)(93006095)(93001095)(3231311)(944501410)(52105095)(149027)(150027)(6041310)(20161123558120)(20161123564045)(20161123560045)(20161123562045)(2016111802025)(6043046)(6072148)(201708071742011)(7699016);SRVR:MWHPR13MB1119;BCL:0;PCL:0;RULEID:;SRVR:MWHPR13MB1119;
+x-forefront-prvs: 07459438AA
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(366004)(346002)(39830400003)(376002)(396003)(136003)(189003)(199004)(149574003)(30584003)(102836004)(54896002)(74316002)(86362001)(229853002)(186003)(5250100002)(1680700002)(7736002)(8676002)(81156014)(316002)(54556002)(2906002)(81166006)(7696005)(105586002)(76176011)(81686011)(106356001)(53546011)(606006)(68736007)(6116002)(55016002)(5660300001)(790700001)(6916009)(446003)(14444005)(11346002)(19609705001)(53386004)(486006)(6246003)(99936001)(53936002)(14454004)(6506007)(478600001)(236005)(5024004)(45080400002)(256004)(99286004)(33656002)(25786009)(733005)(6306002)(9686003)(6436002)(97736004)(2900100001)(8936002)(476003)(46003);DIR:OUT;SFP:1101;SCL:1;SRVR:MWHPR13MB1119;H:MWHPR13MB1008.namprd13.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;MX:1;A:1;
+Received-SPF: pass (zoho.com: domain of knownfinancial.com designates 104.47.37.53 as permitted sender) client-ip=104.47.37.53; envelope-from=clint@knownfinancial.com; helo=NAM02-CY1-obe.outbound.protection.outlook.com;
+received-spf: None (protection.outlook.com: knownfinancial.com does not
+ designate permitted sender hosts)
+x-microsoft-antispam-message-info: T267w1/0Y4emPYEYYsP3T3G5mIBK2aA6wTKTYY0+8cZLWKGcdHWD8o7PrBg4oC4M7Il0J2uYaixYfmQe1XWhqMCcwe5TJ/G5N8c2VnR9OT5zBc/aJ1wWZQAzYaie4+e6sSemV2elDJRZtkudDOFxttaojpMyOT3TjT0T2E80gvFZZrgRlZ3g5tu4nZjG/NEpuL0wi7E1F2E+lsEXZscSqATcMe2XUmLzf6LsDFuySVU+0jMmaQdrxN3ddt/25JMa9oPCMnCmGmEmEdnU9rzCKsljopjPJpGVLHmyN8chZii4mZngHm48j2kp/ZTX1bi4ZNiEMOyLp6WUW9rVMJtUuPp8ZLMMjq1OreT5pPuHHV4=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/related;
+	boundary="_004_MWHPR13MB100802BFDC811DDDAA5E4864D32B0MWHPR13MB1008namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: knownfinancial.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 02d0d1a8-2088-435e-7bd4-08d5f28bbd8b
+X-MS-Exchange-CrossTenant-originalarrivaltime: 26 Jul 2018 00:07:13.4421
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 72957f9b-5d4a-4371-a74c-26f829fbab29
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MWHPR13MB1119
+X-Zoho-Virus-Status: 1
+X-ZohoMail-DKIM: pass (identity @NETORGFT1858977.onmicrosoft.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_168 FRD_HI SPK
+X-ZM-MESSAGEID: 1532563639019100001
+X-ZohoMail-Status: 1
+
+
+--_004_MWHPR13MB100802BFDC811DDDAA5E4864D32B0MWHPR13MB1008namp_
+Content-Type: multipart/alternative;
+	boundary="_000_MWHPR13MB100802BFDC811DDDAA5E4864D32B0MWHPR13MB1008namp_"
+
+--_000_MWHPR13MB100802BFDC811DDDAA5E4864D32B0MWHPR13MB1008namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Sam,
+
+This is not going to work. The PTA conditions are ridiculous. These people =
+want to charge "absurd" hard money rates while having a bank approval stipu=
+lation list.
+
+Unbelievable!
+
+
+
+Clinton T Bailey
+Founder / Principal
+NMLS184094
+[Known Financial Small]
+MB0934488 NMLS1463933
+
+480-508-0538 / 480-508-0544 (Fax)
+cint@knownfinancial.com<mailto:cint@knownfinancial.com>
+
+ATTENTION: This electronic transmission, and any documents attached hereto,=
+ may contain confidential, legally privileged, proprietary data, and/or non=
+-public personal information as defined in the Gramm-Leach-Bliley Act (coll=
+ectively, "Confidential Information"). If you have received this electronic=
+ message in error, please notify the sender and delete the electronic messa=
+ge. Any disclosure, copying, distribution, or use of the contents of inform=
+ation received in error is strictly prohibited. By accepting and reviewing =
+any confidential Information contained in this electronic transmission, you=
+ agree to maintain and protect the confidential nature of the Confidential =
+Information in accordance with the applicable law and to ensure nondisclosu=
+re except for the limited purpose for which it is being provided, and agree=
+ to indemnify us against any losses or expenses resulting from any unauthor=
+ized use or disclosure of Confidential Information.
+
+From: Sam Tehranchi <sam@c-mtg.com>
+Sent: Wednesday, July 25, 2018 3:38 PM
+To: Clint Bailey <clint@knownfinancial.com>
+Subject: Fwd: RUSH - New Loan: 16906 Highway 5 North Logansport, LA 71049
+
+Hi Clint
+
+Attached is LOI from the investor we spoke about.  We need the attached sig=
+ned, please advise if you have any questions.  If you want us to sign a agr=
+eement for your 2 points, please send at your convenience.
+
+We will have a fee agreement prepared once BPO is back before closing to in=
+clude our 4 points (2 for Custom MTG and 2 for you).
+
+
+Respectfully,
+
+
+Sam Tehranchi
+
+
+COO
+Custom Mortgage and Realty
+NMLS CA # 1556995 - BRE CA # 02018146
+
+Direct 310.709.6304 -Efax 866.421.7694
+
+sam@c-mtg.com<mailto:sam@c-mtg.com> - www.c-mtg.com<http://www.c-mtg.com>
+
+LinkedIn<https://www.linkedin.com/company-beta/3477964> - Facebook<https://=
+www.facebook.com/Custom-Mortgage-409842885783868/> - twitter<https://twitte=
+r.com/custommortgage1> - Instagram<https://www.instagram.com/custommortgage=
+inc/>
+
+
+
+
+--_000_MWHPR13MB100802BFDC811DDDAA5E4864D32B0MWHPR13MB1008namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle18
+	{mso-style-type:personal;
+	font-family:"Tahoma",sans-serif;
+	color:windowtext;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;
+	font-family:"Tahoma",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif">Sam,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif">This is not going to work. The PTA conditions are ri=
+diculous. These people want to charge &#8220;absurd&#8221; hard money rates=
+ while having a bank approval stipulation list.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif">Unbelievable!
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><i><span style=3D"font-family:&quot;Arial&quot;,sans=
+-serif;color:#0070C0"><o:p>&nbsp;</o:p></span></i></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,sans-s=
+erif;color:#0070C0">Clinton T Bailey<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,sans-s=
+erif;color:#0070C0">Founder / Principal</span><span style=3D"font-family:&q=
+uot;Tahoma&quot;,sans-serif;color:#2F5496"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:8.0pt;font-family:&quot;Tah=
+oma&quot;,sans-serif">NMLS184094<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif"><img width=3D"202" height=3D"59" style=3D"width:2.1083in;height:.6166i=
+n" id=3D"Picture_x0020_4" src=3D"cid:image001.png@01D42439.A4BE0780" alt=3D=
+"Known Financial Small"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:8.0pt;font-family:&quot;Tah=
+oma&quot;,sans-serif">MB0934488 NMLS1463933<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,sans-s=
+erif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif">480-508-0538 / 480-508-0544 (Fax)<o:p></o:p></span><=
+/p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif"><a href=3D"mailto:cint@knownfinancial.com">cint@know=
+nfinancial.com</a><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:8.0pt;font-family:&quot;Tah=
+oma&quot;,sans-serif">ATTENTION: This electronic transmission, and any docu=
+ments attached hereto, may contain confidential, legally privileged, propri=
+etary data, and/or non-public personal information
+ as defined in the Gramm-Leach-Bliley Act (collectively, &quot;Confidential=
+ Information&quot;). If you have received this electronic message in error,=
+ please notify the sender and delete the electronic message. Any disclosure=
+, copying, distribution, or use of the contents
+ of information received in error is strictly prohibited. By accepting and =
+reviewing any confidential Information contained in this electronic transmi=
+ssion, you agree to maintain and protect the confidential nature of the Con=
+fidential Information in accordance
+ with the applicable law and to ensure nondisclosure except for the limited=
+ purpose for which it is being provided, and agree to indemnify us against =
+any losses or expenses resulting from any unauthorized use or disclosure of=
+ Confidential Information.<o:p></o:p></span></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b>From:</b> Sam Tehranchi &lt;sam@c-mtg.com&gt; <br=
+>
+<b>Sent:</b> Wednesday, July 25, 2018 3:38 PM<br>
+<b>To:</b> Clint Bailey &lt;clint@knownfinancial.com&gt;<br>
+<b>Subject:</b> Fwd: RUSH - New Loan: 16906 Highway 5 North Logansport, LA =
+71049<o:p></o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<p class=3D"MsoNormal">Hi Clint <o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Attached is LOI from the investor we spoke about. &n=
+bsp;We need the attached signed, please advise if you have any questions. &=
+nbsp;If you want us to sign a agreement for your 2 points, please send at y=
+our convenience. &nbsp;<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">We will have a fee agreement prepared once BPO is ba=
+ck before closing to include our 4 points (2 for Custom MTG and 2 for you).=
+<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span style=3D"color:=
+black">Respectfully, &nbsp;&nbsp;<br>
+<br>
+&nbsp;<br>
+Sam Tehranchi<br>
+<br>
+&nbsp;<br>
+COO<br>
+Custom Mortgage and Realty&nbsp;<br>
+NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br>
+&nbsp;<br>
+Direct 310.709.6304 -Efax 866.421.7694&nbsp;<br>
+<br>
+<a href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&nbsp;-&nbsp;<a href=3D"h=
+ttp://www.c-mtg.com">www.c-mtg.com</a><br>
+<br>
+<a href=3D"https://www.linkedin.com/company-beta/3477964">LinkedIn</a>&nbsp=
+;-&nbsp;<a href=3D"https://www.facebook.com/Custom-Mortgage-409842885783868=
+/">Facebook</a>&nbsp;-&nbsp;<a href=3D"https://twitter.com/custommortgage1"=
+>twitter</a>&nbsp;-&nbsp;<a href=3D"https://www.instagram.com/custommortgag=
+einc/">Instagram</a><o:p></o:p></span></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><br>
+<br>
+<o:p></o:p></p>
+</div>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_MWHPR13MB100802BFDC811DDDAA5E4864D32B0MWHPR13MB1008namp_--
+
+--_004_MWHPR13MB100802BFDC811DDDAA5E4864D32B0MWHPR13MB1008namp_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=9672;
+	creation-date="Thu, 26 Jul 2018 00:07:12 GMT";
+	modification-date="Thu, 26 Jul 2018 00:07:12 GMT"
+Content-ID: <image001.png@01D42439.A4BE0780>
+Content-Transfer-Encoding: base64
+
+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
+
+--_004_MWHPR13MB100802BFDC811DDDAA5E4864D32B0MWHPR13MB1008namp_--

@@ -1,0 +1,740 @@
+Delivered-To: sam@c-mtg.com
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of lancewoodcapital.com designates 104.47.36.123 as permitted sender)  smtp.mailfrom=amarmol@lancewoodcapital.com
+Return-Path: <amarmol@lancewoodcapital.com>
+Received: from NAM02-SN1-obe.outbound.protection.outlook.com (mail-sn1nam02on0123.outbound.protection.outlook.com [104.47.36.123]) by mx.zohomail.com
+	with SMTPS id 153028115458041.91738729988265; Fri, 29 Jun 2018 07:05:54 -0700 (PDT)
+Received: from BLUPR13MB0324.namprd13.prod.outlook.com (10.163.218.18) by
+ BLUPR13MB0001.namprd13.prod.outlook.com (10.161.123.139) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.930.10; Fri, 29 Jun 2018 14:05:51 +0000
+Received: from BLUPR13MB0324.namprd13.prod.outlook.com
+ ([fe80::80b5:4566:d06d:23d3]) by BLUPR13MB0324.namprd13.prod.outlook.com
+ ([fe80::80b5:4566:d06d:23d3%4]) with mapi id 15.20.0930.012; Fri, 29 Jun 2018
+ 14:05:51 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=lancewoodcapital.onmicrosoft.com; s=selector1-lancewoodcapital-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=DGEkOBpZ/uNCiw19x5c+XXjsa9LOFM6UK+enHm7cb9Y=;
+ b=r39Ln/BMED+XFYx/3ZonfKG1qEHi4mh7SNSd/IVHSCEQmeXM1Aaf7B8vQj206BBjiPx+Olom0cS7CJ9+CrPuvn4Qj63UgN2wvswamymk0/YJp9YpDn9JZsbCUnQZIRPE2avghbSeW6ICKMEegqgm0at/L4y/yFcP3/hZdzJdiSs=
+From: Andrew Marmol <amarmol@lancewoodcapital.com>
+To: "sam@c-mtg.com" <sam@c-mtg.com>
+CC: Tino Martins <tmartins@lancewoodcapital.com>
+Subject: RE: New File: 1111 W Nolana ave
+Thread-Topic: New File: 1111 W Nolana ave
+Thread-Index: AQHUDZs8ZqRtatgVykqTbXNA8LnRZKR0himwgALBxcCAAABgEA==
+Date: Fri, 29 Jun 2018 14:05:50 +0000
+Message-ID:<BLUPR13MB0324C7295501CB64E733875BD04E0@BLUPR13MB0324.namprd13.prod.outlook.com>
+References: <1643e21261d.c646279773850.4240025824456540978@c-mtg.com>
+ <1643e2816e8.cf2d99b374601.1078215865878265529@c-mtg.com>
+ <1643e2a8bd6.ef1ea8c774829.1247686240933451958@c-mtg.com>
+  <CO2PR13MB01211A7F1FCBF670336C37F6AB4E0@CO2PR13MB0121.namprd13.prod.outlook.com>
+In-Reply-To: <CO2PR13MB01211A7F1FCBF670336C37F6AB4E0@CO2PR13MB0121.namprd13.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-originating-ip: [64.132.177.90]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;BLUPR13MB0001;7:96g9Ca7nDggXwUyrgN5uRr3K5xuvYArxzSO6bbfUyqYkoJs7zUpoH6yyBCAc3EIQI0YDNgWeFVPXWujNdSCBoll/1LHvzw9tDzn3ZQAk4Coiv+DdIsd97SYAX2/NcUYwdlqU5hHpr1jjTK+GyCJ8LM1PXR6lJ5/KRL8z3ieJuYwS1OmZOW/vYDzUqL3wQvFWDGR4kd9FLiPvo+zzcNU3zS0F2zLdei8US5atJX4LRCt8AGrDspTsJEM7Oi0BSg0c
+x-ms-exchange-antispam-srfa-diagnostics: SOS;SOR;
+x-ms-office365-filtering-correlation-id: 6d356c73-a8bf-481d-a301-08d5ddc96bed
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(7020095)(4652040)(7021125)(8989117)(4534165)(7022125)(7094020)(4603075)(4627221)(201702281549075)(8990107)(7048125)(7027125)(7023125)(5600026)(711020)(2017052603328)(7153060)(49563074)(7193020);SRVR:BLUPR13MB0001;
+x-ms-traffictypediagnostic: BLUPR13MB0001:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=amarmol@lancewoodcapital.com; 
+x-microsoft-antispam-prvs: <BLUPR13MB0001B4F4D09CABA96246D33DD04E0@BLUPR13MB0001.namprd13.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(28532068793085)(148322886591682)(277860510277777)(28212336023702)(31418570063057)(116415991822766)(128460861657000)(86561027422486)(81227570615382)(21748063052155);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(102415395)(6040522)(2401047)(5005006)(8121501046)(3002001)(3231270)(2018427008)(944501410)(52105095)(10201501046)(93006095)(93001095)(149027)(150027)(6041310)(20161123560045)(20161123564045)(2016111802025)(20161123558120)(20161123562045)(6043046)(6072148)(201708071742011)(7699016);SRVR:BLUPR13MB0001;BCL:0;PCL:0;RULEID:;SRVR:BLUPR13MB0001;
+x-forefront-prvs: 0718908305
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(366004)(346002)(199004)(149574003)(189003)(606006)(8936002)(97736004)(66066001)(6246003)(229853002)(53936002)(2900100001)(6506007)(486006)(551944002)(102836004)(561924002)(476003)(446003)(26005)(11346002)(19609705001)(2351001)(53546011)(4326008)(14454004)(186003)(106356001)(86362001)(105586002)(25786009)(93886005)(5660300001)(99286004)(45080400002)(9326002)(6116002)(508600001)(3846002)(790700001)(2906002)(68736007)(2501003)(81166006)(7736002)(81156014)(1730700003)(8676002)(5630700001)(74316002)(5250100002)(99936001)(733005)(5640700003)(6436002)(55016002)(6306002)(54896002)(9686003)(6916009)(107886003)(53386004)(236005)(33656002)(345774005)(76176011)(256004)(7696005)(14444005)(54556002);DIR:OUT;SFP:1102;SCL:1;SRVR:BLUPR13MB0001;H:BLUPR13MB0324.namprd13.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;A:1;MX:1;
+Received-SPF: pass (zoho.com: domain of lancewoodcapital.com designates 104.47.36.123 as permitted sender) client-ip=104.47.36.123; envelope-from=amarmol@lancewoodcapital.com; helo=NAM02-SN1-obe.outbound.protection.outlook.com;
+received-spf: None (protection.outlook.com: lancewoodcapital.com does not
+ designate permitted sender hosts)
+x-microsoft-antispam-message-info: i/ebdzOnX0n/TL3D2IaYNhqYpa7+VwoV+s4RYYZNEl0QyS3YjMxNNUcp9BEy3WHdbMUQigkpSIHx3i+6q3E+lrRnRx5woo/1bKv/UqcuPi5AuzB/qFnBL76pWwDcI3o6otHZSjMEXLQyWoE5ZE2KsFeSWH1XbMo6/mhkzSgIE2+iAVf6e9cDMWr8ioPFYfomA1pTaV7lg+MzvT//nWgFBtvoDhudrZprXpXHRVG20Y55XFOH54FVYomxuCycxehx6OHxQXMY590qm5c5oDoZHlKHT4ePK7QK53rbel7DnZIBhYP3yIKZkPw+XbIhgRNTfas1uc0jXS0pD3Q5j1GhUZsB7VHb5Ct4kRIi7VRI5o0=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/related;
+	boundary="_004_BLUPR13MB0324C7295501CB64E733875BD04E0BLUPR13MB0324namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: lancewoodcapital.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 6d356c73-a8bf-481d-a301-08d5ddc96bed
+X-MS-Exchange-CrossTenant-originalarrivaltime: 29 Jun 2018 14:05:51.0482
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: a8869f6c-b2f8-46ac-b074-c31d13947baf
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR13MB0001
+X-Zoho-Virus-Status: 1
+X-ZohoMail-DKIM: pass (identity @lancewoodcapital.onmicrosoft.com)
+X-ZohoMail-Owner: <BLUPR13MB0324C7295501CB64E733875BD04E0@BLUPR13MB0324.namprd13.prod.outlook.com>+zmo_0_amarmol@lancewoodcapital.com
+X-ZohoMail-Sender: fe80::80b5:4566:d06d:23d3
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  PMF_LNK_RPT_GIP Ex_2 SS_1 IS_0 XOF EML_0 DMN_0 EDR_100 A_8 COSF A8 LNKP UNK_O_0 UNK_U_0 SIP_KGR_0 RPD_UN_0 PIS_DPR_KN_0 SDFE_GNAR_0 CV_710IT_1 ZMHF_701_2  SC_3 SGR3_1_2_0_166_722
+X-ZM-MESSAGEID: 1530281157216000001
+X-ZohoMail-Status: 1
+
+
+--_004_BLUPR13MB0324C7295501CB64E733875BD04E0BLUPR13MB0324namp_
+Content-Type: multipart/alternative;
+	boundary="_000_BLUPR13MB0324C7295501CB64E733875BD04E0BLUPR13MB0324namp_"
+
+--_000_BLUPR13MB0324C7295501CB64E733875BD04E0BLUPR13MB0324namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Sam,
+
+We're interested in financing 1111 W Nolana Ave.  Can you please provide a =
+current rent roll and operating statement for the property?
+
+Thank you.
+
+Andrew Marmol
+Commercial Loan Specialist
+Lancewood Capital
+(914) 742-4393
+AMarmol@lancewoodcapital.com<mailto:AMarmol@lancewoodcapital.com%0d>
+ [Lw logo_email sig4] <http://www.lancewoodcapital.com/>
+
+From: Tino Martins
+Sent: Friday, June 29, 2018 10:02 AM
+To: Andrew Marmol <amarmol@lancewoodcapital.com>
+Subject: FW: New File: 1111 W Nolana ave
+
+
+From: Tino Martins
+Sent: Wednesday, June 27, 2018 5:52 PM
+To: 'Sam Tehranchi' <sam@c-mtg.com<mailto:sam@c-mtg.com>>
+Subject: RE: New File: 1111 W Nolana ave
+
+Sam,
+
+Thank you for sending.  Do you have a current rent roll and operating state=
+ment for the property?
+The rent roll in the appraisal shows a gross of $6,160/mo.  I want to make =
+sure I have a good handle on the operations.
+
+Tino Martins
+Lancewood Capital
+
+From: Sam Tehranchi <sam@c-mtg.com<mailto:sam@c-mtg.com>>
+Sent: Tuesday, June 26, 2018 6:16 PM
+To: Tino Martins <tmartins@lancewoodcapital.com<mailto:tmartins@lancewoodca=
+pital.com>>
+Subject: New File: 1111 W Nolana ave
+
+
+Hi Tino
+
+I have a deal in TX that is a commercial office building.
+
+Can you advise what terms would look like on this scenario:
+
+- Cash out Refinance
+- Loan Amount: 915,000
+- Value: 1,850,000
+- Office building with 12 units - 1 occupied by borrower
+- $5,150 in rental income per month from 11 units - property does not debt =
+service above 1
+- Current debt (Hard Money): 815,000 with 10k per month payment borrower is=
+ looking to reduce
+- Credit 620 (only revolving debt maxed out, no derogatory items)
+- Borrower Schedule of RE is 3 million + with only 815k in debt.
+
+Borrower does make good money as an attorney so can we do a stated deal or =
+use a global income for debt service.
+
+Please advise, thank you
+
+
+Thank you
+
+
+
+Respectfully,
+
+
+
+Sam Tehranchi
+
+Custom Mortgage and Realty
+
+COO
+
+NMLS CA # 1556995 - BRE CA # 02018146
+
+
+
+D: 310.709.6304 - F: 866.421.7694
+
+sam@c-mtg.com<mailto:sam@c-mtg.com> - www.c-mtg.com<http://www.c-mtg.com>
+
+
+
+LinkedIn<https://www.linkedin.com/company-beta/3477964> - Facebook<https://=
+www.facebook.com/Custom-Mortgage-409842885783868/> - twitter<https://twitte=
+r.com/custommortgage1> - Instagram<https://www.instagram.com/custommortgage=
+inc/>
+
+
+
+
+
+--_000_BLUPR13MB0324C7295501CB64E733875BD04E0BLUPR13MB0324namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" xmlns:m=3D"http://schema=
+s.microsoft.com/office/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html=
+40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.size
+	{mso-style-name:size;}
+span.colour
+	{mso-style-name:colour;}
+span.font
+	{mso-style-name:font;}
+span.EmailStyle22
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+span.EmailStyle23
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EmailStyle24
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+span.EmailStyle25
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D">Hi Sam,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D">We&#8217;re interested in financing 1=
+111 W Nolana Ave.&nbsp; Can you please provide a
+</span><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans=
+-serif;color:#1F497D">current rent roll and operating statement for the pro=
+perty?<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D">Thank you.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:#1F497D">&nbsp;</span></b><span style=3D"fo=
+nt-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1F497D"><o=
+:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:#1F497D">Andrew Marmol</span></b><span styl=
+e=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1F4=
+97D"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:#1F497D">Commercial Loan Specialist</span><=
+/b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-ser=
+if;color:#1F497D"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:#1F497D">Lancewood Capital</span></b><span =
+style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:=
+#1F497D"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:#1F497D">(914) 742-4393</span></b><span sty=
+le=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1F=
+497D"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D"><a href=3D"mailto:AMarmol@lancewoodca=
+pital.com%0d"><b><span style=3D"color:#0563C1">AMarmol@lancewoodcapital.com=
+</span></b></a><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D">&nbsp;</span><a href=3D"http://www.la=
+ncewoodcapital.com/"><span style=3D"font-size:11.0pt;font-family:&quot;Cali=
+bri&quot;,sans-serif;color:#0563C1;text-decoration:none"><img border=3D"0" =
+width=3D"212" height=3D"61" style=3D"width:2.2083in;height:.6354in" id=3D"P=
+icture_x0020_3" src=3D"cid:image001.png@01D40F90.A752B670" alt=3D"Lw logo_e=
+mail sig4"></span></a><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;color:#1F497D"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif"> Tino Martins
+<br>
+<b>Sent:</b> Friday, June 29, 2018 10:02 AM<br>
+<b>To:</b> Andrew Marmol &lt;amarmol@lancewoodcapital.com&gt;<br>
+<b>Subject:</b> FW: New File: 1111 W Nolana ave<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif"> Tino Martins
+<br>
+<b>Sent:</b> Wednesday, June 27, 2018 5:52 PM<br>
+<b>To:</b> 'Sam Tehranchi' &lt;<a href=3D"mailto:sam@c-mtg.com">sam@c-mtg.c=
+om</a>&gt;<br>
+<b>Subject:</b> RE: New File: 1111 W Nolana ave<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D">Sam,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D">Thank you for sending.&nbsp; Do you h=
+ave a current rent roll and operating statement for the property?<o:p></o:p=
+></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D">The rent roll in the appraisal shows =
+a gross of $6,160/mo.&nbsp; I want to make sure I have a good handle on the=
+ operations.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D">Tino Martins<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D">Lancewood Capital<o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif"> Sam Tehranchi &lt;<a href=3D"m=
+ailto:sam@c-mtg.com">sam@c-mtg.com</a>&gt;
+<br>
+<b>Sent:</b> Tuesday, June 26, 2018 6:16 PM<br>
+<b>To:</b> Tino Martins &lt;<a href=3D"mailto:tmartins@lancewoodcapital.com=
+">tmartins@lancewoodcapital.com</a>&gt;<br>
+<b>Subject:</b> New File: 1111 W Nolana ave<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div>
+<blockquote style=3D"border:none;border-left:solid #CCCCCC 1.0pt;padding:0i=
+n 0in 0in 5.0pt;margin-left:3.75pt;margin-top:5.0pt;margin-right:0in;margin=
+-bottom:5.0pt">
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><br>
+Hi Tino<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+<div>
+<blockquote style=3D"border:none;border-left:solid #CCCCCC 1.0pt;padding:0i=
+n 0in 0in 5.0pt;margin-left:3.75pt;margin-top:5.0pt;margin-right:0in;margin=
+-bottom:5.0pt">
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">I have a deal in TX that is a commercial office bui=
+lding.<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">Can you advise what terms would look like on this s=
+cenario:<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">- Cash out Refinance<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">- Loan Amount: 915,000<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">- Value: 1,850,000<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">- Office building with 12 units - 1 occupied by bor=
+rower<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">- $5,150 in rental income per month from 11 units -=
+ property does not debt service above 1<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">- Current debt (Hard Money): 815,000 with 10k per m=
+onth payment borrower is looking to reduce<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">- Credit 620 (only revolving debt maxed out, no der=
+ogatory items)<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">- Borrower Schedule of RE is 3 million &#43; with o=
+nly 815k in debt.<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">Borrower does make good money as an attorney so can=
+ we do a stated deal or use a global income for debt service.<o:p></o:p></s=
+pan></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">Please advise, thank you<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+<div id=3D"">
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">Thank you<o:p></o:p></span></p>
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if"><o:p>&nbsp;</o:p></span></p>
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">Respectfully,<o:p></o:p></span></p>
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if"><o:p>&nbsp;</o:p></span></p>
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">Sam Tehranchi<o:p></o:p></span></p>
+<p><b><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-=
+serif">Custom Mortgage and Realty</span></b><span style=3D"font-size:10.0pt=
+;font-family:&quot;Verdana&quot;,sans-serif"><o:p></o:p></span></p>
+<p><span class=3D"size"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif">COO</span></span><span style=3D"font-size:10.0pt;f=
+ont-family:&quot;Verdana&quot;,sans-serif"><o:p></o:p></span></p>
+<p><span class=3D"size"><span style=3D"font-size:7.5pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif">NMLS CA # 1556995 - BRE CA # 02018146</span></span>=
+<span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif"=
+><o:p></o:p></span></p>
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if"><o:p>&nbsp;</o:p></span></p>
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if">D:&nbsp;310.709.6304 - F:&nbsp;866.421.7694<o:p></o:p></span></p>
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if"><a href=3D"mailto:sam@c-mtg.com" target=3D"_blank">sam@c-mtg.com</a>&nb=
+sp;-&nbsp;<a href=3D"http://www.c-mtg.com" target=3D"_blank">www.c-mtg.com<=
+/a><o:p></o:p></span></p>
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if"><o:p>&nbsp;</o:p></span></p>
+<p><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-ser=
+if"><a href=3D"https://www.linkedin.com/company-beta/3477964" target=3D"_bl=
+ank"><span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-=
+serif">LinkedIn</span></a></span><span class=3D"size"><span style=3D"font-s=
+ize:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif;color:black">&nbsp;-=
+&nbsp;</span></span><span style=3D"font-size:10.0pt;font-family:&quot;Verda=
+na&quot;,sans-serif"><a href=3D"https://www.facebook.com/Custom-Mortgage-40=
+9842885783868/" target=3D"_blank"><span style=3D"font-size:9.0pt;font-famil=
+y:&quot;Helvetica&quot;,sans-serif">Facebook</span></a></span><span class=
+=3D"size"><span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,=
+sans-serif;color:black">&nbsp;-&nbsp;</span></span><span style=3D"font-size=
+:10.0pt;font-family:&quot;Verdana&quot;,sans-serif"><a href=3D"https://twit=
+ter.com/custommortgage1" target=3D"_blank"><span style=3D"font-size:9.0pt;f=
+ont-family:&quot;Helvetica&quot;,sans-serif">twitter</span></a></span><span=
+ class=3D"size"><span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&=
+quot;,sans-serif;color:black">&nbsp;-&nbsp;</span></span><span style=3D"fon=
+t-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif"><a href=3D"https:=
+//www.instagram.com/custommortgageinc/" target=3D"_blank"><span style=3D"fo=
+nt-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif">Instagram</span=
+></a><o:p></o:p></span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BLUPR13MB0324C7295501CB64E733875BD04E0BLUPR13MB0324namp_--
+
+--_004_BLUPR13MB0324C7295501CB64E733875BD04E0BLUPR13MB0324namp_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=8658;
+	creation-date="Fri, 29 Jun 2018 14:05:50 GMT";
+	modification-date="Fri, 29 Jun 2018 14:05:50 GMT"
+Content-ID: <image001.png@01D40F90.A752B670>
+Content-Transfer-Encoding: base64
+
+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
+
+--_004_BLUPR13MB0324C7295501CB64E733875BD04E0BLUPR13MB0324namp_--

@@ -1,0 +1,307 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 209.85.221.43 as permitted sender) client-ip=209.85.221.43; envelope-from=mahsajune@gmail.com; helo=mail-wr1-f43.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 209.85.221.43 as permitted sender)  smtp.mailfrom=mahsajune@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Return-Path: <mahsajune@gmail.com>
+Received: from mail-wr1-f43.google.com (mail-wr1-f43.google.com [209.85.221.43]) by mx.zohomail.com
+	with SMTPS id 153132947443668.15755819048127; Wed, 11 Jul 2018 10:17:54 -0700 (PDT)
+Received: by mail-wr1-f43.google.com with SMTP id t6-v6so18939112wrn.7
+        for <sam@c-mtg.com>; Wed, 11 Jul 2018 10:17:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=njauRi4gMO0gnfihRb0+oEZ3YSTgQa/GoDszbogA5VE=;
+        b=VJIdkTiGgAZ44bFk4zdcxH8h7uAv2l78c+Akxa1n2UJLo5psuGD6ZJCMtfOh1dJ9MN
+         QrhgHo/KfYE3tbS2qzD3nR+QviiMLP2zzBH5a0cjc2kRCNOKKbzXaCeQoMkr3PEDNENw
+         yF/LYpgPWRg9/TIvGFjuTwKaWzorIqbEXlZVN2Ergu5ldUKq9SqW3exLJaIw/+mo5vsJ
+         7imVecVyjxeursvJl66hJ+rTk1Ryi2fE3AvWdkOWXgoZnGllr3d9LY1ZJFps4tXP/21Q
+         lWe7NWqTpxFpDiYM2H5chNyBV1EsM8codJMy08Vbsv3NHXEOr/JRv098+QZ4GmKRIygD
+         siFQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=njauRi4gMO0gnfihRb0+oEZ3YSTgQa/GoDszbogA5VE=;
+        b=n2dOyS8H2p+/DVVgeh9kRVCDCjH+AK/oTueLBVuvcXPUucLoCnxl3bis6hOwFFFMtq
+         SWiAF+sFUAM9ZCxd4dV8kDmhHUNfWxAT1tSAi3dXhpEfmOtVxvncQOOpn7URbtmyeg+B
+         BtmMYTap9f538x8rs1IwCvFdiCwls3WBl2LzXrPMmn7oMMbEYoY/CI3Ne7eQ0m2cB4QK
+         3aJVsbpiokr/t7Y7g77yVgKqq1IgU7Mzi8XBGKUzRaq83L72CCTpJpUpZCQwox/p4TE4
+         siF3lk0+BJlB76a6DG+JGAFzpd8x6z84Rq8GI4OBlJV3igBnOOAAHj4dlfKipLc22dFM
+         eCug==
+X-Gm-Message-State: APt69E3dB5F45cOaVyNynxkpA/D//BIaf+xAH3q/J0KPu71Ueq0AxO5X
+	13ly3opkCzomW+nHZG5YPDEb6x+5yW21HaBWNnc=
+X-Google-Smtp-Source: AAOMgpcF0jrlqChkEQRL2og+dneopTHT/SUaD75x56KW6wORTFVBjn+GxWb6xRnRkUkOhzr35oc/zb+lEfz0oPaLcW4=
+X-Received: by 2002:adf:8e89:: with SMTP id q9-v6mr22138502wrb.261.1531329472088;
+ Wed, 11 Jul 2018 10:17:52 -0700 (PDT)
+MIME-Version: 1.0
+References: <6d29af69424f49dd8fa1c0ec37cfc84b@dacrspxcng07.enterprise.maricopa.gov>
+ <CO2PR05MB250311F5AFC00A0D259FFAE1C25A0@CO2PR05MB2503.namprd05.prod.outlook.com>
+In-Reply-To: <CO2PR05MB250311F5AFC00A0D259FFAE1C25A0@CO2PR05MB2503.namprd05.prod.outlook.com>
+From: Mahsa Jaeger <mahsajune@gmail.com>
+Date: Wed, 11 Jul 2018 10:17:15 -0700
+Message-ID:<CAAs4Acxs=ERKF=Y9G00PnnatFB-qXyc0f2GNyr_=5=-MDJVD7A@mail.gmail.com>
+Subject: Fwd: FW: motion to continue re: Mahsa and Randell Jaeger FC2012-000399
+To: Sam Tehranchi <sam@c-mtg.com>
+Content-Type: multipart/alternative; boundary="00000000000037d25a0570bc6d04"
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_NDS SPK
+X-ZM-MESSAGEID: 1531329475568100001
+X-ZohoMail-Status: 1
+
+
+--00000000000037d25a0570bc6d04
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ---------
+From: Allie Stoddard <allie@stoddardlawgroup.com>
+Date: Wed, Jul 11, 2018 at 9:22 AM
+Subject: FW: motion to continue re: Mahsa and Randell Jaeger FC2012-000399
+To: Mahsa Jaeger <mahsajune@gmail.com>
+
+
+Please see forwarded email from the Court this morning.  So, we will have
+court on Monday; however it is a status conference and they are usually
+telephonic, but I will find out today if we need to appear in person.
+
+
+
+The court wants us to resolve the discovery issues regarding child support,
+so I will be sending Randall an email today to let him know what we need.
+
+
+
+From you I will need any recent paystubs and your tax return (if filed).
+
+
+
+In addition, anything you can to show that he DOES work =E2=80=93 that=E2=
+=80=99s going to
+be very difficult for us to show, but the fact that he just took a trip to
+California shows that he has money.  Wonder where he=E2=80=99s gonna say he=
+ gets it
+from.
+
+
+
+
+
+Cordially,
+
+Allie Stoddard
+
+Stoddard Law Group, P.C.
+
+2375 E Camelback Road, Suite 600
+
+Phoenix, Arizona 85016
+
+T- 602.635.3100
+
+F- 602.635.3184
+
+
+
+Legal Notice: This email and attachments are intended for use only by the
+individual(s) to whom they are specifically addressed and may contain
+information that is privileged and confidential.  Review, use,
+dissemination, distribution or copying of the information contained in this
+email is strictly prohibited unless you are the intended recipient and/or
+the employee or agent responsible for delivering this message to the
+intended recipient.  If you have received this email in error or without
+authorization, please inform the author at the above address and delete
+this email from your computer.  If this email is of settlement in nature,
+the document transmitted on the condition it is subject to Rule 408 of the
+Arizona Rules of Evidence.
+
+
+
+*From:* Donna Galligan - SUPCRTX <galligand@superiorcourt.maricopa.gov>
+*Sent:* Wednesday, July 11, 2018 8:51 AM
+*To:* Allie Stoddard <allie@stoddardlawgroup.com>;
+docket@providentlawyers.com
+*Subject:* motion to continue re: Mahsa and Randell Jaeger FC2012-000399
+
+
+
+Good morning,
+
+
+
+Mr. Jaeger is dropping off documents at the moment, so I personally gave
+him a copy of this email.
+
+
+
+The Court has received and reviewed the Motion to continue.
+
+
+
+The Judge Astrowsky is converting the Evidentiary Hearing to a Status
+conference on 7/16/18 @ 9 a.m.
+
+
+
+Judge Astrowsky is also directing parties shall meet and confer prior to
+the Status Conference in an effort to resolve any outstanding discovery
+disputes.  The Court will address same, to the extent it is able to do so,
+at the Status Conference.
+
+
+
+A minute entry is being issued.
+
+
+
+
+*Donna Galligan Judicial Assistant to the Hon. Brad Astrowsky*
+
+*201 W. Jefferson, Ste. 4-B/Courtroom 401*
+
+*Phoenix, AZ 85003*
+
+*Office: 602-372-2048/ Fax: 602-372-8734*
+
+*galligand@superiorcourt.maricopa.gov*
+<galligand@superiorcourt.maricopa.gov>
+
+
+
+
+--=20
+
+
+*Mahsa JaegerMahsajune@gmail.com <Mahsajune@gmail.com>480-440-1822*
+
+--00000000000037d25a0570bc6d04
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><br><div class=3D"gmail_quote"><div dir=3D"ltr">------=
+---- Forwarded message ---------<br>From: <strong class=3D"gmail_sendername=
+" dir=3D"auto">Allie Stoddard</strong> <span dir=3D"ltr">&lt;<a href=3D"mai=
+lto:allie@stoddardlawgroup.com">allie@stoddardlawgroup.com</a>&gt;</span><b=
+r>Date: Wed, Jul 11, 2018 at 9:22 AM<br>Subject: FW: motion to continue re:=
+ Mahsa and Randell Jaeger FC2012-000399<br>To: Mahsa Jaeger &lt;<a href=3D"=
+mailto:mahsajune@gmail.com">mahsajune@gmail.com</a>&gt;<br></div><br><br>
+
+
+
+
+
+<div lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"m_-2699897476460828456WordSection1">
+<p class=3D"MsoNormal">Please see forwarded email from the Court this morni=
+ng.=C2=A0 So, we will have court on Monday; however it is a status conferen=
+ce and they are usually telephonic, but I will find out today if we need to=
+ appear in person.=C2=A0
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">The court wants us to resolve the discovery issues r=
+egarding child support, so I will be sending Randall an email today to let =
+him know what we need.=C2=A0
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">From you I will need any recent paystubs and your ta=
+x return (if filed).=C2=A0
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">In addition, anything you can to show that he DOES w=
+ork =E2=80=93 that=E2=80=99s going to be very difficult for us to show, but=
+ the fact that he just took a trip to California shows that he has money.=
+=C2=A0 Wonder where he=E2=80=99s gonna say he gets it from.=C2=A0
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<p class=3D"MsoNormal">Cordially,<u></u><u></u></p>
+<p class=3D"MsoNormal">Allie Stoddard<u></u><u></u></p>
+<p class=3D"MsoNormal">Stoddard Law Group, P.C.<u></u><u></u></p>
+<p class=3D"MsoNormal">2375 E Camelback Road, Suite 600<u></u><u></u></p>
+<p class=3D"MsoNormal">Phoenix, Arizona 85016<u></u><u></u></p>
+<p class=3D"MsoNormal">T- 602.635.3100<u></u><u></u></p>
+<p class=3D"MsoNormal">F- 602.635.3184<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Legal Notice: This email and attachments are intende=
+d for use only by the individual(s) to whom they are specifically addressed=
+ and may contain information that is privileged and confidential.=C2=A0 Rev=
+iew, use, dissemination, distribution or
+ copying of the information contained in this email is strictly prohibited =
+unless you are the intended recipient and/or the employee or agent responsi=
+ble for delivering this message to the intended recipient.=C2=A0 If you hav=
+e received this email in error or without
+ authorization, please inform the author at the above address and delete th=
+is email from your computer.=C2=A0 If this email=C2=A0is of settlement in n=
+ature, the document transmitted on the condition it is subject to Rule 408 =
+of the Arizona Rules of Evidence.<span style=3D"font-size:8.0pt;font-family=
+:&quot;Times New Roman&quot;,serif"><u></u><u></u></span></p>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<div style=3D"border:none;border-top:solid #e1e1e1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b>From:</b> Donna Galligan - SUPCRTX &lt;<a href=3D=
+"mailto:galligand@superiorcourt.maricopa.gov" target=3D"_blank">galligand@s=
+uperiorcourt.maricopa.gov</a>&gt;
+<br>
+<b>Sent:</b> Wednesday, July 11, 2018 8:51 AM<br>
+<b>To:</b> Allie Stoddard &lt;<a href=3D"mailto:allie@stoddardlawgroup.com"=
+ target=3D"_blank">allie@stoddardlawgroup.com</a>&gt;; <a href=3D"mailto:do=
+cket@providentlawyers.com" target=3D"_blank">docket@providentlawyers.com</a=
+><br>
+<b>Subject:</b> motion to continue re: Mahsa and Randell Jaeger FC2012-0003=
+99<u></u><u></u></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Good morning,<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Mr. Jaeger is dropping off documents at the moment, =
+so I personally gave him a copy of this email.<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">The Court has received and reviewed the Motion to co=
+ntinue.=C2=A0
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">The Judge Astrowsky is converting the Evidentiary He=
+aring to a Status conference on 7/16/18 @ 9 a.m.<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Judge Astrowsky is also directing parties shall meet=
+ and confer prior to the Status Conference in an effort to resolve any outs=
+tanding discovery disputes.=C2=A0 The Court will address same, to the exten=
+t it is able to do so, at the Status Conference.<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">A minute entry is being issued.<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><i><span style=3D"font-size:12.0pt;font-family:&quot=
+;Californian FB&quot;,serif;color:black">Donna Galligan<br>
+Judicial Assistant to the Hon. Brad Astrowsky<u></u><u></u></span></i></p>
+<p class=3D"MsoNormal"><i><span style=3D"font-size:12.0pt;font-family:&quot=
+;Californian FB&quot;,serif;color:black">201 W. Jefferson, Ste. 4-B/Courtro=
+om 401<u></u><u></u></span></i></p>
+<p class=3D"MsoNormal"><i><span style=3D"font-size:12.0pt;font-family:&quot=
+;Californian FB&quot;,serif;color:black">Phoenix, AZ 85003<u></u><u></u></s=
+pan></i></p>
+<p class=3D"MsoNormal"><i><span style=3D"font-size:12.0pt;font-family:&quot=
+;Californian FB&quot;,serif;color:black">Office: 602-372-2048/ Fax: 602-372=
+-8734<u></u><u></u></span></i></p>
+<p class=3D"MsoNormal"><a href=3D"mailto:galligand@superiorcourt.maricopa.g=
+ov" target=3D"_blank"><i><span style=3D"font-size:12.0pt;font-family:&quot;=
+Californian FB&quot;,serif">galligand@superiorcourt.maricopa.gov</span></i>=
+</a><i><span style=3D"font-size:12.0pt;font-family:&quot;Californian FB&quo=
+t;,serif;color:black"><u></u><u></u></span></i></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+</div>
+
+</div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr" class=3D"gma=
+il_signature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div=
+ dir=3D"ltr"><div><div dir=3D"ltr"><font color=3D"#cc0000"><font size=3D"4"=
+ face=3D"verdana, sans-serif"><b style=3D"background-color:rgb(255,255,255)=
+">Mahsa Jaeger<br><a href=3D"mailto:Mahsajune@gmail.com" target=3D"_blank">=
+Mahsajune@gmail.com</a><br>480-440-1822</b></font><br></font><br></div></di=
+v></div></div></div></div></div>
+
+--00000000000037d25a0570bc6d04--

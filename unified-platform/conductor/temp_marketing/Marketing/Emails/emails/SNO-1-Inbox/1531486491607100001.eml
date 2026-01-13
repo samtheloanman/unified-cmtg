@@ -1,0 +1,257 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of mail.hellosign.com designates 198.61.255.111 as permitted sender) client-ip=198.61.255.111; envelope-from=bounce+f03b3c.f956-sam=c-mtg.com@mail.hellosign.com; helo=hellomail.hellosign.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of mail.hellosign.com designates 198.61.255.111 as permitted sender)  smtp.mailfrom=bounce+f03b3c.f956-sam=c-mtg.com@mail.hellosign.com;
+	dmarc=pass(p=none dis=none)  header.from=mail.hellosign.com
+Return-Path: <bounce+f03b3c.f956-sam=c-mtg.com@mail.hellosign.com>
+Received: from hellomail.hellosign.com (hellomail.hellosign.com [198.61.255.111]) by mx.zohomail.com
+	with SMTP id 1531486491173840.6061910207987; Fri, 13 Jul 2018 05:54:51 -0700 (PDT)
+Received: by luna.mailgun.net with HTTP; Fri, 13 Jul 2018 12:54:49 +0000
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mail.hellosign.com; q=dns/txt;
+ s=mx; t=1531486490; h=Content-Type: Mime-Version: Subject: From: To:
+ Reply-To: Message-Id: Sender: Date: List-Unsubscribe;
+ bh=U58CqB9IeoS88H9BhUOAVqLT5rJOMQy9nuOFYE7rMZw=; b=WsNv5X33QfepLypMnVfHj5FvgCewmSg3hpjZc7EezCUhRAar7QfbYzF1p2BOhIkva6stK/oa
+ Z6SMu/p/Vgwz4Igxd0aowEmDrWGeA81AL9OIhk8Ibqf8vdacHt9RzNpGFCw8q9lM7NC14neK
+ MyZdou8d9EfJNYJxyQXX/MuXQ2Q=
+X-Mailgun-Sending-Ip: 198.61.255.111
+X-Mailgun-Sid: WyJhNDAwZiIsICJzYW1AYy1tdGcuY29tIiwgImY5NTYiXQ==
+List-Unsubscribe: <mailto:u+mq6wmojvgytgspjsgaytqmbxgeztcmrvgq2dslrrfyztenseg5ddcqzzizbtimbxinbcknbqnvqws3bonbswy3dponuwo3romnxw2jtihu2dkyjxhbstmy3ghe3ggyrrmjswcodgmy4damjymmytaytghe3tsjtwmfzgsylunfxw4plpojuwo2lomfwcm4r5onqw2jjugbrs23lum4xgg33nez2d2rdbnfwhsu3vnvwwc4tzjvsxg43bm5ssmy3bnvygc2lhnzpwg33emu6wiyljnr4v643vnvwwc4tz@mail.hellosign.com>
+Date: Fri, 13 Jul 2018 12:54:49 +0000
+Sender: noreply@mail.hellosign.com
+Message-ID:<20180713125449.1.326D7F1C9FC407CB@mail.hellosign.com>
+X-Mailgun-Variables: {"variation": "original", "campaign_code":
+ "daily_summary"}
+Reply-To: HelloSign <noreply@HelloSign.com>
+X-Mailgun-Track: false
+X-Mailgun-Tag: DailySummaryMessage
+To: sam@c-mtg.com
+From: HelloSign <noreply@mail.hellosign.com>
+Subject: Daily Summary: 1 document out for signature
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="706b4eb0fcb241bfa203afeadbfe3196"
+X-ZohoMail-DKIM: pass (identity @mail.hellosign.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_7 RF_0 S_167
+X-ZM-MESSAGEID: 1531486491607100001
+X-ZohoMail-Status: 1
+
+
+--706b4eb0fcb241bfa203afeadbfe3196
+Content-Type: text/plain; charset="ascii"
+Mime-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+HelloSign Daily Summary
+
+Here's a list of your documents out for signature in the last 30 days, which haven't been signed:
+
+
+Purchase Agreement for 834 N Rose Ave
+
+Send reminder: https://app.hellosign.com/account/require?email=c2FtQGMtbXRnLmNvbQ%3D%3D&redirect_url=aG9tZS9tYW5hZ2U%2FZ3VpZD0yMTYyZWIyYjdiYmI0M2FkODk0ZDljZGE5YzU1ZjYwN2ZlZGM1Zjc3JmNtZD1yZW1pbmRlcg%3D%3D&utm_campaign=daily_summary&utm_source=default&utm_medium=email&utm_content=original
+See details: https://app.hellosign.com/account/require?email=c2FtQGMtbXRnLmNvbQ%3D%3D&redirect_url=aG9tZS9tYW5hZ2U%2FZ3VpZD0yMTYyZWIyYjdiYmI0M2FkODk0ZDljZGE5YzU1ZjYwN2ZlZGM1Zjc3&utm_campaign=daily_summary&utm_source=default&utm_medium=email&utm_content=original
+Cancel request: https://app.hellosign.com/account/require?email=c2FtQGMtbXRnLmNvbQ%3D%3D&redirect_url=aG9tZS9tYW5hZ2U%2FZ3VpZD0yMTYyZWIyYjdiYmI0M2FkODk0ZDljZGE5YzU1ZjYwN2ZlZGM1Zjc3JmNtZD1kZWxldGU%3D&utm_campaign=daily_summary&utm_source=default&utm_medium=email&utm_content=original
+
+
+View documents page
+https://app.hellosign.com/home/manage?utm_campaign=daily_summary&utm_source=default&utm_medium=email&utm_content=original
+
+We'll only send you this email if you have documents that are out for signature.  You can unsubscribe from the HelloSign Daily Summary at http://email.mail.hellosign.com/u/eJwlzbsOgyAYQOGnKVsJKHIZWKpx69QHML8ISgLSgG3i25e2-8l3Fu1Ux5HXDaGSCNrSpmNMYYrbhg9ipL0ae0ZEf7swEsEHvNkQUvHrjk2KaNOsAyEtN05xM9PZgnROVsxQMjslFHpD9nD4tOuU_ep3CCjrArGC5hqP9ecceqj4-XjFCPm821JgtchAfEJdTSYtVi_fYir_5AOupjwU
+
+Thanks for going paperless!
+- The HelloSign Team
+
+--706b4eb0fcb241bfa203afeadbfe3196
+Content-Type: text/html; charset="ascii"
+Mime-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>HelloSign</title>
+<style type="text/css">
+
+
+/* Client-specific Styles */
+#outlook a { padding: 0; }	/* Force Outlook to provide a "view in browser" button. */
+body { width: 100% !important; }
+.ReadMsgBody { width: 100%; }
+.ExternalClass { width: 100%; display:block !important; } /* Force Hotmail to display emails at full width */
+/* Reset Styles */
+body { background-color: #eeeeee; margin: 0; padding: 0; }
+img { outline: none; text-decoration: none; display: block;}
+br, strong br, b br, em br, i br { line-height:100%; }
+table td, table tr { border-collapse: collapse; }
+.yshortcuts, .yshortcuts a, .yshortcuts a:link,.yshortcuts a:visited, .yshortcuts a:hover, .yshortcuts a span {
+  color: black;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  background: none !important;
+}
+/* Fonts and Content */
+a, a:visited {
+  color: #077CB9;
+}
+body, td {
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.4em;
+}
+/* Email styles */
+.header {
+  margin: 0 0 20px 0;
+}
+.header p {
+  margin: 5px 0 0 0;
+  color: #666;
+}
+.page {
+  background: #fff;
+  padding: 40px 40px 30px 40px;
+  border: 1px solid #ccc;
+}
+.page-2 {
+  margin-top: 10px;
+}
+h1 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+p {
+  margin: 10px 0;
+}
+.action {
+  margin: 20px 0 25px 0;
+}
+a.button {
+  margin: 0;
+  background: #2AA3D3;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 9px 16px 8px 16px;
+  text-decoration: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  white-space: nowrap;
+}
+div.hr {
+  border-top: 1px solid #cccccc;
+  margin: 20px 0;
+}
+.sig {
+  font-style: italic;
+  padding-left: 1em;
+}
+.promo {
+  margin: 20px 0;
+  color: #666;
+}
+#footer {
+  background: #cccccc;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+  padding: 0 0 30px 0;
+}
+.footer-block {
+  font-size: 12px;
+  float: left;
+  margin-top: 20px;
+  padding: 0px 5px 0px 0px;
+  color: #555;
+}
+#footer .footer-block-last {
+  padding-right: 0;
+}
+.footer-block a, .footer-block a:visited{
+  color: #368BC6;
+}
+
+#custom_logo { max-width: 300px;max-height: 75px;}
+
+ul{
+  padding-left: 0;
+}
+/* Mobile-specific Styles */
+@media only screen and (max-device-width: 480px) { 
+  table.email-body, td.email-body {
+    width: 100% !important;
+  }
+}
+</style>
+
+</head>
+<body style="background-color: #eeeeee;margin: 0;padding: 0;font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;font-size: 14px;line-height: 1.4em;width: 100%;min-width:680px">
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">
+	<tbody>
+		<tr style="border-collapse: collapse;"><td align="center" bgcolor="#eeeeee" style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;font-size: 14px;line-height: 1.4em;border-collapse: collapse;">
+	  
+  	<table class="email-body" width="640" cellpadding="20" cellspacing="0" border="0">
+    <tbody><tr style="border-collapse: collapse;"><td class="email-body" width="640" align="left" style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;font-size: 14px;line-height: 1.4em;border-collapse: collapse;">
+    
+      <div class="header" style="margin: 0 0 20px 0;">
+      	<div style="text-align: left;">
+			<a href="http://app.hellosign.com/?rel=em_lg&utm_campaign=daily_summary&utm_source=default&utm_medium=email&utm_content=original" style="color: #000000;text-decoration: none;"><img src="https://dyn550zzd47ox.cloudfront.net/1.57.3/css/images/email/hs_logo.png"  alt="HelloSign" border="0" style="margin: 0;padding: 0;max-width: 180px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="123" height="33" id="headerImage"/></a>			</div>
+	        <p style="margin: 5px 0 0 0;color: #666;">The easiest way to sign and send documents online</p>
+      </div>
+            <table width="640">
+      	<tr>
+      		<td class="page" style="background-color: #FFFFFF;padding: 40px 40px 30px 40px;border: 1px solid #ccc;color:black" bgcolor="FFFFFF">
+
+<h1 style="margin: 0 0 10px 0;font-size: 18px;font-weight: bold;color:#000;">HelloSign Daily Summary</h1><p style="margin:10px 0px;font-size:14px;line-height:1.4em;color:#000;">Here's a list of your documents out for signature in the last 30 days, which haven't been signed:</p>
+<table border="0" cellpadding="3" width="100%">
+	 
+			<tr>
+				<td width="40%">Purchase Agreement for 834 N Rose Ave</td>
+				<td style="text-align:right;"><a target="_blank" rel="noopener noreferrer" style="color: #368BC6;text-decoration:none;font-size: 12px;" href="https://app.hellosign.com/account/require?email=c2FtQGMtbXRnLmNvbQ%3D%3D&amp;redirect_url=aG9tZS9tYW5hZ2U%2FZ3VpZD0yMTYyZWIyYjdiYmI0M2FkODk0ZDljZGE5YzU1ZjYwN2ZlZGM1Zjc3JmNtZD1yZW1pbmRlcg%3D%3D&amp;utm_campaign=daily_summary&amp;utm_source=default&amp;utm_medium=email&amp;utm_content=original"><span style="color:#368BC6">Send reminder</span></a></td>
+				<td style="text-align:right;"><a target="_blank" rel="noopener noreferrer" style="color: #368BC6;text-decoration:none;font-size: 12px;" href="https://app.hellosign.com/account/require?email=c2FtQGMtbXRnLmNvbQ%3D%3D&amp;redirect_url=aG9tZS9tYW5hZ2U%2FZ3VpZD0yMTYyZWIyYjdiYmI0M2FkODk0ZDljZGE5YzU1ZjYwN2ZlZGM1Zjc3&amp;utm_campaign=daily_summary&amp;utm_source=default&amp;utm_medium=email&amp;utm_content=original"><span style="color:#368BC6">See details</span></a></td>
+				<td style="text-align:right;"><a target="_blank" rel="noopener noreferrer" style="color: #368BC6;text-decoration:none;font-size: 12px;" href="https://app.hellosign.com/account/require?email=c2FtQGMtbXRnLmNvbQ%3D%3D&amp;redirect_url=aG9tZS9tYW5hZ2U%2FZ3VpZD0yMTYyZWIyYjdiYmI0M2FkODk0ZDljZGE5YzU1ZjYwN2ZlZGM1Zjc3JmNtZD1kZWxldGU%3D&amp;utm_campaign=daily_summary&amp;utm_source=default&amp;utm_medium=email&amp;utm_content=original"><span style="color:#368BC6">Cancel request</span></a></td>
+			</tr>
+		</table>
+
+<div style="margin:20px 0px 20px 0px;">
+	<table><tbody><tr><td style="padding: 9px 16px 9px 16px; font-size: 16px;  color: #F7FBFD; background: #00B3E6;"><a target="_blank" rel="noopener noreferrer" style="text-decoration: none; font-size: 16px;  color: #F7FBFD;" href="https://app.hellosign.com/home/manage?utm_campaign=daily_summary&amp;utm_source=default&amp;utm_medium=email&amp;utm_content=original"><span style="color:#F7FBFD">View documents page</span></a></td></tr></tbody></table></div>
+
+<p style="margin:10px 0px;font-size:14px;line-height:1.4em;color:#000;">We'll only send you this email if you have documents that are out for signature.  Click here to <a href="http://email.mail.hellosign.com/u/eJwlzbsOgyAYQOGnKVsJKHIZWKpx69QHML8ISgLSgG3i25e2-8l3Fu1Ux5HXDaGSCNrSpmNMYYrbhg9ipL0ae0ZEf7swEsEHvNkQUvHrjk2KaNOsAyEtN05xM9PZgnROVsxQMjslFHpD9nD4tOuU_ep3CCjrArGC5hqP9ecceqj4-XjFCPm821JgtchAfEJdTSYtVi_fYir_5AOupjwU" style="color: #368BC6;text-decoration:none;">unsubscribe from the daily summary</a>.</p>
+		</td> <!--  /page -->
+	</tr>
+</table>
+
+
+
+    </td></tr></tbody></table>
+  </td></tr></tbody></table>
+
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" id="footer" style="min-width:680px;background: #cccccc;border-top: 1px solid #999999;border-bottom: 1px solid #999999;padding: 0 0 30px 0;">
+	<tbody><tr style="border-collapse: collapse;"><td align="center" bgcolor="#cccccc" style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;font-size: 14px;line-height: 1.4em;border-collapse: collapse;">
+
+  	<table class="email-body" width="640" cellpadding="20" cellspacing="0" border="0" style="margin-top: 20px;">
+    <tbody>
+    	<tr style="border-collapse: collapse;">
+      		<td class="footer-block" align="left" style="padding: 0px 12px 0px 0px;vertical-align: top;font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;font-size: 12px;line-height: 1.4em;border-collapse: collapse;color:#555">
+	      		<strong>We believe the office can be paperless</strong><br/>
+    	       	<a style="color: #368BC6;text-decoration:none;" href="http://app.hellofax.com/?utm_campaign=daily_summary&utm_source=default&utm_medium=email&utm_content=original">HelloFax</a> <span>&mdash; Fax Documents Online</span><br/>
+    	       	<a style="color: #368BC6;text-decoration:none;" href="http://app.hellosign.com/?utm_campaign=daily_summary&utm_source=default&utm_medium=email&utm_content=original">HelloSign</a> <span>&mdash; Sign Documents Online</span><br/>
+    	       	<a style="color: #368BC6;text-decoration:none;" href="http://app.hellosign.com/gmail?utm_campaign=daily_summary&utm_source=default&utm_medium=email&utm_content=original">HelloSign for Gmail</a> <span>&mdash; Sign from Gmail</span>
+      		</td>
+
+      		<td class="footer-block" align="left" style="padding: 0px 12px 0px 0px;vertical-align: top;font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;font-size: 12px;line-height: 1.4em;border-collapse: collapse;color:#555">
+              301 Howard Street, Suite 200<br/>
+              San Francisco, CA<br/>
+              94105
+            </td>
+
+      		<td class="footer-block" align="left" style="padding: 0px 0px 0px 0px;vertical-align: top;font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;font-size: 12px;line-height: 1.4em;border-collapse: collapse;color:#555">
+    	      <a style="color: #368BC6;text-decoration:none;" href="https://dyn550zzd47ox.cloudfront.net/1.57.3/css/images/email/support-hs.vcf" class="hcard-download">Add us to your address book</a><br/>
+    	            		</td>
+      	</tr>
+     </tbody>
+     </table>
+  </td></tr></tbody></table>
+</body>
+</html>
+--706b4eb0fcb241bfa203afeadbfe3196--

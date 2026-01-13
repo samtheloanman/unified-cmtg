@@ -1,0 +1,104 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: none (zoho.com: 209.85.167.44 is neither permitted nor denied by domain of cfmbinvest.com) client-ip=209.85.167.44; envelope-from=phil@cfmbinvest.com; helo=mail-lf1-f44.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=none (zoho.com: 209.85.167.44 is neither permitted nor denied by domain of cfmbinvest.com)  smtp.mailfrom=phil@cfmbinvest.com
+Return-Path: <phil@cfmbinvest.com>
+Received: from mail-lf1-f44.google.com (mail-lf1-f44.google.com [209.85.167.44]) by mx.zohomail.com
+	with SMTPS id 1532386672446299.5057182780056; Mon, 23 Jul 2018 15:57:52 -0700 (PDT)
+Received: by mail-lf1-f44.google.com with SMTP id a134-v6so1638942lfe.6
+        for <sam@c-mtg.com>; Mon, 23 Jul 2018 15:57:51 -0700 (PDT)
+Received: from 340379804296 named unknown by gmailapi.google.com with
+ HTTPREST; Mon, 23 Jul 2018 18:57:44 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=cfmbinvest-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:from:insightly-emailid:accept-encoding:user-agent:date
+         :message-id:subject:to;
+        bh=qtcaOffpgLbKmXOIkYe0N2mMjso2kPQLNM72Pw6f75k=;
+        b=Mq/4lvmMl/Z3Ud9HBKF8UA7KiFGAedzdw4TL6aQ7BJ/WCA40G2xOXpFreA90r8/dWz
+         TqP/Ooicsdx3NhYx1sANCAWD/rPkV4ciPIM2ZegfF9hPWiPWTGwVCXsS/SENwKo+bvax
+         d0Y4PlnrG0WowO6g+tRpWsL9DPC/ZcBeARdHn8d1DxFYejA6JmA6qi1eznFI8Nh2bTxI
+         cQVTNXEYh3fYoFIklizGfp1pfuLJTpH6AtLJ722GkBGE+LmK2WOJgQXj0FN7oKzfzQ9G
+         f2EX8pzy2ylWax+StEeKM+4dfCleYwgTdkEljKzesPZS0D+looNsnM/A/atkAxY+z82L
+         ZbBA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:insightly-emailid
+         :accept-encoding:user-agent:date:message-id:subject:to;
+        bh=qtcaOffpgLbKmXOIkYe0N2mMjso2kPQLNM72Pw6f75k=;
+        b=J3C7DiEJTJTATqHA1SOsgXnng3+Q16tnPUi2yYKjuzuoZAm1O8fpBkFIJyF/d31/7o
+         VDDM/EMdIHMhl+17aBYSiyPa/RK4KtK6xdMY+TVtBjSC3Ep6SULqktnKdMr3QQ/SNnu4
+         gS4wGWbXNGCVrjhcv8llfLcklZsKPuAS46eNIbD7wiflZjqGFXVh0z/LIG88GHcKsS4e
+         /33jLwgS2NMHOs31Zeq/o0XkfNoCv+U9lVityFsS5Jd7/VITJhzN0gLIBFgpBpYmQ9Qq
+         uPYckFX2plkTe9WalRpxQG6+0va2yZP5WeOcFDgIhdvi7sL6thxnEp2LgAgkDDKuNco9
+         ZrhA==
+X-Gm-Message-State: AOUpUlHfVPBoSHKybt8mco7pWaWknwfhzShsSQOyn8DGbMXTlpuZXiV7
+	Rbp+xENdlrh4M9NTacKTTqB4zK8L4X94I/SDUVPQQZjTMQ8=
+X-Google-Smtp-Source: AAOMgpdifgcBhG3jc9t0bUtEFpcHpYjoI/ctYNxdFuA2EGKCbDV5O7sqZa94p62szK4wO+d9e5Hutof2HcrfabYuy4g=
+X-Received: by 2002:a19:41c5:: with SMTP id o188-v6mr8175478lfa.100.1532386669914;
+ Mon, 23 Jul 2018 15:57:49 -0700 (PDT)
+MIME-Version: 1.0
+X-Mailer: MailBee.NET 10.0.45.502
+From: Phillip Bairley <phil@cfmbinvest.com>
+insightly-emailid: 94707516
+Accept-Encoding: gzip
+User-Agent: gzip
+Date: Mon, 23 Jul 2018 18:57:44 -0400
+Message-ID:<CAN4fTT1P_QgWTzc2726FiB-G_Aa0mi=pnmhG0aSL2HAactoNhg@mail.gmail.com>
+Subject: Investment Property Financing & Fix N Flip Financing
+To: sam@c-mtg.com
+Content-Type: multipart/alternative; boundary="0000000000001e6e410571b293de"
+X-ZohoMail-DKIM: pass (identity @cfmbinvest-com.20150623.gappssmtp.com)
+X-ZohoMail: RDKM_0  RSF_4  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_1 S_168 FRD_NDS
+X-ZM-MESSAGEID: 1532386673044100001
+X-ZohoMail-Status: 1
+
+
+--0000000000001e6e410571b293de
+Content-Type: text/plain; charset="UTF-8"
+
+CFM Real Estate Services, Inc. arranges private money financing. We close
+in under seven business days, we finance unconventional properties and
+borrowers. If you're involved in Fix N Flip purchase, we will finance
+purchase price and building cost up to 75% ARV. Our rates start at 8.5%.
+
+Contact Our Team Today
+
+
+*Andrew Simmons **Regional Sales Manager*
+*CFM Real Estate Services, Inc.*
+*312 S. Cedros Avenue Suite 310*
+*Solana Beach CA 92075*
+*Mobile: 858-922-3054 *
+*www.cfmbREinvestments.com
+<http://a.insgly.net/api/trk?id=emailclick&i=525376&eid=94707516&url=http%3a%2f%2fwww.cfmbreinvestments.com%2f&env=https%3a%2f%2fgoogleapps.insight.ly>*
+*CA BRE # 01983546*
+
+--0000000000001e6e410571b293de
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+CFM Real Estate Services, Inc. arranges private money financing. We close i=
+n under seven business days, we finance unconventional properties and borro=
+wers. If you&#39;re involved in Fix N Flip purchase, we will finance purcha=
+se price and building cost up to
+ 75% ARV. Our rates start at 8.5%.<br>
+<br>
+Contact Our Team Today<br>
+<br>
+<strong>Andrew Simmons<br>
+</strong><strong>Regional Sales Manager</strong><br>
+<strong>CFM Real Estate Services, Inc.</strong><br>
+<strong>312 S. Cedros Avenue Suite 310</strong><br>
+<strong>Solana Beach CA 92075</strong><br>
+<strong>Mobile: 858-922-3054 </strong><br>
+<strong><a href=3D"http://a.insgly.net/api/trk?id=3Demailclick&amp;i=3D5253=
+76&amp;eid=3D94707516&amp;url=3Dhttp%3a%2f%2fwww.cfmbreinvestments.com%2f&a=
+mp;env=3Dhttps%3a%2f%2fgoogleapps.insight.ly" target=3D"_blank">www.cfmbREi=
+nvestments.com</a></strong><br>
+<strong>CA BRE # 01983546</strong><br>
+<strong></strong><img width=3D"0" height=3D"0" src=3D"http://a.insgly.net/a=
+pi/trk?id=3Demailopen&amp;i=3D525376&amp;eid=3D94707516&amp;env=3Dhttps%3a%=
+2f%2fgoogleapps.insight.ly" alt=3D"">
+
+--0000000000001e6e410571b293de--

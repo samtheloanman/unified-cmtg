@@ -1,0 +1,109 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of softlayer.com designates 173.192.119.25 as permitted sender) client-ip=173.192.119.25; envelope-from=noreply@softlayer.com; helo=mx.softlayer.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of softlayer.com designates 173.192.119.25 as permitted sender)  smtp.mailfrom=noreply@softlayer.com;
+	dmarc=pass(p=none dis=none)  header.from=softlayer.com
+Return-Path: <noreply@softlayer.com>
+Received: from mx.softlayer.com (mx.softlayer.com [173.192.119.25]) by mx.zohomail.com
+	with SMTPS id 1530822119102660.0741706978788; Thu, 5 Jul 2018 13:21:59 -0700 (PDT)
+Received: from txndal0101b.softlayer.local
+	by mx.softlayer.com with esmtp
+	(Exim)
+	(envelope-from <noreply@softlayer.com>)
+	for sam@c-mtg.com
+	id 1fbAlK-00069a-RY; Thu, 05 Jul 2018 15:21:58 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=softlayer.com; s=ims13; h=Message-Id:MIME-Version:Content-Type:Date:From:
+	Subject:To; bh=r2v8BKEpt+jJGIby718/Z84NPZdVchIXeeVqtwWvS2U=; b=dKV4eI8Y0wNWSh
+	kbs7tZHoEpZ0CKb9ZzTbdKzC/82WesoOQKFljmkkxCyEKR5qVSqhCMK5AjhJDWwZanX92al6EZLcj
+	6CFZNVPHfclq4iw9BztRea0qu2bgOFcw9VxIqh6aM77q8vg12N2BW62f4kbo8d8u0FGabF20C4knk
+	+U7QFb+2r27d8zChdz2b3ejPJeah3kQpomRO6Nl6R26ot8GfVCZySBrnwO2HFIhLq+wUNObqeIyd6
+	9sIsjZoSp7CcHUxwFvWdy4QaRy+aBKnNtRf32euXGRNRWaVAeVlPKCH6YEj7QO+K735+iThY0/MWb
+	a6Cw58pmpl6WEmyuCKDA==;
+To: sam@c-mtg.com
+Subject: [IBM Cloud Event] ID: 61622037 - Slow Provisioning Times
+From: noreply@softlayer.com
+Date: Thu, 05 Jul 2018 15:21:58 -0500
+Content-Type: multipart/alternative;
+ boundary="=_d33aeacc68595640215e795b9b236541"
+MIME-Version: 1.0
+Message-ID:<E1fbAlK-00069a-RY@mxdal0501.softlayer.local>
+X-ZohoMail-DKIM: pass (identity @softlayer.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_7 RF_0 S_166
+X-ZM-MESSAGEID: 1530822119829000001
+X-ZohoMail-Status: 1
+
+
+--=_d33aeacc68595640215e795b9b236541
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Customer Identification: Custom mtg (1395829)=0AStart Date: Thursday 05-=
+Jul-2018 19:47 UTC=0AEvent Type: Unplanned Event=0ASubject: Event 616220=
+37 - Slow Provisioning Times=0A=0A=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=0A/ Latest Update /=0A- As of Thursday 05-Jul-2018 19:48=
+ UTC=0AAt approximately 14:56 UTC, long provisioning times were being ob=
+served through monitoring systems, and Systems Engineers were engaged to=
+ help investigate the issue. At this time, customers may experience long=
+er than normal times for provisioning new services. As of this time, pro=
+visioning transactions are still completing. No disruptions have been ob=
+served.=0A=0A/ Items Associated With This Event /=0AItem ID | Hostname |=
+ Public IP | Private IP | Item Type=0A=0A=0A/ Update History /=0A=0A=0A=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=0AThe times above ar=
+e shown in UTC/GMT. Please visit http://www.timeanddate.com/worldclock/c=
+onverter.html?iso=3D20180705T1945&p1=3D0 to convert start time of this e=
+vent to your local time.=0A=0AIBM Cloud (formerly SoftLayer) sent you th=
+is email because your contact address is linked to an account in our cus=
+tomer database. This email is used exclusively as our channel for notify=
+ing you about critical issues that may affect your service, and for impo=
+rtant company news that could affect your business.  You are receiving t=
+his note because the message above directly concerns one of your account=
+s. If you do not wish to receive these important notifications at this a=
+ddress, please update your contact information or notification subscript=
+ions in the customer portal.=0A=0AIf you have received this email in err=
+or, or you are concerned about suspicious activity concerning your accou=
+nt, please contact accounting@softlayer.com.=0AIBM Cloud | 14001 North D=
+allas Tollway Suite M100 Dallas, TX 75240 | +1-866-325-0045
+
+--=_d33aeacc68595640215e795b9b236541
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<pre style=3D"white-space:pre-wrap">Customer Identification: Custom mtg=
+ (1395829)=0AStart Date: Thursday 05-Jul-2018 19:47 UTC=0AEvent Type: Un=
+planned Event=0ASubject: Event 61622037 - Slow Provisioning Times=0A=0A=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=0A/ Latest Update /=
+=0A- As of Thursday 05-Jul-2018 19:48 UTC=0AAt approximately 14:56 UTC,=
+ long provisioning times were being observed through monitoring systems,=
+ and Systems Engineers were engaged to help investigate the issue. At th=
+is time, customers may experience longer than normal times for provision=
+ing new services. As of this time, provisioning transactions are still c=
+ompleting. No disruptions have been observed.=0A=0A/ Items Associated Wi=
+th This Event /=0AItem ID | Hostname | Public IP | Private IP | Item Typ=
+e=0A=0A=0A/ Update History /=0A=0A=0A=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=0AThe times above are shown in UTC/GMT. Please visit=
+ http://www.timeanddate.com/worldclock/converter.html?iso=3D20180705T194=
+5&amp;p1=3D0 to convert start time of this event to your local time.=0A=
+=0AIBM Cloud (formerly SoftLayer) sent you this email because your conta=
+ct address is linked to an account in our customer database. This email=
+ is used exclusively as our channel for notifying you about critical iss=
+ues that may affect your service, and for important company news that co=
+uld affect your business.  You are receiving this note because the messa=
+ge above directly concerns one of your accounts. If you do not wish to r=
+eceive these important notifications at this address, please update your=
+ contact information or notification subscriptions in the customer porta=
+l.=0A=0AIf you have received this email in error, or you are concerned a=
+bout suspicious activity concerning your account, please contact account=
+ing@softlayer.com.=0AIBM Cloud | 14001 North Dallas Tollway Suite M100 D=
+allas, TX 75240 | +1-866-325-0045</pre>
+
+--=_d33aeacc68595640215e795b9b236541--

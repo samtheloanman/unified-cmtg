@@ -1,0 +1,1080 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of luv.southwest.com designates 12.130.138.99 as permitted sender) client-ip=12.130.138.99; envelope-from=SouthwestAirlines@luv.southwest.com; helo=omptrans.luv.southwest.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=SouthwestAirlines@luv.southwest.com;
+	spf=pass (zoho.com: domain of luv.southwest.com designates 12.130.138.99 as permitted sender)  smtp.mailfrom=SouthwestAirlines@luv.southwest.com;
+	dmarc=pass(p=reject dis=none)  header.from=luv.southwest.com
+Return-Path: <SouthwestAirlines@luv.southwest.com>
+Received: from omptrans.luv.southwest.com (omptrans.luv.southwest.com [12.130.138.99]) by mx.zohomail.com
+	with SMTP id 1531596659252787.10598200725; Sat, 14 Jul 2018 12:30:59 -0700 (PDT)
+Received: by omptrans.luv.southwest.com id h997n62b6109 for <sam@c-mtg.com>; Sat, 14 Jul 2018 12:30:55 -0700 (envelope-from <SouthwestAirlines@luv.southwest.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=southwest; d=luv.southwest.com;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:To:From:Reply-To:
+ Subject:Message-ID; i=SouthwestAirlines@luv.southwest.com;
+ bh=uh4uDTAXJX+ydJh3ebE1opBNpUatQnMRNjGJe5U3QA8=;
+ b=CmAAqoH58Qs2CdQXFc5QL7uqp8C7fc9YiUyGftXj0zTzQmHN7G3uVfk6ItRQ6zBKh+TJV9v5jIAs
+   jbFuhHRIhlHXjnjm09OuqHW3KKcay2a0Zaf317g00mYrQ+t7YaGURLlIwJxUqYxI9QjnrDuMPFk+
+   S4NClTyIaaW5XiJwe+0=
+X-CSA-Complaints: whitelist-complaints@eco.de
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Date: Sat, 14 Jul 2018 12:30:55 -0700
+To: sam@c-mtg.com
+From: =?UTF-8?B?U291dGh3ZXN0IEFpcmxpbmVz?= <SouthwestAirlines@luv.southwest.com>
+Reply-To: =?UTF-8?B?U291dGh3ZXN0IEFpcmxpbmVz?= <response@luv.southwest.com>
+Subject: 07/15 Phoenix trip (QV9LB4): Have you booked your hotel?
+Feedback-ID: 5766:1276082:oraclersys
+X-sgxh1: kHuxJqulnQJhu
+X-rext: 5.interact2.EoK3B7v0xpow6lCxJvQrReF_JWuIoV-1eQV-m4Xnc93O1rhPkqtVMXw
+X-cid: swair.3011042
+Message-ID:<0.1.25F.DD2.1D41BA92F613496.0@omptrans.luv.southwest.com>
+X-ZohoMail-DKIM: pass (identity SouthwestAirlines@luv.southwest.com)
+X-ZohoMail-Owner: <0.1.25F.DD2.1D41BA92F613496.0@omptrans.luv.southwest.com>+zmo_0_SouthwestAirlines@luv.southwest.com
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_1 IS_0 RTD EML_0 DMN_0 EDR_100 SIP_KGR,RPD_KGR COSF LNKP UMS_WB UNK_U_0 SIP_KGR_0 RPD_KGR_0 PMF_BCNIM_NW_0 ZMHF_701_2 NAR_UD_0  SC_2 SGR3_1_2_0_167_355
+X-ZM-MESSAGEID: 1531596660061100001
+X-ZohoMail-Status: 1
+
+
+<=21DOCTYPE html PUBLIC =22-//W3C//DTD XHTML 1=2E0 Transitional//EN=22 =22h=
+ttp://www=2Ew3=2Eorg/TR/xhtml1/DTD/xhtml1-transitional=2Edtd=22>
+<html style=3D=22text-size-adjust: 100%; opacity: 1; width: 100% =21importa=
+nt; height: 100% =21important; margin: 0px =21important; padding: 0px =21im=
+portant; background-color: rgb(255, 255, 255) =21important;=22 xmlns=3D=22h=
+ttps://www=2Ew3=2Eorg/1999/xhtml=22>
+<head>
+   <meta content=3D=22text/html; charset=3DUTF-8=22 http-equiv=3D=22Content=
+-Type=22 />
+   <meta content=3D=22IE=3Dedge=22 http-equiv=3D=22X-UA-Compatible=22 />
+   <meta content=3D=22width=3Ddevice-width, initial-scale=3D1=2E0=22 name=
+=3D=22viewport=22 />
+   <title>Southwest Airlines</title>
+   <=21--=5Bif gte mso 15=5D><style type=3D=22text/css=22>table =7Bfont-siz=
+e: 1px; line-height: 0; mso-margin-top-alt: 1px; mso-line-height-rule: exac=
+tly;=7D * =7Bmso-line-height-rule: exactly;=7D</style><=21=5Bendif=5D-->
+   <style type=3D=22text/css=22>/* Resets */
+      =23outlook a 			=7B
+        padding: 0;
+      =7D
+      =2EExternalClass 		=7B
+        width: 100%;
+      =7D
+      =2EExternalClass *	=7B
+        line-height: 100%;
+      =7D
+      =2Eyshortcuts a 		=7B
+        border-bottom: none =21important;
+      =7D
+      p 								=7B
+        line-height: normal;
+      =7D
+      table td 						=7B
+        border-collapse: collapse;
+      =7D
+      div=5Bstyle*=3D=22margin: 16px 0=22=5D 	=7B
+        margin: 0 =21important;
+      =7D
+      table =7B
+        border-spacing: 0 =21important;
+        border-collapse: collapse =21important;
+        mso-table-lspace: 0pt =21important;
+        mso-table-rspace: 0pt =21important;
+      =7D
+      a=5Bx-apple-data-detectors=5D =7B
+        color: inherit =21important;
+        text-decoration: none =21important;
+        font-size: inherit =21important;
+        font-family: inherit =21important;
+        font-weight: normal =21important;
+        line-height: inherit =21important
+      =7D
+      /* Media Queries */
+      =40media screen and (max-width: 600px) =7B
+/* Utility Classes */
+=2Efull 			=7Bwidth: 100% =21important;=7D
+=2Ehide 			=7Bdisplay: none =21important;=7D
+=2Esides 			=7Bpadding-left: 15px =21important; padding-right: 15px =21impo=
+rtant;=7D
+=2Eauto-height 	=7Bheight: auto =21important;=7D
+
+=2Eimage-center img							=7Bdisplay: inline =21important;=7D
+=2Etext-left, =2Etext-left p 					=7Btext-align: left =21important;=7D
+=2Etext-right, =2Etext-right p 					=7Btext-align: right =21important;=7D
+=2Eimage-center, =2Etext-center, =2Etext-center p	=7Btext-align: center =21=
+important;=7D
+
+/* Grid */
+=23main-container 				=7Bwidth: 100% =21important;=7D
+=23main-wrapper > tbody > tr > td =7Bpadding: 0 10px =21important;=7D
+
+td				=7Bheight: auto =21important;=7D
+th=2Esplit 		=7Bwidth: 100% =21important; display: block =21important;=7D
+img=2Emobile 		=7Bfont-size: 12px; line-height: normal =21important; width:=
+ 100% =21important; height: auto =21important; max-height: inherit =21impor=
+tant;=7D
+table=2Ecolumn 	=7Bwidth: 100% =21important; height: auto =21important;=7D
+
+/* Buttons */
+=2Ebtn-wrap > table,
+=2Ebtn-wrap-mobile > table	=7Bwidth: 100% =21important;=7D
+=2Ebtn-wrap-mobile 			=7Bline-height: normal =21important; border-radius: 2=
+px =21important; -ms-border-radius: 2px =21important; -webkit-border-radius=
+: 2px =21important;=7D
+
+=2Ebtn, =2Ebtn-mobile 			=7Bwidth: 100% =21important; height:50px=21importa=
+nt=7D
+=2Ebtn a, =2Ebtn-mobile a 		=7Bwidth: 100% =21important; display: block;=7D
+=2Ebtn-mobile p 				=7Bfont-size: 14px =21important; font-weight: bold =21i=
+mportant; text-align: center =21important; line-height: nomral =21important=
+;=7D
+
+=2Ebtn-wrap-mobile=2Elight-blue > table =7Bborder: 1px solid =23304CB2;=7D
+=2Ebtn-wrap-mobile=2Edark-blue > table =7Bborder: 1px solid =23111B40;=7D
+=2Ebtn-wrap-mobile=2Ewhite > table =7Bborder: 1px solid =23FFFFFF;=7D
+=2Ebtn-wrap-mobile=2Eblack > table =7Bborder: 1px solid =23000001;=7D
+
+=2Eapp-badge =7Bwidth: 110px =21important;=7D
+
+/* Template */
+=23top-nav th 		=7Bheight: auto =21important;=7D
+=23top-nav =2Eleft td	=7Bpadding-bottom: 10px =21important;=7D
+
+=23travelSummary =2Erow-3 =2Ebtn-wrap =7Bpadding-right: 0 =21important=7D
+
+=2Epromo-boxes =2Eleft =2Epromo =7Bpadding-bottom: 10px =21important=7D
+=2Epromo-boxes =2Elogo =7Bpadding-bottom: 15px =21important;=7D
+
+=2Ebanner =2Eimage-center =7Bpadding-bottom: 0 =21important;=7D
+
+=23itinerary =2ESEG td =7Bwidth: auto =21important=7D
+
+=23bot-nav > table 	=7Bwidth: 100% =21important;=7D
+=23bot-nav th 		=7Bpadding: 10px 0 =21important; border-bottom: 1px solid =
+=23CCCCCC =21important;=7D
+=23bot-nav =2Elabel 	=7BMargin: 0 0 5px 0 =21important; font-size: 16px =21=
+important;=7D
+=23bot-nav =2Ec2 img 	=7Bwidth: 24px =21important;=7D
+=23bot-nav =2Econvert 	=7Bcolor: =23616161 =21important;=7D
+=23hotel=2Ehero =2Ebtn-wrap =7Bpadding-top: 0 =21important;=7D
+
+=2Ebanner =2Eleft =2Etext-center =7Bpadding-bottom: 15px =21important=7D
+
+=23travelSummary =2Erow-1 > td =7Bpadding-bottom: 0 =21important;=7D
+=23travelSummary =2Erow-1 > td > table =7Bborder-bottom: 0 =21important;=7D
+=23travelSummary =2Erow-2=2Egroup td =7Bpadding-top: 0 =21important;=7D
+=23travelSummary =2Erow-2=2Egroup > td > table =7Bborder-top: 0 =21importan=
+t=7D
+        =7D
+   </style>
+</head>
+<body style=3D=22text-size-adjust: 100%; background-color: rgb(255, 255, 25=
+5); height: 100% =21important; margin: 0px =21important; padding: 0px =21im=
+portant;=22><=21-- =3D=3D=3D=3D=3D start: main wrapper =3D=3D=3D=3D=3D -->
+<table bgcolor=3D=22=2314214D=22 border=3D=220=22 cellpadding=3D=220=22 cel=
+lspacing=3D=220=22 id=3D=22main-wrapper=22 style=3D=22margin: 0; padding: 0=
+; width: 100% =21important; height: 100% =21important; line-height: 100% =
+=21important; background-color: =23E6E8E9;=22 width=3D=22100%=22>
+   <tbody>
+      <tr>
+         <td align=3D=22center=22 valign=3D=22top=22>
+         <table border=3D=220=22 cellpadding=3D=220=22 cellspacing=3D=220=
+=22 id=3D=22main-container=22 width=3D=22600=22>
+            <tbody><=21-- =3D=3D=3D=3D=3D start: header region =3D=3D=3D=3D=
+=3D -->
+               <tr>
+                  <td id=3D=22header=22 style=3D=22padding: 10px 0 15px 0;=
+=22 valign=3D=22top=22>
+                  <table border=3D=220=22 cellpadding=3D=220=22 cellspacing=
+=3D=220=22 width=3D=22100%=22>
+                     <tbody><=21-- start: preheader -->
+                        <tr>
+                           <td id=3D=22preheader=22 style=3D=22padding: pad=
+ding-bottom: 5px; border-bottom: 1px solid =23CCCCCC;=22 valign=3D=22top=22>
+                           <table align=3D=22left=22 border=3D=220=22 cellp=
+adding=3D=220=22 cellspacing=3D=220=22>
+                              <tbody>
+                                 <tr>
+                                    <td data-content-region-name=3D=2201-Pr=
+eheader=22 style=3D=22color: =23616161; font-size: 10px; font-family: Arial=
+, Helvetica, sans-serif; text-align: left; Margin: 0;=22 valign=3D=22top=22>
+Complete your trip with hotel deals=2E</td>
+                                 </tr>
+                                 <tr>
+                                    <td style=3D=22padding-bottom: 10px;=22=
+ valign=3D=22top=22>
+                                    <p style=3D=22color: =23616161; font-si=
+ze: 10px; font-family: Arial, Helvetica, sans-serif; text-align: left; Marg=
+in: 0;=22><a href=3D=22https://luv=2Esouthwest=2Ecom/pub/cc?_ri_=3DX0Gzc2X%=
+3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc4mbhzeqSLzazequWzcgJDUwSjoyszblz=
+efzcOVXtpKX%3DSUWDBRT&amp;_ei_=3DEi7R_y_jFtqqBOcmMV2ryzmUgPzoTC8cLH3HfQV08r=
+jlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacFcRJNQ5AeN_vdlvez3SYD4LGXDQ5bUIaWHP-C=
+l-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoaszm4jnyRoXP0dPa-Fv3tcYsZoR1uSZv1G7zMxl=
+MSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-vW5Vzp3vIrPk5FQ54NDHiibyey74uhwNIgIu=
+DbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_oc2Cha7VNdZbm6gBmeec2EXQw49oW9LxL6ZlOZMT2QZ=
+-t=2E=22 style=3D=22color: =23304CB2; text-decoration: none;=22>View our mo=
+bile site </a>
+                                    </p>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                           </td>
+                        </tr>
+                        <=21-- end: preheader --><=21-- start: header -->
+                        <tr>
+                           <td id=3D=22top-nav=22 style=3D=22padding-top: 1=
+0px;=22 valign=3D=22middle=22>
+                           <table border=3D=220=22 cellpadding=3D=220=22 ce=
+llspacing=3D=220=22 width=3D=22100%=22>
+                              <tbody>
+                                 <tr><=21-- logo -->
+                                    <th class=3D=22split=22 height=3D=2226=
+=22 style=3D=22padding: 0;=22 valign=3D=22top=22>
+                                    <table border=3D=220=22 cellpadding=3D=
+=220=22 cellspacing=3D=220=22 class=3D=22column left=22 width=3D=22100%=22>
+                                       <tbody>
+                                          <tr>
+                                             <td valign=3D=22top=22><a href=
+=3D=22https://luv=2Esouthwest=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGhd=
+U7BNRzfihOAt8zfcNzaj0LzgXc4mbhzeqSLzazequWzcgJDUwSjoyszblzefzcOVXtpKX%3DSRY=
+SBTT&amp;_ei_=3DEi7R_y_jFtqqBOcmMV2ryzmUgPzoTC8cLH3HfQV08rjlXuuChgXHGFKm4e7=
+vblPOIPtIeDbmV4DkYsacFcRJNQ5AeN_vdlvez3SYD4LGXDQ5bUIaWHP-Cl-Y8_7mpVwRtZY2Bi=
+5wlq2f3L5qJbgtnKrAoaszm4jnyRoXP0dPa-Fv3tcYsZoR1uSZv1G7zMxlMSkiRWMFAWFK9mf5Z=
+-4dM1XqNDk82HKz0zSZYc-vW5Vzp3vIrPk5FQ54NDHiibyey74uhwNIgIuDbGJtVx1zAAwCynFG=
+njSfAVGD3IJNCZ_oc2Cha7VNdZbm6gBmeec2EXQw49oW9LxL6ZlOZMT2QZ-t=2E=22 style=3D=
+=22color: =23304CB2; text-decoration: underline;=22><img align=3D=22left=22=
+ alt=3D=22Southwest=22 border=3D=220=22 src=3D=22https://static=2Ecdn=2Eres=
+ponsys=2Enet/i2/responsysimages/swair/contentlibrary/pretrip_2017/templatei=
+mages/logo-southwest=2Epng=22 style=3D=22display: block; color: =23304CB2; =
+font-size: 16px; font-we0ght: bold; font-family: Arial, Helvetica, sans-ser=
+if;=22 title=3D=22Southwest Airlines=22 width=3D=22170=22 /> </a></td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                    </th>
+                                    <=21-- Top-Nav -->
+                                    <th class=3D=22split=22 height=3D=2226=
+=22 style=3D=22padding: 0; font-weight: normal;=22 valign=3D=22middle=22>
+                                    <table border=3D=220=22 cellpadding=3D=
+=220=22 cellspacing=3D=220=22 class=3D=22column right=22 width=3D=22100%=22>
+                                       <tbody>
+                                          <tr>
+                                             <td class=3D=22text-left=22 va=
+lign=3D=22top=22>
+                                             <p style=3D=22color: =23616161=
+; font-size: 14px; font-family: Arial, Helvetica, sans-serif; text-align: r=
+ight; Margin: 0;=22><a href=3D=22https://luv=2Esouthwest=2Ecom/pub/cc?_ri_=
+=3DX0Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc4mbhzeqSLzazequWzcgJD=
+UwSjoyszblzefzcOVXtpKX%3DSRYSBWT&amp;_ei_=3DEi7R_y_jFtqqBOcmMV2ryzmUgPzoTC8=
+cLH3HfQV08rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacFcRJNQ5AeN_vdlvez3SYD4LGXD=
+Q5bUIaWHP-Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoaszm4jnyRoXP0dPa-Fv3tcYsZoR1=
+uSZv1G7zMxlMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-vW5Vzp3vIrPk5FQ54NDHiibye=
+y74uhwNIgIuDbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_oc2Cha7VNdZbm6gBmeec2EXQw49oW9Lx=
+L6ZlOZMT2QZ-t=2E=22 style=3D=22color: =23304CB2; text-decoration: none;=22>=
+<strong>Manage Flight</strong> </a> =7C <a href=3D=22https://luv=2Esouthwes=
+t=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc4m=
+bhzeqSLzazequWzcgJDUwSjoyszblzefzcOVXtpKX%3DSRYSBAT&amp;_ei_=3DEi7R_y_jFtqq=
+BOcmMV2ryzmUgPzoTC8cLH3HfQV08rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacFcRJNQ5=
+AeN_vdlvez3SYD4LGXDQ5bUIaWHP-Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoaszm4jnyR=
+oXP0dPa-Fv3tcYsZoR1uSZv1G7zMxlMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-vW5Vzp=
+3vIrPk5FQ54NDHiibyey74uhwNIgIuDbGJtVx1zAAyfOB3absb66_aGMshXPeOnBnhjf7G269Kg=
+RV0RjOz_fQ7-MK66RCfsK2xTB01QOyZp4-Ku3MGDFEWtA8Pla3rWUL65KuWz5zYAJpi66lCU15v=
+sdVAZXq_ehzf0sKSUcNzfAKqKDbwfW0fLJJk5mRdkUDNaTiYCbK5-DfSx2Ontn60W9aNu=2E=22=
+ style=3D=22color: =23304CB2; text-decoration: none;=22> <strong>Flight Sta=
+tus</strong> </a> =7C <a href=3D=22https://luv=2Esouthwest=2Ecom/pub/cc?_ri=
+_=3DX0Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc4mbhzeqSLzazequWzcgJ=
+DUwSjoyszblzefzcOVXtpKX%3DSRYSBCT&amp;_ei_=3DEi7R_y_jFtqqBOcmMV2ryzmUgPzoTC=
+8cLH3HfQV08rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacFcRJNQ5AeN_vdlvez3SYD4LGX=
+DQ5bUIaWHP-Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoaszm4jnyRoXP0dPa-Fv3tcYsZoR=
+1uSZv1G7zMxlMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-vW5Vzp3vIrPk5FQ54NDHiiby=
+ey74uhwNIgIuDbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_oc2Cha7VNdZbm6gBmeec2EXQw49oW9L=
+xL6ZlOZMT2QZ-t=2E=22 style=3D=22color: =23304CB2; text-decoration: none;=22=
+> <strong>My&nbsp;Account</strong> </a>
+                                             </p>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                    </th>
+                                 </tr>
+                              </tbody>
+                           </table>
+                           </td>
+                        </tr>
+                        <=21-- end: header -->
+                     </tbody>
+                  </table>
+                  </td>
+               </tr>
+               <=21-- =3D=3D=3D=3D=3D end: header region =3D=3D=3D=3D=3D --=
+><=21-- =3D=3D=3D=3D=3D start: main body region =3D=3D=3D=3D=3D -->
+               <tr>
+                  <td class=3D=22wrap=22 id=3D=22main-body=22 valign=3D=22t=
+op=22>
+                  <table border=3D=220=22 cellpadding=3D=220=22 cellspacing=
+=3D=220=22 width=3D=22100%=22>
+                     <tbody><=21-- start: module 1 -->
+                        <tr>
+                           <td class=3D=22module=22 data-content-region-nam=
+e=3D=2202-Module-1=22 id=3D=22module-1=22 valign=3D=22top=22>
+<table border=3D=220=22 cellpadding=3D=220=22 cellspacing=3D=220=22 class=
+=3D=22hero=22 id=3D=22hotel=22 width=3D=22100%=22>
+   <tbody>
+      <tr>
+         <td class=3D=22container=22 style=3D=22padding-bottom: 10px;=22 va=
+lign=3D=22top=22>
+         <table border=3D=220=22 cellpadding=3D=220=22 cellspacing=3D=220=
+=22 class=3D=22background=22 style=3D=22background-color: =23FFFFFF;=22 wid=
+th=3D=22100%=22>
+            <tbody>
+               <tr>
+                  <th class=3D=22split=22 style=3D=22padding: 0; font-weigh=
+t: normal;=22 valign=3D=22middle=22>
+                  <table border=3D=220=22 cellpadding=3D=220=22 cellspacing=
+=3D=220=22 class=3D=22column left=22 width=3D=22300=22>
+                     <tbody>
+                        <tr>
+                           <td style=3D=22font-size: 0; line-height: 0;=22 =
+valign=3D=22top=22><a href=3D=22https://luv=2Esouthwest=2Ecom/pub/cc?_ri_=
+=3DX0Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc4mbhzeqSLzazequWzcgJD=
+UwSjoyszblzefzcOVXtpKX%3DSRYSCRT&_ei_=3DEi7R_y_jFtqqBOcmMV2ryzmUgPzoTC8cLH3=
+HfQV08rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacFcRJNQ5AeN_vdlvez3SYD4LGXDQ5bU=
+IaWHP-Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoaszm4jnyRoXP0dPa-Fv3tcYsZoR1uSZv=
+1G7zMxlMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-vW5Vzp3vIrPk5FQ54NDHiibyey74u=
+hwNIgIuDbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_odBZXnmTI5FL6Txjc3WJglC28BlHG-ieIUoe=
+V-m11G1PV2X4O7qZDdgPw39Yka0ix7j3kUX2-JrQFwdAILeXBfi91m8qHIq_U3YVb6YVNcVAGou=
+9H96zze6dhzg=2E=22 style=3D=22color: =23304CB2; text-decoration: underline;=
+=22><img alt=3D=22=22 border=3D=220=22 class=3D=22full auto-height=22 src=
+=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i2/responsysimages/swair/conte=
+ntlibrary/templates/cleancode/transactionaltemplate/rotatingplacements/2017=
+/images/170620-hotel-hero=2Ejpg=22 style=3D=22display: block;=22 width=3D=
+=22300=22 /> </a></td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  </th>
+                  <th class=3D=22split=22 style=3D=22padding: 0; font-weigh=
+t: normal;=22 valign=3D=22middle=22>
+                  <table border=3D=220=22 cellpadding=3D=220=22 cellspacing=
+=3D=220=22 class=3D=22column right=22 width=3D=22300=22>
+                     <tbody>
+                        <tr>
+                           <td class=3D=22text-center=22 style=3D=22padding=
+: 15px;=22 valign=3D=22top=22>
+                           <p style=3D=22color: =23111B40; font-size: 24px;=
+ font-weight: bold; font-family: Arial, Helvetica, sans-serif; text-align: =
+left; Margin: 0 0 10px 0;=22>Earn up to 10,000 Rapid Rewards&reg; points pe=
+r night
+                           </p>
+
+                           <p style=3D=22color: =23111B40; font-size: 18px;=
+ font-family: Arial, Helvetica, sans-serif; text-align: left; Margin: 0;=22=
+>on a hotel in Phoenix
+                           </p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class=3D=22btn-wrap=22 style=3D=22padding: 1=
+5px;=22 valign=3D=22top=22>
+                           <table align=3D=22left=22 border=3D=220=22 cellp=
+adding=3D=220=22 cellspacing=3D=220=22 class=3D=22full=22 style=3D=22backgr=
+ound-color: =23FFBF27; border: 1px solid =23FFBF27; border-radius: 2px; -we=
+bkit-border-radius: 2px; -ms-border-radius: 2px;=22>
+                              <tbody>
+                                 <tr>
+                                    <td class=3D=22btn=22 height=3D=2233=22=
+ valign=3D=22middle=22 width=3D=22100=22>
+                                    <p style=3D=22color: =23111B40; font-si=
+ze: 14px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; tex=
+t-align: center; Margin: 0;=22><a href=3D=22https://luv=2Esouthwest=2Ecom/p=
+ub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc4mbhzeqSLza=
+zequWzcgJDUwSjoyszblzefzcOVXtpKX%3DSRYSCRT&_ei_=3DEi7R_y_jFtqqBOcmMV2ryzmUg=
+PzoTC8cLH3HfQV08rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacFcRJNQ5AeN_vdlvez3SY=
+D4LGXDQ5bUIaWHP-Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoaszm4jnyRoXP0dPa-Fv3tc=
+YsZoR1uSZv1G7zMxlMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-vW5Vzp3vIrPk5FQ54ND=
+Hiibyey74uhwNIgIuDbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_odBZXnmTI5FL6Txjc3WJglC28B=
+lHG-ieIUoeV-m11G1PV2X4O7qZDdgPw39Yka0ix7j3kUX2-JrQFwdAILeXBfi91m8qHIq_U3YVb=
+6YVNcVAGou9H96zze6dhzg=2E=22 style=3D=22color: =23111B40; text-decoration: =
+none;=22>Book hotel </a>
+                                    </p>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  </th>
+               </tr>
+            </tbody>
+         </table>
+         </td>
+      </tr>
+   </tbody>
+</table>
+</td>
+                        </tr>
+                        <=21-- end: module 1 --><=21-- start: module 2 -->
+                        <tr>
+                           <td class=3D=22module=22 data-content-region-nam=
+e=3D=2203-Module-2=22 id=3D=22module-2=22 valign=3D=22top=22>
+<table border=3D=220=22 cellpadding=3D=220=22 cellspacing=3D=220=22 class=
+=3D=22hotel banner=22 width=3D=22100%=22>
+   <tbody>
+      <tr>
+         <td class=3D=22container=22 style=3D=22padding-bottom: 10px;=22 va=
+lign=3D=22top=22>
+         <table border=3D=220=22 cellpadding=3D=220=22 cellspacing=3D=220=
+=22 class=3D=22background=22 style=3D=22background-color: =23C0CDD6;=22 wid=
+th=3D=22100%=22>
+            <tbody>
+               <tr>
+                  <td style=3D=22padding: 15px;=22 valign=3D=22top=22>
+                  <table align=3D=22left=22 border=3D=220=22 cellpadding=3D=
+=220=22 cellspacing=3D=220=22>
+                     <tbody>
+                        <tr>
+                           <th class=3D=22split=22 style=3D=22padding: 0; f=
+ont-weight: normal;=22 valing=3D=22middle=22>
+                           <table align=3D=22left=22 border=3D=220=22 cellp=
+adding=3D=220=22 cellspacing=3D=220=22 class=3D=22column left=22>
+                              <tbody>
+                                 <tr>
+                                    <td class=3D=22text-center=22 style=3D=
+=22padding-right: 15px;=22 valign=3D=22middle=22>
+                                    <p style=3D=22color: =23304CB2; font-si=
+ze: 14px; font-family: Arial, Helvetica, sans-serif; text-align: left; Marg=
+in: 0;=22>Complete your trip with the perfect hotel at the best price=2E
+                                    </p>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                           </th>
+                           <th class=3D=22split btn-wrap-mobile light-blue=
+=22 style=3D=22padding: 0; font-weight: normal;=22 valign=3D=22middle=22>
+                           <table align=3D=22left=22 border=3D=220=22 cellp=
+adding=3D=220=22 cellspacing=3D=220=22 class=3D=22column right=22>
+                              <tbody>
+                                 <tr>
+                                    <td class=3D=22btn-mobile=22 valign=3D=
+=22middle=22>
+                                    <p style=3D=22color: =23304CB2; font-si=
+ze: 14px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; tex=
+t-align: left; Margin: 0;=22><a href=3D=22https://luv=2Esouthwest=2Ecom/pub=
+/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc4mbhzeqSLzaze=
+quWzcgJDUwSjoyszblzefzcOVXtpKX%3DSRYSCTT&_ei_=3DEi7R_y_jFtqqBOcmMV2ryzmUgPz=
+oTC8cLH3HfQV08rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacFcRJNQ5AeN_vdlvez3SYD4=
+LGXDQ5bUIaWHP-Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoaszm4jnyRoXP0dPa-Fv3tcYs=
+ZoR1uSZv1G7zMxlMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-vW5Vzp3vIrPk5FQ54NDHi=
+ibyey74uhwNIgIuDbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_oc2Cha7VNdZbm6gBmeec2EXQw49o=
+W9LxL6ZlOZMT2QZ-t=2E=22 style=3D=22color: =23304CB2; text-decoration: none;=
+=22>View all hotel deals<span class=3D=22hide=22>></span></a>
+                                    </p>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                           </th>
+                        </tr>
+                     </tbody>
+                  </table>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         </td>
+      </tr>
+   </tbody>
+</table>
+</td>
+                        </tr>
+                        <=21-- end: module 2 --><=21-- start: module 3 -->
+                        <tr>
+                           <td class=3D=22module=22 data-content-region-nam=
+e=3D=2204-Module-3=22 id=3D=22module-3=22 valign=3D=22top=22>
+<table border=3D=220=22 cellpadding=3D=220=22 cellspacing=3D=220=22 id=3D=
+=22travelSummary=22 width=3D=22100%=22>
+   <tbody>
+      <tr>
+         <td class=3D=22container=22 style=3D=22padding-bottom: 10px;=22 va=
+lign=3D=22top=22>
+         <table class=3D=22background=22 style=3D=22background-color: =23FF=
+FFFF;=22 valign=3D=22top=22 width=3D=22100%=22>
+            <tbody><=21-- start: row-1 (flight summary) -->
+               <tr class=3D=22row-1=22>
+                  <td style=3D=22padding: 15px;=22 valign=3D=22top=22>
+                  <table border=3D=220=22 cellpadding=3D=220=22 cellspacing=
+=3D=220=22 style=3D=22border-bottom: 1px solid =23CCCCCC;=22 width=3D=22100=
+%=22>
+                     <tbody>
+                        <tr><=21-- left column -->
+                           <th class=3D=22split=22 style=3D=22padding: 0; f=
+ont-weight: normal;=22 valign=3D=22top=22>
+                           <table border=3D=220=22 cellpadding=3D=220=22 ce=
+llspacing=3D=220=22 class=3D=22column left=22 width=3D=22454=22>
+                              <tbody>
+                                 <tr>
+                                    <td style=3D=22padding-bottom: 5px;=22 =
+valign=3D=22top=22>
+                                    <p style=3D=22color: =23646464; font-si=
+ze: 14px; font-weight: bold; font-family: Arial, Helvetica, 'sans-serif'; t=
+ext-align: left; Margin: 0;=22>July 15
+                                    </p>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td style=3D=22padding-bottom: 10px;=22=
+ valign=3D=22top=22>
+                                    <table align=3D=22left=22 border=3D=220=
+=22 cellpadding=3D=220=22 cellspacing=3D=220=22>
+                                       <tbody>
+                                          <tr>
+                                             <td valign=3D=22middle=22>
+                                             <p style=3D=22color: =23111B40=
+; font-size: 40px; font-family: Arial, Helvetica, 'sans-serif'; text-align:=
+ left; Margin: 0;=22>BUR
+                                             </p>
+                                             </td>
+                                             <td style=3D=22padding: 0 10px=
+;=22 valign=3D=22middle=22><img alt=3D=22=22 border=3D=220=22 src=3D=22http=
+s://static=2Ecdn=2Eresponsys=2Enet/i2/responsysimages/swair/contentlibrary/=
+templates/cleancode/transactionaltemplate/templateimages/ico-plane=2Epng=22=
+ style=3D=22display: block;=22 width=3D=2227=22 /></td>
+                                             <td valign=3D=22middle=22>
+                                             <p style=3D=22color: =23111B40=
+; font-size: 40px; font-family: Arial, Helvetica, 'sans-serif'; text-align:=
+ left; Margin: 0;=22>PHX
+                                             </p>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td style=3D=22padding-bottom: 15px;=22=
+ valign=3D=22top=22>
+                                    <p style=3D=22color: =23646464; font-si=
+ze: 16px; font-family: Arial, Helvetica, 'sans-serif'; text-align: left; Ma=
+rgin: 0;=22>Burbank to Phoenix
+                                    </p>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                           </th>
+                           <=21-- right column -->
+                           <th class=3D=22split=22 style=3D=22padding: 0; f=
+ont-weight: normal;=22 valign=3D=22top=22>
+                           <table border=3D=220=22 cellpadding=3D=220=22 ce=
+llspacing=3D=220=22 class=3D=22column right=22 width=3D=22101=22>
+                              <tbody>
+                                 <tr>
+                                    <td align=3D=22top=22 class=3D=22btn-wr=
+ap=22 style=3D=22padding-bottom: 15px;=22>
+                                    <table border=3D=220=22 cellpadding=3D=
+=220=22 cellspacing=3D=220=22 style=3D=22border: 1px solid =23CCCCCC; borde=
+r-radius: 2px; -ms-border-radius: 2px; -webkit-border-radius: 2px;=22>
+                                       <tbody>
+                                          <tr>
+                                             <td class=3D=22btn=22 height=
+=3D=2233=22 valign=3D=22middle=22 width=3D=22100=22>
+                                             <p style=3D=22color: =23304CB2=
+; font-size: 14px; font-weight: bold; font-family: Arial, Helvetica, 'sans-=
+serif'; text-align: center; Margin: 0;=22><a href=3D=22https://luv=2Esouthw=
+est=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc=
+4mbhzeqSLzazequWzcgJDUwSjoyszblzefzcOVXtpKX%3DSRYSCWT&_ei_=3DEi7R_y_jFtqqBO=
+cmMV2ryzmUgPzoTC8cLH3HfQV08rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacFcRJNQ5Ae=
+N_vdlvez3SYD4LGXDQ5bUIaWHP-Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoaszm4jnyRoX=
+P0dPa-Fv3tcYsZoR1uSZv1G7zMxlMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-vW5Vzp3v=
+IrPk5FQ54NDHiibyey74uhwNIgIuDbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_oc2Cha7VNdZbm6g=
+Bmeec2EXQw49oW9LxL6ZlOZMT2QZ-t=2E=22 style=3D=22color: =23304CB2; text-deco=
+ration: none;=22>Full itinerary </a>
+                                             </p>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                           </th>
+                        </tr>
+                     </tbody>
+                  </table>
+                  </td>
+               </tr>
+               <=21-- end: row-1 (flight summary) --><=21-- start: row-2 (p=
+assenger summary) -->
+               <tr class=3D=22row-2=22>
+                  <td style=3D=22padding: 0 15px;=22 valign=3D=22top=22>
+                  <table border=3D=220=22 cellpadding=3D=220=22 cellspacing=
+=3D=220=22 width=3D=22100%=22>
+                     <tbody>
+                        <tr>
+                           <td style=3D=22padding-bottom: 15px;=22 valign=
+=3D=22top=22>
+                           <p style=3D=22color: =23111B40; font-size: 14px;=
+ font-family: Arial, Helvetica, 'sans-serif'; text-align: left; Margin: 0 0=
+ 3px 0;=22>Confirmation =23 <span style=3D=22color: =23008522; font-size: 1=
+6px;=22><strong>QV9LB4</strong></span>
+                           </p>
+
+                           <p style=3D=22color: =23646464; font-size: 14px;=
+ font-weight: bold; font-family: Arial, Helvetica, 'sans-serif'; text-align=
+: left; Margin: 0 0 3px 0;=22>PASSENGERS=20
+                           </p>
+
+                           <p style=3D=22color: =23111B40; font-size: 14px;=
+ font-weight: bold; font-family: Arial, Helvetica, 'sans-serif'; text-align=
+: left; Margin: 0 0 3px 0;=22>Veda Tehranchi Lazatin
+                           </p>
+                          =20
+                           <p style=3D=22color: =23111B40; font-size: 14px;=
+ font-weight: bold; font-family: Arial, Helvetica, 'sans-serif'; text-align=
+: left; Margin: 0 0 3px 0;=22>Johnny Tehranchi
+                           </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  </td>
+               </tr>
+<=21-- end: row-2 (passenger summary) -->
+            </tbody>
+         </table>
+         </td>
+      </tr>
+   </tbody>
+</table>
+</td>
+                        </tr>
+                        <=21-- end: module 3 --><=21-- start: module 4 -->
+                        <tr>
+                           <td class=3D=22module=22 data-content-region-nam=
+e=3D=2205-Module-4=22 id=3D=22module-4=22 valign=3D=22top=22>
+</td>
+                        </tr>
+                        <=21-- end: module 4 --><=21-- start: module 5 -->
+                        <tr>
+                           <td class=3D=22module=22 data-content-region-nam=
+e=3D=2206-Module-5=22 id=3D=22module-5=22 valign=3D=22top=22>
+</td>
+                        </tr>
+                        <=21-- end: module 5 --><=21-- start: module 6 -->
+                        <tr>
+                           <td class=3D=22module=22 data-content-region-nam=
+e=3D=2207-Module-6=22 id=3D=22module-6=22 valign=3D=22top=22>
+</td>
+                        </tr>
+                        <=21-- end: module 6 --><=21-- start: module 7 -->
+                        <tr>
+                           <td class=3D=22module=22 data-content-region-nam=
+e=3D=2208-Module-7=22 id=3D=22module-7=22 valign=3D=22top=22>
+</td>
+                        </tr>
+                        <=21-- end: module 7 --><=21-- start: module 8 -->
+                        <tr>
+                           <td class=3D=22module=22 data-content-region-nam=
+e=3D=2209-Module-8=22 id=3D=22module-8=22 valign=3D=22top=22>
+</td>
+                        </tr>
+                        <=21-- end: module 8 --><=21-- start: module 9 -->
+                        <tr>
+                           <td class=3D=22module=22 data-content-region-nam=
+e=3D=2210-Module-9=22 id=3D=22module-9=22 valign=3D=22top=22>
+</td>
+                        </tr>
+                        <=21-- end: module 9 --><=21-- start: module 10 -->
+                        <tr>
+                           <td class=3D=22module=22 data-content-region-nam=
+e=3D=2211-Module-10=22 id=3D=22module-10=22 valign=3D=22top=22>
+</td>
+                        </tr>
+                        <=21-- end: module 10 --><=21-- start: module 11 -->
+                        <tr>
+                           <td class=3D=22module=22 data-content-region-nam=
+e=3D=2212-Module-11=22 id=3D=22module-11=22 valign=3D=22top=22>
+</td>
+                        </tr>
+                        <=21-- end: module 11 --><=21-- start: module 12 -->
+                        <tr>
+                           <td class=3D=22module=22 data-content-region-nam=
+e=3D=2213-Module-12=22 id=3D=22module-11=22 valign=3D=22top=22>
+</td>
+                        </tr>
+                        <=21-- end: module 12 --><=21-- start: module 13 -->
+                        <tr>
+                           <td class=3D=22module=22 data-content-region-nam=
+e=3D=2214-Module-13=22 id=3D=22module-13=22 valign=3D=22top=22>
+</td>
+                        </tr>
+                        <=21-- end: module 13 --><=21-- start: module 14 -->
+                        <tr>
+                           <td class=3D=22module=22 data-content-region-nam=
+e=3D=2215-Module-14=22 id=3D=22module-14=22 valign=3D=22top=22>
+</td>
+                        </tr>
+                        <=21-- end: module 14 --><=21-- start: module 15 -->
+                        <tr>
+                           <td class=3D=22module=22 data-content-region-nam=
+e=3D=2216-Module-15=22 id=3D=22module-15=22 valign=3D=22top=22>
+</td>
+                        </tr>
+                        <=21-- end: module 15 --><=21-- start: module 16 -->
+                        <tr>
+                           <td class=3D=22module=22 data-content-region-nam=
+e=3D=2217-Module-16=22 id=3D=22module-16=22 valign=3D=22top=22>
+</td>
+                        </tr>
+                        <=21-- end: module 16 -->
+                     </tbody>
+                  </table>
+                  </td>
+               </tr>
+               <=21-- =3D=3D=3D=3D=3D end: main body region =3D=3D=3D=3D=3D=
+ --><=21-- =3D=3D=3D=3D=3D start: footer region =3D=3D=3D=3D=3D -->
+               <tr>
+                  <td class=3D=22wrap=22 id=3D=22footer=22 style=3D=22paddi=
+ng-bottom: 15px;=22 valign=3D=22top=22>
+                  <table border=3D=220=22 cellpadding=3D=220=22 cellspacing=
+=3D=220=22 width=3D=22100%=22>
+                     <tbody><=21-- start: bottom-nav -->
+                        <tr>
+                           <td id=3D=22bot-nav=22 style=3D=22padding-bottom=
+: 15px;=22 valign=3D=22top=22>
+                           <table align=3D=22left=22 border=3D=220=22 cellp=
+adding=3D=220=22 cellspacing=3D=220=22>
+                              <tbody>
+                                 <tr>
+                                    <th class=3D=22split=22 style=3D=22padd=
+ing: 0; font-weight: normal;=22 valign=3D=22bottom=22>
+                                    <table border=3D=220=22 cellpadding=3D=
+=220=22 cellspacing=3D=220=22 class=3D=22column c1=22>
+                                       <tbody>
+                                          <tr>
+                                             <td style=3D=22padding-right: =
+15px;=22>
+                                             <p class=3D=22label=22 style=
+=3D=22color: =23616161; font-size: 14px; font-weight: bold; font-family: Ar=
+ial, Helvetica, sans-serif; text-align: left; Margin: 0 0 8px 0;=22>Need he=
+lp?
+                                             </p>
+
+                                             <p style=3D=22color: =23616161=
+; font-size: 14px; font-weight: bold; font-family: Arial, Helvetica, sans-s=
+erif; text-align: left; Margin: 0 0 5px 0;=22><a href=3D=22https://luv=2Eso=
+uthwest=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0L=
+zgXc4mbhzeqSLzazequWzcgJDUwSjoyszblzefzcOVXtpKX%3DSRYSCCT&amp;_ei_=3DEi7R_y=
+_jFtqqBOcmMV2ryzmUgPzoTC8cLH3HfQV08rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacF=
+cRJNQ5AeN_vdlvez3SYD4LGXDQ5bUIaWHP-Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoasz=
+m4jnyRoXP0dPa-Fv3tcYsZoR1uSZv1G7zMxlMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-=
+vW5Vzp3vIrPk5FQ54NDHiibyey74uhwNIgIuDbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_oc2Cha7=
+VNdZbm6gBmeec2EXQw49oW9LxL6ZlOZMT2QZ-t=2E=22 style=3D=22color: =23304CB2; t=
+ext-decoration: none;=22>Contact us </a>
+                                             </p>
+
+                                             <p style=3D=22color: =23616161=
+; font-size: 12px; font-family: Arial, Helvetica, sans-serif; text-align: l=
+eft; Margin: 0;=22><a href=3D=22https://luv=2Esouthwest=2Ecom/pub/cc?_ri_=
+=3DX0Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc4mbhzeqSLzazequWzcgJD=
+UwSjoyszblzefzcOVXtpKX%3DSRYSDRT&amp;_ei_=3DEi7R_y_jFtqqBOcmMV2ryzmUgPzoTC8=
+cLH3HfQV08rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacFcRJNQ5AeN_vdlvez3SYD4LGXD=
+Q5bUIaWHP-Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoaszm4jnyRoXP0dPa-Fv3tcYsZoR1=
+uSZv1G7zMxlMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-vW5Vzp3vIrPk5FQ54NDHiibye=
+y74uhwNIgIuDbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_oc2Cha7VNdZbm6gBmeec2EXQw49oW9Lx=
+L6ZlOZMT2QZ-t=2E=22 style=3D=22color: =23304CB2; text-decoration: none;=22>=
+Customer service </a> =7C <a href=3D=22https://luv=2Esouthwest=2Ecom/pub/cc=
+?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc4mbhzeqSLzazequW=
+zcgJDUwSjoyszblzefzcOVXtpKX%3DSRYSDTT&amp;_ei_=3DEi7R_y_jFtqqBOcmMV2ryzmUgP=
+zoTC8cLH3HfQV08rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacFcRJNQ5AeN_vdlvez3SYD=
+4LGXDQ5bUIaWHP-Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoaszm4jnyRoXP0dPa-Fv3tcY=
+sZoR1uSZv1G7zMxlMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-vW5Vzp3vIrPk5FQ54NDH=
+iibyey74uhwNIgIuDbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_oc2Cha7VNdZbm6gBmeec2EXQw49=
+oW9LxL6ZlOZMT2QZ-t=2E=22 style=3D=22color: =23304CB2; text-decoration: none=
+;=22> FAQ </a>
+                                             </p>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                    </th>
+                                    <th class=3D=22split=22 style=3D=22padd=
+ing: 0; font-weight: normal;=22 valign=3D=22bottom=22>
+                                    <table border=3D=220=22 cellpadding=3D=
+=220=22 cellspacing=3D=220=22 class=3D=22column c2=22>
+                                       <tbody>
+                                          <tr>
+                                             <td style=3D=22padding-right: =
+15px;=22>
+                                             <p class=3D=22label=22 style=
+=3D=22color: =23616161; font-size: 14px; font-weight: bold; font-family: Ar=
+ial, Helvetica, sans-serif; text-align: left; Margin: 0 0 5px 0;=22>Connect=
+ with us
+                                             </p>
+
+                                             <p style=3D=22text-align: left=
+; Margin: 0 0 3px 0;=22><a href=3D=22https://luv=2Esouthwest=2Ecom/pub/cc?_=
+ri_=3DX0Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc4mbhzeqSLzazequWzc=
+gJDUwSjoyszblzefzcOVXtpKX%3DSRYSDWT&amp;_ei_=3DEq2tf9zs59idfPO1Sc_9BbkJM4zW=
+Rjdx1BpoLoKCSnUG2MVYMks=2E=22 style=3D=22text-decoration: none;=22><img alt=
+=3D=22Twitter=22 border=3D=220=22 src=3D=22https://static=2Ecdn=2Eresponsys=
+=2Enet/i2/responsysimages/swair/contentlibrary/pretrip_2017/templateimages/=
+ico-tw=2Epng=22 style=3D=22display: inline;=22 title=3D=22Twitter=22 width=
+=3D=2217=22 /></a>&nbsp;<a href=3D=22https://luv=2Esouthwest=2Ecom/pub/cc?_=
+ri_=3DX0Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc4mbhzeqSLzazequWzc=
+gJDUwSjoyszblzefzcOVXtpKX%3DSRYSDAT&amp;_ei_=3DEi7R_y_jFtqqBOcmMV2ryzmUgPzo=
+TC8cLH3HfQV08rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacFcRJNQ5AeN_vdlvez3SYD4L=
+GXDQ5bUIaWHP-Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoaszm4jnyRoXP0dPa-Fv3tcYsZ=
+oR1uSZv1G7zMxlMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-vW5Vzp3vIrPk5FQ54NDHii=
+byey74uhwNIgIuDbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_oc2Cha7VNdZbm6gBmeec2EXQw49oW=
+9LxL6ZlOZMT2QZ-t=2E=22 style=3D=22text-decoration: none;=22><img alt=3D=22F=
+acebook=22 border=3D=220=22 src=3D=22https://static=2Ecdn=2Eresponsys=2Enet=
+/i2/responsysimages/swair/contentlibrary/pretrip_2017/templateimages/ico-fb=
+=2Epng=22 style=3D=22display: inline;=22 title=3D=22Facebook=22 width=3D=22=
+17=22 /></a>&nbsp;<a href=3D=22https://luv=2Esouthwest=2Ecom/pub/cc?_ri_=3D=
+X0Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc4mbhzeqSLzazequWzcgJDUwS=
+joyszblzefzcOVXtpKX%3DSRYSDCT&amp;_ei_=3DEi7R_y_jFtqqBOcmMV2ryzmUgPzoTC8cLH=
+3HfQV08rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacFcRJNQ5AeN_vdlvez3SYD4LGXDQ5b=
+UIaWHP-Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoaszm4jnyRoXP0dPa-Fv3tcYsZoR1uSZ=
+v1G7zMxlMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-vW5Vzp3vIrPk5FQ54NDHiibyey74=
+uhwNIgIuDbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_oc2Cha7VNdZbm6gBmeec2EXQw49oW9LxL6Z=
+lOZMT2QZ-t=2E=22 style=3D=22text-decoration: none;=22><img alt=3D=22Instagr=
+am=22 border=3D=220=22 src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i2/r=
+esponsysimages/swair/contentlibrary/pretrip_2017/templateimages/ico-in=2Epn=
+g=22 style=3D=22display: inline;=22 title=3D=22Instagram=22 width=3D=2217=
+=22 /></a>&nbsp;<a href=3D=22https://luv=2Esouthwest=2Ecom/pub/cc?_ri_=3DX0=
+Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc4mbhzeqSLzazequWzcgJDUwSjo=
+yszblzefzcOVXtpKX%3DSRYTRRT&amp;_ei_=3DEi7R_y_jFtqqBOcmMV2ryzmUgPzoTC8cLH3H=
+fQV08rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacFcRJNQ5AeN_vdlvez3SYD4LGXDQ5bUI=
+aWHP-Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoaszm4jnyRoXP0dPa-Fv3tcYsZoR1uSZv1=
+G7zMxlMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-vW5Vzp3vIrPk5FQ54NDHiibyey74uh=
+wNIgIuDbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_oc2Cha7VNdZbm6gBmeec2EXQw49oW9LxL6ZlO=
+ZMT2QZ-t=2E=22 style=3D=22text-decoration: none;=22><img alt=3D=22YouTube=
+=22 border=3D=220=22 src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i2/res=
+ponsysimages/swair/contentlibrary/pretrip_2017/templateimages/ico-yt=2Epng=
+=22 style=3D=22display: inline;=22 title=3D=22YouTube=22 width=3D=2217=22 /=
+></a>&nbsp;<a href=3D=22https://luv=2Esouthwest=2Ecom/pub/cc?_ri_=3DX0Gzc2X=
+%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc4mbhzeqSLzazequWzcgJDUwSjoyszbl=
+zefzcOVXtpKX%3DSRYTRTT&amp;_ei_=3DEi7R_y_jFtqqBOcmMV2ryzmUgPzoTC8cLH3HfQV08=
+rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacFcRJNQ5AeN_vdlvez3SYD4LGXDQ5bUIaWHP-=
+Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoaszm4jnyRoXP0dPa-Fv3tcYsZoR1uSZv1G7zMx=
+lMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-vW5Vzp3vIrPk5FQ54NDHiibyey74uhwNIgI=
+uDbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_oc2Cha7VNdZbm6gBmeec2EXQw49oW9LxL6ZlOZMT2Q=
+Z-t=2E=22 style=3D=22text-decoration: none;=22><img alt=3D=22Southwest Comm=
+unity=22 border=3D=220=22 src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i=
+2/responsysimages/swair/contentlibrary/pretrip_2017/templateimages/ico-comm=
+unity=2Epng=22 style=3D=22display: inline;=22 title=3D=22Southwest Communit=
+y=22 width=3D=2217=22 /></a>
+                                             </p>
+
+                                             <p class=3D=22hide=22 style=3D=
+=22color: =23E6E8E9; font-size: 12px; font-family: Arial, Helvetica, sans-s=
+erif; text-align: left; Margin: 0;=22>Connect
+                                             </p>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                    </th>
+                                    <th class=3D=22split=22 style=3D=22padd=
+ing: 0; font-weight: normal;=22 valign=3D=22bottom=22>
+                                    <table border=3D=220=22 cellpadding=3D=
+=220=22 cellspacing=3D=220=22 class=3D=22column c3=22>
+                                       <tbody>
+                                          <tr>
+                                             <td style=3D=22padding-right: =
+15px;=22>
+                                             <p class=3D=22label convert=22=
+ style=3D=22color: =23E6E8E9; font-size: 8px; font-weight: bold; font-famil=
+y: Arial, Helvetica, sans-serif; text-align: left; Margin: 0 0 5px 0;=22>Mo=
+bile app
+                                             </p>
+
+                                             <p class=3D=22hide=22 style=3D=
+=22text-align: center; Margin: 0 0 5px 0;=22><a href=3D=22https://luv=2Esou=
+thwest=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0Lz=
+gXc4mbhzeqSLzazequWzcgJDUwSjoyszblzefzcOVXtpKX%3DSRYTRAT&amp;_ei_=3DEi7R_y_=
+jFtqqBOcmMV2ryzmUgPzoTC8cLH3HfQV08rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacFc=
+RJNQ5AeN_vdlvez3SYD4LGXDQ5bUIaWHP-Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoaszm=
+4jnyRoXP0dPa-Fv3tcYsZoR1uSZv1G7zMxlMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-v=
+W5Vzp3vIrPk5FQ54NDHiibyey74uhwNIgIuDbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_oc2Cha7V=
+NdZbm6gBmeec2EXQw49oW9LxL6ZlOZMT2QZ-t=2E=22 style=3D=22text-decoration: non=
+e;=22><img alt=3D=22Download our App=22 border=3D=220=22 src=3D=22https://s=
+tatic=2Ecdn=2Eresponsys=2Enet/i2/responsysimages/swair/contentlibrary/pretr=
+ip_2017/templateimages/ico-app=2Epng=22 style=3D=22display: inline;=22 titl=
+e=3D=22Download our App=22 width=3D=2214=22 /> </a>
+                                             </p>
+
+                                             <p style=3D=22color: =23616161=
+; font-size: 12px; font-family: Arial, Helvetica, sans-serif; text-align: l=
+eft; Margin: 0;=22><a href=3D=22https://luv=2Esouthwest=2Ecom/pub/cc?_ri_=
+=3DX0Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc4mbhzeqSLzazequWzcgJD=
+UwSjoyszblzefzcOVXtpKX%3DSRYTRAT&amp;_ei_=3DEi7R_y_jFtqqBOcmMV2ryzmUgPzoTC8=
+cLH3HfQV08rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacFcRJNQ5AeN_vdlvez3SYD4LGXD=
+Q5bUIaWHP-Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoaszm4jnyRoXP0dPa-Fv3tcYsZoR1=
+uSZv1G7zMxlMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-vW5Vzp3vIrPk5FQ54NDHiibye=
+y74uhwNIgIuDbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_oc2Cha7VNdZbm6gBmeec2EXQw49oW9Lx=
+L6ZlOZMT2QZ-t=2E=22 style=3D=22color: =23304CB2; text-decoration: none;=22>=
+Get the mobile app </a>
+                                             </p>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                    </th>
+                                 </tr>
+                              </tbody>
+                           </table>
+                           </td>
+                        </tr>
+                        <=21-- end: bottom-nav --><=21-- start: terms and c=
+onditions -->
+                        <tr>
+                           <td id=3D=22terms=22 valign=3D=22top=22>
+                           <table border=3D=220=22 cellpadding=3D=220=22 ce=
+llspacing=3D=220=22 width=3D=22100%=22>
+                              <tbody>
+                                 <tr>
+                                    <td data-content-region-name=3D=2212-Te=
+rms-1=22 valign=3D=22top=22>
+</td>
+                                 </tr>
+                                 <tr>
+                                    <td data-content-region-name=3D=2213-Te=
+rms-2=22 valign=3D=22top=22>
+</td>
+                                 </tr>
+                                 <tr>
+                                    <td data-content-region-name=3D=2214-Te=
+rms-3=22 valign=3D=22top=22>
+</td>
+                                 </tr>
+                                 <tr>
+                                    <td data-content-region-name=3D=2215-Te=
+rms-4=22 valign=3D=22top=22>
+<p style=3D=22color: =23646464; font-size: 10px; font-family: Arial, Helvet=
+ica, sans-serif; text-align: left; Margin: 0 0 10px 0;=22>If you prefer not=
+ to receive these trip-related messages, you can <a href=3D=22https://luv=
+=2Esouthwest=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcN=
+zaj0LzgXc4mbhzeqSLzazequWzcgJDUwSjoyszblzefzcOVXtpKX%3DSRYTSRT&_ei_=3DEi7R_=
+y_jFtqqBOcmMV2ryzmUgPzoTC8cLH3HfQV08rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsac=
+FcRJNQ5AeN_vdlvez3SYD4LGXDQ5bUIaWHP-Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoas=
+zm4jnyRoXP0dPa-Fv3tcYsZoR1uSZv1G7zMxlMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc=
+-vW5Vzp3vIrPk5FQ54NDHiibyey74uhwNIgIuDbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_oCb2WQ=
+u_xa_WMpbmBH58ArAC1uANb3X_ZflOedG2s6-Bv2fNlBg4beCzecSJaxnS1KpOZo-FrAPX699rG=
+TQAfpm5Kly9BOWLUQA8WDDvJ_fY=2E=22 style=3D=22color: =23304CB2; text-decorat=
+ion: underline;=22>unsubscribe</a>=2E Please note that this does not includ=
+e your initial confirmation/itinerary emails or any messages related to a c=
+hange to, or cancellation of, your booked itinerary as those messages are r=
+equired confirmations of your transactions=2E
+</p>
+</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                           </td>
+                        </tr>
+                        <=21-- end: terms and conditions --><=21-- start: l=
+egal -->
+                        <tr>
+                           <td id=3D=22legal=22 style=3D=22padding-bottom: =
+15px;=22 valign=3D=22top=22>
+                           <table border=3D=220=22 cellpadding=3D=220=22 ce=
+llspacing=3D=220=22 width=3D=22100%=22>
+                              <tbody>
+                                 <tr>
+                                    <td valign=3D=22top=22>
+                                    <p style=3D=22color: =23616161; font-si=
+ze: 10px; font-family: Arial, Helvetica, sans-serif; text-align: left; Marg=
+in: 0 0 10px 0;=22>This is a post-only mailing from Southwest Airlines&reg;=
+=2E Please do not attempt to respond to this message=2E Your privacy is imp=
+ortant to us=2E Please read our <a href=3D=22https://luv=2Esouthwest=2Ecom/=
+pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc4mbhzeqSLz=
+azequWzcgJDUwSjoyszblzefzcOVXtpKX%3DSRYTRCT&amp;_ei_=3DEi7R_y_jFtqqBOcmMV2r=
+yzmUgPzoTC8cLH3HfQV08rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacFcRJNQ5AeN_vdlv=
+ez3SYD4LGXDQ5bUIaWHP-Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoaszm4jnyRoXP0dPa-=
+Fv3tcYsZoR1uSZv1G7zMxlMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-vW5Vzp3vIrPk5F=
+Q54NDHiibyey74uhwNIgIuDbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_oc2Cha7VNdZbm6gBmeec2=
+EXQw49oW9LxL6ZlOZMT2QZ-t=2E=22 style=3D=22color: =23304CB2; text-decoration=
+: none;=22>privacy policy</a>=2E
+                                    </p>
+
+                                    <p style=3D=22color: =23616161; font-si=
+ze: 10px; font-family: Arial, Helvetica, sans-serif; text-align: left; Marg=
+in: 0 0 10px 0;=22>See <a href=3D=22https://luv=2Esouthwest=2Ecom/pub/cc?_r=
+i_=3DX0Gzc2X%3DYQpglLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc4mbhzeqSLzazequWzcg=
+JDUwSjoyszblzefzcOVXtpKX%3DSRYTSTT&amp;_ei_=3DEi7R_y_jFtqqBOcmMV2ryzmUgPzoT=
+C8cLH3HfQV08rjlXuuChgXHGFKm4e7vblPOIPtIeDbmV4DkYsacFcRJNQ5AeN_vdlvez3SYD4LG=
+XDQ5bUIaWHP-Cl-Y8_7mpVwRtZY2Bi5wlq2f3L5qJbgtnKrAoaszm4jnyRoXP0dPa-Fv3tcYsZo=
+R1uSZv1G7zMxlMSkiRWMFAWFK9mf5Z-4dM1XqNDk82HKz0zSZYc-vW5Vzp3vIrPk5FQ54NDHiib=
+yey74uhwNIgIuDbGJtVx1zAAwCynFGnjSfAVGD3IJNCZ_oc2Cha7VNdZbm6gBmeec2EXQw49oW9=
+LxL6ZlOZMT2QZ-t=2E=22 style=3D=22color: =23304CB2; text-decoration: none=22=
+>Southwest Airlines Co=2E Notice of Incorporation</a>
+                                    </p>
+
+                                    <p style=3D=22color: =23616161; font-si=
+ze: 10px; font-family: Arial, Helvetica, sans-serif; text-align: left; Marg=
+in: 0 0 10px 0;=22>Cualquier informaci&oacute;n publicitaria, promocional o=
+ de mercadotecnia contenida en este correo electr&oacute;nico s&oacute;lo s=
+er&aacute; efectiva y &uacute;nicamente ser&aacute; aplicable en los Estado=
+s Unidos de Am&eacute;rica=2E
+                                    </p>
+
+                                    <p style=3D=22color: =23616161; font-si=
+ze: 10px; font-family: Arial, Helvetica, sans-serif; text-align: left; Marg=
+in: 0 0 10px 0;=22><a style=3D=22color: =23616161; text-decoration: none;=
+=22> Southwest Airlines<br />
+                                    2702 Love Field Drive<br />
+                                    Dallas, TX 75235<br />
+                                    1-800-I-FLY-SWA (1-800-435-9792) </a>
+                                    </p>
+
+                                    <p style=3D=22color: =23616161; font-si=
+ze: 10px; font-family: Arial, Helvetica, sans-serif; text-align: left; Marg=
+in: 0;=22>&copy; Copyright 2018 Southwest Airlines Co=2E All Rights Reserve=
+d=2E
+                                    </p>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                           	<img src=3D=22http://swa=2Edemdex=2Enet/event?c=
+_pagename=3DEmail%20Open&c_evar45=3D1014165353&c_evar38=3Def49fd6ec63641d48=
+73e94de8fa1bfad81ac5147c8ceb0a75563b73112081de5&c_evar39=3DPretrip_2017_Hot=
+el&c_evar65=3D0000&c_campaign=3DMAILTXNPRET6DYHON170217&c_event=3Devent16&d=
+_rand=3D640350=22 width=3D=221=22 height=3D=221=22 border=3D=220=22 style=
+=3D=22display: block;=22 />
+</td>
+                        </tr>
+                        <=21-- end: legal -->
+                     </tbody>
+                  </table>
+                  </td>
+               </tr>
+               <=21-- =3D=3D=3D=3D=3D end: footer region =3D=3D=3D=3D=3D -->
+            </tbody>
+         </table>
+         </td>
+      </tr>
+   </tbody>
+</table>
+<=21-- =3D=3D=3D=3D=3D end: main wrapper =3D=3D=3D=3D=3D=3D --><table cellp=
+adding=3D=220=22 cellspacing=3D=220=22 style=3D=22border: 0px; padding: 0px=
+; margin: 0px; position: absolute; display: none; float: left=22>
+<tr>
+<td height=3D=221=22 style=3D=22font-size: 1px; line-height: 1px; padding: =
+0px;=22>
+<br><img src=3D=22https://luv=2Esouthwest=2Ecom/pub/as?_ri_=3DX0Gzc2X%3DYQp=
+glLjHJlTQGhdU7BNRzfihOAt8zfcNzaj0LzgXc4mbhzeqSLzazequWzcgJDUwSjoyszblzefzcO=
+VXHkMX%3Dw&_ei_=3DElgonnihtl8QpMf8RY8v_TK5iGGGhdIs7UqqhXDz=2E=22></img>
+</td>
+</tr>
+</table></body>
+</html>
+
+

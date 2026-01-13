@@ -1,0 +1,307 @@
+Delivered-To: Sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 209.85.216.178 as permitted sender) client-ip=209.85.216.178; envelope-from=shawa6598@gmail.com; helo=mail-qt0-f178.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 209.85.216.178 as permitted sender)  smtp.mailfrom=shawa6598@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Return-Path: <shawa6598@gmail.com>
+Received: from mail-qt0-f178.google.com (mail-qt0-f178.google.com [209.85.216.178]) by mx.zohomail.com
+	with SMTPS id 1532280466712325.20556611861366; Sun, 22 Jul 2018 10:27:46 -0700 (PDT)
+Received: by mail-qt0-f178.google.com with SMTP id c15-v6so14537314qtp.0
+        for <Sam@c-mtg.com>; Sun, 22 Jul 2018 10:27:46 -0700 (PDT)
+Received: by 2002:aed:358b:0:0:0:0:0 with HTTP; Sun, 22 Jul 2018 10:27:44
+ -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=V3uvecrqVjEEl7t2Kizaq5m8d1+qartngwHZdslPZaQ=;
+        b=LT++d7pJSttVtjqQFYq8pX1Sa5Ts8rzykH3tPGy1oI4EPWW/Uqgh85MAnfCe2T08cL
+         J0lbRflxnq9ZG/vEU9Y6efO2Xn08yYQQ786M0+TNaC2D3OixNbxpHv9LWjjYzJfRuSwQ
+         gnnD3pfLFfKau7xhWo7O2pCPQN8NPBgTz3yL+S1Y24O5bQiFTcAL3XN/xLjKM0FFMrj5
+         gH8oYA6NfSL0kJ0hfJuCWeLeQKRB9v7Ftmc9+SGYZTMTg5QJS9UN583ZlpReWw7Yoiha
+         nwLgLYCgy7XlcMQTZ7nztiF1dGtesDrxe2QV9RcbWZFG9en8YzM/6tE0Pzx+19VLjXMG
+         xmZA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=V3uvecrqVjEEl7t2Kizaq5m8d1+qartngwHZdslPZaQ=;
+        b=ca1PNpBBQ9vEgxY61CTDz6eZ98Wrn3a2bPbSu2rnivWQAL7CY6iaumR2MnBz6i6osW
+         th1U+KbV81ZuRzTww82NvoVCm6TODO4wRXJciTf/F3d8QcKR5Cqs70d9BJv/NlwzpORa
+         AZXVPWEZ7pcnC9B3Pk7HzkyBjQhUFBi2/2012CWU7Sq4PnflL1ybuv3H7kyM+QaCVuyj
+         29mcdZm4CSLrRnVtzIp/cfQw5URZsl402SdodsbE73ExpKziOprh5L9tyz7nP8PJwU/O
+         39+sEjwUBMROCSRYM8W93QW8zRADrlwpcRzSLB1VdIFaPc4MEIDkEedYk+xyq4K3Oe/m
+         tDeg==
+X-Gm-Message-State: AOUpUlEhVg3ooZjJAOwt/yC0VDJ4hg1rTj18/7lV/w7yzunMJ/dXsYA3
+	xyDMy0mvDeVrp8GdBugTz428hFANWOxkXolpplLfgA==
+X-Google-Smtp-Source: AAOMgpeYSmdI59SOtn1GT9v19IcmfR/4rq+IGDAsXFcnXb5rYqS4Ha7ZuOPoAn1ZtKmGFTw0vPOte7UklHjAQL8KXz4=
+X-Received: by 2002:ac8:41d6:: with SMTP id o22-v6mr9528640qtm.1.1532280465376;
+ Sun, 22 Jul 2018 10:27:45 -0700 (PDT)
+MIME-Version: 1.0
+In-Reply-To: <CAP2XSSmxpwwT-=5NnVkaGz2B1HSSUatnDRYMDcHu3A1WfiRFuQ@mail.gmail.com>
+References: <CAL_BgRPCyMRsQYoBJ4e8Mx4CzZ1tqS=r613_v4pPgu2e-r-7hA@mail.gmail.com>
+ <CAP2XSSk-gZQz+Z3zGfw4ECD287L6GpZ027ZtMN-GRnbfytmC=g@mail.gmail.com>
+ <CAL_BgRNWChYx2v-OC7iGm3RX3fe==EYB-vSQOQg2e8PwuC4AiQ@mail.gmail.com>
+ <CAP2XSSmZh1q+BASG4Ry6wvDbUbyEmOyyr1sFCqYTCOQO73KJyg@mail.gmail.com>
+ <CAL_BgROqDuf8uKFp2wVm=VX8YzQeeBWkbh2o8Xy95zhBJ9KkrQ@mail.gmail.com>
+ <CAP2XSS=ZDMeyrtib-2q7UVVJd__MxF_mfJ32VL6KiGAiEq7UOA@mail.gmail.com>
+ <CAL_BgRNDXp0KEES6Od6pKpyW8G8sOtHvY2RdqEYvsAo9wMcN=g@mail.gmail.com>
+ <CAP2XSSmgWiSd0gtLWpe9mss_p1AkH7s7T811hJYAXqKLsMYb_w@mail.gmail.com>
+ <CAL_BgRMmTo=iegjOgzGbMWxe5QzvGzSUkL46TYOh5L2yOtB6vQ@mail.gmail.com>
+ <CAP2XSSm2kKgCDJAf7LeOOkWX9fdh=Rzp33Z7dU73w-Grj0OZRA@mail.gmail.com>
+ <CAL_BgRPow7fV=r5DQFmsfT3rQGFC_+_omH9ZbOsEkAZsMMqgkA@mail.gmail.com>
+ <CAP2XSSm0KWRTzyR5Go-cHY95BiW5JxTvfE_XDV-R+DqpG4FeQQ@mail.gmail.com>
+ <CAL_BgRP1z7_Sdw=ZN6Kps-CjCF_9GofnhKpREO0TSanpi4+_8Q@mail.gmail.com>
+ <CAP2XSSnjjPcDbomsZ_L1_mrHTzNv__dJSidu+GcVCh7uVCi=3A@mail.gmail.com>
+ <CAL_BgRMMhaCqOFBMERy8VCpiBsFJWK4Ca3q3YGY1aHGxX9vX0Q@mail.gmail.com>
+ <CAP2XSSnJOyy8Y2xLv5-UfP++MGJx6Bi8ikUBFB_k1J7t5Q7eYQ@mail.gmail.com>
+ <CAL_BgRP_TppME5F8nvJKErn-rY6EsgHOZUCMYd6Jm=djtD7EnQ@mail.gmail.com>
+ <CAP2XSSkidNA-xFd9NtU-Vhhq7OsQ3i1mY9C7exAjPs6DC7bOfQ@mail.gmail.com>
+ <CAL_BgRNwA2AjSwF=1AgbGdHhygjp8ybx5vhj=xrraUfdbx0zrw@mail.gmail.com>
+ <CAP2XSSmMDzRzP9FqfZ1k-pMUiCqHh6CZ77iuMWLC6rO8No8Gvg@mail.gmail.com>
+ <CAL_BgROOm5QfVRnFfHH4qCmCYpXOevEv286AZgUiA+=psMSAtw@mail.gmail.com>
+ <CAP2XSSnOQ7RXSNmSaMFZmq39cE2kWQGW4ps9FCH1wypx4WrJuw@mail.gmail.com>
+ <CAP2XSS=yLzViohZETktdeSR9M_SQYBpFV5Rr8c-wQ4=YCFt2=A@mail.gmail.com>
+ <CAL_BgRPHy2+_HDA2q3CZ2TYV-hyoBZjW0Rhh3-tA-LO-Z8_TpQ@mail.gmail.com>
+ <CAP2XSSn5+UY=4dd+JqF_GCf+yDJBQhqirCJ-O+05gxHQkET0tg@mail.gmail.com>
+ <CAL_BgRP79yX722K6g1_uXPmpmZTYJRfCEpq61JyfPiOqs==+6g@mail.gmail.com>
+ <CAP2XSSn_Ltx8sa487b9Jh9DyRvvkJ1FiHoy2rV08rgab2Kvwiw@mail.gmail.com>
+ <CAL_BgROdKmscofXak08dkOag-mLrOEzoiqhcZhu1Wfon-uT-SA@mail.gmail.com> <CAP2XSSmxpwwT-=5NnVkaGz2B1HSSUatnDRYMDcHu3A1WfiRFuQ@mail.gmail.com>
+From: Alex Shaw <shawa6598@gmail.com>
+Date: Sun, 22 Jul 2018 10:27:44 -0700
+Message-ID:<CAL_BgRMf6QfU2NH2iy0VcpkTEyjifUWXGBt5MfuUaGKGUse1WQ@mail.gmail.com>
+Subject: Fwd:
+To: Sam@c-mtg.com
+Content-Type: multipart/alternative; boundary="000000000000d5c700057199d8fa"
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail-Owner: <CAL_BgRMf6QfU2NH2iy0VcpkTEyjifUWXGBt5MfuUaGKGUse1WQ@mail.gmail.com>+zmo_0_shawa6598@gmail.com
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_6 IS_0 PIW IS_6 FMWL EML_0 DMN_0 EDR_100 SIP_KGR,RPD_KGR COSF FRD_DI_0 UNK_U_0 UNK_O_0 SFP_WHTLST_0 SIP_KGR_0 RPD_KGR_0 HCOM_NSC_-3  SC_-3 SGR3_1_2_0_168_373
+X-ZM-MESSAGEID: 1532280469026100001
+X-ZohoMail-Status: 1
+
+
+--000000000000d5c700057199d8fa
+Content-Type: text/plain; charset="UTF-8"
+
+---------- Forwarded message ----------
+From: *ugmarketgood* <ugmarketgood@gmail.com>
+Date: Friday, July 20, 2018
+Subject:
+To: Alex Shaw <shawa6598@gmail.com>
+
+
+Ok,
+my ada adress
+DdzFFzCqrht9acWqVTqZPu1nDhoLUdHWpEVquCHo3eyPg99J8bgxUZTAoCDL
+oLFQziwgJuZWqZiu24MjeWbSL8Hq6MBduMg1wBh9EbxQ
+
+On Sat, Jul 21, 2018 at 7:24 AM, Alex Shaw <shawa6598@gmail.com> wrote:
+
+> We'll do ada. I'm gonna send you 120 for a visa or master, your choice,
+> with pin, as long as you think the pin is good. Send me your address.
+>
+>
+> On Friday, July 20, 2018, ugmarketgood <ugmarketgood@gmail.com> wrote:
+>
+>> upto you
+>>
+>> On Sat, Jul 21, 2018 at 7:07 AM, Alex Shaw <shawa6598@gmail.com> wrote:
+>>
+>>> Ok, cool. Let me figure out which one I'm gonna use and I'll hit you
+>>> back.
+>>>
+>>>
+>>> On Friday, July 20, 2018, ugmarketgood <ugmarketgood@gmail.com> wrote:
+>>>
+>>>> ok,i can accept ripple and ada too
+>>>>
+>>>> On Sat, Jul 21, 2018 at 6:29 AM, Alex Shaw <shawa6598@gmail.com> wrote:
+>>>>
+>>>>> Hey, I'm not gonna use bitcoin, their transfer fees are too high. Do
+>>>>> you use ripple, nxt, ada or just the list you sent me? We'll figure this
+>>>>> first transaction out and all the next will be smooth.
+>>>>>
+>>>>>
+>>>>> On Friday, July 20, 2018, ugmarketgood <ugmarketgood@gmail.com> wrote:
+>>>>>
+>>>>>> bitcoin and bitcoin cash are different,i can accept for both
+>>>>>> which one do you want to pay?please let me know so i can send my
+>>>>>> address
+>>>>>>
+>>>>>> On Sat, Jul 21, 2018 at 5:03 AM, ugmarketgood <ugmarketgood@gmail.com
+>>>>>> > wrote:
+>>>>>>
+>>>>>>> i can accept bitcoin and bitcoin cash
+>>>>>>> which one do you want to pay?
+>>>>>>>
+>>>>>>> On Sat, Jul 21, 2018 at 3:43 AM, Alex Shaw <shawa6598@gmail.com>
+>>>>>>> wrote:
+>>>>>>>
+>>>>>>>> Hey there, can you shoot me your bitcoin info, I'm gonna send over
+>>>>>>>> to you in bitcoin cash?
+>>>>>>>>
+>>>>>>>>
+>>>>>>>> On Thursday, July 19, 2018, ugmarketgood <ugmarketgood@gmail.com>
+>>>>>>>> wrote:
+>>>>>>>>
+>>>>>>>>> ok
+>>>>>>>>>
+>>>>>>>>> On Fri, Jul 20, 2018 at 9:13 AM, Alex Shaw <shawa6598@gmail.com>
+>>>>>>>>> wrote:
+>>>>>>>>>
+>>>>>>>>>> I will. Look forward to doing work with you..
+>>>>>>>>>>
+>>>>>>>>>>
+>>>>>>>>>> On Thursday, July 19, 2018, ugmarketgood <ugmarketgood@gmail.com>
+>>>>>>>>>> wrote:
+>>>>>>>>>>
+>>>>>>>>>>> Ok,let me know when you are ready the bitcoin to buy
+>>>>>>>>>>> thanks
+>>>>>>>>>>>
+>>>>>>>>>>> On Fri, Jul 20, 2018 at 9:09 AM, Alex Shaw <shawa6598@gmail.com>
+>>>>>>>>>>> wrote:
+>>>>>>>>>>>
+>>>>>>>>>>>> Ok, I need to setup a bitcoin acct. Give me a day to do it.
+>>>>>>>>>>>>
+>>>>>>>>>>>>
+>>>>>>>>>>>> On Thursday, July 19, 2018, ugmarketgood <
+>>>>>>>>>>>> ugmarketgood@gmail.com> wrote:
+>>>>>>>>>>>>
+>>>>>>>>>>>>> yes  i only do crypto currency
+>>>>>>>>>>>>>
+>>>>>>>>>>>>> On Fri, Jul 20, 2018 at 9:06 AM, Alex Shaw <
+>>>>>>>>>>>>> shawa6598@gmail.com> wrote:
+>>>>>>>>>>>>>
+>>>>>>>>>>>>>> What about money gram WU, or do you only do crypto currency?
+>>>>>>>>>>>>>>
+>>>>>>>>>>>>>> On Thursday, July 19, 2018, ugmarketgood <
+>>>>>>>>>>>>>> ugmarketgood@gmail.com> wrote:
+>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>> i have accepted bitcoin,perfect
+>>>>>>>>>>>>>>> money,bch,eth,ltc,zec,dash,monero
+>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>
+>>>>>>>>>>>>>
+>>>>>>>>>>>
+>>>>>>>>>
+>>>>>>>
+>>>>>>
+>>>>
+>>
+
+--000000000000d5c700057199d8fa
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<br><br>---------- Forwarded message ----------<br>From: <b>ugmarketgood</b=
+> &lt;<a href=3D"mailto:ugmarketgood@gmail.com">ugmarketgood@gmail.com</a>&=
+gt;<br>Date: Friday, July 20, 2018<br>Subject: <br>To: Alex Shaw &lt;<a hre=
+f=3D"mailto:shawa6598@gmail.com">shawa6598@gmail.com</a>&gt;<br><br><br><di=
+v dir=3D"ltr">Ok,<div>my ada adress</div><div>
+
+<span style=3D"color:rgb(51,51,51);font-family:Arial,&quot;Microsoft YaHei&=
+quot;,sans-serif;font-size:14px;font-weight:700;text-align:left;background-=
+color:rgb(248,248,248);float:none;display:inline">DdzFFzCqrht9acWqVTqZPu1nD=
+hoLUd<wbr>HWpEVquCHo3eyPg99J8bgxUZTAoCDL<wbr>oLFQziwgJuZWqZiu24MjeWbSL8Hq6M=
+<wbr>BduMg1wBh9EbxQ</span>
+
+<br></div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">O=
+n Sat, Jul 21, 2018 at 7:24 AM, Alex Shaw <span dir=3D"ltr">&lt;<a href=3D"=
+mailto:shawa6598@gmail.com" target=3D"_blank">shawa6598@gmail.com</a>&gt;</=
+span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8e=
+x;border-left:1px #ccc solid;padding-left:1ex">We&#39;ll do ada. I&#39;m go=
+nna send you 120 for a visa or master, your choice, with pin, as long as yo=
+u think the pin is good. Send me your address.<div><div><br><br>On Friday, =
+July 20, 2018, ugmarketgood &lt;<a href=3D"mailto:ugmarketgood@gmail.com" t=
+arget=3D"_blank">ugmarketgood@gmail.com</a>&gt; wrote:<br><blockquote class=
+=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padd=
+ing-left:1ex"><div dir=3D"ltr">upto you</div><div class=3D"gmail_extra"><br=
+><div class=3D"gmail_quote">On Sat, Jul 21, 2018 at 7:07 AM, Alex Shaw <spa=
+n dir=3D"ltr">&lt;<a href=3D"mailto:shawa6598@gmail.com" target=3D"_blank">=
+shawa6598@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quo=
+te" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"=
+>Ok, cool. Let me figure out which one I&#39;m gonna use and I&#39;ll hit y=
+ou back.<div><div><br><br>On Friday, July 20, 2018, ugmarketgood &lt;<a hre=
+f=3D"mailto:ugmarketgood@gmail.com" target=3D"_blank">ugmarketgood@gmail.co=
+m</a>&gt; wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0=
+ .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr">ok,i ca=
+n accept ripple and ada too</div><div class=3D"gmail_extra"><br><div class=
+=3D"gmail_quote">On Sat, Jul 21, 2018 at 6:29 AM, Alex Shaw <span dir=3D"lt=
+r">&lt;<a href=3D"mailto:shawa6598@gmail.com" target=3D"_blank">shawa6598@g=
+mail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=
+=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Hey, I&#=
+39;m not gonna use bitcoin, their transfer fees are too high. Do you use ri=
+pple, nxt, ada or just the list you sent me? We&#39;ll figure this first tr=
+ansaction out and all the next will be smooth.=C2=A0<div><div><br><br>On Fr=
+iday, July 20, 2018, ugmarketgood &lt;<a href=3D"mailto:ugmarketgood@gmail.=
+com" target=3D"_blank">ugmarketgood@gmail.com</a>&gt; wrote:<br><blockquote=
+ class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc soli=
+d;padding-left:1ex"><div dir=3D"ltr">bitcoin and bitcoin cash are different=
+,i can accept for both<div>which one do you want to pay?please let me know =
+so i can send my address</div></div><div class=3D"gmail_extra"><br><div cla=
+ss=3D"gmail_quote">On Sat, Jul 21, 2018 at 5:03 AM, ugmarketgood <span dir=
+=3D"ltr">&lt;<a href=3D"mailto:ugmarketgood@gmail.com" target=3D"_blank">ug=
+marketgood@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_qu=
+ote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex=
+"><div dir=3D"ltr">i can accept bitcoin and bitcoin cash<div>which one do y=
+ou want to pay?</div></div><div><div><div class=3D"gmail_extra"><br><div cl=
+ass=3D"gmail_quote">On Sat, Jul 21, 2018 at 3:43 AM, Alex Shaw <span dir=3D=
+"ltr">&lt;<a href=3D"mailto:shawa6598@gmail.com" target=3D"_blank">shawa659=
+8@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" styl=
+e=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Hey the=
+re, can you shoot me your bitcoin info, I&#39;m gonna send over to you in b=
+itcoin cash?<div><div><br><br>On Thursday, July 19, 2018, ugmarketgood &lt;=
+<a href=3D"mailto:ugmarketgood@gmail.com" target=3D"_blank">ugmarketgood@gm=
+ail.com</a>&gt; wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin=
+:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr">o=
+k=C2=A0</div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On F=
+ri, Jul 20, 2018 at 9:13 AM, Alex Shaw <span dir=3D"ltr">&lt;<a href=3D"mai=
+lto:shawa6598@gmail.com" target=3D"_blank">shawa6598@gmail.com</a>&gt;</spa=
+n> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;b=
+order-left:1px #ccc solid;padding-left:1ex">I will. Look forward to doing w=
+ork with you..<div><div><br><br>On Thursday, July 19, 2018, ugmarketgood &l=
+t;<a href=3D"mailto:ugmarketgood@gmail.com" target=3D"_blank">ugmarketgood@=
+gmail.com</a>&gt; wrote:<br><blockquote class=3D"gmail_quote" style=3D"marg=
+in:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr"=
+>Ok,let me know when you are ready the bitcoin to buy<div>thanks</div></div=
+><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Fri, Jul 20, =
+2018 at 9:09 AM, Alex Shaw <span dir=3D"ltr">&lt;<a href=3D"mailto:shawa659=
+8@gmail.com" target=3D"_blank">shawa6598@gmail.com</a>&gt;</span> wrote:<br=
+><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1=
+px #ccc solid;padding-left:1ex">Ok, I need to setup a bitcoin acct. Give me=
+ a day to do it.=C2=A0<div><div><br><br>On Thursday, July 19, 2018, ugmarke=
+tgood &lt;<a href=3D"mailto:ugmarketgood@gmail.com" target=3D"_blank">ugmar=
+ketgood@gmail.com</a>&gt; wrote:<br><blockquote class=3D"gmail_quote" style=
+=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=
+=3D"ltr">yes=C2=A0=C2=A0i=C2=A0<span style=3D"font-size:12.8px;float:none;d=
+isplay:inline">only do crypto currency</span>
+
+</div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Fri, Jul=
+ 20, 2018 at 9:06 AM, Alex Shaw <span dir=3D"ltr">&lt;<a href=3D"mailto:sha=
+wa6598@gmail.com" target=3D"_blank">shawa6598@gmail.com</a>&gt;</span> wrot=
+e:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-l=
+eft:1px #ccc solid;padding-left:1ex">What about money gram WU, or do you on=
+ly do crypto currency?<span><br><br>On Thursday, July 19, 2018, ugmarketgoo=
+d &lt;<a href=3D"mailto:ugmarketgood@gmail.com" target=3D"_blank">ugmarketg=
+ood@gmail.com</a>&gt; wrote:<br></span><blockquote class=3D"gmail_quote" st=
+yle=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div =
+dir=3D"ltr"><div class=3D"gmail_extra">i have accepted bitcoin,perfect mone=
+y,bch,eth,ltc,zec,dash,mon<wbr>ero</div></div>
+</blockquote>
+</blockquote></div><br></div>
+</blockquote>
+</div></div></blockquote></div><br></div>
+</blockquote>
+</div></div></blockquote></div><br></div>
+</blockquote>
+</div></div></blockquote></div><br></div>
+</div></div></blockquote></div><br></div>
+</blockquote>
+</div></div></blockquote></div><br></div>
+</blockquote>
+</div></div></blockquote></div><br></div>
+</blockquote>
+</div></div></blockquote></div><br></div>
+<br>
+
+--000000000000d5c700057199d8fa--

@@ -1,0 +1,214 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 209.85.215.171 as permitted sender) client-ip=209.85.215.171; envelope-from=geolrp@gmail.com; helo=mail-pg1-f171.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 209.85.215.171 as permitted sender)  smtp.mailfrom=geolrp@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Received: from mail-pg1-f171.google.com (mail-pg1-f171.google.com [209.85.215.171]) by mx.zohomail.com
+	with SMTPS id 1531934917826609.5930790703296; Wed, 18 Jul 2018 10:28:37 -0700 (PDT)
+Received: by mail-pg1-f171.google.com with SMTP id y4-v6so2303632pgp.9
+        for <sam@c-mtg.com>; Wed, 18 Jul 2018 10:28:37 -0700 (PDT)
+Return-Path: <geolrp@gmail.com>
+Return-Path: <geolrp@gmail.com>
+Received: from GeorgeHome (cpe-104-34-153-147.socal.res.rr.com. [104.34.153.147])
+        by smtp.gmail.com with ESMTPSA id a15-v6sm6672298pfe.32.2018.07.18.10.28.35
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Wed, 18 Jul 2018 10:28:36 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:to:cc:references:in-reply-to:subject:date:message-id
+         :mime-version:thread-index:content-language;
+        bh=y+sQHr04AgRSna6zgq1GeAufayO4l6iSJWqK85+e63g=;
+        b=pqZ+YOlEi4braEVy3UCGE7WILMQ+oO/pRnmi377EZUbU6B/v/YCz7hfUq3Y3CsdQ39
+         DTtdP2xGuEonxBmJLVHdg1az8AD30DCLw8uiLRIiHOqW+FV2ERRULbJM19v22MSBuLFf
+         ++bW9LBxJudf8cGEIq9/xOCq/EckvcG28HrMUhGmAmbWeR5YNXAROngG1cI+4RNbQNYi
+         Hd7u6m0MP8pPKTQMHCyjbb4FYiKamcD8a8/Qoc7a/v5Kd94rc2aTKtFVjTN4ljUMs1cp
+         gEgoF2mrc+P4sCBQcF2QHXmmWc7PGbKnEtIVUClVLgX9thdHFVskvEAp11NuOsQ3pnh+
+         KY9w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:to:cc:references:in-reply-to:subject:date
+         :message-id:mime-version:thread-index:content-language;
+        bh=y+sQHr04AgRSna6zgq1GeAufayO4l6iSJWqK85+e63g=;
+        b=eJ/zIlKZ+dZv0LfnHMhhPJd9WUuQIg2ebRm1vXhDqLHTWuk3nvkC+Ll7Ku+iHHRdWn
+         YJFXBAyQtyUe1TETwjWaHZ0qsWLhOqTZaj2dCkg5c+spkt54s+8ip27uswY5HCMUfmGw
+         inftytFasoa6/4mmgs7VbkTqp9DWMeaQdUZxeXqfIlXdaEYltfkD4y7TVCNPySdkHQhP
+         NhAdjCRg+9T8Mvw8NPCFYNyrB4IKQXoqiPc9yl9gDvnMwSdkyNVW1t28z2nNcgo9DvDu
+         LPQUeHJD+Aj2HQ9hwBUxuLpRdoePqzqQlTCf+KTI/sBy7LjysVQvdkY+ZNqH1pEyI1Qq
+         7qag==
+X-Gm-Message-State: AOUpUlGMLCvrDjqXiuXk7MiwTLv3hRUgCa9eb1jSfKXzyYOLS936AZ03
+	DJn/o+tdywawi5uXIS2ALV0=
+X-Google-Smtp-Source: AAOMgpdMuEqCYq212aaw8RpE85h7NGEmgGiGzGGNP+rMHEUydaQwPcfN38c7XRKBLies9UqH7y/PJQ==
+X-Received: by 2002:a63:ed03:: with SMTP id d3-v6mr4857820pgi.56.1531934917493;
+        Wed, 18 Jul 2018 10:28:37 -0700 (PDT)
+From: <geolrp@gmail.com>
+To: "'Sam Tehranchi'" <sam@c-mtg.com>
+Cc: <hampton90210@gmail.com>
+References: <23FCADA9-2702-4CAF-8C7A-6CDCD789D53A@gmail.com> <A3AB4CBB-50F1-4888-AFDD-B64FD0510FA2@gmail.com> <F3975625-4CB5-44CC-9C81-D78BC74EFFF6@c-mtg.com> <79A21802-23FB-4AE1-A1C7-8EA60BA05A1D@gmail.com> <164a8e046c7.127b9510e198159.858347080687681027@c-mtg.com> <03c401d41deb$8f474640$add5d2c0$@gmail.com> <20F1B944-2498-4AB4-A35C-0441A39FBAF8@gmail.com> <042201d41e07$b383a320$1a8ae960$@gmail.com> <38B0F179-00E7-4CB3-B6E6-9E067DBD8274@c-mtg.com>
+In-Reply-To: <38B0F179-00E7-4CB3-B6E6-9E067DBD8274@c-mtg.com>
+Subject: RE: SUB FEE AGREEMENT--------- 2819 Coldwater canyon dr 90210
+Date: Wed, 18 Jul 2018 10:28:40 -0700
+Message-ID:<050d01d41ebc$c5685120$5038f360$@gmail.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_050E_01D41E82.190AFFC0"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AQJ6Y1mK4vXOpnrvN89V3dLQoDLLjgEFdFa5AVfoCRwCTSqKkQJF01S5ARQAT54Bm7v8EgHB5lB+Ak1bBPui2zgE0A==
+Content-Language: en-us
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_167 FRD_DI SPK
+X-ZM-MESSAGEID: 1531934918357100001
+X-ZohoMail-Flag: Important
+X-ZohoMail-Status: 1
+
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_050E_01D41E82.190AFFC0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Sam you need to jump on this Michael guy and talk to him. 
+
+ 
+
+From: Sam Tehranchi <sam@c-mtg.com> 
+Sent: Wednesday, July 18, 2018 9:44 AM
+To: George H. <geolrp@gmail.com>
+Cc: hampton90210@gmail.com
+Subject: Re: SUB FEE AGREEMENT--------- 2819 Coldwater canyon dr 90210
+
+ 
+
+ 
+
+Respectfully,   
+
+ 
+Sam Tehranchi
+
+ 
+COO
+Custom Mortgage and Realty 
+NMLS CA # 1556995 - BRE CA # 02018146
+ 
+Direct 310.709.6304 -Efax 866.421.7694 
+
+sam@c-mtg.com <mailto:sam@c-mtg.com>  - www.c-mtg.com <http://www.c-mtg.com>
+
+
+LinkedIn <https://www.linkedin.com/company-beta/3477964>  - Facebook
+<https://www.facebook.com/Custom-Mortgage-409842885783868/>  - twitter
+<https://twitter.com/custommortgage1>  - Instagram
+<https://www.instagram.com/custommortgageinc/> 
+
+
+
+
+
+On Jul 17, 2018, at 12:52 PM, <geolrp@gmail.com <mailto:geolrp@gmail.com> >
+<geolrp@gmail.com <mailto:geolrp@gmail.com> > wrote:
+
+ 
+
+<CCF07172018.pdf>
+
+
+------=_NextPart_000_050E_01D41E82.190AFFC0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 15 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal>Sam you =
+need to jump on this Michael guy and talk to him. <o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in'><p class=3DMsoNormal><b>From:</b> Sam Tehranchi =
+&lt;sam@c-mtg.com&gt; <br><b>Sent:</b> Wednesday, July 18, 2018 9:44 =
+AM<br><b>To:</b> George H. &lt;geolrp@gmail.com&gt;<br><b>Cc:</b> =
+hampton90210@gmail.com<br><b>Subject:</b> Re: SUB FEE AGREEMENT--------- =
+2819 Coldwater canyon dr 90210<o:p></o:p></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><div><div><div><p =
+class=3DMsoNormal style=3D'margin-bottom:12.0pt'><span =
+style=3D'color:black'>Respectfully, &nbsp;&nbsp;<br><br>&nbsp;<br>Sam =
+Tehranchi<br><br>&nbsp;<br>COO<br>Custom Mortgage and =
+Realty&nbsp;<br>NMLS CA # 1556995 - BRE CA =
+#&nbsp;02018146<br>&nbsp;<br>Direct 310.709.6304 -Efax =
+866.421.7694&nbsp;<br><br><a =
+href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&nbsp;-&nbsp;<a =
+href=3D"http://www.c-mtg.com">www.c-mtg.com</a><br><br><a =
+href=3D"https://www.linkedin.com/company-beta/3477964">LinkedIn</a>&nbsp;=
+-&nbsp;<a =
+href=3D"https://www.facebook.com/Custom-Mortgage-409842885783868/">Facebo=
+ok</a>&nbsp;-&nbsp;<a =
+href=3D"https://twitter.com/custommortgage1">twitter</a>&nbsp;-&nbsp;<a =
+href=3D"https://www.instagram.com/custommortgageinc/">Instagram</a><o:p><=
+/o:p></span></p></div></div></div><div><p =
+class=3DMsoNormal><br><br><o:p></o:p></p><blockquote =
+style=3D'margin-top:5.0pt;margin-bottom:5.0pt'><div><p =
+class=3DMsoNormal>On Jul 17, 2018, at 12:52 PM, &lt;<a =
+href=3D"mailto:geolrp@gmail.com">geolrp@gmail.com</a>&gt; &lt;<a =
+href=3D"mailto:geolrp@gmail.com">geolrp@gmail.com</a>&gt; =
+wrote:<o:p></o:p></p></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><div><p =
+class=3DMsoNormal>&lt;CCF07172018.pdf&gt;<o:p></o:p></p></div></blockquot=
+e></div></div></body></html>
+------=_NextPart_000_050E_01D41E82.190AFFC0--
+

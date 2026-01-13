@@ -1,0 +1,306 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: none (zoho.com: 209.85.215.181 is neither permitted nor denied by domain of standardlenders.com) client-ip=209.85.215.181; envelope-from=info@standardlenders.com; helo=mail-pg1-f181.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=none (zoho.com: 209.85.215.181 is neither permitted nor denied by domain of standardlenders.com)  smtp.mailfrom=info@standardlenders.com
+Received: from mail-pg1-f181.google.com (mail-pg1-f181.google.com [209.85.215.181]) by mx.zohomail.com
+	with SMTPS id 1532387726273669.7700881240465; Mon, 23 Jul 2018 16:15:26 -0700 (PDT)
+Received: by mail-pg1-f181.google.com with SMTP id k3-v6so1433288pgq.5
+        for <sam@c-mtg.com>; Mon, 23 Jul 2018 16:15:26 -0700 (PDT)
+Return-Path: <info@standardlenders.com>
+Return-Path: <info@standardlenders.com>
+Received: from GeorgeHome (cpe-104-34-153-147.socal.res.rr.com. [104.34.153.147])
+        by smtp.gmail.com with ESMTPSA id c68-v6sm24452956pfj.51.2018.07.23.16.15.24
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Mon, 23 Jul 2018 16:15:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=standardlenders-com.20150623.gappssmtp.com; s=20150623;
+        h=from:to:cc:references:in-reply-to:subject:date:message-id
+         :mime-version:thread-index:content-language;
+        bh=kfoyiUpszbELJIf5hPnUJ/6eDV6fgp3IfzcOupR9dt0=;
+        b=t902/Bcv6ygF5ax7dUiwmTdA5qPyzIwTGi5LAZbeYJt+w4+kIdCr/12JDxoq57OF7T
+         H6+LS6OAAgTtnVQ4bV/+rVLHVreQ5dgRyRlEnRop4fjGubtFHwowWHjKCVQhOvCCdjWm
+         e965ySm5CIgN8MN+f77t7WZ8EQbmDbASboZd4R8i+FGxoqH9z1ykobyW3wo56MH+ooyr
+         X6P1HvGbiJBIPQ4UW+ath1MM95FvaslSxnUJ80LaQbM5Y8Zf83jcP+22bBpXTRzC5bJL
+         KltFxZkSz9ner9Lu3uK5Wlw2Sv9PDi6ZemF4doqAeHG6nyv8cl9Y8O+X6P8KCtyE4yg2
+         WeXg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:to:cc:references:in-reply-to:subject:date
+         :message-id:mime-version:thread-index:content-language;
+        bh=kfoyiUpszbELJIf5hPnUJ/6eDV6fgp3IfzcOupR9dt0=;
+        b=Owqg8cs1lc94IgFIDoQdQfc6pglzw9zfWV7+D950iZylRlisBx5/NC/ffrkV0vYais
+         83GolmSb/h8RssWdJT6ZHlpMODsQuDprL32tQWcVedjPfqjAARJXCHRO0fQABs1sbVzz
+         E27hJBPorJeD7/PHFu8ZlXiDJUuQjjnNXKnVQa8Y6kqmmXmKAAqow5N0nXnFWju29FIq
+         4ZUvF623VYDteYLt34Lluhpb9RwgO/mU1Yp4VUfNzx+R8Hk5jsJsN5sXEr3oO57q6Dct
+         fjWPmSV2lfowN644WMDaBTSleRlaw5XabykeGttnmhyU8ux8a1rC4M6Ol4NTLTmZ4Abc
+         kdEg==
+X-Gm-Message-State: AOUpUlHUnWMCi1Eo6p3vHdAR4cjqHW9PRPW7XtRWPO4SiLt+3hMj2i3H
+	ERlsbJy/pX9zoCnEOSgMqTyPGroOR/U=
+X-Google-Smtp-Source: AAOMgpfPytq6C4joPcOspz2imcMq1OrW5cSdYJMo8KIdk5YZGXae8v12dByrSxK062SNqU7o/eFlFQ==
+X-Received: by 2002:a62:c90a:: with SMTP id k10-v6mr14880811pfg.180.1532387725758;
+        Mon, 23 Jul 2018 16:15:25 -0700 (PDT)
+From: "Standard Lenders Support" <info@standardlenders.com>
+To: "'Michael Austin'" <maustin@azmtg4u.com>
+Cc: "'Sam Tehranchi'" <sam@c-mtg.com>,
+	<info@standardlenders.com>
+References: <025a01d42084$b472a090$1d57e1b0$@azmtg4u.com>
+In-Reply-To: <025a01d42084$b472a090$1d57e1b0$@azmtg4u.com>
+Subject: RE: Construction Loans in CA
+Date: Mon, 23 Jul 2018 16:15:24 -0700
+Message-ID:<010c01d422db$09b02cf0$1d1086d0$@standardlenders.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_010D_01D422A0.5D5377D0"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AQHbMmoMbK6u7pwcaEoUWCn07sYPEqSPUPRA
+Content-Language: en-us
+X-ZohoMail-DKIM: pass (identity @standardlenders-com.20150623.gappssmtp.com)
+X-ZohoMail-Owner: <010c01d422db$09b02cf0$1d1086d0$@standardlenders.com>+zmo_1_info@standardlenders.com
+X-ZohoMail-Sender: 104.34.153.147
+X-ZohoMail: RDKM_0  RSF_4  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_5 IS_0 PIW IS_6 EML_0 DMN_0 EDR_100 COSF LNKP FRD_HI_0 UNK_U_0 SBSR_2 UNK_O_0 SIP_KGR_0 RPD_UN_0 PIS_DPR_KN_0 CV_710IT_1 ZMHF_701_4  SC_7 SGR3_1_2_0_168_607
+X-ZM-MESSAGEID: 1532387728196100001
+X-ZohoMail-Status: 1
+
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_010D_01D422A0.5D5377D0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello Michael,
+
+ 
+
+I have attached Sam from Custom Mortgage. He might be able to get this
+done.. 
+
+ 
+
+Sam please see the scenario below.. 
+
+ 
+
+From: Michael Austin <maustin@azmtg4u.com> 
+Sent: Friday, July 20, 2018 4:52 PM
+To: info@standardlenders.com
+Subject: RE: Construction Loans in CA
+
+ 
+
+George,
+
+     Mike McIntosh said he spoke to you earlier today about a construction
+loan and asked me to follow up with you. We have a borrower that owns the
+land free and clear, and worth about $400,000, located in Oakley, CA. He
+wants to have a modular home built for his property, with construction costs
+of about $380,000. He said homes in his area have been selling for about
+$1,000,000. We have a 691 mid score. The borrower is self-employed, and the
+co-borrower is receiving social security. This will be a primary residence.
+The borrower has permits already, but has to start building by October. I
+don't think the lender I was going to use will close in time. Please let me
+know if this sounds like something you can do. Thank you.
+
+ 
+
+Michael Austin
+Sr. Loan Officer
+623-326-6699 Mobile
+623-218-1229 Fax
+NMLS #728721
+AZ MLO #0919611
+
+C2 Financial Corporation AZ. Branch
+
+8149 N 87th Place, Ste 204
+Scottsdale, AZ 85258 
+
+NMLS #162426
+
+ 
+
+C2 Financial Corporation Corporate Office
+
+10509 Vista Sorrento Parkway #200
+
+San Diego, CA  92121
+Corp NMLS #135622
+
+ <http://www.c2financialcorp.com/> www.c2financialcorp.com 
+
+
+For licensing verification:  <http://www.nmlsconsumeraccess.org/>
+http://www.nmlsconsumeraccess.org/ 
+
+
+This e-mail message, including any attachments, may contain legally
+privileged and/or confidential information. If you are not the intended
+recipient(s) of this message, you are hereby notified that any
+dissemination's, distribution, or copying of this e-mail message is strictly
+prohibited. If you have received this message in error, please immediately
+notify the sender and delete this e-mail message from your computer.
+
+ 
+
+
+------=_NextPart_000_010D_01D422A0.5D5377D0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 15 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle18
+	{mso-style-type:personal;
+	font-family:"Times New Roman",serif;
+	color:windowtext;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US =
+link=3D"#0563C1" vlink=3D"#954F72"><div class=3DWordSection1><p =
+class=3DMsoNormal>Hello Michael,<o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>I have =
+attached Sam from Custom Mortgage. He might be able to get this done.. =
+<o:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal>Sam please see the scenario below.. <o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in'><p class=3DMsoNormal><b>From:</b> Michael Austin =
+&lt;maustin@azmtg4u.com&gt; <br><b>Sent:</b> Friday, July 20, 2018 4:52 =
+PM<br><b>To:</b> info@standardlenders.com<br><b>Subject:</b> RE: =
+Construction Loans in CA<o:p></o:p></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif'>George,<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; Mike McIntosh said he spoke to =
+you earlier today about a construction loan and asked me to follow up =
+with you. We have a borrower that owns the land free and clear, and =
+worth about $400,000, located in Oakley, CA. He wants to have a modular =
+home built for his property, with construction costs of about $380,000. =
+He said homes in his area have been selling for about $1,000,000. We =
+have a 691 mid score. The borrower is self-employed, and the co-borrower =
+is receiving social security. This will be a primary residence. The =
+borrower has permits already, but has to start building by October. I =
+don&#8217;t think the lender I was going to use will close in time. =
+Please let me know if this sounds like something you can do. Thank =
+you.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:12.0pt'><span =
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif;color:black;background:white'>Michael Austin</span><span =
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif;color:black'><br><span style=3D'background:white'>Sr. Loan =
+Officer</span><br><span style=3D'background:white'>623-326-6699 =
+Mobile</span><br><span style=3D'background:white'>623-218-1229 =
+Fax</span><br><span style=3D'background:white'>NMLS =
+#728721</span><br><span style=3D'background:white'>AZ MLO =
+#0919611<o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif;color:black;background:white'>C2 Financial Corporation AZ. =
+Branch<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif;color:black'>8149 N 87<sup>th</sup> Place, Ste =
+204<br>Scottsdale, AZ 85258 <o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-line-height-alt:11.25pt'><span =
+style=3D'font-size:12.0pt;font-family:"Times New Roman",serif'>NMLS =
+#<span style=3D'color:black'>162426</span></span><span =
+style=3D'font-size:8.5pt;font-family:"Arial",sans-serif;color:black'><o:p=
+></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif;color:black'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif;color:black'>C2 Financial Corporation Corporate =
+Office<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;font-family:"Times New Roman",serif'>10509 =
+Vista Sorrento Parkway #200<o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif'>San Diego, CA&nbsp; 92121<span =
+style=3D'color:black'><br><span style=3D'background:white'>Corp NMLS =
+#135622<o:p></o:p></span></span></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:12.0pt'><span =
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif;color:black;background:white'><a =
+href=3D"http://www.c2financialcorp.com/"><span =
+style=3D'color:blue'>www.c2financialcorp.com</span></a></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif;color:black;ba=
+ckground:white'> </span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif;color:black'><=
+o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif;color:black'><=
+br><span style=3D'background:white'>For licensing verification: <a =
+href=3D"http://www.nmlsconsumeraccess.org/"><span =
+style=3D'color:blue'>http://www.nmlsconsumeraccess.org/</span></a> =
+<o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif;color:black;ba=
+ckground:white'><br>This e-mail message, including any attachments, may =
+contain legally privileged and/or confidential information. If you are =
+not the intended recipient(s) of this message, you are hereby notified =
+that any dissemination's, distribution, or copying of this e-mail =
+message is strictly prohibited. If you have received this message in =
+error, please immediately notify the sender and delete this e-mail =
+message from your computer.</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif;color:black'><=
+o:p></o:p></span></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_000_010D_01D422A0.5D5377D0--
+

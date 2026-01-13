@@ -1,0 +1,163 @@
+Delivered-To: sam@c-mtg.com
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of hibu.com designates 104.47.32.115 as permitted sender)  smtp.mailfrom=Isaah.Jackson@hibu.com
+Return-Path: <Isaah.Jackson@hibu.com>
+Received: from NAM01-SN1-obe.outbound.protection.outlook.com (mail-sn1nam01on0115.outbound.protection.outlook.com [104.47.32.115]) by mx.zohomail.com
+	with SMTPS id 153252592428078.18143276991543; Wed, 25 Jul 2018 06:38:44 -0700 (PDT)
+Received: from BN7PR03MB3892.namprd03.prod.outlook.com (20.176.177.22) by
+ BN7PR03MB3858.namprd03.prod.outlook.com (20.176.27.19) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.973.22; Wed, 25 Jul 2018 13:38:41 +0000
+Received: from BN7PR03MB3892.namprd03.prod.outlook.com
+ ([fe80::815b:4ae5:983b:4f19]) by BN7PR03MB3892.namprd03.prod.outlook.com
+ ([fe80::815b:4ae5:983b:4f19%2]) with mapi id 15.20.0973.022; Wed, 25 Jul 2018
+ 13:38:41 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=hibu365.onmicrosoft.com; s=selector1-hibu-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=6wJjo2W2Q31kJSN1ViSmnOVbKOCBGMl/GOhJjPQHGoM=;
+ b=ZuS1YowjJeUAjxoxinBJuIbvM9QWhQFWLWcFY4OpWFmPqAiIt+plRwuAFEWg7+Km7QgAJhap5/jGzTD0dduZj8FgWkYH31IEXQ7isn1UywsjwFN5dMepsuxEmIXpnKjuxthkp6wEiZDnM5nr4s/l3Q7fja78kGhNNze5KcKXQJo=
+From: "Jackson, Isaah (US-CDR)" <Isaah.Jackson@hibu.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+Subject: Website & Marketing Price Point 
+Thread-Topic: Website & Marketing Price Point 
+Thread-Index: AdQkHLGSHt8tYSeFRWWCfTyckPte2A==
+Date: Wed, 25 Jul 2018 13:38:41 +0000
+Message-ID:<BN7PR03MB38921625AD5C8B5B896DAD4E8E540@BN7PR03MB3892.namprd03.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=Isaah.Jackson@hibu.com; 
+x-originating-ip: [12.175.119.20]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;BN7PR03MB3858;6:siHFGBZSwttuDG+joVRHX51sWserpAIC7krJqtWc9HAjIJhF/UtDq322r7HYyh5VIGgDe4yRgHiNDdQeHOX0b9MbDisEB0YoBD1EVMcsOntXOsBYArjNPaR2OoGbddbAYSUnp0K2DCoOBX9k6vSGHwMXc30y2VPcxTD213/u/VZKHdS/y+UMxafKLup8lFyzqHYr9zmfnJc1F83o6SNRDCDFwJ85wRANYrl3LJE+D97pqQMcuvPf8n4qXJJ6obJj2JB84vXWkTWgknh/yqolxOhGeqiMjW4DXBuMMjcLvw0JbnL/Po1oObkMTL6Ixd3oExIS8LLltVeZJraGZDryYpRgk0PiIyB1PKF+IC/qWwkRMBT/lOwNOrIE8ZOXO3sm29mC9D8Lf3qv5I3L+HJyPp4qfmLLdPM2oGzWkJQlBcbNLNodMK3cS2phmnRCl3xs9eEtuJ8oiabJ2Q9tDjMaaQ==;5:ez9SRlMAn8SmMC4apJEYsoyLvn0vH767F2csIaTLlPOAOzkYKwDEMWtWdJY/yO2dRXOlqO6/TLnG61ORQFiMJWb1dOioliWDYNGehCkYYv0CypqcQHS5hX3L2+jJdwGQWOH+6CMpODxd9iUzJ7sJCxGKMo78PSgVRkEJvre2w5g=;7:eunmL3A4Ggy8/osB5PTacS9dOJaEGtzMq8pNCg7llKJREBx1dCiJ7xV8MERdN+bL5/WUGohKDz1idVcm3oODQIAPeZ3XS/xSLNxRVnYWeBLvF1CgvQkYyR9T0/ALZd2+tpecTZsYR35ozeEzUQ7D53Ms/oQ/Ot0cGMpO0hoZ54yg3qlSsZorMxuFKAbPPt/XWE0xQNkkew/5bO0ieMIoWIkP+ajF2Mc7DDmHsA5aYudCEs7sFjdsWuwsP10oaiSv
+x-ms-exchange-antispam-srfa-diagnostics: SOS;
+x-ms-office365-filtering-correlation-id: ebcabbc9-3d77-4609-f081-08d5f233ef58
+x-ms-office365-filtering-ht: Tenant
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:(7020095)(4652040)(8989117)(5600073)(711020)(4618075)(4534165)(4627221)(201703031133081)(201702281549075)(8990107)(2017052603328)(7153060)(7193020);SRVR:BN7PR03MB3858;
+x-ms-traffictypediagnostic: BN7PR03MB3858:
+x-microsoft-antispam-prvs: <BN7PR03MB3858E3A34E411511597ABB198E540@BN7PR03MB3858.namprd03.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(28532068793085)(223705240517415)(21748063052155);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(8211001083)(6040522)(2401047)(5005006)(8121501046)(3231311)(944501410)(52105095)(93006095)(93001095)(10201501046)(3002001)(6055026)(149027)(150027)(6041310)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(20161123558120)(20161123564045)(20161123560045)(20161123562045)(6072148)(201708071742011)(7699016);SRVR:BN7PR03MB3858;BCL:0;PCL:0;RULEID:;SRVR:BN7PR03MB3858;
+x-forefront-prvs: 0744CFB5E8
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(396003)(39860400002)(376002)(346002)(136003)(366004)(189003)(199004)(2900100001)(5250100002)(5024004)(81156014)(99286004)(8676002)(6116002)(3846002)(6306002)(53936002)(54896002)(256004)(9686003)(6436002)(790700001)(55016002)(8936002)(66066001)(2906002)(86362001)(81166006)(105586002)(68736007)(102836004)(6916009)(26005)(74316002)(6506007)(5660300001)(4743002)(106356001)(486006)(97736004)(7696005)(316002)(476003)(25786009)(33656002)(478600001)(72206003)(14454004)(7736002)(186003);DIR:OUT;SFP:1102;SCL:1;SRVR:BN7PR03MB3858;H:BN7PR03MB3892.namprd03.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;MX:1;A:1;
+Received-SPF: pass (zoho.com: domain of hibu.com designates 104.47.32.115 as permitted sender) client-ip=104.47.32.115; envelope-from=Isaah.Jackson@hibu.com; helo=NAM01-SN1-obe.outbound.protection.outlook.com;
+received-spf: None (protection.outlook.com: hibu.com does not designate
+ permitted sender hosts)
+x-microsoft-antispam-message-info: 0WRT6oOOvXeZ1bHz4E/qIzo9NMFM1gKYpB+mC6CXJO0uTFGuFR+LovRVdgRVe/pYIWD33i8gO/WBh3g8kef6cc4IFGe/z4hCP7W4F6YsqNTSV4FZz0xFLZqbQ92vEaXxUIbrc7WKPcSDtgRc6skJ76xWyqnLZ9AdstcDXZDntBRE5zb1lh00uuJH7GpK42dGQb0xRbaqIkOgF8fPGdL1QlUdY+WUdmmVUrWXpvUweMHzS0jUVICnoYknCUI4MVNwesLQHdv2mt4Fz8a127v0jPm1UO9ksc+EwlwZc78bmDvFyfD7qpAMJLYN0QKBd43zUvugqtvK9gnqIljr3RNmC9WkBV5THUbZfy50lf6yJA4=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_BN7PR03MB38921625AD5C8B5B896DAD4E8E540BN7PR03MB3892namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: hibu.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: ebcabbc9-3d77-4609-f081-08d5f233ef58
+X-MS-Exchange-CrossTenant-originalarrivaltime: 25 Jul 2018 13:38:41.4879
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: dbbfd40c-f953-425d-996a-ee8aaedf5f32
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN7PR03MB3858
+X-ZohoMail-DKIM: pass (identity @hibu365.onmicrosoft.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_168 FRD_HI SPK
+X-ZM-MESSAGEID: 1532525924512100001
+X-ZohoMail-Status: 1
+
+
+--_000_BN7PR03MB38921625AD5C8B5B896DAD4E8E540BN7PR03MB3892namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Sam,
+                Just left you a voicemail! I'll need about 20 minutes or so=
+ from you.
+
+Thanks,
+
+The information contained in this email message, including any attachments,=
+ is intended solely for use by the individual or entity named above and may=
+ be confidential. If the reader of this message is not the intended recipie=
+nt, you are hereby notified that you must not read, use, disclose, distribu=
+te or copy any part of this communication. If you have received this commun=
+ication in error, please immediately notify me by email and destroy the ori=
+ginal message, including any attachments. Thank you. **hibu IT Code:1414593=
+000000**
+
+--_000_BN7PR03MB38921625AD5C8B5B896DAD4E8E540BN7PR03MB3892namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Sam, <o:p></o:p></p>
+<p class=3D"MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Just left you a voicemail! I&#8217;l=
+l need about 20 minutes or so from you.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Thanks,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+The information contained in this email message, including any attachments,=
+ is intended solely for use by the individual or entity named above and may=
+ be confidential. If the reader of this message is not the intended recipie=
+nt, you are hereby notified that
+ you must not read, use, disclose, distribute or copy any part of this comm=
+unication. If you have received this communication in error, please immedia=
+tely notify me by email and destroy the original message, including any att=
+achments. Thank you. **hibu IT Code:1414593000000**
+</body>
+</html>
+
+--_000_BN7PR03MB38921625AD5C8B5B896DAD4E8E540BN7PR03MB3892namp_--

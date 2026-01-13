@@ -1,0 +1,535 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of b.cts.vresp.com designates 74.116.88.16 as permitted sender) client-ip=74.116.88.16; envelope-from=bounces-46fb22a617-b5ea4efc3f@b.cts.vresp.com; helo=mkt16-88.verticalresponse.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=@vresp.com;
+	spf=pass (zoho.com: domain of b.cts.vresp.com designates 74.116.88.16 as permitted sender)  smtp.mailfrom=bounces-46fb22a617-b5ea4efc3f@b.cts.vresp.com
+Return-Path: <bounces-46fb22a617-b5ea4efc3f@b.cts.vresp.com>
+Return-Path: <bounces-46fb22a617-b5ea4efc3f@b.cts.vresp.com>
+Received: from mkt16-88.verticalresponse.com (mkt16-88.verticalresponse.com [74.116.88.16]) by mx.zohomail.com
+	with SMTPS id 1532029079750282.4596526499639; Thu, 19 Jul 2018 12:37:59 -0700 (PDT)
+Received: from [10.4.33.148] ([10.4.33.148:37767] helo=vm-mailer10.sf.verticalresponse.com)
+	by silverlake.sf.verticalresponse.com (envelope-from <bounces-46fb22a617-b5ea4efc3f@b.cts.vresp.com>)
+	(ecelerity 4.2.38.62370 r(:)) with ESMTP
+	id 0E/29-10172-698E05B5; Thu, 19 Jul 2018 12:37:58 -0700
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=mkt; d=vresp.com;
+	h=DKIM-Signature:Received:From:Reply-To:To:Subject:Date:Message-ID:List-Unsubscribe:MIME-Version:X-Company_ID:X-vrfbldomain:X-vrpod:X-CTS-Enabled:X-Campaign:X-vrrpmm:X-Feedback-ID:Content-Type;
+	b=jy4p+BdG1v2NUe3rErTHkxsJDbxgIJPtFQaO6H7kIhmex8gCHP3S4bltXcrzgAkp
+	KSOAXKC7GEJGSvHvP68mRFqSDd5gxr3tbVwCJsMHlCM49Fg5TRzoBvIwJgdn6YMX
+	0bnIanuO3kn7JkmtMMGMJsEw6DqwM4z4V0p7Sd42p6c=
+DKIM-Signature: v=1; a=rsa-sha1; d=vresp.com; s=dkim; c=simple/simple;
+	q=dns/txt; i=@vresp.com; t=1532029078;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=mNmPE1Gwph3m6NaFyY8Mgw+A27k=;
+	b=VZok4T5mRRJCHrHVE70HTyEw7kOMRKGLlPTjEtVuFLpVRxiM+wkBVXhWoMVBl5tH
+	jQiBRT+7BWhx1f0SWS8Haw7HffyNdYtKG0ItX9AlucfKXpSZjn8f/wwcD/nD42EI
+	wh/VkjuFicAcw9t3koWNtGfBaTJ8t6xhopm6nrmcu+k=;
+From: "AB Capital" <AB_Capital@mail.vresp.com>
+Reply-To: "AB Capital" <reply-46fb22a617-b5ea4efc3f-22d1@u.cts.vresp.com>
+To: sam@c-mtg.com
+Subject: AB Capital | Recently Funded
+Date: Thu, 19 Jul 2018 19:37:58 +0000
+Message-ID:<46fb22a617-sam=c-mtg.com@mail.vresp.com>
+List-Unsubscribe: <mailto:reply-46fb22a617-b5ea4efc3f-22d1@u.cts.vresp.com?subject=unsubscribe>
+MIME-Version: 1.0
+X-Company_ID: 764955
+X-vrfbldomain: fbl.p0.verticalresponse.com
+X-vrpod: p0
+X-CTS-Enabled: 46fb22a617-b5ea4efc3f
+X-Campaign: 46fb22a617
+X-vrrpmm: 764955-46fb22a617
+X-Feedback-ID: 46fb22a617:764955:vr1
+Content-Type: multipart/alternative;
+    boundary="__________MIMEboundary__________";
+    charset="UTF-8"
+X-ZohoMail-DKIM: pass (identity @vresp.com)
+X-ZohoMail-Owner: <46fb22a617-sam=c-mtg.com@mail.vresp.com>+zmo_1_bounces-46fb22a617-b5ea4efc3f@b.cts.vresp.com
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_1 IS_0 ZMKF_MKSP EML_0 DMN_0 EDR_100 COSF LNKP CV_710BCNIM UMS_WB UNK_O_0 UNK_U_0 CHF_NWSUSR_0 MWTD_0 SIP_KN_0 RPD_KN_0 SDFE_RPMXDF_SMA_0 NAR_UD_0 ZMHF_701_4  SC_4 SGR3_1_2_0_168_369
+X-ZM-MESSAGEID: 1532029080586100001
+X-ZohoMail-Status: 1
+
+
+This is a multi-part message in MIME format.
+
+--__________MIMEboundary__________
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Click to view this email in a browser
+http://hosted.vresp.com/1177567/46fb22a617/544517817/b5ea4efc3f/
+
+AB | CAPITAL
+
+Funds Available Now                                                 =20
+  Phone: 800.658.1552
+
+Laguna Beach | Bridge Loan | $3,300,000.00
+
+Oakland | A & D Loan | $8,500,000.00
+
+Rancho Santa Fe | Construction Loan | $2,200,000.00
+
+Encino | Construction Loan | $2,750,000.00
+
+Newport Beach | Completion Loan | $2,750,000.00
+
+949.315.1482 | 800.658.1552 | jpukini@abc-funds.com
+
+Acquisition, Bridge, Construction
+
+ALL Property Types
+
+3700 Campus Drive, Suite 200, Newport Beach, CA 92660
+AB Capital is a CA Finance Lender licensed by the California
+Department of Business Oversight, License No. 60DBO-69426.
+
+______________________________________________________________________
+If you no longer wish to receive these emails, please reply to this
+message with "Unsubscribe" in the subject line or simply click on the
+following link:=20
+
+http://cts.vresp.com/u?46fb22a617/b5ea4efc3f/mlpftw/confirm
+
+______________________________________________________________________
+This message was sent by AB Capital using VerticalResponse
+
+AB Capital
+3700 Campus Drive
+Suite 200
+Newport Beach, California 92660
+US
+
+Read the VerticalResponse marketing policy:=20
+http://www.verticalresponse.com/content/pm_policy.html
+
+--__________MIMEboundary__________
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"en" xml:lang=3D"en">
+<head>
+  <meta http-equiv=3D"content-type" content=3D"text/html;charset=3DUTF-8" />
+  <title>AB Capital | Recently Funded</title>
+  <meta name=3D"x-apple-disable-message-reformatting">
+</head>
+<body>
+
+
+
+  <table style=3D"margin: 0 auto !important" cellpadding=3D"5" cellspacing=
+=3D"0" border=3D"0" align=3D"center">
+    <tr style=3D'display:inline !important;'>
+      <td style=3D'display:inline !important; border-width: 0px !important'>
+        <a href=3D"http://cts.vresp.com/fbl?46fb22a617/b5ea4efc3f/http%3A%2=
+F%2Fhosted-p0.vresp.com%2F1177567%2F46fb22a617%2FARCHIVE%23like"><img borde=
+r=3D"0" src=3D"http://img-ak.verticalresponse.com/social_sharing/social_sha=
+ring.placeholder.facebook.png" border=3D"0" /></a>
+      </td>
+      <td style=3D'display:inline !important; border-width: 0px !important'>
+        <a href=3D"http://cts.vresp.com/ts?46fb22a617/b5ea4efc3f/http%3A%2F=
+%2Fapi.addthis.com%2Foexchange%2F0.8%2Fforward%2Ftwitter%2Foffer%3Ftemplate=
+%3D%257B%257Btitle%257D%257D%2B%257B%257Burl%257D%257D%26url%3Dhttp%253A%25=
+2F%252Fhosted-p0.vresp.com%252F1177567%252F46fb22a617%252FARCHIVE%26shorten=
+er%3Dbitly%26title%3DAB%2BCapital%2B%257C%2BRecently%2BFunded"><img border=
+=3D"0" src=3D"http://img-ak.verticalresponse.com/social_sharing/social_shar=
+ing.placeholder.twitter.png" border=3D"0" /></a>
+      </td>
+      <td style=3D'display:inline !important; border-width: 0px !important'>
+        <a href=3D"http://cts.vresp.com/ls?46fb22a617/b5ea4efc3f/http%3A%2F=
+%2Fapi.addthis.com%2Foexchange%2F0.8%2Fforward%2Flinkedin%2Foffer%3Ftemplat=
+e%3D%257B%257Btitle%257D%257D%2B%257B%257Burl%257D%257D%26url%3Dhttp%253A%2=
+52F%252Fhosted-p0.vresp.com%252F1177567%252F46fb22a617%252FARCHIVE%26shorte=
+ner%3Dbitly%26title%3DAB%2BCapital%2B%257C%2BRecently%2BFunded"><img border=
+=3D"0" src=3D"http://img-ak.verticalresponse.com/social_sharing/social_shar=
+ing.placeholder.linkedin.png" border=3D"0" /></a>
+      </td>
+    </tr>
+  </table>
+
+
+
+
+<p align=3D"center" style=3D"font-family:Verdana, sans-serif; font-size:10p=
+x;">
+<a href=3D"http://hosted.vresp.com/1177567/46fb22a617/544517817/b5ea4efc3f/=
+">Click to view this email in a browser</a>
+</p>
+
+
+
+=20
+      <div style=3D"clear: both; margin: 0 0 10px 0; padding: 0; width: 100=
+%; font-weight: normal; line-height: normal; font-family: Verdana, Arial, H=
+elvetica, sans-serif; font-size: 10pt; color: black; border-style: none; bo=
+rder-width: 0; border-color: black; background-color: transparent">
+   =20
+
+
+          <table width=3D"640" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0"n align=3D"center" bgcolor=3D"#FFFFFF" style=3D"border:10px solid #06=
+2e61;">
+            <tr>
+              <td valign=3D"top">
+               <img src=3D"http://img-ak.verticalresponse.com/email_layout/=
+1265//paradise-sky.jpg" alt=3D"paradise-sky.jpg" height=3D"32" width=3D"640=
+">
+              </td>
+            </tr>
+            <tr>
+              <td valign=3D"top">
+               =20
+        <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0">
+            <tr>
+              <td style=3D"padding:10px 20px;">
+             =20
+               =20
+	=09
+
+=20
+      <div style=3D"clear: both; margin: 0 0 10px 0; padding: 0; width: 100=
+%; border-style: none; border-width: 0; border-color: black; font-weight: n=
+ormal; line-height: normal; font-family: Verdana, Arial, Helvetica, sans-se=
+rif; font-size: 10pt; color: black; background-color: transparent">
+    <div style=3D"text-align: center;"><font face=3D"Verdana, Geneva, sans-=
+serif"><font style=3D"" size=3D"6"><b style=3D"">AB</b></font> <font color=
+=3D"#0000ff" style=3D"" size=3D"6">|<font style=3D"">&nbsp;</font></font><f=
+ont size=3D"5"><font color=3D"#808080" style=3D"">CAPITAL</font></font></fo=
+nt></div><div style=3D"text-align: center;"><font face=3D"Verdana, Geneva, =
+sans-serif"><font style=3D"" size=3D"2" color=3D"#0000ff"><br></font></font=
+></div><div style=3D"text-align: left;"><font face=3D"Verdana, Geneva, sans=
+-serif"><font style=3D"" color=3D"#0000ff" size=3D"2">Funds Available Now</=
+font><font style=3D"" color=3D"#0000ff" size=3D"3">&nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp;</font></font><span style=3D"color: rgb(0, 0, 255); font-fami=
+ly: Verdana, Geneva, sans-serif; text-align: center;"><font size=3D"2">Phon=
+e: 800.658.1552</font></span></div></div>
+    =20
+      <h3 style=3D"margin: 0 0 6px 0; padding: 0; width: 100%; font-weight:=
+ strong; line-height: normal; font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 12pt; color: black; border-style: none; border-width: 0; =
+border-color: black; background-color: transparent">
+    </h3>
+    =20
+      <div style=3D"clear: both; margin: 0 0 10px 0; padding: 0; width: 100=
+%; border-style: none; border-width: 0; border-color: black; font-weight: n=
+ormal; line-height: normal; font-family: Verdana, Arial, Helvetica, sans-se=
+rif; font-size: 10pt; color: black; background-color: transparent">
+    <div style=3D"text-align: left;"><div style=3D"text-align: center;"><fo=
+nt face=3D"Verdana, Geneva, sans-serif"><br></font></div><div style=3D"text=
+-align: center;"><font face=3D"Verdana, Geneva, sans-serif">Laguna Beach<b =
+style=3D""> </b>| <b style=3D"">Bridge Loan</b> |<b style=3D"">&nbsp;</b>$3=
+,300,000.00&nbsp;</font></div><div style=3D"text-align: center;"><br></div>=
+<div style=3D"text-align: center;"><img src=3D"http://img-ak.verticalrespon=
+se.com/media/a/6/c/a6c61c355f/46fb22a617/3f3dedf1bd/library/Blue-Grey.jpg" =
+alt=3D"Blue-Grey" title=3D"Blue-Grey" align=3D"none" border=3D"0" hspace=3D=
+"0" vspace=3D"0" width=3D"298" height=3D"130" style=3D"width: 298px; height=
+: 130px;"></div></div></div>
+    =20
+      <h3 style=3D"margin: 0 0 6px 0; padding: 0; width: 100%; font-weight:=
+ strong; line-height: normal; font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 12pt; color: black; border-style: none; border-width: 0; =
+border-color: black; background-color: transparent">
+    </h3>
+    =20
+      <div style=3D"clear: both; margin: 0 0 10px 0; padding: 0; width: 100=
+%; border-style: none; border-width: 0; border-color: black; font-weight: n=
+ormal; line-height: normal; font-family: Verdana, Arial, Helvetica, sans-se=
+rif; font-size: 10pt; color: black; background-color: transparent">
+    <div style=3D"text-align: left;"><div style=3D"text-align: center;"><fo=
+nt face=3D"Verdana, Geneva, sans-serif"><br></font></div><div style=3D"text=
+-align: center;"><font face=3D"Verdana, Geneva, sans-serif">Oakland |<b> A =
+&amp; D Loan </b>|<b>&nbsp;</b>$8,500,000.00&nbsp;</font></div><div style=
+=3D"text-align: center;"><br></div><div style=3D"text-align: center;"><img =
+src=3D"http://img-ak.verticalresponse.com/media/a/6/c/a6c61c355f/46fb22a617=
+/cac15c16d7/library/Front.JPG" alt=3D"Front" title=3D"Front" align=3D"none"=
+ border=3D"0" hspace=3D"0" vspace=3D"0" width=3D"298" height=3D"143" style=
+=3D"width: 298px; height: 143px;"></div></div></div>
+    =20
+      <h3 style=3D"margin: 0 0 6px 0; padding: 0; width: 100%; font-weight:=
+ strong; line-height: normal; font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 12pt; color: black; border-style: none; border-width: 0; =
+border-color: black; background-color: transparent">
+    </h3>
+    =20
+      <div style=3D"clear: both; margin: 0 0 10px 0; padding: 0; width: 100=
+%; border-style: none; border-width: 0; border-color: black; font-weight: n=
+ormal; line-height: normal; font-family: Verdana, Arial, Helvetica, sans-se=
+rif; font-size: 10pt; color: black; background-color: transparent">
+    <div style=3D"text-align: left;"><div style=3D"text-align: center;"><fo=
+nt face=3D"Verdana, Geneva, sans-serif"><br></font></div><div style=3D"text=
+-align: center;"><font face=3D"Verdana, Geneva, sans-serif">Rancho Santa Fe=
+&nbsp;|<b>&nbsp;Construction Loan </b>|<b>&nbsp;</b>$2,200,000.00&nbsp;</fo=
+nt></div><div style=3D"text-align: center;"><br></div><div style=3D"text-al=
+ign: center;"><img src=3D"http://img-ak.verticalresponse.com/media/a/6/c/a6=
+c61c355f/46fb22a617/ad79fb19cc/library/La%20Milla%20pic.jpg" alt=3D"La Mill=
+a pic" title=3D"La Milla pic" align=3D"none" border=3D"0" hspace=3D"0" vspa=
+ce=3D"0" width=3D"298" height=3D"162" style=3D"width: 298px; height: 162px;=
+"></div></div></div>
+   =20
+=20
+      <h3 style=3D"margin: 0 0 6px 0; padding: 0; width: 100%; font-weight:=
+ strong; line-height: normal; font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 12pt; color: black; border-style: none; border-width: 0; =
+border-color: black; background-color: transparent">
+    </h3>
+    =20
+      <div style=3D"clear: both; margin: 0 0 10px 0; padding: 0; width: 100=
+%; border-style: none; border-width: 0; border-color: black; font-weight: n=
+ormal; line-height: normal; font-family: Verdana, Arial, Helvetica, sans-se=
+rif; font-size: 10pt; color: black; background-color: transparent">
+    <div style=3D"text-align: left;"><div style=3D"text-align: center;"><fo=
+nt face=3D"Verdana, Geneva, sans-serif"><br></font></div><div style=3D"text=
+-align: center;"><font face=3D"Verdana, Geneva, sans-serif">Encino&nbsp;|<b=
+>&nbsp;Construction Loan </b>|<b>&nbsp;</b>$2,750,000.00</font>&nbsp;</div>=
+<div style=3D"text-align: center;"><br></div><div style=3D"text-align: cent=
+er;"><img src=3D"http://img-ak.verticalresponse.com/media/a/6/c/a6c61c355f/=
+46fb22a617/2b359daf04/library/Oak%20View%20Rendering%20Rear%20Right%20copy%=
+20-%20Copy.jpg" alt=3D"Oak View Rendering Rear Right copy - Copy" title=3D"=
+Oak View Rendering Rear Right copy - Copy" align=3D"none" border=3D"0" hspa=
+ce=3D"0" vspace=3D"0" width=3D"298" height=3D"199" style=3D"width: 298px; h=
+eight: 199px;"></div></div></div>
+    =20
+      <h3 style=3D"margin: 0 0 6px 0; padding: 0; width: 100%; font-weight:=
+ strong; line-height: normal; font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 12pt; color: black; border-style: none; border-width: 0; =
+border-color: black; background-color: transparent">
+    </h3>
+    =20
+      <div style=3D"clear: both; margin: 0 0 10px 0; padding: 0; width: 100=
+%; border-style: none; border-width: 0; border-color: black; font-weight: n=
+ormal; line-height: normal; font-family: Verdana, Arial, Helvetica, sans-se=
+rif; font-size: 10pt; color: black; background-color: transparent">
+    <div style=3D"text-align: left;"><div style=3D"text-align: center;"><fo=
+nt face=3D"Verdana, Geneva, sans-serif"><br></font></div><div style=3D"text=
+-align: center;"><font face=3D"Verdana, Geneva, sans-serif">Newport Beach |=
+<b>&nbsp;Completion Loan </b>|<b>&nbsp;</b>$2,750,000.00</font>&nbsp;</div>=
+<div style=3D"text-align: center;"><br></div><div style=3D"text-align: cent=
+er;"><img src=3D"http://img-ak.verticalresponse.com/media/a/6/c/a6c61c355f/=
+46fb22a617/f6b63f813e/library/AV%20Deal.jpg" alt=3D"AV Deal" title=3D"AV De=
+al" align=3D"none" border=3D"0" hspace=3D"0" vspace=3D"0" width=3D"298" hei=
+ght=3D"168" style=3D"width: 298px; height: 168px;"></div></div></div>
+    =20
+      <h3 style=3D"margin: 0 0 6px 0; padding: 0; width: 100%; font-weight:=
+ strong; line-height: normal; font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 12pt; color: black; border-style: none; border-width: 0; =
+border-color: black; background-color: transparent">
+    </h3>
+    =20
+      <div style=3D"clear: both; margin: 0 0 10px 0; padding: 0; width: 100=
+%; border-style: none; border-width: 0; border-color: black; font-weight: n=
+ormal; line-height: normal; font-family: Verdana, Arial, Helvetica, sans-se=
+rif; font-size: 10pt; color: black; background-color: transparent">
+    <div style=3D"text-align: left;"><div style=3D"text-align: center;"><sp=
+an style=3D"font-size: small; font-family: Verdana, Geneva, sans-serif;"><b=
+r></span></div><div style=3D"text-align: center;"><span style=3D"font-size:=
+ small; font-family: Verdana, Geneva, sans-serif;">949.315.1482 |<b> 800.65=
+8=2E1552</b></span><span style=3D"font-size: small; font-family: Verdana, G=
+eneva, sans-serif;">&nbsp;|&nbsp;</span><font color=3D"#0000ff" style=3D"fo=
+nt-size: small; font-family: Verdana, Geneva, sans-serif;">jpukini@abc-fund=
+s=2Ecom</font></div></div></div>
+    =20
+      <div style=3D"clear: both; margin: 0 0 10px 0; padding: 0; width: 100=
+%; border-style: none; border-width: 0; border-color: black; font-weight: n=
+ormal; line-height: normal; font-family: Verdana, Arial, Helvetica, sans-se=
+rif; font-size: 10pt; color: black; background-color: transparent">
+    <div style=3D"text-align: left;"><div style=3D"text-align: center;"><fo=
+nt face=3D"Verdana, Geneva, sans-serif" size=3D"2"><b style=3D"">A</b>cquis=
+ition, <b style=3D"">B</b>ridge, <b style=3D"">C</b>onstruction&nbsp;</font=
+></div><div style=3D"text-align: center;"><font face=3D"Verdana, Geneva, sa=
+ns-serif" size=3D"2"><br></font></div><div style=3D"text-align: center;"><f=
+ont face=3D"Verdana, Geneva, sans-serif" color=3D"#0000ff" size=3D"2">ALL P=
+roperty Types&nbsp;</font></div></div></div>
+    =20
+      <div style=3D"clear: both; margin: 0 0 10px 0; padding: 0; width: 100=
+%; border-style: none; border-width: 0; border-color: black; font-weight: n=
+ormal; line-height: normal; font-family: Verdana, Arial, Helvetica, sans-se=
+rif; font-size: 10pt; color: black; background-color: transparent">
+    <div style=3D"text-align: center;"><span style=3D"font-size: small; col=
+or: rgb(38, 38, 38);"><font face=3D"Arial, Helvetica, sans-serif">3700 Camp=
+us Drive, Suite
+200, Newport Beach, CA 92660</font></span></div><div style=3D"text-align: c=
+enter;"><font face=3D"Arial, Helvetica, sans-serif" style=3D"" size=3D"2">A=
+B Capital is a CA Finance Lender licensed
+by the California Department of Business Oversight, License No. 60DBO-69426=
+.&nbsp;</font></div></div>
+   =20
+      =20
+        =20
+                           </td>
+            </tr>
+          </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src=3D"http://img-ak.verticalresponse.com/email_layout=
+/1265//paradise-beach.jpg" alt=3D"paradise-beach.jpg" height=3D"168" width=
+=3D"640">
+              </td>
+            </tr>
+          </table>
+    =20
+</div>
+   =20
+
+<br>
+<br style=3D"clear: both;">
+
+<hr>
+<table border=3D"0" cellspacing=3D"0" width=3D"100%" cellpadding=3D"5">
+  <tr>
+    <td>
+      <font face=3D"arial,verdana" size=3D"1"> If you no longer wish to rec=
+eive these emails, please reply to this message with "Unsubscribe" in the s=
+ubject line or simply click on the following link:=20
+=20
+<a href=3D"http://cts.vresp.com/u?46fb22a617/b5ea4efc3f/mlpftw/confirm">Uns=
+ubscribe</a>
+
+
+</font>
+    </td>
+  </tr>
+</table>
+
+<hr>
+
+<table border=3D"0" cellpadding=3D"5" cellspacing=3D"0" width=3D"100%">
+  <tr>
+    <td>
+      <font face=3D"arial,verdana" size=3D"1">
+                  AB Capital<br/>
+        3700 Campus Drive<br/>
+                  Suite 200<br/>
+                Newport Beach, California 92660<br/>
+                  US<br/>
+       =20
+       <p>
+         =20
+<a href=3D"http://www.verticalresponse.com/content/pm_policy.html" target=
+=3D"_blank">Read</a> the VerticalResponse marketing policy.
+
+
+        </p>
+      </font>
+    </td>
+    <td align=3D"right">
+      <a href=3D"http://www.verticalresponse.com/landing/ef/?mm/46fb22a617&=
+utm_campaign=3Dfooter&utm_medium=3Dreferral&utm_source=3Dfooter" target=3D"=
+_blank">
+<img border=3D"0" alt=3D"Try Email Marketing with VerticalResponse!" src=3D=
+"http://img-ak.verticalresponse.com/pwrby_vr_logo_120.gif">
+</a>
+
+    </td>
+  </tr>
+</table>
+
+<div style=3D"display:none;max-height:0px;overflow:hidden;">
+
+  <img alt=3D"" src=3D"http://cts.vresp.com/o.gif?46fb22a617/b5ea4efc3f/mlp=
+ftw"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ =20
+   =20
+    <img border=3D"0" width=3D"1" height=3D"1" src=3D"https://mr-p.alcmpn.c=
+om/em/295/110/2534.gif?gid=3Dbd03bbe44a4afd5e78e29579caf7da6c"/>
+ =20
+   =20
+    <img border=3D"0" width=3D"1" height=3D"1" src=3D"https://mr-p.alcmpn.c=
+om/em/295/111/2536.gif?bid=3D03eb23f96a52414f04067007527a060a6876d2a6&gid=
+=3Dbd03bbe44a4afd5e78e29579caf7da6c&eid=3Def49fd6ec63641d4873e94de8fa1bfad8=
+1ac5147c8ceb0a75563b73112081de5"/>
+ =20
+   =20
+    <img border=3D"0" width=3D"1" height=3D"1" src=3D"https://mr-p.alcmpn.c=
+om/em/295/113/2533.gif?gid=3Dbd03bbe44a4afd5e78e29579caf7da6c"/>
+ =20
+   =20
+    <img border=3D"0" width=3D"1" height=3D"1" src=3D"https://mr-p.alcmpn.c=
+om/em/295/114/2537.gif?bid=3D03eb23f96a52414f04067007527a060a6876d2a6&gid=
+=3Dbd03bbe44a4afd5e78e29579caf7da6c&eid=3Def49fd6ec63641d4873e94de8fa1bfad8=
+1ac5147c8ceb0a75563b73112081de5"/>
+ =20
+   =20
+    <img border=3D"0" width=3D"1" height=3D"1" src=3D"https://mr-p.alcmpn.c=
+om/em/295/115/2543.gif?bid=3D03eb23f96a52414f04067007527a060a6876d2a6&gid=
+=3Dbd03bbe44a4afd5e78e29579caf7da6c&eid=3Def49fd6ec63641d4873e94de8fa1bfad8=
+1ac5147c8ceb0a75563b73112081de5"/>
+ =20
+   =20
+    <img border=3D"0" width=3D"1" height=3D"1" src=3D"https://mr-p.alcmpn.c=
+om/em/295/116/2544.gif?bid=3D03eb23f96a52414f04067007527a060a6876d2a6&gid=
+=3Dbd03bbe44a4afd5e78e29579caf7da6c&eid=3Def49fd6ec63641d4873e94de8fa1bfad8=
+1ac5147c8ceb0a75563b73112081de5"/>
+ =20
+   =20
+    <img border=3D"0" width=3D"1" height=3D"1" src=3D"https://mr-p.alcmpn.c=
+om/em/295/117/2539.gif?gid=3Dbd03bbe44a4afd5e78e29579caf7da6c"/>
+ =20
+   =20
+    <img border=3D"0" width=3D"1" height=3D"1" src=3D"https://mr-p.alcmpn.c=
+om/em/295/118/2541.gif?bid=3D03eb23f96a52414f04067007527a060a6876d2a6&gid=
+=3Dbd03bbe44a4afd5e78e29579caf7da6c&eid=3Def49fd6ec63641d4873e94de8fa1bfad8=
+1ac5147c8ceb0a75563b73112081de5"/>
+ =20
+   =20
+    <img border=3D"0" width=3D"1" height=3D"1" src=3D"https://mr-p.alcmpn.c=
+om/em/295/119/2535.gif?bid=3D03eb23f96a52414f04067007527a060a6876d2a6&gid=
+=3Dbd03bbe44a4afd5e78e29579caf7da6c&eid=3Def49fd6ec63641d4873e94de8fa1bfad8=
+1ac5147c8ceb0a75563b73112081de5"/>
+ =20
+   =20
+    <img border=3D"0" width=3D"1" height=3D"1" src=3D"https://mr-p.alcmpn.c=
+om/em/295/125/2542.gif?bid=3D03eb23f96a52414f04067007527a060a6876d2a6&gid=
+=3Dbd03bbe44a4afd5e78e29579caf7da6c&eid=3Def49fd6ec63641d4873e94de8fa1bfad8=
+1ac5147c8ceb0a75563b73112081de5"/>
+ =20
+
+
+
+
+  <img style=3D"visibility:hidden;display:none;" border=3D"0" height=3D"1" =
+width=3D"1" src=3D"https://s.thebrighttag.com/email?site=3DMaVt8iw&referrer=
+=3Dhe_event&e_md5=3Dbd03bbe44a4afd5e78e29579caf7da6c&e_sha1=3D03eb23f96a524=
+14f04067007527a060a6876d2a6&e_sha256=3Def49fd6ec63641d4873e94de8fa1bfad81ac=
+5147c8ceb0a75563b73112081de5">=20
+
+
+   <img src=3D"https://p.alocdn.com/c/sgat3rug/m/bd03bbe44a4afd5e78e29579ca=
+f7da6c/s/03eb23f96a52414f04067007527a060a6876d2a6/p.gif" hidden=3D"hidden" =
+width=3D"0" height=3D"0"/>
+=20
+</div>
+
+</body>
+</html>
+
+--__________MIMEboundary__________--
+

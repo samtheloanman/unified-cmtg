@@ -1,0 +1,171 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 74.125.83.54 as permitted sender) client-ip=74.125.83.54; envelope-from=geolrp@gmail.com; helo=mail-pg0-f54.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 74.125.83.54 as permitted sender)  smtp.mailfrom=geolrp@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Received: from mail-pg0-f54.google.com (mail-pg0-f54.google.com [74.125.83.54]) by mx.zohomail.com
+	with SMTPS id 1530563705701818.96467468744; Mon, 2 Jul 2018 13:35:05 -0700 (PDT)
+Received: by mail-pg0-f54.google.com with SMTP id m19-v6so4095975pgv.3
+        for <sam@c-mtg.com>; Mon, 02 Jul 2018 13:35:05 -0700 (PDT)
+Return-Path: <geolrp@gmail.com>
+Return-Path: <geolrp@gmail.com>
+Received: from GeorgeHome (cpe-104-34-153-147.socal.res.rr.com. [104.34.153.147])
+        by smtp.gmail.com with ESMTPSA id l65-v6sm26596918pgl.4.2018.07.02.13.35.03
+        for <sam@c-mtg.com>
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Mon, 02 Jul 2018 13:35:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:to:references:in-reply-to:subject:date:message-id:mime-version
+         :thread-index:content-language;
+        bh=jATGRvUdtQ08fL1xUI3wex7hJkloxMGrjVGEr/tTdE8=;
+        b=mMLdeYbbwDhaFh6MFOMHWCiSwOkvKk8iA1vkprDHgahqPF5uYLfgzh9jUuTbHfkssF
+         w2dffStGBC2sYmXTnflvSxCRzhwiSf5KutxLZg9q4D+70Y2b2ZarqmN83nh/17sDHrx/
+         xXHUo12tvy6DEBtq6+5cMwQdZlcLdS+jRjzTKRCzeU8FSDKEEx32BhHbIqMO9BPRVPKY
+         xFXrj3/8eZJAdMrMgaZJPiKoUYtiVjYIsQTGi0jiBWXVwphO29bff6ZuPaehkEP1uTHD
+         cMZ71JQXhh10kUTfndJIqSu7pX0QpxsjykXfHmVp3IP+989sAn2L26QWUuP3lUzRxZKH
+         6CuQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:to:references:in-reply-to:subject:date
+         :message-id:mime-version:thread-index:content-language;
+        bh=jATGRvUdtQ08fL1xUI3wex7hJkloxMGrjVGEr/tTdE8=;
+        b=uGCe4G0bcjCmuxkFEYRzflvF7TLbfooBMh+UQpHbT/9i2wQJTEbbinHAJuXFVCV8+E
+         RnnC0oD7is2/k38hHrsVa5NrAiJWvQLwtzbq2F/shWxbmG4gfn1bsIYypWtif0y6cXwe
+         E8cg0brWwdTKdV7MQXbn19eHHohbdfflFKradPLRRRFtmcBrVlAaGBuG50MY5q5qLSeJ
+         HvQVKeR7VHa7IiIu3O1z6NrCa9rs+TH09Xy2Mrvvo2j5mkW+8DBKn5TAop3E9mYCPk9a
+         HNmg1Muq80ewrL/yBovho7oLIwn4nRVcjUNg5Iv2e/HHSaaH7bXYOuE2hAk6wxBomCN7
+         zF5g==
+X-Gm-Message-State: APt69E2v5he6vtDPr9qC2ML5YQY6hzIf2gmxeAFnNe1b8CsCC1+ZPsTT
+	HOAvaDi7qQYlaPZb0IDYujUdJw==
+X-Google-Smtp-Source: ADUXVKIXMkdBHEn2Ecuh2LH1S+kd3XO5KAWr3zqlAqJZ3t8/rAqVy1Jqmr8KMrr6dYcnkyXT487zJQ==
+X-Received: by 2002:a65:6211:: with SMTP id d17-v6mr23605217pgv.450.1530563704653;
+        Mon, 02 Jul 2018 13:35:04 -0700 (PDT)
+From: <geolrp@gmail.com>
+To: "'Sam Tehranchi'" <sam@c-mtg.com>
+References: <14a001d40ffe$b1885a00$14990e00$@gmail.com> <DD24B6EB-324F-4CFD-8134-09B0B73B085D@gmail.com>
+In-Reply-To: <DD24B6EB-324F-4CFD-8134-09B0B73B085D@gmail.com>
+Subject: FW: 2819 Coldwater canyon Dr. 90210 -
+Date: Mon, 2 Jul 2018 13:35:04 -0700
+Message-ID:<168d01d41244$28f359e0$7ada0da0$@gmail.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_168E_01D41209.7C956C40"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AQMR423jNeCVsUVL9K+Y5xzoT6s2/wKCwKfLoeyrYjA=
+Content-Language: en-us
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_DI SPK
+X-ZM-MESSAGEID: 1530563707355000001
+X-ZohoMail-Status: 1
+
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_168E_01D41209.7C956C40
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+ 
+
+Dependent Son -David is 18 (attending college in Fall)
+
+Dependent Wife - Libin is about 32-35ish (second wife)? 
+
+ 
+
+Hope to have the remaining back Monday
+
+
+
+
+
+ 
+
+
+------=_NextPart_000_168E_01D41209.7C956C40
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta =
+name=3DGenerator content=3D"Microsoft Word 15 (filtered =
+medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.size
+	{mso-style-name:size;}
+span.colour
+	{mso-style-name:colour;}
+span.highlight
+	{mso-style-name:highlight;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+span.EmailStyle22
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>Dependent =
+Son -David is 18 (attending college in Fall)<o:p></o:p></p><div><p =
+class=3DMsoNormal>Dependent Wife - Libin is about 32-35ish (second =
+wife)?&nbsp;<o:p></o:p></p></div><div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div><div><p =
+class=3DMsoNormal>Hope to have the remaining back =
+Monday<o:p></o:p></p></div><div><div><p class=3DMsoNormal><span =
+style=3D'font-size:9.0pt;font-family:"Helvetica",sans-serif;color:black'>=
+<br><br></span><o:p></o:p></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_000_168E_01D41209.7C956C40--
+

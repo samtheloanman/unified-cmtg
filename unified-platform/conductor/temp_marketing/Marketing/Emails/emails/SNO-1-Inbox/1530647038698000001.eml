@@ -1,0 +1,1155 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of firstam.com designates 68.232.147.96 as permitted sender) client-ip=68.232.147.96; envelope-from=KaGomez@firstam.com; helo=esa5.firstam.iphmx.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=@firstam.com;
+	spf=pass (zoho.com: domain of firstam.com designates 68.232.147.96 as permitted sender)  smtp.mailfrom=KaGomez@firstam.com;
+	dmarc=pass(p=none dis=none)  header.from=firstam.com
+Return-Path: <KaGomez@firstam.com>
+Received: from esa5.firstam.iphmx.com (esa5.firstam.iphmx.com [68.232.147.96]) by mx.zohomail.com
+	with SMTPS id 1530647038047296.0627089896948; Tue, 3 Jul 2018 12:43:58 -0700 (PDT)
+Received: from unknown (HELO SNAPPESAMX01.corp.firstam.com) ([69.87.20.81])
+  by esa5.firstam.iphmx.com with ESMTP/TLS/RC4-SHA; 03 Jul 2018 12:43:39 -0700
+Received: from fahqsna09vxht01.corp.firstam.com ([172.17.247.135])
+  by SNAPPESAMX01.corp.firstam.com with ESMTP; 03 Jul 2018 12:43:35 -0700
+Received: from FAHQSNA09SXMB02.corp.firstam.com ([fe80::191c:80d2:6e60:6e82])
+ by FAHQSNA09VXHT01.corp.firstam.com ([::1]) with mapi id 14.03.0389.001; Tue,
+ 3 Jul 2018 12:43:20 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=firstam.com; i=@firstam.com; q=dns/txt; s=corp;
+  t=1530647037; x=1562183037;
+  h=subject:from:to:cc:date:message-id:references:
+   in-reply-to:mime-version;
+  bh=m/gVilLpKv980UPG7ZSE0YeORpdVfkzW97AhUrwcQwI=;
+  b=ebxsVqQu8JvE01xV0fbCAiLIoCQD+JNo7N0hELZgnl2bkNu+i2iVNi68
+   x64WoP9wswD1xoFvihg5ItQybsIKnLrpN/Pn26yFLKHMbd/TXyOiP+V8i
+   OoUuxeu0CZkKWGQ96WvUMr+Q3bqWf4JkGWW9bTT8jUqBoad//Fc5bi6/H
+   Vvttgu75mi/ymKqzrg1wDvP2+tmkjzBawxvBMXzgY7f1wQxm+uLh2uQNJ
+   crHM13/91uHrPtI9b9I8irBK43oyhxLNDakqfeFDESK7XASksESsYIj8w
+   7gd+yz+Z5YXN0M1Co5Jr5vaoNKJhHk2GoRu+/9wCDZmzz/3zIHBPrzc5a
+   A==;
+X-IronPort-AV: E=Sophos;i="5.51,304,1526367600"; 
+   d="png'150?jpg'150,145?scan'150,145,208,217,150,145";a="210569326"
+X-ExtLoop1: 1
+subject: 5652334/Shortage on tax payoff
+From: "Gomez, Karina" <KaGomez@firstam.com>
+To: "'mercedesmejiabarrios@gmail.com'" <mercedesmejiabarrios@gmail.com>
+CC: "'srivera@co.slo.ca.us'" <srivera@co.slo.ca.us>, "Chavez, Glenda"
+	<GChavez@firstam.com>, Sam Tehranchi <sam@c-mtg.com>
+Thread-Topic: 5652334/Shortage on tax payoff
+Thread-Index: AdQCoHe6OtJz5hoDSna0tPQ8MB+8/wGNuxoQAoukGuA=
+Date: Tue, 3 Jul 2018 19:43:20 +0000
+Message-ID:<6FB1183D6C562446941DF6B6CCAC93260148275E93@fahqsna09sxmb02.corp.firstam.com>
+References: <6FB1183D6C562446941DF6B6CCAC93260129C21815@fahqsna09sxmb02.corp.firstam.com>
+ <6FB1183D6C562446941DF6B6CCAC932601482531E5@fahqsna09sxmb03.corp.firstam.com>
+In-Reply-To: <6FB1183D6C562446941DF6B6CCAC932601482531E5@fahqsna09sxmb03.corp.firstam.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-originating-ip: [172.17.247.1]
+Content-Type: multipart/related;
+	boundary="_009_6FB1183D6C562446941DF6B6CCAC93260148275E93fahqsna09sxmb_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-Zoho-Virus-Status: 1
+X-ZohoMail-DKIM: pass (identity @firstam.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_DI SPK
+X-ZM-MESSAGEID: 1530647038698000001
+X-ZohoMail-Status: 1
+
+
+--_009_6FB1183D6C562446941DF6B6CCAC93260148275E93fahqsna09sxmb_
+Content-Type: multipart/alternative;
+	boundary="_000_6FB1183D6C562446941DF6B6CCAC93260148275E93fahqsna09sxmb_"
+
+--_000_6FB1183D6C562446941DF6B6CCAC93260148275E93fahqsna09sxmb_
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+Call me asap.  My tax check was sent back. I need to put you in touch with =
+the city to get this sorted out.
+
+Sam-Please assist.
+
+
+
+Sincerely,
+
+
+    **Please be kind, add and keep our order/escrow number on your subject =
+line**
+[myFirstAm(r)]
+
+[CA Resale Rate Calculator]
+
+[Fee Calculator]
+
+
+[myFirstAm(r)]<https://myfirstam.com/Security/Login?ReturnUrl=3D/>
+
+[CA Resale Rate Calculator]<http://www.firstam.com/title/ca/resources/calcu=
+lators/residential-resale-calculator.html>
+
+[Fee Calculator]<http://facc.firstam.com/>
+
+
+[%Name%]
+
+
+Karina Gomez
+Escrow Officer
+207 Goode Ave, Ste. 410
+Glendale, CA 91203
+Office:818.550.2552<tel:818.550.2552> Fax:866.744.0233<tel:866.744.0233>
+KaGomez@firstam.com<mailto:KaGomez@firstam.com> http://www.firstam.com<http=
+://www.firstam.com/>
+
+
+[fat.png]
+
+
+
+
+
+
+
+From: Gomez, Karina
+Sent: Wednesday, June 20, 2018 1:44 PM
+To: 'mercedesmejiabarrios@gmail.com' <mercedesmejiabarrios@gmail.com>
+Cc: 'srivera@co.slo.ca.us' <srivera@co.slo.ca.us>
+Subject: RE: 5652334/Shortage on tax payoff
+
+Resending. Please confirm receipt.
+Hi,
+Per the city tax collector we did not collect enough to cover your taxes. T=
+hey do however have a refund pending to you an would like to use part of it=
+ for the shortage. Will you please call Sierra at 805-781-5838 asap.
+
+
+
+Sincerely,
+
+
+    **Please be kind, add and keep our order/escrow number on your subject =
+line**
+[myFirstAm(r)]
+
+[CA Resale Rate Calculator]
+
+[Fee Calculator]
+
+
+[myFirstAm(r)]<https://myfirstam.com/Security/Login?ReturnUrl=3D/>
+
+[CA Resale Rate Calculator]<http://www.firstam.com/title/ca/resources/calcu=
+lators/residential-resale-calculator.html>
+
+[Fee Calculator]<http://facc.firstam.com/>
+
+
+[%Name%]
+
+
+Karina Gomez
+Escrow Officer
+207 Goode Ave, Ste. 410
+Glendale, CA 91203
+Office:818.550.2552<tel:818.550.2552> Fax:866.744.0233<tel:866.744.0233>
+KaGomez@firstam.com<mailto:KaGomez@firstam.com> http://www.firstam.com<http=
+://www.firstam.com/>
+
+
+[fat.png]
+
+
+
+
+
+
+
+From: Cisco Unity Voicemail System
+Sent: Tuesday, June 12, 2018 3:28 PM
+To: Gomez, Karina <KaGomez@firstam.com<mailto:KaGomez@firstam.com>>
+Subject: Voicemail Message from Unknown sender +18057815838
+
+
+
+***************************************************************************=
+***************
+This message may contain confidential or proprietary information intended o=
+nly for the use of the
+addressee(s) named above or may contain information that is legally privile=
+ged. If you are
+not the intended addressee, or the person responsible for delivering it to =
+the intended addressee,
+you are hereby notified that reading, disseminating, distributing or copyin=
+g this message is strictly
+prohibited. If you have received this message by mistake, please immediatel=
+y notify us by
+replying to the message and delete the original message and any copies imme=
+diately thereafter.
+
+If you received this email as a commercial message and would like to opt ou=
+t of future commercial
+messages, please let us know and we will remove you from our distribution l=
+ist.
+
+Thank you.~
+***************************************************************************=
+***************
+FAFLD
+
+--_000_6FB1183D6C562446941DF6B6CCAC93260148275E93fahqsna09sxmb_
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle18
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EmailStyle19
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EmailStyle20
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Call me asap.&nbsp; My tax check was sent back. I ne=
+ed to put you in touch with the city to get this sorted out.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Sam-Please assist.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"color:red"><o:p>&nbsp;</o:p></span></=
+p>
+<p class=3D"MsoNormal"><span style=3D"color:#4F81BD"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">Sincerely,<o:p></o:p><=
+/span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#D99594"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;color:#C00000">&nbsp;=
+&nbsp;&nbsp; **Please be kind, add and keep our order/escrow number on your=
+ subject line**</span><span style=3D"color:#C00000"><o:p></o:p></span></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellpadding=3D"0" width=3D"98%=
+" style=3D"width:98.44%">
+<tbody>
+<tr>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse:collapse">
+<tbody>
+<tr>
+<td style=3D"padding:0in 0in 0in 0in">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"background:#4C4C4C;border-collapse:collapse">
+<tbody>
+<tr style=3D"height:105.0pt">
+<td style=3D"background:white;padding:0in 0in 0in 0in;height:105.0pt">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse:collapse">
+<tbody>
+<tr>
+<td style=3D"padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;color:#1F497D"><img width=3D"10" height=3D"56" st=
+yle=3D"width:.1041in;height:.5833in" id=3D"_x0000_i1040" src=3D"cid:image00=
+1.png@01D412CB.6B3C6C10" alt=3D"myFirstAm&reg;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;color:#1F497D"><img width=3D"10" height=3D"56" st=
+yle=3D"width:.1041in;height:.5833in" id=3D"_x0000_i1039" src=3D"cid:image00=
+1.png@01D412CB.6B3C6C10" alt=3D"CA Resale Rate Calculator"><o:p></o:p></spa=
+n></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;color:#1F497D"><img width=3D"10" height=3D"56" st=
+yle=3D"width:.1041in;height:.5833in" id=3D"_x0000_i1038" src=3D"cid:image00=
+1.png@01D412CB.6B3C6C10" alt=3D"Fee Calculator"><o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style=3D"padding:0in 0in 0in 0in;height:105.0pt">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse:collapse">
+<tbody>
+<tr>
+<td style=3D"padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal"><a href=3D"https://myfirstam.com/Security/Login?Retu=
+rnUrl=3D/"><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roma=
+n&quot;,serif;color:blue;text-decoration:none"><img border=3D"0" width=3D"1=
+10" height=3D"56" style=3D"width:1.1458in;height:.5833in" id=3D"_x0000_i103=
+7" src=3D"cid:image002.png@01D412CB.6B3C6C10" alt=3D"myFirstAm&reg;"></span=
+></a><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot=
+;,serif;color:#1F497D"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal"><a href=3D"http://www.firstam.com/title/ca/resources=
+/calculators/residential-resale-calculator.html"><span style=3D"font-size:1=
+2.0pt;font-family:&quot;Times New Roman&quot;,serif;color:blue;text-decorat=
+ion:none"><img border=3D"0" width=3D"110" height=3D"56" style=3D"width:1.14=
+58in;height:.5833in" id=3D"_x0000_i1036" src=3D"cid:image003.png@01D412CB.6=
+B3C6C10" alt=3D"CA Resale Rate Calculator"></span></a><span style=3D"font-s=
+ize:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#1F497D"><o:=
+p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal"><a href=3D"http://facc.firstam.com/"><span style=3D"=
+font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:blue;t=
+ext-decoration:none"><img border=3D"0" width=3D"110" height=3D"56" style=3D=
+"width:1.1458in;height:.5833in" id=3D"_x0000_i1035" src=3D"cid:image004.png=
+@01D412CB.6B3C6C10" alt=3D"Fee Calculator"></span></a><span style=3D"font-s=
+ize:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#1F497D"><o:=
+p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style=3D"padding:1.5pt 0in 0in 3.75pt;height:105.0pt">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse:collapse">
+<tbody>
+<tr>
+<td style=3D"background:white;padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal" style=3D"margin:1.5pt"><span style=3D"font-size:12.0=
+pt;font-family:&quot;Arial&quot;,sans-serif;color:white"><img border=3D"0" =
+width=3D"130" height=3D"130" style=3D"width:1.3541in;height:1.3541in" id=3D=
+"_x0000_i1034" src=3D"cid:image005.jpg@01D412CB.6B3C6C10" alt=3D"%Name%"><o=
+:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style=3D"padding:0in 0in 0in 3.75pt;height:105.0pt">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse:collapse">
+<tbody>
+<tr>
+<td nowrap=3D"" style=3D"padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal" style=3D"mso-line-height-alt:9.0pt"><b><span style=
+=3D"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;color:white">=
+Karina Gomez</span></b><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:white"><br>
+Escrow Officer </span><span style=3D"font-size:7.5pt;font-family:&quot;Aria=
+l&quot;,sans-serif;color:white"><br>
+207 Goode Ave, Ste. 410 <br>
+Glendale,&nbsp;CA&nbsp;91203<br>
+Office:</span><span style=3D"color:#1F497D"><a href=3D"tel:818.550.2552" ta=
+rget=3D"_blank"><span style=3D"font-size:7.5pt;font-family:&quot;Arial&quot=
+;,sans-serif;color:white;text-decoration:none">818.550.2552</span></a></spa=
+n><span style=3D"font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif;c=
+olor:white">&nbsp;Fax:</span><span style=3D"color:#1F497D"><a href=3D"tel:8=
+66.744.0233" target=3D"_blank"><span style=3D"font-size:7.5pt;font-family:&=
+quot;Arial&quot;,sans-serif;color:white;text-decoration:none">866.744.0233<=
+/span></a></span><span style=3D"font-size:7.5pt;font-family:&quot;Arial&quo=
+t;,sans-serif;color:white">
+<br>
+</span><span style=3D"color:#1F497D"><a href=3D"mailto:KaGomez@firstam.com"=
+><span style=3D"font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif;co=
+lor:white;text-decoration:none">KaGomez@firstam.com</span></a></span><span =
+style=3D"font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif;color:whi=
+te">
+</span><span style=3D"color:#1F497D"><a href=3D"http://www.firstam.com/"><s=
+pan style=3D"font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif;color=
+:white;text-decoration:none">http://www.firstam.com</span></a></span><span =
+style=3D"font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif;color:whi=
+te">
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-s=
+erif;color:white"><o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in;height:105.0pt">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal" style=3D"margin:3.75pt"><span style=3D"font-size:12.=
+0pt;font-family:&quot;Times New Roman&quot;,serif;color:#1F497D"><img borde=
+r=3D"0" width=3D"250" height=3D"50" style=3D"width:2.6041in;height:.5208in"=
+ id=3D"_x0000_i1033" src=3D"cid:image006.png@01D412CB.6B3C6C10" alt=3D"fat.=
+png"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0in 0in 0in 0in"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b>From:</b> Gomez, Karina <br>
+<b>Sent:</b> Wednesday, June 20, 2018 1:44 PM<br>
+<b>To:</b> 'mercedesmejiabarrios@gmail.com' &lt;mercedesmejiabarrios@gmail.=
+com&gt;<br>
+<b>Cc:</b> 'srivera@co.slo.ca.us' &lt;srivera@co.slo.ca.us&gt;<br>
+<b>Subject:</b> RE: 5652334/Shortage on tax payoff<o:p></o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Resending. Please confirm receipt.<o:p></o:p></p>
+<p class=3D"MsoNormal">Hi,<o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"text-indent:.5in">Per the city tax collecto=
+r we did not collect enough to cover your taxes. They do however have a ref=
+und pending to you an would like to use part of it for the shortage. Will y=
+ou please call Sierra at 805-781-5838
+ asap.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span style=3D"color:red"><o:p>&nbsp;</o:p></span></=
+p>
+<p class=3D"MsoNormal"><span style=3D"color:#4F81BD"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">Sincerely,<o:p></o:p><=
+/span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#D99594"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;color:#C00000">&nbsp;=
+&nbsp;&nbsp; **Please be kind, add and keep our order/escrow number on your=
+ subject line**</span><span style=3D"color:#C00000"><o:p></o:p></span></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellpadding=3D"0" width=3D"98%=
+" style=3D"width:98.44%">
+<tbody>
+<tr>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse:collapse">
+<tbody>
+<tr>
+<td style=3D"padding:0in 0in 0in 0in">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"background:#4C4C4C;border-collapse:collapse">
+<tbody>
+<tr style=3D"height:105.0pt">
+<td style=3D"background:white;padding:0in 0in 0in 0in;height:105.0pt">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse:collapse">
+<tbody>
+<tr>
+<td style=3D"padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;color:#1F497D"><img border=3D"0" width=3D"10" hei=
+ght=3D"56" style=3D"width:.1041in;height:.5833in" id=3D"Picture_x0020_57" s=
+rc=3D"cid:image001.png@01D412CB.6B3C6C10" alt=3D"myFirstAm&reg;"><o:p></o:p=
+></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;color:#1F497D"><img border=3D"0" width=3D"10" hei=
+ght=3D"56" style=3D"width:.1041in;height:.5833in" id=3D"Picture_x0020_58" s=
+rc=3D"cid:image001.png@01D412CB.6B3C6C10" alt=3D"CA Resale Rate Calculator"=
+><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;color:#1F497D"><img border=3D"0" width=3D"10" hei=
+ght=3D"56" style=3D"width:.1041in;height:.5833in" id=3D"Picture_x0020_59" s=
+rc=3D"cid:image001.png@01D412CB.6B3C6C10" alt=3D"Fee Calculator"><o:p></o:p=
+></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style=3D"padding:0in 0in 0in 0in;height:105.0pt">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse:collapse">
+<tbody>
+<tr>
+<td style=3D"padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal"><a href=3D"https://myfirstam.com/Security/Login?Retu=
+rnUrl=3D/"><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roma=
+n&quot;,serif;color:blue;text-decoration:none"><img border=3D"0" width=3D"1=
+10" height=3D"56" style=3D"width:1.1458in;height:.5833in" id=3D"Picture_x00=
+20_60" src=3D"cid:image002.png@01D412CB.6B3C6C10" alt=3D"myFirstAm&reg;"></=
+span></a><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&=
+quot;,serif;color:#1F497D"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal"><a href=3D"http://www.firstam.com/title/ca/resources=
+/calculators/residential-resale-calculator.html"><span style=3D"font-size:1=
+2.0pt;font-family:&quot;Times New Roman&quot;,serif;color:blue;text-decorat=
+ion:none"><img border=3D"0" width=3D"110" height=3D"56" style=3D"width:1.14=
+58in;height:.5833in" id=3D"Picture_x0020_61" src=3D"cid:image003.png@01D412=
+CB.6B3C6C10" alt=3D"CA Resale Rate Calculator"></span></a><span style=3D"fo=
+nt-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#1F497D"=
+><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal"><a href=3D"http://facc.firstam.com/"><span style=3D"=
+font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:blue;t=
+ext-decoration:none"><img border=3D"0" width=3D"110" height=3D"56" style=3D=
+"width:1.1458in;height:.5833in" id=3D"Picture_x0020_62" src=3D"cid:image004=
+.png@01D412CB.6B3C6C10" alt=3D"Fee Calculator"></span></a><span style=3D"fo=
+nt-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#1F497D"=
+><o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style=3D"padding:1.5pt 0in 0in 3.75pt;height:105.0pt">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse:collapse">
+<tbody>
+<tr>
+<td style=3D"background:white;padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal" style=3D"margin:1.5pt"><span style=3D"font-size:12.0=
+pt;font-family:&quot;Arial&quot;,sans-serif;color:white"><img border=3D"0" =
+width=3D"130" height=3D"130" style=3D"width:1.3541in;height:1.3541in" id=3D=
+"Picture_x0020_63" src=3D"cid:image005.jpg@01D412CB.6B3C6C10" alt=3D"%Name%=
+"><o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style=3D"padding:0in 0in 0in 3.75pt;height:105.0pt">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse:collapse">
+<tbody>
+<tr>
+<td nowrap=3D"" style=3D"padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal" style=3D"mso-line-height-alt:9.0pt"><b><span style=
+=3D"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;color:white">=
+Karina Gomez</span></b><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:white"><br>
+Escrow Officer </span><span style=3D"font-size:7.5pt;font-family:&quot;Aria=
+l&quot;,sans-serif;color:white"><br>
+207 Goode Ave, Ste. 410 <br>
+Glendale,&nbsp;CA&nbsp;91203<br>
+Office:</span><span style=3D"color:#1F497D"><a href=3D"tel:818.550.2552" ta=
+rget=3D"_blank"><span style=3D"font-size:7.5pt;font-family:&quot;Arial&quot=
+;,sans-serif;color:white;text-decoration:none">818.550.2552</span></a></spa=
+n><span style=3D"font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif;c=
+olor:white">&nbsp;Fax:</span><span style=3D"color:#1F497D"><a href=3D"tel:8=
+66.744.0233" target=3D"_blank"><span style=3D"font-size:7.5pt;font-family:&=
+quot;Arial&quot;,sans-serif;color:white;text-decoration:none">866.744.0233<=
+/span></a></span><span style=3D"font-size:7.5pt;font-family:&quot;Arial&quo=
+t;,sans-serif;color:white">
+<br>
+</span><span style=3D"color:#1F497D"><a href=3D"mailto:KaGomez@firstam.com"=
+><span style=3D"font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif;co=
+lor:white;text-decoration:none">KaGomez@firstam.com</span></a></span><span =
+style=3D"font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif;color:whi=
+te">
+</span><span style=3D"color:#1F497D"><a href=3D"http://www.firstam.com/"><s=
+pan style=3D"font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif;color=
+:white;text-decoration:none">http://www.firstam.com</span></a></span><span =
+style=3D"font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif;color:whi=
+te">
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-s=
+erif;color:white"><o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in;height:105.0pt">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal" style=3D"margin:3.75pt"><span style=3D"font-size:12.=
+0pt;font-family:&quot;Times New Roman&quot;,serif;color:#1F497D"><img borde=
+r=3D"0" width=3D"250" height=3D"50" style=3D"width:2.6041in;height:.5208in"=
+ id=3D"Picture_x0020_64" src=3D"cid:image006.png@01D412CB.6B3C6C10" alt=3D"=
+fat.png"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0in 0in 0in 0in"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b>From:</b> Cisco Unity Voicemail System <br>
+<b>Sent:</b> Tuesday, June 12, 2018 3:28 PM<br>
+<b>To:</b> Gomez, Karina &lt;<a href=3D"mailto:KaGomez@firstam.com">KaGomez=
+@firstam.com</a>&gt;<br>
+<b>Subject:</b> Voicemail Message from Unknown sender &#43;18057815838<o:p>=
+</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+
+<BR>
+***************************************************************************=
+***************<BR>This message may contain confidential or proprietary inf=
+ormation intended only for the use of the<BR>addressee(s) named above or ma=
+y contain information that is legally privileged. If you are<BR>not the int=
+ended addressee, or the person responsible for delivering it to the intende=
+d addressee,<BR>you are hereby notified that reading, disseminating, distri=
+buting or copying this message is strictly<BR>prohibited. If you have recei=
+ved this message by mistake, please immediately notify us by<BR>replying to=
+ the message and delete the original message and any copies immediately the=
+reafter.<BR>
+<BR>
+If you received this email as a commercial message and would like to opt ou=
+t of future commercial <BR>
+messages, please let us know and we will remove you from our distribution l=
+ist.<BR>
+<BR>
+Thank you.~<BR>
+***************************************************************************=
+***************<BR>
+FAFLD<BR>
+</body>
+</html>
+
+--_000_6FB1183D6C562446941DF6B6CCAC93260148275E93fahqsna09sxmb_--
+
+--_009_6FB1183D6C562446941DF6B6CCAC93260148275E93fahqsna09sxmb_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=3089;
+	creation-date="Tue, 03 Jul 2018 19:43:20 GMT";
+	modification-date="Tue, 03 Jul 2018 19:43:20 GMT"
+Content-ID: <image001.png@01D412CB.6B3C6C10>
+Content-Transfer-Encoding: base64
+
+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
+AAAASUVORK5CYII=
+
+--_009_6FB1183D6C562446941DF6B6CCAC93260148275E93fahqsna09sxmb_
+Content-Type: image/png; name="image002.png"
+Content-Description: image002.png
+Content-Disposition: inline; filename="image002.png"; size=3131;
+	creation-date="Tue, 03 Jul 2018 19:43:20 GMT";
+	modification-date="Tue, 03 Jul 2018 19:43:20 GMT"
+Content-ID: <image002.png@01D412CB.6B3C6C10>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAAG4AAAA4CAMAAAArUj0jAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0
+MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+MC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+b3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+Ok9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMzgwMTE3NDA3MjA2ODExQkNCM0ZCRkQzMDRF
+NDYyMCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowMTM2ODMzNjM2RDQxMUU0QTNDRENCQjRB
+MTE3MDA0NSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyOTU3NUU1QTM2QzMxMUU0QTNDRENC
+QjRBMTE3MDA0NSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1LjEgTWFjaW50
+b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MkQ2QTZG
+MTczMTIwNjgxMTkxMDk4ODRERDMyQzY4MzgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDM4
+MDExNzQwNzIwNjgxMUJDQjNGQkZEMzA0RTQ2MjAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRm
+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
+
+--_009_6FB1183D6C562446941DF6B6CCAC93260148275E93fahqsna09sxmb_
+Content-Type: image/png; name="image003.png"
+Content-Description: image003.png
+Content-Disposition: inline; filename="image003.png"; size=3279;
+	creation-date="Tue, 03 Jul 2018 19:43:20 GMT";
+	modification-date="Tue, 03 Jul 2018 19:43:20 GMT"
+Content-ID: <image003.png@01D412CB.6B3C6C10>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAAG4AAAA4CAMAAAArUj0jAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0
+MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+MC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+b3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+Ok9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMzgwMTE3NDA3MjA2ODExQkNCM0ZCRkQzMDRF
+NDYyMCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGOEZFRjJEQzJENzUxMUU0QTNDRENCQjRB
+MTE3MDA0NSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGOEZFRjJEQjJENzUxMUU0QTNDRENC
+QjRBMTE3MDA0NSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1LjEgTWFjaW50
+b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MkQ2QTZG
+MTczMTIwNjgxMTkxMDk4ODRERDMyQzY4MzgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDM4
+MDExNzQwNzIwNjgxMUJDQjNGQkZEMzA0RTQ2MjAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRm
+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
+
+--_009_6FB1183D6C562446941DF6B6CCAC93260148275E93fahqsna09sxmb_
+Content-Type: image/png; name="image004.png"
+Content-Description: image004.png
+Content-Disposition: inline; filename="image004.png"; size=2944;
+	creation-date="Tue, 03 Jul 2018 19:43:20 GMT";
+	modification-date="Tue, 03 Jul 2018 19:43:20 GMT"
+Content-ID: <image004.png@01D412CB.6B3C6C10>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAAG4AAAA4CAMAAAArUj0jAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0
+MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+MC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+b3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+Ok9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMzgwMTE3NDA3MjA2ODExQkNCM0ZCRkQzMDRF
+NDYyMCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxMzFDNkM3OTJENzYxMUU0QTNDRENCQjRB
+MTE3MDA0NSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxMzFDNkM3ODJENzYxMUU0QTNDRENC
+QjRBMTE3MDA0NSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1LjEgTWFjaW50
+b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MkQ2QTZG
+MTczMTIwNjgxMTkxMDk4ODRERDMyQzY4MzgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDM4
+MDExNzQwNzIwNjgxMUJDQjNGQkZEMzA0RTQ2MjAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRm
+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
+
+--_009_6FB1183D6C562446941DF6B6CCAC93260148275E93fahqsna09sxmb_
+Content-Type: image/jpeg; name="image005.jpg"
+Content-Description: image005.jpg
+Content-Disposition: inline; filename="image005.jpg"; size=6133;
+	creation-date="Tue, 03 Jul 2018 19:43:20 GMT";
+	modification-date="Tue, 03 Jul 2018 19:43:20 GMT"
+Content-ID: <image005.jpg@01D412CB.6B3C6C10>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAQCAwMDAgQDAwMEBAQEBQkGBQUFBQsICAYJDQsNDQ0L
+DAwOEBQRDg8TDwwMEhgSExUWFxcXDhEZGxkWGhQWFxb/2wBDAQQEBAUFBQoGBgoWDwwPFhYWFhYW
+FhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhb/wAARCACCAIIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD4eFOX
+pSLTvagtgPpUirntSRjmpox7dKzchJBGuO1PXg0Edq2vA/h658Q6sLeL5YVOZpOyL3NZSkoq7NI0
+5SklEzrG0nvbpLa0geaaQ4REGSa6dPhz4mEYZrGTJHIGOPbrXYWen2ejzS/2JZTww2uBPeGLM0pP
+YZ4Qe/Wu4+GnizwvL/ouo2N+rbv9bI7hT75CkV5s8ZJv3FoetTy+CX7zc8B1jQNT0uQpeWksP++u
+KzthHBr668UeHfAmuWZj/tOSF5PuC4ztY+gfFeGfEz4fto7NPYuZYxnAxnj2I606eNTaUtCa2Bsr
+w1PNSMU1lDDmpzGwZtwxTCveu5SPPcGVpI1HQ81FIpzg1bYetRyJVqXcj1KbDBxTWFTspHBFRsuK
+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
+
+--_009_6FB1183D6C562446941DF6B6CCAC93260148275E93fahqsna09sxmb_
+Content-Type: image/png; name="image006.png"
+Content-Description: image006.png
+Content-Disposition: inline; filename="image006.png"; size=2548;
+	creation-date="Tue, 03 Jul 2018 19:43:20 GMT";
+	modification-date="Tue, 03 Jul 2018 19:43:20 GMT"
+Content-ID: <image006.png@01D412CB.6B3C6C10>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAAPoAAAAyCAMAAABCiTbWAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0
+MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIE1hY2ludG9zaCIgeG1wTU06SW5zdGFu
+Y2VJRD0ieG1wLmlpZDpFODdEMzE3MEYxNkIxMUUyQTgyOUFCRTE3NDZBOEZDNSIgeG1wTU06RG9j
+dW1lbnRJRD0ieG1wLmRpZDpFODdEMzE3MUYxNkIxMUUyQTgyOUFCRTE3NDZBOEZDNSI+IDx4bXBN
+TTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkU4N0QzMTZFRjE2QjExRTJB
+ODI5QUJFMTc0NkE4RkM1IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkU4N0QzMTZGRjE2QjEx
+RTJBODI5QUJFMTc0NkE4RkM1Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4
+bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+2go45wAAADNQTFRFTExM////eXl50tLS9PT0pqam
+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
+
+--_009_6FB1183D6C562446941DF6B6CCAC93260148275E93fahqsna09sxmb_--
+

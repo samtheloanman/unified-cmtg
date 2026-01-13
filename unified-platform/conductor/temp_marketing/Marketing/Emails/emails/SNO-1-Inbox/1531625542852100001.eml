@@ -1,0 +1,118 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of softlayer.com designates 173.192.119.25 as permitted sender) client-ip=173.192.119.25; envelope-from=noreply@softlayer.com; helo=mx.softlayer.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of softlayer.com designates 173.192.119.25 as permitted sender)  smtp.mailfrom=noreply@softlayer.com;
+	dmarc=pass(p=none dis=none)  header.from=softlayer.com
+Return-Path: <noreply@softlayer.com>
+Received: from mx.softlayer.com (mx.softlayer.com [173.192.119.25]) by mx.zohomail.com
+	with SMTPS id 1531625541045479.89100123646574; Sat, 14 Jul 2018 20:32:21 -0700 (PDT)
+Received: from txndal0101f.softlayer.local
+	by mx.softlayer.com with esmtp
+	(Exim)
+	(envelope-from <noreply@softlayer.com>)
+	for sam@c-mtg.com
+	id 1feXlk-0007iP-Ce; Sat, 14 Jul 2018 22:32:20 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=softlayer.com; s=ims13; h=Message-Id:MIME-Version:Content-Type:Date:From:
+	Subject:To; bh=hCjLMZVCyEsvMXJYEx/XnBJY5A//TkD8dWWn33WiayQ=; b=ntLPm2uLto2F2B
+	0wlTBqGPmOvKf8HP37dJmznyh1TBtPTwBfOzGmmSmW+Gcy2ZHBmiwik1TMveWN0E70P5KG9JbEmbd
+	IxgcS3wn/nvEspuVOzt5KLwvGbqEzrxbmRLQCokZMkqFQcXES87qzvrcDh55CMWVB3pt/Klrw/ezH
+	hEPfxGlOslRyuq/9GTPlQJlWFvX2qPbFuqbG4khgxDxH0vGVP53NjWPU1iYY3wxzkTrMsl8dbLqb6
+	yMnOnSO2WATfdbF4Xtt3Z6knoLv6fPoZyJZX6ZCaMBAOEqDOdEqZHsmiRzo6krKx77FT0Tg4R+cGS
+	diXymyIFOIxVzLgsfX4A==;
+To: sam@c-mtg.com
+Subject: [IBM Cloud Event] ID: 62021635 - Authentication failure on control.softlayer.com
+From: noreply@softlayer.com
+Date: Sat, 14 Jul 2018 22:32:20 -0500
+Content-Type: multipart/alternative;
+ boundary="=_a6cd7e79320426a8fb90d0e548de6b5a"
+MIME-Version: 1.0
+Message-ID:<E1feXlk-0007iP-Ce@mxdal0501.softlayer.local>
+X-ZohoMail-DKIM: pass (identity @softlayer.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_7 RF_0 S_167
+X-ZM-MESSAGEID: 1531625542852100001
+X-ZohoMail-Status: 1
+
+
+--=_a6cd7e79320426a8fb90d0e548de6b5a
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Customer Identification: Custom mtg (1395829)=0AStart Date: Saturday 14-=
+Jul-2018 22:21 UTC=0AEvent Type: Unplanned Event=0ASubject: Event 620216=
+35 - Authentication failure on control.softlayer.com=0A=0A=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=0A/ Latest Update /=0A- As of Su=
+nday 15-Jul-2018 03:25 UTC=0AThe issue has been fixed preventing login a=
+nd general usage of control.softlayer.com. We will be providing more det=
+ails in regards to the issues as we are able to.=0A=0A/ Items Associated=
+ With This Event /=0AItem ID | Hostname | Public IP | Private IP | Item=
+ Type=0A=0A=0A/ Update History /=0A- As of Sunday 15-Jul-2018 03:25 UTC=
+=0AThe issue has been fixed preventing login and general usage of contro=
+l.softlayer.com. We will be providing more details in regards to the iss=
+ues as we are able to.=0A=0A- As of Sunday 15-Jul-2018 00:35 UTC=0AStart=
+ing at 17:30 CDT customer logins for control.softlayer.com stopped worki=
+ng, engineers are in process of determining why customers are not able t=
+o login.  We will have service restored to affected customers as soon as=
+ possible.=0A=0A=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=0A=
+The times above are shown in UTC/GMT. Please visit http://www.timeanddat=
+e.com/worldclock/converter.html?iso=3D20180714T2220&p1=3D0 to convert st=
+art time of this event to your local time.=0A=0AIBM Cloud (formerly Soft=
+Layer) sent you this email because your contact address is linked to an=
+ account in our customer database. This email is used exclusively as our=
+ channel for notifying you about critical issues that may affect your se=
+rvice, and for important company news that could affect your business. =
+ You are receiving this note because the message above directly concerns=
+ one of your accounts. If you do not wish to receive these important not=
+ifications at this address, please update your contact information or no=
+tification subscriptions in the customer portal.=0A=0AIf you have receiv=
+ed this email in error, or you are concerned about suspicious activity c=
+oncerning your account, please contact accounting@softlayer.com.=0AIBM C=
+loud | 14001 North Dallas Tollway Suite M100 Dallas, TX 75240 | +1-866-3=
+25-0045
+
+--=_a6cd7e79320426a8fb90d0e548de6b5a
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<pre style=3D"white-space:pre-wrap">Customer Identification: Custom mtg=
+ (1395829)=0AStart Date: Saturday 14-Jul-2018 22:21 UTC=0AEvent Type: Un=
+planned Event=0ASubject: Event 62021635 - Authentication failure on cont=
+rol.softlayer.com=0A=0A=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=0A/ Latest Update /=0A- As of Sunday 15-Jul-2018 03:25 UTC=0AThe iss=
+ue has been fixed preventing login and general usage of control.softlaye=
+r.com. We will be providing more details in regards to the issues as we=
+ are able to.=0A=0A/ Items Associated With This Event /=0AItem ID | Host=
+name | Public IP | Private IP | Item Type=0A=0A=0A/ Update History /=0A-=
+ As of Sunday 15-Jul-2018 03:25 UTC=0AThe issue has been fixed preventin=
+g login and general usage of control.softlayer.com. We will be providing=
+ more details in regards to the issues as we are able to.=0A=0A- As of S=
+unday 15-Jul-2018 00:35 UTC=0AStarting at 17:30 CDT customer logins for=
+ control.softlayer.com stopped working, engineers are in process of dete=
+rmining why customers are not able to login.  We will have service resto=
+red to affected customers as soon as possible.=0A=0A=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=0AThe times above are shown in UTC/GMT=
+. Please visit http://www.timeanddate.com/worldclock/converter.html?iso=
+=3D20180714T2220&amp;p1=3D0 to convert start time of this event to your=
+ local time.=0A=0AIBM Cloud (formerly SoftLayer) sent you this email bec=
+ause your contact address is linked to an account in our customer databa=
+se. This email is used exclusively as our channel for notifying you abou=
+t critical issues that may affect your service, and for important compan=
+y news that could affect your business.  You are receiving this note bec=
+ause the message above directly concerns one of your accounts. If you do=
+ not wish to receive these important notifications at this address, plea=
+se update your contact information or notification subscriptions in the=
+ customer portal.=0A=0AIf you have received this email in error, or you=
+ are concerned about suspicious activity concerning your account, please=
+ contact accounting@softlayer.com.=0AIBM Cloud | 14001 North Dallas Toll=
+way Suite M100 Dallas, TX 75240 | +1-866-325-0045</pre>
+
+--=_a6cd7e79320426a8fb90d0e548de6b5a--

@@ -1,0 +1,351 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: none (zoho.com: 209.85.214.42 is neither permitted nor denied by domain of cressidacapital.com) client-ip=209.85.214.42; envelope-from=chrisc@cressidacapital.com; helo=mail-it0-f42.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=none (zoho.com: 209.85.214.42 is neither permitted nor denied by domain of cressidacapital.com)  smtp.mailfrom=chrisc@cressidacapital.com
+Return-Path: <chrisc@cressidacapital.com>
+Received: from mail-it0-f42.google.com (mail-it0-f42.google.com [209.85.214.42]) by mx.zohomail.com
+	with SMTPS id 1530311785796961.1355398347977; Fri, 29 Jun 2018 15:36:25 -0700 (PDT)
+Received: by mail-it0-f42.google.com with SMTP id o5-v6so3914077itc.1
+        for <sam@c-mtg.com>; Fri, 29 Jun 2018 15:36:25 -0700 (PDT)
+Received: by 2002:a4f:9c45:0:0:0:0:0 with HTTP; Fri, 29 Jun 2018 15:35:53
+ -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=cressidacapital-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=E6UMJd2kWZXWq6sdThMi+VZNQZymPVz7pMA4dyARqbI=;
+        b=udUAogkVokRm744zvtsHC42ik6Fvdo40b7IHH2fXPBNyMjUnLN84Vq1bPqKVMo2K5L
+         0Rqbs5ZsBoGo/BjrpGxsA/YesqV5yExLKeH85XQH0Yz0FpEQYwDXPAwtoNMVSQTbxJVd
+         VN7/v+VpqY7JMBnCrnhiD4nSBDfhB5Y205LQEyKIiaV8w/fulZ3WnztR0V2sRUuyDSFp
+         ZzxFY6PQavUP+HYn/T8eV9x9/eghGyDjQI1xaKTx7B1M6PBriLx+4lQ92Cuq8ECGzR2H
+         AYCKvbq6OzM36jjFLK/hwUiu0lMVwXVfHcKHNSdgLT1vvtbNV+U+2DuzJHF2DZwdxaNQ
+         3Drw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=E6UMJd2kWZXWq6sdThMi+VZNQZymPVz7pMA4dyARqbI=;
+        b=eZnUB4rhITVt+R8TTfUhtH3mwoPX95afGCgRfChXVO3zoczrpfGt2NaF7zHgcWGEte
+         1WZq9XsB6EABWH+64tE/Mq54mc4x1YRrHuVtCm/rCmiZYvdZZ0ywPH0aHoa8kNBcP4GW
+         H0XketQJoERs8VnkeebBagiqF9bZWodSxiqYHyD2ej1PRr/7Owe2cxwymrKO8fRsrD/B
+         1FoyN0f0AGkHorEMZZd9+8T8sHHMmrl3btkS2+hnB+EsMx7CBuYzw/UxN7tVTPL5TqKM
+         otZnduhyw1NpoPG4efJEQNgHJUVogyBwHLZF90Y+MKI0rxf1P5wLqp6o3/Xh1n+ojktA
+         gU8Q==
+X-Gm-Message-State: APt69E1DKinybnDXy+8EtC4Qa8aV5IbImSjncnF//JBTZnYjf0LCHCm5
+	o7rMJae+fq1rgwcatQxq7dZiO4uR+JJXiZzvDmIT6w==
+X-Google-Smtp-Source: AAOMgpfZjZ0OUi4+QLltlmqQiDRZsDBWO1QUJ1Qr+aidJaG8wTNDZ3B1nQ0TuAWQYdys5hUTRKEtnUyTyKJ2u1rhz3c=
+X-Received: by 2002:a24:7809:: with SMTP id p9-v6mr3177513itc.20.1530311784539;
+ Fri, 29 Jun 2018 15:36:24 -0700 (PDT)
+MIME-Version: 1.0
+In-Reply-To: <CAJVaXyjeJN7=neAa7BDoe-2UUmJTz11kZL0wTAYVrag0QjbGcg@mail.gmail.com>
+References: <1643e21261d.c646279773850.4240025824456540978@c-mtg.com>
+ <1643e2816e8.cf2d99b374601.1078215865878265529@c-mtg.com> <1643e28b5e6.105614ea174652.2488915382726770420@c-mtg.com>
+ <CAJVaXyjeJN7=neAa7BDoe-2UUmJTz11kZL0wTAYVrag0QjbGcg@mail.gmail.com>
+From: Chris Cleveland <chrisc@cressidacapital.com>
+Date: Fri, 29 Jun 2018 15:35:53 -0700
+Message-ID:<CANQ0evJjHuhNCx_XPvAuo8ZkSoxcjX535tMnCdX3p-3enm_WJA@mail.gmail.com>
+Subject: Re: New File: 1111 W Nolana ave
+To: sam@c-mtg.com
+Content-Type: multipart/alternative; boundary="000000000000503ed5056fcf7a04"
+X-ZohoMail-DKIM: pass (identity @cressidacapital-com.20150623.gappssmtp.com)
+X-ZohoMail-Owner: <CANQ0evJjHuhNCx_XPvAuo8ZkSoxcjX535tMnCdX3p-3enm_WJA@mail.gmail.com>+zmo_0_chrisc@cressidacapital.com
+X-ZohoMail: RDKM_0  RSF_4  Z_33125594 SPT_1 Z_33131583 SPT_1  PMF_LNK_RPT_GIP Ex_2 SS_5 IS_0 PIW IS_6 EML_0 DMN_0 EDR_100 COSF LNKP UNK_O_0 UNK_U_0 SIP_KGR_0 RPD_UN_0 PIS_DPR_KN_0 NAR_UD_0 ZMHF_701_2  SC_2 SGR3_1_2_0_166_817
+X-ZM-MESSAGEID: 1530311787114000001
+X-ZohoMail-Status: 1
+
+
+--000000000000503ed5056fcf7a04
+Content-Type: text/plain; charset="UTF-8"
+
+Sam,
+
+We are reviewing this and will loosely price something out for you soon
+based on the information provided.
+
+
+*[image: Connect with me on LinkedIn !!]**Chris Cleveland  *[image: Connect
+with me on LinkedIn!] <http://www.linkedin.com/in/cressidacapital>
+<http://www.cressidacapital.com>Commercial Real Estate & Business Financing
+*480.400.7106* |
+*chrisc@cressidacapital.com <chrisc@cressidacapital.com> *
+*____________________________________________________________________*
+
+<http://www.cressidadirect.com> <http://www.cressidadirect.com>
+<http://www.cressidadirect.com>
+
+*DISCLAIMER*: *We are not a broker or dealer or registered investment
+advisor under U.S. federal securities laws. * We do not provide investment
+or tax advice. We do not advise individuals regarding investing in,
+purchasing, or selling securities or other financial products or services.
+Nothing provided by our sites and services constitutes an offer or
+solicitation to buy or sell any security.  We provide services to
+businesses and individuals regarding private business & commercial real
+estate financing matters.
+
+*IMPORTANT LEGAL NOTICE*: This email letter (including any and all
+attachments) may contain CONFIDENTIAL and/or PRIVILEGED INFORMATION and is
+for the use of the intended recipient(s) only.  It is covered by the
+Electronic Communications Privacy Act, 18 U.S.C. Sections 2510-  2521. Upon
+receipt of this email & documents you, as the Recipient, hereby acknowledge
+this Warning & Disclaimer. These CONFIDENTIAL communications are protected
+under Gramm-Leach-Bailey Act 15 USC, Subchapter 1, sections 6801-6809 and
+other laws addressing the disclosure of Non-Public Personal Information.
+Please be aware that any disclosure, photo copying, distribution or use of
+the contents of this information is prohibited.
+
+<http://www.cressidacapital.com>
+
+<http://www.cressidacapital.com>
+<http://www.linkedin.com/in/cressidacapital>
+<http://www.cressidacapital.com>
+
+<http://www.cressidacapital.com>
+<http://www.linkedin.com/in/cressidacapital>
+
+<http://www.cressidacapital.com>
+
+
+
+
+> Hi Dean
+>
+> I have a deal in TX that is a commercial office building.
+>
+> Can you advise what terms would look like on this scenario:
+>
+> - Cash out Refinance
+> - Loan Amount: 915,000
+> - Value: 1,850,000
+> - Office building with 12 units - 1 occupied by borrower
+> - $5,150 in rental income per month from 11 units - property does not debt
+> service above 1
+> - Current debt (Hard Money): 815,000 with 10k per month payment borrower
+> is looking to reduce
+> - Credit 620 (only revolving debt maxed out, no derogatory items)
+> - Borrower Schedule of RE is 3 million + with only 815k in debt.
+>
+> Borrower does make good money as an attorney so can we do a stated deal or
+> use a global income for debt service.
+>
+> Please advise, thank you
+>
+> Thank you
+>
+>
+> Respectfully,
+>
+>
+> Sam Tehranchi
+>
+> *Custom Mortgage and Realty*
+>
+> COO
+>
+> NMLS CA # 1556995 - BRE CA # 02018146
+>
+>
+> D: 310.709.6304 - F: 866.421.7694
+>
+> sam@c-mtg.com - www.c-mtg.com
+>
+>
+> LinkedIn <https://www.linkedin.com/company-beta/3477964> - Facebook
+> <https://www.facebook.com/Custom-Mortgage-409842885783868/> - twitter
+> <https://twitter.com/custommortgage1> - Instagram
+> <https://www.instagram.com/custommortgageinc/>
+>
+>
+>
+>
+>
+>
+
+--000000000000503ed5056fcf7a04
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Sam,<br><br></div>We are reviewing this and will loos=
+ely price something out for you soon based on the information provided.<br>=
+<div class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_signa=
+ture" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"=
+ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div=
+><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=
+=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr">=
+<div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div=
+ dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"l=
+tr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div>=
+<div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=
+=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr">=
+<div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div=
+ dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"l=
+tr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div>=
+<div dir=3D"ltr"><div><div dir=3D"ltr"><p>
+
+</p><p><b><span style=3D"font-size:10.0pt;font-family:Arial;color:#3a3a3a">=
+<img src=3D"https://docs.google.com/uc?export=3Ddownload&amp;id=3D0B8a6O7Zv=
+0KZUQjRSZHVJZWRzRm8&amp;revid=3D0B8a6O7Zv0KZUKzNwWHROekFYWDNWMEp2UDkwOGNlak=
+RyWEhrPQ" alt=3D" Connect with me on LinkedIn !!"><br></span></b><b><span s=
+tyle=3D"font-size:10.0pt;font-family:Arial;color:#3a3a3a"><font size=3D"2">=
+Chris Cleveland</font>=C2=A0 </span></b><span><span><span><a href=3D"http:/=
+/www.linkedin.com/in/cressidacapital" target=3D"_blank"><span style=3D"colo=
+r:rgb(243,243,243)"><img src=3D"https://docs.google.com/uc?export=3Ddownloa=
+d&amp;id=3D0B8a6O7Zv0KZUOVZkVkwxR3JTODg&amp;revid=3D0B8a6O7Zv0KZURVdDWWRFc1=
+ZMb2hQWnR2N2xoTmtUQU5pcUY0PQ" alt=3D" Connect with me on LinkedIn!" width=
+=3D"56" height=3D"13"></span></a></span></span></span><br><span><a href=3D"=
+http://www.cressidacapital.com" target=3D"_blank"><span><span><span></span>=
+</span></span></a></span><span style=3D"font-size:8.0pt;font-family:Arial;c=
+olor:#3a3a3a">Commercial
+Real Estate &amp; Business Financing<br></span><span style=3D"color:rgb(19,=
+79,92)"><b><span style=3D"font-size:8.0pt;font-family:Arial">480.400.7106</=
+span></b></span><span style=3D"font-size:8.0pt;font-family:Arial"><span sty=
+le=3D"color:rgb(19,79,92)"> |=20
+</span><b><span style=3D"color:rgb(19,79,92)"><a href=3D"mailto:chrisc@cres=
+sidacapital.com" title=3D"mailto:chrisc@cressidacapital.com" target=3D"_bla=
+nk">chrisc@cressidacapital.com</a></span><br>
+</b></span><span><b><span style=3D"font-size:5.0pt;font-family:Arial;color:=
+#3a3a3a"><span style=3D"color:rgb(204,204,204)">___________________________=
+_________________________________________</span><br></span></b></span><b><s=
+pan style=3D"font-size:8.0pt;font-family:Arial;color:#3a3a3a"></span></b></=
+p><p><a href=3D"http://www.cressidadirect.com" target=3D"_blank"><span><spa=
+n style=3D"font-size:10.0pt;font-family:Arial;color:#3a3a3a"></span><b><spa=
+n style=3D"font-size:10.0pt;font-family:Arial;color:#3a3a3a"></span></b></s=
+pan><span></span></a><a href=3D"http://www.cressidadirect.com" target=3D"_b=
+lank"><span><b><span style=3D"font-size:10.0pt;font-family:Arial;color:#3a3=
+a3a"><img src=3D"https://docs.google.com/uc?export=3Ddownload&amp;id=3D1x52=
+ZaXtSulNDGovfGfvhPyYESnjBIiVW&amp;revid=3D0B8a6O7Zv0KZUd1NVeWR1UldCQ1NCOVh2=
+WkFrQ3QyaXcrQ0xJPQ" width=3D"93" height=3D"49"></span></b></span></a><span>=
+<b><span style=3D"font-size:10.0pt;font-family:Arial;color:#3a3a3a"> </span=
+></b></span><span><a href=3D"http://www.cressidadirect.com" target=3D"_blan=
+k"><span><b><span style=3D"font-size:10.0pt;font-family:Arial;color:#3a3a3a=
+"><img src=3D"https://docs.google.com/uc?export=3Ddownload&amp;id=3D0B8a6O7=
+Zv0KZUN2Q3RWNTclZXcTA&amp;revid=3D0B8a6O7Zv0KZUdzkvN3NmemlTYlBseW8wZklnOGU3=
+N09MSE53PQ" alt=3D"" width=3D"136" height=3D"39"></span></b></span></a></sp=
+an><span><b><span style=3D"font-size:10.0pt;font-family:Arial;color:#3a3a3a=
+"></span></b></span></p>
+
+<p><span style=3D"color:silver;text-transform:uppercase"></span>
+
+</p><p><span style=3D"font-size:7.0pt;font-family:Arial;color:silver;text-t=
+ransform:uppercase"></span><b><span style=3D"font-size:7.0pt;font-family:Ar=
+ial;color:silver"><span>DISCLAIMER</span></span></b><span style=3D"font-siz=
+e:7.0pt;font-family:Arial;color:silver">:<span> <b>We are not a
+broker or dealer or registered investment advisor under U.S. federal
+securities laws.=C2=A0</b> We do not provide investment or tax advice.
+We do not advise individuals regarding investing in, purchasing,
+or selling securities or other financial products or services. Nothing prov=
+ided
+by our sites and services constitutes an offer or solicitation to buy or se=
+ll
+any security.=C2=A0 We provide services to
+businesses and individuals regarding private business &amp; commercial real
+estate financing matters.</span></span></p>
+
+<p><span style=3D"font-size:7.0pt;font-family:Arial;color:silver"></span><b=
+><span style=3D"font-size:7.0pt;font-family:Arial;color:silver">IMPORTANT L=
+EGAL NOTICE</span></b><span style=3D"font-size:7.0pt;font-family:Arial;colo=
+r:silver">:
+This email letter (including any and all attachments) may contain CONFIDENT=
+IAL
+and/or PRIVILEGED INFORMATION and is for the use of the intended recipient(=
+s)
+only.=C2=A0 It is covered by the Electronic Communications Privacy Act, 18
+U.S.C. Sections 2510-=C2=A0 2521. Upon receipt of this email &amp; document=
+s
+you, as the Recipient, hereby acknowledge this Warning &amp; Disclaimer. Th=
+ese
+CONFIDENTIAL communications are protected under Gramm-Leach-Bailey Act 15 U=
+SC,
+Subchapter 1, sections 6801-6809 and other laws addressing the disclosure o=
+f
+Non-Public Personal Information. Please be aware that any disclosure, photo
+copying, distribution or use of the contents of this information is prohibi=
+ted</span><span style=3D"font-size:7.5pt;font-family:Helvetica;color:black"=
+>.</span></p><p><span style=3D"font-size:7.0pt;font-family:Arial;color:silv=
+er"></span><font size=3D"1" color=3D"silver" face=3D"Arial"><span style=3D"=
+FONT-SIZE:7pt;FONT-FAMILY:Arial;COLOR:silver"></span></font><a href=3D"http=
+://www.cressidacapital.com" target=3D"_blank"><span><b><span style=3D"font-=
+size:10.0pt;font-family:Arial;color:#3a3a3a"></span></b></span><span style=
+=3D"color:rgb(243,243,243)"></span></a></p><p><a href=3D"http://www.cressid=
+acapital.com" target=3D"_blank"><span><b><span style=3D"font-size:10.0pt;fo=
+nt-family:Arial;color:#3a3a3a"></span></b></span><span><span><span><span></=
+span></span></span></span></a><a href=3D"http://www.linkedin.com/in/cressid=
+acapital" target=3D"_blank"><span></span></a><a href=3D"http://www.cressida=
+capital.com" target=3D"_blank"><span></span></a></p><p><a href=3D"http://ww=
+w.cressidacapital.com" target=3D"_blank"><span><span><span><span></span></s=
+pan></span></span></a><a href=3D"http://www.linkedin.com/in/cressidacapital=
+" target=3D"_blank"></a><span><b><span style=3D"font-size:10.0pt;font-famil=
+y:Arial;color:#3a3a3a"> </span></b></span><span><span><span></span></span><=
+/span></p><p><a href=3D"http://www.cressidacapital.com" target=3D"_blank"><=
+span><b><span style=3D"font-size:10.0pt;font-family:Arial;color:#3a3a3a"></=
+span></b></span></a></p><p></p>
+
+<p><img alt=3D""><b><span style=3D"font-size:8.0pt;font-family:Arial;color:=
+#3a3a3a"></span></b></p><p></p></div></div></div></div></div></div></div></=
+div></div></div></div></div></div></div></div></div></div></div></div></div=
+></div></div></div></div></div></div></div></div></div></div></div></div></=
+div></div></div></div></div></div></div></div></div></div></div></div></div=
+></div></div></div></div></div></div></div></div></div></div></div></div></=
+div></div></div></div></div></div></div></div></div></div></div></div></div=
+></div></div></div></div></div></div></div></div></div></div></div></div></=
+div>
+<br><div class=3D"gmail_quote"><br><blockquote class=3D"gmail_quote" style=
+=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div cla=
+ss=3D"gmail_quote"><br><u></u><div><div style=3D"font-size:10pt;font-family=
+:Verdana,Arial,Helvetica,sans-serif"><div>Hi Dean</div><div><br></div><div =
+class=3D"m_-6931810733709963661m_6893756794036162190zmail_extra"><blockquot=
+e style=3D"border-left:1px solid #cccccc;padding-left:6px;margin:0 0 0 5px"=
+><div><div style=3D"font-size:10pt;font-family:Verdana,Arial,Helvetica,sans=
+-serif"><div class=3D"m_-6931810733709963661m_6893756794036162190x_45070808=
+0zmail_extra"><blockquote style=3D"border-left:1px solid rgb(204,204,204);p=
+adding-left:6px;margin:0 0 0 5px"><div><div style=3D"font-size:10pt;font-fa=
+mily:Verdana,Arial,Helvetica,sans-serif"><div>I have a deal in TX that is a=
+ commercial office building.<br></div><div><br></div><div>Can you advise wh=
+at terms would look like on this scenario:<br></div><div><br></div><div>- C=
+ash out Refinance<br></div><div>- Loan Amount: 915,000<br></div><div>- Valu=
+e: 1,850,000<br></div><div>- Office building with 12 units - 1 occupied by =
+borrower<br></div><div>- $5,150 in rental income per month from 11 units - =
+property does not debt service above 1<br></div><div>- Current debt (Hard M=
+oney): 815,000 with 10k per month payment borrower is looking to reduce<br>=
+</div><div>- Credit 620 (only revolving debt maxed out, no derogatory items=
+)<br></div><div>- Borrower Schedule of RE is 3 million + with only 815k in =
+debt.<br></div><div><br></div><div>Borrower does make good money as an atto=
+rney so can we do a stated deal or use a global income for debt service.<br=
+></div><div><br></div><div>Please advise, thank you<br></div><div><br></div=
+><div id=3D"m_-6931810733709963661m_6893756794036162190"><p>Thank you<br></=
+p><p><br></p><p>Respectfully,<br></p><p><br></p><p>Sam Tehranchi<span class=
+=3D"m_-6931810733709963661m_6893756794036162190size" style=3D"font-size:x-s=
+mall"></span><br></p><p><b>Custom Mortgage and Realty</b><br></p><p><span c=
+lass=3D"m_-6931810733709963661m_6893756794036162190size" style=3D"font-size=
+:x-small">COO</span><br></p><p><span class=3D"m_-6931810733709963661m_68937=
+56794036162190size" style=3D"font-size:10px">NMLS CA # 1556995 - BRE CA # 0=
+2018146</span><br></p><p><br></p><p><span>D:=C2=A0</span>310.709.6304<span>=
+ - F:=C2=A0</span>866.421.7694<br></p><p><a href=3D"mailto:sam@c-mtg.com" r=
+el=3D"noreferrer" target=3D"_blank">sam@c-mtg.com</a><span>=C2=A0-=C2=A0<sp=
+an><a href=3D"http://www.c-mtg.com" rel=3D"noreferrer" target=3D"_blank">ww=
+w.c-mtg.com</a></span></span><br></p><p><span></span><br></p><p><span><a hr=
+ef=3D"https://www.linkedin.com/company-beta/3477964" style=3D"font-family:H=
+elvetica;font-size:12px" rel=3D"noreferrer" target=3D"_blank">LinkedIn</a><=
+span class=3D"m_-6931810733709963661m_6893756794036162190colour" style=3D"c=
+olor:rgb(0,0,0)"><span class=3D"m_-6931810733709963661m_6893756794036162190=
+font" style=3D"font-family:Helvetica"><span class=3D"m_-6931810733709963661=
+m_6893756794036162190size" style=3D"font-size:12px">=C2=A0-=C2=A0</span></s=
+pan></span><a href=3D"https://www.facebook.com/Custom-Mortgage-409842885783=
+868/" style=3D"font-family:Helvetica;font-size:12px" rel=3D"noreferrer" tar=
+get=3D"_blank">Facebook</a><span class=3D"m_-6931810733709963661m_689375679=
+4036162190colour" style=3D"color:rgb(0,0,0)"><span class=3D"m_-693181073370=
+9963661m_6893756794036162190font" style=3D"font-family:Helvetica"><span cla=
+ss=3D"m_-6931810733709963661m_6893756794036162190size" style=3D"font-size:1=
+2px">=C2=A0-=C2=A0</span></span></span><a href=3D"https://twitter.com/custo=
+mmortgage1" style=3D"font-family:Helvetica;font-size:12px" rel=3D"noreferre=
+r" target=3D"_blank">twitter</a><span class=3D"m_-6931810733709963661m_6893=
+756794036162190colour" style=3D"color:rgb(0,0,0)"><span class=3D"m_-6931810=
+733709963661m_6893756794036162190font" style=3D"font-family:Helvetica"><spa=
+n class=3D"m_-6931810733709963661m_6893756794036162190size" style=3D"font-s=
+ize:12px">=C2=A0<wbr>-=C2=A0</span></span></span><a href=3D"https://www.ins=
+tagram.com/custommortgageinc/" style=3D"font-family:Helvetica;font-size:12p=
+x" rel=3D"noreferrer" target=3D"_blank">Instagram</a></span><br></p><div><b=
+r></div></div><div><br></div></div></div></blockquote></div><div><br></div>=
+</div></div></blockquote></div><div><br></div></div><br></div></div>
+</blockquote></div><br></div></div>
+
+--000000000000503ed5056fcf7a04--

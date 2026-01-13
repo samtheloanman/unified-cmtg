@@ -1,0 +1,461 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 209.85.218.46 as permitted sender) client-ip=209.85.218.46; envelope-from=m.d.murray2010@gmail.com; helo=mail-oi0-f46.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 209.85.218.46 as permitted sender)  smtp.mailfrom=m.d.murray2010@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Return-Path: <m.d.murray2010@gmail.com>
+Received: from mail-oi0-f46.google.com (mail-oi0-f46.google.com [209.85.218.46]) by mx.zohomail.com
+	with SMTPS id 1531933203741647.23061618622; Wed, 18 Jul 2018 10:00:03 -0700 (PDT)
+Received: by mail-oi0-f46.google.com with SMTP id d189-v6so10106287oib.6
+        for <sam@c-mtg.com>; Wed, 18 Jul 2018 10:00:03 -0700 (PDT)
+Received: by 2002:ac9:104d:0:0:0:0:0 with HTTP; Wed, 18 Jul 2018 10:00:01
+ -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :cc;
+        bh=B+g1iFeyOcDqkrxqCrdKkEP+++O7mH75xMGCavRJLrI=;
+        b=R8IgehOsnqXm6VeMAztMzN24GKFvNwOS5hvEfkHqfGtvHydRJHzSZoclJa+kSaNEcW
+         FuMn6gMySiaBLs04mWjM6tE5T7sP9pj3fpkeqKatglzM2SqXwR/aPmlXmnFAwvTMpNFs
+         0c4Wd+J1Z/hDNM456FEBsRhsC+6TbsAPJmSrcLTEfNVQYsnYWHE5/N352PSQgnLMUxo8
+         IKJ5oanLHL2xPvPNnxZq7qXka+XHYbms8pCSa4FTIQ0M22dZQaRAi6JaEFqbX5YPUcBJ
+         Bqf8zPaelPlfAEFO2kEzwS2rboLD99WnR8qvlOdBI0Xr+1lFKDwJZpVLlUQGK8HodYlE
+         mF0g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to:cc;
+        bh=B+g1iFeyOcDqkrxqCrdKkEP+++O7mH75xMGCavRJLrI=;
+        b=pZxzHBt5PAEvQL7JsHQeIIr6KC42xOGQhcIesU+KqVZrvckh2J0buRbrdExj61tl1U
+         ICxXXdE9GFf22l1s+gKAC2hFtJkj9JRKQwYo1rPF9U/8bEHfpcRwK0+dIXGSr2uwdntm
+         uDjUq0CRDZDtD9ZX3jQzzMUBKx410PcsvNNZ8kEl5sKuwX3umZ25H7/hdXC/oxok+LMc
+         R+XHPwWnGi1iEowY3f0/w4kiSLYWxhNw6RD13sjpkDME5J4CRmRa4kn+kYgzXhSEXifP
+         QUHUdbexlC00UugFowwDkdIsokYwxU8ktHyTSMEm/LzYsfF3FUNuAmgU94IvvHXW1gEc
+         ZT/g==
+X-Gm-Message-State: AOUpUlE6g53mSJl6qEBMnkH5xk8dgoK97NpHLJT+JCVgQYOLWG2JTmvC
+	KBHcwZuDgzPzPWB7o5nVMgWC4UVApcmIxyp1NtuwOw==
+X-Google-Smtp-Source: AAOMgpesqU48TjZoR47De/Bg0u2EJk4fQMA2IYRoUTLkUQXkeCCqFvvPI0PPywjYmRZHwRiwbstJl5oRnsPWGs+ir8U=
+X-Received: by 2002:aca:4c14:: with SMTP id z20-v6mr6681103oia.164.1531933202496;
+ Wed, 18 Jul 2018 10:00:02 -0700 (PDT)
+MIME-Version: 1.0
+In-Reply-To: <EA45C479-642E-4B82-A543-47C3252F520F@c-mtg.com>
+References: <CAL6-T4uLKfRhxfTAabZ=nip8PWvMFy62tnT8zgPYs5Q1_EN05A@mail.gmail.com>
+ <B84FC63B-F7E0-4714-AE63-7DFD2F1DE4A4@gmail.com> <CAL6-T4tKUN_FHgPoFAtb642AjxGpHKm23Cprf4EHSgJtB2COPg@mail.gmail.com>
+ <B7C88EAC-A4F6-4510-B22A-3E7BA219B5A7@gmail.com> <EA45C479-642E-4B82-A543-47C3252F520F@c-mtg.com>
+From: Michael Murray <m.d.murray2010@gmail.com>
+Date: Wed, 18 Jul 2018 10:00:01 -0700
+Message-ID:<CAL6-T4t4i7ma26E1sCWZAHkdhbCQu25MQcfn_WhAza+a-xMqbA@mail.gmail.com>
+Subject: Re: Clymer
+To: Sam Tehranchi <sam@c-mtg.com>
+Cc: Hampton Group <hampton90210@gmail.com>, "George H." <geolrp@gmail.com>
+Content-Type: multipart/alternative; boundary="0000000000005ac808057148fef8"
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_167 FRD_DI SPK
+X-ZM-MESSAGEID: 1531933203950100001
+X-ZohoMail-Status: 1
+
+
+--0000000000005ac808057148fef8
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Gentlemen,
+Are the both of you kidding me - MORE STATEMENTS? This is insane;
+absolutely, INSANE! Give ME something in writing (other than these emails)
+then, and only then, I MIGHT consider moving forward. I should have
+listened my instincts and listed this house months ago.
+
+Best Regards,
+Michael D. Murray
+
+*CONFIDENTIALITY NOTICE*: This e-mail transmission, and any documents,
+files or previous e-mail messages attached to it may contain confidential
+information that is legally privileged. If you are not the intended
+recipient, or a person responsible for delivering it to the intended
+recipient, you are hereby notified that any disclosure, copying,
+distribution or use of any of the information contained in or attached to
+this transmission is STRICTLY PROHIBITED. If you have received this
+transmission in error, please immediately notify the sender. Please destroy
+the original transmission and its attachments without reading or saving in
+any manner. Thank you.
+
+On Wed, Jul 18, 2018 at 9:46 AM, Sam Tehranchi <sam@c-mtg.com> wrote:
+
+> Hi Mike and Todd
+>
+> We are have a pretty good package but the missing items are the following=
+:
+>
+> 1. Additional assets for reserves - We have the business bank statements.
+> Now we need 2 months of additional assets to include personal bank
+> accounts, investments accounts, any and all liquid assets to show for
+> reserves.  This will help speed along the file, due to the large loan
+> amount, we need to show about 500k+ in reserves.
+>
+> 2. Canceled check for the current mortgage on property with FCI Mortgage.
+> Due to the erroneous NOD filed, we have to provide all the evidence
+> regarding all the payments being made on time.  In order to get the best
+> rate and terms, we cannot have any mortgage lates on any of the mortgages=
+.
+>
+> If you can please set up a conference call with the borrower, we can
+> address any concerns and exceptions of the borrower in order to have the
+> file funding without any surprises.
+>
+> Please let me know if you have any questions.  Thank you
+>
+> Respectfully,
+>
+>
+> Sam Tehranchi
+>
+>
+> COO
+> Custom Mortgage and Realty
+> NMLS CA # 1556995 - BRE CA # 02018146
+>
+> Direct 310.709.6304 -Efax 866.421.7694
+>
+> sam@c-mtg.com - www.c-mtg.com
+>
+> LinkedIn <https://www.linkedin.com/company-beta/3477964> - Facebook
+> <https://www.facebook.com/Custom-Mortgage-409842885783868/> - twitter
+> <https://twitter.com/custommortgage1> - Instagram
+> <https://www.instagram.com/custommortgageinc/>
+>
+>
+> On Jul 18, 2018, at 9:36 AM, Hampton Group <hampton90210@gmail.com> wrote=
+:
+>
+> Hi Mike,
+>
+> I am copying Sam who will be finalizing underwriting for Ben. Sam, please
+> confirm anything that is needed to complete the Coldwater / Ben Clymer lo=
+an?
+>
+> Thank you.
+>
+>
+> Best Wishes,
+>
+>
+> Todd Snyder
+> Financial Consulting, Global Project Funding
+> Founder, Hampton Group
+> Skylar Pacific Capital Inc.
+> hampton90210@gmail.com
+> +310-210-2023
+>
+>
+> *** CONFIDENTIALITY NOTICE DISCLAIMER: Sender is not a United States
+> Securities Dealer or Broker or U.S. Investment Adviser. Sender is a
+> Private consultant and Introductory Service Provider for borrowers and/or
+> clients to the various contacts that suit their business needs at their
+> request. Sender does not provide any funding, bank instruments, bank
+> guarantees or other financial instruments or commitments of any kind. Thi=
+s
+> E-mail letter and the attached related documents are never to be consider=
+ed
+> a solicitation for any purpose in any form or content. This communication
+> (including any attachments) is covered information in this email is cover=
+ed
+> by the Electronic Communications Privacy Act, 18 U.S.C. =C2=A7=C2=A7 2510=
+-2521 and is
+> legally privileged. It contains information sent by The Hampton Group and
+> is confidential and is intended solely for the addressee. The information
+> contained herein may be privileged, confidential, and exempt
+> from disclosure under applicable law. Access to this email by anyone else
+> is unauthorized. If you are not the intended recipient, any disclosure,
+> copying, distribution, dissemination, or any other improper action taken,
+> or omitted to be taken in reliance on it, is strictly prohibited. If this
+> transmission is received in error, please notify Todd Snyder immediately =
+at
+> (310)210-2023 and please delete the email from your computer.
+>
+> On Jul 11, 2018, at 10:48 PM, Michael Murray <m.d.murray2010@gmail.com>
+> wrote:
+>
+> anything else needed at this time?
+>
+>
+> Best Regards,
+> Michael D. Murray
+>
+> *CONFIDENTIALITY NOTICE*: This e-mail transmission, and any documents,
+> files or previous e-mail messages attached to it may contain confidential
+> information that is legally privileged. If you are not the intended
+> recipient, or a person responsible for delivering it to the intended
+> recipient, you are hereby notified that any disclosure, copying,
+> distribution or use of any of the information contained in or attached to
+> this transmission is STRICTLY PROHIBITED. If you have received this
+> transmission in error, please immediately notify the sender. Please destr=
+oy
+> the original transmission and its attachments without reading or saving i=
+n
+> any manner. Thank you.
+>
+> On Wed, Jul 11, 2018 at 10:45 PM, Hampton Group <hampton90210@gmail.com>
+> wrote:
+>
+>> Thank you
+>>
+>> Best Wishes,
+>>
+>>
+>> Todd Snyder
+>> Financial Consulting, Global Project Funding
+>> Founder, Hampton Group
+>> Skylar Pacific Capital Inc.
+>> hampton90210@gmail.com
+>> +310-210-2023
+>>
+>>
+>> *** CONFIDENTIALITY NOTICE DISCLAIMER: Sender is not a United States
+>> Securities Dealer or Broker or U.S. Investment Adviser. Sender is a
+>> Private consultant and Introductory Service Provider for borrowers and/o=
+r
+>> clients to the various contacts that suit their business needs at their
+>> request. Sender does not provide any funding, bank instruments, bank
+>> guarantees or other financial instruments or commitments of any kind. Th=
+is
+>> E-mail letter and the attached related documents are never to be conside=
+red
+>> a solicitation for any purpose in any form or content. This communicatio=
+n
+>> (including any attachments) is covered information in this email is cove=
+red
+>> by the Electronic Communications Privacy Act, 18 U.S.C. =C2=A7=C2=A7 251=
+0-2521 and is
+>> legally privileged. It contains information sent by The Hampton Group an=
+d
+>> is confidential and is intended solely for the addressee. The informatio=
+n
+>> contained herein may be privileged, confidential, and exempt
+>> from disclosure under applicable law. Access to this email by anyone els=
+e
+>> is unauthorized. If you are not the intended recipient, any disclosure,
+>> copying, distribution, dissemination, or any other improper action taken=
+,
+>> or omitted to be taken in reliance on it, is strictly prohibited. If thi=
+s
+>> transmission is received in error, please notify Todd Snyder immediately=
+ at
+>> (310)210-2023 and please delete the email from your computer.
+>>
+>> On Jul 11, 2018, at 10:43 PM, Michael Murray <m.d.murray2010@gmail.com>
+>> wrote:
+>>
+>> Todd,
+>> See attached.
+>> Best Regards,
+>> Michael D. Murray
+>>
+>> *CONFIDENTIALITY NOTICE*: This e-mail transmission, and any documents,
+>> files or previous e-mail messages attached to it may contain confidentia=
+l
+>> information that is legally privileged. If you are not the intended
+>> recipient, or a person responsible for delivering it to the intended
+>> recipient, you are hereby notified that any disclosure, copying,
+>> distribution or use of any of the information contained in or attached t=
+o
+>> this transmission is STRICTLY PROHIBITED. If you have received this
+>> transmission in error, please immediately notify the sender. Please dest=
+roy
+>> the original transmission and its attachments without reading or saving =
+in
+>> any manner. Thank you.
+>> <CLYMER .pdf>
+>>
+>>
+>>
+>
+>
+>
+
+--0000000000005ac808057148fef8
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Gentlemen,=C2=A0</div>Are the both of you kidding me =
+-=C2=A0MORE STATEMENTS? This is insane; absolutely, INSANE! Give ME somethi=
+ng in writing (other than these emails) then, and only then, I MIGHT consid=
+er moving forward. I should have listened my instincts and listed this hous=
+e months ago.=C2=A0<div class=3D"gmail_extra"><br clear=3D"all"><div><div c=
+lass=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr=
+"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr">Best Re=
+gards,<div>Michael D. Murray</div><div><br></div><div><font color=3D"#00000=
+0" face=3D"arial, helvetica, sans-serif"><b style=3D"font-size:16px"><span =
+style=3D"font-size:7.5pt">CONFIDENTIALITY NOTICE</span></b><span style=3D"f=
+ont-size:7.5pt">: This e-mail transmission, and any documents, files or pre=
+vious e-mail messages attached to it may contain confidential information t=
+hat is legally privileged. If you are not the intended recipient, or a pers=
+on responsible for delivering it to the intended recipient, you are hereby =
+notified that any disclosure, copying, distribution or use of any of the in=
+formation contained in or attached to this transmission is STRICTLY PROHIBI=
+TED. If you have received this transmission in error, please immediately no=
+tify the sender. Please destroy the original transmission and its attachmen=
+ts without reading or saving in any manner. Thank you.</span></font><br></d=
+iv></div></div></div></div></div></div></div></div></div>
+<br><div class=3D"gmail_quote">On Wed, Jul 18, 2018 at 9:46 AM, Sam Tehranc=
+hi <span dir=3D"ltr">&lt;<a href=3D"mailto:sam@c-mtg.com" target=3D"_blank"=
+>sam@c-mtg.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" s=
+tyle=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div=
+ style=3D"word-wrap:break-word;line-break:after-white-space">Hi Mike and To=
+dd<div><br></div><div>We are have a pretty good package but the missing ite=
+ms are the following:</div><div><br></div><div>1. Additional assets for res=
+erves - We have the business bank statements.=C2=A0 Now we need 2 months of=
+ additional assets to include personal bank accounts, investments accounts,=
+ any and all liquid assets to show for reserves.=C2=A0 This will help speed=
+ along the file, due to the large loan amount, we need to show about 500k+ =
+in reserves.</div><div><br></div><div>2. Canceled check for the current mor=
+tgage on property with FCI Mortgage.=C2=A0 Due to the erroneous NOD filed, =
+we have to provide all the evidence regarding all the payments being made o=
+n time.=C2=A0 In order to get the best rate and terms, we cannot have any m=
+ortgage lates on any of the mortgages.</div><div><br></div><div>If you can =
+please set up a conference call with the borrower, we can address any conce=
+rns and exceptions of the borrower in order to have the file funding withou=
+t any surprises.</div><div><br></div><div>Please let me know if you have an=
+y questions.=C2=A0 Thank you</div><div><br><div>
+<div dir=3D"auto" style=3D"color:rgb(0,0,0);letter-spacing:normal;text-alig=
+n:start;text-indent:0px;text-transform:none;white-space:normal;word-spacing=
+:0px;text-decoration:none;word-wrap:break-word;line-break:after-white-space=
+"><div dir=3D"auto" style=3D"color:rgb(0,0,0);letter-spacing:normal;text-al=
+ign:start;text-indent:0px;text-transform:none;white-space:normal;word-spaci=
+ng:0px;word-wrap:break-word;line-break:after-white-space">Respectfully, =C2=
+=A0=C2=A0<br><br>=C2=A0<br>Sam Tehranchi<br><br>=C2=A0<br>COO<br>Custom Mor=
+tgage and Realty=C2=A0<br>NMLS CA # 1556995 - BRE CA #=C2=A002018146<br>=C2=
+=A0<br>Direct 310.709.6304 -Efax 866.421.7694=C2=A0<br><br><a href=3D"mailt=
+o:sam@c-mtg.com" target=3D"_blank">sam@c-mtg.com</a>=C2=A0-=C2=A0<a href=3D=
+"http://www.c-mtg.com" target=3D"_blank">www.c-mtg.com</a><br><br><a href=
+=3D"https://www.linkedin.com/company-beta/3477964" target=3D"_blank">Linked=
+In</a>=C2=A0-=C2=A0<a href=3D"https://www.facebook.com/Custom-Mortgage-4098=
+42885783868/" target=3D"_blank">Facebook</a>=C2=A0-=C2=A0<a href=3D"https:/=
+/twitter.com/custommortgage1" target=3D"_blank">twitter</a>=C2=A0<wbr>-=C2=
+=A0<a href=3D"https://www.instagram.com/custommortgageinc/" target=3D"_blan=
+k">Instagram</a><br><br></div></div>
+</div><div><div class=3D"h5">
+<div><br><blockquote type=3D"cite"><div>On Jul 18, 2018, at 9:36 AM, Hampto=
+n Group &lt;<a href=3D"mailto:hampton90210@gmail.com" target=3D"_blank">ham=
+pton90210@gmail.com</a>&gt; wrote:</div><br class=3D"m_-479122870420943718A=
+pple-interchange-newline"><div><div style=3D"word-wrap:break-word;line-brea=
+k:after-white-space">Hi Mike,<div><br></div><div>I am copying Sam who will =
+be finalizing underwriting for Ben. Sam, please confirm anything that is ne=
+eded to complete the Coldwater / Ben Clymer loan?</div><div><br></div><div>=
+Thank you.</div><div><br></div><div><div>
+<div style=3D"font-family:Helvetica;font-size:12px;font-style:normal;font-v=
+ariant-caps:normal;font-weight:normal;letter-spacing:normal;text-align:star=
+t;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px">=
+<br class=3D"m_-479122870420943718Apple-interchange-newline">Best Wishes,<b=
+r><br><br>Todd Snyder<br>Financial Consulting, Global Project=C2=A0Funding<=
+br>Founder, Hampton Group<br>Skylar Pacific Capital Inc.<br><a href=3D"mail=
+to:hampton90210@gmail.com" target=3D"_blank">hampton90210@gmail.com</a><br>=
++310-210-2023<br><br><br>*** CONFIDENTIALITY NOTICE=C2=A0DISCLAIMER:=C2=A0S=
+ender is not a United=C2=A0States Securities Dealer or Broker or U.S.=C2=A0=
+Investment Adviser. Sender is a Private=C2=A0consultant and Introductory Se=
+rvice=C2=A0Provider for borrowers and/or clients to=C2=A0the various contac=
+ts that suit their=C2=A0business needs at their request. Sender=C2=A0does n=
+ot provide any funding, bank=C2=A0instruments, bank guarantees or other=C2=
+=A0financial instruments or commitments of=C2=A0any kind. This E-mail lette=
+r and the=C2=A0attached related documents are never to=C2=A0be considered a=
+ solicitation for any=C2=A0purpose in any form or content. This=C2=A0commun=
+ication (including any=C2=A0attachments) is covered=C2=A0information in=C2=
+=A0this email is covered by the Electronic=C2=A0Communications Privacy Act,=
+ 18 U.S.C.=C2=A0=C2=A7=C2=A7 2510-2521 and is legally privileged. It=C2=A0c=
+ontains information sent by The=C2=A0Hampton Group and is confidential and =
+is=C2=A0intended solely for the addressee. The=C2=A0information contained h=
+erein may be=C2=A0privileged, confidential, and exempt from=C2=A0disclosure=
+ under applicable law. Access=C2=A0to this email by anyone else is=C2=A0una=
+uthorized. If you are not the intended=C2=A0recipient, any disclosure, copy=
+ing,=C2=A0distribution, dissemination, or any other=C2=A0improper action ta=
+ken, or omitted to be=C2=A0taken in reliance on it, is strictly=C2=A0prohib=
+ited. If this transmission is received=C2=A0in error, please notify Todd Sn=
+yder=C2=A0immediately at (310)210-2023 and please=C2=A0delete the email fro=
+m your computer.=C2=A0</div>
+</div>
+<div><br><blockquote type=3D"cite"><div>On Jul 11, 2018, at 10:48 PM, Micha=
+el Murray &lt;<a href=3D"mailto:m.d.murray2010@gmail.com" target=3D"_blank"=
+>m.d.murray2010@gmail.com</a>&gt; wrote:</div><br class=3D"m_-4791228704209=
+43718Apple-interchange-newline"><div><div dir=3D"ltr">anything else needed =
+at this time?<div><br></div><div class=3D"gmail_extra"><br clear=3D"all"><d=
+iv><div class=3D"m_-479122870420943718gmail_signature" data-smartmail=3D"gm=
+ail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"=
+><div><div dir=3D"ltr">Best Regards,<div>Michael D. Murray</div><div><br></=
+div><div><font face=3D"arial, helvetica, sans-serif"><b style=3D"font-size:=
+16px"><span style=3D"font-size:7.5pt">CONFIDENTIALITY NOTICE</span></b><spa=
+n style=3D"font-size:7.5pt">: This e-mail transmission, and any documents, =
+files or previous e-mail messages attached to it may contain confidential i=
+nformation that is legally privileged. If you are not the intended recipien=
+t, or a person responsible for delivering it to the intended recipient, you=
+ are hereby notified that any disclosure, copying, distribution or use of a=
+ny of the information contained in or attached to this transmission is STRI=
+CTLY PROHIBITED. If you have received this transmission in error, please im=
+mediately notify the sender. Please destroy the original transmission and i=
+ts attachments without reading or saving in any manner. Thank you.</span></=
+font><br></div></div></div></div></div></div></div></div></div></div>
+<br><div class=3D"gmail_quote">On Wed, Jul 11, 2018 at 10:45 PM, Hampton Gr=
+oup <span dir=3D"ltr">&lt;<a href=3D"mailto:hampton90210@gmail.com" target=
+=3D"_blank">hampton90210@gmail.com</a>&gt;</span> wrote:<br><blockquote cla=
+ss=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;pa=
+dding-left:1ex"><div style=3D"word-wrap:break-word;line-break:after-white-s=
+pace">Thank you<br><div>
+<div style=3D"font-family:Helvetica;font-size:12px;font-style:normal;font-v=
+ariant-caps:normal;font-weight:normal;letter-spacing:normal;text-align:star=
+t;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px">=
+<br class=3D"m_-479122870420943718m_-7890354493643065684Apple-interchange-n=
+ewline">Best Wishes,<br><br><br>Todd Snyder<br>Financial Consulting, Global=
+ Project=C2=A0Funding<br>Founder, Hampton Group<br>Skylar Pacific Capital I=
+nc.<br><a href=3D"mailto:hampton90210@gmail.com" target=3D"_blank">hampton9=
+0210@gmail.com</a><br>+310-210-2023<br><br><br>*** CONFIDENTIALITY NOTICE=
+=C2=A0DISCLAIMER:=C2=A0Sender is not a United=C2=A0States Securities Dealer=
+ or Broker or U.S.=C2=A0Investment Adviser. Sender is a Private=C2=A0consul=
+tant and Introductory Service=C2=A0Provider for borrowers and/or clients to=
+=C2=A0the various contacts that suit their=C2=A0business needs at their req=
+uest. Sender=C2=A0does not provide any funding, bank=C2=A0instruments, bank=
+ guarantees or other=C2=A0financial instruments or commitments of=C2=A0any =
+kind. This E-mail letter and the=C2=A0attached related documents are never =
+to=C2=A0be considered a solicitation for any=C2=A0purpose in any form or co=
+ntent. This=C2=A0communication (including any=C2=A0attachments) is covered=
+=C2=A0information in=C2=A0this email is covered by the Electronic=C2=A0Comm=
+unications Privacy Act, 18 U.S.C.=C2=A0=C2=A7=C2=A7 2510-2521 and is legall=
+y privileged. It=C2=A0contains information sent by The=C2=A0Hampton Group a=
+nd is confidential and is=C2=A0intended solely for the addressee. The=C2=A0=
+information contained herein may be=C2=A0privileged, confidential, and exem=
+pt from=C2=A0disclosure under applicable law. Access=C2=A0to this email by =
+anyone else is=C2=A0unauthorized. If you are not the intended=C2=A0recipien=
+t, any disclosure, copying,=C2=A0distribution, dissemination, or any other=
+=C2=A0improper action taken, or omitted to be=C2=A0taken in reliance on it,=
+ is strictly=C2=A0prohibited. If this transmission is received=C2=A0in erro=
+r, please notify Todd Snyder=C2=A0immediately at (310)210-2023 and please=
+=C2=A0delete the email from your computer.=C2=A0</div>
+</div>
+<div><br><blockquote type=3D"cite"><div><div class=3D"m_-479122870420943718=
+h5"><div>On Jul 11, 2018, at 10:43 PM, Michael Murray &lt;<a href=3D"mailto=
+:m.d.murray2010@gmail.com" target=3D"_blank">m.d.murray2010@gmail.com</a>&g=
+t; wrote:</div><br class=3D"m_-479122870420943718m_-7890354493643065684Appl=
+e-interchange-newline"></div></div><div><div><div class=3D"m_-4791228704209=
+43718h5"><div dir=3D"ltr">Todd,<div>See attached.<br clear=3D"all"><div><di=
+v class=3D"m_-479122870420943718m_-7890354493643065684gmail_signature" data=
+-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div>=
+<div dir=3D"ltr"><div><div dir=3D"ltr">Best Regards,<div>Michael D. Murray<=
+/div><div><br></div><div><font face=3D"arial, helvetica, sans-serif"><b sty=
+le=3D"font-size:16px"><span style=3D"font-size:7.5pt">CONFIDENTIALITY NOTIC=
+E</span></b><span style=3D"font-size:7.5pt">: This e-mail transmission, and=
+ any documents, files or previous e-mail messages attached to it may contai=
+n confidential information that is legally privileged. If you are not the i=
+ntended recipient, or a person responsible for delivering it to the intende=
+d recipient, you are hereby notified that any disclosure, copying, distribu=
+tion or use of any of the information contained in or attached to this tran=
+smission is STRICTLY PROHIBITED. If you have received this transmission in =
+error, please immediately notify the sender. Please destroy the original tr=
+ansmission and its attachments without reading or saving in any manner. Tha=
+nk you.</span></font><br></div></div></div></div></div></div></div></div></=
+div></div>
+</div></div>
+</div></div><span id=3D"m_-479122870420943718m_-7890354493643065684cid:12B3=
+67E2-9DA9-4BF2-86D3-E4D765DF826A">&lt;CLYMER .pdf&gt;</span></div></blockqu=
+ote></div><br></div></blockquote></div><br></div></div>
+</div></blockquote></div><br></div></div></div></blockquote></div><br></div=
+></div></div></div></blockquote></div><br></div></div>
+
+--0000000000005ac808057148fef8--

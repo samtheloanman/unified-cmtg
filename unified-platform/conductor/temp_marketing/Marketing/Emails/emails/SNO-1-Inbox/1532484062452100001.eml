@@ -1,0 +1,89 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of att.com designates 67.231.157.136 as permitted sender) client-ip=67.231.157.136; envelope-from=buscontractsnoreply@att.com; helo=mx0a-00191d01.pphosted.com;
+Authentication-Results: mx.zohomail.com;
+	spf=pass (zoho.com: domain of att.com designates 67.231.157.136 as permitted sender)  smtp.mailfrom=buscontractsnoreply@att.com;
+	dmarc=pass(p=none dis=none)  header.from=att.com
+Return-Path: <buscontractsnoreply@att.com>
+Received: from mx0a-00191d01.pphosted.com (mx0b-00191d01.pphosted.com [67.231.157.136]) by mx.zohomail.com
+	with SMTPS id 1532484060350542.1197310494408; Tue, 24 Jul 2018 19:01:00 -0700 (PDT)
+Received: from pps.filterd (m0049458.ppops.net [127.0.0.1])
+	by m0049458.ppops.net-00191d01. (8.16.0.22/8.16.0.22) with SMTP id w6P1tBQD014809
+	for <sam@c-mtg.com>; Tue, 24 Jul 2018 22:00:59 -0400
+Received: from alpi154.enaf.aldc.att.com (sbcsmtp6.sbc.com [144.160.229.23])
+	by m0049458.ppops.net-00191d01. with ESMTP id 2keck8k8nh-1
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT)
+	for <sam@c-mtg.com>; Tue, 24 Jul 2018 22:00:58 -0400
+Received: from enaf.aldc.att.com (localhost [127.0.0.1])
+	by alpi154.enaf.aldc.att.com (8.14.5/8.14.5) with ESMTP id w6P20wNo023582
+	for <sam@c-mtg.com>; Tue, 24 Jul 2018 22:00:58 -0400
+Received: from zlp30484.vci.att.com (zlp30484.vci.att.com [135.47.91.179])
+	by alpi154.enaf.aldc.att.com (8.14.5/8.14.5) with ESMTP id w6P20pc6023478
+	for <sam@c-mtg.com>; Tue, 24 Jul 2018 22:00:52 -0400
+Received: from zlp30484.vci.att.com (zlp30484.vci.att.com [127.0.0.1])
+	by zlp30484.vci.att.com (Service) with ESMTP id E89F9404C943
+	for <sam@c-mtg.com>; Wed, 25 Jul 2018 02:00:51 +0000 (GMT)
+Received: from alpv0122.wwdc.att.com (unknown [155.175.243.224])
+	by zlp30484.vci.att.com (Service) with ESMTP id D2FCE40006FB
+	for <sam@c-mtg.com>; Wed, 25 Jul 2018 02:00:51 +0000 (GMT)
+Received: from wwdc.att.com (localhost [127.0.0.1])
+	by alpv0122.wwdc.att.com (8.14.5/8.14.5) with ESMTP id w6P20pTr014406
+	for <sam@c-mtg.com>; Tue, 24 Jul 2018 22:00:51 -0400
+Received: from blph287 (blph287.bhdc.att.com [130.5.110.92])
+	by alpv0122.wwdc.att.com (8.14.5/8.14.5) with ESMTP id w6P20pYI014259
+	for <sam@c-mtg.com>; Tue, 24 Jul 2018 22:00:51 -0400
+Message-ID:<201807250200.w6P20pYI014259@alpv0122.wwdc.att.com>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset="UTF-8"
+Date: 24 Jul 2018 22:00:50 -0400
+From: buscontractsnoreply@att.com
+Reply-To: g01834@ems.att.com
+Subject: AT&T Mobile Business Agreement: Active (85095288)
+To: sam@c-mtg.com
+X-Mailer: Siebel 8.1.1.14 SIA [23044] LANG_INDEPENDENT
+X-MSMail-Priority: Normal
+X-Priority: 3
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10434:,, definitions=2018-07-24_07:,,
+ signatures=0
+X-Proofpoint-Spam-Details: rule=outbound_policy_notspam policy=outbound_policy score=0
+ priorityscore=1501 malwarescore=0 suspectscore=1 phishscore=0 bulkscore=0
+ spamscore=0 clxscore=1015 lowpriorityscore=0 mlxscore=0 impostorscore=0
+ mlxlogscore=720 adultscore=0 classifier=spam adjust=0 reason=mlx
+ scancount=1 engine=8.0.1-1806210000 definitions=main-1807250017
+X-ZohoMail-Owner: <201807250200.w6P20pYI014259@alpv0122.wwdc.att.com>+zmo_0_buscontractsnoreply@att.com
+X-ZohoMail-Sender: 130.5.110.92
+X-ZohoMail: RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_1 IS_0 FMWL RTD EML_0 DMN_0 EDR_100 COSF LNKP FRD_NDS_0 SFP_WHTLST_0 UNK_U_0 UNK_O_0 SIP_KMR_0 RPD_KN_0 RPD_CL_MA_L2_0 SDFE_GNMXR_0 CFS_710TPL_1  SC_1 SGR3_1_2_0_168_246
+X-ZM-MESSAGEID: 1532484062452100001
+X-ZohoMail-Status: 1
+
+
+Dear JOHNNY TEHRANCHI,
+
+Thank you for choosing AT&T as your service provider and applying for an AT&T Mobile Business Agreement on behalf of CUSTOM MTG INC.  Your agreement is now active.
+
+To purchase phones/devices and services, or to manage your account, contact your AT&T Sales Representative using the contact information below.
+
+Our records show that you agreed, on behalf of CUSTOM MTG INC, to AT&T Mobile Business Agreement version 11-B.  The Effective Date is 07/24/2018 00:00:00.
+
+To view your signed AT&T Mobile Business Agreement via the Web, go to the AT&T Business Agreement Acceptance Login web page at http://www.wireless.att.com/pct/contract_acceptance/login.jsp and enter your Agreement Number and email address. If you are unable to use this link, copy and paste the following link into your browser:
+http://www.wireless.att.com/pct/contract_acceptance/login.jsp
+
+If you have any questions, contact WHITNEY FAUNI at wa848k@att.com or at 3107796248. Please refer to the following information about your AT&T Mobile Business Agreement:
+- Agreement Number: 85095288
+
+Your company's Corporate Responsibility User (CRU) and Individual Responsibility User (IRU) Foundation Account Numbers (FANs) are:
+
+ - CRU - 57667288
+ - IRU - 57667289
+
+
+-  FAN PIN (IVR Authentication PIN): 16788
+
+Thank you,
+
+AT&T
+
+Copyright 2014. AT&T Intellectual Property. All rights reserved. AT&T and the AT&T logo are trademarks of AT&T Intellectual Property.
+
+OPURet1-3G026AP

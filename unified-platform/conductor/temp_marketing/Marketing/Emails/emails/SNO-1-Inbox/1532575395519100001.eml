@@ -1,0 +1,281 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: none (zoho.com: 209.85.213.48 is neither permitted nor denied by domain of sunsetequitygroup.com) client-ip=209.85.213.48; envelope-from=navid@sunsetequitygroup.com; helo=mail-vk0-f48.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=none (zoho.com: 209.85.213.48 is neither permitted nor denied by domain of sunsetequitygroup.com)  smtp.mailfrom=navid@sunsetequitygroup.com
+Return-Path: <navid@sunsetequitygroup.com>
+Received: from mail-vk0-f48.google.com (mail-vk0-f48.google.com [209.85.213.48]) by mx.zohomail.com
+	with SMTPS id 1532575394023460.31736653832286; Wed, 25 Jul 2018 20:23:14 -0700 (PDT)
+Received: by mail-vk0-f48.google.com with SMTP id y70-v6so130439vkc.0
+        for <sam@c-mtg.com>; Wed, 25 Jul 2018 20:23:13 -0700 (PDT)
+Received: by 2002:a9f:3a4e:0:0:0:0:0 with HTTP; Wed, 25 Jul 2018 20:22:31
+ -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=sunsetequitygroup-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :cc;
+        bh=/s4gwDVT0NUdH7laVKhc48sZs5DtFWAM6UaWiyjZGds=;
+        b=M7j2v6zm9RsHpaJ39Y73JObvbXinrx1DsvXlZV4wClKongy8C4pc+jZzwnkaKFUKOn
+         GkYYb6jAGCRuFxvswUKg/+ve8AerKsgxRjrCTj9tjFvLqcm2ISsgtJmSQh07eSuMFutV
+         Kga4M1bHWarPjU4Dfy9VCVvYjF+Z+Sqyz5SSHNarP5xUhGvo1BnkdNzDMvUPtrNulup6
+         f2voJ45sXWDLpep+rylN21kh8PP9pjTiwguJ1Z1chXwCr+CXFYAH7MBBhQLiub7WCGnD
+         FGt4BRGIfH8AiJqgDZ+cNeCmLM/XA8JytVSEVBVfNPXfT9fqadQARisWmZDeCcf8CsyT
+         NPJQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to:cc;
+        bh=/s4gwDVT0NUdH7laVKhc48sZs5DtFWAM6UaWiyjZGds=;
+        b=hmIbWKaUeDEKlocYVn9NUu4nHZRqKDJYRWiAwyDxz/XcsQYntGP2GihtwahKhPWaFJ
+         kCoiTMtOuPih076wPIZpuXspolq+sLinw1mYKxmkNn0GOQppfKqmEQwGoSnMuH0HrDif
+         AVTixrg9H2C8/4bWwluj2BWWbuYyya9q2/9RBXS9JdnTfigPpLmNJZfBgdJjeXMgarDe
+         ILKi4x0pRC1VvGipaiul7v1PaYAsPv3afTy14m2V6qeqsIX7KxkQf2RHODE4hCooTtI2
+         U9Yp1MQDwV2x3+lr2R9el9iBOVXtuxaIUMU7/qzmYRsiImPPzn42b9/z3TjiH1QFvznF
+         tVLA==
+X-Gm-Message-State: AOUpUlEezbwVXh7rpTZtGH6FObKB/4M94Fs80ErRvTF75RHxhK+s1AQ2
+	CY9p8UzFjVkjvme714fuxPqrjrx3kZNP5wHQVTDjlS9zm6s=
+X-Google-Smtp-Source: AAOMgpezBbC+/0XF+lV3QvjS+ipURLZJmwSctOncfv219spsisxtQ7EuTw10RdjiC20hINwO0/XZRVtb74E0buVS5X8=
+X-Received: by 2002:a1f:a784:: with SMTP id q126-v6mr127416vke.70.1532575392232;
+ Wed, 25 Jul 2018 20:23:12 -0700 (PDT)
+MIME-Version: 1.0
+In-Reply-To: <377FE766-4CE9-4054-87B8-99CE31F8983E@c-mtg.com>
+References: <C110323E-171A-4FAC-9091-A3A823B17CCC@c-mtg.com> <377FE766-4CE9-4054-87B8-99CE31F8983E@c-mtg.com>
+From: Navid Lavi <navid@sunsetequitygroup.com>
+Date: Wed, 25 Jul 2018 20:22:31 -0700
+Message-ID:<CAM=56s3UOLRf8y4H51=msOTg-_LhdHHgg8YK=oc=jcFWEz-8pQ@mail.gmail.com>
+Subject: Re: New File: 4625, 4635, 4645 BRYAN STREET
+To: Sam Tehranchi <sam@c-mtg.com>
+Cc: Benjamin Saadat <benjamin@sunsetequitygroup.com>
+Content-Type: multipart/alternative; boundary="000000000000d88d300571de83fd"
+X-ZohoMail-DKIM: pass (identity @sunsetequitygroup-com.20150623.gappssmtp.com)
+X-ZohoMail: RDKM_0  RSF_4  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_1 S_168 FRD_HI
+X-ZM-MESSAGEID: 1532575395519100001
+X-ZohoMail-Flag: Important
+X-ZohoMail-Status: 1
+
+
+--000000000000d88d300571de83fd
+Content-Type: text/plain; charset="UTF-8"
+
+Hello Sam,
+
+We are looking into this and will get back to you by the end of the day
+tomorrow.
+
+Thank you.
+
+
+*Navid Lavi*
+Managing Director
+
+
+
+
+On Wed, Jul 25, 2018 at 2:22 PM, Sam Tehranchi <sam@c-mtg.com> wrote:
+
+> Hi Navid, here is deal that might fit:
+>
+>
+> Its a rehab project.  Will you do this on the fix and flip program?
+>
+> Property Address: 4625, 4635, 4645  BRYAN STREET
+> DALLAS, TX. 75204
+> LOAN SCENARIO:
+>
+> Property Type: 60 units Residential Building
+>
+> Value of property: 5,000,000.00
+>
+> Current Loan: 340,000.00
+>
+> New Loan Request: 3,400,000.00
+>
+> LTV: 70%
+>
+> Purpose: Rehab
+>
+> Borrower: COMAR PROPERTIES, INC/BRYAN SONG APARTMENTS
+>
+> ARV: 7,250,000.00
+>
+> Attached is:
+> - Executive summary
+> - BPO
+> - Application
+> - Rent Roll
+> - Financials and 2 years business returns showing rents
+> - Property profiles (there is 3 parcels)
+>
+>
+>
+> Respectfully,
+>
+>
+> Sam Tehranchi
+>
+>
+> COO
+> Custom Mortgage and Realty
+> NMLS CA # 1556995 - BRE CA # 02018146
+>
+> Direct 310.709.6304 -Efax 866.421.7694
+>
+> sam@c-mtg.com - www.c-mtg.com
+>
+> LinkedIn <https://www.linkedin.com/company-beta/3477964> - Facebook
+> <https://www.facebook.com/Custom-Mortgage-409842885783868/> - twitter
+> <https://twitter.com/custommortgage1> - Instagram
+> <https://www.instagram.com/custommortgageinc/>
+>
+> >
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+
+--000000000000d88d300571de83fd
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hello Sam,=C2=A0<div><br></div><div>We are looking into th=
+is and will get back to you by the end of the day tomorrow.=C2=A0</div></di=
+v><div class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_sig=
+nature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=
+=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div dir=3D"ltr"><div =
+dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"=
+ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><d=
+iv dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=
+=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr=
+"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div =
+dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"=
+ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><d=
+iv dir=3D"ltr"><div style=3D"font-family:&quot;Helvetica Neue&quot;,&quot;S=
+egoe UI&quot;,Helvetica,Arial,&quot;Lucida Grande&quot;,sans-serif"><p styl=
+e=3D"color:rgb(0,0,0);margin:0px;padding:0px"><font size=3D"2">Thank you.</=
+font></p><p style=3D"color:rgb(0,0,0);margin:0px;padding:0px"><b style=3D"f=
+ont-size:13.5pt"><br></b></p><p style=3D"color:rgb(0,0,0);margin:0px;paddin=
+g:0px"><b style=3D"font-size:13.5pt">Navid Lavi</b><br><font size=3D"2">Man=
+aging Director</font></p><p style=3D"color:rgb(0,0,0);margin:0px;padding:0p=
+x"><br></p><p style=3D"color:rgb(0,0,0);margin:0px;padding:0px"><img src=3D=
+"https://s15.postimg.cc/bh0mufirf/Navid_2.jpg" width=3D"420" height=3D"164"=
+><br></p></div></div></div></div></div></div></div></div></div></div></div>=
+</div></div></div></div></div></div></div></div></div></div></div></div></d=
+iv></div></div></div></div></div></div></div></div></div></div></div></div>=
+</div></div></div></div></div></div></div>
+<br><div class=3D"gmail_quote">On Wed, Jul 25, 2018 at 2:22 PM, Sam Tehranc=
+hi <span dir=3D"ltr">&lt;<a href=3D"mailto:sam@c-mtg.com" target=3D"_blank"=
+>sam@c-mtg.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" s=
+tyle=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div=
+ style=3D"word-wrap:break-word;line-break:after-white-space"><div><blockquo=
+te type=3D"cite"><div><div style=3D"font-family:Helvetica;font-size:12px;fo=
+nt-style:normal;font-variant-caps:normal;font-weight:normal;letter-spacing:=
+normal;text-align:start;text-indent:0px;text-transform:none;white-space:nor=
+mal;word-spacing:0px;text-decoration:none"><div><font color=3D"#000000">Hi =
+Navid, here is deal that might fit:</font></div></div></div></blockquote><d=
+iv><br></div>Its a rehab project.=C2=A0 Will you do this on the fix and fli=
+p program?<br><br></div><div>Property Address: 4625, 4635, 4645 =C2=A0BRYAN=
+ STREET<br>DALLAS, TX. 75204<br>LOAN SCENARIO:<br><br>Property Type: 60 uni=
+ts Residential Building<br><br>Value of property: 5,000,000.00<br><br>Curre=
+nt Loan: 340,000.00<br><br>New Loan Request: 3,400,000.00<br><br>LTV: 70%<b=
+r><br>Purpose: Rehab<br><br>Borrower: COMAR PROPERTIES, INC/BRYAN SONG APAR=
+TMENTS</div><div><br>ARV: 7,250,000.00</div><div><br></div><div>Attached is=
+:</div><div>- Executive summary</div><div>- BPO<br>- Application<br>- Rent =
+Roll<br>- Financials and 2 years business returns showing rents<br>- Proper=
+ty profiles (there is 3 parcels)<br><br></div><div><br><blockquote type=3D"=
+cite"><div><div style=3D"font-family:Helvetica;font-size:12px;font-style:no=
+rmal;font-variant-caps:normal;font-weight:normal;letter-spacing:normal;text=
+-align:start;text-indent:0px;text-transform:none;white-space:normal;word-sp=
+acing:0px;text-decoration:none"><blockquote type=3D"cite"><div style=3D"wor=
+d-wrap:break-word;line-break:after-white-space"><div><br></div><div><div><d=
+iv dir=3D"auto" style=3D"letter-spacing:normal;text-align:start;text-indent=
+:0px;text-transform:none;white-space:normal;word-spacing:0px;text-decoratio=
+n:none;word-wrap:break-word;line-break:after-white-space"><div dir=3D"auto"=
+ style=3D"letter-spacing:normal;text-align:start;text-indent:0px;text-trans=
+form:none;white-space:normal;word-spacing:0px;word-wrap:break-word;line-bre=
+ak:after-white-space">Respectfully, =C2=A0=C2=A0<br><br>=C2=A0<br>Sam Tehra=
+nchi<br><br>=C2=A0<br>COO<br>Custom Mortgage and Realty=C2=A0<br>NMLS CA # =
+1556995 - BRE CA #=C2=A002018146<br>=C2=A0<br>Direct 310.709.6304 -Efax 866=
+.421.7694=C2=A0<br><br><a href=3D"mailto:sam@c-mtg.com" target=3D"_blank">s=
+am@c-mtg.com</a>=C2=A0-=C2=A0<a href=3D"http://www.c-mtg.com/" target=3D"_b=
+lank">www.c-mtg.com</a><br><br><a href=3D"https://www.linkedin.com/company-=
+beta/3477964" target=3D"_blank">LinkedIn</a>=C2=A0-=C2=A0<a href=3D"https:/=
+/www.facebook.com/Custom-Mortgage-409842885783868/" target=3D"_blank">Faceb=
+ook</a>=C2=A0-=C2=A0<a href=3D"https://twitter.com/custommortgage1" target=
+=3D"_blank">twitter</a>=C2=A0<wbr>-=C2=A0<a href=3D"https://www.instagram.c=
+om/custommortgageinc/" target=3D"_blank">Instagram</a><br><br></div></div><=
+/div><div>&gt;<blockquote type=3D"cite"><div><div style=3D"word-wrap:break-=
+word;line-break:after-white-space"></div></div></blockquote></div></div></d=
+iv></blockquote></div></div></blockquote></div></div><br><div style=3D"word=
+-wrap:break-word;line-break:after-white-space"><div class=3D"m_319860193023=
+7492728AppleOriginalContents"><blockquote type=3D"cite"><div><div style=3D"=
+font-family:Helvetica;font-size:12px;font-style:normal;font-variant-caps:no=
+rmal;font-weight:normal;letter-spacing:normal;text-align:start;text-indent:=
+0px;text-transform:none;white-space:normal;word-spacing:0px;text-decoration=
+:none"><blockquote type=3D"cite"><div style=3D"word-wrap:break-word;line-br=
+eak:after-white-space"><div></div></div></blockquote></div></div></blockquo=
+te></div></div><br><div style=3D"word-wrap:break-word;line-break:after-whit=
+e-space"><div class=3D"m_3888095640274007756AppleOriginalContents"><blockqu=
+ote type=3D"cite"><div><div style=3D"font-family:Helvetica;font-size:12px;f=
+ont-style:normal;font-variant-caps:normal;font-weight:normal;letter-spacing=
+:normal;text-align:start;text-indent:0px;text-transform:none;white-space:no=
+rmal;word-spacing:0px;text-decoration:none"><blockquote type=3D"cite"><div =
+style=3D"word-wrap:break-word;line-break:after-white-space"><div></div></di=
+v></blockquote></div></div></blockquote></div></div><br><div style=3D"word-=
+wrap:break-word;line-break:after-white-space"><div class=3D"m_5924958072961=
+872767AppleOriginalContents"><blockquote type=3D"cite"><div><div style=3D"f=
+ont-family:Helvetica;font-size:12px;font-style:normal;font-variant-caps:nor=
+mal;font-weight:normal;letter-spacing:normal;text-align:start;text-indent:0=
+px;text-transform:none;white-space:normal;word-spacing:0px;text-decoration:=
+none"><blockquote type=3D"cite"><div style=3D"word-wrap:break-word;line-bre=
+ak:after-white-space"><div></div></div></blockquote></div></div></blockquot=
+e></div></div><br><div style=3D"word-wrap:break-word;line-break:after-white=
+-space"><div class=3D"m_-5734142248484076698AppleOriginalContents"><blockqu=
+ote type=3D"cite"><div><div style=3D"font-family:Helvetica;font-size:12px;f=
+ont-style:normal;font-variant-caps:normal;font-weight:normal;letter-spacing=
+:normal;text-align:start;text-indent:0px;text-transform:none;white-space:no=
+rmal;word-spacing:0px;text-decoration:none"><blockquote type=3D"cite"><div =
+style=3D"word-wrap:break-word;line-break:after-white-space"><div></div></di=
+v></blockquote></div></div></blockquote></div></div><br><div style=3D"word-=
+wrap:break-word;line-break:after-white-space"><div class=3D"m_2179094098125=
+087967AppleOriginalContents"><blockquote type=3D"cite"><div><div style=3D"f=
+ont-family:Helvetica;font-size:12px;font-style:normal;font-variant-caps:nor=
+mal;font-weight:normal;letter-spacing:normal;text-align:start;text-indent:0=
+px;text-transform:none;white-space:normal;word-spacing:0px;text-decoration:=
+none"><blockquote type=3D"cite"><div style=3D"word-wrap:break-word;line-bre=
+ak:after-white-space"><div></div></div></blockquote></div></div></blockquot=
+e></div></div><br><div style=3D"word-wrap:break-word;line-break:after-white=
+-space"><div class=3D"m_-4962431574823595781AppleOriginalContents"><blockqu=
+ote type=3D"cite"><div><div style=3D"font-family:Helvetica;font-size:12px;f=
+ont-style:normal;font-variant-caps:normal;font-weight:normal;letter-spacing=
+:normal;text-align:start;text-indent:0px;text-transform:none;white-space:no=
+rmal;word-spacing:0px;text-decoration:none"><blockquote type=3D"cite"><div =
+style=3D"word-wrap:break-word;line-break:after-white-space"><div></div></di=
+v></blockquote></div></div></blockquote></div></div><br><div style=3D"word-=
+wrap:break-word;line-break:after-white-space"><div class=3D"m_3735927596303=
+283368AppleOriginalContents"><blockquote type=3D"cite"><div><div style=3D"f=
+ont-family:Helvetica;font-size:12px;font-style:normal;font-variant-caps:nor=
+mal;font-weight:normal;letter-spacing:normal;text-align:start;text-indent:0=
+px;text-transform:none;white-space:normal;word-spacing:0px;text-decoration:=
+none"><blockquote type=3D"cite"><div style=3D"word-wrap:break-word;line-bre=
+ak:after-white-space"><div></div></div></blockquote></div></div></blockquot=
+e></div></div><br><div style=3D"word-wrap:break-word;line-break:after-white=
+-space"><div class=3D"m_4542752833401234591AppleOriginalContents"><blockquo=
+te type=3D"cite"><div><div style=3D"font-family:Helvetica;font-size:12px;fo=
+nt-style:normal;font-variant-caps:normal;font-weight:normal;letter-spacing:=
+normal;text-align:start;text-indent:0px;text-transform:none;white-space:nor=
+mal;word-spacing:0px;text-decoration:none"><blockquote type=3D"cite"><div s=
+tyle=3D"word-wrap:break-word;line-break:after-white-space"><div></div></div=
+></blockquote></div></div></blockquote></div></div><br><div style=3D"word-w=
+rap:break-word;line-break:after-white-space"><div><blockquote type=3D"cite"=
+><div></div></blockquote></div><br></div><br></blockquote></div><br></div>
+
+--000000000000d88d300571de83fd--

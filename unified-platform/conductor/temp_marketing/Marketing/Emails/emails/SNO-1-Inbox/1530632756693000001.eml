@@ -1,0 +1,467 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of delivery.customeriomail.com designates 192.254.112.158 as permitted sender) client-ip=192.254.112.158; envelope-from=bounces+864718-8cd7-sam=c-mtg.com@delivery.customeriomail.com; helo=o3.delivery.customeriomail.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of delivery.customeriomail.com designates 192.254.112.158 as permitted sender)  smtp.mailfrom=bounces+864718-8cd7-sam=c-mtg.com@delivery.customeriomail.com;
+	dmarc=pass(p=none dis=none)  header.from=datavalidation.com
+Return-Path: <bounces+864718-8cd7-sam=c-mtg.com@delivery.customeriomail.com>
+Received: from o3.delivery.customeriomail.com (o3.delivery.customeriomail.com [192.254.112.158]) by mx.zohomail.com
+	with SMTPS id 1530632755397412.3029567107943; Tue, 3 Jul 2018 08:45:55 -0700 (PDT)
+Received: by filter0060p3mdw1.sendgrid.net with SMTP id filter0060p3mdw1-3923-5B3B9A32-14
+        2018-07-03 15:45:54.205946504 +0000 UTC
+Received: from localhost (5.worker.customeriomail.com [35.194.9.154])
+	by ismtpd0043p1mdw1.sendgrid.net (SG) with ESMTP id BK0CCLoxTl-JUf_gfY-V3g
+	for <sam@c-mtg.com>; Tue, 03 Jul 2018 15:45:54.170 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; 
+	d=datavalidation.com; 
+	h=content-type:from:list-unsubscribe:mime-version:reply-to:subject:to; 
+	s=smtpapi; bh=cYPGCKfHUnPY0sJNsaHCAIprASA=; b=ofX0JucwS/KMputsJ0
+	bokOaYG1u7ha8bT0nuu9T4ad1l0V1UdS9TbaichOpCp77M/a/Ogv+6s6/UvUWKu1
+	Px7nGIgUaY8rUT8j0WcHPgG855eot8E7Z5af+9bm7TAz9rWFnWqmhS4mQH8hJXmS
+	bfcTm/fvn3efC3pA44cjo9LfY=
+Content-Type: multipart/alternative; boundary="b637fcc10a7db3b5356ec9c0369b389b1614f37b491f9510c9df680b17fb"; charset="utf-8"
+Date: Tue, 03 Jul 2018 15:45:54 +0000 (UTC)
+From: "DataValidation" <support@datavalidation.com>
+List-Unsubscribe: <mailto:32.LJHXUS2BO5AUEWSHIRJG46DBJEZGEVLUHB5EY6LSN5THA===@unsubscribe2.customer.io>, <http://cio.datavalidation.com/unsubscribe/ZOzKAwABZGDRnxaI2bUt8zLyrofp>
+Message-ID:<ZOzKAwABZGDRnxaI2bUt8zLyrofp.1530632754@datavalidation.com>
+Mime-Version: 1.0
+Reply-To: "DataValidation" <support@datavalidation.com>
+Subject: Keep Your Email Lists Clean This Summer
+To: <sam@c-mtg.com>
+X-Mailer: Customer.io (ZOzKAwABZGDRnxaI2bUt8zLyrofp; +https://whatis.customeriomail.com)
+X-Report-Abuse-To: badactor@customer.io
+X-SG-EID: sJ5jPJCVabzDYf0vjXbBSytVx2B/MsqArOO1rbGXjwusP2aiLDVhakNInEbTaQ9FNjUdpAhrpjnohd
+ Ox9U7Sx5zuC3kC1Cro+EcqWp5/pM9O0xDBrH5P1wNKhh7KbO+oyEng+T4HuCGjQe49mzoj9Pnjzhmq
+ 6yW5PAmFLqjLuj2cSVcMSi9EAvntZF0n/J4+XEWg1MuJxWcUvK3zp+Wo1+c3WJCHq+I+URhX17GXJ5
+ c=
+X-SG-ID: YDTqBOjidbCUo/ar1oAtZkWHoJ7xLfzbz++m2AOPzpxrXnF1oYrssCZ5LLZjOHvHUaZ0vacX33XrOI
+ /SiDyWyA==
+X-ZohoMail-DKIM: pass (identity @datavalidation.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_7 RF_0 S_166
+X-ZM-MESSAGEID: 1530632756693000001
+X-ZohoMail-Status: 1
+
+
+--b637fcc10a7db3b5356ec9c0369b389b1614f37b491f9510c9df680b17fb
+Content-Id: text/plain.ZOzKAwABZGDRnxaI2bUt8zLyrofp.1530632754@datavalidation.com
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+Date: Tue, 03 Jul 2018 15:45:54 +0000
+Mime-Version: 1.0
+
+( https://www.datavalidation.com/email-list-cleaner/promo?utm_source=3Dnews=
+letter&utm_medium=3Demail&utm_campaign=3Dsummer-first&utm_term=3Dsummer-fir=
+st )
+
+---------------------------------------------
+Summer Sale | Enjoy 25% Off at DataValidation
+---------------------------------------------
+
+It=E2=80=99s time for your summer marketing tune-up! Start it by cleaning y=
+our email list.
+
+Throughout July, save 25% on email validation with our Summer Sale! Use the=
+ SummerSale25 ( https://www.datavalidation.com/email-list-cleaner/promo?utm=
+_source=3Dnewsletter&utm_medium=3Demail&utm_campaign=3Dsummer-first&utm_ter=
+m=3Dsummer-first ) coupon code to redeem the offer!
+
+Get the offer! ( https://dv3.datavalidation.com/?utm_source=3Dnewsletter&ut=
+m_medium=3Demail&utm_campaign=3Dsummer-first&utm_term=3Dsummer-first )
+
+Connect with us on:
+
+Facebook ( https://www.facebook.com/datavalidation/ )
+Linkedin ( https://www.linkedin.com/company/datavalidation-com )
+Twitter ( https://twitter.com/datavalidation )
+
+Reply to this email if you have any questions. We're here to help!
+
+Don't want to receive emails from us? Unsubscribe ( http://track.customer.i=
+o/unsubscribe/ZOzKAwABZGDRnxaI2bUt8zLyrofp )=
+
+--b637fcc10a7db3b5356ec9c0369b389b1614f37b491f9510c9df680b17fb
+Content-Id: text/html.ZOzKAwABZGDRnxaI2bUt8zLyrofp.1530632754@datavalidation.com
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+Date: Tue, 03 Jul 2018 15:45:54 +0000
+Mime-Version: 1.0
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd"><html style=3D"font-family: Lato, Avenir, sa=
+ns-serif; margin: 0; padding: 0;"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"/>
+      <style type=3D"text/css">
+      /* Add your styles here, we'll process and inline all of your styles =
+before sending */
+=20=20
+      /*-------------------------------------------------------------------=
+--------
+         Basic styles that help with widths and font sizes on multiple devi=
+ces
+      ---------------------------------------------------------------------=
+--------*/
+      body { max-width:600px; margin:0 auto; padding: 0; font-family: sans-=
+serif; font-size:16px; line-height: 1.4; font-style: normal; -webkit-font-s=
+moothing:antialiased;
+        -webkit-text-size-adjust:none; font-family: Lato; color: #33373A;}
+      h1 { font-size: 16px; line-height:20px; }
+      h2 { font-size: 14px; line-height:18px; }
+      p { font-size: 13px; line-height: 16px; }
+      .center { text-align: center }
+      .unsubscribe { color:#727272; line-height:18px; }
+      .unsubscribe a { color: #333 }
+=20=20
+      @media only screen and (max-device-width: 480px) {
+        body { width: 320px !important; margin: 0; padding: 0; }
+        td img { height:auto !important; max-width:100% !important;}
+      }
+=20=20
+      @import url(https://fonts.googleapis.com/css?family=3DCabin:400,700,4=
+00italic,700italic%7CLato:400,700,400italic,700italic);
+=20
+      * {
+        margin:0;
+        padding:0;
+        font-family: Lato, Avenir, sans-serif;
+      }
+=20=20
+      img { max-width: 100%;}
+      a { color: #29B2E6;}
+      .bold{ font-weight: bold }=20
+      .center{ text-align: center }
+      .margin-top-30{ margin-top: 30px }
+      .margin-bottom-10{ margin-bottom: 10px }
+      .margin-bottom-30{ margin-bottom: 30px }
+=20=20=20=20=20=20
+      .padding-top-30{ padding-top: 30px }
+      .padding-bottom-30{ padding-bottom: 30px }
+=20=20=20=20=20=20
+      .bg-red{ background-color: #ef6062 !important }
+=20=20
+      p.footer { color: #979797; font-size: 13px; text-align: left;}
+=20=20
+      hr.footer {
+        border: 0;
+        color: #D1D1D1;
+        background-color: #D1D1D1;
+        height: 3px;
+        margin-bottom: 10px;
+      }
+      .button-holder{
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .button {
+        background: #43bfc1;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        color: #fff;
+        text-decoration: none;
+        padding: 9px 50px 10px 50px;
+      }
+=20=20
+      table.social {
+        background-color: #ebebeb;
+      }
+      .social .soc-btn {
+        padding: 3px 7px;
+        font-size:12px;
+        margin-bottom:10px;
+        text-decoration:none;
+        color: #FFF;font-weight:bold;
+        display:block;
+        text-align:center;
+      }
+      a.fb { background-color: #3B5998!important; }
+      a.tw { background-color: #1daced!important; }
+      a.gp { background-color: #DB4A39!important; }
+      a.ms { background-color: #000!important; }
+=20=20
+      /* -------------------------------------
+          HEADER
+      ------------------------------------- */
+      table.head-wrap { width: 100%;}
+      .graphic {display: block; margin-right: auto; margin-left: auto; widt=
+h: 600px; margin-bottom: 30px;}
+      .header.container table td.label { padding: 15px; padding-left:0px;}
+=20=20
+=20=20
+      /* -------------------------------------
+          FOOTER
+      ------------------------------------- */
+      table.footer-wrap { width: 600px; margin: 0 auto; clear:both!importan=
+t; }
+      .footer-wrap .container td.content p { border-top: 1px solid rgb(215,=
+215,215); padding-top:15px;}
+      .footer-wrap .container td.content p { font-size: 10px; font-weight: =
+bold;}
+=20=20
+      /* -------------------------------------
+          TYPOGRAPHY
+      ------------------------------------- */
+      h1,h2,h3,h4,h5,h6 { font-family: Cabin, Avenir, sans-serif; line-heig=
+ht: 1.4; margin-bottom:25px; color:#30373D; }
+=20=20
+      h1 { font-weight:500; font-size: 28px; color: #43bfc1;}
+      h2 { font-weight:500; font-size: 24px; color: #43bfc1;}
+      h3 { font-weight:500; font-size: 20px; color: #43bfc1;}
+=20=20
+      ul li { margin-left: 10px; list-style-position: inside; margin-bottom=
+: 10px; }
+=20=20
+      /* ---------------------------------------------------
+          RESPONSIVENESS
+          Nuke it from orbit. It's the only way to be sure.
+      ------------------------------------------------------ */
+=20=20
+      /* Set a max-width, and make it display as block so it will automatic=
+ally stretch to that width, but will also shrink down on a phone or somethi=
+ng */
+      .container {
+        display:block!important;
+        max-width:600px!important;
+        margin:0 auto!important;
+        clear:both!important;
+      }
+=20=20
+      /* This should also be a block element, so that it will fill 100% of =
+the .container */
+      .content { max-width:600px; margin:0 auto; display:block; }
+=20=20
+      /* Let's make sure tables in the content area are 100% wide */
+      .content table { width: 100% !important }
+=20=20
+      /* Odds and ends */
+      .column { width: 300px; float:left;}
+      .column tr td { padding: 15px; }
+      .column-wrap {  padding:0!important;  margin:0 auto;  max-width:600px=
+!important; }
+      .column table { width:100%;}
+      .social .column { width: 280px; min-width: 279px; float:left; }
+=20=20
+      /* Be sure to place a .clear element after each set of columns, just =
+to be safe */
+      .clear { display: block; clear: both; }
+
+      tr.border_bottom { border-bottom:1pt solid #ececec; }
+      th.border-right, td.border-right{
+        text-align: left;
+        padding: 10px 0 10px 30px;
+        border-right:1pt solid #ececec;
+      }
+=20=20
+      /* -------------------------------------------
+          PHONE
+          For clients that support media queries.
+          Nothing fancy.
+      -------------------------------------------- */
+      @media only screen and (max-width: 600px) {
+        a[class=3D"btn"] { display:block!important; margin-bottom:10px!impo=
+rtant; background-image:none!important; margin-right:0!important;}
+        div[class=3D"column"] { width: auto!important; float:none!important=
+;}
+        table.social div[class=3D"column"] { width:auto!important;}
+      }
+=20=20
+      </style>
+    </head>
+    <body style=3D"max-width: 600px; font-size: 16px; line-height: 1.4; fon=
+t-style: normal; -webkit-font-smoothing: antialiased; -webkit-text-size-adj=
+ust: none; font-family: Lato; color: #33373A; margin: 0 auto; padding: 0;">
+=20=20
+      <!-- HEADER -->
+      <table class=3D"head-wrap" bgcolor=3D"white" style=3D"font-family: La=
+to, Avenir, sans-serif; width: 100%; margin: 0; padding: 0;">
+        <tbody><tr style=3D"font-family: Lato, Avenir, sans-serif; margin: =
+0; padding: 0;">
+          <td class=3D"header container" style=3D"font-family: Lato, Avenir=
+, sans-serif; display: block !important; max-width: 600px !important; clear=
+: both !important; margin: 0 auto; padding: 0;">
+            <div class=3D"content" style=3D"font-family: Lato, Avenir, sans=
+-serif; max-width: 600px; display: block; margin: 0 auto; padding: 0;">
+              <table style=3D"font-family: Lato, Avenir, sans-serif; width:=
+ 100% !important; margin: 0; padding: 0;">
+                <tbody><tr style=3D"font-family: Lato, Avenir, sans-serif; =
+margin: 0; padding: 0;">
+                  <td style=3D"font-family: Lato, Avenir, sans-serif; margi=
+n: 0; padding: 0;">
+                    <a href=3D"http://cio.datavalidation.com/e/c/eyJlbWFpbF=
+9pZCI6IlpPektBd0FCWkdEUm54YUkyYlV0OHpMeXJvZnAiLCJocmVmIjoiaHR0cHM6Ly93d3cuZ=
+GF0YXZhbGlkYXRpb24uY29tL2VtYWlsLWxpc3QtY2xlYW5lci9wcm9tbz91dG1fc291cmNlPW5l=
+d3NsZXR0ZXJcdTAwMjZ1dG1fbWVkaXVtPWVtYWlsXHUwMDI2dXRtX2NhbXBhaWduPXN1bW1lci1=
+maXJzdFx1MDAyNnV0bV90ZXJtPXN1bW1lci1maXJzdCIsImxpbmtfaWQiOjYwMDk4NjUwLCJwb3=
+NpdGlvbiI6MH0/165fcc4b6c2cc1cc5cb359840f8134210ab34cf829aee07e4824b6cc8aa07=
+b43" target=3D"_blank" style=3D"font-family: Lato, Avenir, sans-serif; colo=
+r: #29B2E6; margin: 0; padding: 0;">
+                        <img class=3D"graphic" src=3D"http://userimg.custom=
+eriomail.com/ZeoZBSu7Sf6UxNpexjPd_summer-coupon-code-2018.jpg" style=3D"fon=
+t-family: Lato, Avenir, sans-serif; max-width: 100%; display: block; width:=
+ 600px; margin: 0 auto 30px; padding: 0;"/>
+                    </a>
+                  </td>
+                </tr>
+              </tbody></table>
+            </div>
+          </td>
+        </tr>
+      </tbody></table>
+<!-- /HEADER -->
+=20=20
+      <!-- BODY -->
+      <table class=3D"body-wrap" style=3D"font-family: Lato, Avenir, sans-s=
+erif; margin: 0; padding: 0;">
+        <tbody><tr style=3D"font-family: Lato, Avenir, sans-serif; margin: =
+0; padding: 0;">
+          <td class=3D"container" style=3D"font-family: Lato, Avenir, sans-=
+serif; display: block !important; max-width: 600px !important; clear: both =
+!important; margin: 0 auto; padding: 0;">
+            <div class=3D"content" style=3D"font-family: Lato, Avenir, sans=
+-serif; max-width: 600px; display: block; margin: 0 auto; padding: 0;">
+              <table style=3D"font-family: Lato, Avenir, sans-serif; width:=
+ 100% !important; margin: 0; padding: 0;">
+                <tbody><tr style=3D"font-family: Lato, Avenir, sans-serif; =
+margin: 0; padding: 0;">
+                  <td style=3D"font-family: Lato, Avenir, sans-serif; margi=
+n: 0; padding: 0;">
+                    <h2 class=3D"center" style=3D"font-size: 24px; line-hei=
+ght: 1.4; text-align: center; font-family: Cabin, Avenir, sans-serif; color=
+: #43bfc1; font-weight: 500; margin: 0 0 25px; padding: 0;" align=3D"center=
+">Summer Sale | Enjoy 25% Off at DataValidation</h2>
+<div style=3D"font-family: Lato, Avenir, sans-serif; margin: 0; padding: 0;=
+">It=E2=80=99s time for your summer marketing tune-up! Start it by cleaning=
+ your email list.
+<br style=3D"font-family: Lato, Avenir, sans-serif; margin: 0; padding: 0;"=
+/>
+Throughout July, <b style=3D"font-family: Lato, Avenir, sans-serif; margin:=
+ 0; padding: 0;">save 25% on email validation</b> with our Summer Sale! Use=
+ the  <b style=3D"font-family: Lato, Avenir, sans-serif; margin: 0; padding=
+: 0;"><a target=3D"_blank" href=3D"http://cio.datavalidation.com/e/c/eyJlbW=
+FpbF9pZCI6IlpPektBd0FCWkdEUm54YUkyYlV0OHpMeXJvZnAiLCJocmVmIjoiaHR0cHM6Ly93d=
+3cuZGF0YXZhbGlkYXRpb24uY29tL2VtYWlsLWxpc3QtY2xlYW5lci9wcm9tbz91dG1fc291cmNl=
+PW5ld3NsZXR0ZXJcdTAwMjZ1dG1fbWVkaXVtPWVtYWlsXHUwMDI2dXRtX2NhbXBhaWduPXN1bW1=
+lci1maXJzdFx1MDAyNnV0bV90ZXJtPXN1bW1lci1maXJzdCIsImxpbmtfaWQiOjYwMDk4NjUwLC=
+Jwb3NpdGlvbiI6MX0/efb990d477dfa55bb8a24d23a2818f323e7a52756f61033963f63b437=
+e57db05" style=3D"font-family: Lato, Avenir, sans-serif; color: #29B2E6; ma=
+rgin: 0; padding: 0;">SummerSale25</a></b> coupon code to redeem the offer!
+
+
+<br style=3D"font-family: Lato, Avenir, sans-serif; margin: 0; padding: 0;"=
+/>
+<div class=3D"center margin-top-30 margin-bottom-30" style=3D"text-align: c=
+enter; font-family: Lato, Avenir, sans-serif; margin: 30px 0; padding: 0;" =
+align=3D"center">
+    <a target=3D"_blank" class=3D"button bg-red" href=3D"http://cio.dataval=
+idation.com/e/c/eyJlbWFpbF9pZCI6IlpPektBd0FCWkdEUm54YUkyYlV0OHpMeXJvZnAiLCJ=
+ocmVmIjoiaHR0cHM6Ly9kdjMuZGF0YXZhbGlkYXRpb24uY29tLz91dG1fc291cmNlPW5ld3NsZX=
+R0ZXJcdTAwMjZ1dG1fbWVkaXVtPWVtYWlsXHUwMDI2dXRtX2NhbXBhaWduPXN1bW1lci1maXJzd=
+Fx1MDAyNnV0bV90ZXJtPXN1bW1lci1maXJzdCIsImxpbmtfaWQiOjYwMDk4NjUxLCJwb3NpdGlv=
+biI6Mn0/2c76fdea06a4fc24d450ad2dea9654a9b2ccab5ff1ac9ea7a80c1b7510550901" s=
+tyle=3D"font-family: Lato, Avenir, sans-serif; color: #fff; background-colo=
+r: #ef6062 !important; -webkit-border-radius: 5px; -moz-border-radius: 5px;=
+ border-radius: 5px; text-decoration: none; margin: 0; padding: 9px 50px 10=
+px;">Get the offer!</a>
+</div>
+
+
+<div class=3D"center margin-top-30 margin-bottom-30" style=3D"text-align: c=
+enter; font-family: Lato, Avenir, sans-serif; margin: 30px 0; padding: 0;" =
+align=3D"center">
+  <p class=3D"margin-bottom-10" style=3D"font-size: 13px; line-height: 16px=
+; font-family: Lato, Avenir, sans-serif; margin: 0 0 10px; padding: 0;">Con=
+nect with us on:</p>
+  <a target=3D"_blank" href=3D"http://cio.datavalidation.com/e/c/eyJlbWFpbF=
+9pZCI6IlpPektBd0FCWkdEUm54YUkyYlV0OHpMeXJvZnAiLCJocmVmIjoiaHR0cHM6Ly93d3cuZ=
+mFjZWJvb2suY29tL2RhdGF2YWxpZGF0aW9uLyIsImxpbmtfaWQiOjQ1MTE1NTAxLCJwb3NpdGlv=
+biI6M30/79ccc0c246b5c48d747b8be278e835026801d3e3cea89c98fa9eb5bab214b1c7" s=
+tyle=3D"font-family: Lato, Avenir, sans-serif; color: #29B2E6; margin: 0; p=
+adding: 0;"><img alt=3D"Facebook" src=3D"http://userimg.customeriomail.com/=
+ZeZeH9U9RGquyCtXQgIw_facebook.png" style=3D"width: 25px; font-family: Lato,=
+ Avenir, sans-serif; max-width: 100%; margin: 0; padding: 0;" title=3D"Face=
+book"/></a>
+  <a target=3D"_blank" href=3D"http://cio.datavalidation.com/e/c/eyJlbWFpbF=
+9pZCI6IlpPektBd0FCWkdEUm54YUkyYlV0OHpMeXJvZnAiLCJocmVmIjoiaHR0cHM6Ly93d3cub=
+Glua2VkaW4uY29tL2NvbXBhbnkvZGF0YXZhbGlkYXRpb24tY29tIiwibGlua19pZCI6Mjk2NTY0=
+NzEsInBvc2l0aW9uIjo0fQ/0ec769604ba1965427e24f618af82be31c4ec694eaf0caf32cc2=
+697a680626e0" style=3D"font-family: Lato, Avenir, sans-serif; color: #29B2E=
+6; margin: 0; padding: 0;"><img alt=3D"Linkedin" src=3D"http://userimg.cust=
+omeriomail.com/weHJNuu6RqhfeH16eMFw_linkedin.png" style=3D"width: 25px; fon=
+t-family: Lato, Avenir, sans-serif; max-width: 100%; margin: 0; padding: 0;=
+" title=3D"LinkedIn"/></a>
+  <a target=3D"_blank" href=3D"http://cio.datavalidation.com/e/c/eyJlbWFpbF=
+9pZCI6IlpPektBd0FCWkdEUm54YUkyYlV0OHpMeXJvZnAiLCJocmVmIjoiaHR0cHM6Ly90d2l0d=
+GVyLmNvbS9kYXRhdmFsaWRhdGlvbiIsImxpbmtfaWQiOjI5NjU2NDcyLCJwb3NpdGlvbiI6NX0/=
+2a23dff726099e447dabe55cdf84e094d54106836c411086c0279deb24c0ea1f" style=3D"=
+font-family: Lato, Avenir, sans-serif; color: #29B2E6; margin: 0; padding: =
+0;"><img alt=3D"Twitter" src=3D"http://userimg.customeriomail.com/JlgTa3WRR=
+xmcZnR4zCd5_twitter.png" style=3D"width: 25px; font-family: Lato, Avenir, s=
+ans-serif; max-width: 100%; margin: 0; padding: 0;" title=3D"Twitter"/></a>
+</div>
+<p style=3D"font-size: 13px; line-height: 16px; font-family: Lato, Avenir, =
+sans-serif; margin: 0; padding: 0;"></p>
+
+                  </div>
+</td>
+                </tr>
+              </tbody></table>
+            </div>
+          </td>
+        </tr>
+      </tbody></table>
+<!-- /BODY -->
+=20=20
+
+      <!-- FOOTER -->
+      <table class=3D"footer-wrap" style=3D"font-family: Lato, Avenir, sans=
+-serif; width: 600px; clear: both !important; margin: 0 auto; padding: 0;">
+        <tbody><tr style=3D"font-family: Lato, Avenir, sans-serif; margin: =
+0; padding: 0;">
+          <td class=3D"container" style=3D"font-family: Lato, Avenir, sans-=
+serif; display: block !important; max-width: 600px !important; clear: both =
+!important; margin: 0 auto; padding: 0;">
+            <div class=3D"content" style=3D"font-family: Lato, Avenir, sans=
+-serif; max-width: 600px; display: block; margin: 0 auto; padding: 0;">
+              <table style=3D"font-family: Lato, Avenir, sans-serif; width:=
+ 100% !important; margin: 0; padding: 0;">
+                <tbody><tr style=3D"font-family: Lato, Avenir, sans-serif; =
+margin: 0; padding: 0;">
+                  <td style=3D"font-family: Lato, Avenir, sans-serif; margi=
+n: 0; padding: 0;">
+                    <p class=3D"footer" style=3D"font-size: 13px; line-heig=
+ht: 16px; font-family: Lato, Avenir, sans-serif; color: #979797; text-align=
+: left; margin: 0; padding: 0;" align=3D"left">
+                      Reply to this email if you have any questions. We&#39=
+;re here to help!
+                      <br style=3D"font-family: Lato, Avenir, sans-serif; m=
+argin: 0; padding: 0;"/><br style=3D"font-family: Lato, Avenir, sans-serif;=
+ margin: 0; padding: 0;"/>
+                      Don&#39;t want to receive emails from us? <a href=3D"=
+http://cio.datavalidation.com/e/c/eyJlbWFpbF9pZCI6IlpPektBd0FCWkdEUm54YUkyY=
+lV0OHpMeXJvZnAiLCJocmVmIjoiaHR0cDovL2Npby5kYXRhdmFsaWRhdGlvbi5jb20vdW5zdWJz=
+Y3JpYmUvWk96S0F3QUJaR0RSbnhhSTJiVXQ4ekx5cm9mcCIsImxpbmtfaWQiOjI4MDUxNDgxLCJ=
+wb3NpdGlvbiI6Nn0/397dd8a60b913be8623c3a0bdf2d9c7fd2e3fd5c28b4d35da3a974fabb=
+fce25e" style=3D"font-family: Lato, Avenir, sans-serif; color: #29B2E6; mar=
+gin: 0; padding: 0;"><unsubscribe style=3D"font-family: Lato, Avenir, sans-=
+serif; margin: 0; padding: 0;">Unsubscribe</unsubscribe></a>
+                    </p>
+                  </td>
+                </tr>
+              </tbody></table>
+            </div>
+          </td>
+        </tr>
+      </tbody></table>
+<!-- /FOOTER -->
+=20=20
+=20=20=20=20=20=20
+=20=20=20=20
+<img src=3D"http://cio.datavalidation.com/e/o/eyJlbWFpbF9pZCI6IlpPektBd0FCW=
+kdEUm54YUkyYlV0OHpMeXJvZnAifQ=3D=3D" style=3D"height: 1px !important; max-h=
+eight: 1px !important; max-width: 1px !important; width: 1px !important"/><=
+/body></html>=
+
+--b637fcc10a7db3b5356ec9c0369b389b1614f37b491f9510c9df680b17fb--
+
+.

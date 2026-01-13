@@ -1,0 +1,208 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.mail.yahoo.com designates 66.163.187.147 as permitted sender) client-ip=66.163.187.147; envelope-from=shawnrabban@yahoo.com; helo=sonic316-21.consmr.mail.ne1.yahoo.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.mail.yahoo.com designates 66.163.187.147 as permitted sender)  smtp.mailfrom=shawnrabban@yahoo.com;
+	dmarc=pass(p=reject dis=none)  header.from=yahoo.com
+Return-Path: <shawnrabban@yahoo.com>
+Received: from sonic316-21.consmr.mail.ne1.yahoo.com (sonic316-21.consmr.mail.ne1.yahoo.com [66.163.187.147]) by mx.zohomail.com
+	with SMTPS id 1530822003910654.41545747717; Thu, 5 Jul 2018 13:20:03 -0700 (PDT)
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic316.consmr.mail.ne1.yahoo.com with HTTP; Thu, 5 Jul 2018 20:20:03 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1530822003; bh=ZSaGmqLNo3ePFr4i0re8y24wNRifg5MVBQalKPhpBCw=; h=Date:From:Reply-To:To:Subject:References:From:Subject; b=oOAu04NN9pSIJGts47KXODrOFLFrtqrQdpBRad+PSafcgWmp1Hw3FYtqiuDfns4FkRQwdS2XcyDJoKhxk+HPBZ1nzoRuodSA+MUQ1W5QYRpoAiyoXpn9yGX/ve1q/yST3LmxQ1PEXieLpEEX19kX2h9EnE/98YkPjI14xFqygfSjazdW4JoClRdhcoS/aW90W5ftdJDnt9m7/Vl/7GHMrdfU1VZzgcGFFOgv0JRvvDS7HyQEDHDV0t+jYnk7zvtPwDFFtOfskpqrKHA9brWgI/g7EL4YdpZI6JeoviC6BpnnRSQDvrrZdFcaOpMHlssI2Srw928cBke+n4OjuqawZA==
+X-YMail-OSG: nKdX4cAVM1l4f0uXFWDjUbneD6Q9SUR1xSBoBtedoAhdQ84WmaW52ABPK1DXOGE
+ NtwSXkbjljeS4zIrXEaRRbzWtDFKOZ5YsVaIfTgVfSGe5QKlS5nt38tAi2CqE2teBUvJ6.JjAOAu
+ LfGpo1l_4OrGGvjr.WNUL1Zi5VRMa76G0OxCEgTNZjYpylEQxkWc2xNV_u2dmSGzZDRbZXC7YqyS
+ ld7Ek9nr6BMUnvyvNTaBa1SDmhtGBqKSaTTFaVVYjnqGRZLyWnjW_4LbNDSWa9GtiExhdcECREoG
+ AHqzFdKoG62SghxExHoAqLU87ic3W3Yms3mKQfNfydQsRxzGQ0XLgiHSZL7z0UtuCDLmnyFz9IWc
+ 6f0_yJ0oscXHN3H8Xt7J0_m2AGlEn1vdK.ukYos3SYrlpgn8keS4D_2kQFFmqiOU1S0wD0yNXU61
+ qx5PK0MKPq2mfBVacXk1C_vod6nr9TxdDIIAJiMaJwiPuuoJ_hoSN6Z_MXpfbLLdqxFzpsJxfHcd
+ g1l7z9hcJ.L.9tpfVFHZ_1MuNKuNTSNdsmmpJ8JPBEcmALXiFyr_Twv1f9X533ZjfTAIn02BDtvS
+ YCsRyIr9wSgT3xCQz626KW2fMfx_iXvw4_ac5x4WUitrVYSYzlKErGWrg3gZJwD_n8QgGk6ux.p8
+ FQ_iN05yvKSQmXmOtNEwdHUjPFro._1mgIZqxgjEN9ynWpTQUqJTfnyVpiDlWJE8rsLQcaYv4zBu
+ QPPvxe5bfEiU9c4XEeoGwE1s6ePMHO0CMuGt6opEeC8PmAlGWUwQMP7vdJLsalpP75WEpw52cwxf
+ kZZ61VOv4w1p.IoirZpeMTSNJ3AAvCniIgKcygiWibOFcuUdCaiVV12Oci5tuqGSXvUlNuBXvbD0
+ rWb91tLeSZUKRTel9N5rvVHakrEhqDpO7RMaeghQX95x4Otlw8RXMAqvihdONnq4-
+Date: Thu, 5 Jul 2018 20:19:59 +0000 (UTC)
+From: Shawn Rabban <shawnrabban@yahoo.com>
+Reply-To: Shawn Rabban <shawnrabban@yahoo.com>
+To: Abe Maghen <maghenre@hotmail.com>
+Message-ID:<1702466078.3370684.1530821999607@mail.yahoo.com>
+Subject: FROM SHAWN RABBAN
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3370683_401603124.1530821999604"
+References: <1702466078.3370684.1530821999607.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.12062 YahooMailNeo Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+Content-Length: 10641
+X-ZohoMail-DKIM: pass (identity @yahoo.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_NDS SPK
+X-ZM-MESSAGEID: 1530822005871000001
+X-ZohoMail-Status: 1
+
+
+------=_Part_3370683_401603124.1530821999604
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Iranian Diplomat Arrested in Connection With Plot to Bomb Dissidents' Rally=
+ in Paris
+ =20
+| =20
+|  =20
+|  =20
+|   |    |
+
+   |
+
+  |
+| =20
+|    | =20
+Iranian Diplomat Arrested in Connection With Plot to Bomb Dissidents' R...
+ (CNSNews.com) =E2=80=93 Iran is demanding the immediate release of a diplo=
+mat arrested in Germany in connection with an ...  |   |
+
+  |
+
+  |
+
+=20
+=C2=A0City Capital Realty offers many different loan programs:   =20
+   - Stated Income Apartment and Commercial Loan  =20
+
+   - Gas Station and Car Wash Loan | Hotel/Motel  =20
+
+   - Land entitlement loan | Construction Loan | Land Loan  =20
+
+   - Hard Money |=C2=A0SBA |Commercial | Construction | Apartment Loan
+(310) 714-5616
+www.laconstructionloan.comwww.citycapitalrealty.com
+------=_Part_3370683_401603124.1530821999604
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office"><head><!--[=
+if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>=
+96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]--></head><bo=
+dy><div style=3D"color:#000; background-color:#fff; font-family:Helvetica N=
+eue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:16px"><div id=3D=
+"yui_3_16_0_ym19_1_1530821897805_6022" dir=3D"ltr"><span id=3D"yui_3_16_0_y=
+m19_1_1530821897805_6398"><a href=3D"https://www.yahoo.com/news/m/cd368c36-=
+dd2f-3729-a3d9-2e42f74b6a53/iranian-diplomat-arrested-in.html?soc_src=3Dmai=
+l&amp;soc_trk=3Dma" id=3D"yui_3_16_0_ym19_1_1530821897805_6397" class=3D"en=
+hancr2_6351579f-b6e0-4985-29d0-bb5fd3c820a4">Iranian Diplomat Arrested in C=
+onnection With Plot to Bomb Dissidents' Rally in Paris</a></span></div><div=
+ id=3D"yui_3_16_0_ym19_1_1530821897805_6579"><br></div><div id=3D"enhancr2_=
+6351579f-b6e0-4985-29d0-bb5fd3c820a4" class=3D"yahoo-link-enhancr-card  yma=
+il-preserve-class ymail-preserve-style" style=3D"max-width:400px;font-famil=
+y:'Helvetica Neue', Helvetica, Arial, sans-serif;" data-url=3D"https://www.=
+yahoo.com/news/m/cd368c36-dd2f-3729-a3d9-2e42f74b6a53/iranian-diplomat-arre=
+sted-in.html" data-type=3D"yenhancr" data-category=3D"article" data-embed-u=
+rl=3D"" data-size=3D"medium" dir=3D"ltr" contenteditable=3D"false"> <a href=
+=3D"https://www.yahoo.com/news/m/cd368c36-dd2f-3729-a3d9-2e42f74b6a53/irani=
+an-diplomat-arrested-in.html?soc_src=3Dmail&amp;soc_trk=3Dma" style=3D"text=
+-decoration:none !important; color: #000 !important;" class=3D"yahoo-enhanc=
+r-cardlink" target=3D"_blank" rel=3D"noreferrer" id=3D"yui_3_16_0_ym19_1_15=
+30821897805_6615"> <table class=3D"card-wrapper yahoo-ignore-table" style=
+=3D"max-width:400px;" id=3D"yui_3_16_0_ym19_1_1530821897805_6614" cellspaci=
+ng=3D"0" cellpadding=3D"0" border=3D"0"> <tbody id=3D"yui_3_16_0_ym19_1_153=
+0821897805_6613"><tr id=3D"yui_3_16_0_ym19_1_1530821897805_6612"> <td id=3D=
+"yui_3_16_0_ym19_1_1530821897805_6611" width=3D"400"> <table class=3D"card =
+yahoo-ignore-table" style=3D"max-width:400px;" id=3D"yui_3_16_0_ym19_1_1530=
+821897805_6610" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0"> <tbody id=3D"yui_3_16_0_ym19_1_1530821897805_6609"><tr id=3D"yui_3_=
+16_0_ym19_1_1530821897805_6608"> <td class=3D"card-primary-image-cell" styl=
+e=3D"background:#000 url('https://s.yimg.com/vv//api/res/1.2/XIOLZiUlckEuzd=
+EoON2niw--~A/YXBwaWQ9bWFpbDtmaT1maWxsO2g9MjAwO3c9NDAw/https://s.yimg.com/uu=
+/api/res/1.2/CwgRYF0RV8dUMmdBS5m_XA--~B/aD0yNTc7dz00NTA7c209MTthcHBpZD15dGF=
+jaHlvbg--/https://s.yimg.com/uu/api/res/1.2/kLGrVAfNjfvLyTuMR1kGfQ--/dz00NT=
+A7aD0yNTc7dGFnPW9yaWdpbmFsO2FwcGlkPXluZXdz/http://streambe.zenfs.com/stream=
+be/streambe_cd368c36-dd2f-3729-a3d9-2e42f74b6a53-1646877728.jpeg.cf.jpg') n=
+o-repeat center center;background-size:cover;height:200px;position:relative=
+;" id=3D"yui_3_16_0_ym19_1_1530821897805_6607" valign=3D"top" bgcolor=3D"#0=
+00000" background=3D"https://s.yimg.com/vv//api/res/1.2/XIOLZiUlckEuzdEoON2=
+niw--~A/YXBwaWQ9bWFpbDtmaT1maWxsO2g9MjAwO3c9NDAw/https://s.yimg.com/uu/api/=
+res/1.2/CwgRYF0RV8dUMmdBS5m_XA--~B/aD0yNTc7dz00NTA7c209MTthcHBpZD15dGFjaHlv=
+bg--/https://s.yimg.com/uu/api/res/1.2/kLGrVAfNjfvLyTuMR1kGfQ--/dz00NTA7aD0=
+yNTc7dGFnPW9yaWdpbmFsO2FwcGlkPXluZXdz/http://streambe.zenfs.com/streambe/st=
+reambe_cd368c36-dd2f-3729-a3d9-2e42f74b6a53-1646877728.jpeg.cf.jpg"> <!--[i=
+f gte mso 9]><v:rect fill=3D"true" stroke=3D"false" style=3D"width:400px;he=
+ight:218px;position:absolute;top:0;left:0;"><v:fill type=3D"frame" color=3D=
+"#000000" src=3D"https://s.yimg.com/vv//api/res/1.2/XIOLZiUlckEuzdEoON2niw-=
+-~A/YXBwaWQ9bWFpbDtmaT1maWxsO2g9MjAwO3c9NDAw/https://s.yimg.com/uu/api/res/=
+1.2/CwgRYF0RV8dUMmdBS5m_XA--~B/aD0yNTc7dz00NTA7c209MTthcHBpZD15dGFjaHlvbg--=
+/https://s.yimg.com/uu/api/res/1.2/kLGrVAfNjfvLyTuMR1kGfQ--/dz00NTA7aD0yNTc=
+7dGFnPW9yaWdpbmFsO2FwcGlkPXluZXdz/http://streambe.zenfs.com/streambe/stream=
+be_cd368c36-dd2f-3729-a3d9-2e42f74b6a53-1646877728.jpeg.cf.jpg"/></v:rect><=
+![endif]--> <table class=3D"yahoo-ignore-table" valign=3D"top" style=3D"wid=
+th:100%;" id=3D"yui_3_16_0_ym19_1_1530821897805_6606" cellspacing=3D"0" cel=
+lpadding=3D"0" border=3D"0"> <tbody id=3D"yui_3_16_0_ym19_1_1530821897805_6=
+605"><tr id=3D"yui_3_16_0_ym19_1_1530821897805_6604"> <td style=3D"backgrou=
+nd:transparent url('https://s.yimg.com/nq/storm/assets/enhancrV2/12/overlay=
+-tile.png') repeat left top;height:200px;" id=3D"yui_3_16_0_ym19_1_15308218=
+97805_6603" valign=3D"top" bgcolor=3D"transparent" background=3D"https://s.=
+yimg.com/nq/storm/assets/enhancrV2/12/overlay-tile.png"> <!--[if gte mso 9]=
+><v:rect fill=3D"true" stroke=3D"false" style=3D"width:400px;height:218px;p=
+osition:absolute;top:-18px;left:0;"><v:fill type=3D"pattern" color=3D"#0000=
+00" src=3D"https://s.yimg.com/nq/storm/assets/enhancrV2/12/overlay-tile.png=
+"/><v:textbox inset=3D"0,0,20px,0"><![endif]--> <table class=3D"yahoo-ignor=
+e-table" style=3D"width:100%;height:185px;min-height:185px;" id=3D"yui_3_16=
+_0_ym19_1_1530821897805_6602" height=3D"185"> <tbody id=3D"yui_3_16_0_ym19_=
+1_1530821897805_6601"><tr id=3D"yui_3_16_0_ym19_1_1530821897805_6600"> <td =
+class=3D"card-richInfo2" style=3D"text-align:left;text-align:left;padding:1=
+5px 0 0 15px;vertical-align:top;" id=3D"yui_3_16_0_ym19_1_1530821897805_683=
+9">  </td> <td class=3D"card-actions" style=3D"text-align:right;padding:15p=
+x 15px 0 0;vertical-align:top;" id=3D"yui_3_16_0_ym19_1_1530821897805_6599"=
+> <div class=3D"card-share-container"></div> </td> </tr> </tbody></table> <=
+!--[if gte mso 9]></v:textbox></v:rect><![endif]--> </td> </tr> </tbody></t=
+able> </td> </tr> <tr> <td> <table class=3D"card-info yahoo-ignore-table" s=
+tyle=3D"background:#fff;position:relative;z-index:2;width:95%;max-width:380=
+px;border:1px solid #e0e4e9;border-bottom:3px solid #400090;margin-top:-40p=
+x;margin-left:auto;margin-right:auto;" cellspacing=3D"0" cellpadding=3D"0" =
+border=3D"0" align=3D"center"> <tbody><tr> <td style=3D"background-color:#f=
+fffff;padding:16px 0 16px 12px;vertical-align:top;"> <img class=3D"card-obj=
+ect-1 yahoo-ignore-inline-image ymail-preserve-class" src=3D"https://s.yimg=
+.com/nq/storm/assets/enhancrV2/23/logos/yahoo.png" style=3D"min-width:32px;=
+border:1px solid #e0e4e9;margin-top:3px;" data-id=3D"a64173e8-a049-251b-3c6=
+8-500640c1678b" height=3D"32">  </td> <td style=3D"vertical-align:middle;pa=
+dding:16px 12px;width:99%;"> <h2 class=3D"card-title" style=3D"font-size: 1=
+6px; line-height:19px; margin:0 0 4px 0;font-family:'Helvetica Neue', Helve=
+tica, Arial, sans-serif;word-break:break-word;">Iranian Diplomat Arrested i=
+n Connection With Plot to Bomb Dissidents' R...</h2>  <div class=3D"card-de=
+scription" style=3D"font-size:11px;line-height:15px;color:#999;word-break:b=
+reak-word;">(CNSNews.com) =E2=80=93 Iran is demanding the immediate release=
+ of a diplomat arrested in Germany in connection with an ...</div> </td> <t=
+d style=3D"text-align:right;padding:16px 12px 16px 0;">  </td> </tr> </tbod=
+y></table> </td> </tr> </tbody></table> </td> </tr> </tbody></table> </a></=
+div><div id=3D"yui_3_16_0_ym19_1_1530821897805_7293"><br></div><div id=3D"y=
+ui_3_16_0_ym19_1_1530821897805_6396">&nbsp;</div><div class=3D"signature" i=
+d=3D"yui_3_16_0_ym19_1_1530821897805_6317"><div id=3D"yui_3_16_0_ym19_1_153=
+0821897805_6316"><img class=3D"img-overlay-selected" id=3D"yiv0624812101yui=
+_3_16_0_ym19_1_1471040208404_16195" alt=3D"http://www.citycapitalrealty.com=
+/Rabban_Email_Sign.jpg" src=3D"http://www.citycapitalrealty.com/Rabban_Emai=
+l_Sign.jpg" data-id=3D"8fa6c3ff-4131-2605-d41d-6cd03f1b04c5"></div><div><di=
+v style=3D"margin:0in 0in 0pt;"><span style=3D"color:rgb(255, 110, 1);"><sp=
+an style=3D"font-family:'Helvetica Neue', Helvetica, Arial, 'Lucida Grande'=
+, sans-serif;font-weight:bold;font-size:medium;">City Capital Realty offers=
+ many different loan programs: </span></span></div><ul><li><span style=3D"f=
+ont-family:'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;=
+font-size:small;">Stated Income Apartment and Commercial Loan<br></span></l=
+i><li><span style=3D"font-family:'Helvetica Neue', Helvetica, Arial, 'Lucid=
+a Grande', sans-serif;font-size:small;">Gas Station and Car Wash Loan | Hot=
+el/Motel<br></span></li><li><span style=3D"font-family:'Helvetica Neue', He=
+lvetica, Arial, 'Lucida Grande', sans-serif;font-size:small;"></span><span =
+style=3D"font-family:'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', s=
+ans-serif;font-size:small;">Land entitlement loan | Construction Loan | Lan=
+d Loan</span><br></li><li><span style=3D"font-family:'Helvetica Neue', Helv=
+etica, Arial, 'Lucida Grande', sans-serif;font-size:small;">Hard Money |&nb=
+sp;</span><span style=3D"font-family:'Helvetica Neue', Helvetica, Arial, 'L=
+ucida Grande', sans-serif;font-size:small;">SBA |Commercial | Construction =
+| Apartment Loan</span></li></ul><div>(310) 714-5616<br></div><div><span st=
+yle=3D"color:rgb(76, 118, 162);font-family:verdana, helvetica, sans-serif;f=
+ont-weight:bold;font-size:small;"><a rel=3D"nofollow" target=3D"_blank" hre=
+f=3D"http://www.laconstructionloan.com/">www.laconstructionloan.com</a></sp=
+an></div></div><div><span style=3D"font-family:verdana, helvetica, sans-ser=
+if;font-weight:bold;font-size:small;"><a rel=3D"nofollow" target=3D"_blank"=
+ href=3D"http://citycapitalrealty.com/">www.citycapitalrealty.com</a></span=
+></div></div></div></body></html>
+------=_Part_3370683_401603124.1530821999604--

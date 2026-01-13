@@ -1,0 +1,821 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of in.constantcontact.com designates 208.75.123.230 as permitted sender) client-ip=208.75.123.230; envelope-from=AkS7jOEHhQ8WTfa8vzzcf9Q==_1117534931892_G8CIwAXiEeeaitSuUnW1Rg==@in.constantcontact.com; helo=ccm230.constantcontact.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of in.constantcontact.com designates 208.75.123.230 as permitted sender)  smtp.mailfrom=AkS7jOEHhQ8WTfa8vzzcf9Q==_1117534931892_G8CIwAXiEeeaitSuUnW1Rg==@in.constantcontact.com
+Return-Path: <AkS7jOEHhQ8WTfa8vzzcf9Q==_1117534931892_G8CIwAXiEeeaitSuUnW1Rg==@in.constantcontact.com>
+Return-Path: <AkS7jOEHhQ8WTfa8vzzcf9Q==_1117534931892_G8CIwAXiEeeaitSuUnW1Rg==@in.constantcontact.com>
+Received: from ccm230.constantcontact.com (ccm230.constantcontact.com [208.75.123.230]) by mx.zohomail.com
+	with SMTPS id 1530544544236479.3580518627796; Mon, 2 Jul 2018 08:15:44 -0700 (PDT)
+Received: from [10.252.0.106] ([10.252.0.106:54330] helo=p2-jbemailsyndicator12.ctct.net)
+	by 10.249.244.10 (envelope-from <AkS7jOEHhQ8WTfa8vzzcf9Q==_1117534931892_G8CIwAXiEeeaitSuUnW1Rg==@in.constantcontact.com>)
+	(ecelerity 4.2.1.52273 r(Core:4.2.1.11)) with ESMTP
+	id 3B/52-43696-6914A3B5; Mon, 02 Jul 2018 11:15:34 -0400
+DKIM-Signature: v=1; q=dns/txt; a=rsa-sha256; c=relaxed/relaxed; s=2020157154; d=frlinvestors.ccsend.com; h=date:mime-version:subject:X-Feedback-ID:message-id:from:reply-to:list-unsubscribe:list-unsubscribe-post:to; bh=ASbRMXCi/QsFkxvEBG3xRBcOLgzm4ZSOzL3jrMWhBkA=; b=DKpxXM0HLzvvbUndXb/bJaETUIa8GVlUMY57YZ2FcCKbaDtS6M4CZqOZZM17N+h6uPqwcZG3Ow1URBycPmz8ae/u4wvt7h2bIectkO9oSl34n/cFQ+/iS1TDAaEdsFa/mZ8pyQ73Y+AlG6fx9axg3sO3Z2JpoUvC02SzdaGaR2E=
+DKIM-Signature: v=1; q=dns/txt; a=rsa-sha256; c=relaxed/relaxed; s=1000073432; d=auth.ccsend.com; h=date:mime-version:subject:X-Feedback-ID:message-id:from:reply-to:list-unsubscribe:list-unsubscribe-post:to; bh=ASbRMXCi/QsFkxvEBG3xRBcOLgzm4ZSOzL3jrMWhBkA=; b=iEVEhee9anGiWa50ZSTuIu3LItPgWUYI8xNUyjz9vKKqPlXeea5ZJclkr2qri6nss7Bvu2CihNUyJFtfp4j+kRAy4wnWCJXmwBAOdDdKgPDRb+YXKP8q8POPbTmKJhG1nzpNb6Bq1sd/FnlIv+Bv1qWMHiMGjX4YaxhDc3LW1xM=
+Message-ID:<1130858455441.1117534931892.1764950177.0.291115JL.1002@scheduler.constantcontact.com>
+Date: Mon, 2 Jul 2018 11:15:34 -0400 (EDT)
+From: First Rehab Lending <ccaruso@frlinvestors.com>
+Reply-To: cpoindexter@frlinvestors.com
+Sender: First Rehab Lending <ccaruso@frlinvestors.ccsend.com>
+To: sam@c-mtg.com
+Subject: Celebrate With Us
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_394562558_1754998044.1530544534981"
+List-Unsubscribe: <https://visitor.constantcontact.com/do?p=un&m=001AUogNNaa2gFBdBxwNiQNTA%3D%3D&se=001ZYcO9HxV_X65OaOyOLKeFA%3D%3D&t=001EkZLEx15CcE%3D&llr=u6slezqab>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Campaign-Activity-ID: 912ee338-41e1-43c5-937d-af2fcf371ff5
+X-Channel-ID: 1bc088c0-05e2-11e7-9a8a-d4ae5275b546
+X-Mailer: Roving Constant Contact 2012 (http://www.constantcontact.com)
+X-Return-Path-Hint: AkS7jOEHhQ8WTfa8vzzcf9Q==_1117534931892_G8CIwAXiEeeaitSuUnW1Rg==@in.constantcontact.com
+X-Roving-Campaignid: 1130858455441
+X-Roving-Id: 1117534931892.1764950177
+X-Feedback-ID: 1bc088c0-05e2-11e7-9a8a-d4ae5275b546:912ee338-41e1-43c5-937d-af2fcf371ff5:1117534931892:CTCT
+X-CTCT-ID: 1af1c710-05e2-11e7-9a8a-d4ae5275b546
+X-ZohoMail-DKIM: pass (identity @frlinvestors.ccsend.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_1 S_166
+X-ZM-MESSAGEID: 1530544545273000001
+X-ZohoMail-Status: 1
+
+
+------=_Part_394562558_1754998044.1530544534981
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Happy 4th! WISHING EVERYONE A SAFE AND HAPPY FOURTH OF JULY! Our office wil=
+l be closed on Wednesday, July 4th in observance of Independence Day. Celeb=
+rate our NEW loan products! Perfect for your next real estate investment.  =
+Check it out today! First Rehab Lending | 631.393.7581 | Email Info | Websi=
+te =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C First Rehab Lending | 538 Broad =
+Hollow Road, Melville, NY 11747 Unsubscribe sam@c-mtg.com Update Profile | =
+About our service provider Sent by ccaruso@frlinvestors.com
+------=_Part_394562558_1754998044.1530544534981
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--[if gte mso 9]>
+<style id="ol-styles">
+/* OUTLOOK-SPECIFIC STYLES */
+li {
+text-indent: -1em;
+padding: 0;
+margin: 0;
+line-height: 1.2;
+}
+ul, ol {
+padding: 0;
+margin: 0 0 0 40px;
+}
+p {
+margin: 0;
+padding: 0;
+margin-bottom: 0;
+}
+sup {
+font-size: 85% !important;
+}
+sub {
+font-size: 85% !important;
+}
+</style>
+<![endif]-->
+<style id="template-styles-head" data-premailer="ignore">
+.footer-main-width {
+width: 630px!important;
+max-width: 630px;
+}
+table {
+border-collapse: collapse;
+table-layout: fixed;
+}
+.bgimage {
+table-layout: auto;
+}
+.preheader-container {
+color: transparent;
+display: none;
+font-size: 1px;
+line-height: 1px;
+max-height: 0px;
+max-width: 0px;
+opacity: 0;
+overflow: hidden;
+}
+/* LIST AND p STYLE OVERRIDES */
+.editor-text p {
+margin: 0;
+padding: 0;
+margin-bottom: 0;
+}
+.editor-text ul,
+.editor-text ol {
+padding: 0;
+margin: 0 0 0 40px;
+}
+.editor-text li {
+padding: 0;
+margin: 0;
+line-height: 1.2;
+}
+/* ==================================================
+CLIENT/BROWSER SPECIFIC OVERRIDES
+================================================== */
+/* IE: correctly scale images with w/h attbs */
+img {
+-ms-interpolation-mode: bicubic;
+}
+/* Text Link Style Reset */
+a {
+text-decoration: underline;
+}
+/* iOS: Autolink styles inherited */
+a[x-apple-data-detectors] {
+text-decoration: underline !important;
+font-size: inherit !important;
+font-family: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+color: inherit !important;
+}
+/* FF/Chrome: Smooth font rendering */
+.editor-text, .MainTextFullWidth {
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+/* Gmail/Web viewport fix */
+u + .body .template-body {
+width: 630px;
+}
+@media only screen and (max-width:480px) {
+u + .body .template-body {
+width: 100% !important;
+}
+}
+/* Office365/Outlook.com image reset */
+[office365] button, [office365] .divider-base div, [office365] .spacer-base div, [office365] .editor-image div { display: block !important; }
+</style>
+<style type="text/css">
+@media only screen and (max-width:480px) {
+table {
+border-collapse: collapse;
+}
+.main-width {
+width: 100% !important;
+}
+.mobile-hidden {
+display: none !important;
+}
+td.OneColumnMobile {
+display: block !important;
+}
+.OneColumnMobile {
+width: 100% !important;
+}
+td.editor-col .editor-text {
+padding-left: 20px !important; padding-right: 20px !important;
+}
+td.editor-col .editor-image.editor-image-hspace-on td {
+padding-left: 20px !important; padding-right: 20px !important;
+}
+td.editor-col .editor-button-container {
+padding-left: 20px !important; padding-right: 20px !important;
+}
+td.editor-col .editor-social td {
+padding-left: 20px !important; padding-right: 20px !important;
+}
+td.editor-col .block-margin {
+padding-left: 20px !important; padding-right: 20px !important;
+}
+td.editor-col td.block-margin .editor-text {
+padding-left: 0px !important; padding-right: 0px !important;
+}
+td.editor-col td.block-margin .editor-image.editor-image-hspace-on td {
+padding-left: 0px !important; padding-right: 0px !important;
+}
+td.editor-col td.block-margin .editor-button-container {
+padding-left: 0px !important; padding-right: 0px !important;
+}
+td.editor-col td.block-margin .editor-social td {
+padding-left: 0px !important; padding-right: 0px !important;
+}
+.editor-button td > table tr > td {
+padding: 0px 0px 0px 0px !important;
+}
+.editor-button td > table tr > td td {
+padding: 13px 20px 14px 20px !important;
+}
+.layout {
+padding: 6px 6px 6px 6px !important;
+}
+.layout-container-border {
+padding: 1px 1px 1px 1px !important;
+}
+.layout-container {
+padding: 0px 0px 0px 0px !important;
+}
+.editor-image img {
+width: auto !important; margin-left: auto !important; margin-right: auto !important;
+}
+.editor-image .image-cell {
+padding-bottom: 15px !important;
+}
+.editor-text {
+font-size: 16px !important;
+}
+.section-headline-text {
+font-size: 24px !important;
+}
+.headline-text {
+font-size: 24px !important;
+}
+.subheadline-text {
+font-size: 20px !important;
+}
+.feature {
+padding-top: 0px !important; padding-bottom: 0px !important;
+}
+.layout-outer {
+padding: 0px 20px !important;
+}
+.feature-heading-text {
+font-size: 20px !important;
+}
+.feature-text {
+font-size: 16px !important;
+}
+.split.editor-col {
+margin-top: 0px !important;
+}
+.split.editor-col ~ .split.editor-col {
+margin-top: 10px !important;
+}
+.split-layout-margin {
+padding: 0px 20px !important;
+}
+.article {
+padding-top: 0px !important; padding-bottom: 0px !important;
+}
+.article-heading-text {
+font-size: 20px !important;
+}
+.article-text {
+font-size: 16px !important;
+}
+.social-container {
+text-align: center !important;
+}
+.social-text {
+font-size: 14px !important;
+}
+.cpn-heading-text {
+font-size: 28px !important;
+}
+.action-block .poll-answer {
+width: 100% !important; display: block !important;
+}
+.action-block .poll-button {
+width: 100% !important;
+}
+div.MobileFooter {
+font-size: 11px !important;
+}
+td.FooterMobile {
+padding: 0px 10px 0px 10px !important;
+}
+td.MainCenter {
+width: 100% !important;
+}
+table.MainSide {
+display: none !important;
+}
+img.MainSide {
+display: none !important;
+}
+td.MainSide {
+display: none !important;
+}
+.rsvp-button-inner {
+padding: 0px 0px 10px 0px !important;
+}
+.rsvp-button-outer {
+width: 100% !important; max-width: 100% !important;
+}
+.footer-main-width {
+width: 100% !important;
+}
+.footer-mobile-hidden {
+display: none !important;
+}
+.footer-mobile-hidden {
+display: none !important;
+}
+.footer-column {
+display: block !important;
+}
+}
+@media only screen and (max-width:320px) {
+.layout {
+padding: 0px 0px 0px 0px !important;
+}
+}
+</style>
+</head>
+<body class="body" align="center" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #913A2F; margin: 0px; min-width: 100%; padding: 0px; width: 100%;" bgcolor="#913A2F">
+<table class="template-body" border="0" cellpadding="0" cellspacing="0" style="min-width: 100%; text-align: center;" width="100%">
+<tr>
+<td class="preheader-container">
+<div>
+<div id="preheader" style="color: transparent; display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+<span data-entity-ref="preheader">Happy 4th!</span>
+</div>
+<img src="http://r20.rs6.net/on.jsp?ca=912ee338-41e1-43c5-937d-af2fcf371ff5&a=1117534931892&c=1af1c710-05e2-11e7-9a8a-d4ae5275b546&ch=1bc088c0-05e2-11e7-9a8a-d4ae5275b546" />
+</div>
+</td>
+</tr>
+<tr>
+<td class="template-shell-container" align="center">
+<div class="bgcolor" style="background: #913A2F;">
+<!--[if gte mso 9]>
+<v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+<v:fill type="tile" src="https://imgssl.constantcontact.com/letters/images/PT13738/Flag_BS94896872_v2.png" color="#913A2F" ></v:fill>
+</v:background>
+<![endif]-->
+<table class="bgimage" width="100%" border="0" cellpadding="0" cellspacing="0" style="background: url('https://imgssl.constantcontact.com/letters/images/PT13738/Flag_BS94896872_v2.png') repeat top left;" background="https://imgssl.constantcontact.com/letters/images/PT13738/Flag_BS94896872_v2.png">
+<tbody>
+<tr>
+<td align="center">
+<table class="main-width" width="630" align="center" border="0" cellpadding="0" cellspacing="0" style="width: 630px;">
+<tbody>
+<tr>
+<td class="layout" align="center" valign="top" style="padding: 15px 5px;">
+<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="layout-container-border" align="center" valign="top" style="background: #365380; padding: 2px;" bgcolor="#365380">
+<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="background: #365380;" bgcolor="#365380">
+<tbody>
+<tr>
+<td class="layout-container" align="center" valign="top" style="background: #fafafa; padding: 0;" bgcolor="#fafafa">
+<div class="">
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="spacer editor-col OneColumnMobile" width="100%" align="left" valign="top">
+<div class="gl-contains-spacer">
+<table class="editor-spacer" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="spacer-container" align="center" valign="top">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="spacer-base" style="height: 1px; line-height: 1px; padding-bottom: 19px;" width="100%" align="center" valign="top">
+<div><img alt="" width="5" height="1" border="0" hspace="0" vspace="0" src="https://imgssl.constantcontact.com/letters/images/sys/S.gif" style="display: block; height: 1px; width: 5px;"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="feature-margin" align="left" valign="top" style="background: #fafafa; padding: 0px 20px;" bgcolor="#fafafa">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="feature editor-col OneColumnMobile" width="100%" align="left" valign="top" style="background: #365380;" bgcolor="#365380">
+<div class="gl-contains-divider">
+<table class="editor-divider" width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="divider-container" align="center" valign="top">
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-content-editor" style="cursor: default; min-width: 100%;">
+<tbody>
+<tr>
+<td class="divider-base divider-solid" width="100%" align="center" valign="top" style="padding: 0px 0px 9px;">
+<table style="height: 1px; min-width: 100%; width: 100%;" cellpadding="0" cellspacing="0" border="0" align="center">
+<tbody>
+<tr>
+<td height="1" align="center" style="background: rgb(250, 250, 250); border-bottom-style: none; height: 1px; line-height: 1px; padding-bottom: 2px;" bgcolor="rgb(250, 250, 250)">
+<div><img alt="" width="5" height="1" border="0" hspace="0" vspace="0" src="https://imgssl.constantcontact.com/letters/images/sys/S.gif" style="display: block; height: 1px; width: 5px;"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-image">
+<table class="editor-image  editor-image-vspace-on" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td align="center" valign="top" style="padding-bottom: 10px; padding-top: 10px;">
+<div class="publish-container">  <img alt="" class="" style="display: block; height: auto !important; max-width: 100% !important;" width="575" border="0" hspace="0" vspace="0" src="http://files.constantcontact.com/4bbc5423401/adecc88b-a212-4e50-83d1-40e78e4c8097.png">
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-text">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="editor-text center-text feature-heading-text" align="left" valign="top" style="color: #ffffff; display: block; font-family: Cambria,Georgia,Times New Roman,serif; font-size: 22px; font-weight: bold; padding: 10px 20px; text-align: center; word-wrap: break-word;">
+<div></div>
+<div class="text-container galileo-ap-content-editor"><div>
+<div style="text-align: center;" align="center"><span style="color: rgb(255, 255, 255); font-family: Cambria, Georgia, Times New Roman, serif; font-size: 28px; font-weight: bold;">WISHING EVERYONE A SAFE AND </span></div>
+<div style="text-align: center;" align="center"><span style="color: rgb(255, 255, 255); font-family: Cambria, Georgia, Times New Roman, serif; font-size: 28px; font-weight: bold;">HAPPY FOURTH OF JULY! </span></div>
+</div></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-divider">
+<table class="editor-divider" width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="divider-container" align="center" valign="top">
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-content-editor" style="cursor: default; min-width: 100%;">
+<tbody>
+<tr>
+<td class="divider-base divider-solid" width="100%" align="center" valign="top" style="padding: 5px 0px;">
+<table style="height: 1px; min-width: 10%; width: 10%;" cellpadding="0" cellspacing="0" border="0" align="center">
+<tbody>
+<tr>
+<td height="1" align="center" style="background: #BF3F2F; border-bottom-style: none; height: 1px; line-height: 1px; padding-bottom: 2px;" bgcolor="#BF3F2F">
+<div><img alt="" width="5" height="1" border="0" hspace="0" vspace="0" src="https://imgssl.constantcontact.com/letters/images/sys/S.gif" style="display: block; height: 1px; width: 5px;"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-text">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="editor-text center-text feature-text" align="left" valign="top" style="color: #ffffff; display: block; font-family: Cambria,Georgia,Times New Roman,serif; font-size: 16px; padding: 10px 20px; text-align: center; word-wrap: break-word;">
+<div></div>
+<div class="text-container galileo-ap-content-editor"><div><div><span style="color: rgb(255, 255, 255); font-family: Cambria, Georgia, Times New Roman, serif; font-size: 18px;">Our office will be closed on Wednesday, July 4th in observance of Independence Day.</span></div></div></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-divider">
+<table class="editor-divider" width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="" align="center" valign="top">
+<table width="100%" class="galileo-ap-content-editor" style="cursor: default; min-width: 100%;">
+<tbody>
+<tr>
+<td class="divider-base divider-solid" width="100%" align="center" valign="top" style="padding: 5px 0px;">
+<table cellpadding="0" cellspacing="0" border="0" align="center" style="height: 1px; min-width: 10%; width: 10%;">
+<tbody>
+<tr>
+<td height="1" align="center" style="background: #BF3F2F; border-bottom-style: none; height: 1px; line-height: 1px; padding-bottom: 2px;" bgcolor="#BF3F2F">
+<div><img alt="" width="5" height="1" border="0" hspace="0" vspace="0" src="https://imgssl.constantcontact.com/letters/images/1101116784221/S.gif" style="display: block; height: 1px; width: 5px;"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-text">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="editor-text " align="left" valign="top" style="color: #606d78; display: block; font-family: Cambria,Georgia,Times New Roman,serif; font-size: 14px; padding: 10px 20px; text-align: left; word-wrap: break-word;">
+<div></div>
+<div class="text-container galileo-ap-content-editor"><div>
+<div style="text-align: center;" align="center"><span style="background: rgb(255, 255, 255); color: rgb(191, 63, 47); font-size: 24px; font-weight: bold;">Celebrate our NEW loan products! </span></div>
+<div style="text-align: center;" align="center"><span style="background: rgb(255, 255, 255); color: rgb(191, 63, 47); font-size: 24px; font-weight: bold;">Perfect for your next real estate investment.</span></div>
+</div></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-button">
+<table class="editor-button" width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width: 100%; width: 100%;">
+<tbody>
+<tr>
+<td class="editor-button-container " style="color: #FFFFFF; display: block; font-family: Cambria,Georgia,Times New Roman,serif; font-size: 14px; font-weight: bold; padding: 10px 20px; text-decoration: none;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="galileo-ap-content-editor" style="min-width: 100%; width: 100%;">
+<tbody>
+<tr>
+<td class="MainTextFullWidthTD" align="center" valign="top" style="color: #FFFFFF; display: block; font-family: Cambria,Georgia,Times New Roman,serif; font-size: 14px; font-weight: bold; padding: 0px; text-decoration: none;">
+<table border="0" cellpadding="0" cellspacing="0" style="background: #BF3F2F; border-radius: 0px; border-spacing: 0; border: none; min-width: initial; moz-border-radius: 0px; padding: 0; width: initial;" bgcolor="#BF3F2F">
+<tbody>
+<tr>
+<td class="MainTextFullWidthTD" align="center" valign="top" style="color: #FFFFFF; display: block; font-family: Cambria,Georgia,Times New Roman,serif; font-size: 14px; font-weight: bold; padding: 13px 20px 14px; text-decoration: none;">
+<div>
+<div class="MainTextFullWidth"><a href="http://r20.rs6.net/tn.jsp?f=001oE3-GMxSPywjIn1gM0ewzHM8qoonG9mKL94Wj_XhXyPC7kP1Loi7-faf2nWoHeafjF9lUEHkEcIBLvFjYd9oeypUpXosyBYfOn0Iv_oU8K92G_Pz7BAspykCX0hqYzOeuOWsvC4a7cndGitrDIkl_w==&c=KU1qHQaxes99IChejwBQVZnZ9DQYYCozfvNiE9kg7N_E8QYAwv-GuA==&ch=PUJWxuwJjXwFgFNg100N1aSnk_2-89uZa2ThfLvsvecQX-9EyM5fFg==" style="color: #FFFFFF; display: block; font-family: Cambria,Georgia,Times New Roman,serif; font-size: 14px; font-weight: bold; text-decoration: none;">&#xa0;Check it out today!</a></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-image">
+<table class="editor-image content-image" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td align="center" valign="top" style="padding-bottom: 0px; padding-top: 0px;">
+<div class="publish-container">  <img alt="" class="" style="display: block; height: auto; max-width: 100%;" width="334" border="0" hspace="0" vspace="0" src="https://imgssl.constantcontact.com/letters/images/PT13738/July4_v3.gif">
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-image">
+<table class="editor-image content-image" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td align="center" valign="top" style="padding-bottom: 0px; padding-top: 0px;">
+<div class="publish-container">
+<a href="http://r20.rs6.net/tn.jsp?f=001oE3-GMxSPywjIn1gM0ewzHM8qoonG9mKL94Wj_XhXyPC7kP1Loi7-faf2nWoHeafjF9lUEHkEcIBLvFjYd9oeypUpXosyBYfOn0Iv_oU8K92G_Pz7BAspykCX0hqYzOeuOWsvC4a7cndGitrDIkl_w==&c=KU1qHQaxes99IChejwBQVZnZ9DQYYCozfvNiE9kg7N_E8QYAwv-GuA==&ch=PUJWxuwJjXwFgFNg100N1aSnk_2-89uZa2ThfLvsvecQX-9EyM5fFg==">
+<img alt="" class="" style="display: block; height: auto; max-width: 100%;" width="415" border="0" hspace="0" vspace="0" src="http://files.constantcontact.com/4bbc5423401/27705863-efee-4aec-a76e-1f53bcf9735c.png">
+</a>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-spacer">
+<table class="editor-spacer" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="spacer-container" align="center" valign="top">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="spacer-base" style="height: 1px; line-height: 1px; padding-bottom: 10px;" width="100%" align="center" valign="top">
+<div><img alt="" width="5" height="1" border="0" hspace="0" vspace="0" src="https://imgssl.constantcontact.com/letters/images/sys/S.gif" style="display: block; height: 1px; width: 5px;"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="spacer editor-col OneColumnMobile" width="100%" align="left" valign="top">
+<div class="gl-contains-spacer">
+<table class="editor-spacer" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="spacer-container" align="center" valign="top">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="spacer-base" style="height: 1px; line-height: 1px; padding-bottom: 10px;" width="100%" align="center" valign="top">
+<div><img alt="" width="5" height="1" border="0" hspace="0" vspace="0" src="https://imgssl.constantcontact.com/letters/images/sys/S.gif" style="display: block; height: 1px; width: 5px;"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="content editor-col OneColumnMobile" width="100%" align="left" valign="top">
+<div class="gl-contains-spacer">
+<table class="editor-spacer" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="spacer-container" align="center" valign="top">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="spacer-base" style="height: 1px; line-height: 1px; padding-bottom: 10px;" width="100%" align="center" valign="top">
+<div><img alt="" width="5" height="1" border="0" hspace="0" vspace="0" src="https://imgssl.constantcontact.com/letters/images/sys/S.gif" style="display: block; height: 1px; width: 5px;"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-text">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="editor-text center-text content-text" align="left" valign="top" style="color: #606d78; display: block; font-family: Cambria,Georgia,Times New Roman,serif; font-size: 14px; padding: 10px 20px; text-align: center; word-wrap: break-word;">
+<div></div>
+<div class="text-container galileo-ap-content-editor"><div><div>
+<span style="font-size: 16px;">First Rehab Lending | 631.393.7581 | </span><a href="mailto:info@frlinvestors.com" target="_blank" style="color: rgb(191, 63, 47); font-size: 16px; font-style: normal; font-weight: normal; text-decoration: underline;">Email Info</a><span style="font-size: 16px;"> | </span><a href="http://r20.rs6.net/tn.jsp?f=001oE3-GMxSPywjIn1gM0ewzHM8qoonG9mKL94Wj_XhXyPC7kP1Loi7-faf2nWoHeafjF9lUEHkEcIBLvFjYd9oeypUpXosyBYfOn0Iv_oU8K92G_Pz7BAspykCX0hqYzOeuOWsvC4a7cndGitrDIkl_w==&c=KU1qHQaxes99IChejwBQVZnZ9DQYYCozfvNiE9kg7N_E8QYAwv-GuA==&ch=PUJWxuwJjXwFgFNg100N1aSnk_2-89uZa2ThfLvsvecQX-9EyM5fFg==" target="_blank" style="color: rgb(191, 63, 47); font-size: 16px; font-style: normal; font-weight: normal; text-decoration: underline;">Website</a>
+</div></div></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-social-button">
+<table class="editor-social" width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width: 100%; width: 100%;">
+<tbody>
+<tr>
+<td class=" social-container" align="center" style="padding: 0px 20px 10px;">
+<div class="galileo-ap-content-editor" style=";">
+<a href="http://r20.rs6.net/tn.jsp?f=001oE3-GMxSPywjIn1gM0ewzHM8qoonG9mKL94Wj_XhXyPC7kP1Loi7-VbraqJuBFaqzqNXMf0ofyxX3fTEgGqmql9tTeAa-_e4qXilv5hZNj_-WW-PcWj_abEySeqmFgkoUpjguODxiv1Io86nAHSbMnbKRAJvH_uUWu6y0xkr3oA=&c=KU1qHQaxes99IChejwBQVZnZ9DQYYCozfvNiE9kg7N_E8QYAwv-GuA==&ch=PUJWxuwJjXwFgFNg100N1aSnk_2-89uZa2ThfLvsvecQX-9EyM5fFg==" style="display: inline-block; text-decoration: none;">
+<img alt="Facebook" width="32" border="0" src="https://imgssl.constantcontact.com/galileo/images/templates/Galileo-SocialMedia/facebook-visit-black-circle.png" style="display: inline-block; margin: 0; padding: 0;"> &#x200c;
+</a>
+<a href="http://r20.rs6.net/tn.jsp?f=001oE3-GMxSPywjIn1gM0ewzHM8qoonG9mKL94Wj_XhXyPC7kP1Loi7-ZSPksw-IzSYlROpsK0XIaur-FQNwrH9YcTH3XRYr_Km0OnfrKhgrMbUOOHy5zxkW16FQo2nj2v_9GU4XKoXLJgcbuRYeSqNoe5FQ4BnlQxu&c=KU1qHQaxes99IChejwBQVZnZ9DQYYCozfvNiE9kg7N_E8QYAwv-GuA==&ch=PUJWxuwJjXwFgFNg100N1aSnk_2-89uZa2ThfLvsvecQX-9EyM5fFg==" style="display: inline-block; text-decoration: none;">
+<img alt="Twitter" width="32" border="0" src="https://imgssl.constantcontact.com/galileo/images/templates/Galileo-SocialMedia/twitter-visit-black-circle.png" style="display: inline-block; margin: 0; padding: 0;"> &#x200c;
+</a>
+<a href="http://r20.rs6.net/tn.jsp?f=001oE3-GMxSPywjIn1gM0ewzHM8qoonG9mKL94Wj_XhXyPC7kP1Loi7-aNdeGSK_I1d_RCfJe_lD-j5KUCl-_-7K1Q5kbzj1w5vF9V8weN3ACvp9u2f9RzAN71ccayRTPJyq_jLOfFSgalOCcYsOtGsHHvNe44wDRZWqMpRBFkM6Ds=&c=KU1qHQaxes99IChejwBQVZnZ9DQYYCozfvNiE9kg7N_E8QYAwv-GuA==&ch=PUJWxuwJjXwFgFNg100N1aSnk_2-89uZa2ThfLvsvecQX-9EyM5fFg==" style="display: inline-block; text-decoration: none;">
+<img alt="Instagram" width="32" border="0" src="https://imgssl.constantcontact.com/galileo/images/templates/Galileo-SocialMedia/instagram-visit-black-circle.png" style="display: inline-block; margin: 0; padding: 0;"> &#x200c;
+</a>
+<a href="http://r20.rs6.net/tn.jsp?f=001oE3-GMxSPywjIn1gM0ewzHM8qoonG9mKL94Wj_XhXyPC7kP1Loi7-VbraqJuBFaqvufTeT81YdhC_fdCG49waRIiHqYLf28zWGgO0vCfSkXq1ceis3cyKnnSJeVPloovGwZwIKOChe4Zgqp57CPc6iiIHI-U3M7Qru2eNhM13rQ=&c=KU1qHQaxes99IChejwBQVZnZ9DQYYCozfvNiE9kg7N_E8QYAwv-GuA==&ch=PUJWxuwJjXwFgFNg100N1aSnk_2-89uZa2ThfLvsvecQX-9EyM5fFg==" style="display: inline-block; text-decoration: none;">
+<img alt="LinkedIn" width="32" border="0" src="https://imgssl.constantcontact.com/galileo/images/templates/Galileo-SocialMedia/linkedin-visit-black-circle.png" style="display: inline-block; margin: 0; padding: 0;"> &#x200c;
+</a>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="spacer editor-col OneColumnMobile" width="100%" align="left" valign="top">
+<div class="gl-contains-spacer">
+<table class="editor-spacer" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="spacer-container" align="center" valign="top">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="spacer-base" style="height: 1px; line-height: 1px; padding-bottom: 10px;" width="100%" align="center" valign="top">
+<div><img alt="" width="5" height="1" border="0" hspace="0" vspace="0" src="https://imgssl.constantcontact.com/letters/images/sys/S.gif" style="display: block; height: 1px; width: 5px;"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table>
+<table class="footer-container" width="100%" cellpadding="0" cellspacing="0" border="0" style="background: #ffffff; margin-left: auto; margin-right: auto; table-layout: auto !important" bgcolor="#ffffff">
+  <tr>
+    <td width="100%" align="center" valign="top" style="width: 100%;">
+      <div class="footer-max-main-width" align="center" style="margin-left: auto; margin-right: auto; max-width: 100%;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td class="footer-layout" align="center" valign="top" style="padding: 16px 0px;">
+              <table class="footer-main-width" style="width: 580px;" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="footer-text" align="center" valign="top" style="color: #5d5d5d; font-family: Verdana,Geneva,sans-serif; font-size: 12px; padding: 4px 0px;">
+                    
+                    <span class="footer-column">First Rehab Lending<span class="footer-mobile-hidden"> | </span></span><span class="footer-column">538 Broad Hollow Road<span class="footer-mobile-hidden">, </span></span><span class="footer-column"></span><span class="footer-column"></span><span class="footer-column">Melville, NY 11747</span><span class="footer-column"></span>
+                    
+                  </td>
+                </tr>
+                <tr>
+                  <td class="footer-row" align="center" valign="top" style="padding: 10px 0px;">
+                    <table cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td class="footer-text" align="center" valign="top" style="color: #5d5d5d; font-family: Verdana,Geneva,sans-serif; font-size: 12px; padding: 4px 0px;">
+                          <a href="https://visitor.constantcontact.com/do?p=un&m=001AUogNNaa2gFBdBxwNiQNTA%3D&ch=1bc088c0-05e2-11e7-9a8a-d4ae5275b546&ca=912ee338-41e1-43c5-937d-af2fcf371ff5" style="color: #5d5d5d">Unsubscribe sam@c-mtg.com</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="footer-text" align="center" valign="top" style="color: #5d5d5d; font-family: Verdana,Geneva,sans-serif; font-size: 12px; padding: 4px 0px;">
+                          <a href="https://visitor.constantcontact.com/do?p=oo&m=001AUogNNaa2gFBdBxwNiQNTA%3D&ch=1bc088c0-05e2-11e7-9a8a-d4ae5275b546&ca=912ee338-41e1-43c5-937d-af2fcf371ff5" style="color: #5d5d5d">Update Profile</a> |
+                          <a href="http://www.constantcontact.com/legal/service-provider?cc=about-service-provider" style="color: #5d5d5d">About our service provider</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="footer-text" align="center" valign="top" style="color: #5d5d5d; font-family: Verdana,Geneva,sans-serif; font-size: 12px; padding: 4px 0px;">
+                          Sent by
+                          
+                          <a href="mailto:ccaruso@frlinvestors.com" style="color: #5d5d5d; text-decoration: none">ccaruso@frlinvestors.com</a>
+                          
+
+                          
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="footer-text" align="center" valign="top" style="color: #5d5d5d; font-family: Verdana,Geneva,sans-serif; font-size: 12px; padding: 4px 0px;">
+                    
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </td>
+  </tr>
+</table></body>
+</html>
+
+------=_Part_394562558_1754998044.1530544534981--

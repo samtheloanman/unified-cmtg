@@ -1,0 +1,627 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of mg.upwork.com designates 192.237.158.54 as permitted sender) client-ip=192.237.158.54; envelope-from=bounce+3f8a05.010a37-sam=c-mtg.com@mg.upwork.com; helo=mail1.static.mg.upwork.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of mg.upwork.com designates 192.237.158.54 as permitted sender)  smtp.mailfrom=bounce+3f8a05.010a37-sam=c-mtg.com@mg.upwork.com;
+	dmarc=pass(p=reject dis=none)  header.from=upwork.com
+Return-Path: <bounce+3f8a05.010a37-sam=c-mtg.com@mg.upwork.com>
+Received: from mail1.static.mg.upwork.com (mail1.static.mg.upwork.com [192.237.158.54]) by mx.zohomail.com
+	with SMTP id 15304131528061000.658370801779; Sat, 30 Jun 2018 19:45:52 -0700 (PDT)
+Received: by luna.mailgun.net with HTTP; Sun, 01 Jul 2018 02:45:51 +0000
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg.upwork.com; q=dns/txt;
+ s=k1; t=1530413152; h=Reply-To: To: Subject: From: Mime-Version:
+ Content-Transfer-Encoding: Content-Type: Message-Id: Sender: Date;
+ bh=N8wvfCPYdwYacWobhHWScH0cS79gMVBWDj7+NymSbsU=; b=xA9Ont+NLKpSqc7aYOmsbp5M9BLr8iv7vxdekGQWUQGoAEuFqBXD2hIt5Txm66hbB4Tyxjmr
+ MimwJKYQwmJ7utu5tHauC+IeMSRQWU79NWBFMICMepa2MEJ6JTBh+DKtHbdWpI/h4fpsa2nU
+ uGdJtxgKn9IbI2R8aeLCYJchFZQ=
+X-Mailgun-Sending-Ip: 192.237.158.54
+X-Mailgun-Sid: WyI1Y2M4NiIsICJzYW1AYy1tdGcuY29tIiwgIjAxMGEzNyJd
+Date: Sun, 01 Jul 2018 02:45:51 +0000
+Sender: room_90817508005078117217288317008152=upwork.com@mg.upwork.com
+Message-ID:<20180701024551.1.DA2455BA8B6B447C@mg.upwork.com>
+X-Mailgun-Variables: {"message-store": "{\"guid\":\"89e68127916aedba39530c696722754e141e8467\"}",
+ "references": "{\"user_nid\":\"f61f6e91\"}"}
+X-Mailgun-Tag: template:dash/notify_interview_participants_anchor
+Content-Type: multipart/alternative; boundary="----------=_1530413151-23877-2790"
+Content-Transfer-Encoding: binary
+Mime-Version: 1.0
+X-Mailer: MIME-tools 5.509 (Entity 5.509)
+From: Md. Shahjahan Rasel via Upwork
+ <room_90817508005078117217288317008152@upwork.com>
+Subject: You have unread messages about the job Pricing Engine For Mortgage
+ Company (Finish existing Python / Django site)
+To: "Johnny Tehranchi" <sam@c-mtg.com>
+Reply-To: 10971676129327513710375928502379@mg.upwork.com
+X-Odesk-Message-Id: 1085992449
+X-ZohoMail-DKIM: pass (identity @mg.upwork.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_7 RF_0 S_166
+X-ZM-MESSAGEID: 1530413153118000001
+X-ZohoMail-Status: 1
+
+
+------------=_1530413151-23877-2790
+Content-Type: text/plain; charset="utf-8"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+You have unread messages about the job Pricing Engine For Mortgage Company =
+(Finish existing Python / Django site)
+
+ sent you a message about the job "Pricing Engine For Mortgage Company (Fin=
+ish existing Python / Django site)"
+----------
+Md. Shahjahan Rasel: Thanks for the invitation
+
+View the proposal on Upwork to see the complete profile or to make a hire:
+https://www.upwork.com/applications/
+Join the conversation: https://www.upwork.com/messages/rooms/
+
+Pro Tip: You can also respond by replying to this email.
+
+
+
+
+Change Notification Settings https://www.upwork.com/
+441 Logue Ave, Mountain View, CA 94043 =C2=A9 2018 Upwork=
+
+------------=_1530413151-23877-2790
+Content-Type: text/html; charset="utf-8"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+
+    <head>
+        <link href=3D'https://assets.static-upwork.com/fonts/1.13.1/fonts.g=
+otham-async.1.13.1.css' rel=3D'stylesheet' type=3D'text/css'>
+
+        <!-- Add responsive design table support -->
+        <style>
+            @media screen and (max-width: 640px) {
+                .mobile-fill {
+                    width: 100% !important;
+                    margin-left: 0px;
+                }
+                .mobile-hide {
+                    width: 0% !important;
+                    display: none;
+                }
+            }
+        </style>
+    </head>
+
+
+<body style=3D"width: 100% !important; -webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; background: #f2f2f2; margin: 0; padding: 0;" bgcolo=
+r=3D"#f2f2f2">
+
+    <style type=3D"text/css">
+        @media only screen and (max-width: 640px) {
+            a[href^=3D"tel"] {
+                text-decoration: none; color: #ffffff; pointer-events: none=
+; cursor: default;
+            }
+            a[href^=3D"sms"] {
+                text-decoration: none; color: #ffffff; pointer-events: none=
+; cursor: default;
+            }
+            .mobile_link a[href^=3D"tel"] {
+                text-decoration: default; color: #ffffff !important; pointe=
+r-events: auto; cursor: default;
+            }
+            .mobile_link a[href^=3D"sms"] {
+                text-decoration: default; color: #ffffff !important; pointe=
+r-events: auto; cursor: default;
+            }
+            table[class=3Ddevicewidth] {
+                width: 440px !important; text-align: center !important;
+            }
+            table[class=3Ddevicewidthinner] {
+                width: 420px !important; text-align: center !important;
+            }
+            table[class=3D"sthide"] {
+                display: none !important;
+            }
+            img[class=3D"bigimage"] {
+                width: 420px !important; height: 219px !important;
+            }
+            img[class=3D"col2img"] {
+                width: 420px !important; height: 258px !important;
+            }
+            img[class=3D"image-banner"] {
+                width: 440px !important; height: 106px !important;
+            }
+            td[class=3D"menu"] {
+                text-align: center !important; padding: 0 0 10px 0 !importa=
+nt;
+            }
+        }
+        @media only screen and (max-width: 480px) {
+            a[href^=3D"tel"] {
+                text-decoration: none; color: #ffffff; pointer-events: none=
+; cursor: default;
+            }
+            a[href^=3D"sms"] {
+                text-decoration: none; color: #ffffff; pointer-events: none=
+; cursor: default;
+            }
+            .mobile_link a[href^=3D"tel"] {
+                text-decoration: default; color: #ffffff !important; pointe=
+r-events: auto; cursor: default;
+            }
+            .mobile_link a[href^=3D"sms"] {
+                text-decoration: default; color: #ffffff !important; pointe=
+r-events: auto; cursor: default;
+            }
+            table[class=3Ddevicewidth] {
+                width: 280px !important; text-align: center !important;
+            }
+            table[class=3Ddevicewidthinner] {
+                width: 260px !important; text-align: center !important;
+            }
+            table[class=3D"sthide"] {
+                display: none !important;
+            }
+            img[class=3D"bigimage"] {
+                width: 260px !important; height: 136px !important;
+            }
+            img[class=3D"col2img"] {
+                width: 260px !important; height: 160px !important;
+            }
+            img[class=3D"image-banner"] {
+                width: 280px !important; height: 68px !important;
+            }
+        }
+    </style>
+
+<div class=3D"block">
+    <!-- start of header -->
+    <table width=3D"100%" bgcolor=3D"#f2f2f2" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" id=3D"backgroundTable" st-sortable=3D"header" style=3D"=
+width: 100% !important; line-height: 100% !important; border-collapse: coll=
+apse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0; padding: 0;">
+        <tbody>
+        <tr>
+            <td style=3D"border-collapse: collapse;">
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" align=3D"center" class=3D"devicewidth" hlitebg=3D"edit" shadow=
+=3D"edit"
+                       style=3D"display: block;border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                    <tbody style=3D"display: table; width: 100%;">
+                    <tr>
+                        <td style=3D"border-collapse: collapse;">
+                            <!-- logo -->
+                            <table width=3D"100%" cellpadding=3D"0" cellspa=
+cing=3D"0" border=3D"0" align=3D"center" class=3D"devicewidth" style=3D"bor=
+der-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                <tbody>
+                                <tr>
+                                    <td valign=3D"middle" width=3D"100%" al=
+ign=3D"center" style=3D"border-collapse: collapse; padding: 40px 0;" class=
+=3D"logo">
+                                        <div class=3D"imgpop">
+<a href=3D"https://www.upwork.com/" style=3D"text-emphasis: none;" target=
+=3D"_blank">
+                                                <img src=3D"https://www.upw=
+ork.com/images/emails/upwork-email-logo@2x.png"
+                                                     alt=3D"Upwork" width=
+=3D"108" height=3D"30" border=3D"0"
+                                                     style=3D"display: bloc=
+k; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; b=
+order: none;" st-image=3D"edit" class=3D"logo">
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <!-- End of logo -->
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <!-- end of header -->
+</div>
+<div class=3D"block">
+    <!-- body + signature + footnote -->
+    <table width=3D"100%" bgcolor=3D"#f2f2f2" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" id=3D"backgroundTable" st-sortable=3D"bigimage" style=
+=3D"width: 100% !important; line-height: 100% !important; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0; padding:=
+ 0;">
+        <tbody>
+        <tr>
+            <td style=3D"border-collapse: collapse;">
+                <table bgcolor=3D"#ffffff" width=3D"600" align=3D"center" c=
+ellspacing=3D"0" cellpadding=3D"0" border=3D"0" class=3D"devicewidth" modul=
+ebg=3D"edit" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt;">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table width=3D"540" align=3D"center" cellspaci=
+ng=3D"0" cellpadding=3D"0" border=3D"0" class=3D"devicewidthinner" style=3D=
+"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                <tbody style=3D"border-collapse: collapse;">
+                                <!-- Spacing -->
+                                <tr>
+                                    <td width=3D"100%" height=3D"30" style=
+=3D"border-collapse: collapse;"></td>
+                                </tr>
+                                <!-- /Spacing -->
+                                <!-- start of body -->
+                                <tr>
+                                    <td style=3D"font-family: Helvetica, ar=
+ial, sans-serif; font-size: 14.5px; color: #666666; text-align: left; line-=
+height: 20px; border-collapse: collapse;">
+                                        <table width=3D"100%" align=3D"cent=
+er" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" class=3D"devicewidthin=
+ner" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+    <tbody>
+            <tr>
+            <td valign=3D"top" style=3D"vertical-align:top;font-family: Hel=
+vetica, arial, sans-serif; font-size: 16px; color: #767676; text-align: lef=
+t; line-height: 20px; border-collapse: collapse">
+            You have unread messages about the job
+<a href=3D"https://www.upwork.com/messages/interviews/room_8320d2177a020f08=
+ad721e84018c7f61?companyReference=3D780265229555412992" style=3D"color:#37A=
+000;font-weight:bold;text-decoration:none">Pricing Engine For Mortgage Comp=
+any (Finish existing Python / Django site)</a>            </td>
+        <tr>
+            <td width=3D"100%" height=3D"30" style=3D"border-collapse:colla=
+pse; border-bottom-color: #E0E0E0; border-bottom-style: solid; border-botto=
+m-width: 1px"></td>
+        </tr>
+               =20
+                                                        <tr>
+            <td style=3D"border-collapse: collapse; padding-top: 30px">
+                <table width=3D"100%" align=3D"center" cellspacing=3D"0" ce=
+llpadding=3D"0" border=3D"0" class=3D"devicewidthinner" style=3D"border-col=
+lapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+                    <tbody>
+                    <tr>
+                        <td valign=3D"top" width=3D"60" style=3D"padding-ri=
+ght:20px">
+                                                                           =
+                                 <div style=3D"width:60px;height:60px;overf=
+low:hidden;border-radius:30px">
+                                <img src=3D"https://odesk-prod-portraits.s3=
+.amazonaws.com/Users:shadow2burn:PortraitUrl?AWSAccessKeyId=3DAKIAIKIUKM3HB=
+SWUGCNQ&amp;Expires=3D2147483647&amp;Signature=3DDAWoMTHzQQq81O9YXqdv5mhB3F=
+g%3D" height=3D"60" alt=3D"Md. Shahjahan Rasel" style=3D"margin-left:-10px">
+                                                                           =
+ </td>
+                        <td valign=3D"top" width=3D"100%" style=3D"vertical=
+-align:top;font-family: Helvetica, arial, sans-serif; font-size: 16px; colo=
+r: #222222; text-align: left; line-height: 20px; border-collapse: collapse;=
+ position:relative;" st-content=3D"rightimage-paragraph" align=3D"left">
+                                                            <div style=3D"f=
+ont-family: 'Gotham SSm', Helvetica, arial, sans-serif; font-size: 16px; co=
+lor: #222222;">
+                                    <strong>Md. Shahjahan Rasel</strong>
+                                                                           =
+ <em style=3D"margin-left: 5px;font-size: 13px;font-weight: 400;">
+                                            sent the proposal
+                                        </em>
+                                                                           =
+                                                                 </div>
+                                                                           =
+                                         <div style=3D"font-size: 12px; col=
+or: #7d7d7d; margin: 0 0; padding-bottom: 15px">
+                                                                7:35 PM PDT=
+, 30 Jun 2018                            </div>
+                                                        <div style=3D"line-=
+height: 24px">Thanks for the invitation</div>
+                        </td>
+                    </tr>
+                                                                <tr>
+                            <td width=3D"100%" height=3D"30" style=3D"borde=
+r-collapse: collapse;" colspan=3D"2"></td>
+                        </tr>
+                                        </tbody>
+                </table>
+            </td>
+        </tr>
+                </tbody>
+</table>
+
+<!-- left padding (will be removed on mobile) -->
+<table width=3D"80px" align=3D"left" cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0" class=3D"devicewidthinner mobile-hide" style=3D"border-collapse:=
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+    <tr>
+    <td width=3D"100%">&nbsp;</td>
+    </tr>
+</table>
+
+<!-- Reply button (will expand on mobile) -->
+<table width=3D"120px" align=3D"left" cellspacing=3D"0" cellpadding=3D"0" b=
+order=3D"0" class=3D"devicewidthinner mobile-fill" style=3D"border-collapse=
+:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+    <tr>
+        <td class=3D"mobile-fill" style=3D"
+                        font-size:14px;
+                        text-align:center;
+                        color:#ededed;
+                        padding: 10px 20px 10px 20px;
+                        background:#32A000"
+            bgcolor=3D"#32A000"
+            align=3D"center"
+            valign=3D"middle">
+                <span style=3D"color:#ededed;">
+                    <a style=3D"color:#ededed;text-align:center;text-decora=
+tion:none"
+                       href=3D"https://www.upwork.com/messages/interviews/r=
+oom_8320d2177a020f08ad721e84018c7f61?companyReference=3D780265229555412992"=
+>Reply
+                    </a>
+                </span>
+        </td>
+    </tr>
+</table>
+
+<!-- spacing -->
+<table width=3D"100%" align=3D"left" cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0" class=3D"devicewidthinner" style=3D"border-collapse:collapse; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt">
+    <tr>
+        <td width=3D"100%" height=3D"15" style=3D"line-height: 15px; border=
+-collapse: collapse">&nbsp;</td>
+    </tr>
+</table>
+
+<!-- left padding (will be removed on mobile) -->
+<table width=3D"80px" align=3D"left" cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0" class=3D"devicewidthinner mobile-hide" style=3D"border-collapse:=
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+    <tr>
+        <td width=3D"100%">&nbsp;</td>
+    </tr>
+</table>
+
+<!-- respond text (will expand on mobile) -->
+<table width=3D"auto" align=3D"left" cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0" class=3D"devicewidthinner mobile-fill" style=3D"border-collapse:=
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+    <tr>
+        <td style=3D"font-size: 16px; color: #222222">
+            or respond directly by replying to this email
+        </td>
+    </tr>
+</table>
+
+<!-- spacing -->
+<table width=3D"100%" align=3D"left" cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0" class=3D"devicewidthinner" style=3D"border-collapse:collapse; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt">
+    <tr>
+        <td width=3D"100%" height=3D"30" style=3D"line-height: 30px; border=
+-collapse: collapse">&nbsp;</td>
+    </tr>
+</table>
+
+<!-- left padding (will be removed on mobile) -->
+<table width=3D"80px" align=3D"left" cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0" class=3D"devicewidthinner mobile-hide" style=3D"border-collapse:=
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+    <tr>
+        <td width=3D"100%">&nbsp;</td>
+    </tr>
+</table>
+
+<!-- download mobile (will expand on mobile) -->
+<table width=3D"auto" align=3D"left" cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0" class=3D"devicewidthinner mobile-fill" style=3D"border-collapse:=
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+    <tr>
+        <td style=3D"font-size: 14px; color: #7d7d7d; margin: 0 0; padding-=
+bottom: 15px">
+            Get the Upwork app and never miss another message.
+<a href=3D"https://upwork.app.link/iqxeTgFeND" style=3D"color:#37A000;font-=
+weight:bold;text-decoration:none">Download now.</a>
+        </td>
+    </tr>
+</table>
+                                    </td>
+                                </tr>
+                                <!-- end of body -->
+                                <!-- Spacing -->
+                                <tr>
+                                    <td width=3D"100%" height=3D"40" style=
+=3D"border-collapse: collapse;"></td>
+                                </tr>
+                                <!-- /Spacing -->
+                                                                           =
+                     </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <!-- end of body + signature + footnote -->
+</div>
+<div class=3D"block">
+    <!-- Start of footer -->
+    <table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0" =
+align=3D"center" bgcolor=3D"#f2f2f2">
+        <tr>
+
+            <!--[if (gte mso 9)|(IE)]>
+            <td><table cellspacing=3D"0" cellpadding=3D"0" width=3D"502" bo=
+rder=3D"0" align=3D"center"><tr>
+            <![endif]-->
+            <td valign=3D"middle" align=3D"center" width=3D"100%" style=3D"=
+padding-top: 30px">
+                <span style=3D"font-family:Helvetica, Arial, Sans serif; fo=
+nt-weight: bold; line-height: 18pt; font-size: 13pt; color: #7d7d7d;">
+                    Download our mobile app on <br>
+<a href=3D"https://upwork.app.link/D8tTEwYfND" style=3D"color: #37a000; tex=
+t-decoration: none;">iPhone</a> or
+<a href=3D"https://upwork.app.link/VRPlV7STOD" style=3D"color: #37a000; tex=
+t-decoration: none;">Android</a>
+                </span>
+            </td>
+        </tr>
+    </table>
+    <table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0" =
+align=3D"center" bgcolor=3D"#f2f2f2">
+        <tr>
+
+            <!--[if (gte mso 9)|(IE)]>
+            <td><table cellspacing=3D"0" cellpadding=3D"0" width=3D"540" bo=
+rder=3D"0" align=3D"center"><tr>
+            <![endif]-->
+
+            <td valign=3D"middle" align=3D"center" width=3D"100%" height=3D=
+"25" style=3D"padding:30px 0;">
+
+                <table cellspacing=3D"0" cellpadding=3D"0" width=3D"177" bo=
+rder=3D"0">
+                    <tr>
+                        <td width=3D"25">
+<a href=3D"http://www.twitter.com/upwork" title=3D"Twitter" target=3D"_blan=
+k">
+                                <img src=3D"https://www.upwork.com/images/e=
+mails/upwork-twitter-social@2x.png"
+                                     height=3D"25"
+                                     width=3D"25" alt=3D"Twitter" style=3D"=
+border:0;outline:none;display:block;">
+                            </a>
+                        </td>
+                        <td width=3D"13">&nbsp;</td>
+                        <td width=3D"25">
+<a href=3D"http://www.facebook.com/upwork" title=3D"Facebook" target=3D"_bl=
+ank">
+                                <img src=3D"https://www.upwork.com/images/e=
+mails/upwork-facebook-social@2x.png"
+                                     height=3D"25"
+                                     width=3D"25" alt=3D"Facebook" style=3D=
+"border:0;outline:none;display:block;">
+                            </a>
+                        </td>
+                        <td width=3D"13">&nbsp;</td>
+                        <td width=3D"25">
+<a href=3D"https://plus.google.com/u/0/107040851368295259701/about" title=
+=3D"Google+" target=3D"_blank">
+                                <img src=3D"https://www.upwork.com/images/e=
+mails/upwork-google-social@2x.png"
+                                     height=3D"25"
+                                     width=3D"25" alt=3D"Google+" style=3D"=
+border:0;outline:none;display:block;">
+                            </a>
+                        </td>
+                        <td width=3D"13">&nbsp;</td>
+                        <td width=3D"25">
+<a href=3D"https://www.linkedin.com/company/upwork" title=3D"LinkedIn" targ=
+et=3D"_blank">
+                                <img src=3D"https://www.upwork.com/images/e=
+mails/upwork-linkedin-social@2x.png"
+                                     height=3D"25"
+                                     width=3D"25" alt=3D"LinkedIn" style=3D=
+"border:0;outline:none;display:block;">
+                            </a>
+                        </td>
+                        <td width=3D"13">&nbsp;</td>
+                        <td width=3D"25">
+<a href=3D"https://www.pinterest.com/upwork/" title=3D"Pinterest" target=3D=
+"_blank">
+                                <img src=3D"https://www.upwork.com/images/e=
+mails/upwork-pinterest-social@2x.png"
+                                     height=3D"25"
+                                     width=3D"25" alt=3D"Pinterest" style=
+=3D"border:0;outline:none;display:block;">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+
+            <!--[if (gte mso 9)|(IE)]>
+            </tr></table></td>
+            <![endif]-->
+
+        </tr>
+    </table>
+        <table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D=
+"0" align=3D"center" bgcolor=3D"#f2f2f2">
+        <tr>
+
+            <!--[if (gte mso 9)|(IE)]>
+            <td><table cellspacing=3D"0" cellpadding=3D"0" width=3D"540" cl=
+ass=3D"devicewidthinner" border=3D"0" align=3D"center"><tr>
+            <![endif]-->
+
+            <td valign=3D"top" align=3D"center" width=3D"100%" style=3D"pad=
+ding-bottom:15px;">
+
+                <table width=3D"540" class=3D"devicewidthinner"  border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center">
+
+                    <tr>
+                        <td align=3D"center" style=3D"padding:0px 10px 0px =
+10px;mso-line-height-rule:exactly;">
+                            <span style=3D"font-family:Arial, Helvetica, Sa=
+ns serif; font-size:10px; line-height:12px; color:#494949;">
+<a href=3D"https://www.upwork.com/ab/notification-settings/"
+                                   style=3D"color:#494949;
+                                   text-decoration:underline;" target=3D"_b=
+lank">Unsubscribe</a> |
+<a href=3D"https://www.upwork.com/legal/privacy/"
+                                   style=3D"color:#494949;
+                                   text-decoration:underline;" target=3D"_b=
+lank">Privacy Policy</a> |
+<a href=3D"https://support.upwork.com/home"
+                                   style=3D"color:#494949;
+                                   text-decoration:underline;" target=3D"_b=
+lank">Contact Support</a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align=3D"center" style=3D"padding:10px 10px 0px=
+ 10px;mso-line-height-rule:exactly;">
+                                <span style=3D"font-family:Arial, Helvetica=
+, Sans serif; font-size:10px; line-height:12px; color:#494949;">
+                                441 Logue Avenue, Mountain View, CA 94043
+                              </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align=3D"center" style=3D"padding:10px 10px 0px=
+ 10px;mso-line-height-rule:exactly;">
+                                <span style=3D"font-family:Arial, Helvetica=
+, Sans serif; font-size:10px; line-height:12px; color:#494949;">
+                                &copy; 2018 Upwork Inc.
+                              </span>
+                        </td>
+                    </tr>
+
+                </table>
+
+            </td>
+
+            <!--[if (gte mso 9)|(IE)]>
+            </tr></table></td>
+            <![endif]-->
+
+        </tr>
+    </table>
+    <!-- End of footer -->
+</div>
+<img width=3D"1px" height=3D"1px" alt=3D"" src=3D"http://email.mg.upwork.co=
+m/o/eJxNjs1ugzAQhJ8GbkFe4z8OHKBRXwOtzQJWY4Ns06hvX6Lm0MvMaEYjfXPPgGGr60A540q=
+3XPZEfaXHivP19PNlVTtcajpSBrjuQCHNFttOtsypTmnOtRQEAsgIpV8Hfa-3HqSzVlolTetQoQ=
+FyctaCLdYqBK1r33MGhumLgAspoYHmPrzSOJhRjULoj0qwsDbn8dzTV-P2UKc-Y7hadwtl_Wtoo=
+UTRUX5Tn5nSFP-RLwoWRR28yUpfKBwPLHTNM-at4p9xL375mXwslL49PacDU_HOHxhLnjC6bU-_=
+VBBYmw"></body>
+------------=_1530413151-23877-2790--

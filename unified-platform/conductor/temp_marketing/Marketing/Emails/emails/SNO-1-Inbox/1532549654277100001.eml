@@ -1,0 +1,322 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: none (zoho.com: 209.85.217.176 is neither permitted nor denied by domain of sunsetequitygroup.com) client-ip=209.85.217.176; envelope-from=navid@sunsetequitygroup.com; helo=mail-ua0-f176.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=none (zoho.com: 209.85.217.176 is neither permitted nor denied by domain of sunsetequitygroup.com)  smtp.mailfrom=navid@sunsetequitygroup.com
+Return-Path: <navid@sunsetequitygroup.com>
+Received: from mail-ua0-f176.google.com (mail-ua0-f176.google.com [209.85.217.176]) by mx.zohomail.com
+	with SMTPS id 1532549653779929.1920647838928; Wed, 25 Jul 2018 13:14:13 -0700 (PDT)
+Received: by mail-ua0-f176.google.com with SMTP id k25-v6so5898837uao.11
+        for <sam@c-mtg.com>; Wed, 25 Jul 2018 13:14:13 -0700 (PDT)
+Received: by 2002:a9f:3a4e:0:0:0:0:0 with HTTP; Wed, 25 Jul 2018 13:13:31
+ -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=sunsetequitygroup-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=OYTkdXtFTZv3Wk/P5z3PDrnbdV5z2dZgje2Ed7zIaQA=;
+        b=MIAFH39tEC++Q0uXUlPxgi5PEZuxpldvGxT7Yfc/tpoQdvwictxkKqrGmERG3XS2EU
+         ycNkXWMBq76u4MwBRFXjsQ2HT8K+0Z5tDBglEoCmLeidkmjgZc2RmE4Miz33Ixc8xeFq
+         nyCj25aLyepRe4wRrdMi0FEOnjrKE8L9wYawyVcc8Qc6ZBGfmId9eZ22/MX6C6I7XhV9
+         ahfpTmJhaRm3+5iODtqtlfxBpyHbEGZIw2XvGesV6Wii/iYuG9GzW1Apnaqx6SnWEiE0
+         Cdkd0HKdPXGL9x+g5+YqQcdy9HVjjFG6DA0LwYY4sB7HTNX0KdtgLMOUXP2iXsz1P4vr
+         srdg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=OYTkdXtFTZv3Wk/P5z3PDrnbdV5z2dZgje2Ed7zIaQA=;
+        b=Kk8zCxw+RxuXTID0VCcxSYrzy1K3BZTPkYCuo9FP9kUx+0pRKgG/wIJdo1ZQnRN42N
+         /MS74Wfn64jvbKWWsaMplGWTqwN6RCoGm39EMI8nh3+NuHrpySp8w4IgzXkB64JjWCK8
+         cBJrbFCigJpwlJpPUUphaDU69zHk4j8WLQn2SNljmcaKacyLpH5NqAw54qG84LpKpwdD
+         X+hYwGAaeTRWpCxd489x9JGEOLMKY4gxZUE/XXdZiQAZjodZ2nTOfq97RXEuLdG64CyS
+         FsBYboNAmc9zcabnLrBw1aBr6/L+LnrsFo45sgeTos9ycHofcIBZKZ/l8Hp51UGPlwel
+         Bj0g==
+X-Gm-Message-State: AOUpUlE5gB89W+gO5cXeAfV7tz3fCs3jsv9pe44iM+mM3RLIcPFFiHA6
+	MSei4mNv8JUjHs6cLUoYyIfBIGaU491vq2izGWBO1wvl/wc=
+X-Google-Smtp-Source: AAOMgpdrjXTNxxDh32LMBjSX0fm/W2+o+zwpadJuaHBpPAFoFMazvkgfTKBBUKbhN5V/b4zR9aPiWYoozSAOZ68ZPg4=
+X-Received: by 2002:ab0:4ad7:: with SMTP id t23-v6mr16637904uae.35.1532549651889;
+ Wed, 25 Jul 2018 13:14:11 -0700 (PDT)
+MIME-Version: 1.0
+In-Reply-To: <164d2a5120f.eb11beda257420.1069541077864746975@c-mtg.com>
+References: <164c85b24e2.fb0221d127672.3245040899383144198@c-mtg.com>
+ <8906139F-68A1-4FF5-83C1-5AC78DD90367@c-mtg.com> <164d29a22f9.e6eb82b2255816.2321171703963116536@c-mtg.com>
+ <164d2a5120f.eb11beda257420.1069541077864746975@c-mtg.com>
+From: Navid Lavi <navid@sunsetequitygroup.com>
+Date: Wed, 25 Jul 2018 13:13:31 -0700
+Message-ID:<CAM=56s0me7m1pf4cpN7u36gz_PnubL2QrPK=L08qBSkN4YPWvg@mail.gmail.com>
+Subject: Re: RUSH - New Loan: 16906 Highway 5 North Logansport, LA 71049
+To: Sam Tehranchi <sam@c-mtg.com>
+Content-Type: multipart/alternative; boundary="0000000000009a14460571d885eb"
+X-ZohoMail-DKIM: pass (identity @sunsetequitygroup-com.20150623.gappssmtp.com)
+X-ZohoMail: RDKM_0  RSF_4  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_1 S_168 FRD_HI
+X-ZM-MESSAGEID: 1532549654277100001
+X-ZohoMail-Status: 1
+
+
+--0000000000009a14460571d885eb
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Sam,
+
+Is this a request for a 2nd?
+
+Thank you.
+
+
+*Navid Lavi*
+Managing Director
+
+
+
+
+On Wed, Jul 25, 2018 at 11:13 AM, Sam Tehranchi <sam@c-mtg.com> wrote:
+
+>
+> Hi David
+>
+> We have the following transaction that needs to get funded asap.  Can you
+> please advise if this is something you can fund.
+>
+> Property address:
+> 16906 Highway 5 North
+> Logansport, LA 71049
+>
+> Estimated Value: 3-5 million
+>
+> Requested Loan Amount: 350,000.00
+>
+> Use of Funds: Business purpose
+>
+> Exit strategy: Refinance into conventional loan
+>
+> Please see executive summary for additional details.
+>
+> Please give me a call when you have a moment.
+>
+> *Cost to replace *
+> In order to build a facility like this would entail these major costs.
+>
+> 1.Land value $1,000,000
+>
+> 2.Concrete slab (concrete cost only) - $12,000,000 (100,000 yds @
+> $127/yard delivered.)
+>
+> 3.Highway turn lane - $500,000
+>
+> 4.Clear span trusses (120=E2=80=99) =E2=80=93 37 trusses at $45,000 ea =
+=3D $1,665,000
+>
+> 5.Scales $200,000
+> 6.Rail access -?
+>
+> Total (not including engineering, architectural, labor, other material) -
+> $14,865,000
+> Estimated total cost - $25,000,000
+>
+> *The existing property includes *
+> 1.Employee Parking =E2=80=93 approximately 150 spaces.
+> 2.Office =E2=80=93 approximately 3,600 SF.
+> 3.Scale house attached to office.
+> 4.Two scales =E2=80=93 1 outgoing and 1 incoming.
+> 5.Turning lane into facility from highway. To build this lane currently
+> would cost $500,000.
+> 6. Approximately 15 acres of concrete pad designed for heavy traffic.
+> 7. Guardhouse.
+> 8. Electronic gates
+> 9. Existing useable structure =E2=80=93 approximately 108,000 SF. This wa=
+s where
+> the manufacturing facility was housed and is 75% intact.
+> 10. Above structure consists of 3 bays 120=E2=80=99 wide (clear span) by =
+300=E2=80=99 long
+> by 21=E2=80=99 clearance.
+> 11. Concrete roads throughout the facility.
+> 12. Fire suppression throughout with existing water storage tank.
+> 13. Existing close access to rail. Old spur has been removed but can be
+> replaced.
+> 14. The facility occupies 40 acres of a 163 acre track. The total track o=
+r
+> a portion of it is available.
+>
+>
+> Respectfully,
+>
+>
+> Sam Tehranchi
+>
+>
+> COO
+> Custom Mortgage and Realty
+> NMLS CA # 1556995 - BRE CA # 02018146
+>
+> Direct 310.709.6304 -Efax 866.421.7694
+>
+> sam@c-mtg.com - www.c-mtg.com
+>
+> LinkedIn <https://www.linkedin.com/company-beta/3477964> - Facebook
+> <https://www.facebook.com/Custom-Mortgage-409842885783868/> - twitter
+> <https://twitter.com/custommortgage1> - Instagram
+> <https://www.instagram.com/custommortgageinc/>
+>
+>
+>
+>
+>
+>
+
+--0000000000009a14460571d885eb
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi Sam,<div><br></div><div>Is this a request for a 2nd?=C2=
+=A0</div></div><div class=3D"gmail_extra"><br clear=3D"all"><div><div class=
+=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><d=
+iv><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div dir=3D=
+"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><=
+div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=
+=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr=
+"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div =
+dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"=
+ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><d=
+iv dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=
+=3D"ltr"><div dir=3D"ltr"><div style=3D"font-family:&quot;Helvetica Neue&qu=
+ot;,&quot;Segoe UI&quot;,Helvetica,Arial,&quot;Lucida Grande&quot;,sans-ser=
+if"><p style=3D"color:rgb(0,0,0);margin:0px;padding:0px"><font size=3D"2">T=
+hank you.</font></p><p style=3D"color:rgb(0,0,0);margin:0px;padding:0px"><b=
+ style=3D"font-size:13.5pt"><br></b></p><p style=3D"color:rgb(0,0,0);margin=
+:0px;padding:0px"><b style=3D"font-size:13.5pt">Navid Lavi</b><br><font siz=
+e=3D"2">Managing Director</font></p><p style=3D"color:rgb(0,0,0);margin:0px=
+;padding:0px"><br></p><p style=3D"color:rgb(0,0,0);margin:0px;padding:0px">=
+<img src=3D"https://s15.postimg.cc/bh0mufirf/Navid_2.jpg" width=3D"420" hei=
+ght=3D"164"><br></p></div></div></div></div></div></div></div></div></div><=
+/div></div></div></div></div></div></div></div></div></div></div></div></di=
+v></div></div></div></div></div></div></div></div></div></div></div></div><=
+/div></div></div></div></div></div></div></div></div>
+<br><div class=3D"gmail_quote">On Wed, Jul 25, 2018 at 11:13 AM, Sam Tehran=
+chi <span dir=3D"ltr">&lt;<a href=3D"mailto:sam@c-mtg.com" target=3D"_blank=
+">sam@c-mtg.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" =
+style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><u>=
+</u><div><div style=3D"font-size:10pt;font-family:Verdana,Arial,Helvetica,s=
+ans-serif;color:#000000"><div class=3D"m_-5628416747360846356zmail_extra"><=
+blockquote style=3D"border-left:1px solid #cccccc;padding-left:6px;margin:0=
+ 0 0 5px"><div><div style=3D"font-family:Verdana,Arial,Helvetica,sans-serif=
+;color:rgb(0,0,0)"><div class=3D"m_-5628416747360846356x_-1621476212zmail_e=
+xtra"><blockquote style=3D"border-left-width:1px;border-left-style:solid;bo=
+rder-left-color:rgb(204,204,204);padding-left:6px;margin:0px 0px 0px 5px"><=
+div><div><blockquote><div><div><div style=3D"font-family:Verdana,Arial,Helv=
+etica,sans-serif"><div><br>Hi David</div><div style=3D"font-size:10pt"><br>=
+</div><div style=3D"font-size:10pt">We have the following transaction that =
+needs to get funded asap.=C2=A0 Can you please advise if this is something =
+you can fund.<br></div><div style=3D"font-size:10pt"><br></div><div class=
+=3D"m_-5628416747360846356x_-1621476212x_-182594455zmail_extra" style=3D"fo=
+nt-size:10pt"><blockquote style=3D"border-left:1px solid rgb(204,204,204);p=
+adding-left:6px;margin:0 0 0 5px"><div><div>Property address:=C2=A0<br></di=
+v><div>16906 Highway 5 North=C2=A0<br></div><div>Logansport, LA 71049=C2=A0=
+<br></div><div><br></div><div>Estimated Value: 3-5 million<br></div><div><b=
+r></div><div>Requested Loan Amount: 350,000.00<br></div><div><br></div><div=
+>Use of Funds: Business purpose<br></div><div><br></div><div>Exit strategy:=
+ Refinance into conventional loan<br></div><div><br></div><div>Please see e=
+xecutive summary for additional details.<br></div><div><br></div><div>Pleas=
+e give me a call when you have a moment.<br></div><div><br></div><div><div =
+style=3D"margin:0px;font-stretch:normal;font-size:11.5px;line-height:normal=
+;font-family:&quot;Times New Roman&quot;"><b>Cost to replace=C2=A0</b><br><=
+/div><div style=3D"margin:0px;font-stretch:normal;font-size:11px;line-heigh=
+t:normal;font-family:&quot;Times New Roman&quot;">In order to build a facil=
+ity like this would entail these major costs.=C2=A0<br></div><p style=3D"ma=
+rgin:0px 0px 1.1px;font-stretch:normal;line-height:normal"><span class=3D"m=
+_-5628416747360846356font" style=3D"font-family:&quot;Times New Roman&quot;=
+"><span class=3D"m_-5628416747360846356size" style=3D"font-size:11px">1.Lan=
+d value $1,000,000</span></span><br></p><p style=3D"margin:0px 0px 1.1px;fo=
+nt-stretch:normal;line-height:normal"><span class=3D"m_-5628416747360846356=
+font" style=3D"font-family:&quot;Times New Roman&quot;"><span class=3D"m_-5=
+628416747360846356size" style=3D"font-size:11px">2.Concrete slab (concrete =
+cost only) - $12,000,000 (100,000 yds @ $127/yard delivered.)</span></span>=
+<br></p><p style=3D"margin:0px 0px 1.1px;font-stretch:normal;line-height:no=
+rmal"><span class=3D"m_-5628416747360846356font" style=3D"font-family:&quot=
+;Times New Roman&quot;"><span class=3D"m_-5628416747360846356size" style=3D=
+"font-size:11px">3.Highway turn lane - $500,000</span></span><br></p><p sty=
+le=3D"margin:0px 0px 1.1px;font-stretch:normal;line-height:normal"><span cl=
+ass=3D"m_-5628416747360846356font" style=3D"font-family:&quot;Times New Rom=
+an&quot;"><span class=3D"m_-5628416747360846356size" style=3D"font-size:11p=
+x">4.Clear span trusses (120=E2=80=99) =E2=80=93 37 trusses at $45,000 ea =
+=3D $1,665,000</span></span><br></p><p style=3D"margin:0px 0px 1.1px;font-s=
+tretch:normal;line-height:normal"><span class=3D"m_-5628416747360846356font=
+" style=3D"font-family:&quot;Times New Roman&quot;"><span class=3D"m_-56284=
+16747360846356size" style=3D"font-size:11px">5.Scales $200,000</span></span=
+><br></p><div style=3D"margin:0px;font-stretch:normal;font-size:11px;line-h=
+eight:normal;font-family:&quot;Times New Roman&quot;">6.Rail access -?<br><=
+/div><div style=3D"margin:0px;font-stretch:normal;font-size:11px;line-heigh=
+t:normal;font-family:&quot;Times New Roman&quot;;min-height:12px"><br></div=
+><div style=3D"margin:0px;font-stretch:normal;font-size:11px;line-height:no=
+rmal;font-family:&quot;Times New Roman&quot;">Total (not including engineer=
+ing, architectural, labor, other material) - $14,865,000=C2=A0<br></div><di=
+v style=3D"margin:0px;font-stretch:normal;font-size:11px;line-height:normal=
+;font-family:&quot;Times New Roman&quot;">Estimated total cost - $25,000,00=
+0=C2=A0<br></div><div style=3D"margin:0px;font-stretch:normal;font-size:11p=
+x;line-height:normal;font-family:&quot;Times New Roman&quot;"><b></b><br></=
+div><div style=3D"margin:0px;font-stretch:normal;font-size:11px;line-height=
+:normal;font-family:&quot;Times New Roman&quot;"><b>The existing property i=
+ncludes=C2=A0</b><br></div><div style=3D"margin:0px;font-stretch:normal;fon=
+t-size:11px;line-height:normal;font-family:&quot;Times New Roman&quot;">1.E=
+mployee Parking =E2=80=93 approximately 150 spaces.<br></div><div style=3D"=
+margin:0px;font-stretch:normal;font-size:11px;line-height:normal;font-famil=
+y:&quot;Times New Roman&quot;;min-height:12px">2.Office =E2=80=93 approxima=
+tely 3,600 SF.<br></div><div style=3D"margin:0px;font-stretch:normal;font-s=
+ize:11px;line-height:normal;font-family:&quot;Times New Roman&quot;;min-hei=
+ght:12px">3.Scale house attached to office.<br></div><div style=3D"margin:0=
+px;font-stretch:normal;font-size:11px;line-height:normal;font-family:&quot;=
+Times New Roman&quot;;min-height:12px">4.Two scales =E2=80=93 1 outgoing an=
+d 1 incoming.<br></div><div style=3D"margin:0px;font-stretch:normal;font-si=
+ze:11px;line-height:normal;font-family:&quot;Times New Roman&quot;;min-heig=
+ht:12px">5.Turning lane into facility from highway. To build this lane curr=
+ently would cost $500,000.<br></div><div style=3D"margin:0px;font-stretch:n=
+ormal;font-size:11px;line-height:normal;font-family:&quot;Times New Roman&q=
+uot;;min-height:12px">6. Approximately 15 acres of concrete pad designed fo=
+r heavy traffic.=C2=A0<br></div><div style=3D"margin:0px;font-stretch:norma=
+l;font-size:11px;line-height:normal;font-family:&quot;Times New Roman&quot;=
+;min-height:12px">7. Guardhouse.=C2=A0<br></div><div style=3D"margin:0px;fo=
+nt-stretch:normal;font-size:11px;line-height:normal;font-family:&quot;Times=
+ New Roman&quot;;min-height:12px">8. Electronic gates=C2=A0<br></div><div s=
+tyle=3D"margin:0px;font-stretch:normal;font-size:11px;line-height:normal;fo=
+nt-family:&quot;Times New Roman&quot;;min-height:12px">9. Existing useable =
+structure =E2=80=93 approximately 108,000 SF. This was where the manufactur=
+ing facility was housed and is 75% intact.=C2=A0<br></div><div style=3D"mar=
+gin:0px;font-stretch:normal;font-size:11px;line-height:normal;font-family:&=
+quot;Times New Roman&quot;">10. Above structure consists of 3 bays 120=E2=
+=80=99 wide (clear span) by 300=E2=80=99 long by 21=E2=80=99 clearance.=C2=
+=A0<br></div><div style=3D"margin:0px;font-stretch:normal;font-size:11px;li=
+ne-height:normal;font-family:&quot;Times New Roman&quot;;min-height:12px">1=
+1. Concrete roads throughout the facility.=C2=A0<br></div><div style=3D"mar=
+gin:0px;font-stretch:normal;font-size:11px;line-height:normal;font-family:&=
+quot;Times New Roman&quot;;min-height:12px">12. Fire suppression throughout=
+ with existing water storage tank.=C2=A0<br></div><div style=3D"margin:0px;=
+font-stretch:normal;font-size:11px;line-height:normal;font-family:&quot;Tim=
+es New Roman&quot;;min-height:12px">13. Existing close access to rail. Old =
+spur has been removed but can be replaced.=C2=A0<br></div><div style=3D"mar=
+gin:0px;font-stretch:normal;font-size:11px;line-height:normal;font-family:&=
+quot;Times New Roman&quot;;min-height:12px">14. The facility occupies 40 ac=
+res of a 163 acre track. The total track or a portion of it is available.=
+=C2=A0<br></div></div><div><br></div><div><br></div><div><div style=3D"lett=
+er-spacing:normal;text-indent:0px;text-transform:none;white-space:normal;wo=
+rd-spacing:0px;text-decoration:none" dir=3D"auto"><div style=3D"letter-spac=
+ing:normal;text-indent:0px;text-transform:none;white-space:normal;word-spac=
+ing:0px" dir=3D"auto"><div>Respectfully, =C2=A0=C2=A0<br></div><div><br></d=
+iv><div>=C2=A0<br></div><div>Sam Tehranchi<br></div><div><br></div><div>=C2=
+=A0<br></div><div>COO<br></div><div>Custom Mortgage and Realty=C2=A0<br></d=
+iv><div>NMLS CA # 1556995 - BRE CA #=C2=A002018146<br></div><div>=C2=A0<br>=
+</div><div>Direct 310.709.6304 -Efax 866.421.7694=C2=A0<br></div><div><br><=
+/div><div><a href=3D"mailto:sam@c-mtg.com" target=3D"_blank">sam@c-mtg.com<=
+/a>=C2=A0-=C2=A0<a href=3D"http://www.c-mtg.com/" target=3D"_blank">www.c-m=
+tg.com</a><br></div><div><br></div><div><a href=3D"https://www.linkedin.com=
+/company-beta/3477964" target=3D"_blank">LinkedIn</a>=C2=A0-=C2=A0<a href=
+=3D"https://www.facebook.com/Custom-Mortgage-409842885783868/" target=3D"_b=
+lank">Facebook</a>=C2=A0-=C2=A0<a href=3D"https://twitter.com/custommortgag=
+e1" target=3D"_blank">twitter</a>=C2=A0<wbr>-=C2=A0<a href=3D"https://www.i=
+nstagram.com/custommortgageinc/" target=3D"_blank">Instagram</a><br></div><=
+/div></div></div></div><div><br></div></blockquote></div><div style=3D"font=
+-size:10pt"><br></div></div></div></div></blockquote></div></div><div style=
+=3D"font-size:10pt"><div><blockquote><div><br></div></blockquote></div></di=
+v></blockquote></div><div style=3D"font-size:10pt"><br></div></div></div></=
+blockquote></div></div><br></div></blockquote></div><br></div>
+
+--0000000000009a14460571d885eb--

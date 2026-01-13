@@ -1,0 +1,72 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of fanniemae.com designates 35.160.62.241 as permitted sender) client-ip=35.160.62.241; envelope-from=technology_administration@fanniemae.com; helo=esa1.hc105-51.r1.ces.cisco.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=@fanniemae.com;
+	spf=pass (zoho.com: domain of fanniemae.com designates 35.160.62.241 as permitted sender)  smtp.mailfrom=technology_administration@fanniemae.com;
+	dmarc=pass(p=reject dis=none)  header.from=fanniemae.com
+Return-Path: <technology_administration@fanniemae.com>
+Received: from esa1.hc105-51.r1.ces.cisco.com (esa1.hc105-51.r1.ces.cisco.com [35.160.62.241]) by mx.zohomail.com
+	with SMTPS id 1530617457168399.054429417301; Tue, 3 Jul 2018 04:30:57 -0700 (PDT)
+Received: from unknown (HELO pironport-u12-ext.fanniemae.com) ([167.133.170.236])
+  by ob1.hc105-51.r1.ces.cisco.com with ESMTP/TLS/DHE-RSA-AES256-GCM-SHA384; 03 Jul 2018 07:30:55 -0400
+Received: from psysadm-ap45.fanniemae.com (HELO psysadm-ap45) ([10.207.104.49])
+  by pironport-u12.fanniemae.com with ESMTP; 03 Jul 2018 07:30:54 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  d=fanniemae.com; i=@fanniemae.com; s=201710;
+  t=1530617457;
+  h=message-id:mime-version:content-transfer-encoding:date:
+   from:subject:to;
+  bh=viHN1hCWJUOxROOVhBs8/pZ5umM6N4dA4Rhdfw8K8JQ=;
+  b=QpRaA6VLosCpiapFEtsLeFXeMQqULEfWDULFeZRUG0JG7NsPmZT1GjZ/
+   C1Gt6ZR8LEy/mNomAvJnNNSeTmlepA2emP+hbRqsDTA2aVnKLmyiEKlPJ
+   eCRucI00aO00Yx4cDYl8Z/3e1jene4Jlt8VJYWpVxI9PtJ12zhqfeX+d5
+   5+93ivmR4M6VWY+2PgqTCP2BPGMFBNqBW49v8Z4JzyxOfPfolrIZtQS0e
+   36/PGlGn17Bn7Xo5htABpfb9TMtD4yrE+t7rS/9IezhwC+cu92N02zits
+   Z1ZRPanTcxVwc9Uo0fZa1byebUki5tcvA7F2YmRF4EC0gWJoX8BkLLcyY
+   g==;
+Authentication-Results: ob1.hc105-51.r1.ces.cisco.com; dkim=none (message not signed) header.i=none
+X-IronPort-Reputation: None
+X-IronPort-Listener: OutgoingMail
+X-IronPort-SenderGroup: FannieMae
+X-IronPort-MailFlowPolicy: $RELAYED
+X-IronPort-RemoteIP: 167.133.170.236
+X-ATTACHMENTS: 
+X-IronPort-AV: E=Sophos;i="5.51,303,1526356800"; 
+   d="scan'208";a="5450852"
+x-provider-authed: TRUE
+Message-ID:<ef1c35$1dmn3o@pironport-u12.fanniemae.com>
+X-Ironport-Relayed: TRUE
+X-SENDER-IP: 10.207.104.49
+X-SENDER-GROUP: None
+X-SENDER-HOST: psysadm-ap45.fanniemae.com
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset="UTF-8"
+Date: 3 Jul 2018 07:30:54 -0400
+From: technology_administration@fanniemae.com
+Subject: Inactivity Lockout Warning
+To: sam@c-mtg.com
+X-Mailer: Siebel 8.1.1.11 SIA [23030] LANG_INDEPENDENT
+X-MSMail-Priority: Normal
+X-Priority: 3
+X-ZohoMail-DKIM: pass (identity @fanniemae.com)
+X-ZohoMail-Owner: <ef1c35$1dmn3o@pironport-u12.fanniemae.com>+zmo_0_technology_administration@fanniemae.com
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_1 IS_0 EML_0 DMN_0 EDR_100 SIP_KGR,RPD_KGR COSF UNK_U_0 UNK_O_0 SIP_KGR_0 RPD_KGR_0 SDFE_RPNS_SM_0  SC_0 SGR3_1_2_0_166_263
+X-ZM-MESSAGEID: 1530617459124000001
+X-ZohoMail-Status: 1
+
+
+The User ID shown below will be locked due to Inactivity on 07/04/2018.
+
+User Id: l5ux7snt
+User Name: Sam Tehranchi
+
+To avoid lockout the user should login to any Fannie Mae application and/or Technology Registration system with this user ID before 07/04/2018.
+
+If you need assistance please contact the Fannie Mae Customer Contact Center.
+
+
+Thank You,
+
+Fannie Mae External Technology Registration Team

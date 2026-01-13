@@ -1,0 +1,108 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 209.85.160.65 as permitted sender) client-ip=209.85.160.65; envelope-from=custommortgagenotifier@gmail.com; helo=mail-pl0-f65.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 209.85.160.65 as permitted sender)  smtp.mailfrom=custommortgagenotifier@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Return-Path: <custommortgagenotifier@gmail.com>
+Received: from mail-pl0-f65.google.com (mail-pl0-f65.google.com [209.85.160.65]) by mx.zohomail.com
+	with SMTPS id 1530632989565889.3492368618128; Tue, 3 Jul 2018 08:49:49 -0700 (PDT)
+Received: by mail-pl0-f65.google.com with SMTP id k1-v6so1241033plt.2
+        for <sam@c-mtg.com>; Tue, 03 Jul 2018 08:49:49 -0700 (PDT)
+Received: from 927538837578 named unknown by gmailapi.google.com with
+ HTTPREST; Tue, 3 Jul 2018 08:49:48 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to:cc;
+        bh=f6c3A6au8MwijRfcrqILLJYZsdtYDC/wwBSMUzg3DQE=;
+        b=cvAlE6vL+SGkwhCmiubbmyEWlXrsRea0hbhEMk1kdktJe8zYRgKkfOeyEeIn++VpLV
+         GasxepXX75UIvn7SjKXBkC6PK2iJzu4Idw2vnhwE1aVxjyQN6KGIV7KhbU3oqp0eRykY
+         pXzfLdENfSGPVvDzXlyvtvb1cc95LxRKl86fTdz0egGya3nhyrYEAZI0qZowi/RQPQA4
+         gJxRaKUqKpf/6rt7PUA6bu2OwHVOhmfFYaM8KU6mEKaG2vc/0EHhNGMyXSzCYGlktKFW
+         6Kr/VIhCNxzNuwbQ1lel+2cULUj4+kscJvwSkUFrqKtw+dnATsZzOUWqIIraDEvOTKx2
+         ikUg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to:cc;
+        bh=f6c3A6au8MwijRfcrqILLJYZsdtYDC/wwBSMUzg3DQE=;
+        b=b89bpIZyc1GMYpnGJMIfTDEuHQW7oX6Vn30iRuFz6+3GQnXMqrJbeFYySMKUUsi7+b
+         nCVQY9CE9DnqtQ7RvRDUSule/u7EmHEvPwVp/0yBcHoWvq0/a+9yxtm/XFxAzSB6Sjp3
+         q02JnT8aaxxwVu7OeUDkKD4nQYqA6yAqmzmW/Rm3TQp79c6w4XuHKk5F0J0u6AqjUv4S
+         gTqLqQy6LWDA++pgoN2BY/ED5aY0oRAd8PvCpTTt3qI3YKIQJoTjuBvoDQ2MumIXUh48
+         ssLXk3vxbdcJGY4zh5OyLsDbixHwNl9dEUR1/5C//WYks/Usn1maAjG/gF0BJzXZCLid
+         N+NQ==
+X-Gm-Message-State: APt69E0PTbR64LL1lpdcP5PRJXnWL5NnDxFMIL1FDBeDlAODilevfNPg
+	AZd4fTAqc5g+J5mvEjqCAOJJQ7U8/XqUvK0G8mQ=
+X-Google-Smtp-Source: ADUXVKJsbGPknFVxkjNE8LzpUptYDg7caekqDG8ncpxZlU9+/6TTLik5kWnd4r3vBxGagQff5xB7bwXufQsR3ZB2oDQ=
+X-Received: by 2002:a17:902:ba97:: with SMTP id k23-v6mr30823532pls.259.1530632988854;
+ Tue, 03 Jul 2018 08:49:48 -0700 (PDT)
+MIME-Version: 1.0
+From: Custom Mortgage Call Notifier <custommortgagenotifier@gmail.com>
+Date: Tue, 3 Jul 2018 08:49:48 -0700
+Message-ID:<CAPY5Y-5Nrd_Tz=VUo8Xk4R9zJfVtPz3PPGhARYJYtaWmp5NNsQ@mail.gmail.com>
+Subject: New Client Custom Mortgage Call from 17328063501
+To: custommtg23@gmail.com
+Cc: sam@c-mtg.com
+Content-Type: text/plain; charset="UTF-8"
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_DI SPK
+X-ZM-MESSAGEID: 1530632990475000001
+X-ZohoMail-Status: 1
+
+
+Call from 17328063501
+
+Phone Application Responses:
+
+Question: customer type
+Response: new
+
+Question: Credit score
+Response: 0
+
+Question: loan_value
+Response: 35000000
+
+Question: property type
+Response: investment property
+
+Question: purch_refi
+Response: refinance
+
+Question: email_data
+Response: notifier
+
+Question: Monthly Income
+Response: 500000
+
+Question: Call Back Number
+Response: 7328063501
+
+Question: prop_value
+Response: 50000000
+
+Recordings:
+
+@id: 56243363003
+Created: 2018-07-03T15:49:44Z
+LengthInSeconds: 312
+Link: https://www.callfire.com/recording/1283001/6ffd72915ba4e3b9ae77c897244a6107/2353644722003_whole_call_recording.mp3
+Name: whole_call_recording
+
+@id: 56243364003
+Created: 2018-07-03T15:49:44Z
+LengthInSeconds: 11
+Link: https://www.callfire.com/recording/1283001/57a0e0fb5bd3a88d8a71fb40e9c46f9f/2353644722003_address.mp3
+Name: address
+
+@id: 56243365003
+Created: 2018-07-03T15:49:44Z
+LengthInSeconds: 23
+Link: https://www.callfire.com/recording/1283001/e1627587ae2bfdef22ec1a50b90cc187/2353644722003_email.mp3
+Name: email
+
+@id: 56243367003
+Created: 2018-07-03T15:49:44Z
+LengthInSeconds: 7
+Link: https://www.callfire.com/recording/1283001/5f1ca54ec27231018bbb9af9e3378f9d/2353644722003_name.mp3
+Name: name

@@ -1,0 +1,527 @@
+Delivered-To: sam@c-mtg.com
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of regus.com designates 40.107.1.97 as permitted sender)  smtp.mailfrom=Encino.CorporateCenter@regus.com;
+	dmarc=pass(p=none dis=none)  header.from=regus.com
+Return-Path: <Encino.CorporateCenter@regus.com>
+Received: from EUR02-HE1-obe.outbound.protection.outlook.com (mail-eopbgr10097.outbound.protection.outlook.com [40.107.1.97]) by mx.zohomail.com
+	with SMTPS id 1530894695350406.4961089539072; Fri, 6 Jul 2018 09:31:35 -0700 (PDT)
+Received: from HE1PR02MB0666.eurprd02.prod.outlook.com (10.161.114.145) by
+ HE1PR02MB0683.eurprd02.prod.outlook.com (10.161.114.15) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.930.21; Fri, 6 Jul 2018 16:31:27 +0000
+Received: from HE1PR02MB0666.eurprd02.prod.outlook.com
+ ([fe80::bd35:ef1b:137c:294b]) by HE1PR02MB0666.eurprd02.prod.outlook.com
+ ([fe80::bd35:ef1b:137c:294b%3]) with mapi id 15.20.0930.016; Fri, 6 Jul 2018
+ 16:31:27 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=RegusGroupServices.onmicrosoft.com; s=selector1-regus-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=pXpDAoFwOw2M3nZNs9/roAV2b4xIcF9OhUoM2o++PfI=;
+ b=7jjGpihD67QuTeSuLmP5AO3H8o5LF73Bh7K0TDXYh4ksEa4a1ZC+q3ZE5rgppS5SC/Bh1qMWVEQewc/V8X/Iez94oX9LOv8bjIGsGIeHu71mwQrpcJDBYUdk9ybSc3Y1JHFYjASHS6z5ZBro7HshZDpSXbIn/LOlNfSl4rHEHOk=
+From: Encino Corporate Center <Encino.CorporateCenter@regus.com>
+To: Felipe Cruces <Felipe.Cruces@regus.com>
+Subject: Refrigerator Cleaning 
+Thread-Topic: Refrigerator Cleaning 
+Thread-Index: AdQVRsVMCBo9Rj8eSQm46nHPhYh8Ww==
+Date: Fri, 6 Jul 2018 16:31:27 +0000
+Message-ID:<HE1PR02MB0666B60A80A977D69720AE819F470@HE1PR02MB0666.eurprd02.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=Encino.CorporateCenter@regus.com; 
+x-ms-exchange-messagesentrepresentingtype: 1
+x-originating-ip: [8.31.246.253]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;HE1PR02MB0683;7:a+668FeTlDaxD0t7MTBtP9jnn445AaSpdhC9DghOgrg2JUaFPrgAI93Bw6J26WNWninQeH6BnSSmwQgD/CtjsZVcTwCw+xAJ8e85KhdFh2W2I4OkXpLsnk+cp9KOxM11G4ERK11Ca4/FuQWrlKP/BcJ6jpULsO0hpbuBkG/TySVvTZhqf4CWVDJ86+/durhhtMKPm1mFXOF/TuUdyi9TpxG7unNf/gCXwZuyV7lOTlUT82WLkz/MnoMRaZMBBpyy
+x-ms-office365-filtering-correlation-id: 9443fec6-d619-4975-a52d-08d5e35debfd
+x-ms-office365-filtering-ht: Tenant
+x-microsoft-antispam: UriScan:(25283462367083);BCL:0;PCL:0;RULEID:(7020095)(4652040)(8989117)(5600053)(711020)(48565401081)(2017052603328)(7153060)(49563074)(7193020);SRVR:HE1PR02MB0683;
+x-ms-traffictypediagnostic: HE1PR02MB0683:
+x-microsoft-antispam-prvs: <HE1PR02MB0683575EB373058A07A69B4985470@HE1PR02MB0683.eurprd02.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(28532068793085)(31418570063057)(223705240517415)(128460861657000)(10702650721073)(25283462367083)(86561027422486)(21748063052155)(81160342030619)(64217206974132);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(8211001083)(102415395)(6040522)(2401047)(5005006)(8121501046)(10201501046)(93006095)(93001095)(3231254)(944501410)(52105095)(3002001)(6055026)(149027)(150027)(6041310)(20161123560045)(20161123558120)(20161123562045)(20161123564045)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(6072148)(201708071742011)(7699016);SRVR:HE1PR02MB0683;BCL:0;PCL:0;RULEID:;SRVR:HE1PR02MB0683;
+x-forefront-prvs: 0725D9E8D0
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(376002)(39860400002)(136003)(346002)(366004)(396003)(199004)(189003)(7696005)(102836004)(81166006)(861006)(6506007)(26005)(99286004)(8936002)(478600001)(74316002)(7736002)(54556002)(733005)(6116002)(3846002)(55016002)(6306002)(9686003)(54896002)(790700001)(6436002)(14444005)(33656002)(606006)(4743002)(66066001)(97736004)(5024004)(256004)(2900100001)(14454004)(105586002)(68736007)(86362001)(25786009)(6862004)(236005)(2906002)(106356001)(39060400002)(5660300001)(7416002)(7366002)(7406005)(72206003)(81156014)(8676002)(476003)(53936002)(99936001)(6636002)(486006)(65686004)(7116003)(316002)(413944005)(3480700004)(5250100002)(16866105001);DIR:OUT;SFP:1102;SCL:1;SRVR:HE1PR02MB0683;H:HE1PR02MB0666.eurprd02.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;A:1;MX:1;
+Received-SPF: pass (zoho.com: domain of regus.com designates 40.107.1.97 as permitted sender) client-ip=40.107.1.97; envelope-from=Encino.CorporateCenter@regus.com; helo=EUR02-HE1-obe.outbound.protection.outlook.com;
+received-spf: None (protection.outlook.com: regus.com does not designate
+ permitted sender hosts)
+x-microsoft-antispam-message-info: LGcPm447khWCzcdfVexfVkTVTvP0e1KO5//AsGGh6OZx8NWUmhauCsvTLWuYR0COpbtZ5qC+kKU0/4T13wRr3PDdaSvF/SpbghEPaSfX0lg/4bXkLEPY2OtyOjjzLVkYg2jGi0ph/ukn0OxZs0DPLViJXVfESteAw+KOy5gk1eH2ghAlqZleZu8gNKwfEXo4Y+byH7qlrRj3PimVE42r+FdJFEZn5X985Otodt5h1MG+kWkIzi8390Hat9/TXoJFnzT5Gz5NR31gWbKTgppmhWeptYEN0yE/ZyHhR54PRDaHXiHpscyQX+vSB/cSlcqsz5ciBvJ4a+RFK8Wct6i+lH+xC0R6ZWuYnJvI/54rVZY=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/related;
+	boundary="_007_HE1PR02MB0666B60A80A977D69720AE819F470HE1PR02MB0666eurp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: regus.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 9443fec6-d619-4975-a52d-08d5e35debfd
+X-MS-Exchange-CrossTenant-originalarrivaltime: 06 Jul 2018 16:31:27.2014
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 88155c28-f750-4013-91d3-8347ddb3daa7
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HE1PR02MB0683
+X-Zoho-Virus-Status: 1
+X-ZohoMail-DKIM: pass (identity @RegusGroupServices.onmicrosoft.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_NDS SPK
+X-ZM-MESSAGEID: 1530894695998000001
+X-ZohoMail-Status: 1
+
+
+--_007_HE1PR02MB0666B60A80A977D69720AE819F470HE1PR02MB0666eurp_
+Content-Type: multipart/alternative;
+	boundary="_000_HE1PR02MB0666B60A80A977D69720AE819F470HE1PR02MB0666eurp_"
+
+--_000_HE1PR02MB0666B60A80A977D69720AE819F470HE1PR02MB0666eurp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Tenants,
+
+Today at 3:00 PM the refrigerator will be emptied out and all items will be=
+ thrown out. If you have anything in the fringed you would like to save ple=
+ase be sure to remove it before 3:00 PM today.
+
+Thank you.
+
+
+[cid:C6FEDC72-36E8-487B-9572-7094FC5D514B]
+3000 locations, 950 cities, 120 countries, 1 call.
+
+Encino Corporate Center
+16501 Ventura Blvd Suite 400
+Encino, CA 91436
+
+Office   (747) 233-3600
+Direct Line (747)233-3604
+
+[http://assets.regus.com/email/signature/twitt-ico.jpg]<https://twitter.com=
+/RegusBlog>[http://assets.regus.com/email/signature/ln-ico.jpg]<http://www.=
+linkedin.com/pub/michael-holt/64/b20/139/>[http://assets.regus.com/email/si=
+gnature/fb-ico.jpg]<https://www.facebook.com/regus.workyourway>
+
+
+
+The information contained in this e-mail (including any attachments) is int=
+ended only for the personal
+and confidential use of the recipient(s) named above. If you are not an int=
+ended recipient of this message,
+please notify the sender by replying to this message and then delete the me=
+ssage and any copies from
+your system. Any use, dissemination, distribution, or reproduction of this =
+message by unintended
+recipients, is not authorised and may be unlawful.
+
+--_000_HE1PR02MB0666B60A80A977D69720AE819F470HE1PR02MB0666eurp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Dear Tenants,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Today at 3:00 PM the refrigerator will be emptied ou=
+t and all items will be thrown out. If you have anything in the fringed you=
+ would like to save please be sure to remove it before 3:00 PM today.
+<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Thank you. <o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,&quot;sans-serif&quot;;color:black">&nbsp;</span><span style=3D"co=
+lor:black"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,&quot;sans-serif&quot;;color:black"><img width=3D"79" height=3D"46=
+" id=3D"Picture_x0020_1" src=3D"cid:image001.png@01D41500.B0E6DC50" alt=3D"=
+cid:C6FEDC72-36E8-487B-9572-7094FC5D514B"></span><span style=3D"color:black=
+"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:9.0pt;font-family:&quot;=
+Arial&quot;,&quot;sans-serif&quot;;color:black">3000 locations, 950 cities,=
+ 120 countries, 1 call.
+</span></b><span style=3D"color:black"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,&quot;sans-serif&quot;;color:black">&nbsp;</span><span style=3D"co=
+lor:black"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,&quot;sans-serif&quot;;color:black">Encino Corporate Center<o:p></=
+o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,&quot;sans-serif&quot;;color:black">16501 Ventura Blvd Suite 400<o=
+:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,&quot;sans-serif&quot;;color:black">Encino, CA 91436<o:p></o:p></s=
+pan></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,&quot;sans-serif&quot;;color:black">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:9.0pt;font-family:&quot;=
+Arial&quot;,&quot;sans-serif&quot;;color:black">Office</span></b><span styl=
+e=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;c=
+olor:black">&nbsp;&nbsp; (747) 233-3600<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"color:black">Direct Line </span></=
+b><span style=3D"color:black">(747)233-3604<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,&quot;sans-serif&quot;;color:black">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><a href=3D"https://twitter.com/RegusBlog"><span styl=
+e=3D"color:blue;text-decoration:none"><img border=3D"0" width=3D"30" height=
+=3D"43" id=3D"Picture_x0020_2" src=3D"cid:image002.jpg@01D41500.B0E6DC50" a=
+lt=3D"http://assets.regus.com/email/signature/twitt-ico.jpg"></span></a><a =
+href=3D"http://www.linkedin.com/pub/michael-holt/64/b20/139/"><span style=
+=3D"color:blue;text-decoration:none"><img border=3D"0" width=3D"30" height=
+=3D"43" id=3D"Picture_x0020_3" src=3D"cid:image003.jpg@01D41500.B0E6DC50" a=
+lt=3D"http://assets.regus.com/email/signature/ln-ico.jpg"></span></a><a hre=
+f=3D"https://www.facebook.com/regus.workyourway"><span style=3D"font-size:9=
+.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;color:blue;te=
+xt-decoration:none"><img border=3D"0" width=3D"30" height=3D"43" id=3D"Pict=
+ure_x0020_4" src=3D"cid:image004.jpg@01D41500.B0E6DC50" alt=3D"http://asset=
+s.regus.com/email/signature/fb-ico.jpg"></span></a><span style=3D"font-size=
+:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;color:bla=
+ck"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<div style=3D"FONT-SIZE: 8.5pt; FONT-FAMILY: 'Calibri',sans-serif; bold: ">=
+<br>
+<br>
+The information contained in this e-mail (including any attachments) is int=
+ended only for the personal
+<br>
+and confidential use of the recipient(s) named above. If you are not an int=
+ended recipient of this message,
+<br>
+please notify the sender by replying to this message and then delete the me=
+ssage and any copies from
+<br>
+your system. Any use, dissemination, distribution, or reproduction of this =
+message by unintended
+<br>
+recipients, is not authorised and may be unlawful. <br>
+</div>
+</body>
+</html>
+
+--_000_HE1PR02MB0666B60A80A977D69720AE819F470HE1PR02MB0666eurp_--
+
+--_007_HE1PR02MB0666B60A80A977D69720AE819F470HE1PR02MB0666eurp_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=6284;
+	creation-date="Fri, 06 Jul 2018 16:31:24 GMT";
+	modification-date="Fri, 06 Jul 2018 16:31:24 GMT"
+Content-ID: <image001.png@01D41500.B0E6DC50>
+Content-Transfer-Encoding: base64
+
+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
+9GgAAAAASUVORK5CYII=
+
+--_007_HE1PR02MB0666B60A80A977D69720AE819F470HE1PR02MB0666eurp_
+Content-Type: image/jpeg; name="image002.jpg"
+Content-Description: image002.jpg
+Content-Disposition: inline; filename="image002.jpg"; size=1862;
+	creation-date="Fri, 06 Jul 2018 16:31:25 GMT";
+	modification-date="Fri, 06 Jul 2018 16:31:25 GMT"
+Content-ID: <image002.jpg@01D41500.B0E6DC50>
+Content-Transfer-Encoding: base64
+
+/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QMraHR0cDov
+L25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENl
+aGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4
+OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6
+NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5
+OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHht
+bG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6
+Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUu
+Y29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBo
+b3Rvc2hvcCBDUzYgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjhCRDc4QzZC
+RTBDNjExRTNCMDkzRUY1NjMwMTNFREM3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjhCRDc4
+QzZDRTBDNjExRTNCMDkzRUY1NjMwMTNFREM3Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmlu
+c3RhbmNlSUQ9InhtcC5paWQ6OEJENzhDNjlFMEM2MTFFM0IwOTNFRjU2MzAxM0VEQzciIHN0UmVm
+OmRvY3VtZW50SUQ9InhtcC5kaWQ6OEJENzhDNkFFMEM2MTFFM0IwOTNFRjU2MzAxM0VEQzciLz4g
+PC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9
+InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAAGBAQEBQQGBQUGCQYFBgkLCAYGCAsMCgoLCgoMEAwM
+DAwMDBAMDg8QDw4MExMUFBMTHBsbGxwfHx8fHx8fHx8fAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAArAB4DAREAAhEB
+AxEB/8QAkQAAAgMBAQAAAAAAAAAAAAAAAgMEBQcBBgEAAgMBAQAAAAAAAAAAAAAAAQIEBQYDABAA
+AgEDAgIECgsAAAAAAAAAAQIDEQQFACESBjFBcRNRYcEiMqLSMxQVgaHR4WIjc5OzVAcRAAEDAgQD
+CAIDAAAAAAAAAAEAAgMRBCExEgVBUcFhcYGRsSITFdEUMmJy/9oADAMBAAIRAxEAPwC+5kv83ccx
+5J3vZ9rmVUAkcKqq5CqoBoAANay3iYI24DILD3d2/wCV2JzKhLLl/wC5cfuv9uu2hnIKJ+0/mfNH
+KueSJZXuLpYn2SQvIFPYa76ADK0oExnkAqS6nimWN9m0tMjEL647uWBOJTI5FVniII32Pj0j4mVb
+gM+hXaO7fpd7jl1Cs8hJa/P79qgOt3KaOKiokPaCNCIH4x/keijXNRM4/wBj6rSxyPyzmba1yNmv
+wwlCSSLDTu2BoWXgqeA9Wx21S/uyxEtditP9VBO1sjfbWhwy8uCvM/y9jcniHs5Y44xEh+GkoAIi
+o2I8C7bjwaiQXDmP1Dx7VYXlmyWItIAoMOxZDbYyz+b3eMF3DTuwpu+Ne495Ga8daUrt9+2tC6Q6
+A6h7uPFY6O297mahlnXDMKNK2PXmTIrfQvLbvdTBjEwWRfzW85agqewjXRod8bdJxoEZXMEztYJb
+qOWea0rljO8mYnGGC2vpeBm7x1nRywYimwReHq6tU91bTyvqWjwV9Y31pBHQPPPEHoFV848+x3dj
+LYYxWWKYFJrh/NJU9Kqvj6ydSLPbi1wc/hwUPcN6EjSyPI5n8LPLVRS8/RH80erV+Y7+hVLH/F3d
+1C9flv8APr6TNXs9tcxmCaeSROMMGHGxahoD0Vpquh3BoYAQa0VzdbU50jiCKElFFyJllFO/h9b2
+dP8AYM5FRTs0nMIZuQ8uw9/D63s699gzkURs0nMJdr/nmQWK8MlzEJHiVYVAahPeox4jTbZdK/cG
+1GBz6LuzaXhrqkVp1C002nFKx2ALE1PbqkD8FpTHUp6WERHpV7NL8hTCEIJbEruNx4dESJTDRKFr
+6W3SPKNHUgGKeaVPo65KQjTo6vo0CiF09B8ugil7fh+vTJF//9k=
+
+--_007_HE1PR02MB0666B60A80A977D69720AE819F470HE1PR02MB0666eurp_
+Content-Type: image/jpeg; name="image003.jpg"
+Content-Description: image003.jpg
+Content-Disposition: inline; filename="image003.jpg"; size=1890;
+	creation-date="Fri, 06 Jul 2018 16:31:25 GMT";
+	modification-date="Fri, 06 Jul 2018 16:31:25 GMT"
+Content-ID: <image003.jpg@01D41500.B0E6DC50>
+Content-Transfer-Encoding: base64
+
+/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QMraHR0cDov
+L25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENl
+aGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4
+OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6
+NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5
+OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHht
+bG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6
+Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUu
+Y29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBo
+b3Rvc2hvcCBDUzYgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjlFRDhCMDg0
+RTBDNjExRTNCMUQxOENBOUFCMkIyNTRBIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjlFRDhC
+MDg1RTBDNjExRTNCMUQxOENBOUFCMkIyNTRBIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmlu
+c3RhbmNlSUQ9InhtcC5paWQ6OUVEOEIwODJFMEM2MTFFM0IxRDE4Q0E5QUIyQjI1NEEiIHN0UmVm
+OmRvY3VtZW50SUQ9InhtcC5kaWQ6OUVEOEIwODNFMEM2MTFFM0IxRDE4Q0E5QUIyQjI1NEEiLz4g
+PC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9
+InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAAGBAQEBQQGBQUGCQYFBgkLCAYGCAsMCgoLCgoMEAwM
+DAwMDBAMDg8QDw4MExMUFBMTHBsbGxwfHx8fHx8fHx8fAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAArAB4DAREAAhEB
+AxEB/8QAjAAAAQUAAAAAAAAAAAAAAAAABQIDBAYHAQACAwEBAAAAAAAAAAAAAAABBAACAwUGEAAC
+AgAFAgIHBAsAAAAAAAABAgMEABESBQYhBzEyQVFhgdITFPBxoxXBIqIjk0Q1VXW1FhEAAgECBAQG
+AwAAAAAAAAAAAQIAEQMhURIEMcETBUFhcbEywvCBcv/aAAwDAQACEQMRAD8ArKy885PyqerSu3Lm
+53J5SkSzsmekknxZURVUewAY7+hEWp4TzfUuO9BUkyLuycy2fcZ9t3K5crXqzaZoWsOSpIBHVWIO
+YOYIOLoiMKjhM3uOpoa1kJt05B/crf8AHk+LFuiMpXrtnD/G9+5L/wA7yyo252mgO3wTqrTOdMqb
+lUQMpJzU6JGBy8cY3LK6lw8eRm9u+2lsfDmId7U1Pr+5MMFS9Nt9kNZdLEIQuNKOSMpFdCD4EEYv
+uXUWa0rwlNpbY3qVpxxl6TtVS5RyzlQ3HdrMt2hLCqWm+VmzSw6gZVVVGS6QAFy6YWO86dtKAUMZ
+Gx6tx9TGopj+pEtdnOE3+MX9w4zvkm4XduV/nMWjaFpIl1sgVUVl1DynUR9+LDfOHAdaAwHt9trZ
+NtiSJmXHZKv5bygBug2uPNsjl/U6WHbjDUvr9TELStpf+fssO9l7Fet3WhlsSpDEPq85JGCqM43A
+6nIYT3QJtYeUe2Zpex85sHGN12tOV8/d7kCpNLWMTGRAHyqkHSc+vuwldQ6LeGfvHrVwa7mOXtKf
+2QvUK3CuUR2LMUMkmrQkjqpb9ww6AkZ4Z36k3FpFe2uBbap/KTJ+NgflXKv8XH/tKWG7nyX15GJ2
+/i3p9hLpuXY/eTultqm4V3qtM5haQOrlCxI1AKwz9+F03goKiNPsWqaGIXslyMdPrav4nwY0G+XI
+zE9vbMRLdkeRn+dq/ifBiHfLkYR29sxCuydmd2rbNyFJL8Bt3KkNeuih9GkXYJ3ZmIz6fIAAA9OM
+H3YLLhwPKMJsiFbHiOYm51dsiezlIuaHPMeGOaWnVC4yTHtNMyTAp+quWjqfVgFzD0xGqu1V3ikM
+qZsPL1I9GCzQKgjEVDJJhl5kA/bU/oxC0AWGY8vmDy+7PPGc1EcXzP4fb14EMTHlpbw92DAI2Msm
+8vh7fWMSSf/Z
+
+--_007_HE1PR02MB0666B60A80A977D69720AE819F470HE1PR02MB0666eurp_
+Content-Type: image/jpeg; name="image004.jpg"
+Content-Description: image004.jpg
+Content-Disposition: inline; filename="image004.jpg"; size=1859;
+	creation-date="Fri, 06 Jul 2018 16:31:26 GMT";
+	modification-date="Fri, 06 Jul 2018 16:31:26 GMT"
+Content-ID: <image004.jpg@01D41500.B0E6DC50>
+Content-Transfer-Encoding: base64
+
+/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QMraHR0cDov
+L25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENl
+aGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4
+OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6
+NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5
+OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHht
+bG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6
+Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUu
+Y29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBo
+b3Rvc2hvcCBDUzYgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjgyMUJGRjM0
+RTBDNjExRTM5RjRCOUZERTk4RjMxMkEyIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjgyMUJG
+RjM1RTBDNjExRTM5RjRCOUZERTk4RjMxMkEyIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmlu
+c3RhbmNlSUQ9InhtcC5paWQ6ODIxQkZGMzJFMEM2MTFFMzlGNEI5RkRFOThGMzEyQTIiIHN0UmVm
+OmRvY3VtZW50SUQ9InhtcC5kaWQ6ODIxQkZGMzNFMEM2MTFFMzlGNEI5RkRFOThGMzEyQTIiLz4g
+PC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9
+InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAAGBAQEBQQGBQUGCQYFBgkLCAYGCAsMCgoLCgoMEAwM
+DAwMDBAMDg8QDw4MExMUFBMTHBsbGxwfHx8fHx8fHx8fAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAArAB4DAREAAhEB
+AxEB/8QAmQAAAgMBAQAAAAAAAAAAAAAABQYAAwgHAQEAAgMBAQAAAAAAAAAAAAAAAwUBBAYAAhAA
+AQIFAAUHCAsBAAAAAAAAAQIDABEEBQYhMUESB1GhIjITIxRhQrIzYxV1JoHBYqJzs3QltRYINxEA
+AgECAQgIBwAAAAAAAAAAAQIAEQMEITFRcYHBEjLwUsITMxQFFUFh4SJy4iP/2gAMAwEAAhEDEQA/
+AETKMiyeoyW6uu3WrUtVW8PXuAABwgAAEAADQAI1NnDLwjJ8Iku3zU5YOTeMkUoJTcqwqJklIfdJ
+JOwdKC+XXQIDzJ0zQdo/z+6zaGqrJcvuNPVKQlVQlh/s2WlK8zfdKt6RMp6ISPjQWoiiNVw5AqzT
+m+M1F2Nxy3HFXysVaO4ZS+ahRKQm9UdOH0qJ3QrsnFaRo08kXbloUVqZf1JldLuUivSoidfHKdV/
+uYKpHxb+se0VDawVKjVFGILBjHHhPR8O37rU/wBvfShpKWzQSW4mb2/7LycsAx5uhR3W3NJwTWyx
+73JozzR/EpnB3scSjM3exs/iEEK3nU99JW4JtdLVOM1hDcD/AM+ak0eKFvh+/NMy40cZ97ZY0F/L
+4ZaBc6cvB++6ETn1/V/TGivMaJ19/A2+I7VKt1d3EN0Tr+PmG5/q3/zFQWzyjVAX+Yz22JHjqb8V
+HpCDtmMrg5RNOf6Z/wCct/EGPQcjNek+LsM0XqnhbZnLGB+zZd8Ja/laCHV3mT8uy0UW+RtXaEfb
+9wJvr1+uD9LcKZdM7UuuNKcDiV7qlkiYCVDbyxTteoKFFQZbvYFixoZQzwLyppaVor6QLQQpJ7wy
+IMxrRBvck0GA9vfSI0ZViPGTJbYLdfr9S1NCHEuhosIa7xIISd5thCvOO2Ktq9h7ZqikHX9ZauWb
+7ijMKdPlBVi4IXqmsmRtu3CnNVXUbNNToSHNyQrqd9alKKZ6OwAAA2x6uY9SymmY7jOTBEKwrnG8
+TvLlum6sy1qJ54ThozKyItslAy2xPHI4YXu7HbUoRr6QPMYEhoYVxUQUzb5NviXWQB99J+qCFp4C
+wyZTPU54FCSCX2OeOnS57qbNe3VECSZSJSV1NXl5REyJ/9k=
+
+--_007_HE1PR02MB0666B60A80A977D69720AE819F470HE1PR02MB0666eurp_--

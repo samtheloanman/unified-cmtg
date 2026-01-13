@@ -1,0 +1,495 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of costar.com designates 65.222.180.126 as permitted sender) client-ip=65.222.180.126; envelope-from=asharpe@costar.com; helo=CS01smtp3.costargroup.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=asharpe@costar.com;
+	spf=pass (zoho.com: domain of costar.com designates 65.222.180.126 as permitted sender)  smtp.mailfrom=asharpe@costar.com;
+	dmarc=pass(p=none dis=none)  header.from=costar.com
+Return-Path: <asharpe@costar.com>
+Received: from CS01smtp3.costargroup.com (cs01smtp3.costargroup.com [65.222.180.126]) by mx.zohomail.com
+	with SMTPS id 1531256177072734.2329840459787; Tue, 10 Jul 2018 13:56:17 -0700 (PDT)
+Received: by CS01smtp3.costargroup.com id h8ken029rgoc for <sam@c-mtg.com>; Tue, 10 Jul 2018 16:55:30 -0400 (envelope-from <asharpe@costar.com>)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=PMTACSQ22018; d=costar.com;
+ h=MIME-Version:From:To:Date:Subject:Content-Type:Content-Transfer-Encoding;
+ i=asharpe@costar.com;
+ bh=u7nNdty6Eai/B876vp7Ni+TYSXU=;
+ b=JO6F5cDTsN8jBMHPdVG8pPXxKjX7/Kg9duoR91KFeaL/PkIgyW7SBvIVMp+Oy9ObYwlkyXlop5Gt
+   4gvCj9ao26sn48dYR3UUH9k1RVDc2gSq2stCdSW+Ie+Q1sTtQo96NHw5R3ghZ9ltq1aubwcwWSaT
+   LBjBu02XV1m68yuWR5Uov5MNLm7JSBpDZp8W2tD+DRblcecnuMjE2FPvwMxNbDUGEMC2n6ZbMa25
+   MpG8ZGSkb2G/fxJxnsgDAOL6kMWP0GhNNQFvyhESj77NUN1xofQQPhWyu6XKxMLUmd7zva/um91x
+   UHRUk7lZDRadIHoL4S3aVcE3i33d+04SRaV4gg==
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=PMTACSQ22018; d=costar.com;
+ b=EtxxI261xv7ETpe5rcOaAg33c5EdGYh+OvzJsWW6RP+xlcNoa0SCrKOzU+Th1MOOjjQWjEIbxfeE
+   u/gez+n2HH+vG9VPwRjVyI/3V2mgzOlLyfvRY2jFOgg6b2KNxE+Y2FyrKE3u77QUvqGv3Ftrv8Zn
+   O21/OM6ZZTn+7B5Qbnol0RrqMqQeiE3Yfk4XGQdinpfJ/POQWGR3a0qNci3pIhYiNXsWt2XCYvpN
+   hjZCeu3fcJ7flP336dpOeZIMaSJhcxxHYLxoatVIucYeKy4F8NfzCdcYCFCBLUpxk2jp1p6qVObr
+   wkQ929lZeRFmuMuB3HvqRTmtjfRM0n0rFWu1Rg==;
+Lmm-Message-Id: e6d15ebc067643e69f8199244d24134c
+MIME-Version: 1.0
+From: "Alexa Sharpe" <asharpe@costar.com>
+To: "Sam Tehranchi" <sam@c-mtg.com>
+Date: 10 Jul 2018 16:55:30 -0400
+Subject: Thank You for Updating
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+X-ZohoMail-DKIM: pass (identity asharpe@costar.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 SPK
+X-ZM-MESSAGEID: 1531256179735100001
+X-ZohoMail-Status: 1
+Message-ID: <1224520041.1492900.1698037696110@[172.18.246.51]>
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "h=
+ttp://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">=0D=0A<ht=
+ml xmlns=3D"http://www.w3.org/1999/xhtml">=0D=0A<head>=0D=0A    <=
+meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3D=
+utf-8" />=0D=0A    <title></title>=0D=0A    <style>=0D=0A        =
+@media screen {=0D=0A            @font-face {=0D=0A              =
+  font-family: 'CoStar Brown Light';=0D=0A                font-st=
+yle: normal;=0D=0A                font-weight: normal;=0D=0A     =
+           src: url('http://www.loopnet.com/content/fonts/costarb=
+rown/lineto-costar-brown-light.woff') format('woff');=0D=0A      =
+      }=0D=0A=0D=0A            @font-face {=0D=0A                =
+font-family: 'CoStar Brown Regular';=0D=0A                font-st=
+yle: normal;=0D=0A                font-weight: normal;=0D=0A     =
+           src: url('http://www.loopnet.com/content/fonts/costarb=
+rown/lineto-costar-brown-regular.woff') format('woff');=0D=0A    =
+        }=0D=0A	            }=0D=0A            .coStarBrownLight =
+{=0D=0A                font-family: 'CoStar Brown Light', Arial, =
+Helvetica, sans-serif !important;=0D=0A            }=0D=0A       =
+    .coStarBrownLightPadFix {=0D=0A                font-family: '=
+CoStar Brown Light', Arial, Helvetica, sans-serif !important; pad=
+ding: 12px 0 17px 17px;=0D=0A            }=0D=0A	    .coStarBrown=
+LightMainTextPad {=0D=0A                font-family: 'CoStar Brow=
+n Light', Arial, Helvetica, sans-serif !important; padding: 0 58p=
+x 30px;=0D=0A	    }=0D=0A	    .coStarBrownLightUpgradeTextPad {=0D=0A=
+                font-family: 'CoStar Brown Light', Arial, Helveti=
+ca, sans-serif !important; padding: 17px 58px 0px;=0D=0A	    }=0D=0A=
+            .coStarBrownRegular {=0D=0A                font-famil=
+y: 'CoStar Brown Regular', Arial, Helvetica, sans-serif !importan=
+t;=0D=0A            }=0D=0A	    .MobButtonPad {padding-left:10px;=
+ padding-right:10px; padding-bottom: 10px; padding-top: 10px;=0D=0A=
+	    }=0D=0A=0D=0A	@media only screen and (max-width: 640px)  {=0D=0A=
+					.deviceWidth {width:440px!important; padding:0;}=0D=0A					.=
+MobButtonPad {padding-left:0; padding-right:0; padding-bottom: 5p=
+x; padding-top: 5px;}=0D=0A              				.coStarBrownLightPad=
+Fix {=0D=0A                			font-family: 'CoStar Brown Light', =
+Arial, Helvetica, sans-serif !important; padding: 5px 0px 5px 0px=
+;=0D=0A            				}=0D=0A            				.coStarBrownLightMa=
+inTextPad {=0D=0A            				font-family: 'CoStar Brown Light=
+', Arial, Helvetica, sans-serif !important; padding: 0 10px 30px;=
+=0D=0A            				}=0D=0A	    				.coStarBrownLightUpgradeTex=
+tPad {=0D=0A                			font-family: 'CoStar Brown Light',=
+ Arial, Helvetica, sans-serif !important; padding: 17px 5px 0px;=0D=0A=
+	    				}=0D=0A					.center {text-align: center!important;}=0D=0A=
+				 	}=0D=0A=0D=0A	@media only screen and (max-width: 479px) {=0D=0A=
+					.deviceWidth {width:280px!important; padding:0;}=0D=0A					.=
+MobButtonPad {padding-left:0; padding-right:0; padding-bottom: 5p=
+x; padding-top: 5px;}=0D=0A					.center {text-align: center!impor=
+tant;}=0D=0A					*[class~=3D"MobHide"] {=0D=0A    				display:non=
+e !important;}=0D=0A			}=0D=0A    </style>=0D=0A</head>=0D=0A=0D=0A=
+<body class=3D"coStarBrownLight" style=3D"background-color: #f5f5=
+f5; width: 100%; font-family: sans-serif">=0D=0A    <center>=0D=0A=
+        <table cellspacing=3D"0" class=3D"deviceWidth" width=3D"6=
+00" style=3D"border: none; padding: 0; width: 600px; border-colla=
+pse: collapse; text-align: center">=0D=0A            <tr>=0D=0A  =
+              <td style=3D"height: 23px"></td>=0D=0A            <=
+/tr>=0D=0A=0D=0A            <tr>=0D=0A                <td class=3D=
+"center">=0D=0A                    <table align=3D"center" style=3D=
+"height: 35px; width: 600px;" class=3D"deviceWidth">=0D=0A       =
+                         <tr>=0D=0A                              =
+      <td style=3D"width: 99px"></td>=0D=0A=0D=0A                =
+                    <td style=3D"text-align: right; width: 127px"=
+>=0D=0A                                        <a href=3D"https:/=
+/www.costar.com/" target=3D"_blank" style=3D"text-decoration: non=
+e;"><img src=3D"http://image.e.costar.com/lib/fe5c15707c600c7d731=
+3/m/1/costar_2x.png" alt=3D"CoStar" width=3D"127" height=3D"35" b=
+order=3D0 /></a>=0D=0A                                    </td>=0D=0A=
+=0D=0A                                    <td style=3D"width: 26.=
+5px"></td>=0D=0A=0D=0A                                    <td sty=
+le=3D"text-align: center; width: 147px">=0D=0A                   =
+                     <a href=3D"https://www.loopnet.com/" target=3D=
+"_blank" style=3D"text-decoration: none;"><img src=3D"http://imag=
+e.e.costar.com/lib/fe5c15707c600c7d7313/m/1/loopnet_2x.png" alt=3D=
+"LoopNet" width=3D"147" height=3D"35" border=3D0 /></a>=0D=0A    =
+                                </td>=0D=0A=0D=0A                =
+                    <td style=3D"width: 22.5px" class=3D"MobHide"=
+></td>=0D=0A=0D=0A                                    <td style=3D=
+"width: 16px; border: none; border-left: 2px solid #bcbcbc;" clas=
+s=3D"MobHide"></td>=0D=0A=0D=0A                                  =
+  <td style=3D"text-align: left; width: 61px;" class=3D"MobHide">=
+=0D=0A                                        <a href=3D"http://w=
+ww.showcase.com/" target=3D"_blank" style=3D"text-decoration: non=
+e;"><img src=3D"http://image.e.costar.com/lib/fe5c15707c600c7d731=
+3/m/1/showcase_2x.png" alt=3D"Showcase" width=3D"61" height=3D"17=
+" border=3D0 /></a>=0D=0A                                        =
+<br />=0D=0A                                        <a href=3D"ht=
+tp://www.cityfeet.com/" target=3D"_blank" style=3D"text-decoratio=
+n: none;"><img src=3D"http://image.e.costar.com/lib/fe5c15707c600=
+c7d7313/m/1/cityfeet_2x.png" alt=3D"CityFeet" width=3D"61" height=
+=3D"17" border=3D0 /></a>=0D=0A                                  =
+  </td>=0D=0A=0D=0A                                    <td style=3D=
+"width: 99px"></td>=0D=0A                                </tr>=0D=0A=
+                    </table>=0D=0A                </td>=0D=0A    =
+        </tr>=0D=0A=0D=0A            <tr>=0D=0A                <t=
+d style=3D"height: 25px"></td>=0D=0A            </tr>=0D=0A=0D=0A=
+            <tr>=0D=0A                <td>=0D=0A                 =
+   =0D=0A    <table class=3D"deviceWidth" width=3D"600" cellpaddi=
+ng=3D"0" cellspacing=3D"0" style=3D"background: white; width: 600=
+px; border: 1px solid #e5e5e5; vertical-align: top; text-align: l=
+eft; font-family: Arial, Helvetica, sans-serif; line-height: 22px=
+; letter-spacing: .3px">=0D=0A    <tr>=0D=0A        <td class=3D"=
+MobHide" rowspan=3D"3" style=3D"padding: 40px 0 0 40px; width: 43=
+px; text-align: right; vertical-align: top;">=0D=0A            <i=
+mg src=3D"http://image.e.costar.com/lib/fe5c15707c600c7d7313/m/1/=
+Icon_CheckmarkGreenCircle.gif" alt=3D"&#x2714" width=3D"43" heigh=
+t=3D"43" border=3D0 />=0D=0A        </td>=0D=0A=0D=0A        <td =
+class=3D"coStarBrownLight" style=3D"color: #103060; vertical-alig=
+n: top; padding: 40px 40px 10px 10px; font-size: 18px">=0D=0A    =
+        How do you benefit from updating on CoStar?=0D=0A        =
+</td>=0D=0A    </tr>=0D=0A    <tr>=0D=0A        <td style=3D"padd=
+ing: 0 60px 40px 10px; font-size: 16px"><span class=3D"coStarBrow=
+nRegular">6 million users</span> visit our websites to look for c=
+ommercial real estate each month.</td>=0D=0A    </tr>=0D=0A</tabl=
+e>=0D=0A=0D=0A<table class=3D"deviceWidth" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">=0D=0A=
+    <tr>=0D=0A        <td height=3D"16"></td>=0D=0A    </tr>=0D=0A=
+</table>=0D=0A=0D=0A=0D=0A                </td>=0D=0A            =
+</tr>=0D=0A=0D=0A            <tr>=0D=0A                <td align=3D=
+"center">=0D=0A                    <table style=3D"border: 1px so=
+lid #e5e5e5; background: white; width: 100%" cellspacing=3D"0" cl=
+ass=3D"deviceWidth">=0D=0A                        <tr>=0D=0A     =
+                       <td class=3D"coStarBrownLight" style=3D"fo=
+nt-size: 28px; color: #103060; line-height: 35px; text-align: cen=
+ter; font-family: Arial, Helvetica, sans-serif; padding: 15px 15p=
+x 30px;">=0D=0A                                Thank You For Upda=
+ting Your Listings=0D=0A                            </td>=0D=0A  =
+                      </tr>=0D=0A=0D=0A                        <t=
+r>=0D=0A                            <td class=3D"coStarBrownLight=
+" style=3D"padding: 10px 58px 30px; text-align: left; font-family=
+: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22p=
+x; letter-spacing: .3px">=0D=0A                                =0D=0A=
+    <pre class=3D"coStarBrownLight" style=3D"font-family: CostarB=
+rownLight, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; =
+font-size: 16px">Hi Sam,<br/><br/>Thank you for speaking with me =
+today! Please take a moment to review your verified listings belo=
+w.<br/><br/>You now have the best exposure to our audience of 200=
+,000 commercial real estate professionals in North America.<br/><=
+br/>Please reach out to me if you need additional assistance. Hav=
+e a great rest of your day! <br/><br/>Alexa Sharpe</pre>=0D=0A=0D=0A=
+                            </td>=0D=0A                        </=
+tr>=0D=0A                    </table>=0D=0A                </td>=0D=0A=
+            </tr>=0D=0A=0D=0A            <tr>=0D=0A              =
+  <td class=3D"center">=0D=0A                    <table border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:=
+ collapse; width: 100%" class=3D"deviceWidth">=0D=0A             =
+           <tr>=0D=0A                            <td>=0D=0A      =
+                          =0D=0A=0D=0A=0D=0A<table width=3D"600" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"deviceW=
+idth" style=3D"width: 600px; border-collapse: collapse;">=0D=0A  =
+  <tr>=0D=0A        <td class=3D"coStarBrownLight" style=3D"font-=
+size: 28px; color: #103060; line-height: 35px; text-align: center=
+; padding: 30px 0 12px 0; font-family: Arial, Helvetica, sans-ser=
+if;">=0D=0A            Your Listings=0D=0A        </td>=0D=0A    =
+</tr>=0D=0A</table>=0D=0A=0D=0A<table width=3D"600" class=3D"devi=
+ceWidth" align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"width: 600px; border-collapse: collapse;">=0D=0A=
+        <tr>=0D=0A            <td>=0D=0A                <table cl=
+ass=3D"deviceWidth" height=3D"153" width=3D"600" align=3D"center"=
+ cellpadding=3D"0" cellspacing=3D"0" style=3D"background: #fff; w=
+idth: 600px; border: solid 1px #e5e5e5; border-collapse: collapse=
+; text-align: left;">=0D=0A                    =0D=0A<tr>=0D=0A  =
+  <td>=0D=0A        <table align=3D"left" width=3D"40%" cellpaddi=
+ng=3D"0" cellspacing=3D"0" border=3D"0" class=3D"deviceWidth">=0D=0A=
+            <tr>=0D=0A                <td valign=3D"top" align=3D=
+"left">=0D=0A                        <a href=3D"http://listingman=
+ager.costar.com/emi-image-click-listing/9748679" style=3D"text-de=
+coration: none;">=0D=0A                            <img src=3D"ht=
+tp://ahprd4cdn.csgpimgs.com/i2/Jov23EgN5Vj7NnDD1bwhVvWHhunXjVbGw6=
+EedtLchMs/118/3235--Whiteside-St.jpg" width=3D"234" height=3D"153=
+" class=3D"deviceWidth" alt=3D"Photo of 3235 Whiteside St" />=0D=0A=
+                        </a>=0D=0A                </td>=0D=0A    =
+        </tr>=0D=0A        </table>=0D=0A        <table align=3D"=
+right" width=3D"58%" cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" class=3D"deviceWidth">=0D=0A            <tr>=0D=0A           =
+     <td class=3D"coStarBrownLight" style=3D"vertical-align: top;=
+ padding: 12px 0 17px 17px; color: #404040; font-size: 15px; font=
+-family: Arial, Helvetica, sans-serif;">=0D=0A                   =
+ <div>=0D=0A                            <a href=3D"http://listing=
+manager.costar.com/emi-address-click-listing/9748679" style=3D"te=
+xt-decoration: none; font-size: 22px; font-weight: 300; color: #0=
+559b3">=0D=0A                                3235 Whiteside St=0D=0A=
+                            </a>=0D=0A                    </div>=0D=0A=
+=0D=0A                        <div style=3D"font-size: 14px; font=
+-weight: 300; color: #77b800">=0D=0A                            U=
+pdated today=0D=0A                        </div>=0D=0A=0D=0A     =
+               <div style=3D"margin-top: 16px; line-height: 1.47e=
+m">FOR SALE</div>=0D=0A=0D=0A                        <div style=3D=
+"line-height: 1.27em">=0D=0A                            $895,000=0D=0A=
+                            =0D=0A                        </div>=0D=0A=
+                            <div style=3D"line-height: 1.27em">=0D=0A=
+                                Owner/User=0D=0A&nbsp;|&nbsp;    =
+                            Active=0D=0A                         =
+   </div>=0D=0A                </td>=0D=0A            </tr>=0D=0A=
+        </table>=0D=0A    </td>=0D=0A</tr>=0D=0A                <=
+/table>=0D=0A            </td>=0D=0A        </tr>=0D=0A          =
+  <tr>=0D=0A                <td>=0D=0A                    =0D=0A<=
+table class=3D"deviceWidth" width=3D"600" align=3D"center" cellpa=
+dding=3D"0" cellspacing=3D"0" style=3D"width: 600px; text-align: =
+center; vertical-align: middle; background-color: #ffffff; border=
+: solid 1px #e5e5e5; border-top: none; border-collapse: collapse;=
+">=0D=0A    <tr>=0D=0A        <td align=3D"center" class=3D"MobBu=
+ttonPad">=0D=0A            <table width=3D"47%" align=3D"left" cl=
+ass=3D"deviceWidth">=0D=0A                <tr>=0D=0A             =
+       <td class=3D"MobButtonPad" align=3D"center">=0D=0A        =
+                <table class=3D"deviceWidth" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" height=3D"45" width=3D"250"=0D=0A   =
+    style=3D"height: 45px; width: 250px; margin: 0; cursor: point=
+er;">=0D=0A    <tr>=0D=0A        <td align=3D"center" valign=3D"m=
+iddle" bgcolor=3D"#77b800" height=3D"45" width=3D"250"=0D=0A     =
+       style=3D"height: 45px; width: 250px; -moz-border-radius: 2=
+px; -webkit-border-radius: 2px; border-radius: 2px;">=0D=0A      =
+      <a href=3D"http://listingmanager.costar.com/emi-confirm-upt=
+odate-listing/9748679" class=3D"coStarBrownRegular"=0D=0A        =
+       style=3D"height: 45px; width: 250px; display: block; text-=
+decoration: none; border: 0; text-align: center; background: #77b=
+800; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-=
+radius: 2px; line-height: 45px;">=0D=0A                <span styl=
+e=3D"color: #ffffff; font-size: 18px; font-family: Arial, sans-se=
+rif, 'CoStar Brown Light'">=0D=0A                    Confirm Up-t=
+o-date=0D=0A                </span>=0D=0A            </a>=0D=0A  =
+      </td>=0D=0A    </tr>=0D=0A</table>=0D=0A=0D=0A             =
+       </td>=0D=0A                </tr>=0D=0A            </table>=
+=0D=0A            <table width=3D"47%" align=3D"right" class=3D"d=
+eviceWidth">=0D=0A                <tr>=0D=0A                    <=
+td class=3D"MobButtonPad" align=3D"center">=0D=0A                =
+        <table class=3D"deviceWidth" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" height=3D"45" width=3D"250"=0D=0A       styl=
+e=3D"height: 45px; width: 250px; margin: 0; cursor: pointer;">=0D=0A=
+    <tr>=0D=0A        <td align=3D"center" valign=3D"middle" bgco=
+lor=3D"#0559b3" height=3D"45" width=3D"250"=0D=0A            styl=
+e=3D"height: 45px; width: 250px; -moz-border-radius: 2px; -webkit=
+-border-radius: 2px; border-radius: 2px;">=0D=0A            <a hr=
+ef=3D"http://listingmanager.costar.com/emi-edit-listing/9748679" =
+class=3D"coStarBrownRegular"=0D=0A               style=3D"height:=
+ 45px; width: 250px; display: block; text-decoration: none; borde=
+r: 0; text-align: center; background: #0559b3; -moz-border-radius=
+: 2px; -webkit-border-radius: 2px; border-radius: 2px; line-heigh=
+t: 45px;">=0D=0A                <span style=3D"color: #ffffff; fo=
+nt-size: 18px; font-family: Arial, sans-serif, 'CoStar Brown Ligh=
+t'">=0D=0A                    Edit Listing=0D=0A                <=
+/span>=0D=0A            </a>=0D=0A        </td>=0D=0A    </tr>=0D=0A=
+</table>=0D=0A=0D=0A                    </td>=0D=0A              =
+  </tr>=0D=0A            </table>=0D=0A=0D=0A        </td>=0D=0A =
+   </tr>=0D=0A</table>=0D=0A                </td>=0D=0A          =
+  </tr>=0D=0A        <tr>=0D=0A            <td height=3D"16"></td=
+>=0D=0A        </tr>=0D=0A        <tr>=0D=0A            <td>=0D=0A=
+                <table class=3D"deviceWidth" height=3D"153" width=
+=3D"600" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" sty=
+le=3D"background: #fff; width: 600px; border: solid 1px #e5e5e5; =
+border-collapse: collapse; text-align: left;">=0D=0A             =
+       =0D=0A<tr>=0D=0A    <td>=0D=0A        <table align=3D"left=
+" width=3D"40%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+class=3D"deviceWidth">=0D=0A            <tr>=0D=0A               =
+ <td valign=3D"top" align=3D"left">=0D=0A                        =
+<a href=3D"http://listingmanager.costar.com/emi-image-click-listi=
+ng/9748634" style=3D"text-decoration: none;">=0D=0A              =
+              <img src=3D"http://ahprd1cdn.csgpimgs.com/i2/QSW1f6=
+pmeqfIbZh-MezJkAM2XPXCqULezxPQGbhQnpM/118/3242--Fowler-St.jpg" wi=
+dth=3D"234" height=3D"153" class=3D"deviceWidth" alt=3D"Photo of =
+3242 Fowler St" />=0D=0A                        </a>=0D=0A       =
+         </td>=0D=0A            </tr>=0D=0A        </table>=0D=0A=
+        <table align=3D"right" width=3D"58%" cellpadding=3D"0" ce=
+llspacing=3D"0" border=3D"0" class=3D"deviceWidth">=0D=0A        =
+    <tr>=0D=0A                <td class=3D"coStarBrownLight" styl=
+e=3D"vertical-align: top; padding: 12px 0 17px 17px; color: #4040=
+40; font-size: 15px; font-family: Arial, Helvetica, sans-serif;">=
+=0D=0A                    <div>=0D=0A                            =
+<a href=3D"http://listingmanager.costar.com/emi-address-click-lis=
+ting/9748634" style=3D"text-decoration: none; font-size: 22px; fo=
+nt-weight: 300; color: #0559b3">=0D=0A                           =
+     3242 Fowler St=0D=0A                            </a>=0D=0A  =
+                  </div>=0D=0A=0D=0A                        <div =
+style=3D"font-size: 14px; font-weight: 300; color: #77b800">=0D=0A=
+                            Updated today=0D=0A                  =
+      </div>=0D=0A=0D=0A                    <div style=3D"margin-=
+top: 16px; line-height: 1.47em">FOR SALE</div>=0D=0A=0D=0A       =
+                 <div style=3D"line-height: 1.27em">=0D=0A       =
+                     $500,000=0D=0A&nbsp;|&nbsp;                 =
+           7% Cap Rate=0D=0A                        </div>=0D=0A =
+                           <div style=3D"line-height: 1.27em">=0D=0A=
+                                Investment=0D=0A&nbsp;|&nbsp;    =
+                            Active=0D=0A                         =
+   </div>=0D=0A                </td>=0D=0A            </tr>=0D=0A=
+        </table>=0D=0A    </td>=0D=0A</tr>=0D=0A                <=
+/table>=0D=0A            </td>=0D=0A        </tr>=0D=0A          =
+  <tr>=0D=0A                <td>=0D=0A                    =0D=0A<=
+table class=3D"deviceWidth" width=3D"600" align=3D"center" cellpa=
+dding=3D"0" cellspacing=3D"0" style=3D"width: 600px; text-align: =
+center; vertical-align: middle; background-color: #ffffff; border=
+: solid 1px #e5e5e5; border-top: none; border-collapse: collapse;=
+">=0D=0A    <tr>=0D=0A        <td align=3D"center" class=3D"MobBu=
+ttonPad">=0D=0A            <table width=3D"47%" align=3D"left" cl=
+ass=3D"deviceWidth">=0D=0A                <tr>=0D=0A             =
+       <td class=3D"MobButtonPad" align=3D"center">=0D=0A        =
+                <table class=3D"deviceWidth" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" height=3D"45" width=3D"250"=0D=0A   =
+    style=3D"height: 45px; width: 250px; margin: 0; cursor: point=
+er;">=0D=0A    <tr>=0D=0A        <td align=3D"center" valign=3D"m=
+iddle" bgcolor=3D"#77b800" height=3D"45" width=3D"250"=0D=0A     =
+       style=3D"height: 45px; width: 250px; -moz-border-radius: 2=
+px; -webkit-border-radius: 2px; border-radius: 2px;">=0D=0A      =
+      <a href=3D"http://listingmanager.costar.com/emi-confirm-upt=
+odate-listing/9748634" class=3D"coStarBrownRegular"=0D=0A        =
+       style=3D"height: 45px; width: 250px; display: block; text-=
+decoration: none; border: 0; text-align: center; background: #77b=
+800; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-=
+radius: 2px; line-height: 45px;">=0D=0A                <span styl=
+e=3D"color: #ffffff; font-size: 18px; font-family: Arial, sans-se=
+rif, 'CoStar Brown Light'">=0D=0A                    Confirm Up-t=
+o-date=0D=0A                </span>=0D=0A            </a>=0D=0A  =
+      </td>=0D=0A    </tr>=0D=0A</table>=0D=0A=0D=0A             =
+       </td>=0D=0A                </tr>=0D=0A            </table>=
+=0D=0A            <table width=3D"47%" align=3D"right" class=3D"d=
+eviceWidth">=0D=0A                <tr>=0D=0A                    <=
+td class=3D"MobButtonPad" align=3D"center">=0D=0A                =
+        <table class=3D"deviceWidth" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" height=3D"45" width=3D"250"=0D=0A       styl=
+e=3D"height: 45px; width: 250px; margin: 0; cursor: pointer;">=0D=0A=
+    <tr>=0D=0A        <td align=3D"center" valign=3D"middle" bgco=
+lor=3D"#0559b3" height=3D"45" width=3D"250"=0D=0A            styl=
+e=3D"height: 45px; width: 250px; -moz-border-radius: 2px; -webkit=
+-border-radius: 2px; border-radius: 2px;">=0D=0A            <a hr=
+ef=3D"http://listingmanager.costar.com/emi-edit-listing/9748634" =
+class=3D"coStarBrownRegular"=0D=0A               style=3D"height:=
+ 45px; width: 250px; display: block; text-decoration: none; borde=
+r: 0; text-align: center; background: #0559b3; -moz-border-radius=
+: 2px; -webkit-border-radius: 2px; border-radius: 2px; line-heigh=
+t: 45px;">=0D=0A                <span style=3D"color: #ffffff; fo=
+nt-size: 18px; font-family: Arial, sans-serif, 'CoStar Brown Ligh=
+t'">=0D=0A                    Edit Listing=0D=0A                <=
+/span>=0D=0A            </a>=0D=0A        </td>=0D=0A    </tr>=0D=0A=
+</table>=0D=0A=0D=0A                    </td>=0D=0A              =
+  </tr>=0D=0A            </table>=0D=0A=0D=0A        </td>=0D=0A =
+   </tr>=0D=0A</table>=0D=0A                </td>=0D=0A          =
+  </tr>=0D=0A        <tr>=0D=0A            <td height=3D"16"></td=
+>=0D=0A        </tr>=0D=0A        <tr>=0D=0A            <td>=0D=0A=
+                <table class=3D"deviceWidth" height=3D"153" width=
+=3D"600" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" sty=
+le=3D"background: #fff; width: 600px; border: solid 1px #e5e5e5; =
+border-collapse: collapse; text-align: left;">=0D=0A             =
+       =0D=0A<tr>=0D=0A    <td>=0D=0A        <table align=3D"left=
+" width=3D"40%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+class=3D"deviceWidth">=0D=0A            <tr>=0D=0A               =
+ <td valign=3D"top" align=3D"left">=0D=0A                        =
+<a href=3D"http://listingmanager.costar.com/emi-image-click-listi=
+ng/8304286" style=3D"text-decoration: none;">=0D=0A              =
+              <img src=3D"http://ahprd2cdn.csgpimgs.com/i2/JizA3t=
+_x4MFCRkR8fB9KhzeEqsOiYN_uwIBdWYe2viA/118/3235--Whiteside-St.jpg"=
+ width=3D"234" height=3D"153" class=3D"deviceWidth" alt=3D"Photo =
+of Portfolio of 2 Commercial Assets" />=0D=0A                    =
+    </a>=0D=0A                </td>=0D=0A            </tr>=0D=0A =
+       </table>=0D=0A        <table align=3D"right" width=3D"58%"=
+ cellpadding=3D"0" cellspacing=3D"0" border=3D"0" class=3D"device=
+Width">=0D=0A            <tr>=0D=0A                <td class=3D"c=
+oStarBrownLight" style=3D"vertical-align: top; padding: 12px 0 17=
+px 17px; color: #404040; font-size: 15px; font-family: Arial, Hel=
+vetica, sans-serif;">=0D=0A                    <div>=0D=0A       =
+                     <a href=3D"http://listingmanager.costar.com/=
+emi-address-click-listing/8304286" style=3D"text-decoration: none=
+; font-size: 22px; font-weight: 300; color: #0559b3">=0D=0A      =
+                          Portfolio of 2 Commercial Assets=0D=0A =
+                           </a>=0D=0A                    </div>=0D=0A=
+=0D=0A                        <div style=3D"font-size: 14px; font=
+-weight: 300; color: #77b800">=0D=0A                            U=
+pdated today=0D=0A                        </div>=0D=0A=0D=0A     =
+               <div style=3D"margin-top: 16px; line-height: 1.47e=
+m">FOR SALE</div>=0D=0A=0D=0A                        <div style=3D=
+"line-height: 1.27em">=0D=0A                            $1,199,00=
+0=0D=0A                            =0D=0A                        =
+</div>=0D=0A                            <div style=3D"line-height=
+: 1.27em">=0D=0A                                Owner/User=0D=0A&=
+nbsp;|&nbsp;                                Active=0D=0A         =
+                   </div>=0D=0A                </td>=0D=0A       =
+     </tr>=0D=0A        </table>=0D=0A    </td>=0D=0A</tr>=0D=0A =
+               </table>=0D=0A            </td>=0D=0A        </tr>=
+=0D=0A            <tr>=0D=0A                <td>=0D=0A           =
+         =0D=0A<table class=3D"deviceWidth" width=3D"600" align=3D=
+"center" cellpadding=3D"0" cellspacing=3D"0" style=3D"width: 600p=
+x; text-align: center; vertical-align: middle; background-color: =
+#ffffff; border: solid 1px #e5e5e5; border-top: none; border-coll=
+apse: collapse;">=0D=0A    <tr>=0D=0A        <td align=3D"center"=
+ class=3D"MobButtonPad">=0D=0A            <table width=3D"47%" al=
+ign=3D"left" class=3D"deviceWidth">=0D=0A                <tr>=0D=0A=
+                    <td class=3D"MobButtonPad" align=3D"center">=0D=0A=
+                        <table class=3D"deviceWidth" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" height=3D"45" width=3D"250"=0D=0A=
+       style=3D"height: 45px; width: 250px; margin: 0; cursor: po=
+inter;">=0D=0A    <tr>=0D=0A        <td align=3D"center" valign=3D=
+"middle" bgcolor=3D"#77b800" height=3D"45" width=3D"250"=0D=0A   =
+         style=3D"height: 45px; width: 250px; -moz-border-radius:=
+ 2px; -webkit-border-radius: 2px; border-radius: 2px;">=0D=0A    =
+        <a href=3D"http://listingmanager.costar.com/emi-confirm-u=
+ptodate-listing/8304286" class=3D"coStarBrownRegular"=0D=0A      =
+         style=3D"height: 45px; width: 250px; display: block; tex=
+t-decoration: none; border: 0; text-align: center; background: #7=
+7b800; -moz-border-radius: 2px; -webkit-border-radius: 2px; borde=
+r-radius: 2px; line-height: 45px;">=0D=0A                <span st=
+yle=3D"color: #ffffff; font-size: 18px; font-family: Arial, sans-=
+serif, 'CoStar Brown Light'">=0D=0A                    Confirm Up=
+-to-date=0D=0A                </span>=0D=0A            </a>=0D=0A=
+        </td>=0D=0A    </tr>=0D=0A</table>=0D=0A=0D=0A           =
+         </td>=0D=0A                </tr>=0D=0A            </tabl=
+e>=0D=0A            <table width=3D"47%" align=3D"right" class=3D=
+"deviceWidth">=0D=0A                <tr>=0D=0A                   =
+ <td class=3D"MobButtonPad" align=3D"center">=0D=0A              =
+          <table class=3D"deviceWidth" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" height=3D"45" width=3D"250"=0D=0A       sty=
+le=3D"height: 45px; width: 250px; margin: 0; cursor: pointer;">=0D=0A=
+    <tr>=0D=0A        <td align=3D"center" valign=3D"middle" bgco=
+lor=3D"#0559b3" height=3D"45" width=3D"250"=0D=0A            styl=
+e=3D"height: 45px; width: 250px; -moz-border-radius: 2px; -webkit=
+-border-radius: 2px; border-radius: 2px;">=0D=0A            <a hr=
+ef=3D"http://listingmanager.costar.com/emi-edit-listing/8304286" =
+class=3D"coStarBrownRegular"=0D=0A               style=3D"height:=
+ 45px; width: 250px; display: block; text-decoration: none; borde=
+r: 0; text-align: center; background: #0559b3; -moz-border-radius=
+: 2px; -webkit-border-radius: 2px; border-radius: 2px; line-heigh=
+t: 45px;">=0D=0A                <span style=3D"color: #ffffff; fo=
+nt-size: 18px; font-family: Arial, sans-serif, 'CoStar Brown Ligh=
+t'">=0D=0A                    Edit Listing=0D=0A                <=
+/span>=0D=0A            </a>=0D=0A        </td>=0D=0A    </tr>=0D=0A=
+</table>=0D=0A=0D=0A                    </td>=0D=0A              =
+  </tr>=0D=0A            </table>=0D=0A=0D=0A        </td>=0D=0A =
+   </tr>=0D=0A</table>=0D=0A                </td>=0D=0A          =
+  </tr>=0D=0A        <tr>=0D=0A            <td height=3D"16"></td=
+>=0D=0A        </tr>=0D=0A</table>=0D=0A=0D=0A=0D=0A=0D=0A<table =
+class=3D"deviceWidth" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"background: #fff; width: 100%; text-align: center; vertical-alig=
+n: middle; border: 1px solid #e5e5e5; color: #63666a; font-size: =
+14px; line-height: 21px;">=0D=0A    <tr>=0D=0A        <td class=3D=
+"coStarBrownLight" style=3D"padding-top: 20px; font-family: Arial=
+, Helvetica, sans-serif;">=0D=0A            Questions or updates?=
+ Contact your researcher:=0D=0A        </td>=0D=0A    </tr>=0D=0A=
+=0D=0A    <tr>=0D=0A        <td class=3D"coStarBrownLight" style=3D=
+"padding-bottom: 25px; font-family: Arial, Helvetica, sans-serif;=
+">=0D=0A            Alexa Sharpe &nbsp;|&nbsp; (818) 208-2871 &nb=
+sp;|&nbsp; <a href=3D"mailto:asharpe@costar.com&cc=3Dresearchqa@c=
+ostar.com" target=3D"_blank" style=3D"color: #0559b3; text-decora=
+tion: none;">asharpe@costar.com</a>=0D=0A        </td>=0D=0A    <=
+/tr>=0D=0A</table>=0D=0A=0D=0A                            </td>=0D=0A=
+                        </tr>=0D=0A                    </table>=0D=0A=
+                </td>=0D=0A            </tr>=0D=0A=0D=0A         =
+   <tr>=0D=0A                <td class=3D"center">=0D=0A         =
+           <table style=3D"width: 100%;" class=3D"deviceWidth">=0D=0A=
+                        <tr style=3D"color: #404040; font-size: 1=
+1px;">=0D=0A                            <td class=3D"coStarBrownL=
+ight" style=3D"padding-top: 14px; text-align: center; vertical-al=
+ign: middle; font-family: Arial, Helvetica, sans-serif;">=0D=0A  =
+                              1331 L St NW, Washington, DC 20005 =
+&#169; 2018, CoStar Realty Information, Inc.=0D=0A               =
+             </td>=0D=0A                        </tr>=0D=0A      =
+              </table>=0D=0A                </td>=0D=0A          =
+  </tr>=0D=0A=0D=0A        </table>=0D=0A    </center>=0D=0A    <=
+custom name=3D"opencounter" type=3D"tracking" />=0D=0A</body>=0D=0A=
+</html>
+

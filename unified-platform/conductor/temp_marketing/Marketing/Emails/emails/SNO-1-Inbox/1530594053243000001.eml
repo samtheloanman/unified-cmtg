@@ -1,0 +1,95 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of fanniemae.com designates 35.160.62.241 as permitted sender) client-ip=35.160.62.241; envelope-from=Fannie_Mae_Technology_Administration@fanniemae.com; helo=esa1.hc105-51.r1.ces.cisco.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=@fanniemae.com;
+	spf=pass (zoho.com: domain of fanniemae.com designates 35.160.62.241 as permitted sender)  smtp.mailfrom=Fannie_Mae_Technology_Administration@fanniemae.com;
+	dmarc=pass(p=reject dis=none)  header.from=fanniemae.com
+Return-Path: <Fannie_Mae_Technology_Administration@fanniemae.com>
+Received: from esa1.hc105-51.r1.ces.cisco.com (esa1.hc105-51.r1.ces.cisco.com [35.160.62.241]) by mx.zohomail.com
+	with SMTPS id 1530594050982814.7032409483056; Mon, 2 Jul 2018 22:00:50 -0700 (PDT)
+Received: from unknown (HELO pironport-u11-ext.fanniemae.com) ([167.133.170.235])
+  by ob1.hc105-51.r1.ces.cisco.com with ESMTP/TLS/DHE-RSA-AES256-GCM-SHA384; 03 Jul 2018 01:00:49 -0400
+Received: from plsysadm-ap41a.fanniemae.com (HELO fanniemae.com) ([10.194.56.68])
+  by pironport-u11.fanniemae.com with ESMTP; 03 Jul 2018 01:00:49 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  d=fanniemae.com; i=@fanniemae.com; s=201710;
+  t=1530594050;
+  h=date:from:reply-to:to:message-id:subject:mime-version;
+  bh=2sZB3xrsp7jnWWzGNO/2dvcpbysfPnKs8UMgBcWdU8k=;
+  b=LOF+8Tfv7y9uMsWN9IJjTcB+GVhg8NIKbHEE0PlYNHOKD1QIl6g3D+W6
+   w/ZYHX0RjC3ovz0IwHrMIhUvtkRIsj4/K+17HI4C5L/0MUftlwhK5ivvg
+   aRjUBPi8TyCjVp0WSWiTZKJjdqkDPO+DL1F+uj2poSBlb+j5wbjfGtRfy
+   rGtci5B9Mr3q+nYCu9PCVNp7CiiRm97QJGv5OzY66M5FZLZzrV6jFHZG6
+   Q3rz3urWFZdP/+h2uNzvo/6eq0awWP2D9pQmOoctAJepqeyKy0BrGz+bA
+   zdgJIXfXTTcYVbTTTzFfD1c7JLsVxDtREFGhcxp1VDCzYjv6wxlwJzSr3
+   w==;
+Authentication-Results: ob1.hc105-51.r1.ces.cisco.com; dkim=none (message not signed) header.i=none
+X-IronPort-Reputation: None
+X-IronPort-Listener: OutgoingMail
+X-IronPort-SenderGroup: FannieMae
+X-IronPort-MailFlowPolicy: $RELAYED
+X-IronPort-RemoteIP: 167.133.170.235
+X-ATTACHMENTS: 
+X-IronPort-AV: E=Sophos;i="5.51,302,1526356800"; 
+   d="scan'208";a="5443285"
+x-provider-authed: TRUE
+X-Ironport-Relayed: TRUE
+X-SENDER-IP: 10.194.56.68
+X-SENDER-GROUP: None
+X-SENDER-HOST: plsysadm-ap41a.fanniemae.com
+Date: Tue, 3 Jul 2018 01:00:48 -0400 (EDT)
+From: Fannie Mae Technology Administration <Fannie_Mae_Technology_Administration@fanniemae.com>
+Reply-To: Fannie_Mae_Technology_Administration@fanniemae.com
+To: sam@c-mtg.com
+Message-ID:<731184964.7603.1530594048645.JavaMail.Fannie_Mae_Technology_Administration@fanniemae.com>
+Subject: Fannie Mae Password Expiration Notice
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_7602_444694132.1530594048645"
+X-ZohoMail-DKIM: pass (identity @fanniemae.com)
+X-ZohoMail-Owner: <731184964.7603.1530594048645.JavaMail.Fannie_Mae_Technology_Administration@fanniemae.com>+zmo_0_Fannie_Mae_Technology_Administration@fanniemae.com
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_1 IS_0 EML_0 DMN_0 EDR_100 SIP_KGR,RPD_KGR COSF LNKP UNK_O_0 SIP_KGR_0 RPD_KGR_0 SDFE_RPNS_SM_0  SC_0 SGR3_1_2_0_166_344
+X-ZM-MESSAGEID: 1530594053243000001
+X-ZohoMail-Status: 1
+
+
+------=_Part_7602_444694132.1530594048645
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+
+
+The password for the user ID shown below will expire on Tuesday, July 03, 2018. If you are the recipient of this e-mail, your action is required in order to maintain access for this user.
+
+User ID:  l5ux7snt
+User Name:  Sam Tehranchi
+
+
+NEXT STEP - CREATE A NEW PASSWORD
+
+To create a new password, log in to Fannie Mae's Technology Manager using the following link:
+https://technologymanager.efanniemae.com/selfservice
+During the password creation process, the user ID must be entered exactly as shown above.
+
+NOTE: The URL shown above may contain several lines of text. If you plan to copy and paste the URL into the browser, be sure to copy the entire URL, including the parts that appear on subsequent lines.
+
+
+IMPORTANT: If new password is not created by Tuesday, July 03, 2018, this user will no longer be able to access any Fannie Mae application.
+
+
+NEED ASSISTANCE?
+
+If you need assistance, please contact the Fannie Mae Technology Support Center (TSC) at 800-2FANNIE (800-232-6643) or open a web-chat 
+https://www.fanniemae.com/content/tool/technology-support-web-chat
+
+For additional information, visit Technology Support Center (TSC) web-page at 
+https://www.fanniemae.com/singlefamily/technology-support
+
+
+Thank You,
+Fannie Mae External Technology Registration Team
+
+Please do not submit questions or comments to this e-mail address as it is an UNATTENDED mailbox.
+
+
+------=_Part_7602_444694132.1530594048645--

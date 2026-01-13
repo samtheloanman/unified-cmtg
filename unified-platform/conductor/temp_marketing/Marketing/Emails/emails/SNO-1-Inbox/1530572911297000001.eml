@@ -1,0 +1,58 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of aol.com designates 204.29.186.20 as permitted sender) client-ip=204.29.186.20; envelope-from=margaretrabon@aol.com; helo=omr-m020e.mx.aol.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of aol.com designates 204.29.186.20 as permitted sender)  smtp.mailfrom=margaretrabon@aol.com;
+	dmarc=pass(p=reject dis=none)  header.from=aol.com
+Return-Path: <margaretrabon@aol.com>
+Received: from omr-m020e.mx.aol.com (omr-m020e.mx.aol.com [204.29.186.20]) by mx.zohomail.com
+	with SMTPS id 1530572911066878.6016465783944; Mon, 2 Jul 2018 16:08:31 -0700 (PDT)
+Received: from mtaomg-mac01.mx.aol.com (mtaomg-mac01.mx.aol.com [172.26.222.207])
+	by omr-m020e.mx.aol.com (Outbound Mail Relay) with ESMTP id 7B5043800086
+	for <sam@c-mtg.com>; Mon,  2 Jul 2018 19:08:30 -0400 (EDT)
+Received: from core-mfx09c.mail.aol.com (core-mfx09.mail.aol.com [10.74.43.4])
+	by mtaomg-mac01.mx.aol.com (OMAG/Core Interface) with ESMTP id 44C9438000081
+	for <sam@c-mtg.com>; Mon,  2 Jul 2018 19:08:30 -0400 (EDT)
+Received: from 108.70.195.61 by webjas-vaa238.srv.aolmail.net (10.96.33.241) with HTTP (WebMailUI); Mon, 02 Jul 2018 19:08:28 -0400
+Date: Mon, 2 Jul 2018 19:08:30 -0400
+From: margaretrabon@aol.com
+To: sam@c-mtg.com
+Message-ID:<1645d4127ec-c92-12b@webjas-vaa238.srv.aolmail.net>
+Subject: 
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_389_593686746.1530572908524"
+X-MB-Message-Source: WebUI
+X-MB-Message-Type: User
+X-Mailer: JAS STD
+X-Originating-IP: [108.70.195.61]
+x-aol-global-disposition: G
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mx.aol.com;
+	s=20150623; t=1530572910;
+	bh=Fr06wWaksdYK2EXufpe/1Smt64jNi9OJ1P8HlMeDKjc=;
+	h=From:To:Subject:Message-Id:Date:MIME-Version:Content-Type;
+	b=8bzmektKW3YgZVZsze0wZkftZEt/Jsej3w+aN0Kq5WkZICFNRsmcdKKJ8JzLPZCqP
+	 UiiywM9B0twEp84/OZDLU7F2sPTj6z2w/9M8lXo7plyqnG4UdTPPGiiMJCPYBqBTGB
+	 MeYhxTQU7ZSeIywAA4TC3Bsnx3OhI9xDBc4WhyKo=
+x-aol-sid: 3039ac1adecf5b3ab06e5264
+X-ZohoMail-DKIM: pass (identity @mx.aol.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_DI SPK
+X-ZM-MESSAGEID: 1530572911297000001
+X-ZohoMail-Status: 1
+
+
+------=_Part_389_593686746.1530572908524
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+We were just approved what Thursday.  They have updated VOM and proof of wire.
+Why would they think it would not be re approved?
+
+------=_Part_389_593686746.1530572908524
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<font color='black' size='2' face='arial'>We were just approved what Thursday.&nbsp; They have updated VOM and proof of wire.
+<div>Why would they think it would not be re approved?</div>
+</font>
+------=_Part_389_593686746.1530572908524--

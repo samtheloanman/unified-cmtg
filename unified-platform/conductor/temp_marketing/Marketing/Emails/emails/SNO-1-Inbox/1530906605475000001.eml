@@ -1,0 +1,731 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of firstam.com designates 68.232.147.96 as permitted sender) client-ip=68.232.147.96; envelope-from=corinnehunt.escrow@firstam.com; helo=esa5.firstam.iphmx.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=@firstam.com;
+	spf=pass (zoho.com: domain of firstam.com designates 68.232.147.96 as permitted sender)  smtp.mailfrom=corinnehunt.escrow@firstam.com;
+	dmarc=pass(p=none dis=none)  header.from=firstam.com
+Return-Path: <corinnehunt.escrow@firstam.com>
+Received: from esa5.firstam.iphmx.com (esa5.firstam.iphmx.com [68.232.147.96]) by mx.zohomail.com
+	with SMTPS id 1530904892783850.6770893055199; Fri, 6 Jul 2018 12:21:32 -0700 (PDT)
+Received: from unknown (HELO snappesamx04.corp.firstam.com) ([69.87.20.84])
+  by esa5.firstam.iphmx.com with ESMTP/TLS/RC4-SHA; 06 Jul 2018 12:21:30 -0700
+Received: from fahqsna09vxht04.corp.firstam.com ([172.17.247.138])
+  by snappesamx04.corp.firstam.com with ESMTP; 06 Jul 2018 12:21:28 -0700
+Received: from FAHQSNA09SXMB01.corp.firstam.com ([fe80::1149:fe07:5457:7c46])
+ by FAHQSNA09VXHT04.corp.firstam.com ([::1]) with mapi id 14.03.0389.001; Fri,
+ 6 Jul 2018 12:21:28 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=firstam.com; i=@firstam.com; q=dns/txt; s=corp;
+  t=1530904892; x=1562440892;
+  h=subject:from:to:cc:date:message-id:mime-version;
+  bh=ih9q+JQgaGUF9TPa+QZVe4cXDtcj9Uo+DoPGIfKvLus=;
+  b=YVE4pDOumnmPwB2xOI/xL9ZPr7de4GuMUoyMGbfX6GwA6Ug48xqhx81U
+   L67uZsdZGrBgKuB5souNclLoHZErbvng4yMBmLIIs8mlKlbmeBBcePrru
+   4NDeKIAbsVeOaef29csFFLPO0h93OfBeu3rvjhptlBZ38C2kPNeq2u0Qy
+   z1bKGIASBU6Y/3Q63mrrpbp3MLjJcx8mDkvfsbIvzzNj/WYP5WByAzsAe
+   CWOv3INaysaNx8WoGI5CGy27OBfZhLu+jcP+Q3403CQUS/x7bwE2ygYJE
+   PhGc0baJ+vYaJ244MowucnEhyzi9eYEz6lQIQnDehPUelnqrbcE5LCbki
+   w==;
+X-IronPort-AV: E=Sophos;i="5.51,317,1526367600"; 
+   d="png'150?jpg'150,145?scan'150,145,208,217,150,145";a="211181043"
+X-ExtLoop1: 1
+subject: Velocity Mortgage Capital - 6723019811 - Romboli / 288829
+From: corinnehunt.escrow <corinnehunt.escrow@firstam.com>
+To: Sam Tehranchi <sam@c-mtg.com>, Todd Romboli <todd@domm.life>, todd romboli
+	<tromboli@yahoo.com>
+CC: corinnehunt.escrow <corinnehunt.escrow@firstam.com>, "Followers of
+ Ramirez-CA-Short-Sale-Loan-Mod" <eve@c-mtg.com>
+Thread-Topic: Velocity Mortgage Capital - 6723019811 - Romboli / 288829
+Thread-Index: AdQVXfVKwO387GcxR12X/bzfi0wm3w==
+Date: Fri, 6 Jul 2018 19:21:27 +0000
+Message-ID:<0C737B959A63964594A298946D01A375CAF32B16@fahqsna09sxmb01.corp.firstam.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-originating-ip: [172.17.247.1]
+Content-Type: multipart/related;
+	boundary="_005_0C737B959A63964594A298946D01A375CAF32B16fahqsna09sxmb01_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-Zoho-Virus-Status: 1
+X-ZohoMail-DKIM: pass (identity @firstam.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_DI SPK
+X-ZM-MESSAGEID: 1530906605475000001
+X-ZohoMail-Status: 1
+
+
+--_005_0C737B959A63964594A298946D01A375CAF32B16fahqsna09sxmb01_
+Content-Type: multipart/alternative;
+	boundary="_000_0C737B959A63964594A298946D01A375CAF32B16fahqsna09sxmb01_"
+
+--_000_0C737B959A63964594A298946D01A375CAF32B16fahqsna09sxmb01_
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+Please send loan documents to:  corinnehunt.escrow@firstam.com<mailto:corin=
+nehunt.escrow@firstam.com>
+
+We can send a mobile notary to Mr. Romboli in Arizona, no problem.  We will=
+ just need to know when you would like for us to schedule the appointment (=
+what day the loan documents will be dated) and we will get the signing sche=
+duled.
+
+Just to let you know, the lender is mistaken, Florida is not an attorney st=
+ate, but please be assured that the signing will be done correctly.
+
+If you have any additional questions, please do not hesitate to contact us.
+
+Thank you,
+
+Amy Rigsby
+Escrow Assistant
+
+[https://assets.falive.net/images/fa-logo-signature.jpg]
+First American Title Company
+1855 Gateway Blvd Ste 700, Concord, CA 94520
+http://www.firstam.com<http://www.firstam.com/> | NYSE: FAF<http://www.firs=
+tam.com/investor>
+Phone 925-688-3215 / Fax 714-852-4677
+Please send all email inquiries and loan documents to corinnehunt.escrow@fi=
+rstam.com<mailto:corinnehunt.escrow@firstam.com>
+
+"California Building Homes and Jobs Act - Affordable Housing Fee"
+Effective January 1, 2018 in California, the Building Homes and Jobs Act wi=
+ll impose a new $75 recording fee surcharge on every real estate instrument=
+, paper, or notice recorded per transaction per parcel of real property, no=
+t to exceed $225."
+
+Your feedback is important to us. If you'd like to provide your feedback, p=
+lease click on the feedback button below.
+[https://feedback.firstam.com/surveys/images/YVEVUV/Preview/feedback.png?ca=
+cheToken=3D20171129133144]<https://feedback.firstam.com/cgi-bin/qwebcorpora=
+te.dll?idx=3D36XRYU&S1=3DTodd%20McGowan&S2=3DRigsby,Amy&S3=3DARigsby@firsta=
+m.com&S4=3DConcord&S5=3DCalifornia&S6=3DHillaree%20Guay&S7=3DEscrow&S8=3DCA=
+%20LND%20RLACA%20-%20Concord%20Escrow>
+
+From: Sam Tehranchi [mailto:sam@c-mtg.com]
+Sent: Friday, July 06, 2018 12:04 PM
+To: Todd Romboli; todd romboli
+Cc: corinnehunt.escrow; Followers of Ramirez-CA-Short-Sale-Loan-Mod
+Subject: Fwd: Velocity Mortgage Capital - 6723019811 - Romboli
+
+Hi Corinne, we have received clear to close on this transaction.  Can you p=
+lease advise regarding the email to send docs to and also what the process =
+will be for scheduling signing with Mr Romboli.  Mr Romboli resides in Phoe=
+nix AZ and will need a mobile notary.  The lender said that FL is a attorne=
+y state so I wanted to make sure the signing is done correctly.  The borrow=
+er is CC on this message so we can begin coordination of the signing.
+
+Respectfully,
+
+
+Sam Tehranchi
+
+
+COO
+Custom Mortgage and Realty
+NMLS CA # 1556995 - BRE CA # 02018146
+
+Direct 310.709.6304 -Efax 866.421.7694
+
+sam@c-mtg.com<mailto:sam@c-mtg.com> - www.c-mtg.com<http://www.c-mtg.com>
+
+LinkedIn<https://www.linkedin.com/company-beta/3477964> - Facebook<https://=
+www.facebook.com/Custom-Mortgage-409842885783868/> - twitter<https://twitte=
+r.com/custommortgage1> - Instagram<https://www.instagram.com/custommortgage=
+inc/>
+
+
+Begin forwarded message:
+
+From: "noreply@velocitycommercial.com<mailto:noreply@velocitycommercial.com=
+>" <noreply@velocitycommercial.com<mailto:noreply@velocitycommercial.com>>
+Subject: Velocity Mortgage Capital - 6723019811 - Romboli
+Date: July 6, 2018 at 11:44:31 AM PDT
+To: "sam@c-mtg.com<mailto:sam@c-mtg.com>" <sam@c-mtg.com<mailto:sam@c-mtg.c=
+om>>
+
+6723019811 - Romboli
+
+Dear Custom Mortgage,
+
+Good news, your loan has been approved as is cleared to close.
+We appreciate your business.
+
+Sincerely,
+
+Velocity Mortgage Capital
+
+
+[https://velocitymortgage.my.salesforce.com/servlet/servlet.ImageServer?id=
+=3D015460000001t3t&oid=3D00D46000000avGy]
+
+
+
+***************************************************************************=
+***************
+This message may contain confidential or proprietary information intended o=
+nly for the use of the
+addressee(s) named above or may contain information that is legally privile=
+ged. If you are
+not the intended addressee, or the person responsible for delivering it to =
+the intended addressee,
+you are hereby notified that reading, disseminating, distributing or copyin=
+g this message is strictly
+prohibited. If you have received this message by mistake, please immediatel=
+y notify us by
+replying to the message and delete the original message and any copies imme=
+diately thereafter.
+
+If you received this email as a commercial message and would like to opt ou=
+t of future commercial
+messages, please let us know and we will remove you from our distribution l=
+ist.
+
+Thank you.~
+***************************************************************************=
+***************
+FAFLD
+
+--_000_0C737B959A63964594A298946D01A375CAF32B16fahqsna09sxmb01_
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii">
+<meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.EmailStyle17
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D">Hi,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span><=
+/p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D">Please send loan document=
+s to:&nbsp;
+<a href=3D"mailto:corinnehunt.escrow@firstam.com">corinnehunt.escrow@firsta=
+m.com</a><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span><=
+/p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D">We can send a mobile nota=
+ry to Mr. Romboli in Arizona, no problem.&nbsp; We will just need to know w=
+hen you would like for us to schedule the appointment (what day
+ the loan documents will be dated) and we will get the signing scheduled.<o=
+:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span><=
+/p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D">Just to let you know, the=
+ lender is mistaken, Florida is not an attorney state, but please be assure=
+d that the signing will be done correctly.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span><=
+/p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D">If you have any additiona=
+l questions, please do not hesitate to contact us.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span><=
+/p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D">Thank you,<o:p></o:p></sp=
+an></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span><=
+/p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D">Amy Rigsby<o:p></o:p></sp=
+an></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D">Escrow Assistant
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span><=
+/p>
+<p class=3D"MsoNormal"><span style=3D"font-size:8.0pt;color:black"><img bor=
+der=3D"0" width=3D"211" height=3D"53" id=3D"Picture_x0020_1" src=3D"cid:ima=
+ge001.jpg@01D41523.DC32C360" alt=3D"https://assets.falive.net/images/fa-log=
+o-signature.jpg"></span><span style=3D"font-size:11.0pt;font-family:&quot;C=
+alibri&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span lang=3D"EN" sty=
+le=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quo=
+t;;color:black">First American Title Company<br>
+1855 Gateway Blvd Ste 700, Concord, CA 94520<br>
+<a href=3D"http://www.firstam.com/"><span style=3D"color:black">http://www.=
+firstam.com</span></a>&nbsp;|&nbsp;<a href=3D"http://www.firstam.com/invest=
+or"><span style=3D"color:black">NYSE: FAF</span></a></span><span lang=3D"EN=
+" style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-seri=
+f&quot;;color:black"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span lang=3D"EN" sty=
+le=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quo=
+t;;color:black">Phone 925-688-3215 / Fax 714-852-4677
+</span><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;;color:#1F497D"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,&quot;sans-serif&quot;;color:#7030A0">Please send all email
+</span></b><b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quo=
+t;,&quot;sans-serif&quot;;color:#7030A0">inquiries and loan documents to
+<u><a href=3D"mailto:corinnehunt.escrow@firstam.com"><span style=3D"color:#=
+7030A0">corinnehunt.escrow@firstam.com</span></a><o:p></o:p></u></span></b>=
+</p>
+<p class=3D"MsoNormal"><b><u><span style=3D"font-size:11.0pt;font-family:&q=
+uot;Calibri&quot;,&quot;sans-serif&quot;;color:#7030A0"><o:p><span style=3D=
+"text-decoration:none">&nbsp;</span></o:p></span></u></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:14.0pt;font-family:&quot=
+;Arial&quot;,&quot;sans-serif&quot;;color:#CC3300">&#8220;California Buildi=
+ng Homes and Jobs Act &#8211; Affordable Housing Fee&#8221;<o:p></o:p></spa=
+n></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Calibri&quot;,&quot=
+;sans-serif&quot;;color:#CC3300">Effective
+<b>January 1, 2018</b> in California, the Building Homes and Jobs Act will =
+impose a new $75 recording fee surcharge on every real estate instrument, p=
+aper, or notice recorded per transaction per parcel of real property, not t=
+o exceed $225.&#8221;</span><span style=3D"font-family:&quot;Calibri&quot;,=
+&quot;sans-serif&quot;;color:#CC3300"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#548DD4"><o:p>&nbsp;</o:p></span><=
+/p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;vertical-align:top"=
+><i><span style=3D"font-size:10.5pt;font-family:&quot;Helvetica&quot;,&quot=
+;sans-serif&quot;;color:black">Your feedback is important to us. If you&#82=
+17;d like to provide your feedback, please click on the feedback
+ button below.</span></i><span style=3D"font-size:9.0pt;font-family:&quot;H=
+elvetica&quot;,&quot;sans-serif&quot;;color:#0E5C8C"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;vertical-align:top">
+<a href=3D"https://feedback.firstam.com/cgi-bin/qwebcorporate.dll?idx=3D36X=
+RYU&amp;S1=3DTodd%20McGowan&amp;S2=3DRigsby,Amy&amp;S3=3DARigsby@firstam.co=
+m&amp;S4=3DConcord&amp;S5=3DCalifornia&amp;S6=3DHillaree%20Guay&amp;S7=3DEs=
+crow&amp;S8=3DCA%20LND%20RLACA%20-%20Concord%20Escrow"><span style=3D"font-=
+size:9.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;text-de=
+coration:none"><img border=3D"0" width=3D"156" height=3D"33" id=3D"_x0000_i=
+1026" src=3D"cid:image002.png@01D41523.DC32C360" alt=3D"https://feedback.fi=
+rstam.com/surveys/images/YVEVUV/Preview/feedback.png?cacheToken=3D201711291=
+33144"></span></a><span style=3D"font-size:9.0pt;font-family:&quot;Helvetic=
+a&quot;,&quot;sans-serif&quot;;color:#0E5C8C"><o:p></o:p></span></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span><=
+/p>
+<div>
+<div style=3D"border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,&quot;sans-serif&quot;">From:</span></b><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;"> Sam Tehr=
+anchi [mailto:sam@c-mtg.com]
+<br>
+<b>Sent:</b> Friday, July 06, 2018 12:04 PM<br>
+<b>To:</b> Todd Romboli; todd romboli<br>
+<b>Cc:</b> corinnehunt.escrow; Followers of Ramirez-CA-Short-Sale-Loan-Mod<=
+br>
+<b>Subject:</b> Fwd: Velocity Mortgage Capital - 6723019811 - Romboli<o:p><=
+/o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Hi Corinne, we have received clear to close on this =
+transaction. &nbsp;Can you please advise regarding the email to send docs t=
+o and also what the process will be for scheduling signing with Mr Romboli.=
+ &nbsp;Mr Romboli resides in Phoenix AZ and
+ will need a mobile notary. &nbsp;The lender said that FL is a attorney sta=
+te so I wanted to make sure the signing is done correctly. &nbsp;The borrow=
+er is CC on this message so we can begin coordination of the signing.<o:p><=
+/o:p></p>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span style=3D"color:=
+black">Respectfully, &nbsp;&nbsp;<br>
+<br>
+&nbsp;<br>
+Sam Tehranchi<br>
+<br>
+&nbsp;<br>
+COO<br>
+Custom Mortgage and Realty&nbsp;<br>
+NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br>
+&nbsp;<br>
+Direct 310.709.6304 -Efax 866.421.7694&nbsp;<br>
+<br>
+<a href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&nbsp;-&nbsp;<a href=3D"h=
+ttp://www.c-mtg.com">www.c-mtg.com</a><br>
+<br>
+<a href=3D"https://www.linkedin.com/company-beta/3477964">LinkedIn</a>&nbsp=
+;-&nbsp;<a href=3D"https://www.facebook.com/Custom-Mortgage-409842885783868=
+/">Facebook</a>&nbsp;-&nbsp;<a href=3D"https://twitter.com/custommortgage1"=
+>twitter</a>&nbsp;-&nbsp;<a href=3D"https://www.instagram.com/custommortgag=
+einc/">Instagram</a><o:p></o:p></span></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><br>
+<br>
+<o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal">Begin forwarded message:<o:p></o:p></p>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Helvetica&quot;,=
+&quot;sans-serif&quot;">From: </span>
+</b><span style=3D"font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;=
+">&quot;<a href=3D"mailto:noreply@velocitycommercial.com">noreply@velocityc=
+ommercial.com</a>&quot; &lt;<a href=3D"mailto:noreply@velocitycommercial.co=
+m">noreply@velocitycommercial.com</a>&gt;</span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Helvetica&quot;,=
+&quot;sans-serif&quot;">Subject: Velocity Mortgage Capital - 6723019811 - R=
+omboli</span></b><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Helvetica&quot;,=
+&quot;sans-serif&quot;">Date: </span>
+</b><span style=3D"font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;=
+">July 6, 2018 at 11:44:31 AM PDT</span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Helvetica&quot;,=
+&quot;sans-serif&quot;">To: </span>
+</b><span style=3D"font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;=
+">&quot;<a href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&quot; &lt;<a hre=
+f=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&gt;</span><o:p></o:p></p>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div align=3D"center">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"500" style=3D"width:375.0pt" id=3D"topTable">
+<tbody>
+<tr style=3D"height:225.0pt">
+<td valign=3D"top" style=3D"background:white;padding:0in 0in 0in 0in;height=
+:225.0pt">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"5" cellpadding=
+=3D"0" width=3D"550" style=3D"width:412.5pt">
+<tbody>
+<tr style=3D"height:300.0pt">
+<td valign=3D"top" style=3D"background:white;padding:3.75pt 3.75pt 3.75pt 3=
+.75pt;height:300.0pt">
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,&quot;s=
+ans-serif&quot;">6723019811 - Romboli<o:p></o:p></span></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,&quot;s=
+ans-serif&quot;">&nbsp;</span><o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.5pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;">Dear Custom Mortgage,</span><span style=
+=3D"font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span=
+></p>
+</div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:10.0pt;line-height:13.0pt"><s=
+pan style=3D"font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><br>
+Good news, your loan has been approved as is cleared to close.</span><o:p><=
+/o:p></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:10.0pt;line-height:13.0pt"><s=
+pan style=3D"font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">We appre=
+ciate your business.<br>
+&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span style=3D"font-s=
+ize:13.5pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">Sincerely,=
+</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,&quot;s=
+ans-serif&quot;">&nbsp;</span><o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.5pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;">Velocity Mortgage Capital</span><span sty=
+le=3D"font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></sp=
+an></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style=3D"height:150.0pt">
+<td style=3D"background:white;padding:0in 0in 0in 0in;height:150.0pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><img bo=
+rder=3D"0" id=3D"r5sp1" src=3D"https://velocitymortgage.my.salesforce.com/s=
+ervlet/servlet.ImageServer?id=3D015460000001t3t&amp;oid=3D00D46000000avGy">=
+<o:p></o:p></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</div>
+
+<BR>
+***************************************************************************=
+***************<BR>This message may contain confidential or proprietary inf=
+ormation intended only for the use of the<BR>addressee(s) named above or ma=
+y contain information that is legally privileged. If you are<BR>not the int=
+ended addressee, or the person responsible for delivering it to the intende=
+d addressee,<BR>you are hereby notified that reading, disseminating, distri=
+buting or copying this message is strictly<BR>prohibited. If you have recei=
+ved this message by mistake, please immediately notify us by<BR>replying to=
+ the message and delete the original message and any copies immediately the=
+reafter.<BR>
+<BR>
+If you received this email as a commercial message and would like to opt ou=
+t of future commercial <BR>
+messages, please let us know and we will remove you from our distribution l=
+ist.<BR>
+<BR>
+Thank you.~<BR>
+***************************************************************************=
+***************<BR>
+FAFLD<BR>
+</body>
+</html>
+
+--_000_0C737B959A63964594A298946D01A375CAF32B16fahqsna09sxmb01_--
+
+--_005_0C737B959A63964594A298946D01A375CAF32B16fahqsna09sxmb01_
+Content-Type: image/jpeg; name="image001.jpg"
+Content-Description: image001.jpg
+Content-Disposition: inline; filename="image001.jpg"; size=5008;
+	creation-date="Fri, 06 Jul 2018 19:21:27 GMT";
+	modification-date="Fri, 06 Jul 2018 19:21:27 GMT"
+Content-ID: <image001.jpg@01D41523.DC32C360>
+Content-Transfer-Encoding: base64
+
+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
+nCJwicInCJwicInCLp3uPUWT1rtRkUNmdVvAbTrEpsXAIHAVs0VDRf1FVReeozMS4LLzKAkGIdRS
+R10081rR/U2K0ULHMNdcakgxj8KFE+CSy8L7chpEaIBeExQkc9fZF+qKi+F50C8qb95JJ5klQG0p
+7NgAA5AKIwOj2qKzI7fJIlpeq5b/AGXtCk2KS4jCRRVHxBmY04hjMVUKQL/yISonqg+OdB7pUMQG
+GD6fGWjMoB22AJLnFtfjPV3Vh32o9WZRksHM8jxytm5fWKi19rJhR3JkdBTwiNvkPyCP/CL45xwu
+KkYmIkQDo+C65UISIkYgkaspA000w0LDAoDIIggAIiCIonhERE+iInIVKuXCLBWGvqay2ZUbVfde
+TIaWst8eisgTaRyj3UuvmPk4KgpqYnWtICoSIiKXlF8oqQSt4mrGprEEcmkYk/lHzVjS7pUp2lS1
+AGypOEycXenGpENizEVZPgS4DEYvneTquThE4ROEThE4ROEThE4ROEThE4ROEThE4ROEThE4ROET
+hE4ROEThE4ROEThE4ROEThE4ROEThE4ROEThE4ROEThE4ROEThE4ROEThE4ROEX/2Q==
+
+--_005_0C737B959A63964594A298946D01A375CAF32B16fahqsna09sxmb01_
+Content-Type: image/png; name="image002.png"
+Content-Description: image002.png
+Content-Disposition: inline; filename="image002.png"; size=2776;
+	creation-date="Fri, 06 Jul 2018 19:21:27 GMT";
+	modification-date="Fri, 06 Jul 2018 19:21:27 GMT"
+Content-ID: <image002.png@01D41523.DC32C360>
+Content-Transfer-Encoding: base64
+
+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
+
+--_005_0C737B959A63964594A298946D01A375CAF32B16fahqsna09sxmb01_--
+

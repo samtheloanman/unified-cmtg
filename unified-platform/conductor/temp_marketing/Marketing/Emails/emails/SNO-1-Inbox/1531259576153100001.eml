@@ -1,0 +1,1258 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of sp06c.hubspotemail.net designates 34.216.216.128 as permitted sender) client-ip=34.216.216.128; envelope-from=msprvs1=17729-_Uxmi2v=bounces-1-2@sp06c.hubspotemail.net; helo=mta1b3-hubspot.mta.e.sparkpost.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=@carringtonms.com;
+	spf=pass (zoho.com: domain of sp06c.hubspotemail.net designates 34.216.216.128 as permitted sender)  smtp.mailfrom=msprvs1=17729-_Uxmi2v=bounces-1-2@sp06c.hubspotemail.net;
+	dmarc=pass(p=none dis=none)  header.from=carringtonms.com
+Received: from mta1b3-hubspot.mta.e.sparkpost.com (mta1b3-hubspot.mta.e.sparkpost.com [34.216.216.128]) by mx.zohomail.com
+	with SMTPS id 1531259574937292.2769049431596; Tue, 10 Jul 2018 14:52:54 -0700 (PDT)
+Return-Path: <msprvs1=17729-_Uxmi2v=bounces-1-2@sp06c.hubspotemail.net>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=carringtonms.com;
+	s=hs1; t=1531259574; i=@carringtonms.com;
+	bh=vDjFBIZggL7dfGGhph68ovO+wJ5Ik0A0D/gY1W4J6vE=;
+	h=To:Date:Reply-To:Subject:From:List-Unsubscribe:List-Id;
+	b=XV0wwqUk4U1KPYibvQ0Q1oKfOMWSF/Z31dL8UCydNb9mVZzPmaPTrtx+P1ayz+hPu
+	 PD0DoqjWj8M+/NaYPZKzKSW7Mpn0nQcB+Vxs6LQhJObzpERlrinCJFYqpBngXhDk5d
+	 NU4mcJV9piOZ06yrvmABAFpNAw+WRPVOTUg3ztOQ+R++JvyeS6pS5MLaaKZmRQFL3+
+	 TyEsppquw/ZcDXsEuE7+JKF3grJeotru1+Y1IPCiaCCDMKgOPwzxFVj2sgyyNr35xC
+	 /R21ZpkzeWa9gUH8Wqt0mc4UZFCTMPyEXPOnAxdwzMYhX3tJhLXtriyUFTbUHjLpqv
+	 hIGsgG4IWK6gQ==
+X-MSFBL: ZSqaD7ExE2gMsh98DQRFHCUaeLhuFVbVLKL81P2fpTM=|eyJtZXNzYWdlX2lkIjo
+	iMDAwMmI2MmE0NTViZjllMWNhNTYiLCJzdWJhY2NvdW50X2lkIjoiMiIsImN1c3R
+	vbWVyX2lkIjoiMSIsInIiOiJzYW1AYy1tdGcuY29tIiwidGVuYW50X2lkIjoiaHV
+	ic3BvdCJ9
+To: sam@c-mtg.com
+Date: Tue, 10 Jul 2018 21:52:54 +0000
+Content-Type: multipart/alternative; boundary="_----CH/lrz9gzGOBKFgvp1SvSA===_6B/65-57849-6BA254B5"
+MIME-Version: 1.0
+X-HubSpot-MID: CiQ3NWI2OTZmNy0yOWZhLTQyZWUtYTE5NC1iMTU1MjhiOTIwZWUQ8/j1ARhxIAAoyqbYHjC39pYCOg1zYW1AYy1tdGcuY29tQK20mLHILEiingJaIGYyNjIzMjhlNzMzZWQzZjY2YjNlZjgxZGY0ZWRiNzMzZQAAAEJwjYoMgAEAigEkNmE2ZTA3M2YtNzZmOS0zZWFiLTk3MTYtYjFmNTIzZDFiY2Y4mAEBoAEAqAEGsAEAyAEC0gEeYWxseXNvbi5lYmVydEBjYXJyaW5ndG9ubXMuY29t4gEMem9ob21haWwuY29t6AEB6AED8AEFgAIBiAICmgIUCPP49QESDXNhbUBjLW10Zy5jb20=
+Reply-To: Allyson.Ebert@carringtonms.com
+Subject: Alternative 1-Year Documentation Programs
+X-HubSpot-Message-Id: <1531259001389.75b696f7-29fa-42ee-a194-b15528b920ee@sp06c.hubspotemail.net>
+From: "Allyson Ebert" <Allyson.Ebert@carringtonms.com>
+X-Report-Abuse-To: abuse@hubspot.com (see https://www.hubspot.com/abuse-complaints)
+Message-ID:<1531259001389.75b696f7-29fa-42ee-a194-b15528b920ee@sp06c.hubspotemail.net>
+List-Unsubscribe: <mailto:unsubscribe@hubspot.mail.e.sparkpost.com?subject=unsubscribe:KmW49rkVG1BAeapJZrjz3I69i-zH-GObSXK9IWSe-3g~|eyAicmNwdF90byI6ICJzYW1AYy1tdGcuY29tIiwgInRlbmFudF9pZCI6ICJodWJzcG90IiwgImN1c3RvbWVyX2lkIjogIjEiLCAic3ViYWNjb3VudF9pZCI6ICIyIiwgIm1lc3NhZ2VfaWQiOiAiMDAwMmI2MmE0NTViZjllMWNhNTYiIH0~>
+List-Id: <hubspot-1-2>
+X-ZohoMail-DKIM: pass (identity @carringtonms.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_1 S_166
+X-ZM-MESSAGEID: 1531259576153100001
+X-ZohoMail-Status: 1
+
+
+--_----CH/lrz9gzGOBKFgvp1SvSA===_6B/65-57849-6BA254B5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="UTF-8"
+
+We understand that not all clients fit into the same mold. That=E2=80=99s w=
+hy we are now accepting alternative income documentation.=0A=0ACarrington (=
+https://cms.carringtonwholesale.com/e1t/sc2/MmZ-8ykDM0xW7dkjRR7pQnbRW8KDNtf=
+8VbVMVW4h2byg5Bh25zdBzP8M04 )=0A=0AAlternative Income Documentation=0A=0Afo=
+r Carrington Flexible Advantage=E2=84=A0 Loan Programs*=0A=0AWe understand =
+that not all clients fit into the same mold. Some may have decent credit bu=
+t find it difficult to get home financing due to past credit issues, or sim=
+ply because they have difficulty documenting their income.=0A=0AThat=E2=80=
+=99s why we are now accepting alternative income documentation such as 12 m=
+onths of personal bank statements, 24 months of business bank statements an=
+d 1 year W-2 or tax returns.=0A=0ACarrington Flexible Advantage Plus=E2=84=
+=A0 (Near Prime) Loan Program Highlights*=0A=0A- Primary and second homes=
+=0A- Purchase, refinance and cash out loans=0A- Loan amounts up to $2M=0A- =
+Minimum credit score of 620 (80% LTV)=0A- Minimum credit score of 720 (90% =
+LTV)=0A- No upfront or monthly MI=0A- 36 months out of bankruptcy or forecl=
+osure=0A- Maximum $750,000 cash out=0A- Alternative documentation allowed=
+=0A=0ACarrington Flexible Advantage=E2=84=A0 (Non-Prime) Loan Program Highl=
+ights*=0A=0A- Primary and second homes=0A- Purchase, refinance and cash out=
+ loans=0A- Loan amounts up to $2M=0A- Minimum credit score of 500 (75% LTV)=
+=0A- Maximum 85% LTV with no MI=0A- Recent credit events OK=0A- Non-warrant=
+able condos OK=0A- Investment properties OK=0A- 30 year fixed, 5/1 and 7/1 =
+ARMS=0A- No upfront or monthly MI=0A- Alternative documentation allowed=0A=
+=0A=0A=0ABecome an Approved Broker (https://cms.carringtonwholesale.com/e1t=
+/sc2/MmZ-8ykDM0xW7dkjRR7pQnbRW8KDNtf8VbVMVW4h2byg5Bh25zdBzP8N04 )=0A=0A=0A=
+=0ACONTACT US=0A=0AAllyson Ebert=0A=0A949-517-5968=0A=0AAllyson.Ebert@carri=
+ngtonms.com (mailto:Allyson.Ebert@carringtonms.com)=0A=0AAnnouncements=0A=
+=0A- Daily Rates now accessible on Website -  Get Rates (https://cms.carrin=
+gtonwholesale.com/e1t/sc2/MmZ-8ykDM0xW7dkjRR7pQnbRW8KDNtf8VbVMVW4h2byg5Bh25=
+zdBzP8P04 )=0A- Lender Paid Compensation OK on Non-QM -  Learn More (https:=
+//cms.carringtonwholesale.com/e1t/sc2/MmZ-8ykDM0xW7dkjRR7pQnbRW8KDNtf8VbVMV=
+W4h2byg5Bh25zdBzP8Q04 )=0A- Reminder about VA Regulations -  Learn More (ht=
+tps://cms.carringtonwholesale.com/e1t/sc2/MmZ-8ykDM0xW7dkjRR7pQnbRW8KDNtf8V=
+bVMVW4h2byg5Bh25zdBzP8R04 )=0A- Bank Statements OK for Self-Employed -  Lea=
+rn More (https://cms.carringtonwholesale.com/e1t/sc2/MmZ-8ykDM0xW7dkjRR7pQn=
+bRW8KDNtf8VbVMVW4h2byg5Bh25zdBzP8S04 )=0A=0AEffective Tuesday, June 5, 2018=
+, Brokers may submit loans using Lender Paid Compensation for the Near-Prim=
+e and Non-Prime products.=0A=0A*Carrington Flexible Advantage=E2=84=A0 prod=
+uct requirements vary depending on the consumer=E2=80=99s credit grade, LTV=
+, DTI, and FICO scores and may require reserves from 3 to 6 months. Ask you=
+r Account Executive for additional details and requirements. Not available =
+in AK, MA, ND, and WV.=0A=0A=C2=A9 Copyright 2007-2018 Carrington Mortgage =
+Services, LLC headquartered at 1600 South Douglass Road, Suites 110 & 200A,=
+ Anaheim, CA 92806. 866-453-2400. NMLS ID #2600. Nationwide Mortgage Licens=
+ing System (NMLS) Consumer Access website: www.nmlsconsumeraccess.org. AZ: =
+Mortgage Banker BK-0910745. CA: Licensed by the Department of Business Over=
+sight under the California Residential Mortgage Lending Act, File 413 0904.=
+ CO: Check license status of your mortgage loan originator at www.dora.stat=
+e.co.us/real-estate/index.htm. GA: Georgia Residential Mortgage Licensee 22=
+721. IL: Illinois Residential Mortgage Licensee. MN: This is not an offer t=
+o enter into an interest rate lock agreement under Minnesota Law. MO: Misso=
+uri Company Registration 14-1746. In-State Office: Missouri Residential Mor=
+tgage Loan Broker License 14-1746. 251 SW Noel, Lees Summit, MO 64063. NV: =
+Mortgage Broker License 4068 (Residential Mortgage Origination/Lending). NJ=
+: Licensed by the N.J. Department of Banking and Insurance. NY: Licensed Mo=
+rtgage Banker=E2=80=94NYS Department of Financial Services. New York Mortga=
+ge Banker License B500980/107664. OH: Ohio Mortgage Loan Act Certificate of=
+ Registration SM.501517.000. RI: Rhode Island Licensed Lender, Lender Licen=
+se 20112809LL. VA: NMLS ID 2600 (www.nmlsconsumeraccess.org). WA: Consumer =
+Loan License CL2600. Also licensed in AL, AK, AR, CT, DE, DC, FL, HI, ID, I=
+N, IA, KS, KY, LA, ME, MD, MI, MS, MT, NE, NH, NM, NC, OK, OR, PA, SC, SD, =
+TN, TX, UT, VT, WV, WI and WY. NOTICE: All loans are subject to credit, und=
+erwriting and property approval guidelines. Offered loan products may vary =
+by state. There is no guarantee that all borrowers will qualify. Restrictio=
+ns may apply. This is not a commitment to lend. Terms, conditions and progr=
+ams are subject to change without notice. This information is for industry =
+professionals only and is not intended for distribution to consumers. Carri=
+ngton Mortgage Services, LLC is not acting on behalf of or at the direction=
+ of HUD/FHA or any government agency. All rights reserved.=0A=0AFacebook (h=
+ttps://cms.carringtonwholesale.com/e1t/sc2/MmZ-8ykDM0xW7dkjRR7pQnbRW8KDNtf8=
+VbVMVW4h2byg5Bh25zdBzP8T04 )=0A=0ATwitter (https://cms.carringtonwholesale.=
+com/e1t/sc2/MmZ-8ykDM0xW7dkjRR7pQnbRW8KDNtf8VbVMVW4h2byg5Bh25zdBzP8V04 )=0A=
+=0ALinkedIn (https://cms.carringtonwholesale.com/e1t/sc2/MmZ-8ykDM0xW7dkjRR=
+7pQnbRW8KDNtf8VbVMVW4h2byg5Bh25zdBzP8W04 )=0A=0ACarrington Mortgage Service=
+s, LLC=0A=0A1600 South Douglass Road Suites 110 & 200A  Anaheim, California=
+ 92806=0A=0AUnsubscribe (https://cms.carringtonwholesale.com/hs/manage-pref=
+erences/unsubscribe-all=3Fd=3DeyJlYSI6InNhbUBjLW10Zy5jb20iLCJlYyI6NjQzNjEyO=
+TAsInN1YnNjcmlwdGlvbklkIjo0NTY5OTExLCJldCI6MTUzMTI1OTAwMTM4OSwiZXUiOiI3NWI2=
+OTZmNy0yOWZhLTQyZWUtYTE5NC1iMTU1MjhiOTIwZWUifQ%3D%3D&v=3D1&_hsenc=3Dp2ANqtz=
+-_IVWAoEefbo0tApm9utC4DsOet-qYX7ydrSz5McheYsW66VcI9T26bnewibZufguQh4Ml5UxJ6=
+mhfNW0yBn6wSIIGZmg&_hsmi=3D64361290 ) | Update Email Preferences (https://c=
+ms.carringtonwholesale.com/hs/manage-preferences/unsubscribe=3Fd=3DeyJlYSI6=
+InNhbUBjLW10Zy5jb20iLCJlYyI6NjQzNjEyOTAsInN1YnNjcmlwdGlvbklkIjo0NTY5OTExLCJ=
+ldCI6MTUzMTI1OTAwMTM4OSwiZXUiOiI3NWI2OTZmNy0yOWZhLTQyZWUtYTE5NC1iMTU1MjhiOT=
+IwZWUifQ%3D%3D&v=3D1&_hsenc=3Dp2ANqtz-_IVWAoEefbo0tApm9utC4DsOet-qYX7ydrSz5=
+McheYsW66VcI9T26bnewibZufguQh4Ml5UxJ6mhfNW0yBn6wSIIGZmg&_hsmi=3D64361290 )
+--_----CH/lrz9gzGOBKFgvp1SvSA===_6B/65-57849-6BA254B5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd"><!-- start coded_template: id:5514361319 =
+path:generated_layouts/5514361318.html --><html xmlns=3D"http://www.w3.org/=
+1999/xhtml" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schema=
+s-microsoft-com:office:office"><head>=0D=0A        <title>Alternative 1-Yea=
+r Documentation Programs</title>=0D=0A        <meta property=3D"og:title" c=
+ontent=3D"Alternative 1-Year Documentation Programs">=0D=0A        <meta na=
+me=3D"twitter:title" content=3D"Alternative 1-Year Documentation Programs">=
+=0D=0A        <meta http-equiv=3D"Content-Type" content=3D"text/html; chars=
+et=3Dutf-8">=0D=0A        =0D=0A        <style type=3D"text/css" id=3D"hs-i=
+nline-css">=0D=0A/*<![CDATA[*/=0D=0A  /* everything in this node will be in=
+lined */=0D=0A  /* =3D=3D=3D=3D Page Styles =3D=3D=3D=3D */=0D=0A  body, #b=
+ackgroundTable {=0D=0A      background-color: #efefef; /* Use body to deter=
+mine background color */=0D=0A      font-family: sans-serif;=0D=0A  }=0D=0A=
+  #templateTable {=0D=0A      width: 600px;=0D=0A      background-color: #f=
+fffff;=0D=0A      -webkit-font-smoothing: antialiased;=0D=0A  }=0D=0A  h1, =
+.h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {=0D=0A      display:bloc=
+k;=0D=0A      font-weight:bold;=0D=0A      line-height:100%;=0D=0A      mar=
+gin-top:0;=0D=0A      margin-right:0;=0D=0A      margin-bottom:10px;=0D=0A =
+     margin-left:0;=0D=0A  }=0D=0A  h1, .h1 {=0D=0A      font-size:26px;=0D=
+=0A  }=0D=0A  h2, .h2 {=0D=0A      font-size:20px;=0D=0A  }=0D=0A  h3, .h3 =
+{=0D=0A      font-size:15px;=0D=0A  }=0D=0A  h4, .h4 {=0D=0A      font-size=
+:13px;=0D=0A  }=0D=0A  h5, .h5 {=0D=0A      font-size:11px;=0D=0A  }=0D=0A =
+ h6, .h6 {=0D=0A      font-size:10px;=0D=0A  }=0D=0A  /* =3D=3D=3D=3D Heade=
+r Styles =3D=3D=3D=3D */=0D=0A  #headerTable {=0D=0A      background-color:=
+ #efefef;=0D=0A      color:#15201E;=0D=0A      font-family:sans-serif;=0D=
+=0A      font-size:10px;=0D=0A      line-height:120%;=0D=0A      text-align=
+:right;=0D=0A      border-collapse: separate !important;=0D=0A      padding=
+-right: 30px;=0D=0A  }=0D=0A  #headerTable a:link, #headerTable a:visited, =
+/* Yahoo! Mail Override */ #headerTable a .yshortcuts /* Yahoo! Mail Overri=
+de */{=0D=0A      font-weight:normal;=0D=0A      text-decoration:underline;=
+=0D=0A  }=0D=0A  /* =3D=3D=3D=3D Template Wrapper Styles =3D=3D=3D=3D */=0D=
+=0A  #contentCell {=0D=0A      padding: 10px 20px;=0D=0A      background-co=
+lor: #efefef;=0D=0A  }=0D=0A  #contentTableOuter {=0D=0A      border-collap=
+se: separate !important;=0D=0A      background-color: #ffffff;=0D=0A      =
+=0D=0A      box-shadow: 0px 1px rgba(0, 0, 0, 0.1);=0D=0A      =0D=0A      =
+padding: 30px;=0D=0A  }=0D=0A  #contentTableInner {=0D=0A      width: 600px=
+;=0D=0A  }=0D=0A  /* =3D=3D=3D=3D Body Styles =3D=3D=3D=3D */=0D=0A  .bodyC=
+ontent {=0D=0A      color:#15201E;=0D=0A      font-family:sans-serif;=0D=0A=
+      font-size: 15px;=0D=0A      line-height:150%;=0D=0A      text-align:l=
+eft;=0D=0A  }=0D=0A  /* =3D=3D=3D=3D Column Styles =3D=3D=3D=3D */=0D=0A  t=
+able.columnContentTable {=0D=0A      border-collapse:separate !important;=
+=0D=0A      border-spacing:0;=0D=0A      background-color: #ffffff;=0D=0A  =
+}=0D=0A  td.columnContent {=0D=0A      color:#15201E;=0D=0A      font-famil=
+y:sans-serif;=0D=0A      font-size:15px;=0D=0A      line-height:120%;=0D=0A=
+      padding-top:20px;=0D=0A      padding-right:20px;=0D=0A      padding-b=
+ottom:20px;=0D=0A      padding-left:20px;=0D=0A  }=0D=0A  /* =3D=3D=3D=3D F=
+ooter Styles =3D=3D=3D=3D */=0D=0A  #footerTable {=0D=0A      background-co=
+lor: #efefef;=0D=0A  }=0D=0A  #footerTable a {=0D=0A      color: #666666;=
+=0D=0A  }=0D=0A  #footerTable {=0D=0A      color:#666666;=0D=0A      font-f=
+amily:sans-serif;=0D=0A      font-size:12px;=0D=0A      line-height:120%;=
+=0D=0A      padding-top:20px;=0D=0A      padding-right:20px;=0D=0A      pad=
+ding-bottom:20px;=0D=0A      padding-left:20px;=0D=0A      text-align:cente=
+r;=0D=0A  }=0D=0A  #footerTable a:link, #footerTable a:visited, /* Yahoo! M=
+ail Override */ #footerTable a .yshortcuts /* Yahoo! Mail Override */{=0D=
+=0A      font-weight:normal;=0D=0A      text-decoration:underline;=0D=0A  }=
+=0D=0A  .hs-image-social-sharing-24 {=0D=0A      max-width: 24px;=0D=0A    =
+  max-height: 24px;=0D=0A  }=0D=0A  /* =3D=3D=3D=3D Standard Resets =3D=3D=
+=3D=3D */=0D=0A  .ExternalClass{=0D=0A      width:100%;=0D=0A  } /* Force H=
+M to display emails at full width */=0D=0A  .ExternalClass, .ExternalClass =
+p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalCl=
+ass div {=0D=0A      line-height: 100%;=0D=0A  } /* Force HM to display nor=
+mal line spacing */=0D=0A  body, table, td, p, a, li, blockquote{=0D=0A    =
+  -webkit-text-size-adjust:100%;=0D=0A      -ms-text-size-adjust:100%;=0D=
+=0A  } /* Prevent WebKit and Windows mobile changing default text sizes */=
+=0D=0A  table, td {=0D=0A      mso-table-lspace:0pt;=0D=0A      mso-table-r=
+space:0pt;=0D=0A  } /* Remove spacing between tables in Outlook 2007 and up=
+ */=0D=0A  img {=0D=0A      vertical-align: bottom;=0D=0A      -ms-interpol=
+ation-mode:bicubic;=0D=0A  } /* Allow smoother rendering of resized image i=
+n Internet Explorer */=0D=0A  /* Reset Styles */=0D=0A  body {=0D=0A      m=
+argin:0;=0D=0A      padding:0;=0D=0A  }=0D=0A  table {=0D=0A      border-co=
+llapse:collapse !important;=0D=0A  }=0D=0A  body, #backgroundTable, #bodyCe=
+ll{=0D=0A      height:100% !important;=0D=0A      margin:0;=0D=0A      padd=
+ing:0;=0D=0A      width:100% !important;=0D=0A  }=0D=0A  a:link, a:visited =
+{=0D=0A      border-bottom: none;=0D=0A  }=0D=0A  /* iOS automatically adds=
+ a link to addresses */=0D=0A  /* Style the footer with the same color as t=
+he footer text */=0D=0A  #footer a {=0D=0A      color: #666666;;=0D=0A     =
+ -webkit-text-size-adjust: none;=0D=0A      text-decoration: underline;=0D=
+=0A      font-weight: normal=0D=0A  }=0D=0A/*]]>*/=0D=0A</style>=0D=0A     =
+   <style type=3D"text/css">=0D=0A/*<![CDATA[*/=0D=0A  /* =3D=3D=3D=3D Mobi=
+le Styles =3D=3D=3D=3D */=0D=0A  /* Constrain email width for small screens=
+ */=0D=0A  @media screen and (max-width: 650px) {=0D=0A      table#backgrou=
+ndTable {=0D=0A          width: 95% !important;=0D=0A      }=0D=0A      tab=
+le#templateTable {=0D=0A          max-width:600px !important;=0D=0A        =
+  width:100% !important;=0D=0A      }=0D=0A      table#contentTableInner {=
+=0D=0A          max-width:600px !important;=0D=0A          width:100% !impo=
+rtant;=0D=0A      }=0D=0A      /* Makes image expand to take 100% of width*=
+/=0D=0A      img {=0D=0A          width: 100% !important;=0D=0A          he=
+ight: auto !important;=0D=0A      }=0D=0A      #contentCell {=0D=0A        =
+  padding: 10px 10px !important;=0D=0A      }=0D=0A      #headerTable {=0D=
+=0A          padding-right: 15.0px !important;=0D=0A      }=0D=0A      #con=
+tentTableOuter {=0D=0A          padding: 15.0px !important;=0D=0A      }=0D=
+=0A  }=0D=0A  @media only screen and (max-width: 480px) {=0D=0A      /* =3D=
+=3D=3D=3D Client-Specific Mobile Styles =3D=3D=3D=3D */=0D=0A      body, ta=
+ble, td, p, a, li, blockquote{=0D=0A          -webkit-text-size-adjust:none=
+ !important;=0D=0A      } /* Prevent Webkit platforms from changing default=
+ text sizes */=0D=0A      body{=0D=0A          width:100% !important;=0D=0A=
+          min-width:100% !important;=0D=0A      } /* Prevent iOS Mail from =
+adding padding to the body */=0D=0A      /* =3D=3D=3D=3D Mobile Reset Style=
+s =3D=3D=3D=3D */=0D=0A      td#bodyCell {=0D=0A          padding:10px !imp=
+ortant;=0D=0A      }=0D=0A      /* =3D=3D=3D=3D Mobile Template Styles =3D=
+=3D=3D=3D */=0D=0A      table#templateTable {=0D=0A          max-width:600p=
+x !important;=0D=0A          width:100% !important;=0D=0A      }=0D=0A     =
+ table#contentTableInner {=0D=0A          max-width:600px !important;=0D=0A=
+          width:100% !important;=0D=0A      }=0D=0A      /* =3D=3D=3D=3D Im=
+age Alignment Styles =3D=3D=3D=3D */=0D=0A      h1, .h1 {=0D=0A          fo=
+nt-size:26px !important;=0D=0A          line-height:125% !important;=0D=0A =
+     }=0D=0A      h2, .h2 {=0D=0A          font-size:20px !important;=0D=0A=
+          line-height:125% !important;=0D=0A      }=0D=0A      h3, .h3 {=0D=
+=0A          font-size:15px !important;=0D=0A          line-height:125% !im=
+portant;=0D=0A      }=0D=0A      h4, .h4 {=0D=0A          font-size:13px !i=
+mportant;=0D=0A          line-height:125% !important;=0D=0A      }=0D=0A   =
+   h5, .h5 {=0D=0A          font-size:11px !important;=0D=0A          line-=
+height:125% !important;=0D=0A      }=0D=0A      h6, .h6 {=0D=0A          fo=
+nt-size:10px !important;=0D=0A          line-height:125% !important;=0D=0A =
+     }=0D=0A      .hide {=0D=0A          display:none !important;=0D=0A    =
+  } /* Hide to save space */=0D=0A      /* =3D=3D=3D=3D Body Styles =3D=3D=
+=3D=3D */=0D=0A      td.bodyContent {=0D=0A          font-size:16px !import=
+ant;=0D=0A          line-height:145% !important;=0D=0A      }=0D=0A      /*=
+ =3D=3D=3D=3D Footer Styles =3D=3D=3D=3D */=0D=0A      td#footerTable {=0D=
+=0A          padding-left: 0px !important;=0D=0A          padding-right: 0p=
+x !important;=0D=0A          font-size:12px !important;=0D=0A          line=
+-height:145% !important;=0D=0A      }=0D=0A      /* =3D=3D=3D=3D Image Alig=
+nment Styles =3D=3D=3D=3D */=0D=0A      table.alignImageTable {=0D=0A      =
+    width: 100% !important;=0D=0A      }=0D=0A      td.imageTableTop {=0D=
+=0A          display: none !important;=0D=0A          /*padding-top: 10px !=
+important;*/=0D=0A      }=0D=0A      td.imageTableRight {=0D=0A          di=
+splay: none !important;=0D=0A      }=0D=0A      td.imageTableBottom {=0D=0A=
+          padding-bottom: 10px !important;=0D=0A      }=0D=0A      td.image=
+TableLeft {=0D=0A          display: none !important;=0D=0A      }=0D=0A    =
+  /* =3D=3D=3D=3D Column Styles =3D=3D=3D=3D */=0D=0A      td.column {=0D=
+=0A          display: block !important;=0D=0A          width: 100% !importa=
+nt;=0D=0A          padding-top: 0 !important;=0D=0A          padding-right:=
+ 0 !important;=0D=0A          padding-bottom: 0 !important;=0D=0A          =
+padding-left: 0 !important;=0D=0A      }=0D=0A      td.columnContent {=0D=
+=0A          font-size:14px !important;=0D=0A          line-height:145% !im=
+portant;=0D=0A          padding-top: 10px !important;=0D=0A          paddin=
+g-right: 10px !important;=0D=0A          padding-bottom: 10px !important;=
+=0D=0A          padding-left: 10px !important;=0D=0A      }=0D=0A      #con=
+tentCell {=0D=0A          padding: 10px 0px !important;=0D=0A      }=0D=0A =
+     #headerTable {=0D=0A          padding-right: 15.0px !important;=0D=0A =
+     }=0D=0A      #contentTableOuter {=0D=0A          padding: 15.0px !impo=
+rtant;=0D=0A      }=0D=0A  }=0D=0A/*]]>*/=0D=0A</style>=0D=0A        <!-- e=
+xtra whitespace to ensure email renders properly on ipad                   =
+                                        -->=0D=0A        <!--              =
+                                                                           =
+                            -->=0D=0A        <!--                          =
+                                                                           =
+                -->=0D=0A        <!--                            _/    _/  =
+          _/          _/_/_/                        _/                     =
+    -->=0D=0A        <!--                           _/    _/  _/    _/  _/_=
+/_/    _/        _/_/_/      _/_/    _/_/_/_/                      -->=0D=
+=0A        <!--                          _/_/_/_/  _/    _/  _/    _/    _/=
+_/    _/    _/  _/    _/    _/                           -->=0D=0A        <=
+!--                         _/    _/  _/    _/  _/    _/        _/  _/    _=
+/  _/    _/    _/                            -->=0D=0A        <!--         =
+               _/    _/    _/_/_/  _/_/_/    _/_/_/    _/_/_/      _/_/    =
+    _/_/                         -->=0D=0A        <!--                     =
+                                          _/                               =
+                     -->=0D=0A        <!--                                 =
+                             _/                                            =
+         -->=0D=0A        <!--                                             =
+                                                                        -->=
+=0D=0A        <!--                                                 Extra Wh=
+ite Space!                                                  -->=0D=0A      =
+  <!--                                                                     =
+                                                -->=0D=0A        <!-- - - -=
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =
+- - - - - - - - - - - - - - - - - - -->=0D=0A        =0D=0A        <!--[if =
+gte mso 9]>=0D=0A          <xml>=0D=0A            <o:OfficeDocumentSettings=
+>=0D=0A              <o:AllowPNG/>=0D=0A              <o:PixelsPerInch>96</=
+o:PixelsPerInch>=0D=0A            </o:OfficeDocumentSettings>=0D=0A        =
+  </xml>=0D=0A        <![endif]-->=0D=0A    <meta name=3D"generator" conten=
+t=3D"HubSpot"><meta property=3D"og:url" content=3D"https://cms.carringtonwh=
+olesale.com/-temporary-slug-098aa55c-bcaf-4c82-b77d-128f3c02ab52"><meta nam=
+e=3D"x-apple-disable-message-reformatting"></head>=0D=0A    <body class=3D"=
+" style=3D"background-color:#efefef; font-family:sans-serif; -webkit-text-s=
+ize-adjust:100%; -ms-text-size-adjust:100%; height:100% !important; margin:=
+0; padding:0; width:100% !important" leftmargin=3D"0" marginwidth=3D"0" top=
+margin=3D"0" marginheight=3D"0" offset=3D"0" bgcolor=3D"#efefef" height=3D"=
+100%" width=3D"100%">=0D=0A        <!-- Preview text (text which appears ri=
+ght after subject) -->=0D=0A        <div id=3D"preview_text" style=3D"displ=
+ay:none;font-size:1px;color:#efefef;line-height:1px;max-height:0px;max-widt=
+h:0px;opacity:0;overflow:hidden;">=0D=0A            We understand that not =
+all clients fit into the same mold. That=E2=80=99s why we are now accepting=
+ alternative income documentation.=0D=0A        </div>=0D=0A        <!--  T=
+he  backgroundTable table manages the color of the background and then the =
+templateTable maintains the body of =0D=0A        the email template, inclu=
+ding preheader & footer. This is the only table you set the width of to, ev=
+erything else is set to =0D=0A        100% and in the CSS above. Having the=
+ width here within the table is just a small win for Lotus Notes. -->=0D=0A=
+        <!-- Begin backgroundTable -->  =0D=0A        <table align=3D"cente=
+r" bgcolor=3D"#efefef" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" hei=
+ght=3D"100%" width=3D"100%" id=3D"backgroundTable" style=3D"-webkit-text-si=
+ze-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-=
+rspace:0pt; border-collapse:collapse !important; background-color:#efefef; =
+font-family:sans-serif; height:100% !important; margin:0; padding:0; width:=
+100% !important">=0D=0A            <tbody><tr>=0D=0A                <td ali=
+gn=3D"center" valign=3D"top" id=3D"bodyCell" style=3D"-webkit-text-size-adj=
+ust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace=
+:0pt; height:100% !important; margin:0; padding:0; width:100% !important" h=
+eight=3D"100%" width=3D"100%"> <!-- When nesting tables within a TD, align =
+center keeps it well, centered. -->=0D=0A                    <!-- Begin Tem=
+plate Container -->=0D=0A                    <!-- This holds everything tog=
+ether in a nice container -->=0D=0A                    <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" id=3D"templateTable" style=3D"-webkit-t=
+ext-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-=
+table-rspace:0pt; border-collapse:collapse !important; width:600px; backgro=
+und-color:#ffffff; -webkit-font-smoothing:antialiased" width=3D"600" bgcolo=
+r=3D"#ffffff">=0D=0A                        <tbody><tr>=0D=0A              =
+              <td align=3D"center" valign=3D"top" style=3D"-webkit-text-siz=
+e-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-r=
+space:0pt">=0D=0A                                <!-- Begin Template Prehea=
+der -->=0D=0A                                <div class=3D"header-container=
+-wrapper">=0D=0A</div><table border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" width=3D"100%" id=3D"headerTable" style=3D"-webkit-text-size-adjust:100%=
+; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; ba=
+ckground-color:#efefef; color:#15201e; font-family:sans-serif; font-size:10=
+px; line-height:120%; text-align:right; border-collapse:separate !important=
+; padding-right:30px" bgcolor=3D"#efefef" align=3D"right">=0D=0A           =
+                         <!--end header wrapper -->=0D=0A                  =
+              </table>=0D=0A                                <!-- End Templa=
+te Preheader -->=0D=0A                            </td>=0D=0A              =
+          </tr>=0D=0A                        <tr>=0D=0A                    =
+        <td align=3D"center" valign=3D"top" id=3D"contentCell" style=3D"-we=
+bkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt=
+; mso-table-rspace:0pt; padding:10px 20px; background-color:#efefef" bgcolo=
+r=3D"#efefef">=0D=0A                                <!-- Begin Template Wra=
+pper -->=0D=0A                                <!-- This separates the prehe=
+ader which usually contains the "open in browser, etc" content=0D=0A       =
+                         from the actual body of the email. Can alternative=
+ly contain the footer too, but I choose not=0D=0A                          =
+      to so that it stays outside of the border. -->=0D=0A                 =
+               <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"100%" id=3D"contentTableOuter" style=3D"-webkit-text-size-adjust:100%;=
+ -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; bor=
+der-collapse:separate !important; background-color:#ffffff; box-shadow:0px =
+1px rgba(0, 0, 0, 0.1); padding:30px; border:1px solid #c9c9c9; border-bott=
+om:1px solid #a9a9a9" bgcolor=3D"#ffffff">=0D=0A                           =
+         <tbody><tr>=0D=0A                                        <td align=
+=3D"center" valign=3D"top" style=3D"-webkit-text-size-adjust:100%; -ms-text=
+-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">=0D=0A      =
+                                      <div class=3D"body-container-wrapper"=
+>=0D=0A</div><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"=
+contentTableInner" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-ad=
+just:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:coll=
+apse !important; width:600px" width=3D"600">=0D=0A                         =
+                       <tbody><tr>=0D=0A<td align=3D"left" valign=3D"top" c=
+lass=3D"bodyContent" width=3D"100%" colspan=3D"12" style=3D"-webkit-text-si=
+ze-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-=
+rspace:0pt; color:#15201e; font-family:sans-serif; font-size:15px; line-hei=
+ght:150%; text-align:left">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0"=
+ border=3D"0" width=3D"100%" class=3D"templateColumnWrapper" style=3D"-webk=
+it-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; =
+mso-table-rspace:0pt; border-collapse:collapse !important">=0D=0A          =
+  <tbody><tr>=0D=0A<td valign=3D"top" colspan=3D"12" width=3D"100.0%" class=
+=3D" column" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:1=
+00%; mso-table-lspace:0pt; mso-table-rspace:0pt; width:100.0%; text-align:l=
+eft; padding:0; font-family:sans-serif; font-size:15px; line-height:1.5em; =
+color:#15201E" align=3D"left">=0D=0A<div class=3D"widget-span widget-type-l=
+ogo @media only screen and (max-width: 480px){ .emailImage{ height:auto !im=
+portant; max-width:600px width: 100% }" style=3D"border-width: 0; height: a=
+uto; max-width: 100%; text-align: center;" data-widget-type=3D"logo">=0D=0A=
+<div class=3D"layout-widget-wrapper">=0D=0A<div id=3D"hs_cos_wrapper_module=
+_151379678332395" class=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrap=
+per_type_logo" style=3D"color: inherit; font-size: inherit; line-height: in=
+herit;" data-hs-cos-general-type=3D"widget" data-hs-cos-type=3D"logo"><a hr=
+ef=3D"https://cms.carringtonwholesale.com/e1t/c/*W2mHBgL83QFmdW2F0pVz82B2QM=
+0/*W83BDjm1zVMRGW2DjRpF7JMpqQ0/5/f18dQhb0S5fm8XJ9l8N8WzzDgHyjJqW3LyTQn4WYBT=
+6N3hHh8GXL0jYVp3s9r5nbsgKW1TxP-c8VmHXpN8TncGyKnnrcW5mZ50N8HbRxPN8k1dMQpSBF3=
+W8Wh-qW5KsqPNW36Q7Ns548jwDW55WJL-7dDxTNW7mWsnX7dzcsSW51vDDW56vHg5W69NG1w6Pr=
+3nqVphxl51njMtBW6GWbD718dKPTW1VJryk5lX8fqW13bD4h6dkdFsW13jS5t8Wmns2N7p7dHFs=
+zQ-VW1VlvgK49QTNrW7tMVNv4P6TCFW6WYQfj4glf8zW149ZpQ77VCg7W5KYcpl2KtqXLW3ptwj=
+q2QcK-5W6TZQTb1CSxzqW14y7x114QhJCW5n17wd58dDhTW9gMRt08nDXSjW38H1t83Cdk0dW3w=
+v7Sm1TrRGZW2VtKnW7SRk0pVgMjSF2nRylcW5rNJKD1rvYwZW3jtccc5_5gHzW5yKMg93lvQ8MN=
+3Dbq_Z_W0tlW1NwBMn1MVsRjV1FzQV4TWVZ2103" id=3D"hs-link-module_1513796783323=
+95" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; bord=
+er-width:0px; border:0px" data-hs-link-id=3D"0" target=3D"_blank"><img src=
+=3D"https://cms.carringtonwholesale.com/hs-fs/hubfs/01.IMAGES/Logos/Logo_CM=
+S_WH_transp_160.png=3Ft=3D1531242574276&amp;width=3D150&amp;name=3DLogo_CMS=
+_WH_transp_160.png" class=3D"hs-image-widget " style=3D"vertical-align:bott=
+om; -ms-interpolation-mode:bicubic; max-height:68px; max-width:150px; borde=
+r-width:0px; border:0px" width=3D"150" alt=3D"Carrington" title=3D"Carringt=
+on" srcset=3D"https://cms.carringtonwholesale.com/hs-fs/hubfs/01.IMAGES/Log=
+os/Logo_CMS_WH_transp_160.png=3Ft=3D1531242574276&amp;width=3D150&amp;name=
+=3DLogo_CMS_WH_transp_160.png 150w, https://cms.carringtonwholesale.com/hs-=
+fs/hubfs/01.IMAGES/Logos/Logo_CMS_WH_transp_160.png=3Ft=3D1531242574276&amp=
+;width=3D300&amp;name=3DLogo_CMS_WH_transp_160.png 300w" sizes=3D"(max-widt=
+h: 150px) 100vw, 150px"></a></div>=0D=0A</div><!--end layout-widget-wrapper=
+ -->=0D=0A</div><!--end widget-span -->=0D=0A   </td>=0D=0A           </tr>=
+=0D=0A    </tbody></table>=0D=0A   </td>=0D=0A</tr>=0D=0A<tr>=0D=0A<td alig=
+n=3D"left" valign=3D"top" class=3D"bodyContent" width=3D"100%" colspan=3D"1=
+2" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-t=
+able-lspace:0pt; mso-table-rspace:0pt; color:#15201e; font-family:sans-seri=
+f; font-size:15px; line-height:150%; text-align:left">=0D=0A<table cellpadd=
+ing=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" class=3D"templateCo=
+lumnWrapper" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:1=
+00%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !=
+important">=0D=0A            <tbody><tr>=0D=0A<td valign=3D"top" colspan=3D=
+"12" width=3D"100.0%" class=3D" column" style=3D"-webkit-text-size-adjust:1=
+00%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt;=
+ width:100.0%; text-align:left; padding:0; font-family:sans-serif; font-siz=
+e:15px; line-height:1.5em; color:#15201E" align=3D"left">=0D=0A<div class=
+=3D"widget-span widget-type-rich_text " style=3D"" data-widget-type=3D"rich=
+_text">=0D=0A<div class=3D"layout-widget-wrapper">=0D=0A<div id=3D"hs_cos_w=
+rapper_module_144264447838513911" class=3D"hs_cos_wrapper hs_cos_wrapper_wi=
+dget hs_cos_wrapper_type_rich_text" style=3D"color: inherit; font-size: inh=
+erit; line-height: inherit;" data-hs-cos-general-type=3D"widget" data-hs-co=
+s-type=3D"rich_text"><table style=3D"-webkit-text-size-adjust:100%; -ms-tex=
+t-size-adjust:100%; margin:0 auto; width:100%; border-collapse:collapse; ms=
+o-table-lspace:0pt; mso-table-rspace:0pt" width=3D"100%" align=3D"center">=
+=0D=0A<tbody>=0D=0A<tr>=0D=0A<td style=3D"-webkit-text-size-adjust:100%; -m=
+s-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">&nbsp;=
+</td>=0D=0A</tr>=0D=0A</tbody>=0D=0A</table></div>=0D=0A</div><!--end layou=
+t-widget-wrapper -->=0D=0A</div><!--end widget-span -->=0D=0A   </td>=0D=0A=
+           </tr>=0D=0A    </tbody></table>=0D=0A   </td>=0D=0A</tr>=0D=0A<t=
+r>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent" width=3D"10=
+0%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-ad=
+just:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#15201e; font-=
+family:sans-serif; font-size:15px; line-height:150%; text-align:left">=0D=
+=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" c=
+lass=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100%; -ms-=
+text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-c=
+ollapse:collapse !important">=0D=0A            <tbody><tr>=0D=0A<td valign=
+=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" style=3D"-webkit=
+-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; ms=
+o-table-rspace:0pt; width:100.0%; text-align:left; padding:0; font-family:s=
+ans-serif; font-size:15px; line-height:1.5em; color:#15201E; border-color:#=
+d6d7d6; border-width:1px; border-style:solid" align=3D"left">=0D=0A<table c=
+ellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" style=3D"-we=
+bkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt=
+; mso-table-rspace:0pt; border-collapse:collapse !important">=0D=0A    <tbo=
+dy><tr>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent" width=
+=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text-s=
+ize-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#15201e;=
+ font-family:sans-serif; font-size:15px; line-height:150%; text-align:left"=
+>=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100=
+%" class=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100%; =
+-ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; bord=
+er-collapse:collapse !important">=0D=0A                <tbody><tr>=0D=0A<td=
+ valign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" style=3D"=
+-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:=
+0pt; mso-table-rspace:0pt; width:100.0%; text-align:left; padding:0; font-f=
+amily:sans-serif; font-size:15px; line-height:1.5em; color:#15201E" align=
+=3D"left">=0D=0A<div class=3D"widget-span widget-type-linked_image " style=
+=3D"" data-widget-type=3D"linked_image">=0D=0A<div class=3D"layout-widget-w=
+rapper">=0D=0A<div id=3D"hs_cos_wrapper_module_1515025580885191" class=3D"h=
+s_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image" style=
+=3D"color: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-=
+general-type=3D"widget" data-hs-cos-type=3D"linked_image"><img src=3D"https=
+://cms.carringtonwholesale.com/hs-fs/hubfs/01.IMAGES/Promos/SM18_WH_AltDoc_=
+Email_600x250.jpg=3Ft=3D1531242574276&amp;width=3D600&amp;name=3DSM18_WH_Al=
+tDoc_Email_600x250.jpg" class=3D"hs-image-widget " style=3D"vertical-align:=
+bottom; -ms-interpolation-mode:bicubic; max-height:250px; max-width:600px; =
+border-width:0px; border:0px" width=3D"600" alt=3D"Alternative Income Docum=
+entation" title=3D"Alternative Income Documentation" srcset=3D"https://cms.=
+carringtonwholesale.com/hs-fs/hubfs/01.IMAGES/Promos/SM18_WH_AltDoc_Email_6=
+00x250.jpg=3Ft=3D1531242574276&amp;width=3D600&amp;name=3DSM18_WH_AltDoc_Em=
+ail_600x250.jpg 600w, https://cms.carringtonwholesale.com/hs-fs/hubfs/01.IM=
+AGES/Promos/SM18_WH_AltDoc_Email_600x250.jpg=3Ft=3D1531242574276&amp;width=
+=3D1200&amp;name=3DSM18_WH_AltDoc_Email_600x250.jpg 1200w" sizes=3D"(max-wi=
+dth: 600px) 100vw, 600px"></div>=0D=0A</div><!--end layout-widget-wrapper -=
+->=0D=0A</div><!--end widget-span -->=0D=0A       </td>=0D=0A              =
+ </tr>=0D=0A        </tbody></table>=0D=0A       </td>=0D=0A   </tr>=0D=0A =
+   <tr>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent" width=
+=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text-s=
+ize-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#15201e;=
+ font-family:sans-serif; font-size:15px; line-height:150%; text-align:left"=
+>=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100=
+%" class=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100%; =
+-ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; bord=
+er-collapse:collapse !important">=0D=0A                <tbody><tr>=0D=0A<td=
+ valign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" style=3D"=
+-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:=
+0pt; mso-table-rspace:0pt; width:100.0%; text-align:left; padding:0; font-f=
+amily:sans-serif; font-size:15px; line-height:1.5em; color:#15201E" align=
+=3D"left">=0D=0A<div class=3D"widget-span widget-type-rich_text " style=3D"=
+" data-widget-type=3D"rich_text">=0D=0A<div class=3D"layout-widget-wrapper"=
+>=0D=0A<div id=3D"hs_cos_wrapper_module_144264456280115258" class=3D"hs_cos=
+_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style=3D"colo=
+r: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-general-=
+type=3D"widget" data-hs-cos-type=3D"rich_text"><table style=3D"-webkit-text=
+-size-adjust:100%; -ms-text-size-adjust:100%; margin:0 auto; width:100%; bo=
+rder-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt" width=
+=3D"100%" align=3D"center">=0D=0A<tbody>=0D=0A<tr>=0D=0A<td style=3D"-webki=
+t-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; m=
+so-table-rspace:0pt; padding-bottom:10px">&nbsp;</td>=0D=0A</tr>=0D=0A</tbo=
+dy>=0D=0A</table></div>=0D=0A</div><!--end layout-widget-wrapper -->=0D=0A<=
+/div><!--end widget-span -->=0D=0A       </td>=0D=0A               </tr>=0D=
+=0A        </tbody></table>=0D=0A       </td>=0D=0A   </tr>=0D=0A    <tr>=
+=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent" width=3D"100%=
+" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adju=
+st:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#15201e; font-fa=
+mily:sans-serif; font-size:15px; line-height:150%; text-align:left">=0D=0A<=
+table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" class=
+=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100%; -ms-text=
+-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-colla=
+pse:collapse !important">=0D=0A                <tbody><tr>=0D=0A<td valign=
+=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" style=3D"-webkit=
+-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; ms=
+o-table-rspace:0pt; width:100.0%; text-align:left; padding:0; font-family:s=
+ans-serif; font-size:15px; line-height:1.5em; color:#15201E" align=3D"left"=
+>=0D=0A<div class=3D"widget-span widget-type-rich_text " style=3D"" data-wi=
+dget-type=3D"rich_text">=0D=0A<div class=3D"layout-widget-wrapper">=0D=0A<d=
+iv id=3D"hs_cos_wrapper_module_1515021591659143" class=3D"hs_cos_wrapper hs=
+_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style=3D"color: inherit;=
+ font-size: inherit; line-height: inherit;" data-hs-cos-general-type=3D"wid=
+get" data-hs-cos-type=3D"rich_text"><p align=3D"center" style=3D"margin-bot=
+tom: 1em; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; font-si=
+ze:20px; line-height:28px; color:#1e3464; margin:2px 0px 0px; text-align:ce=
+nter">Alternative Income Documentation <br><em><span style=3D"font-size: 16=
+px;">for Carrington Flexible Advantage=E2=84=A0 Loan Programs*</span></em><=
+/p>=0D=0A<table style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjus=
+t:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collaps=
+e !important; margin:0 auto; text-align:center" border=3D"0" width=3D"" cel=
+lspacing=3D"0" cellpadding=3D"0" align=3D"center">=0D=0A<tbody>=0D=0A<tr>=
+=0D=0A<td style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%=
+; mso-table-lspace:0pt; mso-table-rspace:0pt; border-bottom:1px solid #F790=
+1D; padding-bottom:0px" width=3D"150">&nbsp;</td>=0D=0A</tr>=0D=0A</tbody>=
+=0D=0A</table></div>=0D=0A</div><!--end layout-widget-wrapper -->=0D=0A</di=
+v><!--end widget-span -->=0D=0A       </td>=0D=0A               </tr>=0D=0A=
+        </tbody></table>=0D=0A       </td>=0D=0A   </tr>=0D=0A    <tr>=0D=
+=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent" width=3D"100%" c=
+olspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:=
+100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#15201e; font-famil=
+y:sans-serif; font-size:15px; line-height:150%; text-align:left">=0D=0A<tab=
+le cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" class=3D=
+"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100%; -ms-text-si=
+ze-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse=
+:collapse !important">=0D=0A                <tbody><tr>=0D=0A<td valign=3D"=
+top" colspan=3D"12" width=3D"100.0%" class=3D" column" style=3D"-webkit-tex=
+t-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-ta=
+ble-rspace:0pt; width:100.0%; text-align:left; padding:0; font-family:sans-=
+serif; font-size:15px; line-height:1.5em; color:#15201E" align=3D"left">=0D=
+=0A<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" s=
+tyle=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table=
+-lspace:0pt; mso-table-rspace:0pt; border-collapse:separate !important; bor=
+der-spacing:0; background-color:#ffffff" class=3D" columnContentTable" bgco=
+lor=3D"#ffffff"><tbody><tr><td align=3D"left" valign=3D"top" class=3D"colum=
+nContent widget-span widget-type-rich_text" style=3D"-webkit-text-size-adju=
+st:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:=
+0pt; padding-top:20px; padding-right:20px; padding-bottom:20px; padding-lef=
+t:20px; text-align:left; padding:0; font-family:sans-serif; font-size:15px;=
+ line-height:1.5em; color:#15201E; margin-left:15px; color:#666666; font-si=
+ze:14px; font-family:Arial,sans-serif; line-height:22px; margin-right:5px; =
+text-align:left; padding:0px 5px 0px 15px" data-widget-type=3D"rich_text">=
+=0D=0A<div class=3D"layout-widget-wrapper">=0D=0A<div id=3D"hs_cos_wrapper_=
+module_1515022684961153" class=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_c=
+os_wrapper_type_rich_text" style=3D"color: inherit; font-size: inherit; lin=
+e-height: inherit;" data-hs-cos-general-type=3D"widget" data-hs-cos-type=3D=
+"rich_text"><p style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust=
+:100%; margin-top:30px; margin-bottom:20px">We understand that not all clie=
+nts fit into the same mold. Some may have decent credit but find it difficu=
+lt to get home financing due to past credit issues, or simply because they =
+have difficulty documenting their income.</p>=0D=0A<p style=3D"-webkit-text=
+-size-adjust:100%; -ms-text-size-adjust:100%; margin-top:0px; margin-bottom=
+:20px">That=E2=80=99s why we are now accepting alternative income documenta=
+tion such as 12 months of personal bank statements, 24 months of business b=
+ank statements and 1 year W-2 or tax returns.</p>=0D=0A<p style=3D"margin-b=
+ottom: 1em; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%"><stro=
+ng><span style=3D"font-size: 14px; color: #0088ce;">Carrington Flexible Adv=
+antage Plus=E2=84=A0 (<em>Near</em> Prime) Loan Program Highlights*</span><=
+/strong></p>=0D=0A<ul>=0D=0A<li style=3D"-webkit-text-size-adjust:100%; -ms=
+-text-size-adjust:100%; margin-bottom:4px; font-size:14px">Primary and seco=
+nd homes</li>=0D=0A<li style=3D"-webkit-text-size-adjust:100%; -ms-text-siz=
+e-adjust:100%; margin-bottom:4px; font-size:14px">Purchase, refinance and c=
+ash out loans</li>=0D=0A<li style=3D"-webkit-text-size-adjust:100%; -ms-tex=
+t-size-adjust:100%; margin-bottom:4px; font-size:14px">Loan amounts up to $=
+2M</li>=0D=0A<li style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adju=
+st:100%; margin-bottom:4px; font-size:14px">Minimum credit score of 620 (80=
+% LTV)</li>=0D=0A<li style=3D"-webkit-text-size-adjust:100%; -ms-text-size-=
+adjust:100%; margin-bottom:4px; font-size:14px">Minimum credit score of 720=
+ (90% LTV)</li>=0D=0A<li style=3D"-webkit-text-size-adjust:100%; -ms-text-s=
+ize-adjust:100%; margin-bottom:4px; font-size:14px">No upfront or monthly M=
+I</li>=0D=0A<li style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjus=
+t:100%; margin-bottom:4px; font-size:14px">36 months out of bankruptcy or f=
+oreclosure</li>=0D=0A<li style=3D"-webkit-text-size-adjust:100%; -ms-text-s=
+ize-adjust:100%; margin-bottom:4px; font-size:14px">Maximum $750,000 cash o=
+ut</li>=0D=0A<li style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adju=
+st:100%; margin-bottom:4px; font-size:14px">Alternative documentation allow=
+ed</li>=0D=0A</ul>=0D=0A<p style=3D"margin-bottom: 1em; -webkit-text-size-a=
+djust:100%; -ms-text-size-adjust:100%; margin-top:20px"><strong><span style=
+=3D"font-size: 14px; color: #0088ce;">Carrington Flexible Advantage=E2=84=
+=A0 (Non-Prime) Loan Program Highlights* </span></strong></p>=0D=0A<ul>=0D=
+=0A<li style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; m=
+argin-bottom:4px; font-size:14px">Primary and second homes</li>=0D=0A<li st=
+yle=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin-bot=
+tom:4px; font-size:14px">Purchase, refinance and cash out loans</li>=0D=0A<=
+li style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margi=
+n-bottom:4px; font-size:14px">Loan amounts up to $2M</li>=0D=0A<li style=3D=
+"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin-bottom:4p=
+x; font-size:14px">Minimum credit score of 500 (75% LTV)</li>=0D=0A<li styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin-botto=
+m:4px; font-size:14px">Maximum 85% LTV with no MI</li>=0D=0A<li style=3D"-w=
+ebkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin-bottom:4px; =
+font-size:14px">Recent credit events OK</li>=0D=0A<li style=3D"-webkit-text=
+-size-adjust:100%; -ms-text-size-adjust:100%; margin-bottom:4px; font-size:=
+14px">Non-warrantable condos OK</li>=0D=0A<li style=3D"-webkit-text-size-ad=
+just:100%; -ms-text-size-adjust:100%; margin-bottom:4px; font-size:14px">In=
+vestment properties OK</li>=0D=0A<li style=3D"-webkit-text-size-adjust:100%=
+; -ms-text-size-adjust:100%; margin-bottom:4px; font-size:14px">30 year fix=
+ed, 5/1 and 7/1 ARMS</li>=0D=0A<li style=3D"-webkit-text-size-adjust:100%; =
+-ms-text-size-adjust:100%; margin-bottom:4px; font-size:14px">No upfront or=
+ monthly MI</li>=0D=0A<li style=3D"-webkit-text-size-adjust:100%; -ms-text-=
+size-adjust:100%; margin-bottom:4px; font-size:14px">Alternative documentat=
+ion allowed</li>=0D=0A</ul>=0D=0A<div style=3D"display: none;">&nbsp;</div>=
+</div>=0D=0A</div><!--end layout-widget-wrapper -->=0D=0A</td></tr></tbody>=
+</table><!--end widget-table -->=0D=0A       </td>=0D=0A               </tr=
+>=0D=0A        </tbody></table>=0D=0A       </td>=0D=0A   </tr>=0D=0A    <t=
+r>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent" width=3D"10=
+0%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-ad=
+just:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#15201e; font-=
+family:sans-serif; font-size:15px; line-height:150%; text-align:left">=0D=
+=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" c=
+lass=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100%; -ms-=
+text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-c=
+ollapse:collapse !important">=0D=0A                <tbody><tr>=0D=0A<td val=
+ign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" style=3D"-web=
+kit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt;=
+ mso-table-rspace:0pt; width:100.0%; text-align:left; padding:0; font-famil=
+y:sans-serif; font-size:15px; line-height:1.5em; color:#15201E" align=3D"le=
+ft">=0D=0A<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+100%" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; ms=
+o-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:separate !importa=
+nt; border-spacing:0; background-color:#ffffff" class=3D" columnContentTabl=
+e" bgcolor=3D"#ffffff"><tbody><tr><td align=3D"left" valign=3D"top" class=
+=3D"columnContent widget-span widget-type-global_widget" style=3D"-webkit-t=
+ext-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-=
+table-rspace:0pt; padding-top:20px; padding-right:20px; padding-bottom:20px=
+; padding-left:20px; text-align:left; padding:0; font-family:sans-serif; fo=
+nt-size:15px; line-height:1.5em; color:#15201E; padding:0px 20px 0px 20px" =
+data-widget-type=3D"global_widget">=0D=0A<div class=3D"layout-widget-wrappe=
+r">=0D=0A<div id=3D"hs_cos_wrapper_announcement_templates_button" class=3D"=
+hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style=
+=3D"color: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-=
+general-type=3D"widget" data-hs-cos-type=3D"rich_text" data-global-widget-i=
+d=3D"5631904755"><table style=3D"-webkit-text-size-adjust:100%; -ms-text-si=
+ze-adjust:100%; margin:0 auto; text-align:center; border-collapse:collapse;=
+ mso-table-lspace:0pt; mso-table-rspace:0pt" border=3D"0" width=3D"100%" ce=
+llspacing=3D"0" cellpadding=3D"0" align=3D"center">=0D=0A<tbody>=0D=0A<tr>=
+=0D=0A<td style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%=
+; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align:center; padding-to=
+p:20px; padding-bottom:10px" align=3D"center">=0D=0A<table class=3D"content=
+s" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-t=
+able-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important;=
+ border-radius:4px; -webkit-border-radius:4px; background-color:#f7901d; co=
+lor:#ffffff; text-align:center; font-size:18px; line-height:22px; margin-bo=
+ttom:10PX" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center=
+" bgcolor=3D"#f7901d">=0D=0A<tbody>=0D=0A<tr>=0D=0A<td class=3D"inner-neste=
+d type" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; =
+mso-table-lspace:0pt; mso-table-rspace:0pt; font-family:Arial,sans-serif; p=
+adding:15px">=0D=0A<div>=0D=0A<p style=3D"margin-bottom: 1em; -webkit-text-=
+size-adjust:100%; -ms-text-size-adjust:100%; margin:0"><a href=3D"https://c=
+ms.carringtonwholesale.com/e1t/c/*W2mHBgL83QFmdW2F0pVz82B2QM0/*W2gjHr299JGP=
+vW75dlpF4sHKzG0/5/f18dQhb0Sjv98XKZf7W8cSMKG56nbL8W121QXd3MhD7WVdxMQ-58PKg9W=
+1m2rFl98RtjDW2ykB331nY2wwVZfnRN7cMMg5W4vgKM197SfmFW1SjPpQ5TY43yW1DdcrN6-gPg=
+cW2gNHF319wZTJW7C4vvH2JHVS7W7QQH121tq8YmW3cLyGQ5KxXB6W5KDCtZ12tL7fW5B4Lq67r=
+74zSN1FpGmBj3LtyW5tg24_7XJ0zKVRFkK45G18KhW3y9KYQ3dgtM7W3BcmG23vGYwNN38lwc-F=
+hvx3N18mpvbRy1kDW3VYpKy3wymG8W2ZG-Vz36_4ltW5pW8Th8w-sdHW5Nz8HH8lxk05W3R-4vw=
+38tv3GW42Pbvx5sMGfgW5rTtJZ8ByvpWW5mcl1k5jYFcTW8rFsDs6wydT7N42rt9k6Y9ktLTrJB=
+TdZcHW6mSf3j41CBb0W8LBrlY49FShzW8LHwr34txK0lW31S-bX87qYmYW9lYGxg81nm9NW6KGd=
+Zz2qNRgJW4Q-5SV4HzlYFf8HLsDD11" style=3D"-webkit-text-size-adjust:100%; -ms=
+-text-size-adjust:100%; text-decoration:none; color:#ffffff; display:block"=
+ target=3D"_blank" data-hs-link-id=3D"0"><strong>Become an Approved Broker<=
+/strong></a></p>=0D=0A</div>=0D=0A</td>=0D=0A</tr>=0D=0A</tbody>=0D=0A</tab=
+le>=0D=0A</td>=0D=0A</tr>=0D=0A</tbody>=0D=0A</table></div>=0D=0A</div><!--=
+end layout-widget-wrapper -->=0D=0A</td></tr></tbody></table><!--end widget=
+-table -->=0D=0A       </td>=0D=0A               </tr>=0D=0A        </tbody=
+></table>=0D=0A       </td>=0D=0A   </tr>=0D=0A    <tr>=0D=0A<td align=3D"l=
+eft" valign=3D"top" class=3D"bodyContent" width=3D"100%" colspan=3D"12" sty=
+le=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-l=
+space:0pt; mso-table-rspace:0pt; color:#15201e; font-family:sans-serif; fon=
+t-size:15px; line-height:150%; text-align:left">=0D=0A<table cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0" width=3D"100%" class=3D"templateColumnWr=
+apper" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; m=
+so-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !import=
+ant">=0D=0A                <tbody><tr>=0D=0A<td valign=3D"top" colspan=3D"1=
+2" width=3D"100.0%" class=3D" column" style=3D"-webkit-text-size-adjust:100=
+%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; w=
+idth:100.0%; text-align:left; padding:0; font-family:sans-serif; font-size:=
+15px; line-height:1.5em; color:#15201E" align=3D"left">=0D=0A<div class=3D"=
+widget-span widget-type-rich_text " style=3D"" data-widget-type=3D"rich_tex=
+t">=0D=0A<div class=3D"layout-widget-wrapper">=0D=0A<div id=3D"hs_cos_wrapp=
+er_module_1515097700901332" class=3D"hs_cos_wrapper hs_cos_wrapper_widget h=
+s_cos_wrapper_type_rich_text" style=3D"color: inherit; font-size: inherit; =
+line-height: inherit;" data-hs-cos-general-type=3D"widget" data-hs-cos-type=
+=3D"rich_text"><table style=3D"-webkit-text-size-adjust:100%; -ms-text-size=
+-adjust:100%; margin:0 auto; width:100%; border-collapse:collapse; mso-tabl=
+e-lspace:0pt; mso-table-rspace:0pt" width=3D"100%" align=3D"center">=0D=0A<=
+tbody>=0D=0A<tr>=0D=0A<td style=3D"-webkit-text-size-adjust:100%; -ms-text-=
+size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; padding-botto=
+m:1px">&nbsp;</td>=0D=0A</tr>=0D=0A</tbody>=0D=0A</table></div>=0D=0A</div>=
+<!--end layout-widget-wrapper -->=0D=0A</div><!--end widget-span -->=0D=0A =
+      </td>=0D=0A               </tr>=0D=0A        </tbody></table>=0D=0A  =
+     </td>=0D=0A   </tr>=0D=0A</tbody></table>=0D=0A</td>=0D=0A           <=
+/tr>=0D=0A    </tbody></table>=0D=0A   </td>=0D=0A</tr>=0D=0A<tr>=0D=0A<td =
+align=3D"left" valign=3D"top" class=3D"bodyContent" width=3D"100%" colspan=
+=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; =
+mso-table-lspace:0pt; mso-table-rspace:0pt; color:#15201e; font-family:sans=
+-serif; font-size:15px; line-height:150%; text-align:left">=0D=0A<table cel=
+lpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" class=3D"templ=
+ateColumnWrapper" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adj=
+ust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:colla=
+pse !important">=0D=0A            <tbody><tr>=0D=0A<td valign=3D"top" colsp=
+an=3D"12" width=3D"100.0%" class=3D" column" style=3D"-webkit-text-size-adj=
+ust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace=
+:0pt; width:100.0%; text-align:left; padding:0; font-family:sans-serif; fon=
+t-size:15px; line-height:1.5em; color:#15201E" align=3D"left">=0D=0A<table =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" style=3D"-w=
+ebkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0p=
+t; mso-table-rspace:0pt; border-collapse:collapse !important">=0D=0A    <tb=
+ody><tr>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent" width=
+=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text-s=
+ize-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#15201e;=
+ font-family:sans-serif; font-size:15px; line-height:150%; text-align:left"=
+>=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100=
+%" class=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100%; =
+-ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; bord=
+er-collapse:collapse !important">=0D=0A                <tbody><tr>=0D=0A<td=
+ valign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" style=3D"=
+-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:=
+0pt; mso-table-rspace:0pt; width:100.0%; text-align:left; padding:0; font-f=
+amily:sans-serif; font-size:15px; line-height:1.5em; color:#15201E" align=
+=3D"left">=0D=0A<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"100%" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:10=
+0%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:separate !i=
+mportant; border-spacing:0; background-color:#ffffff; border-color:#ffffff"=
+ class=3D" columnContentTable" bgcolor=3D"#ffffff"><tbody><tr><td align=3D"=
+left" valign=3D"top" class=3D"columnContent widget-span widget-type-rich_te=
+xt" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-=
+table-lspace:0pt; mso-table-rspace:0pt; padding-top:20px; padding-right:20p=
+x; padding-bottom:20px; padding-left:20px; text-align:left; padding:0; font=
+-family:sans-serif; font-size:15px; line-height:1.5em; color:#15201E" data-=
+widget-type=3D"rich_text">=0D=0A<div class=3D"layout-widget-wrapper">=0D=0A=
+<div id=3D"hs_cos_wrapper_module_144265631635768523" class=3D"hs_cos_wrappe=
+r hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style=3D"color: inhe=
+rit; font-size: inherit; line-height: inherit;" data-hs-cos-general-type=3D=
+"widget" data-hs-cos-type=3D"rich_text"><table style=3D"-webkit-text-size-a=
+djust:100%; -ms-text-size-adjust:100%; margin:0 auto; width:100%; border-co=
+llapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt" width=3D"100%"=
+ align=3D"center">=0D=0A<tbody>=0D=0A<tr>=0D=0A<td style=3D"-webkit-text-si=
+ze-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-=
+rspace:0pt; padding-bottom:20px">&nbsp;</td>=0D=0A</tr>=0D=0A</tbody>=0D=0A=
+</table></div>=0D=0A</div><!--end layout-widget-wrapper -->=0D=0A</td></tr>=
+</tbody></table><!--end widget-table -->=0D=0A       </td>=0D=0A           =
+    </tr>=0D=0A        </tbody></table>=0D=0A       </td>=0D=0A   </tr>=0D=
+=0A    <tr>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent" wi=
+dth=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-tex=
+t-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#1520=
+1e; font-family:sans-serif; font-size:15px; line-height:150%; text-align:le=
+ft">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"=
+100%" class=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100=
+%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; b=
+order-collapse:collapse !important">=0D=0A                <tbody><tr>=0D=0A=
+<td valign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" style=
+=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lsp=
+ace:0pt; mso-table-rspace:0pt; width:100.0%; text-align:left; padding:0; fo=
+nt-family:sans-serif; font-size:15px; line-height:1.5em; color:#15201E" ali=
+gn=3D"left">=0D=0A<div class=3D"widget-span widget-type-rich_text " style=
+=3D"" data-widget-type=3D"rich_text">=0D=0A<div class=3D"layout-widget-wrap=
+per">=0D=0A<div id=3D"hs_cos_wrapper_module_144265634040369167" class=3D"hs=
+_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style=3D"=
+color: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-gene=
+ral-type=3D"widget" data-hs-cos-type=3D"rich_text"><p align=3D"center" styl=
+e=3D"margin-bottom: 1em; -webkit-text-size-adjust:100%; -ms-text-size-adjus=
+t:100%; font-size:20px; line-height:20px; color:#1e3464; margin:0px 0px 20p=
+x; text-align:center">CONTACT US</p>=0D=0A<table style=3D"-webkit-text-size=
+-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rs=
+pace:0pt; border-collapse:collapse !important; margin:0 auto; text-align:ce=
+nter" border=3D"0" width=3D"" cellspacing=3D"0" cellpadding=3D"0" align=3D"=
+center">=0D=0A<tbody>=0D=0A<tr>=0D=0A<td style=3D"-webkit-text-size-adjust:=
+100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt=
+; border-top:1px solid #F7901D" width=3D"150">&nbsp;</td>=0D=0A</tr>=0D=0A<=
+/tbody>=0D=0A</table></div>=0D=0A</div><!--end layout-widget-wrapper -->=0D=
+=0A</div><!--end widget-span -->=0D=0A       </td>=0D=0A               </tr=
+>=0D=0A        </tbody></table>=0D=0A       </td>=0D=0A   </tr>=0D=0A    <t=
+r>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent" width=3D"10=
+0%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-ad=
+just:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#15201e; font-=
+family:sans-serif; font-size:15px; line-height:150%; text-align:left">=0D=
+=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" c=
+lass=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100%; -ms-=
+text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-c=
+ollapse:collapse !important">=0D=0A                <tbody><tr>=0D=0A<td val=
+ign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" style=3D"-web=
+kit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt;=
+ mso-table-rspace:0pt; width:100.0%; text-align:left; padding:0; font-famil=
+y:sans-serif; font-size:15px; line-height:1.5em; color:#15201E" align=3D"le=
+ft">=0D=0A<div class=3D"widget-span widget-type-global_widget " style=3D"te=
+xt-align: center" data-widget-type=3D"global_widget">=0D=0A<div class=3D"la=
+yout-widget-wrapper">=0D=0A<div id=3D"hs_cos_wrapper_contact_us__wholesale"=
+ class=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_tex=
+t" style=3D"color: inherit; font-size: inherit; line-height: inherit;" data=
+-hs-cos-general-type=3D"widget" data-hs-cos-type=3D"rich_text" data-global-=
+widget-id=3D"5462494783"><p style=3D"-webkit-text-size-adjust:100%; -ms-tex=
+t-size-adjust:100%; font-size:14px; line-height:22px; color:#666666; margin=
+-top:0px; margin-bottom:20px">Allyson&nbsp;Ebert<br>949-517-5968<br><a href=
+=3D"mailto:Allyson.Ebert@carringtonms.com" style=3D"-webkit-text-size-adjus=
+t:100%; -ms-text-size-adjust:100%; text-decoration:none; color:#0088ce; bor=
+der:none" data-hs-link-id=3D"0" target=3D"_blank">Allyson.Ebert@carringtonm=
+s.com</a></p></div>=0D=0A</div><!--end layout-widget-wrapper -->=0D=0A</div=
+><!--end widget-span -->=0D=0A       </td>=0D=0A               </tr>=0D=0A =
+       </tbody></table>=0D=0A       </td>=0D=0A   </tr>=0D=0A</tbody></tabl=
+e>=0D=0A</td>=0D=0A           </tr>=0D=0A    </tbody></table>=0D=0A   </td>=
+=0D=0A</tr>=0D=0A<tr>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyC=
+ontent" width=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100=
+%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; c=
+olor:#15201e; font-family:sans-serif; font-size:15px; line-height:150%; tex=
+t-align:left">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ width=3D"100%" class=3D"templateColumnWrapper" style=3D"-webkit-text-size-=
+adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rsp=
+ace:0pt; border-collapse:collapse !important">=0D=0A            <tbody><tr>=
+=0D=0A<td valign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" =
+style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-tabl=
+e-lspace:0pt; mso-table-rspace:0pt; width:100.0%; text-align:left; padding:=
+0; font-family:sans-serif; font-size:15px; line-height:1.5em; color:#15201E=
+" align=3D"left">=0D=0A<div class=3D"widget-span widget-type-rich_text " st=
+yle=3D"" data-widget-type=3D"rich_text">=0D=0A<div class=3D"layout-widget-w=
+rapper">=0D=0A<div id=3D"hs_cos_wrapper_module_144264939484942050" class=3D=
+"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style=
+=3D"color: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-=
+general-type=3D"widget" data-hs-cos-type=3D"rich_text"></div>=0D=0A</div><!=
+--end layout-widget-wrapper -->=0D=0A</div><!--end widget-span -->=0D=0A   =
+</td>=0D=0A           </tr>=0D=0A    </tbody></table>=0D=0A   </td>=0D=0A</=
+tr>=0D=0A<tr>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent" =
+width=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-t=
+ext-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#15=
+201e; font-family:sans-serif; font-size:15px; line-height:150%; text-align:=
+left">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=
+=3D"100%" class=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust=
+:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0p=
+t; border-collapse:collapse !important">=0D=0A            <tbody><tr>=0D=0A=
+<td valign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" style=
+=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lsp=
+ace:0pt; mso-table-rspace:0pt; width:100.0%; text-align:left; padding:0; fo=
+nt-family:sans-serif; font-size:15px; line-height:1.5em; color:#15201E" ali=
+gn=3D"left">=0D=0A<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:=
+100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:separate =
+!important; border-spacing:0; border-radius:8px; background-color:#0088CE" =
+class=3D" columnContentTable" bgcolor=3D"#0088CE"><tbody><tr><td align=3D"l=
+eft" valign=3D"top" class=3D"columnContent widget-span widget-type-global_w=
+idget" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; m=
+so-table-lspace:0pt; mso-table-rspace:0pt; padding-top:20px; padding-right:=
+20px; padding-bottom:20px; padding-left:20px; text-align:left; padding:0; f=
+ont-family:sans-serif; font-size:15px; line-height:1.5em; color:#15201E; -w=
+ebkit-border-radius:8px; padding:4px 10px 14px 10px; color:#ffffff" data-wi=
+dget-type=3D"global_widget">=0D=0A<div class=3D"layout-widget-wrapper">=0D=
+=0A<div id=3D"hs_cos_wrapper_promos__announcement_bullets" class=3D"hs_cos_=
+wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style=3D"color=
+: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-general-t=
+ype=3D"widget" data-hs-cos-type=3D"rich_text" data-global-widget-id=3D"5501=
+706951"><p style=3D"margin-bottom: 1em; -webkit-text-size-adjust:100%; -ms-=
+text-size-adjust:100%; font-size:20px; line-height:28px; margin:20px; text-=
+align:center" align=3D"center"><strong>Announcements</strong></p>=0D=0A<ul>=
+=0D=0A<li style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%=
+; margin-bottom:4px">Daily Rates now accessible on Website -&nbsp;&nbsp;<st=
+rong><a class=3D"link-hover" href=3D"https://cms.carringtonwholesale.com/e1=
+t/c/*W2mHBgL83QFmdW2F0pVz82B2QM0/*W369L-g9hK0BcN85cQLb7jxP_0/5/f18dQhb0SbTJ=
+8Y9YsWW8s1gm71m4DtzN7t5k77sNjRSW6BlznP5Cgxh0VnQ9Qq8-y3RBW52HCCY2NT4-bW8TncL=
+S8SFxdlW8-y10r8-2DYlVqCn8m8YFTn3W7788GD30THZXW30Qm3p30V2NnW31qBJD2MTPSyVKng=
+6q1Wg4bjW5MTjcl58rffZVrJDbb4dPbwcW2mq2Wk625bx1W6Gj8TS6bVy-5W25cnVb7NrMZsW3n=
+dqfP5-MmynW3s1XjF51FWmfW7sDQXj8QKpyrW4sj3hV2BcyM9W1mGWjz7fNvSjW8nNP4g36vx_8=
+V30Drc5VTr_xW1cySLm3M2jV7Vfk_4k7dq1GGW2yBtxv96pffhW9hXtF14rlWCDW3rN0Qd2ztC9=
+jW3KzpRF1pJVTtW25DPdX96phgzW9jgftx26108TW7ZJ9Bh87_nrgN6SSJNcc9X00MVzQv-Vn7D=
+DN7tYG4LKnhM6N4hLX7xNVrVPW1Ngx1c51bCCwW954Nvp36y5rLW3Gt8r_997KWrW4wgCk12Lln=
+jFN3G4Bnt9XfwsD7s2GRCfRrf6ZFCfF03" style=3D"-webkit-text-size-adjust:100%; =
+-ms-text-size-adjust:100%; color:#ffffff; text-decoration:underline" target=
+=3D"_blank" data-hs-link-id=3D"0">Get Rates</a></strong></li>=0D=0A<li styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin-botto=
+m:4px">Lender Paid Compensation OK on Non-QM -&nbsp;&nbsp;<strong><a class=
+=3D"link-hover" href=3D"https://cms.carringtonwholesale.com/e1t/c/*W2mHBgL8=
+3QFmdW2F0pVz82B2QM0/*W8D4YVn302C-VW8tf6Zy6qCYhC0/5/f18dQhb0SfHB9dZyjHW8s1gm=
+71m4DtzN7t5k77sNjRSW6BlzlP1Nvw7TVM7Yn31rfB4tW3L39yy8mFZxZW8mF-Rz1sLjgTW1nPL=
+DM1sK_ppW8BVHkv3kmNSzW8wYPy48t2SntW5_N7td1kRpb8V5KqJd8WxdxmW1TxSVq7MbdkzW2M=
+mXLh8W4X-5W7HVJ-56bV-r7W1xl0zx1v-0TdW1tqlyg6PhtNSW6-gPgc2gNHB5W3QM8lF6ltYFL=
+W6dPQZR5jCnvJN4DsRNcZTsX2W70fl6p7PJ6bdW2gM1cw1THSXdW5J10-t5FHJhnW8b6SGF7z2N=
+MJW7vRb978jmQ-pW2Fq95D22WLyBW6HBHnD6qG734W7VKzlf7DVdGJW7VykTd78_yHRW210mc_7=
+c20dBW1sChGg1zlX5qW6Y8c3S1bsNGXW80qfq91sBdkzW24Y1VQ260GJPW7LY9zS7BNrflW7qgG=
+Qy19thxKW1N1Gg97qbZZZW82mflk7zJCC0W6sSqKQ1213dFN64TTbkg66QRMfTlLH1KsXyW1KtW=
+rl3nzDfcW83c8g45SNf3bW7mt3V-6VpHvWW8w1zCQ2TfwqdW4qrsvg9dwnZkW449D5F84rKMZMk=
+-_LMtJCL4V3_BYk27FNF7111" style=3D"-webkit-text-size-adjust:100%; -ms-text-=
+size-adjust:100%; color:#ffffff; text-decoration:underline" target=3D"_blan=
+k" data-hs-link-id=3D"0">Learn More</a></strong></li>=0D=0A<li style=3D"-we=
+bkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin-bottom:4px">R=
+eminder about VA Regulations -&nbsp;&nbsp;<strong><a class=3D"link-hover" h=
+ref=3D"https://cms.carringtonwholesale.com/e1t/c/*W2mHBgL83QFmdW2F0pVz82B2Q=
+M0/*W3sBbY45hmBn-W2KVJrN90xTSP0/5/f18dQhb0S65P6XvxSmV1x4mJ1hzFQmN19jJy5DHJ9=
+mW3-S5-12xzQQXW5jVd_M54GMbgW7zhqLn7hrlBRW4RgZMZ3Zs1x-N1FRGYNqc3MfN6nM9bWpXh=
+LcW531xhC4drblDW4DZV5T2VRN2hW5DPLtS7MXx3yW6_wd6V25qHXnW1PxMCB5Xkn1gW3SrBx98=
+dYGvHVNwTrQ60wzpwW3LHtLv2QF_Y_W2SfBd932xfxxVxP7572n14lYW2X_Yf75TKnJBW4fYhWG=
+57Vl2xW6sPCbK4J_zXbW2hYs8s4XrbG1Vk4w485KWS6mN1jCqyY5PpcKW30cGY540FhxgVl9kvm=
+5t23VdW42lpKj2nNhRyW77c8mR8KB5kYW7VnWSN2K0ptPW3Gdb9G5cVtyxW1ytm547d8dljW6Gx=
+Y5-50HpNBW1qnRzD8scmZFW47P8ZZ1BWdFSW8986561KczJ4W84C4lC4RTZ2dW3WLQs81D5Pj5W=
+8pl5Xp5-_Cp7W8flxWw86D7cxW2KVy4c5kf5jXW86bwjY92Z3V8N65X2QPVJdjLN6nWq0dPc608=
+W1MYJn27sJNc_V6YzZJ3cg1-3W2XtvL530-RRcW5yVghf8jYp-dW9f4PV03M7x48W21SNLz4xHc=
+Mqf903KGB02" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:1=
+00%; color:#ffffff; text-decoration:underline" target=3D"_blank" data-hs-li=
+nk-id=3D"0">Learn More</a></strong></li>=0D=0A<li style=3D"-webkit-text-siz=
+e-adjust:100%; -ms-text-size-adjust:100%; margin-bottom:4px">Bank Statement=
+s OK for Self-Employed -&nbsp;&nbsp;<strong><a class=3D"link-hover" href=3D=
+"https://cms.carringtonwholesale.com/e1t/c/*W2mHBgL83QFmdW2F0pVz82B2QM0/*VG=
+mWQz1L7xCFW3SW3hg8RCBYw0/5/f18dQhb0S4002dYTs8TvNKV1ffh8RN4_p6_2DXMcBN7RXNcl=
+L0d-YV_Nbmx1mtYNgW4sZYGQ6FDjWGW17VdM59cdRP3W8bcXYZ8bhZHSN6LCDXvSVJ9xW8LH0VH=
+2WyP6sW9h6gQQ8w3ZhtW7wbFHn72cXBWW4JJpwl7pmNgGW5VdrFW4Cb6tgW1NPKfk7Fq0XzW6g8=
+9m52lKfDCVx1j1v2gVHQPN1w-2RPDhgy3W50Jb0780X_-SW7ycGtw20dVRCVnbVCS5WgXw1N23H=
+y-13qhD7N3z82MQbJs9PW6hTMlJ8R1ySyVkt6LD7bG7Z3W3PcHNc68V1_vN36X9YR6XpjMW1fRP=
+0Y6xvj9yW4lh9C77Q5q9BN86rmJttsD6pW57m0yC3nvG55W2wPvX73W18MkW1BC3jV8KcMYvW1H=
+m7fD7tGSGSW5pbytF6wXrR7W6fQGf_1qyG5FVy6YSs1M9TzMW5wKz834S6ft7W81hs_47pR8tWW=
+1ywSZw8f3hj0W52bv_p7HXZg8W4mGCXV91gN5rW8GpmSK5k3Nn8W4xFh4p4BvtBVW86f5hN5dgr=
+NkW53wnsx3tvRG0f1d2p7203" style=3D"-webkit-text-size-adjust:100%; -ms-text-=
+size-adjust:100%; color:#ffffff; text-decoration:underline" target=3D"_blan=
+k" data-hs-link-id=3D"0">Learn More</a></strong></li>=0D=0A</ul>=0D=0A<div =
+style=3D"display: none;">&nbsp;</div></div>=0D=0A</div><!--end layout-widge=
+t-wrapper -->=0D=0A</td></tr></tbody></table><!--end widget-table -->=0D=0A=
+   </td>=0D=0A           </tr>=0D=0A    </tbody></table>=0D=0A   </td>=0D=
+=0A</tr>=0D=0A<!--end body wrapper -->=0D=0A                               =
+             </tbody></table>=0D=0A                                        =
+</td>=0D=0A                                    </tr>=0D=0A                 =
+               </tbody></table>=0D=0A                                <!-- E=
+nd Template Wrapper -->=0D=0A                            </td>=0D=0A       =
+                 </tr>=0D=0A                        <tr>=0D=0A             =
+               <td align=3D"center" valign=3D"top" style=3D"-webkit-text-si=
+ze-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-=
+rspace:0pt">=0D=0A                                <!-- Begin Template Foote=
+r -->=0D=0A                                <div class=3D"footer-container-w=
+rapper">=0D=0A</div><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%" id=3D"footerTable" style=3D"-webkit-text-size-adjust:100%; =
+-ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; bord=
+er-collapse:collapse !important; background-color:#efefef; color:#666666; f=
+ont-family:sans-serif; font-size:12px; line-height:120%; padding-top:20px; =
+padding-right:20px; padding-bottom:20px; padding-left:20px; text-align:cent=
+er" bgcolor=3D"#efefef" align=3D"center">=0D=0A                            =
+        <tbody><tr>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyCon=
+tent" width=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%;=
+ -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; col=
+or:#15201e; font-family:sans-serif; font-size:15px; line-height:150%; text-=
+align:left">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" w=
+idth=3D"100%" class=3D"templateColumnWrapper" style=3D"-webkit-text-size-ad=
+just:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspac=
+e:0pt; border-collapse:collapse !important">=0D=0A            <tbody><tr>=
+=0D=0A<td valign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" =
+style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-tabl=
+e-lspace:0pt; mso-table-rspace:0pt; width:100.0%; text-align:left; padding:=
+0; font-family:sans-serif; font-size:15px; line-height:1.5em; color:#15201E=
+; padding:0px 10px 0px 10px" align=3D"left">=0D=0A<div class=3D"widget-span=
+ widget-type-rich_text id=3D" footer""=3D"" style=3D"padding: 0px 10px 0px =
+15px; font-family: Arial, sans-serif; text-align: left; font-size: 10px; li=
+ne-height: 1.14em; color: #666666; display: block;" data-widget-type=3D"ric=
+h_text">=0D=0A<div class=3D"layout-widget-wrapper">=0D=0A<div id=3D"hs_cos_=
+wrapper_module_1515096899199306" class=3D"hs_cos_wrapper hs_cos_wrapper_wid=
+get hs_cos_wrapper_type_rich_text" style=3D"color: inherit; font-size: inhe=
+rit; line-height: inherit;" data-hs-cos-general-type=3D"widget" data-hs-cos=
+-type=3D"rich_text"><p id=3D"footer" style=3D"margin-bottom: 1em; -webkit-t=
+ext-size-adjust:100%; -ms-text-size-adjust:100%">Effective Tuesday, June 5,=
+ 2018, Brokers may submit loans using Lender Paid Compensation for the Near=
+-Prime and Non-Prime products.</p>=0D=0A<p style=3D"margin-bottom: 1em; -we=
+bkit-text-size-adjust:100%; -ms-text-size-adjust:100%">*Carrington Flexible=
+ Advantage=E2=84=A0 product requirements vary depending on the consumer=E2=
+=80=99s credit grade, LTV, DTI, and FICO scores and may require reserves fr=
+om 3 to 6 months. Ask your Account Executive for additional details and req=
+uirements. Not available in AK, MA, ND, and WV.</p></div>=0D=0A</div><!--en=
+d layout-widget-wrapper -->=0D=0A</div><!--end widget-span -->=0D=0A   </td=
+>=0D=0A           </tr>=0D=0A    </tbody></table>=0D=0A   </td>=0D=0A</tr>=
+=0D=0A<tr>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent" wid=
+th=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text=
+-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#15201=
+e; font-family:sans-serif; font-size:15px; line-height:150%; text-align:lef=
+t">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"1=
+00%" class=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100%=
+; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; bo=
+rder-collapse:collapse !important">=0D=0A            <tbody><tr>=0D=0A<td v=
+align=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" style=3D"-w=
+ebkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0p=
+t; mso-table-rspace:0pt; width:100.0%; text-align:left; padding:0; font-fam=
+ily:sans-serif; font-size:15px; line-height:1.5em; color:#15201E; padding:0=
+px 10px 0px 10px" align=3D"left">=0D=0A<div class=3D"widget-span widget-typ=
+e-global_widget id=3D" footer""=3D"" style=3D"padding: 0px 10px 10px 15px; =
+font-family: Arial, sans-serif; text-align: left; font-size: 10px; line-hei=
+ght: 1.14em; color: #666666; display: block;" data-widget-type=3D"global_wi=
+dget">=0D=0A<div class=3D"layout-widget-wrapper">=0D=0A<div id=3D"hs_cos_wr=
+apper_legal__wholesale" class=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_co=
+s_wrapper_type_rich_text" style=3D"color: inherit; font-size: inherit; line=
+-height: inherit;" data-hs-cos-general-type=3D"widget" data-hs-cos-type=3D"=
+rich_text" data-global-widget-id=3D"5462493824"><p id=3D"footer" style=3D"m=
+argin-bottom: 1em; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%=
+; font-family:Arial,sans-serif; text-align:left; font-size:10px; line-heigh=
+t:1.14em; color:#666666; display:block" align=3D"left">=C2=A9 Copyright 200=
+7-2018 Carrington Mortgage Services, LLC headquartered at 1600 South Dougla=
+ss Road, Suites 110 &amp; 200A, Anaheim, CA 92806. 866-453-2400. NMLS ID #2=
+600. Nationwide Mortgage Licensing System (NMLS) Consumer Access website: w=
+ww.nmlsconsumeraccess.org. AZ: Mortgage Banker BK-0910745. CA: Licensed by =
+the Department of Business Oversight under the California Residential Mortg=
+age Lending Act, File 413 0904. CO: Check license status of your mortgage l=
+oan originator at www.dora.state.co.us/real-estate/index.htm. GA: Georgia R=
+esidential Mortgage Licensee 22721. IL: Illinois Residential Mortgage Licen=
+see. MN: This is not an offer to enter into an interest rate lock agreement=
+ under Minnesota Law. MO: Missouri Company Registration 14-1746. In-State O=
+ffice: Missouri Residential Mortgage Loan Broker License 14-1746. 251 SW No=
+el, Lees Summit, MO 64063. NV: Mortgage Broker License 4068 (Residential Mo=
+rtgage Origination/Lending). NJ: Licensed by the N.J. Department of Banking=
+ and Insurance. NY: Licensed Mortgage Banker=E2=80=94NYS Department of Fina=
+ncial Services. New York Mortgage Banker License B500980/107664. OH: Ohio M=
+ortgage Loan Act Certificate of Registration SM.501517.000. RI: Rhode Islan=
+d Licensed Lender, Lender License 20112809LL. VA: NMLS ID 2600 (www.nmlscon=
+sumeraccess.org). WA: Consumer Loan License CL2600. Also licensed in AL, AK=
+, AR, CT, DE, DC, FL, HI, ID, IN, IA, KS, KY, LA, ME, MD, MI, MS, MT, NE, N=
+H, NM, NC, OK, OR, PA, SC, SD, TN, TX, UT, VT, WV, WI and WY. NOTICE: All l=
+oans are subject to credit, underwriting and property approval guidelines. =
+Offered loan products may vary by state. There is no guarantee that all bor=
+rowers will qualify. Restrictions may apply. This is not a commitment to le=
+nd. Terms, conditions and programs are subject to change without notice. Th=
+is information is for industry professionals only and is not intended for d=
+istribution to consumers. Carrington Mortgage Services, LLC is not acting o=
+n behalf of or at the direction of HUD/FHA or any government agency. All ri=
+ghts reserved.</p>=0D=0A<p align=3D"right" style=3D"margin-bottom: 1em; -we=
+bkit-text-size-adjust:100%; -ms-text-size-adjust:100%"><img src=3D"https://=
+cms.carringtonwholesale.com/hs-fs/hubfs/01.IMAGES/Logos/Equal-Housing-Blue.=
+png=3Ft=3D1531242574276&amp;width=3D20&amp;height=3D21&amp;name=3DEqual-Hou=
+sing-Blue.png" alt=3D"" title=3D"equal-grey.png" width=3D"20" height=3D"aut=
+o" style=3D"vertical-align:bottom; margin:0px 0px 10px 10px; float:right; b=
+order-width:0; height:auto; -ms-interpolation-mode:bicubic; display:block; =
+max-width:20px" srcset=3D"https://cms.carringtonwholesale.com/hs-fs/hubfs/0=
+1.IMAGES/Logos/Equal-Housing-Blue.png=3Ft=3D1531242574276&amp;width=3D20&am=
+p;height=3D21&amp;name=3DEqual-Housing-Blue.png 20w, https://cms.carrington=
+wholesale.com/hs-fs/hubfs/01.IMAGES/Logos/Equal-Housing-Blue.png=3Ft=3D1531=
+242574276&amp;width=3D40&amp;height=3D42&amp;name=3DEqual-Housing-Blue.png =
+40w" sizes=3D"(max-width: 20px) 100vw, 20px"></p></div>=0D=0A</div><!--end =
+layout-widget-wrapper -->=0D=0A</div><!--end widget-span -->=0D=0A   </td>=
+=0D=0A           </tr>=0D=0A    </tbody></table>=0D=0A   </td>=0D=0A</tr>=
+=0D=0A<tr>=0D=0A<td align=3D"left" valign=3D"top" class=3D"bodyContent" wid=
+th=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text=
+-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#15201=
+e; font-family:sans-serif; font-size:15px; line-height:150%; text-align:lef=
+t">=0D=0A<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"1=
+00%" class=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100%=
+; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; bo=
+rder-collapse:collapse !important">=0D=0A            <tbody><tr>=0D=0A<td v=
+align=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" style=3D"-w=
+ebkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0p=
+t; mso-table-rspace:0pt; width:100.0%; text-align:left; padding:0; font-fam=
+ily:sans-serif; font-size:15px; line-height:1.5em; color:#15201E" align=3D"=
+left">=0D=0A<div class=3D"widget-span widget-type-global_widget " style=3D"=
+" data-widget-type=3D"global_widget">=0D=0A<div class=3D"layout-widget-wrap=
+per">=0D=0A<div id=3D"hs_cos_wrapper_social__wholesale" class=3D"hs_cos_wra=
+pper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style=3D"color: i=
+nherit; font-size: inherit; line-height: inherit;" data-hs-cos-general-type=
+=3D"widget" data-hs-cos-type=3D"rich_text" data-global-widget-id=3D"5462494=
+325"><table style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:10=
+0%; margin:0 auto; border-collapse:collapse; mso-table-lspace:0pt; mso-tabl=
+e-rspace:0pt" align=3D"center">=0D=0A<tbody>=0D=0A<tr>=0D=0A<td style=3D"-w=
+ebkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0p=
+t; mso-table-rspace:0pt; padding-top:10px"><center><a    href=3D"https://cm=
+s.carringtonwholesale.com/e1t/c/*W2mHBgL83QFmdW2F0pVz82B2QM0/*W2fbRzK21bLND=
+V6F6LQ4X-Sx20/5/f18dQhb0Sjvl8YHrG2N8WzzDgHyjJqW3LyTQn4WYBT6N3hHhdQVMsQMVnQ9=
+Qq8--HBkW8_1hFG32WXVJW6B40j34dQ2-cW55ksZ97HYlFVW759D8r30THZXW31Dznm4bJ02hW4=
+b_rKw7MbC4_W57ryY_13VskzV50XPG8Wx-1vW5mC8XB2yJF1WVYT2jk6P4lCXW6hF7H569NG1wW=
+6Pr5qt4NwcCJW96dt4S4r1QvYW13s-w28gjY6LW8WBKbV56sy_8W2NhXFJ56sBj1W7sqdPk6d_3=
+-jV42gVD2sB_4sW2r5Jm-7x39fsVsJ0gB53M3w4W539_8X8SKvBCW9gJDQ58WGYdQW6VwD2558X=
+LSPW7p8g842Snkd6W49gCBN8SKzF8W9fqF8p4b3sXgW6xhYTL6WWlzJN4lBZ6Fnpt28W6w-c_q8=
+Ph58-W58Cd3W1GpnDLW2GKLRN2H5bZ_W4J35S42N6Z0kW735PXN6l28YTW1dn9Wr7Sq7J_W84MR=
+d334w3GCVXy1qs1tj03zvVL6QT77-dvFv-k02" style=3D"-webkit-text-size-adjust:10=
+0%; -ms-text-size-adjust:100%; color:#666666; text-decoration:none" data-hs=
+-link-id=3D"0" target=3D"_blank" data-mce-target=3D"_blank"><img src=3D"htt=
+ps://cms.carringtonwholesale.com/hs-fs/hubfs/01.IMAGES/Social%20Icons/round=
+-social-facebook.png=3Ft=3D1531242574276&amp;width=3D30&amp;height=3D30&amp=
+;name=3Dround-social-facebook.png" alt=3D"Facebook" width=3D"30" style=3D"v=
+ertical-align:bottom; -ms-interpolation-mode:bicubic; width:30px !important=
+; height:30px!important" data-constrained=3D"true" border=3D"0" height=3D"3=
+0" srcset=3D"https://cms.carringtonwholesale.com/hs-fs/hubfs/01.IMAGES/Soci=
+al%20Icons/round-social-facebook.png=3Ft=3D1531242574276&amp;width=3D30&amp=
+;height=3D30&amp;name=3Dround-social-facebook.png 30w, https://cms.carringt=
+onwholesale.com/hs-fs/hubfs/01.IMAGES/Social%20Icons/round-social-facebook.=
+png=3Ft=3D1531242574276&amp;width=3D60&amp;height=3D60&amp;name=3Dround-soc=
+ial-facebook.png 60w" sizes=3D"(max-width: 30px) 100vw, 30px"></a></center>=
+</td>=0D=0A<td style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust=
+:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; width:10px" width=3D"10"=
+>&nbsp;</td>=0D=0A<td style=3D"-webkit-text-size-adjust:100%; -ms-text-size=
+-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; padding-top:10px"=
+><center><a href=3D"https://cms.carringtonwholesale.com/e1t/c/*W2mHBgL83QFm=
+dW2F0pVz82B2QM0/*W8GGSFz3qsWdxW8kG2D03fQcLX0/5/f18dQhb0S5fw8XJ9l8N8WzzDgHyj=
+JqW3LyTQn4WYBT6N3hHhc1VMsQMVnQ9Qq8Z_pJ9W2MyX6Q8YztwfW8-y3RB52HCCYW2NT4_n564=
+K3XW4bJ02h4b_rKwW7MbC4_57ryY_N13Vskz50XPGW8Wx-1v5mC8XBN2yJF1WYT2jkW6P4lCX6h=
+F7H5W69NG1w6Pr5qtW4Nw85396dt4SW4r1Qvq6VlRzKW7P1-wW33FK-yMqPkxDnjZC8W1GTWG99=
+gN64RW7wQ4G01CRWbrW8V-LFH7t163WN31nsyn42jb7VqNMD_6xgVmhW4Cw3nk1TCYqKW6B3bbq=
+4QXYJzVvLYF083FpmfW82HyQx5Yx1xrW5pX4tf2QWTZGW2RQMNV1Fbm0LW7r_zK72p8_TTW7-cq=
+2w3d0zvxW4p7yDT2Bj61ZVQKDQ41lSSWPW5__f5g1gzy3BW7gYszf8Lkw51W5xCB2k6FdZGlW3r=
+jZg35Sz017W3pRBk-7rDq1XN4f1M0RVs7V_VVm7kN8c8_TN102" style=3D"-webkit-text-s=
+ize-adjust:100%; -ms-text-size-adjust:100%; color:#666666; text-decoration:=
+none; border-style:none" border=3D"0" data-hs-link-id=3D"0" target=3D"_blan=
+k" data-mce-target=3D"_blank"><img src=3D"https://cms.carringtonwholesale.c=
+om/hs-fs/hubfs/01.IMAGES/Social%20Icons/round-social-twitter.png=3Ft=3D1531=
+242574276&amp;width=3D30&amp;height=3D30&amp;name=3Dround-social-twitter.pn=
+g" alt=3D"Twitter" width=3D"30" style=3D"vertical-align:bottom; -ms-interpo=
+lation-mode:bicubic; width:30px !important; height:30px!important" data-con=
+strained=3D"true" border=3D"0" height=3D"30" srcset=3D"https://cms.carringt=
+onwholesale.com/hs-fs/hubfs/01.IMAGES/Social%20Icons/round-social-twitter.p=
+ng=3Ft=3D1531242574276&amp;width=3D30&amp;height=3D30&amp;name=3Dround-soci=
+al-twitter.png 30w, https://cms.carringtonwholesale.com/hs-fs/hubfs/01.IMAG=
+ES/Social%20Icons/round-social-twitter.png=3Ft=3D1531242574276&amp;width=3D=
+60&amp;height=3D60&amp;name=3Dround-social-twitter.png 60w" sizes=3D"(max-w=
+idth: 30px) 100vw, 30px"></a></center></td>=0D=0A<td style=3D"-webkit-text-=
+size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-tabl=
+e-rspace:0pt; width:10px" width=3D"10">&nbsp;</td>=0D=0A<td style=3D"-webki=
+t-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; m=
+so-table-rspace:0pt; padding-top:10px"><center><a     href=3D"https://cms.c=
+arringtonwholesale.com/e1t/c/*W2mHBgL83QFmdW2F0pVz82B2QM0/*W4978pS3MqKvWN3B=
+q9L2LNWnX0/5/f18dQhb0S1Wd6_rVWdM11vrwCR4NRW2qnS2k1D4sbyW7Kxg-k7WlLqLW62F-Wy=
+6R7qr4W8yp-Ft4tFjKRW7ysTCt6Lv-mqVxF1Qy4PPj0YW6h71vP1fDkmTW6lSL4Z91S6hBW4ndW=
+c79k64QGV_2_t027Kq_VW96QTr884-c12W8XZMJh4PL7x5W1R125V2PMr-hN3VspNGzfkBSN5ct=
+-P5bVT93W7WhSzl47bMvMTbn6Q6T0-3MMyhTKbRBqmZW2q6xXw3rXPbgW7tgcZs1kJcFrW3fjd-=
+T3t1-GPW7sBgZB47w6w6W4YW-Dx1Z0PLnW2RB3b16vY508N5kbrkDWm-FyN7kXjqM-Xq8qW5dRw=
+Hz2-DLLdW3grWF27kVTsKW1x75dQ95J0PDVmslNh8zvdFtW6QL1Q43lFVFlW7RKLRk4hFGG_W7H=
+sSy12d4vMwW6fZ_mG6MQN2zW5wBZ4v7cXllxW3K3QKz3HWFF9W3fckNk10fsx-W9d3X482vhMGV=
+N6jvVbTLP-CNW8BM_yt8l5YS-N95PkRqsNFztW8Yq6bt89tv1qW2hyrqv5RgtxZW3vjtSS7x8fv=
+yW8yDFC45zj75vW2rsct56r7gCyf4zFKpP04" style=3D"-webkit-text-size-adjust:100=
+%; -ms-text-size-adjust:100%; color:#666666; text-decoration:none; border-s=
+tyle:none" border=3D"0" data-hs-link-id=3D"0" target=3D"_blank" data-mce-ta=
+rget=3D"_blank"><img src=3D"https://cms.carringtonwholesale.com/hs-fs/hubfs=
+/01.IMAGES/Social%20Icons/round-social-linkedin.png=3Ft=3D1531242574276&amp=
+;width=3D30&amp;height=3D30&amp;name=3Dround-social-linkedin.png" alt=3D"Li=
+nkedIn" width=3D"30" style=3D"vertical-align:bottom; -ms-interpolation-mode=
+:bicubic; width:30px !important; height:30px!important" data-constrained=3D=
+"true" border=3D"0" height=3D"30" srcset=3D"https://cms.carringtonwholesale=
+.com/hs-fs/hubfs/01.IMAGES/Social%20Icons/round-social-linkedin.png=3Ft=3D=
+1531242574276&amp;width=3D30&amp;height=3D30&amp;name=3Dround-social-linked=
+in.png 30w, https://cms.carringtonwholesale.com/hs-fs/hubfs/01.IMAGES/Socia=
+l%20Icons/round-social-linkedin.png=3Ft=3D1531242574276&amp;width=3D60&amp;=
+height=3D60&amp;name=3Dround-social-linkedin.png 60w" sizes=3D"(max-width: =
+30px) 100vw, 30px"></a></center></td>=0D=0A<td style=3D"-webkit-text-size-a=
+djust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspa=
+ce:0pt; width:10px" width=3D"10">&nbsp;</td>=0D=0A</tr>=0D=0A</tbody>=0D=0A=
+</table></div>=0D=0A</div><!--end layout-widget-wrapper -->=0D=0A</div><!--=
+end widget-span -->=0D=0A   </td>=0D=0A           </tr>=0D=0A    </tbody></=
+table>=0D=0A   </td>=0D=0A</tr>=0D=0A<tr>=0D=0A<td align=3D"left" valign=3D=
+"top" class=3D"bodyContent" width=3D"100%" colspan=3D"12" style=3D"-webkit-=
+text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso=
+-table-rspace:0pt; color:#15201e; font-family:sans-serif; font-size:15px; l=
+ine-height:150%; text-align:left">=0D=0A<table cellpadding=3D"0" cellspacin=
+g=3D"0" border=3D"0" width=3D"100%" class=3D"templateColumnWrapper" style=
+=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lsp=
+ace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important">=0D=0A =
+           <tbody><tr>=0D=0A<td valign=3D"top" colspan=3D"12" width=3D"100.=
+0%" class=3D" column" style=3D"-webkit-text-size-adjust:100%; -ms-text-size=
+-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; width:100.0%; tex=
+t-align:left; padding:0; font-family:sans-serif; font-size:15px; line-heigh=
+t:1.5em; color:#15201E" align=3D"left">=0D=0A<div class=3D"widget-span widg=
+et-type-email_can_spam " style=3D"" data-widget-type=3D"email_can_spam">=0D=
+=0A<p id=3D"footer" style=3D"margin-bottom: 1em; -webkit-text-size-adjust:1=
+00%; -ms-text-size-adjust:100%; font-family:Arial,sans-serif; text-align:ce=
+nter; font-size:12px; line-height:1.14em; color:#666666; display:block" ali=
+gn=3D"center">Carrington Mortgage Services, LLC&nbsp;</p>=0D=0A<p style=3D"=
+margin-bottom: 1em; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100=
+%; font-family:Arial,sans-serif; text-align:center; font-size:12px; line-he=
+ight:1.14em; color:#666666; display:block" align=3D"center">1600 South Doug=
+lass Road&nbsp;Suites 110 &amp; 200A &nbsp;Anaheim,&nbsp;California&nbsp;92=
+806&nbsp;</p>=0D=0A<p style=3D"margin-bottom: 1em; -webkit-text-size-adjust=
+:100%; -ms-text-size-adjust:100%; text-align:center" align=3D"center"><a ta=
+rget=3D"_blank" href=3D"https://cms.carringtonwholesale.com/hs/manage-prefe=
+rences/unsubscribe-all=3Fd=3DeyJlYSI6InNhbUBjLW10Zy5jb20iLCJlYyI6NjQzNjEyOT=
+AsInN1YnNjcmlwdGlvbklkIjo0NTY5OTExLCJldCI6MTUzMTI1OTAwMTM4OSwiZXUiOiI3NWI2O=
+TZmNy0yOWZhLTQyZWUtYTE5NC1iMTU1MjhiOTIwZWUifQ%3D%3D&v=3D1&utm_campaign=3DB2=
+B%3A%20Promos&utm_source=3Dhs_email&utm_medium=3Demail&utm_content=3D643612=
+90&_hsenc=3Dp2ANqtz-83AqOwn-6zvt8P1moUhD6Tlle66ZP0SgpsKPjr-KLoALiOVcknBcRJt=
+I12DNFv5ZG4JPZl9QboAz5OA74lcN8k3QvKOw&_hsmi=3D64361290" style=3D"-webkit-te=
+xt-size-adjust:100%; -ms-text-size-adjust:100%; text-decoration:underline; =
+whitespace:nowrap; color:#666666; cursor:pointer; color:#f87451; text-decor=
+ation:none" data-unsubscribe=3D"true" data-hs-link-id=3D"0">Unsubscribe</a>=
+ | <a target=3D"_blank" href=3D"https://cms.carringtonwholesale.com/hs/mana=
+ge-preferences/unsubscribe=3Fd=3DeyJlYSI6InNhbUBjLW10Zy5jb20iLCJlYyI6NjQzNj=
+EyOTAsInN1YnNjcmlwdGlvbklkIjo0NTY5OTExLCJldCI6MTUzMTI1OTAwMTM4OSwiZXUiOiI3N=
+WI2OTZmNy0yOWZhLTQyZWUtYTE5NC1iMTU1MjhiOTIwZWUifQ%3D%3D&v=3D1&utm_campaign=
+=3DB2B%3A%20Promos&utm_source=3Dhs_email&utm_medium=3Demail&utm_content=3D6=
+4361290&_hsenc=3Dp2ANqtz-83AqOwn-6zvt8P1moUhD6Tlle66ZP0SgpsKPjr-KLoALiOVckn=
+BcRJtI12DNFv5ZG4JPZl9QboAz5OA74lcN8k3QvKOw&_hsmi=3D64361290" style=3D"-webk=
+it-text-size-adjust:100%; -ms-text-size-adjust:100%; text-decoration:underl=
+ine; whitespace:nowrap; color:#666666; cursor:pointer; color:#f87451; text-=
+decoration:none" data-unsubscribe=3D"true" data-hs-link-id=3D"0">Update Ema=
+il Preferences</a></p>=0D=0A</div><!--end widget-span -->=0D=0A   </td>=0D=
+=0A           </tr>=0D=0A    </tbody></table>=0D=0A   </td>=0D=0A</tr>=0D=
+=0A<!--end footer wrapper -->=0D=0A                                    <tr>=
+=0D=0A                                        <td style=3D"-webkit-text-siz=
+e-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-r=
+space:0pt"></td>=0D=0A                                    </tr>=0D=0A      =
+                          </tbody></table>=0D=0A                           =
+     <!-- End Template Footer -->=0D=0A                            </td>=0D=
+=0A                        </tr>=0D=0A                    </tbody></table>=
+=0D=0A                    <!-- End Template Container -->=0D=0A            =
+    </td>=0D=0A            </tr>=0D=0A        </tbody></table>=0D=0A    =0D=
+=0A<!-- end coded_template: id:5514361319 path:generated_layouts/5514361318=
+.html -->=0D=0A<img src=3D"https://cms.carringtonwholesale.com/e1t/o/*W1rj=
+dsd6CRV7nW3rK1G65DLFXd0/*W95-DJK19M0KLVL-yQ54Hw-CZ0/5/f18dQhb0KdhFBRTV7W7hk=
+2H12qwv1SVKfH2V1hFlvNVSn87f2jz_TZVcWjvG7dHy9TW1T_n4279rCd4W85MyxM6YHzwYW6rn=
+2TS1Jp45XVh22wG6B-P_3W4VvYGJ3jj-mfW4fLZDm30T6dcW3M4NYk5_4-b4W7hYf4J3mxgk20"=
+ alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"display:none!impor=
+tant;min-height:1px!important;width:1px!important;border-width:0!important;=
+margin-top:0!important;margin-bottom:0!important;margin-right:0!important;m=
+argin-left:0!important;padding-top:0!important;padding-bottom:0!important;p=
+adding-right:0!important;padding-left:0!important"><style>@media print{#_hs=
+ { background-image: url('https://cms.carringtonwholesale.com/e1t/o/*W1rjds=
+d6CRV7nW3rK1G65DLFXd0/*W3TvH1D6wkRVSW6LxdNy8ZmL3B0/5/f18dQhb0J6q1h4LsW7jMkJ=
+K8ZqjZVW1f7_Hj1V2qDHW24Sb8_2YtZD-F346K26vFvnTDk7H1-DJ63W3zdtcS1GF7CQN1JxwY5=
+bg9kjW15gBJz8L4Lw7W7JGNB45VHq0KW4Wc-Q887jklpVWJq2x6vP0WWTMT5b1tDjT4103');}}=
+ div.OutlookMessageHeader {background-image:url('https://cms.carringtonwhol=
+esale.com/e1t/o/*W1rjdsd6CRV7nW3rK1G65DLFXd0/*W8T-mvt98zm74W3rSsVd1WZVk10/5=
+/f18dQhb0J6s1gfPdW7CxJLb8ZqjZVW1f7_Hj1V2qDHW24Sb912zLf-3F2nVMD-s7yKM2xwK0vl=
+G0gVvy6HJ2m2fbyW4fHkmf43T13VN4RF_rdNwbkQW8mnWN-6jYjCkVDq0NG7Cj9DcW810nZc6Ck=
+WmTW1D3mmK6bD-9T101')} table.moz-email-headers-table {background-image:url(=
+'https://cms.carringtonwholesale.com/e1t/o/*W1rjdsd6CRV7nW3rK1G65DLFXd0/*W8=
+T-mvt98zm74W3rSsVd1WZVk10/5/f18dQhb0J6s1gfPdW7CxJLb8ZqjZVW1f7_Hj1V2qDHW24Sb=
+912zLf-3F2nVMD-s7yKM2xwK0vlG0gVvy6HJ2m2fbyW4fHkmf43T13VN4RF_rdNwbkQW8mnWN-6=
+jYjCkVDq0NG7Cj9DcW810nZc6CkWmTW1D3mmK6bD-9T101')} blockquote #_hs {backgrou=
+nd-image:url('https://cms.carringtonwholesale.com/e1t/o/*W1rjdsd6CRV7nW3rK1=
+G65DLFXd0/*W8T-mvt98zm74W3rSsVd1WZVk10/5/f18dQhb0J6s1gfPdW7CxJLb8ZqjZVW1f7_=
+Hj1V2qDHW24Sb912zLf-3F2nVMD-s7yKM2xwK0vlG0gVvy6HJ2m2fbyW4fHkmf43T13VN4RF_rd=
+NwbkQW8mnWN-6jYjCkVDq0NG7Cj9DcW810nZc6CkWmTW1D3mmK6bD-9T101')} #MailContain=
+erBody #_hs {background-image:url('https://cms.carringtonwholesale.com/e1t/=
+o/*W1rjdsd6CRV7nW3rK1G65DLFXd0/*W8T-mvt98zm74W3rSsVd1WZVk10/5/f18dQhb0J6s1g=
+fPdW7CxJLb8ZqjZVW1f7_Hj1V2qDHW24Sb912zLf-3F2nVMD-s7yKM2xwK0vlG0gVvy6HJ2m2fb=
+yW4fHkmf43T13VN4RF_rdNwbkQW8mnWN-6jYjCkVDq0NG7Cj9DcW810nZc6CkWmTW1D3mmK6bD-=
+9T101')}</style><div id=3D"_hs"></div></body></html>
+--_----CH/lrz9gzGOBKFgvp1SvSA===_6B/65-57849-6BA254B5--
+

@@ -1,0 +1,832 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of sp10a.hubspotemail.net designates 34.216.216.122 as permitted sender) client-ip=34.216.216.122; envelope-from=msprvs1=17718fV7xqq0w=bounces-1-2@sp10a.hubspotemail.net; helo=mta1a17-hubspot.mta.e.sparkpost.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=@sp10a.hubspotemail.net;
+	spf=pass (zoho.com: domain of sp10a.hubspotemail.net designates 34.216.216.122 as permitted sender)  smtp.mailfrom=msprvs1=17718fV7xqq0w=bounces-1-2@sp10a.hubspotemail.net
+Received: from mta1a17-hubspot.mta.e.sparkpost.com (mta1a17-hubspot.mta.e.sparkpost.com [34.216.216.122]) by mx.zohomail.com
+	with SMTPS id 1530231688760665.1496096259598; Thu, 28 Jun 2018 17:21:28 -0700 (PDT)
+Return-Path: <msprvs1=17718fV7xqq0w=bounces-1-2@sp10a.hubspotemail.net>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=sp10a.hubspotemail.net; s=hs1; t=1530231687;
+	i=@sp10a.hubspotemail.net;
+	bh=vlwj7AIHFoNMzhSGhVuBXL/u7s1eEYox3Mf6QGk4/Is=;
+	h=To:Date:Reply-To:Subject:From:List-Unsubscribe:List-Id;
+	b=aVC06UGJlYEW20Fs46wZSJTSxVyDQGcizkQXX5l17+IP2+26qXLkRYi4Iwkgzc+Ws
+	 LMjadLht8Ukktnz21ejX8BdMtyntLnjy4GbhoDHe6xuXnnU60seIrAebFie5YkFFJS
+	 5t0Kpd4Tg4it+8vgSNBAa9FsiwJAx4rGwbzQOKDHxrrOF0XoLx2pJZT8sjnoS6YCH3
+	 l/Dmu/DcZ2v5jtXzPG1dZzv6xc5uW2a7t4wydbndAJv8LML4xsVKGGf94xkxDWoBrw
+	 2hQGj60rOgJQMG0KigbAXJTaIimkRpjYQmG3gZeKGPoIUCEuCwoVJXGd+yhSvpSm5D
+	 /x2csclHYfVmw==
+X-MSFBL: 40qB/Cy0aT00vcCIWywM8jGu6YAzNEI0qXiP5AT+NPY=|eyJ0ZW5hbnRfaWQiOiJ
+	odWJzcG90IiwiY3VzdG9tZXJfaWQiOiIxIiwic3ViYWNjb3VudF9pZCI6IjIiLCJ
+	yIjoic2FtQGMtbXRnLmNvbSIsIm1lc3NhZ2VfaWQiOiIwMDA5ODc3YjM1NWJhNjh
+	kM2VhNSJ9
+To: sam@c-mtg.com
+Date: Fri, 29 Jun 2018 00:21:27 +0000
+Content-Type: multipart/alternative; boundary="_----fik9F5ukoU59Jh306CQoKQ===_03/5A-36262-78B753B5"
+MIME-Version: 1.0
+X-HubSpot-MID: CiQyZjY1NDA5Yy1kYjA5LTRiZmItOGZiZC02NWFkMmU2NTQzOWMQgokbGHEgACjglsoeMPyeEzoNc2FtQGMtbXRnLmNvbUCQ/YTHxCxIhpwCWiA4ZmMwMzcxMzFhNWU3NGNkNzc0NzAwMzRjOGViMWI2ZGUAAKxCcIjNpBKAAQCKASRjZjJmMTlkNS01OTA4LTM5NGMtYjE5Ny0wMmY1NjAwNGQ0ZWKgAQCoAQqwAQDIAQLSARNpbmZvQGN2c2NpZW5jZXMuY29t4gEMem9ob21haWwuY29t6AEE8AEFgAIBiAIBmgITCIKJGxINc2FtQGMtbXRnLmNvbQ==
+Sender: CV Sciences <info=cvsciences.com@sp10a.hubspotemail.net>
+Reply-To: info@cvsciences.com
+Subject: BREAKING NEWS: Senate Farm Bill Passes WITH Hemp Farming Act!!!
+From: "CV Sciences" <info@cvsciences.com>
+X-HubSpot-Message-Id: <1530231078544.2f65409c-db09-4bfb-8fbd-65ad2e65439c@sp10a.hubspotemail.net>
+X-Report-Abuse-To: abuse@hubspot.com (see https://www.hubspot.com/abuse-complaints)
+Message-ID:<1530231078544.2f65409c-db09-4bfb-8fbd-65ad2e65439c@sp10a.hubspotemail.net>
+List-Unsubscribe: <mailto:unsubscribe@hubspot.mail.e.sparkpost.com?subject=unsubscribe:fYznvLP9mI7VCYcrTaTCxpzZK9ORv_AoVJMWyJPbAhI~|eyAicmNwdF90byI6ICJzYW1AYy1tdGcuY29tIiwgInRlbmFudF9pZCI6ICJodWJzcG90IiwgImN1c3RvbWVyX2lkIjogIjEiLCAibWVzc2FnZV9pZCI6ICIwMDA5ODc3YjM1NWJhNjhkM2VhNSIsICJzdWJhY2NvdW50X2lkIjogIjIiIH0~>
+List-Id: <hubspot-1-2>
+X-ZohoMail-DKIM: pass (identity @sp10a.hubspotemail.net)
+X-ZohoMail-Owner: <1530231078544.2f65409c-db09-4bfb-8fbd-65ad2e65439c@sp10a.hubspotemail.net>+zmo_0_msprvs1=17718fV7xqq0w=bounces-1-2@sp10a.hubspotemail.net
+X-ZohoMail-Sender: 34.216.216.122
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  SAS2 Ex_2 SS_1 IS_0 ZMKF_NWSLTR EML_0 DMN_0 EDR_100 SIP_KGR,RPD_KGR COSF LNKP CV_710BCNIM UMS_WB UNK_O_0 UNK_U_0 CHF_NWSUSR_0 SIP_KGR_0 RPD_KGR_0 SDFE_NA_MXPR_0 CV_HIDLNG_0 ZMHF_701_1 CV_HID_0  SC_1 SGR3_1_2_0_166_226
+X-ZM-MESSAGEID: 1530231689193000001
+X-ZohoMail-Status: 1
+
+
+--_----fik9F5ukoU59Jh306CQoKQ===_03/5A-36262-78B753B5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="UTF-8"
+
+Contact your Members of Congress TODAY to support the Senate hemp language =
+in the Farm Bill conference committee=0A=0ACV_Logo_Horizontal_White_Outline=
+d_black_text_300dpi.png (https://info.pluscbdoil.com/e1t/sc2/MmZ-8yj_w-tW8X=
+4s-k876QLbW9bqfBP7wDxhWW1KXWP94S_g6MdBzP8M04 )=0A=0ADear Friend,=0A=0AON BE=
+HALF OF THE US HEMP ROUNDTABLE:=0A=0AGreat news! The Senate Farm Bill just =
+passed =E2=80=93 and it includes ALL of the Hemp Farming Act, including the=
+ permanent legalization of hemp and products such as hemp-derived CBD.=0A=
+=0AThis is HUGE. But the battle has not yet been won. And we need your help=
+.=0A=0AA House/Senate conference committee will soon meet to resolve the d=
+ifferences between the Senate Farm Bill and the House Farm Bill, the latter=
+ which includes no hemp language. Senate Majority Leader Mitch McConnell wi=
+ll be leading the fight to ensure that the conference committee retains the=
+ hemp-friendly Senate language before it gets sent back to the House and Se=
+nate floors for final passage.=0A=0APlease help TODAY. (https://info.pluscb=
+doil.com/e1t/sc2/MmZ-8yj_w-tW8X4s-k876QLbW9bqfBP7wDxhWW1KXWP94S_g6MdBzP8N04=
+ )=0A=0AWe=E2=80=99ve revised our online portal (https://info.pluscbdoil.co=
+m/e1t/sc2/MmZ-8yj_w-tW8X4s-k876QLbW9bqfBP7wDxhWW1KXWP94S_g6MdBzP8P04 )  to =
+make it easy for you to contact both your Senators and your Congressman, to=
+ urge them to support the Senate Farm Bill=E2=80=99s hemp provisions.=0A=0A=
+Please go there NOW and have your voice heard. And as always, please share =
+this portal with your friends, colleagues, customers and social media conta=
+cts. Together, we can make permanent hemp legalization a reality.=0A=0AWRIT=
+E YOUR SENATORS & CONGRESSMEN (https://info.pluscbdoil.com/e1t/sc2/MmZ-8yj_=
+w-tW8X4s-k876QLbW9bqfBP7wDxhWW1KXWP94S_g6MdBzP8Q04 )=0A=0AShare on Facebook=
+ (https://info.pluscbdoil.com/e1t/sc2/MmZ-8yj_w-tW8X4s-k876QLbW9bqfBP7wDxhW=
+W1KXWP94S_g6MdBzP8R04 )  Share on LinkedIn (https://info.pluscbdoil.com/e1t=
+/sc2/MmZ-8yj_w-tW8X4s-k876QLbW9bqfBP7wDxhWW1KXWP94S_g6MdBzP8S04 )  Share on=
+ Twitter (https://info.pluscbdoil.com/e1t/sc2/MmZ-8yj_w-tW8X4s-k876QLbW9bqf=
+BP7wDxhWW1KXWP94S_g6MdBzP8T04 )=0A=0ACV Sciences=0A2688 S Rainbow Blvd.=0AS=
+uite B=0ALas Vegas,=0ANV=0A89146=0AUnited States=0A=0AYou received this ema=
+il because you are subscribed to Marketing Information from CV Sciences.=0A=
+=0AUpdate your email preferences (https://info.pluscbdoil.com/hs/manage-pre=
+ferences/unsubscribe=3Fd=3DeyJlYSI6InNhbUBjLW10Zy5jb20iLCJlYyI6NjQxMjk4ODgs=
+InN1YnNjcmlwdGlvbklkIjozMTUyNjAsImV0IjoxNTMwMjMxMDc4NTQ0LCJldSI6IjJmNjU0MDl=
+jLWRiMDktNGJmYi04ZmJkLTY1YWQyZTY1NDM5YyJ9&v=3D1&_hsenc=3Dp2ANqtz-9R78lmz6Wd=
+yH0BF2X7mYvZAx8UvYq0c7DPCyNQ3GTSKt_umsgxHbpmoWrWqhloi8fihA6ziWNDfK83A4cbZrW=
+_O8nQ2w&_hsmi=3D64129888 ) to choose the types of emails you receive.=0A=0A=
+Unsubscribe from all future emails (https://info.pluscbdoil.com/hs/manage-p=
+references/unsubscribe-all=3Fd=3DeyJlYSI6InNhbUBjLW10Zy5jb20iLCJlYyI6NjQxMj=
+k4ODgsInN1YnNjcmlwdGlvbklkIjozMTUyNjAsImV0IjoxNTMwMjMxMDc4NTQ0LCJldSI6IjJmN=
+jU0MDljLWRiMDktNGJmYi04ZmJkLTY1YWQyZTY1NDM5YyJ9&v=3D1&_hsenc=3Dp2ANqtz-9R78=
+lmz6WdyH0BF2X7mYvZAx8UvYq0c7DPCyNQ3GTSKt_umsgxHbpmoWrWqhloi8fihA6ziWNDfK83A=
+4cbZrW_O8nQ2w&_hsmi=3D64129888 )
+--_----fik9F5ukoU59Jh306CQoKQ===_03/5A-36262-78B753B5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd"><!-- start coded_template: id:3743393537 =
+path:generated_layouts/3743393527.html --><html xmlns=3D"http://www.w3.org/=
+1999/xhtml"><head>=0D=0A        <title>BREAKING NEWS: Senate Farm Bill Pass=
+es WITH Hemp Farming Act!!!</title>=0D=0A        <meta property=3D"og:title=
+" content=3D"BREAKING NEWS: Senate Farm Bill Passes WITH Hemp Farming Act!!=
+!">=0D=0A        <meta name=3D"twitter:title" content=3D"BREAKING NEWS: Sen=
+ate Farm Bill Passes WITH Hemp Farming Act!!!">=0D=0A        <meta http-equ=
+iv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">=0D=0A        =
+=0D=0A         <style type=3D"text/css" id=3D"hs-inline-css">=0D=0A        =
+/*<![CDATA[*/=0D=0A            /* everything in this node will be inlined *=
+/=0D=0A            /* =3D=3D=3D=3D Page Styles =3D=3D=3D=3D */=0D=0A       =
+     =0D=0A            body, #backgroundTable {=0D=0A                backgr=
+ound-color: #f0f0f0; /* Use body to determine background color */=0D=0A    =
+            font-family: sans-serif;=0D=0A            }=0D=0A            =
+=0D=0A            #templateTable {=0D=0A                width: 600px;=0D=0A=
+                background-color: #ffffff;=0D=0A                -webkit-fon=
+t-smoothing: antialiased;=0D=0A            }=0D=0A            h1, .h1, h2, =
+.h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {=0D=0A                color:#0000=
+00;=0D=0A                display:block;=0D=0A                font-family: s=
+ans-serif;=0D=0A                font-weight:bold;=0D=0A                line=
+-height:100%;=0D=0A                margin-top:0;=0D=0A                margi=
+n-right:0;=0D=0A                margin-bottom:10px;=0D=0A                ma=
+rgin-left:0;=0D=0A                text-align:left;=0D=0A            }=0D=0A=
+            h1, .h1 {=0D=0A                font-size:26px;=0D=0A           =
+ }=0D=0A            h2, .h2 {=0D=0A                font-size:20px;=0D=0A   =
+         }=0D=0A            h3, .h3 {=0D=0A                font-size:15px;=
+=0D=0A            }=0D=0A            h4, .h4 {=0D=0A                font-si=
+ze:13px;=0D=0A            }=0D=0A            h5, .h5 {=0D=0A               =
+ font-size:11px;=0D=0A            }=0D=0A            h6, .h6 {=0D=0A       =
+         font-size:10px;=0D=0A            }=0D=0A            /* =3D=3D=3D=
+=3D Header Styles =3D=3D=3D=3D */=0D=0A            #headerTable {=0D=0A    =
+            background-color: #f0f0f0;=0D=0A                color:#000000;=
+=0D=0A                font-family:sans-serif;=0D=0A                font-siz=
+e:10px;=0D=0A                line-height:120%;=0D=0A                text-al=
+ign:right;=0D=0A                border-collapse: separate !important;=0D=0A=
+                padding-right: 30px;=0D=0A            }=0D=0A            =
+=0D=0A            #headerTable a:link, #headerTable a:visited, /* Yahoo! Ma=
+il Override */ #headerTable a .yshortcuts /* Yahoo! Mail Override */{=0D=0A=
+                font-weight:normal;=0D=0A                text-decoration:un=
+derline;=0D=0A            }=0D=0A            =0D=0A            /* =3D=3D=3D=
+=3D Template Wrapper Styles =3D=3D=3D=3D */=0D=0A            #contentCell {=
+=0D=0A                padding: 10px 20px;=0D=0A                background-c=
+olor: #f0f0f0;=0D=0A            }=0D=0A             =0D=0A            #cont=
+entTableOuter {=0D=0A                border-collapse: separate !important;=
+=0D=0A                =0D=0A                background-color: #ffffff;=0D=
+=0A                =0D=0A                padding: 30px;=0D=0A            }=
+=0D=0A            #contentTableInner {=0D=0A                width: 600px;=
+=0D=0A            }=0D=0A            =0D=0A            /* =3D=3D=3D=3D Body=
+ Styles =3D=3D=3D=3D */=0D=0A            =0D=0A            .bodyContent {=
+=0D=0A                color:#000000;=0D=0A                font-family:sans-=
+serif;=0D=0A                font-size: 15px;=0D=0A                line-heig=
+ht:150%;=0D=0A                text-align:left;=0D=0A            }=0D=0A    =
+        =0D=0A            /* =3D=3D=3D=3D Column Styles =3D=3D=3D=3D */=0D=
+=0A            table.columnContentTable {=0D=0A                border-colla=
+pse:separate !important;=0D=0A                border-spacing:0;=0D=0A      =
+          =0D=0A                background-color: #ffffff;=0D=0A           =
+ }=0D=0A            =0D=0A            td[class~=3D"columnContent"] {=0D=0A =
+               color:#000000;=0D=0A                font-family:sans-serif;=
+=0D=0A                font-size:15px;=0D=0A                line-height:120%=
+;=0D=0A                padding-top:20px;=0D=0A                padding-right=
+:20px;=0D=0A                padding-bottom:20px;=0D=0A                paddi=
+ng-left:20px;=0D=0A            }=0D=0A            /* =3D=3D=3D=3D Footer St=
+yles =3D=3D=3D=3D */=0D=0A            =0D=0A            #footerTable {=0D=
+=0A                background-color: #f0f0f0;=0D=0A            }=0D=0A     =
+       #footerTable a {=0D=0A                color: #000000;=0D=0A         =
+   }=0D=0A            =0D=0A            #footerTable {=0D=0A               =
+ color:#000000;=0D=0A                font-family:sans-serif;=0D=0A         =
+       font-size:12px;=0D=0A                line-height:120%;=0D=0A        =
+        padding-top:20px;=0D=0A                padding-right:20px;=0D=0A   =
+             padding-bottom:20px;=0D=0A                padding-left:20px;=
+=0D=0A                text-align:center;=0D=0A            }=0D=0A          =
+  =0D=0A            #footerTable a:link, #footerTable a:visited, /* Yahoo! =
+Mail Override */ #footerTable a .yshortcuts /* Yahoo! Mail Override */{=0D=
+=0A                font-weight:normal;=0D=0A                text-decoration=
+:underline;=0D=0A            }=0D=0A            .hs-image-social-sharing-24=
+ {=0D=0A                max-width: 24px;=0D=0A                max-height: 2=
+4px;=0D=0A            }=0D=0A            /* =3D=3D=3D=3D Standard Resets =
+=3D=3D=3D=3D */=0D=0A            .ExternalClass{=0D=0A                width=
+:100%;=0D=0A            } /* Force HM to display emails at full width */=0D=
+=0A            .ExternalClass, .ExternalClass p, .ExternalClass span, .Exte=
+rnalClass font, .ExternalClass td, .ExternalClass div {=0D=0A              =
+  line-height: 100%;=0D=0A            } /* Force HM to display normal line =
+spacing */=0D=0A            body, table, td, p, a, li, blockquote{=0D=0A   =
+             -webkit-text-size-adjust:100%;=0D=0A                -ms-text-s=
+ize-adjust:100%;=0D=0A            } /* Prevent WebKit and Windows mobile ch=
+anging default text sizes */=0D=0A            table, td {=0D=0A            =
+    mso-table-lspace:0pt;=0D=0A                mso-table-rspace:0pt;=0D=0A =
+           } /* Remove spacing between tables in Outlook 2007 and up */=0D=
+=0A            img {=0D=0A                vertical-align: bottom;=0D=0A    =
+            -ms-interpolation-mode:bicubic;=0D=0A            } /* Allow smo=
+other rendering of resized image in Internet Explorer */=0D=0A    =0D=0A   =
+         /* Reset Styles */=0D=0A            body {=0D=0A                ma=
+rgin:0;=0D=0A                padding:0;=0D=0A            }=0D=0A           =
+ table {=0D=0A                border-collapse:collapse !important;=0D=0A   =
+         }=0D=0A            body, #backgroundTable, #bodyCell{=0D=0A       =
+         height:100% !important;=0D=0A                margin:0;=0D=0A      =
+          padding:0;=0D=0A                width:100% !important;=0D=0A     =
+       }=0D=0A            a:link, a:visited {=0D=0A                border-b=
+ottom: none;=0D=0A            }=0D=0A            =0D=0A            /* iOS a=
+utomatically adds a link to addresses */=0D=0A            /* Style the foot=
+er with the same color as the footer text */=0D=0A            #footer a {=
+=0D=0A                color: #000000;;=0D=0A                -webkit-text-si=
+ze-adjust: none;=0D=0A                text-decoration: underline;=0D=0A    =
+            font-weight: normal=0D=0A            }=0D=0A    =0D=0A         =
+   /* Hide preview text on rendering */=0D=0A            #preview_text {=0D=
+=0A                display: none;=0D=0A            }=0D=0A        /*]]>*/=
+=0D=0A    </style>=0D=0A         <style type=3D"text/css">=0D=0A        /*<=
+![CDATA[*/=0D=0A            /* =3D=3D=3D=3D Mobile Styles =3D=3D=3D=3D */=
+=0D=0A            =0D=0A            /* Constrain email width for small scre=
+ens */=0D=0A            @media screen and (max-width: 650px) {=0D=0A       =
+         table[id=3D"backgroundTable"] {=0D=0A                    width: 95=
+% !important;=0D=0A                }=0D=0A                =0D=0A           =
+     table[id=3D"templateTable"] {=0D=0A                    max-width:600px=
+ !important;=0D=0A                    width:100% !important;=0D=0A         =
+       }=0D=0A                table[id=3D"contentTableInner"] {=0D=0A      =
+              max-width:600px !important;=0D=0A                    width:10=
+0% !important;=0D=0A                }=0D=0A            =0D=0A              =
+  /* Makes image expand to take 100% of width*/=0D=0A                img {=
+=0D=0A                    width: 100% !important;=0D=0A                    =
+height: auto !important;=0D=0A                }=0D=0A                #conte=
+ntCell {=0D=0A                    padding: 10px 10px !important;=0D=0A     =
+           }=0D=0A                #headerTable {=0D=0A                    p=
+adding-right: 15.0px !important;=0D=0A                }=0D=0A              =
+  #contentTableOuter {=0D=0A                    padding: 15.0px !important;=
+=0D=0A                }=0D=0A            }=0D=0A            @media only scr=
+een and (max-width: 480px) {=0D=0A                /* =3D=3D=3D=3D Client-Sp=
+ecific Mobile Styles =3D=3D=3D=3D */=0D=0A                body, table, td, =
+p, a, li, blockquote{=0D=0A                    -webkit-text-size-adjust:non=
+e !important;=0D=0A                } /* Prevent Webkit platforms from chang=
+ing default text sizes */=0D=0A                body{=0D=0A                 =
+   width:100% !important;=0D=0A                    min-width:100% !importan=
+t;=0D=0A                } /* Prevent iOS Mail from adding padding to the bo=
+dy */=0D=0A                /* =3D=3D=3D=3D Mobile Reset Styles =3D=3D=3D=3D=
+ */=0D=0A                td[id=3D"bodyCell"] {=0D=0A                    pad=
+ding:10px !important;=0D=0A                }=0D=0A                /* =3D=3D=
+=3D=3D Mobile Template Styles =3D=3D=3D=3D */=0D=0A    =0D=0A              =
+  table[id=3D"templateTable"] {=0D=0A                    max-width:600px !i=
+mportant;=0D=0A                    width:100% !important;=0D=0A            =
+    }=0D=0A                table[id=3D"contentTableInner"] {=0D=0A         =
+           max-width:600px !important;=0D=0A                    width:100% =
+!important;=0D=0A                }=0D=0A                =0D=0A             =
+   /* =3D=3D=3D=3D Image Alignment Styles =3D=3D=3D=3D */=0D=0A            =
+    h1, .h1 {=0D=0A                    font-size:26px !important;=0D=0A    =
+                line-height:125% !important;=0D=0A                }=0D=0A  =
+              h2, .h2 {=0D=0A                    font-size:20px !important;=
+=0D=0A                    line-height:125% !important;=0D=0A               =
+ }=0D=0A                h3, .h3 {=0D=0A                    font-size:15px !=
+important;=0D=0A                    line-height:125% !important;=0D=0A     =
+           }=0D=0A                h4, .h4 {=0D=0A                    font-s=
+ize:13px !important;=0D=0A                    line-height:125% !important;=
+=0D=0A                }=0D=0A                h5, .h5 {=0D=0A               =
+     font-size:11px !important;=0D=0A                    line-height:125% !=
+important;=0D=0A                }=0D=0A                h6, .h6 {=0D=0A     =
+               font-size:10px !important;=0D=0A                    line-hei=
+ght:125% !important;=0D=0A                }=0D=0A                =0D=0A    =
+            .hide {=0D=0A                    display:none !important;=0D=0A=
+                } /* Hide to save space */=0D=0A                /* =3D=3D=
+=3D=3D Body Styles =3D=3D=3D=3D */=0D=0A                =0D=0A             =
+   td[class=3D"bodyContent"] {=0D=0A                    font-size:16px !imp=
+ortant;=0D=0A                    line-height:145% !important;=0D=0A        =
+        }=0D=0A                =0D=0A                /* =3D=3D=3D=3D Footer=
+ Styles =3D=3D=3D=3D */=0D=0A                td[id=3D"footerTable"]{=0D=0A =
+                   padding-left: 0px !important;=0D=0A                    p=
+adding-right: 0px !important;=0D=0A                    font-size:12px !impo=
+rtant;=0D=0A                    line-height:145% !important;=0D=0A         =
+       }=0D=0A                =0D=0A                /* =3D=3D=3D=3D Image A=
+lignment Styles =3D=3D=3D=3D */=0D=0A                =0D=0A                =
+table[class=3D"alignImageTable"] {=0D=0A                    width: 100% !im=
+portant;=0D=0A                }=0D=0A                =0D=0A                =
+td[class=3D"imageTableTop"] {=0D=0A                    display: none !impor=
+tant;=0D=0A                    /*padding-top: 10px !important;*/=0D=0A     =
+           }=0D=0A                td[class=3D"imageTableRight"] {=0D=0A    =
+                display: none !important;=0D=0A                }=0D=0A     =
+           td[class=3D"imageTableBottom"] {=0D=0A                    paddin=
+g-bottom: 10px !important;=0D=0A                }=0D=0A                td[c=
+lass=3D"imageTableLeft"] {=0D=0A                    display: none !importan=
+t;=0D=0A                }=0D=0A                =0D=0A                /* =3D=
+=3D=3D=3D Column Styles =3D=3D=3D=3D */=0D=0A                td[class~=3D"c=
+olumn"] {=0D=0A                    display: block !important;=0D=0A        =
+            width: 100% !important;=0D=0A                    padding-top: 0=
+ !important;=0D=0A                    padding-right: 0 !important;=0D=0A   =
+                 padding-bottom: 0 !important;=0D=0A                    pad=
+ding-left: 0 !important;=0D=0A                }=0D=0A                td[cla=
+ss~=3DcolumnContent] {=0D=0A                    font-size:14px !important;=
+=0D=0A                    line-height:145% !important;=0D=0A               =
+ =0D=0A                    padding-top: 10px !important;=0D=0A             =
+       padding-right: 10px !important;=0D=0A                    padding-bot=
+tom: 10px !important;=0D=0A                    padding-left: 10px !importan=
+t;=0D=0A                }=0D=0A                #contentCell {=0D=0A        =
+            padding: 10px 0px !important;=0D=0A                }=0D=0A     =
+           #headerTable {=0D=0A                    padding-right: 15.0px !i=
+mportant;=0D=0A                }=0D=0A                #contentTableOuter {=
+=0D=0A                    padding: 15.0px !important;=0D=0A                =
+}=0D=0A            }=0D=0A            #preview_text {=0D=0A                =
+display: none;=0D=0A            }=0D=0A        /*]]>*/=0D=0A    </style>=0D=
+=0A        <!-- http://www.emailon@cid.com/blog/details/C13/ensure_that_you=
+r_entire_email_is_rendered_by_default_in_the_iphone_ipad -->=0D=0A        <=
+!--                                                                        =
+                                             -->=0D=0A        <!--         =
+                                                                           =
+                                 -->=0D=0A        <!--                     =
+       _/    _/            _/          _/_/_/                        _/    =
+                     -->=0D=0A        <!--                           _/    =
+_/  _/    _/  _/_/_/    _/        _/_/_/      _/_/    _/_/_/_/             =
+         -->=0D=0A        <!--                          _/_/_/_/  _/    _/ =
+ _/    _/    _/_/    _/    _/  _/    _/    _/                           -->=
+=0D=0A        <!--                         _/    _/  _/    _/  _/    _/    =
+    _/  _/    _/  _/    _/    _/                            -->=0D=0A      =
+  <!--                        _/    _/    _/_/_/  _/_/_/    _/_/_/    _/_/_=
+/      _/_/        _/_/                         -->=0D=0A        <!--      =
+                                                         _/                =
+                                    -->=0D=0A        <!--                  =
+                                            _/                             =
+                        -->=0D=0A        <!--                              =
+                                                                           =
+            -->=0D=0A        <!--                                          =
+       Extra White Space!                                                  =
+-->=0D=0A        <!--                                                      =
+                                                               -->=0D=0A   =
+     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -=
+ - - - - - - - - - - - - - - - - - - - - - - - - - -->=0D=0A    <meta name=
+=3D"generator" content=3D"HubSpot"><meta property=3D"og:url" content=3D"htt=
+p://info.pluscbdoil.com/-temporary-slug-87ff8601-10dc-405f-a5e0-6b9f1424c61=
+9"><meta name=3D"x-apple-disable-message-reformatting"></head>=0D=0A    <bo=
+dy leftmargin=3D"0" marginwidth=3D"0" topmargin=3D"0" marginheight=3D"0" of=
+fset=3D"0" style=3D"background-color:#f0f0f0; font-family:sans-serif; -webk=
+it-text-size-adjust:100%; -ms-text-size-adjust:100%; height:100% !important=
+; margin:0; padding:0; width:100% !important" bgcolor=3D"#f0f0f0" height=3D=
+"100%" width=3D"100%">=0D=0A        <!-- Preview text (text which appears r=
+ight after subject) -->=0D=0A        <div id=3D"preview_text" style=3D"disp=
+lay:none!important">Contact your Members of Congress TODAY to support the S=
+enate hemp language in the Farm Bill conference committee</div>=0D=0A      =
+  <!--  The  backgroundTable table manages the color of the background and =
+then the templateTable maintains the body of =0D=0A        the email templa=
+te, including preheader & footer. This is the only table you set the width =
+of to, everything else is set to =0D=0A        100% and in the CSS above. H=
+aving the width here within the table is just a small win for Lotus Notes. =
+-->=0D=0A        <!-- Begin backgroundTable -->  =0D=0A        <table align=
+=3D"center" bgcolor=3D"#f0f0f0" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" height=3D"100%" width=3D"100%" id=3D"backgroundTable" style=3D"-webk=
+it-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; =
+mso-table-rspace:0pt; border-collapse:collapse !important; background-color=
+:#f0f0f0; font-family:sans-serif; height:100% !important; margin:0; padding=
+:0; width:100% !important">=0D=0A            <tbody><tr>=0D=0A             =
+   <td align=3D"center" valign=3D"top" id=3D"bodyCell" style=3D"-webkit-tex=
+t-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-ta=
+ble-rspace:0pt; height:100% !important; margin:0; padding:0; width:100% !im=
+portant" height=3D"100%" width=3D"100%"> <!-- When nesting tables within a =
+TD, align center keeps it well, centered. -->=0D=0A                    <!--=
+ Begin Template Container -->=0D=0A                    <!-- This holds ever=
+ything together in a nice container -->=0D=0A                    <table bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"templateTable" style=3D=
+"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace=
+:0pt; mso-table-rspace:0pt; border-collapse:collapse !important; width:600p=
+x; background-color:#ffffff; -webkit-font-smoothing:antialiased" width=3D"6=
+00" bgcolor=3D"#ffffff">=0D=0A                        <tbody><tr>=0D=0A    =
+                        <td align=3D"center" valign=3D"top" style=3D"-webki=
+t-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; m=
+so-table-rspace:0pt">=0D=0A                                <!-- Begin Templ=
+ate Preheader -->=0D=0A                                <div class=3D"header=
+-container-wrapper">=0D=0A        </div><table border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" width=3D"100%" id=3D"headerTable" style=3D"-webkit-tex=
+t-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-ta=
+ble-rspace:0pt; background-color:#f0f0f0; color:#000000; font-family:sans-s=
+erif; font-size:10px; line-height:120%; text-align:right; border-collapse:s=
+eparate !important; padding-right:30px" bgcolor=3D"#f0f0f0" align=3D"right"=
+>=0D=0A                                    <tbody><tr>=0D=0A            <td=
+ align=3D"left" valign=3D"top" class=3D"bodyContent" width=3D"100%" colspan=
+=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; =
+mso-table-lspace:0pt; mso-table-rspace:0pt; color:#000000; font-family:sans=
+-serif; font-size:15px; line-height:150%; text-align:left">=0D=0A          =
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%=
+" class=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100%; -=
+ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; borde=
+r-collapse:collapse !important">=0D=0A                    <tbody><tr>=0D=0A=
+                        <td align=3D"left" valign=3D"top" colspan=3D"12" wi=
+dth=3D"100.0%" class=3D"column" style=3D"-webkit-text-size-adjust:100%; -ms=
+-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; text-al=
+ign:left; font-family:sans-serif; font-size:15px; line-height:1.5em; color:=
+#000000">=0D=0A                            <div class=3D"widget-span widget=
+-type-email_view_as_web_page " style=3D"" data-widget-type=3D"email_view_as=
+_web_page">=0D=0A                            </div><!--end widget-span -->=
+=0D=0A                        </td>=0D=0A                    </tr>=0D=0A   =
+             </tbody></table>=0D=0A            </td>=0D=0A        </tr>=0D=
+=0A<!--end header wrapper -->=0D=0A                                </tbody>=
+</table>=0D=0A                                <!-- End Template Preheader -=
+->=0D=0A                            </td>=0D=0A                        </tr=
+>=0D=0A                        <tr>=0D=0A                            <td al=
+ign=3D"center" valign=3D"top" id=3D"contentCell" style=3D"-webkit-text-size=
+-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rs=
+pace:0pt; padding:10px 20px; background-color:#f0f0f0" bgcolor=3D"#f0f0f0">=
+=0D=0A                                <!-- Begin Template Wrapper -->=0D=0A=
+                                <!-- This separates the preheader which usu=
+ally contains the "open in browser, etc" content=0D=0A                     =
+           from the actual body of the email. Can alternatively contain the=
+ footer too, but I choose not=0D=0A                                to so th=
+at it stays outside of the border. -->=0D=0A                               =
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" id=
+=3D"contentTableOuter" style=3D"-webkit-text-size-adjust:100%; -ms-text-siz=
+e-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:=
+separate !important; background-color:#ffffff; padding:30px" bgcolor=3D"#ff=
+ffff">=0D=0A                                    <tbody><tr>=0D=0A          =
+                              <td align=3D"center" valign=3D"top" style=3D"=
+-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:=
+0pt; mso-table-rspace:0pt">=0D=0A                                          =
+  <div class=3D"body-container-wrapper">=0D=0A        </div><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"contentTableInner" style=
+=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lsp=
+ace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important; width:6=
+00px" width=3D"600">=0D=0A                                                <=
+tbody><tr>=0D=0A            <td align=3D"left" valign=3D"top" class=3D"body=
+Content" width=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:10=
+0%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; =
+color:#000000; font-family:sans-serif; font-size:15px; line-height:150%; te=
+xt-align:left">=0D=0A                <table cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"100%" class=3D"templateColumnWrapper" style=3D=
+"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace=
+:0pt; mso-table-rspace:0pt; border-collapse:collapse !important">=0D=0A    =
+                <tbody><tr>=0D=0A            <td align=3D"left" valign=3D"t=
+op" colspan=3D"12" width=3D"100.0%" class=3D" column" style=3D"-webkit-text=
+-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-tab=
+le-rspace:0pt; text-align:left; font-family:sans-serif; font-size:15px; lin=
+e-height:1.5em; color:#000000">=0D=0A                <table cellpadding=3D"=
+0" cellspacing=3D"0" border=3D"0" width=3D"100%" style=3D"-webkit-text-size=
+-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rs=
+pace:0pt; border-collapse:collapse !important">=0D=0A                    <t=
+body><tr>=0D=0A                        <td align=3D"left" valign=3D"top" cl=
+ass=3D"bodyContent" width=3D"100%" colspan=3D"12" style=3D"-webkit-text-siz=
+e-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-r=
+space:0pt; color:#000000; font-family:sans-serif; font-size:15px; line-heig=
+ht:150%; text-align:left">=0D=0A                            <table cellpadd=
+ing=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" class=3D"templateCo=
+lumnWrapper" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:1=
+00%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !=
+important">=0D=0A                                <tbody><tr>=0D=0A         =
+               <td align=3D"left" valign=3D"top" colspan=3D"12" width=3D"10=
+0.0%" class=3D" column" style=3D"-webkit-text-size-adjust:100%; -ms-text-si=
+ze-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align:left=
+; font-family:sans-serif; font-size:15px; line-height:1.5em; color:#000000"=
+>=0D=0A                            <table cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust:100%; -ms-=
+text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-c=
+ollapse:collapse !important">=0D=0A                                <tbody><=
+tr>=0D=0A                                    <td align=3D"left" valign=3D"t=
+op" class=3D"bodyContent" width=3D"100%" colspan=3D"12" style=3D"-webkit-te=
+xt-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-t=
+able-rspace:0pt; color:#000000; font-family:sans-serif; font-size:15px; lin=
+e-height:150%; text-align:left">=0D=0A                                     =
+   <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" c=
+lass=3D"templateColumnWrapper" style=3D"-webkit-text-size-adjust:100%; -ms-=
+text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-c=
+ollapse:collapse !important">=0D=0A                                        =
+    <tbody><tr>=0D=0A                                                <td al=
+ign=3D"left" valign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D"column=
+" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt; text-align:left; font-family:sans-ser=
+if; font-size:15px; line-height:1.5em; color:#000000">=0D=0A               =
+                                     <div class=3D"widget-span widget-type-=
+logo logo" style=3D"text-align: center;" data-widget-type=3D"logo">=0D=0A  =
+                                                      <div class=3D"layout-=
+widget-wrapper">=0D=0A                                                     =
+   <div id=3D"hs_cos_wrapper_logo_image" class=3D"hs_cos_wrapper hs_cos_wra=
+pper_widget hs_cos_wrapper_type_logo" style=3D"color: inherit; font-size: i=
+nherit; line-height: inherit;" data-hs-cos-general-type=3D"widget" data-hs-=
+cos-type=3D"logo"><a href=3D"https://info.pluscbdoil.com/e1t/c/*W3D8kqN3fS7=
+DMW6YTRKq6xhbd10/*N2BQGXQYLRCGVLgdwH71wMFX0/5/f18dQhb0S5fn8XJbWjW6b51rd2YX2=
+vjW7bk_1j76gSByW74C2T72zHMlpW5tsJhQ4s9g0FW3gtSt-3VVd1dW6t-0NM6nPlPpW2HVTVM3=
+CcrhnW3MbN9Z2CX4MNW6dyl7q4DqJysW2HPQvq6cDRjFW23-nGK265VBJW22-vhJ1Q40wbW5w8K=
+G83gPWlBW5Fb5s-5pfw1SW5mg0gg1BxwDVN2Fq95DW8JQLW4LG55J3yZDDxW2ynxFF2-k7gyW2K=
+HxmS5RfLF5W5D9fl2485ts6W3jgqRG31dwHXW43MMXQ66jgZVW66vfY66q9N-7W4SySJp5TZrHP=
+W3GXgg53W4xnkW5WCwy04YT_SZW46rzY46bVyDLW43Hjbw3J-SclW4yB2_c7k-2C-W3m2qZ_2Tz=
+r7MVrX3l16VzQjWN6WsYdNy9CSmN1nQf1yn5zc7W480Y_q3TpZmmW7K02_197t0c4W2WCWG18Gp=
+T2hW8XKNRj3_wv0HW2D4BKZ73Q0vRV1-zW78SmGBZ102" target=3D"_blank" id=3D"hs-li=
+nk-logo_image" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust=
+:100%; border-width:0px; border:0px" data-hs-link-id=3D"0"><img src=3D"http=
+s://cdn2.hubspot.net/hub/443522/hubfs/CV_Logo_Horizontal_White_Outlined_bla=
+ck_text_300dpi.png=3Ft=3D1530209903311&amp;width=3D640&amp;name=3DCV_Logo_H=
+orizontal_White_Outlined_black_text_300dpi.png" class=3D"hs-image-widget " =
+style=3D"vertical-align:bottom; -ms-interpolation-mode:bicubic; max-height:=
+192px; max-width:640px; border-width:0px; border:0px" width=3D"640" alt=3D"=
+CV_Logo_Horizontal_White_Outlined_black_text_300dpi.png" title=3D"CV_Logo_H=
+orizontal_White_Outlined_black_text_300dpi.png" srcset=3D"https://cdn2.hubs=
+pot.net/hub/443522/hubfs/CV_Logo_Horizontal_White_Outlined_black_text_300dp=
+i.png=3Ft=3D1530209903311&amp;width=3D640&amp;name=3DCV_Logo_Horizontal_Whi=
+te_Outlined_black_text_300dpi.png 640w, https://cdn2.hubspot.net/hub/443522=
+/hubfs/CV_Logo_Horizontal_White_Outlined_black_text_300dpi.png=3Ft=3D153020=
+9903311&amp;width=3D1280&amp;name=3DCV_Logo_Horizontal_White_Outlined_black=
+_text_300dpi.png 1280w" sizes=3D"(max-width: 640px) 100vw, 640px"></a></div=
+>=0D=0A                                                        </div><!--en=
+d layout-widget-wrapper -->=0D=0A                                          =
+          </div><!--end widget-span -->=0D=0A                              =
+                  </td>=0D=0A                                            </=
+tr>=0D=0A                                        </tbody></table>=0D=0A    =
+                                </td>=0D=0A                                =
+</tr>=0D=0A                                <tr>=0D=0A                      =
+              <td align=3D"left" valign=3D"top" class=3D"bodyContent" width=
+=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-text-s=
+ize-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#000000;=
+ font-family:sans-serif; font-size:15px; line-height:150%; text-align:left"=
+>=0D=0A                                        <table cellpadding=3D"0" cel=
+lspacing=3D"0" border=3D"0" width=3D"100%" class=3D"templateColumnWrapper" =
+style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-tabl=
+e-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important">=
+=0D=0A                                            <tbody><tr>=0D=0A        =
+                                        <td align=3D"left" valign=3D"top" c=
+olspan=3D"12" width=3D"100.0%" class=3D"column" style=3D"-webkit-text-size-=
+adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rsp=
+ace:0pt; text-align:left; font-family:sans-serif; font-size:15px; line-heig=
+ht:1.5em; color:#000000; padding:0px 0px 10px 0px">=0D=0A                  =
+                                  <div class=3D"widget-span widget-type-ric=
+h_text date-area" style=3D"" data-widget-type=3D"rich_text">=0D=0A         =
+                                               <div class=3D"layout-widget-=
+wrapper">=0D=0A                                                        <div=
+ id=3D"hs_cos_wrapper_module_14490134285143655" class=3D"hs_cos_wrapper hs_=
+cos_wrapper_widget hs_cos_wrapper_type_rich_text" style=3D"color: inherit; =
+font-size: inherit; line-height: inherit;" data-hs-cos-general-type=3D"widg=
+et" data-hs-cos-type=3D"rich_text"><span style=3D"font-family: avenir, helv=
+etica;">Dear Friend,</span></div>=0D=0A                                    =
+                    </div><!--end layout-widget-wrapper -->=0D=0A          =
+                                          </div><!--end widget-span -->=0D=
+=0A                                                </td>=0D=0A             =
+                               </tr>=0D=0A                                 =
+       </tbody></table>=0D=0A                                    </td>=0D=
+=0A                                </tr>=0D=0A                            <=
+/tbody></table>=0D=0A                        </td>=0D=0A                   =
+         </tr>=0D=0A                        </tbody></table>=0D=0A         =
+           </td>=0D=0A                </tr>=0D=0A                <tr>=0D=0A=
+                    <td align=3D"left" valign=3D"top" class=3D"bodyContent"=
+ width=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-=
+text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#0=
+00000; font-family:sans-serif; font-size:15px; line-height:150%; text-align=
+:left">=0D=0A                        <table cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"100%" class=3D"templateColumnWrapper" style=3D=
+"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace=
+:0pt; mso-table-rspace:0pt; border-collapse:collapse !important">=0D=0A    =
+                        <tbody><tr>=0D=0A                    <td align=3D"l=
+eft" valign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D"articles-listi=
+ng column" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100=
+%; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align:left; font-family=
+:sans-serif; font-size:15px; line-height:1.5em; color:#000000">=0D=0A      =
+                  <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" w=
+idth=3D"100%" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:=
+100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse =
+!important">=0D=0A                            <tbody><tr>=0D=0A            =
+                    <td align=3D"left" valign=3D"top" class=3D"bodyContent"=
+ width=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%; -ms-=
+text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#0=
+00000; font-family:sans-serif; font-size:15px; line-height:150%; text-align=
+:left">=0D=0A                                    <table cellpadding=3D"0" c=
+ellspacing=3D"0" border=3D"0" width=3D"100%" class=3D"templateColumnWrapper=
+" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important">=
+=0D=0A                                        <tbody><tr>=0D=0A            =
+                                <td align=3D"left" valign=3D"top" colspan=
+=3D"12" width=3D"100.0%" class=3D"column" style=3D"-webkit-text-size-adjust=
+:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0p=
+t; text-align:left; font-family:sans-serif; font-size:15px; line-height:1.5=
+em; color:#000000">=0D=0A                                                <d=
+iv class=3D"widget-span widget-type-rich_text " style=3D"" data-widget-type=
+=3D"rich_text">=0D=0A                                                    <d=
+iv class=3D"layout-widget-wrapper">=0D=0A                                  =
+                  <div id=3D"hs_cos_wrapper_module_14483939926734775" class=
+=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" sty=
+le=3D"color: inherit; font-size: inherit; line-height: inherit;" data-hs-co=
+s-general-type=3D"widget" data-hs-cos-type=3D"rich_text"><p style=3D"margin=
+-bottom: 1em; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; tex=
+t-align:center" align=3D"center"><span style=3D"font-family: avenir, helvet=
+ica;">ON BEHALF OF THE US HEMP ROUNDTABLE:</span></p>=0D=0A<p style=3D"marg=
+in-bottom: 1em; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%"><=
+span style=3D"font-family: avenir, helvetica;">Great news! The Senate Farm =
+Bill just passed =E2=80=93 and it includes ALL of the Hemp Farming Act, inc=
+luding the permanent legalization of hemp and products such as hemp-derived=
+ CBD.</span><br><br><span style=3D"font-family: avenir, helvetica;">This is=
+ HUGE. But the battle has not yet been won. And we need your help.</span></=
+p>=0D=0A<p style=3D"margin-bottom: 1em; -webkit-text-size-adjust:100%; -ms-=
+text-size-adjust:100%"><span style=3D"font-family: avenir, helvetica;">A Ho=
+use/Senate conference committee will soon meet to resolve the differences b=
+etween the Senate Farm Bill and the House Farm Bill, the latter which inclu=
+des no hemp language. Senate Majority Leader Mitch McConnell will be leadin=
+g the fight to ensure that the conference committee retains the hemp-friend=
+ly Senate language before it gets sent back to the House and Senate floors =
+for final passage.</span></p>=0D=0A<p style=3D"margin-bottom: 1em; -webkit-=
+text-size-adjust:100%; -ms-text-size-adjust:100%"><span style=3D"font-famil=
+y: avenir, helvetica;"><a href=3D"https://info.pluscbdoil.com/e1t/c/*W3D8kq=
+N3fS7DMW6YTRKq6xhbd10/*W67lR2Y96nPRLW3-l2xd2_VK1Q0/5/f18dQhb0S9r99hhvlHW7MC=
+-8X68_x8gW3C8_wG3z7F3ZW3xQDFX5-VBlWW7WM-d71httWnW6MrK6x708l69W2Fq_Bk3c751mW=
+23-nGK25TDpSW6-gPgc16JqMfW1J58vb2QxSRzW6gyzlT7mmttJW67h1CP8r97s-W8m7Y9z5wM1=
+S-Vl7Wpb58c6pxW8W56FW3dKWtxVKng6q1Wg4bjN2flPVqZvDnNW5yKvKM1kkTkgW4bvtY48sYv=
+vlW5tGkvq9cSfdYW5RlCzj7ZzDyKW7GLjPj2LG-m6W2JJrmv7nZdLtW83HJdq6jDLsVW1HrkLH1=
+wcMjnW71gJnX81L7NqW6sQM3N6zJKLpW1PpL2t82yWQyW71ksW920PJMmW6wyTpT7x9WWHW25_s=
+kF6NlG3jW1xbH3v76tT8PW7QNDdt2bGTMQW6V8xM742ktnRN8ZsS5tcWbVfW4Wpz-04cglhWW79=
+rCd485MyxMW2XX2PH2GD9D7W4bwmvh99bzyCN5JLWcVbSjhyN4vtwZzqWXy3W1qXRkw4D7f_7W2=
+pglVT6vc-Z6W1TPNNz3rtNQ20" target=3D"_blank" data-saferedirecturl=3D"https:=
+//www.google.com/url=3Fhl=3Den&amp;q=3Dhttps://hempsupporter.us17.list-mana=
+ge.com/track/click=3Fu%3D1b61b28eae54b8d51e883a3f8%26id%3Daac2fede2c%26e%3D=
+02df8fe3bc&amp;source=3Dgmail&amp;ust=3D1530316058129000&amp;usg=3DAFQjCNGA=
+qDveXcrTZ_yhgP8o6LjU8uQ-7w" style=3D"-webkit-text-size-adjust:100%; -ms-tex=
+t-size-adjust:100%" data-hs-link-id=3D"0">Please help TODAY.</a></span></p>=
+=0D=0A<p style=3D"margin-bottom: 1em; -webkit-text-size-adjust:100%; -ms-te=
+xt-size-adjust:100%"><span style=3D"font-family: avenir, helvetica;">We=E2=
+=80=99ve revised our <a href=3D"https://info.pluscbdoil.com/e1t/c/*W3D8kqN3=
+fS7DMW6YTRKq6xhbd10/*W83yspx2fZZnVW3tqJ0-5g9L3P0/5/f18dQhb0S9r99hhvlHW7MC-8=
+X68_x8gW3C8_wG3z7F3ZW3xQDFX5-VBlWW7WM-d71httWnW6MrK6x708l69W2Fq_Bk3c751mW23=
+-nGK25TDpSW6-gPgc16JqMfW1J58vb2QxSRzW6gyzlT7mmttJW67h1CP8r97s-W8m7Y9z5wM1S-=
+Vl7Wpb58c6pxW8W56FW3dKWtxVKng6q1Wg4bjN2flPVqZvDnNW5yKvKM1kkTkgW4bvtY48sYvvl=
+W5tGkvq9cSfdYW5RlCzj7ZzDyKW7GLjPj2LG-m6W2JJrmv7nZdLtW83HJdq6jDLsVW1HrkLH1wc=
+MjnW71gJnX81L7NqW6sQM3N6zJKLpW1PpL2t82yWQyW71ksW920PJMmW6wyTpT7x9WWHW25_skF=
+6NlG3jW1xbH3v76tT8PW7QNDdt2bGTMQW6V8xM742ktnRN8ZsS5tcWbVfW4Wpz-04cglhWW79rC=
+d485MyxMW2XX2PH2GD9D7W4bwmvh99bzyCN5JLWcVbSjhyN4vtwZzqWXy3W1qXRkw4D7f_7W2pg=
+nhK6vc-Z6W4PYz5V3rtNQ20" target=3D"_blank" data-saferedirecturl=3D"https://=
+www.google.com/url=3Fhl=3Den&amp;q=3Dhttps://hempsupporter.us17.list-manage=
+.com/track/click=3Fu%3D1b61b28eae54b8d51e883a3f8%26id%3D5af5d3f154%26e%3D0=
+2df8fe3bc&amp;source=3Dgmail&amp;ust=3D1530316058129000&amp;usg=3DAFQjCNHeZ=
+lfRz_Lo9UnXXBNZn3LdZpRtXg" style=3D"-webkit-text-size-adjust:100%; -ms-text=
+-size-adjust:100%" data-hs-link-id=3D"1">online portal</a>&nbsp;to make it =
+easy for you to contact both your Senators and your Congressman, to urge th=
+em to support the Senate Farm Bill=E2=80=99s hemp provisions.</span></p>=0D=
+=0A<p style=3D"margin-bottom: 1em; -webkit-text-size-adjust:100%; -ms-text-=
+size-adjust:100%"><span style=3D"font-family: avenir, helvetica;">Please go=
+ there NOW and have your voice heard. And as always, please share this port=
+al with your friends, colleagues, customers and social media contacts. Toge=
+ther, we can make permanent hemp legalization a reality.</span></p>=0D=0A<p=
+ style=3D"margin-bottom: 1em; -webkit-text-size-adjust:100%; -ms-text-size-=
+adjust:100%; text-align:center" align=3D"center"><!--HubSpot Call-to-Action=
+ Code --><span class=3D"hs-cta-wrapper" data-hs-img-pg=3D"d7a25e4d-4e31-493=
+e-a3dd-33b37eb6d62d" id=3D"hs-cta-wrapper-d7a25e4d-4e31-493e-a3dd-33b37eb6d=
+62d"><span class=3D"hs-cta-node hs-cta-d7a25e4d-4e31-493e-a3dd-33b37eb6d62d=
+" id=3D"hs-cta-d7a25e4d-4e31-493e-a3dd-33b37eb6d62d"><a href=3D"https://inf=
+o.pluscbdoil.com/e1t/c/*W3D8kqN3fS7DMW6YTRKq6xhbd10/*W8rw_H_6yhDrKVf1l_g40K=
+NWt0/5/f18dQhb0S1Wf7Bf-yvV1xW-d6rmBnkW3z0v-01yyHZlW7JR4kr1RKL3BW3pFWnv6Hg84=
+mW1mjqKk1XhK2sW7wrk3x8gtWg9W5_ShGB6fZ2XfW2WChS_4NrjVNN4G5BLJjB6B5W8yH9md8ts=
+SC1W1DhchQ61_NjfW37R-1b5vfk3jV6pCgH1v0TFbN7gKtGNbD0zrW1FHq7-29gVtTW5g_D_y8K=
+6TsfN50LCnF3lcNnW1C979t5BjB5bN3dT1P8D_Yf6V7cC4N2FMzfrVg5f9D3005jqW7LZB5d4dY=
+rzGW2C2CdG334kZgW1hFgTf1N8nVkW4dLP6q4s6hrvW3PgB7t2z28j1W3_Lm0x3zGQFZW5vkc1f=
+69X5_-W37B9qT1smz_XW7l97_83Yc_ynW1mq7PP5LkDY7W63cLsK8yHV0tW6HPTFX2DJnK6W80l=
+NNW4Xq60zW1vRKLr4_FD36W7TMq285lfXzpW1hdjkK4H1ZWZV70k522Yc1KfW4Vz4s25gswJ_W5=
+x_N7J2tvFsMW1ZTGbt2LKwf1W26xjH53MxVPSW6yS6DX9cPqZrW7KY3n52hs1-FW229jBy8yN5J=
+LW7GXB4L4lMmJkV_0_Gl5QvKL3N1B5MPqXHT4vW8-71-65Z0vtxW8FrCdw4g1cN8W3cnR-h3qlS=
+LVW8D6y-Y5Z_K97VKmzYL7XHp0CV6mVjQ30xRXtW81NK3t9m4BSpW18pkcV4F0jDFW9c4wwD43V=
+8j7W48v4lZ5PL9C6W91Qh1k1xflLYW4FHNPH977wVl103" target=3D"_blank" style=3D"-=
+webkit-text-size-adjust:100%; -ms-text-size-adjust:100%" data-hs-link-id=3D=
+"0"><img class=3D"hs-cta-img" id=3D"hs-cta-img-d7a25e4d-4e31-493e-a3dd-33b3=
+7eb6d62d" style=3D"vertical-align:bottom; -ms-interpolation-mode:bicubic; b=
+order-width:0px; width:auto !important; max-width:100% !important" mce_nore=
+size=3D"1" src=3D"https://443522.hs-sites.com/cs/il/=3Fpg=3Dd7a25e4d-4e31-4=
+93e-a3dd-33b37eb6d62d&amp;pid=3D443522&amp;ecid=3DACsprvvfsbcfXwCxsTIfrttAk=
+8Mpv-y4kjnRyHDAHh9NX-xVMTGsF1p6x622C_v5Nxvz2PEIbVi_&amp;hseid=3D64129888&am=
+p;hsic=3Dfalse" alt=3D"WRITE YOUR SENATORS &amp; CONGRESSMEN" width=3D"auto=
+"></a></span></span><!-- end HubSpot Call-to-Action Code --></p></div>=0D=
+=0A                                                    </div><!--end layout=
+-widget-wrapper -->=0D=0A                                                </=
+div><!--end widget-span -->=0D=0A                                          =
+  </td>=0D=0A                                        </tr>=0D=0A           =
+                         </tbody></table>=0D=0A                            =
+    </td>=0D=0A                            </tr>=0D=0A                     =
+   </tbody></table>=0D=0A                    </td>=0D=0A                   =
+     </tr>=0D=0A                    </tbody></table>=0D=0A                <=
+/td>=0D=0A            </tr>=0D=0A        </tbody></table>=0D=0A    </td>=0D=
+=0A        </tr>=0D=0A    </tbody></table>=0D=0A</td>=0D=0A</tr>=0D=0A<!--e=
+nd body wrapper -->=0D=0A                                            </tbod=
+y></table>=0D=0A                                        </td>=0D=0A        =
+                            </tr>=0D=0A                                </tb=
+ody></table>=0D=0A                                <!-- End Template Wrapper=
+ -->=0D=0A                            </td>=0D=0A                        </=
+tr>=0D=0A                        <tr>=0D=0A                            <td =
+align=3D"center" valign=3D"top" style=3D"-webkit-text-size-adjust:100%; -ms=
+-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt">=0D=0A =
+                               <!-- Begin Template Footer -->=0D=0A        =
+                        <div class=3D"footer-container-wrapper">=0D=0A     =
+   </div><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" id=3D"footerTable" style=3D"-webkit-text-size-adjust:100%; -ms-text-si=
+ze-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse=
+:collapse !important; background-color:#f0f0f0; color:#000000; font-family:=
+sans-serif; font-size:12px; line-height:120%; padding-top:20px; padding-rig=
+ht:20px; padding-bottom:20px; padding-left:20px; text-align:center" bgcolor=
+=3D"#f0f0f0" align=3D"center">=0D=0A                                    <tb=
+ody><tr>=0D=0A            <td align=3D"left" valign=3D"top" class=3D"bodyCo=
+ntent" width=3D"100%" colspan=3D"12" style=3D"-webkit-text-size-adjust:100%=
+; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; co=
+lor:#000000; font-family:sans-serif; font-size:15px; line-height:150%; text=
+-align:left">=0D=0A                <table cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" width=3D"100%" class=3D"templateColumnWrapper" style=3D"-we=
+bkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt=
+; mso-table-rspace:0pt; border-collapse:collapse !important">=0D=0A        =
+            <tbody><tr>=0D=0A                        <td align=3D"left" val=
+ign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D"column" style=3D"-webk=
+it-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; =
+mso-table-rspace:0pt; text-align:left; font-family:sans-serif; font-size:15=
+px; line-height:1.5em; color:#000000">=0D=0A                            <di=
+v class=3D"widget-span widget-type-social_sharing social-icons" style=3D"pa=
+dding: 10px 10px 30px 10px; text-align: center;" data-widget-type=3D"social=
+_sharing">=0D=0A                                <div class=3D"layout-widget=
+-wrapper">=0D=0A                                <div id=3D"hs_cos_wrapper_S=
+ocial_Sharing" class=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper=
+_type_social_sharing" style=3D"color: inherit; font-size: inherit; line-hei=
+ght: inherit;" data-hs-cos-general-type=3D"widget" data-hs-cos-type=3D"soci=
+al_sharing"><a href=3D"https://info.pluscbdoil.com/e1t/c/*W3D8kqN3fS7DMW6YT=
+RKq6xhbd10/*VJWHbJ3Rc0T_W4N9FGj8p-9fl0/5/f18dQhb0Sjv48XJ8PxW6b51rd2YX2vjW7b=
+k_1j76gSByW74C0XS2zHMkcW6vp1yH4rHNDnW3jl7TP30NscdW3sm0yM6ZNQ_VW49KX7C49MJjv=
+W4Bs6cn4yym9nW2p0tdz5Q4rXMW4223Bc2nV0PJW3s2gVW30pydKW2GvSwt6Bt4HJW1_Qrvg1Y_=
+Y5JW2D9CQb1fwyVVW6yBPJM30q8CNW2kGjZw6qQkLPW8xfqTq4yb-1bW3fkdrk2DzCtRW1yBVwv=
+1rHh6WW1zrHyq49qCV1W6xgNxm6JLjYHN66NPNR1Pq44W43Cd6x7159QkW7sG4gm75D5lBN4bS5=
+l77VV9SW894rkv7pYPV0W1XvnL98l0XFmW8m9J9q66L-fyVqCdMP33TthKW8TCz1z8PqQCDW6Pc=
+2NR7PgYg0MwKJnC3qXXRW3n-RVV6N7dvqW6NjTbM2kth5zW2GD9D74bwmvhW99bzyC5JLWcVVbS=
+jhy4vtwZzVqWXy31qXRkwW4D7f_72pglVTW6vc-Z62VDFg4f2qdtJT04" target=3D"_blank"=
+ style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; color:#=
+000000; width:24px; border-width:0px; border:0px" width=3D"24" data-hs-link=
+-id=3D"0"><img src=3D"https://static.hubspot.com/final/img/common/icons/soc=
+ial/facebook-24x24.png" class=3D"hs-image-widget hs-image-social-sharing-24=
+" style=3D"vertical-align:bottom; -ms-interpolation-mode:bicubic; max-heigh=
+t:24px; max-width:24px; border-width:0px; border:0px" width=3D"24" hspace=
+=3D"0" alt=3D"Share on Facebook"></a>&nbsp;<a href=3D"https://info.pluscbdo=
+il.com/e1t/c/*W3D8kqN3fS7DMW6YTRKq6xhbd10/*W6Hk5Xy2JXwcKW7jPSgc2BF0ws0/5/f1=
+8dQhb0Sjv58YsVSrW5T_W4b5Yg1DtW7v1n2-7JSPS-W55Myn51x8wsMW5VmrCc70jWXKW1L1_GX=
+28Rm6GW2WdR5D39WGsBVJp28_5pC_ByW5nrHBk5lKy9GW2MznrN5nbrqYW5DHNj216w1z5W6c-1=
+mc96zXjpW1n3m4f6bgwh3W8hTJV48lwVXYW8hS2967bj20MW3c_ztb7J39qHW2m8DqK2HT8mrW1=
+HmyN88QKpwvW105KTM13bD4hW6dkdBW5MHhtCW6cNkQ-7qx3XbW7nW9nC84J5D1N5KYll658g1n=
+N6Xgbt_6_BNGN1Vc9DQr4KxfN7sdZb-tDrXGW4B1B8B1zrzN5W7LWcfZ5nHZH8W5mp88c5MP0jy=
+W1HmJwy30gg95W7p4Dpk78k7ggW8nDXSC6wfWbSN22TNxn9Mb6yW4dN9d38qfTz7W8q-mpk1S0v=
+xCW5hfQL48p0K-zW8_hgcQ22mXG5VpHCB48Y-3YkVSQqJf2QV5dzW9dgwVx4Pxhj5W3DlwBb8JF=
+xKBf39GZgM04" target=3D"_blank" style=3D"-webkit-text-size-adjust:100%; -ms=
+-text-size-adjust:100%; color:#000000; width:24px; border-width:0px; border=
+:0px" width=3D"24" data-hs-link-id=3D"0"><img src=3D"https://static.hubspot=
+.com/final/img/common/icons/social/linkedin-24x24.png" class=3D"hs-image-w=
+idget hs-image-social-sharing-24" style=3D"vertical-align:bottom; -ms-inter=
+polation-mode:bicubic; max-height:24px; max-width:24px; border-width:0px; b=
+order:0px" width=3D"24" hspace=3D"0" alt=3D"Share on LinkedIn"></a>&nbsp;<a=
+ href=3D"https://info.pluscbdoil.com/e1t/c/*W3D8kqN3fS7DMW6YTRKq6xhbd10/*MZ=
+Cyv9sdhwvW6z8Ky663dZpc0/5/f18dQhb0S5fw8XJ9j-W6b51rd2YX2vjW7bk_1j76gSByW74C4=
+Pr2zHMkcW6vp1yH2H-q8DW2HTdRq49X0xTW4cBGBG49KX7CW49MJhh3SLYcbW49JfBw3C8bwHW6=
+kWf7j4LStnyW2YRkkH2Kz-xPW2Vcqg46Qrf2xW1tmXX45-2t5mW20Wxtk36dP_1W1YTF-H7TF1y=
+JW2Yt3Cp2kGjZwW6qQkLP8_WxpRW4yb-1b3fkdrkW2DzCtR1yBVwvW1rHh6W1zrHyqW49qCV16x=
+gNxmW6JLjYH66NPNRV1Pq4443Cd6xW7159Qk7sG4gmW75D5lB4bS5l7V7VV9S894rkvW7pYPV01=
+XvnL9W8l0XFm8m9J9qN66L-fyqCdMPW33TthK8TCz1zW8PqQCD6Pc2NRN7PwxJKVzQv-VVn7DD7=
+tYG4LVKnhM64hLX7xW2nLm1q5hfQL4W8p0K-z8_hgcQN22mXG5pHCB4N8Y-3YkSQqJfW2QV5dz9=
+dgwVxW4Pxhj53DlwBbW5NvgM52lhnJv0" target=3D"_blank" style=3D"-webkit-text-s=
+ize-adjust:100%; -ms-text-size-adjust:100%; color:#000000; width:24px; bord=
+er-width:0px; border:0px" width=3D"24" data-hs-link-id=3D"0"><img src=3D"ht=
+tps://static.hubspot.com/final/img/common/icons/social/twitter-24x24.png" c=
+lass=3D"hs-image-widget hs-image-social-sharing-24" style=3D"vertical-align=
+:bottom; -ms-interpolation-mode:bicubic; max-height:24px; max-width:24px; b=
+order-width:0px; border:0px" width=3D"24" hspace=3D"0" alt=3D"Share on Twit=
+ter"></a></div>=0D=0A                                </div><!--end layout-w=
+idget-wrapper -->=0D=0A                            </div><!--end widget-spa=
+n -->=0D=0A                        </td>=0D=0A                    </tr>=0D=
+=0A                </tbody></table>=0D=0A            </td>=0D=0A        </t=
+r>=0D=0A        <tr>=0D=0A            <td align=3D"left" valign=3D"top" cla=
+ss=3D"bodyContent" width=3D"100%" colspan=3D"12" style=3D"-webkit-text-size=
+-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rs=
+pace:0pt; color:#000000; font-family:sans-serif; font-size:15px; line-heigh=
+t:150%; text-align:left">=0D=0A                <table cellpadding=3D"0" cel=
+lspacing=3D"0" border=3D"0" width=3D"100%" class=3D"templateColumnWrapper" =
+style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-tabl=
+e-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important">=
+=0D=0A                    <tbody><tr>=0D=0A                        <td alig=
+n=3D"left" valign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D"column" =
+style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-tabl=
+e-lspace:0pt; mso-table-rspace:0pt; text-align:left; font-family:sans-serif=
+; font-size:15px; line-height:1.5em; color:#000000">=0D=0A                 =
+           <div class=3D"widget-span widget-type-email_can_spam " style=3D"=
+" data-widget-type=3D"email_can_spam">=0D=0A                               =
+ <p id=3D"footer" style=3D"margin-bottom: 1em; -webkit-text-size-adjust:100=
+%; -ms-text-size-adjust:100%; font-family:Geneva, Verdana, Arial, Helvetica=
+, sans-serif; text-align:center; font-size:12px; line-height:1.34em; color:=
+#000000; display:block" align=3D"center">=0D=0ACV Sciences=0D=0A&nbsp;&nbsp=
+;2688 S Rainbow Blvd.=0D=0A&nbsp;Suite B=0D=0A&nbsp;Las Vegas,=0D=0A&nbsp;N=
+V=0D=0A&nbsp;&nbsp;89146=0D=0A&nbsp;&nbsp;United States=0D=0A<br><br>=0D=0A=
+You received this email because you are subscribed to Marketing Information=
+ from CV Sciences.=0D=0A<br><br>=0D=0AUpdate your <a class=3D"hubspot-merge=
+tag" data-unsubscribe=3D"true" href=3D"https://info.pluscbdoil.com/hs/manag=
+e-preferences/unsubscribe=3Fd=3DeyJlYSI6InNhbUBjLW10Zy5jb20iLCJlYyI6NjQxMjk=
+4ODgsInN1YnNjcmlwdGlvbklkIjozMTUyNjAsImV0IjoxNTMwMjMxMDc4NTQ0LCJldSI6IjJmNj=
+U0MDljLWRiMDktNGJmYi04ZmJkLTY1YWQyZTY1NDM5YyJ9&v=3D1&utm_campaign=3DHemp%20=
+Roundtable&utm_source=3Dhs_email&utm_medium=3Demail&utm_content=3D64129888&=
+_hsenc=3Dp2ANqtz-8QB-2Pz9djwNN8vxvIFe3ZBbfvPCbgK9MQQrIIitIOqkMCwGXL0OQAMhYl=
+yvewf717cdH0czS_BRu787MzeH9fwT_kWw&_hsmi=3D64129888" style=3D"-ms-text-size=
+-adjust:100%; -webkit-text-size-adjust:none; font-weight:normal; text-decor=
+ation:underline; whitespace:nowrap; color:#000000" data-hs-link-id=3D"0" ta=
+rget=3D"_blank">email preferences</a> to choose the types of emails you rec=
+eive.=0D=0A<br><br>=0D=0A&nbsp;<a class=3D"hubspot-mergetag" data-unsubscri=
+be=3D"true" href=3D"https://info.pluscbdoil.com/hs/manage-preferences/unsub=
+scribe-all=3Fd=3DeyJlYSI6InNhbUBjLW10Zy5jb20iLCJlYyI6NjQxMjk4ODgsInN1YnNjcm=
+lwdGlvbklkIjozMTUyNjAsImV0IjoxNTMwMjMxMDc4NTQ0LCJldSI6IjJmNjU0MDljLWRiMDktN=
+GJmYi04ZmJkLTY1YWQyZTY1NDM5YyJ9&v=3D1&utm_campaign=3DHemp%20Roundtable&utm_=
+source=3Dhs_email&utm_medium=3Demail&utm_content=3D64129888&_hsenc=3Dp2ANqt=
+z-8QB-2Pz9djwNN8vxvIFe3ZBbfvPCbgK9MQQrIIitIOqkMCwGXL0OQAMhYlyvewf717cdH0czS=
+_BRu787MzeH9fwT_kWw&_hsmi=3D64129888" style=3D"-ms-text-size-adjust:100%; -=
+webkit-text-size-adjust:none; font-weight:normal; text-decoration:underline=
+; whitespace:nowrap; color:#000000" data-hs-link-id=3D"0" target=3D"_blank"=
+>Unsubscribe from all future emails</a>&nbsp;=0D=0A</p>=0D=0A              =
+              </div><!--end widget-span -->=0D=0A                        </=
+td>=0D=0A                    </tr>=0D=0A                </tbody></table>=0D=
+=0A            </td>=0D=0A        </tr>=0D=0A<!--end footer wrapper -->=0D=
+=0A                                    <tr>=0D=0A                          =
+              <td style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adj=
+ust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt"></td>=0D=0A          =
+                          </tr>=0D=0A                                </tbod=
+y></table>=0D=0A                                <!-- End Template Footer --=
+>=0D=0A                            </td>=0D=0A                        </tr>=
+=0D=0A                    </tbody></table>=0D=0A                    <!-- En=
+d Template Container -->=0D=0A                </td>=0D=0A            </tr>=
+=0D=0A        </tbody></table>=0D=0A    =0D=0A<!-- end coded_template: id:3=
+743393537 path:generated_layouts/3743393527.html -->=0D=0A<img src=3D"https=
+://info.pluscbdoil.com/e1t/o/*N7yrD8XhxDPnN7V1kb6j-BzS0/*W6yCCKr2ZGqgLW3r_f=
+PC6vWmdZ0/5/f18dQhb0J6n1hXHGN70ZNKt_sXXsVjbYdX1S578HW22R4wf2YnyV-Ls7yK2xwPM=
+MvlFXxvy6HJW2m2fby4fHkmfW43T0KS4RF_rdVNw35_5tTVSwN7ZVb8XDwsvXW7XNB0R6wzT40W=
+9gcvz01D3mmzf3JWSTC01" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=
+=3D"display:none!important;min-height:1px!important;width:1px!important;bor=
+der-width:0!important;margin-top:0!important;margin-bottom:0!important;marg=
+in-right:0!important;margin-left:0!important;padding-top:0!important;paddin=
+g-bottom:0!important;padding-right:0!important;padding-left:0!important"><s=
+tyle>@media print{#_hs { background-image: url('https://info.pluscbdoil.com=
+/e1t/o/*N7yrD8XhxDPnN7V1kb6j-BzS0/*N1zsFPd6_2gKW2FdlL17c2YSV0/5/f18dQhb0Kdh=
+zBYdcYW1wfg9279tDJMW3Q-D3Q3zFkyMVDl0Ly3CVgTkN8csHkQD2JBLW7q4wdM5BL4M-W5HxQ5=
+n5y7J19W7HCxJN1nzmTrW4Cs3h_3lqh3yW3Np07w4CrvZDW5nq2TK5y68hSN8pMmvJ9Xdrpf3r6=
+mTw01');}} div.OutlookMessageHeader {background-image:url('https://info.plu=
+scbdoil.com/e1t/o/*N7yrD8XhxDPnN7V1kb6j-BzS0/*N5wTZfD4-TS6W6DQYQj6s0KcN0/5/=
+f18dQhb0KdhCBW7SPW1wfg9279tDJMW3Q-D3Q3zFkDHN8q2CllX68-dW3xYQzj8wf5TWW1036kV=
+3lMWh1W5hswNt5mqrplW5QQPKB1ny5pjW1Q-t_88smzXtW87SglM93Q4TfW59BNTB3-KGlWN8PZ=
+GTWDNmNdTd8V132v2XY103')} table.moz-email-headers-table {background-image:u=
+rl('https://info.pluscbdoil.com/e1t/o/*N7yrD8XhxDPnN7V1kb6j-BzS0/*N5wTZfD4-=
+TS6W6DQYQj6s0KcN0/5/f18dQhb0KdhCBW7SPW1wfg9279tDJMW3Q-D3Q3zFkDHN8q2CllX68-d=
+W3xYQzj8wf5TWW1036kV3lMWh1W5hswNt5mqrplW5QQPKB1ny5pjW1Q-t_88smzXtW87SglM93Q=
+4TfW59BNTB3-KGlWN8PZGTWDNmNdTd8V132v2XY103')} blockquote #_hs {background-i=
+mage:url('https://info.pluscbdoil.com/e1t/o/*N7yrD8XhxDPnN7V1kb6j-BzS0/*N5w=
+TZfD4-TS6W6DQYQj6s0KcN0/5/f18dQhb0KdhCBW7SPW1wfg9279tDJMW3Q-D3Q3zFkDHN8q2Cl=
+lX68-dW3xYQzj8wf5TWW1036kV3lMWh1W5hswNt5mqrplW5QQPKB1ny5pjW1Q-t_88smzXtW87S=
+glM93Q4TfW59BNTB3-KGlWN8PZGTWDNmNdTd8V132v2XY103')} #MailContainerBody #_hs=
+ {background-image:url('https://info.pluscbdoil.com/e1t/o/*N7yrD8XhxDPnN7V1=
+kb6j-BzS0/*N5wTZfD4-TS6W6DQYQj6s0KcN0/5/f18dQhb0KdhCBW7SPW1wfg9279tDJMW3Q-D=
+3Q3zFkDHN8q2CllX68-dW3xYQzj8wf5TWW1036kV3lMWh1W5hswNt5mqrplW5QQPKB1ny5pjW1Q=
+-t_88smzXtW87SglM93Q4TfW59BNTB3-KGlWN8PZGTWDNmNdTd8V132v2XY103')}</style><d=
+iv id=3D"_hs"></div></body></html>
+--_----fik9F5ukoU59Jh306CQoKQ===_03/5A-36262-78B753B5--
+

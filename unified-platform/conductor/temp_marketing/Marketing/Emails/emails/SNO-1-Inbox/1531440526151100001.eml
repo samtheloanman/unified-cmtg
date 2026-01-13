@@ -1,0 +1,273 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of wf.com designates 159.45.87.73 as permitted sender) client-ip=159.45.87.73; envelope-from=YourNewAccount@wellsfargo.com; helo=mxdapx03.wellsfargo.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of wf.com designates 159.45.87.73 as permitted sender)  smtp.mailfrom=YourNewAccount@wellsfargo.com;
+	dmarc=pass(p=reject dis=none)  header.from=wellsfargo.com
+Return-Path: <YourNewAccount@wellsfargo.com>
+Received: from mxdapx03.wellsfargo.com (mxdapx03.wellsfargo.com [159.45.87.73]) by mx.zohomail.com
+	with SMTPS id 1531440525040521.0371666427945; Thu, 12 Jul 2018 17:08:45 -0700 (PDT)
+Received: from mxiapv03.wellsfargo.com (mxiapv03.wellsfargo.com [162.101.97.202])
+	by mxdapx03.wellsfargo.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with ESMTP id w6D08giR032491
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK)
+	for <sam@c-mtg.com>; Fri, 13 Jul 2018 00:08:43 GMT
+Received: from rumII (mn2-002a-ixb-es.wellsfargo.com [22.45.35.207])
+	by mxiapv03.wellsfargo.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with SMTP id w6D08fSj019772
+	for sam@c-mtg.com; Fri, 13 Jul 2018 00:08:41 GMT
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=wellsfargo.com;
+	s=2011-05-wfb; t=1531440523;
+	bh=HQps+OyEg0bLSIDGzSUJdbWD3M3I4zH+BcQiYsHSFoo=;
+	h=Date:From:Reply-To:To:Subject;
+	b=VPIk1LHvsGXPhB3YE6LuBJm2xQKZ6Lk5gkRxRW0sOyFhzCTvuVEdHakfX00mkJVlK
+	 g3N0Xg9mwm6q6h7tU0lfJXOGmHbOB0epNxFZP0eTJHpn5j4nnuzQ6JmTbuKQUlHIeb
+	 Ym8yfsV+ocMgY8AXe+GQp5NotjERHhAFBnetsumA=
+Date: Fri, 13 Jul 2018 00:08:41 GMT
+From: Your New Wells Fargo Account <YourNewAccount@wellsfargo.com>
+Reply-To: YourNewAccount@wellsfargo.com
+To: sam@c-mtg.com
+Subject: Get started with your new Wells Fargo account
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="csLcXJK3Yn50ckzH5T13QcU05fSImZHrUmz"
+X-Mailer_Profile: EIEP_DPG_2m
+X-Mailer_OSID: eeae42d7-ab58-40fa-b252-67b96e77a8af
+X-Mailer_Status: sent
+X-Mailer_RSID: eiep_dpg_K8EJA6111-K8EJAh_12
+Message-ID:<EDSRUM02204503520709eiep_dpg_K8EJA6111-K8EJAh_12@wellsfargo.com>
+X-ZohoMail-DKIM: pass (identity @wellsfargo.com)
+X-ZohoMail-Owner: <EDSRUM02204503520709eiep_dpg_K8EJA6111-K8EJAh_12@wellsfargo.com>+zmo_0_YourNewAccount@wellsfargo.com
+X-ZohoMail-Sender: 22.45.35.207
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_1 IS_0 FMWL EML_0 DMN_0 EDR_100 SIP_KGR,RPD_KGR COSF LNKP UNK_U_0 UNK_O_0 SFP_WHTLST_0 SIP_KGR_0 RPD_KGR_0 SDFE_RPNS_SM_0 ZMHF_701_1  SC_1 SGR3_1_2_0_167_549
+X-ZM-MESSAGEID: 1531440526151100001
+X-ZohoMail-Status: 1
+
+
+
+This is a multi-part message in MIME format.
+
+--csLcXJK3Yn50ckzH5T13QcU05fSImZHrUmz
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!-- version 2.8 (12/29/15) -->
+<head>
+    <meta charset="utf-8" />
+    <title>Get started with your new Wells Fargo Account</title>
+    <style type="text/css">
+        body {
+            font-family: Arial;
+            font-size: 12px;
+            color: black;
+            margin: 0;
+            padding: 0;
+            line-height: 1em;
+            width: 585px;
+            float: left;
+        }
+
+        p {
+            padding: 0;
+            margin: 10px 0 0 0;
+            line-height: 1em;
+        }
+
+        ul {
+            font-family: Arial;
+            font-size: 12px;
+            color: black;
+            margin-top: 0in;
+        }
+
+        li {
+            font-family: Arial;
+            font-size: 12px;
+            color: black;
+            margin: 0in;
+            margin-bottom: .0001pt;
+        }
+
+        .sectionHeaderImageTable {
+            margin: 0;
+            padding: 0;
+        }
+
+        .pProdHeaderStart {
+            padding: 0;
+            margin: 10px 0 0 0;
+            text-align: left;
+            line-height: 1em;
+        }
+
+        .pProdHeadLine {
+            padding: 0;
+            margin: 10px 0 0 0;
+            text-align: left;
+            line-height: 1em;
+        }
+
+        .pProdDesc {
+            padding: 0;
+            margin: 0;
+            text-align: left;
+            line-height: 1em;
+        }
+
+        .pProdFooter {
+            padding: 0;
+            margin: 10px 0 0 0;
+            text-align: left;
+            line-height: 1em;
+        }
+
+        .pText {
+            padding: 0;
+            margin: 10px 0 0 0;
+            text-align: left;
+            line-height: 1em;
+        }
+
+        .pEasyPayStaticText {
+            padding: 0;
+            margin: 0 0 10px 0;
+            text-align: left;
+            line-height: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p style="font-weight:bold; padding:0;margin:5px 0 0 0">
+            Helpful information about your new account
+        </p>
+        <p style="font-family: Arial;font-size: 11px;color:#494C48;">
+            This is a non-commercial message sent to you by Wells Fargo as part of your account relationship.
+            Please do not reply to this email.  This mailbox is not monitored and you will not receive a response.
+        </p>
+        <hr>
+    </header>
+    <p>
+        <a href="https://www.wellsfargo.com/"><img src="https://edisclosure.wellsfargo.com/Common/images/templates/wf-logoEn315.png" alt="Wells Fargo" title="Wells Fargo" style="border:none" /></a>
+    </p>
+    <p style="padding:0;margin:10px 0 0 0">
+        <img alt="Get started with your new Wells Fargo Account" src="https://edisclosure.wellsfargo.com/Common/images/templates/ConsumerImagesEn315.png" title="Get started with your new Wells Fargo Account" />
+    </p>
+    <p>
+        Dear JOHNNY TEHRANCHI,
+    </p>
+    <p class="pText">
+        Thank you for opening your new deposit account(s) with us. We know you have many choices in banking and are glad you chose us.
+        Wells Fargo makes it easy to get your banking done with secure,
+        24/7 account access from your mobile device, 12,800 ATMs and nearly 6,200 banking locations nationwide.
+    </p>
+     
+    
+    <p class="pText">
+        Listed below is a summary of the deposit accounts you opened today along with some key information.
+        For detailed account information, please refer to the
+        <a href="https://www.wellsfargo.com/online-banking/consumer-account-fees/" title="Wells Fargo Consumer Account Agreement and Consumer Account Fee and Information Schedule">
+            Wells Fargo Consumer Account Agreement and Consumer Account Fee and Information Schedule.
+        </a>
+    </p>
+    
+     
+    
+    <p style="width: 100%; background-color: #01698c">
+        <img alt="Savings" src="https://edisclosure.wellsfargo.com/Common/images/templates/savingsEn315.png" title="Savings" />
+    </p>
+    
+
+<p class="pProdHeadLine">
+<strong>Wells Fargo Way2Save&#174; Savings</strong>
+
+</p>
+
+
+<p class="pProdDesc">
+A savings account which includes automatic savings options to grow your savings. If you are the primary account owner and under the age of 18 (19 in AL) there is no monthly service fee.
+
+</p>
+
+
+<p class="pText">
+Standard monthly service fee: $5.00
+
+</p>
+
+
+<p class="pText">
+Your monthly service fee can be avoided with any one of the following each fee period:
+
+</p>
+
+<ul>
+<li>Maintain a minimum daily balance of $300.00</li>
+<li>A(n) daily automatic transfer from a Wells Fargo checking account of $1.00 or more</li>
+<li>Save As You Go® transfer from a Wells Fargo checking account totaling $1.00 or more</li>
+<li>A(n) monthly automatic transfer from a Wells Fargo checking account of $25.00 or more</li>
+</ul>
+
+
+
+<p class="pProdFooter">
+Most withdrawals and transfers from this account (including Overdraft Protection transfers) are limited by Regulation D and Wells Fargo to 6 per monthly fee period. Except outgoing wire transfers, there is no limit on the number of withdrawals or transfers made in person at an ATM or Wells Fargo location or on any types of deposits.
+
+</p>
+
+    
+     
+     
+     
+     
+	 
+    
+    <p style="width: 100%; background-color: #01698c">
+        <img alt="Contact us" src="https://edisclosure.wellsfargo.com/Common/images/templates/contactEn315.png" title="Contact us" />
+    </p>
+    <p class="pText">
+        If you have any questions, there are many ways to reach us:
+    </p>
+    <ul>
+        <li>Visit <a href="https://www.wellsfargo.com/" title="www.wellsfargo.com">wellsfargo.com</a></li>
+        <li>Call us 24/7 at 1-800-TO-WELLS (1-800-869-3557)</li>
+        <li>Or <a href="https://www.wellsfargo.com/locator/" title="Wells Fargo banking location or ATM near you">visit a Wells Fargo banking location or ATM near you</a></li>
+    </ul>
+    
+     
+    <p class="pText">
+        <strong>Thank you for being our customer.</strong>
+    </p>
+    
+    <p class="pText">
+        NIMA TABRIZI
+    </p>
+    
+    <p style="padding:0;margin:0">
+        EVELYN PEERA, Manager
+    </p>
+    
+    <p style="padding:0;margin:0">
+        310-550-2404
+    </p>
+    
+     
+     
+     
+    <footer>
+        <hr />
+        <p>
+            <span style="font-family: Arial;font-size: 11px;color:#494C48;">
+                This is a non-commercial message sent to you by Wells Fargo as part of your account relationship. Please do not reply to this email.
+                This mailbox is not monitored and you will not receive a response.
+            </span>
+        </p>
+        <p>
+            <span style="font-family: Arial;font-size: 11px;color:#494C48;">
+                © 2018 Wells Fargo Bank, N.A. All rights reserved. Member FDIC. NMLSR ID 399801. Equal Housing Lender
+            </span>
+        </p>
+    </footer>
+</body>
+</html><html><body><br/><body></body></html>
+--csLcXJK3Yn50ckzH5T13QcU05fSImZHrUmz--
+

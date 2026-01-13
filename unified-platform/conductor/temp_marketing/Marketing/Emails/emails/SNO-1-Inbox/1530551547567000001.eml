@@ -1,0 +1,148 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 74.125.83.54 as permitted sender) client-ip=74.125.83.54; envelope-from=gvpalmsprings@gmail.com; helo=mail-pg0-f54.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 74.125.83.54 as permitted sender)  smtp.mailfrom=gvpalmsprings@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Received: from mail-pg0-f54.google.com (mail-pg0-f54.google.com [74.125.83.54]) by mx.zohomail.com
+	with SMTPS id 1530551545426124.19765911339573; Mon, 2 Jul 2018 10:12:25 -0700 (PDT)
+Received: by mail-pg0-f54.google.com with SMTP id n2-v6so7419140pgq.6;
+        Mon, 02 Jul 2018 10:12:25 -0700 (PDT)
+Return-Path: <gvpalmsprings@gmail.com>
+Return-Path: <gvpalmsprings@gmail.com>
+Received: from ?IPv6:2605:e000:fe56:1000:e924:fc5:d195:b503? ([2605:e000:fe56:1000:e924:fc5:d195:b503])
+        by smtp.gmail.com with ESMTPSA id a24-v6sm15254252pfj.140.2018.07.02.10.12.22
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 02 Jul 2018 10:12:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:subject:from:in-reply-to:date:cc
+         :content-transfer-encoding:message-id:references:to;
+        bh=OSZIwWEYSqMzZ4hSDRBDnTIpgbx9EwtUo6015D8HCJA=;
+        b=AVgBPybgqLCc0OvZyIKKla4zCoruRHvIkNtAsgMyYpsjMM/UBrKGRziLQbiFNqo9IH
+         4Xb/0Rvdt5SvL8KMAQyF1dKr+KyfdFsTumroe7kbs9IIGiAYnpZlooXlWrgUeO1lnmpL
+         Q+fHRXNFsjIiTGy4GZgG4lXexRZ1bEkrVUOjiWts5KObPpTvon3a/+Z8YZyW3Fa9cE8J
+         Z0tl8/ZkI/o3z285yPuIEjXeevDVsOxJqbFtHHs7NpQEgm6j4XIq7ZPoaTGoEhWTbUdQ
+         lkEc/b1nXGBbCi9jpJiWoI8Li43nomy77kSoS2LNVphFNISiRYKpwumwqIQmH6HtWp/j
+         +8eg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:subject:from:in-reply-to:date:cc
+         :content-transfer-encoding:message-id:references:to;
+        bh=OSZIwWEYSqMzZ4hSDRBDnTIpgbx9EwtUo6015D8HCJA=;
+        b=H3vGkcwWD4C9w19crhUPvlBY4TrjVb2Pe9168s7g4Ia84r9A6uKr61vz0YfIgzn+vK
+         DXvIZx/9vvpxC32/ExqZofaoD4hE56VcNnYBNngjkBgUEfDvLmc/4ftPrP5NOMIoMfZ/
+         kXwXGMFprmGXTctAS+TtBnunfoUhhLfZk02ow1eDby9DWTG4+cSnt+2J4kab7nP91u9n
+         ubwrh4MwOzAVC2wPS9Sn4V72DIo0vjWE+9lG0qaEX1PxGjVQRFfbbWtcNisubOWiY4no
+         IgDk1/LGHL5/OMq2OCj4RO0/TEIVwZh06z8ZWESQNbziBedvC99khb8J/s6ybX6ZvMk6
+         bQEg==
+X-Gm-Message-State: APt69E1Hmc8/QwpU3tUlIwOc06b543I+zQQWIr5ydx2AMDs5CcnmRTog
+	AxrANexOgeyLPwrtrO1z/PicqHK+
+X-Google-Smtp-Source: AAOMgpfxiCAq9Fubn+qFO4VnDyVfktBzMjGk1K01ROUXqkuQja7qrtPSOAFAbeWOWBpVhtfBxVfqbw==
+X-Received: by 2002:a63:1262:: with SMTP id 34-v6mr19275133pgs.154.1530551544270;
+        Mon, 02 Jul 2018 10:12:24 -0700 (PDT)
+Content-Type: text/plain;
+	charset=utf-8
+Mime-Version: 1.0
+Subject: Re: 1366 N. Granito Palm Springs 92262
+From: Gail Vasquez <gvpalmsprings@gmail.com>
+X-Mailer: iPad Mail (15F79)
+In-Reply-To: <8E510535-90B1-4444-9B1F-B289AC158BCE@c-mtg.com>
+Date: Mon, 2 Jul 2018 10:12:21 -0700
+Cc: Sam Tehranchi <sam@c-mtg.com>
+Content-Transfer-Encoding: quoted-printable
+Message-ID:<935A69CD-6B9A-49A4-A36B-FBDC3F73280C@gmail.com>
+References: <0E3D5EC2-7434-464C-A793-70B923EC5057@c-mtg.com> <DC718C6B-003D-41FE-BCA8-8417033A3B96@gmail.com> <8E510535-90B1-4444-9B1F-B289AC158BCE@c-mtg.com>
+To: Miguel A Aguayo <miguel@c-mtg.com>
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_20 RF_0 S_166 FRD_DI
+X-ZM-MESSAGEID: 1530551547567000001
+X-ZohoMail-Status: 1
+
+
+Hello Michael,
+Thank you for getting back with me. I just tried reaching you, can you give m=
+e a call please.
+Re inspection contingency.  The seller is concerned with and does not want t=
+o  keep the property off the market for so long when the potential buyers 1)=
+ haven=E2=80=99t seen the property 2)she=E2=80=99s been working diligently o=
+n repairs, upgrades, and 3) at this price it is very active now and we don=E2=
+=80=99t see any reason the inspection can=E2=80=99t be done within 5 days.=20=
+
+The proposed price is amazing for this home and please Note the washer Dryer=
+ have always been an exclusion on MLS.=20
+The  closest comp is a complete gut renovation and down to the studs at this=
+ time, NOT similar to this home.
+Please give me a call.
+917-747-0654
+Thanks Gail=20
+
+Sent from my iPad
+
+> On Jul 2, 2018, at 9:42 AM, Miguel A Aguayo <miguel@c-mtg.com> wrote:
+>=20
+> Hi Gail, I am so sorry about the delayed response, I left out of town on S=
+aturday and was looking out for this email but missed it some how.  I am pre=
+paring the buyers counter but I believe we are almost there, the buyer wants=
+ to do the offer as 1,020,000.00 with washer and dryer or 1,018,000.00 witho=
+ut washer and dryer, the sculpture is not part of the items and 17 days for i=
+nspections.  I will prepare it now and send it over shortly once the buyer h=
+as signed.
+>=20
+> Sincerely,
+>=20
+> Miguel A Aguayo
+>=20
+>=20
+> Custom Mortgage and Realty=20
+> President / Broker=20
+> NMLS: 1141884=20
+> Company NMLS: 1556995=20
+> Company CA BRE: 02018146=20
+>=20
+> D: 323.333.5693 - O: 877-976-5669  Efax 866.421.7694=20
+> miguel@c-mtg.com - www.c-mtg.com=20
+>=20
+> Please consider your environmental responsibility before printing this e-m=
+ail
+>=20
+>> On Jun 30, 2018, at 4:14 PM, Gail Vasquez <gvpalmsprings@gmail.com> wrote=
+:
+>>=20
+>> Miguel,
+>> I sent you a counter offer on 1366 N Granito, in Vista Las Palmas.
+>> It was sent via Docusign.=20
+>> Please confirm.
+>> Thank you,
+>> Gail Vasquez
+>>=20
+>>=20
+>> Sent from my iPhone
+>>=20
+>>> On Jun 29, 2018, at 12:16 PM, Miguel A Aguayo <miguel@c-mtg.com> wrote:
+>>>=20
+>>> Hi Gail
+>>>=20
+>>> I believe you spoke with Sam from our office today, attached is an offer=
+ from our client for 1366 N. Granito Palm Springs 92262.  Please present to y=
+our client and advise at your earliest convenience.  Thank you
+>>>=20
+>>> Sincerely,
+>>>=20
+>>> Miguel A Aguayo
+>>>=20
+>>>=20
+>>> Custom Mortgage and Realty=20
+>>> President / Broker=20
+>>> NMLS: 1141884=20
+>>> Company NMLS: 1556995=20
+>>> Company CA BRE: 02018146=20
+>>>=20
+>>> D: 323.333.5693 - O: 877-976-5669  Efax 866.421.7694=20
+>>> miguel@c-mtg.com - www.c-mtg.com=20
+>>>=20
+>>> Please consider your environmental responsibility before printing this e=
+-mail
+>>> <1366_N_Granito_Cr__Palm_Springs_CA_Purchase_Agreement.pdf>
+>=20
+>=20

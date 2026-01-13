@@ -1,0 +1,184 @@
+Delivered-To: sam@c-mtg.com
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=none (zoho.com: 40.107.68.115 is neither permitted nor denied by domain of stoddardlawgroup.com)  smtp.mailfrom=allie@stoddardlawgroup.com
+Return-Path: <allie@stoddardlawgroup.com>
+Received: from NAM04-BN3-obe.outbound.protection.outlook.com (mail-eopbgr680115.outbound.protection.outlook.com [40.107.68.115]) by mx.zohomail.com
+	with SMTPS id 1531416940282761.3938513857091; Thu, 12 Jul 2018 10:35:40 -0700 (PDT)
+Received: from CO2PR05MB2503.namprd05.prod.outlook.com (10.166.95.149) by
+ CO2PR05MB2632.namprd05.prod.outlook.com (10.166.200.138) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.952.12; Thu, 12 Jul 2018 17:35:37 +0000
+Received: from CO2PR05MB2503.namprd05.prod.outlook.com
+ ([fe80::ece3:6e87:d1f:bd85]) by CO2PR05MB2503.namprd05.prod.outlook.com
+ ([fe80::ece3:6e87:d1f:bd85%10]) with mapi id 15.20.0952.008; Thu, 12 Jul 2018
+ 17:35:37 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=stoddardlawgroup.onmicrosoft.com; s=selector1-stoddardlawgroup-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=v6NQLS+g/ZzMBsLaCOxuP/VUMviwPYHjz/axgNGryf4=;
+ b=IKG1xBO0dH7Xkf738tpmQdCOwtzzK6eM2MADcXIbv1aA0pd8ofvwp0SCWgwc9WrwPRgDnSzxmoHTv2d1x7tyfflNW/lHWaYHMzrAeKJJeebQAHAebH1cPBGoqp+qCAMqfrmSEPROjSqKZOxCNBNWWabYk23e0jRRc6FpHkHFMPs=
+From: Allie Stoddard <allie@stoddardlawgroup.com>
+To: Mahsa Jaeger <mahsajune@gmail.com>
+CC: 'Sam Tehranchi' <sam@c-mtg.com>
+Subject: Properties
+Thread-Topic: Properties
+Thread-Index: AdQaBmXnhqAUUzoOSg2202HFB6vPlQ==
+Date: Thu, 12 Jul 2018 17:35:37 +0000
+Message-ID:<CO2PR05MB2503B4207ECF56E7EC7FB731C2590@CO2PR05MB2503.namprd05.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [184.103.153.36]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;CO2PR05MB2632;7:KtqhnicUx8EPKr8kTbVFSSa6AQVUtvKlKaHIceVzthFV+km6jws0rRtLsVNmJWrGC/WcXpjw705M0pGd0+09dlUfYzLtKgPWdVAaWrFxl1MNgO7uhItpAbE9q0SAMJmOpZZhYXNP5+SA8rZEsrxcteZy8QCiW0TLeMpZfUybSSKRiwJzgJbNry2IzQO43Jp0xP/SuBAdNsl5Iv1rU1YTw28CwuawlwNY4IIw8D1MyZRsf+ZvPb3J8NvtXsEnkz+N
+x-ms-exchange-antispam-srfa-diagnostics: SOS;
+x-ms-office365-filtering-correlation-id: cf72376b-5169-44d3-aa79-08d5e81de194
+x-microsoft-antispam: UriScan:(223705240517415);BCL:0;PCL:0;RULEID:(7020095)(4652040)(7021125)(8989117)(5600053)(711020)(4534165)(7022125)(4603075)(4627221)(201702281549075)(8990107)(7048125)(7024125)(7027125)(7028125)(7023125)(2017052603328)(7153060)(7193020);SRVR:CO2PR05MB2632;
+x-ms-traffictypediagnostic: CO2PR05MB2632:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=allie@stoddardlawgroup.com; 
+x-microsoft-antispam-prvs: <CO2PR05MB2632D50CC485E0A92511ABC8C2590@CO2PR05MB2632.namprd05.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(28532068793085)(223705240517415)(21748063052155);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(6040522)(2401047)(5005006)(8121501046)(10201501046)(3231311)(944501410)(52105095)(93006095)(93001095)(3002001)(149027)(150027)(6041310)(2016111802025)(20161123560045)(20161123564045)(20161123558120)(20161123562045)(6043046)(6072148)(201708071742011)(7699016);SRVR:CO2PR05MB2632;BCL:0;PCL:0;RULEID:;SRVR:CO2PR05MB2632;
+x-forefront-prvs: 0731AA2DE6
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(376002)(346002)(39830400003)(396003)(136003)(366004)(189003)(199004)(40784002)(221733001)(33656002)(53936002)(476003)(316002)(486006)(99286004)(81156014)(8676002)(105586002)(26005)(102836004)(14444005)(106356001)(5024004)(6506007)(186003)(81166006)(7696005)(256004)(68736007)(4326008)(74316002)(2900100001)(39060400002)(66066001)(8936002)(3480700004)(25786009)(7736002)(3846002)(55016002)(6306002)(54896002)(478600001)(790700001)(6116002)(97736004)(6916009)(9686003)(14454004)(1411001)(7116003)(86362001)(6436002)(5660300001)(2906002)(5250100002);DIR:OUT;SFP:1102;SCL:1;SRVR:CO2PR05MB2632;H:CO2PR05MB2503.namprd05.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;MX:1;A:1;
+Received-SPF: none (zoho.com: 40.107.68.115 is neither permitted nor denied by domain of stoddardlawgroup.com) client-ip=40.107.68.115; envelope-from=allie@stoddardlawgroup.com; helo=NAM04-BN3-obe.outbound.protection.outlook.com;
+received-spf: None (protection.outlook.com: stoddardlawgroup.com does not
+ designate permitted sender hosts)
+x-microsoft-antispam-message-info: 1vMVvOff24G0sLvZipp3Bdu7q6j2IBBNJ4LWQt56qpKFH9CLLn7DkCJpT0sqYohNVunpv1UHY6j2HnZk6iRvBGAHlDicFTIFp9SdyLONVEUnMcKLfZdb5nAxrDJXrz0fjny+UK+ql94n4SYRgNwzy1r2z1q+yCFpkkX8+DEWc3+x/zdtQDTrpFAfcfWN37fOS18ATGzs9GWF2w0PWKPCiZo5YgIllLfHKn7RyF+sQ7IZj8bleAuh3tJQCTKXBCCxw6HNhIoWXx766R2kC2fMJb2pkNwVHJqAnK76lb4+/MoMOERzoYnziwdL5DR0Xtvu53OrttTHjK4t4AEDRWdPYwUWwNhw05fPyr/g3W+srO8=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_CO2PR05MB2503B4207ECF56E7EC7FB731C2590CO2PR05MB2503namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: stoddardlawgroup.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: cf72376b-5169-44d3-aa79-08d5e81de194
+X-MS-Exchange-CrossTenant-originalarrivaltime: 12 Jul 2018 17:35:37.6643
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: f070c990-cc1c-41fc-8169-d8abd08575bf
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO2PR05MB2632
+X-ZohoMail-DKIM: pass (identity @stoddardlawgroup.onmicrosoft.com)
+X-ZohoMail: RDKM_0  RSF_4  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_1 S_167 FRD_NDS
+X-ZM-MESSAGEID: 1531416942277100001
+X-ZohoMail-Status: 1
+
+
+--_000_CO2PR05MB2503B4207ECF56E7EC7FB731C2590CO2PR05MB2503namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Can one of you pull the property deed on the home randall is living in and =
+the one he just moved out of to show who is owning both?  You can get them =
+from the Maricopa County Recorders website.
+
+Cordially,
+Allie Stoddard
+Stoddard Law Group, P.C.
+2375 E Camelback Road, Suite 600
+Phoenix, Arizona 85016
+T- 602.635.3100
+F- 602.635.3184
+
+Legal Notice: This email and attachments are intended for use only by the i=
+ndividual(s) to whom they are specifically addressed and may contain inform=
+ation that is privileged and confidential.  Review, use, dissemination, dis=
+tribution or copying of the information contained in this email is strictly=
+ prohibited unless you are the intended recipient and/or the employee or ag=
+ent responsible for delivering this message to the intended recipient.  If =
+you have received this email in error or without authorization, please info=
+rm the author at the above address and delete this email from your computer=
+.  If this email is of settlement in nature, the document transmitted on th=
+e condition it is subject to Rule 408 of the Arizona Rules of Evidence.
+
+
+--_000_CO2PR05MB2503B4207ECF56E7EC7FB731C2590CO2PR05MB2503namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Can one of you pull the property deed on the home ra=
+ndall is living in and the one he just moved out of to show who is owning b=
+oth?&nbsp; You can get them from the Maricopa County Recorders website.<o:p=
+></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Cordially,<o:p></o:p></p>
+<p class=3D"MsoNormal">Allie Stoddard<o:p></o:p></p>
+<p class=3D"MsoNormal">Stoddard Law Group, P.C.<o:p></o:p></p>
+<p class=3D"MsoNormal">2375 E Camelback Road, Suite 600<o:p></o:p></p>
+<p class=3D"MsoNormal">Phoenix, Arizona 85016<o:p></o:p></p>
+<p class=3D"MsoNormal">T- 602.635.3100<o:p></o:p></p>
+<p class=3D"MsoNormal">F- 602.635.3184<o:p></o:p></p>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal">Legal Notice: This email and attachments are intende=
+d for use only by the individual(s) to whom they are specifically addressed=
+ and may contain information that is privileged and confidential.&nbsp; Rev=
+iew, use, dissemination, distribution or
+ copying of the information contained in this email is strictly prohibited =
+unless you are the intended recipient and/or the employee or agent responsi=
+ble for delivering this message to the intended recipient.&nbsp; If you hav=
+e received this email in error or without
+ authorization, please inform the author at the above address and delete th=
+is email from your computer.&nbsp; If this email&nbsp;is of settlement in n=
+ature, the document transmitted on the condition it is subject to Rule 408 =
+of the Arizona Rules of Evidence.<span style=3D"font-size:8.0pt;font-family=
+:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_CO2PR05MB2503B4207ECF56E7EC7FB731C2590CO2PR05MB2503namp_--

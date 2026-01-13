@@ -1,0 +1,329 @@
+Delivered-To: sam@c-mtg.com
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=@nationwide.com;
+	spf=pass (zoho.com: domain of nationwide.com designates 155.188.167.217 as permitted sender)  smtp.mailfrom=prvs=7228d2603=nancy.wilson@nationwide.com
+Received: from blackagar.nationwide.com (blackagar.nationwide.com [155.188.167.217]) by mx.zohomail.com
+	with SMTPS id 1531254493900963.1090620031606; Tue, 10 Jul 2018 13:28:13 -0700 (PDT)
+Received: from npapecs0006.nwie.net ([10.93.150.40])
+  by blackagar.nationwide.com with ESMTP; 10 Jul 2018 16:28:12 -0400
+Received: from unknown (HELO ohlewemp0002n2.nwie.net) ([10.94.150.0])
+  by npapecs0006.nwie.net with ESMTP; 10 Jul 2018 16:28:12 -0400
+Received: from ohlewemp0002n2.nwie.net (10.93.150.2) by
+ ohlewemp0002n2.nwie.net (10.93.150.2) with Microsoft SMTP Server (TLS) id
+ 15.0.1367.3; Tue, 10 Jul 2018 16:28:11 -0400
+Received: from nwvme0002.nwideweb.net (10.93.22.6) by OHLEWEMP0002N2
+ (10.93.150.2) with Microsoft SMTP Server (TLS) id 15.0.1367.3 via Frontend
+ Transport; Tue, 10 Jul 2018 16:28:11 -0400
+Received: from NAM04-BN3-obe.outbound.protection.outlook.com (216.32.180.113)
+ by nwedge2.nationwide.com (10.93.22.6) with Microsoft SMTP Server (TLS) id
+ 15.0.1367.3; Tue, 10 Jul 2018 16:28:11 -0400
+Received: from DM6PR07MB4809.namprd07.prod.outlook.com (20.176.81.10) by
+ DM6PR07MB4956.namprd07.prod.outlook.com (20.176.106.77) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.952.17; Tue, 10 Jul 2018 20:28:10 +0000
+Received: from DM6PR07MB4809.namprd07.prod.outlook.com
+ ([fe80::c457:abaf:1ae0:d36b]) by DM6PR07MB4809.namprd07.prod.outlook.com
+ ([fe80::c457:abaf:1ae0:d36b%2]) with mapi id 15.20.0930.022; Tue, 10 Jul 2018
+ 20:28:10 +0000
+Return-Path: <prvs=7228d2603=nancy.wilson@nationwide.com>
+Return-Path: nancy.wilson@nationwide.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  d=nationwide.com; i=@nationwide.com; l=8460; q=dns/txt;
+  s=columbus.ohio; t=1531254493; x=1562790493;
+  h=from:to:cc:subject:thread-topic:thread-index:date:
+   message-id:references:in-reply-to:accept-language:
+   content-language:x-ms-has-attach:x-ms-tnef-correlator:
+   authentication-results:x-originating-ip:
+   x-ms-publictraffictype:x-microsoft-exchange-diagnostics:
+   x-ms-exchange-antispam-srfa-diagnostics:
+   x-ms-office365-filtering-correlation-id:
+   x-microsoft-antispam:x-ms-traffictypediagnostic:
+   x-microsoft-antispam-prvs:x-exchange-antispam-report-test:
+   x-ms-exchange-senderadcheck:
+   x-exchange-antispam-report-cfa-test:x-forefront-prvs:
+   x-forefront-antispam-report:received-spf:
+   x-microsoft-antispam-message-info:spamdiagnosticoutput:
+   spamdiagnosticmetadata:content-type:mime-version:
+   x-ms-exchange-crosstenant-network-message-id:
+   x-ms-exchange-crosstenant-originalarrivaltime:
+   x-ms-exchange-crosstenant-fromentityheader:
+   x-ms-exchange-crosstenant-id:
+   x-ms-exchange-transport-crosstenantheadersstamped;
+  bh=/qgUwqq2TxAdAbunUj7LHZ57w05NQYao6ROsbCZUBRg=;
+  b=D5zbIj13q3J2W3WzR/ZKZoLbjdPT/67UL2eVgEHM8IYLbIvdiu/o38gb
+   JnSvbcKUTfxwVUL9NKEQFisQhjgdbg==;
+From: "Wilson, Nancy" <nancy.wilson@nationwide.com>
+To: Followers of Ramirez-CA-Short-Sale-Loan-Mod <eve@c-mtg.com>
+CC: Sam Tehranchi <sam@c-mtg.com>, "margaretrabon@aol.com"
+	<margaretrabon@aol.com>
+Subject: Re: 55830753; RIVERWALK ENTERPRISES LLC
+Thread-Topic: 55830753; RIVERWALK ENTERPRISES LLC
+Thread-Index: AQHUGIswODPQD6DefU+sNXKAs1c/dqSI5jgTgAABsZY=
+Date: Tue, 10 Jul 2018 20:28:09 +0000
+Message-ID:<DM6PR07MB4809A0B97C00E4E1DE80DF96EC5B0@DM6PR07MB4809.namprd07.prod.outlook.com>
+References: <SN6PR10MB2493B609EEA3074A5C31765DE15B0@SN6PR10MB2493.namprd10.prod.outlook.com>,<DM6PR07MB4809166ED3093B1649636677EC5B0@DM6PR07MB4809.namprd07.prod.outlook.com>
+In-Reply-To: <DM6PR07MB4809166ED3093B1649636677EC5B0@DM6PR07MB4809.namprd07.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=nancy.wilson@nationwide.com; 
+x-originating-ip: [155.188.183.27]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;DM6PR07MB4956;7:sMAAOeEJ/i5NJZLcuw1Vrpucyn5M00tgSlVXgniqfpKHQDPP4YjfY2H6a35VYADa72Dw1hlD6NZxUq/b1g5vHkXRlfQwKbyvGvcduqybw9MNit4pzzztZSzFLAwXqISE8F7M+2STFHTdRa9dvoVHNYZHscPMuwJ2Eqjdy2Iwadbu7LPHyjOYX9aEVZibtCKdYgMr1fRUQlvlp69okO/2vyi2wNSks5ydNJDbm9pxHlX4OegikLijmNgiONLjMF1H;20:drcedRh99IynjCNh+DoUNSU6drcrkHBCk+jJrj7LlHdrr9plq5KyA5eRfuXVcaDSKiYDiPWgMmUPq95jZu95AMcep110/hXjoPdXQ+xZhpDNJjk16lS4eGVkpxGdsli5EmKHO2fa3zCWImEgHMnfL5uqp08TdZo91L2kRyDlb6Nzpnje1SRbM4z+SAQFtTiMq1i3ahM1R+eEwLLtBRMqM+igBA1SjXaN8s9GDqKAMsaWNjVGEvCj45qj0jWXnWcfLmjkbY2bUp/Hu6PRRYt9u6lkZuW6Th9iZqrtY/mAlBCAG+xEjijNB+DPrzEFRQ7moXiyp9GluaFkIMzElEEEO3TWzJ8ArS+e46sFwP96MpU7UIU6S+XcoZcC8zvYig5/QlBGeKHg2j2lx1oBi4ZBTKRKjIGqfdm8M3z/x3ZT1IyLY+8SVCUOn5WxmaZjJjO5zjxCSyWHwqCIqEs9AtnZgXH1f+8eMpwX2EkDkE3huNoOOHv5jVeJ6r5YAZzgYNhx
+x-ms-exchange-antispam-srfa-diagnostics: SOS;
+x-ms-office365-filtering-correlation-id: c7c62c75-62c7-45c1-6c63-08d5e6a3a718
+x-microsoft-antispam: UriScan:(223705240517415);BCL:0;PCL:0;RULEID:(7020095)(4652040)(8989117)(5600053)(711020)(4534165)(4627221)(201703031133081)(201702281549075)(8990107)(2017052603328)(7153060)(7193020);SRVR:DM6PR07MB4956;
+x-ms-traffictypediagnostic: DM6PR07MB4956:
+x-microsoft-antispam-prvs: <DM6PR07MB495610FA10AE5EB13B1FC9F2EC5B0@DM6PR07MB4956.namprd07.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(149059832740258)(192374486261705)(61388531626910)(223705240517415);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(6040522)(2401047)(5005006)(8121501046)(10201501046)(3002001)(3231311)(944501410)(52105095)(93006095)(93001095)(149027)(150027)(6041310)(20161123564045)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(20161123560045)(20161123558120)(20161123562045)(6072148)(201708071742011)(7699016);SRVR:DM6PR07MB4956;BCL:0;PCL:0;RULEID:;SRVR:DM6PR07MB4956;
+x-forefront-prvs: 0729050452
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(376002)(39860400002)(136003)(396003)(346002)(366004)(38314003)(199004)(189003)(61754003)(252514010)(7116003)(5660300001)(39060400002)(53386004)(6246003)(229853002)(7736002)(10126004)(33656002)(4326008)(19627405001)(3846002)(6116002)(81156014)(476003)(8936002)(486006)(81166006)(478600001)(97736004)(102836004)(99286004)(11346002)(8676002)(14444005)(105586002)(66066001)(106356001)(53936002)(446003)(186003)(256004)(6606003)(14454004)(5024004)(2900100001)(68736007)(236005)(316002)(74316002)(2940100002)(6916009)(26005)(6306002)(54896002)(55016002)(2906002)(76176011)(7696005)(9686003)(53546011)(6506007)(86362001)(25786009)(54906003)(6436002)(5250100002)(606006)(15974865002)(217873001);DIR:OUT;SFP:1101;SCL:1;SRVR:DM6PR07MB4956;H:DM6PR07MB4809.namprd07.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;A:1;MX:1;
+Received-SPF: pass (zoho.com: domain of nationwide.com designates 155.188.167.217 as permitted sender) client-ip=155.188.167.217; envelope-from=prvs=7228d2603=nancy.wilson@nationwide.com; helo=blackagar.nationwide.com;
+received-spf: None (protection.outlook.com: nationwide.com does not designate
+ permitted sender hosts)
+x-microsoft-antispam-message-info: OWOdLWbF8vLIv3KWGgj9fOm1ga5wpVZwiVSt+Y9qpY9LiHvhJDdvJIFBtH7P+Q2jfylOKnFzK+wgTs21iCGP0Dkf7yetiJ/LNhnKiF3d4SUoBG7+ijK4wibMnMjYuWhxpaXzG18CYqj/ajwgZJ9Lk2tn62xdBOEPDy359QHuTXZ+zU8q/q6J0/SB8BC9jnAN94dHF4oNz5vXCWsLfJU59jziWV5+O1VW0et0dAEfKO1b/h3IL7njLoDQupgy7b5RAjvkiCvz6s7hJtpW4bmfZwNU0G4FWdG4ruaVodY+35sYSkXtwNSnHY+4H+6+ZAh4lz1655/czwlp/Ijj3MEo2agHCGlVUwY3egFo4zViDrM=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR07MB4809A0B97C00E4E1DE80DF96EC5B0DM6PR07MB4809namp_"
+MIME-Version: 1.0
+X-MS-Exchange-CrossTenant-Network-Message-Id: c7c62c75-62c7-45c1-6c63-08d5e6a3a718
+X-MS-Exchange-CrossTenant-originalarrivaltime: 10 Jul 2018 20:28:09.8765
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 22140e4c-d390-45c2-b297-a26c516dc461
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM6PR07MB4956
+X-ZohoMail-DKIM: pass (identity @nationwide.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_1 S_166
+X-ZM-MESSAGEID: 1531254494855100001
+X-ZohoMail-Status: 1
+
+
+--_000_DM6PR07MB4809A0B97C00E4E1DE80DF96EC5B0DM6PR07MB4809namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+thanks sooo much
+
+________________________________
+From: Wilson, Nancy
+Sent: Tuesday, July 10, 2018 4:22:48 PM
+To: Followers of Ramirez-CA-Short-Sale-Loan-Mod
+Cc: Sam Tehranchi; margaretrabon@aol.com
+Subject: Fw: 55830753; RIVERWALK ENTERPRISES LLC
+
+
+
+
+________________________________
+From: Nicole Maxwell <Nicole.Maxwell@appund.com>
+Sent: Tuesday, July 10, 2018 4:18 PM
+To: Wilson, Nancy
+Subject: [EXTERNAL] 55830753; RIVERWALK ENTERPRISES LLC
+
+Nationwide Information Security Warning: This is an external email. Do not =
+click on links or open attachments unless you trust the sender.
+---------------------------------------------------------------------------=
+---
+
+Hi, Nancy!
+
+Please see the attached endorsement for the above referenced insured. If th=
+ere's anything else I can help
+you with, please don't hesitate to contact me.
+
+It was a pleasure speaking with you, and I hope you have a wonderful rest o=
+f your day.
+
+Nicole Maxwell
+Underwriter Assistant  - Personal Lines
+FLOOD IS HERE -Quote our new Flood Program in under 2 Minutes, CLICK HERE
+
+Appalachian Underwriters, Inc.
+800 Oak Ridge Turnpike, Suite A-1000
+Oak Ridge, TN 37830
+Phone:  865-425-1096
+Fax: 866-206-2343
+Website:  www.appund.com<http://www.appund.com>
+
+appund.com - Appalachian Underwriters<http://www.appund.com/>
+www.appund.com
+Not Already a Member? Get Appointed/Contact Marketing. ABOUT US. PRODUCT GU=
+IDE
+
+
+
+Email: nicole.maxwell@appund.com
+Office Hours:  8:00 AM - 5:00 PM EDT
+
+Earn an extra $10 on eligible policies with our new Agent Advantage Rewards=
+ Card program. Ask me for
+details or register at www.auiagents.com<http://www.auiagents.com> under Ag=
+ent Advantage.
+
+How is my service? Let my manager know at tagge.stroom@appund.com
+
+This email message contains confidential and privileged information and is =
+for the sole use of the intended recipient(s). Any unauthorized review, use=
+, disclosure or distribution is prohibited. If you are not the intended rec=
+ipient, please contact the sender by reply email and destroy all copies of =
+the original message. All email may be monitored for quality of service.
+
+--_000_DM6PR07MB4809A0B97C00E4E1DE80DF96EC5B0DM6PR07MB4809namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<style type=3D"text/css" style=3D"display:none;"><!-- P {margin-top:0;margi=
+n-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt;color:#000000;font=
+-family:Calibri,Helvetica,sans-serif;" dir=3D"ltr">
+<p style=3D"margin-top: 0px; margin-bottom: 0px;">thanks sooo much<br>
+</p>
+</div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>From:</b> Wilson, Nancy<br>
+<b>Sent:</b> Tuesday, July 10, 2018 4:22:48 PM<br>
+<b>To:</b> Followers of Ramirez-CA-Short-Sale-Loan-Mod<br>
+<b>Cc:</b> Sam Tehranchi; margaretrabon@aol.com<br>
+<b>Subject:</b> Fw: 55830753; RIVERWALK ENTERPRISES LLC</font>
+<div>&nbsp;</div>
+</div>
+<meta content=3D"text/html; charset=3Diso-8859-1">
+<style type=3D"text/css" style=3D"display:none">
+<!--
+p
+	{margin-top:0;
+	margin-bottom:0}
+-->
+</style>
+<div dir=3D"ltr">
+<div id=3D"x_divtagdefaultwrapper" dir=3D"ltr" style=3D"font-size:12pt; col=
+or:#000000; font-family:Calibri,Helvetica,sans-serif">
+<p style=3D"margin-top:0px; margin-bottom:0px"><br>
+</p>
+<br>
+<br>
+<div style=3D"color:rgb(0,0,0)">
+<hr tabindex=3D"-1" style=3D"width:98%; display:inline-block">
+<div id=3D"x_divRplyFwdMsg" dir=3D"ltr"><font color=3D"#000000" face=3D"Cal=
+ibri, sans-serif" style=3D"font-size:11pt"><b>From:</b> Nicole Maxwell &lt;=
+Nicole.Maxwell@appund.com&gt;<br>
+<b>Sent:</b> Tuesday, July 10, 2018 4:18 PM<br>
+<b>To:</b> Wilson, Nancy<br>
+<b>Subject:</b> [EXTERNAL] 55830753; RIVERWALK ENTERPRISES LLC</font>
+<div>&nbsp;</div>
+</div>
+<div class=3D"x_BodyFragment"><font size=3D"2"><span style=3D"font-size:11p=
+t">
+<div class=3D"x_PlainText">Nationwide Information Security Warning: This is=
+ an external email. Do not click on links or open attachments unless you tr=
+ust the sender.<br>
+---------------------------------------------------------------------------=
+---<br>
+<br>
+Hi, Nancy!<br>
+<br>
+Please see the attached endorsement for the above referenced insured. If th=
+ere's anything else I can help
+<br>
+you with, please don't hesitate to contact me. <br>
+<br>
+It was a pleasure speaking with you, and I hope you have a wonderful rest o=
+f your day.
+<br>
+<br>
+Nicole Maxwell<br>
+Underwriter Assistant&nbsp; - Personal Lines<br>
+FLOOD IS HERE -Quote our new Flood Program in under 2 Minutes, CLICK HERE <=
+br>
+<br>
+Appalachian Underwriters, Inc.<br>
+800 Oak Ridge Turnpike, Suite A-1000<br>
+Oak Ridge, TN 37830<br>
+Phone:&nbsp; 865-425-1096<br>
+Fax: 866-206-2343<br>
+Website:&nbsp; <a class=3D"x_OWAAutoLink" id=3D"LPlnk356446" href=3D"http:/=
+/www.appund.com">
+www.appund.com</a>
+<p></p>
+<div id=3D"LPBorder_GT_15312541201470.29599314431429885" style=3D"width:100=
+%; text-indent:0px; overflow:auto; margin-bottom:20px; display:inline-block=
+">
+<table id=3D"LPContainer_15312541201470.16754830175402568" cellspacing=3D"0=
+" style=3D"width:90%; overflow:auto; padding-top:20px; padding-bottom:20px;=
+ margin-top:20px; border-top-color:rgb(200,200,200); border-bottom-color:rg=
+b(200,200,200); border-top-width:1px; border-bottom-width:1px; border-top-s=
+tyle:dotted; border-bottom-style:dotted; background-color:rgb(255,255,255)"=
+>
+<tbody>
+<tr valign=3D"top" style=3D"border-spacing:0px">
+<td id=3D"x_TextCell_15312541201470.11314411038612987" colspan=3D"2" style=
+=3D"padding:0px; vertical-align:top; display:table-cell">
+<div id=3D"LPRemovePreviewContainer_15312541201470.030588845216500293" styl=
+e=3D"float:right">
+</div>
+<div id=3D"LPTitle_15312541201470.22133998221671253" style=3D"top:0px; colo=
+r:rgb(17,111,160); line-height:21px; font-family:&quot;wf_segoe-ui_light&qu=
+ot;,&quot;Segoe UI Light&quot;,&quot;Segoe WP Light&quot;,&quot;Segoe UI&qu=
+ot;,&quot;Segoe WP&quot;,Tahoma,Arial,sans-serif; font-size:21px; font-weig=
+ht:400">
+<a id=3D"LPUrlAnchor_15312541201470.6651203960252761" href=3D"http://www.ap=
+pund.com/" target=3D"_blank" style=3D"text-decoration:none">appund.com - Ap=
+palachian Underwriters</a></div>
+<div id=3D"LPMetadata_15312541201470.4020083647684467" style=3D"margin:10px=
+ 0px 16px; color:rgb(102,102,102); line-height:14px; font-family:&quot;wf_s=
+egoe-ui_normal&quot;,&quot;Segoe UI&quot;,&quot;Segoe WP&quot;,Tahoma,Arial=
+,sans-serif; font-size:14px; font-weight:400">
+www.appund.com</div>
+<div id=3D"LPDescription_15312541201470.8238179829358017" style=3D"color:rg=
+b(102,102,102); line-height:20px; overflow:hidden; font-family:&quot;wf_seg=
+oe-ui_normal&quot;,&quot;Segoe UI&quot;,&quot;Segoe WP&quot;,Tahoma,Arial,s=
+ans-serif; font-size:14px; font-weight:400; display:block; max-height:100px=
+">
+Not Already a Member? Get Appointed/Contact Marketing. ABOUT US. PRODUCT GU=
+IDE</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<br>
+<br>
+Email: nicole.maxwell@appund.com<br>
+Office Hours:&nbsp; 8:00 AM - 5:00 PM EDT<br>
+<br>
+Earn an extra $10 on eligible policies with our new Agent Advantage Rewards=
+ Card program. Ask me for
+<br>
+details or register at <a class=3D"x_OWAAutoLink" id=3D"LPlnk886628" href=
+=3D"http://www.auiagents.com">
+www.auiagents.com</a> under Agent Advantage.<br>
+<br>
+How is my service? Let my manager know at tagge.stroom@appund.com<br>
+<br>
+This email message contains confidential and privileged information and is =
+for the sole use of the intended recipient(s). Any unauthorized review, use=
+, disclosure or distribution is prohibited. If you are not the intended rec=
+ipient, please contact the sender
+ by reply email and destroy all copies of the original message. All email m=
+ay be monitored for quality of service.</div>
+</span></font></div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_DM6PR07MB4809A0B97C00E4E1DE80DF96EC5B0DM6PR07MB4809namp_--

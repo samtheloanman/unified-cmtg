@@ -1,0 +1,371 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: none (zoho.com: 209.85.192.174 is neither permitted nor denied by domain of starinc.org) client-ip=209.85.192.174; envelope-from=regaccounts@starinc.org; helo=mail-pf0-f174.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=none (zoho.com: 209.85.192.174 is neither permitted nor denied by domain of starinc.org)  smtp.mailfrom=regaccounts@starinc.org
+Received: from mail-pf0-f174.google.com (mail-pf0-f174.google.com [209.85.192.174]) by mx.zohomail.com
+	with SMTPS id 1530897131455398.1743775436714; Fri, 6 Jul 2018 10:12:11 -0700 (PDT)
+Received: by mail-pf0-f174.google.com with SMTP id y8-v6so8932080pfm.10
+        for <sam@c-mtg.com>; Fri, 06 Jul 2018 10:12:11 -0700 (PDT)
+Return-Path: <regaccounts@starinc.org>
+Return-Path: <regaccounts@starinc.org>
+Received: from checkout16.starinc.org (ec2-54-67-105-19.us-west-1.compute.amazonaws.com. [54.67.105.19])
+        by smtp.gmail.com with ESMTPSA id n83-v6sm3318028pfk.19.2018.07.06.10.12.08
+        for <sam@c-mtg.com>
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 06 Jul 2018 10:12:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=starinc-org.20150623.gappssmtp.com; s=20150623;
+        h=message-id:date:subject:from:to:mime-version
+         :content-transfer-encoding;
+        bh=XAp1zpbs/SXsXiXBEZEykEhDZuytB6+EgFjkc4XFIjY=;
+        b=TOL677XOtKjxWlibhZe2rAtmSnp2htFR7SDBVIvW9cF0IiRAVcOy95pCXHF6FFEWGr
+         ChpRjCV7mGs43ZnBnpE5NZgda/OoCL/1c+5EPN+/VWWYqP2JZQLEUe/O/RjUJQvZr+0z
+         xoWT4wjlrBKXu8wA1A3BYEtKNnhzrbhGhEwIxJDjRjlHoNF2DmNJsVI6usHp8zjzabzq
+         aG1x2rXrzaTAIcmYNMt4qm+zzy1cw45v4286UavHN4rBxt7gCzE98+f6zzoZ1MVziVQK
+         lqpVetWT9WCgbNCco5x8Mx/6FUlZwXU5kp8DomZNC7l2/jx4enouA/u+U9qimxAWKsAO
+         x2lg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:message-id:date:subject:from:to:mime-version
+         :content-transfer-encoding;
+        bh=XAp1zpbs/SXsXiXBEZEykEhDZuytB6+EgFjkc4XFIjY=;
+        b=X73A/Tfs54yN6cY1QBBSCwuvUktabbHbxUDRUa3G3UaONAVYILenZcu4CEOrIMaFfD
+         EJ0oJzyFuKaoQ7wHc6HJfsibXJxkDj+BKf0KWHIb4gDtcyLqSv6w2Do/lbiRbtdJCaOW
+         BtSHzKE4SBgfikMvkaM4G05p/He5h+uT28I5GNrDD3L1dYwAJGcEBGptbZSh2lv62vBx
+         7lpJ5a/xMwG5oVhyiTOVZm7Jeke/VW02vAkoVjLdyLaFCe9QuX5ZFD2x1a1LGJuSkrZ/
+         absFJiX9gl+IiTSqqiCGCaeXvS/R9nZ1ullwzejekJwy0T+N8HXZ/337znQl0EcsTwXm
+         STTw==
+X-Gm-Message-State: APt69E3AoD1NEi7T+zBapO9WVfXXvYa2/ySqFI0h4pjcghNQr20678Aw
+	y/w7IyuLJ5zJ8LlH+Gz53kBZQWkd
+X-Google-Smtp-Source: AAOMgpdpRSwaFBKOjVw0tV4ijg9QbmJYm6Kbd593Rfkm9o3jW0RMBkuYCfpvdTZMklLUqG8SBrRXJA==
+X-Received: by 2002:a65:4841:: with SMTP id i1-v6mr10005721pgs.75.1530897130140;
+        Fri, 06 Jul 2018 10:12:10 -0700 (PDT)
+Message-ID:<022213fbe5cb449db0e7dcd87c19b8c8@checkout16.starinc.org>
+Date: Fri, 06 Jul 2018 17:12:08 +0000
+Subject: STAR Invoice
+From: "Star Inc." <regaccounts@starinc.org>
+To: "Star Inc." <sam@c-mtg.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-ZohoMail-DKIM: pass (identity @starinc-org.20150623.gappssmtp.com)
+X-ZohoMail: RDKM_0  RSF_4  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_12 RF_0 S_166 FRD_DI
+X-ZM-MESSAGEID: 1530897133301000001
+X-ZohoMail-Status: 1
+
+
+<!DOCTYPE html>
+<html lang=3D"en">
+<head>
+=09<meta charset=3D"UTF-8">=
+
+=09<title>Star</title>
+=09<!-- <link href=3D"https://fonts.googleapis.=
+com/css?family=3DRoboto" rel=3D"stylesheet"> -->
+=09<style>
+           =
+     html,body{height: 100%;font-family: 'Roboto', sans-serif;}
+=09=09tab=
+le{border-collapse: collapse;}
+=09=09table, tr, td {border: 1px solid #dd=
+d;padding: 3px 3px;}
+=09=09table, tr, th {border: 1px solid #ddd;padding:=
+ 3px 3px;}
+=09</style>
+</head>
+<body style=3D"font-size: 12px;">
+<s=
+ection style=3D"width: 100%;float: left;">
+=09<div style=3D"display: bloc=
+k;width: 30%;position: relative;float: left;">
+               =20
+=09=09<=
+!-- header -->
+=09=09<header style=3D"margin: 0 auto;text-align: left;wid=
+th: 100%;float: left;">                   =20
+=09=09=09<img src=3D"https://=
+checkout16.starinc.org/star/public/assets/images/Logo_email.png" align=3D"l=
+ogo"  style=3D"width: 250px; height: auto;">
+=09=09</header>
+          =
+    <!--   <div style=3D"display: inline-block;width: 100%;">
+           =
+         <p>Thank you again for choosing STAR! Star Camps is excited to hav=
+e your child in our camps this summer. Below is a receipt for the charges f=
+or this summer. If you have any questions, or need to make any charges, fee=
+l free to respond to this email or write us at <a href=3D"mailto:registrati=
+on@starinc.org">registration@starinc.org</a>.</p>
+                    <p>=
+Please help STAR become even better by taking a very short survey about the=
+ summer camps & enrollment process. Click <a href=3D"https://www.surveymonk=
+ey.com/r/TB3C7GC" target=3D"_blank">HERE</a> to take the survey. Thanks aga=
+in!"</p>
+=09=09</div> -->
+=09</div>
+=09
+=09<div style=3D"display: b=
+lock;width: 70%;position: relative;float: right;text-align: right;">
+=09=
+=09=09<p style=3D"font-size:14pt;margin: 0;margin-bottom:10px;"><b>Student =
+Name:</b> Veda Tehranchi-Lazatin</p>
+            <p><b>Home School:</b> R=
+oscomare</p>
+=09</div>
+
+=09</section>
+=09<section style=3D"margin-b=
+ottom:20px;">
+        <div style=3D"clear: both;"></div>
+        <div s=
+tyle=3D"width: 100%;display: block;">
+            <div style=3D"text-alig=
+n: left;float: left;">
+               <label style=3D"font-weight: bold; =
+font-size: 18px;color:#6cc065;display: block;margin-top:10px;">STAR Summer =
+Camp</label>
+               <br>
+               <label style=3D"font-we=
+ight: bold; font-size: 18px;color:#6cc065;margin-bottom:10px;">Tax ID: 9544=
+30228</label>
+           </div>
+        </div>
+        <div style=3D"=
+clear: both;"></div>
+    </section>
+=09=09<!-- name section -->
+     =
+          =20
+<!--=09=09<div style=3D"border: 1px solid #ddd;padding: 20px;=
+margin-bottom: 20px;">
+=09=09=09<table style=3D"border: none;width: 90%;"=
+>
+=09=09=09=09<tr style=3D"border: none;">
+=09=09=09=09=09<td style=3D"=
+border: none;"><b>Student Name:</b></td>
+=09=09=09=09=09<td style=3D"bord=
+er: none;padding-left: 20px;">Veda Tehranchi-Lazatin</td>
+               =
+                         <td style=3D"border: none;"><b>Home School:</b></t=
+d>
+=09=09=09=09=09<td style=3D"border: none;padding-left: 20px;">Roscomar=
+e</td>
+=09=09=09=09</tr>
+=09=09=09=09<tr style=3D"border: none;">
+=09=
+=09=09=09=09<td style=3D"border: none;padding-left: 150px;"><b>Current Grad=
+e:</b></td>
+=09=09=09=09=09<td style=3D"border: none;padding-left: 20px;"=
+>2</td>
+=09=09=09=09=09<td style=3D"border: none;padding-left: 150px;"><b=
+>Fall 2018 Grade:</b></td>
+=09=09=09=09=09<td style=3D"border: none;paddi=
+ng-left: 20px;">2</td>
+=09=09=09=09</tr>
+=09=09=09=09<tr style=3D"borde=
+r: none;">
+=09=09=09=09=09<td style=3D"border: none;"><b>Age:</b></td>
+=
+                                        <td style=3D"border: none;padding-l=
+eft: 20px;">                                           Years</td>
+=09=09=
+=09=09</tr>
+=09=09=09</table>
+=09=09</div>-->
+=09=09<!-- table conten=
+t section -->
+=09=09=09<div style=3D"clear: both;"></div>
+             =
+           <!-- Enrolled Class sections -->
+            <!-- <section sty=
+le=3D"display: inline-block;width: 100%;margin-bottom: 10px;margin-top: 15p=
+x;">
+           =09=09<label style=3D"font-weight: bold;font-size: 16px; =
+text-align: left;">Enrolled Class</label>
+           </section> -->
+   =
+        <div style=3D"width: 100%;">
+               <label style=3D"text-=
+transform: uppercase;color:#6cc065;font-size: 14px;font-weight: 600;">enrol=
+lments</label>
+           </div>
+=09=09=09<table style=3D"width: 100%;"=
+>
+=09=09=09=09<tr colspan=3D"5">
+=09=09=09=09=09<td><b>Camp Name</b></t=
+d>
+=09=09=09=09=09<td><b>Camp Dates</b></td>
+=09=09=09=09=09<td><b>Loca=
+tion</b></td>
+=09=09=09=09=09<td><b>Fees/Extended Care</b></td>
+=09=09=
+=09=09=09<td><b>Discounts</b></td>
+=09=09=09=09=09<td><b>Due Amount</b></=
+td>
+=09=09=09=09=09<td><b>Due Now</b></td>
+=09=09=09=09</tr>
+        =
+                                                                           =
+      =20
+=09=09=09=09<tr>
+=09=09=09=09=09<td>Gardening: The Science of F=
+arm to Table</td>
+                                                       =
+                         <td>07-09-18 to<br> 07-13-18</td>
+              =
+                          <td>Fairburn</td>
+                             =
+                                                                           =
+                <td> =20
+                                                  =
+                              Class :- $325.00<br>
+                      =
+                                                          </td>
+         =
+                               <td> =20
+                                   =
+                                                                           =
+           </td>
+                                        =09=09=09=09=09<=
+td style=3D"text-align: right;">$325.00</td>
+=09=09=09=09=09<td style=3D"=
+text-align: right;">$325.00</td>
+=09=09=09=09</tr>
+                    =
+                                                                     =20
+=
+=09=09=09=09<tr>
+=09=09=09=09=09<td>Summer Registration Fees &amp; Summer=
+ Discounts</td>
+                                        =09=09=09=09=09<t=
+d>-</td>
+                                        <td>-</td>
+           =
+                                                                     =09=09=
+=09=09=09<td>$50.00</td>
+                                        <td>-</t=
+d>
+                                        =09=09=09=09=09<td style=3D"te=
+xt-align: right;">$50.00</td>
+=09=09=09=09=09<td style=3D"text-align: rig=
+ht;">$50.00</td>
+=09=09=09=09</tr>
+                                    =
+                                                          =20
+             =
+                 =20
+=09=09=09=09
+=09=09=09</table>
+=09=09=09<div style=
+=3D"width: 100%;margin-top: 20px;">
+=09=09=09=09<div style=3D"width: 100%=
+;">
+               =09=09=09<label style=3D"text-transform: uppercase;col=
+or:#6cc065;font-size: 14px;font-weight: 600;">payments</label>
+          =
+ =09=09=09</div>
+=09=09=09=09<div style=3D"width: 100%;float: left;">
+=
+=09=09=09=09=09<table style=3D"width: 100%;">
+=09=09=09=09=09=09<tr>=20
+ =
+                           <th style=3D"text-align: left;">Paid Amount</th>=
+
+=09=09=09=09=09=09=09<th style=3D"text-align: left;">Type</th>
+=09=09=
+=09=09=09=09=09<!-- <th style=3D"text-align: left;">Payment Mode</th> -->=
+
+=09=09=09=09=09=09=09<th style=3D"text-align: left;">#</th>
+=09=09=09=
+=09=09 =09=09<th style=3D"text-align: left;">Charged</th>
+=09=09=09=09=09=
+=09=09<th style=3D"text-align: left;">Payment date</th>
+=09=09=09=09=09=
+=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+                     =
+       <td style=3D"text-align:right;">$375.00</td>
+                     =
+       =09=09=09=09=09=09=09=09<td style=3D"text-align:right;">CARD</td>
+=
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td st=
+yle=3D"text-align:right;">9421</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09<!-- =09=09=09=09=09=09=09=09<td style=3D"text-align:right;">Payment<=
+/td>
+=09=09=09=09=09=09=09 -->
+=09=09=09=09=09=09=09<td style=3D"text-a=
+lign:right;">Y</td>
+=09=09=09=09=09=09=09<td style=3D"text-align:right;">=
+07/06/18</td>
+=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=
+</table>
+=09=09=09=09</div>
+=09=09=09=09<!-- <div style=3D"text-align: =
+right;width: 40%;float: left;margin-bottom: 50px;">
+=09=09=09=09=09<div s=
+tyle=3D"font-size: 16px;">
+=09=09=09=09=09=09<label style=3D"display: blo=
+ck; margin-bottom:10px;"><b>Total Fees: $375.00</b></label>
+=09=09=09=09=
+=09=09<label style=3D"display: block; margin-bottom:10px;"><b>Total Paid: $=
+375.00</b></label>
+=09=09=09=09=09=09<label style=3D"display: block;"><b>=
+Total Due: $0.00</b></label>
+=09=09=09=09=09</div>
+=09=09=09=09=09<div =
+style=3D"margin-top: 30px;">
+=09=09=09=09=09=09<label>STAR Camps</label>=
+
+=09=09=09=09=09=09<p style=3D"margin: 5px 0;">10101 Jefferson Blvd.</p>=
+
+=09=09=09=09=09=09<p style=3D"margin: 5px 0;">Culver City, CA 90232</p>=
+
+=09=09=09=09=09</div>
+=09=09=09=09</div> -->
+=09=09=09</div>
+=09=
+=09=09<div style=3D"text-align: center;width: 100%;font-size: 16px;">
+   =
+             <label style=3D""><b>Total Fees: $375.00</b></label>&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label style=3D""><b>Total Pai=
+d: $375.00</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              =
+  <label style=3D""><b>Total Due: $0.00</b></label>
+            </div>
+=
+            <div style=3D"padding:20px 0;">
+                <p>This summe=
+r we have an amazing lineup of educational and fun camps that your child wi=
+ll enjoy. <a href=3D"https://static1.squarespace.com/static/560ac7b8e4b07dc=
+30d2d872b/t/5b0dd0056d2a73f401028e6f/1527631929990/Welcome+Packet+2018+Fina=
+l.pdf" target=3D"_blank">CLICK HERE</a> for a welcome letter explaining all=
+ you need to know about your upcoming camps. If you have any questions at a=
+ny time, the quickest way to get a response is via email at camps@starinc.o=
+rg or feel free to call us at 310-842-8542.</p>
+                <p>Thanks=
+ again for choosing STAR!</p>
+            </div>           =20
+          =
+  <div style=3D"text-align: center;width: 100%;padding-top: 20px;">
+     =
+           <label style=3D"margin:0;display: block;">STAR EDUCATION</label>=
+
+                <label style=3D"margin:5px;">10101 Jefferson Blvd,</labe=
+l>
+                <label style=3D"margin: 0;">Culver City, CA 90232</lab=
+el>=20
+            </div>
+=09=09=09<!-- <div style=3D"margin-top: 10px;fo=
+nt-size: 16px;text-align: right;">
+=09=09=09=09<label style=3D"display: b=
+lock;"><b>Paid Amount:$ 375.00</b></label>
+=09=09=09</div> -->
+=09=09</=
+div>
+=09</section>
+</body>
+</html>

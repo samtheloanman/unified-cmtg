@@ -1,0 +1,652 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of envfrm.rsys5.com designates 199.7.202.218 as permitted sender) client-ip=199.7.202.218; envelope-from=odesk.51830@envfrm.rsys5.com; helo=omp.e.odesk.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=upwork@e.upwork.com;
+	spf=pass (zoho.com: domain of envfrm.rsys5.com designates 199.7.202.218 as permitted sender)  smtp.mailfrom=odesk.51830@envfrm.rsys5.com;
+	dmarc=pass(p=none dis=none)  header.from=e.upwork.com
+Return-Path: <odesk.51830@envfrm.rsys5.com>
+Received: from omp.e.odesk.com (omp.e.odesk.com [199.7.202.218]) by mx.zohomail.com
+	with SMTPS id 1531360356651784.1280836960049; Wed, 11 Jul 2018 18:52:36 -0700 (PDT)
+Received: by omp.e.odesk.com id h8qq682b610p for <sam@c-mtg.com>; Wed, 11 Jul 2018 18:52:35 -0700 (envelope-from <odesk.51830@envfrm.rsys5.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=upwork; d=e.upwork.com;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:To:From:Reply-To:
+ Subject:List-Unsubscribe:Message-ID; i=upwork@e.upwork.com;
+ bh=AHWPU2Lb3qOyn9A4/8F2ssWLqtozXkIGQjV99BBhBoY=;
+ b=M51b4e+urp3syUgsDVMnE6EVeUfFbcnZpE4YOLMqAcQxnT2mtfZEMGG+eaZXCPtQLdp4mdqVjsm1
+   VacvQ/icHd3UjpeY8KJldAoshhs9pVhQpdzdaUvhUW+6LDPkL2BBNvgRkCrxKscEg3PbiPaEbmKx
+   0W9653AyQA9IwANToAg=
+X-CSA-Complaints: whitelist-complaints@eco.de
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 11 Jul 2018 18:52:35 -0700
+To: sam@c-mtg.com
+From: =?ISO-8859-1?B?SW5zcGlyYXRpb24gZnJvbSBVcHdvcms=?= <upwork@e.upwork.com>
+Reply-To: =?ISO-8859-1?B?SW5zcGlyYXRpb24gZnJvbSBVcHdvcms=?= <reply@e.upwork.com>
+Subject: Koa.js: A Future-Proof JavaScript Middleware Framework, and more
+Feedback-ID: 51830:3432065:oraclersys
+List-Unsubscribe: <https://e.upwork.com/pub/optout/UnsubscribeOneStepConfirmAction?YES=true&_ri_=X0Gzc2X%3DYQpglLjHJlYQGzbfKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zgv97zdpS43Fj9zezanoozcLUBHNylOff&_ei_=EolaGGF4SNMvxFF7KucKuWOVdUf_s58AL-q5LZCQlL9DpAj7o1ZY9AWX7lANIQY_0uMu5g>, <mailto:unsubscribe-YQpglLjHJlYQGzbfKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zgv97zdpS43Fj9zezanoozcLUBHNylOff@imh.rsys5.com?subject=List-Unsubscribe>
+X-sgxh1: kHuxJqulnQJhu
+X-rext: 5.interact5.EqMdcZ8ZBQuXMDjLpPJygR6XR9TR0BdAOCgPKDFNDBZi1WUzrDVQghhXe37avPtwMM
+X-cid: odesk.3123225
+Message-ID:<0.1.146.CB6.1D419830128EA56.0@omp.e.odesk.com>
+X-ZohoMail-DKIM: pass (identity upwork@e.upwork.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_7 RF_0 S_166
+X-ZM-MESSAGEID: 1531360357473100001
+X-ZohoMail-Status: 1
+
+
+<=21DOCTYPE html PUBLIC =22-//W3C//DTD XHTML 1=2E0 Transitional//EN=22
+    =22http://www=2Ew3=2Eorg/TR/xhtml1/DTD/xhtml1-transitional=2Edtd=22>
+<html xmlns=3D=22http://www=2Ew3=2Eorg/1999/xhtml=22>
+    <head>
+        <meta content=3D=22text/html; charset=3Dutf-8=22 http-equiv=3D=22Co=
+ntent-Type=22 />
+        <meta content=3D=22width=3Ddevice-width, initial-scale=3D1=2E0=22 n=
+ame=3D=22viewport=22 />
+<title>Johnny, here are some ideas and inspiration for your business</title>
+        <=21--=5Bif =21mso=5D>
+        <link href=3D=22https://fonts=2Egoogleapis=2Ecom/css?family=3DMonts=
+errat:700=22 rel=3D=22stylesheet=22>
+        <=21=5Bendif=5D-->
+        <style type=3D=22text/css=22>
+        table, td =7B=20
+        mso-table-lspace: 0pt; mso-table-rspace: 0pt;=20
+        =7D
+
+        =40media only screen and (max-width: 580px) =7B
+        =2Ew100percent=7B
+        width:100% =21important; =20
+        min-width:100% =21important;
+        =7D
+
+=2Egreeting =7Bfont-size:24px =21important; =7D
+        =2Eac=7B
+        text-align:center =21important;  =20
+        =7D
+		=2Edn=7B
+		display:none =21important;=09
+		=7D
+		=2Edb=7B
+		display:block =21important;=09
+		width:100% =21important;
+		=7D
+		=2Epb0=7B
+		padding-bottom:0px =21important;
+		=7D
+		=2Epb10=7B
+		padding-bottom:10px =21important;
+		=7D
+		=2Eplr10=7B
+		padding-left:10px =21important;
+		padding-right:10px =21important;=09
+		=7D
+        =2Eios-links a=7B
+        color:=23a8a8a8 =21important;      =20
+        text-decoration:none =21important;
+        =7D
+        =7D
+      =20
+        </style>
+    </head>
+    <body style=3D=22margin:0px; padding:0px; background-color:=23f2f2f2;=
+=22>
+ <span style=3D=22font-size: 1px; line-height: 1px;color: =23f0f0f0; displa=
+y:none =21important;=22>Johnny, here are this week's ideas and inspiration =
+for your business=2E</span>
+
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22 bgcolor=3D=22=23f2f2f2=22>
+  <tbody>
+    <tr>
+      <td border=3D=220=22 align=3D=22center=22 style=3D=22padding-left:0px=
+; padding-right:0px;=22><table width=3D=22608=22 border=3D=220=22 cellspaci=
+ng=3D=220=22 cellpadding=3D=220=22 class=3D=22w100percent=22>
+  <tbody>
+    <tr>
+      <td align=3D=22center=22 style=3D=22padding-top:15px; padding-bottom:=
+25px;=22><a href=3D=22https://e=2Eupwork=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpg=
+lLjHJlYQGzbfKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zgv97zdpS43Fj9zezanoozc=
+LUBHNylOffVXtpKX%3DYTYSCY&_ei_=3DEolaGGF4SNMvxFF7KucKuWOVdUf_s58AL-q5LZCQlL=
+9DpAj7o1ZY9AWX7lANIQY_0uMu5g=2E=22><img src=3D=22https://static=2Ecdn=2Eres=
+ponsys=2Enet/i5/responsysimages/content/odesk/CL_onboarding_upwork_logo=2Ep=
+ng=22 width=3D=22104=22 height=3D=2230=22  alt=3D=22Upwork=22 style=3D=22wi=
+dth:104px; height:30px;=22 border=3D=220=22/></a></td>
+    </tr>
+    <tr>
+      <td border=3D=220=22><table width=3D=22100%=22 border=3D=220=22 cells=
+pacing=3D=220=22 cellpadding=3D=220=22>
+        <tbody>
+          <tr>
+            <td><table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=
+=220=22 cellpadding=3D=220=22>
+              <tbody>
+                <tr>
+              =20
+ =20
+                  <td bgcolor=3D=22=23FFFFFF=22 style=3D=22padding-top:40px=
+;=22 width=3D=22600=22 valign=3D=22top=22><table width=3D=22100%=22 border=
+=3D=220=22 cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=220=22>
+  <tbody>
+    <tr>
+      <td style=3D=22padding-bottom:40px; font-family: 'Montserrat', Helvet=
+ica, Arial, sans-serif; font-weight:700; font-size:24px; line-height:30px;c=
+olor:=23494949;  padding-left:30px; padding-right:30px;=22 align=3D=22cente=
+r=22 class=3D=22ac=22>Ideas and inspiration for your business</td>
+    </tr>
+<tr>
+<td style=3D=22padding-bottom:40px=22><div width=3D=22600=22 style=3D=22bac=
+kground-color:=23f2f2f2;height:1px;=22></div></td>
+</tr>
+    <tr>
+
+      <td style=3D=22font-family:Helvetica, Arial, sans-serif; font-size:16=
+px; line-height:24px; color:=23222222; padding-bottom:10px; padding-left:30=
+px; padding-right:30px;=22 class=3D=22pb0=22 align=3D=22left=22>
+
+
+
+
+
+<table width=3D=22100%=22 style=3D=22margin-bottom:40px;border-collapse:col=
+lapse;padding:0px;=22>
+<tbody>
+<tr>
+<th class=3D=22db pb10=22 style=3D=22vertical-align:top;=22>
+
+<a href=3D=22https://e=2Eupwork=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQG=
+zbfKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zgv97zdpS43Fj9zezanoozcLUBHNylOf=
+fVXtpKX%3DYCDDAY&_ei_=3DEolaGGF4SNMvxFF7KucKuWOLlfJ-jAtkgEG6EL5ZwPSlrpqPhQn=
+Ku_7TTivkjvvzQsZ5WgcVu7DF4A9L-6lWPTt2NQPgEWwGdQrDNPX4GpELHVeWj2Z7w2Q7XvXzdj=
+5J9TZPuS1fSQe4JREQA8nuQVHU8wDqeNKsxKa1Fo37ngs6NXkirlPCd89sOm7U-PAJo5QkGZEP_=
+Sukv4ZzBiiDiHsJB0=2E=22><img  class=3D=22w100percent=22 width=3D=22240=22 s=
+rc=3D=22https://content-static=2Eupwork=2Ecom/blog/uploads/sites/3/2015/07/=
+16160042/DEV_Koa-js_M=2Epng=22 /></a>
+
+</th> <td width=3D=2220=22 class=3D=22dn=22>&nbsp;</td>
+<th class=3D=22db=22 style=3D=22vertical-align:top;margin:0px;border:none;=
+=22>
+<table width=3D=22100%=22 style=3D=22margin:0px;padding:0px;border:none;bor=
+der-collapse:collapse;=22>
+<tbody><tr style=3D=22vertical-align:top;margin:0px;=22><td style=3D=22padd=
+ing-top:0px;padding-left:0px;vertical-align:top;margin:0px;text-align:left;=
+=22><a href=3D=22https://e=2Eupwork=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJ=
+lYQGzbfKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zgv97zdpS43Fj9zezanoozcLUBHN=
+ylOffVXtpKX%3DYDRRRY&_ei_=3DEolaGGF4SNMvxFF7KucKuWOLlfJ-jAtkgEG6EL5ZwPSlrpq=
+PhQnKu_7TTivkjvvzQsZ5WgcVu7DF4A9L-6lWPTt2NQPgEWwGdQrDNPX4GpELHVeWj2Z7w2Q7Xv=
+Xzdj5J9TZPuS1fSQe4JREQA8nuQVHU8wDqeNKsxKa1Fo37ngs6NXkirlPCd89sOm7U-PAJo5QkG=
+ZEP_Sukv4ZzBiiDiHsJB0=2E=22 style=3D=22padding:0px;vertical-align:top;text-=
+decoration:none =21important;color:=2337a000;font-family:Montserrat,Helveti=
+ca,Arial,Sans Serif;font-size:16px;margin:0px;line-height:22px;font-weight:=
+normal;=22>Koa=2Ejs: A Future-Proof JavaScript Middleware Framework</a></td=
+></tr>
+<tr><td  style=3D=22text-align:left;padding-left:0px;font-family:Helvetica,=
+Arial,Sans Serif;color:=23666666;font-size:13px;line-height:18px;font-weigh=
+t:normal;padding-top:5px;=22>Koa=2Ejs is a JavaScript web application frame=
+work that's brought some pretty important changes to the development of mid=
+dleware-a key layer of software in web applications that keeps ev=2E=2E=2E =
+<a href=3D=22https://e=2Eupwork=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQG=
+zbfKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zgv97zdpS43Fj9zezanoozcLUBHNylOf=
+fVXtpKX%3DYDSAWY&_ei_=3DEolaGGF4SNMvxFF7KucKuWOLlfJ-jAtkgEG6EL5ZwPSlrpqPhQn=
+Ku_7TTivkjvvzQsZ5WgcVu7DF4A9L-6lWPTt2NQPgEWwGdQrDNPX4GpELHVeWj2Z7w2Q7XvXzdj=
+5J9TZPuS1fSQe4JREQA8nuQVHU8wDqeNKsxKa1Fo37ngs6NXkirlPCd89sOm7U-PAJo5QkGZEP_=
+Sukv4ZzBiiDiHsJB0=2E=22 style=3D=22text-decoration:none =21important;color:=
+=2337a000;=22><i>read more</i></a></td></tr></table>
+
+</th></tr></tbody></table>
+
+
+<=21--
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22>
+        <tbody>
+          <tr>
+            <th width=3D=22251=22 class=3D=22db pb10=22><a href=3D=22https:=
+//www=2Eupwork=2Ecom/hiring/write-an-awesome-job-post/=22><img src=3D=22/co=
+ntentlibrary/2017_cl_onboarding/email_1-article=402x=2Epng=22 width=3D=2225=
+1=22 height=3D=22151=22 style=3D=22width:251px; height:151px;=22 border=3D=
+=220=22 class=3D=22w100percent=22></a></th>
+            <td width=3D=2240=22 class=3D=22dn=22>&nbsp;</td>
+            <th valign=3D=22top=22 class=3D=22db=22><table width=3D=22100%=
+=22 border=3D=220=22 cellspacing=3D=220=22 cellpadding=3D=220=22>
+  <tbody>
+    <tr>
+      <td style=3D=22font-family:Helvetica, Arial, sans-serif; font-weight:=
+normal =21important; font-size:16px; line-height:22px; color:=23494949;=22 =
+align=3D=22left=22 valign=3D=22top=22>A lot of new clients find this articl=
+e on writing an awesome job post to be helpful=2E</td>
+    </tr>
+    <tr>
+      <td height=3D=2230=22>&nbsp;</td>
+    </tr>
+    <tr>
+      <td style=3D=22font-family:Helvetica, Arial, sans-serif; font-weight:=
+normal; font-size:16px; line-height:22px; color:=2337A000;=22 valign=3D=22t=
+op=22 align=3D=22left=22><a style=3D=22text-decoration:none;color:=2337A000=
+=22 href=3D=22https://www=2Eupwork=2Ecom/hiring/write-an-awesome-job-post/=
+=22>Read article</a></td>
+    </tr>
+  </tbody>
+</table>
+</th>
+          </tr>
+        </tbody>
+      </table> -->
+
+
+
+<table width=3D=22100%=22 style=3D=22margin-bottom:40px;border-collapse:col=
+lapse;padding:0px;=22>
+<tbody>
+<tr>
+<th class=3D=22db pb10=22 style=3D=22vertical-align:top;=22>
+
+<a href=3D=22https://e=2Eupwork=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQG=
+zbfKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zgv97zdpS43Fj9zezanoozcLUBHNylOf=
+fVXtpKX%3DYDRRTY&_ei_=3DEolaGGF4SNMvxFF7KucKuWOLlfJ-jAtkgEG6EL5ZwPSlrpqPhQn=
+Ku_7TTivkjvvzQsZ5WgcVu7DF4A9L-6lWPTt2NQPgEWwGdQrDNPX4GpELqmdqJj0nX6GhQsnNX8=
+bU-5FHijjfg8NohUIHYokRybGkWX0ORGwUpmAnboBh1Icd2wudYgvmImTV91dfzxXeiSNjpx_Kl=
+XIok4WQgJpBTH6N-HgXCAr90o4jvw=2E=22><img  class=3D=22w100percent=22 width=
+=3D=22240=22 src=3D=22https://content-static=2Eupwork=2Ecom/blog/uploads/si=
+tes/3/2015/07/21141904/DEV_cloud-computing-heroku-middleware_M=2Epng=22 /><=
+/a>
+
+</th> <td width=3D=2220=22 class=3D=22dn=22>&nbsp;</td>
+<th class=3D=22db=22 style=3D=22vertical-align:top;margin:0px;border:none;=
+=22>
+<table width=3D=22100%=22 style=3D=22margin:0px;padding:0px;border:none;bor=
+der-collapse:collapse;=22>
+<tbody><tr style=3D=22vertical-align:top;margin:0px;=22><td style=3D=22padd=
+ing-top:0px;padding-left:0px;vertical-align:top;margin:0px;text-align:left;=
+=22><a href=3D=22https://e=2Eupwork=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJ=
+lYQGzbfKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zgv97zdpS43Fj9zezanoozcLUBHN=
+ylOffVXtpKX%3DYDRRWY&_ei_=3DEolaGGF4SNMvxFF7KucKuWOLlfJ-jAtkgEG6EL5ZwPSlrpq=
+PhQnKu_7TTivkjvvzQsZ5WgcVu7DF4A9L-6lWPTt2NQPgEWwGdQrDNPX4GpELqmdqJj0nX6GhQs=
+nNX8bU-5FHijjfg8NohUIHYokRybGkWX0ORGwUpmAnboBh1Icd2wudYgvmImTV91dfzxXeiSNjp=
+x_KlXIok4WQgJpBTH6N-HgXCAr90o4jvw=2E=22 style=3D=22padding:0px;vertical-ali=
+gn:top;text-decoration:none =21important;color:=2337a000;font-family:Montse=
+rrat,Helvetica,Arial,Sans Serif;font-size:16px;margin:0px;line-height:22px;=
+font-weight:normal;=22>Launch, Run, and Scale Your Application in the Cloud=
+ with Heroku</a></td></tr>
+<tr><td  style=3D=22text-align:left;padding-left:0px;font-family:Helvetica,=
+Arial,Sans Serif;color:=23666666;font-size:13px;line-height:18px;font-weigh=
+t:normal;padding-top:5px;=22>Cloud computing =22as a service=22 has streaml=
+ined the way we store, send, and edit data-all over web browsers, not local=
+ hardware=2E Heroku has taken cloud computing's streamlined, remote a=2E=2E=
+=2E <a href=3D=22https://e=2Eupwork=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJ=
+lYQGzbfKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zgv97zdpS43Fj9zezanoozcLUBHN=
+ylOffVXtpKX%3DYDSAAY&_ei_=3DEolaGGF4SNMvxFF7KucKuWOLlfJ-jAtkgEG6EL5ZwPSlrpq=
+PhQnKu_7TTivkjvvzQsZ5WgcVu7DF4A9L-6lWPTt2NQPgEWwGdQrDNPX4GpELqmdqJj0nX6GhQs=
+nNX8bU-5FHijjfg8NohUIHYokRybGkWX0ORGwUpmAnboBh1Icd2wudYgvmImTV91dfzxXeiSNjp=
+x_KlXIok4WQgJpBTH6N-HgXCAr90o4jvw=2E=22 style=3D=22text-decoration:none =21=
+important;color:=2337a000;=22><i>read more</i></a></td></tr></table>
+
+</th></tr></tbody></table>
+
+
+<=21--
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22>
+        <tbody>
+          <tr>
+            <th width=3D=22251=22 class=3D=22db pb10=22><a href=3D=22https:=
+//www=2Eupwork=2Ecom/hiring/write-an-awesome-job-post/=22><img src=3D=22/co=
+ntentlibrary/2017_cl_onboarding/email_1-article=402x=2Epng=22 width=3D=2225=
+1=22 height=3D=22151=22 style=3D=22width:251px; height:151px;=22 border=3D=
+=220=22 class=3D=22w100percent=22></a></th>
+            <td width=3D=2240=22 class=3D=22dn=22>&nbsp;</td>
+            <th valign=3D=22top=22 class=3D=22db=22><table width=3D=22100%=
+=22 border=3D=220=22 cellspacing=3D=220=22 cellpadding=3D=220=22>
+  <tbody>
+    <tr>
+      <td style=3D=22font-family:Helvetica, Arial, sans-serif; font-weight:=
+normal =21important; font-size:16px; line-height:22px; color:=23494949;=22 =
+align=3D=22left=22 valign=3D=22top=22>A lot of new clients find this articl=
+e on writing an awesome job post to be helpful=2E</td>
+    </tr>
+    <tr>
+      <td height=3D=2230=22>&nbsp;</td>
+    </tr>
+    <tr>
+      <td style=3D=22font-family:Helvetica, Arial, sans-serif; font-weight:=
+normal; font-size:16px; line-height:22px; color:=2337A000;=22 valign=3D=22t=
+op=22 align=3D=22left=22><a style=3D=22text-decoration:none;color:=2337A000=
+=22 href=3D=22https://www=2Eupwork=2Ecom/hiring/write-an-awesome-job-post/=
+=22>Read article</a></td>
+    </tr>
+  </tbody>
+</table>
+</th>
+          </tr>
+        </tbody>
+      </table> -->
+
+
+
+
+<table width=3D=22100%=22 style=3D=22margin-bottom:40px;border-collapse:col=
+lapse;padding:0px;=22>
+<tbody>
+<tr>
+<th class=3D=22db pb10=22 style=3D=22vertical-align:top;=22>
+
+<a href=3D=22https://e=2Eupwork=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQG=
+zbfKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zgv97zdpS43Fj9zezanoozcLUBHNylOf=
+fVXtpKX%3DYDRRAY&_ei_=3DEolaGGF4SNMvxFF7KucKuWOLlfJ-jAtkgEG6EL5ZwPSlrpqPhQn=
+Ku_7TTivkjvvzQsZ5WgcVu7DF4A9L-6lWPTt2NQPgEWwGdQrDNPX4GpELAb6Sav5XfRqzy7umd7=
+dp9utpwEf3XYIMgNJiyin6nz2rqcNxznWxbF3duMefiSQZ4Nt60F4LCQUfVfkG=2E=22><img  =
+class=3D=22w100percent=22 width=3D=22240=22 src=3D=22https://content-static=
+=2Eupwork=2Ecom/blog/uploads/sites/3/2015/08/07073652/DEV_ecomm-plats-tools=
+_M=2Ejpg=22 /></a>
+
+</th> <td width=3D=2220=22 class=3D=22dn=22>&nbsp;</td>
+<th class=3D=22db=22 style=3D=22vertical-align:top;margin:0px;border:none;=
+=22>
+<table width=3D=22100%=22 style=3D=22margin:0px;padding:0px;border:none;bor=
+der-collapse:collapse;=22>
+<tbody><tr style=3D=22vertical-align:top;margin:0px;=22><td style=3D=22padd=
+ing-top:0px;padding-left:0px;vertical-align:top;margin:0px;text-align:left;=
+=22><a href=3D=22https://e=2Eupwork=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJ=
+lYQGzbfKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zgv97zdpS43Fj9zezanoozcLUBHN=
+ylOffVXtpKX%3DYDRRCY&_ei_=3DEolaGGF4SNMvxFF7KucKuWOLlfJ-jAtkgEG6EL5ZwPSlrpq=
+PhQnKu_7TTivkjvvzQsZ5WgcVu7DF4A9L-6lWPTt2NQPgEWwGdQrDNPX4GpELAb6Sav5XfRqzy7=
+umd7dp9utpwEf3XYIMgNJiyin6nz2rqcNxznWxbF3duMefiSQZ4Nt60F4LCQUfVfkG=2E=22 st=
+yle=3D=22padding:0px;vertical-align:top;text-decoration:none =21important;c=
+olor:=2337a000;font-family:Montserrat,Helvetica,Arial,Sans Serif;font-size:=
+16px;margin:0px;line-height:22px;font-weight:normal;=22>A Guide to E-Commer=
+ce Platforms</a></td></tr>
+<tr><td  style=3D=22text-align:left;padding-left:0px;font-family:Helvetica,=
+Arial,Sans Serif;color:=23666666;font-size:13px;line-height:18px;font-weigh=
+t:normal;padding-top:5px;=22>Online shopping drives a huge share of retail =
+sales these days, and getting your products online and available to the wor=
+ld is one of the fastest ways to start building your business, =2E=2E=2E <a=
+ href=3D=22https://e=2Eupwork=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGzb=
+fKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zgv97zdpS43Fj9zezanoozcLUBHNylOffV=
+XtpKX%3DYDSACY&_ei_=3DEolaGGF4SNMvxFF7KucKuWOLlfJ-jAtkgEG6EL5ZwPSlrpqPhQnKu=
+_7TTivkjvvzQsZ5WgcVu7DF4A9L-6lWPTt2NQPgEWwGdQrDNPX4GpELAb6Sav5XfRqzy7umd7dp=
+9utpwEf3XYIMgNJiyin6nz2rqcNxznWxbF3duMefiSQZ4Nt60F4LCQUfVfkG=2E=22 style=3D=
+=22text-decoration:none =21important;color:=2337a000;=22><i>read more</i></=
+a></td></tr></table>
+
+</th></tr></tbody></table>
+
+
+<=21--
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22>
+        <tbody>
+          <tr>
+            <th width=3D=22251=22 class=3D=22db pb10=22><a href=3D=22https:=
+//www=2Eupwork=2Ecom/hiring/write-an-awesome-job-post/=22><img src=3D=22/co=
+ntentlibrary/2017_cl_onboarding/email_1-article=402x=2Epng=22 width=3D=2225=
+1=22 height=3D=22151=22 style=3D=22width:251px; height:151px;=22 border=3D=
+=220=22 class=3D=22w100percent=22></a></th>
+            <td width=3D=2240=22 class=3D=22dn=22>&nbsp;</td>
+            <th valign=3D=22top=22 class=3D=22db=22><table width=3D=22100%=
+=22 border=3D=220=22 cellspacing=3D=220=22 cellpadding=3D=220=22>
+  <tbody>
+    <tr>
+      <td style=3D=22font-family:Helvetica, Arial, sans-serif; font-weight:=
+normal =21important; font-size:16px; line-height:22px; color:=23494949;=22 =
+align=3D=22left=22 valign=3D=22top=22>A lot of new clients find this articl=
+e on writing an awesome job post to be helpful=2E</td>
+    </tr>
+    <tr>
+      <td height=3D=2230=22>&nbsp;</td>
+    </tr>
+    <tr>
+      <td style=3D=22font-family:Helvetica, Arial, sans-serif; font-weight:=
+normal; font-size:16px; line-height:22px; color:=2337A000;=22 valign=3D=22t=
+op=22 align=3D=22left=22><a style=3D=22text-decoration:none;color:=2337A000=
+=22 href=3D=22https://www=2Eupwork=2Ecom/hiring/write-an-awesome-job-post/=
+=22>Read article</a></td>
+    </tr>
+  </tbody>
+</table>
+</th>
+          </tr>
+        </tbody>
+      </table> -->
+
+
+
+
+<table width=3D=22100%=22 style=3D=22margin-bottom:40px;border-collapse:col=
+lapse;padding:0px;=22>
+<tbody>
+<tr>
+<th class=3D=22db pb10=22 style=3D=22vertical-align:top;=22>
+
+<a href=3D=22https://e=2Eupwork=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQG=
+zbfKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zgv97zdpS43Fj9zezanoozcLUBHNylOf=
+fVXtpKX%3DYDRSRY&_ei_=3DEolaGGF4SNMvxFF7KucKuWOLlfJ-jAtkgEG6EL5ZwPSlrpqPhQn=
+Ku_7TTivkjvvzQsZ5WgcVu7DF4A9L-6lWPTt2NQPgEWwGdQrDNPX4GpELQeuwCKTquRpNLUvGnr=
+h8dipkLhPD-aE8hIncjvZqSQ3vV6dFIJA5LPCRh4OWJGHsGtKjSjaitqPymwMzCrtWXfEq7fRvv=
+jAtCoAeWM=2E=22><img  class=3D=22w100percent=22 width=3D=22240=22 src=3D=22=
+https://content-static=2Eupwork=2Ecom/blog/uploads/sites/3/2015/08/07074220=
+/DEV_magento-ecom-app_M=2Ejpg=22 /></a>
+
+</th> <td width=3D=2220=22 class=3D=22dn=22>&nbsp;</td>
+<th class=3D=22db=22 style=3D=22vertical-align:top;margin:0px;border:none;=
+=22>
+<table width=3D=22100%=22 style=3D=22margin:0px;padding:0px;border:none;bor=
+der-collapse:collapse;=22>
+<tbody><tr style=3D=22vertical-align:top;margin:0px;=22><td style=3D=22padd=
+ing-top:0px;padding-left:0px;vertical-align:top;margin:0px;text-align:left;=
+=22><a href=3D=22https://e=2Eupwork=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJ=
+lYQGzbfKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zgv97zdpS43Fj9zezanoozcLUBHN=
+ylOffVXtpKX%3DYCDDCY&_ei_=3DEolaGGF4SNMvxFF7KucKuWOLlfJ-jAtkgEG6EL5ZwPSlrpq=
+PhQnKu_7TTivkjvvzQsZ5WgcVu7DF4A9L-6lWPTt2NQPgEWwGdQrDNPX4GpELQeuwCKTquRpNLU=
+vGnrh8dipkLhPD-aE8hIncjvZqSQ3vV6dFIJA5LPCRh4OWJGHsGtKjSjaitqPymwMzCrtWXfEq7=
+fRvvjAtCoAeWM=2E=22 style=3D=22padding:0px;vertical-align:top;text-decorati=
+on:none =21important;color:=2337a000;font-family:Montserrat,Helvetica,Arial=
+,Sans Serif;font-size:16px;margin:0px;line-height:22px;font-weight:normal;=
+=22>Developing a Magento E-Commerce Web Application</a></td></tr>
+<tr><td  style=3D=22text-align:left;padding-left:0px;font-family:Helvetica,=
+Arial,Sans Serif;color:=23666666;font-size:13px;line-height:18px;font-weigh=
+t:normal;padding-top:5px;=22>Magento is a powerful, open-source e-commerce =
+platform that is known for its flexibility and wide array of features and e=
+xtensions=2E It's important to know the basics of what Magento of=2E=2E=2E =
+<a href=3D=22https://e=2Eupwork=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQG=
+zbfKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zgv97zdpS43Fj9zezanoozcLUBHNylOf=
+fVXtpKX%3DYDSBRY&_ei_=3DEolaGGF4SNMvxFF7KucKuWOLlfJ-jAtkgEG6EL5ZwPSlrpqPhQn=
+Ku_7TTivkjvvzQsZ5WgcVu7DF4A9L-6lWPTt2NQPgEWwGdQrDNPX4GpELQeuwCKTquRpNLUvGnr=
+h8dipkLhPD-aE8hIncjvZqSQ3vV6dFIJA5LPCRh4OWJGHsGtKjSjaitqPymwMzCrtWXfEq7fRvv=
+jAtCoAeWM=2E=22 style=3D=22text-decoration:none =21important;color:=2337a00=
+0;=22><i>read more</i></a></td></tr></table>
+
+</th></tr></tbody></table>
+
+
+<=21--
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22>
+        <tbody>
+          <tr>
+            <th width=3D=22251=22 class=3D=22db pb10=22><a href=3D=22https:=
+//www=2Eupwork=2Ecom/hiring/write-an-awesome-job-post/=22><img src=3D=22/co=
+ntentlibrary/2017_cl_onboarding/email_1-article=402x=2Epng=22 width=3D=2225=
+1=22 height=3D=22151=22 style=3D=22width:251px; height:151px;=22 border=3D=
+=220=22 class=3D=22w100percent=22></a></th>
+            <td width=3D=2240=22 class=3D=22dn=22>&nbsp;</td>
+            <th valign=3D=22top=22 class=3D=22db=22><table width=3D=22100%=
+=22 border=3D=220=22 cellspacing=3D=220=22 cellpadding=3D=220=22>
+  <tbody>
+    <tr>
+      <td style=3D=22font-family:Helvetica, Arial, sans-serif; font-weight:=
+normal =21important; font-size:16px; line-height:22px; color:=23494949;=22 =
+align=3D=22left=22 valign=3D=22top=22>A lot of new clients find this articl=
+e on writing an awesome job post to be helpful=2E</td>
+    </tr>
+    <tr>
+      <td height=3D=2230=22>&nbsp;</td>
+    </tr>
+    <tr>
+      <td style=3D=22font-family:Helvetica, Arial, sans-serif; font-weight:=
+normal; font-size:16px; line-height:22px; color:=2337A000;=22 valign=3D=22t=
+op=22 align=3D=22left=22><a style=3D=22text-decoration:none;color:=2337A000=
+=22 href=3D=22https://www=2Eupwork=2Ecom/hiring/write-an-awesome-job-post/=
+=22>Read article</a></td>
+    </tr>
+  </tbody>
+</table>
+</th>
+          </tr>
+        </tbody>
+      </table> -->
+
+
+
+
+</td>
+    </tr>
+
+<tr>
+<td style=3D=22padding-bottom:10px=22><div width=3D=22600=22 style=3D=22bac=
+kground-color:=23f2f2f2;height:1px;=22></div></td>
+</tr>
+    <tr>
+      <td style=3D=22padding-bottom:40px;text-align:center;font-family:Mont=
+serrat,Helvetica,Arial;color:=23464646;font-size:16px;=22>
+
+<p style=3D=22padding-bottom:10px;font-family:Montserrat,Helvetica,Arial;co=
+lor:=23464646;font-size:16px;=22>Have an idea in mind?</p>
+
+<center>
+
+<table align=3D=22center=22 border=3D=220=22 cellspacing=3D=220=22 cellpadd=
+ing=3D=220=22>
+               <tbody>
+                <tr>
+                  <td align=3D=22center=22 style=3D=22border-radius: 2px;=
+=22 bgcolor=3D=22=2337A000=22><a href=3D=22https://e=2Eupwork=2Ecom/pub/cc?=
+_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGzbfKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zg=
+v97zdpS43Fj9zezanoozcLUBHNylOffVXtpKX%3DBRRSWY&_ei_=3DEolaGGF4SNMvxFF7KucKu=
+WOVdUf_s58AL-q5LZCQlL9DpAj7o1ZY9AWX7lANIQY_0uMu5g=2E=22 style=3D=22font-siz=
+e: 14px; font-family: Arial, sans-serif; color: =23ffffff; text-decoration:=
+ none; font-weight:bold; border-radius: 3px; padding-left:40px; padding-rig=
+ht:40px; padding-top:12px; padding-bottom:12px; border: 1px solid =235bbc2e=
+; display: inline-block;=22>Post a job</a></td>
+                </tr>
+               </tbody>
+              </table>
+
+</center>
+
+
+
+</td>
+    </tr>
+  </tbody>
+</table>
+</td>
+
+              =20
+                </tr>
+              </tbody>
+            </table></td>
+          </tr>
+        </tbody>
+      </table>
+
+
+</td>
+    </tr>
+    <tr>
+      <td height=3D=2222=22>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>
+
+</td>
+    </tr>
+   <tr>
+      <td height=3D=2210=22>&nbsp;</td>
+    </tr>
+    <=21--tr>
+      <td style=3D=22text-align:center;padding:0px 40px;=22>
+
+<span style=3D=22font-family:Helvetica;Arial,Sans Serif;font-size:10px;colo=
+r:=23666666;line-height:14px;=22><b>About this email:</b> These articles ar=
+e intended to provide ideas and helpful information about how to work onlin=
+e more effectively=2E</span>
+</td>
+    </tr>
+ <tr>
+      <td height=3D=2225=22>&nbsp;</td>
+    </tr-->
+
+
+    <tr>
+      <td align=3D=22center=22>
+<table border=3D=220=22 cellspacing=3D=220=22 cellpadding=3D=220=22 class=
+=3D=22full=22>
+         <tbody>
+          <tr>
+           <td class=3D=22textc=22 align=3D=22center=22 style=3D=22font-fam=
+ily:Helvetica,Arial,Sans Serif; font-size:11px; line-height:21px;color:=230=
+00000=22><b>Help your team do more=2E <a style=3D=22color: =235BBC2E =21imp=
+ortant; text-decoration: none =21important;=22 href=3D=22https://e=2Eupwork=
+=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGzbfKJzdCzd7zamzcf9reiycPn0Azc0D=
+20R7K6w8nyd9zgv97zdpS43Fj9zezanoozcLUBHNylOffVXtpKX%3DSWBUCCWY&_ei_=3DEolaG=
+GF4SNMvxFF7KucKuWOVdUf_s58AL-q5LZCQlL9DpAj7o1ZY9AWX7lANIQY_0uMu5g=2E=22>Inv=
+ite a coworker=2E</a></b>
+</td>
+          </tr>
+         </tbody>
+        </table>
+
+</td>
+    </tr>
+    <tr>
+      <td height=3D=2220=22>&nbsp;</td>
+    </tr>
+    <tr>
+      <td align=3D=22center=22 style=3D=22font-family:Helvetica, Arial, san=
+s-serif; font-size:11px; color:=23a8a8a8;padding-bottom:10px; =22><a href=
+=3D=22https://e=2Eupwork=2Ecom/pub/sf/FormLink?_ri_=3DX0Gzc2X%3DYQpglLjHJlY=
+QGzbfKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zgv97zdpS43Fj9zezanoozcLUBHNyl=
+OffVXMtX%3DYQpglLjHJlYQGsJAtd2zg2iouwezesmMzbObzbkhzeqKCEv6GRDlzgAIJfy5Fzgv=
+yzbDjypKYIUzaHWzdTXf8iGR&_ei_=3DEolaGGF4SNMvxFF7KucKuWOFmShvXFQ3kk5I5POY69n=
+N62erl-uRZgSMJq_Gf89PZLNfo1Q9mdnvvDB5-jucIYlCyNaxmC4qToc=2E=22 style=3D=22c=
+olor:=23a8a8a8; text-decoration:none;=22>Unsubscribe</a> &nbsp;=7C&nbsp; <a=
+ href=3D=22https://e=2Eupwork=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGzb=
+fKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zgv97zdpS43Fj9zezanoozcLUBHNylOffV=
+XtpKX%3DYTYUWY&_ei_=3DEolaGGF4SNMvxFF7KucKuWOVdUf_s58AL-q5LZCQlL9DpAj7o1ZY9=
+AWX7lANIQY_0uMu5g=2E=22 style=3D=22color:=23a8a8a8; text-decoration:none;=
+=22>Privacy Policy</a> &nbsp;=7C&nbsp; <a href=3D=22https://e=2Eupwork=2Eco=
+m/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGzbfKJzdCzd7zamzcf9reiycPn0Azc0D20R7K=
+6w8nyd9zgv97zdpS43Fj9zezanoozcLUBHNylOffVXtpKX%3DYTYUAY&_ei_=3DEolaGGF4SNMv=
+xFF7KucKuWOVdUf_s58AL-q5LZCQlL9DpAj7o1ZY9AWX7lANIQY_0uMu5g=2E=22 style=3D=
+=22color:=23a8a8a8; text-decoration:none;=22>Contact Support</a><br/><br/><=
+span class=3D=22ios-links=22>441 Logue Avenue, Mountain View, CA 94043</spa=
+n><br/><br/>&copy;&nbsp;2018 Upwork Inc=2E</td>
+    </tr>
+  </tbody>
+</table>
+</td>
+    </tr>
+  </tbody>
+</table><br>
+<table cellpadding=3D=220=22 cellspacing=3D=220=22 style=3D=22border: 0px; =
+padding: 0px; margin: 0px; position: absolute; display: none; float: left=
+=22>
+<tr>
+<td height=3D=221=22 style=3D=22font-size: 1px; line-height: 1px; padding: =
+0px;=22>
+<br><img src=3D=22https://e=2Eupwork=2Ecom/pub/as?_ri_=3DX0Gzc2X%3DYQpglLjH=
+JlYQGzbfKJzdCzd7zamzcf9reiycPn0Azc0D20R7K6w8nyd9zgv97zdpS43Fj9zezanoozcLUBH=
+NylOffVXHkMX%3Dw&_ei_=3DEolaGGF4SNMvxFF7KucKuWOVdUf_s58AL-q5LZCQlL9DpAj7o1Z=
+Y9AWX7lANIQY_0uMu5g=2E=22></img>
+<br><img border=3D=220=22 width=3D=221=22 height=3D=221=22 src=3D=22https:/=
+/ib=2Eadnxs=2Ecom/getuid?https://a=2Eadrsp=2Enet/dsp/ci/2/E52QfQ4zI8fuUaAUi=
+IRwKciCcajGptR9tUMDSuBZaf_EflJ9nsuVZ-MCSPvD1AsEQ3N73Qe4R7s1G5_UwUQv/%24UID=
+=22></img>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+

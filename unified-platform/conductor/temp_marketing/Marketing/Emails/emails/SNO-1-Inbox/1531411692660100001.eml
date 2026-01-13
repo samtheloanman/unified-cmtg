@@ -1,0 +1,148 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 209.85.192.176 as permitted sender) client-ip=209.85.192.176; envelope-from=geolrp@gmail.com; helo=mail-pf0-f176.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 209.85.192.176 as permitted sender)  smtp.mailfrom=geolrp@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Received: from mail-pf0-f176.google.com (mail-pf0-f176.google.com [209.85.192.176]) by mx.zohomail.com
+	with SMTPS id 1531411692538921.6503327840037; Thu, 12 Jul 2018 09:08:12 -0700 (PDT)
+Received: by mail-pf0-f176.google.com with SMTP id c21-v6so16258197pfn.8
+        for <sam@c-mtg.com>; Thu, 12 Jul 2018 09:08:12 -0700 (PDT)
+Return-Path: <geolrp@gmail.com>
+Return-Path: <geolrp@gmail.com>
+Received: from ?IPv6:2600:380:4b00:2086:596f:1020:7526:3cbc? ([2600:380:4b00:2086:596f:1020:7526:3cbc])
+        by smtp.gmail.com with ESMTPSA id w72-v6sm33337812pfa.26.2018.07.12.09.08.10
+        for <sam@c-mtg.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 12 Jul 2018 09:08:10 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:content-transfer-encoding:mime-version:date:subject:message-id
+         :references:in-reply-to:to;
+        bh=Yt2YCvardBtwkmYS/tbV359+bR0gTX6qiwnLcpb2TnA=;
+        b=LB5Y10Cuo91BkDbkYmUC0x5zTbcWdSWj1u6HoL3q4/TRImaArY01cJRGrfo6RkPTxI
+         OqAChKl4UG5YRIMVI9bqsaQ0w+TrffZdL+49Hls554R9gQZj2eAJ6RKrdlBLAuerpGd6
+         heEVK4HskrdVOu/In1O1LUtHUDQhEwUgAehxN3OHOa6WxlSRee2AcAG3TlyKE/RgEomd
+         +3oQRXmkyPLSHQ7vrcCEbE0gfi78YZx5VJjSnaHe8cGa15pD3HyDzGwhHvROc9Uvv3z6
+         fqz7dUzw/hKupptxmBrHmdMp5q/iRyI5R/d63z9wVQeL5IPf/0YB3wiygMH9ARCzTBP1
+         eT2Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:content-transfer-encoding:mime-version:date
+         :subject:message-id:references:in-reply-to:to;
+        bh=Yt2YCvardBtwkmYS/tbV359+bR0gTX6qiwnLcpb2TnA=;
+        b=Sl8dDY9lS3zWqipUOu1slzaqo0Xi1BxUn65wWKqIuYvUIPuz8Eme8kZWuCDx+dRMva
+         4dXO48DWOOtKO7xJu/hRSjFDYyRHy6K5ePrsCX8KaYl7BsQxjgY3hAwSWNbZTu4rpshT
+         j2aC+Kay6vTQ6Np4RV7XZq32iGF8IDHqfguper64TiiWPEGqU71ftij8Dx4+mXcq++ix
+         1Ld4taki5HNdx/R9Pu3dcWDiZ6+v33KMS45sleX3wLVx2OzjOK/uGsjdgVihwVoZkdB4
+         BDgg80lHCJTVwX3giPX50JYki+ska8ZpdAhD2uchPd2MvXgfbAKPEvqWBWV6fTnAnvuu
+         rAQg==
+X-Gm-Message-State: AOUpUlEl+NQU29U01/NlcwmK6Hcpm2/jFLWYFa/lW3tLNTgBH48YdCvh
+	cxsg/ukJnIWoRruoXFweYpxqfG9s
+X-Google-Smtp-Source: AAOMgpddikVzduoiP/M0UpHY3hunkIkqLgEOK9Bd5uf6XSqenpg8efuhaxEqvnblJphNKAyiPS/SbA==
+X-Received: by 2002:a62:bd4:: with SMTP id 81-v6mr3069121pfl.67.1531411691694;
+        Thu, 12 Jul 2018 09:08:11 -0700 (PDT)
+From: "George H." <geolrp@gmail.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-01C8F226-8021-4A9F-9CE0-543A20B18B78
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0
+Date: Thu, 12 Jul 2018 09:08:09 -0700
+Subject: Re: URGENT - UNDERWRITING CONDITIONS--------- 2819 Coldwater canyon dr 90210
+Message-ID:<79A21802-23FB-4AE1-A1C7-8EA60BA05A1D@gmail.com>
+References: <23FCADA9-2702-4CAF-8C7A-6CDCD789D53A@gmail.com> <A3AB4CBB-50F1-4888-AFDD-B64FD0510FA2@gmail.com> <F3975625-4CB5-44CC-9C81-D78BC74EFFF6@c-mtg.com>
+In-Reply-To: <F3975625-4CB5-44CC-9C81-D78BC74EFFF6@c-mtg.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+X-Mailer: iPhone Mail (15F79)
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_167 FRD_DI SPK
+X-ZM-MESSAGEID: 1531411692660100001
+X-ZohoMail-Flag: Important
+X-ZohoMail-Status: 1
+
+
+
+--Apple-Mail-01C8F226-8021-4A9F-9CE0-543A20B18B78
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+I already had this bro, any luck with the asset statements, approval is comi=
+ng out today and will need all the assets I can show to make exception go th=
+rough easily.
+
+Please let me know if we can do a call with borrower or his manager today to=
+ get things moving along quicker
+
+George H.=20
+818.585.5203
+Sent from my iPhone
+
+> On Jul 12, 2018, at 9:07 AM, Sam Tehranchi <sam@c-mtg.com> wrote:
+>=20
+> I already had this bro, any luck with the asset statements, approval is co=
+ming out today and will need all the assets I can show to make exception go t=
+hrough easily.
+>=20
+> Please let me know if we can do a call with borrower or his manager today t=
+o get things moving along quicker
+>=20
+> Sent from my iPhone
+>=20
+>> On Jul 11, 2018, at 11:26 PM, George H. <geolrp@gmail.com> wrote:
+>>=20
+>>=20
+>>> See enclosed signed from Ben
+>>>=20
+>>>=20
+>> <CLYMER .pdf>
+>>>=20
+
+--Apple-Mail-01C8F226-8021-4A9F-9CE0-543A20B18B78
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><span style=3D"background-color: rgba(255, 2=
+55, 255, 0);">I already had this bro, any luck with the asset statements, ap=
+proval is coming out today and will need all the assets I can show to make e=
+xception go through easily.</span><div><span style=3D"background-color: rgba=
+(255, 255, 255, 0);"><br></span></div><div><span style=3D"background-color: r=
+gba(255, 255, 255, 0);">Please let me know if we can do a call with borrower=
+ or his manager today to get things moving along quicker</span></div><br><di=
+v id=3D"AppleMailSignature"><div>George H.&nbsp;</div><div>818.585.5203</div=
+>Sent from my iPhone</div><div><br>On Jul 12, 2018, at 9:07 AM, Sam Tehranch=
+i &lt;<a href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&gt; wrote:<br><br><=
+/div><blockquote type=3D"cite"><div><meta http-equiv=3D"content-type" conten=
+t=3D"text/html; charset=3Dutf-8">I already had this bro, any luck with the a=
+sset statements, approval is coming out today and will need all the assets I=
+ can show to make exception go through easily.<div><br></div><div>Please let=
+ me know if we can do a call with borrower or his manager today to get thing=
+s moving along quicker<br><br><div id=3D"AppleMailSignature">Sent from my iP=
+hone</div><div><br>On Jul 11, 2018, at 11:26 PM, George H. &lt;<a href=3D"ma=
+ilto:geolrp@gmail.com">geolrp@gmail.com</a>&gt; wrote:<br><br></div><blockqu=
+ote type=3D"cite"><div><meta http-equiv=3D"content-type" content=3D"text/htm=
+l; charset=3Dus-ascii"><br><div><span></span></div><blockquote type=3D"cite"=
+><div><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-a=
+scii">See enclosed signed from Ben<div class=3D""><br class=3D""></div><div c=
+lass=3D""><br class=3D""><div class=3D"">
+<div style=3D"color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; f=
+ont-style: normal; font-variant-caps: normal; font-weight: normal; letter-sp=
+acing: normal; orphans: auto; text-align: start; text-indent: 0px; text-tran=
+sform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-t=
+ext-size-adjust: auto; -webkit-text-stroke-width: 0px;"></div></div></div></=
+div></blockquote><blockquote type=3D"cite"><div></div></blockquote></div></b=
+lockquote><blockquote type=3D"cite"><div>&lt;CLYMER .pdf&gt;</div></blockquo=
+te><blockquote type=3D"cite"><div><meta http-equiv=3D"content-type" content=3D=
+"text/html; charset=3Dus-ascii"><blockquote type=3D"cite"><div></div></block=
+quote><blockquote type=3D"cite"><meta http-equiv=3D"Content-Type" content=3D=
+"text/html; charset=3Dutf-8"><div class=3D""><div class=3D""><div style=3D"c=
+olor: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: nor=
+mal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal;=
+ orphans: auto; text-align: start; text-indent: 0px; text-transform: none; w=
+hite-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjus=
+t: auto; -webkit-text-stroke-width: 0px;"><br></div></div></div></blockquote=
+></div></blockquote></div></div></blockquote></body></html>=
+
+--Apple-Mail-01C8F226-8021-4A9F-9CE0-543A20B18B78--

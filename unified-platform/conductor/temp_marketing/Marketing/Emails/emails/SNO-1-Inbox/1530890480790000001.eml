@@ -1,0 +1,233 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of aol.com designates 74.6.132.123 as permitted sender) client-ip=74.6.132.123; envelope-from=margaretrabon@aol.com; helo=sonic314-13.consmr.mail.bf2.yahoo.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of aol.com designates 74.6.132.123 as permitted sender)  smtp.mailfrom=margaretrabon@aol.com;
+	dmarc=pass(p=reject dis=none)  header.from=aol.com
+Return-Path: <margaretrabon@aol.com>
+Received: from sonic314-13.consmr.mail.bf2.yahoo.com (sonic314-13.consmr.mail.bf2.yahoo.com [74.6.132.123]) by mx.zohomail.com
+	with SMTPS id 1530890479966403.4935939132838; Fri, 6 Jul 2018 08:21:19 -0700 (PDT)
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic314.consmr.mail.bf2.yahoo.com with HTTP; Fri, 6 Jul 2018 15:21:19 +0000
+Received: from 123.sub-174-193-138.myvzw.com (EHLO [100.80.125.83]) ([174.193.138.123])
+          by smtp428.mail.bf1.yahoo.com (Oath Hermes SMTP Server) with ESMTPA ID 2638e7faff317f009dc7e99db73a5787;
+          Fri, 06 Jul 2018 15:21:15 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aol.com; s=a2048; t=1530890479; bh=phSp16HFsPVJnl+63yB56BpHS0wz1wYqnBS6wvWu1Yk=; h=From:Date:Subject:References:To:From:Subject; b=bEuYjMYW/LgJGC0YUruu6uu4tGC6Uk6gsCekhLLQl02PXJz0zFeY/lGw4MCOxMiLZks45N/+OcWOkDBdkBFDS7vibDxv18pmZbW0UJKPzQutM2h7jMxqcxbRxB48ys1TlY2nm4/HhECzoSLUN8lx/pZttKJvcHaSppPa+j3glyAapq4zDcjWnstN9ffviQ13SdH9robWMzNE6WC+nhZjVJPklUiGtgz8kmXLtfISUWyj7gI0YuXJ5qrO82YiWRwJx+qEl1Icgg8neCG/PxwX8cBTqNOtduENCjwQHvAnLy8MXHrFC+GvtzVURl1NYoEhmRdYwBWqFv5G/Cwe97qkFA==
+X-YMail-OSG: m47m_38VM1lHv7URoUakyLuEf0dOoh.kAn5PoXSBX4Q3IPHzqAh3QCaDyO6E8Jn
+ 4gzTJ4lXnBPsulx6nJnni8K9Q2M4BHt4B7B8pzVJcM2Xh_XetQFWZZystjX_Tf6X3SxJViVDHZvq
+ iWCFg0P4HmwMNrvbq3X.S789yv6QuTnLr1ysxbNLJaOKaeGZWX7n3qS7Cx3UoX16a2LpCtP2Y8oK
+ 2u4dRwD6rkOy7qHurJUk5vnL.plCwggnUu0nnHVDQdScNTllwn1eumpylWn1q3f5XqfMsDQnuSOa
+ UGmHVvg2bXoWVpPUeOkE7LApHl6.W.Ja8kwKNdyoQ3FD3VkazzMz614g7TGpEhZDC11TgKMYujrW
+ 3w4WU5StUZVYg5tyKGiVdK1pbNWH4BNdJeWpzGeILpifktY8IrTZy7Kj5KSJ7L629BtRMEVOAkSm
+ OSsuwW7yNDL6iLyeKDw3HP0Heq1CemoQc5N1Vzx5pQ7Tgg9rm6_V12A4iHrPys8BV8NNQJ8OVPOi
+ l2wALFjHbOxQ5hE6mVf1fe7xSsmCnK0.7SHmM0qAbciTovz7hPe2B7qqRPmxf_qo.mASXDQC1hJO
+ BMu6V0sVQLGqTEaUq2chGoAMNzcLS7QqGj4K476HM77.lG0e2o1FUwORqa31G5OfjUO5R9eVlHB.
+ yB4sq40TWmS4Ux4i5FPAxZIYwOrSKvnFzv1HdtiFinCQgCGQYxDRwpk_cHkK.h.UHRwic71NsTDP
+ 1y.dxhDprVVnp5fwJl2ER6Funex1eUs92u69GXxaJMM517aA3JATIGo58M4VkvZH782_2xhA4e8r
+ rur0c6fTz_jYqrO0_0M04HThUlgJiNf_vqtB0dooJGQgoGte4.JtmOEmzFJmTm8vRetlpcgtPScH
+ 40cAqGO75WsYQZBOvgZRbykWHu6qwcVYSEtdOsq4hdmeKVPxB3CFpyIb25.1C81flhYnoyre_ypp
+ xskT0zUc_NB7uaRtM..id7UvMFNalDrHV2rT3way1heQDs7LzwxCzcM9PHg--
+From: Margaret Rabon <margaretrabon@aol.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-BA423962-0996-4A5C-9731-350ABEBFDD1C
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0
+Date: Fri, 6 Jul 2018 11:21:14 -0400
+Subject: Fwd: closing
+Message-ID:<D57B7819-9F37-4320-8B5D-DE8C549F8FF9@aol.com>
+References: <9E6991DCD100F540A8BEAB39D961E75B9435CCB5@Alaska.FinkelLaw.local>
+To: sam@c-mtg.com, Leanne@athascapital.com
+X-Mailer: iPhone Mail (15D60)
+X-ZohoMail-DKIM: pass (identity @aol.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_NDS SPK
+X-ZM-MESSAGEID: 1530890480790000001
+X-ZohoMail-Status: 1
+
+
+
+--Apple-Mail-BA423962-0996-4A5C-9731-350ABEBFDD1C
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Sent from my iPhone
+
+Begin forwarded message:
+
+> From: Darla Walls <DWalls@FinkelLaw.com>
+> Date: July 6, 2018 at 10:33:38 AM EDT
+> To: "margaretrabon@aol.com" <margaretrabon@aol.com>
+> Subject: closing
+>=20
+> Margaret,
+> =20
+> We don=E2=80=99t have anything yet from the lender and I=E2=80=99m concern=
+ed that we won=E2=80=99t in time for a closing today.  Carrie needs to have t=
+ime to review the documents from the lender, especially since we have never w=
+orked with this company before and have no idea what to expect.=20
+> =20
+> Please provide Jason=E2=80=99s cell phone number and email so we can get i=
+n touch with him.  I=E2=80=99m not sure if he is in town or is traveling her=
+e specifically for this purpose.
+> =20
+> Thanks,
+> Darla
+> =20
+> =20
+> Darla Walls
+> Real Estate Paralegal
+> Finkel Law Firm LLC
+> 4000 Faber Place Drive, Suite 450
+> North Charleston, SC  29405
+> dwalls@finkellaw.com
+> Direct:  843-576-6340
+> Fax No: 866-800-7947
+> =20
+> Mount Pleasant Office:
+> 1041 Johnnie Dodds Blvd., Suite 13-B
+> Mount Pleasant, SC 29464
+> =20
+> Columbia Office:
+> 1201 Main Street, Suite 1800
+> Columbia, SC 29201
+> =20
+> =20
+> Please note that all funds for real estate closings must be wired 24 hours=
+ prior to closing.  DUE TO INCREASING FRAUD, PLEASE VERBALLY CONFIRM ANY WIR=
+ING INSTRUCTIONS YOU RECEIVE.  FINKEL LAW FIRM DOES NOT CHANGE ITS WIRING IN=
+STRUCTIONS.  PLEASE NOTIFY US IMMEDIATELY IF YOU RECEIVE REVISED INSTRUCTION=
+S.
+> =20
+
+--Apple-Mail-BA423962-0996-4A5C-9731-350ABEBFDD1C
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><br><br><div id=3D"AppleMailSignature">Sent=
+ from my iPhone</div><div><br>Begin forwarded message:<br><br></div><blockqu=
+ote type=3D"cite"><div><b>From:</b> Darla Walls &lt;<a href=3D"mailto:DWalls=
+@FinkelLaw.com">DWalls@FinkelLaw.com</a>&gt;<br><b>Date:</b> July 6, 2018 at=
+ 10:33:38 AM EDT<br><b>To:</b> "<a href=3D"mailto:margaretrabon@aol.com">mar=
+garetrabon@aol.com</a>" &lt;<a href=3D"mailto:margaretrabon@aol.com">margare=
+trabon@aol.com</a>&gt;<br><b>Subject:</b> <b>closing</b><br><br></div></bloc=
+kquote><blockquote type=3D"cite"><div>
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii">=
+
+<meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Bookman Old Style";
+	panose-1:2 5 6 4 5 5 5 2 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+
+
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Margaret,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">We don=E2=80=99t have anything yet from the lender an=
+d I=E2=80=99m concerned that we won=E2=80=99t in time for a closing today.&n=
+bsp; Carrie needs to have time to review the documents from the lender, espe=
+cially since we have never worked with this company before and
+ have no idea what to expect.&nbsp; <o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Please provide Jason=E2=80=99s cell phone number and e=
+mail so we can get in touch with him.&nbsp; I=E2=80=99m not sure if he is in=
+ town or is traveling here specifically for this purpose.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Thanks,<o:p></o:p></p>
+<p class=3D"MsoNormal">Darla<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Bookman Old Style&qu=
+ot;,&quot;serif&quot;">Darla Walls<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Bookman Old Style&qu=
+ot;,&quot;serif&quot;">Real Estate Paralegal<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Bookman Old Style&qu=
+ot;,&quot;serif&quot;">Finkel Law Firm LLC<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Bookman Old Style&qu=
+ot;,&quot;serif&quot;">4000 Faber Place Drive, Suite 450<o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Bookman Old Style&qu=
+ot;,&quot;serif&quot;">North Charleston, SC&nbsp; 29405<o:p></o:p></span></p=
+>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Bookman Old Style&qu=
+ot;,&quot;serif&quot;"><a href=3D"mailto:dwalls@finkellaw.com">dwalls@finkel=
+law.com</a><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Bookman Old Style&qu=
+ot;,&quot;serif&quot;">Direct:&nbsp; 843-576-6340<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Bookman Old Style&qu=
+ot;,&quot;serif&quot;">Fax No: 866-800-7947<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Bookman Old Style&qu=
+ot;,&quot;serif&quot;"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Bookman Old Style=
+&quot;,&quot;serif&quot;">Mount Pleasant Office</span></b><span style=3D"fon=
+t-family:&quot;Bookman Old Style&quot;,&quot;serif&quot;">:<o:p></o:p></span=
+></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Bookman Old Style&qu=
+ot;,&quot;serif&quot;">1041 Johnnie Dodds Blvd., Suite 13-B<o:p></o:p></span=
+></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Bookman Old Style&qu=
+ot;,&quot;serif&quot;">Mount Pleasant, SC 29464<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Bookman Old Style=
+&quot;,&quot;serif&quot;">Columbia Office:<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Bookman Old Style&qu=
+ot;,&quot;serif&quot;">1201 Main Street, Suite 1800<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Bookman Old Style&qu=
+ot;,&quot;serif&quot;">Columbia, SC 29201<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Bookman Old Style&qu=
+ot;,&quot;serif&quot;"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Bookman Old Style&qu=
+ot;,&quot;serif&quot;"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><b>Please note that all funds for real estate closing=
+s must be wired 24 hours prior to closing.&nbsp; DUE TO INCREASING FRAUD,
+</b><b><span style=3D"font-size:14.0pt;color:red">PLEASE VERBALLY CONFIRM AN=
+Y WIRING INSTRUCTIONS YOU RECEIVE</span></b><b>.&nbsp; FINKEL LAW FIRM DOES N=
+OT CHANGE ITS WIRING INSTRUCTIONS.&nbsp; PLEASE NOTIFY US IMMEDIATELY IF YOU=
+ RECEIVE REVISED INSTRUCTIONS.<o:p></o:p></b></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+
+
+</div></blockquote></body></html>=
+
+--Apple-Mail-BA423962-0996-4A5C-9731-350ABEBFDD1C--

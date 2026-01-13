@@ -1,0 +1,102 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.mail.yahoo.com designates 66.163.190.147 as permitted sender) client-ip=66.163.190.147; envelope-from=shawnrabban@yahoo.com; helo=sonic315-21.consmr.mail.ne1.yahoo.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.mail.yahoo.com designates 66.163.190.147 as permitted sender)  smtp.mailfrom=shawnrabban@yahoo.com;
+	dmarc=pass(p=reject dis=none)  header.from=yahoo.com
+Return-Path: <shawnrabban@yahoo.com>
+Received: from sonic315-21.consmr.mail.ne1.yahoo.com (sonic315-21.consmr.mail.ne1.yahoo.com [66.163.190.147]) by mx.zohomail.com
+	with SMTPS id 1531943403593256.01367350107694; Wed, 18 Jul 2018 12:50:03 -0700 (PDT)
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic315.consmr.mail.ne1.yahoo.com with HTTP; Wed, 18 Jul 2018 19:50:02 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1531943402; bh=UeVLpmj6KmtmI1mWWYrXRHgKsAGx7j3FrjKM/22rTTs=; h=Date:From:Reply-To:To:Subject:References:From:Subject; b=g6AL7dwZQEAvEhryAyFR2xBRVSGwEMQq6npm/2+hJp2uVBbz3QNlzsia0hrTii4rxVrbhUSaMCQK2FpglZSM8pAJeY9VbdC5fZCnVInm5z9MY5G7QVOLGIxpUbQYnfBkr/EBc+SPe/Ju8T+RDcOo6VG/r78kwuHubzntt6hW73/8PXqDnCzio8P0jCDJSQZ6ViNSvNmnZZOfsSXTu34uYw2UCi2iDkmLctvwV+mOo7S4znesTL2N7RwVn3kRquwatASBwTHPBOAe8D8+62KtAloZOgbXc7whoRPOwFgMMnRgMSL7ydvGoMApzv2e3MbWNSnxnFWJQ5fLRyzJrekcGA==
+X-YMail-OSG: xXL5RZ4VM1nZzbxCxwmGdzDhg1x0zOB_jVXB2RBWSp4wLylp9EfLsV.cPlsuNYP
+ EJeX38UhYimN.gRAHbE6FY3wYlaMNdaqk2OST417X88tIsd.ie_L6BEdJXXs8eTSXAQ4yOi3TsmX
+ B4_I25mBYdy3UaL98uBOQKMEm1OilYxOJnzRWCKptm2fwURCJZo4YjcB.mKzwKU1m0ocSpJa9aiE
+ kJyrKobZWlzpJMA0P7zgu6PPL1qjrOQlTExVHcnnACGhPpLRRGplGIcTtAAqe5K_fXPzhwSjzB4x
+ kljBp9gFy8GPUjC0xFeEjZSVXjm7O0IWUyLujd01Oq.MNFZWJUud_i.M.gYlt_iZfTd4Do1uV.Df
+ ncB8QMGqtlHpWbeiTWKZXgEYkOyWnFkYAflUtifZsjgWWNrS1iV739zZ58w5BhJbfVVqtkijHfVm
+ DUfVpDwRLCqNv9IDbXVNRG02NQD_62NaLS_kiZWeOvWtEFFPCAQnsptgy8xgdArN0ZSuFnMfewCK
+ JhrTgTpC9Qmi5cgqL_tBI0UTh_ZsujUVQODSX0Rbn.RcwIhGK1WJxxXfSTkwAondKMF7dDDPM0d1
+ Y_uzIOQmzWLoqxxX1up62sH0S1ykR55p5sWsDxKSQG6WLVCkxlCgo6B1TkXrtAqYhcsWMHLc16Xi
+ xsKk3UndSmME_ekLLaJji3.M0FtsuuQ79MMwCBN0X1VyTiCcCMFrjdAyTPL3dAeMXj39CHIK6cCW
+ efSNfOWS6RlHCSfk72p0TY4321T8DgDesghvJuSIcbyycb5cHkpAc_OLP2008LGHy9URNyTLOUa5
+ vJMTfkkU3ni2tStVu.r5c7Is1otpfql9yHLWwmBSkA1OwqNkceObrL7oEGLhNv6nTMpLxTQv5y6Z
+ XBg4tolU9U_GgrTMCAOwMusBRYwLFCzejFoIPHBU8OKCzJEhnCmtOzpAiha8SAMUBpsVnNZfEqj.
+ RbQcB8SDcCtQfCK0R6hWp3rlhFJ4-
+Date: Wed, 18 Jul 2018 19:49:58 +0000 (UTC)
+From: Shawn Rabban <shawnrabban@yahoo.com>
+Reply-To: Shawn Rabban <shawnrabban@yahoo.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+Message-ID:<1365284342.405622.1531943398097@mail.yahoo.com>
+Subject: from shawn rabban
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_405621_1674921434.1531943398096"
+References: <1365284342.405622.1531943398097.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.12062 YahooMailNeo Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+Content-Length: 3719
+X-ZohoMail-DKIM: pass (identity @yahoo.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_167 FRD_NDS SPK
+X-ZM-MESSAGEID: 1531943403881100001
+X-ZohoMail-Status: 1
+
+
+------=_Part_405621_1674921434.1531943398096
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+can you send me some information about impact and alta stated program=20
+shawn=C2=A0City Capital Realty offers many different loan programs:   =20
+   - Stated Income Apartment and Commercial Loan  =20
+
+   - Gas Station and Car Wash Loan | Hotel/Motel  =20
+
+   - Land entitlement loan | Construction Loan | Land Loan  =20
+
+   - Hard Money |=C2=A0SBA |Commercial | Construction | Apartment Loan
+(310) 714-5616
+www.laconstructionloan.comwww.citycapitalrealty.com
+------=_Part_405621_1674921434.1531943398096
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><div style=3D"color:#000; background-color:#fff; f=
+ont-family:Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font=
+-size:16px"><div id=3D"yui_3_16_0_ym19_1_1531941870554_38598" dir=3D"ltr"><=
+span id=3D"yui_3_16_0_ym19_1_1531941870554_38604">can you send me some info=
+rmation about impact and alta stated program <br></span></div><div dir=3D"l=
+tr" id=3D"yui_3_16_0_ym19_1_1531941870554_38615"><span id=3D"yui_3_16_0_ym1=
+9_1_1531941870554_38604">shawn</span></div><div>&nbsp;</div><div class=3D"s=
+ignature" id=3D"yui_3_16_0_ym19_1_1531941870554_38636"><div id=3D"yui_3_16_=
+0_ym19_1_1531941870554_38635"><img class=3D"" id=3D"yiv0624812101yui_3_16_0=
+_ym19_1_1471040208404_16195" alt=3D"http://www.citycapitalrealty.com/Rabban=
+_Email_Sign.jpg" src=3D"http://www.citycapitalrealty.com/Rabban_Email_Sign.=
+jpg" data-id=3D"0cda18ee-6156-f62d-b24d-9a7003cd6b34"></div><div id=3D"yui_=
+3_16_0_ym19_1_1531941870554_38642"><div style=3D"margin:0in 0in 0pt;"><span=
+ style=3D"color:rgb(255, 110, 1);"><span style=3D"font-family:'Helvetica Ne=
+ue', Helvetica, Arial, 'Lucida Grande', sans-serif;font-weight:bold;font-si=
+ze:medium;">City Capital Realty offers many different loan programs: </span=
+></span></div><ul id=3D"yui_3_16_0_ym19_1_1531941870554_38641"><li id=3D"yu=
+i_3_16_0_ym19_1_1531941870554_38640"><span style=3D"font-family:'Helvetica =
+Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;font-size:small;">Stat=
+ed Income Apartment and Commercial Loan<br></span></li><li><span style=3D"f=
+ont-family:'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;=
+font-size:small;">Gas Station and Car Wash Loan | Hotel/Motel<br></span></l=
+i><li id=3D"yui_3_16_0_ym19_1_1531941870554_38644"><span style=3D"font-fami=
+ly:'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;font-siz=
+e:small;"></span><span style=3D"font-family:'Helvetica Neue', Helvetica, Ar=
+ial, 'Lucida Grande', sans-serif;font-size:small;" id=3D"yui_3_16_0_ym19_1_=
+1531941870554_38643">Land entitlement loan | Construction Loan | Land Loan<=
+/span><br></li><li><span style=3D"font-family:'Helvetica Neue', Helvetica, =
+Arial, 'Lucida Grande', sans-serif;font-size:small;">Hard Money |&nbsp;</sp=
+an><span style=3D"font-family:'Helvetica Neue', Helvetica, Arial, 'Lucida G=
+rande', sans-serif;font-size:small;">SBA |Commercial | Construction | Apart=
+ment Loan</span></li></ul><div>(310) 714-5616<br></div><div><span style=3D"=
+color:rgb(76, 118, 162);font-family:verdana, helvetica, sans-serif;font-wei=
+ght:bold;font-size:small;"><a rel=3D"nofollow" target=3D"_blank" href=3D"ht=
+tp://www.laconstructionloan.com/">www.laconstructionloan.com</a></span></di=
+v></div><div><span style=3D"font-family:verdana, helvetica, sans-serif;font=
+-weight:bold;font-size:small;"><a rel=3D"nofollow" target=3D"_blank" href=
+=3D"http://citycapitalrealty.com/">www.citycapitalrealty.com</a></span></di=
+v></div></div></body></html>
+------=_Part_405621_1674921434.1531943398096--

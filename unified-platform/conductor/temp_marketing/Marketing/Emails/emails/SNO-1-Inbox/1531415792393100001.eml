@@ -1,0 +1,163 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of em2630.delawareinc.com designates 168.245.35.85 as permitted sender) client-ip=168.245.35.85; envelope-from=bounces+6225693-b08b-sam=c-mtg.com@em2630.delawareinc.com; helo=o1.email.delawareinc.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of em2630.delawareinc.com designates 168.245.35.85 as permitted sender)  smtp.mailfrom=bounces+6225693-b08b-sam=c-mtg.com@em2630.delawareinc.com
+Return-Path: <bounces+6225693-b08b-sam=c-mtg.com@em2630.delawareinc.com>
+Received: from o1.email.delawareinc.com (o1.email.delawareinc.com [168.245.35.85]) by mx.zohomail.com
+	with SMTPS id 1531415790597406.4815754804699; Thu, 12 Jul 2018 10:16:30 -0700 (PDT)
+Received: by filter0017p3iad2.sendgrid.net with SMTP id filter0017p3iad2-16056-5B478CED-31
+        2018-07-12 17:16:29.598959134 +0000 UTC
+Received: from 824490-PROD2.hosting.delawareinc.com (unknown [146.20.145.115])
+	by ismtpd0001p1iad1.sendgrid.net (SG) with ESMTP id IiuWSDcLSGuQCTeH5w_Haw
+	for <sam@c-mtg.com>; Thu, 12 Jul 2018 17:16:29.492 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; 
+	d=delawareinc.com; 
+	h=from:to:subject:mime-version:content-type:content-transfer-encoding; 
+	s=s1; bh=UIkwjRz0+7XeBfrtUJ5OIZ/CpjI=; b=B/3zn82F42lay1JaVtv39mU
+	bLu9rZ5RlIVR1K/xDu/P/3N4qRu/TYmlXdTa/DtxMznWwG0/2+lbOun+B2d13fME
+	IZOMl9D83Ifd4cwdKQK9X2m07HPjVY3WxM01sgphO7RnxO14JK1S+MtUGZ4C7YQp
+	1Jeywo/2qBciL8h9xWyY=
+Date: Thu, 12 Jul 2018 17:16:29 +0000 (UTC)
+From: payments@delawareinc.com
+To: sam@c-mtg.com
+Message-ID:<256237379.139604.1531415789461@smtp.sendgrid.net>
+Subject: Registered Agent Invoice
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Mailer: ColdFusion 11 Application Server
+X-SG-EID: sJ5jPJCVabzDYf0vjXbBS8P9BkedMOoDxoyfCiNVXG3+xeuWxlUSwdv0GvmEB9s3YFFfYf5mTjOyBN
+ RrHDC4YXwb/67mbXI7K0m320A84fNKItcMA7UHC/ViNoRDGkSJc9M2gxmGh0aasPE2uXAZA5ioZtec
+ jHLjmaJ3ia9dbfZmkPJd8v9eBYFygzJ3hUhjeLgk4I+D0jSO3Dnf7fakWw==
+X-ZohoMail-DKIM: pass (identity @delawareinc.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_12 RF_0 S_167
+X-ZM-MESSAGEID: 1531415792393100001
+X-ZohoMail-Status: 1
+
+
+<style type="text/css">body { padding:0; -webkit-text-size-adjust:none; -ms-text-size-adjust:none; }
+</style>
+<p style="font-size: 0px; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; display: none; line-height: 0; padding-right: 0px">&nbsp;</p>
+
+<div class="mbl">
+<table border="0" cellpadding="0" cellspacing="0" style="border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-collapse: collapse; border-top-width: 0px; border-image: none" width="100%">
+	<tbody>
+		<tr>
+			<td bgcolor="#ffffff" style="border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-top-width: 0px; border-image: none">
+			<table align="center" border="0" cellpadding="0" cellspacing="0" id="topMessageWrapper" style="border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-collapse: collapse; border-top-width: 0px; border-image: none">
+				<tbody>
+					<tr>
+						<td class="main" style="border-left-width: 0px; text-decoration: none; border-right-width: 0px; border-bottom-width: 0px; padding-bottom: 10px; padding-top: 10px; padding-left: 10px; padding-right: 10px; border-top-width: 0px; border-image: none" width="560">
+						<table border="0" cellpadding="0" cellspacing="0" style="border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-collapse: collapse; border-top-width: 0px; border-image: none" width="100%">
+							<tbody>
+								<tr>
+									<td bgcolor="#ffffff" class="group" style="border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-top-width: 0px; border-image: none">
+									<table border="0" cellpadding="0" cellspacing="0" style="border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-collapse: collapse; border-top-width: 0px; border-image: none" width="100%">
+										<tbody>
+											<tr>
+												<td align="center" class="content" style="border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px; padding-bottom: 5px; padding-top: 5px; padding-left: 0px; padding-right: 0px; border-top-width: 0px; border-image: none">
+												<p><img alt="" src="https://www.delawareinc.com/images/hbs_email_header.png" style="height: 134px; width: 600px" /></p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border="0" cellpadding="0" cellspacing="0" style="border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-collapse: collapse; border-top-width: 0px; border-image: none" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="content" style="border-left-width: 0px; font-family: sans-serif; border-right-width: 0px; border-bottom-width: 0px; color: rgb(0,0,0); padding-bottom: 6px; padding-top: 6px; padding-left: 6px; padding-right: 6px; border-top-width: 0px; border-image: none">
+									<div style="text-align: justify">
+									<p style="font-family: times new roman,times,serif; text-align: right">July 2018</p>
+
+									<p><span style="font-family: times new roman,times,serif">Hello,</span></p>
+
+									<p><span style="font-family: times new roman,times,serif">Harvard Business Services, Inc. appreciates your business and will continue to provide you and your company with the personal and professional service you have come to expect.&nbsp; Please note the appearance of our billing correspondence and invoices has been updated.</span></p>
+
+									<p><span style="font-family: times new roman,times,serif">Our records indicate that your Registered Agent fees are currently due for the following accounts.&nbsp; Company names, due dates and amounts due are listed on the invoice.</span></p>
+
+									<p style="font-family: times new roman,times,serif">
+       <table width="50%" align="center">
+        
+           <tr>
+               <td align="right">Account Number</td>
+               <td align="left">48774</td>
+           </tr>
+        
+        </table>
+        <p style="padding: 10px 10px; font-size: 15px; text-align: center;"><a href="http://url4278.delawareinc.com/wf/click?upn=czft6pgkb-2BVbGawtXT5tjvHefHQShysEiYOAC6wzeukq9BMeJUDXXr6sc-2FeP15AvmmBJK6v0-2FtJ3TECnZW1hAKZExxkG9sEO-2FpkoxKVTxP2nNgM5d16rxRAacFqrf20Z-2FbWcNYwMpZwnCRHfA-2FGvswSkxbhCp-2BWLzIXBu98NuAtekSuPBe5S44R74Q1a-2FcZWFWkFVlfv-2BgD7ZmLEbP62DQ-3D-3D_49LhmdSuYO-2BcRCHP9kI26-2FPdSc9x-2BxJL581zUPEyrOY7xSUMPrUUuyDVNv9yfrQAllUdsyM3XJCaIqIPbTeDgG8sxZkIYMLeyY38t-2ByEecl30yhzjEeWHpoq5uXn-2BBS5sC7Cz63wzG1HmJ7-2B2vGdtNjah6Uq-2FS8IWNFHZ4JIvfB68sH5wXmaJzEDZFVWutdxjcYo6O7BxMPT9aK56A3KdQ-3D-3D" target="_blank">Click Here To View Invoice And Submit Payment</a></p>
+
+    </p>
+
+									<p style="font-family: times new roman,times,serif">&nbsp;</p>
+
+									<p style="font-family: times new roman,times,serif">Thank you for choosing Harvard Business Services, Inc. as your Registered Agent.</p>
+									</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border="0" cellpadding="0" cellspacing="0" height="100%" id="bodyTable" width="100%">
+							<tbody>
+								<tr>
+									<td align="center" valign="top">
+									<table border="0" cellpadding="5" cellspacing="0" width="600">
+										<tbody>
+											<tr>
+												<td align="center" valign="bottom">
+												<h4><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px">CONNECT WITH US</span></span></h4>
+
+												<table border="0" cellpadding="5" cellspacing="10" id="CONTACT" style="width: 100%">
+													<colgroup>
+														<col width="50%" />
+													</colgroup>
+													<tbody>
+														<tr>
+															<td style="text-align: center" width="50%"><span style="font-size: 16px"><img src="https://www.delawareinc.com/images/phone_us.png" style="border-top: rgb(0,0,0) 0px solid; height: 18px; border-right: rgb(0,0,0) 0px solid; width: 18px; border-bottom: rgb(0,0,0) 0px solid; border-left: rgb(0,0,0) 0px solid; margin: 0px; display: inline" /></span><span style="font-size: 14px">&nbsp;<span style="font-family: arial,helvetica,sans-serif"><a href="tel:800-345-2677" style="text-decoration: none" target="_blank">800-345-2677 Ext. 6904</a></span></span></td>
+															<td style="text-align: center" width="50%"><img src="https://www.delawareinc.com/images/email_us.png" style="border-top: rgb(0,0,0) 0px solid; height: 18px; border-right: rgb(0,0,0) 0px solid; width: 18px; border-bottom: rgb(0,0,0) 0px solid; border-left: rgb(0,0,0) 0px solid; margin: 0px; display: inline" />&nbsp;<span style="font-size: 14px"><a href="mailto:payments@delawareinc.com" style="text-decoration: none" target="_blank">payments@delawareinc.com</a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellpadding="5" cellspacing="0" width="600">
+										<tbody>
+											<tr>
+												<td align="center" id="CoName" valign="top"><span style="font-size: 14px"><span style="font-family: arial,helvetica,sans-serif"><strong>Harvard Business Services, Inc.</strong></span></span></td>
+											</tr>
+											<tr>
+												<td align="center" id="CoDetails" valign="top"><span style="font-family: times new roman,times,serif">16192 Coastal Highway, Lewes, DE 19958</span></td>
+											</tr>
+											<tr>
+												<td align="center" valign="top"><span style="font-family: times new roman,times,serif">To unsubscribe from our billing emails, please</span>&nbsp;<a href="http://url4278.delawareinc.com/wf/click?upn=czft6pgkb-2BVbGawtXT5tjnCQKnQOefv-2B-2B-2FqS1F8DK81utlovHoUdKB1hbIkEz9MMFkDmDvDQ1amjRAfPx3ypidFAwH9Ba9GV9seCan8jecbqUEr1aCOhjEl0F-2F2NZuIbnJqF3ur98-2ByrhGCMMtEhTw-3D-3D_49LhmdSuYO-2BcRCHP9kI26-2FPdSc9x-2BxJL581zUPEyrOY7xSUMPrUUuyDVNv9yfrQAsk4K-2FWBaeENII-2BiuRhAGU2FzBezUXdfV2MIei4orrdyg8XSAaJ-2F9CVlORo-2Fd9BDDcjC1ecneRaG19zigJqVaEW86-2BrBO0DJwbp1PHuqMJyzETwFfTFZwtx-2FjorCyVsqRkCieCkWxxk8RlNMWvwC0Nw-3D-3D" style="text-decoration: none" target="new">click here</a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border="0" cellpadding="0" cellspacing="0" style="border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-collapse: collapse; border-top-width: 0px; border-image: none" width="100%">
+							<tbody>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<img border="0" src="https://www.delawareinc.com/ra-invoice/track.cfm?email=sam@c-mtg.com&date=2018-07-12"  alt=""/> 
+<img src="http://url4278.delawareinc.com/wf/open?upn=49LhmdSuYO-2BcRCHP9kI26-2FPdSc9x-2BxJL581zUPEyrOY7xSUMPrUUuyDVNv9yfrQAylv36Ih4YkGGIK8ga8X39mm371s2dUA2GTTa0JgWCy07sd4K6s8sWr5waO5bmtQZlW1g4a0TiDtkzbZl1DUK8c0CwF64iM-2FwIDfb2wmq1EUDl3CW7HoJsnqww9Mg3be3LBxcUCFY5pYybRqsMga57KIgrr-2F1cI3N6cmjVD15jSs-3D" alt="" width="1" height="1" border="0" style="height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;"/>

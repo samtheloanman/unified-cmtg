@@ -1,0 +1,127 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: none (zoho.com: 209.85.160.54 is neither permitted nor denied by domain of domm.life) client-ip=209.85.160.54; envelope-from=todd@domm.life; helo=mail-pl0-f54.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=none (zoho.com: 209.85.160.54 is neither permitted nor denied by domain of domm.life)  smtp.mailfrom=todd@domm.life
+Received: from mail-pl0-f54.google.com (mail-pl0-f54.google.com [209.85.160.54]) by mx.zohomail.com
+	with SMTPS id 1531184300086194.4741932882797; Mon, 9 Jul 2018 17:58:20 -0700 (PDT)
+Received: by mail-pl0-f54.google.com with SMTP id 31-v6so6800635plc.4
+        for <sam@c-mtg.com>; Mon, 09 Jul 2018 17:58:19 -0700 (PDT)
+Return-Path: <todd@domm.life>
+Return-Path: <todd@domm.life>
+Received: from ?IPv6:2600:8800:4300:3300:2c2f:9e08:8ad3:f944? ([2600:8800:4300:3300:2c2f:9e08:8ad3:f944])
+        by smtp.gmail.com with ESMTPSA id y15-v6sm25448184pfm.136.2018.07.09.17.58.18
+        for <sam@c-mtg.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 09 Jul 2018 17:58:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domm-life.20150623.gappssmtp.com; s=20150623;
+        h=from:content-transfer-encoding:mime-version:date:message-id:to;
+        bh=BUVSG/lyYV0glC8QxHoiJtBKvCjJ2lOe2Xa3HSO5t/E=;
+        b=IrQolsRMWrRUKQPtHO2l93QbvlrXbgGWQQ0FUsDAl5angNV+EeMtRKsnB3FB8VnaHa
+         ubO8E6S4tWXyUGdZxdAglC3jTfZ9RtLkIsSs7iNiexozxCHzSYr7nYdOMMfO3x3HaKmR
+         mvUhlXhbwis+eh2kF9mf0Bss2DH9I0dabEsF0h4+lQX18QyKcCgHB2E0d73EM2pwwDFl
+         gHvWfGtsSf0M+cZz6MNPqALWDo/u8jvI8lrRmCAlt62jjwEhquM7A1ArpfuxQC4vXY7e
+         7BZ/TEE55XVyWejGtCpbH5BFR786Ay6SvCxo/X9hR0M+vlytXKPGiwwVYuJYR3/KoZps
+         7CEg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:content-transfer-encoding:mime-version:date
+         :message-id:to;
+        bh=BUVSG/lyYV0glC8QxHoiJtBKvCjJ2lOe2Xa3HSO5t/E=;
+        b=ODCD3SuCHZoOpKInuH6l8WmPQnzKOWzVIi8tjkFzL3cFNU9HKytkSlRNDgpGajd4dR
+         HaRTbAKQk3A+1yLdyp/KalrpZo57Eu00/LMCRy5ZxutpM0X+6G1moYkql1lKT24cKlFm
+         xjAx9a8wMRYKq4s6B+2U5zpxFVDDr1aiah3tWS6B8kT/b3QrRKgEvpH2J3uWAtU0WeSF
+         nnyLSq8O4TrAYZcJTyU6TuS7pC4WM5KN87q5LeyPLOECWZvtzM4vsjZHyU+ewtUvL6/V
+         RxKmO9wM7BS/mDAl3NKssO4TZJwBPh/sRCe9sJRJf+lyqSGtSAnEvNBdrFRAfF5iO6EP
+         FQFw==
+X-Gm-Message-State: APt69E219qyBi3I/JyAnAlEG3RM5z6CWy8FzoJMjl6+ulA2HbGqLJtOa
+	gy+jyDkIzfCbHUJor/vqF4t1xzbjd/g=
+X-Google-Smtp-Source: AAOMgpddp8uM8wpiRIDmcHMiiE61i3zH8ic7Yvv+G2T+P5oPl+88hdn9KvvbKntJSHiYxk7JvanSaQ==
+X-Received: by 2002:a17:902:1005:: with SMTP id b5-v6mr22875210pla.207.1531184299305;
+        Mon, 09 Jul 2018 17:58:19 -0700 (PDT)
+From: Todd Romboli <todd@domm.life>
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-10A93D29-165A-4252-A875-1DC639C4D3D7
+Mime-Version: 1.0
+Date: Mon, 9 Jul 2018 17:58:17 -0700
+Message-ID:<DBBFA9A0-1BC0-41E9-A10C-4641DE4D0D89@domm.life>
+To: Sam-Mahsa <sam@c-mtg.com>
+X-Mailer: iPhone Mail (15F79)
+X-ZohoMail-DKIM: pass (identity @domm-life.20150623.gappssmtp.com)
+X-ZohoMail: RDKM_0  RSF_4  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_1 S_166 FRD_NDS
+X-ZM-MESSAGEID: 1531184301501100001
+X-ZohoMail-Status: 1
+
+
+
+--Apple-Mail-10A93D29-165A-4252-A875-1DC639C4D3D7
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Please let me know when you get a Fed Reference number for my wire =F0=9F=99=
+=8F=F0=9F=8F=BD
+
+Todd Romboli
+CEO=20
+p 312.543.1006
+f 772.264.5882
+Domm.Life
+3123 E Thomas Rd
+Phoenix, AZ 85016
+
+CONFIDENTIALITY NOTICE: This e-mail message and any attachments are for the s=
+ole use of the intended recipient(s) and may contain proprietary, confidenti=
+al, trade secret or privileged information. Any unauthorized review, use, di=
+sclosure or distribution is prohibited and may be a violation of law. If you=
+ are not the intended recipient or a person responsible for delivering this m=
+essage to an intended recipient, please contact the sender by reply email an=
+d destroy all copies of the original message.
+
+
+--Apple-Mail-10A93D29-165A-4252-A875-1DC639C4D3D7
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto">Please let me know when you get a Fed Refer=
+ence number for my wire =F0=9F=99=8F=F0=9F=8F=BD<br><br><div id=3D"AppleMail=
+Signature"><div class=3D"" style=3D"word-wrap: break-word;"><div class=3D"">=
+<div class=3D"" style=3D"margin: 0in 0in 0.0001pt;"><font class=3D""><span c=
+lass=3D"" style=3D"background-color: rgba(255, 255, 255, 0);">Todd Romboli</=
+span></font></div><div class=3D"" style=3D"margin: 0in 0in 0.0001pt;"><span c=
+lass=3D"" style=3D"background-color: rgba(255, 255, 255, 0);">CEO&nbsp;</spa=
+n></div><div class=3D"" style=3D"margin: 0in 0in 0.0001pt;"><span class=3D""=
+ style=3D"background-color: rgba(255, 255, 255, 0);">p 312.543.1006</span></=
+div><div class=3D"" style=3D"margin: 0in 0in 0.0001pt;"><span class=3D"" sty=
+le=3D"background-color: rgba(255, 255, 255, 0);">f 772.264.5882</span></div>=
+<div class=3D"" style=3D"margin: 0in 0in 0.0001pt;"><span class=3D"" style=3D=
+"background-color: rgba(255, 255, 255, 0);"><a href=3D"http://www.domm.io/" c=
+lass=3D"">D</a>omm.Life</span></div><div class=3D"" style=3D"margin: 0in 0in=
+ 0.0001pt;"><span class=3D"" style=3D"background-color: rgba(255, 255, 255, 0=
+);">3123 E Thomas Rd</span></div><div class=3D"" style=3D"margin: 0in 0in 0.=
+0001pt;"><span class=3D"" style=3D"background-color: rgba(255, 255, 255, 0);=
+">Phoenix, AZ 85016</span></div></div></div><div><span style=3D"background-c=
+olor: rgba(255, 255, 255, 0);"><img src=3D"cid:e2206057-7418-437b-a00d-f7b82=
+a718a17@namprd17.prod.outlook.com" id=3D"e2206057-7418-437b-a00d-f7b82a718a1=
+7@namprd17.prod.outlook.com" class=3D""></span></div><div style=3D"word-wrap=
+: break-word;"><div id=3D"x_AppleMailSignature"><span class=3D"x_Apple-strin=
+g-attachment" style=3D"background-color: rgba(255, 255, 255, 0);"></span></d=
+iv></div><div class=3D"" style=3D"word-wrap: break-word;"><div class=3D""><s=
+pan class=3D"" style=3D"float: none; display: inline !important; background-=
+color: rgba(255, 255, 255, 0);">CONFIDENTIALITY NOTICE: This e-mail&nbsp;mes=
+sage and any attachments are for&nbsp;the sole use of the intended recipient=
+(s)&nbsp;and may contain proprietary,&nbsp;confidential, trade secret or pri=
+vileged&nbsp;information. Any unauthorized review,&nbsp;use, disclosure or d=
+istribution is&nbsp;prohibited and may be a violation of law.&nbsp;If you ar=
+e not the intended recipient or a&nbsp;person responsible for delivering thi=
+s&nbsp;message to an intended recipient,&nbsp;please contact the sender by r=
+eply email&nbsp;and destroy all copies of the original&nbsp;message.</span><=
+/div><div><span class=3D"" style=3D"float: none; background-color: rgba(255,=
+ 255, 255, 0); display: inline !important;"><br></span></div></div></div></b=
+ody></html>=
+
+--Apple-Mail-10A93D29-165A-4252-A875-1DC639C4D3D7--

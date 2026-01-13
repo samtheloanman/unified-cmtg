@@ -1,0 +1,742 @@
+Delivered-To: sam@c-mtg.com
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of completecapitalgroup.com designates 104.47.38.80 as permitted sender)  smtp.mailfrom=ben@completecapitalgroup.com
+Return-Path: <ben@completecapitalgroup.com>
+Received: from NAM02-BL2-obe.outbound.protection.outlook.com (mail-bl2nam02on0080.outbound.protection.outlook.com [104.47.38.80]) by mx.zohomail.com
+	with SMTPS id 1532017023760915.3531735454959; Thu, 19 Jul 2018 09:17:03 -0700 (PDT)
+Received: from SN6PR14MB2400.namprd14.prod.outlook.com (52.135.86.27) by
+ SN6PR14MB2143.namprd14.prod.outlook.com (52.135.84.160) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.952.18; Thu, 19 Jul 2018 16:17:00 +0000
+Received: from SN6PR14MB2400.namprd14.prod.outlook.com
+ ([fe80::44ef:27be:35e8:2b52]) by SN6PR14MB2400.namprd14.prod.outlook.com
+ ([fe80::44ef:27be:35e8:2b52%2]) with mapi id 15.20.0973.018; Thu, 19 Jul 2018
+ 16:17:00 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=NETORG1594309.onmicrosoft.com; s=selector1-completecapitalgroup-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=7DQEwfewI3d2XKpBaGw61blb3LrF4DaOSlWtatDJUz0=;
+ b=i6yuPBBmcK8vi2y9pJHGn8OPoiRVeRLRBh6gmjV32cITlDiv4/fZ0Dmn1hI8pRUsX6N0HW2n7ulEoT9U3LxNBiG8+h2QmrnQLREvPuPkgxb6EhWmqHzhdKA4tYFwZYU93jc6mAKEPBzp7z+qu9ItBRNc7I1TMprBh1R4F2c8lB4=
+From: Ben Earnhart <ben@completecapitalgroup.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+Subject: Re: Custom Mortgage Pre Approval
+Thread-Topic: Custom Mortgage Pre Approval
+Thread-Index: AQHUHifIn4O+Nb1+h0CcIlAt5yk71KSWutSZ
+Date: Thu, 19 Jul 2018 16:17:00 +0000
+Message-ID:<SN6PR14MB2400BD448ECB28547B445EDEC8520@SN6PR14MB2400.namprd14.prod.outlook.com>
+References: <164aa9f42c5.11cfd2230277556.1410386408327591361@c-mtg.com>
+In-Reply-To: <164aa9f42c5.11cfd2230277556.1410386408327591361@c-mtg.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=ben@completecapitalgroup.com; 
+x-originating-ip: [40.67.184.195]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;SN6PR14MB2143;7:VbjW3lI+L2eTd7M0FNR+6AxP8QwnwjtyCza0vL1hoWUfwCFgUtZKjBQTMqj9ggevAIkeS8XJH0P0Z04XPwPO7b6v4MHeoQy04uQjThfgfFgkF7ykjDiT2iXY0/vQtU+zDlO6gIP7jKMDGA2BEQ9bjOU3V76Kg8Lq1zZlm47J/LJWndH43HW8UtIKfAwiYY/x5TwSJmY0LCxzdANOOuCQWwdU42OBi2jWQnBqUyffMmPwo1su/KzqCearsgjhHNa+
+x-ms-exchange-antispam-srfa-diagnostics: SOS;
+x-ms-office365-filtering-correlation-id: 5eb38cd2-de50-4c36-bb39-08d5ed930ed2
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(7020095)(4652040)(7021125)(8989117)(4534165)(7022125)(4603075)(4627221)(201702281549075)(8990107)(7048125)(7024125)(7027125)(7028125)(7023125)(5600053)(711020)(2017052603328)(7153060)(7193020);SRVR:SN6PR14MB2143;
+x-ms-traffictypediagnostic: SN6PR14MB2143:
+x-microsoft-antispam-prvs: <SN6PR14MB21433D7387F5E483FBEC3403C8520@SN6PR14MB2143.namprd14.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(148322886591682)(277860510277777)(28212336023702)(192374486261705)(31418570063057)(116415991822766)(130889001461085)(111885846020525)(128460861657000)(86561027422486);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(6040522)(2401047)(8121501046)(5005006)(3231311)(944501410)(52105095)(3002001)(93006095)(93001095)(10201501046)(149027)(150027)(6041310)(20161123564045)(2016111802025)(20161123558120)(20161123562045)(20161123560045)(6072148)(6043046)(201708071742011)(7699016);SRVR:SN6PR14MB2143;BCL:0;PCL:0;RULEID:;SRVR:SN6PR14MB2143;
+x-forefront-prvs: 0738AF4208
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(346002)(39830400003)(376002)(396003)(366004)(136003)(149574003)(52084003)(189003)(199004)(606006)(25786009)(3480700004)(53546011)(6506007)(551934003)(2900100001)(102836004)(9686003)(66066001)(6436002)(6306002)(14444005)(236005)(14454004)(53936002)(6246003)(5660300001)(11346002)(53386004)(5250100002)(54896002)(55016002)(486006)(186003)(26005)(6916009)(476003)(3846002)(86362001)(316002)(8936002)(6116002)(81156014)(7696005)(68736007)(105586002)(99286004)(446003)(97736004)(106356001)(8676002)(81166006)(33656002)(256004)(76176011)(229853002)(478600001)(45080400002)(966005)(2906002)(7736002)(74316002);DIR:OUT;SFP:1101;SCL:1;SRVR:SN6PR14MB2143;H:SN6PR14MB2400.namprd14.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;MX:1;A:1;
+Received-SPF: pass (zoho.com: domain of completecapitalgroup.com designates 104.47.38.80 as permitted sender) client-ip=104.47.38.80; envelope-from=ben@completecapitalgroup.com; helo=NAM02-BL2-obe.outbound.protection.outlook.com;
+received-spf: None (protection.outlook.com: completecapitalgroup.com does not
+ designate permitted sender hosts)
+x-microsoft-antispam-message-info: GZ5sm7SSLf2b/7slR/RlK/nx5o6DOfJgjIv+iW0BJbVzoUJarBj8g9dd3QhL/Vk5RAHibiaF5WhXdyICq1PFTLJz8cZkqrUN18V+QmPAsnFfQqlm1A67r8jhBhO7PcEXW5x/FgPYcaaT1WhHCQtx/T9YlmSXSFAg+EaWprjP1EPSovui8X0d8uGtXMV0LAbY2U3kCrm8NBz3c7kYN5F7vJHy9Ch5qp2KbJ3u8Quo4Ecgun/tSZZV8e+ON/CMxh50+AUeLiyAlpR80frmAkqWS3yPT45mEKA6u/KG7ll0dehEIqDB2WkTXTD4CTXDeXDwJoRgtvh7Kq/8qkjeN3CIzVSWQ/pjCzHEV+qsnXZtF1A=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_SN6PR14MB2400BD448ECB28547B445EDEC8520SN6PR14MB2400namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: completecapitalgroup.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 5eb38cd2-de50-4c36-bb39-08d5ed930ed2
+X-MS-Exchange-CrossTenant-originalarrivaltime: 19 Jul 2018 16:17:00.6053
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 7cc1a7bf-d8af-40e9-a8c8-eb6cf5c52d71
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN6PR14MB2143
+X-ZohoMail-DKIM: pass (identity @NETORG1594309.onmicrosoft.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_168 FRD_HI SPK
+X-ZM-MESSAGEID: 1532017025238100001
+X-ZohoMail-Status: 1
+
+
+--_000_SN6PR14MB2400BD448ECB28547B445EDEC8520SN6PR14MB2400namp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Sam,
+
+The borrower was tied up at build sites the past few days but is working on=
+ the docs and app(s) today.
+
+Do you want him to do the short or long form app?  (This is for the builder=
+ in AL that wants to do the cash out refi on his shop/office/equipment yard=
+ and some land lots he owns).
+
+Also, do you want him to do separate apps for each property?
+
+Thanks,
+
+Ben
+
+Benjamin Earnhart | Principal | C.C.G. | Direct: 970.571.0207 | ben@complet=
+ecapitalgroup.com | completecapitalgroup.com
+
+________________________________
+From: Sam Tehranchi <sam@c-mtg.com>
+Sent: Tuesday, July 17, 2018 5:42 PM
+To: Ben Earnhart
+Subject: Custom Mortgage Pre Approval
+
+Ben
+
+Per your request, below is the items we need to get started on your transac=
+tion.
+
+We have several programs you qualify for based on the initial information y=
+ou provided.  Depending on further details of your transaction, we have a f=
+ull documentation program that has rates ranging from 5-7% and stated incom=
+e programs with rates from 6-8% or hard money financing from 8-10%.
+
+Please give us additional information regarding what your looking to accomp=
+lish and we can get you a more formal quote.
+
+
+IF PROPERTIES ARE IN CORPORATION, YOU CAN USE ANY OFFICER OF CORP FOR THE A=
+PPLICATION
+
+
+I have included a link for you to fill out our "Complete Application".  Ple=
+ase complete when you are ready to proceed.
+
+
+https://www.secureloandocs.com/app/29305173
+
+
+You will also need the following items to pull your credit:
+
+
+Borrower Authorization and Certification
+
+Borrower Signature Authorization
+
+Credit Card Authorization ($18 cost for pulling credit per borrower)
+
+
+Other than that, we will need the following docs for the loan:
+
+
+You need to provide:
+
+
+1. 2 months most recent consecutive asset statements (all pages including d=
+isclaimer and blank pages) for all asset accounts (checking, savings, inves=
+tment, IRA, 401k, etc.)
+
+2. Legible copy of each borrower=92s Driver=92s License
+
+3. Social security card copy
+
+4. All properties owned (mortgage statement, insurance bill or dec page)
+
+5. Schedule of real estate (this is part of the application so please ensur=
+e you fill it out completely)
+
+6. If property is in non living entity name, please provide formation docum=
+ents (for Corporations, trusts, etc)
+
+7. Use of Funds
+
+
+
+Items we will acquire:
+
+1. Credit (*** I will order once you send back disclosures)
+
+2. Escrow instructions (*** I can order if you don't have a preference)
+
+3. Prelim Title Report (*** I can order if you don't have a preference)
+
+4. Appraisal (*** I will order)
+
+
+
+Thank you
+
+
+Respectfully,
+
+
+Sam Tehranchi
+
+Chief Operations Officer
+
+
+Custom Mortgage and Realty
+
+NMLS CA # 1556995 - BRE CA # 02018146
+
+
+D: 310.709.6304 - F: 866.421.7694
+
+sam@c-mtg.com<mailto:sam@c-mtg.com> - www.c-mtg.com<http://www.c-mtg.com>
+
+LinkedIn<https://www.linkedin.com/company-beta/3477964> - Facebook<https://=
+www.facebook.com/Custom-Mortgage-409842885783868/> - twitter<https://twitte=
+r.com/custommortgage1> - Instagram<https://www.instagram.com/custommortgage=
+inc/>
+
+
+
+
+--_000_SN6PR14MB2400BD448ECB28547B445EDEC8520SN6PR14MB2400namp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+</head>
+<body>
+<div><style id=3D"ms-outlook-ios-style" type=3D"text/css">html {=0A=
+background-color: transparent;=0A=
+}=0A=
+=0A=
+body {=0A=
+color: #333;=0A=
+line-height: 150%;=0A=
+font-family: "-apple-system", "HelveticaNeue";=0A=
+margin: 0;=0A=
+}=0A=
+=0A=
+.ms-outlook-ios-reference-expand {=0A=
+display: block;=0A=
+color: #999;=0A=
+padding: 20px 0px;=0A=
+text-decoration: none;=0A=
+}=0A=
+=0A=
+.ms-outlook-ios-availability-container {=0A=
+max-width: 500px;=0A=
+margin: auto;=0A=
+padding: 12px 15px 15px 15px;=0A=
+border: 1px solid #C7E0F4;=0A=
+border-radius: 4px;=0A=
+}=0A=
+=0A=
+.ms-outlook-ios-availability-container > .ms-outlook-ios-availability-delet=
+e-button {=0A=
+width: 25px;=0A=
+height: 25px;=0A=
+right: -12px;=0A=
+top: -12px;=0A=
+background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAA=
+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
+BzRAPSFNM7HEAAAAASUVORK5CYII=3D");=0A=
+background-size: 25px 25px;=0A=
+background-position: center;=0A=
+}=0A=
+=0A=
+#ms-outlook-ios-main-container {=0A=
+margin: 0 0 0 0;=0A=
+margin-top: 120;=0A=
+padding: 8;=0A=
+}=0A=
+=0A=
+#ms-outlook-ios-content-container {=0A=
+padding: 0;=0A=
+padding-top: 12;=0A=
+padding-bottom: 20;=0A=
+}=0A=
+=0A=
+.ms-outlook-ios-mention {=0A=
+color: #333;=0A=
+background-color: #f1f1f1;=0A=
+border-radius: 4px;=0A=
+padding: 0 2px 0 2px;=0A=
+pointer-events: none;=0A=
+text-decoration: none;=0A=
+}</style>
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, user-scalable=3Dno=
+, initial-scale=3D1.0">
+<!-- This file has been automatically generated. See web/README.md -->
+<div style=3D"direction: ltr;">
+<div>Sam,</div>
+<div style=3D"direction: ltr;"><br>
+</div>
+<div style=3D"direction: ltr;">The borrower was tied up at build sites the =
+past few days but is working on the docs and app(s) today.&nbsp;</div>
+<div style=3D"direction: ltr;"><br>
+</div>
+<div style=3D"direction: ltr;">Do you want him to do the short or long form=
+ app? &nbsp;(This is for the builder in AL that wants to do the cash out re=
+fi on his shop/office/equipment yard and some land lots he owns).&nbsp;</di=
+v>
+<div style=3D"direction: ltr;"><br>
+</div>
+<div style=3D"direction: ltr;">Also, do you want him to do separate apps fo=
+r each property?</div>
+<div style=3D"direction: ltr;"><br>
+</div>
+<div style=3D"direction: ltr;">Thanks,</div>
+<div style=3D"direction: ltr;"><br>
+</div>
+<div style=3D"direction: ltr;">Ben</div>
+<div><br>
+</div>
+<div class=3D"ms-outlook-ios-signature">
+<div style=3D"direction: ltr;">Benjamin Earnhart | Principal | C.C.G. | Dir=
+ect: 970.571.0207 | ben@completecapitalgroup.com | completecapitalgroup.com=
+</div>
+</div>
+</div>
+<div>&nbsp;</div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"dir=3D&quot;ltr&quot;"><font face=3D"Calib=
+ri, sans-serif" style=3D"font-size:11pt" color=3D"#000000"><b>From:</b> Sam=
+ Tehranchi &lt;sam@c-mtg.com&gt;<br>
+<b>Sent:</b> Tuesday, July 17, 2018 5:42 PM<br>
+<b>To:</b> Ben Earnhart<br>
+<b>Subject:</b> Custom Mortgage Pre Approval
+<div>&nbsp;</div>
+</font></div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<meta content=3D"text/html; charset=3Dutf-8">
+<div style=3D"font-size:10pt; font-family:Verdana,Arial,Helvetica,sans-seri=
+f">
+<div>
+<div style=3D"font-size:10pt; font-family:Verdana,Arial,Helvetica,sans-seri=
+f">
+<div>
+<div>Ben<br>
+</div>
+<div><br>
+</div>
+</div>
+<div style=3D"color:rgb(0,0,0); font-family:Verdana,Arial,Helvetica,sans-se=
+rif; font-size:13.333333px; font-style:normal; font-weight:normal; letter-s=
+pacing:normal; text-indent:0px; text-transform:none; white-space:normal; wo=
+rd-spacing:0px; text-decoration:none">
+<span class=3D"highlight" style=3D"background-color:rgb(255,255,255)"><span=
+ class=3D"size" style=3D"font-size:14px">Per your request, below is the ite=
+ms we need to get started on your transaction. &nbsp;</span></span><br>
+</div>
+<div style=3D"color:rgb(0,0,0); font-family:Verdana,Arial,Helvetica,sans-se=
+rif; font-size:13.333333px; font-style:normal; font-weight:normal; letter-s=
+pacing:normal; text-indent:0px; text-transform:none; white-space:normal; wo=
+rd-spacing:0px; text-decoration:none">
+<br>
+</div>
+<div style=3D"color:rgb(0,0,0); font-family:Verdana,Arial,Helvetica,sans-se=
+rif; font-size:13.333333px; font-style:normal; font-weight:normal; letter-s=
+pacing:normal; text-indent:0px; text-transform:none; white-space:normal; wo=
+rd-spacing:0px; text-decoration:none">
+<span class=3D"highlight" style=3D"background-color:rgb(255,255,255)"><span=
+ class=3D"size" style=3D"font-size:14px">We have several programs you quali=
+fy for based on the initial information you provided. &nbsp;Depending on fu=
+rther details of your transaction, we have a
+ full documentation program that has rates ranging from 5-7% and stated inc=
+ome programs with rates from 6-8% or hard money financing from 8-10%.</span=
+></span><br>
+</div>
+<div style=3D"color:rgb(0,0,0); font-family:Verdana,Arial,Helvetica,sans-se=
+rif; font-size:13.333333px; font-style:normal; font-weight:normal; letter-s=
+pacing:normal; text-indent:0px; text-transform:none; white-space:normal; wo=
+rd-spacing:0px; text-decoration:none">
+<br>
+</div>
+<div style=3D"color:rgb(0,0,0); font-family:Verdana,Arial,Helvetica,sans-se=
+rif; font-size:13.333333px; font-style:normal; font-weight:normal; letter-s=
+pacing:normal; text-indent:0px; text-transform:none; white-space:normal; wo=
+rd-spacing:0px; text-decoration:none">
+<span class=3D"highlight" style=3D"background-color:rgb(255,255,255)"><span=
+ class=3D"size" style=3D"font-size:14px">Please give us additional informat=
+ion regarding what your looking to accomplish and we can get you a more for=
+mal quote.</span></span><br>
+</div>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px"><b>=
+IF
+ PROPERTIES ARE IN CORPORATION, YOU CAN USE ANY OFFICER OF CORP FOR THE APP=
+LICATION</b></span></span></span></span></span><br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px">I
+ have included a link for you to fill out our &quot;Complete Application&qu=
+ot;.&nbsp; Please complete when you are ready to proceed.</span></span></sp=
+an></span></span><br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px"><a =
+href=3D"https://www.secureloandocs.com/app/29305173" target=3D"_blank" styl=
+e=3D"color:rgb(89,143,222); outline:0px">https://www.secureloandocs.com/app=
+/29305173</a></span></span></span></span></span><br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px">You
+ will also need the following items to pull your credit:</span></span></spa=
+n></span></span><br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px">Bor=
+rower
+ Authorization and Certification</span></span></span></span></span><br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px">Bor=
+rower
+ Signature Authorization</span></span></span></span></span><br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px">Cre=
+dit
+ Card Authorization ($18 cost for pulling credit per borrower)</span></span=
+></span></span></span><br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px">Oth=
+er
+ than that, we will need the following docs for the loan:</span></span></sp=
+an></span></span><br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px">You
+ need to provide:</span></span></span></span></span><br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px">1.
+ 2 months most recent consecutive asset statements (all pages including dis=
+claimer and blank pages) for all asset accounts (checking, savings, investm=
+ent, IRA, 401k, etc.)</span></span></span></span></span><br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px">2.
+ Legible copy of each borrower=92s Driver=92s License</span></span></span><=
+/span></span><br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px">3.
+ Social security card copy</span></span></span></span></span><br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px">4.
+ All properties owned (mortgage statement, insurance bill or dec page)</spa=
+n></span></span></span></span><br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px">5.
+ Schedule of real estate (this is part of the application so please ensure =
+you fill it out completely)</span></span></span></span></span><br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px">6.
+ If property is in non living entity name, please provide formation documen=
+ts (for Corporations, trusts, etc)</span></span></span></span></span><br>
+</p>
+<div>7. Use of Funds<br>
+</div>
+<div><br>
+</div>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px">Ite=
+ms
+ we will acquire:</span></span></span></span></span><br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px">1.
+ Credit (*** I will order once you send back disclosures)</span></span></sp=
+an></span></span><br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px">2.
+ Escrow instructions (*** I can order if you don't have a preference)</span=
+></span></span></span></span><br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px">3.
+ Prelim Title Report (*** I can order if you don't have a preference)</span=
+></span></span></span></span><br>
+</p>
+<p style=3D"font-style:normal; font-weight:normal; letter-spacing:normal; t=
+ext-indent:0px; text-transform:none; white-space:normal; word-spacing:0px; =
+text-decoration:none; margin:0px; line-height:normal">
+<span class=3D"colour" style=3D"color:rgb(0,0,0)"><span class=3D"font" styl=
+e=3D"font-family:Verdana,Arial,Helvetica,sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:13.333333px"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255,255,255)"><span class=3D"size" style=3D"font-size:14px">4.
+ Appraisal (*** I will order)</span></span></span></span></span><br>
+</p>
+<div style=3D"color:rgb(0,0,0); font-family:Verdana,Arial,Helvetica,sans-se=
+rif; font-size:13.333333px; font-style:normal; font-weight:normal; letter-s=
+pacing:normal; text-indent:0px; text-transform:none; white-space:normal; wo=
+rd-spacing:0px; text-decoration:none">
+<br>
+</div>
+<div style=3D"color:rgb(0,0,0); font-family:Verdana,Arial,Helvetica,sans-se=
+rif; font-size:13.333333px; font-style:normal; font-weight:normal; letter-s=
+pacing:normal; text-indent:0px; text-transform:none; white-space:normal; wo=
+rd-spacing:0px; text-decoration:none">
+<br>
+</div>
+<div style=3D"color:rgb(0,0,0); font-family:Verdana,Arial,Helvetica,sans-se=
+rif; font-size:13.333333px; font-style:normal; font-weight:normal; letter-s=
+pacing:normal; text-indent:0px; text-transform:none; white-space:normal; wo=
+rd-spacing:0px; text-decoration:none">
+<p>Thank you<br>
+</p>
+<p><br>
+</p>
+<p>Respectfully,<br>
+</p>
+<p><br>
+</p>
+<p>Sam Tehranchi<br>
+</p>
+<p><span class=3D"size" style=3D"font-size:x-small">Chief Operations Office=
+r</span><br>
+</p>
+<p><br>
+</p>
+<p><b>Custom Mortgage and Realty</b><br>
+</p>
+<p><span class=3D"size" style=3D"font-size:10px">NMLS CA # 1556995 - BRE CA=
+ # 02018146</span><br>
+</p>
+<p><br>
+</p>
+<p><span>D:&nbsp;</span>310.709.6304<span><span class=3D"x_-2018994727Apple=
+-converted-space">&nbsp;</span>- F:&nbsp;</span>866.421.7694<br>
+</p>
+<p><a href=3D"mailto:sam@c-mtg.com" target=3D"_blank" style=3D"color:rgb(89=
+,143,222)">sam@c-mtg.com</a><span>&nbsp;-&nbsp;<span><a href=3D"http://www.=
+c-mtg.com" target=3D"_blank" style=3D"color:rgb(89,143,222)">www.c-mtg.com<=
+/a></span></span><br>
+</p>
+<p><a href=3D"https://www.linkedin.com/company-beta/3477964" target=3D"_bla=
+nk" style=3D"color:rgb(89,143,222); font-family:Helvetica; font-size:12px">=
+LinkedIn</a><span class=3D"font" style=3D"font-family:Helvetica"><span clas=
+s=3D"size" style=3D"font-size:12px">&nbsp;-&nbsp;</span></span><a href=3D"h=
+ttps://www.facebook.com/Custom-Mortgage-409842885783868/" target=3D"_blank"=
+ style=3D"color:rgb(89,143,222); font-family:Helvetica; font-size:12px">Fac=
+ebook</a><span class=3D"font" style=3D"font-family:Helvetica"><span class=
+=3D"size" style=3D"font-size:12px">&nbsp;-&nbsp;</span></span><a href=3D"ht=
+tps://twitter.com/custommortgage1" target=3D"_blank" style=3D"color:rgb(89,=
+143,222); font-family:Helvetica; font-size:12px">twitter</a><span class=3D"=
+font" style=3D"font-family:Helvetica"><span class=3D"size" style=3D"font-si=
+ze:12px">&nbsp;-&nbsp;</span></span><a href=3D"https://www.instagram.com/cu=
+stommortgageinc/" target=3D"_blank" style=3D"color:rgb(89,143,222); font-fa=
+mily:Helvetica; font-size:12px">Instagram</a><br>
+</p>
+</div>
+<div><br>
+</div>
+</div>
+</div>
+<div><br>
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>
+
+--_000_SN6PR14MB2400BD448ECB28547B445EDEC8520SN6PR14MB2400namp_--

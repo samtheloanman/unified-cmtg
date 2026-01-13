@@ -1,0 +1,780 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of datadrivenemail.com designates 50.23.70.200 as permitted sender) client-ip=50.23.70.200; envelope-from=4-938411-3119320-23627737899-GE2WMODEME4TMYJWGI4DQYRNGBQTMZRRHE2DKYTCMIZTOZRNGUZTOYRUGA3WILJTHA2DAMBQFUYTKZRYMRQTSNTBGYZWCM3D@datadrivenemail.com; helo=mail-50-23-70-200.datadrivenemail.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=contact@wpmudev.org;
+	spf=pass (zoho.com: domain of datadrivenemail.com designates 50.23.70.200 as permitted sender)  smtp.mailfrom=4-938411-3119320-23627737899-GE2WMODEME4TMYJWGI4DQYRNGBQTMZRRHE2DKYTCMIZTOZRNGUZTOYRUGA3WILJTHA2DAMBQFUYTKZRYMRQTSNTBGYZWCM3D@datadrivenemail.com
+Return-Path: <4-938411-3119320-23627737899-GE2WMODEME4TMYJWGI4DQYRNGBQTMZRRHE2DKYTCMIZTOZRNGUZTOYRUGA3WILJTHA2DAMBQFUYTKZRYMRQTSNTBGYZWCM3D@datadrivenemail.com>
+Received: from mail-50-23-70-200.datadrivenemail.com (mail-50-23-70-200.datadrivenemail.com [50.23.70.200]) by mx.zohomail.com
+	with SMTPS id 1532395637369382.2363172880812; Mon, 23 Jul 2018 18:27:17 -0700 (PDT)
+Received: from [10.255.55.222] (10.255.55.222) by mail-50-23-70-200.datadrivenemail.com id haq01q2cu5kr for <sam@c-mtg.com>; Tue, 24 Jul 2018 01:25:48 +0000 (envelope-from <4-938411-3119320-23627737899-GE2WMODEME4TMYJWGI4DQYRNGBQTMZRRHE2DKYTCMIZTOZRNGUZTOYRUGA3WILJTHA2DAMBQFUYTKZRYMRQTSNTBGYZWCM3D@datadrivenemail.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=mixpanel; d=wpmudev.org;
+ h=Content-Type:MIME-Version:Content-Transfer-Encoding:Subject:To:From:
+ Message-ID:Date; i=contact@wpmudev.org;
+ bh=fJ0dJECRnhIa40BiAxnuJCqEUsQbLeLlJ3+/w47f1RA=;
+ b=Rot69yGa5le6nqYwsLgfWbNNLTg29KqERPrMayKGwzepsJIMVxybMk3rZyi12JvhcqgYdiVc9OTQ
+   UKiAFQTjsVShNg5WlcDjASdiJAfYMP+17kgzwNpxLoXZdenWnVq8NErS1YFGyLPqc3mxxcFdQwCO
+   NIM+g1MvYBr2hLsWf34=
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Subject: Sam Tehranchi! You're eligible for 3 months of WPMU DEV completely free!
+To: sam@c-mtg.com
+From: WPMU DEV <contact@wpmudev.org>
+Message-ID:<0.0.5.B8.1D422ED40B9EAF8.0@mail-50-23-70-200.datadrivenemail.com>
+Date: Tue, 24 Jul 2018 01:25:48 +0000
+X-ZohoMail-DKIM: pass (identity contact@wpmudev.org)
+X-ZohoMail-Owner: <0.0.5.B8.1D422ED40B9EAF8.0@mail-50-23-70-200.datadrivenemail.com>+zmo_0_4-938411-3119320-23627737899-GE2WMODEME4TMYJWGI4DQYRNGBQTMZRRHE2DKYTCMIZTOZRNGUZTOYRUGA3WILJTHA2DAMBQFUYTKZRYMRQTSNTBGYZWCM3D@datadrivenemail.com
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_1 IS_0 EML_0 DMN_0 EDR_100 PMF_UMN COSF LNKP ZCF_FLB_5 UMS_WB UNK_U_0 UNK_O_0 SIP_KMR_0 RPD_KMR_0 PMF_LNK_IMG_0 PMF_LNK_RPT_0 PMF_SUBJ_SLT_0 SDFE_NA_MXPR_0 ZMHF_701_4 CV_710IT_1 ZCF_FLB_0  SC_5 SGR3_1_2_0_168_337
+X-ZM-MESSAGEID: 1532395638513100001
+X-ZohoMail-Flag: Important
+X-ZohoMail-Status: 1
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns=3D"http://www.w3.org/1999/xht=
+ml"><head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width">
+  <title>Time limited trial offer from WPMU DEV!</title>
+  <style type=3D"text/css">
+    a:hover {
+      color: #333 !important;
+    }
+    a.cta-button:hover,
+    button.cta-button:hover,
+    a.cta-button:focus,
+    button.cta-button:focus {
+      background: #01A383 !important;
+      color: #ffffff !important;
+    }
+    table.main-content li.features-list-item .description a:hover {
+      color: #17abe3 !important;
+    }
+  </style>
+</head>
+<body style=3D"-moz-box-sizing: border-box; -ms-text-size-adjust: 100%; -we=
+bkit-box-sizing: border-box; -webkit-text-size-adjust: 100%; Margin: 0; bac=
+kground: #EAECED; box-sizing: border-box; color: #555555; font-family: 'Ope=
+n Sans', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: normal=
+; line-height: 30px; margin: 0; min-width: 100%; padding: 0; text-align: le=
+ft; width: 100% !important;">
+  <style tyle=3D"text/css">
+    @media screen and (max-width: 540px) {
+      a.cta-button,
+      button.cta-button {
+        display: block !important;
+      }
+      table.main td.main-inner {
+        padding: 30px !important;
+      }
+      table.main-content td.main-content-cta {
+        padding: 30px 0 !important;
+      }
+      table.main-content td.main-content-cta .cta-button {
+        min-width: inherit !important;
+      }
+    }
+
+    @media only screen {
+      html {
+        min-height: 100%;
+        background: #f3f3f3;
+      }
+    }
+
+    @media only screen and (max-width: 596px) {
+      .small-float-center {
+        margin: 0 auto !important;
+        float: none !important;
+        text-align: center !important;
+      }
+      .small-text-center {
+        text-align: center !important;
+      }
+      .small-text-left {
+        text-align: left !important;
+      }
+      .small-text-right {
+        text-align: right !important;
+      }
+    }
+
+    @media only screen and (max-width: 596px) {
+      .hide-for-large {
+        display: block !important;
+        width: auto !important;
+        overflow: visible !important;
+        max-height: none !important;
+        font-size: inherit !important;
+        line-height: inherit !important;
+      }
+    }
+
+    @media only screen and (max-width: 596px) {
+      table.body table.container .hide-for-large,
+      table.body table.container .row.hide-for-large {
+        display: table !important;
+        width: 100% !important;
+      }
+    }
+
+    @media only screen and (max-width: 596px) {
+      table.body table.container .callout-inner.hide-for-large {
+        display: table-cell !important;
+        width: 100% !important;
+      }
+    }
+
+    @media only screen and (max-width: 596px) {
+      table.body table.container .show-for-large {
+        display: none !important;
+        width: 0;
+        mso-hide: all;
+        overflow: hidden;
+      }
+    }
+
+    @media only screen and (max-width: 596px) {
+      table.body img {
+        width: auto;
+        height: auto;
+      }
+      table.body center {
+        min-width: 0 !important;
+      }
+      table.body .container {
+        width: 95% !important;
+      }
+      table.body .columns,
+      table.body .column {
+        height: auto !important;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+      }
+      table.body .columns .column,
+      table.body .columns .columns,
+      table.body .column .column,
+      table.body .column .columns {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      table.body .collapse .columns,
+      table.body .collapse .column {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      td.small-1,
+      th.small-1 {
+        display: inline-block !important;
+        width: 8.33333% !important;
+      }
+      td.small-2,
+      th.small-2 {
+        display: inline-block !important;
+        width: 16.66667% !important;
+      }
+      td.small-3,
+      th.small-3 {
+        display: inline-block !important;
+        width: 25% !important;
+      }
+      td.small-4,
+      th.small-4 {
+        display: inline-block !important;
+        width: 33.33333% !important;
+      }
+      td.small-5,
+      th.small-5 {
+        display: inline-block !important;
+        width: 41.66667% !important;
+      }
+      td.small-6,
+      th.small-6 {
+        display: inline-block !important;
+        width: 50% !important;
+      }
+      td.small-7,
+      th.small-7 {
+        display: inline-block !important;
+        width: 58.33333% !important;
+      }
+      td.small-8,
+      th.small-8 {
+        display: inline-block !important;
+        width: 66.66667% !important;
+      }
+      td.small-9,
+      th.small-9 {
+        display: inline-block !important;
+        width: 75% !important;
+      }
+      td.small-10,
+      th.small-10 {
+        display: inline-block !important;
+        width: 83.33333% !important;
+      }
+      td.small-11,
+      th.small-11 {
+        display: inline-block !important;
+        width: 91.66667% !important;
+      }
+      td.small-12,
+      th.small-12 {
+        display: inline-block !important;
+        width: 100% !important;
+      }
+      .columns td.small-12,
+      .column td.small-12,
+      .columns th.small-12,
+      .column th.small-12 {
+        display: block !important;
+        width: 100% !important;
+      }
+      table.body td.small-offset-1,
+      table.body th.small-offset-1 {
+        margin-left: 8.33333% !important;
+        Margin-left: 8.33333% !important;
+      }
+      table.body td.small-offset-2,
+      table.body th.small-offset-2 {
+        margin-left: 16.66667% !important;
+        Margin-left: 16.66667% !important;
+      }
+      table.body td.small-offset-3,
+      table.body th.small-offset-3 {
+        margin-left: 25% !important;
+        Margin-left: 25% !important;
+      }
+      table.body td.small-offset-4,
+      table.body th.small-offset-4 {
+        margin-left: 33.33333% !important;
+        Margin-left: 33.33333% !important;
+      }
+      table.body td.small-offset-5,
+      table.body th.small-offset-5 {
+        margin-left: 41.66667% !important;
+        Margin-left: 41.66667% !important;
+      }
+      table.body td.small-offset-6,
+      table.body th.small-offset-6 {
+        margin-left: 50% !important;
+        Margin-left: 50% !important;
+      }
+      table.body td.small-offset-7,
+      table.body th.small-offset-7 {
+        margin-left: 58.33333% !important;
+        Margin-left: 58.33333% !important;
+      }
+      table.body td.small-offset-8,
+      table.body th.small-offset-8 {
+        margin-left: 66.66667% !important;
+        Margin-left: 66.66667% !important;
+      }
+      table.body td.small-offset-9,
+      table.body th.small-offset-9 {
+        margin-left: 75% !important;
+        Margin-left: 75% !important;
+      }
+      table.body td.small-offset-10,
+      table.body th.small-offset-10 {
+        margin-left: 83.33333% !important;
+        Margin-left: 83.33333% !important;
+      }
+      table.body td.small-offset-11,
+      table.body th.small-offset-11 {
+        margin-left: 91.66667% !important;
+        Margin-left: 91.66667% !important;
+      }
+      table.body table.columns td.expander,
+      table.body table.columns th.expander {
+        display: none !important;
+      }
+      table.body .right-text-pad,
+      table.body .text-pad-right {
+        padding-left: 10px !important;
+      }
+      table.body .left-text-pad,
+      table.body .text-pad-left {
+        padding-right: 10px !important;
+      }
+      table.menu {
+        width: 100% !important;
+      }
+      table.menu td,
+      table.menu th {
+        width: auto !important;
+        display: inline-block !important;
+      }
+      table.menu.vertical td,
+      table.menu.vertical th,
+      table.menu.small-vertical td,
+      table.menu.small-vertical th {
+        display: block !important;
+      }
+      table.menu[align=3D"center"] {
+        width: auto !important;
+      }
+      table.button.small-expand,
+      table.button.small-expanded {
+        width: 100% !important;
+      }
+      table.button.small-expand table,
+      table.button.small-expanded table {
+        width: 100%;
+      }
+      table.button.small-expand table a,
+      table.button.small-expanded table a {
+        text-align: center !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      table.button.small-expand center,
+      table.button.small-expanded center {
+        min-width: 0;
+      }
+    }
+
+    @media screen and (max-width: 540px) {
+      /* cta button */
+      a.cta-button,
+      button.cta-button {
+        display: block !important;
+      }
+      /* main */
+      table.main td.main-inner {
+        padding: 30px !important;
+      }
+      /* main: cta */
+      table.main-content td.main-content-cta {
+        padding: 30px 0 !important;
+      }
+      table.main-content td.main-content-cta .cta-button {
+        min-width: inherit !important;
+      }
+    }
+  </style>
+  <table class=3D"body" style=3D"Margin: 0; background: #EAECED; border-col=
+lapse: collapse; border-spacing: 0; color: #555555; font-family: 'Open Sans=
+', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: normal; heig=
+ht: 100%; line-height: 30px; margin: 0; padding: 0; text-align: left; verti=
+cal-align: top; width: 100%;">
+    <tbody>
+      <tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+        <td class=3D"center" style=3D"-moz-hyphens: auto; -webkit-hyphens: =
+auto; Margin: 0; border-collapse: collapse !important; color: #555555; font=
+-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; font-w=
+eight: normal; hyphens: auto; line-height: 30px; margin: 0; padding: 0; tex=
+t-align: left; vertical-align: top; word-wrap: break-word;" valign=3D"top" =
+align=3D"center">
+          <center style=3D"min-width: 600px; width: 100%;">
+
+            <table class=3D"container" style=3D"Margin: 0 auto; background:=
+ #FFFFFF; border-collapse: collapse; border-spacing: 0; margin: 0 auto; pad=
+ding: 0; text-align: inherit; vertical-align: top; width: 600px;">
+              <tbody>
+                <tr style=3D"padding: 0; text-align: left; vertical-align: =
+top;">
+                  <td style=3D"-moz-hyphens: auto; -webkit-hyphens: auto; M=
+argin: 0; border-collapse: collapse !important; color: #555555; font-family=
+: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: =
+normal; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align=
+: left; vertical-align: top; word-wrap: break-word;">
+
+                    <table class=3D"wrapper logo-top" style=3D"background: =
+#EAECED; border-collapse: collapse; border-spacing: 0; padding: 0; text-ali=
+gn: left; vertical-align: top; width: 100%;" align=3D"center">
+                      <tbody>
+                        <tr style=3D"padding: 0; text-align: left; vertical=
+-align: top;">
+                          <td class=3D"wrapper-inner logo-top-inner" style=
+=3D"-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: =
+collapse !important; color: #555555; font-family: 'Open Sans', Helvetica, A=
+rial, sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; line=
+-height: 10px; margin: 0; padding: 10px 0; text-align: center; vertical-ali=
+gn: top; word-wrap: break-word;">
+
+                            <table class=3D"logo-top-content" style=3D"bord=
+er-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; ver=
+tical-align: top;" align=3D"center">
+                              <tbody>
+                                <tr style=3D"padding: 0; text-align: left; =
+vertical-align: top;">
+                                  <td style=3D"-moz-hyphens: auto; -webkit-=
+hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #555=
+555; font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14p=
+x; font-weight: normal; hyphens: auto; line-height: 30px; margin: 0; paddin=
+g: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                                    <a href=3D"https://premium.wpmudev.org"=
+ target=3D"_blank" class=3D"logo-link" style=3D"Margin: 0; color: #555555; =
+display: inline-block; font-family: 'Open Sans', Helvetica, Arial, sans-ser=
+if; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-alig=
+n: left; text-decoration: none;">
+                                      <img src=3D"https://gallery.mailchimp=
+.com/53a1e972a043d1264ed082a5b/images/c94640e6-c5a6-4083-9091-e7b95879152f.=
+png" alt=3D"WPMU DEV" style=3D"-ms-interpolation-mode: bicubic; border: non=
+e; clear: both; display: block; max-width: 100%; outline: none; text-decora=
+tion: none; width: auto;">
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <!-- end logo-top-content -->
+
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!-- end logo-top -->
+
+                    <table class=3D"wrapper main" style=3D"border-collapse:=
+ collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align:=
+ top; width: 100%;" align=3D"center">
+                      <tbody>
+                        <tr style=3D"padding: 0; text-align: left; vertical=
+-align: top;">
+                          <td class=3D"wrapper-inner main-inner" style=3D"-=
+moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: colla=
+pse !important; color: #555555; font-family: 'Open Sans', Helvetica, Arial,=
+ sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; line-heig=
+ht: 30px; margin: 0; padding: 30px 60px; text-align: left; vertical-align: =
+top; word-wrap: break-word;">
+                            <table class=3D"main-content" style=3D"border-c=
+ollapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertica=
+l-align: top;">
+                              <tbody>
+								  <tr style=3D"padding: 0; text-align: center; vertical-align: top;=
+">
+                                  <td class=3D"main-content-text" style=3D"=
+-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: coll=
+apse !important; color: #555555; font-family: Helvetica, Arial, sans-serif;=
+ font-size: 14px; font-weight: normal; hyphens: auto; line-height: 3px; mar=
+gin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break=
+-word;">
+									  <p style=3D"Margin: 0; Margin-bottom: 2px; color: #555555; font-=
+family: Helvetica, Arial, sans-serif; font-size: 18px; font-weight: bold; l=
+ine-height: 10px; margin: 0; margin-bottom: 3px; padding: 0; text-align: ce=
+nter;">We've got a time limited offer you can=E2=80=99t refuse!</p></td></t=
+r>
+                                <tr style=3D"padding: 0; text-align: left; =
+vertical-align: top;">
+                                  <td class=3D"main-content-hero" style=3D"=
+-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: coll=
+apse !important; color: #555555; font-family: Helvetica, Arial, sans-serif;=
+ font-size: 14px; font-weight: normal; hyphens: auto; line-height: 30px; ma=
+rgin: 0; padding: 0 0 30px; text-align: center; vertical-align: top; word-w=
+rap: break-word;"><a href=3D"https://premium.wpmudev.org/special-limited-ti=
+me-three-month-free-trial/?utm_source=3Dmixpanel&utm_medium=3Demail&utm_cam=
+paign=3D3_month_trial_offer2&utm_content=3Dhero_image&emailcampaign=3D3mont=
+htrial2" target=3D"_blank"><img alt=3D"Membership offer from WPMU DEV" clas=
+s=3D"hero-img" src=3D"https://gallery.mailchimp.com/53a1e972a043d1264ed082a=
+5b/images/268a2b1e-3780-4916-8fcf-5b6b2fe376c9.png" style=3D"-ms-interpolat=
+ion-mode: bicubic; clear: both; display: block; margin: 0 auto; max-width: =
+100%; outline: none; text-decoration: none; width: auto;"></a></td>
+                                </tr>
+                                <tr style=3D"padding: 0; text-align: left; =
+vertical-align: top;">
+                                  <td class=3D"main-content-text" style=3D"=
+-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: coll=
+apse !important; color: #555555; font-family: Helvetica, Arial, sans-serif;=
+ font-size: 14px; font-weight: normal; hyphens: auto; line-height: 30px; ma=
+rgin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: brea=
+k-word;"><p style=3D"Margin: 0; Margin-bottom: 30px; color: #555555; font-f=
+amily: Helvetica, Arial, sans-serif; font-size: 14px; font-weight: normal; =
+line-height: 30px; margin: 0; margin-bottom: 30px; padding: 0; text-align: =
+left;">Hey Sam Tehranchi,</p>
+                                    <p style=3D"Margin: 0; Margin-bottom: 3=
+0px; color: #555555; font-family: Helvetica, Arial, sans-serif; font-size: =
+14px; font-weight: normal; line-height: 30px; margin: 0; margin-bottom: 30p=
+x; padding: 0; text-align: left;">It=E2=80=99s been a while!</p>
+                                    <p style=3D"Margin: 0; Margin-bottom: 3=
+0px; color: #555555; font-family: Helvetica, Arial, sans-serif; font-size: =
+14px; font-weight: normal; line-height: 30px; margin: 0; margin-bottom: 30p=
+x; padding: 0; text-align: left;">We recently have been having a look at ou=
+r logs for users that never got round to starting a free trial with us. We =
+pulled a random sample from that group and... you came up!</p>
+                                    <p style=3D"Margin: 0; Margin-bottom: 3=
+0px; color: #555555; font-family: Helvetica, Arial, sans-serif; font-size: =
+14px; font-weight: normal; line-height: 30px; margin: 0; margin-bottom: 30p=
+x; padding: 0; text-align: left;">To tempt you to getting a trial up and ru=
+nning with us, which we know you=E2=80=99ll love! We are running a time lim=
+ited offer of <a href=3D"https://premium.wpmudev.org/special-limited-time-t=
+hree-month-free-trial/?utm_source=3Dmixpanel&utm_medium=3Demail&utm_campaig=
+n=3D3_month_trial_offer2&utm_content=3D3_months_of_wpmudev&emailcampaign=3D=
+3monthtrial2" target=3D"_blank">3 months of WPMU DEV</a> at no cost! Rather=
+ than the standard 1 month specially for you!</p>
+                                    <p style=3D"Margin: 0; Margin-bottom: 3=
+0px; color: #555555; font-family: Helvetica, Arial, sans-serif; font-size: =
+14px; font-weight: normal; line-height: 30px; margin: 0; margin-bottom: 30p=
+x; padding: 0; text-align: left;">As usual... no lock in, easy one-click ca=
+ncel at any time, no charges for 3 months and you get to keep all of our pr=
+emium plugins regardless.</p>
+                                    <p style=3D"Margin: 0; Margin-bottom: 3=
+0px; color: #555555; font-family: Helvetica, Arial, sans-serif; font-size: =
+14px; font-weight: normal; line-height: 30px; margin: 0; margin-bottom: 30p=
+x; padding: 0; text-align: left;">Plus, unlimited expert 24/7 WordPress sup=
+port, security, performance optimization, backups, site monitoring and all =
+the other goodies that come with WPMU DEV.<br><br>Don=E2=80=99t wait too lo=
+ng to <a href=3D"https://premium.wpmudev.org/special-limited-time-three-mon=
+th-free-trial/?utm_source=3Dmixpanel&utm_medium=3Demail&utm_campaign=3D3_mo=
+nth_trial_offer2&utm_content=3Dgrab_your_trial&emailcampaign=3D3monthtrial2=
+" target=3D"_blank">grab your trial</a>, this is a time limited offer! Comp=
+letely complimentary for THREE months.</p>
+                                    <p style=3D"Margin: 0; Margin-bottom: 3=
+0px; color: #555555; font-family: Helvetica, Arial, sans-serif; font-size: =
+14px; font-weight: normal; line-height: 30px; margin: 0; margin-bottom: 0; =
+padding: 0; text-align: center;"><a class=3D"cta-button" data-utm-override=
+=3D"" href=3D"https://premium.wpmudev.org/special-limited-time-three-month-=
+free-trial/?utm_source=3Dmixpanel&amp;utm_medium=3Demail&amp;utm_campaign=
+=3D3_month_trial_offer2&amp;utm_content=3Dclaim_your_trial_offer_button&amp=
+;emailcampaign=3D3monthtrial2" style=3D"Margin: 0; background: #1abc9c; bor=
+der-radius: 4px; color: #ffffff; display: inline-block; font-family: Helvet=
+ica, Arial, sans-serif; font-size: 15px; font-weight: normal; line-height: =
+30px; margin: 0; min-width: 255px; padding: 5px 20px; text-align: center; t=
+ext-decoration: none; text-transform: uppercase;" target=3D"_blank">Claim y=
+our trial offer</a></p>
+                                  </td>
+                                </tr>
+                                <tr style=3D"padding: 0; text-align: left; =
+vertical-align: top;">
+                                  <td class=3D"main-content-signature" styl=
+e=3D"-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse:=
+ collapse !important; color: #555555; font-family: Helvetica, Arial, sans-s=
+erif; font-size: 14px; font-weight: normal; hyphens: auto; line-height: 30p=
+x; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap:=
+ break-word;">
+                                    <p style=3D"Margin: 0; Margin-bottom: 3=
+0px; color: #555555; font-family: Helvetica, Arial, sans-serif; font-size: =
+14px; font-weight: normal; line-height: 30px; margin: 0; margin-bottom: 30p=
+x; padding: 0; text-align: left;"><br>Any questions, just reply to this ema=
+il.</p>
+                                    <p class=3D"last-item" style=3D"Margin:=
+ 0; Margin-bottom: 0; color: #555555; font-family: Helvetica, Arial, sans-s=
+erif; font-size: 14px; font-weight: normal; line-height: 30px; margin: 0; m=
+argin-bottom: 0; padding: 0; text-align: left;">Enjoy,<br>James Farmer<span=
+ style=3D"color:#888888; display:block; font-size:11px; line-height:20px">C=
+EO<br>
+                              WPMU DEV</span></p>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!-- end main -->
+
+                    <table class=3D"wrapper heroes" style=3D"border-collaps=
+e: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-alig=
+n: top; width: 100%;" align=3D"center">
+                      <tbody>
+                        <tr style=3D"padding: 0; text-align: left; vertical=
+-align: top;">
+                          <td class=3D"wrapper-inner heroes-inner" style=3D=
+"-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: col=
+lapse !important; color: #555555; font-family: 'Open Sans', Helvetica, Aria=
+l, sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; line-he=
+ight: 30px; margin: 0; padding: 0; text-align: center; vertical-align: top;=
+ word-wrap: break-word;">
+                            <img src=3D"https://gallery.mailchimp.com/53a1e=
+972a043d1264ed082a5b/images/3994694b-2f71-469c-8d2f-07c7246a3536.png" alt=
+=3D"WPMU DEV Heroes" style=3D"-ms-interpolation-mode: bicubic; clear: both;=
+ display: block; margin: 0 auto; max-width: 100%; outline: none; text-decor=
+ation: none; width: auto;">
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!-- end heroes -->
+
+                    <table class=3D"wrapper logo-bottom" style=3D"backgroun=
+d: #EAECED; border-collapse: collapse; border-spacing: 0; padding: 0; text-=
+align: left; vertical-align: top; width: 100%;" align=3D"center">
+                      <tbody>
+                        <tr style=3D"padding: 0; text-align: left; vertical=
+-align: top;">
+                          <td class=3D"wrapper-inner logo-bottom-inner" sty=
+le=3D"-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse=
+: collapse !important; color: #555555; font-family: 'Open Sans', Helvetica,=
+ Arial, sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; li=
+ne-height: 1em; margin: 0; padding: 30px 0 0; text-align: center; vertical-=
+align: top; word-wrap: break-word;" align=3D"center">
+                            <a href=3D"https://premium.wpmudev.org" target=
+=3D"_blank" class=3D"logo-link" s=3D"" style=3D"Margin: 0; color: #555555; =
+display: inline-block; font-family: 'Open Sans', Helvetica, Arial, sans-ser=
+if; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-alig=
+n: left; text-decoration: none;">
+                              <img src=3D"https://gallery.mailchimp.com/53a=
+1e972a043d1264ed082a5b/images/b36b06a4-d5c5-460f-a041-cb2ede6f8073.png" alt=
+=3D"WPMU DEV" style=3D"-ms-interpolation-mode: bicubic; border: none; clear=
+: both; display: block; max-width: 100%; outline: none; text-decoration: no=
+ne; width: auto;">
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!-- end logo-bottom -->
+
+                    <table class=3D"wrapper footer" style=3D"background: #E=
+AECED; border-collapse: collapse; border-spacing: 0; padding: 0; text-align=
+: left; vertical-align: top; width: 100%;" align=3D"center">
+                      <tbody>
+                        <tr style=3D"padding: 0; text-align: left; vertical=
+-align: top;">
+                          <td class=3D"wrapper-inner footer-inner" style=3D=
+"-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: col=
+lapse !important; color: #555555; font-family: 'Open Sans', Helvetica, Aria=
+l, sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; line-he=
+ight: 30px; margin: 0; padding: 30px 30px 0; text-align: center; vertical-a=
+lign: top; word-wrap: break-word;">
+
+                            <table class=3D"footer-content" style=3D"border=
+-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; verti=
+cal-align: top;" align=3D"center">
+                              <tbody>
+                                <tr style=3D"padding: 0; text-align: left; =
+vertical-align: top;">
+                                  <td class=3D"footer-content-inner" style=
+=3D"-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: =
+collapse !important; color: #555555; font-family: 'Open Sans', Helvetica, A=
+rial, sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; line=
+-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top=
+; word-wrap: break-word;">
+                                    <p style=3D"Margin: 0; Margin-bottom: 0=
+; color: #555555; font-family: 'Open Sans', Helvetica, Arial, sans-serif; f=
+ont-size: 10px; font-weight: normal; line-height: 26px; margin: 0; margin-b=
+ottom: 0; padding: 0; text-align: center;">EVERYTHING YOU NEED FOR WORDPRES=
+S</p>
+                                    <p style=3D"Margin: 0; Margin-bottom: 0=
+; color: #555555; font-family: 'Open Sans', Helvetica, Arial, sans-serif; f=
+ont-size: 10px; font-weight: normal; line-height: 26px; margin: 0; margin-b=
+ottom: 0; padding: 0; text-align: center;"><i>One place, one low price, unl=
+imited sites</i></p>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <!-- end footer-conteny -->
+
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!-- end footer -->
+
+					<table class=3D"wrapper preferences" style=3D"background: #EAECED; bor=
+der-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; ve=
+rtical-align: top; width: 100%;" align=3D"center">
+                      <tbody>
+                        <tr style=3D"padding: 0; text-align: left; vertical=
+-align: top;">
+                          <td class=3D"wrapper-inner preferences-inner" sty=
+le=3D"-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse=
+: collapse !important; color: #555555; font-family: 'Open Sans', Helvetica,=
+ Arial, sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; li=
+ne-height: 30px; margin: 0; padding: 30px 30px 0; text-align: center; verti=
+cal-align: top; word-wrap: break-word;">
+
+                            <table class=3D"preferences-content" style=3D"b=
+order-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; =
+vertical-align: top;" align=3D"center">
+                              <tbody>
+                                <tr style=3D"padding: 0; text-align: left; =
+vertical-align: top;">
+                                  <td class=3D"preferences-content-inner" s=
+tyle=3D"-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collap=
+se: collapse !important; color: #555555; font-family: 'Open Sans', Helvetic=
+a, Arial, sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; =
+line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align:=
+ top; word-wrap: break-word;">
+                                    <p style=3D"Margin: 0; Margin-bottom: 0=
+; color: #888888; font-family: 'Open Sans', Helvetica, Arial, sans-serif; f=
+ont-size: 11px; font-weight: normal; line-height: 26px; margin: 0; margin-b=
+ottom: 0; padding: 0; text-align: center;"><a href=3D"https://premium.wpmud=
+ev.org/unsubscribe/?id=3Dsam@c-mtg.com" target=3D"_blank" style=3D"Margin: =
+0; Margin-bottom: 0; color: #888888; display: inline-block; font: inherit; =
+font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 11px; fo=
+nt-weight: normal; line-height: 26px; margin: 0; margin-bottom: 0; padding:=
+ 0; text-align: center; text-decoration: underline;">Unsubscribe</a>
+                                    </p>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <!-- end preferences-conteny -->
+
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!-- end preferences -->
+
+                    <table class=3D"wrapper address" style=3D"background: #=
+EAECED; border-collapse: collapse; border-spacing: 0; padding: 0; text-alig=
+n: left; vertical-align: top; width: 100%;" align=3D"center">
+                      <tbody>
+                        <tr style=3D"padding: 0; text-align: left; vertical=
+-align: top;">
+                          <td class=3D"wrapper-inner address-inner" style=
+=3D"-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: =
+collapse !important; color: #555555; font-family: 'Open Sans', Helvetica, A=
+rial, sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; line=
+-height: 30px; margin: 0; padding: 30px; text-align: center; vertical-align=
+: top; word-wrap: break-word;">
+
+                            <table class=3D"address-content" style=3D"borde=
+r-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vert=
+ical-align: top;" align=3D"center">
+                              <tbody>
+                                <tr style=3D"padding: 0; text-align: left; =
+vertical-align: top;">
+                                  <td class=3D"address-content-inner" style=
+=3D"-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: =
+collapse !important; color: #555555; font-family: 'Open Sans', Helvetica, A=
+rial, sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; line=
+-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top=
+; word-wrap: break-word;">
+                                    <p style=3D"Margin: 0; Margin-bottom: 0=
+; color: #888888; font-family: 'Open Sans', Helvetica, Arial, sans-serif; f=
+ont-size: 11px; font-weight: normal; line-height: 26px; margin: 0; margin-b=
+ottom: 0; padding: 0; text-align: center; text-transform: uppercase;">Incsu=
+b, PO Box 163 Albert Park, Victoria, 3206, Australia.</p>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <!-- end address-conteny -->
+
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!-- end address -->
+
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- end container -->
+
+          </center>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+<style id=3D"stylish-1" class=3D"stylish" type=3D"text/css">.BoardCardCusto=
+mPropertyPreviewCell-cell {
+	max-width: none;
+}
+</style><img src=3D"http://api.mixpanel.com/track?data=3DeyJldmVudCI6ICIkY2=
+FtcGFpZ25fb3BlbiIsICJwcm9wZXJ0aWVzIjogeyJ0b2tlbiI6ICI5ODg0ZGY0ZTM5ZTQzYzk2N=
+DhhMTQ3NjM4MTIxMjVjZCIsICJkaXN0aW5jdF9pZCI6ICIxNWY4ZGE5NmE2Mjg4Yi0wYTZmMTk0=
+NWJiYjM3Zi01MzdiNDA3ZC0zODQwMDAtMTVmOGRhOTZhNjNhM2MiLCAidHlwZSI6ICJlbWFpbCI=
+sICJjYW1wYWlnbl9pZCI6IDMxMTkzMjB9fQ%3D%3D&img=3D1" /></body></html>

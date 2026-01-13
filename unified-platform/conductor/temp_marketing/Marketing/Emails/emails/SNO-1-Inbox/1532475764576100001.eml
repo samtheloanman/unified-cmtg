@@ -1,0 +1,206 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: none (zoho.com: 209.85.215.173 is neither permitted nor denied by domain of standardlenders.com) client-ip=209.85.215.173; envelope-from=info@standardlenders.com; helo=mail-pg1-f173.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=none (zoho.com: 209.85.215.173 is neither permitted nor denied by domain of standardlenders.com)  smtp.mailfrom=info@standardlenders.com
+Received: from mail-pg1-f173.google.com (mail-pg1-f173.google.com [209.85.215.173]) by mx.zohomail.com
+	with SMTPS id 1532475763751293.32268298695567; Tue, 24 Jul 2018 16:42:43 -0700 (PDT)
+Received: by mail-pg1-f173.google.com with SMTP id g2-v6so3953214pgs.6
+        for <sam@c-mtg.com>; Tue, 24 Jul 2018 16:42:43 -0700 (PDT)
+Return-Path: <info@standardlenders.com>
+Return-Path: <info@standardlenders.com>
+Received: from GeorgeHome (cpe-104-34-153-147.socal.res.rr.com. [104.34.153.147])
+        by smtp.gmail.com with ESMTPSA id l85-v6sm22311025pfk.34.2018.07.24.16.42.42
+        for <sam@c-mtg.com>
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Tue, 24 Jul 2018 16:42:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=standardlenders-com.20150623.gappssmtp.com; s=20150623;
+        h=from:to:references:in-reply-to:subject:date:message-id:mime-version
+         :thread-index:content-language;
+        bh=biHJCQhp/d9uCA80yKsh457AsEaXtzjkZeH4108KEdY=;
+        b=sZjX4YVUmHQL0fipT1vzXA1SXKDD5WIFvRnB155lo6w6kGlr5XoW8eLT79sVL4RIS1
+         14UISnG+qFf8cda7uB2Rtic9fp1bmKyd4ZcKwr6HVCunoNymdM1m2PsMeLi+5EyvaaaM
+         Jnc2soxMoukr8XwTdFJIXjiblbsvjT4sT5LHBT2rFeUD9WHWQSah6uEPKGzC5aqgZ6hV
+         RTo9sDc8hzMw4TjehtLyRQKBoSlcX9twtILPFyjWyfcObv8TYLixy7qSuuG7Z3/97hCt
+         bBqN2J8S8V2JytFmJLqN6nLkWqluUJHJiu/VOnrZtg8rtcRzMheTd+gZpbhIurNL9N7K
+         Wfnw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:to:references:in-reply-to:subject:date
+         :message-id:mime-version:thread-index:content-language;
+        bh=biHJCQhp/d9uCA80yKsh457AsEaXtzjkZeH4108KEdY=;
+        b=Gzrw1ckB4KpSwHLSci/dDKoMmERhjkPU7ng7qQtdXVTVv/maau+waO9NsI0C5J5FBq
+         KY4RvRhvVtg8+gUvEGVKq3TA60AYCUxmS2G2Vjtlr1WMylfM/eGUjKqFhdzlyXVkCq2z
+         G18KRF+MXhyqZoRbRUC0EHsbqwF6bpbDdu2gXSSygYCSqkSYNdSqcw8dkpCu6o9SWscU
+         hx3ThuDcXza+0qDAXcGklCCvCl6rSa+HIQqMFy1xNQPHkSggsUK7SOlJAetvVH5zI/vY
+         ksw9ZvDKWQnR9ZlAGWDgemTimqLUOILav+Xi0YX/TKNncQfMMCU6IjLEo6dJLFWuelGJ
+         mQyQ==
+X-Gm-Message-State: AOUpUlFk0DMCMraHJ8K880dC+ECOiiSxBCusU/8ffjD8oZMkG/cwLBoR
+	Mr2+Lbmu3wpPmXxe+aNHWrOAwguxKYc=
+X-Google-Smtp-Source: AAOMgpcDGYaa1AQQ6RytYpHH6id6eBRtzFK1fM60LwTliaPgwlxhYxss2/hOejH90bJz0XzMjctoHQ==
+X-Received: by 2002:a62:d444:: with SMTP id u4-v6mr19745500pfl.142.1532475762941;
+        Tue, 24 Jul 2018 16:42:42 -0700 (PDT)
+From: "Standard Lenders Support" <info@standardlenders.com>
+To: "'Sam Tehranchi'" <sam@c-mtg.com>
+References: <935A170A-ABF9-4879-99AD-0E93F7B73F8A@mondayone.com>
+In-Reply-To: <935A170A-ABF9-4879-99AD-0E93F7B73F8A@mondayone.com>
+Subject: FW: Purchase Loan - Apartment Building Huntington  Beach 
+Date: Tue, 24 Jul 2018 16:42:43 -0700
+Message-ID:<03c001d423a8$04b892f0$0e29b8d0$@standardlenders.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_03C1_01D4236D.585B4190"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AQIJBditv2Edi8vcW+OsPUommrF2x6Q1RE8Q
+Content-Language: en-us
+X-ZohoMail-DKIM: pass (identity @standardlenders-com.20150623.gappssmtp.com)
+X-ZohoMail-Owner: <03c001d423a8$04b892f0$0e29b8d0$@standardlenders.com>+zmo_1_info@standardlenders.com
+X-ZohoMail-Sender: 104.34.153.147
+X-ZohoMail: RDKM_0  RSF_4  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_5 IS_0 PIW IS_6 EML_0 DMN_0 EDR_100 RPD_ND1 COSF FRD_HI_0 UNK_O_0 UNK_U_0 SBSR_2 SIP_KGR_0 RPD_UN_0 PIS_DPR_KN_0 ZMHF_701_2 CV_710IT_1  SC_5 SGR3_1_2_0_168_447
+X-ZM-MESSAGEID: 1532475764576100001
+X-ZohoMail-Status: 1
+
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_03C1_01D4236D.585B4190
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Please let me know if you can do this loan =E2=80=A6..if yes what are =
+the terms :=20
+
+=20
+
+=20
+
+Address: 2520 17th St, Huntington Beach
+
+Property Type: Multifamily 10 Units=20
+
+=20
+
+Purchase Price: $ 2,950,000
+
+- Buyer has leased subject property since April 2016=20
+
+- Buyer has completed over $ 170 K in Improvements to Property=20
+
+- Buyer Leases Fully furnished units to Tennent.=20
+
+=20
+
+=20
+
+Loan amount: $ 2,500,000=E2=80=A6..80 % LTC
+
+Buyer cash: $ 620,000=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6$ 450,000 Down =
++ $ 170,000 K in Improvements)=20
+
+=20
+
+=20
+
+
+------=_NextPart_000_03C1_01D4236D.585B4190
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta =
+name=3DGenerator content=3D"Microsoft Word 15 (filtered =
+medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle18
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body bgcolor=3Dwhite =
+lang=3DEN-US link=3D"#0563C1" vlink=3D"#954F72"><div =
+class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt'>Please let me know if you can do this loan =
+=E2=80=A6..if yes what are the terms : <o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:11.0pt'>Address: <b>2520 17th =
+St, Huntington Beach<o:p></o:p></b></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt'>Property Type: Multifamily 10 Units =
+<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:11.0pt'>Purchase Price: $ =
+2,950,000<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt'>- Buyer has leased subject property since =
+April 2016 <o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt'>- Buyer has completed over $ 170 K in =
+Improvements to Property <o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:11.0pt'>- Buyer Leases Fully =
+furnished units to Tennent. <o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:11.0pt'>Loan amount: <b>$ =
+2,500,000=E2=80=A6..80 % LTC</b><o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:11.0pt'>Buyer cash: $ =
+620,000=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6$ 450,000 Down + $ 170,000 K =
+in Improvements) <o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p></div></body></htm=
+l>
+------=_NextPart_000_03C1_01D4236D.585B4190--
+

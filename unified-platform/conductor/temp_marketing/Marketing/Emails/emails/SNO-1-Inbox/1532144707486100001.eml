@@ -1,0 +1,86 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of sellernotifications.amazon.com designates 54.240.13.65 as permitted sender) client-ip=54.240.13.65; envelope-from=RTE+NE-null-de34cA05059941KZOV16ZS4I80@sellernotifications.amazon.com; helo=a13-65.smtp-out.amazonses.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of sellernotifications.amazon.com designates 54.240.13.65 as permitted sender)  smtp.mailfrom=RTE+NE-null-de34cA05059941KZOV16ZS4I80@sellernotifications.amazon.com;
+	dmarc=pass(p=quarantine dis=none)  header.from=amazon.com
+Received: from a13-65.smtp-out.amazonses.com (a13-65.smtp-out.amazonses.com [54.240.13.65]) by mx.zohomail.com
+	with SMTPS id 1532144705356528.151211486024; Fri, 20 Jul 2018 20:45:05 -0700 (PDT)
+Return-Path: <RTE+NE-null-de34cA05059941KZOV16ZS4I80@sellernotifications.amazon.com>
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=yg4mwqurec7fkhzutopddd3ytuaqrvuz; d=amazon.com; t=1532144704;
+	h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=3HI1T3hzvx/xrO/CeBQKnz+im31SbcBpH/lWn+DHHl0=;
+	b=gBlqQt2A8MV1GnOz0dsTHx9m1G44h63mOoW/7gSGfrA0yEQ+bWe5iflxBlvk6vEY
+	V5uQH0iWXWb/ghafl90PdYLzVb2k3IWYueGg0ny2hUhdGyA5snd3GcMgBBzgtW0eVz6
+	uBECdIDgqPbj1aabAjTV/Q658hP0umLKhxXV5Dus=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1532144704;
+	h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:Feedback-ID;
+	bh=3HI1T3hzvx/xrO/CeBQKnz+im31SbcBpH/lWn+DHHl0=;
+	b=WTOMzErh6/8Hmc6DURMFwxU/UBW8QOlGAdtuMBHuxfffHJPuaEc4igxW2C2VIdFU
+	dzZiWbGlbNCqXjhuzWAPV2uyFU/DJit7dZp1yI+Bzb0fqTfyN4K03VSlQQTafdaoyYw
+	hycrT0QOmmx+YYQFBP6JCb/zB3zs/d8+U3r9zA+0=
+Date: Sat, 21 Jul 2018 03:45:04 +0000
+From: Amazon Services <seller-notification@amazon.com>
+Reply-To: Amazon Services <seller-notification@amazon.com>
+To: "sam@c-mtg.com" <sam@c-mtg.com>
+Message-ID:<01000164baf0dacb-6c3489e6-3d20-485e-bb2d-d6f4c8723348-000000@email.amazonses.com>
+Subject: Balance paid on your Amazon seller account
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_27204620_1632780046.1532144704200"
+X-AMAZON-CATEGORY: NotificationBus-DEBT_CHARGE_SUCCEEDED
+X-AMAZON-RTE-VERSION: 2.0
+Bounces-to: RTE+NE-null-de34cA05059941KZOV16ZS4I80@sellernotifications.amazon.com
+X-AMAZON-MAIL-RELAY-TYPE: notification
+X-Original-MessageID: <urn.correios.msg.2018072103450424835915f83945c8a09c5e4ae140p0na@1532144704202.rte-svc-m4a-829b52ba.us-east-1.amazon.com>
+X-SES-Outgoing: 2018.07.21-54.240.13.65
+Feedback-ID: 1.us-east-1.ZHcGJK6s+x+i9lRHKog4RW3tECwWIf1xzTYCZyUaiec=:AmazonSES
+X-ZohoMail-DKIM: pass (identity @amazon.com)
+X-ZohoMail-Owner: <01000164baf0dacb-6c3489e6-3d20-485e-bb2d-d6f4c8723348-000000@email.amazonses.com>+zmo_0_RTE@sellernotifications.amazon.com
+X-ZohoMail-Sender: 54.240.13.65
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  SAS2 Ex_2 SS_1 IS_0 FMWL FRTS EML_0 DMN_0 EDR_100 SIP_KGR,RPD_KGR COSF LNKP UNK_U_0 UNK_O_0 SFP_WHTLST_0 SIP_KGR_0 RPD_KGR_0 SDFE_NA_MXPR_0 HCOM_NSC_-3 ZMHF_701_1  SC_-2 SGR3_1_2_0_168_173
+X-ZM-MESSAGEID: 1532144707486100001
+X-ZohoMail-Status: 1
+
+
+------=_Part_27204620_1632780046.1532144704200
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:xs=3D"http://www.w3.org/2001/XMLSchema" xmlns:fn=3D"http://www.=
+w3.org/2005/xpath-functions" xmlns:xdt=3D"http://www.w3.org/2005/xpath-data=
+types"><body><p>Greetings from Amazon Services. </p><p>We have charged your=
+ credit card for $39.99 in an attempt to settle your Amazon seller account =
+balance. </p><p>Note that the amount charged to your credit card may be les=
+s than the total amount you owe due to a credit limit imposed by your bank.=
+ If that is the case, we will continue to charge your card as often as ever=
+y 24 hours until the remaining balance in your Amazon seller account is pai=
+d in full.</p><p>You can also use the <a href=3D"https://sellercentral.amaz=
+on.com/nms/redirect/96b921f6-6ca2-3d33-9c6f-42ddbb5a796c?sk=3DL5PlHIP2ihzm8=
+_py6zjoyHEddLimfBgwxs8HH5v7j7jt6VW0Qwa5Vj2gZHKgtTYJeijOjhjLHE8XvKyG-Kqz7A&a=
+mp;n=3D1&amp;u=3DaHR0cHM6Ly9zZWxsZXJjZW50cmFsLmFtYXpvbi5jb20vaHovcGF5bWVudH=
+MtYWNjb3VudC9yZXBheW1lbnQvZGV0YWlscw">Make a Payment</a> feature to repay t=
+he balance you owe.  For more information, see <a href=3D"https://sellercen=
+tral.amazon.com/nms/redirect/be6550a1-972a-39d5-86fd-d5f4def55eb4?sk=3DvD1O=
+GGAv1t_n68QcHkztf1wRto1aoZGRXivosSZhYGYTcoF4VVD-FOTBoE1r_XxqZFZjLlRAIwjrHZ6=
+BW9aT9Q&amp;n=3D1&amp;u=3DaHR0cHM6Ly9zZWxsZXJjZW50cmFsLmFtYXpvbi5jb20vZ3Ava=
+GVscC8yMDEwNTg2MjA">Making a Payment</a>.</p><p>You can view your payment a=
+ctivity at any time by logging in to your seller account and going to your =
+<a href=3D"https://sellercentral.amazon.com/nms/redirect/de0c0903-28f3-3e4c=
+-a66f-1978618688c9?sk=3D_U72vkLEfTFy9NzhHouokZGQJASYJQCJ0afgAslH5JNgIFH6nuS=
+ecjTa1vZrXAitKQv5PixnW4Mz7iPb7JsmHA&amp;n=3D1&amp;u=3DaHR0cHM6Ly9zZWxsZXJjZ=
+W50cmFsLmFtYXpvbi5jb20vZ3AvcGF5bWVudHMtYWNjb3VudC9zZXR0bGVtZW50LXN1bW1hcnku=
+aHRtbA">Payments Report</a>.</p><p>Thank you for selling on Amazon.</p><p>A=
+mazon Services</p><br><a href=3D"https://sellercentral.amazon.com/nms/redir=
+ect/67e1ae2d-8ac0-3bc5-b19d-b2a19a5bd695?sk=3DIGU7gygXr5CYpCEA3nf89NsgQZjy5=
+cGAxN4yfJ7cMQ4tR0cyNsDk_CiT0PH_-7GD77AJO1YkLf1nXSoP-JfZsQ&amp;n=3D1&amp;u=
+=3DaHR0cHM6Ly9zZWxsZXJjZW50cmFsLmFtYXpvbi5jb20vZ3Avc2F0aXNmYWN0aW9uL3N1cnZl=
+eS1mb3JtLmh0bWw_aWU9VVRGOCZITUROYW1lPU5vdGlmaWNhdGlvbkJ1c0VtYWlsSE1EJmN1c3R=
+vbUF0dHJpYnV0ZTFWYWx1ZT1ERUJUX0NIQVJHRV9TVUNDRUVERUQ" class=3D"nbus-survey"=
+>Was this email helpful?
+</a></br><img src=3D"https://sellercentral.amazon.com/nms/img/3aec0c17-8586=
+-3f12-8335-6581a907efdc?sk=3DurLJqd19oOUUVdxEv5KTzPLtTr2QYplrrVl4wQQTE5B_Z9=
+BNW0gdELSn2xcTLrNa-yTqCGfGHaxtKtDnnw9cKA&amp;n=3D1"></body></html>
+------=_Part_27204620_1632780046.1532144704200--

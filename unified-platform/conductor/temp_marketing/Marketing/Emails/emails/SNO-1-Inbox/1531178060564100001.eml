@@ -1,0 +1,363 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of clearvoice.com designates 209.85.192.175 as permitted sender) client-ip=209.85.192.175; envelope-from=jake@clearvoice.com; helo=mail-pf0-f175.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of clearvoice.com designates 209.85.192.175 as permitted sender)  smtp.mailfrom=jake@clearvoice.com;
+	dmarc=pass(p=none dis=none)  header.from=clearvoice.com
+Return-Path: <jake@clearvoice.com>
+Received: from mail-pf0-f175.google.com (mail-pf0-f175.google.com [209.85.192.175]) by mx.zohomail.com
+	with SMTPS id 1531178059314639.9826819739174; Mon, 9 Jul 2018 16:14:19 -0700 (PDT)
+Received: by mail-pf0-f175.google.com with SMTP id u16-v6so14696775pfh.3
+        for <sam@c-mtg.com>; Mon, 09 Jul 2018 16:14:19 -0700 (PDT)
+Received: by 2002:a17:90a:ac2:0:0:0:0 with HTTP; Mon, 9 Jul 2018 15:07:58
+ -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=clearvoice.com; s=google;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=FVb6UdvljN/xknZdJn17Q/AvXSlQWvSdcRl5S7M14FM=;
+        b=cT0xYs/NM+MkoASGmc7kwCZPMu/QDbzeVLGBKVuyf5HjvBvOHrvNVQGB/KEPvT9i3S
+         cNyHsI32BpHy2+4CZDOZ4773gjP/iYaEMIWj/wCvCULkMhyxWULfw0M3vXLlqTEfKhlc
+         VRWYXw/0ZU3+etJWHmYmnqVn8mnBTz7WWAn+M=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=FVb6UdvljN/xknZdJn17Q/AvXSlQWvSdcRl5S7M14FM=;
+        b=DLy/BCI6I9ddkcIlwpxAJrLqOKNkQhGM2MwMPBfcPEkAK+s79d7Qy212ZonIMBGfAQ
+         T2AgVn9mpYB4EA41/mCDw4AOIlB+Q7uF6MQHS+tLuOGxbd9gq1Zy2dUcIYVbyHwmrOBn
+         da5m5o84sz22JWUcvKpp7/J0vcjyXEp3d3EFYu4ig/CVHOShWVX613+KBwAE0mL1kFcp
+         xlIDaiTOX7xwNgTBrqKk1BUTd5iarmeOZnsuW+6kCFIrBrSJ0EDzlWXFIJGnrpJgMI6B
+         94zRjwrnhlHTfLyrWN29ZUo0xS7jQcmUXtXqdS2bhsWZzhKQezb2c3RfhudMFi9XwOMn
+         DXEg==
+X-Gm-Message-State: APt69E2TQ1+SV6XuABesavm5i54pX9IYpYSQD6U2rElbJpcqaNpj5qZ3
+	BlWduZenkoTwdXpXaDNS4oOu6dzjtP+QfV9mg62PI0HuzwY=
+X-Google-Smtp-Source: AAOMgpe3ePnnSo7o5QCC5koeJpoeDxgEaxw9mPKAE7qj1Upu+/nb6peVvlmXckvsiOfBR0quta3xNqGeW5Pm+qRuTiY=
+X-Received: by 2002:a63:cd02:: with SMTP id i2-v6mr9928994pgg.93.1531174098803;
+ Mon, 09 Jul 2018 15:08:18 -0700 (PDT)
+MIME-Version: 1.0
+In-Reply-To: <CA+n++58-mpwPmAQDAEFGtjkfpMSXWC7ZJWtwBgeyaQc_er2Ybg@mail.gmail.com>
+References: <CA+n++5-pvboEKbETanQMGt3DhT4s=37VtS5SqMhb4p+Wq0-xug@mail.gmail.com>
+ <CA+n++58-mpwPmAQDAEFGtjkfpMSXWC7ZJWtwBgeyaQc_er2Ybg@mail.gmail.com>
+From: Jake Swansson <jake@clearvoice.com>
+Date: Mon, 9 Jul 2018 15:07:58 -0700
+Message-ID:<CA+n++594F-RbBxxA=3uuDwEynfi_xASsq1YdM5WwPqbq9+LW3w@mail.gmail.com>
+Subject: Re: Custom Mortgage | ClearVoice Follow-Up
+To: sam@c-mtg.com
+Content-Type: multipart/alternative; boundary="0000000000003fb6c605709840c8"
+X-ZohoMail-DKIM: pass (identity @clearvoice.com)
+X-ZohoMail-Owner: <CA+n++594F-RbBxxA=3uuDwEynfi_xASsq1YdM5WwPqbq9+LW3w@mail.gmail.com>+zmo_0_jake@clearvoice.com
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_6 IS_0 PIW IS_6 EML_0 DMN_0 EDR_100 COSF LNKP UMS_WB UNK_O_0 SBSR_2 UNK_U_0 SIP_KGR_0 RPD_UN_0 PMF_LNK_IMG_LA_0 PMF_BCNIM_NW_0 PIS_DPR_KN_0 NAR_UD_0  SC_2 SGR3_1_2_0_166_383
+X-ZM-MESSAGEID: 1531178060564100001
+X-ZohoMail-Status: 1
+
+
+--0000000000003fb6c605709840c8
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Sam,
+
+Hope you're having a great start to the week!
+
+I wanted to follow back up with you to see if we could find a time this
+week or catch up on a call?
+
+I'm traveling today through-Wednesday, however, Thursday and Friday are
+open.
+
+Feel free to send me a time that is best for you or you can use my calendar
+link to book a 30 min meeting
+<http://t.sidekickopen10.com/e1t/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJW7t5XYg=
+4Ws4zFVRbxTl2BF-G4VfD6ll56dLtkf7KVjnC02?t=3Dhttps%3A%2F%2Fapp.hubspot.com%2=
+Fmeetings%2Fjake230&si=3D6107386462339072&pi=3Ddbf46261-12da-4824-c5be-6ebf=
+55701fc1>
+.
+
+I look forward to speaking with you!
+
+
+
+Jake
+
+
+Jake Swansson
+Director, Content Marketing Strategy
+www.clearvoice.com =E2=80=A2
+jake@clearvoice.com =E2=80=A2 @clearvoice <https://twitter.com/clearvoice>
+
+
+On Thu, Jul 5, 2018 at 8:29 AM, Jake Swansson <jake@clearvoice.com> wrote:
+
+> Hi Sam,
+>
+> Hope you had a wonderful Fourth of July!
+>
+> I wanted to follow back up with you to see if you had any availability
+> tomorrow or on Tuesday of next week for a call?
+>
+> If so, please feel free to send me a time that would be best for you and
+> I'll get us booked.
+>
+> Looking very forward to speaking with you!
+>
+>
+> Jake
+>
+>
+> Jake Swansson
+> Director, Content Marketing Strategy
+> www.clearvoice.com =E2=80=A2
+> jake@clearvoice.com =E2=80=A2 @clearvoice <https://twitter.com/clearvoice=
+>
+>
+>
+> On Mon, Jul 2, 2018 at 11:53 AM, Jake Swansson <jake@clearvoice.com>
+> wrote:
+>
+>> Hi Sam,
+>>
+>> Thank you for contacting us and for your interest in ClearVoice!
+>>
+>> I've had a chance to read your message and understand you're looking for
+>> a more efficient way to produce high-quality, consistent content. Is tha=
+t
+>> correct?
+>>
+>> If so, I'd love to tell you a bit more about ClearVoice and how we can
+>> help you get where you're going, as well, it would be great to better
+>> understand where you are positioned today so I can align you with the be=
+st
+>> solution.
+>>
+>> Do you have any availability on Thursday or Friday this week for an
+>> introductory call? If so, please let me know which date works best and i=
+f
+>> you have a preferred time.
+>>
+>> I'll be looking very forward to speaking with you!
+>>
+>>
+>> Jake
+>>
+>> Jake Swansson
+>> Director, Content Marketing Strategy
+>> www.clearvoice.com =E2=80=A2
+>> jake@clearvoice.com =E2=80=A2 @clearvoice
+>> <http://t.sidekickopen10.com/e1t/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJW7t5=
+XYg4Ws4zFVRbxTl2BF-G4VfD6ll56dLtkf7KVjnC02?t=3Dhttps%3A%2F%2Ftwitter.com%2F=
+clearvoice&si=3D6107386462339072&pi=3D57960335-041e-4ca8-d568-b38108f42a3b>
+>>
+>>
+>
+
+--0000000000003fb6c605709840c8
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div style=3D"text-decoration-style:initial;text-decoratio=
+n-color:initial">Sam,</div><div style=3D"text-decoration-style:initial;text=
+-decoration-color:initial"><br></div><div style=3D"text-decoration-style:in=
+itial;text-decoration-color:initial">Hope you&#39;re having a great start t=
+o the week!</div><div style=3D"text-decoration-style:initial;text-decoratio=
+n-color:initial"><br></div><div style=3D"text-decoration-style:initial;text=
+-decoration-color:initial">I wanted to follow back up with you to see if we=
+ could find a time this week or catch up on a call?</div><div style=3D"text=
+-decoration-style:initial;text-decoration-color:initial"><br></div><div sty=
+le=3D"text-decoration-style:initial;text-decoration-color:initial">I&#39;m =
+traveling today through-Wednesday, however, Thursday and Friday are open.</=
+div><div style=3D"text-decoration-style:initial;text-decoration-color:initi=
+al"><br></div><div style=3D"text-decoration-style:initial;text-decoration-c=
+olor:initial">Feel free to send me a time that is best for you or you can u=
+se my calendar link to book a=C2=A0<a href=3D"http://t.sidekickopen10.com/e=
+1t/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJW7t5XYg4Ws4zFVRbxTl2BF-G4VfD6ll56dLtk=
+f7KVjnC02?t=3Dhttps%3A%2F%2Fapp.hubspot.com%2Fmeetings%2Fjake230&amp;si=3D6=
+107386462339072&amp;pi=3Ddbf46261-12da-4824-c5be-6ebf55701fc1" target=3D"_b=
+lank" style=3D"outline:0px;color:rgb(17,85,204)">30 min meeting</a>.</div><=
+div style=3D"text-decoration-style:initial;text-decoration-color:initial"><=
+br></div><div style=3D"text-decoration-style:initial;text-decoration-color:=
+initial">I look forward to speaking with you!</div><div style=3D"text-decor=
+ation-style:initial;text-decoration-color:initial"><br></div><div style=3D"=
+text-decoration-style:initial;text-decoration-color:initial"><br></div><div=
+ style=3D"text-decoration-style:initial;text-decoration-color:initial"><br>=
+</div><div style=3D"text-decoration-style:initial;text-decoration-color:ini=
+tial">Jake</div><br><img src=3D"http://t.sidekickopen10.com/e1t/o/5/f18dQhb=
+0S7ks8dDMPbW2n0x6l2B9gXrN7sKj6v4LN9-W8rl5Ls1pNkMPW7fRDtR2zlZNzW5g1fPB1k1H6H=
+0?si=3D6107386462339072&amp;pi=3D705d062b-d1fe-4766-9dc0-f0ab63bd710b&amp;t=
+i=3Dnull" style=3D"display:none!important" height=3D"1" width=3D"1"></div><=
+div class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_signat=
+ure" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"l=
+tr"><div dir=3D"ltr"><table border=3D"0" cellpadding=3D"3" cellspacing=3D"0=
+">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"72"><img src=3D"http://i67.tinypic.com/of0d20=
+.png"></td><td valign=3D"top"><table border=3D"0" cellpadding=3D"1" cellspa=
+cing=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-family:Arial,Helvetica,sans-serif;font-weight:bold;font-s=
+ize:21px;color:rgb(48,48,48)">Jake Swansson</td>
+</tr>
+<tr>
+<td style=3D"font-family:Arial,Helvetica,sans-serif;color:rgb(120,120,120)"=
+>Director, Content Marketing Strategy</td>
+</tr>
+<tr>
+<td style=3D"font-family:Arial,Helvetica,sans-serif;font-size:11px;color:rg=
+b(120,120,120)"><a href=3D"https://www.clearvoice.com/" style=3D"color:rgb(=
+120,120,120);text-decoration:none" target=3D"_blank">www.clearvoice.com</a>=
+ =E2=80=A2=C2=A0=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"font-family:Arial,Helvetica,sans-serif;font-size:11px;color:rg=
+b(120,120,120)"><a href=3D"mailto:jake@clearvoice.com" style=3D"color:rgb(1=
+20,120,120);text-decoration:none" target=3D"_blank">jake@clearvoice.com</a>=
+ =E2=80=A2 <a href=3D"https://twitter.com/clearvoice" style=3D"color:rgb(12=
+0,120,120);text-decoration:none" target=3D"_blank">@clearvoice</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table><br><div><br></div></div></div></div></div></div></div>
+<br><div class=3D"gmail_quote">On Thu, Jul 5, 2018 at 8:29 AM, Jake Swansso=
+n <span dir=3D"ltr">&lt;<a href=3D"mailto:jake@clearvoice.com" target=3D"_b=
+lank">jake@clearvoice.com</a>&gt;</span> wrote:<br><blockquote class=3D"gma=
+il_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-lef=
+t:1ex"><div dir=3D"ltr"><span style=3D"text-decoration-style:initial;text-d=
+ecoration-color:initial;float:none;display:inline">Hi Sam,</span><div style=
+=3D"text-decoration-style:initial;text-decoration-color:initial"><br></div>=
+<div style=3D"text-decoration-style:initial;text-decoration-color:initial">=
+Hope you had a wonderful Fourth of July!</div><div style=3D"text-decoration=
+-style:initial;text-decoration-color:initial"><br></div><div style=3D"text-=
+decoration-style:initial;text-decoration-color:initial">I wanted to follow =
+back up with you to see if you had any availability tomorrow or on Tuesday =
+of next week for a call?</div><div style=3D"text-decoration-style:initial;t=
+ext-decoration-color:initial"><br></div><div style=3D"text-decoration-style=
+:initial;text-decoration-color:initial">If so, please feel free to send me =
+a time that would be best for you and I&#39;ll get us booked.</div><div sty=
+le=3D"text-decoration-style:initial;text-decoration-color:initial"><br></di=
+v><div style=3D"text-decoration-style:initial;text-decoration-color:initial=
+">Looking very forward to speaking with you!</div><div style=3D"text-decora=
+tion-style:initial;text-decoration-color:initial"><br></div><div style=3D"t=
+ext-decoration-style:initial;text-decoration-color:initial"><br></div><div =
+style=3D"text-decoration-style:initial;text-decoration-color:initial">Jake<=
+/div><br><img src=3D"http://t.sidekickopen10.com/e1t/o/5/f18dQhb0S7ks8dDMPb=
+W2n0x6l2B9gXrN7sKj6v4LN9-W8rl5Ls1pNkMPW7fRDtR2zlZNzW5g1fPB1k1H6H0?si=3D6107=
+386462339072&amp;pi=3D5ecbadb0-384d-4405-d913-a7144254766a&amp;ti=3Dnull" s=
+tyle=3D"display:none!important" height=3D"1" width=3D"1"><div class=3D"gmai=
+l_extra"><br clear=3D"all"><div><div class=3D"m_-7081365122718547544gmail_s=
+ignature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=
+=3D"ltr"><div dir=3D"ltr"><table border=3D"0" cellpadding=3D"3" cellspacing=
+=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"72"><img src=3D"http://i67.tinypic.com/of0d20=
+.png"></td><td valign=3D"top"><table border=3D"0" cellpadding=3D"1" cellspa=
+cing=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-family:Arial,Helvetica,sans-serif;font-weight:bold;font-s=
+ize:21px;color:rgb(48,48,48)">Jake Swansson</td>
+</tr>
+<tr>
+<td style=3D"font-family:Arial,Helvetica,sans-serif;color:rgb(120,120,120)"=
+>Director, Content Marketing Strategy</td>
+</tr>
+<tr>
+<td style=3D"font-family:Arial,Helvetica,sans-serif;font-size:11px;color:rg=
+b(120,120,120)"><a href=3D"https://www.clearvoice.com/" style=3D"color:rgb(=
+120,120,120);text-decoration:none" target=3D"_blank">www.clearvoice.com</a>=
+ =E2=80=A2=C2=A0=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"font-family:Arial,Helvetica,sans-serif;font-size:11px;color:rg=
+b(120,120,120)"><a href=3D"mailto:jake@clearvoice.com" style=3D"color:rgb(1=
+20,120,120);text-decoration:none" target=3D"_blank">jake@clearvoice.com</a>=
+ =E2=80=A2 <a href=3D"https://twitter.com/clearvoice" style=3D"color:rgb(12=
+0,120,120);text-decoration:none" target=3D"_blank">@clearvoice</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table><br><div><br></div></div></div></div></div></div></div>
+<br><div class=3D"gmail_quote">On Mon, Jul 2, 2018 at 11:53 AM, Jake Swanss=
+on <span dir=3D"ltr">&lt;<a href=3D"mailto:jake@clearvoice.com" target=3D"_=
+blank">jake@clearvoice.com</a>&gt;</span> wrote:<br><blockquote class=3D"gm=
+ail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-le=
+ft:1ex"><div dir=3D"ltr"><span style=3D"text-decoration-style:initial;text-=
+decoration-color:initial;float:none;display:inline">Hi Sam,</span><div styl=
+e=3D"text-decoration-style:initial;text-decoration-color:initial"><br></div=
+><div style=3D"text-decoration-style:initial;text-decoration-color:initial"=
+>Thank you for contacting us and for your interest in ClearVoice!</div><div=
+ style=3D"text-decoration-style:initial;text-decoration-color:initial"><br>=
+</div><div style=3D"text-decoration-style:initial;text-decoration-color:ini=
+tial">I&#39;ve had a chance to read your message and understand you&#39;re =
+looking for a more efficient way to produce high-quality, consistent conten=
+t. Is that correct?</div><div style=3D"text-decoration-style:initial;text-d=
+ecoration-color:initial"><br></div><div style=3D"text-decoration-style:init=
+ial;text-decoration-color:initial">If so, I&#39;d love to tell you a bit mo=
+re about ClearVoice and how we can help you get where you&#39;re going, as =
+well, it would be great to better understand where you are positioned today=
+ so I can align you with the best solution.</div><div style=3D"text-decorat=
+ion-style:initial;text-decoration-color:initial"><br></div><div style=3D"te=
+xt-decoration-style:initial;text-decoration-color:initial">Do you have any =
+availability on Thursday or Friday this week for an introductory call? If s=
+o, please let me know which date works best and if you have a preferred tim=
+e.</div><div style=3D"text-decoration-style:initial;text-decoration-color:i=
+nitial"><br></div><div style=3D"text-decoration-style:initial;text-decorati=
+on-color:initial">I&#39;ll be looking very forward to speaking with you!</d=
+iv><div style=3D"text-decoration-style:initial;text-decoration-color:initia=
+l"><br></div><div style=3D"text-decoration-style:initial;text-decoration-co=
+lor:initial"><br></div><div style=3D"text-decoration-style:initial;text-dec=
+oration-color:initial">Jake</div><br clear=3D"all"><div><div class=3D"m_-70=
+81365122718547544m_234081476980229753gmail_signature" data-smartmail=3D"gma=
+il_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div dir=3D"ltr"><tabl=
+e border=3D"0" cellpadding=3D"3" cellspacing=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"72"><img src=3D"http://i67.tinypic.com/of0d20=
+.png"></td><td valign=3D"top"><table border=3D"0" cellpadding=3D"1" cellspa=
+cing=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-family:Arial,Helvetica,sans-serif;font-weight:bold;font-s=
+ize:21px;color:rgb(48,48,48)">Jake Swansson</td>
+</tr>
+<tr>
+<td style=3D"font-family:Arial,Helvetica,sans-serif;color:rgb(120,120,120)"=
+>Director, Content Marketing Strategy</td>
+</tr>
+<tr>
+<td style=3D"font-family:Arial,Helvetica,sans-serif;font-size:11px;color:rg=
+b(120,120,120)"><a href=3D"https://www.clearvoice.com/" style=3D"color:rgb(=
+120,120,120);text-decoration:none" target=3D"_blank">www.clearvoice.com</a>=
+ =E2=80=A2=C2=A0=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"font-family:Arial,Helvetica,sans-serif;font-size:11px;color:rg=
+b(120,120,120)"><a href=3D"mailto:jake@clearvoice.com" style=3D"color:rgb(1=
+20,120,120);text-decoration:none" target=3D"_blank">jake@clearvoice.com</a>=
+ =E2=80=A2 <a href=3D"http://t.sidekickopen10.com/e1t/c/5/f18dQhb0S7lC8dDMP=
+bW2n0x6l2B9nMJW7t5XYg4Ws4zFVRbxTl2BF-G4VfD6ll56dLtkf7KVjnC02?t=3Dhttps%3A%2=
+F%2Ftwitter.com%2Fclearvoice&amp;si=3D6107386462339072&amp;pi=3D57960335-04=
+1e-4ca8-d568-b38108f42a3b" style=3D"color:rgb(120,120,120);text-decoration:=
+none" target=3D"_blank">@clearvoice</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table><br><div><br></div></div></div></div></div></div></div>
+<img src=3D"http://t.sidekickopen10.com/e1t/o/5/f18dQhb0S7ks8dDMPbW2n0x6l2B=
+9gXrN7sKj6v4LN9-W8rl5Ls1pNkMPW7fRDtR2zlZNzW5g1fPB1k1H6H0?si=3D6107386462339=
+072&amp;pi=3D57960335-041e-4ca8-d568-b38108f42a3b&amp;ti=3Dnull" style=3D"d=
+isplay:none!important" height=3D"1" width=3D"1"></div>
+</blockquote></div><br></div></div>
+</blockquote></div><br></div>
+
+--0000000000003fb6c605709840c8--

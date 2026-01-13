@@ -1,0 +1,131 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of softlayer.com designates 173.192.119.25 as permitted sender) client-ip=173.192.119.25; envelope-from=noreply@softlayer.com; helo=mx.softlayer.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of softlayer.com designates 173.192.119.25 as permitted sender)  smtp.mailfrom=noreply@softlayer.com;
+	dmarc=pass(p=none dis=none)  header.from=softlayer.com
+Return-Path: <noreply@softlayer.com>
+Received: from mx.softlayer.com (mx.softlayer.com [173.192.119.25]) by mx.zohomail.com
+	with SMTPS id 1530828737284822.6572990312196; Thu, 5 Jul 2018 15:12:17 -0700 (PDT)
+Received: from txndal0101e.softlayer.local
+	by mx.softlayer.com with esmtp
+	(Exim)
+	(envelope-from <noreply@softlayer.com>)
+	for sam@c-mtg.com
+	id 1fbCU5-000481-4G; Thu, 05 Jul 2018 17:12:17 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=softlayer.com; s=ims13; h=Message-Id:MIME-Version:Content-Type:Date:From:
+	Subject:To; bh=F+71h5iwqyVt0DpxTQLb0lIJppd2uAfNDMv0O8IC0MA=; b=UYEeC0QB2DG6vK
+	29gCaKhtN4HOHIDaV02h0Kqop6XOoX8+mMEg9s1l0KxvJ7eZpK+Yp74DqivE+nDofVfQrfeOz6EQ8
+	Hvn7qCKBHTsO01Q0MTmjShVcnqInfAg/tXvKU7zHZ0BCAWzgpyzjijA8VMd/FUqilljMaqrQkII02
+	ASpaI2N0gJBME9eeP6FuzwRTDTwC13Ypp4ROb6NU9eUMr0ESnE72sWk5ArijFV5WkTzEehhB8dg32
+	stWaDGxYzRbEtgKYB9Fpi4BMIb2pxASUDN25JWlmPfNCBa2ZCeXaWQO5Wc5RiGqEwMBi4NBY7SCYD
+	MlGViAIC/wfEW+nJiJ3g==;
+To: sam@c-mtg.com
+Subject: [IBM Cloud Event] ID: 61622037 - Slow Provisioning Times
+From: noreply@softlayer.com
+Date: Thu, 05 Jul 2018 17:12:17 -0500
+Content-Type: multipart/alternative;
+ boundary="=_5c4c3e36c9150cb4fc8c10f468fb388e"
+MIME-Version: 1.0
+Message-ID:<E1fbCU5-000481-4G@mxdal0501.softlayer.local>
+X-ZohoMail-DKIM: pass (identity @softlayer.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_7 RF_0 S_166
+X-ZM-MESSAGEID: 1530828737635000001
+X-ZohoMail-Status: 1
+
+
+--=_5c4c3e36c9150cb4fc8c10f468fb388e
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Customer Identification: Custom mtg (1395829)=0AStart Date: Thursday 05-=
+Jul-2018 19:47 UTC=0AEvent Type: Unplanned Event=0ASubject: Event 616220=
+37 - Slow Provisioning Times=0A=0A=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=0A/ Latest Update /=0A- As of Thursday 05-Jul-2018 22:10=
+ UTC=0AEngineers continue to investigate the issue. Additional resources=
+ are being engaged to help investigate the issue. Following reports of V=
+SI provisions stalling, the incident severity has been upgraded to a Sev=
+ 1.=0A=0A/ Items Associated With This Event /=0AItem ID | Hostname | Pub=
+lic IP | Private IP | Item Type=0A=0A=0A/ Update History /=0A- As of Thu=
+rsday 05-Jul-2018 22:10 UTC=0AEngineers continue to investigate the issu=
+e. Additional resources are being engaged to help investigate the issue.=
+ Following reports of VSI provisionings stalling, the incident severity=
+ has been upgraded to a Sev 1.=0A=0A- As of Thursday 05-Jul-2018 22:10 U=
+TC=0AEngineers continue to investigate the issue. Additional resources a=
+re being engaged to help investigate the issue. Following reports of VSI=
+ provisions stalling, the incident severity has been upgraded to a Sev 1=
+.=0A=0A- As of Thursday 05-Jul-2018 19:48 UTC=0AAt approximately 14:56 U=
+TC, long provisioning times were being observed through monitoring syste=
+ms, and Systems Engineers were engaged to help investigate the issue. At=
+ this time, customers may experience longer than normal times for provis=
+ioning new services. As of this time, provisioning transactions are stil=
+l completing. No disruptions have been observed.=0A=0A=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=0AThe times above are shown in UTC/GMT=
+. Please visit http://www.timeanddate.com/worldclock/converter.html?iso=
+=3D20180705T1945&p1=3D0 to convert start time of this event to your loca=
+l time.=0A=0AIBM Cloud (formerly SoftLayer) sent you this email because=
+ your contact address is linked to an account in our customer database.=
+ This email is used exclusively as our channel for notifying you about c=
+ritical issues that may affect your service, and for important company n=
+ews that could affect your business.  You are receiving this note becaus=
+e the message above directly concerns one of your accounts. If you do no=
+t wish to receive these important notifications at this address, please=
+ update your contact information or notification subscriptions in the cu=
+stomer portal.=0A=0AIf you have received this email in error, or you are=
+ concerned about suspicious activity concerning your account, please con=
+tact accounting@softlayer.com.=0AIBM Cloud | 14001 North Dallas Tollway=
+ Suite M100 Dallas, TX 75240 | +1-866-325-0045
+
+--=_5c4c3e36c9150cb4fc8c10f468fb388e
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<pre style=3D"white-space:pre-wrap">Customer Identification: Custom mtg=
+ (1395829)=0AStart Date: Thursday 05-Jul-2018 19:47 UTC=0AEvent Type: Un=
+planned Event=0ASubject: Event 61622037 - Slow Provisioning Times=0A=0A=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=0A/ Latest Update /=
+=0A- As of Thursday 05-Jul-2018 22:10 UTC=0AEngineers continue to invest=
+igate the issue. Additional resources are being engaged to help investig=
+ate the issue. Following reports of VSI provisions stalling, the inciden=
+t severity has been upgraded to a Sev 1.=0A=0A/ Items Associated With Th=
+is Event /=0AItem ID | Hostname | Public IP | Private IP | Item Type=0A=
+=0A=0A/ Update History /=0A- As of Thursday 05-Jul-2018 22:10 UTC=0AEngi=
+neers continue to investigate the issue. Additional resources are being=
+ engaged to help investigate the issue. Following reports of VSI provisi=
+onings stalling, the incident severity has been upgraded to a Sev 1.=0A=
+=0A- As of Thursday 05-Jul-2018 22:10 UTC=0AEngineers continue to invest=
+igate the issue. Additional resources are being engaged to help investig=
+ate the issue. Following reports of VSI provisions stalling, the inciden=
+t severity has been upgraded to a Sev 1.=0A=0A- As of Thursday 05-Jul-20=
+18 19:48 UTC=0AAt approximately 14:56 UTC, long provisioning times were=
+ being observed through monitoring systems, and Systems Engineers were e=
+ngaged to help investigate the issue. At this time, customers may experi=
+ence longer than normal times for provisioning new services. As of this=
+ time, provisioning transactions are still completing. No disruptions ha=
+ve been observed.=0A=0A=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=0AThe times above are shown in UTC/GMT. Please visit http://www.time=
+anddate.com/worldclock/converter.html?iso=3D20180705T1945&amp;p1=3D0 to=
+ convert start time of this event to your local time.=0A=0AIBM Cloud (fo=
+rmerly SoftLayer) sent you this email because your contact address is li=
+nked to an account in our customer database. This email is used exclusiv=
+ely as our channel for notifying you about critical issues that may affe=
+ct your service, and for important company news that could affect your b=
+usiness.  You are receiving this note because the message above directly=
+ concerns one of your accounts. If you do not wish to receive these impo=
+rtant notifications at this address, please update your contact informat=
+ion or notification subscriptions in the customer portal.=0A=0AIf you ha=
+ve received this email in error, or you are concerned about suspicious a=
+ctivity concerning your account, please contact accounting@softlayer.com=
+.=0AIBM Cloud | 14001 North Dallas Tollway Suite M100 Dallas, TX 75240 |=
+ +1-866-325-0045</pre>
+
+--=_5c4c3e36c9150cb4fc8c10f468fb388e--

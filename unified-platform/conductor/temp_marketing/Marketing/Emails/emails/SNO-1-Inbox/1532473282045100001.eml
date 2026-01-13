@@ -1,0 +1,63 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 209.85.214.52 as permitted sender) client-ip=209.85.214.52; envelope-from=custommortgagenotifier@gmail.com; helo=mail-it0-f52.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 209.85.214.52 as permitted sender)  smtp.mailfrom=custommortgagenotifier@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Return-Path: <custommortgagenotifier@gmail.com>
+Received: from mail-it0-f52.google.com (mail-it0-f52.google.com [209.85.214.52]) by mx.zohomail.com
+	with SMTPS id 153247328043526.521052879186414; Tue, 24 Jul 2018 16:01:20 -0700 (PDT)
+Received: by mail-it0-f52.google.com with SMTP id s7-v6so6102973itb.4
+        for <sam@c-mtg.com>; Tue, 24 Jul 2018 16:01:20 -0700 (PDT)
+Received: from 927538837578 named unknown by gmailapi.google.com with
+ HTTPREST; Tue, 24 Jul 2018 19:01:18 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to:cc;
+        bh=f8cPENQHUqW2i1Ox3hj7N5Djk4XIfIR/9kuRvoP+/gg=;
+        b=FA6hGOdkb8WSeIkvs5SOEBmpvkrBgWITqe9AWTEqnuMqTH/vEEIGoYRamKrZAQ9tqX
+         ZhqlSdIgOiJjWWJQokoNKYJC3jKrYwfReBauJjlQlh8SalfnA8Jcx18KhRc/5Omu0yr1
+         tq7NdMbr5+sCwedD6qyI1GRYBI9pqAyuJmVPB1qGoKFQaO2lo+xQdaHek69S51vYw5oZ
+         LUJSB0QsUDVDoF+F2pttg5JD3OvwA3ViwF0LfcCxTZKI/S0YEzBy5tLCWnEP7pJ5bC3F
+         od0hJGC97xAtiUY1ZG0FbEZO3A4kX9cyu59bj2U+7OEOwYTCrorIdUImxmQiKSIVwmPt
+         h9EA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to:cc;
+        bh=f8cPENQHUqW2i1Ox3hj7N5Djk4XIfIR/9kuRvoP+/gg=;
+        b=IOt7g3SCnmFPrnXooFv2buFAbol+eeTM2jcat43z5TOC7Lxh+3Tg7lAhanvkVfzio9
+         zQs6dfr90WoLB6N0m5ONGVDkP6lYho1e/3txm0Tgq6aR2GEygwSDNnVjz6teb1rFoZ5H
+         EAHcHvu+t8oFu49jntocya6HF0d4bviyGDi2ZeTcMP/w4kmqsRLZUAWcTht/BpNlRSfk
+         pHHwQGz64hj62ZoysioavqUBVyyB2xbkhGLKOga5mpDOmopod18FSfAiG7afVP2Y6BNm
+         /wo215a2Czcb16XWYL9sRmD795fAOboktkYNY3hjWv6ar3X8UI7m/lNL7ukOhNruDNaK
+         upIw==
+X-Gm-Message-State: AOUpUlEmYJPfy4eok06bVHw7MiFQE+rfyZxHuJhx3+VYRRRVwdcrUbXg
+	au74njKFyRs2HbkfZr2GEiHz9LvUu0JHR5qQ3Js=
+X-Google-Smtp-Source: AAOMgpfA0pd7c3Hqzbxx5UvC8FUGS1lb4MwabByH2JA3DXoWW5kq964lhglDwYDNw159j8+GItVU4Vh6yTlU99SzRQc=
+X-Received: by 2002:a24:40d2:: with SMTP id n201-v6mr4625182ita.144.1532473279645;
+ Tue, 24 Jul 2018 16:01:19 -0700 (PDT)
+MIME-Version: 1.0
+From: Custom Mortgage Call Notifier <custommortgagenotifier@gmail.com>
+Date: Tue, 24 Jul 2018 19:01:18 -0400
+Message-ID:<CAPY5Y-5=Gnv45Zp4d0=6VhWYGkQund=Y9bTXP6P0NBRYiB44Fw@mail.gmail.com>
+Subject: New Client Custom Mortgage Call from 14108086002
+To: custommtg23@gmail.com
+Cc: sam@c-mtg.com
+Content-Type: text/plain; charset="UTF-8"
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5_FRD RF_0 S_168 FRD_DI SPK
+X-ZM-MESSAGEID: 1532473282045100001
+X-ZohoMail-Status: 1
+
+
+Call from 14108086002
+
+Phone Application Responses:
+
+Question: customer type
+Response: new
+
+Question: email_data
+Response: notifier
+
+Recordings:

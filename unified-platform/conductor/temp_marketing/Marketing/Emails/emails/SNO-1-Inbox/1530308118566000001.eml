@@ -1,0 +1,441 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of southendcapital.com designates 74.125.82.171 as permitted sender) client-ip=74.125.82.171; envelope-from=myron@southendcapital.com; helo=mail-ot0-f171.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of southendcapital.com designates 74.125.82.171 as permitted sender)  smtp.mailfrom=myron@southendcapital.com
+Return-Path: <myron@southendcapital.com>
+Received: from mail-ot0-f171.google.com (mail-ot0-f171.google.com [74.125.82.171]) by mx.zohomail.com
+	with SMTPS id 1530308117496607.4819018922836; Fri, 29 Jun 2018 14:35:17 -0700 (PDT)
+Received: by mail-ot0-f171.google.com with SMTP id d19-v6so11408454oti.8
+        for <sam@c-mtg.com>; Fri, 29 Jun 2018 14:35:17 -0700 (PDT)
+Received: by 2002:a8a:50c:0:0:0:0:0 with HTTP; Fri, 29 Jun 2018 14:34:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=southendcapital.com; s=google;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=/AYrTa3oMiaMFlcMIaxCbh/4TmMgqIwfky7L0HmKf60=;
+        b=J3tIjI1z4FFI6RXItmFdIYK83xPMVpw5zcr1aBo7hHtFsSVfdiwxaeRa6h5HwRYU5O
+         A3YSBv/qHMDRuhACNfmqo/bFzgkm2ajULwPQI/iWpAztgOlLc87qw5IA7/75iFwfjLjC
+         zHR37OHOO8FXn5lUZzR40RAVIkxEnJlmbmSik=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=/AYrTa3oMiaMFlcMIaxCbh/4TmMgqIwfky7L0HmKf60=;
+        b=f1efullq6jS9jVcS9eSB0Nx2MGXmK7HCZ6lrOr6B1c6MXBK/GmUE7qFK7A7VTgNDRu
+         r5zRc+HF9u2NbEst51DXNTsYMrx8xJ+Xof7mBiaOYvk7SRoUl12dHKezYnnAxWnBHI3S
+         tKDwRM0M5ETzVwSyzQoeat8nN16Gxoh8xzR1rI4N/UenbRs7C4Oh6R/Gjy7WWWpa+E1c
+         b1XgS/NK3RpwDl4uxWrVGWkWgBPSUw0ooFuXMwcCOS5LV7iC6+yOJVwxnIGdJLZNk/8S
+         D9hK0k1kVmEonn3ywXFA0uP8gCfeyZTi5yKjcNAKWD7zAltbHOhMg+Moz4abdD4nRfLA
+         5yGw==
+X-Gm-Message-State: APt69E3yXdAU9tAFevZM7WkStqi94mNVtESie9/JWx/ZhZDXKB9RxpW/
+	/FX5UYJUmrYI4W+NR4e9NIPk8mLEILrZvYgquclKd4KcUuk=
+X-Google-Smtp-Source: AAOMgpdW9igW1VZtqJtEkFhYxS+d08dBsBJ8gXgkVBgMj/Cr9w2MD6ghimmA89wYeLLJKkfiCuaAR7Q2lQgmcBvtXd8=
+X-Received: by 2002:a9d:566:: with SMTP id 93-v6mr9164485otw.58.1530308115463;
+ Fri, 29 Jun 2018 14:35:15 -0700 (PDT)
+MIME-Version: 1.0
+From: Processing Department <processing@southendcapital.com>
+Date: Fri, 29 Jun 2018 17:34:54 -0400
+Message-ID:<CAM0B=a5+DSr_M2YnoVDVi5Rh4NkKoTp0f6h1pk1cTgqKFrAEjQ@mail.gmail.com>
+Subject: 6.29.18-Update: More Information Needed - Francisco J Rodriguez -
+ 1111 W Nolana Ave, McAllen, TX 78504, USA
+To: miguel@c-mtg.com, Sam Tehranchi <sam@c-mtg.com>
+Content-Type: multipart/alternative; boundary="0000000000009e9378056fce9fcc"
+X-ZohoMail-DKIM: pass (identity @southendcapital.com)
+X-ZohoMail-Owner: <CAM0B=a5+DSr_M2YnoVDVi5Rh4NkKoTp0f6h1pk1cTgqKFrAEjQ@mail.gmail.com>+zmo_0_myron@southendcapital.com
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_6 IS_0 PIW IS_6 EML_0 DMN_0 EDR_200 COSF LNKP UNK_O_0 UNK_U_0 SIP_KMR_0 RPD_UN_0 PMF_LNK_RPT_4 PIS_DPR_KN_0 SDFE_GNAR_0 ZMHF_701_4  SC_8 SGR3_1_2_0_166_762
+X-ZM-MESSAGEID: 1530308118566000001
+X-ZohoMail-Status: 1
+
+
+--0000000000009e9378056fce9fcc
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+ Good Afternoon,
+
+Any update per the below email?
+
+   - *The borrower's actual email address and phone # are required to
+   proceed, your role as the broker will be fully respected and protected
+   throughout the process. *
+
+Underwriting is waiting and asking for an update.
+
+Please use the following highlighted link to upload your documentation: *Se=
+cure
+Processing Document Upload <https://podio.com/webforms/19678730/1331533>*
+
+Thank you,
+
+Secure Processing Document Upload
+<https://podio.com/webforms/19678730/1331533>
+
+Apply for a* Real Estate Loan*
+<https://podio.com/webforms/19072869/1283663> (it
+only takes 5 minutes)
+
+Apply for a* Business Loan* <https://podio.com/webforms/19933098/1352724> (=
+it
+only takes 2 minutes)
+
+Register as a *Referral Partner*
+<https://podio.com/webforms/19815151/1342607>
+
+*Note: Email is the preferred form of communication; voice messages are
+generally not returned until the next day.*
+*Processing Department*
+
+South End Capital Corporation
+P: (888) 268-7778
+
+F: (857) 598 -1757 <(857)%20598-1757>
+
+processing@southendcapital.com
+
+www.southendcapital.com
+www.facebook.com/southendcapital
+
+
+
+
+SECC - CFL License # 603L334
+NOTICE: The information in this transmission may contain privileged and
+confidential information. It is intended only for the use of the person (s)
+named above. If you are not the intended recipient, you are hereby notified
+that any review, dissemination, distribution or duplication of this
+communication is strictly prohibited. If you are not the intended
+recipient, please contact the sender by reply email and destroy all copies
+of the original message. This email is not a solicitation of investment
+funds or a securities offering and the content in this email is for
+informational and educational purposes only. This email is not a commitment
+to lend or a guarantee of financing in any way.
+
+
+
+---------- message ----------
+From: South End Capital Processing <info@southendcapital.com>
+Date: Wed, Jun 27, 2018 at 5:44 PM
+Subject: More Information Needed - Francisco J Rodriguez - 1111 W Nolana
+Ave, McAllen, TX 78504, USA
+To: miguel@c-mtg.com, sam@c-mtg.com
+
+
+Hello,
+
+We have completed the initial review of your application and will require
+detailed answers to the below questions and/or the requested documentation
+in order for us to proceed. Incomplete answers or documentation will delay
+the processing of your transaction.
+
+ *Securely Upload the below Documentation Here*
+<https://podio.com/webforms/19678730/1331533>
+
+Please provide the following:
+
+   - *The borrower's actual email address and phone # are required to
+   proceed, your role as the broker will be fully respected and protected
+   throughout the process. *
+
+
+*Securely Upload Documentation Here*,
+<https://podio.com/webforms/19678730/1331533> DO NOT email us back your
+borrower's sensitive documentation, it will not be reviewed.
+
+
+Additionally, be on the lookout for other emails from our processing
+department requesting additional information or documentation.
+
+
+Sincerely,
+
+South End Capital Corporation
+www.southendcapital.com
+processing@southendcapital.com
+
+
+South End Capital Corporation =E2=80=9CSECC=E2=80=9D, founded in February o=
+f 2009, is
+a non-conforming lender (CA Finance Lenders License # 603
+L334) providing collateralized loans to business
+owners and real estate investors nationwide.
+
+--0000000000009e9378056fce9fcc
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<font face=3D"verdana, sans-serif"><span style=3D"color:windowtext">Good Af=
+ternoon,<br>
+</span><span style=3D"background:white"><br>
+</span><span style=3D"color:windowtext">Any update per the below email?</sp=
+an></font></div><div class=3D"gmail_default" style=3D""><font face=3D"verda=
+na, sans-serif"><span style=3D"color:windowtext">
+
+<ul style=3D"color:rgb(34,34,34);text-decoration-style:initial;text-decorat=
+ion-color:initial"><li style=3D""><span style=3D"color:rgb(0,0,128);backgro=
+und-color:rgb(255,255,0)"><strong style=3D"">The borrower&#39;s actual emai=
+l address and phone # are required to proceed, your role as the broker will=
+ be fully respected and protected throughout the process.=C2=A0</strong></s=
+pan></li></ul>
+
+Underwriting is waiting and asking for an update. <br>
+<br>
+</span><span style=3D"color:windowtext;background:white">Please use the fol=
+lowing <span style=3D"background:yellow">highlighted</span> link to upload =
+your
+documentation: </span><span class=3D"gmail-MsoHyperlink" style=3D"color:rgb=
+(5,99,193);text-decoration:underline"><b><span style=3D"color:rgb(17,85,204=
+);background:yellow"><a href=3D"https://podio.com/webforms/19678730/1331533=
+" target=3D"_blank" style=3D"color:rgb(5,99,193);text-decoration:underline"=
+><span style=3D"color:rgb(17,85,204)">Secure Processing Document Upload</sp=
+an></a></span></b></span><span style=3D"color:black"><br>
+</span><span style=3D"color:windowtext"><br>
+Thank you,</span></font><br></div><div class=3D"gmail_default" style=3D"fon=
+t-family:verdana,sans-serif"><span style=3D"font-size:10pt;font-family:Verd=
+ana,sans-serif;color:windowtext"><br></span></div><div class=3D"gmail_defau=
+lt" style=3D"font-family:verdana,sans-serif"><div dir=3D"ltr"><div class=3D=
+"gmail_default" style=3D"font-family:verdana,sans-serif"><div dir=3D"ltr"><=
+div class=3D"gmail_default"><div dir=3D"ltr"><div class=3D"gmail_default"><=
+div dir=3D"ltr"><div class=3D"gmail_default"><div dir=3D"ltr"><div class=3D=
+"gmail_default"><div dir=3D"ltr"><div class=3D"gmail_default"><div dir=3D"l=
+tr"><div class=3D"gmail_default"><div dir=3D"ltr"><div class=3D"gmail_defau=
+lt"><div dir=3D"ltr"><div class=3D"gmail_default"><div dir=3D"ltr"><div cla=
+ss=3D"gmail_default"><div dir=3D"ltr"><div class=3D"gmail_default"><div dir=
+=3D"ltr"><div class=3D"gmail_default"><div dir=3D"ltr"><div class=3D"gmail_=
+default"><div dir=3D"ltr"><div class=3D"gmail_default"><div dir=3D"ltr"><di=
+v class=3D"gmail_default"><div dir=3D"ltr"><div class=3D"gmail_default"><di=
+v dir=3D"ltr"><div class=3D"gmail_default"><div dir=3D"ltr"><div class=3D"g=
+mail_default"><div dir=3D"ltr"><div class=3D"gmail_default"><div dir=3D"ltr=
+"><div class=3D"gmail_default"><div dir=3D"ltr"><div class=3D"gmail_default=
+"><div dir=3D"ltr"><div class=3D"gmail_default"><div dir=3D"ltr"><div class=
+=3D"gmail_default"><div dir=3D"ltr"><div class=3D"gmail_default"><div dir=
+=3D"ltr"><div class=3D"gmail_default"><div dir=3D"ltr"><div class=3D"gmail_=
+default"><div dir=3D"ltr"><div class=3D"gmail_default"><div dir=3D"ltr"><di=
+v class=3D"gmail_default"><div dir=3D"ltr"><div class=3D"gmail_default"><di=
+v dir=3D"ltr"><div class=3D"gmail_default"><div dir=3D"ltr"><div class=3D"g=
+mail_default"><div dir=3D"ltr"><div class=3D"gmail_default"><div dir=3D"ltr=
+"><div class=3D"gmail_default"><div dir=3D"ltr"><div class=3D"gmail_default=
+"><div dir=3D"ltr"><div class=3D"gmail_default"><div dir=3D"ltr"><div class=
+=3D"gmail_default"><div dir=3D"ltr"><div class=3D"gmail_default"><div dir=
+=3D"ltr"><div class=3D"gmail_default"><div dir=3D"ltr"><div class=3D"gmail_=
+default">
+
+<p style=3D"color:rgb(34,34,34);font-size:12.8px;font-style:normal;font-var=
+iant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spaci=
+ng:normal;text-align:start;text-indent:0px;text-transform:none;white-space:=
+normal;word-spacing:0px;background-color:rgb(255,255,255);text-decoration-s=
+tyle:initial;text-decoration-color:initial">
+
+<a href=3D"https://podio.com/webforms/19678730/1331533" style=3D"color:rgb(=
+17,85,204);font-family:arial,sans-serif;font-size:12.8px;font-style:normal;=
+font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;lett=
+er-spacing:normal;text-align:start;text-indent:0px;text-transform:none;whit=
+e-space:normal;word-spacing:0px;background-color:rgb(255,255,255)" target=
+=3D"_blank"><font face=3D"verdana, sans-serif">Secure Processing Document U=
+pload</font></a>
+
+<br></p><p style=3D"color:rgb(34,34,34);font-size:12.8px;font-style:normal;=
+font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;lett=
+er-spacing:normal;text-align:start;text-indent:0px;text-transform:none;whit=
+e-space:normal;word-spacing:0px;background-color:rgb(255,255,255);text-deco=
+ration-style:initial;text-decoration-color:initial"><font face=3D"verdana, =
+sans-serif"><a href=3D"https://podio.com/webforms/19072869/1283663" style=
+=3D"color:rgb(17,85,204)" target=3D"_blank">Apply for a<b><span>=C2=A0</spa=
+n>Real Estate Loan</b></a>=C2=A0(it only takes 5 minutes)</font></p><p styl=
+e=3D"color:rgb(34,34,34);font-size:12.8px;font-style:normal;font-variant-li=
+gatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:norm=
+al;text-align:start;text-indent:0px;text-transform:none;white-space:normal;=
+word-spacing:0px;background-color:rgb(255,255,255);text-decoration-style:in=
+itial;text-decoration-color:initial"><font face=3D"verdana, sans-serif"><a =
+href=3D"https://podio.com/webforms/19933098/1352724" style=3D"color:rgb(17,=
+85,204)" target=3D"_blank">Apply for a<b>=C2=A0Business Loan</b></a><span>=
+=C2=A0</span>(it only takes 2 minutes)</font></p><p style=3D"color:rgb(34,3=
+4,34);font-size:12.8px;font-style:normal;font-variant-ligatures:normal;font=
+-variant-caps:normal;font-weight:400;letter-spacing:normal;text-align:start=
+;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;ba=
+ckground-color:rgb(255,255,255);text-decoration-style:initial;text-decorati=
+on-color:initial"><font face=3D"verdana, sans-serif"><a href=3D"https://pod=
+io.com/webforms/19815151/1342607" style=3D"color:rgb(17,85,204)" target=3D"=
+_blank">Register as a<span>=C2=A0</span><b>Referral Partner</b></a><b>=C2=
+=A0</b></font></p><p style=3D"font-family:arial,sans-serif;color:rgb(34,34,=
+34);font-size:12.8px;font-style:normal;font-variant-ligatures:normal;font-v=
+ariant-caps:normal;font-weight:400;letter-spacing:normal;text-align:start;t=
+ext-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;back=
+ground-color:rgb(255,255,255);text-decoration-style:initial;text-decoration=
+-color:initial"><i><font face=3D"arial, helvetica, sans-serif" size=3D"2" c=
+olor=3D"#666666"><b>Note: Email is the preferred form of communication; voi=
+ce messages are generally not returned until the next day.</b></font></i></=
+p>
+
+</div><div class=3D"gmail_default" style=3D"font-family:verdana,sans-serif"=
+><b><span style=3D"color:black">Processing
+Department</span></b><br></div><div style=3D"font-family:verdana,sans-serif=
+"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div =
+dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"=
+ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><d=
+iv dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><p class=3D"MsoNormal" sty=
+le=3D"background-image:initial;background-position:initial;background-size:=
+initial;background-repeat:initial;background-origin:initial;background-clip=
+:initial"><span style=3D"color:black">South End
+Capital Corporation</span><span style=3D"color:windowtext"><br>
+</span><span style=3D"color:black">P:</span><span style=3D"color:rgb(80,0,8=
+0)">=C2=A0</span><span style=3D"color:windowtext"><a href=3D"tel:%28888%29%=
+20268-7778" target=3D"_blank">(888) 268-7778</a></span><span style=3D"color=
+:rgb(80,0,80)">=C2=A0<span></span></span></p><p class=3D"MsoNormal"><span s=
+tyle=3D"color:rgb(68,68,68);background-image:initial;background-position:in=
+itial;background-size:initial;background-repeat:initial;background-origin:i=
+nitial;background-clip:initial">F:<span class=3D"m_-8835001110568707611m_48=
+91662248146982340m_-2243411133358117624m_-8225685138721120015gmail-m_-49217=
+67476746747651m_115479583444614795m_3301854742636360862m_219893618102590020=
+3gmail-m_2317962045892456365gmail-m_5395956311289233298gmail-m_778711014874=
+2881547gmail-apple-converted-space">=C2=A0</span></span><a href=3D"tel:(857=
+)%20598-1757" value=3D"+18575981757" target=3D"_blank"><span style=3D"backg=
+round-image:initial;background-position:initial;background-size:initial;bac=
+kground-repeat:initial;background-origin:initial;background-clip:initial">(=
+857) 598 -1757</span></a><span></span></p><p class=3D"MsoNormal"><span styl=
+e=3D"color:rgb(0,0,192)"><a href=3D"mailto:processing@southendcapital.com" =
+target=3D"_blank">processing@southendcapital.com</a><wbr>=C2=A0</span><span=
+ style=3D"color:windowtext"><span></span></span></p><p style=3D"margin:0in =
+0in 0.0001pt;background-image:initial;background-repeat:initial">
+
+
+
+
+
+
+
+</p><p class=3D"MsoNormal" style=3D"background-image:initial;background-pos=
+ition:initial;background-size:initial;background-repeat:initial;background-=
+origin:initial;background-clip:initial"><span style=3D"color:rgb(0,112,192)=
+"><a href=3D"http://www.southendcapital.com/" target=3D"_blank"><span style=
+=3D"color:rgb(0,112,192)">www.southendcapital.com<br>
+</span></a><a href=3D"http://www.facebook.com/southendcapital" target=3D"_b=
+lank"><span style=3D"color:rgb(0,112,192)">www.facebook.com/southendcapit<w=
+br>al</span></a></span><span style=3D"color:windowtext"><span></span></span=
+></p><p class=3D"MsoNormal" style=3D"background-image:initial;background-re=
+peat:initial"><br></p></div></div></div></div></div></div></div></div></div=
+></div></div></div></div></div></div></div></div></div></div></div></div></=
+div></div></div></div></div></div></div></div></div></div></div></div></div=
+></div></div></div></div></div></div></div></div></div></div></div></div></=
+div></div></div></div></div></div></div></div></div>
+</div>
+<div dir=3D"ltr" style=3D"font-family:arial,sans-serif;font-size:12.8px"><i=
+mg src=3D"https://docs.google.com/a/southendcapital.com/uc?id=3D0B7eywJyZiM=
+DzMWhSQy1RaVVZem8&amp;export=3Ddownload" width=3D"67" height=3D"96" style=
+=3D"font-size:12.8px"><br></div><div dir=3D"ltr" style=3D"font-family:arial=
+,sans-serif;font-size:12.8px"><div><br></div><div><p style=3D"font-size:sma=
+ll;font-family:lato,&quot;helvetica neue&quot;,helvetica,arial,sans-serif;m=
+argin:0px 0in 6pt;color:rgb(119,119,119);line-height:20px"><span style=3D"c=
+olor:rgb(0,0,0);font-family:verdana,sans-serif;line-height:normal">SECC - C=
+FL License # 603L334</span></p><span style=3D"color:rgb(0,0,0);font-family:=
+calibri,sans-serif;font-size:small">NOTICE: The information in this transmi=
+ssion may contain privileged and confidential information. It is intended o=
+nly for the use of the person (s) named above. If you are not the intended =
+recipient, you are hereby notified that any review, dissemination, distribu=
+tion or duplication of this communication is strictly prohibited. If you ar=
+e not the intended recipient, please contact the sender by reply email and =
+destroy all copies of the original message. This email is not a solicitatio=
+n of investment funds or a securities offering and the content in this emai=
+l is for informational and educational purposes only. This email is not a c=
+ommitment to lend or a guarantee of financing in any way.</span></div></div=
+></div></div>
+</div></div></div></div></div></div></div></div></div></div></div></div></d=
+iv></div></div></div></div></div></div></div></div></div><div dir=3D"ltr" s=
+tyle=3D"font-family:verdana,sans-serif"><div class=3D"gmail_default" style=
+=3D"font-family:verdana,sans-serif"><div dir=3D"ltr"><div class=3D"gmail_de=
+fault" style=3D"font-family:verdana,sans-serif"><div dir=3D"ltr"><div class=
+=3D"gmail_default" style=3D"font-family:verdana,sans-serif"><div dir=3D"ltr=
+"><div class=3D"gmail_default" style=3D"font-family:verdana,sans-serif"><di=
+v dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:verdana,san=
+s-serif"><div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family=
+:verdana,sans-serif"><div dir=3D"ltr"><div class=3D"gmail_default" style=3D=
+"font-family:verdana,sans-serif"><div dir=3D"ltr"><div class=3D"gmail_defau=
+lt" style=3D"font-family:verdana,sans-serif"><div dir=3D"ltr"><div class=3D=
+"gmail_default" style=3D"font-family:verdana,sans-serif"><div dir=3D"ltr"><=
+div class=3D"gmail_default" style=3D"font-family:verdana,sans-serif"><div d=
+ir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:verdana,sans-s=
+erif"><div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:ve=
+rdana,sans-serif"><div dir=3D"ltr"><div class=3D"gmail_default" style=3D"fo=
+nt-family:verdana,sans-serif"><div dir=3D"ltr"><div class=3D"gmail_default"=
+ style=3D"font-family:verdana,sans-serif"><div dir=3D"ltr"><div class=3D"gm=
+ail_default" style=3D"font-family:verdana,sans-serif"><div dir=3D"ltr"><div=
+ class=3D"gmail_default" style=3D"font-family:verdana,sans-serif"><div dir=
+=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:verdana,sans-ser=
+if"><div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:verd=
+ana,sans-serif"><div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font=
+-family:verdana,sans-serif"><div dir=3D"ltr"><div class=3D"gmail_default" s=
+tyle=3D"font-family:verdana,sans-serif"><div dir=3D"ltr"><div class=3D"gmai=
+l_default" style=3D"font-family:verdana,sans-serif"><div dir=3D"ltr"><div c=
+lass=3D"gmail_default" style=3D"font-family:verdana,sans-serif"><div dir=3D=
+"ltr"><div class=3D"gmail_default" style=3D"font-family:verdana,sans-serif"=
+><div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:verdana=
+,sans-serif"><div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-fa=
+mily:verdana,sans-serif"><div dir=3D"ltr"><div class=3D"gmail_default" styl=
+e=3D"font-family:verdana,sans-serif"><div dir=3D"ltr"><div class=3D"gmail_d=
+efault" style=3D"font-family:verdana,sans-serif"><div dir=3D"ltr"><div clas=
+s=3D"gmail_default" style=3D"font-family:verdana,sans-serif"><div dir=3D"lt=
+r"><div class=3D"gmail_default" style=3D"font-family:verdana,sans-serif"><d=
+iv dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:verdana,sa=
+ns-serif"><div dir=3D"ltr"><div class=3D"gmail_default"><div dir=3D"ltr"><d=
+iv class=3D"gmail_default" style=3D"font-family:verdana,sans-serif"><br></d=
+iv></div></div></div></div></div></div></div></div></div></div></div></div>=
+</div></div></div></div></div></div></div></div></div></div></div></div></d=
+iv></div></div></div></div></div></div></div></div></div></div></div></div>=
+</div></div></div></div></div></div></div></div></div></div></div></div></d=
+iv></div></div></div></div></div></div></div></div></div></div></div></div>=
+</div></div></div></div></div></div></div></div></div></div></div></div></d=
+iv>
+<br></div></div>
+<br></div><div class=3D"gmail_quote">---------- message ----------<br>From:=
+ <b class=3D"gmail_sendername">South End Capital Processing</b> <span dir=
+=3D"ltr">&lt;<a href=3D"mailto:info@southendcapital.com">info@southendcapit=
+al.com</a>&gt;</span><br>Date: Wed, Jun 27, 2018 at 5:44 PM<br>Subject: Mor=
+e Information Needed - Francisco J Rodriguez - 1111 W Nolana Ave, McAllen, =
+TX 78504, USA<br>To: <a href=3D"mailto:miguel@c-mtg.com">miguel@c-mtg.com</=
+a>, <a href=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a><br><br><br><p>Hello,=
+<br><br>We have completed the initial review of your application and will r=
+equire detailed answers to the below questions and/or the requested documen=
+tation in order for us to proceed. Incomplete answers or documentation will=
+ delay the processing of your transaction.</p>
+<p><a href=3D"https://podio.com/webforms/19678730/1331533" target=3D"_blank=
+"><span style=3D"background-color:#ffff00">=C2=A0<strong>Securely Upload th=
+e below Documentation Here</strong></span></a><br><br>Please provide the fo=
+llowing:</p>
+
+<ul><li><span style=3D"color:rgb(0,0,128)"><strong>The borrower&#39;s actua=
+l email address and phone # are required to proceed, your role as the broke=
+r will be fully respected and protected throughout the process.=C2=A0</stro=
+ng></span></li></ul>
+
+<p><br><a href=3D"https://podio.com/webforms/19678730/1331533" target=3D"_b=
+lank"><span style=3D"background-color:#ffff00"><strong>Securely Upload Docu=
+mentation Here</strong>,</span></a>=C2=A0DO NOT email us back your borrower=
+&#39;s sensitive documentation, it will not be reviewed.</p>
+<p><br>Additionally, be on the lookout for other emails from our processing=
+ department requesting additional information or documentation.<br><br><br>=
+Sincerely,<br><br>South End Capital Corporation<br><a href=3D"http://www.so=
+uthendcapital.com/" rel=3D"noreferrer" target=3D"_blank">www.southendcapita=
+l.com</a><br><a href=3D"mailto:processing@southendcapital.com" target=3D"_b=
+lank">processing@southendcapital.com</a><br><br><br>South End Capital Corpo=
+ration =E2=80=9CSECC=E2=80=9D, founded in February of 2009, is<br>a non-con=
+forming lender (CA Finance Lenders License # 603<br>L334) providing collate=
+ralized loans to business<br>owners and real estate investors nationwide.</=
+p>
+</div><br></div>
+
+--0000000000009e9378056fce9fcc--

@@ -1,0 +1,375 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 74.125.83.47 as permitted sender) client-ip=74.125.83.47; envelope-from=gvpalmsprings@gmail.com; helo=mail-pg0-f47.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 74.125.83.47 as permitted sender)  smtp.mailfrom=gvpalmsprings@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Received: from mail-pg0-f47.google.com (mail-pg0-f47.google.com [74.125.83.47]) by mx.zohomail.com
+	with SMTPS id 1530581188523821.1611019593026; Mon, 2 Jul 2018 18:26:28 -0700 (PDT)
+Received: by mail-pg0-f47.google.com with SMTP id c9-v6so157438pgf.5
+        for <sam@c-mtg.com>; Mon, 02 Jul 2018 18:26:28 -0700 (PDT)
+Return-Path: <gvpalmsprings@gmail.com>
+Return-Path: <gvpalmsprings@gmail.com>
+Received: from ?IPv6:2605:e000:fe56:1000:9145:75d8:dc9c:b784? ([2605:e000:fe56:1000:9145:75d8:dc9c:b784])
+        by smtp.gmail.com with ESMTPSA id 145-v6sm29293835pfz.69.2018.07.02.18.26.25
+        for <sam@c-mtg.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 02 Jul 2018 18:26:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:content-transfer-encoding:mime-version:date:subject:message-id
+         :references:in-reply-to:to;
+        bh=jkVpGNj9ZnUEbjtVCP1DAN5kU5g2JaQncJsUJ7CU430=;
+        b=LOfTz0S7wH6fxdd7x90HztTYZfu9sXcf3bMLJEztWcWplT6/6dJjEKIyHqR+azd4lI
+         /h/62E77+tIpz6tOMEzczSY1+pbR9NKyf9qnVZaTRnXiTQ7A9aOG6RdYZWNxsjqpAkXb
+         B/ITFDZ0icuEknfIhz0R0xEAeEJ9o6P3y2LbmKpv4kG3ffjnhyuWStuhGPdUWSuG+aMF
+         JZlYxCweCyYPSxmvsw9WVuHArYEa2/xwX4L8/vbwoj94j+wFQSsR9wsjMizYZkjosgXT
+         rXMvP66Y62FyXUtTirHNP9MhT2uNfMLEtr9aMioeKUIU2Wl0fPcHiCUNjQTT/nqAAjPh
+         NPYA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:content-transfer-encoding:mime-version:date
+         :subject:message-id:references:in-reply-to:to;
+        bh=jkVpGNj9ZnUEbjtVCP1DAN5kU5g2JaQncJsUJ7CU430=;
+        b=VjCQLDY9bhOGTLcQSlWxDN9gyt4oIXjQXT0l13tOBM3qFJKjyzgdBktZBiEn1NEKRF
+         sMA+ZDECE00JfzAGUlN6Zwdiw1tfhBa3Lbc9wo2rfPPJpWceAnCgKdoJHPHWEGcWzHKt
+         plFieMoKCWSxfyOSx43aLMMbOMXmNbETjO1oWoj7QyrDeYOaXY/I/U6I5bFNvi+WBJp2
+         oU7v1GI93ADBDjzR0unKeyQORqVx/wDTAVGvZoWjqWA5FyEW3+0j0dj5NV+EmWB/fycB
+         VjVr7T3+Bp3iDm3Jkmylqlx0/FvMHLafzG04M3UPqSfFezNGANZzda4+BGztatV/aQ07
+         FAqw==
+X-Gm-Message-State: APt69E0upnkUN8HK2+++X/SwU9SvzX6pRWnbCskanBFKLlvGTxETXvJV
+	7MBuh+OoksJ+fkkmnc2cnFhGS56E
+X-Google-Smtp-Source: AAOMgpd7ixhcO0/RfAAxGwAZROXe4CoKSdKfXCn+cbo27vuhtkmqacigXtjbtIlRwzu/cUeH58WtAg==
+X-Received: by 2002:a62:a8e:: with SMTP id 14-v6mr27533100pfk.57.1530581187358;
+        Mon, 02 Jul 2018 18:26:27 -0700 (PDT)
+From: Gail Vasquez <gvpalmsprings@gmail.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-0AC55183-7A2C-42D8-8820-847958DC8375
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0
+Date: Mon, 2 Jul 2018 18:26:25 -0700
+Subject: Re: 1366 N. Granito Palm Springs 92262
+Message-ID:<DE106428-B6F0-4AD5-97C8-F503DB12BD7F@gmail.com>
+References: <0E3D5EC2-7434-464C-A793-70B923EC5057@c-mtg.com> <DC718C6B-003D-41FE-BCA8-8417033A3B96@gmail.com> <8E510535-90B1-4444-9B1F-B289AC158BCE@c-mtg.com> <935A69CD-6B9A-49A4-A36B-FBDC3F73280C@gmail.com> <5F0F32C8-C933-4973-93A0-95E589AFC960@c-mtg.com> <CAJRwkY5LaPjcVM6gHR2rycgHfvGGCGURxCuOge++HdPFfiSyXw@mail.gmail.com> <0788DB86-FF77-4746-844A-8CD6B8CE6CBC@c-mtg.com>
+In-Reply-To: <0788DB86-FF77-4746-844A-8CD6B8CE6CBC@c-mtg.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+X-Mailer: iPhone Mail (15F79)
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_DI SPK
+X-ZM-MESSAGEID: 1530581189283000001
+X-ZohoMail-Status: 1
+
+
+
+--Apple-Mail-0AC55183-7A2C-42D8-8820-847958DC8375
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi Sam,=20
+Where is Miguel? Please have Miguel call me.
+Gail Vasquez
+Douglas Elliman
+917-747-0654
+
+
+
+Sent from my iPhone
+
+> On Jul 2, 2018, at 5:14 PM, Sam Tehranchi <sam@c-mtg.com> wrote:
+>=20
+> Hi Gail : ) they are not budging stating that due to the 4th of July week,=
+ they are likely to not be able to get the proper inspection in 10 days.  Ev=
+en though I disagree, I was not able to convince them.
+>=20
+> Below is their exact words:
+>=20
+> =E2=80=9CNo I=E2=80=99m not agreeing to 10 days I want 17 days.
+> This week is a dead week cause of 4th of July.  It=E2=80=99s only a week w=
+e are speaking about unless she already knows if issues with the property th=
+eir not disclosing, we should not have an issue with inspection=E2=80=9D
+>=20
+> I feel like I am in the twilight zone : ) so close yet so far
+>=20
+>=20
+> Sent from my iPhone
+>=20
+>> On Jul 2, 2018, at 5:09 PM, Gail Vasquez <gvpalmsprings@gmail.com> wrote:=
+
+>>=20
+>> Hi Sam,=20
+>> Thanks for the quick call today. As we discussed we can't make any side d=
+eals outside the written terms of the agreement.=20
+>> I'm looking forward to hearing back from you to confirm the proposed 10 d=
+ays to remove contingencies on the Home Inspection and we can move forward q=
+uickly.=20
+>> Cheers,
+>> Gail Vasquez=20
+>> Douglas Elliman
+>>=20
+>>=20
+>>=20
+>>     GAIL VASQUEZ  |  917.747.0654=20
+>>    Gvpalmsprings@gmail.com
+>>=20
+>>> On Mon, Jul 2, 2018 at 3:09 PM, Sam Tehranchi <sam@c-mtg.com> wrote:
+>>> HI Gail,
+>>>=20
+>>> After going back and forth with the buyer, the buyers are willing to rus=
+h the inspection and get it done in 10 days but don=E2=80=99t feel comfortab=
+le putting that in the contract and would prefer to have it remain at 17 day=
+ but rush the inspection to be completed in 10 days.
+>>>=20
+>>> They want the washer and drying included or just have the value of the w=
+asher and dryer reduced of the purchase price (estimated at 2k).
+>>>=20
+>>> Attached is the buyers counter, Miguel is out of the office so I am forw=
+arding the info to you so we can try to get this deal under contract sooner r=
+ather than later.
+>>>=20
+>>> Please let me know if you have any questions.  Thank you
+>>>=20
+>>> Respectfully,  =20
+>>>=20
+>>> =20
+>>> Sam Tehranchi
+>>>=20
+>>> =20
+>>> COO
+>>> Custom Mortgage and Realty=20
+>>> NMLS CA # 1556995 - BRE CA # 02018146
+>>> =20
+>>> Direct 310.709.6304 -Efax 866.421.7694=20
+>>>=20
+>>> sam@c-mtg.com - www.c-mtg.com
+>>>=20
+>>> LinkedIn - Facebook - twitter - Instagram
+>>>=20
+>>>=20
+>>>> On Jul 2, 2018, at 10:12 AM, Gail Vasquez <gvpalmsprings@gmail.com> wro=
+te:
+>>>>=20
+>>>> Hello Michael,
+>>>> Thank you for getting back with me. I just tried reaching you, can you g=
+ive me a call please.
+>>>> Re inspection contingency.  The seller is concerned with and does not w=
+ant to  keep the property off the market for so long when the potential buye=
+rs 1) haven=E2=80=99t seen the property 2)she=E2=80=99s been working diligen=
+tly on repairs, upgrades, and 3) at this price it is very active now and we d=
+on=E2=80=99t see any reason the inspection can=E2=80=99t be done within 5 da=
+ys.=20
+>>>> The proposed price is amazing for this home and please Note the washer D=
+ryer have always been an exclusion on MLS.=20
+>>>> The  closest comp is a complete gut renovation and down to the studs at=
+ this time, NOT similar to this home.
+>>>> Please give me a call.
+>>>> 917-747-0654
+>>>> Thanks Gail=20
+>>>>=20
+>>>> Sent from my iPad
+>>>>=20
+>>>>> On Jul 2, 2018, at 9:42 AM, Miguel A Aguayo <miguel@c-mtg.com> wrote:
+>>>>>=20
+>>>>> Hi Gail, I am so sorry about the delayed response, I left out of town o=
+n Saturday and was looking out for this email but missed it some how.  I am p=
+reparing the buyers counter but I believe we are almost there, the buyer wan=
+ts to do the offer as 1,020,000.00 with washer and dryer or 1,018,000.00 wit=
+hout washer and dryer, the sculpture is not part of the items and 17 days fo=
+r inspections.  I will prepare it now and send it over shortly once the buye=
+r has signed.
+>>>>>=20
+>>>>> Sincerely,
+>>>>>=20
+>>>>> Miguel A Aguayo
+>>>>>=20
+>>>>>=20
+>>>>> Custom Mortgage and Realty=20
+>>>>> President / Broker=20
+>>>>> NMLS: 1141884=20
+>>>>> Company NMLS: 1556995=20
+>>>>> Company CA BRE: 02018146=20
+>>>>>=20
+>>>>> D: 323.333.5693 - O: 877-976-5669  Efax 866.421.7694=20
+>>>>> miguel@c-mtg.com - www.c-mtg.com=20
+>>>>>=20
+>>>>> Please consider your environmental responsibility before printing this=
+ e-mail
+>>>>>=20
+>>>>>> On Jun 30, 2018, at 4:14 PM, Gail Vasquez <gvpalmsprings@gmail.com> w=
+rote:
+>>>>>>=20
+>>>>>> Miguel,
+>>>>>> I sent you a counter offer on 1366 N Granito, in Vista Las Palmas.
+>>>>>> It was sent via Docusign.=20
+>>>>>> Please confirm.
+>>>>>> Thank you,
+>>>>>> Gail Vasquez
+>>>>>>=20
+>>>>>>=20
+>>>>>> Sent from my iPhone
+>>>>>>=20
+>>>>>>> On Jun 29, 2018, at 12:16 PM, Miguel A Aguayo <miguel@c-mtg.com> wro=
+te:
+>>>>>>>=20
+>>>>>>> Hi Gail
+>>>>>>>=20
+>>>>>>> I believe you spoke with Sam from our office today, attached is an o=
+ffer from our client for 1366 N. Granito Palm Springs 92262.  Please present=
+ to your client and advise at your earliest convenience.  Thank you
+>>>>>>>=20
+>>>>>>> Sincerely,
+>>>>>>>=20
+>>>>>>> Miguel A Aguayo
+>>>>>>>=20
+>>>>>>>=20
+>>>>>>> Custom Mortgage and Realty=20
+>>>>>>> President / Broker=20
+>>>>>>> NMLS: 1141884=20
+>>>>>>> Company NMLS: 1556995=20
+>>>>>>> Company CA BRE: 02018146=20
+>>>>>>>=20
+>>>>>>> D: 323.333.5693 - O: 877-976-5669  Efax 866.421.7694=20
+>>>>>>> miguel@c-mtg.com - www.c-mtg.com=20
+>>>>>>>=20
+>>>>>>> Please consider your environmental responsibility before printing th=
+is e-mail
+>>>>>>> <1366_N_Granito_Cr__Palm_Springs_CA_Purchase_Agreement.pdf>
+>>>>>=20
+>>>>>=20
+>>>=20
+>>>=20
+>>=20
+
+--Apple-Mail-0AC55183-7A2C-42D8-8820-847958DC8375
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto">Hi Sam,&nbsp;<div>Where is Miguel? Please h=
+ave Miguel call me.<div>Gail Vasquez</div><div>Douglas Elliman</div><div>917=
+-747-0654</div><div><br><div><br><br><div id=3D"AppleMailSignature">Sent fro=
+m my iPhone</div><div><br>On Jul 2, 2018, at 5:14 PM, Sam Tehranchi &lt;<a h=
+ref=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a>&gt; wrote:<br><br></div><bloc=
+kquote type=3D"cite"><div><meta http-equiv=3D"content-type" content=3D"text/=
+html; charset=3Dutf-8">Hi Gail : ) they are not budging stating that due to t=
+he 4th of July week, they are likely to not be able to get the proper inspec=
+tion in 10 days. &nbsp;Even though I disagree, I was not able to convince th=
+em.<div><br></div><div>Below is their exact words:<br><div><br></div><div><d=
+iv>=E2=80=9CNo I=E2=80=99m not agreeing to 10 days I want 17 days.</div><div=
+>This week is a dead week cause of 4th of July. &nbsp;It=E2=80=99s only a we=
+ek we are speaking about unless she already knows if issues with the propert=
+y their not disclosing, we should not have an issue with inspection=E2=80=9D=
+</div><div><br></div><div>I feel like I am in the twilight zone : ) so close=
+ yet so far</div><div><br></div><br><div id=3D"AppleMailSignature">Sent from=
+ my iPhone</div><div><br>On Jul 2, 2018, at 5:09 PM, Gail Vasquez &lt;<a hre=
+f=3D"mailto:gvpalmsprings@gmail.com">gvpalmsprings@gmail.com</a>&gt; wrote:<=
+br><br></div><blockquote type=3D"cite"><div><div dir=3D"ltr">Hi Sam,&nbsp;<d=
+iv>Thanks for the quick call today. As we discussed we can't make any side d=
+eals outside the written terms of the agreement.&nbsp;</div><div>I'm looking=
+ forward to hearing back from you to confirm the proposed 10 days to remove c=
+ontingencies on the Home Inspection and we can move forward quickly.&nbsp;</=
+div><div>Cheers,</div><div>Gail Vasquez&nbsp;</div><div>Douglas Elliman</div=
+><div><br></div></div><div class=3D"gmail_extra"><br clear=3D"all"><div><div=
+ class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div dir=3D"lt=
+r"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div di=
+r=3D"ltr"><div dir=3D"ltr"><div><div style=3D"font-size:12.8px;color:rgb(80,=
+0,80)"><br></div><div><span style=3D"font-size:12.8px"><b style=3D"color:rgb=
+(204,204,204)">&nbsp; &nbsp;</b><font color=3D"#999999">&nbsp;</font></span>=
+<font size=3D"2"><font face=3D"Century Gothic, sans-serif" color=3D"#999999"=
+>GAIL VASQUEZ&nbsp;</font><font color=3D"#999999"><span style=3D"line-height=
+:14.2667px;font-family:'Century Gothic',sans-serif;background-image:initial;=
+background-position:initial;background-repeat:initial">&nbsp;</span><span st=
+yle=3D"line-height:14.2667px;font-family:Arial,sans-serif">|</span><font fac=
+e=3D"Century Gothic, sans-serif">&nbsp; 917.747.0654&nbsp;</font></font></fo=
+nt></div><div><font color=3D"#999999"><font face=3D"Century Gothic, sans-ser=
+if" size=3D"2">&nbsp; &nbsp;<a href=3D"mailto:Gvpalmsprings@gmail.com" targe=
+t=3D"_blank">Gvpalmsprings@gmail.com</a></font></font></div></div></div></di=
+v></div></div></div></div></div></div></div></div></div>
+<br><div class=3D"gmail_quote">On Mon, Jul 2, 2018 at 3:09 PM, Sam Tehranchi=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:sam@c-mtg.com" target=3D"_blank">sa=
+m@c-mtg.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=
+=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div styl=
+e=3D"word-wrap:break-word;line-break:after-white-space">HI Gail,<div><br></d=
+iv><div>After going back and forth with the buyer, the buyers are willing to=
+ rush the inspection and get it done in 10 days but don=E2=80=99t feel comfo=
+rtable putting that in the contract and would prefer to have it remain at 17=
+ day but rush the inspection to be completed in 10 days.</div><div><br></div=
+><div>They want the washer and drying included or just have the value of the=
+ washer and dryer reduced of the purchase price (estimated at 2k).</div><div=
+><br></div><div>Attached is the buyers counter, Miguel is out of the office s=
+o I am forwarding the info to you so we can try to get this deal under contr=
+act sooner rather than later.</div><div><br></div><div>Please let me know if=
+ you have any questions.&nbsp; Thank you</div><div><br><div>
+<div dir=3D"auto" style=3D"color:rgb(0,0,0);letter-spacing:normal;text-align=
+:start;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0=
+px;text-decoration:none;word-wrap:break-word;line-break:after-white-space"><=
+div dir=3D"auto" style=3D"color:rgb(0,0,0);letter-spacing:normal;text-align:=
+start;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0p=
+x;word-wrap:break-word;line-break:after-white-space">Respectfully, &nbsp;&nb=
+sp;<br><br>&nbsp;<br>Sam Tehranchi<br><br>&nbsp;<br>COO<br>Custom Mortgage a=
+nd Realty&nbsp;<br>NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br>&nbsp;<br>D=
+irect 310.709.6304 -Efax 866.421.7694&nbsp;<br><br><a href=3D"mailto:sam@c-m=
+tg.com" target=3D"_blank">sam@c-mtg.com</a>&nbsp;-&nbsp;<a href=3D"http://ww=
+w.c-mtg.com" target=3D"_blank">www.c-mtg.com</a><br><br><a href=3D"https://w=
+ww.linkedin.com/company-beta/3477964" target=3D"_blank">LinkedIn</a>&nbsp;-&=
+nbsp;<a href=3D"https://www.facebook.com/Custom-Mortgage-409842885783868/" t=
+arget=3D"_blank">Facebook</a>&nbsp;-&nbsp;<a href=3D"https://twitter.com/cus=
+tommortgage1" target=3D"_blank">twitter</a>&nbsp;<wbr>-&nbsp;<a href=3D"http=
+s://www.instagram.com/custommortgageinc/" target=3D"_blank">Instagram</a><br=
+><br></div></div>
+</div>
+<div><br><blockquote type=3D"cite"><div>On Jul 2, 2018, at 10:12 AM, Gail Va=
+squez &lt;<a href=3D"mailto:gvpalmsprings@gmail.com" target=3D"_blank">gvpal=
+msprings@gmail.com</a>&gt; wrote:</div><br class=3D"m_-968939470887077495App=
+le-interchange-newline"><div><div>Hello Michael,<br>Thank you for getting ba=
+ck with me. I just tried reaching you, can you give me a call please.<br>Re i=
+nspection contingency.&nbsp; The seller is concerned with and does not want t=
+o &nbsp;keep the property off the market for so long when the potential buye=
+rs 1) haven=E2=80=99t seen the property 2)she=E2=80=99s been working diligen=
+tly on repairs, upgrades, and 3) at this price it is very active now and we d=
+on=E2=80=99t see any reason the inspection can=E2=80=99t be done within 5 da=
+ys. <br>The proposed price is amazing for this home and please Note the wash=
+er Dryer have always been an exclusion on MLS. <br>The &nbsp;closest comp is=
+ a complete gut renovation and down to the studs at this time, NOT similar t=
+o this home.<br>Please give me a call.<br>917-747-0654<br>Thanks Gail <br><b=
+r>Sent from my iPad<br><br><blockquote type=3D"cite">On Jul 2, 2018, at 9:42=
+ AM, Miguel A Aguayo &lt;<a href=3D"mailto:miguel@c-mtg.com" target=3D"_blan=
+k">miguel@c-mtg.com</a>&gt; wrote:<br><br>Hi Gail, I am so sorry about the d=
+elayed response, I left out of town on Saturday and was looking out for this=
+ email but missed it some how.&nbsp; I am preparing the buyers counter but I=
+ believe we are almost there, the buyer wants to do the offer as 1,020,000.0=
+0 with washer and dryer or 1,018,000.00 without washer and dryer, the sculpt=
+ure is not part of the items and 17 days for inspections.&nbsp; I will prepa=
+re it now and send it over shortly once the buyer has signed.<br><br>Sincere=
+ly,<br><br>Miguel A Aguayo<br><br><br>Custom Mortgage and Realty <br>Preside=
+nt / Broker <br>NMLS: 1141884 <br>Company NMLS: 1556995 <br>Company CA BRE: 0=
+2018146 <br><br>D: 323.333.5693 - O: 877-976-5669 &nbsp;Efax 866.421.7694 <b=
+r><a href=3D"mailto:miguel@c-mtg.com" target=3D"_blank">miguel@c-mtg.com</a>=
+ - <a href=3D"http://www.c-mtg.com" target=3D"_blank">www.c-mtg.com</a> <br>=
+<br>Please consider your environmental responsibility before printing this e=
+-mail<br><br><blockquote type=3D"cite">On Jun 30, 2018, at 4:14 PM, Gail Vas=
+quez &lt;<a href=3D"mailto:gvpalmsprings@gmail.com" target=3D"_blank">gvpalm=
+springs@gmail.com</a>&gt; wrote:<br><br>Miguel,<br>I sent you a counter offe=
+r on 1366 N Granito, in Vista Las Palmas.<br>It was sent via Docusign. <br>P=
+lease confirm.<br>Thank you,<br>Gail Vasquez<br><br><br>Sent from my iPhone<=
+br><br><blockquote type=3D"cite">On Jun 29, 2018, at 12:16 PM, Miguel A Agua=
+yo &lt;<a href=3D"mailto:miguel@c-mtg.com" target=3D"_blank">miguel@c-mtg.co=
+m</a>&gt; wrote:<br><br>Hi Gail<br><br>I believe you spoke with Sam from our=
+ office today, attached is an offer from our client for 1366 N. Granito Palm=
+ Springs 92262.&nbsp; Please present to your client and advise at your earli=
+est convenience.&nbsp; Thank you<br><br>Sincerely,<br><br>Miguel A Aguayo<br=
+><br><br>Custom Mortgage and Realty <br>President / Broker <br>NMLS: 1141884=
+ <br>Company NMLS: 1556995 <br>Company CA BRE: 02018146 <br><br>D: 323.333.5=
+693 - O: 877-976-5669 &nbsp;Efax 866.421.7694 <br><a href=3D"mailto:miguel@c=
+-mtg.com" target=3D"_blank">miguel@c-mtg.com</a> - <a href=3D"http://www.c-m=
+tg.com" target=3D"_blank">www.c-mtg.com</a> <br><br>Please consider your env=
+ironmental responsibility before printing this e-mail<br>&lt;1366_N_Granito_=
+Cr__Palm_<wbr>Springs_CA_Purchase_Agreement.<wbr>pdf&gt;<br></blockquote></b=
+lockquote><br><br></blockquote></div></div></blockquote></div></div></div><b=
+r><div style=3D"word-wrap:break-word;line-break:after-white-space"><div></di=
+v></div><br></blockquote></div><br></div>
+</div></blockquote></div></div></div></blockquote></div></div></div></body><=
+/html>=
+
+--Apple-Mail-0AC55183-7A2C-42D8-8820-847958DC8375--

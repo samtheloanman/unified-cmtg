@@ -1,0 +1,144 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 209.85.192.175 as permitted sender) client-ip=209.85.192.175; envelope-from=333michaelborrego@gmail.com; helo=mail-pf0-f175.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 209.85.192.175 as permitted sender)  smtp.mailfrom=333michaelborrego@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Received: from mail-pf0-f175.google.com (mail-pf0-f175.google.com [209.85.192.175]) by mx.zohomail.com
+	with SMTPS id 1531496452336668.0338809352377; Fri, 13 Jul 2018 08:40:52 -0700 (PDT)
+Received: by mail-pf0-f175.google.com with SMTP id q7-v6so21748592pff.2
+        for <sam@c-mtg.com>; Fri, 13 Jul 2018 08:40:52 -0700 (PDT)
+Return-Path: <333michaelborrego@gmail.com>
+Return-Path: <333michaelborrego@gmail.com>
+Received: from ?IPv6:2605:e000:141d:c343::6765:6fc7:a752? ([2605:e000:141d:c343:0:6765:6fc7:a752])
+        by smtp.gmail.com with ESMTPSA id o65-v6sm37742148pfb.104.2018.07.13.08.40.50
+        for <sam@c-mtg.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 13 Jul 2018 08:40:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:content-transfer-encoding:mime-version:date:subject:message-id
+         :references:in-reply-to:to;
+        bh=q7Dr9Fd0WK3fqxLnCB6f/Ph6TXnBxjbv6FYRpaY8oZA=;
+        b=h5XSHDKgpMOhzgB+lckDAVbFgsnYyJdEK+AWiFeMsRypcXfCVi8WmBTPWlSUzUoM5i
+         uPWsE8HSyAvSe7bDLXKy1edwlnVdoav9ok1ZZhFy5kLqjB0VRJJegLZ+YFVAWnPnnHTQ
+         rYJPVpRkxsn1WT4sFsO7VUiA2Vv48L/5FQr6FeeuCX4kIe9+Y69daZcMN+Yx9atJxOD0
+         0e8yH4A2RiJJJL/OPcj9a0+Sp2cDLU67AcKqY/UcC+IfBJu6sCjdPqb4bpUKKNWsVrIA
+         AePz2qLGZiF2a8tRt5Zttx/6DxZoHMDlV1cm3rLVi+XOpMkeD+OBY84j+j5cUoGwFeY0
+         jRHQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:content-transfer-encoding:mime-version:date
+         :subject:message-id:references:in-reply-to:to;
+        bh=q7Dr9Fd0WK3fqxLnCB6f/Ph6TXnBxjbv6FYRpaY8oZA=;
+        b=UuRKrE8JSBK655oQROrfLlp5Y2JGadPBgNPig8h8rzOXulpm4ppdd8Ouftohu/nI8H
+         5P+FYdS1fxEb3AXhRWa0ixttfpGkNMdw9dhxx7vwOPTBiAF3+lXVhWnaHhMjeuH0NnXG
+         zaoHW3bEODc3XBBspW+D/asPfZBLe1VaUevYL5ybdL/9my3p+af83f4wbYA6BkmZE9zF
+         BoxZWa3mOaSZOCSSYATbIX+iGYd894+dUzCyrxRqjHQW9cJUmEn1vn13COXCAteosdzs
+         mPF/Ip3mAh1My49KuXVHce8ES0O8dk3bwJ3wQYuYD9GzEVX6VttgUDze6Zt53nOZNte3
+         nQbQ==
+X-Gm-Message-State: AOUpUlEKN0KTZR+peQs6OWiKh0JHoN02cdPSqBMW/XCTDAe9cJwmNKfp
+	eOO1jTDHWRi2GyGHdjunPnp+WtYn
+X-Google-Smtp-Source: AAOMgpebspGrOvdF9EGuz7oFmQcoANAwT6t5sdkEYTVEE5QCZ7DpRbLBijQ0+hv+EOAwa5Y3MYdY8Q==
+X-Received: by 2002:a63:2404:: with SMTP id k4-v6mr6497454pgk.191.1531496451535;
+        Fri, 13 Jul 2018 08:40:51 -0700 (PDT)
+From: Michael Borrego <333michaelborrego@gmail.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-C063C6B8-0C8C-446D-8943-4EE5A143FD61
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0
+Date: Fri, 13 Jul 2018 08:40:49 -0700
+Subject: Re: Log Edit Request Form
+Message-ID:<37948C2E-4D42-422F-B6E1-684F7BFCA3E6@gmail.com>
+References: <MWHPR11MB18073B0815996FEB94BA13F9EF930@MWHPR11MB1807.namprd11.prod.outlook.com> <898C3E63-232D-4709-B1DE-3F109C93CA50@gmail.com> <050CF38E-AE79-46E2-A2BD-4239EC9E50E9@c-mtg.com>
+In-Reply-To: <050CF38E-AE79-46E2-A2BD-4239EC9E50E9@c-mtg.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+X-Mailer: iPhone Mail (15F79)
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_167 FRD_DI SPK
+X-ZM-MESSAGEID: 1531496454432100001
+X-ZohoMail-Status: 1
+
+
+
+--Apple-Mail-C063C6B8-0C8C-446D-8943-4EE5A143FD61
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+Just change company names too just these 3 Select Energy Service started2011=
+ November / started 2013 June Calfrac oilfield service / started November 20=
+17 liberty oilfield servicesSent from my iPhone
+
+> On May 22, 2018, at 12:16 PM, Sam Tehranchi <sam@c-mtg.com> wrote:
+>=20
+>=20
+> Respectfully,  =20
+>=20
+> =20
+> Sam Tehranchi
+>=20
+> =20
+> COO
+> Custom Mortgage and Realty=20
+> NMLS CA # 1556995 - BRE CA # 02018146
+> =20
+> Direct 310.709.6304 -Efax 866.421.7694=20
+>=20
+> sam@c-mtg.com - www.c-mtg.com
+>=20
+> LinkedIn - Facebook - twitter - Instagram
+>=20
+>=20
+>> On May 22, 2018, at 12:07 PM, Michael Borrego <333michaelborrego@gmail.co=
+m> wrote:
+>>=20
+>> <Log Edit Request Form.pdf>
+> <Log Edit Request Form.pdf>
+
+--Apple-Mail-C063C6B8-0C8C-446D-8943-4EE5A143FD61
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto">Just change company names too just these 3 S=
+elect Energy Service started2011 November / started 2013 June Calfrac oilfie=
+ld service / started November 2017 liberty oilfield servicesSent from my iPh=
+one<br><div><br>On May 22, 2018, at 12:16 PM, Sam Tehranchi &lt;<a href=3D"m=
+ailto:sam@c-mtg.com">sam@c-mtg.com</a>&gt; wrote:<br><br></div><blockquote t=
+ype=3D"cite"><div><meta http-equiv=3D"Content-Type" content=3D"text/html; ch=
+arset=3Dus-ascii"><br class=3D""><div class=3D"">
+<div dir=3D"auto" style=3D"caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); l=
+etter-spacing: normal; text-align: start; text-indent: 0px; text-transform: n=
+one; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px;=
+ text-decoration: none; word-wrap: break-word; -webkit-nbsp-mode: space; lin=
+e-break: after-white-space;" class=3D""><div dir=3D"auto" style=3D"color: rg=
+b(0, 0, 0); letter-spacing: normal; text-align: start; text-indent: 0px; tex=
+t-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stro=
+ke-width: 0px; word-wrap: break-word; -webkit-nbsp-mode: space; line-break: a=
+fter-white-space;" class=3D"">Respectfully, &nbsp;&nbsp;<br class=3D""><br c=
+lass=3D"">&nbsp;<br class=3D"">Sam Tehranchi<br class=3D""><br class=3D"">&n=
+bsp;<br class=3D"">COO<br class=3D"">Custom Mortgage and Realty&nbsp;<br cla=
+ss=3D"">NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br class=3D"">&nbsp;<br c=
+lass=3D"">Direct 310.709.6304 -Efax 866.421.7694&nbsp;<br class=3D""><br cla=
+ss=3D""><a href=3D"mailto:sam@c-mtg.com" class=3D"">sam@c-mtg.com</a>&nbsp;-=
+&nbsp;<a href=3D"http://www.c-mtg.com" class=3D"">www.c-mtg.com</a><br class=
+=3D""><br class=3D""><a href=3D"https://www.linkedin.com/company-beta/347796=
+4" class=3D"">LinkedIn</a>&nbsp;-&nbsp;<a href=3D"https://www.facebook.com/C=
+ustom-Mortgage-409842885783868/" class=3D"">Facebook</a>&nbsp;-&nbsp;<a href=
+=3D"https://twitter.com/custommortgage1" class=3D"">twitter</a>&nbsp;-&nbsp;=
+<a href=3D"https://www.instagram.com/custommortgageinc/" class=3D"">Instagra=
+m</a><br class=3D""><br class=3D""></div></div>
+</div>
+<div><br class=3D""><blockquote type=3D"cite" class=3D""><div class=3D"">On M=
+ay 22, 2018, at 12:07 PM, Michael Borrego &lt;<a href=3D"mailto:333michaelbo=
+rrego@gmail.com" class=3D"">333michaelborrego@gmail.com</a>&gt; wrote:</div>=
+<br class=3D"Apple-interchange-newline"><div class=3D""><span id=3D"cid:5030=
+0CDC-BCCC-4E9B-8FFD-955A718D91E3">&lt;Log Edit Request Form.pdf&gt;</span></=
+div></blockquote></div></div></blockquote><blockquote type=3D"cite"><div>&lt=
+;Log Edit Request Form.pdf&gt;</div></blockquote><blockquote type=3D"cite"><=
+div><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-asc=
+ii"></div></blockquote></body></html>=
+
+--Apple-Mail-C063C6B8-0C8C-446D-8943-4EE5A143FD61--

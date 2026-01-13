@@ -1,0 +1,286 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 74.125.83.47 as permitted sender) client-ip=74.125.83.47; envelope-from=geolrp@gmail.com; helo=mail-pg0-f47.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 74.125.83.47 as permitted sender)  smtp.mailfrom=geolrp@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Received: from mail-pg0-f47.google.com (mail-pg0-f47.google.com [74.125.83.47]) by mx.zohomail.com
+	with SMTPS id 1530663602856432.94127415759954; Tue, 3 Jul 2018 17:20:02 -0700 (PDT)
+Received: by mail-pg0-f47.google.com with SMTP id v13-v6so1668930pgr.10
+        for <sam@c-mtg.com>; Tue, 03 Jul 2018 17:20:02 -0700 (PDT)
+Return-Path: <geolrp@gmail.com>
+Return-Path: <geolrp@gmail.com>
+Received: from [192.168.1.3] (cpe-104-34-153-147.socal.res.rr.com. [104.34.153.147])
+        by smtp.gmail.com with ESMTPSA id 8-v6sm4574615pfk.132.2018.07.03.17.20.00
+        for <sam@c-mtg.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 03 Jul 2018 17:20:00 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:content-transfer-encoding:mime-version:date:subject:message-id
+         :references:in-reply-to:to;
+        bh=lqCZVNZ0V10oTn6T1lN7Xxc2OcDTrurqOkIYA24kLjk=;
+        b=exrCj/wfC5V7HbS1URKVxt6ybpWHd2drwf2w6biBsqWElRcnxeihyx0PXZ1OsUdDh8
+         GcArjoB01qcG5hMl5aodsXYe/kEuVdLbaCMczsyB4GXgF5bMhxoeZd72N2j3CeH1+293
+         7/e/NVSvJW5vPZtcqL2xJ5lAnIR7RWMP1zpapBuLnk+D5yhAVru4JHmpuzUhh680bw/Q
+         gq3jp8hsKvOaa0kbZmRD5JnEd64K8eYgHhrZCOKKtkwIA7BmEjxJru9R1bz4/wRCBevZ
+         gjVY4TCclYueppsUh6smBWGO/U7VTKr51zkf1tzlAjMAhsDHVCn+dHFxuj3z3L0yLhzs
+         JT2w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:content-transfer-encoding:mime-version:date
+         :subject:message-id:references:in-reply-to:to;
+        bh=lqCZVNZ0V10oTn6T1lN7Xxc2OcDTrurqOkIYA24kLjk=;
+        b=iMOTpchvSMjXwrAzWpbAyokKbmh7LnOXe5gNnuYwdR0PnjXSf3iIr0CAE10IVoFHp0
+         McKzdN3JKL+dSpMVB02ayD9fG/uSOiZNgo1aTGIIoWU6TcDZ+qw+kQYKF6iZFHtIFgbL
+         E/uKWNhz68xcbOLKIglaWioPu5G2Me9gZl/PlqQYdpuNQgY+drcINq6P0QEMylJl4IMb
+         OEqG9GO7uefrYONnJR+aX6rwqlKirbNwswIEAHplUtOvZ4Q1xbVVlhgRYi85FdbsFQtY
+         Ci5vdggJ+eNpDXdaloE7peNvBJZsZ9Z8RJbSS7vRu/KZXlZvLGxjflB82aMkFOJCjmnf
+         5Jnw==
+X-Gm-Message-State: APt69E1cCw3pxU9bjSuQLL/sdaylAwsEnAnqczSSzHcXSeWSiw0Ss3n4
+	A/nF1sq3I8T1Og/wEgJOZnSzrR1L
+X-Google-Smtp-Source: AAOMgpfAUxfQ8K5lzt5fDSDmr1dOfzlyud2fIS7SZkRCnXzXnP8rX/AOYrBYtuakWgh5uVdOpK7lsA==
+X-Received: by 2002:a63:4703:: with SMTP id u3-v6mr160616pga.405.1530663601753;
+        Tue, 03 Jul 2018 17:20:01 -0700 (PDT)
+From: "George H." <geolrp@gmail.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-DA408EC8-8093-47C0-A935-E9D1E7C8F53F
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0
+Date: Tue, 3 Jul 2018 17:19:59 -0700
+Subject: Re: URGENT - UNDERWRITING CONDITIONS--------- 2819 Coldwater canyon dr 90210
+Message-ID:<E602391D-3E06-478D-8394-5EEE31C22242@gmail.com>
+References: <61193911-AACB-4399-B3E8-FA82A9B621D6@gmail.com> <13888CA6-BBFA-456B-B359-073A255F2F5C@gmail.com> <8D3216CA-2CEE-44E6-8248-DE5EB7C671F3@c-mtg.com>
+In-Reply-To: <8D3216CA-2CEE-44E6-8248-DE5EB7C671F3@c-mtg.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+X-Mailer: iPhone Mail (15F79)
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_166 FRD_DI SPK
+X-ZM-MESSAGEID: 1530663604371000001
+X-ZohoMail-Status: 1
+
+
+
+--Apple-Mail-DA408EC8-8093-47C0-A935-E9D1E7C8F53F
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+George, he can only provide May and June, July is not ready. Usually doesn=E2=
+=80=99t get that till about the 15th of the month, that=E2=80=99s Chase Priv=
+ate wealth management policy.
+
+The other accounts are closed, and condensed.
+
+The corporations have been in Ben=E2=80=99s name and are only in his name, t=
+he CPA letter can only be a condition, I need approval or Ben is going to go=
+ in another direction.
+
+George H.=20
+818.585.5203
+Sent from my iPhone
+
+> On Jul 3, 2018, at 5:03 PM, Sam Tehranchi <sam@c-mtg.com> wrote:
+>=20
+> I don=E2=80=99t have the statements I requested, also, we will need the cp=
+a letter but not right now, they will condition for it.
+>=20
+> Sent from my iPhone
+>=20
+>> On Jul 3, 2018, at 4:57 PM, George H. <geolrp@gmail.com> wrote:
+>>=20
+>>=20
+>>> Hi George,
+>>>=20
+>>> Ben has provided April 2018 Chase what you have.
+>>>=20
+>>> You have the corporate information from the Secretary of State that show=
+s that Ben is the 100% owner of the corporation=E2=80=99s. They should not n=
+eed anything else.
+>>>=20
+>>> The US bank accounts and BNP accounts have been closed remember everythi=
+ng is now with Chase.
+>>>=20
+>>> I have requested me in June Chase and waiting for Ben to send.=20
+>>>=20
+>>> Sent from my iPhone
+>>>=20
+>>>> On Jul 3, 2018, at 3:32 PM, <geolrp@gmail.com> <geolrp@gmail.com> wrote=
+:
+>>>>=20
+>>>> =20
+>>>> Hi George,
+>>>> =20
+>>>> We will now need additional bank statements since we are in July:
+>>>> =20
+>>>> 1. June, May and April 2018 for Chase statements for business account 2=
+789
+>>>> 2. June 2018 for US Bank Business account (ending 6590) and Personal ac=
+count (6574)
+>>>> =20
+>>>> 3. We will also need a CPA letter confirming two years of employment an=
+d that borrower owns 100% of the business (or what ever percentage he owns, s=
+ample attached).
+>>>> =20
+>>>> 4. I also have a question regarding what the below US Bank accounts for=
+, there are transfers being made into the US business bank accounts we have o=
+n file from these bank accounts? Are these personal or business accounts? Ar=
+e there additional reserves in these accounts because that will help?
+>>>> 157513268258, 157513846681, 157513268258, 157513846590, 157510964073
+>>>>=20
+>>>>=20
+>>>> Respectfully,  =20
+>>>>=20
+>>>> =20
+>>>>=20
+>>>> =20
+
+--Apple-Mail-DA408EC8-8093-47C0-A935-E9D1E7C8F53F
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><span style=3D"background-color: rgba(255, 2=
+55, 255, 0);">George, he can only provide May and June, July is not ready. U=
+sually doesn=E2=80=99t get that till about the 15th of the month, that=E2=80=
+=99s Chase Private wealth management policy.</span><div><span style=3D"backg=
+round-color: rgba(255, 255, 255, 0);"><br></span></div><div><span style=3D"b=
+ackground-color: rgba(255, 255, 255, 0);">The other accounts are closed, and=
+ condensed.</span></div><div><span style=3D"background-color: rgba(255, 255,=
+ 255, 0);"><br></span></div><div><span style=3D"background-color: rgba(255, 2=
+55, 255, 0);">The corporations have been in Ben=E2=80=99s name and are only i=
+n his name, the CPA letter can only be a condition, I need approval or Ben i=
+s going to go in another direction.</span></div><br><div id=3D"AppleMailSign=
+ature"><div>George H.&nbsp;</div><div>818.585.5203</div>Sent from my iPhone<=
+/div><div><br>On Jul 3, 2018, at 5:03 PM, Sam Tehranchi &lt;<a href=3D"mailt=
+o:sam@c-mtg.com">sam@c-mtg.com</a>&gt; wrote:<br><br></div><blockquote type=3D=
+"cite"><div><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8">I don=E2=80=99t have the statements I requested, also, we will need t=
+he cpa letter but not right now, they will condition for it.<br><br><div id=3D=
+"AppleMailSignature">Sent from my iPhone</div><div><br>On Jul 3, 2018, at 4:=
+57 PM, George H. &lt;<a href=3D"mailto:geolrp@gmail.com">geolrp@gmail.com</a=
+>&gt; wrote:<br><br></div><blockquote type=3D"cite"><div><meta http-equiv=3D=
+"content-type" content=3D"text/html; charset=3Dutf-8"><br><blockquote type=3D=
+"cite"><div><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8">Hi George,<div><br></div><div>Ben has provided April 2018 Chase what y=
+ou have.<br><div><br></div><div>You have the corporate information from the S=
+ecretary of State that shows that Ben is the 100% owner of the corporation=E2=
+=80=99s. They should not need anything else.</div><div><br></div><div>The US=
+ bank accounts and BNP accounts have been closed remember everything is now w=
+ith Chase.</div><div><br></div><div>I have requested me in June Chase and wa=
+iting for Ben to send.&nbsp;<br><br><div id=3D"AppleMailSignature">Sent from=
+ my iPhone</div><div><br>On Jul 3, 2018, at 3:32 PM, &lt;<a href=3D"mailto:g=
+eolrp@gmail.com">geolrp@gmail.com</a>&gt; &lt;<a href=3D"mailto:geolrp@gmail=
+.com">geolrp@gmail.com</a>&gt; wrote:<br><br></div><blockquote type=3D"cite"=
+><div><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-=
+8"><meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">=
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Lato;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.highlight
+	{mso-style-name:highlight;}
+span.font
+	{mso-style-name:font;}
+span.size
+	{mso-style-name:size;}
+span.colour
+	{mso-style-name:colour;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+span.EmailStyle23
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--><div class=3D"WordSection1"><p class=3D"Ms=
+oNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal">Hi George,<o:p></o:p></=
+p><div><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p></div><div><p class=3D"Ms=
+oNormal">We will now need additional bank statements since we are in July:<o=
+:p></o:p></p></div><div><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p></div><d=
+iv><p class=3D"MsoNormal">1. June, May and April 2018 for&nbsp;<b><span styl=
+e=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,sans-serif;color:#4C=
+4C4C">Chase statements for business account 2789</span></b><o:p></o:p></p></=
+div><div><p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Helvetica&quot;,sans-serif;color:#4C4C4C">2. June 2018 for US Bank B=
+usiness account (ending&nbsp;6590)&nbsp;</span></b><b><span style=3D"font-fa=
+mily:&quot;Helvetica&quot;,sans-serif;color:#4C4C4C">and Personal account (6=
+574)</span></b><o:p></o:p></p></div><div><div><p class=3D"MsoNormal"><span s=
+tyle=3D"font-size:10.5pt;font-family:&quot;Lato&quot;,serif"><o:p>&nbsp;</o:=
+p></span></p></div><div><p class=3D"MsoNormal"><span class=3D"colour"><b><sp=
+an style=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,sans-serif;co=
+lor:#4C4C4C;background:white">3. We will also</span></b></span><span class=3D=
+"highlight"><b><span style=3D"font-size:10.5pt;font-family:&quot;Lato&quot;,=
+serif;background:white">&nbsp;need a&nbsp;CPA letter confirming two years of=
+ employment and that borrower owns 100% of the business (or what ever percen=
+tage he owns, sample attached).</span></b></span><span style=3D"font-size:10=
+.5pt;font-family:&quot;Lato&quot;,serif"><o:p></o:p></span></p></div><div><p=
+ class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Lato&=
+quot;,serif"><o:p>&nbsp;</o:p></span></p></div><div><p class=3D"MsoNormal"><=
+span class=3D"colour"><span style=3D"font-size:10.0pt;font-family:&quot;Helv=
+etica&quot;,sans-serif;color:#4C4C4C;background:white">4. <b>I also have a q=
+uestion regarding what the below US Bank accounts for, there are transfers b=
+eing made into the US business bank accounts we have on file from these bank=
+ accounts? Are these personal or business accounts? Are there additional res=
+erves in these accounts because that will help?</b></span></span><span style=
+=3D"font-size:10.5pt;font-family:&quot;Lato&quot;,serif"><o:p></o:p></span><=
+/p></div><div><p class=3D"MsoNormal"><span class=3D"colour"><span style=3D"f=
+ont-size:10.0pt;font-family:&quot;Helvetica&quot;,sans-serif;color:#4C4C4C;b=
+ackground:white">157513268258, 157513846681, 157513268258, 157513846590, 157=
+510964073</span></span><span style=3D"font-size:10.5pt;font-family:&quot;Lat=
+o&quot;,serif"><o:p></o:p></span></p></div><div><p class=3D"MsoNormal"><span=
+ style=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,sans-serif;colo=
+r:#4C4C4C;background:white"><br><br></span><span style=3D"font-size:10.5pt;f=
+ont-family:&quot;Lato&quot;,serif"><o:p></o:p></span></p></div><div><div><di=
+v><p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span style=3D"color=
+:black">Respectfully, &nbsp;&nbsp;<br><br>&nbsp;</span><o:p></o:p></p></div>=
+</div></div><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p></div></div></div></=
+blockquote></div></div></div></blockquote></div></blockquote></div></blockqu=
+ote></body></html>=
+
+--Apple-Mail-DA408EC8-8093-47C0-A935-E9D1E7C8F53F--

@@ -1,0 +1,117 @@
+Delivered-To: Sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 209.85.220.171 as permitted sender) client-ip=209.85.220.171; envelope-from=shawa6598@gmail.com; helo=mail-qk0-f171.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 209.85.220.171 as permitted sender)  smtp.mailfrom=shawa6598@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Return-Path: <shawa6598@gmail.com>
+Received: from mail-qk0-f171.google.com (mail-qk0-f171.google.com [209.85.220.171]) by mx.zohomail.com
+	with SMTPS id 1532570263987954.1620036714362; Wed, 25 Jul 2018 18:57:43 -0700 (PDT)
+Received: by mail-qk0-f171.google.com with SMTP id t79-v6so77325qke.4
+        for <Sam@c-mtg.com>; Wed, 25 Jul 2018 18:57:43 -0700 (PDT)
+Received: by 2002:aed:358b:0:0:0:0:0 with HTTP; Wed, 25 Jul 2018 18:57:41
+ -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=qml6JV1Pq15U5/eW6UmxBv51QONTLv9y8+H3EZaK5o0=;
+        b=tpt6gg2FKBg27yqSIBgnbab2EhdbROItra7sy8H202/oVseOe8qkAj5gelUEjj1LvH
+         /8BVVOVcVZG60bwpGxfOnR2N9VJLO/KR1znBErp0e2v9BxRUa4nwhDQ9dAJIA6CL8AbZ
+         puucMBOqz5b7YzJmZjkPshu7b73WHUiAgEpwR/AEfpuJrw41U4M5PD2RG/Tc1PaZ+WDf
+         yLNZgI3JlAwBCzmB/n0lbaVZ7VxL3+w0xpDyEAOJuxOURkjp0lBWDUdIPzVxfMSY4wMg
+         WtePDQNnY/r4lH2wnn/EmMGXBwn0hg5M0Vx6M+bGJl3vL2NvmUgXvhn5cJNDsLtpuLlO
+         7m0w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=qml6JV1Pq15U5/eW6UmxBv51QONTLv9y8+H3EZaK5o0=;
+        b=mmk9GjTAlhEi4I8CevuyRZk43UE/hxwc0K+oa04snyp/h/ffXQX82KpS5OIImJ0g3x
+         s9ZdaNfoP8yPp2RRYxdI6PyW/OweyfLbVrLQXWIBbwDOeU2AZ1es0ILN1J2KGUCJXHoC
+         INYC/y9fGjM35UsFINYuZBwGZdMqx0FWHoq+QOnf6+YxcpxGkJBkK05cJH42FHL4xYbG
+         g2aOmQUGfcG7bumIpPu5jiA60jctzrLm7KjNXiNFNCSCo90r1aPOFFzWU4dCRAzwJII/
+         TJ59kp5pNbzXzC+Ga7/BvntZIyARexqqlzfW277ITJ2jHM5JWMj13wl2egsjJpijW89P
+         cIzQ==
+X-Gm-Message-State: AOUpUlGfKg4liEDkb2OaK9pCIv+/18sTaJD0TLKLkEaKc257+Cn2WmkH
+	AETRZhVGALxlrsHXIsj/Q6YUG+m+fQzvc/Etrd1D2CQ4
+X-Google-Smtp-Source: AAOMgpeFrb1whVQjjc2bkZutuLKDz0FnIF9sHVopo7begRF4uuze4H/uw4od1X/BGt7qCUNsChhnIYn8pqBdrVdyp6M=
+X-Received: by 2002:a37:c597:: with SMTP id k23-v6mr21402382qkl.324.1532570262665;
+ Wed, 25 Jul 2018 18:57:42 -0700 (PDT)
+MIME-Version: 1.0
+In-Reply-To: <CAP2XSS=zDXbxWQ2aUifNzBjb2+0yE-02G+b2LKxto04=mhK4vQ@mail.gmail.com>
+References: <CAL_BgRPCyMRsQYoBJ4e8Mx4CzZ1tqS=r613_v4pPgu2e-r-7hA@mail.gmail.com>
+ <CAP2XSSk-gZQz+Z3zGfw4ECD287L6GpZ027ZtMN-GRnbfytmC=g@mail.gmail.com>
+ <CAL_BgRNWChYx2v-OC7iGm3RX3fe==EYB-vSQOQg2e8PwuC4AiQ@mail.gmail.com>
+ <CAP2XSSmZh1q+BASG4Ry6wvDbUbyEmOyyr1sFCqYTCOQO73KJyg@mail.gmail.com>
+ <CAL_BgROqDuf8uKFp2wVm=VX8YzQeeBWkbh2o8Xy95zhBJ9KkrQ@mail.gmail.com>
+ <CAP2XSS=ZDMeyrtib-2q7UVVJd__MxF_mfJ32VL6KiGAiEq7UOA@mail.gmail.com>
+ <CAL_BgRNDXp0KEES6Od6pKpyW8G8sOtHvY2RdqEYvsAo9wMcN=g@mail.gmail.com>
+ <CAP2XSSmgWiSd0gtLWpe9mss_p1AkH7s7T811hJYAXqKLsMYb_w@mail.gmail.com>
+ <CAL_BgRMmTo=iegjOgzGbMWxe5QzvGzSUkL46TYOh5L2yOtB6vQ@mail.gmail.com>
+ <CAP2XSSm2kKgCDJAf7LeOOkWX9fdh=Rzp33Z7dU73w-Grj0OZRA@mail.gmail.com>
+ <CAL_BgRPow7fV=r5DQFmsfT3rQGFC_+_omH9ZbOsEkAZsMMqgkA@mail.gmail.com>
+ <CAP2XSSm0KWRTzyR5Go-cHY95BiW5JxTvfE_XDV-R+DqpG4FeQQ@mail.gmail.com>
+ <CAL_BgRP1z7_Sdw=ZN6Kps-CjCF_9GofnhKpREO0TSanpi4+_8Q@mail.gmail.com>
+ <CAP2XSSnjjPcDbomsZ_L1_mrHTzNv__dJSidu+GcVCh7uVCi=3A@mail.gmail.com>
+ <CAL_BgRMMhaCqOFBMERy8VCpiBsFJWK4Ca3q3YGY1aHGxX9vX0Q@mail.gmail.com>
+ <CAP2XSSnJOyy8Y2xLv5-UfP++MGJx6Bi8ikUBFB_k1J7t5Q7eYQ@mail.gmail.com>
+ <CAL_BgRP_TppME5F8nvJKErn-rY6EsgHOZUCMYd6Jm=djtD7EnQ@mail.gmail.com>
+ <CAP2XSSkidNA-xFd9NtU-Vhhq7OsQ3i1mY9C7exAjPs6DC7bOfQ@mail.gmail.com>
+ <CAL_BgRNwA2AjSwF=1AgbGdHhygjp8ybx5vhj=xrraUfdbx0zrw@mail.gmail.com>
+ <CAP2XSSmMDzRzP9FqfZ1k-pMUiCqHh6CZ77iuMWLC6rO8No8Gvg@mail.gmail.com>
+ <CAL_BgROOm5QfVRnFfHH4qCmCYpXOevEv286AZgUiA+=psMSAtw@mail.gmail.com>
+ <CAP2XSSnOQ7RXSNmSaMFZmq39cE2kWQGW4ps9FCH1wypx4WrJuw@mail.gmail.com>
+ <CAP2XSS=yLzViohZETktdeSR9M_SQYBpFV5Rr8c-wQ4=YCFt2=A@mail.gmail.com>
+ <CAL_BgRPHy2+_HDA2q3CZ2TYV-hyoBZjW0Rhh3-tA-LO-Z8_TpQ@mail.gmail.com>
+ <CAP2XSSn5+UY=4dd+JqF_GCf+yDJBQhqirCJ-O+05gxHQkET0tg@mail.gmail.com>
+ <CAL_BgRP79yX722K6g1_uXPmpmZTYJRfCEpq61JyfPiOqs==+6g@mail.gmail.com>
+ <CAP2XSSn_Ltx8sa487b9Jh9DyRvvkJ1FiHoy2rV08rgab2Kvwiw@mail.gmail.com>
+ <CAL_BgROdKmscofXak08dkOag-mLrOEzoiqhcZhu1Wfon-uT-SA@mail.gmail.com>
+ <CAP2XSSmxpwwT-=5NnVkaGz2B1HSSUatnDRYMDcHu3A1WfiRFuQ@mail.gmail.com>
+ <CAL_BgRMf6QfU2NH2iy0VcpkTEyjifUWXGBt5MfuUaGKGUse1WQ@mail.gmail.com>
+ <CAL_BgRMgNXEJEJmG-Gt7e6Tj2QJAuvudf_W8XrW=KAEB=L-0-w@mail.gmail.com>
+ <CAP2XSS=2+UCyidYKoW3-2zLYn5qtCDS3M3czTTs3iix8m1Tu4w@mail.gmail.com>
+ <CAL_BgRMqSOPwkEe-gZMxh65i=39fCrgEhkk4usfp+hcyMHuYbQ@mail.gmail.com>
+ <CAL_BgRPy+ax0avYVTrJL3k32VuHTOcmRxBeqkS73H48JtU5dmw@mail.gmail.com>
+ <CAP2XSS=_4Hyq1D-O49UgzpOaTx1B9upiGYKYcRGN+8arb8JAZw@mail.gmail.com>
+ <CAL_BgROVVzrwYPfiTwr21C9vvnkt6WpSf8_b4zNFnUd0hLGA4A@mail.gmail.com>
+ <CAL_BgRMCc0KUsv8W_JKaxQn4dv+ETQagXri-rsJJ_VUyGByspA@mail.gmail.com>
+ <CAP2XSSkHtkMRnV0Z9p_qYOQ1Lp9_0L_zEV_uJ70X1jhwCax77g@mail.gmail.com>
+ <CAL_BgRPaJD37=rP48YbEct7DhSCyEyYAWjCd4NsNC9y25vx6-A@mail.gmail.com>
+ <CAP2XSS=qk7RgowDtzZYpR_OsibZHYmGGAHiv5r5dk91qpPYUZw@mail.gmail.com>
+ <CAL_BgRN82fgeg9qwe=y+_sZX4QJ-cePuU-X34+tM0M5=nfVvYg@mail.gmail.com> <CAP2XSS=zDXbxWQ2aUifNzBjb2+0yE-02G+b2LKxto04=mhK4vQ@mail.gmail.com>
+From: Alex Shaw <shawa6598@gmail.com>
+Date: Wed, 25 Jul 2018 18:57:41 -0700
+Message-ID:<CAL_BgRN1WfYr36Dp7XSGU2XD36hzCsW4pfQRGVXaNS=Q+mcMOg@mail.gmail.com>
+Subject: Fwd:
+To: Sam@c-mtg.com
+Content-Type: multipart/alternative; boundary="000000000000197db50571dd52b6"
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail-Owner: <CAL_BgRN1WfYr36Dp7XSGU2XD36hzCsW4pfQRGVXaNS=Q+mcMOg@mail.gmail.com>+zmo_0_shawa6598@gmail.com
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_6 IS_0 PIW IS_6 FMWL EML_0 DMN_0 EDR_100 COSF FRD_DI_0 UNK_O_0 UNK_U_0 SFP_WHTLST_0 SIP_KGR_0 RPD_KGR_0  SC_0 SGR3_1_2_0_168_141
+X-ZM-MESSAGEID: 1532570265833100001
+X-ZohoMail-Status: 1
+
+
+--000000000000197db50571dd52b6
+Content-Type: text/plain; charset="UTF-8"
+
+---------- Forwarded message ----------
+
+
+My ada adress
+
+DdzFFzCqrht9acWqVTqZPu1nDhoLUdHWpEVquCHo3eyPg99J8bgxUZTAoCDL
+oLFQziwgJuZWqZiu24MjeWbSL8Hq6MBduMg1wBh9EbxQ
+
+--000000000000197db50571dd52b6
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><div class=3D"gmail_quote">---------- Forwarded messag=
+e ----------<br><br><br><div dir=3D"ltr">My ada adress<div><br><div>DdzFFzC=
+qrht9acWqVTqZPu1nDhoLUd<wbr>HWpEVquCHo3eyPg99J8bgxUZTAoCDL<wbr>oLFQziwgJuZW=
+qZiu24MjeWbSL8Hq6M<wbr>BduMg1wBh9EbxQ<br></div><div><br><div><br></div></di=
+v></div></div></div></div>
+
+--000000000000197db50571dd52b6--

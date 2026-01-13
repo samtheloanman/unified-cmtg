@@ -1,0 +1,773 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of bluelinemedia.com designates 173.201.192.233 as permitted sender) client-ip=173.201.192.233; envelope-from=dannyp@bluelinemedia.com; helo=p3plsmtpa07-04.prod.phx3.secureserver.net;
+Authentication-Results: mx.zohomail.com;
+	spf=pass (zoho.com: domain of bluelinemedia.com designates 173.201.192.233 as permitted sender)  smtp.mailfrom=dannyp@bluelinemedia.com
+Return-Path: <dannyp@bluelinemedia.com>
+Received: from p3plsmtpa07-04.prod.phx3.secureserver.net (p3plsmtpa07-04.prod.phx3.secureserver.net [173.201.192.233]) by mx.zohomail.com
+	with SMTPS id 1531973670018534.7716297437914; Wed, 18 Jul 2018 21:14:30 -0700 (PDT)
+Received: from [192.168.1.219] ([76.91.254.34])
+	by :SMTPAUTH: with ESMTPSA
+	id g0KTfC4Fj3Zq5g0Kif4d38; Wed, 18 Jul 2018 21:14:29 -0700
+From: Danny Pouladian <DannyP@BlueLineMedia.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-24A9151E-C14B-4CED-82D1-A408B67B05CD
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0
+Date: Wed, 18 Jul 2018 21:14:28 -0700
+Subject: Fwd: How to determine if you've been hit by negative SEO - Search Engine Land
+Message-ID:<EE2FFCA5-B9BF-439B-83C8-EDB3EC8546D0@BlueLineMedia.com>
+References: <2BEA0DE4-4094-4B8A-A2F4-F11DC99B0A2E@BlueLineMedia.com>
+To: Johnny Tehranchi <sam@c-mtg.com>
+X-Mailer: iPhone Mail (15E302)
+X-CMAE-Envelope: MS4wfMb0jwAFldRxaKy8khAzgskUTtIOb0zZmz9FB4lhMBJyJspB0o+0Sn7bwgcVMAWZXBIG1f41iHcsnKZH31cRBAgiq1PmALW/oYy1rdhPWOH/DFX2aIOH
+ u+fXwWKRNttW4cIbooX0HdKJHk5pPXynElwK/0V1YH7FV7RdMqLS/gYe
+X-ZohoMail: RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_167 SPK
+X-ZM-MESSAGEID: 1531973670298100001
+X-ZohoMail-Status: 1
+
+
+
+--Apple-Mail-24A9151E-C14B-4CED-82D1-A408B67B05CD
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+Begin forwarded message:
+
+> From: Danny Pouladian <DannyP@BlueLineMedia.com>
+> Date: July 18, 2018 at 9:14:12 PM PDT
+> To: Danny Pouladian <DannyP@BlueLineMedia.com>
+> Subject: How to determine if you've been hit by negative SEO - Search Engi=
+ne Land
+>=20
+>=20
+> https://searchengineland.com/how-to-determine-if-youve-been-hit-by-negativ=
+e-seo-299891
+>=20
+> How to determine if you=E2=80=99ve been hit by negative SEO
+> Knowing you've been hit by a negative SEO campaign is crucial to fighting i=
+t. Contributor Joe Sinkwitz outlines the tools and steps you can take to fig=
+ure out if you've been targeted.
+>=20
+> Joe Sinkwitz
+> Joe Sinkwitz on June 14, 2018 at 11:23 am
+>=20
+> Have you ever experienced a rankings decline and suspected it was due to s=
+omething a competitor was doing?
+>=20
+> For this second article, we are going to focus on the process of diagnosin=
+g whether or not you=E2=80=99ve been hit by negative search engine optimizat=
+ion (SEO) techniques.
+>=20
+> If you need a refresher or missed the first article, here it is: What Nega=
+tive SEO is and is Not.
+>=20
+> As you progress through the following steps to try and diagnose what happe=
+ned, you=E2=80=99ll need to honestly ask yourself whether the decline you=E2=
+=80=99re facing is more a result of your own actions or due to someone actin=
+g against you.
+>=20
+> It=E2=80=99s an important distinction; your first inclination can be to as=
+sume someone is out to hurt you, while it might actually be something as sim=
+ple as accidentally no-indexing your index, disallowing critical paths in ro=
+bots.txt or having a broken WordPress plug-in that suddenly duplicates all y=
+our pages with strange query parameters and improper canonicalization.
+>=20
+> In the first article, I segmented the majority of search signals into thre=
+e buckets: links, content and user signals. In order to properly analyze the=
+se buckets, we=E2=80=99re going to need to be able to rely on a variety of t=
+ools.
+>=20
+> What will you need?
+>=20
+> A browser with access to Google and Bing to find content.
+> Access to your raw weblogs to review content and user signals.
+> Google Analytics to review content and user signals.
+> Google Search Console to review content, links and user signals.
+> Bing Webmaster Tools to review content, links and user signals.
+> A link analysis tool to look at internal and inbound link data.
+> A crawling and technical tool to review content and user signals.
+> A plagiarism tool to review content.
+> Let=E2=80=99s step through the different tools and scenarios to determine i=
+f you were hit by negative SEO or if it=E2=80=99s just a mistake.
+>=20
+> How are Google and Bing treating my site?
+>=20
+> One of the simplest and easiest first steps to take is to check how Google=
+ and Bing are treating your site.
+>=20
+> I like to use both engines in every audit because they react differently, w=
+hich helps me quickly diagnose a problem. What are we looking for?
+>=20
+> Site:domain.tld. Replace =E2=80=9Cdomain.tld=E2=80=9D with your actual dom=
+ain. Both engines will return a list of pages from your domain, in a rough o=
+rder of importance.
+>=20
+> Are pages missing that you would expect to see due to their value? Look at=
+ the source code and robots.txt handling of those pages to determine whether=
+ they are accidentally being blocked by a misconfiguration.
+> Are pages being demoted? If the index page is suddenly not in the top spot=
+, something is probably wrong. Running this simple check recently, we notice=
+d our preferred URL handling was causing our index page=E2=80=99s canonical t=
+o update to a page that 301 redirects back in a loop. Google had demoted thi=
+s page on the site: query, but Bing didn=E2=80=99t. The problem was solved j=
+ust by running that simple check and looking into the problematic page.
+> Are there pages you don=E2=80=99t recognize? Do those pages look like some=
+thing as simple as a misconfigured setting in your content management system=
+ (CMS) that allows strange indexation, or are these pages off-theme and spam=
+my? The former is likely a mistake; the latter is probably an attack.
+> Perform some branded queries. Search for domain.ltd, domain and other popu=
+lar or normal phrases associated with your brand. Are you suddenly not ranki=
+ng for them as you previously were? If not, were you overtaken by any suspic=
+ious results?
+> Raw weblogs
+>=20
+> Having access to your raw weblogs is vital, but unfortunately, it is going=
+ to be made significantly more difficult with broader adoption of General Da=
+ta Protection Regulation (GDPR).
+>=20
+> It is vital that you can access internet protocols (IPs) recorded in each o=
+f the pages visited on your site, including those you may not have the Googl=
+e Analytics tracking code on. By parsing your logs, you can:
+>=20
+> Find IPs. This determines if the same group of IPs has been probing your s=
+ite for a configuration weakness.
+> Identify scrapers. Know if scrapers have been attempting to pull down cont=
+ent en masse.
+> Identify response issues. If you=E2=80=99re having a number of server resp=
+onse issues where you wouldn=E2=80=99t expect to see them, you will now.
+> Many issues can be solved if you have access and the inclination to parse y=
+our logs for patterns. It=E2=80=99s time-consuming but worth doing.
+>=20
+> Google Analytics
+>=20
+> This could be its own series, as there are a multitude of areas to focus o=
+n within any sophisticated analytics package. However, let=E2=80=99s focus o=
+n some of the more obvious pieces:
+>=20
+> Bounce rate. Has it been trending up or down? How does this correspond wit=
+h what you=E2=80=99re seeing in your raw logs. Is Google filtering out some o=
+f the bouncing traffic? Is the bounce rate showing any outliers when segment=
+ing by channel (source), by browser or by geographic location?
+> Session duration. Similar to bounce rate, for user signal purposes, are th=
+e sessions becoming abbreviated? Especially if also accompanied by an increa=
+se in overall sessions?
+> All traffic channels and all traffic referrals. Are any sources now sendin=
+g significantly more or less traffic when compared to periods in which your r=
+ankings were better? Are there unusual sources of traffic coming in that see=
+m fake? Both are issues to research when you suspect negative SEO.
+> Search console and landing pages. Similar to the Search Analytics check on=
+ Google Search Console itself, are there aberrations in which pages are now g=
+etting traffic, or are you seeing a large change in bounce and session durat=
+ion on the pages you care about?
+> Site speed. All things being equal, a faster site is a better site. Has th=
+e load time been increasing? Is it specifically increasing on Chrome? For sp=
+ecific pages? Are those pages that appeared benign ones that you didn=E2=80=99=
+t previously recognize?
+> Google Search Console
+>=20
+> What should you be looking for in Google Search Console (GSC) to help you d=
+etermine if you=E2=80=99ve been a victim of negative SEO?
+>=20
+> Messages. If there is a massive change that Google wants to inform you abo=
+ut, such as a manual action due to incoming or external links, crawl problem=
+s or accessibility issues, messages in your GSC are the first place to look.=
+ If Google thinks you=E2=80=99ve been hacked, it will let you know.
+> Search analytics. Looking at your queries over time, you can sometimes spo=
+t an issue. For instance, if query volumes associated with your branded and i=
+mportant phrases spike, did you see an uptick in clicks to your pages? If no=
+t, this could be an attempt to impact one user signal. Are your less importa=
+nt pages being sourced on the queries you care about? This could instead poi=
+nt to an issue with your content and content architecture.
+> Links to your site. The obvious thing to look for is a large influx of low=
+-quality, spammy links. But are they bad links?  If I cherry-pick some of th=
+e worst links and see that they are blocking AhrefsBot, this tells me they a=
+re probably spammy links which need to go.
+> Internal links. What pages are you linking to heavily that you didn=E2=80=99=
+t realize you were linking to? It could be a navigational issue, or it could=
+ be a situation where you=E2=80=99re linking to a spammy doorway page inject=
+ed into your CMS.
+> Manual actions. It should also exist in messages, but if you have a manual=
+ action, you need to address it immediately. It doesn=E2=80=99t matter what t=
+he reasons are; even if there was a legitimate attack on your site, you must=
+ fix it right away.
+> Crawl errors. Rule out a ranking drop due to malicious intent by checking o=
+n the stability of your setup. If your server is throwing too many 500 respo=
+nses, Google will crawl it less. If this occurs, chances are users are going=
+ to encounter more issues with your web pages, and it will slip in the ranki=
+ngs as RankBrain folds in the user data. If you pair this with raw weblog da=
+ta, you might see if the server instability is due to an attack.
+> Bing Webmaster Tools
+>=20
+> How can you determine what=E2=80=99s going on with your Bing rankings? Hea=
+d to their webmaster tools and check for the following:
+>=20
+> Site activity. Similar to Search Analytics data from Google, Bing Webmaste=
+r Tools allow you to quickly assess whether your site is showing more or les=
+s frequently in search as a whole, whether click volume has changed, if ther=
+e=E2=80=99s been a change on crawling and crawl errors, and, of course, page=
+s indexed. You can give each section a deeper look.
+> Inbound links. Just as with Google Search Console, you can see how these l=
+inks look. Are they unexpected at all? Can they be found in different link a=
+nalysis tools?
+> Link analysis tool
+>=20
+> Using  your favorite link analysis tool, look at these points to determine=
+ if you=E2=80=99ve been hit with negative SEO:
+>=20
+> Organic keywords. Do you see a general trend in rankings? This should roug=
+hly match with the search analytics data from Google, but not always. Chance=
+s are you already know by this point that something is awry, but looking at t=
+he same data through a different visualization can determine if there is a p=
+roblem.
+> New backlinks and new domains and referring IPs. If you=E2=80=99re experie=
+ncing an attack, this is where you most likely will find it, if you see a la=
+rge increase in links that you did not commission and do not want. Look at b=
+oth of these reports, because having 2,000 pages on the same domain link to y=
+ou is viewed differently from 2,000 new domains linking to you. In some case=
+s, you may also find a large number of domains linking from the same IP. It=E2=
+=80=99s a lazy negative SEO tactic, but it=E2=80=99s one of the more common o=
+nes.
+> Lost backlinks and lost domains. Another vector of negative SEO is getting=
+ a competitor=E2=80=99s links removed. Are you losing links you previously w=
+orked hard to secure? You might need to reach out to those webmasters to fin=
+d out why. Are pages linking to you suddenly inaccessible and now linking to=
+ a competitor? Or not linking to you at all?  You need to find out why.
+> Broken backlinks. Sometimes a linking issue is your own. If you recently m=
+oved a site, made an architecture change or even updated a plug-in, you migh=
+t have inadvertently caused a page to go offline, which results in lost link=
+ equity. Fixing this is as simple as bringing back the lost pages or redirec=
+ting the pages to a relevant page to capture a large percentage of the initi=
+al link equity.
+> Anchors. Not enough time is focused here, even though over-optimization pe=
+nalties and filters still exist. Did the change in links change your anchor t=
+ext distribution, putting your commercial phrases in an unhealthy range? Are=
+ the overall phrases still looking OK, but the singular terms appear to be m=
+ore targeted than previously? Are you getting a lot of incoming phrases that=
+ you would rather not be associated with?
+> Outgoing linked domains and outgoing broken links. It is healthy to look t=
+o see if you are now perceived to be linking to areas where you did not wish=
+ to be linking and to check to ensure that those you wanted to be linking to=
+ still resolve as valid URLs. Injections to a CMS, indexed comments and othe=
+r user-generated content (UGC)-type areas should be looked at.
+> Crawling and technical tools
+>=20
+> Similar to the section on link analysis, if you have a favorite crawling a=
+nd technical SEO tool, use that in your approach to determine if you=E2=80=99=
+ve been hit by negative SEO.
+>=20
+> Site speed. How does the crawl site speed compare to what is found in Goog=
+le Analytics or on individually run Google site speed tests? Are you being h=
+ampered by a large resource attempting to slow you down?
+> Indexation status by depth. This is where manipulating your CMS setup and w=
+eb architecture can really hurt if you=E2=80=99re suddenly duplicating or in=
+dexing a large percentage of pages, to the detriment of pages you do want to=
+ have indexed.
+> Redirects. Namely, are you susceptible to open redirects which are leachin=
+g off of your available link equity?
+> Crawl mapping. Conceptually this can be very useful when attempting to det=
+ermine if there are active pages you really don=E2=80=99t want and how inter=
+nal link distribution may be affecting them. Are they all orphaned pages (i.=
+e., they exist but are not internally linked to), or are they embedded into t=
+he site=E2=80=99s navigation?
+> On-page technical factors. This is the most important part, as it pertains=
+ to determining whether the situation is a negative SEO attack or an interna=
+l mistake. Crawling tools can help you quickly find which pages are set to n=
+ofollow or noindex or are conflicted due to canonicalization problems.
+> Plagiarism tool
+>=20
+> How unique is your content? There are other plagiarism checkers, but Copys=
+cape is the most popular, and it is thorough.
+>=20
+> Check your entire site. The simplest way to check is to have a plagiarism s=
+ervice crawl your site and then attempt to find significant string matches o=
+n other web pages found in the Google and Bing index. If you=E2=80=99re the t=
+arget of fake Digital Millennium Copyright Act (DMCA) requests or parasitic s=
+crapers that are attempting to both copy you and outrank you on more authori=
+tative domains, this will help you find such issues.
+> Internal duplication. While most might assume that a competitor is attempt=
+ing to scrape and replace them, the greater issue is internally duplicated c=
+ontent across a blog, across categorical and tag setups, and improper URL ha=
+ndling.
+> Wrap-up
+>=20
+> Using a number of tools to determine if you=E2=80=99ve been hit by negativ=
+e SEO is a good idea. They will help you find issues quickly and in detail. K=
+nowing if you=E2=80=99ve been hit, and how, is crucial to help you respond a=
+nd clean up the mess so you can move forward.
+>=20
+> In the next installment of our Negative SEO series, we=E2=80=99ll tackle h=
+ow to be proactive and prevent a negative SEO campaign.
+>=20
+> Opinions expressed in this article are those of the guest author and not n=
+ecessarily Search Engine Land. Staff authors are listed here.
+>=20
+>=20
+> About The Author
+>=20
+> Involved in the search industry since 1997, I've been fortunate enough to p=
+lace in most facets of online marketing, managing many thousands of domains a=
+nd clients. Currently, I am Principal of boutique search agency Digital Here=
+tix and CEO of influencer marketing platform Intellifluence.
+
+--Apple-Mail-24A9151E-C14B-4CED-82D1-A408B67B05CD
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div></div><div><br><br><br>Begin forwarded=
+ message:<br><br></div><blockquote type=3D"cite"><div><b>From:</b> Danny Pou=
+ladian &lt;<a href=3D"mailto:DannyP@BlueLineMedia.com">DannyP@BlueLineMedia.=
+com</a>&gt;<br><b>Date:</b> July 18, 2018 at 9:14:12 PM PDT<br><b>To:</b> Da=
+nny Pouladian &lt;<a href=3D"mailto:DannyP@BlueLineMedia.com">DannyP@BlueLin=
+eMedia.com</a>&gt;<br><b>Subject:</b> <b>How to determine if you've been hit=
+ by negative SEO - Search Engine Land</b><br><br></div></blockquote><blockqu=
+ote type=3D"cite"><div><meta http-equiv=3D"content-type" content=3D"text/htm=
+l; charset=3Dutf-8"><div><base href=3D"https://searchengineland.com/how-to-d=
+etermine-if-youve-been-hit-by-negative-seo-299891"><style id=3D"print">
+        @media print {
+            body {
+                margin: 2mm 9mm;
+            }
+
+            .original-url {
+                display: none;
+            }
+
+            #article .float.left {
+                float: left !important;
+            }
+
+            #article .float.right {
+                float: right !important;
+            }
+
+            #article .float {
+                margin-top: 0 !important;
+                margin-bottom: 0 !important;
+            }
+        }
+    </style><title>How to determine if you've been hit by negative SEO - Sea=
+rch Engine Land</title><div class=3D"original-url"><br><a href=3D"https://se=
+archengineland.com/how-to-determine-if-youve-been-hit-by-negative-seo-299891=
+">https://searchengineland.com/how-to-determine-if-youve-been-hit-by-negativ=
+e-seo-299891</a><br><br></div><div id=3D"article" role=3D"article" style=3D"=
+text-rendering: optimizeLegibility; font-family: -apple-system-font; font-si=
+ze: 1.2em; line-height: 1.5em; margin: 0px; padding: 0px;" class=3D"system e=
+xported">
+        <!-- This node will contain a number of div.page. -->
+    <div class=3D"page" style=3D"text-align: start; word-wrap: break-word; m=
+ax-width: 100%;"><h1 class=3D"title" style=3D"font-weight: bold; font-size: 1=
+.95552em; line-height: 1.2141em; margin-top: 0px; margin-bottom: 0.5em; text=
+-align: start; -webkit-hyphens: manual; display: block; max-width: 100%;">Ho=
+w to determine if you=E2=80=99ve been hit by negative SEO</h1><h2 class=3D"s=
+ubhead" style=3D"font-weight: normal; text-align: start; -webkit-hyphens: ma=
+nual; display: block; color: rgba(27, 27, 27, 0.65098); font-size: 1.46664em=
+; margin-top: -0.35em; line-height: 1.27275em; max-width: 100%;">Knowing you=
+'ve been hit by a negative SEO campaign is crucial to fighting it. Contribut=
+or Joe Sinkwitz outlines the tools and steps you can take to figure out if y=
+ou've been targeted.</h2><div class=3D"metadata" style=3D"text-align: start;=
+ -webkit-hyphens: manual; display: block; margin-bottom: 1.45em; margin-top:=
+ -0.7em; max-width: 100%;"><a href=3D"https://searchengineland.com/author/jo=
+e-sinkwitz" title=3D"Posts by Joe Sinkwitz" rel=3D"author" class=3D"byline" s=
+tyle=3D"margin: 0px; color: rgb(65, 110, 210); max-width: 100%; text-decorat=
+ion: underline; font-size: 1em !important; font-weight: normal !important; f=
+ont-style: normal !important; display: inline !important;">Joe Sinkwitz</a><=
+span class=3D"delimiter" style=3D"margin: 0.07em 0.45em 0px; max-width: 100%=
+; padding: 0px; content: &quot;&quot;; font-size: 1em !important; font-weigh=
+t: normal !important; font-style: normal !important; display: block !importa=
+nt;"></span><div class=3D"clear date" style=3D"margin: 0px; max-width: 100%;=
+ clear: both; font-size: 1em !important; font-weight: normal !important; fon=
+t-style: normal !important; display: inline !important;"><a href=3D"https://=
+searchengineland.com/author/joe-sinkwitz" title=3D"Posts by Joe Sinkwitz" re=
+l=3D"author" style=3D"margin: 0px; color: rgb(65, 110, 210); max-width: 100%=
+; text-decoration: underline; font-size: 1em !important; font-weight: normal=
+ !important; font-style: normal !important; display: inline !important;">Joe=
+ Sinkwitz</a> on June 14, 2018 at 11:23 am</div></div>
+			=09
+						=09
+						=09
+							<img src=3D"https:/=
+/searchengineland.com/figz/wp-content/seloads/2018/05/negative-seo-part-two-=
+800x450.jpg" alt=3D"" width=3D"800" height=3D"450" srcset=3D"https://searche=
+ngineland.com/figz/wp-content/seloads/2018/05/negative-seo-part-two-800x450.=
+jpg 800w, https://searchengineland.com/figz/wp-content/seloads/2018/05/negat=
+ive-seo-part-two-600x338.jpg 600w, https://searchengineland.com/figz/wp-cont=
+ent/seloads/2018/05/negative-seo-part-two-768x432.jpg 768w" sizes=3D"(max-wi=
+dth: 800px) 100vw, 800px" class=3D"" style=3D"max-width: 100%; margin: 0.5em=
+ auto; display: block; height: auto;">
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">Have you ever exp=
+erienced a rankings decline and suspected it was due to something a competit=
+or was doing?</p>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">For this second a=
+rticle, we are going to focus on the process of diagnosing whether or not yo=
+u=E2=80=99ve been hit by negative search engine optimization (SEO) technique=
+s.</p>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">If you need a ref=
+resher or missed the first article, here it is: <a href=3D"https://searcheng=
+ineland.com/what-negative-seo-is-and-is-not-298245" style=3D"color: rgb(65, 1=
+10, 210); max-width: 100%; text-decoration: underline;">What Negative SEO is=
+ and is Not</a>.</p>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">As you progress t=
+hrough the following steps to try and diagnose what happened, you=E2=80=99ll=
+ need to honestly ask yourself whether the decline you=E2=80=99re facing is m=
+ore a result of your own actions or due to someone acting against you.</p>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">It=E2=80=99s an i=
+mportant distinction; your first inclination can be to assume someone is out=
+ to hurt you, while it might actually be something as simple as accidentally=
+ no-indexing your index, disallowing critical paths in robots.txt or having a=
+ broken WordPress plug-in that suddenly duplicates all your pages with stran=
+ge query parameters and improper canonicalization.</p>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">In the first arti=
+cle, I segmented the majority of search signals into three buckets: links, c=
+ontent and user signals. In order to properly analyze these buckets, we=E2=80=
+=99re going to need to be able to rely on a variety of tools.</p>
+<h2 style=3D"font-weight: bold; font-size: 1.43em; max-width: 100%;">What wi=
+ll you need?</h2>
+<ul style=3D"max-width: 100%;">
+<li style=3D"max-width: 100%;">A browser with access to Google and Bing to f=
+ind content.</li>
+<li style=3D"max-width: 100%;">Access to your raw weblogs to review content a=
+nd user signals.</li>
+<li style=3D"max-width: 100%;">Google Analytics to review content and user s=
+ignals.</li>
+<li style=3D"max-width: 100%;">Google Search Console to review content, link=
+s and user signals.</li>
+<li style=3D"max-width: 100%;">Bing Webmaster Tools to review content, links=
+ and user signals.</li>
+<li style=3D"max-width: 100%;">A link analysis tool to look at internal and i=
+nbound link data.</li>
+<li style=3D"max-width: 100%;">A crawling and technical tool to review conte=
+nt and user signals.</li>
+<li style=3D"max-width: 100%;">A plagiarism tool to review content.</li>
+</ul>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">Let=E2=80=99s ste=
+p through the different tools and scenarios to determine if you were hit by n=
+egative SEO or if it=E2=80=99s just a mistake.</p>
+<h2 style=3D"font-weight: bold; font-size: 1.43em; max-width: 100%;">How are=
+ Google and Bing treating my site?</h2>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">One of the simple=
+st and easiest first steps to take is to check how Google and Bing are treat=
+ing your site.</p>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">I like to use bot=
+h engines in every audit because they react differently, which helps me quic=
+kly diagnose a problem. What are we looking for?</p>
+<ul style=3D"max-width: 100%;">
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Site</stro=
+ng>:<strong style=3D"max-width: 100%;">domain.tld. </strong>Replace =E2=80=9C=
+domain.tld=E2=80=9D with your&nbsp;actual domain. Both engines will return a=
+ list of pages from your domain, in a rough order of importance.</li>
+</ul>
+<img src=3D"https://searchengineland.com/figz/wp-content/seloads/2018/06/joe=
+1-559x600.png" alt=3D"" width=3D"559" height=3D"600" srcset=3D"https://searc=
+hengineland.com/figz/wp-content/seloads/2018/06/joe1-559x600.png 559w, https=
+://searchengineland.com/figz/wp-content/seloads/2018/06/joe1-373x400.png 373=
+w, https://searchengineland.com/figz/wp-content/seloads/2018/06/joe1-768x824=
+..png 768w, https://searchengineland.com/figz/wp-content/seloads/2018/06/joe1=
+.png 784w" sizes=3D"(max-width: 559px) 100vw, 559px" class=3D"" style=3D"max=
+-width: 100%; margin: 0.5em auto; display: block; height: auto;">
+<ul style=3D"max-width: 100%;">
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Are pages m=
+issing that you would expect to see due to their value?</strong> Look at the=
+ source code and robots.txt handling of those pages to determine whether the=
+y are accidentally being blocked by a misconfiguration.</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Are pages b=
+eing demoted?</strong> If the index page is suddenly not in the top spot, so=
+mething is probably wrong. Running this simple check recently, we noticed ou=
+r preferred URL handling was causing our index page=E2=80=99s canonical to u=
+pdate to a page that 301 redirects back in a loop. Google had demoted this p=
+age on the site: query, but Bing didn=E2=80=99t. The problem was solved just=
+ by running that simple check and looking into the problematic page.</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Are there p=
+ages you don=E2=80=99t recognize?</strong> Do those pages look like somethin=
+g as simple as a misconfigured setting in your content management system (CM=
+S) that allows strange indexation, or are these pages off-theme and spammy? T=
+he former is likely a mistake; the latter is probably an attack.</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Perform so=
+me branded queries.</strong>&nbsp;Search for domain.ltd, domain and other po=
+pular or normal phrases associated with your brand. Are you suddenly not ran=
+king for them as you previously were? If not, were you overtaken by any susp=
+icious results?</li>
+</ul>
+<h2 style=3D"font-weight: bold; font-size: 1.43em; max-width: 100%;">Raw web=
+logs</h2>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">Having access to y=
+our raw weblogs is vital, but unfortunately, it is going to be made signific=
+antly more difficult with broader adoption of General Data Protection Regula=
+tion (GDPR).</p>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">It is vital that y=
+ou can access internet protocols (IPs) recorded in each of the pages visited=
+ on your site, including those you may not have the Google Analytics trackin=
+g code on. By parsing your logs, you can:</p>
+<ul style=3D"max-width: 100%;">
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Find IPs. <=
+/strong>This determines if the same group of IPs has been probing your site f=
+or a configuration weakness.</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Identify s=
+crapers</strong>. Know if scrapers have been attempting to pull down content=
+ en masse.</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Identify r=
+esponse issues.</strong> If you=E2=80=99re having a number of server respons=
+e issues where you wouldn=E2=80=99t expect to see them, you will now.</li>
+</ul>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">Many issues can b=
+e solved if you have access and the inclination to parse your logs for patte=
+rns. It=E2=80=99s time-consuming but worth doing.</p>
+<h2 style=3D"font-weight: bold; font-size: 1.43em; max-width: 100%;">Google A=
+nalytics</h2>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">This could be its=
+ own series, as there are a multitude of areas to focus on within any sophis=
+ticated analytics package. However, let=E2=80=99s focus on some of the more o=
+bvious pieces:</p>
+<ul style=3D"max-width: 100%;">
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Bounce rat=
+e.</strong> Has it been trending up or down? How does this correspond with w=
+hat you=E2=80=99re seeing in your raw logs. Is Google filtering out some of t=
+he bouncing traffic? Is the bounce rate showing any outliers when segmenting=
+ by channel (source), by browser or by geographic location?</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Session du=
+ration.</strong> Similar to bounce rate, for user signal purposes, are the s=
+essions becoming abbreviated? Especially if also accompanied by an increase i=
+n overall sessions?</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">All traffi=
+c channels and all traffic referrals.</strong> Are any sources now sending s=
+ignificantly more or less traffic when compared to periods in which your ran=
+kings were better? Are there unusual sources of traffic coming in that seem f=
+ake? Both are issues to research when you suspect negative SEO.</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Search con=
+sole and landing pages.</strong> Similar to the Search Analytics check on Go=
+ogle Search Console itself, are there aberrations in which pages are now get=
+ting traffic, or are you seeing a large change in bounce and session duratio=
+n on the pages you care about?</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Site speed=
+.</strong> All things being equal, a faster site is a better site. Has the l=
+oad time been increasing? Is it specifically increasing on Chrome? For speci=
+fic pages? Are those pages that appeared benign ones that you didn=E2=80=99t=
+ previously recognize?</li>
+</ul>
+<h2 style=3D"font-weight: bold; font-size: 1.43em; max-width: 100%;"><img sr=
+c=3D"https://searchengineland.com/figz/wp-content/seloads/2016/03/site-page-=
+speed-ss-1920-600x338.jpg" alt=3D"" width=3D"600" height=3D"338" srcset=3D"h=
+ttps://searchengineland.com/figz/wp-content/seloads/2016/03/site-page-speed-=
+ss-1920-600x338.jpg 600w, https://searchengineland.com/figz/wp-content/seloa=
+ds/2016/03/site-page-speed-ss-1920-768x432.jpg 768w, https://searchenginelan=
+d.com/figz/wp-content/seloads/2016/03/site-page-speed-ss-1920-800x450.jpg 80=
+0w" sizes=3D"(max-width: 600px) 100vw, 600px" class=3D"" style=3D"max-width:=
+ 100%; margin: 0.5em auto; display: block; height: auto;">Google Search Cons=
+ole</h2>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">What should you b=
+e looking for in Google Search Console (GSC) to help you determine if you=E2=
+=80=99ve been a victim of negative SEO?</p>
+<ul style=3D"max-width: 100%;">
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Messages.<=
+/strong> If there is a massive change that Google wants to inform you about,=
+ such as a manual action due to incoming or external links, crawl problems o=
+r accessibility issues, messages in your GSC are the first place to look. If=
+ Google thinks you=E2=80=99ve been hacked, it will let you know.</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Search ana=
+lytics.</strong> Looking at your queries over time, you can sometimes spot a=
+n issue. For instance, if query volumes associated with your branded and imp=
+ortant phrases spike, did you see an uptick in clicks to your pages? If not,=
+ this could be an attempt to impact one user signal. Are your less important=
+ pages being sourced on the queries you care about? This could instead point=
+ to an issue with your content and content architecture.</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Links to y=
+our site.</strong> The obvious thing to look for is a large influx of low-qu=
+ality, spammy links. But are they bad links?&nbsp; If I cherry-pick some of t=
+he worst links and see that they are blocking AhrefsBot, this tells me they a=
+re probably spammy links which need to go.</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Internal l=
+inks.</strong> What pages are you linking to heavily that you didn=E2=80=99t=
+ realize you were linking to? It could be a navigational issue, or it could b=
+e a situation where you=E2=80=99re linking to a spammy doorway page injected=
+ into your CMS.</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Manual</st=
+rong> <strong style=3D"max-width: 100%;">actions.</strong> It should also ex=
+ist in messages, but if you have a manual action, you need to address it imm=
+ediately. It doesn=E2=80=99t matter what the reasons are; even if there was a=
+ legitimate attack on your site, you must fix it right away.</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Crawl erro=
+rs.</strong> Rule out a ranking drop due to malicious intent by checking on t=
+he stability of your setup. If your server is throwing too many 500 response=
+s, Google will&nbsp;crawl it less. If this occurs, chances are users are goi=
+ng to encounter more issues with your web pages, and it will slip in the ran=
+kings as RankBrain folds in the user data. If you pair this with raw weblog d=
+ata, you might see if the server instability is due to an attack.</li>
+</ul>
+<h2 style=3D"font-weight: bold; font-size: 1.43em; max-width: 100%;">Bing We=
+bmaster Tools</h2>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">How can you deter=
+mine what=E2=80=99s going on with your Bing rankings? Head to their webmaste=
+r tools and check for the following:</p>
+<ul style=3D"max-width: 100%;">
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Site activ=
+ity. </strong>Similar to Search Analytics data from Google, Bing Webmaster T=
+ools allow you to quickly assess whether your site is showing more or less f=
+requently in search as a whole, whether click volume has changed, if there=E2=
+=80=99s been a change on crawling and crawl errors, and, of course, pages in=
+dexed. You can give each section a deeper look.</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Inbound li=
+nks.</strong> Just as with Google Search Console, you can see how these link=
+s look. Are they unexpected at all? Can they be found in different link anal=
+ysis tools?</li>
+</ul>
+<h2 style=3D"font-weight: bold; font-size: 1.43em; max-width: 100%;">Link an=
+alysis tool</h2>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">Using&nbsp; your f=
+avorite link analysis tool, look at these points to determine if you=E2=80=99=
+ve been hit with negative SEO:</p>
+<ul style=3D"max-width: 100%;">
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Organic ke=
+ywords.</strong> Do you see a general trend in rankings? This should roughly=
+ match with the search analytics data from Google, but not always. Chances a=
+re you already know by this point that something is awry, but looking at the=
+ same data through a different visualization can determine if there is a pro=
+blem.</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">New backli=
+nks and new domains and referring IPs.</strong> If you=E2=80=99re experienci=
+ng an attack, this is where you most likely will find it, if you see a large=
+ increase in links that you did not commission and do not want. Look at both=
+ of these reports, because having 2,000 pages on the same domain link to you=
+ is viewed differently from 2,000 new domains linking to you. In some cases,=
+ you may also find a large number of domains linking from the same IP. It=E2=
+=80=99s a lazy negative SEO tactic, but it=E2=80=99s one of the more common o=
+nes.</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Lost backl=
+inks and lost domains.</strong> Another vector of negative SEO is getting a c=
+ompetitor=E2=80=99s links removed. Are you losing links you previously worke=
+d hard to secure? You might need to reach out to those webmasters to find ou=
+t why. Are pages linking to you suddenly inaccessible and now linking to a c=
+ompetitor? Or not linking to you at all?&nbsp; You need to find out why.</li=
+>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Broken bac=
+klinks.</strong> Sometimes a linking issue is your own. If you recently move=
+d a site, made an architecture change or even updated a plug-in, you might h=
+ave inadvertently caused a page to go offline, which results in lost link eq=
+uity. Fixing this is as simple as bringing back the lost pages or redirectin=
+g the pages to a relevant page to capture a large percentage of the initial l=
+ink equity.</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Anchors.</=
+strong> Not enough time is focused here, even though over-optimization penal=
+ties and filters still exist. Did the change in links change your anchor tex=
+t distribution, putting your commercial phrases in an unhealthy range? Are t=
+he overall phrases still looking OK, but the singular terms appear to be mor=
+e targeted than previously? Are you getting a lot of incoming phrases that y=
+ou would rather not be associated with?</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Outgoing l=
+inked domains and outgoing broken links.</strong> It is healthy to look to s=
+ee if you are now perceived to be linking to areas where you did not wish to=
+ be linking and to check to ensure that those you wanted to be linking to st=
+ill resolve as valid URLs. Injections to a CMS, indexed comments and other u=
+ser-generated content (UGC)-type areas should be looked at.</li>
+</ul>
+<h2 style=3D"font-weight: bold; font-size: 1.43em; max-width: 100%;">Crawlin=
+g and technical tools</h2>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">Similar to the se=
+ction on link analysis, if you have a favorite crawling and technical SEO to=
+ol, use that in your approach to determine if you=E2=80=99ve been hit by neg=
+ative SEO.</p>
+<ul style=3D"max-width: 100%;">
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Site speed=
+.</strong> How does the crawl site speed compare to what is found in Google A=
+nalytics or on individually run Google site speed tests? Are you being hampe=
+red by a large resource attempting to slow you down?</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Indexation=
+ status by depth.</strong> This is where manipulating your CMS setup and web=
+ architecture can really hurt if you=E2=80=99re suddenly duplicating or inde=
+xing a large percentage of pages, to the detriment of pages you do want to h=
+ave indexed.</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Redirects<=
+/strong>. Namely, are you susceptible to open redirects which are leaching o=
+ff of your available link equity?</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Crawl mapp=
+ing.</strong> Conceptually this can be very useful when attempting to determ=
+ine if there are active pages you really don=E2=80=99t want and how internal=
+ link distribution may be affecting them. Are they all orphaned pages (i.e.,=
+ they exist but are not internally linked to), or are they embedded into the=
+ site=E2=80=99s navigation?</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">On-page te=
+chnical factors.</strong> This is the most important part, as it pertains to=
+ determining whether the situation is a negative SEO attack or an internal m=
+istake. Crawling tools can help you quickly find which pages are set to nofo=
+llow or&nbsp;noindex or are conflicted due to canonicalization problems.</li=
+>
+</ul>
+<h2 style=3D"font-weight: bold; font-size: 1.43em; max-width: 100%;">Plagiar=
+ism tool</h2>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">How unique is you=
+r content? There are other plagiarism checkers, but Copyscape is the most po=
+pular, and it is thorough.</p>
+<ul style=3D"max-width: 100%;">
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Check your=
+ entire site.</strong>&nbsp;The simplest way to check is to have a plagiaris=
+m service crawl your site and then attempt to find significant string matche=
+s on other web pages found in the Google and Bing index. If you=E2=80=99re t=
+he target of fake Digital Millennium Copyright Act (DMCA) requests or parasi=
+tic scrapers that are attempting to both copy you and outrank you on more au=
+thoritative domains, this will help you find such issues.</li>
+<li style=3D"max-width: 100%;"><strong style=3D"max-width: 100%;">Internal d=
+uplication.</strong> While most might assume that a competitor is attempting=
+ to scrape and replace them, the greater issue is internally duplicated cont=
+ent across a blog, across categorical and tag setups, and improper URL handl=
+ing.</li>
+</ul>
+<h2 style=3D"font-weight: bold; font-size: 1.43em; max-width: 100%;">Wrap-up=
+</h2>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">Using a number of=
+ tools to determine if you=E2=80=99ve been hit by negative SEO is a good ide=
+a. They will help you find issues quickly and in detail. Knowing if you=E2=80=
+=99ve been hit, and how, is crucial to help you respond and clean up the mes=
+s so you can move forward.</p>
+<p class=3D"clear" style=3D"max-width: 100%; clear: both;">In the next insta=
+llment of our Negative SEO series, we=E2=80=99ll tackle how&nbsp;to be proac=
+tive and prevent a negative SEO campaign.</p>
+						=09
+							<hr style=3D"max-wi=
+dth: 100%; background-color: rgba(0, 0, 0, 0.2); height: 1px; border: 0px;">=
+
+									=
+					<p class=3D"clear" style=3D"max-width: 100%=
+; clear: both;"><em style=3D"max-width: 100%;">Opinions expressed in this ar=
+ticle are those of the guest author and not necessarily Search Engine Land. S=
+taff authors are listed <a href=3D"/staff" style=3D"color: rgb(65, 110, 210)=
+; max-width: 100%; text-decoration: underline;">here</a>.</em></p>
+							<hr style=3D"max-wi=
+dth: 100%; background-color: rgba(0, 0, 0, 0.2); height: 1px; border: 0px;">=
+
+									=
+				=09
+						=09
+<br style=3D"max-width: 100%;">						=
+=09
+							<div style=3D"max-w=
+idth: 100%;">
+	<h3 class=3D"clear" style=3D"font-weight: bold; font-size: 1.25em; m=
+ax-width: 100%; clear: both;">About The Author</h3>
+	<div style=3D"max-width: 100%;">
+		<div style=3D"max-width: 100%;">
+		=09
+			<div class=3D"clear" style=3D"max-width: 100%; clea=
+r: both;">
+			=09
+			=09
+				Involved in the search industry since 1997,=
+ I've been fortunate enough to place in most facets of online marketing, man=
+aging many thousands of domains and clients. Currently, I am Principal of bo=
+utique search agency Digital Heretix and CEO of influencer marketing platfor=
+m <a href=3D"http://www.intellifluence.com" style=3D"color: rgb(65, 110, 210=
+); max-width: 100%; text-decoration: underline;">Intellifluence.</a>	=
+		</div>
+		</div>
+	</div>
+</div>						=09
+						=09
+			=09
+					=09
+						</div></div></div><div></di=
+v></div></blockquote></body></html>=
+
+--Apple-Mail-24A9151E-C14B-4CED-82D1-A408B67B05CD--

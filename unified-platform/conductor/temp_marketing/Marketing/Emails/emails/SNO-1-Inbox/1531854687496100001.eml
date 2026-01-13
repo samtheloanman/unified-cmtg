@@ -1,0 +1,204 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.mail.yahoo.com designates 66.163.187.146 as permitted sender) client-ip=66.163.187.146; envelope-from=shawnrabban@yahoo.com; helo=sonic316-20.consmr.mail.ne1.yahoo.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.mail.yahoo.com designates 66.163.187.146 as permitted sender)  smtp.mailfrom=shawnrabban@yahoo.com;
+	dmarc=pass(p=reject dis=none)  header.from=yahoo.com
+Return-Path: <shawnrabban@yahoo.com>
+Received: from sonic316-20.consmr.mail.ne1.yahoo.com (sonic316-20.consmr.mail.ne1.yahoo.com [66.163.187.146]) by mx.zohomail.com
+	with SMTPS id 1531854686157627.3072180089786; Tue, 17 Jul 2018 12:11:26 -0700 (PDT)
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic316.consmr.mail.ne1.yahoo.com with HTTP; Tue, 17 Jul 2018 19:10:55 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1531854655; bh=7I3HvaN0khREiYrZd2LnRpCX5i3mWrGZ8JSDpeSnbI8=; h=Date:From:Reply-To:To:In-Reply-To:References:Subject:From:Subject; b=snuzogZqfNxkhpB3JlET3PjpqX3FfhndK6AqEXmEjFkM+00cZyxlWM6BoGr5z8jMDdv9jt6vA+CfTbMXApmv5aUJwUeTKRo1HaHm7HA0/3M+ADqC4jGQ9NhkBRdhH8wOWmq/y+VlTvaWwaY4dkjDQ2T9PoDEYhiDmnbP/qqkoHS4Okdryglh3YeaKSNwjmiifPSH9xAt2d9H+1m9LqviHjxj9S8ocb3GglONOlt0pPG5v5uzt13NH5FZWcWN0MDVPUfxUvTfO1bSNEfz+LatUk1mf87Ok3CwoDB5Xs3H3Ehf8Tg7NaxxdP5yPgfYZ5FJvGS2ImfMILIb4OVLUI60fA==
+X-YMail-OSG: 1kR8_ewVM1n1RYyRBSgpNOQwbSbHBG9AzLKHEbwyUZoIUp7ry95WCWcBraWJwNI
+ gTHBdlj9Ukd4MZjuqLx8_3SqcmuQ5J7t2MObOkd0ounfG1WFvWwa_ssJvUVgzTiGGYM2gBuuXzLw
+ MaeZR0FkqrGNVhtg8uRRGTwRSrbj_Z0KJI0O5HN7YrrSR4DnUf3cGic9W02Hhfa1ZybdKl8RWvSK
+ rEjlrkGAT2s6vJZhxa8Wh54fFA_kuDsB_AQikq.3zYoN_0g0vZhOEP2Jwg4zO_NmuFfmglkTzcxa
+ KNnWNSEWyJhVCe1Yp.i2fiy_X2uzg7w2mFu4_PzbFQ4W7MA9m2NZrvuuETPm1PlgXJOOnVq1yUi8
+ ZO9PskrSvDGXIQE3gFdXsOJ9gY42k.yEYROOTiQAA_zZ2Ht5TBwBnrJ3G0nC52RjT1Orn5zLlZiw
+ DrKxfRlYjGVOFibG3mnrjsjdReFBP07OYSo_jPqHE7V6.OJcSHSQf0ctERfhicFrLUz_td2Lc4wi
+ sXOGiyxo9CH1crxtCTDgnS..5AyZEeP3TS87PgdCs_4ZmZCO4HvzfdnjngDYB305XtMx5HgEHfn8
+ ulT8D.kkJvMcDO3o_Ud76W7Z.So6N3l4ObYP3GMBSIqHDRFqn5j9dW5EYNXTskXsf.AZIMb2bn.2
+ T9357stohwYgB33PpitlijyzjiP1_2eQwVk5GkbdA0fsj6DpdHEg9VgjeaaO1GsCwDAbIbQ4KDTI
+ Um6pWa9PvcFPw_FpNJM1XTca9ZqtR6r5r3MIAdwrxZvVSJV1rrMna2PLPuMcwS7NNpKIndBvu2NB
+ iGXbikJ4ETIGGqauatL134FRkQjlSqpG4xZ9JLNG2UuzUv2yfmEqD3u6WXHNdzXpeuh91DWEuX93
+ nzYrrLszD2AaArMUiQtGJ4Cd0epFZOBggPkhRJeJ4VKNNCDtadynMt7B3eaJaHy0zBcO1o74TIT8
+ pbd_kX9AVg9CaVbCuF9JgHGZBeV9As4qem_xpbA--
+Date: Tue, 17 Jul 2018 19:10:54 +0000 (UTC)
+From: Shawn Rabban <shawnrabban@yahoo.com>
+Reply-To: Shawn Rabban <shawnrabban@yahoo.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+Message-ID:<1056725410.5894057.1531854654135@mail.yahoo.com>
+In-Reply-To: <164a976a18e.10003a15e231288.1524609227385838200@c-mtg.com>
+References: <164a976a18e.10003a15e231288.1524609227385838200@c-mtg.com>
+Subject: Re: Fariborz Rashdian
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_5894056_99781356.1531854654131"
+X-Mailer: WebService/1.1.12062 YahooMailNeo Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+Content-Length: 9627
+X-ZohoMail-DKIM: pass (identity @yahoo.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_167 FRD_NDS SPK
+X-ZM-MESSAGEID: 1531854687496100001
+X-ZohoMail-Status: 1
+
+
+------=_Part_5894056_99781356.1531854654131
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+provide exchange documentsclosing statement for sold propertycopy of driver=
+ licensevestingescrow instructionmls sheet9a reporttermiteinspection report=
+shawn
+=C2=A0City Capital Realty offers many different loan programs:   =20
+   - Stated Income Apartment and Commercial Loan  =20
+
+   - Gas Station and Car Wash Loan | Hotel/Motel  =20
+
+   - Land entitlement loan | Construction Loan | Land Loan  =20
+
+   - Hard Money |=C2=A0SBA |Commercial | Construction | Apartment Loan
+(310) 714-5616
+www.laconstructionloan.comwww.citycapitalrealty.com
+
+      From: Sam Tehranchi <sam@c-mtg.com>
+ To: shawnrabban@yahoo.com=20
+ Sent: Tuesday, July 17, 2018 11:18 AM
+ Subject: Fariborz Rashdian
+  =20
+Hi Shawn Jan. : )
+
+Attached is what I have on the borrower. =C2=A0I have not had a change to f=
+inalize the 1003 and put all the relevant information into the file. =C2=A0=
+Can you please review and I can get you what ever you need when I get back =
+home tomorrow. I am currently out of town but this guy needs to move fast a=
+nd he took his time trying to get a better deal and now he needs to close b=
+y 7/23.
+
+Please call me when you get this so we can do a conference call with him to=
+day. =C2=A0Thank you!
+Thank you
+
+Respectfully,
+
+Sam Tehranchi
+Custom Mortgage and Realty
+COO
+NMLS CA # 1556995 - BRE CA # 02018146
+
+D:=C2=A0310.709.6304 - F:=C2=A0866.421.7694
+sam@c-mtg.com=C2=A0-=C2=A0www.c-mtg.com
+
+LinkedIn=C2=A0-=C2=A0Facebook=C2=A0-=C2=A0twitter=C2=A0-=C2=A0Instagram
+
+
+
+
+
+  =20
+------=_Part_5894056_99781356.1531854654131
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><div style=3D"color:#000; background-color:#fff; f=
+ont-family:Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font=
+-size:16px"><div id=3D"yui_3_16_0_ym19_1_1531851462206_49685"><span id=3D"y=
+ui_3_16_0_ym19_1_1531851462206_49687">provide exchange documents</span></di=
+v><div dir=3D"ltr" id=3D"yui_3_16_0_ym19_1_1531851462206_49690"><span id=3D=
+"yui_3_16_0_ym19_1_1531851462206_49689">closing statement for sold property=
+</span></div><div dir=3D"ltr" id=3D"yui_3_16_0_ym19_1_1531851462206_49692">=
+<span id=3D"yui_3_16_0_ym19_1_1531851462206_49732">copy of driver license</=
+span></div><div dir=3D"ltr" id=3D"yui_3_16_0_ym19_1_1531851462206_49694"><s=
+pan>vesting</span></div><div dir=3D"ltr" id=3D"yui_3_16_0_ym19_1_1531851462=
+206_49696"><span>escrow instruction</span></div><div dir=3D"ltr"><span>mls =
+sheet</span></div><div dir=3D"ltr"><span>9a report</span></div><div dir=3D"=
+ltr"><span>termite</span></div><div dir=3D"ltr" id=3D"yui_3_16_0_ym19_1_153=
+1851462206_49735"><span>inspection report</span></div><div dir=3D"ltr"><spa=
+n>shawn<br></span></div><div dir=3D"ltr" id=3D"yui_3_16_0_ym19_1_1531851462=
+206_49737"><span></span></div><div>&nbsp;</div><div class=3D"signature" id=
+=3D"yui_3_16_0_ym19_1_1531851462206_49739"><div id=3D"yui_3_16_0_ym19_1_153=
+1851462206_49738"><img class=3D"" id=3D"yiv0624812101yui_3_16_0_ym19_1_1471=
+040208404_16195" alt=3D"http://www.citycapitalrealty.com/Rabban_Email_Sign.=
+jpg" src=3D"http://www.citycapitalrealty.com/Rabban_Email_Sign.jpg" data-id=
+=3D"ee2c2906-bddc-8355-b579-5d83bbe829f2"></div><div id=3D"yui_3_16_0_ym19_=
+1_1531851462206_49745"><div style=3D"margin:0in 0in 0pt;"><span style=3D"co=
+lor:rgb(255, 110, 1);"><span style=3D"font-family:'Helvetica Neue', Helveti=
+ca, Arial, 'Lucida Grande', sans-serif;font-weight:bold;font-size:medium;">=
+City Capital Realty offers many different loan programs: </span></span></di=
+v><ul id=3D"yui_3_16_0_ym19_1_1531851462206_49744"><li id=3D"yui_3_16_0_ym1=
+9_1_1531851462206_49743"><span style=3D"font-family:'Helvetica Neue', Helve=
+tica, Arial, 'Lucida Grande', sans-serif;font-size:small;" id=3D"yui_3_16_0=
+_ym19_1_1531851462206_49742">Stated Income Apartment and Commercial Loan<br=
+></span></li><li><span style=3D"font-family:'Helvetica Neue', Helvetica, Ar=
+ial, 'Lucida Grande', sans-serif;font-size:small;">Gas Station and Car Wash=
+ Loan | Hotel/Motel<br></span></li><li><span style=3D"font-family:'Helvetic=
+a Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;font-size:small;"></=
+span><span style=3D"font-family:'Helvetica Neue', Helvetica, Arial, 'Lucida=
+ Grande', sans-serif;font-size:small;">Land entitlement loan | Construction=
+ Loan | Land Loan</span><br></li><li id=3D"yui_3_16_0_ym19_1_1531851462206_=
+49746"><span style=3D"font-family:'Helvetica Neue', Helvetica, Arial, 'Luci=
+da Grande', sans-serif;font-size:small;">Hard Money |&nbsp;</span><span sty=
+le=3D"font-family:'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans=
+-serif;font-size:small;">SBA |Commercial | Construction | Apartment Loan</s=
+pan></li></ul><div id=3D"yui_3_16_0_ym19_1_1531851462206_49748">(310) 714-5=
+616<br></div><div id=3D"yui_3_16_0_ym19_1_1531851462206_49752"><span style=
+=3D"color:rgb(76, 118, 162);font-family:verdana, helvetica, sans-serif;font=
+-weight:bold;font-size:small;" id=3D"yui_3_16_0_ym19_1_1531851462206_49751"=
+><a rel=3D"nofollow" target=3D"_blank" href=3D"http://www.laconstructionloa=
+n.com/" id=3D"yui_3_16_0_ym19_1_1531851462206_49750">www.laconstructionloan=
+.com</a></span></div></div><div id=3D"yui_3_16_0_ym19_1_1531851462206_49756=
+"><span style=3D"font-family:verdana, helvetica, sans-serif;font-weight:bol=
+d;font-size:small;" id=3D"yui_3_16_0_ym19_1_1531851462206_49755"><a rel=3D"=
+nofollow" target=3D"_blank" href=3D"http://citycapitalrealty.com/" id=3D"yu=
+i_3_16_0_ym19_1_1531851462206_49754">www.citycapitalrealty.com</a></span></=
+div></div><div class=3D"qtdSeparateBR" id=3D"yui_3_16_0_ym19_1_153185146220=
+6_49758"><br><br></div><div class=3D"yahoo_quoted" style=3D"display: block;=
+">  <div style=3D"font-family: Helvetica Neue, Helvetica, Arial, Lucida Gra=
+nde, sans-serif; font-size: 16px;"> <div style=3D"font-family: HelveticaNeu=
+e, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif; font-size: =
+16px;"> <div dir=3D"ltr"> <font size=3D"2" face=3D"Arial"> <hr size=3D"1"> =
+<b><span style=3D"font-weight:bold;">From:</span></b> Sam Tehranchi &lt;sam=
+@c-mtg.com&gt;<br> <b><span style=3D"font-weight: bold;">To:</span></b> sha=
+wnrabban@yahoo.com <br> <b><span style=3D"font-weight: bold;">Sent:</span><=
+/b> Tuesday, July 17, 2018 11:18 AM<br> <b><span style=3D"font-weight: bold=
+;">Subject:</span></b> Fariborz Rashdian<br> </font> </div> <div class=3D"y=
+_msg_container"><br><div id=3D"yiv2160613015"><div><div style=3D"font-size:=
+10pt;font-family:Verdana, Arial, Helvetica, sans-serif;"><div>Hi Shawn Jan.=
+ : )<br></div><div><br></div><div>Attached is what I have on the borrower. =
+&nbsp;I have not had a change to finalize the 1003 and put all the relevant=
+ information into the file. &nbsp;Can you please review and I can get you w=
+hat ever you need when I get back home tomorrow. I am currently out of town=
+ but this guy needs to move fast and he took his time trying to get a bette=
+r deal and now he needs to close by 7/23.<br></div><div><br></div><div>Plea=
+se call me when you get this so we can do a conference call with him today.=
+ &nbsp;Thank you!</div><div><br></div><div id=3D"yiv2160613015"><div>Thank =
+you<br></div><div><br></div><div>Respectfully,<br></div><div><br></div><div=
+>Sam Tehranchi<span class=3D"yiv2160613015size" style=3D"font-size:x-small;=
+"></span><br></div><div><b>Custom Mortgage and Realty</b><br></div><div><sp=
+an class=3D"yiv2160613015size" style=3D"font-size:x-small;">COO</span><br><=
+/div><div><span class=3D"yiv2160613015size" style=3D"font-size:10px;">NMLS =
+CA # 1556995 - BRE CA # 02018146</span><br></div><div><br></div><div><span>=
+D:&nbsp;</span>310.709.6304<span> - F:&nbsp;</span>866.421.7694<br></div><d=
+iv><a rel=3D"nofollow" ymailto=3D"mailto:sam@c-mtg.com" target=3D"_blank" h=
+ref=3D"mailto:sam@c-mtg.com">sam@c-mtg.com</a><span>&nbsp;-&nbsp;<span><a r=
+el=3D"nofollow" target=3D"_blank" href=3D"http://www.c-mtg.com/">www.c-mtg.=
+com</a></span></span><br></div><div><span></span><br></div><div><span><a re=
+l=3D"nofollow" target=3D"_blank" href=3D"https://www.linkedin.com/company-b=
+eta/3477964" style=3D"font-family:Helvetica;font-size:12px;">LinkedIn</a><s=
+pan class=3D"yiv2160613015colour" style=3D"color:rgb(0, 0, 0);"><span class=
+=3D"yiv2160613015font" style=3D"font-family:Helvetica;"><span class=3D"yiv2=
+160613015size" style=3D"font-size:12px;">&nbsp;-&nbsp;</span></span></span>=
+<a rel=3D"nofollow" target=3D"_blank" href=3D"https://www.facebook.com/Cust=
+om-Mortgage-409842885783868/" style=3D"font-family:Helvetica;font-size:12px=
+;">Facebook</a><span class=3D"yiv2160613015colour" style=3D"color:rgb(0, 0,=
+ 0);"><span class=3D"yiv2160613015font" style=3D"font-family:Helvetica;"><s=
+pan class=3D"yiv2160613015size" style=3D"font-size:12px;">&nbsp;-&nbsp;</sp=
+an></span></span><a rel=3D"nofollow" target=3D"_blank" href=3D"https://twit=
+ter.com/custommortgage1" style=3D"font-family:Helvetica;font-size:12px;">tw=
+itter</a><span class=3D"yiv2160613015colour" style=3D"color:rgb(0, 0, 0);">=
+<span class=3D"yiv2160613015font" style=3D"font-family:Helvetica;"><span cl=
+ass=3D"yiv2160613015size" style=3D"font-size:12px;">&nbsp;-&nbsp;</span></s=
+pan></span><a rel=3D"nofollow" target=3D"_blank" href=3D"https://www.instag=
+ram.com/custommortgageinc/" style=3D"font-family:Helvetica;font-size:12px;"=
+>Instagram</a></span><br></div><div><br></div></div><div><br></div></div><b=
+r></div></div><br><br></div> </div> </div>  </div></div></body></html>
+------=_Part_5894056_99781356.1531854654131--

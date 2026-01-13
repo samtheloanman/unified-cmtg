@@ -1,0 +1,269 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of email01.fmgsuite.com designates 166.78.68.16 as permitted sender) client-ip=166.78.68.16; envelope-from=bounce+55de92.ab601-sam=c-mtg.com@email01.fmgsuite.com; helo=m68-16.mailgun.net;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of email01.fmgsuite.com designates 166.78.68.16 as permitted sender)  smtp.mailfrom=bounce+55de92.ab601-sam=c-mtg.com@email01.fmgsuite.com
+Return-Path: <bounce+55de92.ab601-sam=c-mtg.com@email01.fmgsuite.com>
+Received: from m68-16.mailgun.net (m68-16.mailgun.net [166.78.68.16]) by mx.zohomail.com
+	with SMTPS id 1531848808365893.8630198990705; Tue, 17 Jul 2018 10:33:28 -0700 (PDT)
+Received: by luna.mailgun.net with HTTP; Tue, 17 Jul 2018 17:33:27 +0000
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=email01.fmgsuite.com;
+ q=dns/txt; s=krs; t=1531848807; h=Content-Transfer-Encoding:
+ Mime-Version: Content-Type: Subject: From: To: Reply-To: Message-Id:
+ Sender: Date; bh=ua4LrbuSGuvzHRl7APFXGORcw+pHvyioo1euUT7xNFU=; b=kC8nVDBdpH2mV0XIRkHsqt6xvv7+Tjw6Gy4EGNODAu/lE6rTvwQQ0zLFuprgsvpL0EAsnP3/
+ trncHcdArmT54wuYnBhegUugDy5IB0VKmKMp/zTbRPp3pUi59OjkBWdWhrgUfzTkQ6QeVs70
+ YmZvhIsgicepxBr8tRjxNI/Btd0=
+X-Mailgun-Sending-Ip: 166.78.68.16
+X-Mailgun-Sid: WyJlNDc1YiIsICJzYW1AYy1tdGcuY29tIiwgImFiNjAxIl0=
+Date: Tue, 17 Jul 2018 17:33:27 +0000
+Sender: info=lakeavefinancial.com@email01.fmgsuite.com
+Message-ID:<20180717173327.1.5051DE64E65E0ED8@email01.fmgsuite.com>
+X-Mailgun-Variables: {"contactIdentifier": "60a05242-007f-e811-8406-d7c0ef9b7347",
+ "programId": "23", "campaignMessageIdentifier":
+ "7ec590d9-5a9a-433c-8f06-0a711668c053", "partyId": "13796", "campaignId":
+ "707929"}
+Reply-To: info@lakeavefinancial.com
+X-Mailgun-Tag: newsletter-july-2018
+X-Mailgun-Tag: newsletter-release
+To: sam@c-mtg.com
+From: Lake Avenue Financial <info@lakeavefinancial.com>
+Subject: The Junk Drawer Approach to Investing
+Content-Type: text/html; charset="utf-8"
+Mime-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+X-ZohoMail-DKIM: pass (identity @email01.fmgsuite.com)
+X-ZohoMail-Owner: <20180717173327.1.5051DE64E65E0ED8@email01.fmgsuite.com>+zmo_0_bounce@email01.fmgsuite.com
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1  Ex_2 SS_1 IS_0 PIC IS_-4 EML_0 DMN_0 EDR_100 SIP_KGR,RPD_KGR COSF LNKP UMS_WB UNK_U_0 UNK_O_0 SBSR_2 SF_UCSIP_4 SIP_KGR_0 RPD_KGR_0 PMF_BCNIM_NW_0 SDFE_NA_MXPR_0 HCOM_NSC_-3 CV_HIDLNG_0 ZMHF_701_2 CV_HID_0  SC_8 SGR3_1_2_0_167_563
+X-ZM-MESSAGEID: 1531848810312100001
+X-ZohoMail-Status: 1
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns=3D"http://www.w3.org/1999/xht=
+ml"><head><title>Email Campaign</title><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3Dutf-8" /><meta name=3D"viewport" content=3D"w=
+idth=3Ddevice-width, initial-scale=3D1.0" /><style type=3D"text/css">
+
+          .emailTemplate a{
+          outline: none;
+          color: #209bb9;
+          text-decoration: none;
+          }
+
+          a.CustomButtonColor{
+          color: #ffffff !important;
+           =20
+          background-color: #de0a0a !important;
+           =20
+          }
+          a[x-apple-data-detectors]{color: inherit !important; text-decorat=
+ion: none !important;}
+          .active{
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          }
+          .active:hover{opacity: 0.8;}
+          .active a:hover{text-decoration: none !important;}
+          a img{border: none;}
+          table td{mso-line-height-rule: exactly;}
+          .ExternalClass, .ExternalClass a, .ExternalClass span, .ExternalC=
+lass b, .ExternalClass br, .ExternalClass p, .ExternalClass div{line-height=
+: inherit;}
+          table h2{font-family:Arial, Helvetica, sans-serif; font-size:1.5e=
+m; margin: 30px 0 15px;}
+          td p{ word-break:break-word;}
+          @media only screen and (max-width: 500px) {
+          /* default style */
+          table[class=3D"flexible"]{width: 100% !important;}
+          table[class=3D"table-center"]{float: none !important; margin: 0 a=
+uto !important; width: auto !important;}
+          *[class=3D"hide"]{display: none !important; width: 0 !important; =
+height: 0 !important; padding: 0 !important; font-size: 0 !important; line-=
+height: 0 !important;}
+          span[class=3D"db"]{display: block !important;}
+          td[class=3D"img-flex"] img{width: 100% !important; height: auto !=
+important;}
+          td[class=3D"aligncenter"]{text-align: center !important;}
+          tr[class=3D"table-holder"]{display: table !important; width: 100%=
+ !important;}
+          th[class=3D"tcap"]{display: table-caption !important; width: 100%=
+ !important;}
+          th[class=3D"thead"]{display: table-header-group !important; width=
+: 100% !important;}
+          th[class=3D"trow"]{display: table-row !important; width: 100% !im=
+portant;}
+          th[class=3D"tfoot"]{display: table-footer-group !important; width=
+: 100% !important;}
+          th[class=3D"flex"]{display: block !important; width: 100% !import=
+ant;}
+          /* custom style */
+          td[class=3D"mob-block"]{padding: 25px 10px !important;}
+          td[class=3D"p-0"]{padding: 0 !important;}
+          }
+        </style></head><body style=3D"margin: 0; padding: 0; -webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%;" bgcolor=3D"#f4f4f4"><table c=
+lass=3D"emailTemplate" style=3D"min-width: 320px; background-color:#f4f4f4;=
+" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#f4f4f4"><t=
+r><td style=3D"line-height: 0;"><div style=3D"display: none; white-space: n=
+owrap; font: 15px/1px courier;" disable-output-escaping=3D"yes">&nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>=
+</td></tr><tr><td class=3D"p-0" style=3D"padding: 25px 0;"><table class=3D"=
+flexible" width=3D"600" align=3D"center" style=3D"margin: 0 auto;" cellpadd=
+ing=3D"0" cellspacing=3D"0"><tr><td class=3D"hide"><table width=3D"600" cel=
+lpadding=3D"0" cellspacing=3D"0" style=3D"width: 600px !important;"><tr><td=
+ style=3D"min-width: 600px; font-size: 0; line-height: 0;" disable-output-e=
+scaping=3D"yes">&nbsp;</td></tr></table></td></tr><tr><td class=3D"mob-bloc=
+k" bgcolor=3D"#ffffff"><table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0"><tr><td bgcolor=3D"#ffffff" class=3D"aligncenter" style=3D"font: 30p=
+x/40px Helvetica, Arial, sans-serif; color: #333; text-align:center; line-h=
+eight:1px;"><a target=3D"_blank" href=3D"http://email.email01.fmgsuite.com/=
+c/eJxVULtuwzAM_Jpok0G9rUFDgbhAhn4ELVOOGtkxbKVG_r5Oh6IFb-LheHccAvYWBIs4LZjH-=
+YO2DUe6DDTXnDKtwVE0HgbPDXrkWqnI2wSWAzohrG0jGMVykCBacOIYpaRrRGPAiHNndWdNB925=
+PWmgCXMB0aRp3B65UhPvE7uGmMzgKClNPZq-VZik82Bsr8n0HvE33GUIDpyXnpVwrXU5qbeTfD-=
+w73tT8Eb4RSnPOMeM5XX8oNiy3scVp0MrFVvDhtORJPKpjj_28T5XjPVPYQsIRmrJAVzi1ArBW3=
+0UHlwESr53SjtWw0z7VqhWWvnnozz56wH_1ysVwo3Ygmt9Hv5COW-_AU8hckk"><img src=3D"=
+https://s3.amazonaws.com/static.contentres.com/media/images/8c3aa7af-8273-4=
+d49-b160-06c9e1d2a543.jpg" style=3D"border:0; max-width:600px;" alt=3D"Logo=
+" /></a></td></tr><tr><td class=3D"aligncenter" bgcolor=3D"#a67642" style=
+=3D"font: 30px/25px Arial, Helvetica, sans-serif; font-weight: bold; color:=
+ #ffffff; padding: 50px; text-align:center; line-height:1.1;">The Junk Draw=
+er Approach to Investing</td></tr><tr><td class=3D"aligncenter" style=3D"fo=
+nt: 18px/25px Arial, Helvetica, sans-serif; color: #333; padding: 24px 30px=
+ 26px; text-align:left;">It's easy to let investments accumulate like old r=
+eceipts in a junk drawer.</td></tr><tr><td class=3D"img-flex" align=3D"cent=
+er" style=3D"padding: 0"><a target=3D"_blank" target=3D"_blank" style=3D"te=
+xt-decoration: none; color: #fff; display: block; padding: 16px 10px 18px; =
+text-align:center;" href=3D"http://email.email01.fmgsuite.com/c/eJyNUk1vnDA=
+Q_TVwM7Ix2HDgkIiNtFF7a8_VYA_gBgMyZlH-fYfNJmpvlS1_PHue38yzbaBTXKQG_ApumL_jts=
+GAV4tzdL3D0Gg0Zc1tzUqogRVSGlb1XDEOWgilKsNLmbom56LiWlCTMteZyEpeivaiiosqL_zSV=
+knB0YObuMh6P2y7i5iZxadjY1UtauhtUXdlXuSd6E2BogDV5dIg2i9xV9toruu8TqdmjHFN5FOS=
+v1A_jiOb4A3hhr2bYTYOppOcjgJuyx4MMkMZYSDEzTfcoqctbeKI7Pc-vzEb4MDAYF3DAmZkcWE=
+fF908JPJlj_7Xp4xEtj9GTPLnVwqkqb2H0uLpEUzLuNBw_SLI1Ung0brdU_i9EA_wQx6BZpkjmL=
+hRVjB9np7gqVS2N2fxJHWe_KF5cufj90uU18n6-vMb4acRhBvvLGH_5R6pHgJ4Km8u09Bs4Mksw=
+3wc7g49hP31JxQHflrFONc9w0oIVhXEarXh2NedloVOYzPjsU0YSR7VeHpnp7R_4YATwobpCiG-=
+0_tC6lr9AXWN05M"><img style=3D"vertical-align: top;" width=3D"540" height=
+=3D"359" alt=3D"" src=3D"https://s3.amazonaws.com/static.contentres.com/sit=
+e/templates/global/img/assets/267-videothumb.jpg" /></a></td></tr><tr><td c=
+lass=3D"aligncenter" style=3D"font: 18px/25px Arial, Helvetica, sans-serif;=
+ color: #333; padding: 0 30px 26px; text-align:left;"><p>Does your investme=
+nt portfolio resemble a junk drawer =E2=80=94 a little of this and a little=
+ of that, with no real rhyme or reason? Time to take a look at the big pict=
+ure.</p></td></tr><tr><td style=3D"padding: 0 0 21px;"><table width=3D"290"=
+ align=3D"center" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin: 0 au=
+to;"><tr><td class=3D"active" align=3D"center" style=3D"font: 16px/16px Ari=
+al, Helvetica, sans-serif; color: #ffffff; mso-padding-alt: 16px 10px 18px;=
+ border-radius: 4px;" bgcolor=3D"#de0a0a"><a target=3D"_blank" target=3D"_b=
+lank" style=3D"text-decoration: none; color: #ffffff; display: block; paddi=
+ng: 16px 10px 18px; text-align:center;" href=3D"http://email.email01.fmgsui=
+te.com/c/eJyNUk1vnDAQ_TVwM7Ix2HDgkIiNtFF7a8_VYA_gBgMyZlH-fYfNJmpvlS1_PHue38=
+yzbaBTXKQG_ApumL_jtsGAV4tzdL3D0Gg0Zc1tzUqogRVSGlb1XDEOWgilKsNLmbom56LiWlCTM=
+teZyEpeivaiiosqL_zSVknB0YObuMh6P2y7i5iZxadjY1UtauhtUXdlXuSd6E2BogDV5dIg2i9x=
+V9toruu8TqdmjHFN5FOSv1A_jiOb4A3hhr2bYTYOppOcjgJuyx4MMkMZYSDEzTfcoqctbeKI7Pc=
+-vzEb4MDAYF3DAmZkcWEfF908JPJlj_7Xp4xEtj9GTPLnVwqkqb2H0uLpEUzLuNBw_SLI1Ung0b=
+rdU_i9EA_wQx6BZpkjmLhRVjB9np7gqVS2N2fxJHWe_KF5cufj90uU18n6-vMb4acRhBvvLGH_5=
+R6pHgJ4Km8u09Bs4Mksw3wc7g49hP31JxQHflrFONc9w0oIVhXEarXh2NedloVOYzPjsU0YSR7V=
+eHpnp7R_4YATwobpCiG-0_tC6lr9AXWN05M">
+                                      Watch Video
+                                    </a></td></tr></table></td></tr></table=
+></td></tr><tr><td height=3D"25"></td></tr><tr><td class=3D"mob-block" bgco=
+lor=3D"#ffffff" style=3D"padding: 24px 30px;"><table width=3D"100%" cellpad=
+ding=3D"0" cellspacing=3D"0"><tr><th class=3D"flex" width=3D"150" align=3D"=
+left" style=3D"vertical-align: top; padding: 0;"><table width=3D"100%" cell=
+padding=3D"0" cellspacing=3D"0"><tr><td class=3D"aligncenter" style=3D"padd=
+ing: 6px 0 0;"><img src=3D"https://s3.amazonaws.com/static.contentres.com/m=
+edia/images/ea1942b7-0e68-4ced-af02-33a745d02324.jpg" style=3D"vertical-ali=
+gn: top;" width=3D"150" height=3D"150" alt=3D"" /></td></tr></table></th><t=
+h class=3D"flex" width=3D"20" height=3D"20" style=3D"padding: 0;"></th><th =
+class=3D"flex" align=3D"left" style=3D"vertical-align: top; padding: 0;"><t=
+able width=3D"100%" cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"al=
+igncenter" style=3D"font: 16px/25px Arial, Helvetica, sans-serif; color: #3=
+33; padding: 0 0 10px;"><a target=3D"_blank" href=3D"mailto:info@lakeavefin=
+ancial.com" target=3D"_blank" style=3D"text-decoration: none; color: #209bb=
+9;">info@lakeavefinancial.com</a></td></tr><tr><td class=3D"aligncenter" st=
+yle=3D"font: 16px/25px Arial, Helvetica, sans-serif; color: #333; padding: =
+0 0 10px;">Lake Avenue Financial<br /></td></tr><tr><td class=3D"aligncente=
+r" style=3D"font: 16px/25px Arial, Helvetica, sans-serif; color: #209bb9; p=
+adding: 0 0 16px;"><a target=3D"_blank" href=3D"http://email.email01.fmgsui=
+te.com/c/eJxVULtuwzAM_Jpok0G9rUFDgbhAhn4ELVOOGtkxbKVG_r5Oh6IFb-LheHccAvYWBI=
+s4LZjH-YO2DUe6DDTXnDKtwVE0HgbPDXrkWqnI2wSWAzohrG0jGMVykCBacOIYpaRrRGPAiHNnd=
+WdNB925PWmgCXMB0aRp3B65UhPvE7uGmMzgKClNPZq-VZik82Bsr8n0HvE33GUIDpyXnpVwrXU5=
+qbeTfD-w73tT8Eb4RSnPOMeM5XX8oNiy3scVp0MrFVvDhtORJPKpjj_28T5XjPVPYQsIRmrJAVz=
+i1ArBW30UHlwESr53SjtWw0z7VqhWWvnnozz56wH_1ysVwo3Ygmt9Hv5COW-_AU8hckk" targe=
+t=3D"_blank" style=3D"text-decoration: none; color: #209bb9;">http://www.la=
+keavefinancial.com/</a></td></tr><tr><td style=3D"padding: 0 0 6px;"><table=
+ class=3D"table-center" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin=
+:0;"><tr><td class=3D"active" align=3D"center" width=3D"18" valign=3D"top" =
+style=3D"line-height: 18px; mso-line-height-rule:at-least;"><a target=3D"_b=
+lank" href=3D"http://email.email01.fmgsuite.com/c/eJxVkEtuwzAMRE8T72RQX0oLL=
+QrEBbLoIWiZdtz4E9hKjdy-ShdFC3I1wHDesIvUOpBVovlO47B88L7TwJeOlzz2I28ROdkAXRCW=
+AgmjdRK-ByeAUErnfAKrqzEqkB5QltFaYS1rC1aeG2caZxtozv5kgGcaJ5B1Pw_7Y8xcp3WurlG=
+SsWySB43SK90ieuypla2XnQ82_MJduoiAQYVqitec7_tJv53Ue9njOOqeErfrentdLdJEN6Yvru=
+7bOmw0F6_S1RZ3mgtJEnMefuLTumRK-U9hBwRWGSUAsBfspRTelMIdJuA-tKgNVjkufOwT58yb-=
+HxMT_F6wH9544lpLwS05WfJlxqD-wYwJXEJ" target=3D"_blank" style=3D"text-decora=
+tion: none; color: #333;"><img src=3D"http://fmgsuite.com/emailTemp/content=
+/img/facebook.png" border=3D"0" style=3D"vertical-align: top; font: bold 15=
+px/18px Arial, Verdana, Helvetica, sans-serif; color: #333;" width=3D"22" h=
+eight=3D"22" alt=3D"fb" /></a></td><td width=3D"10"></td><td class=3D"activ=
+e" align=3D"center" width=3D"18" valign=3D"top" style=3D"line-height: 18px;=
+ mso-line-height-rule:at-least;"><a target=3D"_blank" href=3D"http://email.=
+email01.fmgsuite.com/c/eJxVj8FuwyAMhp-m3IhMCBAOHCo1kyptzzC5YFK2JK2Arurbj-4w=
+bbIvtmR_3x8cnjQI5nG9Ypq3NyoFZzoG2mqKibIz5JWFYLlCi3yQ0vMxguaARgitRw9KsuR6ECM=
+Y0UrK3nSiU6DEYdLDpNUE02HcDUArpgVEF9e53FKlzl9WdnY6oI9BQLSeorZkLShU0oCQEqzGX7=
+ljcAaM7S1b3LnWa9nJ_a5_aV3vqVbKz4dtesVPet9_0XYjds2XOePaTnvJsiu4NhHP1zr_0P1lq=
+-jrn7waEFQ_9BzARE6jEHwcWt5gPFC0JyMHw6rb6F4WekL5x2158Gf-_-tMC2FpBpjro_GFNFZ_=
+A0PtcUA" target=3D"_blank" style=3D"text-decoration: none; color: #333;"><i=
+mg src=3D"http://fmgsuite.com/emailTemp/content/img/twitter.png" border=3D"=
+0" style=3D"vertical-align: top; font: bold 15px/18px Arial, Verdana, Helve=
+tica, sans-serif; color: #333;" width=3D"22" height=3D"22" alt=3D"tw" /></a=
+></td><td width=3D"10"></td><td class=3D"active" align=3D"center" width=3D"=
+18" valign=3D"top" style=3D"line-height: 18px; mso-line-height-rule:at-leas=
+t;"><a target=3D"_blank" href=3D"http://email.email01.fmgsuite.com/c/eJxVkL=
+1uwzAMhJ8m2mRQ__KgoUBcIEMfgpFpR42sGLbSIG9fpUPRggRxuOH44caAZwuCRVxWTHP5oH3Hm=
+U4jlZqmRFtwFE0PY88N9si1UpH7CSwHdEJY6yMYxVKQIDw40UYp6TrRGTDiOFg9WDPAcPQHDbRg=
+yiC6aZn3e6rUxdvCLgGjaSmaLEmFJHB0Xkvr6Sy01w7jL9xpDA5cL3uWw6XWdT-ot4N8b_t4PLq=
+cypXGVF6pzWp3xfJsKuOVOH5RuROfUsESE2a2brd5w6VlSsW2sOPSCCNf6vyDFW-lYqx_irCAYK=
+SWHMBNnLwQ3OtWxOgi0NSfndKO1VDosWeqlTb-ec9P_irmv71RJtyJrbjVZ_svlOvtN4ZOeqk" =
+target=3D"_blank" style=3D"text-decoration: none; color: #333;"><img src=3D=
+"http://fmgsuite.com/emailTemp/content/img/linkedin.png" border=3D"0" style=
+=3D"vertical-align: top; font: bold 15px/18px Arial, Verdana, Helvetica, sa=
+ns-serif; color: #333;" width=3D"22" height=3D"22" alt=3D"in" /></a></td></=
+tr></table></td></tr></table></th></tr></table></td></tr><tr><td height=3D"=
+25"></td></tr><tr><td class=3D"mob-block" bgcolor=3D"#ffffff" style=3D"padd=
+ing: 27px 30px;"><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0">=
+<tr><th class=3D"flex" align=3D"left" style=3D"vertical-align: top; padding=
+: 0;"><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0"><tr><td sty=
+le=3D"font: 10px/13px Arial, Helvetica, sans-serif; color: #333;">Please re=
+view our Important Disclosure Information 1-304140</td></tr></table></th><t=
+h class=3D"flex" width=3D"19" height=3D"20" style=3D"padding: 0;"></th><th =
+class=3D"flex" width=3D"190" align=3D"left" style=3D"vertical-align: top; p=
+adding: 0;"><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0"><tr><=
+td style=3D"font: 10px/13px Arial, Helvetica, sans-serif; color: #333; padd=
+ing: 0 0 11px;">
+                                This informational email is an advertisemen=
+t and you may opt out of receiving future emails. To opt out, please click =
+the "Unsubscribe" link below.
+                              </td></tr><tr><td style=3D"font: 10px/13px Ar=
+ial, Helvetica, sans-serif; color: #000; padding: 0 0 16px;">
+                                This message was sent by <br />Lake Avenue =
+Financial<br />(866) 528-3660<br />70 S Lake Ave<br />Suite 820<br />Pasade=
+na, CA 91101</td></tr><tr><td style=3D"font: 10px/13px Arial, Helvetica, sa=
+ns-serif; color: #209bb9;"><a target=3D"_blank" target=3D"_blank" style=3D"=
+text-decoration: none; color: #209bb9;" href=3D"http://email.email01.fmgsui=
+te.com/c/eJyNkDtuxDAMRE-z7mRQf7tQEWAdYIscgpZprxL_IMkx9vbRpgiSLiAbksDM4wwOew=
+O88rjsGKb1jVLCiW4DrTmMgaKz5HULQ8s0tsiUlJ41IxgGaDk3pvGgZRWcAN6A5aWkFLbmtQbNr=
+51RndEddNfmooAWDDPwelymdIRMtd-W6u40DT0pbhU1ZpQguOZC9lIYq3shYPiBuw3Ogm1FW83u=
+nvN-kS8X8Vr6PM96xg_CTxrDiqsPOD_Fy-lY09EnH0NPZTKAoIUSDMCOjBrOWaPKM4P1QGPbW6l=
+stcdtirgUNyGr6BIuhd2zJU_fwH5bM_r8K6J_qWa30plmypkiez_mB3tG9ncdaSZMVO0Y86P4c2=
+lb8wVff37W">
+                                  Unsubscribe
+                                </a></td></tr></table></th></tr></table></t=
+d></tr></table></td></tr></table><img width=3D"1px" height=3D"1px" alt=3D""=
+ src=3D"http://email.email01.fmgsuite.com/o/eJxVjztuwzAQRE8TdhR2-WfBzipc5BB=
+rcqUoECWDomH49lFSBAmme8XMvJLo5gBFpnqnZd7e-Tho5mvhrS_Twi15zjZCidJSJGm0zjJM4C=
+SQR3QuZLBaLEkBBvB4RmvlBxwsWLyMzozOjjBewpsBrrSsgMNU5-OxdB7yXsVHMqGUMAUbSnRgc=
+7FklM2MaDAWAPd77lqSBx9VFPe2z43qCZQWLR1Uz_osa59_OvO-dcr9j4UDAquMkgB-khwQZTCn=
+RfEZeIo3r40XPW38PFbunZv8fKwv-W31HzdemQ4Wd2r9de6j9tF9AUi4Yq8"></body></html>

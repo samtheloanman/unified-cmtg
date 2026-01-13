@@ -1,0 +1,461 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: none (zoho.com: 209.85.160.41 is neither permitted nor denied by domain of domm.life) client-ip=209.85.160.41; envelope-from=todd@domm.life; helo=mail-pl0-f41.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=none (zoho.com: 209.85.160.41 is neither permitted nor denied by domain of domm.life)  smtp.mailfrom=todd@domm.life
+Received: from mail-pl0-f41.google.com (mail-pl0-f41.google.com [209.85.160.41]) by mx.zohomail.com
+	with SMTPS id 1530660400292954.7944223787507; Tue, 3 Jul 2018 16:26:40 -0700 (PDT)
+Received: by mail-pl0-f41.google.com with SMTP id 30-v6so1721767pld.13
+        for <sam@c-mtg.com>; Tue, 03 Jul 2018 16:26:39 -0700 (PDT)
+Return-Path: <todd@domm.life>
+Return-Path: <todd@domm.life>
+Received: from ?IPv6:2600:8800:4300:3300:823:48e9:6e73:160a? ([2600:8800:4300:3300:823:48e9:6e73:160a])
+        by smtp.gmail.com with ESMTPSA id h12-v6sm3486515pfi.114.2018.07.03.16.26.38
+        for <sam@c-mtg.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 03 Jul 2018 16:26:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domm-life.20150623.gappssmtp.com; s=20150623;
+        h=from:content-transfer-encoding:mime-version:date:subject:message-id
+         :references:in-reply-to:to;
+        bh=3KLM8t/0eqPe6/cSg2uhLnqQ2FGPA8p+cjYrX1LKNlI=;
+        b=duzg+0ds2XBzOdhzL3CeiP7ozPW9wmTC8O0DWd/mTG+qdzqlblB4r2tab3Z+wTJyN/
+         Cary2xq1K/GQb4BunLQkd/mardmHGMuvaHxhT3nBbLiscGXsiG7S7PDt+dWV1bivs6DH
+         7emGkTHxOFUInEEDlZmawiR2uYdO4RqhLiWQeKqnGMsMsC5MsK+d3MZHybyrzLPWrNH2
+         PaRyjMvWOLNT7AlRdPzPVuyO8G+JiAWxKJy6KjwOSa59bhTtSv+CYv0BqiRA7ZB5mi4E
+         gXx/CO+u3jWPrE+6WXftbbkEgrqvGRO3Z8esbzJN+UFTpHFpzvWF4o55RCsVnpqdLl7J
+         owsQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:content-transfer-encoding:mime-version:date
+         :subject:message-id:references:in-reply-to:to;
+        bh=3KLM8t/0eqPe6/cSg2uhLnqQ2FGPA8p+cjYrX1LKNlI=;
+        b=FGkVhpkJu/FeEqitUrEq7c3Yp0pfT+SvBdXSbSNz+MPyhOJvWc4/Z/4uiOjqnlbXvt
+         r6J3an9c92lZsGtWHBnDwoF3eSolwckA/cjfoV+ClhTXaQ/uqwK2ae7nGF1fKuNMCGJO
+         Ldo/r9XbeLizYdv2HLEGwUmxxHF3m2qZG23bMCAUQP8HfEe36PC7DCAzyNBwEhzzugQS
+         9y2N3xDcIxdV50ZBZK+hE6MpnkhRKvShsHSyotV+NAreJeZRIPcuZXjXdh3TRPXSPygR
+         xcfPjBiWXA8eEP/CcDd29vlv4m3r9HyitEqM5el4TN7uRbKZ8LgwdLlCsmkgvhRx8TOu
+         GZ8Q==
+X-Gm-Message-State: APt69E3n7GBikdnS1l64+4FLWLejW4lAtKmdciWi+Oc24gGpHWc86DLf
+	/xEVcA2IuS0pnzRcQlxWHb3LE0RYrzA=
+X-Google-Smtp-Source: ADUXVKLpOS7UMKnkGqw6BDBswBhYRJXV042MMQ6UpWOUMn4tCNPaiSKTVRfSCleYzcwzgkyRwRoFOQ==
+X-Received: by 2002:a17:902:b589:: with SMTP id a9-v6mr32209304pls.140.1530660399055;
+        Tue, 03 Jul 2018 16:26:39 -0700 (PDT)
+From: Todd Romboli <todd@domm.life>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-E25827F7-F208-493F-B832-3911AD119F4C
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0
+Date: Tue, 3 Jul 2018 16:26:37 -0700
+Subject: Re: 6723019811.ROMBOLI - LOAN STATUS UPDATE / PENDING UW CONDITIONS
+Message-ID:<99A78256-6283-48B3-B702-EA5138C7D0A5@domm.life>
+References: <164619faeb2.c274795152039.3822151837823079477@c-mtg.com> <E7E5D4D6-F736-4BD9-BD5A-6148C01DA89A@c-mtg.com> <7F67A98C-53D6-4204-8C45-4DBE2598BD5D@domm.life> <109B3FB7-5B4B-400D-A7F4-12CB6582FFB4@c-mtg.com>
+In-Reply-To: <109B3FB7-5B4B-400D-A7F4-12CB6582FFB4@c-mtg.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+X-Mailer: iPhone Mail (15F79)
+X-ZohoMail-DKIM: pass (identity @domm-life.20150623.gappssmtp.com)
+X-ZohoMail: RDKM_0  RSF_4  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_1 S_166 FRD_NDS
+X-ZM-MESSAGEID: 1530660401978000001
+X-ZohoMail-Status: 1
+
+
+
+--Apple-Mail-E25827F7-F208-493F-B832-3911AD119F4C
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=F0=9F=91=8D=F0=9F=8F=BD
+
+Todd Romboli
+CEO=20
+p 312.543.1006
+f 772.264.5882
+Domm.Life
+3123 E Thomas Rd
+Phoenix, AZ 85016
+
+CONFIDENTIALITY NOTICE: This e-mail message and any attachments are for the s=
+ole use of the intended recipient(s) and may contain proprietary, confidenti=
+al, trade secret or privileged information. Any unauthorized review, use, di=
+sclosure or distribution is prohibited and may be a violation of law. If you=
+ are not the intended recipient or a person responsible for delivering this m=
+essage to an intended recipient, please contact the sender by reply email an=
+d destroy all copies of the original message.
+
+
+> On Jul 3, 2018, at 3:12 PM, Sam Tehranchi <sam@c-mtg.com> wrote:
+>=20
+> Ok, we will work with what we have until that arrives, will still try to g=
+et loan docs on Friday.
+>=20
+> Respectfully,  =20
+>=20
+> =20
+> Sam Tehranchi
+>=20
+> =20
+> COO
+> Custom Mortgage and Realty=20
+> NMLS CA # 1556995 - BRE CA # 02018146
+> =20
+> Direct 310.709.6304 -Efax 866.421.7694=20
+>=20
+> sam@c-mtg.com - www.c-mtg.com
+>=20
+> LinkedIn - Facebook - twitter - Instagram
+>=20
+>=20
+>> On Jul 3, 2018, at 2:21 PM, Todd Romboli <todd@domm.life> wrote:
+>>=20
+>> on the phone with them now, looks like friday am at the earliest
+>> closed tomorrow
+>> will execute thursday for delivery hopefully friday
+>> Todd Romboli
+>> CEO=20
+>> p 312.543.1006
+>> f 772.264.5882
+>> Domm.Life
+>> 3123 E Thomas Rd
+>> Phoenix, AZ 85016
+>> =20
+>>=20
+>> <image001.png>
+>>=20
+>>=20
+>>=20
+>>  CONFIDENTIALITY NOTICE: This e-mail message and any attachments are for t=
+he sole use of the intended recipient(s) and may contain proprietary, confid=
+ential, trade secret or privileged information. Any unauthorized review, use=
+, disclosure or distribution is prohibited and may be a violation of law. If=
+ you are not the intended recipient or a person responsible for delivering t=
+his message to an intended recipient, please contact the sender by reply ema=
+il and destroy all copies of the original message.
+>>=20
+>>=20
+>>=20
+>>=20
+>>=20
+>>> On Jul 3, 2018, at 12:32 PM, Sam Tehranchi <sam@c-mtg.com> wrote:
+>>>=20
+>>> Hi Todd, we have to update the payoff, it was only good to 7/1.  We can d=
+o it but they give it to you a lot quicker then us.  Evelyn has requested it=
+ but if you get a chance, please have them update it.
+>>>=20
+>>> Thank you
+>>>=20
+>>> Respectfully,  =20
+>>>=20
+>>> =20
+>>> Sam Tehranchi
+>>>=20
+>>> =20
+>>> COO
+>>> Custom Mortgage and Realty=20
+>>> NMLS CA # 1556995 - BRE CA # 02018146
+>>> =20
+>>> Direct 310.709.6304 -Efax 866.421.7694=20
+>>>=20
+>>> sam@c-mtg.com - www.c-mtg.com
+>>>=20
+>>> LinkedIn - Facebook - twitter - Instagram
+>>>=20
+>>>=20
+>>>> Begin forwarded message:
+>>>>=20
+>>>> From: Eve Sanchez <eve@c-mtg.com>
+>>>> Subject: Re: 6723019811.ROMBOLI - LOAN STATUS UPDATE / PENDING UW CONDI=
+TIONS
+>>>> Date: July 3, 2018 at 12:30:12 PM PDT
+>>>> To: "\"Sam Tehranchi\"" <sam@c-mtg.com>
+>>>>=20
+>>>> The payoff in our file expired on 7/1. Do you still want me to send it t=
+o them?
+>>>>=20
+>>>> I will request updated payoff now.=20
+>>>>=20
+>>>> Respectfully,
+>>>> Evelyn Sanchez
+>>>> Loan Processor
+>>>> Custom Mortgage=20
+>>>> <1.png>
+>>>> Direct: 818-384-7653
+>>>> Fax: 866-421-7694
+>>>> Email: Eve@c-mtg.com
+>>>>=20
+>>>>=20
+>>>>=20
+>>>> ---- On Tue, 03 Jul 2018 12:27:36 -0700 Sam Tehranchi <sam@c-mtg.com> w=
+rote ----
+>>>>=20
+>>>> Can you please get the payoff to the title company, they say 1.9 but he=
+ only owes 1.55.
+>>>>=20
+>>>> Respectfully,  =20
+>>>>=20
+>>>> =20
+>>>> Sam Tehranchi
+>>>>=20
+>>>> =20
+>>>> COO
+>>>> Custom Mortgage and Realty=20
+>>>> NMLS CA # 1556995 - BRE CA # 02018146
+>>>> =20
+>>>> Direct 310.709.6304 -Efax 866.421.7694=20
+>>>>=20
+>>>> sam@c-mtg.com - www.c-mtg.com
+>>>>=20
+>>>> LinkedIn - Facebook - twitter - Instagram
+>>>>=20
+>>>> On Jul 3, 2018, at 12:26 PM, Eve Sanchez <eve@c-mtg.com> wrote:
+>>>>=20
+>>>> <Romboli Revised estimate 7.3.pdf>
+>>>>=20
+>>>>=20
+>>>>=20
+>>>=20
+>>=20
+>=20
+
+--Apple-Mail-E25827F7-F208-493F-B832-3911AD119F4C
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto">=F0=9F=91=8D=F0=9F=8F=BD<br><br><div id=3D"=
+AppleMailSignature"><div class=3D"" style=3D"word-wrap: break-word;"><div cl=
+ass=3D""><div class=3D"" style=3D"margin: 0in 0in 0.0001pt;"><font class=3D"=
+"><span class=3D"" style=3D"background-color: rgba(255, 255, 255, 0);">Todd R=
+omboli</span></font></div><div class=3D"" style=3D"margin: 0in 0in 0.0001pt;=
+"><span class=3D"" style=3D"background-color: rgba(255, 255, 255, 0);">CEO&n=
+bsp;</span></div><div class=3D"" style=3D"margin: 0in 0in 0.0001pt;"><span c=
+lass=3D"" style=3D"background-color: rgba(255, 255, 255, 0);">p 312.543.1006=
+</span></div><div class=3D"" style=3D"margin: 0in 0in 0.0001pt;"><span class=
+=3D"" style=3D"background-color: rgba(255, 255, 255, 0);">f 772.264.5882</sp=
+an></div><div class=3D"" style=3D"margin: 0in 0in 0.0001pt;"><span class=3D"=
+" style=3D"background-color: rgba(255, 255, 255, 0);"><a href=3D"http://www.=
+domm.io/" class=3D"">D</a>omm.Life</span></div><div class=3D"" style=3D"marg=
+in: 0in 0in 0.0001pt;"><span class=3D"" style=3D"background-color: rgba(255,=
+ 255, 255, 0);">3123 E Thomas Rd</span></div><div class=3D"" style=3D"margin=
+: 0in 0in 0.0001pt;"><span class=3D"" style=3D"background-color: rgba(255, 2=
+55, 255, 0);">Phoenix, AZ 85016</span></div></div></div><div><span style=3D"=
+background-color: rgba(255, 255, 255, 0);"><img src=3D"cid:e2206057-7418-437=
+b-a00d-f7b82a718a17@namprd17.prod.outlook.com" id=3D"e2206057-7418-437b-a00d=
+-f7b82a718a17@namprd17.prod.outlook.com" class=3D""></span></div><div style=3D=
+"word-wrap: break-word;"><div id=3D"x_AppleMailSignature"><span class=3D"x_A=
+pple-string-attachment" style=3D"background-color: rgba(255, 255, 255, 0);">=
+</span></div></div><div class=3D"" style=3D"word-wrap: break-word;"><div cla=
+ss=3D""><span class=3D"" style=3D"float: none; display: inline !important; b=
+ackground-color: rgba(255, 255, 255, 0);">CONFIDENTIALITY NOTICE: This e-mai=
+l&nbsp;message and any attachments are for&nbsp;the sole use of the intended=
+ recipient(s)&nbsp;and may contain proprietary,&nbsp;confidential, trade sec=
+ret or privileged&nbsp;information. Any unauthorized review,&nbsp;use, discl=
+osure or distribution is&nbsp;prohibited and may be a violation of law.&nbsp=
+;If you are not the intended recipient or a&nbsp;person responsible for deli=
+vering this&nbsp;message to an intended recipient,&nbsp;please contact the s=
+ender by reply email&nbsp;and destroy all copies of the original&nbsp;messag=
+e.</span></div><div><span class=3D"" style=3D"float: none; background-color:=
+ rgba(255, 255, 255, 0); display: inline !important;"><br></span></div></div=
+></div><div><br>On Jul 3, 2018, at 3:12 PM, Sam Tehranchi &lt;<a href=3D"mai=
+lto:sam@c-mtg.com">sam@c-mtg.com</a>&gt; wrote:<br><br></div><blockquote typ=
+e=3D"cite"><div><meta http-equiv=3D"Content-Type" content=3D"text/html; char=
+set=3Dus-ascii">Ok, we will work with what we have until that arrives, will s=
+till try to get loan docs on Friday.<div class=3D""><br class=3D""><div clas=
+s=3D"">
+<div dir=3D"auto" style=3D"caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); l=
+etter-spacing: normal; text-align: start; text-indent: 0px; text-transform: n=
+one; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px;=
+ text-decoration: none; word-wrap: break-word; -webkit-nbsp-mode: space; lin=
+e-break: after-white-space;" class=3D""><div dir=3D"auto" style=3D"color: rg=
+b(0, 0, 0); letter-spacing: normal; text-align: start; text-indent: 0px; tex=
+t-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stro=
+ke-width: 0px; word-wrap: break-word; -webkit-nbsp-mode: space; line-break: a=
+fter-white-space;" class=3D"">Respectfully, &nbsp;&nbsp;<br class=3D""><br c=
+lass=3D"">&nbsp;<br class=3D"">Sam Tehranchi<br class=3D""><br class=3D"">&n=
+bsp;<br class=3D"">COO<br class=3D"">Custom Mortgage and Realty&nbsp;<br cla=
+ss=3D"">NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br class=3D"">&nbsp;<br c=
+lass=3D"">Direct 310.709.6304 -Efax 866.421.7694&nbsp;<br class=3D""><br cla=
+ss=3D""><a href=3D"mailto:sam@c-mtg.com" class=3D"">sam@c-mtg.com</a>&nbsp;-=
+&nbsp;<a href=3D"http://www.c-mtg.com" class=3D"">www.c-mtg.com</a><br class=
+=3D""><br class=3D""><a href=3D"https://www.linkedin.com/company-beta/347796=
+4" class=3D"">LinkedIn</a>&nbsp;-&nbsp;<a href=3D"https://www.facebook.com/C=
+ustom-Mortgage-409842885783868/" class=3D"">Facebook</a>&nbsp;-&nbsp;<a href=
+=3D"https://twitter.com/custommortgage1" class=3D"">twitter</a>&nbsp;-&nbsp;=
+<a href=3D"https://www.instagram.com/custommortgageinc/" class=3D"">Instagra=
+m</a><br class=3D""><br class=3D""></div></div>
+</div>
+<div><br class=3D""><blockquote type=3D"cite" class=3D""><div class=3D"">On J=
+ul 3, 2018, at 2:21 PM, Todd Romboli &lt;<a href=3D"mailto:todd@domm.life" c=
+lass=3D"">todd@domm.life</a>&gt; wrote:</div><br class=3D"Apple-interchange-=
+newline"><div class=3D""><meta http-equiv=3D"Content-Type" content=3D"text/h=
+tml charset=3Dus-ascii" class=3D""><div style=3D"word-wrap: break-word; -web=
+kit-nbsp-mode: space; -webkit-line-break: after-white-space;" class=3D"">on t=
+he phone with them now, looks like friday am at the earliest<div class=3D"">=
+closed tomorrow</div><div class=3D"">will execute thursday for delivery hope=
+fully friday<br class=3D""><div class=3D"">
+Todd Romboli<br class=3D"">CEO&nbsp;<br class=3D"">p 312.543.1006<br class=3D=
+"">f 772.264.5882<br class=3D"">Domm.Life<br class=3D"">3123 E Thomas Rd<br c=
+lass=3D"">Phoenix, AZ 85016<br class=3D"">&nbsp;<br class=3D""><span style=3D=
+"font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-c=
+aps: normal; font-weight: normal; letter-spacing: normal; text-align: start;=
+ text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0=
+px; -webkit-text-stroke-width: 0px;" class=3D""><span class=3D""><br class=3D=
+"Apple-interchange-newline" style=3D"font-family: Helvetica; font-size: 12px=
+; font-style: normal; font-variant-caps: normal; font-weight: normal; letter=
+-spacing: normal; text-align: start; text-indent: 0px; text-transform: none;=
+ white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><s=
+pan style=3D"font-family: Helvetica; font-size: 12px; font-style: normal; fo=
+nt-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-a=
+lign: start; text-indent: 0px; text-transform: none; white-space: normal; wo=
+rd-spacing: 0px; -webkit-text-stroke-width: 0px;" class=3D""><span class=3D"=
+"><span class=3D""><span id=3D"cid:image001.png@01D2FC19.F6DDD200">&lt;image=
+001.png&gt;</span></span><div style=3D"font-family: Helvetica; font-size: 12=
+px; font-style: normal; font-variant-caps: normal; font-weight: normal; lett=
+er-spacing: normal; text-align: start; text-indent: 0px; text-transform: non=
+e; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px;" c=
+lass=3D""><div class=3D""><div style=3D"margin: 0in 0in 0.0001pt; font-size:=
+ 12pt; font-family: Calibri, sans-serif;" class=3D""><span style=3D"font-siz=
+e: 10pt;" class=3D""><br class=3D"Apple-interchange-newline"><br class=3D"Ap=
+ple-interchange-newline"><br class=3D"Apple-interchange-newline">&nbsp;</spa=
+n><span style=3D"font-size: 10pt;" class=3D"">CONFIDENTIALITY NOTICE: This e=
+-mail message and any attachments are&nbsp;for the sole use of the intended&=
+nbsp;recipient(s) and may contain proprietary,&nbsp;confidential, trade secr=
+et or privileged&nbsp;information. Any unauthorized review,&nbsp;use, disclo=
+sure or distribution is&nbsp;prohibited and may be a violation of law.&nbsp;=
+If you are not the intended recipient or a&nbsp;person responsible for deliv=
+ering this&nbsp;message to an intended recipient, please&nbsp;contact the se=
+nder by reply email and&nbsp;destroy all copies of the original&nbsp;message=
+.</span></div></div><div style=3D"margin: 0in 0in 0.0001pt; font-size: 12pt;=
+ font-family: Calibri, sans-serif;" class=3D""><span style=3D"font-size: 10p=
+t;" class=3D""><br class=3D""></span></div></div><div style=3D"font-family: H=
+elvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; fo=
+nt-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0=
+px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-te=
+xt-stroke-width: 0px;" class=3D""><br class=3D""></div><br class=3D"Apple-in=
+terchange-newline" style=3D"font-family: Helvetica; font-size: 12px; font-st=
+yle: normal; font-variant-caps: normal; font-weight: normal; letter-spacing:=
+ normal; text-align: start; text-indent: 0px; text-transform: none; white-sp=
+ace: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><br class=3D=
+"Apple-interchange-newline" style=3D"font-family: Helvetica; font-size: 12px=
+; font-style: normal; font-variant-caps: normal; font-weight: normal; letter=
+-spacing: normal; text-align: start; text-indent: 0px; text-transform: none;=
+ white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+</span></span></span></span></div>
+<br class=3D""><div class=3D""><blockquote type=3D"cite" class=3D""><div cla=
+ss=3D"">On Jul 3, 2018, at 12:32 PM, Sam Tehranchi &lt;<a href=3D"mailto:sam=
+@c-mtg.com" class=3D"">sam@c-mtg.com</a>&gt; wrote:</div><br class=3D"Apple-=
+interchange-newline"><div class=3D""><meta http-equiv=3D"Content-Type" conte=
+nt=3D"text/html; charset=3Dus-ascii" class=3D""><div style=3D"word-wrap: bre=
+ak-word; -webkit-nbsp-mode: space; line-break: after-white-space;" class=3D"=
+">Hi Todd, we have to update the payoff, it was only good to 7/1. &nbsp;We c=
+an do it but they give it to you a lot quicker then us. &nbsp;Evelyn has req=
+uested it but if you get a chance, please have them update it.<div class=3D"=
+"><br class=3D""></div><div class=3D"">Thank you</div><div class=3D""><br cl=
+ass=3D""><div class=3D"">
+<div dir=3D"auto" style=3D"letter-spacing: normal; text-align: start; text-i=
+ndent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -w=
+ebkit-text-stroke-width: 0px; text-decoration: none; word-wrap: break-word; -=
+webkit-nbsp-mode: space;" class=3D""><div dir=3D"auto" style=3D"letter-spaci=
+ng: normal; text-align: start; text-indent: 0px; text-transform: none; white=
+-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; word-wrap=
+: break-word; -webkit-nbsp-mode: space;" class=3D"">Respectfully, &nbsp;&nbs=
+p;<br class=3D""><br class=3D"">&nbsp;<br class=3D"">Sam Tehranchi<br class=3D=
+""><br class=3D"">&nbsp;<br class=3D"">COO<br class=3D"">Custom Mortgage and=
+ Realty&nbsp;<br class=3D"">NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br cl=
+ass=3D"">&nbsp;<br class=3D"">Direct 310.709.6304 -Efax 866.421.7694&nbsp;<b=
+r class=3D""><br class=3D""><a href=3D"mailto:sam@c-mtg.com" class=3D"">sam@=
+c-mtg.com</a>&nbsp;-&nbsp;<a href=3D"http://www.c-mtg.com/" class=3D"">www.c=
+-mtg.com</a><br class=3D""><br class=3D""><a href=3D"https://www.linkedin.co=
+m/company-beta/3477964" class=3D"">LinkedIn</a>&nbsp;-&nbsp;<a href=3D"https=
+://www.facebook.com/Custom-Mortgage-409842885783868/" class=3D"">Facebook</a=
+>&nbsp;-&nbsp;<a href=3D"https://twitter.com/custommortgage1" class=3D"">twi=
+tter</a>&nbsp;-&nbsp;<a href=3D"https://www.instagram.com/custommortgageinc/=
+" class=3D"">Instagram</a><br class=3D""><br class=3D""></div></div>
+</div>
+
+<div class=3D""><br class=3D""><blockquote type=3D"cite" class=3D""><div cla=
+ss=3D"">Begin forwarded message:</div><br class=3D"Apple-interchange-newline=
+"><div style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; marg=
+in-left: 0px;" class=3D""><span style=3D"font-family: -webkit-system-font, '=
+Helvetica Neue', Helvetica, sans-serif;" class=3D""><b class=3D"">From: </b>=
+</span><span style=3D"font-family: -webkit-system-font, Helvetica Neue, Helv=
+etica, sans-serif;" class=3D"">Eve Sanchez &lt;<a href=3D"mailto:eve@c-mtg.c=
+om" class=3D"">eve@c-mtg.com</a>&gt;<br class=3D""></span></div><div style=3D=
+"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;" c=
+lass=3D""><span style=3D"font-family: -webkit-system-font, 'Helvetica Neue',=
+ Helvetica, sans-serif;" class=3D""><b class=3D"">Subject: </b></span><span s=
+tyle=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica, sans-se=
+rif;" class=3D""><b class=3D"">Re: 6723019811.ROMBOLI - LOAN STATUS UPDATE /=
+ PENDING UW CONDITIONS</b><br class=3D""></span></div><div style=3D"margin-t=
+op: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;" class=3D"=
+"><span style=3D"font-family: -webkit-system-font, 'Helvetica Neue', Helveti=
+ca, sans-serif;" class=3D""><b class=3D"">Date: </b></span><span style=3D"fo=
+nt-family: -webkit-system-font, Helvetica Neue, Helvetica, sans-serif;" clas=
+s=3D"">July 3, 2018 at 12:30:12 PM PDT<br class=3D""></span></div><div style=
+=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px=
+;" class=3D""><span style=3D"font-family: -webkit-system-font, 'Helvetica Ne=
+ue', Helvetica, sans-serif;" class=3D""><b class=3D"">To: </b></span><span s=
+tyle=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica, sans-se=
+rif;" class=3D"">"\"Sam Tehranchi\"" &lt;<a href=3D"mailto:sam@c-mtg.com" cl=
+ass=3D"">sam@c-mtg.com</a>&gt;<br class=3D""></span></div><br class=3D""><di=
+v class=3D""><meta content=3D"text/html;charset=3DUTF-8" http-equiv=3D"Conte=
+nt-Type" class=3D""><div class=3D""><div style=3D"font-size:10pt;font-family=
+:Verdana,Arial,Helvetica,sans-serif;" class=3D""><div class=3D"">The payoff i=
+n our file expired on 7/1. Do you still want me to send it to them?<br class=
+=3D""></div><div class=3D""><br class=3D""></div><div class=3D"">I will requ=
+est updated payoff now. <br class=3D""></div><div class=3D""><br class=3D"">=
+</div><div id=3D"Zm-_Id_-Sgn" class=3D""><div class=3D"">Respectfully,<br cl=
+ass=3D""></div><div class=3D""><i class=3D"">Evelyn Sanchez</i><br class=3D"=
+"></div><div class=3D""><div class=3D"">Loan <i class=3D"">Processor<br clas=
+s=3D""></i><b class=3D"">Custom Mortgage&nbsp;</b></div><div class=3D""><div=
+ class=3D""><b class=3D""><span id=3D"cid:0.28873822020.5898509052322309842.=
+164619faeb5__inline__img__src" class=3D"">&lt;1.png&gt;</span></b><br class=3D=
+""></div><div class=3D""><div class=3D"">Direct: 818-384-7653<br class=3D"">=
+</div><div class=3D"">Fax: 866-421-7694<br class=3D""></div></div><div class=
+=3D""><div class=3D"">Email: <u class=3D""><a href=3D"mailto:Karen@c-mtg.com=
+" target=3D"_blank" class=3D"">Eve@c-mtg.com</a></u><br class=3D""></div></d=
+iv></div></div><div class=3D""><br class=3D""></div></div><div class=3D""><b=
+r class=3D""></div><div class=3D"zmail_extra"><div id=3D"Zm-_Id_-Sgn1" class=
+=3D""><div class=3D""><br class=3D""></div><div class=3D"">---- On Tue, 03 J=
+ul 2018 12:27:36 -0700&nbsp;<b class=3D"">Sam Tehranchi &lt;<a href=3D"mailt=
+o:sam@c-mtg.com" class=3D"">sam@c-mtg.com</a>&gt;</b> wrote ----<br class=3D=
+""></div></div><div class=3D""><br class=3D""></div><blockquote style=3D"bor=
+der-left: 1px solid #cccccc; padding-left: 6px; margin:0 0 0 5px" class=3D""=
+><div class=3D"" style=3D""><div class=3D"">Can you please get the payoff to=
+ the title company, they say 1.9 but he only owes 1.55.<br class=3D""></div>=
+<div class=3D""><div class=3D""><br class=3D""></div><div class=3D""><div cl=
+ass=3D"" style=3D"letter-spacing: normal; text-indent: 0px; text-transform: n=
+one; white-space: normal; word-spacing: 0px; text-decoration: none;" dir=3D"=
+auto"><div class=3D"" style=3D"letter-spacing: normal; text-indent: 0px; tex=
+t-transform: none; white-space: normal; word-spacing: 0px;" dir=3D"auto"><di=
+v class=3D"">Respectfully, &nbsp;&nbsp;<br class=3D""></div><div class=3D"">=
+<br class=3D""></div><div class=3D"">&nbsp;<br class=3D""></div><div class=3D=
+"">Sam Tehranchi<br class=3D""></div><div class=3D""><br class=3D""></div><d=
+iv class=3D"">&nbsp;<br class=3D""></div><div class=3D"">COO<br class=3D""><=
+/div><div class=3D"">Custom Mortgage and Realty&nbsp;<br class=3D""></div><d=
+iv class=3D"">NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br class=3D""></div=
+><div class=3D"">&nbsp;<br class=3D""></div><div class=3D"">Direct 310.709.6=
+304 -Efax 866.421.7694&nbsp;<br class=3D""></div><div class=3D""><br class=3D=
+""></div><div class=3D""><a target=3D"_blank" class=3D"" href=3D"mailto:sam@=
+c-mtg.com">sam@c-mtg.com</a>&nbsp;-&nbsp;<a target=3D"_blank" class=3D"" hre=
+f=3D"http://www.c-mtg.com/">www.c-mtg.com</a><br class=3D""></div><div class=
+=3D""><br class=3D""></div><div class=3D""><a target=3D"_blank" class=3D"" h=
+ref=3D"https://www.linkedin.com/company-beta/3477964">LinkedIn</a>&nbsp;-&nb=
+sp;<a target=3D"_blank" class=3D"" href=3D"https://www.facebook.com/Custom-M=
+ortgage-409842885783868/">Facebook</a>&nbsp;-&nbsp;<a target=3D"_blank" clas=
+s=3D"" href=3D"https://twitter.com/custommortgage1">twitter</a>&nbsp;-&nbsp;=
+<a target=3D"_blank" class=3D"" href=3D"https://www.instagram.com/custommort=
+gageinc/">Instagram</a><br class=3D""></div></div></div></div><div class=3D"=
+"><div class=3D""><br class=3D""></div><blockquote class=3D""><div class=3D"=
+">On Jul 3, 2018, at 12:26 PM, Eve Sanchez &lt;<a target=3D"_blank" class=3D=
+"" href=3D"mailto:eve@c-mtg.com">eve@c-mtg.com</a>&gt; wrote:<br class=3D"">=
+</div><div class=3D""><br class=3D""></div><div class=3D""><span class=3D"">=
+&lt;Romboli Revised estimate 7.3.pdf&gt;</span><br class=3D""></div></blockq=
+uote></div></div></div><div class=3D"" style=3D""><div class=3D""><br class=3D=
+""></div></div></blockquote></div><div class=3D""><br class=3D""></div></div=
+><br class=3D""></div></div></blockquote></div><br class=3D""></div></div></=
+div></blockquote></div><br class=3D""></div></div></div></blockquote></div><=
+br class=3D""></div></div></blockquote></body></html>=
+
+--Apple-Mail-E25827F7-F208-493F-B832-3911AD119F4C--

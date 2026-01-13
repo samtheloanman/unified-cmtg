@@ -1,0 +1,160 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: pass (zoho.com: domain of _spf.google.com designates 209.85.220.179 as permitted sender) client-ip=209.85.220.179; envelope-from=custommtg23@gmail.com; helo=mail-qk0-f179.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zoho.com: domain of _spf.google.com designates 209.85.220.179 as permitted sender)  smtp.mailfrom=custommtg23@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+Received: from mail-qk0-f179.google.com (mail-qk0-f179.google.com [209.85.220.179]) by mx.zohomail.com
+	with SMTPS id 1531779453571451.2278633341896; Mon, 16 Jul 2018 15:17:33 -0700 (PDT)
+Received: by mail-qk0-f179.google.com with SMTP id y4-v6so21327816qka.5
+        for <sam@c-mtg.com>; Mon, 16 Jul 2018 15:17:33 -0700 (PDT)
+Return-Path: <custommtg23@gmail.com>
+Return-Path: <custommtg23@gmail.com>
+Received: from [127.0.1.1] ([162.243.111.131])
+        by smtp.gmail.com with ESMTPSA id j20-v6sm27421282qtc.71.2018.07.16.15.17.31
+        for <sam@c-mtg.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 16 Jul 2018 15:17:31 -0700 (PDT)
+Return-Path: bounce-1169-crm.lead-2201@c-mtg.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:mime-version:message-id:references:subject:reply-to:to:date;
+        bh=6OuXeXYHaA0z686Aw2occyLMKzT5iAUwE9uHNDb8Jz8=;
+        b=HtIK4DhjM8bDrmZi4SOWEvnpE7SCpZZa6queiW1ANRxG1TeHSuIE87Im1a1R9J1Na3
+         NrKjA3BukuVS4WBUH7Mks39bISQtDSoWx9V7ggAiQrzFqUl8BOiDQPsriyJvHJO+8PAG
+         NVHNUG+M5mLngvECD3MR+0RykkXdrTETUhfXN+1qG1YvILd7x2Kuf3bdtr/Q1s6v4fUe
+         iao++DkcRT8DIv0CQBfBdUeNXNw1pl+x0eYnCdcbxWPYqqk7d8TSQec1Wr5Xk3D0V/x+
+         7DxbAR3nLWq9Vbuy/QFy/mt/Pl2VZOhE5C5w+FJ/66PjviYqqWHPp508k7CIntAvwal6
+         xMSw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:message-id:references:subject
+         :reply-to:to:date;
+        bh=6OuXeXYHaA0z686Aw2occyLMKzT5iAUwE9uHNDb8Jz8=;
+        b=KP/ywpbedliax+tcq27llYtAvtIzk6zjMOzY/+2ybwYSUjvTleYQ4p1My8XHwGVMO3
+         WYZ4yNMO4nXrWTg4HRwJnbl2N5lYj17dWFOLuebIJHO+oCq1dzULuqPTfWFibrYo+RH/
+         o4ZvUfCnszVc+ATmA2cbrO/3VY/+wrZg93OuiiEkGJAPAG1LEy+mtlcBZ/nVnGXbParU
+         aiuttsQJ+2ixqyQdDtiggXck5iSuzltW68TW4gorE4rwlVObg16RYgjM88nTOR/Xk3vX
+         2/P8bJWDbGzDmLfd0sEljkM9NnV76JjfFJCTxLsaBY0ddFjLJ58+ZsFO6TnLZ2wNQeBO
+         rblw==
+X-Gm-Message-State: AOUpUlEO/mp51xr9LErsWsj0bRx5db3iNtDbswgRgtn4Wgfs3rDzEV75
+	1kZPo0YPk/fnB83SLzAS2onI4Vee
+X-Google-Smtp-Source: AAOMgpcG8Cwsup1yYkHyQKMu9qqgyxVgjlzMBTVVLRIyIUqf8d+M744L9zWH1gu3juGwztv6dNxYbg==
+X-Received: by 2002:a37:7882:: with SMTP id t124-v6mr15689824qkc.367.1531779452217;
+        Mon, 16 Jul 2018 15:17:32 -0700 (PDT)
+From: Cinthia Barone <custommtg23@gmail.com>
+X-Google-Original-From: Cinthia Barone <cinthia@c-mtg.com>
+Content-Type: multipart/mixed; boundary="===============5593419540508287621=="
+MIME-Version: 1.0
+Message-ID:<1531779457.615118026733398.762712749381902-openerp-2201-crm.lead@cmtg-ubuntu-1gb-nyc2-01>
+references: <1531427781.634566068649292.816956204307814-openerp-2201-crm.lead@cmtg-ubuntu-1gb-nyc2-01>
+Subject: Re: 4724 W. 162nd St, Lawndale, CA 90260
+Reply-To: Custom Mortgage Direct Sales <sales@c-mtg.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+Date: Mon, 16 Jul 2018 22:17:37 -0000
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail: RDKM_0  RSF_0  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_0 S_167 FRD_DI SPK
+X-ZM-MESSAGEID: 1531779453959100001
+X-ZohoMail-Status: 1
+
+
+--===============5593419540508287621==
+Content-Type: multipart/alternative;
+ boundary="===============7382660770503531006=="
+MIME-Version: 1.0
+
+--===============7382660770503531006==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+CgoKCgoKVmlldyBMZWFkL09wcG9ydHVuaXR5IFsxXQpVbmZvbGxvdyBbMl0KCk5vbmUgWzNdKldv
+bioKfApOb25lIFs0XSpMb3N0KgoKCgoKCgoKCgoKClVwbG9hZGVkIGZpbGUgdG8gSW1wYWMKd29y
+a2luZyBvbiB0aGUgc3VibWlzc2lvbiBwYWNrZXQgZm9yIHRoaXMgbG9hbi4KCgoKCgotLQpDaW50
+aGlhIEJhcm9uZQoKCgoKClsxXSBodHRwOi8vY3JtLmMtbXRnLmNvbS9tYWlsL3ZpZXc/bWVzc2Fn
+ZV9pZD0xMzQxMgpbMl0gaHR0cDovL2NybS5jLW10Zy5jb20vbWFpbC91bmZvbGxvdz9tb2RlbD1j
+cm0ubGVhZCZyZXNfaWQ9MjIwMSZ0b2tlbj0wNjY0NzY1OTdkN2FlMGM2Y2VlMTgyNTAyNmU5ZWM1
+NGNiMTUzZmI5ClszXSBodHRwOi8vY3JtLmMtbXRnLmNvbS9sZWFkL2Nhc2VfbWFya193b24/dG9r
+ZW49NmUwOTU1YmIxOWZhZDY0NTEwODY1NDM3MTk5YjQ0MjAzNmI2NGI1ZCZyZXNfaWQ9MjIwMQpb
+NF0gaHR0cDovL2NybS5jLW10Zy5jb20vbGVhZC9jYXNlX21hcmtfbG9zdD90b2tlbj1iNzUzOTZk
+ZDA3ODE5NTgyODA5NzIwYmZhMGYxZDViNWVmYTA2Njc2JnJlc19pZD0yMjAxCg==
+
+--===============7382660770503531006==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+PGJhc2UgaHJlZj0naHR0cDovL2NybS5jLW10Zy5jb20nPgo8ZGl2IGl0ZW1zY29wZSBpdGVtdHlw
+ZT0iaHR0cDovL3NjaGVtYS5vcmcvRW1haWxNZXNzYWdlIj4KICAgIDxkaXYgaXRlbXByb3A9InBv
+dGVudGlhbEFjdGlvbiIgaXRlbXNjb3BlIGl0ZW10eXBlPSJodHRwOi8vc2NoZW1hLm9yZy9WaWV3
+QWN0aW9uIj4KICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgIDwvZGl2Pgo8L2Rpdj4KPGRp
+diBzdW1tYXJ5PSJvX21haWxfbm90aWZpY2F0aW9uIiBzdHlsZT0icGFkZGluZzowcHg7IHdpZHRo
+OjYwMHB4OyBtYXJnaW46MCBhdXRvOyBiYWNrZ3JvdW5kOiAjRkZGRkZGIHJlcGVhdCB0b3AgLzEw
+MCU7IGNvbG9yOiM3Nzc3NzciPgogICAgPHRhYmxlIGNlbGxzcGFjaW5nPSIwIiBjZWxscGFkZGlu
+Zz0iMCIgc3R5bGU9IndpZHRoOjYwMHB4OyBib3JkZXItY29sbGFwc2U6Y29sbGFwc2U7IGJhY2tn
+cm91bmQ6aW5oZXJpdDsgY29sb3I6aW5oZXJpdCI+CiAgICAgICAgPHRib2R5Pjx0cj4KICAgICAg
+ICAgICAgPHRkIHZhbGlnbj0iY2VudGVyIiB3aWR0aD0iMjcwIiBzdHlsZT0icGFkZGluZzo1cHgg
+MTBweCA1cHggNXB4O2ZvbnQtc2l6ZTogMzBweCI+CiAgICAgICAgICAgICAgICA8YSBocmVmPSJo
+dHRwOi8vY3JtLmMtbXRnLmNvbS9tYWlsL3ZpZXc/bWVzc2FnZV9pZD0xMzQxMiIgc3R5bGU9Ii13
+ZWJraXQtdXNlci1zZWxlY3Q6IG5vbmU7IHBhZGRpbmc6IDVweCAxMHB4OyBmb250LXNpemU6IDEy
+cHg7IGxpbmUtaGVpZ2h0OiAxOHB4OyBjb2xvcjogI0ZGRkZGRjsgYm9yZGVyLWNvbG9yOiNhMjQ2
+ODk7IHRleHQtZGVjb3JhdGlvbjogbm9uZTsgZGlzcGxheTogaW5saW5lLWJsb2NrOyBtYXJnaW4t
+Ym90dG9tOiAwcHg7IGZvbnQtd2VpZ2h0OiA0MDA7IHRleHQtYWxpZ246IGNlbnRlcjsgdmVydGlj
+YWwtYWxpZ246IG1pZGRsZTsgY3Vyc29yOiBwb2ludGVyOyB3aGl0ZS1zcGFjZTogbm93cmFwOyBi
+YWNrZ3JvdW5kLWltYWdlOiBub25lOyBiYWNrZ3JvdW5kLWNvbG9yOiAjYTI0Njg5OyBib3JkZXI6
+IDFweCBzb2xpZCAjYTI0Njg5OyBib3JkZXItcmFkaXVzOjNweCIgY2xhc3M9Im9fZGVmYXVsdF9z
+bmlwcGV0X3RleHQiPlZpZXcgTGVhZC9PcHBvcnR1bml0eTwvYT4KICAgICAgICAgICAgICAgIDxh
+IGhyZWY9Imh0dHA6Ly9jcm0uYy1tdGcuY29tL21haWwvdW5mb2xsb3c/bW9kZWw9Y3JtLmxlYWQm
+YW1wO3Jlc19pZD0yMjAxJmFtcDt0b2tlbj0wNjY0NzY1OTdkN2FlMGM2Y2VlMTgyNTAyNmU5ZWM1
+NGNiMTUzZmI5IiBzdHlsZT0iLXdlYmtpdC11c2VyLXNlbGVjdDogbm9uZTsgcGFkZGluZzogNXB4
+IDEwcHg7IGZvbnQtc2l6ZTogMTJweDsgbGluZS1oZWlnaHQ6IDE4cHg7IGNvbG9yOiAjRkZGRkZG
+OyBib3JkZXItY29sb3I6I2EyNDY4OTsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyBkaXNwbGF5OiBp
+bmxpbmUtYmxvY2s7IG1hcmdpbi1ib3R0b206IDBweDsgZm9udC13ZWlnaHQ6IDQwMDsgdGV4dC1h
+bGlnbjogY2VudGVyOyB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOyBjdXJzb3I6IHBvaW50ZXI7IHdo
+aXRlLXNwYWNlOiBub3dyYXA7IGJhY2tncm91bmQtaW1hZ2U6IG5vbmU7IGJhY2tncm91bmQtY29s
+b3I6ICNhMjQ2ODk7IGJvcmRlcjogMXB4IHNvbGlkICNhMjQ2ODk7IGJvcmRlci1yYWRpdXM6M3B4
+IiBjbGFzcz0ib19kZWZhdWx0X3NuaXBwZXRfdGV4dCI+VW5mb2xsb3c8L2E+CiAgICAgICAgICAg
+IDwvdGQ+CiAgICAgICAgICAgIDx0ZCB2YWxpZ249ImNlbnRlciIgYWxpZ249InJpZ2h0IiB3aWR0
+aD0iMjcwIiBzdHlsZT0icGFkZGluZzo1cHggMTVweCA1cHggMTBweDsgZm9udC1zaXplOiAxMnB4
+OyI+CiAgICAgICAgICAgICAgICA8cD4KICAgICAgICAgICAgICAgIDxhIGhyZWY9Imh0dHA6Ly9j
+cm0uYy1tdGcuY29tL2xlYWQvY2FzZV9tYXJrX3dvbj90b2tlbj02ZTA5NTViYjE5ZmFkNjQ1MTA4
+NjU0MzcxOTliNDQyMDM2YjY0YjVkJmFtcDtyZXNfaWQ9MjIwMSIgc3R5bGU9InRleHQtZGVjb3Jh
+dGlvbjpub25lOyBjb2xvcjogI2EyNDY4OTsiPjxzdHJvbmc+V29uPC9zdHJvbmc+PC9hPgogICAg
+ICAgICAgICAgICAgICAgIHwKICAgICAgICAgICAgICAgIDxhIGhyZWY9Imh0dHA6Ly9jcm0uYy1t
+dGcuY29tL2xlYWQvY2FzZV9tYXJrX2xvc3Q/dG9rZW49Yjc1Mzk2ZGQwNzgxOTU4MjgwOTcyMGJm
+YTBmMWQ1YjVlZmEwNjY3NiZhbXA7cmVzX2lkPTIyMDEiIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246
+bm9uZTsgY29sb3I6ICNhMjQ2ODk7Ij48c3Ryb25nPkxvc3Q8L3N0cm9uZz48L2E+CiAgICAgICAg
+ICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgPC90cj4KICAgIDwvdGJvZHk+
+PC90YWJsZT4KPC9kaXY+CjxkaXYgc3R5bGU9InBhZGRpbmc6MHB4OyB3aWR0aDo2MDBweDsgbWFy
+Z2luOjAgYXV0bzsgYmFja2dyb3VuZDogI0ZGRkZGRiByZXBlYXQgdG9wIC8xMDAlOyBjb2xvcjoj
+Nzc3Nzc3Ij4KICAgIDx0YWJsZSBjZWxsc3BhY2luZz0iMCIgY2VsbHBhZGRpbmc9IjAiIHN0eWxl
+PSJ2ZXJ0aWNhbC1hbGlnbjp0b3A7IHBhZGRpbmc6MHB4OyBib3JkZXItY29sbGFwc2U6Y29sbGFw
+c2U7IGJhY2tncm91bmQ6aW5oZXJpdDsgY29sb3I6aW5oZXJpdCI+CiAgICAgICAgPHRib2R5Pjx0
+cj4KICAgICAgICAgICAgPHRkIHZhbGlnbj0idG9wIiBzdHlsZT0id2lkdGg6NjAwcHg7IHBhZGRp
+bmc6NXB4IDEwcHggNXB4IDVweDsiPgogICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAg
+ICAgICAgICA8aHIgd2lkdGg9IjEwMCUiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOnJnYigyMDQs
+MjA0LDIwNCk7Ym9yZGVyOm1lZGl1bSBub25lO2NsZWFyOmJvdGg7ZGlzcGxheTpibG9jaztmb250
+LXNpemU6MHB4O21pbi1oZWlnaHQ6MXB4O2xpbmUtaGVpZ2h0OjA7bWFyZ2luOjE1cHggYXV0bztw
+YWRkaW5nOjAiPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvdGQ+CiAgICAg
+ICAgPC90cj48L3Rib2R5PgogICAgPC90YWJsZT4KPC9kaXY+CjxkaXYgc3R5bGU9InBhZGRpbmc6
+MHB4OyB3aWR0aDo2MDBweDsgbWFyZ2luOjAgYXV0bzsgYmFja2dyb3VuZDogI0ZGRkZGRiByZXBl
+YXQgdG9wIC8xMDAlO2NvbG9yOiM3Nzc3NzciPgogICAgPHRhYmxlIGNlbGxzcGFjaW5nPSIwIiBj
+ZWxscGFkZGluZz0iMCIgYm9yZGVyPSIwIiBzdHlsZT0ibWFyZ2luOiAwIGF1dG87IHdpZHRoOjYw
+MHB4OyBib3JkZXItY29sbGFwc2U6Y29sbGFwc2U7IGJhY2tncm91bmQ6aW5oZXJpdDsgY29sb3I6
+aW5oZXJpdCI+CiAgICAgICAgPHRib2R5Pjx0cj4KICAgICAgICAgICAgPHRkIHN0eWxlPSJwYWRk
+aW5nOjVweCAxMHB4IDVweCA1cHg7Zm9udC1zaXplOiAxNHB4OyI+CiAgICAgICAgICAgICAgICA8
+cD5VcGxvYWRlZCBmaWxlIHRvIEltcGFjIDxicj48YnI+d29ya2luZyBvbiB0aGUgc3VibWlzc2lv
+biBwYWNrZXQgZm9yIHRoaXMgbG9hbi48L3A+CiAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgPC90
+cj48L3Rib2R5PgogICAgPC90YWJsZT4KPC9kaXY+CjxkaXYgc3R5bGU9InBhZGRpbmc6MHB4OyB3
+aWR0aDo2MDBweDttYXJnaW46MCBhdXRvOyBiYWNrZ3JvdW5kOiAjRkZGRkZGIHJlcGVhdCB0b3Ag
+LzEwMCU7Y29sb3I6Izc3Nzc3NyI+CiAgICA8dGFibGUgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRk
+aW5nPSIwIiBib3JkZXI9IjAiIHN0eWxlPSJtYXJnaW46IDAgYXV0bzsgd2lkdGg6NjAwcHg7IGJv
+cmRlci1jb2xsYXBzZTpjb2xsYXBzZTsgYmFja2dyb3VuZDppbmhlcml0OyBjb2xvcjppbmhlcml0
+Ij4KICAgICAgICA8dGJvZHk+PHRyPgogICAgICAgICAgICA8dGQgc3R5bGU9InBhZGRpbmc6NXB4
+IDEwcHggNXB4IDVweDtmb250LXNpemU6IDE0cHg7IHRleHQtYWxpZ246IGxlZnQ7Ij4KICAgICAg
+ICAgICAgICAgIDxwPi0tIDxicj5DaW50aGlhIEJhcm9uZTwvcD4KICAgICAgICAgICAgPC90ZD4K
+ICAgICAgICA8L3RyPjwvdGJvZHk+CiAgICA8L3RhYmxlPgo8L2Rpdj4KCg==
+
+--===============7382660770503531006==--
+
+--===============5593419540508287621==--

@@ -1,0 +1,369 @@
+Delivered-To: sam@c-mtg.com
+Received-SPF: none (zoho.com: 209.85.215.171 is neither permitted nor denied by domain of domm.life) client-ip=209.85.215.171; envelope-from=todd@domm.life; helo=mail-pg1-f171.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=none (zoho.com: 209.85.215.171 is neither permitted nor denied by domain of domm.life)  smtp.mailfrom=todd@domm.life
+Received: from mail-pg1-f171.google.com (mail-pg1-f171.google.com [209.85.215.171]) by mx.zohomail.com
+	with SMTPS id 1531230845360472.31981089227827; Tue, 10 Jul 2018 06:54:05 -0700 (PDT)
+Received: by mail-pg1-f171.google.com with SMTP id n2-v6so2044454pgq.6
+        for <sam@c-mtg.com>; Tue, 10 Jul 2018 06:54:05 -0700 (PDT)
+Return-Path: <todd@domm.life>
+Return-Path: <todd@domm.life>
+Received: from ?IPv6:2600:380:7539:9120:3c3b:3c4c:525a:68b5? ([2600:380:7539:9120:3c3b:3c4c:525a:68b5])
+        by smtp.gmail.com with ESMTPSA id d9-v6sm20186143pfb.86.2018.07.10.06.54.03
+        for <sam@c-mtg.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 10 Jul 2018 06:54:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domm-life.20150623.gappssmtp.com; s=20150623;
+        h=from:content-transfer-encoding:mime-version:date:subject:message-id
+         :references:in-reply-to:to;
+        bh=9TVAsqJOMBPuA25BPclRUPPFyyZNmzSpTP6aLsnZdpo=;
+        b=eD8jdpOy5cLgq+WLr2TPY+XIL7vmotCK9YoDqRSTZ0g2lTfPIGepUPG2liheTyPekb
+         zXancn9lORY+EmNU/cLQvbXzEpeR2tQEResyg+qO+L2PG+uc+vbxLxGuKlrYKSYKwUWT
+         otKAH1orsc3o8r1d+YAUVJYHGkwRHihOe4SPdCmlgie6YLJzHCmjH5DlDuORkxOGmjJ9
+         vv1nutbghsw3DkeB8kVw7XF/axmum7kQPvZu5C29lMxKu9wSrtOSkiA7G0CmZJdKDnAG
+         /OWc5YiyEmEnlwuZSe7HQ4zZd+e/YupfGLKPZPF5NnagG15FQd4r9CrhGp7/WK0zR6rl
+         XufQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:content-transfer-encoding:mime-version:date
+         :subject:message-id:references:in-reply-to:to;
+        bh=9TVAsqJOMBPuA25BPclRUPPFyyZNmzSpTP6aLsnZdpo=;
+        b=Pk87h1pbIeQKfY8oD3CBsLC91daU34izwgj+Haq/E2DtcT9pgGagizirjnJn9/ss6p
+         gJ4sHCP/HTPEsxrIurYe8TKpHxYuCQCBcFlJVjsBAux+Jv+66eCyHgNPA1At0oE/UjYg
+         jw4+LKTY81ovoClcZ1PkZSIa8EK7hkYB0siaz482FHG/XXWN4YxJLbVtImsc8hv+kgZW
+         1TQJ4etDS76kA24y7H/OFF7slrlqxiLChS5AxnENadEqx4yFoUSx9l3Yu8VZFoYB5vFg
+         wL+cQWF9NPA/g0fGdeOePzPEZchJhmSP96rH/bhkP3q5ymw4IyY/fq315g5dEnn3gdNA
+         Z0CQ==
+X-Gm-Message-State: APt69E3WgAMMV9Q8VxEA2LJvL2OITEIYxa5m4UYCw/V1XGyuUx9DyNar
+	WNIQVRBUEHDB78bdSnoL5q2yVKQ7Mic=
+X-Google-Smtp-Source: AAOMgpcMSh0kgkje2n7ND6l0AJcK1G1sv3IsoF1XbfdsUHdDf/HB8Pcw/JoCv1oCHfBnjPJZKtwotg==
+X-Received: by 2002:a63:440a:: with SMTP id r10-v6mr22610749pga.27.1531230844607;
+        Tue, 10 Jul 2018 06:54:04 -0700 (PDT)
+From: Todd Romboli <todd@domm.life>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-118776D2-67D5-4B5F-A494-E4065DB2E443
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0
+Date: Tue, 10 Jul 2018 06:54:02 -0700
+Subject: Re:
+Message-ID:<1F3E7853-665C-449C-9E82-A1426D8DB72A@domm.life>
+References: <DBBFA9A0-1BC0-41E9-A10C-4641DE4D0D89@domm.life> <7653C754-D8B8-4FAF-8C95-10DA4B27ECC9@c-mtg.com> <4B9040C8-7C38-4416-B1FB-20718DE235CF@domm.life> <7FF41388-9623-4A1B-9319-4A70DEC4E9CD@c-mtg.com>
+In-Reply-To: <7FF41388-9623-4A1B-9319-4A70DEC4E9CD@c-mtg.com>
+To: Sam Tehranchi <sam@c-mtg.com>
+X-Mailer: iPhone Mail (15F79)
+X-ZohoMail-DKIM: pass (identity @domm-life.20150623.gappssmtp.com)
+X-ZohoMail: RDKM_0  RSF_4  Z_33125594 SPT_1 Z_33131583 SPT_1 UDT_5 RF_1 S_166 FRD_HI
+X-ZM-MESSAGEID: 1531230846121100001
+X-ZohoMail-Status: 1
+
+
+
+--Apple-Mail-118776D2-67D5-4B5F-A494-E4065DB2E443
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Wells Fargo=20
+
+Todd Romboli
+CEO=20
+p 312.543.1006
+f 772.264.5882
+Domm.Life
+3123 E Thomas Rd
+Phoenix, AZ 85016
+
+CONFIDENTIALITY NOTICE: This e-mail message and any attachments are for the s=
+ole use of the intended recipient(s) and may contain proprietary, confidenti=
+al, trade secret or privileged information. Any unauthorized review, use, di=
+sclosure or distribution is prohibited and may be a violation of law. If you=
+ are not the intended recipient or a person responsible for delivering this m=
+essage to an intended recipient, please contact the sender by reply email an=
+d destroy all copies of the original message.
+
+
+> On Jul 9, 2018, at 8:46 PM, Sam Tehranchi <sam@c-mtg.com> wrote:
+>=20
+> Are you referring to the Comamerica account?
+>=20
+> Do you have the wiring instruction to send me again?  Not sure which one y=
+our referring to : (
+>=20
+> Respectfully,  =20
+>=20
+> =20
+> Sam Tehranchi
+>=20
+> =20
+> COO
+> Custom Mortgage and Realty=20
+> NMLS CA # 1556995 - BRE CA # 02018146
+> =20
+> Direct 310.709.6304 -Efax 866.421.7694=20
+>=20
+> sam@c-mtg.com - www.c-mtg.com
+>=20
+> LinkedIn - Facebook - twitter - Instagram
+>=20
+>=20
+>> On Jul 9, 2018, at 6:15 PM, Todd Romboli <todd@domm.life> wrote:
+>>=20
+>> Cool.=20
+>> If possible please use the wiring instructions I gave you=F0=9F=99=8F=F0=9F=
+=8F=BD=F0=9F=99=8F=F0=9F=8F=BD
+>> The guy had me give them
+>> Checking info and sometimes with just my checking info the wire gets lost=
+.=20
+>> So fed ref Number is a must and the wiring instructions I sent you if pos=
+sible =F0=9F=99=8F=F0=9F=8F=BD
+>> Todd Romboli
+>> CEO=20
+>> p 312.543.1006
+>> f 772.264.5882
+>> Domm.Life
+>> 3123 E Thomas Rd
+>> Phoenix, AZ 85016
+>>=20
+>> CONFIDENTIALITY NOTICE: This e-mail message and any attachments are for t=
+he sole use of the intended recipient(s) and may contain proprietary, confid=
+ential, trade secret or privileged information. Any unauthorized review, use=
+, disclosure or distribution is prohibited and may be a violation of law. If=
+ you are not the intended recipient or a person responsible for delivering t=
+his message to an intended recipient, please contact the sender by reply ema=
+il and destroy all copies of the original message.
+>>=20
+>>=20
+>>> On Jul 9, 2018, at 5:59 PM, Sam Tehranchi <sam@c-mtg.com> wrote:
+>>>=20
+>>> Will do, funding didn=E2=80=99t happen today, so we should have it tomor=
+row for sure : )
+>>>=20
+>>> Respectfully,  =20
+>>>=20
+>>> =20
+>>> Sam Tehranchi
+>>>=20
+>>> =20
+>>> COO
+>>> Custom Mortgage and Realty=20
+>>> NMLS CA # 1556995 - BRE CA # 02018146
+>>> =20
+>>> Direct 310.709.6304 -Efax 866.421.7694=20
+>>>=20
+>>> sam@c-mtg.com - www.c-mtg.com
+>>>=20
+>>> LinkedIn - Facebook - twitter - Instagram
+>>>=20
+>>>=20
+>>>> On Jul 9, 2018, at 5:58 PM, Todd Romboli <todd@domm.life> wrote:
+>>>>=20
+>>>> Please let me know when you get a Fed Reference number for my wire =F0=9F=
+=99=8F=F0=9F=8F=BD
+>>>>=20
+>>>> Todd Romboli
+>>>> CEO=20
+>>>> p 312.543.1006
+>>>> f 772.264.5882
+>>>> Domm.Life
+>>>> 3123 E Thomas Rd
+>>>> Phoenix, AZ 85016
+>>>>=20
+>>>> CONFIDENTIALITY NOTICE: This e-mail message and any attachments are for=
+ the sole use of the intended recipient(s) and may contain proprietary, conf=
+idential, trade secret or privileged information. Any unauthorized review, u=
+se, disclosure or distribution is prohibited and may be a violation of law. I=
+f you are not the intended recipient or a person responsible for delivering t=
+his message to an intended recipient, please contact the sender by reply ema=
+il and destroy all copies of the original message.
+>>>>=20
+>>>=20
+> <Screen Shot 2018-07-09 at 8.45.12 PM.png>
+
+--Apple-Mail-118776D2-67D5-4B5F-A494-E4065DB2E443
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto">Wells Fargo&nbsp;<br><br><div id=3D"AppleMa=
+ilSignature"><div class=3D"" style=3D"word-wrap: break-word;"><div class=3D"=
+"><div class=3D"" style=3D"margin: 0in 0in 0.0001pt;"><font class=3D""><span=
+ class=3D"" style=3D"background-color: rgba(255, 255, 255, 0);">Todd Romboli=
+</span></font></div><div class=3D"" style=3D"margin: 0in 0in 0.0001pt;"><spa=
+n class=3D"" style=3D"background-color: rgba(255, 255, 255, 0);">CEO&nbsp;</=
+span></div><div class=3D"" style=3D"margin: 0in 0in 0.0001pt;"><span class=3D=
+"" style=3D"background-color: rgba(255, 255, 255, 0);">p 312.543.1006</span>=
+</div><div class=3D"" style=3D"margin: 0in 0in 0.0001pt;"><span class=3D"" s=
+tyle=3D"background-color: rgba(255, 255, 255, 0);">f 772.264.5882</span></di=
+v><div class=3D"" style=3D"margin: 0in 0in 0.0001pt;"><span class=3D"" style=
+=3D"background-color: rgba(255, 255, 255, 0);"><a href=3D"http://www.domm.io=
+/" class=3D"">D</a>omm.Life</span></div><div class=3D"" style=3D"margin: 0in=
+ 0in 0.0001pt;"><span class=3D"" style=3D"background-color: rgba(255, 255, 2=
+55, 0);">3123 E Thomas Rd</span></div><div class=3D"" style=3D"margin: 0in 0=
+in 0.0001pt;"><span class=3D"" style=3D"background-color: rgba(255, 255, 255=
+, 0);">Phoenix, AZ 85016</span></div></div></div><div><span style=3D"backgro=
+und-color: rgba(255, 255, 255, 0);"><img src=3D"cid:e2206057-7418-437b-a00d-=
+f7b82a718a17@namprd17.prod.outlook.com" id=3D"e2206057-7418-437b-a00d-f7b82a=
+718a17@namprd17.prod.outlook.com" class=3D""></span></div><div style=3D"word=
+-wrap: break-word;"><div id=3D"x_AppleMailSignature"><span class=3D"x_Apple-=
+string-attachment" style=3D"background-color: rgba(255, 255, 255, 0);"></spa=
+n></div></div><div class=3D"" style=3D"word-wrap: break-word;"><div class=3D=
+""><span class=3D"" style=3D"float: none; display: inline !important; backgr=
+ound-color: rgba(255, 255, 255, 0);">CONFIDENTIALITY NOTICE: This e-mail&nbs=
+p;message and any attachments are for&nbsp;the sole use of the intended reci=
+pient(s)&nbsp;and may contain proprietary,&nbsp;confidential, trade secret o=
+r privileged&nbsp;information. Any unauthorized review,&nbsp;use, disclosure=
+ or distribution is&nbsp;prohibited and may be a violation of law.&nbsp;If y=
+ou are not the intended recipient or a&nbsp;person responsible for deliverin=
+g this&nbsp;message to an intended recipient,&nbsp;please contact the sender=
+ by reply email&nbsp;and destroy all copies of the original&nbsp;message.</s=
+pan></div><div><span class=3D"" style=3D"float: none; background-color: rgba=
+(255, 255, 255, 0); display: inline !important;"><br></span></div></div></di=
+v><div><br>On Jul 9, 2018, at 8:46 PM, Sam Tehranchi &lt;<a href=3D"mailto:s=
+am@c-mtg.com">sam@c-mtg.com</a>&gt; wrote:<br><br></div><blockquote type=3D"=
+cite"><div><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3D=
+utf-8">Are you referring to the Comamerica account?<div class=3D""><br class=
+=3D""></div><div class=3D"">Do you have the wiring instruction to send me ag=
+ain? &nbsp;Not sure which one your referring to : (</div><div class=3D""><br=
+ class=3D""><div class=3D"">
+<div dir=3D"auto" style=3D"caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); l=
+etter-spacing: normal; text-align: start; text-indent: 0px; text-transform: n=
+one; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px;=
+ text-decoration: none; word-wrap: break-word; -webkit-nbsp-mode: space; lin=
+e-break: after-white-space;" class=3D""><div dir=3D"auto" style=3D"color: rg=
+b(0, 0, 0); letter-spacing: normal; text-align: start; text-indent: 0px; tex=
+t-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stro=
+ke-width: 0px; word-wrap: break-word; -webkit-nbsp-mode: space; line-break: a=
+fter-white-space;" class=3D"">Respectfully, &nbsp;&nbsp;<br class=3D""><br c=
+lass=3D"">&nbsp;<br class=3D"">Sam Tehranchi<br class=3D""><br class=3D"">&n=
+bsp;<br class=3D"">COO<br class=3D"">Custom Mortgage and Realty&nbsp;<br cla=
+ss=3D"">NMLS CA # 1556995 - BRE CA #&nbsp;02018146<br class=3D"">&nbsp;<br c=
+lass=3D"">Direct 310.709.6304 -Efax 866.421.7694&nbsp;<br class=3D""><br cla=
+ss=3D""><a href=3D"mailto:sam@c-mtg.com" class=3D"">sam@c-mtg.com</a>&nbsp;-=
+&nbsp;<a href=3D"http://www.c-mtg.com" class=3D"">www.c-mtg.com</a><br class=
+=3D""><br class=3D""><a href=3D"https://www.linkedin.com/company-beta/347796=
+4" class=3D"">LinkedIn</a>&nbsp;-&nbsp;<a href=3D"https://www.facebook.com/C=
+ustom-Mortgage-409842885783868/" class=3D"">Facebook</a>&nbsp;-&nbsp;<a href=
+=3D"https://twitter.com/custommortgage1" class=3D"">twitter</a>&nbsp;-&nbsp;=
+<a href=3D"https://www.instagram.com/custommortgageinc/" class=3D"">Instagra=
+m</a><br class=3D""><br class=3D""></div></div>
+</div>
+<div><br class=3D""><blockquote type=3D"cite" class=3D""><div class=3D"">On J=
+ul 9, 2018, at 6:15 PM, Todd Romboli &lt;<a href=3D"mailto:todd@domm.life" c=
+lass=3D"">todd@domm.life</a>&gt; wrote:</div><br class=3D"Apple-interchange-=
+newline"><div class=3D""><meta http-equiv=3D"content-type" content=3D"text/h=
+tml; charset=3Dutf-8" class=3D""><div dir=3D"auto" class=3D"">Cool.&nbsp;<di=
+v class=3D"">If possible please use the wiring instructions I gave you=F0=9F=
+=99=8F=F0=9F=8F=BD=F0=9F=99=8F=F0=9F=8F=BD</div><div class=3D"">The guy had m=
+e give them</div><div class=3D"">Checking info and sometimes with just my ch=
+ecking info the wire gets lost.&nbsp;</div><div class=3D"">So fed ref Number=
+ is a must and the wiring instructions I sent you if possible =F0=9F=99=8F=F0=
+=9F=8F=BD</div><div class=3D""><span style=3D"background-color: rgba(255, 25=
+5, 255, 0);" class=3D"">Todd Romboli</span><br class=3D""><div class=3D""><d=
+iv class=3D"" style=3D"word-wrap: break-word;"><div class=3D""><div class=3D=
+"" style=3D"margin: 0in 0in 0.0001pt;"><span class=3D"" style=3D"background-=
+color: rgba(255, 255, 255, 0);">CEO&nbsp;</span></div><div class=3D"" style=3D=
+"margin: 0in 0in 0.0001pt;"><span class=3D"" style=3D"background-color: rgba=
+(255, 255, 255, 0);">p 312.543.1006</span></div><div class=3D"" style=3D"mar=
+gin: 0in 0in 0.0001pt;"><span class=3D"" style=3D"background-color: rgba(255=
+, 255, 255, 0);">f 772.264.5882</span></div><div class=3D"" style=3D"margin:=
+ 0in 0in 0.0001pt;"><span class=3D"" style=3D"background-color: rgba(255, 25=
+5, 255, 0);"><a href=3D"http://www.domm.io/" class=3D"">D</a>omm.Life</span>=
+</div><div class=3D"" style=3D"margin: 0in 0in 0.0001pt;"><span class=3D"" s=
+tyle=3D"background-color: rgba(255, 255, 255, 0);">3123 E Thomas Rd</span></=
+div><div class=3D"" style=3D"margin: 0in 0in 0.0001pt;"><span class=3D"" sty=
+le=3D"background-color: rgba(255, 255, 255, 0);">Phoenix, AZ 85016</span></d=
+iv></div></div><div class=3D""><span style=3D"background-color: rgba(255, 25=
+5, 255, 0);" class=3D""><img src=3D"cid:e2206057-7418-437b-a00d-f7b82a718a17=
+@namprd17.prod.outlook.com" id=3D"e2206057-7418-437b-a00d-f7b82a718a17@nampr=
+d17.prod.outlook.com" class=3D""></span></div><div style=3D"word-wrap: break=
+-word;" class=3D""><div id=3D"x_AppleMailSignature" class=3D""><span class=3D=
+"x_Apple-string-attachment" style=3D"background-color: rgba(255, 255, 255, 0=
+);"></span></div></div><div class=3D"" style=3D"word-wrap: break-word;"><div=
+ class=3D""><span class=3D"" style=3D"float: none; display: inline !importan=
+t; background-color: rgba(255, 255, 255, 0);">CONFIDENTIALITY NOTICE: This e=
+-mail&nbsp;message and any attachments are for&nbsp;the sole use of the inte=
+nded recipient(s)&nbsp;and may contain proprietary,&nbsp;confidential, trade=
+ secret or privileged&nbsp;information. Any unauthorized review,&nbsp;use, d=
+isclosure or distribution is&nbsp;prohibited and may be a violation of law.&=
+nbsp;If you are not the intended recipient or a&nbsp;person responsible for d=
+elivering this&nbsp;message to an intended recipient,&nbsp;please contact th=
+e sender by reply email&nbsp;and destroy all copies of the original&nbsp;mes=
+sage.</span></div><div class=3D""><span class=3D"" style=3D"float: none; bac=
+kground-color: rgba(255, 255, 255, 0); display: inline !important;"><br clas=
+s=3D""></span></div></div></div><div class=3D""><br class=3D"">On Jul 9, 201=
+8, at 5:59 PM, Sam Tehranchi &lt;<a href=3D"mailto:sam@c-mtg.com" class=3D""=
+>sam@c-mtg.com</a>&gt; wrote:<br class=3D""><br class=3D""></div><blockquote=
+ type=3D"cite" class=3D""><div class=3D""><meta http-equiv=3D"Content-Type" c=
+ontent=3D"text/html; charset=3Dutf-8" class=3D"">Will do, funding didn=E2=80=
+=99t happen today, so we should have it tomorrow for sure : )<div class=3D""=
+><br class=3D""><div class=3D"">
+<div dir=3D"auto" style=3D"caret-color: rgb(0, 0, 0); letter-spacing: normal=
+; text-align: start; text-indent: 0px; text-transform: none; white-space: no=
+rmal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: no=
+ne; word-wrap: break-word; -webkit-nbsp-mode: space; line-break: after-white=
+-space;" class=3D""><div dir=3D"auto" style=3D"letter-spacing: normal; text-=
+align: start; text-indent: 0px; text-transform: none; white-space: normal; w=
+ord-spacing: 0px; -webkit-text-stroke-width: 0px; word-wrap: break-word; -we=
+bkit-nbsp-mode: space; line-break: after-white-space;" class=3D"">Respectful=
+ly, &nbsp;&nbsp;<br class=3D""><br class=3D"">&nbsp;<br class=3D"">Sam Tehra=
+nchi<br class=3D""><br class=3D"">&nbsp;<br class=3D"">COO<br class=3D"">Cus=
+tom Mortgage and Realty&nbsp;<br class=3D"">NMLS CA # 1556995 - BRE CA #&nbs=
+p;02018146<br class=3D"">&nbsp;<br class=3D"">Direct 310.709.6304 -Efax 866.=
+421.7694&nbsp;<br class=3D""><br class=3D""><a href=3D"mailto:sam@c-mtg.com"=
+ class=3D"">sam@c-mtg.com</a>&nbsp;-&nbsp;<a href=3D"http://www.c-mtg.com/" c=
+lass=3D"">www.c-mtg.com</a><br class=3D""><br class=3D""><a href=3D"https://=
+www.linkedin.com/company-beta/3477964" class=3D"">LinkedIn</a>&nbsp;-&nbsp;<=
+a href=3D"https://www.facebook.com/Custom-Mortgage-409842885783868/" class=3D=
+"">Facebook</a>&nbsp;-&nbsp;<a href=3D"https://twitter.com/custommortgage1" c=
+lass=3D"">twitter</a>&nbsp;-&nbsp;<a href=3D"https://www.instagram.com/custo=
+mmortgageinc/" class=3D"">Instagram</a><br class=3D""><br class=3D""></div><=
+/div>
+</div>
+<div class=3D""><br class=3D""><blockquote type=3D"cite" class=3D""><div cla=
+ss=3D"">On Jul 9, 2018, at 5:58 PM, Todd Romboli &lt;<a href=3D"mailto:todd@=
+domm.life" class=3D"">todd@domm.life</a>&gt; wrote:</div><br class=3D"Apple-=
+interchange-newline"><div class=3D""><meta http-equiv=3D"content-type" conte=
+nt=3D"text/html; charset=3Dutf-8" class=3D""><div dir=3D"auto" class=3D"">Pl=
+ease let me know when you get a Fed Reference number for my wire =F0=9F=99=8F=
+=F0=9F=8F=BD<br class=3D""><br class=3D""><div class=3D""><div class=3D"" st=
+yle=3D"word-wrap: break-word;"><div class=3D""><div class=3D"" style=3D"marg=
+in: 0in 0in 0.0001pt;"><font class=3D""><span class=3D"" style=3D"background=
+-color: rgba(255, 255, 255, 0);">Todd Romboli</span></font></div><div class=3D=
+"" style=3D"margin: 0in 0in 0.0001pt;"><span class=3D"" style=3D"background-=
+color: rgba(255, 255, 255, 0);">CEO&nbsp;</span></div><div class=3D"" style=3D=
+"margin: 0in 0in 0.0001pt;"><span class=3D"" style=3D"background-color: rgba=
+(255, 255, 255, 0);">p 312.543.1006</span></div><div class=3D"" style=3D"mar=
+gin: 0in 0in 0.0001pt;"><span class=3D"" style=3D"background-color: rgba(255=
+, 255, 255, 0);">f 772.264.5882</span></div><div class=3D"" style=3D"margin:=
+ 0in 0in 0.0001pt;"><span class=3D"" style=3D"background-color: rgba(255, 25=
+5, 255, 0);"><a href=3D"http://www.domm.io/" class=3D"">D</a>omm.Life</span>=
+</div><div class=3D"" style=3D"margin: 0in 0in 0.0001pt;"><span class=3D"" s=
+tyle=3D"background-color: rgba(255, 255, 255, 0);">3123 E Thomas Rd</span></=
+div><div class=3D"" style=3D"margin: 0in 0in 0.0001pt;"><span class=3D"" sty=
+le=3D"background-color: rgba(255, 255, 255, 0);">Phoenix, AZ 85016</span></d=
+iv></div></div><div class=3D""><span style=3D"background-color: rgba(255, 25=
+5, 255, 0);" class=3D""><img src=3D"cid:e2206057-7418-437b-a00d-f7b82a718a17=
+@namprd17.prod.outlook.com" id=3D"e2206057-7418-437b-a00d-f7b82a718a17@nampr=
+d17.prod.outlook.com" class=3D""></span></div><div style=3D"word-wrap: break=
+-word;" class=3D""><div id=3D"x_AppleMailSignature" class=3D""><span class=3D=
+"x_Apple-string-attachment" style=3D"background-color: rgba(255, 255, 255, 0=
+);"></span></div></div><div class=3D"" style=3D"word-wrap: break-word;"><div=
+ class=3D""><span class=3D"" style=3D"float: none; display: inline !importan=
+t; background-color: rgba(255, 255, 255, 0);">CONFIDENTIALITY NOTICE: This e=
+-mail&nbsp;message and any attachments are for&nbsp;the sole use of the inte=
+nded recipient(s)&nbsp;and may contain proprietary,&nbsp;confidential, trade=
+ secret or privileged&nbsp;information. Any unauthorized review,&nbsp;use, d=
+isclosure or distribution is&nbsp;prohibited and may be a violation of law.&=
+nbsp;If you are not the intended recipient or a&nbsp;person responsible for d=
+elivering this&nbsp;message to an intended recipient,&nbsp;please contact th=
+e sender by reply email&nbsp;and destroy all copies of the original&nbsp;mes=
+sage.</span></div><div class=3D""><span class=3D"" style=3D"float: none; bac=
+kground-color: rgba(255, 255, 255, 0); display: inline !important;"><br clas=
+s=3D""></span></div></div></div></div></div></blockquote></div><br class=3D"=
+"></div></div></blockquote></div></div></div></blockquote></div>&lt;Screen S=
+hot 2018-07-09 at 8.45.12 PM.png&gt;</div></div></blockquote></body></html>=
+
+--Apple-Mail-118776D2-67D5-4B5F-A494-E4065DB2E443--
