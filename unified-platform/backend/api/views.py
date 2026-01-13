@@ -5,6 +5,8 @@ from rest_framework.decorators import api_view
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from django.views.decorators.csrf import csrf_exempt
+from django.utils.decorators import method_decorator
 
 from pricing.services.matching import LoanMatchingService
 
@@ -15,6 +17,7 @@ def health_check(request):
     return Response({'status': 'healthy'})
 
 
+@method_decorator(csrf_exempt, name='dispatch')
 class QuoteView(APIView):
     """
     Loan quote API endpoint.
@@ -48,6 +51,7 @@ class QuoteView(APIView):
     }
     """
 
+    authentication_classes = []
     permission_classes = [AllowAny]
 
     def post(self, request):
