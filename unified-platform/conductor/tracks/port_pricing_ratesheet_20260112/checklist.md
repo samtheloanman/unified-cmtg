@@ -18,12 +18,12 @@
 
 ## Phase 2: Pricing Engine Porting
 
-- [ ] Claude - Generate `Lender` model
-- [ ] Claude - Generate `LoanProgram` model  
-- [ ] Ralph - Unit tests for models
-- [ ] Claude - Port `get_matched_loan_programs_for_qual()` logic
-- [ ] Ralph - Unit tests for pricing logic
-- [ ] Claude - Create DRF API endpoints
+- [x] Claude - Generate `Lender` model
+- [x] Claude - Generate `LoanProgram` model  
+- [x] Ralph - Unit tests for models
+- [x] Claude - Port `get_matched_loan_programs_for_qual()` logic
+- [x] Ralph - Unit tests for pricing logic
+- [x] Claude - Create DRF API endpoints
 - [ ] Ralph - Integration tests
 
 ---

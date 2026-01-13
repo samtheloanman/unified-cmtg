@@ -9,6 +9,6 @@ urlpatterns = [
     path("django-admin/", admin.site.urls),
     path("admin/", include(wagtailadmin_urls)),
     path("documents/", include(wagtaildocs_urls)),
-    path("api/v1/health/", health_check),
+    path("api/v1/", include("api.urls")),
     path("", include(wagtail_urls)),
 ]
