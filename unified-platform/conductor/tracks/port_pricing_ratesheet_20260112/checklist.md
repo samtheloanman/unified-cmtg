@@ -43,10 +43,10 @@
 
 ## Phase 3.5: Browser-Testable State (IN PROGRESS)
 
-- [ ] Jules - Fix `/api/v1/quote/` URL routing
-- [ ] Jules - Frontend build verification (`npm run build`)
-- [ ] Jules - Seed data for demo (Lender, Program, Adjustments)
-- [ ] Jules - Full stack verification (backend + frontend)
+- [x] Jules - Created PR with fixes (URL routing, seed data, frontend)
+- [ ] Claude Code - Merge PR, resolve conflicts
+- [ ] Gemini CLI - Run integration tests
+- [ ] Jules - Frontend browser verification
 - [ ] Conductor - Browser test review
 
 ---
@@ -64,13 +64,13 @@
 
 | Agent | Current Task |
 |:---|:---|
-| Jules | **Phase 3.5**: Fix URL routing, seed data, browser test |
-| Claude | Standby (Phase 3 complete) |
-| Ralph | Integration Tests (after Jules fixes) |
+| Claude Code | **Merge Jules PR**, resolve conflicts |
+| Gemini CLI | Integration tests after merge |
+| Jules | Frontend verification after merge |
 | Antigravity | Orchestration |
 
 ---
 
-## Jules Prompt
+## Current Prompt
 
-See `conductor/jules_sprint_prompt.md` for detailed instructions.
+See `conductor/phase35_finalization.md` for merge instructions.
