@@ -74,6 +74,13 @@ MIDDLEWARE = [
     "wagtail.contrib.redirects.middleware.RedirectMiddleware",
 ]
 
+# CORS Settings
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "http://localhost:3001",
+]
+CORS_ALLOW_CREDENTIALS = True
+
 ROOT_URLCONF = "config.urls"
 
 TEMPLATES = [
