@@ -16,8 +16,8 @@ from django.db import models
 from django.utils.text import slugify
 
 from common.fields import ChoiceArrayField
+from common.models import TimestampedModel
 from pricing import choices
-from pricing.models.programs import TimestampedModel
 
 
 # Program Categories

@@ -21,17 +21,8 @@ from localflavor.us.models import USStateField, USZipCodeField
 from phonenumber_field.modelfields import PhoneNumberField
 
 from common.fields import ChoiceArrayField
+from common.models import TimestampedModel
 from pricing import choices
-
-
-class TimestampedModel(models.Model):
-    """Abstract base model with created_at and updated_at fields."""
-
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-
-    class Meta:
-        abstract = True
 
 
 class AddressInfo(TimestampedModel):

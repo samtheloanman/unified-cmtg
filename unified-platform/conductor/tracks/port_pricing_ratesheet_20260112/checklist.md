@@ -55,6 +55,6 @@
 | Agent | Current Task |
 |:---|:---|
 | Jules | RateSheet models (Phase 3) |
-| Claude | Logic analysis (Phase 1) |
-| Ralph | Pending tests |
+| Claude | PDF Parsing (Phase 3) |
+| Ralph | Integration Tests (Phase 3) |
 | Antigravity | Orchestration |
