@@ -1,112 +1,115 @@
-# Agent Prompts - 2026-01-13 00:48 PST
+# Agent Prompts - 2026-01-13 01:12 PST (Post-Merge)
 
-## 🔴 Prompt for Jules (Rebase PR)
+## 📊 Current State
+- **Main**: `d5dc7d1` (merged Jules PR)
+- **Jules PR**: Merged ✅
+- **Phase 1**: Complete
+- **Phase 4**: Infrastructure scaffolded
+
+---
+
+## 🔴 Prompt for Jules (Next Task)
 
 ```
-Your PR `jules/phase1-foundation-10297780927730413954` needs to be rebased onto the updated main branch.
+Your PR has been merged into main. Great work on Phase 1 + Phase 4 infrastructure!
 
-Main has received several commits since you branched:
-- Phase 1 completion + conductor updates + styleguides
-- Add integration-map, legacy code copy, Gemini analysis
+COMPLETED:
+- Backend scaffolding (Django 5 + Wagtail 6 + split settings)
+- Ratesheets app with csv_reader.py and downloader.py
+- Health check endpoint
 
-TASK:
-1. Fetch latest main: `git fetch origin main`
-2. Rebase your branch: `git rebase origin/main`
-3. Resolve any conflicts, prioritizing:
-   - Keep your backend scaffolding (Django 5 + Wagtail 6 + split settings)
-   - Keep main's styleguides (python.md, typescript.md)
-   - Keep main's integration-map.md
-   - Merge docker-compose.yml changes (include ALLOWED_HOSTS fix from main)
-4. Force push: `git push -f origin jules/phase1-foundation-10297780927730413954`
-5. Update the PR description with conflict resolution notes
+NEXT TASK: Phase 4 Step 2 - RateSheet Models
+Reference: unified-platform/conductor/tracks/phase4_ratesheet/plan.md
 
-Expected conflicts:
-- docker-compose.yml
-- unified-platform/conductor/tracks.md
-- unified-platform/conductor/tracks/phase1_foundation/plan.md
+1. Create RateSheet model in ratesheets/models.py:
+   - lender (ForeignKey)
+   - program_type (ForeignKey)
+   - effective_date
+   - pdf_url, pdf_hash
+   - extracted_data (JSONField)
+   - status (pending, approved, rejected)
+
+2. Create RateAdjustment model:
+   - rate_sheet (ForeignKey)
+   - adjustment_type (fico, ltv, property_type, etc.)
+   - adjustment_grid (JSONField)
+
+3. Run makemigrations and migrate
+
+Follow: unified-platform/conductor/code_styleguides/python.md
 ```
 
 ---
 
-## 🟢 Prompt for Claude Code (Continue Phase 2)
+## 🟢 Prompt for Claude Code (Logic Analysis)
 
 ```
-You are resuming work on the unified-cmtg project as The Generator (L2 Agent).
+You are The Generator (L2 Agent) for unified-cmtg.
 
-COMPLETED (by Gemini CLI):
-- Legacy cmtgdirect copied to unified-platform/backend/legacy_cmtgdirect/
-- Pricing models analysis created: conductor/tracks/port_pricing_ratesheet_20260112/legacy_pricing_models_analysis.md
+CONTEXT UPDATE:
+- Jules' PR merged - backend now has split settings + ratesheets app
+- Legacy code at: unified-platform/backend/legacy_cmtgdirect/ (embedded repo)
+- Models analysis complete: conductor/tracks/port_pricing_ratesheet_20260112/legacy_pricing_models_analysis.md
 
-VERIFIED:
-- Analysis is accurate against actual legacy code
-- Lender, BaseLoan, LoanProgram, LenderProgramOffering models documented
-- Recommendation: Use LenderProgramOffering architecture for new platform
-
-NEXT PRIORITY TASK: Analyze Legacy Pricing LOGIC
+YOUR TASK: Analyze Legacy Pricing LOGIC
 Track: port_pricing_ratesheet_20260112
 
-1. Analyze `legacy/cmtgdirect/loans/queries.py`
-2. Analyze `legacy/cmtgdirect/api/views.py` (especially QualifyView)
-3. Document the `get_matched_loan_programs_for_qual()` function:
-   - Inputs required
-   - Matching criteria logic
+1. Read and analyze:
+   - unified-platform/backend/legacy_cmtgdirect/loans/queries.py
+   - unified-platform/backend/legacy_cmtgdirect/api/views.py
+
+2. Document the `get_matched_loan_programs_for_qual()` function:
+   - Input parameters and their types
+   - Filtering/matching criteria
+   - Rate adjustment logic
    - Output format
-   - Rate adjustment calculations
 
-Create output: conductor/tracks/port_pricing_ratesheet_20260112/legacy_pricing_logic_analysis.md
+3. Create: unified-platform/conductor/tracks/port_pricing_ratesheet_20260112/legacy_pricing_logic_analysis.md
 
-Follow the Python styleguide at unified-platform/conductor/code_styleguides/python.md.
-After completing, signal handoff to Ralph for verification.
+4. After completing, update track checklist and signal handoff to Ralph.
+
+Follow: unified-platform/conductor/code_styleguides/python.md
 ```
 
 ---
 
-## 🟡 Prompt for Gemini CLI (Verification Only)
+## 🟡 Prompt for Gemini CLI (Verification)
 
 ```
-You are Gemini CLI - assigned to VERIFICATION tasks only.
-
-ROLE CHANGE: Orchestration tasks reassigned to Antigravity.
-Your focus: Test execution, connectivity checks, simple confirmations.
+ROLE: Verification Agent (test execution only)
 
 CURRENT TASK: Verify frontend connectivity
-1. Allow the `find` command to clean ._* files (already done by Antigravity)
-2. Run: docker compose up -d
-3. Test: curl http://localhost:3001/test
-4. Report result: PASS or FAIL with details
+Prerequisites completed by Antigravity:
+- Cleaned ._* files
+- Merged Jules PR with backend fixes
 
-DO NOT attempt to fix issues. If tests fail, report back and Antigravity will handle fixes.
+STEPS:
+1. cd /path/to/unified-cmtg/unified-platform
+2. docker compose up -d
+3. Wait 30 seconds for services
+4. curl http://localhost:3001/test
+5. Report: PASS or FAIL
+
+If FAIL, report error and stop. Antigravity will fix.
 ```
 
 ---
 
-## 🔵 Prompt for Antigravity (Orchestrator + Fixer)
+## 🔵 Antigravity Status (Orchestrator)
 
 ```
-You are Antigravity - now the primary ORCHESTRATOR for unified-cmtg.
+COMPLETED:
+- Merged Jules PR (d5dc7d1)
+- Cleaned 112 ._* files
+- Updated agent prompts
 
-ROLE EXPANDED:
-- L1 Orchestrator responsibilities (from Gemini CLI)
-- Command execution and fixes
-- Conductor tracking updates
-- Conflict resolution
+MONITORING:
+- Claude: Logic analysis
+- Gemini CLI: Frontend test
+- Jules: RateSheet models
 
-COMPLETED THIS SESSION:
-- Cleaned 112 ._* macOS metadata files from unified-platform/
-- Pushed all changes to main (2d95a05)
-- Created agent prompts
-
-CURRENT AGENT STATUS:
-| Agent | Task | Status |
-|:---|:---|:---|
-| Jules | Phase 4: Rate Sheet Infrastructure | 🔄 Working |
-| Claude | Standing by for logic analysis prompt | ⏳ Ready |
-| Gemini CLI | Frontend verification (after ._* cleanup) | 🔄 Retry |
-
-NEXT TASKS:
-1. Monitor Gemini CLI's frontend test result
-2. Create checklist.md for port_pricing_ratesheet track
-3. Update conductor/current.md with agent status
-4. Provide Claude the logic analysis prompt when ready
+NEXT:
+- Create port_pricing_ratesheet checklist.md
+- Update conductor/current.md
+- Verify frontend when Gemini CLI reports
 ```
-

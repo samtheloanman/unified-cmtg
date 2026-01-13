@@ -24,7 +24,7 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-      target: base
+      target: deps
     command: npm run dev
     volumes:
       - ./frontend:/app

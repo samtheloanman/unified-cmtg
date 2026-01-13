@@ -1,0 +1,60 @@
+# Track Checklist: Port Pricing & Rate Sheet MVP
+
+**Track ID**: `port_pricing_ratesheet_20260112`  
+**Last Updated**: 2026-01-13 01:22 PST
+
+---
+
+## Phase 1: Environment Setup & Legacy Code Analysis
+
+- [x] Jules - Set up Django/Wagtail backend (`unified-platform/backend/`)
+- [x] Jules - Set up Next.js frontend (`unified-platform/frontend/`)
+- [x] Claude/Gemini - Copy legacy cmtgdirect to `backend/legacy_cmtgdirect/`
+- [x] Claude/Gemini - Analyze legacy models (`legacy_pricing_models_analysis.md`)
+- [ ] Claude - Analyze legacy pricing logic (`legacy_pricing_logic_analysis.md`)
+- [ ] Conductor - Manual verification of Phase 1
+
+---
+
+## Phase 2: Pricing Engine Porting
+
+- [ ] Claude - Generate `Lender` model
+- [ ] Claude - Generate `LoanProgram` model  
+- [ ] Ralph - Unit tests for models
+- [ ] Claude - Port `get_matched_loan_programs_for_qual()` logic
+- [ ] Ralph - Unit tests for pricing logic
+- [ ] Claude - Create DRF API endpoints
+- [ ] Ralph - Integration tests
+
+---
+
+## Phase 3: Rate Sheet Ingestion MVP
+
+- [x] Jules - Create `ratesheets/` app with csv_reader.py, downloader.py
+- [ ] Claude - Generate `RateSheet` and `RateAdjustment` models
+- [ ] Ralph - Unit tests for models
+- [ ] Jules - Configure Celery + Redis
+- [ ] Claude - PDF download/parsing service
+- [ ] Claude - Data extraction to models
+- [ ] Claude - Integrate with LoanProgram
+- [ ] Ralph - Integration tests
+
+---
+
+## Phase 4: Frontend Integration & MVP Demo
+
+- [ ] Claude - Next.js components for loan programs
+- [ ] Claude - Connect frontend to pricing API
+- [ ] Claude - Rate sheet upload UI
+- [ ] Conductor - End-to-end MVP review
+
+---
+
+## Agent Assignments
+
+| Agent | Current Task |
+|:---|:---|
+| Jules | RateSheet models (Phase 3) |
+| Claude | Logic analysis (Phase 1) |
+| Ralph | Pending tests |
+| Antigravity | Orchestration |
