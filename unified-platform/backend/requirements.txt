@@ -1,7 +1,21 @@
+# Core Django + Wagtail
 django>=5.0,<6.0
 wagtail>=6.0,<7.0
+
+# Database
 psycopg2-binary>=2.9
-django-environ>=0.11
+dj-database-url>=2.1
+
+# REST API
+djangorestframework>=3.14
+django-cors-headers>=4.3
+
+# Async tasks
 celery>=5.3
 redis>=5.0
+
+# Server
 gunicorn>=21.2
+
+# Utilities
+django-environ>=0.11

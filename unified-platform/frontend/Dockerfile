@@ -1,5 +1,6 @@
 # /frontend/Dockerfile
 FROM node:20-alpine AS base
+WORKDIR /app
 
 # Install dependencies only when needed
 FROM base AS deps

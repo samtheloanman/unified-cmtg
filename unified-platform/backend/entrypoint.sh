@@ -1,22 +1,16 @@
 #!/bin/sh
 
-if [ "$DATABASE" = "postgres" ]
-then
-    echo "Waiting for postgres..."
+# Wait for DB
+# (Add wait-for-it logic here if needed)
 
-    while ! nc -z $SQL_HOST $SQL_PORT; do
-      sleep 0.1
-    done
+# Run Migrations
+python manage.py migrate
 
-    echo "PostgreSQL started"
-fi
+# Create Superuser (Idempotent)
+python manage.py shell -c "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.filter(username='admin').exists() or User.objects.create_superuser('admin', 'admin@example.com', 'admin')"
 
-# Apply database migrations
-echo "Applying database migrations..."
-python manage.py migrate --noinput
-
-# Collect static files
-echo "Collecting static files..."
+# Collect Static
 python manage.py collectstatic --noinput
 
+# Start Server
 exec "$@"

@@ -229,6 +229,117 @@ flowchart TB
     Validate --> DB[LenderProgramOffering]
 ```
 
+### 5.3 Programmatic SEO Architecture
+
+> **Scale**: Generate **10,000+ city-specific program pages** for maximum SEO coverage.
+
+#### URL Structure: Flat Hierarchy
+
+**Format**: `/{program-slug}-{city}-{state}/`
+
+**Examples**:
+- `/fha-loan-los-angeles-ca/`
+- `/dscr-mortgage-chicago-il/`
+- `/commercial-loan-houston-tx/`
+
+**Rationale**: 
+- Maximum crawl efficiency
+- Equal link juice distribution
+- Avoids nested folder complexity (`/programs/residential/fha/los-angeles/`)
+
+#### Location Assignment Logic
+
+Each city page must be assigned to a physical CMRE office using this priority:
+
+1. **Direct Match**: If city exists in `cmre-all-locations-yoast-import.csv` → use that office
+2. **Proximity Search**: Calculate distance using Haversine formula → assign nearest office
+3. **Fallback**: If distance > 500 miles → assign Encino HQ (15910 Ventura Blvd, Encino, CA)
+
+```python
+# Haversine formula
+d = 2r * arcsin(√[sin²(Δφ/2) + cosφ₁ * cosφ₂ * sin²(Δλ/2)])
+where r = 3959 miles (Earth radius)
+```
+
+#### Data Sources
+
+| Data | Source | Fields |
+|------|--------|--------|
+| Office Locations | `cmre-all-locations-yoast-import_1.csv` | Name, Address, City, State, Zipcode, Phone, GPS |
+| Demographics | Census/Zillow API | Population, Median Income, Age Distribution |
+| City Coordinates | GeoPy/Google Geocoding API | Latitude, Longitude |
+
+#### Content Generation Strategy
+
+**Objective**: 0% duplicate content across 10,000 pages
+
+**OpenAI Integration**:
+- **Dynamic FAQs**: Generate 3 unique FAQs per city/program combination
+  - Prompt: *"Create 3 FAQs for [Program] in [City, State] for a borrower with median income of [Income]. Answer like a local mortgage expert."*
+- **Local Intros**: 200-word introduction mentioning local landmarks
+  - Prompt: *"Write a 200-word intro about homeownership in [City]. Mention neighborhoods near [Office Address]."*
+
+**Caching Strategy**: Store generated content in DB, regenerate annually or on program changes.
+
+#### Page Generation Workflow
+
+```mermaid
+flowchart LR
+    Programs[75 Programs] --> Cities[150 Cities]
+    Cities --> Matrix[11,250 Pages]
+    Matrix --> Proximity[Assign Office]
+    Proximity --> OpenAI[Generate Content]
+    OpenAI --> Wagtail[Create Page]
+    Wagtail --> NextJS[Publish Static]
+```
+
+**Management Command**:
+```bash
+python manage.py generate_local_pages \
+  --programs fha-mortgage va-loan dscr-loan \
+  --cities-file us-cities-top-150.csv \
+  --use-openai \
+  --batch-size 100
+```
+
+#### Schema Markup
+
+Inject dual schema on every local page:
+
+```json
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MortgageLoan",
+      "name": "[Program Name]",
+      "loanType": "[Type]",
+      "amount": { "minValue": 150000, "maxValue": 5000000 }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Custom Mortgage Inc - [City]",
+      "address": { "@type": "PostalAddress", "addressLocality": "[City]" },
+      "geo": { "@type": "GeoCoordinates", "latitude": "[Lat]", "longitude": "[Lon]" }
+    }
+  ]
+}
+```
+
+### 5.2 Rate Sheet Agent Workflow
+
+```mermaid
+flowchart TB
+    CSV[Ratesheet CSV] --> Agent[Browser Agent]
+    Email[ratesheets@c-mtg.com] --> Parser[Email Parser]
+    Agent --> PDF[Download PDF]
+    Parser --> PDF
+    PDF --> OCR[OCR/LLM Extract]
+    OCR --> JSON[Structured Rates]
+    JSON --> Validate[Human Review Queue]
+    Validate --> DB[LenderProgramOffering]
+```
+
 ---
 
 ## 6. Data Models
