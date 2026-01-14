@@ -9,24 +9,25 @@
 
 | Track | Phase | Week | Status | Description |
 |-------|-------|------|--------|-------------|
-| [Port Legacy Pricing Engine & Implement Rate Sheet Ingestion MVP](./tracks/port_pricing_ratesheet_20260112/) | 1 | 1 | [~] In Progress | Core pricing logic & AI agent MVP |
-| [Foundation](./tracks/phase1_foundation/) | 1 | 1 | 🟡 In Progress | Docker + Django + Wagtail |
-| [Pricing Engine](./tracks/phase2_pricing/) | 2 | 2 | ⏳ Pending | Port cmtgdirect logic |
-| [Content Migration](./tracks/phase3_content/) | 3 | 3 | ⏳ Pending | WordPress → Wagtail |
-| [Programmatic SEO](./tracks/phase3a_seo/) | 3a | 4 | ⏳ Pending | 10K+ local pages |
-| [Rate Sheet Agent](./tracks/phase4_ratesheet/) | 4 | 5 | ⏳ Pending | PDF extraction |
-| [Floify Integration](./tracks/phase5_floify/) | 5 | 6 | ⏳ Pending | Lead capture |
-| [AI Blog](./tracks/phase6_blog/) | 6 | 7-8 | ⏳ Pending | NotebookLM + content |
-| [Affiliate Program](./tracks/phase7_affiliate/) | 7 | 9 | ⏳ Pending | Referral tracking |
-| [Investment Waitlist](./tracks/phase8_investment/) | 8 | 10 | ⏳ Pending | Coming soon MVP |
-| [Community Forum](./tracks/phase9_forum/) | 9 | 11-12 | ⏳ Deferred | Forum engine |
+| [Finalization Track (F.1-F.10)](./tracks/finalization_track/) | F.1-F.10 | Current | 🔴 Active | **Master Track for v2.0 Launch** |
+| [Port Legacy Pricing Engine](./tracks/port_pricing_ratesheet_20260112/) | 1 | 1 | 🟡 Merged | Core pricing logic & AI agent MVP |
+| [Foundation](./tracks/phase1_foundation/) | 1 | 1 | ✅ Done | Docker + Django + Wagtail |
+| [Pricing Engine](./tracks/phase2_pricing/) | 2 | 2 | ✅ Done | Port cmtgdirect logic |
+| [Content Migration](./tracks/phase3_content/) | 3 | 3 | ➡️ To F.1-F.3 | Integrated into Finalization Track |
+| [Programmatic SEO](./tracks/phase3a_seo/) | 3a | 4 | ➡️ To F.5 | Integrated into Finalization Track |
+| [Rate Sheet Agent](./tracks/phase4_ratesheet/) | 4 | 5 | ➡️ To F.8 | Integrated into Finalization Track |
+| [Floify Integration](./tracks/phase5_floify/) | 5 | 6 | ➡️ To F.8 | Integrated into Finalization Track |
+| [AI Blog](./tracks/phase6_blog/) | 6 | Post-Launch | ⏳ Deferred | NotebookLM + content |
+| [Affiliate Program](./tracks/phase7_affiliate/) | 7 | Post-Launch | ⏳ Deferred | Referral tracking |
+| [Investment Waitlist](./tracks/phase8_investment/) | 8 | Post-Launch | ⏳ Deferred | Coming soon MVP |
+| [Community Forum](./tracks/phase9_forum/) | 9 | Post-Launch | ⏳ Deferred | Forum engine |
 
 ---
 
 ## 🔴 Current Priority
 
-**Active Track**: Port Legacy Pricing Engine & Implement Rate Sheet Ingestion MVP  
-**Next Task**: Jules - Set up core Django/Wagtail backend project in `unified-platform/backend/`
+**Active Track**: Finalization Track (F.1 - F.10)
+**Next Task**: F.1 - Wagtail CMS Models Implementation
 
 ---
 
@@ -34,16 +35,7 @@
 
 | Track | Primary Agent | Support |
 |-------|---------------|---------|
-| Foundation | QA Tester | Pricing Engineer |
-| Pricing Engine | Pricing Engineer | QA Tester |
-| Content Migration | Wagtail Expert | Frontend Architect |
-| Programmatic SEO | Wagtail Expert | Rate Sheet Agent |
-| Rate Sheets | Rate Sheet Agent | Pricing Engineer |
-| Floify | Frontend Architect | Pricing Engineer |
-| AI Blog | Content Agent | Marketing Automation |
-| Affiliate | Marketing Agent | Pricing Engineer |
-| Investment | Research Agent | Legal |
-| Forum | Frontend Architect | Moderation Agent |
+| Finalization Track | Jules | Ralph (Verification) |
 
 ---
 
@@ -51,17 +43,15 @@
 
 ```mermaid
 flowchart TD
-    P1[Phase 1: Foundation] --> P2[Phase 2: Pricing]
-    P1 --> P3[Phase 3: Content]
-    P2 --> P4[Phase 4: Rate Sheets]
-    P3 --> P3a[Phase 3a: Programmatic SEO]
-    P3a --> P5[Phase 5: Floify]
-    P4 --> P5
-    P5 --> P6[Phase 6: AI Blog]
-    P5 --> P7[Phase 7: Affiliate]
-    P6 --> P8[Phase 8: Investment]
-    P7 --> P8
-    P8 --> P9[Phase 9: Forum]
+    F1[F.1: CMS Models] --> F2[F.2: Extraction]
+    F2 --> F3[F.3: Import]
+    F1 --> F4[F.4: Office Locations]
+    F4 --> F5[F.5: Prog SEO]
+    F5 --> F6[F.6: AI Content]
+    F1 --> F7[F.7: Frontend]
+    F5 --> F8[F.8: Floify]
+    F8 --> F9[F.9: Testing]
+    F9 --> F10[F.10: Production]
 ```
 
 ---
@@ -70,30 +60,17 @@ flowchart TD
 
 ### Start a Track
 ```bash
-/conductor start port_pricing_ratesheet_20260112
+/conductor start finalization_track
 ```
 
 ### Track Structure
 ```
-tracks/port_pricing_ratesheet_20260112/
+tracks/finalization_track/
 ├── plan.md          # Task breakdown + tests
-├── spec.md          # Track specification
-├── metadata.json    # Track metadata
-└── checklist.md     # Progress tracking
+├── checklist.md     # Progress tracking
 ```
 
 ---
 
-## 📊 Research Tasks Queue
-
-| Task | Priority | Status |
-|------|----------|--------|
-| Best affordable RE API | High | ⏳ Pending |
-| Affiliate disclaimer | High | ⏳ Pending |
-| Misago alternatives | Medium | ⏳ Pending |
-| DST 1031 structure | Medium | ⏳ Pending |
-
----
-
-**Last Updated**: 2026-01-12 12:00 PST
+**Last Updated**: 2026-01-14
 

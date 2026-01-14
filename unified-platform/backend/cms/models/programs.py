@@ -4,59 +4,19 @@ from wagtail.fields import RichTextField, StreamField
 from wagtail.admin.panels import FieldPanel, MultiFieldPanel, TabbedInterface, ObjectList
 from wagtail.api import APIField
 from wagtail.images.models import Image
-from wagtail.documents.models import Document
+from wagtail import blocks
 
 # =============================================================================
-# HOME PAGE
+# BLOCKS
 # =============================================================================
-class HomePage(Page):
-    """Main site homepage"""
-    hero_title = models.CharField(max_length=255, blank=True)
-    hero_subtitle = RichTextField(blank=True)
-    hero_cta_text = models.CharField(max_length=100, blank=True, default="Get Your Quote")
-    hero_cta_url = models.URLField(blank=True, default="/quote")
-    
-    content_panels = Page.content_panels + [
-        MultiFieldPanel([
-            FieldPanel('hero_title'),
-            FieldPanel('hero_subtitle'),
-            FieldPanel('hero_cta_text'),
-            FieldPanel('hero_cta_url'),
-        ], heading="Hero Section"),
-    ]
-    
-    api_fields = [
-        APIField('hero_title'),
-        APIField('hero_subtitle'),
-        APIField('hero_cta_text'),
-        APIField('hero_cta_url'),
-    ]
-    
-    subpage_types = ['cms.ProgramIndexPage', 'cms.StandardPage', 'cms.FundedLoanIndexPage', 'cms.LegacyIndexPage']
-    max_count = 1
 
+class FAQBlock(blocks.StructBlock):
+    question = blocks.CharBlock(required=True, help_text="The question")
+    answer = blocks.RichTextBlock(required=True, help_text="The answer")
 
-# =============================================================================
-# STANDARD PAGE (Generic content pages)
-# =============================================================================
-class StandardPage(Page):
-    """Generic content page for About, Contact, etc."""
-    body = RichTextField(blank=True)
-    featured_image = models.ForeignKey(
-        Image, null=True, blank=True, 
-        on_delete=models.SET_NULL, related_name='+'
-    )
-    
-    content_panels = Page.content_panels + [
-        FieldPanel('featured_image'),
-        FieldPanel('body'),
-    ]
-    
-    api_fields = [
-        APIField('body'),
-    ]
-    
-    parent_page_types = ['cms.HomePage', 'cms.StandardPage']
+    class Meta:
+        icon = "help"
+        label = "FAQ"
 
 
 # =============================================================================
@@ -103,7 +63,11 @@ class ProgramPage(Page):
     requirements = RichTextField(blank=True)
     how_to_qualify_for = RichTextField(blank=True)
     why_us = RichTextField(blank=True)
-    program_faq = RichTextField(blank=True)
+
+    # Changed to StreamField as per F.1 spec
+    program_faq = StreamField([
+        ('faq', FAQBlock()),
+    ], use_json_field=True, blank=True)
     
     # === FINANCIAL TERMS TAB (7 fields) ===
     interest_rates = models.CharField(max_length=100, blank=True, help_text="e.g., 5.50-8.25%")
@@ -130,7 +94,7 @@ class ProgramPage(Page):
     credit_events_allowed = models.JSONField(default=list, blank=True)
     mortgage_lates_allowed = models.JSONField(default=list, blank=True)
     
-    # === LOCATION TAB (subset of 23 fields for local variations) ===
+    # === LOCATION TAB (Core location fields) ===
     is_local_variation = models.BooleanField(default=False)
     target_city = models.CharField(max_length=100, blank=True)
     target_state = models.CharField(max_length=2, blank=True)
@@ -238,101 +202,3 @@ class ProgramPage(Page):
     ]
     
     parent_page_types = ['cms.ProgramIndexPage']
-
-
-# =============================================================================
-# FUNDED LOANS (Case Studies)
-# =============================================================================
-class FundedLoanIndexPage(Page):
-    """Container for funded loan case studies"""
-    intro = RichTextField(blank=True)
-    
-    content_panels = Page.content_panels + [
-        FieldPanel('intro'),
-    ]
-    
-    api_fields = [
-        APIField('intro'),
-    ]
-    
-    subpage_types = ['cms.FundedLoanPage']
-    max_count = 1
-
-
-class FundedLoanPage(Page):
-    """Individual funded loan case study"""
-    loan_amount = models.DecimalField(max_digits=12, decimal_places=2, null=True, blank=True)
-    loan_type = models.CharField(max_length=100, blank=True)
-    property_type = models.CharField(max_length=100, blank=True)
-    location = models.CharField(max_length=200, blank=True)
-    close_date = models.DateField(null=True, blank=True)
-    description = RichTextField(blank=True)
-    featured_image = models.ForeignKey(
-        Image, null=True, blank=True,
-        on_delete=models.SET_NULL, related_name='+'
-    )
-    source_url = models.URLField(blank=True, help_text="Original WordPress URL for reference")
-
-    content_panels = Page.content_panels + [
-        FieldPanel('featured_image'),
-        FieldPanel('loan_amount'),
-        FieldPanel('loan_type'),
-        FieldPanel('property_type'),
-        FieldPanel('location'),
-        FieldPanel('close_date'),
-        FieldPanel('description'),
-        FieldPanel('source_url'),
-    ]
-
-    api_fields = [
-        APIField('loan_amount'),
-        APIField('loan_type'),
-        APIField('property_type'),
-        APIField('location'),
-        APIField('close_date'),
-        APIField('description'),
-        APIField('source_url'),
-    ]
-
-    parent_page_types = ['cms.FundedLoanIndexPage']
-
-
-# =============================================================================
-# LEGACY RECREATED PAGES (Mirror of production)
-# =============================================================================
-class LegacyIndexPage(Page):
-    """Container for legacy recreated pages"""
-    intro = RichTextField(blank=True)
-    
-    content_panels = Page.content_panels + [
-        FieldPanel('intro'),
-    ]
-    
-    subpage_types = ['cms.LegacyRecreatedPage']
-    max_count = 1
-
-
-class LegacyRecreatedPage(Page):
-    """
-    Pages recreated from production site for comparison.
-    Stored under /legacy/recreated/ hierarchy.
-    """
-    original_url = models.URLField(help_text="Original URL from custommortgageinc.com")
-    original_title = models.CharField(max_length=500)
-    body = RichTextField(blank=True)
-    raw_html = models.TextField(blank=True, help_text="Original HTML content")
-    last_scraped = models.DateTimeField(auto_now=True)
-    
-    content_panels = Page.content_panels + [
-        FieldPanel('original_url'),
-        FieldPanel('original_title'),
-        FieldPanel('body'),
-    ]
-    
-    api_fields = [
-        APIField('original_url'),
-        APIField('original_title'),
-        APIField('body'),
-    ]
-    
-    parent_page_types = ['cms.LegacyIndexPage']

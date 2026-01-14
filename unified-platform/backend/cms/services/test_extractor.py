@@ -7,7 +7,7 @@ Usage:
 """
 
 import requests
-from content_extractor import WordPressContentExtractor, FundedLoanExtractor
+from cms.services.content_extractor import WordPressContentExtractor, FundedLoanExtractor
 
 
 def test_program_extraction():
