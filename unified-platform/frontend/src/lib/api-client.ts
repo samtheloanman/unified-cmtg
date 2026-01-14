@@ -267,15 +267,61 @@ class RateSheetAPI extends BaseAPIClient {
 }
 
 /**
+ * Lead submission payload
+ */
+export interface LeadSubmitRequest {
+    first_name: string;
+    last_name: string;
+    email: string;
+    phone?: string;
+    loan_amount?: number;
+    property_address?: string;
+    property_state?: string;
+    loan_purpose?: string;
+    property_type?: string;
+    selected_program?: string;
+    selected_lender?: string;
+}
+
+/**
+ * Lead submission response
+ */
+export interface LeadSubmitResponse {
+    success: boolean;
+    floify_id?: string;
+    application_id?: number;
+    message?: string;
+    error?: string;
+    detail?: string;
+}
+
+/**
+ * Leads API client
+ */
+class LeadsAPI extends BaseAPIClient {
+    /**
+     * Submit a lead to Floify after quote wizard completion.
+     *
+     * Creates a prospect in Floify and sends them an email invitation
+     * to complete their loan application.
+     */
+    async submitLead(request: LeadSubmitRequest): Promise<APIResponse<LeadSubmitResponse>> {
+        return this.post<LeadSubmitResponse>('/api/v1/leads/', request);
+    }
+}
+
+/**
  * Main API client export with all sub-clients
  */
 class APIClient {
     pricing: PricingAPI;
     rateSheets: RateSheetAPI;
+    leads: LeadsAPI;
 
     constructor(baseURL: string = API_BASE) {
         this.pricing = new PricingAPI(baseURL);
         this.rateSheets = new RateSheetAPI(baseURL);
+        this.leads = new LeadsAPI(baseURL);
     }
 }
 

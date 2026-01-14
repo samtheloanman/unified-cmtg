@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import ProgramComparison from './ProgramComparison';
+import LeadSubmitModal from './LeadSubmitModal';
 
 interface Quote {
     lender: string;
@@ -35,6 +36,9 @@ function getTermYears(programName: string): number {
 export default function ResultsCard({ results, onReset }: ResultsCardProps) {
     const [sortField, setSortField] = useState<SortField>('rate');
     const [sortDirection, setSortDirection] = useState<SortDirection>('asc');
+    const [selectedQuote, setSelectedQuote] = useState<Quote | null>(null);
+    const [showModal, setShowModal] = useState(false);
+    const [showSuccessMessage, setShowSuccessMessage] = useState(false);
 
     const sortedQuotes = [...(results.quotes || [])].sort((a, b) => {
         const multiplier = sortDirection === 'asc' ? 1 : -1;
@@ -61,6 +65,18 @@ export default function ResultsCard({ results, onReset }: ResultsCardProps) {
             setSortField(field);
             setSortDirection('asc');
         }
+    };
+
+    const handleApply = (quote: Quote) => {
+        setSelectedQuote(quote);
+        setShowModal(true);
+    };
+
+    const handleSuccessfulSubmission = () => {
+        setShowModal(false);
+        setShowSuccessMessage(true);
+        // Hide success message after 10 seconds
+        setTimeout(() => setShowSuccessMessage(false), 10000);
     };
 
     if (!results.quotes || results.quotes.length === 0) {
@@ -159,10 +175,25 @@ export default function ResultsCard({ results, onReset }: ResultsCardProps) {
                             <p className="text-3xl font-bold">{bestMatch.points}</p>
                         </div>
                     </div>
-                    <button className="mt-4 w-full py-3 bg-white text-[#1daed4] font-bold rounded-lg hover:bg-gray-100 transition-colors shadow-md"
+                    <button
+                        onClick={() => handleApply(bestMatch)}
+                        className="mt-4 w-full py-3 bg-white text-[#1daed4] font-bold rounded-lg hover:bg-gray-100 transition-colors shadow-md"
                         style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
                         Apply Now
                     </button>
+                </div>
+            )}
+
+            {/* Success Message */}
+            {showSuccessMessage && (
+                <div className="bg-[#1daed4] border-2 border-[#1daed4] rounded-lg p-6 text-white shadow-lg">
+                    <h3 className="text-2xl font-bold mb-2" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+                        ✓ Application Submitted!
+                    </h3>
+                    <p className="text-white/90">
+                        Check your email for your personalized application link from Floify.
+                        You'll be guided through the rest of the application process securely.
+                    </p>
                 </div>
             )}
 
@@ -173,6 +204,17 @@ export default function ResultsCard({ results, onReset }: ResultsCardProps) {
                     sortField={sortField}
                     sortDirection={sortDirection}
                     onSort={handleSort}
+                    onApply={handleApply}
+                />
+            )}
+
+            {/* Lead Submit Modal */}
+            {selectedQuote && (
+                <LeadSubmitModal
+                    selectedQuote={selectedQuote}
+                    isOpen={showModal}
+                    onClose={() => setShowModal(false)}
+                    onSuccess={handleSuccessfulSubmission}
                 />
             )}
         </div>

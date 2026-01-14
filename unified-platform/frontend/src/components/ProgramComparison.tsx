@@ -15,6 +15,7 @@ interface ProgramComparisonProps {
     sortField: SortField;
     sortDirection: SortDirection;
     onSort: (field: SortField) => void;
+    onApply: (quote: Quote) => void;
 }
 
 /**
@@ -34,7 +35,7 @@ function getTermYears(programName: string): number {
     return termMatch ? parseInt(termMatch[1]) : 999; // Default to high value for unknown
 }
 
-export default function ProgramComparison({ quotes, sortField, sortDirection, onSort }: ProgramComparisonProps) {
+export default function ProgramComparison({ quotes, sortField, sortDirection, onSort, onApply }: ProgramComparisonProps) {
     const SortIcon = ({ field }: { field: SortField }) => {
         if (sortField !== field) {
             return <span className="text-[#a5a5a5] ml-1">↕</span>;
@@ -118,7 +119,10 @@ export default function ProgramComparison({ quotes, sortField, sortDirection, on
                                     {quote.points}
                                 </td>
                                 <td className="px-6 py-4 text-center">
-                                    <button className="px-4 py-2 bg-[#1daed4] hover:bg-[#17a0c4] text-white text-sm font-semibold rounded transition-colors shadow-sm hover:shadow-md">
+                                    <button
+                                        onClick={() => onApply(quote)}
+                                        className="px-4 py-2 bg-[#1daed4] hover:bg-[#17a0c4] text-white text-sm font-semibold rounded transition-colors shadow-sm hover:shadow-md"
+                                    >
                                         Apply
                                     </button>
                                 </td>

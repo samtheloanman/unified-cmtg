@@ -66,6 +66,7 @@ INSTALLED_APPS = [
     "pricing",
     "cms",
     "ratesheets",
+    "applications.apps.ApplicationsConfig",
 ]
 
 MIDDLEWARE = [
@@ -171,3 +172,11 @@ GOOGLE_API_KEY = env("GOOGLE_API_KEY", default="")
 if not GOOGLE_API_KEY:
     import logging
     logging.getLogger(__name__).warning("GOOGLE_API_KEY not found in environment. Gemini features will be disabled.")
+
+# Floify Integration Settings
+FLOIFY_API_KEY = env("FLOIFY_API_KEY", default="")
+FLOIFY_WEBHOOK_SECRET = env("FLOIFY_WEBHOOK_SECRET", default="")
+if not FLOIFY_API_KEY:
+    import logging
+    logging.getLogger(__name__).warning("FLOIFY_API_KEY not found in environment. Floify integration will be disabled.")
+
