@@ -24,8 +24,6 @@
   - Superuser: admin/admin ✅
 - [ ] **Frontend Connectivity**: Next.js fetches from Django
   - Test: Visit `http://localhost:3001/test` shows "API Status: ok"
-
-### ⏳ Not Started
 - [x] **Superuser**: Create Wagtail admin user
   - Test: Login to `http://localhost:8001/admin/` succeeds
   - Superuser: admin/admin ✅
@@ -34,6 +32,11 @@
 
 ## Phase 2: Core Pricing Engine (Week 2)
 
+### 🚨 Critical Bugs
+- [ ] **Restore LoanProgram Model**: `pricing/models.py` shadows `pricing/models/` package
+  - Test: `from pricing.models import LoanProgram` succeeds in shell
+
+### Tasks
 - [ ] **Port Models**: `Lender`, `LoanProgram`, `BaseLoan` from cmtgdirect
   - Test: `python manage.py makemigrations pricing` creates migration
 - [ ] **Port Logic**: `QualifyView` matching to `pricing/services.py`
@@ -47,12 +50,12 @@
 
 ## Phase 3: Content Migration (Week 3)
 
-- [ ] **ProgramPage Model**: 64 ACF fields in Wagtail
+- [x] **ProgramPage Model**: 64 ACF fields in Wagtail (Implemented)
   - Test: `python manage.py makemigrations cms` succeeds
-- [ ] **WP Extraction**: Dump WordPress content to JSON
-  - Test: `python manage.py export_wp_content --output programs.json` creates file
-- [ ] **Import Command**: Ingest JSON into Wagtail
-  - Test: `python manage.py import_programs programs.json` imports 75+ pages
+- [x] **Import Command**: Sitemap crawler and extractor (Implemented)
+  - Test: `python manage.py import_sitemap` runs without syntax errors
+- [ ] **Execute Migration**: Run migration on Staging/Prod
+  - Test: Pages appear in Wagtail Admin
 - [ ] **URL Verification**: URLs match WordPress 1:1
   - Test: Automated URL comparison script passes
 

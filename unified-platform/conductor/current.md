@@ -9,20 +9,18 @@
 
 | # | Task | Test | Status |
 |---|------|------|--------|
-| 1 | Verify legacy cmtgdirect on 8000 | `curl localhost:8000/admin/` → 200 | ✅ |
-| 2 | Frontend connectivity test | Visit `localhost:3001/test` → "API ok" | ⏳ |
-| 3 | Create Wagtail superuser | Login to `localhost:8001/admin/` | ✅ |
-| 4 | Create legacy superuser | Login to `localhost:8000/admin/` | ✅ |
+| 1 | **Fix Pricing Model Bug** | `from pricing.models import LoanProgram` | 🚨 |
+| 2 | Verify legacy cmtgdirect on 8000 | `curl localhost:8000/admin/` → 200 | ✅ |
+| 3 | Frontend connectivity test | Visit `localhost:3001/test` → "API ok" | ⏳ |
 
 ---
 
 ## ✅ Completed Today
 
+- [x] **Frontend Quote Page** (Design Compliant)
+- [x] **Content Migration Code** (Sitemap Importer)
 - [x] Django + Wagtail running on 8001
 - [x] Health API at `/api/v1/health/`
-- [x] Docker compose with `runtime: runc`
-- [x] PRD updated with programmatic SEO
-- [x] New features spec red-teamed
 
 ---
 
@@ -30,6 +28,7 @@
 
 | Blocker | Resolution |
 |---------|------------|
+| **CRITICAL BUG**: `pricing/models.py` shadows package | Delete file, fix imports (Assigned to Claude) |
 | WordPress plugins causing errors | Disabled Yoast/Kadence plugins |
 | Unified platform needs unique ports | Using 8001/3001/5433/6380 |
 
