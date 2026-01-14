@@ -63,11 +63,19 @@ git clone git@github.com:samtheloanman/unified-cmtg.git
 cd unified-cmtg/unified-platform
 
 # Start all services
-docker-compose up -d
+docker compose up -d
 
-# Backend will be at: http://localhost:8000
-# Frontend will be at: http://localhost:3000
+# Backend will be at: http://localhost:8001
+# Frontend will be at: http://localhost:3001
 ```
+
+### Current Status (2026-01-13)
+
+✅ **Phase 3.5 Complete** - Browser-testable MVP
+- Backend API functional with pricing engine
+- Frontend Quote Wizard operational
+- Brand colors corrected (#1daed4, #636363)
+- CMS content migration tools implemented
 
 ---
 
@@ -122,4 +130,4 @@ Proprietary - Custom Mortgage Inc.
 
 ---
 
-*Last Updated: 2026-01-11*
+*Last Updated: 2026-01-13*
