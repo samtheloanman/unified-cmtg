@@ -1,0 +1,126 @@
+name: Jules PR Automation
+
+on:
+  workflow_dispatch:
+    inputs:
+      task_description:
+        description: 'Task for Jules to execute'
+        required: true
+        type: string
+      target_branch:
+        description: 'Target branch for PR'
+        required: false
+        default: 'main'
+        type: string
+      auto_merge:
+        description: 'Auto-merge PR if tests pass'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  jules_build:
+    runs-on: [self-hosted, dell-brain, conductor]
+    permissions:
+      contents: write
+      pull-requests: write
+      checks: write
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ inputs.target_branch }}
+      
+      - name: Create feature branch
+        id: branch
+        run: |
+          BRANCH_NAME="jules/auto-$(date +%Y%m%d-%H%M%S)"
+          git checkout -b "$BRANCH_NAME"
+          echo "name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+      
+      - name: Execute Jules task
+        id: jules
+        run: |
+          echo "🤖 Starting Jules task..."
+          echo "Task: ${{ inputs.task_description }}"
+          
+          # Execute Jules via Gemini CLI
+          gemini \
+            --extensions gemini-cli-jules \
+            --yolo \
+            "/jules ${{ inputs.task_description }}"
+          
+          echo "status=completed" >> $GITHUB_OUTPUT
+      
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "⚠️ No changes detected from Jules"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "✅ Changes detected"
+          fi
+      
+      - name: Commit changes
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "Jules Builder"
+          git config user.email "jules@cmtg.local"
+          git add .
+          git commit -m "feat: ${{ inputs.task_description }}
+
+Automated changes by Jules Builder agent
+Triggered via workflow_dispatch" || echo "Commit failed"
+          
+          git push origin "${{ steps.branch.outputs.name }}"
+      
+      - name: Create Pull Request
+        if: steps.changes.outputs.has_changes == 'true'
+        id: pr
+        run: |
+          PR_URL=$(gh pr create \
+            --title "🤖 Jules: ${{ inputs.task_description }}" \
+            --body "## Automated PR by Jules
+
+**Task**: ${{ inputs.task_description }}
+**Target Branch**: ${{ inputs.target_branch }}
+**Created**: $(date -u +%Y-%m-%dT%H:%M:%SZ)
+
+### What Jules Did
+This PR was created automatically by the Jules Builder agent.
+
+### Review Checklist
+- [ ] Code changes are correct
+- [ ] Tests pass
+- [ ] No unintended side effects
+
+cc: @samtheloanman" \
+            --base "${{ inputs.target_branch }}" \
+            --head "${{ steps.branch.outputs.name }}" \
+            --label "jules,automated" | tail -1)
+          
+          echo "url=$PR_URL" >> $GITHUB_OUTPUT
+          echo "✅ PR created: $PR_URL"
+        env:
+          GH_TOKEN: ${{ github.token }}
+      
+      - name: Enable auto-merge
+        if: steps.changes.outputs.has_changes == 'true' && inputs.auto_merge == true
+        run: |
+          gh pr merge "${{ steps.pr.outputs.url }}" --auto --squash
+        env:
+          GH_TOKEN: ${{ github.token }}
+      
+      - name: Report status
+        if: always()
+        run: |
+          if [[ "${{ steps.changes.outputs.has_changes }}" == "true" ]]; then
+            echo "✅ Jules task completed successfully"
+            echo "PR: ${{ steps.pr.outputs.url }}"
+          else
+            echo "⚠️ Jules completed but no changes were made"
+          fi

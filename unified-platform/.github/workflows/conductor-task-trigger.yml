@@ -1,0 +1,106 @@
+name: Conductor Task Trigger
+
+on:
+  issues:
+    types: [opened, labeled]
+  issue_comment:
+    types: [created]
+  pull_request:
+    types: [opened, synchronize, labeled]
+
+jobs:
+  delegate_to_conductor:
+    runs-on: [self-hosted, dell-brain, conductor]
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Determine task type
+        id: task_type
+        run: |
+          TASK_TYPE="unknown"
+          TASK_DESCRIPTION=""
+          
+          if [[ "${{ github.event_name }}" == "issues" ]]; then
+            if [[ "${{ github.event.action }}" == "opened" ]]; then
+              TASK_TYPE="issue_triage"
+              TASK_DESCRIPTION="Triage issue #${{ github.event.issue.number }}: ${{ github.event.issue.title }}"
+            elif [[ "${{ github.event.action }}" == "labeled" ]]; then
+              if [[ "${{ github.event.label.name }}" == "conductor" ]]; then
+                TASK_TYPE="conductor_task"
+                TASK_DESCRIPTION="Handle issue #${{ github.event.issue.number }}: ${{ github.event.issue.title }}"
+              elif [[ "${{ github.event.label.name }}" == "jules" ]]; then
+                TASK_TYPE="jules_task"
+                TASK_DESCRIPTION="Delegate to Jules: ${{ github.event.issue.title }}"
+              fi
+            fi
+          elif [[ "${{ github.event_name }}" == "issue_comment" ]]; then
+            COMMENT_BODY="${{ github.event.comment.body }}"
+            if [[ "$COMMENT_BODY" == /jules* ]]; then
+              TASK_TYPE="jules_command"
+              TASK_DESCRIPTION="${COMMENT_BODY}"
+            elif [[ "$COMMENT_BODY" == /conductor* ]]; then
+              TASK_TYPE="conductor_command"
+              TASK_DESCRIPTION="${COMMENT_BODY}"
+            fi
+          elif [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            if [[ "${{ github.event.action }}" == "opened" ]]; then
+              TASK_TYPE="pr_review"
+              TASK_DESCRIPTION="Review PR #${{ github.event.pull_request.number }}: ${{ github.event.pull_request.title }}"
+            fi
+          fi
+          
+          echo "task=$TASK_TYPE" >> $GITHUB_OUTPUT
+          echo "description=$TASK_DESCRIPTION" >> $GITHUB_OUTPUT
+      
+      - name: Execute Jules task
+        if: steps.task_type.outputs.task == 'jules_command' || steps.task_type.outputs.task == 'jules_task'
+        run: |
+          echo "🤖 Delegating to Jules..."
+          # Note: Jules extension handles authentication internally
+          gemini \
+            --extensions gemini-cli-jules \
+            --yolo \
+            "${{ steps.task_type.outputs.description }}"
+          
+          # Comment back on the issue
+          gh issue comment ${{ github.event.issue.number }} \
+            --body "✅ Task delegated to Jules. Check [Jules dashboard](https://jules.google.com) for progress."
+        env:
+          GH_TOKEN: ${{ github.token }}
+      
+      - name: Update Conductor checklist
+        if: steps.task_type.outputs.task == 'conductor_task' || steps.task_type.outputs.task == 'issue_triage'
+        run: |
+          # Add task to conductor/tasks.md
+          if [ -f "conductor/tasks.md" ]; then
+            echo "- [ ] ${{ steps.task_type.outputs.description }}" >> conductor/tasks.md
+            
+            git config user.name "Conductor Bot"
+            git config user.email "conductor@cmtg.local"
+            git add conductor/tasks.md
+            git commit -m "chore(conductor): Add task from GH issue #${{ github.event.issue.number }}" || echo "No changes"
+            git push || echo "Push failed, may need manual intervention"
+            
+            # Comment on issue
+            gh issue comment ${{ github.event.issue.number }} \
+              --body "✅ Added to Conductor task list"
+          else
+            echo "⚠️ conductor/tasks.md not found"
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+      
+      - name: Sync completed tasks back to GitHub
+        if: steps.task_type.outputs.task == 'conductor_task'
+        run: |
+          # Check if there's a script for syncing
+          if [ -f "conductor/scripts/github-conductor-bridge.sh" ]; then
+            chmod +x conductor/scripts/github-conductor-bridge.sh
+            ./conductor/scripts/github-conductor-bridge.sh
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}

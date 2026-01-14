@@ -1,18 +1,27 @@
 @import "tailwindcss";
 
 :root {
-  /* Colors */
-  --primary: #1a365d; /* Navy Blue */
-  --accent: #d4af37; /* Gold */
-  --background: #0f172a; /* Dark */
-  --foreground: #f8fafc; /* Light Gray/White */
-  --card: #1e293b; /* Slightly lighter dark */
-  --input: #0f172a; /* Dark for inputs */
+  /* Custom Mortgage Brand Colors */
+  --primary: #1daed4;
+  /* Custom Mortgage Cyan */
+  --accent: #636363;
+  /* Custom Mortgage Gray */
+  --secondary: #a5a5a5;
+  /* Light Gray for borders */
+  --background: #ffffff;
+  /* White */
+  --foreground: #636363;
+  /* Gray text */
+  --card: #f8fafc;
+  /* Light background for cards */
+  --input: #ffffff;
+  /* White input backgrounds */
 }
 
 @theme inline {
   --color-primary: var(--primary);
   --color-accent: var(--accent);
+  --color-secondary: var(--secondary);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -28,13 +37,19 @@ body {
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 700;
   letter-spacing: -0.025em;
 }
 
 /* Inputs */
-input, select {
+input,
+select {
   color: var(--foreground);
 }
 

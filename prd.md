@@ -135,24 +135,24 @@ cmtgdirect/api/views.py            → QualifyView
 
 ---
 
-### Phase 3: Content Migration (Week 3)
+### Phase 3: Content Migration & SEO Engine (Week 3)
 
-**Goal**: Move WordPress content into Wagtail.
+**Goal**: Move WordPress content into Wagtail and initialize the programmatic SEO engine.
 
 | Task | Description |
 |------|-------------|
-| Modeling | Create Wagtail `ProgramPage` matching 64 ACF fields |
-| Extraction | Update `agent_tools.py` to dump WP content to JSON |
-| Import | Django management command to ingest JSON → Wagtail |
-| Verification | Ensure URLs match (`/programs/{slug}`) |
+| Modeling | Create Wagtail `ProgramPage` and `Location` models |
+| Scraper | Build Python command to fetch HTML and parse into Wagtail fields |
+| Media Hub | Port 10+ years of user-uploaded media into Wagtail |
+| Location Porting | Ingest 200+ physical offices from `wp_cmtg_locations` |
+| Geo Engine | Implement Haversine formula for city-to-office mapping |
+| Verification | Ensure 1:1 URL parity and media links |
 
-**WordPress ACF Structure (64 fields, 6 tabs)**:
-- Location Tab (23 fields) - For local pages
-- Program Info Tab (8 fields) - Core data
-- Financial Terms Tab (7 fields) - Rates, LTV
-- Program Details Tab (7 fields) - Content blocks
-- Property & Loan Tab (8 fields) - Property types
-- Borrower Details Tab (4 fields) - Eligibility
+**Key Components**:
+- **Scraper**: Uses BeautifulSoup and `cms.services.WordPressContentExtractor`
+- **Media**: Maps `/wp-content/uploads/` to Wagtail Image models
+- **Locations**: Addresses from legacy DB columns, used for dual-schema injection
+- **Flat URL Mapping**: `/{program}-{city}-{state}/` logic initialization
 
 ---
 

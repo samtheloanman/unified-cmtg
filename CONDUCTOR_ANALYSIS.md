@@ -215,6 +215,23 @@ Expected topics: BEM, tailwind patterns, accessibility, mobile-first?
 
 ---
 
+## 🎨 DESIGNOS INTEGRATION (NEW)
+
+**Role:** designOS acts as the **Visual Specification Engine** (The "What").
+**Input:** `custommortgageinc.com` design analysis and PRD.
+**Output:** `product-plan/` handoff package containing atomic React components, design tokens, and page templates.
+
+### Workflow Alignment
+1. **Design Agent** (in designOS project) creates the specs and components.
+2. **Orchestrator** exports and copies the package to `unified-platform/product-plan/`.
+3. **Frontend Architect** (in unified-cmtg) implements the build using this package as the source of truth.
+
+**Key Files:**
+- [implementation_plan.md](file:///home/samalabam/.gemini/antigravity/brain/969d8981-5a6e-4d06-a2dc-6044e954466b/implementation_plan.md)
+- [designOS_instructions.md](file:///home/samalabam/.gemini/antigravity/brain/969d8981-5a6e-4d06-a2dc-6044e954466b/designOS_instructions.md)
+
+---
+
 ## 🔗 INTEGRATION POINTS: CONDUCTOR → CLAUDE CODE
 
 ### 1. Pattern Library Integration

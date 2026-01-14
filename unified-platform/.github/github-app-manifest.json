@@ -1,0 +1,24 @@
+{
+    "name": "CMTG Conductor Bot",
+    "url": "https://github.com/samtheloanman/unified-cmtg",
+    "hook_attributes": {
+        "url": "https://dell-brain.tail-scale.ts.net/webhooks/github"
+    },
+    "redirect_url": "https://github.com/samtheloanman/unified-cmtg",
+    "public": false,
+    "default_permissions": {
+        "contents": "write",
+        "pull_requests": "write",
+        "issues": "write",
+        "workflows": "write",
+        "checks": "write"
+    },
+    "default_events": [
+        "issues",
+        "issue_comment",
+        "pull_request",
+        "pull_request_review",
+        "workflow_run",
+        "push"
+    ]
+}
