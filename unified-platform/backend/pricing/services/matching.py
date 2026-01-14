@@ -187,51 +187,6 @@ class LoanMatchingService:
         return matches[:limit]
 
     @staticmethod
-    def get_adjusted_rate(
-        offering: LenderProgramOffering,
-        fico: int,
-        ltv: float
-    ) -> Dict[str, Any]:
-        """
-        Calculate the adjusted rate/points for a specific FICO/LTV.
-
-        Queries RateAdjustment records that match the borrower's
-        FICO score and LTV, then applies them to the base rate.
-
-        Args:
-            offering: LenderProgramOffering instance
-            fico: Borrower's FICO score
-            ltv: Loan-to-value ratio (as percentage, e.g., 80.0)
-
-        Returns:
-            Dictionary with adjusted_rate and total_points
-        """
-        from pricing.models import RateAdjustment
-
-        base_rate = float(offering.min_rate)
-        total_points = 0.0
-
-        # Get FICO/LTV grid adjustments
-        fico_ltv_adjustments = RateAdjustment.objects.filter(
-            offering=offering,
-            adjustment_type=RateAdjustment.ADJUSTMENT_TYPE_FICO_LTV,
-            row_min__lte=fico,
-            row_max__gte=fico,
-            col_min__lte=ltv,
-            col_max__gte=ltv
-        )
-
-        for adj in fico_ltv_adjustments:
-            total_points += float(adj.adjustment_points)
-
-        return {
-            'base_rate': base_rate,
-            'adjusted_rate': base_rate,  # Rate adjustments are typically in points
-            'total_points': round(total_points, 3),
-            'adjustments_applied': fico_ltv_adjustments.count()
-        }
-
-    @staticmethod
     def get_quotes_with_adjustments(
         qualification_data: Dict[str, Any],
         limit: int = 10
@@ -248,20 +203,41 @@ class LoanMatchingService:
         Returns:
             List of quote dictionaries with adjusted pricing
         """
+        from pricing.models import RateAdjustment
         matches = LoanMatchingService.match_programs(qualification_data)[:limit]
         fico = qualification_data['estimated_credit_score']
         ltv = qualification_data['ltv']
 
+        offering_ids = [offering.id for offering in matches]
+
+        adjustments = RateAdjustment.objects.filter(
+            offering_id__in=offering_ids,
+            adjustment_type=RateAdjustment.ADJUSTMENT_TYPE_FICO_LTV,
+            row_min__lte=fico,
+            row_max__gte=fico,
+            col_min__lte=ltv,
+            col_max__gte=ltv
+        )
+
+        adjustments_by_offering = {}
+        for adj in adjustments:
+            if adj.offering_id not in adjustments_by_offering:
+                adjustments_by_offering[adj.offering_id] = []
+            adjustments_by_offering[adj.offering_id].append(adj)
+
         quotes = []
         for offering in matches:
-            adjusted = LoanMatchingService.get_adjusted_rate(offering, fico, ltv)
+            offering_adjustments = adjustments_by_offering.get(offering.id, [])
+            total_points = sum(float(adj.adjustment_points) for adj in offering_adjustments)
+            base_rate = float(offering.min_rate)
+
             quotes.append({
                 'lender': offering.lender.company_name,
                 'program': offering.program_type.name,
-                'base_rate': adjusted['base_rate'],
-                'adjusted_rate': adjusted['adjusted_rate'],
-                'points': adjusted['total_points'],
-                'adjustments_applied': adjusted['adjustments_applied'],
+                'base_rate': base_rate,
+                'adjusted_rate': base_rate,
+                'points': round(total_points, 3),
+                'adjustments_applied': len(offering_adjustments),
                 'min_loan': float(offering.min_loan),
                 'max_loan': float(offering.max_loan),
             })
