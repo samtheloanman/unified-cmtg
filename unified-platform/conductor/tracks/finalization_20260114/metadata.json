@@ -1,0 +1,15 @@
+{
+    "track_id": "finalization_20260114",
+    "name": "Production Finalization - Content Migration & Programmatic SEO",
+    "status": "pending",
+    "created": "2026-01-14",
+    "priority": "critical",
+    "phases": 10,
+    "estimated_hours": "43-59 (25-35 wall time with concurrency)",
+    "primary_agent": "jules",
+    "supporting_agents": [
+        "gemini_cli",
+        "claude_code",
+        "antigravity"
+    ]
+}
