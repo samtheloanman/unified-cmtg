@@ -23,8 +23,10 @@ django-environ>=0.11
 pdfplumber>=0.11.0
 
 # Google AI
-google-generativeai>=0.3.2
+google-genai>=1.0.0
 
 # US Address Fields
 django-localflavor>=4.0
 django-phonenumber-field[phonenumbers]>=7.0
+lxml>=5.1.0
+whitenoise>=6.6.0

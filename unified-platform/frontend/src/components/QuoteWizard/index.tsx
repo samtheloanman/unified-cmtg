@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { apiClient, type QuoteResponse } from '@/lib/api-client';
 import StepIndicator from './StepIndicator';
 import Step1PropertyState from './Step1PropertyState';
 import Step2LoanAmount from './Step2LoanAmount';
@@ -16,16 +17,8 @@ export interface FormData {
     property_value: number;
 }
 
-export interface QuoteResult {
-    ltv: number;
-    matches_found: number;
-    quotes: Array<{
-        lender: string;
-        program: string;
-        base_rate: number;
-        points: number;
-    }>;
-}
+// Re-export QuoteResponse type for backward compatibility
+export type QuoteResult = QuoteResponse;
 
 const INITIAL_FORM_DATA: FormData = {
     property_state: '',
@@ -64,27 +57,17 @@ export default function QuoteWizard() {
         setError(null);
 
         try {
-            const res = await fetch('http://localhost:8001/api/v1/quote/', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(formData),
-            });
+            const response = await apiClient.pricing.getQuotes(formData);
 
-            if (!res.ok) {
-                if (res.status >= 500) {
-                    throw new Error('Something went wrong. Please try again.');
-                }
-                const errorData = await res.json();
-                throw new Error(errorData.detail || 'Validation error');
+            if (!response.success) {
+                const errorMsg = response.error.detail || response.error.error;
+                throw new Error(errorMsg);
             }
 
-            const data = await res.json();
-            setResults(data);
+            setResults(response.data);
             setStep(5); // Results step
         } catch (err) {
-            if (err instanceof TypeError) {
-                setError('Unable to connect. Please check your connection.');
-            } else if (err instanceof Error) {
+            if (err instanceof Error) {
                 setError(err.message);
             } else {
                 setError('An unexpected error occurred.');

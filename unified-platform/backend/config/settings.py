@@ -49,8 +49,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     # Local apps
+    'common',
     'cms',
     'pricing',
+    'ratesheets',
+    'applications.apps.ApplicationsConfig',
     'api',
 ]
 
@@ -154,3 +157,8 @@ CORS_ALLOW_CREDENTIALS = True
 # Celery settings
 CELERY_BROKER_URL = os.environ.get('CELERY_BROKER_URL', 'redis://redis:6379/0')
 CELERY_RESULT_BACKEND = os.environ.get('CELERY_RESULT_BACKEND', 'redis://redis:6379/0')
+
+
+# Floify Integration Settings
+FLOIFY_API_KEY = os.environ.get('FLOIFY_API_KEY', '')
+FLOIFY_WEBHOOK_SECRET = os.environ.get('FLOIFY_WEBHOOK_SECRET', '')
