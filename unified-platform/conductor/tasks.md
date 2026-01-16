@@ -69,22 +69,31 @@
 
 ---
 
-## Phase 3a: Programmatic SEO (Week 4)
+## Phase 3a: Programmatic SEO (Phase F.5A - F.5E)
 
-- [ ] **Office Model**: GPS coordinates for proximity
-  - Test: `Office.objects.count() == [number from CSV]`
-- [ ] **Location Import**: Import CSV
-  - Test: `python manage.py import_offices` completes without error
-- [ ] **Proximity Service**: Haversine calculator
-  - Test: `pytest cms/tests/test_proximity.py` passes
-- [ ] **Demographics**: Import Census data
-  - Test: City population data populated
-- [ ] **OpenAI Content**: FAQ/intro generation
-  - Test: Generated FAQ is unique per city
-- [ ] **Page Generator**: Management command
-  - Test: `python manage.py generate_local_pages --count 10` creates 10 pages
-- [ ] **Flat URLs**: Verify `/program-city-state/` format
-  - Test: URL regex matches flat pattern
+### ⏳ F.5A: Core Infrastructure (Jules - Current)
+- [ ] **City Model**: `models/cities.py` with priority/launched_at
+  - Test: Model exists with correct fields ✅
+- [ ] **SEOContentCache**: `models/seo.py` with expanded schema fields
+  - Test: Model handles content_hash and schema_json ✅
+- [ ] **ProximityService**: Caching + Haversine
+  - Test: `find_nearest_office` returns correct office ✅
+- [ ] **SchemaGenerator**: Extended JSON-LD support
+  - Test: Generates HowTo/Speakable/FinancialProduct ✅
+- [ ] **SEOResolver**: Defensive slug parsing
+  - Test: Resolves `/dscr-loan-los-angeles-ca/` correctly ✅
+
+### ⏳ F.5B: Pilot Data (Jules - Next)
+- [ ] **Import Pilot Cities**: Top 5 only
+- [ ] **Office Mapping**: Verify Physical Offices
+
+### ⏳ F.5C: Content (Gemini)
+- [ ] **Generate Power 5**: Create 25 perfect pages
+- [ ] **Verify Content**: Manual QA
+
+### ⏳ F.5D: Logic & Launch (Antigravity)
+- [ ] **Dynamic Router**: API Endpoint
+- [ ] **Launch**: Active Pilot
 
 ---
 
