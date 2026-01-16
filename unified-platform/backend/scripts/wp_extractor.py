@@ -34,7 +34,7 @@ from urllib3.util.retry import Retry
 class WordPressExtractor:
     """Extracts content from WordPress via REST API"""
     
-    def __init__(self, base_url: str, output_dir: str = "wp_export", per_page: int = 20, timeout: int = 30):
+    def __init__(self, base_url: str, output_dir: str = "wp_export", per_page: int = 5, timeout: int = 120):
         self.base_url = base_url.rstrip('/')
         self.api_url = f"{self.base_url}/wp-json/wp/v2"
         self.output_dir = Path(output_dir)
@@ -54,6 +54,7 @@ class WordPressExtractor:
             'programs': 0,
             'funded_loans': 0,
             'blogs': 0,
+            'pages': 0,
             'media_files': 0,
             'errors': []
         }
@@ -191,6 +192,30 @@ class WordPressExtractor:
         
         return []
     
+    def extract_pages(self) -> List[Dict]:
+        """Extract all standard pages"""
+        print("\n📦 Extracting Pages...")
+        
+        try:
+            pages = self._get_paginated('pages', {'acf_format': 'standard'})
+            if pages:
+                print(f"  ✅ Found {len(pages)} pages")
+                self.stats['pages'] = len(pages)
+                
+                # Save to JSON
+                output_file = self.output_dir / 'pages.json'
+                with open(output_file, 'w', encoding='utf-8') as f:
+                    json.dump(pages, f, indent=2, ensure_ascii=False)
+                print(f"  💾 Saved to {output_file}")
+                
+                return pages
+        except Exception as e:
+            error_msg = f"Error extracting pages: {e}"
+            print(f"  ❌ {error_msg}")
+            self.stats['errors'].append(error_msg)
+        
+        return []
+    
     def download_media(self, content_items: List[List[Dict]]) -> Dict[str, str]:
         """Download media files referenced in content
         
@@ -295,7 +320,7 @@ class WordPressExtractor:
             self.stats['errors'].append(f"Download error for {url}: {e}")
             return None
     
-    def generate_url_mapping(self, programs: List[Dict], funded_loans: List[Dict], blogs: List[Dict]):
+    def generate_url_mapping(self, programs: List[Dict], funded_loans: List[Dict], blogs: List[Dict], pages: List[Dict]):
         """Generate URL mapping CSV for migration verification"""
         print("\n🔗 Generating URL Mapping...")
         
@@ -333,6 +358,17 @@ class WordPressExtractor:
                 'old_url': blog.get('link', ''),
                 'new_url': f"/blog/{blog.get('slug', '')}/",
             })
+
+        # Process pages
+        for page in pages:
+            url_mappings.append({
+                'content_type': 'page',
+                'post_id': page.get('id'),
+                'title': page.get('title', {}).get('rendered', ''),
+                'slug': page.get('slug', ''),
+                'old_url': page.get('link', ''),
+                'new_url': f"/{page.get('slug', '')}/",
+            })
         
         # Save to CSV
         csv_file = self.output_dir / 'url_mapping.csv'
@@ -355,8 +391,9 @@ class WordPressExtractor:
         print(f"   - Programs: {self.stats['programs']}")
         print(f"   - Funded Loans: {self.stats['funded_loans']}")
         print(f"   - Blog Posts: {self.stats['blogs']}")
+        print(f"   - Pages: {self.stats['pages']}")
         print(f"   - Media Files: {self.stats['media_files']}")
-        print(f"   - Total Items: {sum([self.stats['programs'], self.stats['funded_loans'], self.stats['blogs']])}")
+        print(f"   - Total Items: {sum([self.stats['programs'], self.stats['funded_loans'], self.stats['blogs'], self.stats['pages']])}")
         
         if self.stats['errors']:
             print(f"\n⚠️  Errors ({len(self.stats['errors'])}):")
@@ -401,15 +438,15 @@ def main():
     parser.add_argument(
         '--per-page',
         type=int,
-        default=20,
-        help='Items per page (default: 20)'
+        default=5,
+        help='Items per page (default: 5)'
     )
     
     parser.add_argument(
         '--timeout',
         type=int,
-        default=30,
-        help='Request timeout in seconds (default: 30)'
+        default=120,
+        help='Request timeout in seconds (default: 120)'
     )
     
     args = parser.parse_args()
@@ -445,15 +482,16 @@ def main():
     programs = extractor.extract_programs()
     funded_loans = extractor.extract_funded_loans()
     blogs = extractor.extract_blogs()
+    pages = extractor.extract_pages()
     
     # Download media
     if not args.skip_media:
-        extractor.download_media([programs, funded_loans, blogs])
+        extractor.download_media([programs, funded_loans, blogs, pages])
     else:
         print("\n⏭️  Skipping media download")
     
     # Generate URL mapping
-    extractor.generate_url_mapping(programs, funded_loans, blogs)
+    extractor.generate_url_mapping(programs, funded_loans, blogs, pages)
     
     # Print summary
     extractor.print_summary()

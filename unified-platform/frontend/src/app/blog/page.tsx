@@ -36,36 +36,16 @@ export default async function BlogIndexPage() {
   const posts = await getBlogPages();
 
   return (
-    <div className="min-h-screen bg-white">
-      {/* Header */}
-      <div className="bg-[#636363] text-white py-4 px-6">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <Link href="/">
-            <h1
-              className="text-3xl font-bold tracking-wide"
-              style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
-            >
-              CUSTOM MORTGAGE
-            </h1>
-          </Link>
-          <span
-            className="text-sm tracking-widest"
-            style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
-          >
-            NATIONWIDE LENDER
-          </span>
-        </div>
-      </div>
-
+    <div className="bg-white">
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-gray-50 to-white py-12 px-6 border-b-4 border-[#1daed4]">
         <div className="max-w-7xl mx-auto">
-          <h2
+          <h1
             className="text-5xl font-bold text-[#636363] mb-4"
             style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
           >
             Blog
-          </h2>
+          </h1>
           <p className="text-lg text-[#636363] max-w-2xl">
             Expert insights, mortgage tips, and industry news from the Custom Mortgage team.
           </p>
@@ -145,16 +125,6 @@ export default async function BlogIndexPage() {
           >
             Get Your Quote
           </Link>
-        </div>
-      </div>
-
-      {/* Footer */}
-      <div className="bg-[#636363] text-white py-8 px-6">
-        <div className="max-w-7xl mx-auto text-center">
-          <p className="text-sm">
-            © {new Date().getFullYear()} Custom Mortgage Inc. | Nationwide Lender | FinTech
-            Financing Solutions
-          </p>
         </div>
       </div>
     </div>

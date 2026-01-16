@@ -2,7 +2,8 @@
 set -e
 
 # Start Tailscale daemon in background
-/usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/var/run/tailscale/tailscaled.sock &
+# Use userspace-networking to avoid TUN requirement if it fails
+/usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/var/run/tailscale/tailscaled.sock --tun=userspace-networking &
 
 # Wait for tailscaled to start
 sleep 5
@@ -17,5 +18,10 @@ fi
 
 # Start the Web Server
 echo "🚀 Starting Companion Server..."
-cd /app/companion
-python3 server.py
+if [ -d "/app/companion" ]; then
+    cd /app/companion
+    python3 server.py
+else
+    echo "❌ Error: /app/companion not found inside container!"
+    exit 1
+fi

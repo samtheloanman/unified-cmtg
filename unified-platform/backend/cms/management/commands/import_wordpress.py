@@ -62,6 +62,7 @@ class Command(BaseCommand):
         self.import_programs()
         self.import_funded_loans()
         self.import_blogs()
+        self.import_pages()
         
         self.stdout.write(self.style.SUCCESS('Import complete!'))
 
@@ -110,11 +111,105 @@ class Command(BaseCommand):
         img.save()
         return img
 
+    def _parse_faq(self, html):
+        """Parse H3/P pairs into Wagtail StreamField blocks"""
+        if not html: return []
+        items = []
+        # Find all H3 and following content until next H3 or end
+        # This matches the pattern observed in Super Jumbo program
+        matches = re.findall(r'<h3>(.*?)</h3>\s*(.*?)(?=<h3>|$)', html, re.DOTALL)
+        for q, a in matches:
+            q_text = re.sub(r'<[^>]+>', '', q).strip()
+            if q_text:
+                items.append({
+                    'type': 'faq_item',
+                    'value': {
+                        'question': q_text,
+                        'answer': a.strip()
+                    }
+                })
+        return items
+
+    def _create_program_page(self, item, parent):
+        """Unified helper to create a ProgramPage from WP item (Program, Page, or Blog)"""
+        title = item['title']['rendered']
+        slug = item['slug']
+        
+        # Check if already exists
+        page = ProgramPage.objects.filter(slug=slug).first()
+        is_new = False
+        if not page:
+            is_new = True
+            page = ProgramPage(title=title, slug=slug)
+
+        acf = item.get('acf', {}) or {}
+        
+        # Determine program type from ACF or slug
+        raw_type = acf.get('program_type')
+        if not raw_type:
+            # Try to guess from slug/title if it's coming from a Page or Blog
+            if 'commercial' in slug or 'commercial' in title.lower(): raw_type = 'commercial'
+            elif 'hard-money' in slug or 'hard money' in title.lower(): raw_type = 'hard_money'
+            elif 'reverse' in slug: raw_type = 'reverse_mortgage'
+            elif 'non-qm' in slug or 'stated' in slug: raw_type = 'nonqm'
+
+        # Update fields
+        page.title = title
+        page.first_published_at = make_aware(datetime.strptime(item['date'], "%Y-%m-%dT%H:%M:%S"))
+        page.featured_image = self._get_image(item)
+        page.source_url = item.get('link', '')
+        
+        # Core Info
+        page.program_type = self._map_program_type(raw_type)
+        page.minimum_loan_amount = self._clean_decimal(acf.get('minimum_loan_amount'))
+        page.maximum_loan_amount = self._clean_decimal(acf.get('maximum_loan_amount'))
+        page.min_credit_score = self._clean_int(acf.get('min_credit_score'))
+        
+        # Details
+        page.mortgage_program_highlights = acf.get('mortgage_program_highlights', '')
+        page.what_are = acf.get('what_are', '')
+        page.details_about_mortgage_loan_program = acf.get('details_about_mortgage_loan_program', '')
+        page.benefits_of = acf.get('benefits_of', '')
+        page.requirements = acf.get('requirements', '')
+        page.how_to_qualify_for = acf.get('how_to_qualify_for', '')
+        page.why_us = acf.get('why_us', '')
+        page.faq = self._parse_faq(acf.get('Program_FAQ', ''))
+        
+        # Financial
+        page.interest_rates = str(acf.get('interest_rates', ''))[:100]
+        page.max_ltv = str(acf.get('max_ltv', ''))[:20]
+        page.max_debt_to_income_ratio = self._clean_float(acf.get('max_debt_to_income_ratio'))
+        page.min_dscr = self._clean_float(acf.get('min_dscr'))
+        
+        # Location
+        page.is_local_variation = bool(acf.get('is_local_variation', False))
+        page.target_city = acf.get('city_name', '')
+        page.target_state = acf.get('region_code', '') 
+        page.target_region = acf.get('region_name', '')
+        
+        # Arrays
+        page.property_types = acf.get('property_types_residential') or []
+        page.occupancy_types = acf.get('occupancy') or []
+        page.lien_position = acf.get('lien_position') or []
+        page.amortization_terms = acf.get('amortization_terms') or []
+        page.purpose_of_mortgage = acf.get('purpose_of_mortgage') or []
+        page.refinance_types = acf.get('refinance_mortgage') or []
+        page.income_documentation_type = acf.get('income_documentation_type') or []
+        page.borrower_types = acf.get('borrower_type') or []
+        page.citizenship_requirements = acf.get('citizenship') or []
+        
+        if is_new:
+            parent.add_child(instance=page)
+        else:
+            page.save()
+            
+        page.save_revision().publish()
+        return page
+
     def import_programs(self):
         self.stdout.write("\nImporting Programs...")
         path = self.export_dir / 'programs.json'
         if not path.exists():
-            self.stdout.write("programs.json not found, skipping.")
             return
 
         with open(path) as f:
@@ -122,60 +217,10 @@ class Command(BaseCommand):
 
         count = 0
         for item in items:
-            title = item['title']['rendered']
-            slug = item['slug']
-            acf = item.get('acf', {}) or {}
-            
-            page = ProgramPage(
-                title=title,
-                slug=slug,
-                first_published_at=make_aware(datetime.strptime(item['date'], "%Y-%m-%dT%H:%M:%S")),
-                featured_image=self._get_image(item),
-                
-                # Core Info
-                program_type=self._map_program_type(acf.get('program_type')),
-                minimum_loan_amount=self._clean_decimal(acf.get('minimum_loan_amount')),
-                maximum_loan_amount=self._clean_decimal(acf.get('maximum_loan_amount')),
-                min_credit_score=self._clean_int(acf.get('min_credit_score')),
-                
-                # Details
-                mortgage_program_highlights=acf.get('mortgage_program_highlights', ''),
-                what_are=acf.get('what_are', ''),
-                details_about_mortgage_loan_program=acf.get('details_about_mortgage_loan_program', ''),
-                benefits_of=acf.get('benefits_of', ''),
-                requirements=acf.get('requirements', ''),
-                how_to_qualify_for=acf.get('how_to_qualify_for', ''),
-                why_us=acf.get('why_us', ''),
-                
-                # Financial
-                interest_rates=acf.get('interest_rates', '')[:100],
-                max_ltv=str(acf.get('max_ltv', ''))[:20],
-                max_debt_to_income_ratio=self._clean_float(acf.get('max_debt_to_income_ratio')),
-                min_dscr=self._clean_float(acf.get('min_dscr')),
-                
-                # Location
-                is_local_variation=bool(acf.get('is_local_variation', False)),
-                target_city=acf.get('city_name', ''),
-                target_state=acf.get('region_code', ''), 
-                target_region=acf.get('region_name', ''),
-                
-                # Arrays
-                property_types=acf.get('property_types_residential') or [],
-                occupancy_types=acf.get('occupancy') or [],
-                lien_position=acf.get('lien_position') or [],
-                amortization_terms=acf.get('amortization_terms') or [],
-                purpose_of_mortgage=acf.get('purpose_of_mortgage') or [],
-                refinance_types=acf.get('refinance_mortgage') or [],
-                income_documentation_type=acf.get('income_documentation_type') or [],
-                borrower_types=acf.get('borrower_type') or [],
-                citizenship_requirements=acf.get('citizenship') or [],
-            )
-            
-            self.program_index.add_child(instance=page)
-            page.save_revision().publish()
+            self._create_program_page(item, self.program_index)
             count += 1
             
-        self.stdout.write(f"Imported {count} programs.")
+        self.stdout.write(f"Imported {count} programs from programs.json.")
 
     def import_funded_loans(self):
         self.stdout.write("\nImporting Funded Loans...")
@@ -223,6 +268,13 @@ class Command(BaseCommand):
             content = item['content']['rendered']
             excerpt = item['excerpt']['rendered']
             
+            # Heuristic: Check if this "Blog" is actually a Program
+            program_keywords = ['stated-income', 'super-jumbo', 'loan-program', 'mortgage-program']
+            if any(kw in slug.lower() for kw in program_keywords):
+                self.stdout.write(f"  - Reclassifying Blog as Program: {slug}")
+                self._create_program_page(item, self.program_index)
+                continue
+            
             # Author
             author_name = "Custom Mortgage Team"
             if '_embedded' in item and 'author' in item['_embedded']:
@@ -247,6 +299,40 @@ class Command(BaseCommand):
             count += 1
             
         self.stdout.write(f"Imported {count} blogs.")
+
+    def import_pages(self):
+        """Standard pages might actually be programs in the legacy site"""
+        self.stdout.write("\nImporting Pages (scanning for programs)...")
+        path = self.export_dir / 'pages.json'
+        if not path.exists():
+            return
+
+        with open(path) as f:
+            items = json.load(f)
+            
+        count = 0
+        program_keywords = [
+            'loan', 'mortgage', 'financing', 'stated', 'jumbo', 
+            'hard money', 'fha', 'va', 'reverse', 'construction'
+        ]
+        
+        for item in items:
+            title = item['title']['rendered'].lower()
+            slug = item['slug'].lower()
+            acf = item.get('acf', {}) or {}
+            
+            # Heuristic: If it has program-specific ACF data or matches keywords
+            is_program = any(kw in title or kw in slug for kw in program_keywords)
+            # If it has specific program ACF fields filled
+            if acf.get('program_type') or acf.get('minimum_loan_amount') or acf.get('Program_FAQ'):
+                is_program = True
+            
+            if is_program:
+                self.stdout.write(f"  - Found program in Pages: {item['slug']}")
+                self._create_program_page(item, self.program_index)
+                count += 1
+        
+        self.stdout.write(f"Imported {count} programs from pages.json.")
 
     def _map_program_type(self, val):
         if not val: return 'residential'

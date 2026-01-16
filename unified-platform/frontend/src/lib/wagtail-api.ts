@@ -50,7 +50,7 @@ export interface CMSProgramPage extends WagtailPage {
   requirements: string;
   how_to_qualify_for: string;
   why_us: string;
-  program_faq: string;
+  faq: { type: 'faq_item', value: { question: string, answer: string } }[];
 
   // Financial Terms
   interest_rates: string;
@@ -61,6 +61,15 @@ export interface CMSProgramPage extends WagtailPage {
 
   // Property & Location
   property_types: string[];
+  occupancy_types: string[];
+  lien_position: string[];
+  amortization_terms: string[];
+  purpose_of_mortgage: string[];
+  refinance_types: string[];
+  income_documentation_type: string[];
+  borrower_types: string[];
+  citizenship_requirements: string[];
+
   is_local_variation: boolean;
   target_city: string;
   target_state: string;

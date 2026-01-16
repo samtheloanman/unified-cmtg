@@ -60,13 +60,13 @@ function generateSchemaMarkup(program: CMSProgramPage) {
     loanType: formatProgramType(program.program_type),
     ...(program.minimum_loan_amount &&
       program.maximum_loan_amount && {
-        amount: {
-          '@type': 'MonetaryAmount',
-          minValue: parseFloat(program.minimum_loan_amount),
-          maxValue: parseFloat(program.maximum_loan_amount),
-          currency: 'USD',
-        },
-      }),
+      amount: {
+        '@type': 'MonetaryAmount',
+        minValue: parseFloat(program.minimum_loan_amount),
+        maxValue: parseFloat(program.maximum_loan_amount),
+        currency: 'USD',
+      },
+    }),
     provider: {
       '@type': 'FinancialService',
       name: 'Custom Mortgage Inc.',
@@ -107,26 +107,6 @@ export default async function ProgramDetailPage({ params }: Props) {
       />
 
       <div className="min-h-screen bg-white">
-        {/* Header */}
-        <div className="bg-[#636363] text-white py-4 px-6">
-          <div className="max-w-7xl mx-auto flex justify-between items-center">
-            <Link href="/">
-              <h1
-                className="text-3xl font-bold tracking-wide"
-                style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
-              >
-                CUSTOM MORTGAGE
-              </h1>
-            </Link>
-            <span
-              className="text-sm tracking-widest"
-              style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
-            >
-              NATIONWIDE LENDER
-            </span>
-          </div>
-        </div>
-
         {/* Breadcrumb */}
         <div className="bg-gray-50 border-b border-gray-200 py-3 px-6">
           <div className="max-w-7xl mx-auto">
@@ -204,12 +184,6 @@ export default async function ProgramDetailPage({ params }: Props) {
               <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6 text-center">
                 <p className="text-sm text-[#a5a5a5] uppercase tracking-wide">Max LTV</p>
                 <p className="text-2xl font-bold text-[#636363] mt-2">{program.max_ltv}</p>
-              </div>
-            )}
-            {program.interest_rates && (
-              <div className="bg-[#1daed4]/10 border-2 border-[#1daed4] rounded-lg p-6 text-center">
-                <p className="text-sm text-[#1daed4] uppercase tracking-wide">Interest Rates</p>
-                <p className="text-2xl font-bold text-[#1daed4] mt-2">{program.interest_rates}</p>
               </div>
             )}
           </div>
@@ -298,70 +272,73 @@ export default async function ProgramDetailPage({ params }: Props) {
                 </section>
               )}
 
-              {/* Why Choose Us */}
-              {program.why_us && (
-                <section>
+              {/* FAQ Section */}
+              {program.faq && program.faq.length > 0 && (
+                <section className="bg-gray-50 rounded-xl p-8 border border-gray-200">
                   <h3
-                    className="text-3xl font-bold text-[#636363] mb-6 border-l-4 border-[#1daed4] pl-4"
-                    style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
-                  >
-                    Why Choose Custom Mortgage
-                  </h3>
-                  <RichTextContent html={program.why_us} />
-                </section>
-              )}
-
-              {/* FAQ */}
-              {program.program_faq && (
-                <section>
-                  <h3
-                    className="text-3xl font-bold text-[#636363] mb-6 border-l-4 border-[#1daed4] pl-4"
+                    className="text-3xl font-bold text-[#636363] mb-8"
                     style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
                   >
                     Frequently Asked Questions
                   </h3>
-                  <RichTextContent html={program.program_faq} />
+                  <div className="space-y-6">
+                    {program.faq.map((item, idx) => (
+                      <div key={idx} className="border-b border-gray-200 pb-6 last:border-b-0">
+                        <h4 className="text-xl font-bold text-[#636363] mb-3">
+                          {item.value.question}
+                        </h4>
+                        <RichTextContent html={item.value.answer} className="prose-sm" />
+                      </div>
+                    ))}
+                  </div>
                 </section>
               )}
             </div>
 
             {/* Sidebar */}
             <div className="lg:col-span-1">
-              <div className="sticky top-6 space-y-6">
-                {/* Quick Apply Card */}
-                <div className="bg-[#636363] text-white rounded-xl p-6">
+              <div className="sticky top-24 space-y-6">
+                {/* Contact Card */}
+                <div className="bg-[#636363] text-white rounded-xl p-8 shadow-lg">
                   <h4
                     className="text-2xl font-bold mb-4"
                     style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
                   >
-                    Ready to Apply?
+                    Speak with an Expert
                   </h4>
                   <p className="text-white/80 mb-6">
-                    Get a personalized quote in minutes. Our expert loan officers are ready to help.
+                    Get a personalized quote for {program.title} in minutes.
                   </p>
                   <Link
                     href="/quote"
-                    className="block w-full text-center py-3 bg-[#1daed4] text-white font-bold rounded-lg hover:bg-[#17a0c4] transition-colors"
+                    className="block w-full text-center py-4 bg-[#1daed4] text-white font-bold rounded-lg hover:bg-[#17a0c4] transition-colors shadow-md"
                     style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
                   >
-                    Get Your Quote
+                    Get Started
                   </Link>
+                  <a
+                    href="tel:8779765669"
+                    className="block w-full text-center py-4 mt-4 bg-transparent border-2 border-white/30 text-white font-bold rounded-lg hover:bg-white/10 transition-colors"
+                    style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
+                  >
+                    Call (877) 976-5669
+                  </a>
                 </div>
 
                 {/* Property Types */}
                 {program.property_types && program.property_types.length > 0 && (
-                  <div className="bg-gray-50 border-2 border-gray-200 rounded-xl p-6">
+                  <div className="bg-white border-2 border-gray-100 rounded-xl p-6 shadow-sm">
                     <h4
                       className="text-xl font-bold text-[#636363] mb-4"
                       style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
                     >
-                      Eligible Property Types
+                      Eligible Properties
                     </h4>
                     <div className="flex flex-wrap gap-2">
                       {program.property_types.map((type) => (
                         <span
                           key={type}
-                          className="px-3 py-1 bg-[#1daed4]/10 text-[#1daed4] text-sm font-semibold rounded-full"
+                          className="px-3 py-1 bg-gray-100 text-[#636363] text-xs font-bold rounded-full uppercase"
                         >
                           {type}
                         </span>
@@ -369,62 +346,28 @@ export default async function ProgramDetailPage({ params }: Props) {
                     </div>
                   </div>
                 )}
-
-                {/* Contact Info */}
-                <div className="bg-gray-50 border-2 border-gray-200 rounded-xl p-6">
-                  <h4
-                    className="text-xl font-bold text-[#636363] mb-4"
-                    style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
-                  >
-                    Need Help?
-                  </h4>
-                  <p className="text-[#636363] mb-4">
-                    Our loan experts are available to answer your questions.
-                  </p>
-                  <a
-                    href="tel:1-800-555-0123"
-                    className="block w-full text-center py-3 bg-white border-2 border-[#1daed4] text-[#1daed4] font-bold rounded-lg hover:bg-[#1daed4] hover:text-white transition-colors"
-                    style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
-                  >
-                    Call Us Today
-                  </a>
-                </div>
               </div>
             </div>
           </div>
         </div>
 
-        {/* CTA Section */}
-        <div className="bg-[#1daed4] py-12 px-6 mt-12">
-          <div className="max-w-4xl mx-auto text-center text-white">
-            <h3
-              className="text-4xl font-bold mb-4"
-              style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
-            >
-              Start Your {program.title} Application
-            </h3>
-            <p className="text-lg mb-8 text-white/90">
-              Get pre-qualified in minutes with our easy online application process.
+        {/* Final CTA */}
+        <section className="py-20 px-6 bg-[#636363] text-white">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+              Nationwide {program.title} Lending
+            </h2>
+            <p className="text-xl mb-10 opacity-90">
+              Custom Mortgage provides flexible financing solutions in 48 states.
+              Our technology-driven approach ensures faster approvals and competitive rates.
             </p>
-            <Link
-              href="/quote"
-              className="inline-block bg-white text-[#636363] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg"
-              style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
-            >
-              Get Started Now
+            <Link href="/quote"
+              className="inline-block bg-[#1daed4] text-white px-10 py-5 rounded-lg font-bold text-xl hover:bg-[#17a0c4] transition-colors shadow-xl"
+              style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+              Get Your Custom Quote
             </Link>
           </div>
-        </div>
-
-        {/* Footer */}
-        <div className="bg-[#636363] text-white py-8 px-6">
-          <div className="max-w-7xl mx-auto text-center">
-            <p className="text-sm">
-              © {new Date().getFullYear()} Custom Mortgage Inc. | Nationwide Lender | FinTech
-              Financing Solutions
-            </p>
-          </div>
-        </div>
+        </section>
       </div>
     </>
   );

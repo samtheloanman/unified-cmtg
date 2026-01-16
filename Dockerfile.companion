@@ -27,8 +27,8 @@ RUN pip3 install fastapi uvicorn aiofiles jinja2 python-multipart
 WORKDIR /app
 
 # Copy scripts and code
-# We will mount the codebase at runtime, but copying purely for build context if needed
-# COPY . /app
+# We copy the codebase into the container
+COPY . /app
 
 # Expose ports
 # 8000: Web Interface
@@ -38,6 +38,7 @@ EXPOSE 8000
 VOLUME ["/data/state"]
 
 # Start script
+# We ensure the script is in /
 COPY scripts/start-companion.sh /start.sh
 RUN chmod +x /start.sh
 
