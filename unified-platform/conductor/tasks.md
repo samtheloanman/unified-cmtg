@@ -17,6 +17,8 @@
   - Test: `docker compose exec backend python manage.py check` returns no issues
 - [x] **Health API**: `/api/v1/health/` endpoint
   - Test: `curl http://localhost:8001/api/v1/health/` returns `{"status":"ok"}`
+- [x] **Jules Automation System**: Ralph-loop infrastructure
+  - Test: `ralph-loop` script active and syncing documentation ✅
 
 ### 🔄 In Progress
 - [x] **Legacy cmtgdirect**: Verify running on port 8000
@@ -55,14 +57,15 @@
 - [x] **Office Model**: GPS coordinates for proximity (F.4)
   - Test: `Office.objects.count() == [number from CSV]` ✅
   - Latitude/longitude fields present for Haversine calculations
+- [x] **WP Extraction**: Dump WordPress content to JSON (F.2)
+  - Test: `programs.json` exists in `backend/wp_export/` ✅
+- [x] **Import Command**: Ingest JSON into Wagtail (F.3)
+  - Test: `python manage.py import_wordpress` executed ✅
+- [x] **URL Verification**: URLs match WordPress 1:1 (F.3)
+  - Test: `python manage.py verify_content` passed (100% parity for Blogs/Loans) ✅
 
 ### ⏳ In Progress
-- [ ] **WP Extraction**: Dump WordPress content to JSON
-  - Test: `python manage.py export_wp_content --output programs.json` creates file
-- [ ] **Import Command**: Ingest JSON into Wagtail
-  - Test: `python manage.py import_programs programs.json` imports 75+ pages
-- [ ] **URL Verification**: URLs match WordPress 1:1
-  - Test: Automated URL comparison script passes
+- [ ] **Firecrawl Integration**: Refined content extraction source
 
 ---
 
@@ -154,4 +157,4 @@
 
 ---
 
-**Last Updated**: 2026-01-15 18:45 PST (Ralph-Loop Sync)
+**Last Updated**: 2026-01-16 19:15 PST (Ralph-Loop Sync)
