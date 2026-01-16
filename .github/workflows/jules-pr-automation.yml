@@ -20,6 +20,8 @@ on:
 
 jobs:
   jules_build:
+    # Only run on manual workflow_dispatch, skip accidental push triggers
+    if: github.event_name == 'workflow_dispatch'
     runs-on: [self-hosted, dell-brain, conductor]
     permissions:
       contents: write
