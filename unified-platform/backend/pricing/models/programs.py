@@ -583,9 +583,16 @@ class LoanProgram(BaseLoan):
         ordering = ['lender', 'loan_type']
 
     def get_matching_qual_infos(self):
-        """Get qualifying info records that match this loan program."""
-        from pricing.services.matching import get_quals_for_loan_program
-        return get_quals_for_loan_program(self)
+        """
+        Get qualifying info records that match this loan program.
+
+        DEPRECATED: The matching logic has moved to `LenderProgramOffering`.
+        This method is kept for legacy compatibility but is non-functional.
+        """
+        raise NotImplementedError(
+            "Matching logic has moved to LenderProgramOffering. "
+            "Please use matching.get_quals_for_loan_program(offering)."
+        )
 
     def get_absolute_url(self):
         """Return URL for viewing this loan program detail."""
