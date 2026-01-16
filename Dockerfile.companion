@@ -1,0 +1,44 @@
+FROM ubuntu:22.04
+
+# Prevent interactive prompts during package installation
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install dependencies
+RUN apt-get update && apt-get install -y \
+    curl \
+    python3 \
+    python3-pip \
+    sqlite3 \
+    nodejs \
+    npm \
+    iptables \
+    iproute2 \
+    ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Tailscale
+RUN curl -fsSL https://tailscale.com/install.sh | sh
+
+# Install Python dependencies
+# Using system python for simplicity in this container
+RUN pip3 install fastapi uvicorn aiofiles jinja2 python-multipart
+
+# Create app directory
+WORKDIR /app
+
+# Copy scripts and code
+# We will mount the codebase at runtime, but copying purely for build context if needed
+# COPY . /app
+
+# Expose ports
+# 8000: Web Interface
+EXPOSE 8000
+
+# Volume mount point for state database
+VOLUME ["/data/state"]
+
+# Start script
+COPY scripts/start-companion.sh /start.sh
+RUN chmod +x /start.sh
+
+CMD ["/start.sh"]

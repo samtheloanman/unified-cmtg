@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Antigravity Companion</title>
+    <!-- Tailwind CSS (CDN for simplicity in prototype) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { 
+            background-color: #0f172a; 
+            color: #e2e8f0;
+            -webkit-font-smoothing: antialiased;
+        }
+        .card {
+            background-color: #1e293b;
+            border: 1px solid #334155;
+        }
+        .btn-primary {
+            background-color: #3b82f6;
+        }
+        .btn-primary:active {
+            background-color: #2563eb;
+        }
+    </style>
+</head>
+<body class="p-4 safe-area-inset">
+    
+    <!-- Header -->
+    <div class="flex justify-between items-center mb-6">
+        <h1 class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+            Antigravity
+        </h1>
+        <div id="connection-status" class="w-2 h-2 rounded-full bg-red-500"></div>
+    </div>
+
+    <!-- Inbox Container -->
+    <div id="inbox-container" class="space-y-4">
+        <!-- Loading State -->
+        <div class="text-center text-gray-500 py-10 animate-pulse">
+            Loading inbox...
+        </div>
+    </div>
+
+    <!-- Instructions / Empty State -->
+    <div id="empty-state" class="hidden text-center py-10 text-gray-500">
+        <p>🎉 All caught up!</p>
+        <p class="text-xs mt-2">No pending approvals.</p>
+    </div>
+
+    <script>
+        const API_BASE = '/api';
+
+        async function fetchInbox() {
+            try {
+                const res = await fetch(`${API_BASE}/inbox`);
+                const items = await res.json();
+                renderInbox(items);
+                document.getElementById('connection-status').className = 'w-2 h-2 rounded-full bg-green-500';
+            } catch (e) {
+                console.error("Failed to fetch inbox", e);
+                document.getElementById('connection-status').className = 'w-2 h-2 rounded-full bg-red-500';
+            }
+        }
+
+        async function approveItem(id) {
+            try {
+                const res = await fetch(`${API_BASE}/approve/${id}`, { method: 'POST' });
+                if (res.ok) {
+                    // Remove card with animation
+                    const el = document.getElementById(`card-${id}`);
+                    el.style.opacity = '0';
+                    el.style.transform = 'translateX(100px)';
+                    setTimeout(() => fetchInbox(), 300);
+                }
+            } catch (e) {
+                alert("Failed to approve");
+            }
+        }
+
+        function renderInbox(items) {
+            const container = document.getElementById('inbox-container');
+            const emptyState = document.getElementById('empty-state');
+            
+            if (items.length === 0) {
+                container.innerHTML = '';
+                emptyState.classList.remove('hidden');
+                return;
+            }
+
+            emptyState.classList.add('hidden');
+            container.innerHTML = items.map(item => `
+                <div id="card-${item.id}" class="card rounded-xl p-4 shadow-lg transition-all duration-300">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="text-xs font-mono text-blue-400 bg-blue-900/30 px-2 py-0.5 rounded">${item.timestamp.split(' ')[1]}</span>
+                        <span class="text-xs text-gray-400">ID: ${item.id}</span>
+                    </div>
+                    <h3 class="font-bold text-lg mb-1">${item.title}</h3>
+                    <p class="text-gray-300 text-sm mb-4 leading-relaxed">${item.description}</p>
+                    
+                    <button onclick="approveItem('${item.id}')" 
+                        class="w-full btn-primary text-white py-3 rounded-lg font-medium shadow-lg shadow-blue-500/20 active:scale-95 transition-transform">
+                        Approve
+                    </button>
+                </div>
+            `).join('');
+        }
+
+        // Poll every 2 seconds
+        setInterval(fetchInbox, 2000);
+        fetchInbox();
+    </script>
+</body>
+</html>
