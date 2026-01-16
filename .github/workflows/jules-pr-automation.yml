@@ -75,8 +75,8 @@ jobs:
           git add .
           git commit -m "feat: ${{ inputs.task_description }}
 
-Automated changes by Jules Builder agent
-Triggered via workflow_dispatch" || echo "Commit failed"
+          Automated changes by Jules Builder agent
+          Triggered via workflow_dispatch" || echo "Commit failed"
           
           git push origin "${{ steps.branch.outputs.name }}"
       
@@ -88,19 +88,19 @@ Triggered via workflow_dispatch" || echo "Commit failed"
             --title "🤖 Jules: ${{ inputs.task_description }}" \
             --body "## Automated PR by Jules
 
-**Task**: ${{ inputs.task_description }}
-**Target Branch**: ${{ inputs.target_branch }}
-**Created**: $(date -u +%Y-%m-%dT%H:%M:%SZ)
+            **Task**: ${{ inputs.task_description }}
+            **Target Branch**: ${{ inputs.target_branch }}
+            **Created**: $(date -u +%Y-%m-%dT%H:%M:%SZ)
 
-### What Jules Did
-This PR was created automatically by the Jules Builder agent.
+            ### What Jules Did
+            This PR was created automatically by the Jules Builder agent.
 
-### Review Checklist
-- [ ] Code changes are correct
-- [ ] Tests pass
-- [ ] No unintended side effects
+            ### Review Checklist
+            - [ ] Code changes are correct
+            - [ ] Tests pass
+            - [ ] No unintended side effects
 
-cc: @samtheloanman" \
+            cc: @samtheloanman" \
             --base "${{ inputs.target_branch }}" \
             --head "${{ steps.branch.outputs.name }}" \
             --label "jules,automated" | tail -1)
