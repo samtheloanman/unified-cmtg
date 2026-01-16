@@ -1,0 +1,30 @@
+Sync unified-cmtg/unified-platform docs with git changes:
+
+WORKDIR: /home/samalabam/code/unified-cmtg/unified-platform
+
+EACH ITERATION:
+1. Git: Check `git log -n 10`, `git status`, `git diff --stat HEAD~5..HEAD`
+2. Analyze: Backend/frontend code changes, commit messages (feat/fix/test), TODOs
+3. Update tasks.md: Move completed (✅), add new (⏳), update progress (🟡) - Auto if <3 changes
+4. Update current.md: Timestamp, active tasks, % completion, blockers - Auto if % change <10%
+5. Update phase checklists: Check conductor/tracks/phase*/checklist.md against code evidence
+6. Fix links: Check modified .md files for broken internal links - Auto-fix if <5
+7. Update PROJECT_STATUS_REVIEW.md: Phase %, metrics, activity
+8. Generate SYNC_REPORTS/sync-latest.md: Summary of changes, questions (if any)
+
+COMPLETION: Output <promise>SYNC_COMPLETE</promise> when:
+✅ Git changes analyzed (last 10 commits)
+✅ tasks.md reflects code state
+✅ current.md updated with current timestamp
+✅ Phase checklists accurate
+✅ No broken links
+✅ Status review current
+✅ Report generated
+✅ No unresolved uncertainties (or documented in report)
+
+AUTO-DECIDE: <3 task changes, % change <10%, clear evidence, <5 broken links
+ASK USER: >5 new tasks, % change >10%, phase 100% complete, uncertain completion, >5 broken links
+NEVER AUTO: Archive, delete, change priorities, mark complete without test evidence
+
+MAX-ITERATIONS: 10 (typical: 3-6)
+SELF-CORRECT: If read fails try alternatives, if uncertain document in report

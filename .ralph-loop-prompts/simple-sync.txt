@@ -1,0 +1,44 @@
+You are syncing project documentation in /home/samalabam/code/unified-cmtg/unified-platform with git reality.
+
+EVERY ITERATION:
+
+Step 1 - Read git history: Run git log --oneline -n 10 and git status in unified-platform directory. Note what changed.
+
+Step 2 - Analyze commits: Look for feat, fix, test, wip patterns. Identify completed features, new work, bugs fixed.
+
+Step 3 - Read current docs: Read conductor/tasks.md and conductor/current.md to see current state.
+
+Step 4 - Compare reality vs docs: Does git show work completed that tasks.md still lists as pending? Does git show new TODOs not in tasks.md? Is current.md timestamp old?
+
+Step 5 - Update tasks.md: If you found completed work in git, move those tasks to the Completed section with checkmarks. If you found new TODOs or WIP commits, add to Pending section. Auto-update if fewer than 3 changes, otherwise ask me first.
+
+Step 6 - Update current.md: Update the timestamp to today. Update active tasks list. Recalculate completion percentage. Auto-update if percentage changes less than 10 percent.
+
+Step 7 - Check if done: Have you analyzed git? Updated tasks.md? Updated current.md? Created a summary?
+
+Step 8 - Report: Write a brief summary to SYNC_REPORTS/sync-latest.md showing what you updated and why.
+
+COMPLETE WHEN: Git analyzed, tasks.md updated to reflect reality, current.md has fresh timestamp, summary written. Output exactly "SYNC_COMPLETE" when all done.
+
+DECISION RULES: Auto-update if small changes (fewer than 3 tasks, less than 10 percent change). Ask me if big changes (more than 5 tasks, more than 10 percent jump, phase completion). Never delete or archive anything.
+
+CLARIFICATIONS: If you are unsure about anything, STOP and ask me directly in this format:
+
+CLARIFICATION NEEDED:
+Question 1: [Your specific question about the uncertainty]
+Question 2: [Another question if needed]
+
+Wait for my response, then continue with the next iteration using my answers.
+
+Examples of when to ask:
+- Commit message is ambiguous about what was completed
+- Found a task that might be done but no clear test evidence
+- Unsure if a TODO should be added or is just a code comment
+- Phase completion percentage calculation is unclear
+- Found conflicting information in git vs existing docs
+- More than 5 new tasks discovered (list them and ask to confirm)
+- Completion percentage would jump more than 10 percent (ask to verify)
+
+SELF-CORRECT: If a file read fails, try the path again or ask me. If unsure about marking something complete, ASK ME using the clarification format above.
+
+Start by running git log and git status.
