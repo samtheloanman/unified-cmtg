@@ -47,8 +47,16 @@
 
 ## Phase 3: Content Migration (Week 3)
 
-- [x] **ProgramPage Model**: 64 ACF fields in Wagtail
-  - Test: `python manage.py makemigrations cms` succeeds
+### ✅ Completed
+- [x] **ProgramPage Model**: 64 ACF fields in Wagtail - COMPLETED (F.1)
+  - Test: `python manage.py makemigrations cms` succeeds ✅
+  - Migrations 0002-0005 exist with all field definitions
+  - BlogIndexPage, FundedLoanPage, Office models also implemented
+- [x] **Office Model**: GPS coordinates for proximity (F.4)
+  - Test: `Office.objects.count() == [number from CSV]` ✅
+  - Latitude/longitude fields present for Haversine calculations
+
+### ⏳ In Progress
 - [ ] **WP Extraction**: Dump WordPress content to JSON
   - Test: `python manage.py export_wp_content --output programs.json` creates file
 - [ ] **Import Command**: Ingest JSON into Wagtail
@@ -90,16 +98,27 @@
 
 ---
 
-## Phase 5: Frontend Finish & Polish (Week 5)
+## Phase 5: Frontend Finish & Polish (Week 5) / F.7: Next.js CMS Integration
 
+### ✅ Completed
+- [x] **Program Pages**: Dynamic routing `/programs/[slug]` - COMPLETED (F.7)
+  - Test: Individual program pages load correct content ✅
+  - Implementation: /frontend/src/app/programs/[slug]/page.tsx (432 lines)
+  - Features: SSG with generateStaticParams(), SEO metadata, MortgageLoan schema markup, CMS field rendering
+- [x] **Blog Pages**: Dynamic routing `/blog/[slug]` - COMPLETED (F.7)
+  - Test: Blog pages load with SSG ✅
+  - Implementation: /frontend/src/app/blog/[slug]/page.tsx (233 lines)
+  - Features: SSG, SEO metadata, BlogPosting schema, full branding
+
+### ⏳ In Progress / Pending
 - [ ] **Home Page**: Connect CMS fields to Next.js Hero/Features
   - Test: Home page content matches Wagtail admin
-- [ ] **Program Pages**: Dynamic routing `/programs/[slug]`
-  - Test: Individual program pages load correct content
 - [ ] **Quote Wizard**: Complete multi-step form logic
   - Test: User can complete quote flow
 - [ ] **Quote Results**: Display API results from Pricing Engine
   - Test: Real rates appear after quote submission
+- [ ] **Local SEO Pages**: Flat URL format `/program-city-state/` (F.5)
+  - Test: SSG generates 10,000+ pages
 - [ ] **Styling Policy**: Verify consistent Tailwind branding (Colors/Fonts)
   - Test: Visual regression check
 - [ ] **Mobile Responsiveness**: Verify layouts on mobile
@@ -135,4 +154,4 @@
 
 ---
 
-**Last Updated**: 2026-01-12 01:14 PST
+**Last Updated**: 2026-01-15 18:45 PST (Ralph-Loop Sync)
