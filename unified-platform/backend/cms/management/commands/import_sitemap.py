@@ -122,6 +122,21 @@ class Command(BaseCommand):
         urls = soup.find_all('loc')
         
         self.stdout.write(f"Found {len(urls)} URLs in {sitemap_type} sitemap")
+
+        # Determine configuration based on sitemap type
+        if sitemap_type == 'programs':
+            parent = programs_index
+            page_class = ProgramPage
+        elif sitemap_type == 'funded':
+            parent = funded_index
+            page_class = FundedLoanPage
+        else:
+            parent = legacy_index
+            page_class = LegacyRecreatedPage
+
+        # Pre-fetch existing slugs to avoid N+1 queries
+        all_slugs = set(Page.objects.values_list('slug', flat=True))
+        target_slugs = set(page_class.objects.values_list('slug', flat=True))
         
         imported_count = 0
         skipped_count = 0
@@ -131,9 +146,10 @@ class Command(BaseCommand):
             result = self._create_page_from_url(
                 page_url, 
                 sitemap_type, 
-                programs_index, 
-                funded_index,
-                legacy_index,
+                parent,
+                page_class,
+                all_slugs,
+                target_slugs,
                 dry_run
             )
             if result == 'created':
@@ -145,7 +161,7 @@ class Command(BaseCommand):
             f"\n{sitemap_type}: Imported {imported_count}, Skipped {skipped_count}"
         ))
     
-    def _create_page_from_url(self, url, sitemap_type, programs_index, funded_index, legacy_index, dry_run):
+    def _create_page_from_url(self, url, sitemap_type, parent, page_class, all_slugs, target_slugs, dry_run):
         """Create a Wagtail page from a sitemap URL"""
         # Extract slug from URL
         path = url.replace('https://custommortgageinc.com/', '').strip('/')
@@ -165,11 +181,22 @@ class Command(BaseCommand):
             self.stdout.write(f"  [DRY RUN] Would create: {title} ({slug})")
             return 'created'
         
-        # Determine page type and parent based on sitemap type
+        # Check if page already exists
+        if slug in target_slugs:
+            self.stdout.write(f"  [SKIP] {title} already exists")
+            return 'skipped'
+
+        # Also check other page types for same slug to avoid conflicts
+        if slug in all_slugs:
+            # Append suffix to make unique
+            slug = f"{slug}-{sitemap_type}"
+            if slug in all_slugs:
+                self.stdout.write(f"  [SKIP] {title} slug conflict")
+                return 'skipped'
+
+        # Determine extra fields based on sitemap type
+        extra_fields = {}
         if sitemap_type == 'programs':
-            parent = programs_index
-            page_class = ProgramPage
-            
             # Infer program type from URL
             program_type = 'residential'  # default
             path_lower = path.lower()
@@ -187,30 +214,13 @@ class Command(BaseCommand):
                 'source_url': url,
             }
         elif sitemap_type == 'funded':
-            parent = funded_index
-            page_class = FundedLoanPage
-            extra_fields = {}
+             pass
         else:
             # Regular pages go to legacy index for now
-            parent = legacy_index
-            page_class = LegacyRecreatedPage
             extra_fields = {
                 'original_url': url,
                 'original_title': title,
             }
-        
-        # Check if page already exists
-        if page_class.objects.filter(slug=slug).exists():
-            self.stdout.write(f"  [SKIP] {title} already exists")
-            return 'skipped'
-        
-        # Also check other page types for same slug to avoid conflicts
-        if Page.objects.filter(slug=slug).exists():
-            # Append suffix to make unique
-            slug = f"{slug}-{sitemap_type}"
-            if Page.objects.filter(slug=slug).exists():
-                self.stdout.write(f"  [SKIP] {title} slug conflict")
-                return 'skipped'
         
         # Create the page
         try:
@@ -220,6 +230,11 @@ class Command(BaseCommand):
                 **extra_fields
             )
             parent.add_child(instance=page)
+
+            # Update cache
+            all_slugs.add(slug)
+            target_slugs.add(slug)
+
             self.stdout.write(self.style.SUCCESS(f"  [CREATED] {title}"))
             return 'created'
         except Exception as e:
