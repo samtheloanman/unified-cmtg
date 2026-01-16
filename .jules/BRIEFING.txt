@@ -1,0 +1,280 @@
+JULES BRIEFING - RALPH-LOOP AUTOMATION SYSTEM
+==============================================
+
+MISSION: Keep unified-cmtg documentation synchronized with git changes, every hour, 24/7
+
+CURRENT STATUS: ✅ DEPLOYED AND ACTIVE
+Deployment Date: 2026-01-16
+Next Sync: At top of next hour (:00)
+Systemd Timer: ACTIVE (automatically triggers every hour)
+
+---
+
+WHAT TO DO (Every Hour at :00)
+==============================
+
+RUN THIS:
+  /home/samalabam/code/unified-cmtg/.julius/scripts/run-ralph-sync.sh
+
+EXPECTED OUTPUT:
+  ✅ Sync completed successfully
+  ✅ Documentation updated
+  ✅ Dashboard refreshed
+  ✅ Changes committed
+  ✅ Changes pushed
+
+VERIFY:
+  git log --oneline -1  # Should show new commit from last hour
+
+---
+
+WHAT HAPPENS AUTOMATICALLY (In the Script)
+===========================================
+
+1. Analyze last 10 commits in git
+2. Run ralph-loop to detect completions
+3. Update: conductor/tasks.md (task status)
+4. Update: conductor/current.md (phase status)
+5. Update: SYNC_REPORTS/sync-latest.md (detailed report)
+6. Refresh: dashboard-data.json (for live dashboard)
+7. Git commit with details
+8. Git push to origin/main
+9. Log everything to sync-schedule.log
+
+YOU DON'T NEED TO DO ANY OF THESE - the script handles it all.
+
+---
+
+HOW TO MONITOR
+==============
+
+Latest Report:
+  cat /home/samalabam/code/unified-cmtg/SYNC_REPORTS/sync-latest.md | head -50
+
+Activity Log:
+  tail -20 /home/samalabam/code/unified-cmtg/.ralph-loop-state/sync-schedule.log
+
+Dashboard:
+  http://localhost:9000
+
+Live Logs (if using systemd):
+  journalctl --user -u julius-ralph-sync.service -f
+
+---
+
+IF SOMETHING FAILS
+==================
+
+Timeout (> 400 seconds):
+  → Too many git changes. OK, will retry next hour.
+  → Move on, don't panic.
+
+Git Push Fails:
+  → Network issue. Will retry next hour.
+  → Check: cd /home/samalabam/code/unified-cmtg && git status
+
+Ralph-Loop Asks Clarification:
+  → Script stops, logs "CLARIFICATION NEEDED"
+  → Find the question in the logs
+  → Escalate to human for answer
+  → Loop continues next iteration
+
+No New Commits:
+  → Script checked git and found nothing new
+  → That's OK, documentation is already current
+  → Will check again next hour
+
+---
+
+CURRENT PROJECT STATE
+====================
+
+Phases:
+  Phase 1: 100% ✅ COMPLETE (Foundation)
+  Phase 3: 100% ✅ COMPLETE (CMS & Content - was 80%, just elevated)
+  Phase 5: 60% (Frontend - in progress)
+
+Next Phase: F.5 - Programmatic SEO (generate 10,000+ local pages)
+
+Last Sync Details:
+  - F.2 (WordPress extraction) marked COMPLETED ✅
+  - F.3 (Content import & URL verification) marked COMPLETED ✅
+  - Phase 3 elevated from 80% → 100% ✅
+  - Next action: Begin F.5 SEO infrastructure
+  - Report: /home/samalabam/code/unified-cmtg/SYNC_REPORTS/sync-latest.md
+
+---
+
+WHO USES YOUR WORK
+==================
+
+Gemini CLI (L1 Orchestrator):
+  → Reads conductor/tasks.md to see what's done
+  → Issues new tasks based on what's complete
+
+Claude Code (L2 Generator):
+  → Reads conductor/current.md for sprint context
+  → Checks blockers in sync reports
+  → Executes delegated work
+
+Dashboard:
+  → Shows metrics from dashboard-data.json
+  → Auto-refreshes every 30 seconds
+  → Displays phase completion, recent commits
+
+Team/Users:
+  → Read SYNC_REPORTS/sync-latest.md for status
+  → View dashboard for visual overview
+  → Know what's next without asking
+
+---
+
+INTEGRATION ARCHITECTURE
+=======================
+
+Git Commits → Ralph-Loop Analysis → Updated Docs
+    ↓              ↓                    ↓
+Latest code  Detect completions   All agents see
+changes      and new work         current state
+    ↓              ↓                    ↓
+  10 commits    Task marks        Gemini, Claude,
+  analyzed      Phase %           Dashboard, Users
+                Next action       all sync'd up
+
+---
+
+SYSTEM DETAILS (FYI)
+===================
+
+Deployment Method: Systemd User Timer
+  Service: ~/.config/systemd/user/julius-ralph-sync.service
+  Timer: ~/.config/systemd/user/julius-ralph-sync.timer
+  Frequency: Every hour at :00
+  Auto-wake: Yes (catches missed runs)
+
+Runner Script: .julius/scripts/run-ralph-sync.sh
+  Timeout: 400 seconds (6m40s)
+  Lock file: Prevents concurrent runs
+  Logging: Full output to sync-schedule.log
+
+Ralph-Loop Prompt: .ralph-loop-prompts/simple-sync.txt
+  Max iterations: 10
+  Decision framework: <3 tasks auto-update, >5 tasks ask user
+  Completion signal: <promise>SYNC_COMPLETE</promise>
+
+---
+
+QUICK COMMANDS
+==============
+
+Run sync manually:
+  /home/samalabam/code/unified-cmtg/.julius/scripts/run-ralph-sync.sh
+
+Check timer active:
+  systemctl --user status julius-ralph-sync.timer
+
+View next scheduled run:
+  systemctl --user list-timers julius-ralph-sync.timer
+
+Watch logs:
+  journalctl --user -u julius-ralph-sync.service -f
+
+View report:
+  cat /home/samalabam/code/unified-cmtg/SYNC_REPORTS/sync-latest.md
+
+Check latest sync:
+  tail -1 /home/samalabam/code/unified-cmtg/.ralph-loop-state/sync-schedule.log
+
+Dashboard:
+  open http://localhost:9000
+
+---
+
+SUCCESS CRITERIA
+================
+
+✅ Timer shows "active (waiting)"
+✅ Next run scheduled at :00
+✅ sync-schedule.log updates hourly
+✅ SYNC_REPORTS/sync-latest.md refreshes hourly
+✅ conductor/tasks.md reflects git changes
+✅ conductor/current.md has fresh timestamp
+✅ Dashboard shows current metrics
+✅ Git commits appear hourly
+✅ All agents see synchronized status
+
+---
+
+DOCUMENTATION YOU MAINTAIN
+==========================
+
+Every hour, these files get updated:
+
+conductor/tasks.md
+  → Task list with ✅/⏳/🔴 status
+  → Updated timestamp
+
+conductor/current.md
+  → Current sprint status
+  → Phase completion percentages
+  → Next action recommendation
+  → Fresh date
+
+PROJECT_STATUS_REVIEW.md
+  → Metrics dashboard source
+  → Completion percentages
+
+SYNC_REPORTS/sync-latest.md
+  → Detailed sync analysis
+  → Git changes analyzed
+  → Documentation updates made
+  → Next steps & recommendations
+
+dashboard-data.json
+  → Live dashboard metrics
+  → Refreshed for port 9000
+
+.ralph-loop-state/sync-schedule.log
+  → Activity audit trail
+  → Success/failure log
+
+---
+
+YOU ARE NOW LIVE
+================
+
+✅ Systemd timer deployed
+✅ Runner script ready
+✅ Documentation format prepared
+✅ Ralph-loop prompts loaded
+✅ Dashboard integration active
+✅ Git integration configured
+✅ Logging enabled
+✅ Error handling in place
+
+Every hour at :00, you wake up and synchronize the repository.
+
+The system trusts you.
+The team relies on you.
+The documentation waits for your work.
+
+See .julius/DEPLOYMENT_BRIEF.md for full details
+See .julius/AGENT_INSTRUCTIONS.md for complete reference
+
+---
+
+Questions? Check:
+  - SYNC_REPORTS/sync-latest.md for last sync details
+  - .ralph-loop-state/sync-schedule.log for activity history
+  - http://localhost:9000 for live dashboard
+
+Report issues:
+  - Check logs: tail -100 .ralph-loop-state/sync-schedule.log
+  - Verify repo: cd /home/samalabam/code/unified-cmtg && git status
+  - Manual test: /home/samalabam/code/unified-cmtg/.julius/scripts/run-ralph-sync.sh
+
+Status: ✅ ACTIVE
+Deployed: 2026-01-16
+Next Sync: At top of next hour
+
+You're good to go, Jules.
