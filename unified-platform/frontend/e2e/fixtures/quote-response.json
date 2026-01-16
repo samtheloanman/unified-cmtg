@@ -1,0 +1,28 @@
+{
+  "quotes": [
+    {
+      "lender": "Acra Lending",
+      "program": "DSCR 30-Year Fixed",
+      "base_rate": 7.5,
+      "adjusted_rate": 7.875,
+      "points": 1.5,
+      "adjustments_applied": 0.375,
+      "min_loan": 150000,
+      "max_loan": 3000000
+    },
+    {
+      "lender": "Angel Oak",
+      "program": "Bank Statement Loan",
+      "base_rate": 8.125,
+      "adjusted_rate": 8.125,
+      "points": 0.0,
+      "adjustments_applied": 0.0,
+      "min_loan": 100000,
+      "max_loan": 2500000
+    }
+  ],
+  "ltv": 75.0,
+  "loan_amount": 750000,
+  "property_value": 1000000,
+  "matches_found": 2
+}
