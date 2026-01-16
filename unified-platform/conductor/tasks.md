@@ -22,7 +22,7 @@
 - [x] **Legacy cmtgdirect**: Verify running on port 8000
   - Test: `curl http://localhost:8000/admin/` returns 200
   - Superuser: admin/admin ✅
-- [ ] **Frontend Connectivity**: Next.js fetches from Django
+- [x] **Frontend Connectivity**: Next.js fetches from Django
   - Test: Visit `http://localhost:3001/test` shows "API Status: ok"
 
 ### ⏳ Not Started
@@ -47,7 +47,7 @@
 
 ## Phase 3: Content Migration (Week 3)
 
-- [ ] **ProgramPage Model**: 64 ACF fields in Wagtail
+- [x] **ProgramPage Model**: 64 ACF fields in Wagtail
   - Test: `python manage.py makemigrations cms` succeeds
 - [ ] **WP Extraction**: Dump WordPress content to JSON
   - Test: `python manage.py export_wp_content --output programs.json` creates file
@@ -90,64 +90,36 @@
 
 ---
 
-## Phase 5: Floify Integration (Week 6)
+## Phase 5: Frontend Finish & Polish (Week 5)
 
-- [ ] **Lead Push**: `floify_create_prospect()`
-  - Test: Mock API call succeeds
-- [ ] **Webhook**: Handle `application.created`
-  - Test: Webhook endpoint returns 200
-- [ ] **Quote Wizard**: Next.js UI
-  - Test: E2E test with Playwright passes
-
----
-
-## Phase 6: AI Blog (Week 7-8)
-
-- [ ] **BlogPost Model**: Wagtail StreamField
-  - Test: Model creates without error
-- [ ] **NotebookLM Integration**: Content aggregation
-  - Test: Feed ingestion returns articles
-- [ ] **AI Generation**: OpenAI content synthesis
-  - Test: Generated article is unique
-- [ ] **Review Workflow**: Email approval
-  - Test: Email sent to reviewer
-- [ ] **Social Integration**: Auto-post to social
-  - Test: Draft social post created
+- [ ] **Home Page**: Connect CMS fields to Next.js Hero/Features
+  - Test: Home page content matches Wagtail admin
+- [ ] **Program Pages**: Dynamic routing `/programs/[slug]`
+  - Test: Individual program pages load correct content
+- [ ] **Quote Wizard**: Complete multi-step form logic
+  - Test: User can complete quote flow
+- [ ] **Quote Results**: Display API results from Pricing Engine
+  - Test: Real rates appear after quote submission
+- [ ] **Styling Policy**: Verify consistent Tailwind branding (Colors/Fonts)
+  - Test: Visual regression check
+- [ ] **Mobile Responsiveness**: Verify layouts on mobile
+  - Test: Chrome DevTools device mode check
 
 ---
 
-## Phase 7: Affiliate Program (Week 9)
+## Phase 6: Production Readiness & Deployment (Week 6)
 
-- [ ] **Affiliate Model**: Referral tracking
-  - Test: `Affiliate.objects.create()` succeeds
-- [ ] **Tracking Middleware**: UTM capture
-  - Test: `?ref=CODE` sets session cookie
-- [ ] **Commission Calc**: Funded loan → commission
-  - Test: Commission calculated correctly for non-RESPA loan
-- [ ] **Disclaimer**: Legal language implemented
-  - Test: Disclaimer displays on affiliate pages
-- [ ] **Payout**: Stripe Connect or ACH
-  - Test: Test payout succeeds in sandbox
+- [ ] **Security Audit**: Verify `DEBUG=False`, secrets management
+  - Test: `manage.py check --deploy` passes
+- [ ] **Docker Optimization**: Multi-stage builds for minimal images
+  - Test: Image size < 500MB
+- [ ] **Error Handling**: Global error boundaries (404/500)
+  - Test: Manually trigger errors
+- [ ] **SEO Verification**: Meta tags, Sitemap.xml, Robots.txt
+  - Test: Lighthouse SEO score > 90
+- [ ] **Staging Deployment**: Deploy to staging environment
+  - Test: Full E2E smoke test on staging
 
----
-
-## Phase 8: Investment Waitlist (Week 10)
-
-- [ ] **Waitlist Form**: Capture investor interest
-  - Test: Form submission saves to DB
-- [ ] **Coming Soon Page**: Marketing landing
-  - Test: Page loads without error
-
----
-
-## Phase 9: Community Forum (Week 11-12)
-
-- [ ] **Forum Engine**: Custom Wagtail + HTMX
-  - Test: Thread creation works
-- [ ] **Moderation**: AI auto-moderation
-  - Test: Flagged content held for review
-- [ ] **Gamification**: Points/badges
-  - Test: Points awarded on activity
 
 ---
 

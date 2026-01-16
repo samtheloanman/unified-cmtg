@@ -1,0 +1,9 @@
+# Conductor Task List
+
+> **Note**: This file is automatically updated by the Conductor Bot based on GitHub Issues.
+
+## 📥 Inbox (New Issues)
+
+## 🏃 Active Tasks
+
+## ✅ Completed Tasks
