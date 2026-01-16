@@ -1,308 +1,292 @@
-from django.core.management.base import BaseCommand
-from wagtail.models import Page
-from cms.models import ProgramPage, BlogPage, FundedLoanPage
-from cms.models import ProgramIndexPage, BlogIndexPage, FundedLoanIndexPage
 import json
+import os
+import re
+from datetime import datetime
 from pathlib import Path
-from django.utils.text import slugify
+from django.core.management.base import BaseCommand
+from django.utils.timezone import make_aware
+from wagtail.models import Page
+from wagtail.images.models import Image
+from cms.models import (
+    ProgramIndexPage, ProgramPage,
+    FundedLoanIndexPage, FundedLoanPage,
+    BlogIndexPage, BlogPage
+)
+from django.conf import settings
 
 class Command(BaseCommand):
-    help = 'Import WordPress content from JSON exports'
-    
+    help = 'Imports extracted WordPress content into Wagtail'
+
     def add_arguments(self, parser):
-        parser.add_argument(
-            '--input-dir',
-            type=str,
-            default='unified-platform/backend/wp_export',
-            help='Directory containing JSON exports'
-        )
-        parser.add_argument(
-            '--dry-run',
-            action='store_true',
-            help='Preview import without saving'
-        )
-        parser.add_argument(
-            '--content-type',
-            type=str,
-            choices=['programs', 'blogs', 'funded_loans', 'all'],
-            default='all',
-            help='Type of content to import'
-        )
-    
+        parser.add_argument('--wipe', action='store_true', help='Wipe existing content before import')
+        parser.add_argument('--input-dir', default='wp_export', help='Directory containing exported JSON')
+
     def handle(self, *args, **options):
-        # Adjust input dir path relative to CWD if needed, or use absolute
-        # Assuming run from repo root or backend root.
-        input_dir = Path(options['input_dir'])
-        if not input_dir.is_absolute():
-            # If relative, check if existing relative to CWD
-            if not input_dir.exists():
-                # Try relative to backend
-                 # But usually we run from root? command is run via manage.py
-                 pass
-
-        dry_run = options['dry_run']
-        content_type = options['content_type']
+        self.export_dir = Path(options['input_dir'])
         
-        if dry_run:
-            self.stdout.write(self.style.WARNING('DRY RUN MODE - No changes will be saved'))
-        
-        # Get or create index pages
-        from wagtail.models import Site
-        site = Site.objects.filter(is_default_site=True).first()
-        if not site:
-             self.stdout.write(self.style.ERROR('No default site found!'))
-             return
-        
-        home = site.root_page
-        
-        if content_type in ['programs', 'all']:
-            # Check if 'loan-programs' (ID 4) exists and rename/use it?
-            # Or just look for 'programs' under home.
-            programs_index = self._get_or_create_index(
-                home, 'programs', 'Programs', ProgramIndexPage
-            )
-            self._import_programs(input_dir / 'programs.json', programs_index, dry_run)
-        
-        if content_type in ['blogs', 'all']:
-            blog_index = self._get_or_create_index(
-                home, 'blog', 'Blog', BlogIndexPage
-            )
-            self._import_blogs(input_dir / 'blogs.json', blog_index, dry_run)
-        
-        if content_type in ['funded_loans', 'all']:
-            funded_index = self._get_or_create_index(
-                home, 'funded-loans', 'Funded Loans', FundedLoanIndexPage
-            )
-            self._import_funded_loans(input_dir / 'funded_loans.json', funded_index, dry_run)
-    
-    def _get_or_create_index(self, parent, slug, title, model_class):
-        """Get or create an index page."""
+        # Determine root page (Home)
         try:
-            return Page.objects.get(slug=slug).specific
+            self.home_page = Page.objects.filter(depth=2).first()
+            if not self.home_page:
+                self.home_page = Page.objects.get(slug='home')
         except Page.DoesNotExist:
-            index = model_class(title=title, slug=slug)
-            parent.add_child(instance=index)
-            index.save_revision().publish()
-            self.stdout.write(self.style.SUCCESS(f'Created index: {title}'))
-            return index
-    
-    def _import_programs(self, json_path, parent, dry_run):
-        """Import program pages from JSON."""
-        if not json_path.exists():
-            self.stdout.write(self.style.WARNING(f'File not found: {json_path}'))
+            self.stdout.write(self.style.ERROR("Could not find Home Page (depth=2 or slug='home')."))
             return
-        
-        with open(json_path) as f:
-            programs = json.load(f)
-        
-        self.stdout.write(f'Importing {len(programs)} programs...')
-        
-        # Refresh parent to avoid MP_Node issues
-        parent = Page.objects.get(id=parent.id).specific
 
-        for wp_program in programs:
-            slug = wp_program.get('slug')
-            acf = wp_program.get('acf', {})
-            if isinstance(acf, list):
-                acf = {}
-            
-            # Check if already exists
-            if ProgramPage.objects.filter(slug=slug).exists():
-                self.stdout.write(f'  Skipping existing: {slug}')
-                continue
-            
-            # Construct interest rates string
-            min_rate = self._parse_float(acf.get('interest_rate_min', acf.get('interest_rates_min')))
-            max_rate = self._parse_float(acf.get('interest_rate_max', acf.get('interest_rates_max')))
-            interest_rates = ""
-            if min_rate and max_rate:
-                interest_rates = f"{min_rate}% - {max_rate}%"
-            elif min_rate:
-                interest_rates = f"From {min_rate}%"
+        self.stdout.write(f"Attaching content to Home Page: {self.home_page.title}")
 
-
-                
-            # Extract program_type
-            pt = acf.get('program_type', 'residential')
-            if isinstance(pt, list):
-                 pt = pt[0] if pt else 'residential'
+        if options['wipe']:
+            self.stdout.write("Wiping existing content...")
+            slugs = ['programs', 'funded-loans', 'blog']
+            for slug in slugs:
+                page = Page.objects.child_of(self.home_page).filter(slug=slug).first()
+                if page:
+                    self.stdout.write(f"Deleting existing index: {slug}")
+                    page.delete()
             
-            # Map WordPress fields to Wagtail
-            program = ProgramPage(
-                title=self._get_rendered_text(wp_program.get('title', {})),
+            self.home_page.refresh_from_db()
+
+        # Load media manifest
+        self.media_map = {}
+        manifest_path = self.export_dir / 'media_manifest.json'
+        if manifest_path.exists():
+            with open(manifest_path) as f:
+                self.media_map = json.load(f)
+
+        # 1. Setup Index Pages
+        self.program_index = self.get_or_create_index(ProgramIndexPage, "Loan Programs", "programs", self.home_page)
+        self.loan_index = self.get_or_create_index(FundedLoanIndexPage, "Funded Loans", "funded-loans", self.home_page)
+        self.blog_index = self.get_or_create_index(BlogIndexPage, "Blog", "blog", self.home_page)
+
+        # 2. Import Content
+        self.import_programs()
+        self.import_funded_loans()
+        self.import_blogs()
+        
+        self.stdout.write(self.style.SUCCESS('Import complete!'))
+
+    def get_or_create_index(self, model, title, slug, parent):
+        existing = model.objects.child_of(parent).filter(slug=slug).first()
+        if existing:
+            self.stdout.write(f"Found existing index: {title}")
+            return existing
+        
+        self.stdout.write(f"Creating index: {title}")
+        page = model(title=title, slug=slug)
+        parent.add_child(instance=page)
+        page.save_revision().publish()
+        return page
+
+    def _get_image(self, item):
+        """Find local image for item based on _embedded featured media"""
+        if '_embedded' not in item: return None
+        if 'wp:featuredmedia' not in item['_embedded']: return None
+        
+        media_list = item['_embedded']['wp:featuredmedia']
+        if not media_list or not isinstance(media_list, list): return None
+        
+        media_data = media_list[0]
+        source_url = media_data.get('source_url')
+        if not source_url: return None
+        
+        # Look up in manifest
+        local_path = self.media_map.get(source_url)
+        if not local_path: return None
+        
+        filename = Path(local_path).name
+        relative_path = f"wp_import/{filename}"
+        
+        full_path = os.path.join(settings.MEDIA_ROOT, 'wp_import', filename)
+        if not os.path.exists(full_path):
+            return None
+            
+        # Try to find existing Image
+        img = Image.objects.filter(title=filename).first()
+        if img: return img
+        
+        # Create new
+        img = Image(title=filename)
+        img.file.name = relative_path
+        img.save()
+        return img
+
+    def import_programs(self):
+        self.stdout.write("\nImporting Programs...")
+        path = self.export_dir / 'programs.json'
+        if not path.exists():
+            self.stdout.write("programs.json not found, skipping.")
+            return
+
+        with open(path) as f:
+            items = json.load(f)
+
+        count = 0
+        for item in items:
+            title = item['title']['rendered']
+            slug = item['slug']
+            acf = item.get('acf', {}) or {}
+            
+            page = ProgramPage(
+                title=title,
                 slug=slug,
+                first_published_at=make_aware(datetime.strptime(item['date'], "%Y-%m-%dT%H:%M:%S")),
+                featured_image=self._get_image(item),
                 
-                # Program Info
-                program_type=pt.lower(), 
-                minimum_loan_amount=self._parse_decimal(acf.get('minimum_loan_amount', acf.get('min_loan_amount', 75000))),
-                maximum_loan_amount=self._parse_decimal(acf.get('maximum_loan_amount', acf.get('max_loan_amount', 2000000))),
-                min_credit_score=self._parse_int(acf.get('min_credit_score', acf.get('minimum_credit_score', 620))),
+                # Core Info
+                program_type=self._map_program_type(acf.get('program_type')),
+                minimum_loan_amount=self._clean_decimal(acf.get('minimum_loan_amount')),
+                maximum_loan_amount=self._clean_decimal(acf.get('maximum_loan_amount')),
+                min_credit_score=self._clean_int(acf.get('min_credit_score')),
                 
-                # Financial Terms
-                interest_rates=interest_rates,
-                max_ltv=str(self._parse_float(acf.get('max_ltv', 80))) + "%" if acf.get('max_ltv') else "", 
-                min_dscr=self._parse_float(acf.get('min_dscr')),
-                # points_range -> Not in model
-                prepayment_penalty=acf.get('prepayment_terms', ''),
-                
-                # Rich Content
-                details_about_mortgage_loan_program=acf.get('details_about_mortgage_loan_program', acf.get('program_description', '')),
+                # Details
+                mortgage_program_highlights=acf.get('mortgage_program_highlights', ''),
+                what_are=acf.get('what_are', ''),
+                details_about_mortgage_loan_program=acf.get('details_about_mortgage_loan_program', ''),
+                benefits_of=acf.get('benefits_of', ''),
                 requirements=acf.get('requirements', ''),
-                mortgage_program_highlights=acf.get('mortgage_program_highlights', acf.get('highlights', '')),
+                how_to_qualify_for=acf.get('how_to_qualify_for', ''),
+                why_us=acf.get('why_us', ''),
                 
-                # Property & Loan
-                property_types=self._parse_array(acf.get('property_types', acf.get('property_types_residential', []))),
-                occupancy_types=self._parse_array(acf.get('occupancy_types', acf.get('occupancy', []))),
-                purpose_of_mortgage=self._parse_array(acf.get('loan_purposes', acf.get('purpose', []))),
+                # Financial
+                interest_rates=acf.get('interest_rates', '')[:100],
+                max_ltv=str(acf.get('max_ltv', ''))[:20],
+                max_debt_to_income_ratio=self._clean_float(acf.get('max_debt_to_income_ratio')),
+                min_dscr=self._clean_float(acf.get('min_dscr')),
                 
-                # SEO
-                source_url=wp_program.get('link', ''),
+                # Location
+                is_local_variation=bool(acf.get('is_local_variation', False)),
+                target_city=acf.get('city_name', ''),
+                target_state=acf.get('region_code', ''), 
+                target_region=acf.get('region_name', ''),
+                
+                # Arrays
+                property_types=acf.get('property_types_residential') or [],
+                occupancy_types=acf.get('occupancy') or [],
+                lien_position=acf.get('lien_position') or [],
+                amortization_terms=acf.get('amortization_terms') or [],
+                purpose_of_mortgage=acf.get('purpose_of_mortgage') or [],
+                refinance_types=acf.get('refinance_mortgage') or [],
+                income_documentation_type=acf.get('income_documentation_type') or [],
+                borrower_types=acf.get('borrower_type') or [],
+                citizenship_requirements=acf.get('citizenship') or [],
             )
             
-            if dry_run:
-                self.stdout.write(f'  Would create: {slug}')
-            else:
-                try:
-                    parent.add_child(instance=program)
-                    program.save_revision().publish()
-                    self.stdout.write(self.style.SUCCESS(f'  Created: {slug}'))
-                except Exception as e:
-                    self.stdout.write(self.style.ERROR(f'  Error creating {slug}: {e}'))
-        
-        self.stdout.write(self.style.SUCCESS(f'Imported {len(programs)} programs'))
-    
-    def _import_blogs(self, json_path, parent, dry_run):
-        """Import blog posts from JSON."""
-        if not json_path.exists():
-            self.stdout.write(self.style.WARNING(f'File not found: {json_path}'))
+            self.program_index.add_child(instance=page)
+            page.save_revision().publish()
+            count += 1
+            
+        self.stdout.write(f"Imported {count} programs.")
+
+    def import_funded_loans(self):
+        self.stdout.write("\nImporting Funded Loans...")
+        path = self.export_dir / 'funded_loans.json'
+        if not path.exists():
             return
-        
-        with open(json_path) as f:
-            posts = json.load(f)
-        
-        self.stdout.write(f'Importing {len(posts)} blog posts...')
-        parent = Page.objects.get(id=parent.id).specific
-        
-        for wp_post in posts:
-            slug = wp_post.get('slug')
+
+        with open(path) as f:
+            items = json.load(f)
             
-            if BlogPage.objects.filter(slug=slug).exists():
-                self.stdout.write(f'  Skipping existing: {slug}')
-                continue
+        count = 0
+        for item in items:
+            title = item['title']['rendered']
+            slug = item['slug']
+            content = item['content']['rendered']
+            # Clean shortcodes
+            content = re.sub(r'\[acf field="[^"]+"\]', '', content)
             
-            blog = BlogPage(
-                title=self._get_rendered_text(wp_post.get('title', {})),
+            page = FundedLoanPage(
+                title=title,
                 slug=slug,
-                date=wp_post.get('date', '').split('T')[0] if wp_post.get('date') else None,
-                author=self._get_author_name(wp_post),
-                intro=self._get_rendered_text(wp_post.get('excerpt', {})),
-                body=self._get_rendered_text(wp_post.get('content', {})),
+                first_published_at=make_aware(datetime.strptime(item['date'], "%Y-%m-%dT%H:%M:%S")),
+                description=content,
+                featured_image=self._get_image(item)
             )
-            
-            if dry_run:
-                self.stdout.write(f'  Would create: {slug}')
-            else:
-                try:
-                    parent.add_child(instance=blog)
-                    blog.save_revision().publish()
-                    self.stdout.write(self.style.SUCCESS(f'  Created: {slug}'))
-                except Exception as e:
-                    self.stdout.write(self.style.ERROR(f'  Error creating {slug}: {e}'))
-    
-    def _import_funded_loans(self, json_path, parent, dry_run):
-        """Import funded loan posts from JSON."""
-        if not json_path.exists():
-            self.stdout.write(self.style.WARNING(f'File not found: {json_path}'))
+            self.loan_index.add_child(instance=page)
+            page.save_revision().publish()
+            count += 1
+        
+        self.stdout.write(f"Imported {count} funded loans.")
+
+    def import_blogs(self):
+        self.stdout.write("\nImporting Blogs...")
+        path = self.export_dir / 'blogs.json'
+        if not path.exists():
             return
-        
-        with open(json_path) as f:
-            loans = json.load(f)
-        
-        self.stdout.write(f'Importing {len(loans)} funded loans...')
-        parent = Page.objects.get(id=parent.id).specific
-        
-        for wp_loan in loans:
-            slug = wp_loan.get('slug')
-            acf = wp_loan.get('acf', {})
-            if isinstance(acf, list):
-                acf = {}
+
+        with open(path) as f:
+            items = json.load(f)
             
-            if FundedLoanPage.objects.filter(slug=slug).exists():
-                self.stdout.write(f'  Skipping existing: {slug}')
-                continue
+        count = 0
+        for item in items:
+            title = item['title']['rendered']
+            slug = item['slug']
+            content = item['content']['rendered']
+            excerpt = item['excerpt']['rendered']
             
-            loan = FundedLoanPage(
-                title=self._get_rendered_text(wp_loan.get('title', {})),
+            # Author
+            author_name = "Custom Mortgage Team"
+            if '_embedded' in item and 'author' in item['_embedded']:
+                 authors = item['_embedded']['author']
+                 if authors:
+                     author_name = authors[0].get('name', author_name)
+            
+            pub_date = datetime.strptime(item['date'], "%Y-%m-%dT%H:%M:%S").date()
+            
+            page = BlogPage(
+                title=title,
                 slug=slug,
-                loan_type=acf.get('loan_type', ''),
-                loan_amount=self._parse_decimal(acf.get('loan_amount', 0)),
-                location=acf.get('location', ''),
-                property_type=acf.get('property_type', ''),
-                close_date=acf.get('closing_date'), # Model is close_date
-                description=acf.get('description', ''),
-                source_url=wp_loan.get('link', ''),
+                first_published_at=make_aware(datetime.strptime(item['date'], "%Y-%m-%dT%H:%M:%S")),
+                date=pub_date,
+                author=author_name,
+                body=content,
+                intro=excerpt,
+                featured_image=self._get_image(item)
             )
+            self.blog_index.add_child(instance=page)
+            page.save_revision().publish()
+            count += 1
             
-            if dry_run:
-                self.stdout.write(f'  Would create: {slug}')
-            else:
-                try:
-                    parent.add_child(instance=loan)
-                    loan.save_revision()
-                    self.stdout.write(self.style.SUCCESS(f'  Created: {slug}'))
-                except Exception as e:
-                    self.stdout.write(self.style.ERROR(f'  Error creating {slug}: {e}'))
-    
-    # helper methods
-    def _get_rendered_text(self, field):
-        """Extract rendered text from WordPress field."""
-        if isinstance(field, dict):
-            return field.get('rendered', '')
-        return str(field) if field else ''
-    
-    def _get_author_name(self, wp_post):
-        """Get author name from post."""
-        embedded = wp_post.get('_embedded', {})
-        authors = embedded.get('author', [])
-        if authors:
-            return authors[0].get('name', 'Admin')
-        return 'Admin'
-    
-    def _parse_decimal(self, value):
-        """Safely parse decimal."""
-        if value is None:
-            return 0
+        self.stdout.write(f"Imported {count} blogs.")
+
+    def _map_program_type(self, val):
+        if not val: return 'residential'
+        val = str(val).lower()
+        if 'commercial' in val: return 'commercial'
+        if 'hard money' in val: return 'hard_money'
+        if 'nonqm' in val: return 'nonqm'
+        if 'reverse' in val: return 'reverse_mortgage'
+        return 'residential'
+
+    def _clean_decimal(self, val):
+        if not val: return None
         try:
-            val_str = str(value).replace(',', '').replace('$', '').strip()
-            return float(val_str) if val_str else 0
-        except (ValueError, AttributeError):
-            return 0
-    
-    def _parse_int(self, value):
-        """Safely parse integer."""
-        if value is None:
-            return 0
+            v = str(val)
+            v = re.sub(r'<[^>]+>', '', v)
+            v = v.replace(',', '').replace('$', '').strip()
+             # If empty after strip
+            if not v: return None
+            return v 
+        except:
+             return None
+
+    def _clean_int(self, val):
+        if not val: return None
         try:
-            val_str = str(value).replace(',', '').strip()
-            return int(float(val_str)) if val_str else 0
-        except (ValueError, AttributeError):
-            return 0
-    
-    def _parse_float(self, value):
-        """Safely parse float."""
-        if value is None:
-            return None
+            v = str(val)
+            v = re.sub(r'<[^>]+>', '', v)
+            v = v.replace(',', '').replace('$', '').strip()
+            if not v: return None
+            return int(float(v))
+        except:
+             return None
+
+    def _clean_float(self, val):
+        if not val: return None
         try:
-            val_str = str(value).replace(',', '').replace('%', '').strip()
-            return float(val_str) if val_str else None
-        except (ValueError, AttributeError):
-            return None
-    
-    def _parse_array(self, value):
-        """Parse array field."""
-        if isinstance(value, list):
-            return value
-        if isinstance(value, str):
-            val_str = value.replace('&amp;', '&') # Simple decode
-            return [v.strip() for v in val_str.split(',') if v.strip()]
-        return []
+            v = str(val)
+            v = re.sub(r'<[^>]+>', '', v)
+            v = v.replace(',', '').replace('%', '').strip()
+            if not v: return None
+            return float(v)
+        except:
+             return None

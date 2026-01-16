@@ -416,6 +416,17 @@
           "templated": true
         }
       ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "code": "rest_user_invalid_id",
+          "message": "Invalid user ID.",
+          "data": {
+            "status": 404
+          }
+        }
+      ]
     }
   },
   {
@@ -862,6 +873,601 @@
           "href": "https://api.w.org/{rel}",
           "templated": true
         }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "code": "rest_user_invalid_id",
+          "message": "Invalid user ID.",
+          "data": {
+            "status": 404
+          }
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "id": 7023,
+          "date": "2024-07-29T23:09:14",
+          "slug": "fha-voe-only-program",
+          "type": "attachment",
+          "link": "http://localhost:8090/loan-programs/fha-voe-only-mortgage-loans/fha-voe-only-program/",
+          "title": {
+            "rendered": "FHA VOE ONLY PROGRAM"
+          },
+          "author": 1,
+          "featured_media": 0,
+          "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v26.4 (Yoast SEO v26.7) - https://yoast.com/wordpress/plugins/seo/ -->\n<title>FHA VOE ONLY PROGRAM | Custom Mortgage and Real Estate</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"FHA VOE ONLY PROGRAM\" />\n<meta property=\"og:description\" content=\"FHA VOE ONLY MORTGAGE PROGRAM\" />\n<meta property=\"og:url\" content=\"https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp\" />\n<meta property=\"og:site_name\" content=\"Custom Mortgage and Real Estate\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/custommortgageinc/\" />\n<meta property=\"article:modified_time\" content=\"2024-07-29T23:09:43+00:00\" />\n<meta property=\"og:image\" content=\"https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp\" />\n\t<meta property=\"og:image:width\" content=\"1920\" />\n\t<meta property=\"og:image:height\" content=\"1080\" />\n\t<meta property=\"og:image:type\" content=\"image/webp\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@custommortgage1\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\n\t    \"@context\": \"https://schema.org\",\n\t    \"@graph\": [\n\t        {\n\t            \"@type\": \"WebPage\",\n\t            \"@id\": \"https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp\",\n\t            \"url\": \"https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp\",\n\t            \"name\": \"FHA VOE ONLY PROGRAM | Custom Mortgage and Real Estate\",\n\t            \"isPartOf\": {\n\t                \"@id\": \"https://custommortgageinc.com/#website\"\n\t            },\n\t            \"datePublished\": \"2024-07-29T23:09:14+00:00\",\n\t            \"dateModified\": \"2024-07-29T23:09:43+00:00\",\n\t            \"breadcrumb\": {\n\t                \"@id\": \"https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp#breadcrumb\"\n\t            },\n\t            \"inLanguage\": \"en-US\",\n\t            \"potentialAction\": [\n\t                {\n\t                    \"@type\": \"ReadAction\",\n\t                    \"target\": [\n\t                        \"https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp\"\n\t                    ]\n\t                }\n\t            ]\n\t        },\n\t        {\n\t            \"@type\": \"BreadcrumbList\",\n\t            \"@id\": \"https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp#breadcrumb\",\n\t            \"itemListElement\": [\n\t                {\n\t                    \"@type\": \"ListItem\",\n\t                    \"position\": 1,\n\t                    \"name\": \"Home\",\n\t                    \"item\": \"https://custommortgageinc.com/\"\n\t                },\n\t                {\n\t                    \"@type\": \"ListItem\",\n\t                    \"position\": 2,\n\t                    \"name\": \"FHA VOE Only Mortgage Loans\",\n\t                    \"item\": \"https://custommortgageinc.com/loan-programs/fha-voe-only-mortgage-loans/\"\n\t                },\n\t                {\n\t                    \"@type\": \"ListItem\",\n\t                    \"position\": 3,\n\t                    \"name\": \"FHA VOE ONLY PROGRAM\"\n\t                }\n\t            ]\n\t        },\n\t        {\n\t            \"@type\": \"WebSite\",\n\t            \"@id\": \"https://custommortgageinc.com/#website\",\n\t            \"url\": \"https://custommortgageinc.com/\",\n\t            \"name\": \"Custom Mortgage and Real Estate\",\n\t            \"description\": \"Commercial and Residential Financing + Real Estate\",\n\t            \"publisher\": {\n\t                \"@id\": \"https://custommortgageinc.com/#organization\"\n\t            },\n\t            \"alternateName\": \"Custom Real Estate and Mortgage\",\n\t            \"potentialAction\": [\n\t                {\n\t                    \"@type\": \"SearchAction\",\n\t                    \"target\": {\n\t                        \"@type\": \"EntryPoint\",\n\t                        \"urlTemplate\": \"https://custommortgageinc.com/?s={search_term_string}\"\n\t                    },\n\t                    \"query-input\": {\n\t                        \"@type\": \"PropertyValueSpecification\",\n\t                        \"valueRequired\": true,\n\t                        \"valueName\": \"search_term_string\"\n\t                    }\n\t                }\n\t            ],\n\t            \"inLanguage\": \"en-US\"\n\t        },\n\t        {\n\t            \"@type\": [\n\t                \"Organization\",\n\t                \"Place\",\n\t                \"FinancialService\"\n\t            ],\n\t            \"@id\": \"https://custommortgageinc.com/#organization\",\n\t            \"name\": \"Custom Mortgage and Real Estate\",\n\t            \"alternateName\": \"CMRE\",\n\t            \"url\": \"https://custommortgageinc.com/\",\n\t            \"logo\": {\n\t                \"@id\": \"https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp#local-main-organization-logo\"\n\t            },\n\t            \"image\": {\n\t                \"@id\": \"https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp#local-main-organization-logo\"\n\t            },\n\t            \"sameAs\": [\n\t                \"https://www.facebook.com/custommortgageinc/\",\n\t                \"https://x.com/custommortgage1\",\n\t                \"https://www.linkedin.com/company-beta/3477964/\",\n\t                \"https://www.youtube.com/channel/UCJlY0EFJAYuozsgaCWrUrbg\"\n\t            ],\n\t            \"description\": \"At Custom Mortgage and Real Estate, we can tailor a mortgage and real estate solution to fit your needs. Whether you're buying, refinancing, or investing, our experienced team will provide personalized consultation while offering competitive options to suit your needs. Our Services: Custom Mortgages: Loan products at competitive rates, plus flexible terms. Real Estate Expertise: Comprehensive support for buying, selling, or investing in property. Exceptional Service: Committed to making your experience smooth and hassle-free.\",\n\t            \"legalName\": \"Custom MTG Inc\",\n\t            \"foundingDate\": \"2016-04-26\",\n\t            \"duns\": \"113103983\",\n\t            \"naics\": \"522310\",\n\t            \"numberOfEmployees\": {\n\t                \"@type\": \"QuantitativeValue\",\n\t                \"minValue\": \"1\",\n\t                \"maxValue\": \"10\"\n\t            },\n\t            \"address\": {\n\t                \"@id\": \"https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp#local-main-place-address\"\n\t            },\n\t            \"telephone\": [\n\t                \"(877)-876-5669\"\n\t            ],\n\t            \"openingHoursSpecification\": [\n\t                {\n\t                    \"@type\": \"OpeningHoursSpecification\",\n\t                    \"dayOfWeek\": [\n\t                        \"Monday\",\n\t                        \"Tuesday\",\n\t                        \"Friday\"\n\t                    ],\n\t                    \"opens\": \"08:00\",\n\t                    \"closes\": \"20:00\"\n\t                },\n\t                {\n\t                    \"@type\": \"OpeningHoursSpecification\",\n\t                    \"dayOfWeek\": [\n\t                        \"Wednesday\",\n\t                        \"Saturday\",\n\t                        \"Sunday\"\n\t                    ],\n\t                    \"opens\": \"08:00\",\n\t                    \"closes\": \"17:00\"\n\t                },\n\t                {\n\t                    \"@type\": \"OpeningHoursSpecification\",\n\t                    \"dayOfWeek\": [\n\t                        \"Thursday\"\n\t                    ],\n\t                    \"opens\": \"09:00\",\n\t                    \"closes\": \"20:00\"\n\t                }\n\t            ],\n\t            \"email\": \"info@c-mtg.com\",\n\t            \"faxNumber\": \"(866)4217694\",\n\t            \"areaServed\": \"USA, Nationwide\",\n\t            \"currenciesAccepted\": \"USD\",\n\t            \"paymentAccepted\": \"Cash, VISA, AMEX, MC, DISCOVER, CRYPTO\"\n\t        },\n\t        {\n\t            \"@type\": \"PostalAddress\",\n\t            \"@id\": \"https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp#local-main-place-address\",\n\t            \"streetAddress\": \"16501 Ventura Blvd, STE 400\",\n\t            \"addressLocality\": \"Encino\",\n\t            \"postalCode\": \"91436\",\n\t            \"addressRegion\": \"CA\",\n\t            \"addressCountry\": \"US\"\n\t        },\n\t        {\n\t            \"@type\": \"ImageObject\",\n\t            \"inLanguage\": \"en-US\",\n\t            \"@id\": \"https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp#local-main-organization-logo\",\n\t            \"url\": \"http://localhost:8090/wp-content/uploads/2017/11/Logo-402202.png\",\n\t            \"contentUrl\": \"http://localhost:8090/wp-content/uploads/2017/11/Logo-402202.png\",\n\t            \"width\": 402,\n\t            \"height\": 202,\n\t            \"caption\": \"Custom Mortgage and Real Estate\"\n\t        }\n\t    ]\n\t}</script>\n<meta name=\"geo.placename\" content=\"Encino\" />\n<meta name=\"geo.region\" content=\"United States (US)\" />\n<!-- / Yoast SEO Premium plugin. -->",
+          "yoast_head_json": {
+            "title": "FHA VOE ONLY PROGRAM | Custom Mortgage and Real Estate",
+            "robots": {
+              "index": "index",
+              "follow": "follow",
+              "max-snippet": "max-snippet:-1",
+              "max-image-preview": "max-image-preview:large",
+              "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp",
+            "og_locale": "en_US",
+            "og_type": "article",
+            "og_title": "FHA VOE ONLY PROGRAM",
+            "og_description": "FHA VOE ONLY MORTGAGE PROGRAM",
+            "og_url": "https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp",
+            "og_site_name": "Custom Mortgage and Real Estate",
+            "article_publisher": "https://www.facebook.com/custommortgageinc/",
+            "article_modified_time": "2024-07-29T23:09:43+00:00",
+            "og_image": [
+              {
+                "width": 1920,
+                "height": 1080,
+                "url": "https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp",
+                "type": "image/webp"
+              }
+            ],
+            "twitter_card": "summary_large_image",
+            "twitter_site": "@custommortgage1",
+            "schema": {
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "WebPage",
+                  "@id": "https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp",
+                  "url": "https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp",
+                  "name": "FHA VOE ONLY PROGRAM | Custom Mortgage and Real Estate",
+                  "isPartOf": {
+                    "@id": "https://custommortgageinc.com/#website"
+                  },
+                  "datePublished": "2024-07-29T23:09:14+00:00",
+                  "dateModified": "2024-07-29T23:09:43+00:00",
+                  "breadcrumb": {
+                    "@id": "https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp#breadcrumb"
+                  },
+                  "inLanguage": "en-US",
+                  "potentialAction": [
+                    {
+                      "@type": "ReadAction",
+                      "target": [
+                        "https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "@type": "BreadcrumbList",
+                  "@id": "https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp#breadcrumb",
+                  "itemListElement": [
+                    {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Home",
+                      "item": "https://custommortgageinc.com/"
+                    },
+                    {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "FHA VOE Only Mortgage Loans",
+                      "item": "https://custommortgageinc.com/loan-programs/fha-voe-only-mortgage-loans/"
+                    },
+                    {
+                      "@type": "ListItem",
+                      "position": 3,
+                      "name": "FHA VOE ONLY PROGRAM"
+                    }
+                  ]
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://custommortgageinc.com/#website",
+                  "url": "https://custommortgageinc.com/",
+                  "name": "Custom Mortgage and Real Estate",
+                  "description": "Commercial and Residential Financing + Real Estate",
+                  "publisher": {
+                    "@id": "https://custommortgageinc.com/#organization"
+                  },
+                  "alternateName": "Custom Real Estate and Mortgage",
+                  "potentialAction": [
+                    {
+                      "@type": "SearchAction",
+                      "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://custommortgageinc.com/?s={search_term_string}"
+                      },
+                      "query-input": {
+                        "@type": "PropertyValueSpecification",
+                        "valueRequired": true,
+                        "valueName": "search_term_string"
+                      }
+                    }
+                  ],
+                  "inLanguage": "en-US"
+                },
+                {
+                  "@type": [
+                    "Organization",
+                    "Place",
+                    "FinancialService"
+                  ],
+                  "@id": "https://custommortgageinc.com/#organization",
+                  "name": "Custom Mortgage and Real Estate",
+                  "alternateName": "CMRE",
+                  "url": "https://custommortgageinc.com/",
+                  "logo": {
+                    "@id": "https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp#local-main-organization-logo"
+                  },
+                  "image": {
+                    "@id": "https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp#local-main-organization-logo"
+                  },
+                  "sameAs": [
+                    "https://www.facebook.com/custommortgageinc/",
+                    "https://x.com/custommortgage1",
+                    "https://www.linkedin.com/company-beta/3477964/",
+                    "https://www.youtube.com/channel/UCJlY0EFJAYuozsgaCWrUrbg"
+                  ],
+                  "description": "At Custom Mortgage and Real Estate, we can tailor a mortgage and real estate solution to fit your needs. Whether you're buying, refinancing, or investing, our experienced team will provide personalized consultation while offering competitive options to suit your needs. Our Services: Custom Mortgages: Loan products at competitive rates, plus flexible terms. Real Estate Expertise: Comprehensive support for buying, selling, or investing in property. Exceptional Service: Committed to making your experience smooth and hassle-free.",
+                  "legalName": "Custom MTG Inc",
+                  "foundingDate": "2016-04-26",
+                  "duns": "113103983",
+                  "naics": "522310",
+                  "numberOfEmployees": {
+                    "@type": "QuantitativeValue",
+                    "minValue": "1",
+                    "maxValue": "10"
+                  },
+                  "address": {
+                    "@id": "https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp#local-main-place-address"
+                  },
+                  "telephone": [
+                    "(877)-876-5669"
+                  ],
+                  "openingHoursSpecification": [
+                    {
+                      "@type": "OpeningHoursSpecification",
+                      "dayOfWeek": [
+                        "Monday",
+                        "Tuesday",
+                        "Friday"
+                      ],
+                      "opens": "08:00",
+                      "closes": "20:00"
+                    },
+                    {
+                      "@type": "OpeningHoursSpecification",
+                      "dayOfWeek": [
+                        "Wednesday",
+                        "Saturday",
+                        "Sunday"
+                      ],
+                      "opens": "08:00",
+                      "closes": "17:00"
+                    },
+                    {
+                      "@type": "OpeningHoursSpecification",
+                      "dayOfWeek": [
+                        "Thursday"
+                      ],
+                      "opens": "09:00",
+                      "closes": "20:00"
+                    }
+                  ],
+                  "email": "info@c-mtg.com",
+                  "faxNumber": "(866)4217694",
+                  "areaServed": "USA, Nationwide",
+                  "currenciesAccepted": "USD",
+                  "paymentAccepted": "Cash, VISA, AMEX, MC, DISCOVER, CRYPTO"
+                },
+                {
+                  "@type": "PostalAddress",
+                  "@id": "https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp#local-main-place-address",
+                  "streetAddress": "16501 Ventura Blvd, STE 400",
+                  "addressLocality": "Encino",
+                  "postalCode": "91436",
+                  "addressRegion": "CA",
+                  "addressCountry": "US"
+                },
+                {
+                  "@type": "ImageObject",
+                  "inLanguage": "en-US",
+                  "@id": "https://custommortgageinc.com/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp#local-main-organization-logo",
+                  "url": "http://localhost:8090/wp-content/uploads/2017/11/Logo-402202.png",
+                  "contentUrl": "http://localhost:8090/wp-content/uploads/2017/11/Logo-402202.png",
+                  "width": 402,
+                  "height": 202,
+                  "caption": "Custom Mortgage and Real Estate"
+                }
+              ]
+            },
+            "geo.placename": "Encino",
+            "geo.region": "United States (US)"
+          },
+          "acf": [],
+          "caption": {
+            "rendered": "<p>FHA VOE ONLY MORTGAGE PROGRAM</p>\n"
+          },
+          "alt_text": "FHA VOE ONLY MORTGAGE PROGRAM",
+          "media_type": "image",
+          "mime_type": "image/webp",
+          "media_details": {
+            "width": 1920,
+            "height": 1080,
+            "file": "2024/07/FHA-VOE-ONLY-PROGRAM.webp",
+            "filesize": 752842,
+            "sizes": {
+              "medium": {
+                "file": "FHA-VOE-ONLY-PROGRAM-300x169.webp",
+                "width": 300,
+                "height": 169,
+                "filesize": 8110,
+                "mime_type": "image/webp",
+                "source_url": "http://localhost:8090/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM-300x169.webp"
+              },
+              "large": {
+                "file": "FHA-VOE-ONLY-PROGRAM-1024x576.webp",
+                "width": 1024,
+                "height": 576,
+                "filesize": 74652,
+                "mime_type": "image/webp",
+                "source_url": "http://localhost:8090/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM-1024x576.webp"
+              },
+              "thumbnail": {
+                "file": "FHA-VOE-ONLY-PROGRAM-150x150.webp",
+                "width": 150,
+                "height": 150,
+                "filesize": 5538,
+                "mime_type": "image/webp",
+                "source_url": "http://localhost:8090/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM-150x150.webp"
+              },
+              "medium_large": {
+                "file": "FHA-VOE-ONLY-PROGRAM-768x432.webp",
+                "width": 768,
+                "height": 432,
+                "filesize": 43642,
+                "mime_type": "image/webp",
+                "source_url": "http://localhost:8090/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM-768x432.webp"
+              },
+              "1536x1536": {
+                "file": "FHA-VOE-ONLY-PROGRAM-1536x864.webp",
+                "width": 1536,
+                "height": 864,
+                "filesize": 150538,
+                "mime_type": "image/webp",
+                "source_url": "http://localhost:8090/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM-1536x864.webp"
+              },
+              "tenweb_optimizer_mobile": {
+                "file": "FHA-VOE-ONLY-PROGRAM-600x338.webp",
+                "width": 600,
+                "height": 338,
+                "filesize": 27786,
+                "mime_type": "image/webp",
+                "source_url": "http://localhost:8090/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM-600x338.webp"
+              },
+              "tenweb_optimizer_tablet": {
+                "file": "FHA-VOE-ONLY-PROGRAM-768x432.webp",
+                "width": 768,
+                "height": 432,
+                "filesize": 43642,
+                "mime_type": "image/webp",
+                "source_url": "http://localhost:8090/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM-768x432.webp"
+              },
+              "full": {
+                "file": "FHA-VOE-ONLY-PROGRAM.webp",
+                "width": 1920,
+                "height": 1080,
+                "mime_type": "image/webp",
+                "source_url": "http://localhost:8090/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp"
+              }
+            },
+            "image_meta": {
+              "aperture": "0",
+              "credit": "",
+              "camera": "",
+              "caption": "",
+              "created_timestamp": "0",
+              "copyright": "",
+              "focal_length": "0",
+              "iso": "0",
+              "shutter_speed": "0",
+              "title": "",
+              "orientation": "0",
+              "keywords": []
+            }
+          },
+          "source_url": "http://localhost:8090/wp-content/uploads/2024/07/FHA-VOE-ONLY-PROGRAM.webp",
+          "_links": {
+            "self": [
+              {
+                "href": "http://localhost:8090/wp-json/wp/v2/media/7023",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "http://localhost:8090/wp-json/wp/v2/media"
+              }
+            ],
+            "about": [
+              {
+                "href": "http://localhost:8090/wp-json/wp/v2/types/attachment"
+              }
+            ],
+            "author": [
+              {
+                "embeddable": true,
+                "href": "http://localhost:8090/wp-json/wp/v2/users/1"
+              }
+            ],
+            "wp:term": [
+              {
+                "taxonomy": "media_folder",
+                "embeddable": true,
+                "href": "http://localhost:8090/wp-json/wp/v2/media_folder?post=7023"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      ],
+      "wp:term": [
+        [],
+        [
+          {
+            "id": 108,
+            "link": "http://localhost:8090/?loan-program-type=residential",
+            "name": "Residential",
+            "slug": "residential",
+            "taxonomy": "loan-program-type",
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v26.4 (Yoast SEO v26.7) - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Residential Archives | Custom Mortgage and Real Estate</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://custommortgageinc.com/?loan-program-type=residential\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Residential Archives\" />\n<meta property=\"og:url\" content=\"https://custommortgageinc.com/?loan-program-type=residential\" />\n<meta property=\"og:site_name\" content=\"Custom Mortgage and Real Estate\" />\n<meta property=\"og:image\" content=\"http://localhost:8090/wp-content/uploads/2024/07/Logo-Main-copy-e1722290855281.webp\" />\n\t<meta property=\"og:image:width\" content=\"600\" />\n\t<meta property=\"og:image:height\" content=\"184\" />\n\t<meta property=\"og:image:type\" content=\"image/webp\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@custommortgage1\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\n\t    \"@context\": \"https://schema.org\",\n\t    \"@graph\": [\n\t        {\n\t            \"@type\": \"CollectionPage\",\n\t            \"@id\": \"https://custommortgageinc.com/?loan-program-type=residential\",\n\t            \"url\": \"https://custommortgageinc.com/?loan-program-type=residential\",\n\t            \"name\": \"Residential Archives | Custom Mortgage and Real Estate\",\n\t            \"isPartOf\": {\n\t                \"@id\": \"https://custommortgageinc.com/#website\"\n\t            },\n\t            \"breadcrumb\": {\n\t                \"@id\": \"https://custommortgageinc.com/?loan-program-type=residential#breadcrumb\"\n\t            },\n\t            \"inLanguage\": \"en-US\"\n\t        },\n\t        {\n\t            \"@type\": \"BreadcrumbList\",\n\t            \"@id\": \"https://custommortgageinc.com/?loan-program-type=residential#breadcrumb\",\n\t            \"itemListElement\": [\n\t                {\n\t                    \"@type\": \"ListItem\",\n\t                    \"position\": 1,\n\t                    \"name\": \"Home\",\n\t                    \"item\": \"https://custommortgageinc.com/\"\n\t                },\n\t                {\n\t                    \"@type\": \"ListItem\",\n\t                    \"position\": 2,\n\t                    \"name\": \"Residential\"\n\t                }\n\t            ]\n\t        },\n\t        {\n\t            \"@type\": \"WebSite\",\n\t            \"@id\": \"https://custommortgageinc.com/#website\",\n\t            \"url\": \"https://custommortgageinc.com/\",\n\t            \"name\": \"Custom Mortgage and Real Estate\",\n\t            \"description\": \"Commercial and Residential Financing + Real Estate\",\n\t            \"publisher\": {\n\t                \"@id\": \"https://custommortgageinc.com/#organization\"\n\t            },\n\t            \"alternateName\": \"Custom Real Estate and Mortgage\",\n\t            \"potentialAction\": [\n\t                {\n\t                    \"@type\": \"SearchAction\",\n\t                    \"target\": {\n\t                        \"@type\": \"EntryPoint\",\n\t                        \"urlTemplate\": \"https://custommortgageinc.com/?s={search_term_string}\"\n\t                    },\n\t                    \"query-input\": {\n\t                        \"@type\": \"PropertyValueSpecification\",\n\t                        \"valueRequired\": true,\n\t                        \"valueName\": \"search_term_string\"\n\t                    }\n\t                }\n\t            ],\n\t            \"inLanguage\": \"en-US\"\n\t        },\n\t        {\n\t            \"@type\": [\n\t                \"Organization\",\n\t                \"Place\",\n\t                \"FinancialService\"\n\t            ],\n\t            \"@id\": \"https://custommortgageinc.com/#organization\",\n\t            \"name\": \"Custom Mortgage and Real Estate\",\n\t            \"alternateName\": \"CMRE\",\n\t            \"url\": \"https://custommortgageinc.com/\",\n\t            \"logo\": {\n\t                \"@id\": \"https://custommortgageinc.com/?loan-program-type=residential#local-main-organization-logo\"\n\t            },\n\t            \"image\": {\n\t                \"@id\": \"https://custommortgageinc.com/?loan-program-type=residential#local-main-organization-logo\"\n\t            },\n\t            \"sameAs\": [\n\t                \"https://www.facebook.com/custommortgageinc/\",\n\t                \"https://x.com/custommortgage1\",\n\t                \"https://www.linkedin.com/company-beta/3477964/\",\n\t                \"https://www.youtube.com/channel/UCJlY0EFJAYuozsgaCWrUrbg\"\n\t            ],\n\t            \"description\": \"At Custom Mortgage and Real Estate, we can tailor a mortgage and real estate solution to fit your needs. Whether you're buying, refinancing, or investing, our experienced team will provide personalized consultation while offering competitive options to suit your needs. Our Services: Custom Mortgages: Loan products at competitive rates, plus flexible terms. Real Estate Expertise: Comprehensive support for buying, selling, or investing in property. Exceptional Service: Committed to making your experience smooth and hassle-free.\",\n\t            \"legalName\": \"Custom MTG Inc\",\n\t            \"foundingDate\": \"2016-04-26\",\n\t            \"duns\": \"113103983\",\n\t            \"naics\": \"522310\",\n\t            \"numberOfEmployees\": {\n\t                \"@type\": \"QuantitativeValue\",\n\t                \"minValue\": \"1\",\n\t                \"maxValue\": \"10\"\n\t            },\n\t            \"address\": {\n\t                \"@id\": \"https://custommortgageinc.com/?loan-program-type=residential#local-main-place-address\"\n\t            },\n\t            \"telephone\": [\n\t                \"(877)-876-5669\"\n\t            ],\n\t            \"openingHoursSpecification\": [\n\t                {\n\t                    \"@type\": \"OpeningHoursSpecification\",\n\t                    \"dayOfWeek\": [\n\t                        \"Monday\",\n\t                        \"Tuesday\",\n\t                        \"Friday\"\n\t                    ],\n\t                    \"opens\": \"08:00\",\n\t                    \"closes\": \"20:00\"\n\t                },\n\t                {\n\t                    \"@type\": \"OpeningHoursSpecification\",\n\t                    \"dayOfWeek\": [\n\t                        \"Wednesday\",\n\t                        \"Saturday\",\n\t                        \"Sunday\"\n\t                    ],\n\t                    \"opens\": \"08:00\",\n\t                    \"closes\": \"17:00\"\n\t                },\n\t                {\n\t                    \"@type\": \"OpeningHoursSpecification\",\n\t                    \"dayOfWeek\": [\n\t                        \"Thursday\"\n\t                    ],\n\t                    \"opens\": \"09:00\",\n\t                    \"closes\": \"20:00\"\n\t                }\n\t            ],\n\t            \"email\": \"info@c-mtg.com\",\n\t            \"faxNumber\": \"(866)4217694\",\n\t            \"areaServed\": \"USA, Nationwide\",\n\t            \"currenciesAccepted\": \"USD\",\n\t            \"paymentAccepted\": \"Cash, VISA, AMEX, MC, DISCOVER, CRYPTO\"\n\t        },\n\t        {\n\t            \"@type\": \"PostalAddress\",\n\t            \"@id\": \"https://custommortgageinc.com/?loan-program-type=residential#local-main-place-address\",\n\t            \"streetAddress\": \"16501 Ventura Blvd, STE 400\",\n\t            \"addressLocality\": \"Encino\",\n\t            \"postalCode\": \"91436\",\n\t            \"addressRegion\": \"CA\",\n\t            \"addressCountry\": \"US\"\n\t        },\n\t        {\n\t            \"@type\": \"ImageObject\",\n\t            \"inLanguage\": \"en-US\",\n\t            \"@id\": \"https://custommortgageinc.com/?loan-program-type=residential#local-main-organization-logo\",\n\t            \"url\": \"http://localhost:8090/wp-content/uploads/2017/11/Logo-402202.png\",\n\t            \"contentUrl\": \"http://localhost:8090/wp-content/uploads/2017/11/Logo-402202.png\",\n\t            \"width\": 402,\n\t            \"height\": 202,\n\t            \"caption\": \"Custom Mortgage and Real Estate\"\n\t        }\n\t    ]\n\t}</script>\n<meta name=\"geo.placename\" content=\"Encino\" />\n<meta name=\"geo.region\" content=\"United States (US)\" />\n<!-- / Yoast SEO Premium plugin. -->",
+            "yoast_head_json": {
+              "title": "Residential Archives | Custom Mortgage and Real Estate",
+              "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+              },
+              "canonical": "https://custommortgageinc.com/?loan-program-type=residential",
+              "og_locale": "en_US",
+              "og_type": "article",
+              "og_title": "Residential Archives",
+              "og_url": "https://custommortgageinc.com/?loan-program-type=residential",
+              "og_site_name": "Custom Mortgage and Real Estate",
+              "og_image": [
+                {
+                  "width": 600,
+                  "height": 184,
+                  "url": "http://localhost:8090/wp-content/uploads/2024/07/Logo-Main-copy-e1722290855281.webp",
+                  "type": "image/webp"
+                }
+              ],
+              "twitter_card": "summary_large_image",
+              "twitter_site": "@custommortgage1",
+              "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                  {
+                    "@type": "CollectionPage",
+                    "@id": "https://custommortgageinc.com/?loan-program-type=residential",
+                    "url": "https://custommortgageinc.com/?loan-program-type=residential",
+                    "name": "Residential Archives | Custom Mortgage and Real Estate",
+                    "isPartOf": {
+                      "@id": "https://custommortgageinc.com/#website"
+                    },
+                    "breadcrumb": {
+                      "@id": "https://custommortgageinc.com/?loan-program-type=residential#breadcrumb"
+                    },
+                    "inLanguage": "en-US"
+                  },
+                  {
+                    "@type": "BreadcrumbList",
+                    "@id": "https://custommortgageinc.com/?loan-program-type=residential#breadcrumb",
+                    "itemListElement": [
+                      {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://custommortgageinc.com/"
+                      },
+                      {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Residential"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "WebSite",
+                    "@id": "https://custommortgageinc.com/#website",
+                    "url": "https://custommortgageinc.com/",
+                    "name": "Custom Mortgage and Real Estate",
+                    "description": "Commercial and Residential Financing + Real Estate",
+                    "publisher": {
+                      "@id": "https://custommortgageinc.com/#organization"
+                    },
+                    "alternateName": "Custom Real Estate and Mortgage",
+                    "potentialAction": [
+                      {
+                        "@type": "SearchAction",
+                        "target": {
+                          "@type": "EntryPoint",
+                          "urlTemplate": "https://custommortgageinc.com/?s={search_term_string}"
+                        },
+                        "query-input": {
+                          "@type": "PropertyValueSpecification",
+                          "valueRequired": true,
+                          "valueName": "search_term_string"
+                        }
+                      }
+                    ],
+                    "inLanguage": "en-US"
+                  },
+                  {
+                    "@type": [
+                      "Organization",
+                      "Place",
+                      "FinancialService"
+                    ],
+                    "@id": "https://custommortgageinc.com/#organization",
+                    "name": "Custom Mortgage and Real Estate",
+                    "alternateName": "CMRE",
+                    "url": "https://custommortgageinc.com/",
+                    "logo": {
+                      "@id": "https://custommortgageinc.com/?loan-program-type=residential#local-main-organization-logo"
+                    },
+                    "image": {
+                      "@id": "https://custommortgageinc.com/?loan-program-type=residential#local-main-organization-logo"
+                    },
+                    "sameAs": [
+                      "https://www.facebook.com/custommortgageinc/",
+                      "https://x.com/custommortgage1",
+                      "https://www.linkedin.com/company-beta/3477964/",
+                      "https://www.youtube.com/channel/UCJlY0EFJAYuozsgaCWrUrbg"
+                    ],
+                    "description": "At Custom Mortgage and Real Estate, we can tailor a mortgage and real estate solution to fit your needs. Whether you're buying, refinancing, or investing, our experienced team will provide personalized consultation while offering competitive options to suit your needs. Our Services: Custom Mortgages: Loan products at competitive rates, plus flexible terms. Real Estate Expertise: Comprehensive support for buying, selling, or investing in property. Exceptional Service: Committed to making your experience smooth and hassle-free.",
+                    "legalName": "Custom MTG Inc",
+                    "foundingDate": "2016-04-26",
+                    "duns": "113103983",
+                    "naics": "522310",
+                    "numberOfEmployees": {
+                      "@type": "QuantitativeValue",
+                      "minValue": "1",
+                      "maxValue": "10"
+                    },
+                    "address": {
+                      "@id": "https://custommortgageinc.com/?loan-program-type=residential#local-main-place-address"
+                    },
+                    "telephone": [
+                      "(877)-876-5669"
+                    ],
+                    "openingHoursSpecification": [
+                      {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": [
+                          "Monday",
+                          "Tuesday",
+                          "Friday"
+                        ],
+                        "opens": "08:00",
+                        "closes": "20:00"
+                      },
+                      {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": [
+                          "Wednesday",
+                          "Saturday",
+                          "Sunday"
+                        ],
+                        "opens": "08:00",
+                        "closes": "17:00"
+                      },
+                      {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": [
+                          "Thursday"
+                        ],
+                        "opens": "09:00",
+                        "closes": "20:00"
+                      }
+                    ],
+                    "email": "info@c-mtg.com",
+                    "faxNumber": "(866)4217694",
+                    "areaServed": "USA, Nationwide",
+                    "currenciesAccepted": "USD",
+                    "paymentAccepted": "Cash, VISA, AMEX, MC, DISCOVER, CRYPTO"
+                  },
+                  {
+                    "@type": "PostalAddress",
+                    "@id": "https://custommortgageinc.com/?loan-program-type=residential#local-main-place-address",
+                    "streetAddress": "16501 Ventura Blvd, STE 400",
+                    "addressLocality": "Encino",
+                    "postalCode": "91436",
+                    "addressRegion": "CA",
+                    "addressCountry": "US"
+                  },
+                  {
+                    "@type": "ImageObject",
+                    "inLanguage": "en-US",
+                    "@id": "https://custommortgageinc.com/?loan-program-type=residential#local-main-organization-logo",
+                    "url": "http://localhost:8090/wp-content/uploads/2017/11/Logo-402202.png",
+                    "contentUrl": "http://localhost:8090/wp-content/uploads/2017/11/Logo-402202.png",
+                    "width": 402,
+                    "height": 202,
+                    "caption": "Custom Mortgage and Real Estate"
+                  }
+                ]
+              },
+              "geo.placename": "Encino",
+              "geo.region": "United States (US)"
+            },
+            "acf": [],
+            "_links": {
+              "self": [
+                {
+                  "href": "http://localhost:8090/wp-json/wp/v2/loan-program-type/108",
+                  "targetHints": {
+                    "allow": [
+                      "GET"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "http://localhost:8090/wp-json/wp/v2/loan-program-type"
+                }
+              ],
+              "about": [
+                {
+                  "href": "http://localhost:8090/wp-json/wp/v2/taxonomies/loan-program-type"
+                }
+              ],
+              "wp:post_type": [
+                {
+                  "href": "http://localhost:8090/wp-json/wp/v2/loan-programs?loan-program-type=108"
+                },
+                {
+                  "href": "http://localhost:8090/wp-json/wp/v2/funded-loan?loan-program-type=108"
+                }
+              ],
+              "curies": [
+                {
+                  "name": "wp",
+                  "href": "https://api.w.org/{rel}",
+                  "templated": true
+                }
+              ]
+            }
+          }
+        ]
       ]
     }
   }

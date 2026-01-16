@@ -79,6 +79,7 @@ class WordPressExtractor:
         
         params['per_page'] = self.per_page
         params['page'] = 1
+        params['_embed'] = 'true'
         
         all_items = []
         
