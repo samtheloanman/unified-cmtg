@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMTG Project Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --cm-charcoal: #636363;
+            --cm-cyan: #1daed4;
+            --cm-cyan-light: rgba(29, 174, 212, 0.1);
+            --cm-cyan-hover: #17a0c4;
+            --cm-light-gray: #a5a5a5;
+            --cm-bg: #f8f9fa;
+            --cm-card-bg: #ffffff;
+            --cm-border: #e9ecef;
+            --cm-success: #28a745;
+            --cm-warning: #ffc107;
+            --cm-danger: #dc3545;
+            --cm-info: #17a2b8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--cm-bg);
+            color: var(--cm-charcoal);
+            line-height: 1.6;
+        }
+
+        /* Header */
+        .header {
+            background: var(--cm-charcoal);
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.8rem;
+            letter-spacing: 2px;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo-accent {
+            color: var(--cm-cyan);
+        }
+
+        .header-meta {
+            text-align: right;
+            font-size: 0.85rem;
+            opacity: 0.9;
+        }
+
+        .last-updated {
+            color: var(--cm-cyan);
+            font-weight: 600;
+        }
+
+        /* Main Layout */
+        .dashboard {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 1.5rem;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 1.5rem;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--cm-card-bg);
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+            border: 1px solid var(--cm-border);
+            overflow: hidden;
+        }
+
+        .card-header {
+            background: var(--cm-charcoal);
+            color: white;
+            padding: 0.75rem 1rem;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-header .badge {
+            background: var(--cm-cyan);
+            padding: 0.2rem 0.6rem;
+            border-radius: 20px;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .card-body {
+            padding: 1rem;
+        }
+
+        /* Quick Stats Row */
+        .stats-row {
+            grid-column: span 12;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 1rem;
+        }
+
+        .stat-card {
+            background: var(--cm-card-bg);
+            border-radius: 12px;
+            padding: 1.25rem;
+            text-align: center;
+            border: 1px solid var(--cm-border);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--cm-charcoal);
+        }
+
+        .stat-value.cyan {
+            color: var(--cm-cyan);
+        }
+
+        .stat-value.success {
+            color: var(--cm-success);
+        }
+
+        .stat-value.warning {
+            color: var(--cm-warning);
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            color: var(--cm-light-gray);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 0.25rem;
+        }
+
+        /* Progress Section */
+        .progress-section {
+            grid-column: span 8;
+        }
+
+        .phase-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .phase-item {
+            display: grid;
+            grid-template-columns: 60px 1fr 100px 100px;
+            align-items: center;
+            padding: 0.75rem 1rem;
+            background: var(--cm-bg);
+            border-radius: 8px;
+            gap: 1rem;
+            transition: background 0.2s;
+        }
+
+        .phase-item:hover {
+            background: var(--cm-cyan-light);
+        }
+
+        .phase-id {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.1rem;
+            color: var(--cm-charcoal);
+        }
+
+        .phase-name {
+            font-weight: 500;
+        }
+
+        .phase-bar {
+            height: 8px;
+            background: var(--cm-border);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .phase-bar-fill {
+            height: 100%;
+            background: var(--cm-cyan);
+            border-radius: 4px;
+            transition: width 0.5s ease;
+        }
+
+        .phase-status {
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-align: center;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            white-space: nowrap;
+        }
+
+        .status-Done {
+            background: rgba(40, 167, 69, 0.1);
+            color: var(--cm-success);
+        }
+
+        .status-In-Progress {
+            background: rgba(29, 174, 212, 0.1);
+            color: var(--cm-cyan);
+        }
+
+        .status-Pending {
+            background: rgba(165, 165, 165, 0.1);
+            color: var(--cm-light-gray);
+        }
+
+        /* Docker Section */
+        .docker-section {
+            grid-column: span 4;
+        }
+
+        .container-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .container-item {
+            display: grid;
+            grid-template-columns: 1fr auto auto;
+            gap: 0.75rem;
+            align-items: center;
+            padding: 0.5rem 0.75rem;
+            background: var(--cm-bg);
+            border-radius: 6px;
+            font-size: 0.85rem;
+        }
+
+        .container-name {
+            font-weight: 500;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .container-port {
+            font-family: 'Monaco', monospace;
+            font-size: 0.75rem;
+            color: var(--cm-cyan);
+            background: var(--cm-cyan-light);
+            padding: 0.15rem 0.4rem;
+            border-radius: 4px;
+        }
+
+        .container-status {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--cm-success);
+        }
+
+        .container-status.unhealthy {
+            background: var(--cm-danger);
+        }
+
+        /* Commits Section */
+        .commits-section {
+            grid-column: span 6;
+        }
+
+        .commit-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+            max-height: 320px;
+            overflow-y: auto;
+        }
+
+        .commit-item {
+            display: grid;
+            grid-template-columns: 70px 1fr auto;
+            gap: 0.75rem;
+            align-items: center;
+            padding: 0.5rem 0.75rem;
+            background: var(--cm-bg);
+            border-radius: 6px;
+            font-size: 0.85rem;
+        }
+
+        .commit-hash {
+            font-family: 'Monaco', monospace;
+            font-size: 0.75rem;
+            color: var(--cm-cyan);
+        }
+
+        .commit-hash a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .commit-hash a:hover {
+            text-decoration: underline;
+        }
+
+        .commit-message {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .commit-author {
+            font-size: 0.75rem;
+            color: var(--cm-light-gray);
+            white-space: nowrap;
+        }
+
+        .commit-author.ai {
+            color: var(--cm-info);
+            font-weight: 600;
+        }
+
+        /* Branches Section */
+        .branches-section {
+            grid-column: span 6;
+        }
+
+        .branch-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+            max-height: 320px;
+            overflow-y: auto;
+        }
+
+        .branch-item {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 0.75rem;
+            align-items: center;
+            padding: 0.5rem 0.75rem;
+            background: var(--cm-bg);
+            border-radius: 6px;
+            font-size: 0.85rem;
+        }
+
+        .branch-name {
+            font-family: 'Monaco', monospace;
+            font-size: 0.8rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .branch-name.main {
+            color: var(--cm-success);
+            font-weight: 600;
+        }
+
+        .branch-time {
+            font-size: 0.75rem;
+            color: var(--cm-light-gray);
+            white-space: nowrap;
+        }
+
+        /* Devices Section */
+        .devices-section {
+            grid-column: span 4;
+        }
+
+        .device-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .device-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem 1rem;
+            background: var(--cm-bg);
+            border-radius: 8px;
+        }
+
+        .device-icon {
+            font-size: 1.5rem;
+        }
+
+        .device-info {
+            flex: 1;
+        }
+
+        .device-name {
+            font-weight: 600;
+        }
+
+        .device-details {
+            font-size: 0.8rem;
+            color: var(--cm-light-gray);
+        }
+
+        /* Links Section */
+        .links-section {
+            grid-column: span 4;
+        }
+
+        .link-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5rem;
+        }
+
+        .link-item {
+            display: block;
+            padding: 0.75rem 1rem;
+            background: var(--cm-bg);
+            border-radius: 8px;
+            text-decoration: none;
+            color: var(--cm-charcoal);
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .link-item:hover {
+            background: var(--cm-cyan);
+            color: white;
+        }
+
+        .link-item.external {
+            background: var(--cm-cyan-light);
+            color: var(--cm-cyan);
+        }
+
+        .link-item.external:hover {
+            background: var(--cm-cyan);
+            color: white;
+        }
+
+        /* Decisions Section */
+        .decisions-section {
+            grid-column: span 4;
+        }
+
+        .decision-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .decision-item {
+            padding: 0.75rem 1rem;
+            background: rgba(255, 193, 7, 0.1);
+            border-left: 3px solid var(--cm-warning);
+            border-radius: 0 8px 8px 0;
+            font-size: 0.9rem;
+        }
+
+        /* Footer */
+        .footer {
+            grid-column: span 12;
+            text-align: center;
+            padding: 1.5rem;
+            color: var(--cm-light-gray);
+            font-size: 0.85rem;
+        }
+
+        .footer a {
+            color: var(--cm-cyan);
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .stats-row {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .dashboard {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-row {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .progress-section,
+            .docker-section,
+            .commits-section,
+            .branches-section,
+            .devices-section,
+            .links-section,
+            .decisions-section,
+            .antigravity-section {
+                grid-column: span 1;
+            }
+        }
+
+        /* Antigravity Section */
+        .antigravity-section {
+            grid-column: span 12;
+        }
+
+        .antigravity-header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+        }
+
+        .conversation-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0.75rem;
+        }
+
+        .conversation-card {
+            background: var(--cm-bg);
+            border-radius: 8px;
+            padding: 0.75rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            border-left: 3px solid var(--cm-cyan);
+        }
+
+        .conversation-card:hover {
+            background: var(--cm-cyan-light);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <span>CUSTOM MORTGAGE</span>
+            <span class="logo-accent">PROJECT DASHBOARD</span>
+        </div>
+        <div class="header-meta">
+            <div>samtheloanman/unified-cmtg</div>
+            <div id="last-updated" class="last-updated">Connecting...</div>
+        </div>
+    </header>
+
+    <main class="dashboard">
+        <!-- Quick Stats Row -->
+        <div class="stats-row">
+            <div class="stat-card">
+                <div id="stat-phases" class="stat-value success">-</div>
+                <div class="stat-label">Phases Complete</div>
+            </div>
+            <div class="stat-card">
+                <div id="stat-progress" class="stat-value cyan">-%</div>
+                <div class="stat-label">Overall Progress</div>
+            </div>
+            <div class="stat-card">
+                <div id="stat-commits" class="stat-value">-</div>
+                <div class="stat-label">Recent Commits</div>
+            </div>
+            <div class="stat-card">
+                <div id="stat-containers" class="stat-value success">-</div>
+                <div class="stat-label">Containers Running</div>
+            </div>
+            <div class="stat-card">
+                <div id="stat-branches" class="stat-value">-</div>
+                <div class="stat-label">Active Branches</div>
+            </div>
+        </div>
+
+        <!-- Progress Section -->
+        <section class="card progress-section">
+            <div class="card-header">
+                📊 Finalization Track Progress
+                <span class="badge">F.1 - F.10</span>
+            </div>
+            <div class="card-body">
+                <div id="phase-list" class="phase-list">
+                    <!-- Phases will be injected here -->
+                    <div style="text-align:center; padding: 2rem; color:#ccc;">Loading Phases...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Docker Section -->
+        <section class="card docker-section">
+            <div class="card-header">
+                🐳 Docker Containers
+                <span id="container-count-badge" class="badge">0 Running</span>
+            </div>
+            <div class="card-body">
+                <div id="container-list" class="container-list">
+                    <!-- Containers will be injected here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Commits Section -->
+        <section class="card commits-section">
+            <div class="card-header">
+                📝 Recent Commits
+                <span id="commit-count-badge" class="badge">Last 20</span>
+            </div>
+            <div class="card-body">
+                <div id="commit-list" class="commit-list">
+                    <!-- Commits will be injected here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Branches Section -->
+        <section class="card branches-section">
+            <div class="card-header">
+                🌿 Active Branches
+                <span id="branch-count-badge" class="badge">0 Total</span>
+            </div>
+            <div class="card-body">
+                <div id="branch-list" class="branch-list">
+                    <!-- Branches will be injected here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Devices Section -->
+        <section class="card devices-section">
+            <div class="card-header">
+                💻 Connected Devices
+                <span class="badge">3 Active</span>
+            </div>
+            <div class="card-body">
+                <div class="device-list">
+                    <div class="device-item">
+                        <span class="device-icon">🖥️</span>
+                        <div class="device-info">
+                            <div class="device-name">Dell Precision 7720</div>
+                            <div class="device-details">Ubuntu Linux • Primary Dev</div>
+                        </div>
+                    </div>
+                    <div class="device-item">
+                        <span class="device-icon">🖥️</span>
+                        <div class="device-info">
+                            <div class="device-name">Mac Pro 2013</div>
+                            <div class="device-details">macOS • Server</div>
+                        </div>
+                    </div>
+                    <div class="device-item">
+                        <span class="device-icon">💻</span>
+                        <div class="device-info">
+                            <div class="device-name">MacBook Pro M3 Max</div>
+                            <div class="device-details">macOS • Mobile Dev</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Links Section -->
+        <section class="card links-section">
+            <div class="card-header">
+                🔗 Quick Links
+            </div>
+            <div class="card-body">
+                <div class="link-list">
+                    <a href="file:///home/samalabam/code/unified-cmtg/unified-platform/conductor/tracks/finalization_20260114/plan.md"
+                        class="link-item">📋 Plan</a>
+                    <a href="file:///home/samalabam/code/unified-cmtg/unified-platform/conductor/tracks/finalization_20260114/checklist.md"
+                        class="link-item">✅ Checklist</a>
+                    <a href="file:///home/samalabam/code/unified-cmtg/prd.md" class="link-item">📄 PRD</a>
+                    <a href="https://github.com/samtheloanman/unified-cmtg" class="link-item external"
+                        target="_blank">🐙 GitHub</a>
+                    <a href="https://jules.google.com" class="link-item external" target="_blank">🤖 Jules</a>
+                    <a href="http://localhost:3001" class="link-item external" target="_blank">🌐 Frontend</a>
+                    <a href="http://localhost:8001/admin" class="link-item external" target="_blank">⚙️ Wagtail</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Decisions Needed Section -->
+        <section class="card decisions-section">
+            <div class="card-header">
+                ❓ Decisions Needed
+                <span class="badge">3 Open</span>
+            </div>
+            <div class="card-body">
+                <div class="decision-list">
+                    <div class="decision-item">
+                        <strong>F.7 Local SEO URLs:</strong> Use flat <code>/city-state-program</code> or nested
+                        <code>/city/program</code>?
+                    </div>
+                    <div class="decision-item">
+                        <strong>F.6 OpenAI Key:</strong> Confirm API key is available for AI content generation
+                    </div>
+                    <div class="decision-item">
+                        <strong>WordPress Access:</strong> Verify API accessible at
+                        <code>custommortgageinc.com/wp-json/</code>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>
+                Custom Mortgage Project Dashboard •
+                Dynamic v2.0 •
+                <a href="https://github.com/samtheloanman/unified-cmtg">GitHub</a>
+            </p>
+            <p style="margin-top: 0.5rem; font-size: 0.8rem;">
+                Last Scan: <span id="footer-scan-time">-</span>
+            </p>
+        </footer>
+    </main>
+
+    <script>
+        const DATA_URL = '/api/data';
+
+        async function fetchDashboardData() {
+            try {
+                // Add timestamp to prevent caching
+                const response = await fetch(`${DATA_URL}?t=${new Date().getTime()}`);
+                if (!response.ok) throw new Error('Network response was not ok');
+                const data = await response.json();
+                renderDashboard(data);
+            } catch (error) {
+                console.error('Error fetching dashboard data:', error);
+                document.getElementById('last-updated').textContent = 'Error connecting to data';
+                document.getElementById('last-updated').style.color = 'var(--cm-danger)';
+            }
+        }
+
+        function renderDashboard(data) {
+            // Update Meta
+            const lastUpdated = document.getElementById('last-updated');
+            lastUpdated.textContent = `Updated: ${data.meta.generated_at}`;
+            lastUpdated.style.color = 'var(--cm-cyan)';
+            document.getElementById('footer-scan-time').textContent = data.meta.generated_at_iso;
+
+            // Update Stats
+            document.getElementById('stat-phases').textContent = data.stats.phases_complete;
+            document.getElementById('stat-progress').textContent = `${data.stats.overall_progress}%`;
+            document.getElementById('stat-commits').textContent = data.stats.recent_commits;
+            document.getElementById('stat-containers').textContent = data.stats.containers_running;
+            document.getElementById('stat-branches').textContent = data.stats.active_branches;
+
+            // Update Badges
+            document.getElementById('container-count-badge').textContent = `${data.stats.containers_running} Running`;
+            document.getElementById('commit-count-badge').textContent = `Last ${data.commits.length}`;
+            document.getElementById('branch-count-badge').textContent = `${data.branches.length} Total`;
+
+            // Render Phases
+            const phaseList = document.getElementById('phase-list');
+            phaseList.innerHTML = data.phases.map(phase => {
+                let statusClass = `status-${phase.status.replace(/ /g, '-')}`;
+                if (phase.progress === 100) statusClass = 'status-Done';
+                return `
+                <div class="phase-item">
+                    <span class="phase-id">${phase.id}</span>
+                    <span class="phase-name">${phase.name}</span>
+                    <div class="phase-bar">
+                        <div class="phase-bar-fill" style="width: ${phase.progress}%"></div>
+                    </div>
+                    <span class="phase-status ${statusClass}">
+                        ${phase.progress === 100 ? '✅' : (phase.progress > 0 ? '🔄' : '⏳')} ${phase.status}
+                    </span>
+                </div>
+            `}).join('');
+
+            // Render Containers
+            const containerList = document.getElementById('container-list');
+            containerList.innerHTML = data.containers.map(container => `
+                <div class="container-item">
+                    <span class="container-name" title="${container.name}">${container.name}</span>
+                    <span class="container-port">${container.port || '-'}</span>
+                    <span class="container-status ${container.healthy ? '' : 'unhealthy'}"></span>
+                </div>
+            `).join('');
+
+            // Render Commits
+            const commitList = document.getElementById('commit-list');
+            commitList.innerHTML = data.commits.map(commit => `
+                <div class="commit-item">
+                    <span class="commit-hash">
+                        <a href="https://github.com/samtheloanman/unified-cmtg/commit/${commit.hash}" target="_blank">${commit.hash}</a>
+                    </span>
+                    <span class="commit-message" title="${commit.message}">${commit.message}</span>
+                    <span class="commit-author ${commit.is_ai ? 'ai' : ''}">
+                        ${commit.is_ai ? '🤖 ' : ''}${commit.author} • ${commit.date}
+                    </span>
+                </div>
+            `).join('');
+
+            // Render Branches
+            const branchList = document.getElementById('branch-list');
+            branchList.innerHTML = data.branches.map(branch => `
+                <div class="branch-item">
+                    <span class="branch-name ${branch.is_main ? 'main' : ''}">${branch.name}</span>
+                    <span class="branch-time">${branch.date}</span>
+                </div>
+            `).join('');
+        }
+
+        // Initial fetch
+        fetchDashboardData();
+
+        // Poll every 30 seconds
+        setInterval(fetchDashboardData, 30000);
+    </script>
+</body>
+
+</html>
