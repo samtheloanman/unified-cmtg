@@ -91,16 +91,16 @@
 **Agent**: Jules  
 **Status**: ⏳ Pending
 
-- [ ] Create City model in `backend/cms/models/cities.py`
-- [ ] Create LocalProgramPage model in `backend/cms/models/local_pages.py`
-- [ ] Implement flat URL override: `get_url_parts()`
-- [ ] Create `backend/cms/services/proximity.py`
-- [ ] Implement Haversine distance formula
-- [ ] Implement `find_nearest_office(city: City) -> Office`
-- [ ] Create `backend/cms/management/commands/import_cities.py`
-- [ ] Import 150-500 cities with GPS
-- [ ] Create `backend/cms/services/schema_generator.py`
-- [ ] Generate dual schema (MortgageLoan + LocalBusiness)
+- [x] Create City model in `backend/cms/models/cities.py`
+- [x] Create LocalProgramPage model in `backend/cms/models/local_pages.py`
+- [x] Implement flat URL override: `get_url_parts()`
+- [x] Create `backend/cms/services/proximity.py`
+- [x] Implement Haversine distance formula
+- [x] Implement `find_nearest_office(city: City) -> Office`
+- [x] Create `backend/cms/management/commands/import_cities.py`
+- [ ] Import 150-500 cities with GPS (Wait for CSV)
+- [x] Create `backend/cms/services/schema_generator.py`
+- [x] Generate dual schema (MortgageLoan + LocalBusiness)
 - [ ] Test: Create 1 LocalProgramPage manually in admin
 - [ ] Verify URL format: `/program-city-state/`
 

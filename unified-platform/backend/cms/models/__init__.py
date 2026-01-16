@@ -3,3 +3,5 @@ from .programs import ProgramIndexPage, ProgramPage
 from .funded_loans import FundedLoanIndexPage, FundedLoanPage
 from .blog import BlogIndexPage, BlogPage
 from .offices import Office
+from .cities import City
+from .local_pages import LocalProgramPage

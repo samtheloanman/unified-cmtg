@@ -13,3 +13,28 @@ class OfficeViewSet(SnippetViewSet):
     search_fields = ('name', 'city', 'address')
 
 register_snippet(OfficeViewSet)
+
+from .models import City, LocalProgramPage
+
+class CityViewSet(SnippetViewSet):
+    model = City
+    menu_label = 'Cities'
+    menu_icon = 'globe'
+    menu_order = 205
+    add_to_settings_menu = False
+    list_display = ('name', 'state', 'population', 'median_income')
+    list_filter = ('state',)
+    search_fields = ('name', 'state', 'slug')
+
+register_snippet(CityViewSet)
+
+class LocalPageViewSet(SnippetViewSet):
+    model = LocalProgramPage
+    menu_label = 'Local Pages'
+    menu_icon = 'doc-full-inverse'
+    menu_order = 150 # Near Pages
+    list_display = ('title', 'program', 'city', 'assigned_office')
+    list_filter = ('program', 'city__state')
+    search_fields = ('title', 'program__title', 'city__name')
+
+register_snippet(LocalPageViewSet)
