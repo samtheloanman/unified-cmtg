@@ -1,11 +1,6 @@
 'use client';
 
-interface Quote {
-    lender: string;
-    program: string;
-    base_rate: number;
-    points: number;
-}
+import { Quote } from '@/lib/api-client';
 
 type SortField = 'rate' | 'points' | 'lender' | 'term';
 type SortDirection = 'asc' | 'desc';
@@ -113,7 +108,7 @@ export default function ProgramComparison({ quotes, sortField, sortDirection, on
                                     </span>
                                 </td>
                                 <td className="px-6 py-4 text-center">
-                                    <span className="font-bold text-[#1daed4] text-lg">{quote.base_rate}%</span>
+                                    <span className="font-bold text-[#1daed4] text-lg">{quote.adjusted_rate || quote.base_rate}%</span>
                                 </td>
                                 <td className="px-6 py-4 text-center text-[#636363]">
                                     {quote.points}

@@ -1,15 +1,7 @@
-'use client';
-
 import { useState } from 'react';
 import ProgramComparison from './ProgramComparison';
 import LeadSubmitModal from './LeadSubmitModal';
-
-interface Quote {
-    lender: string;
-    program: string;
-    base_rate: number;
-    points: number;
-}
+import { Quote } from '@/lib/api-client';
 
 interface QuoteResult {
     ltv: number;
@@ -44,7 +36,7 @@ export default function ResultsCard({ results, onReset }: ResultsCardProps) {
         const multiplier = sortDirection === 'asc' ? 1 : -1;
         switch (sortField) {
             case 'rate':
-                return (a.base_rate - b.base_rate) * multiplier;
+                return ((a.adjusted_rate || a.base_rate) - (b.adjusted_rate || b.base_rate)) * multiplier;
             case 'points':
                 return (a.points - b.points) * multiplier;
             case 'lender':
@@ -168,7 +160,7 @@ export default function ResultsCard({ results, onReset }: ResultsCardProps) {
                     <div className="flex gap-6">
                         <div>
                             <p className="text-white/70 text-sm">Rate</p>
-                            <p className="text-3xl font-bold">{bestMatch.base_rate}%</p>
+                            <p className="text-3xl font-bold">{bestMatch.adjusted_rate || bestMatch.base_rate}%</p>
                         </div>
                         <div>
                             <p className="text-white/70 text-sm">Points</p>

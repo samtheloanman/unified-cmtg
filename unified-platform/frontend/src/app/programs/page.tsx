@@ -1,73 +1,57 @@
-'use client';
+import { getProgramPages, formatProgramType, formatLoanAmount, CMSProgramPage } from '@/lib/wagtail-api';
+import Link from 'next/link';
+import { Metadata } from 'next';
 
-import { useState, useEffect } from 'react';
-import { apiClient, type LenderProgramOffering } from '@/lib/api-client';
+export const metadata: Metadata = {
+    title: 'Loan Programs | Custom Mortgage',
+    description:
+        'Explore our comprehensive range of mortgage loan programs including DSCR, FHA, VA, Conventional, Non-QM, and more. Nationwide lending with competitive rates.',
+    openGraph: {
+        title: 'Loan Programs | Custom Mortgage',
+        description:
+            'Explore our comprehensive range of mortgage loan programs including DSCR, FHA, VA, Conventional, Non-QM, and more.',
+        type: 'website',
+    },
+};
 
 /**
- * Extract term from program name
+ * Group programs by program type for organized display
  */
-function extractTerm(programName: string): string {
-    const termMatch = programName.match(/(\d+)[\s-]?Year/i);
-    return termMatch ? `${termMatch[1]}-Year` : 'Varies';
-}
-
-/**
- * Format currency for display
- */
-function formatCurrency(amount: number): string {
-    return new Intl.NumberFormat('en-US', {
-        style: 'currency',
-        currency: 'USD',
-        minimumFractionDigits: 0,
-        maximumFractionDigits: 0,
-    }).format(amount);
-}
-
-export default function ProgramsPage() {
-    const [programs, setPrograms] = useState<LenderProgramOffering[]>([]);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState<string | null>(null);
-    const [filter, setFilter] = useState<'all' | 'residential' | 'commercial'>('all');
-
-    useEffect(() => {
-        loadPrograms();
-    }, []);
-
-    const loadPrograms = async () => {
-        setLoading(true);
-        setError(null);
-
-        try {
-            const response = await apiClient.pricing.getPrograms();
-
-            if (!response.success) {
-                throw new Error(response.error.detail || response.error.error);
+function groupByProgramType(programs: CMSProgramPage[]): Record<string, CMSProgramPage[]> {
+    return programs.reduce(
+        (acc, program) => {
+            const type = program.program_type || 'other';
+            if (!acc[type]) {
+                acc[type] = [];
             }
+            acc[type].push(program);
+            return acc;
+        },
+        {} as Record<string, CMSProgramPage[]>
+    );
+}
 
-            setPrograms(response.data.results);
-        } catch (err) {
-            setError(err instanceof Error ? err.message : 'Failed to load programs');
-        } finally {
-            setLoading(false);
-        }
-    };
+export default async function ProgramsIndexPage() {
+    const programs = await getProgramPages();
+    const groupedPrograms = groupByProgramType(programs);
 
-    const filteredPrograms = programs.filter((program) => {
-        if (filter === 'all') return true;
-        return program.program_type.property_types.includes(filter);
-    });
+    // Order of program type display
+    const typeOrder = ['residential', 'commercial', 'nonqm', 'hard_money', 'reverse_mortgage'];
+    const sortedTypes = typeOrder.filter((type) => groupedPrograms[type]?.length > 0);
 
     return (
         <div className="min-h-screen bg-white">
             {/* Header */}
             <div className="bg-[#636363] text-white py-4 px-6">
                 <div className="max-w-7xl mx-auto flex justify-between items-center">
-                    <h1
-                        className="text-3xl font-bold tracking-wide"
-                        style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
-                    >
-                        CUSTOM MORTGAGE
-                    </h1>
+                    <Link href="/">
+                        <h1
+                            className="text-3xl font-bold tracking-wide"
+                            style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
+                        >
+                            CUSTOM MORTGAGE
+                        </h1>
+                    </Link>
                     <span
                         className="text-sm tracking-widest"
                         style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
@@ -87,187 +71,168 @@ export default function ProgramsPage() {
                         Loan Programs
                     </h2>
                     <p className="text-lg text-[#636363] max-w-2xl">
-                        Explore our comprehensive range of financing solutions. We specialize in
-                        unique mortgage requirements with expert, client-focused service.
+                        Explore our comprehensive range of financing solutions. We specialize in unique mortgage
+                        requirements with expert, client-focused service across all 50 states.
                     </p>
                 </div>
             </div>
 
             {/* Main Content */}
             <div className="max-w-7xl mx-auto py-12 px-6">
-                {/* Filters */}
-                <div className="mb-8 flex gap-4">
-                    <button
-                        onClick={() => setFilter('all')}
-                        className={`px-6 py-3 rounded-lg font-semibold transition-colors ${
-                            filter === 'all'
-                                ? 'bg-[#1daed4] text-white'
-                                : 'bg-gray-100 text-[#636363] hover:bg-gray-200'
-                        }`}
-                    >
-                        All Programs
-                    </button>
-                    <button
-                        onClick={() => setFilter('residential')}
-                        className={`px-6 py-3 rounded-lg font-semibold transition-colors ${
-                            filter === 'residential'
-                                ? 'bg-[#1daed4] text-white'
-                                : 'bg-gray-100 text-[#636363] hover:bg-gray-200'
-                        }`}
-                    >
-                        Residential
-                    </button>
-                    <button
-                        onClick={() => setFilter('commercial')}
-                        className={`px-6 py-3 rounded-lg font-semibold transition-colors ${
-                            filter === 'commercial'
-                                ? 'bg-[#1daed4] text-white'
-                                : 'bg-gray-100 text-[#636363] hover:bg-gray-200'
-                        }`}
-                    >
-                        Commercial
-                    </button>
-                </div>
-
-                {/* Loading State */}
-                {loading && (
+                {programs.length === 0 ? (
                     <div className="text-center py-12">
-                        <div className="inline-block animate-spin rounded-full h-12 w-12 border-4 border-[#1daed4] border-t-transparent"></div>
-                        <p className="text-[#636363] mt-4">Loading programs...</p>
+                        <p className="text-[#636363] text-lg">
+                            No programs available at this time. Please check back later.
+                        </p>
                     </div>
-                )}
-
-                {/* Error State */}
-                {error && (
-                    <div className="bg-red-50 border-2 border-red-500 rounded-lg p-6 text-center">
-                        <p className="text-red-700 font-semibold">Error loading programs</p>
-                        <p className="text-red-600 text-sm mt-2">{error}</p>
-                        <button
-                            onClick={loadPrograms}
-                            className="mt-4 px-6 py-2 bg-red-500 text-white font-semibold rounded hover:bg-red-600 transition-colors"
-                        >
-                            Retry
-                        </button>
-                    </div>
-                )}
-
-                {/* Programs Grid */}
-                {!loading && !error && (
-                    <>
-                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {filteredPrograms.map((program) => (
-                                <div
-                                    key={program.id}
-                                    className="bg-white border-2 border-[#a5a5a5] rounded-lg shadow-lg hover:border-[#1daed4] transition-colors overflow-hidden"
+                ) : (
+                    <div className="space-y-12">
+                        {sortedTypes.map((type) => (
+                            <section key={type}>
+                                <h3
+                                    className="text-3xl font-bold text-[#636363] mb-6 border-l-4 border-[#1daed4] pl-4"
+                                    style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
                                 >
-                                    {/* Card Header */}
-                                    <div className="bg-[#636363] text-white px-6 py-4">
-                                        <h3
-                                            className="text-2xl font-bold"
-                                            style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
+                                    {formatProgramType(type)} Programs
+                                </h3>
+
+                                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                                    {groupedPrograms[type].map((program) => (
+                                        <Link
+                                            key={program.id}
+                                            href={`/programs/${program.meta.slug}`}
+                                            className="block bg-white border-2 border-[#a5a5a5] rounded-lg shadow-lg hover:border-[#1daed4] hover:shadow-xl transition-all overflow-hidden group"
                                         >
-                                            {program.program_type.name}
-                                        </h3>
-                                        <p className="text-white/80 text-sm mt-1">
-                                            {program.lender.company_name}
-                                        </p>
-                                    </div>
+                                            {/* Card Header */}
+                                            <div className="bg-[#636363] group-hover:bg-[#1daed4] text-white px-6 py-4 transition-colors">
+                                                <h4
+                                                    className="text-xl font-bold"
+                                                    style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
+                                                >
+                                                    {program.title}
+                                                </h4>
+                                                <p className="text-white/80 text-sm mt-1">
+                                                    {formatProgramType(program.program_type)}
+                                                </p>
+                                            </div>
 
-                                    {/* Card Body */}
-                                    <div className="p-6 space-y-4">
-                                        {/* Rate Range */}
-                                        <div className="flex justify-between items-center pb-4 border-b border-[#a5a5a5]/30">
-                                            <div>
-                                                <p className="text-xs text-[#a5a5a5] uppercase tracking-wide">
-                                                    Rate Range
-                                                </p>
-                                                <p className="text-2xl font-bold text-[#1daed4] mt-1">
-                                                    {program.min_rate}% - {program.max_rate}%
-                                                </p>
-                                            </div>
-                                            <div className="text-right">
-                                                <p className="text-xs text-[#a5a5a5] uppercase tracking-wide">
-                                                    Term
-                                                </p>
-                                                <p className="text-lg font-semibold text-[#636363] mt-1">
-                                                    {extractTerm(program.program_type.name)}
-                                                </p>
-                                            </div>
-                                        </div>
+                                            {/* Card Body */}
+                                            <div className="p-6 space-y-4">
+                                                {/* Quick Stats */}
+                                                <div className="grid grid-cols-2 gap-4 text-sm">
+                                                    {program.minimum_loan_amount && (
+                                                        <div>
+                                                            <p className="text-[#a5a5a5]">Min Loan</p>
+                                                            <p className="text-[#636363] font-semibold">
+                                                                {formatLoanAmount(program.minimum_loan_amount)}
+                                                            </p>
+                                                        </div>
+                                                    )}
+                                                    {program.maximum_loan_amount && (
+                                                        <div>
+                                                            <p className="text-[#a5a5a5]">Max Loan</p>
+                                                            <p className="text-[#636363] font-semibold">
+                                                                {formatLoanAmount(program.maximum_loan_amount)}
+                                                            </p>
+                                                        </div>
+                                                    )}
+                                                    {program.min_credit_score && (
+                                                        <div>
+                                                            <p className="text-[#a5a5a5]">Min Credit</p>
+                                                            <p className="text-[#636363] font-semibold">
+                                                                {program.min_credit_score}
+                                                            </p>
+                                                        </div>
+                                                    )}
+                                                    {program.max_ltv && (
+                                                        <div>
+                                                            <p className="text-[#a5a5a5]">Max LTV</p>
+                                                            <p className="text-[#636363] font-semibold">{program.max_ltv}</p>
+                                                        </div>
+                                                    )}
+                                                </div>
 
-                                        {/* Details Grid */}
-                                        <div className="grid grid-cols-2 gap-4 text-sm">
-                                            <div>
-                                                <p className="text-[#a5a5a5]">Loan Amount</p>
-                                                <p className="text-[#636363] font-semibold mt-1">
-                                                    {formatCurrency(program.min_loan)} -{' '}
-                                                    {formatCurrency(program.max_loan)}
-                                                </p>
-                                            </div>
-                                            <div>
-                                                <p className="text-[#a5a5a5]">Max LTV</p>
-                                                <p className="text-[#636363] font-semibold mt-1">
-                                                    {program.max_ltv}%
-                                                </p>
-                                            </div>
-                                            <div>
-                                                <p className="text-[#a5a5a5]">Min FICO</p>
-                                                <p className="text-[#636363] font-semibold mt-1">
-                                                    {program.min_fico}
-                                                </p>
-                                            </div>
-                                            <div>
-                                                <p className="text-[#a5a5a5]">Points</p>
-                                                <p className="text-[#636363] font-semibold mt-1">
-                                                    {program.min_points} - {program.max_points}
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                        {/* Tags */}
-                                        <div className="pt-4 border-t border-[#a5a5a5]/30">
-                                            <div className="flex flex-wrap gap-2">
-                                                {program.program_type.property_types.map((type) => (
-                                                    <span
-                                                        key={type}
-                                                        className="px-3 py-1 bg-[#1daed4]/10 text-[#1daed4] text-xs font-semibold rounded-full"
-                                                    >
-                                                        {type}
-                                                    </span>
-                                                ))}
-                                                {program.program_type.category && (
-                                                    <span className="px-3 py-1 bg-[#636363]/10 text-[#636363] text-xs font-semibold rounded-full">
-                                                        {program.program_type.category}
-                                                    </span>
+                                                {/* Interest Rates */}
+                                                {program.interest_rates && (
+                                                    <div className="pt-4 border-t border-[#a5a5a5]/30">
+                                                        <p className="text-xs text-[#a5a5a5] uppercase tracking-wide">
+                                                            Interest Rates
+                                                        </p>
+                                                        <p className="text-xl font-bold text-[#1daed4] mt-1">
+                                                            {program.interest_rates}
+                                                        </p>
+                                                    </div>
                                                 )}
+
+                                                {/* Property Types Tags */}
+                                                {program.property_types && program.property_types.length > 0 && (
+                                                    <div className="pt-4 border-t border-[#a5a5a5]/30">
+                                                        <div className="flex flex-wrap gap-2">
+                                                            {program.property_types.slice(0, 3).map((type) => (
+                                                                <span
+                                                                    key={type}
+                                                                    className="px-3 py-1 bg-[#1daed4]/10 text-[#1daed4] text-xs font-semibold rounded-full"
+                                                                >
+                                                                    {type}
+                                                                </span>
+                                                            ))}
+                                                            {program.property_types.length > 3 && (
+                                                                <span className="px-3 py-1 bg-[#636363]/10 text-[#636363] text-xs font-semibold rounded-full">
+                                                                    +{program.property_types.length - 3} more
+                                                                </span>
+                                                            )}
+                                                        </div>
+                                                    </div>
+                                                )}
+
+                                                {/* CTA */}
+                                                <div className="pt-4">
+                                                    <span
+                                                        className="inline-block w-full text-center py-3 bg-[#1daed4] text-white font-bold rounded-lg group-hover:bg-[#17a0c4] transition-colors"
+                                                        style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
+                                                    >
+                                                        Learn More
+                                                    </span>
+                                                </div>
                                             </div>
-                                        </div>
-
-                                        {/* CTA Button */}
-                                        <button className="w-full mt-4 py-3 bg-[#1daed4] hover:bg-[#17a0c4] text-white font-bold rounded-lg transition-colors shadow-md"
-                                            style={{ fontFamily: 'Bebas Neue, Arial, sans-serif', fontSize: '1.1rem' }}>
-                                            Get Quote
-                                        </button>
-                                    </div>
+                                        </Link>
+                                    ))}
                                 </div>
-                            ))}
-                        </div>
-
-                        {/* Empty State */}
-                        {filteredPrograms.length === 0 && (
-                            <div className="text-center py-12">
-                                <p className="text-[#636363] text-lg">No programs found for this filter.</p>
-                            </div>
-                        )}
-                    </>
+                            </section>
+                        ))}
+                    </div>
                 )}
             </div>
 
+            {/* CTA Section */}
+            <div className="bg-[#1daed4] py-12 px-6">
+                <div className="max-w-4xl mx-auto text-center text-white">
+                    <h3
+                        className="text-4xl font-bold mb-4"
+                        style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
+                    >
+                        Ready to Get Started?
+                    </h3>
+                    <p className="text-lg mb-8 text-white/90">
+                        Get a personalized quote in minutes. Our expert team is ready to help you find the
+                        perfect financing solution.
+                    </p>
+                    <Link
+                        href="/quote"
+                        className="inline-block bg-white text-[#636363] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg"
+                        style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
+                    >
+                        Get Your Quote Now
+                    </Link>
+                </div>
+            </div>
+
             {/* Footer */}
-            <div className="bg-[#636363] text-white py-8 px-6 mt-12">
+            <div className="bg-[#636363] text-white py-8 px-6">
                 <div className="max-w-7xl mx-auto text-center">
                     <p className="text-sm">
-                        © 2026 Custom Mortgage Inc. | Nationwide Lender | FinTech Financing Solutions
+                        © {new Date().getFullYear()} Custom Mortgage Inc. | Nationwide Lender | FinTech
+                        Financing Solutions
                     </p>
                 </div>
             </div>
