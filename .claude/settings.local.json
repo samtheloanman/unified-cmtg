@@ -2,7 +2,15 @@
   "permissions": {
     "allow": [
       "Bash(wc:*)",
-      "Bash(docker compose:*)"
+      "Bash(docker compose:*)",
+      "Bash(curl:*)",
+      "Bash(docker ps:*)",
+      "Bash(docker exec:*)",
+      "Bash(docker restart:*)",
+      "Bash(docker logs:*)",
+      "Bash(python3:*)",
+      "Bash(ls:*)",
+      "Bash(tee:*)"
     ]
   }
 }
