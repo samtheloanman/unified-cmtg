@@ -11,12 +11,12 @@ from typing import Any, Dict
 
 from django.db.models import QuerySet
 
-from pricing.models import LenderProgramOffering, LoanProgram
+from pricing.models import LenderProgramOffering, LoanProgram, QualifyingInfo
 
 
-class QualifyingInfo:
+class QualifyingInfoDTO:
     """
-    Borrower qualification information for loan matching.
+    Borrower qualification information for loan matching (DTO).
 
     This is a simple data class that holds the criteria used to
     match against lender program offerings.
@@ -45,13 +45,13 @@ class QualifyingInfo:
 
 
 def _get_filters_for_loan_program_match_by_qual(
-    qi: QualifyingInfo
+    qi: QualifyingInfoDTO
 ) -> Dict[str, Any]:
     """
     Build filter dictionary for LenderProgramOffering matching.
 
     Args:
-        qi: QualifyingInfo object with borrower qualification details
+        qi: QualifyingInfoDTO object with borrower qualification details
 
     Returns:
         Dictionary of filters for Django QuerySet .filter()
@@ -84,13 +84,13 @@ def _get_filters_for_loan_program_match_by_qual(
 
 
 def get_matched_loan_programs_for_qual(
-    qi: QualifyingInfo
+    qi: QualifyingInfoDTO
 ) -> QuerySet[LenderProgramOffering]:
     """
     Find matching LenderProgramOffering objects for a qualification.
 
     Args:
-        qi: QualifyingInfo object with borrower qualification details
+        qi: QualifyingInfoDTO object with borrower qualification details
 
     Returns:
         QuerySet of matching LenderProgramOffering objects,
@@ -107,25 +107,34 @@ def get_matched_loan_programs_for_qual(
     ).order_by('min_rate')
 
 
-def get_quals_for_loan_program(lp: LoanProgram) -> QuerySet:
+def get_quals_for_loan_program(offering: LenderProgramOffering) -> QuerySet:
     """
-    Get qualifying info records that match a loan program.
+    Get qualifying info records that match a lender program offering.
 
-    Note: This function currently returns an empty QuerySet as the
-    QualifyingInfo model has not yet been ported. This is a placeholder
-    for future implementation.
+    This function performs reverse matching: finding potential borrower
+    qualifications (leads) that would be eligible for this specific
+    lender program offering.
 
     Args:
-        lp: LoanProgram instance
+        offering: LenderProgramOffering instance
 
     Returns:
-        Empty QuerySet
+        QuerySet of matching QualifyingInfo objects
     """
-    # TODO: Implement once QualifyingInfo model is ported
-    from django.db.models import Q
-    from pricing.models import LenderProgramOffering
+    return QualifyingInfo.objects.filter(
+        # Numeric limits
+        loan_amount__gte=offering.min_loan,
+        loan_amount__lte=offering.max_loan,
+        ltv__lte=offering.max_ltv,
+        estimated_credit_score__gte=offering.min_fico,
 
-    return LenderProgramOffering.objects.none()
+        # Exact match (single value in list of choices)
+        state__in=offering.lender.include_states,
+        property_type__in=offering.program_type.property_types,
+        entity_type__in=offering.program_type.entity_types,
+        purpose__in=offering.program_type.purposes,
+        occupancy__in=offering.program_type.occupancy,
+    )
 
 
 class LoanMatchingService:
@@ -155,7 +164,7 @@ class LoanMatchingService:
         Returns:
             QuerySet of matching LenderProgramOffering objects
         """
-        qi = QualifyingInfo(
+        qi = QualifyingInfoDTO(
             property_type=qualification_data['property_type'],
             entity_type=qualification_data['entity_type'],
             purpose=qualification_data['purpose'],

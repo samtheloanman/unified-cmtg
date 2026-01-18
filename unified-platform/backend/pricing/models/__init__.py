@@ -29,6 +29,7 @@ from .program_types import (
     PROGRAM_CATEGORY_CHOICES,
     ProgramType,
 )
+from .qualifying_info import QualifyingInfo
 
 __all__ = [
     # Base classes
@@ -44,6 +45,8 @@ __all__ = [
     'LenderProgramOffering',
     # Adjustments
     'RateAdjustment',
+    # Qualifying Info
+    'QualifyingInfo',
     # Constants
     'CATEGORY_AGENCY',
     'CATEGORY_NON_QM',
