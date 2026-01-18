@@ -168,6 +168,16 @@ def rate_adjustment_fico_ltv(db, dscr_offering_ca):
             col_max=60,
             adjustment_points=-0.75
         ),
+        # FICO 680-739, LTV 60.01-75%: +0.125 points
+        RateAdjustment.objects.create(
+            offering=dscr_offering_ca,
+            adjustment_type=RateAdjustment.ADJUSTMENT_TYPE_FICO_LTV,
+            row_min=680,
+            row_max=739,
+            col_min=60.01,
+            col_max=75,
+            adjustment_points=0.125
+        ),
         # FICO 740+, LTV 0-75%: -1.0 points (best pricing)
         RateAdjustment.objects.create(
             offering=dscr_offering_ca,
@@ -446,7 +456,7 @@ class TestLoanMatching:
         matches_wa = get_matched_loan_programs_for_qual(qi_wa)
         assert matches_wa.count() == 0
 
-    def test_match_programs_property_type_filtering(self, dscr_offering_ca, conventional_offering):
+    def test_match_programs_property_type_filtering(self, dscr_offering_ca, dscr_offering_nationwide, conventional_offering):
         """Test property type and occupancy filtering"""
         # Investment property - should match DSCR only
         qi_investment = QualifyingInfo(
@@ -625,7 +635,7 @@ class TestQuoteGeneration:
         assert quote_2['lender'] == "California Lending Co"
         assert quote_2['program'] == "DSCR Investor"
         assert quote_2['base_rate'] == 7.0
-        assert quote_2['points'] == 0.25  # Has FICO/LTV adjustment
+        assert quote_2['points'] == 0.125  # Has FICO/LTV adjustment (FICO 680, LTV 70%)
         assert quote_2['adjustments_applied'] == 1
 
     def test_get_quotes_high_fico_borrower(self, dscr_offering_ca, rate_adjustment_fico_ltv):
