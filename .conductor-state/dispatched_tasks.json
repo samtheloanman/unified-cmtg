@@ -1,0 +1,86 @@
+{
+  "tasks": [
+    {
+      "id": "1b7f6789",
+      "agent": "Jules",
+      "task": "Phase 2: Core Pricing Engine (Week 2) (Jules - Assigned)\tJules\tPending\t**Port Models**: `Lender`, `LoanProgram`, `BaseLoan` from cmtgdirect (Jules - Assigned)",
+      "status": "queued",
+      "result": null,
+      "dispatched_at": "2026-01-17T21:16:14.261354",
+      "completed_at": null
+    },
+    {
+      "id": "7363efbc",
+      "agent": "Jules",
+      "task": "Phase 2: Core Pricing Engine (Week 2) (Jules - Assigned)",
+      "status": "queued",
+      "result": null,
+      "dispatched_at": "2026-01-17T21:37:38.898510",
+      "completed_at": null
+    },
+    {
+      "id": "c17aaae6",
+      "agent": "Jules",
+      "task": "Test task: say hello",
+      "status": "queued",
+      "result": null,
+      "dispatched_at": "2026-01-17T21:40:14.750425",
+      "completed_at": null
+    },
+    {
+      "id": "d1bf0c0c",
+      "agent": "Claude",
+      "task": "What is 2+2?",
+      "status": "failed",
+      "result": "{\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CXEJkauXTzS9P8x6mUe9N\"}",
+      "dispatched_at": "2026-01-17T21:40:14.986054",
+      "completed_at": null
+    },
+    {
+      "id": "bc987488",
+      "agent": "Gemini",
+      "task": "What is 3+3?",
+      "status": "dispatched",
+      "result": "6\n",
+      "dispatched_at": "2026-01-17T21:40:33.453921",
+      "completed_at": null
+    },
+    {
+      "id": "08ce6853",
+      "agent": "Jules",
+      "task": "Test task: say hello",
+      "status": "queued",
+      "result": null,
+      "dispatched_at": "2026-01-17T21:41:29.900129",
+      "completed_at": null
+    },
+    {
+      "id": "b939f04e",
+      "agent": "Jules",
+      "task": "Ping test: ignore this task",
+      "status": "dispatched",
+      "result": "Session: 3983354394518791111",
+      "dispatched_at": "2026-01-17T21:44:41.760424",
+      "completed_at": null
+    },
+    {
+      "id": "48cfbf72",
+      "agent": "Claude",
+      "task": "Ping test: satisfy this request with \"Pong\"",
+      "status": "failed",
+      "result": "{\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CXEK6GTa4N5KcMRisr35N\"}",
+      "dispatched_at": "2026-01-17T21:44:42.016583",
+      "completed_at": null
+    },
+    {
+      "id": "6a62bc0e",
+      "agent": "Gemini",
+      "task": "Ping test: reply \"Pong\"",
+      "status": "dispatched",
+      "result": "Pong\n",
+      "dispatched_at": "2026-01-17T21:44:55.760482",
+      "completed_at": null
+    }
+  ],
+  "last_updated": "2026-01-17T21:44:55.760489"
+}
