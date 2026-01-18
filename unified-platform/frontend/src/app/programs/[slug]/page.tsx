@@ -186,6 +186,150 @@ export default async function ProgramDetailPage({ params }: Props) {
                 <p className="text-2xl font-bold text-[#636363] mt-2">{program.max_ltv}</p>
               </div>
             )}
+            {program.max_debt_to_income_ratio && (
+              <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6 text-center">
+                <p className="text-sm text-[#a5a5a5] uppercase tracking-wide">Max DTI</p>
+                <p className="text-2xl font-bold text-[#636363] mt-2">{program.max_debt_to_income_ratio}%</p>
+              </div>
+            )}
+            {program.min_dscr && (
+              <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6 text-center">
+                <p className="text-sm text-[#a5a5a5] uppercase tracking-wide">Min DSCR</p>
+                <p className="text-2xl font-bold text-[#636363] mt-2">{program.min_dscr}</p>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Detailed Specifications */}
+        <div className="max-w-7xl mx-auto pb-8 px-6">
+          <div className="bg-white border text-[#636363] border-gray-200 rounded-xl p-8 shadow-sm">
+            <h3 className="text-3xl font-bold text-[#636363] mb-8" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+              Program Specifications
+            </h3>
+            <div className="grid md:grid-cols-3 gap-8">
+              {/* Property Specs */}
+              <div className="space-y-6">
+                <h4 className="text-xl font-bold text-[#1daed4] border-b border-gray-100 pb-2">Property Details</h4>
+
+                {program.occupancy_types?.length > 0 && (
+                  <div>
+                    <h5 className="font-semibold mb-2 text-sm uppercase tracking-wide text-gray-400">Occupancy</h5>
+                    <ul className="list-disc list-inside space-y-1">
+                      {program.occupancy_types.map(t => <li key={t}>{t}</li>)}
+                    </ul>
+                  </div>
+                )}
+
+                {program.lien_position?.length > 0 && (
+                  <div>
+                    <h5 className="font-semibold mb-2 text-sm uppercase tracking-wide text-gray-400">Lien Position</h5>
+                    <ul className="list-disc list-inside space-y-1">
+                      {program.lien_position.map(t => <li key={t}>{t}</li>)}
+                    </ul>
+                  </div>
+                )}
+
+                {program.property_types?.length > 0 && (
+                  <div>
+                    <h5 className="font-semibold mb-2 text-sm uppercase tracking-wide text-gray-400">Property Types</h5>
+                    <ul className="list-disc list-inside space-y-1">
+                      {program.property_types.map(t => <li key={t}>{t}</li>)}
+                    </ul>
+                  </div>
+                )}
+              </div>
+
+              {/* Loan Terms */}
+              <div className="space-y-6">
+                <h4 className="text-xl font-bold text-[#1daed4] border-b border-gray-100 pb-2">Loan Terms</h4>
+
+                {program.purpose_of_mortgage?.length > 0 && (
+                  <div>
+                    <h5 className="font-semibold mb-2 text-sm uppercase tracking-wide text-gray-400">Purpose</h5>
+                    <ul className="list-disc list-inside space-y-1">
+                      {program.purpose_of_mortgage.map(t => <li key={t}>{t}</li>)}
+                    </ul>
+                  </div>
+                )}
+
+                {program.amortization_terms?.length > 0 && (
+                  <div>
+                    <h5 className="font-semibold mb-2 text-sm uppercase tracking-wide text-gray-400">Amortization</h5>
+                    <ul className="list-disc list-inside space-y-1">
+                      {program.amortization_terms.map(t => <li key={t}>{t}</li>)}
+                    </ul>
+                  </div>
+                )}
+
+                {program.refinance_types?.length > 0 && (
+                  <div>
+                    <h5 className="font-semibold mb-2 text-sm uppercase tracking-wide text-gray-400">Refinance Types</h5>
+                    <ul className="list-disc list-inside space-y-1">
+                      {program.refinance_types.map(t => <li key={t}>{t}</li>)}
+                    </ul>
+                  </div>
+                )}
+
+                {program.prepayment_penalty && (
+                  <div>
+                    <h5 className="font-semibold mb-2 text-sm uppercase tracking-wide text-gray-400">Prepayment Penalty</h5>
+                    <p>{program.prepayment_penalty}</p>
+                  </div>
+                )}
+              </div>
+
+              {/* Borrower & Docs */}
+              <div className="space-y-6">
+                <h4 className="text-xl font-bold text-[#1daed4] border-b border-gray-100 pb-2">Borrower & Docs</h4>
+
+                {program.borrower_types?.length > 0 && (
+                  <div>
+                    <h5 className="font-semibold mb-2 text-sm uppercase tracking-wide text-gray-400">Borrower Types</h5>
+                    <ul className="list-disc list-inside space-y-1">
+                      {program.borrower_types.map(t => <li key={t}>{t}</li>)}
+                    </ul>
+                  </div>
+                )}
+
+                {program.income_documentation_type?.length > 0 && (
+                  <div>
+                    <h5 className="font-semibold mb-2 text-sm uppercase tracking-wide text-gray-400">Income Documentation</h5>
+                    <ul className="list-disc list-inside space-y-1">
+                      {program.income_documentation_type.map(t => <li key={t}>{t}</li>)}
+                    </ul>
+                  </div>
+                )}
+
+                {program.citizenship_requirements?.length > 0 && (
+                  <div>
+                    <h5 className="font-semibold mb-2 text-sm uppercase tracking-wide text-gray-400">Citizenship</h5>
+                    <ul className="list-disc list-inside space-y-1">
+                      {program.citizenship_requirements.map(t => <li key={t}>{t}</li>)}
+                    </ul>
+                  </div>
+                )}
+
+                {program.credit_events_allowed?.length > 0 && (
+                  <div>
+                    <h5 className="font-semibold mb-2 text-sm uppercase tracking-wide text-gray-400">Credit Events</h5>
+                    <ul className="list-disc list-inside space-y-1">
+                      {program.credit_events_allowed.map(t => <li key={t}>{t}</li>)}
+                    </ul>
+                  </div>
+                )}
+
+                {program.mortgage_lates_allowed?.length > 0 && (
+                  <div>
+                    <h5 className="font-semibold mb-2 text-sm uppercase tracking-wide text-gray-400">Mortgage Lates</h5>
+                    <ul className="list-disc list-inside space-y-1">
+                      {program.mortgage_lates_allowed.map(t => <li key={t}>{t}</li>)}
+                    </ul>
+                  </div>
+                )}
+              </div>
+
+            </div>
           </div>
         </div>
 

@@ -53,13 +53,16 @@ export interface CMSProgramPage extends WagtailPage {
   faq: { type: 'faq_item', value: { question: string, answer: string } }[];
 
   // Financial Terms
+  // Financial Terms (Extended)
   interest_rates: string;
   minimum_loan_amount: string | null;
   maximum_loan_amount: string | null;
   min_credit_score: number | null;
   max_ltv: string;
+  max_debt_to_income_ratio: number | null;
+  min_dscr: number | null;
 
-  // Property & Location
+  // Property & Loan
   property_types: string[];
   occupancy_types: string[];
   lien_position: string[];
@@ -67,12 +70,19 @@ export interface CMSProgramPage extends WagtailPage {
   purpose_of_mortgage: string[];
   refinance_types: string[];
   income_documentation_type: string[];
+  prepayment_penalty: string;
+
+  // Borrower Details
   borrower_types: string[];
   citizenship_requirements: string[];
+  credit_events_allowed: string[];
+  mortgage_lates_allowed: string[];
 
+  // Location
   is_local_variation: boolean;
   target_city: string;
   target_state: string;
+  target_region: string;
   source_url: string;
 }
 
