@@ -1,190 +1,229 @@
 
-import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from 'next';
 
-// Data interface based on Wagtail model
-interface HomePageData {
+// Program type cards matching production site
+const programTypes = [
+  { name: "Stated Income", description: "No tax return verification needed for self-employed", href: "/programs/stated-income-loans", icon: "📄" },
+  { name: "Hard Money", description: "Fast closing with equity-based lending decisions", href: "/programs/hard-money-mortgage-loans", icon: "💰" },
+  { name: "Reverse Mortgage", description: "Access home equity with no monthly payments", href: "/programs/reverse-mortgages-loan-programs", icon: "🏠" },
+  { name: "Construction", description: "Ground-up and renovation financing", href: "/programs/construction-loans-2", icon: "🏗️" },
+  { name: "Vacant Land", description: "Raw land and lot financing solutions", href: "/programs/land-loans", icon: "🌲" },
+  { name: "Commercial", description: "Office, retail, and multi-family loans", href: "/programs/commercial-mortgage-loans", icon: "🏢" },
+  { name: "Fix and Flip", description: "Short-term rehab and investment loans", href: "/programs/fix-flip-rehab-loan-rehab-mortgage-loans", icon: "🔨" },
+  { name: "Super Jumbo", description: "High-value residential mortgages", href: "/programs/super-jumbo-residential-mortgage-loans", icon: "💎" },
+];
+
+// API URL for server-side fetching (Docker internal network)
+const API_URL = process.env.INTERNAL_API_URL || process.env.NEXT_PUBLIC_WAGTAIL_API?.replace('/api/v2', '') || 'http://backend:8000';
+
+interface FundedLoan {
   id: number;
   title: string;
-  hero_title: string;
-  hero_subtitle: string;
-  hero_cta_text: string;
-  hero_cta_url: string;
+  meta: { slug: string };
 }
 
-// Internal API URL for server-side fetching
-const API_URL = process.env.INTERNAL_API_URL || 'http://backend:8000';
+interface Program {
+  id: number;
+  title: string;
+  meta: { slug: string };
+}
 
-async function getHomePage(): Promise<HomePageData | null> {
+async function getFundedLoans(): Promise<FundedLoan[]> {
   try {
-    // Fetch the home page by type
-    const url = `${API_URL}/api/v2/pages/?type=cms.HomePage&fields=*&limit=1`;
-    console.log(`Fetching Home Page: ${url}`);
-
-    const response = await fetch(url, {
+    const res = await fetch(`${API_URL}/api/v2/pages/?type=cms.FundedLoanPage&fields=title&limit=8`, {
       cache: 'no-store',
       headers: { 'Accept': 'application/json' }
     });
-
-    if (!response.ok) {
-      console.error(`API returned ${response.status} for Home Page`);
-      return null;
+    if (res.ok) {
+      const data = await res.json();
+      return data.items || [];
     }
-
-    const data = await response.json();
-    if (data.items && data.items.length > 0) {
-      return data.items[0];
-    }
-    return null;
-  } catch (error) {
-    console.error('Error fetching Home Page:', error);
-    return null;
+  } catch (e) {
+    console.error('Error fetching funded loans:', e);
   }
+  return [];
+}
+
+async function getPrograms(): Promise<Program[]> {
+  try {
+    const res = await fetch(`${API_URL}/api/v2/pages/?type=cms.ProgramPage&fields=title&limit=10`, {
+      cache: 'no-store',
+      headers: { 'Accept': 'application/json' }
+    });
+    if (res.ok) {
+      const data = await res.json();
+      return data.items || [];
+    }
+  } catch (e) {
+    console.error('Error fetching programs:', e);
+  }
+  return [];
 }
 
 export default async function Home() {
-  const page = await getHomePage();
-
-  // Fallback content if API fails or content not populated
-  const content = {
-    title: page?.hero_title || "CUSTOM MORTGAGE",
-    subtitle: page?.hero_subtitle?.replace(/<[^>]*>/g, '') || "Nationwide Lender | FinTech Financing Solutions",
-    ctaText: page?.hero_cta_text || "Get Your Quote",
-    ctaUrl: page?.hero_cta_url || "/quote"
-  };
+  const fundedLoans = await getFundedLoans();
+  const programs = await getPrograms();
 
   return (
-    <div className="min-h-screen bg-white">
-      {/* Header */}
-      <div className="bg-[#636363] text-white py-4 px-6 md:px-12">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <h1 className="text-3xl font-bold tracking-wide" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
-            CUSTOM MORTGAGE
+    <div className="bg-white">
+      {/* Hero Section */}
+      <section className="relative bg-gradient-to-br from-[#1daed4] to-[#17a0c4] text-white py-20 px-6">
+        <div className="max-w-7xl mx-auto text-center">
+          <h1 className="text-5xl md:text-6xl font-bold mb-4" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+            Custom Mortgage – Nationwide Lender
           </h1>
-          <span className="text-sm tracking-widest hidden sm:block" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
-            NATIONWIDE LENDER
-          </span>
-          <Link href="/quote" className="sm:hidden text-sm underline">
-            Get Quote
+          <p className="text-xl md:text-2xl mb-8 opacity-90">
+            FinTech Financing Solutions Tailored for Your Unique Needs
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/quote"
+              className="inline-block bg-white text-[#1daed4] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg"
+              style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+              Get Your Quote
+            </Link>
+            <a href="https://custommortgage.floify.com/" target="_blank" rel="noopener noreferrer"
+              className="inline-block border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors"
+              style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+              Start Application
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Program Type Cards */}
+      <section className="py-16 px-6 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#636363] mb-12" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+            Loan Programs
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {programTypes.map((program) => (
+              <Link key={program.name} href={program.href}
+                className="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow border border-gray-100 text-center group">
+                <div className="text-4xl mb-3">{program.icon}</div>
+                <h3 className="text-lg font-bold text-[#636363] group-hover:text-[#1daed4] transition-colors" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+                  {program.name}
+                </h3>
+                <p className="text-sm text-gray-500 mt-2">{program.description}</p>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/programs" className="text-[#1daed4] font-bold hover:underline">
+              View All Programs →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* CMS Programs (if available) */}
+      {programs.length > 0 && (
+        <section className="py-16 px-6 bg-white">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center text-[#636363] mb-8" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+              Featured Loan Programs
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {programs.map((program) => (
+                <Link key={program.id} href={`/programs/${program.meta.slug}`}
+                  className="block bg-gray-50 rounded-lg p-6 hover:bg-[#1daed4]/10 transition-colors border border-gray-200">
+                  <h3 className="text-lg font-bold text-[#636363]" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+                    {program.title}
+                  </h3>
+                  <span className="text-[#1daed4] text-sm mt-2 inline-block">Learn More →</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Recently Funded Section */}
+      <section className="py-16 px-6 bg-[#636363] text-white">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+            Recently Funded
+          </h2>
+          {fundedLoans.length > 0 ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {fundedLoans.map((loan) => (
+                <Link key={loan.id} href={`/funded-loans/${loan.meta.slug}`}
+                  className="block bg-white/10 rounded-lg p-4 hover:bg-white/20 transition-colors">
+                  <h3 className="text-sm font-medium line-clamp-2">{loan.title}</h3>
+                  <span className="text-[#1daed4] text-xs mt-2 inline-block">View Details →</span>
+                </Link>
+              ))}
+            </div>
+          ) : (
+            <p className="text-center opacity-75">Loading funded loans...</p>
+          )}
+          <div className="text-center mt-8">
+            <Link href="/funded-loans" className="inline-block border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white/10 transition-colors">
+              View All Funded Loans
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section className="py-16 px-6 bg-white">
+        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#636363] mb-6" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+              A FinTech Real Estate and Finance Agency
+            </h2>
+            <p className="text-gray-600 mb-4">
+              We combine industry expertise with a FinTech approach to meet all your real estate and financial needs.
+              Whether you're looking to secure the perfect mortgage, invest in a new property, or refinance an existing loan,
+              our team of professionals is here to guide you every step of the way.
+            </p>
+            <a href="tel:8779765669" className="inline-block bg-[#1daed4] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#17a0c4] transition-colors">
+              Call Us (877) 976-5669
+            </a>
+          </div>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="bg-gray-50 p-6 rounded-lg text-center">
+              <div className="text-4xl font-bold text-[#1daed4]">48</div>
+              <div className="text-gray-600">States</div>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg text-center">
+              <div className="text-4xl font-bold text-[#1daed4]">100+</div>
+              <div className="text-gray-600">Loan Programs</div>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg text-center">
+              <div className="text-4xl font-bold text-[#1daed4]">Fast</div>
+              <div className="text-gray-600">Approvals</div>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg text-center">
+              <div className="text-4xl font-bold text-[#1daed4]">24/7</div>
+              <div className="text-gray-600">Support</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-16 px-6 bg-[#1daed4] text-white">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-4" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+            Ready to Get Started?
+          </h2>
+          <p className="text-xl mb-8 opacity-90">
+            Get a personalized mortgage quote in minutes. Our expert team is ready to help you find the perfect financing solution.
+          </p>
+          <Link href="/quote"
+            className="inline-block bg-white text-[#1daed4] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg"
+            style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+            Get Your Quote Now
           </Link>
         </div>
-      </div>
-
-      {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-gray-50 to-white overflow-hidden">
-        <div className="max-w-7xl mx-auto">
-          <div className="relative z-10 pb-8 bg-transparent sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-            <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-              <div className="sm:text-center lg:text-left">
-                <h1 className="text-4xl tracking-tight font-extrabold text-[#636363] sm:text-5xl md:text-6xl" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
-                  <span className="block xl:inline">{content.title}</span>
-                </h1>
-                <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  {content.subtitle}
-                </p>
-                <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                  <div className="rounded-md shadow">
-                    <Link href={content.ctaUrl}
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#1daed4] hover:bg-[#17a0c4] md:py-4 md:text-lg md:px-10 transition-colors"
-                      style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
-                      {content.ctaText}
-                    </Link>
-                  </div>
-                  <div className="mt-3 sm:mt-0 sm:ml-3">
-                    <Link href="/programs"
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-[#1daed4] bg-[#1daed4]/10 hover:bg-[#1daed4]/20 md:py-4 md:text-lg md:px-10 transition-colors"
-                      style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
-                      View Programs
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </main>
-          </div>
-        </div>
-        {/* Decorative blob */}
-        <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-[#1daed4]/5 flex items-center justify-center">
-          <svg className="h-56 w-56 text-[#1daed4]/20 transform scale-150" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 2L2 7l10 5 10-5-10-5zm0 9l2.5-1.25L12 8.75l-2.5 1.25L12 11zm0 2.5l-5-2.5-5 2.5L12 22l10-8.5-5-2.5-5 2.5z" />
-          </svg>
-        </div>
-      </div>
-
-      {/* Features Section */}
-      <div className="py-12 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="lg:text-center">
-            <h2 className="text-base text-[#1daed4] font-semibold tracking-wide uppercase">FinTech Advantage</h2>
-            <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-[#636363] sm:text-4xl" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
-              A Better Way to Borrow
-            </p>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              We combine cutting-edge technology with personalized service to deliver the perfect loan for your unique situation.
-            </p>
-          </div>
-
-          <div className="mt-10">
-            <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10">
-              <div className="relative">
-                <dt>
-                  <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-[#1daed4] text-white">
-                    <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                    </svg>
-                  </div>
-                  <p className="ml-16 text-lg leading-6 font-medium text-[#636363]" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif', letterSpacing: '0.05em' }}>Fast Approvals</p>
-                </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">
-                  Our automated underwriting engine provides instant feedback and quicker clear-to-close times.
-                </dd>
-              </div>
-
-              <div className="relative">
-                <dt>
-                  <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-[#1daed4] text-white">
-                    <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </div>
-                  <p className="ml-16 text-lg leading-6 font-medium text-[#636363]" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif', letterSpacing: '0.05em' }}>Custom Programs</p>
-                </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">
-                  From DSCR to Bank Statement loans, we have programs that fit complex borrower profiles.
-                </dd>
-              </div>
-
-              <div className="relative">
-                <dt>
-                  <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-[#1daed4] text-white">
-                    <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </div>
-                  <p className="ml-16 text-lg leading-6 font-medium text-[#636363]" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif', letterSpacing: '0.05em' }}>Nationwide Reach</p>
-                </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">
-                  We lend in 48 states, offering consistent service wherever your next investment takes you.
-                </dd>
-              </div>
-            </dl>
-          </div>
-        </div>
-      </div>
-
-      {/* Footer */}
-      <div className="bg-[#636363] text-white py-8 px-6 mt-auto">
-        <div className="max-w-7xl mx-auto text-center">
-          <p className="text-sm">
-            © 2026 Custom Mortgage Inc. | Nationwide Lender | FinTech Financing Solutions
-          </p>
-        </div>
-      </div>
+      </section>
     </div>
   );
 }
 
 export const metadata: Metadata = {
-  title: 'Custom Mortgage Inc | Nationwide Lender',
-  description: 'Custom Mortgage Inc offers unique financing solutions for residential and commercial properties nationwide.',
+  title: 'Custom Mortgage - Nationwide Lender | FinTech Financing Solutions',
+  description: 'Nationwide Mortgage Lender for Commercial and Residential properties - Bridge Hard money loans, and Stated Income available. Call (877) 976-5669',
 }

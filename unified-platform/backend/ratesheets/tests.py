@@ -52,7 +52,7 @@ class RateSheetProcessingTest(TestCase):
             file=dummy_file
         )
 
-    @patch('ratesheets.tasks.PdfPlumberProcessor')
+    @patch('ratesheets.tasks.GeminiAIProcessor')
     def test_process_ratesheet_success(self, MockProcessor):
         """ Test task success pathway with mocked processor """
         mock_instance = MockProcessor.return_value
@@ -66,7 +66,7 @@ class RateSheetProcessingTest(TestCase):
         MockProcessor.assert_called_once_with(self.ratesheet)
         mock_instance.process.assert_called_once()
 
-    @patch('ratesheets.tasks.PdfPlumberProcessor')
+    @patch('ratesheets.tasks.GeminiAIProcessor')
     def test_process_ratesheet_failure(self, MockProcessor):
         """ Test task failure pathway with mocked processor """
         mock_instance = MockProcessor.return_value

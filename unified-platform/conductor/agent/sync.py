@@ -4,7 +4,7 @@ import subprocess
 import re
 from typing import List, Dict, Optional
 from pathlib import Path
-from github import Github, Auth
+from github import Github
 from github.GithubException import GithubException
 
 # Constants
@@ -14,7 +14,7 @@ CONDUCTOR_DIR = Path(__file__).resolve().parent.parent
 class ConductorAgent:
     def __init__(self):
         self.github_token = self._get_github_token()
-        self.g = Github(auth=Auth.Token(self.github_token))
+        self.g = Github(self.github_token)
         self.repo = self.g.get_repo(REPO_NAME)
         self.tracks_file = CONDUCTOR_DIR / "tracks.md"
         self.tasks_file = CONDUCTOR_DIR / "tasks.md"
@@ -39,9 +39,13 @@ class ConductorAgent:
             return {"name": "Unknown", "status": "Unknown"}
         
         content = self.tracks_file.read_text()
+        # Look for the Active Track line
+        # Format: **Active Track**: Production Finalization ...
         match = re.search(r"\*\*Active Track\*\*: (.*)", content)
         track_name = match.group(1).strip() if match else "None"
         
+        # Look for status
+        # Format: **Status**: Ready to start ...
         match_status = re.search(r"\*\*Status\*\*: (.*)", content)
         status = match_status.group(1).strip() if match_status else "Unknown"
 
@@ -62,6 +66,8 @@ class ConductorAgent:
             if line.startswith("## Phase"):
                 current_phase = line.strip("# ").strip()
             
+            # Match uncompleted tasks: - [ ] or - [/]
+            # Capture the task text
             match = re.search(r"^\s*-\s*\[([ /])\]\s*(.*)", line)
             if match:
                 state_char = match.group(1)
@@ -69,6 +75,7 @@ class ConductorAgent:
                 
                 status = "In Progress" if state_char == "/" else "Pending"
                 
+                # Check for GitHub issue reference
                 issue_match = re.search(r"#(\d+)", text)
                 issue_num = issue_match.group(1) if issue_match else None
                 
@@ -87,6 +94,7 @@ class ConductorAgent:
         prs = []
         
         try:
+            # Get issues (excluding PRs)
             for issue in self.repo.get_issues(state='open'):
                 item = {
                     "number": issue.number,
@@ -106,39 +114,8 @@ class ConductorAgent:
             
         return {"issues": issues, "prs": prs}
 
-    def execute_command(self, command: str) -> str:
-        """Execute a command and return the result."""
-        command_lower = command.lower().strip()
-        
-        # Sync GitHub
-        if "sync" in command_lower and "github" in command_lower:
-            gh_items = self.get_github_items()
-            return f"✅ Synced with GitHub:\n- {len(gh_items['issues'])} open issues\n- {len(gh_items['prs'])} open PRs"
-        
-        # List tasks
-        elif "list" in command_lower and "task" in command_lower:
-            tasks = self.get_tasks()
-            in_progress = [t for t in tasks if t['status'] == 'In Progress']
-            pending = [t for t in tasks if t['status'] == 'Pending']
-            return f"📋 Task Summary:\n- {len(in_progress)} in progress\n- {len(pending)} pending\n- {len(tasks)} total"
-        
-        # Show active track
-        elif "track" in command_lower or "status" in command_lower:
-            track = self.get_active_track()
-            return f"🎯 Active Track: {track['name']}\nStatus: {track['status']}"
-        
-        # Help
-        elif "help" in command_lower:
-            return """Available Commands:
-• **sync github** - Refresh GitHub issues and PRs
-• **list tasks** - Show task summary
-• **track status** - Show active track
-• **help** - Show this help message"""
-        
-        else:
-            return f"⚠️ Command not recognized: '{command}'\nType 'help' for available commands."
-
 if __name__ == "__main__":
+    # Test run
     agent = ConductorAgent()
     print("Active Track:", agent.get_active_track())
     print(f"Found {len(agent.get_tasks())} tasks.")

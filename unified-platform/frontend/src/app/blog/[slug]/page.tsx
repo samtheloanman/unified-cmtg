@@ -67,9 +67,9 @@ function generateSchemaMarkup(post: BlogPage) {
     datePublished: post.date,
     author: post.author
       ? {
-          '@type': 'Person',
-          name: post.author,
-        }
+        '@type': 'Person',
+        name: post.author,
+      }
       : undefined,
     publisher: {
       '@type': 'Organization',
@@ -99,134 +99,105 @@ export default async function BlogDetailPage({ params }: Props) {
       />
 
       <div className="min-h-screen bg-white">
-        {/* Header */}
-        <div className="bg-[#636363] text-white py-4 px-6">
-          <div className="max-w-7xl mx-auto flex justify-between items-center">
-            <Link href="/">
+        <div className="min-h-screen bg-white">
+          {/* Breadcrumb */}
+          <div className="bg-gray-50 border-b border-gray-200 py-3 px-6">
+            <div className="max-w-3xl mx-auto">
+              <nav className="text-sm">
+                <Link href="/" className="text-[#1daed4] hover:underline">
+                  Home
+                </Link>
+                <span className="mx-2 text-gray-400">/</span>
+                <Link href="/blog" className="text-[#1daed4] hover:underline">
+                  Blog
+                </Link>
+                <span className="mx-2 text-gray-400">/</span>
+                <span className="text-[#636363]">{post.title}</span>
+              </nav>
+            </div>
+          </div>
+
+          {/* Article */}
+          <article className="max-w-3xl mx-auto py-12 px-6">
+            {/* Header */}
+            <header className="mb-8">
               <h1
-                className="text-3xl font-bold tracking-wide"
+                className="text-4xl md:text-5xl font-bold text-[#636363] mb-4"
                 style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
               >
-                CUSTOM MORTGAGE
+                {post.title}
               </h1>
-            </Link>
-            <span
-              className="text-sm tracking-widest"
-              style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
-            >
-              NATIONWIDE LENDER
-            </span>
-          </div>
-        </div>
+              <div className="flex items-center gap-4 text-[#a5a5a5]">
+                <time dateTime={post.date}>{formatDate(post.date)}</time>
+                {post.author && (
+                  <>
+                    <span>•</span>
+                    <span>By {post.author}</span>
+                  </>
+                )}
+              </div>
+            </header>
 
-        {/* Breadcrumb */}
-        <div className="bg-gray-50 border-b border-gray-200 py-3 px-6">
-          <div className="max-w-3xl mx-auto">
-            <nav className="text-sm">
-              <Link href="/" className="text-[#1daed4] hover:underline">
-                Home
-              </Link>
-              <span className="mx-2 text-gray-400">/</span>
-              <Link href="/blog" className="text-[#1daed4] hover:underline">
-                Blog
-              </Link>
-              <span className="mx-2 text-gray-400">/</span>
-              <span className="text-[#636363]">{post.title}</span>
-            </nav>
-          </div>
-        </div>
+            {/* Featured Image */}
+            {post.featured_image && (
+              <div className="mb-8">
+                <img
+                  src={post.featured_image.meta.download_url}
+                  alt={post.featured_image.title || post.title}
+                  className="w-full rounded-xl"
+                />
+              </div>
+            )}
 
-        {/* Article */}
-        <article className="max-w-3xl mx-auto py-12 px-6">
-          {/* Header */}
-          <header className="mb-8">
-            <h1
-              className="text-4xl md:text-5xl font-bold text-[#636363] mb-4"
-              style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
-            >
-              {post.title}
-            </h1>
-            <div className="flex items-center gap-4 text-[#a5a5a5]">
-              <time dateTime={post.date}>{formatDate(post.date)}</time>
-              {post.author && (
-                <>
-                  <span>•</span>
-                  <span>By {post.author}</span>
-                </>
-              )}
-            </div>
-          </header>
-
-          {/* Featured Image */}
-          {post.featured_image && (
-            <div className="mb-8">
-              <img
-                src={post.featured_image.meta.download_url}
-                alt={post.featured_image.title || post.title}
-                className="w-full rounded-xl"
+            {/* Intro */}
+            {post.intro && (
+              <div
+                className="text-xl text-[#636363] leading-relaxed mb-8 font-medium"
+                dangerouslySetInnerHTML={{ __html: post.intro }}
               />
+            )}
+
+            {/* Body */}
+            {post.body && (
+              <div
+                className="prose prose-lg max-w-none prose-headings:text-[#636363] prose-headings:font-bold prose-p:text-[#636363] prose-li:text-[#636363] prose-a:text-[#1daed4] prose-a:no-underline hover:prose-a:underline prose-blockquote:border-[#1daed4] prose-blockquote:text-[#636363]"
+                dangerouslySetInnerHTML={{ __html: post.body }}
+              />
+            )}
+
+            {/* Share / CTA */}
+            <div className="mt-12 pt-8 border-t-2 border-gray-200">
+              <div className="bg-gray-50 rounded-xl p-6">
+                <h3
+                  className="text-2xl font-bold text-[#636363] mb-4"
+                  style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
+                >
+                  Ready to Get Started?
+                </h3>
+                <p className="text-[#636363] mb-6">
+                  Get a personalized mortgage quote from our expert team.
+                </p>
+                <Link
+                  href="/quote"
+                  className="inline-block bg-[#1daed4] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#17a0c4] transition-colors"
+                  style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
+                >
+                  Get Your Quote
+                </Link>
+              </div>
             </div>
-          )}
+          </article>
 
-          {/* Intro */}
-          {post.intro && (
-            <div
-              className="text-xl text-[#636363] leading-relaxed mb-8 font-medium"
-              dangerouslySetInnerHTML={{ __html: post.intro }}
-            />
-          )}
-
-          {/* Body */}
-          {post.body && (
-            <div
-              className="prose prose-lg max-w-none prose-headings:text-[#636363] prose-headings:font-bold prose-p:text-[#636363] prose-li:text-[#636363] prose-a:text-[#1daed4] prose-a:no-underline hover:prose-a:underline prose-blockquote:border-[#1daed4] prose-blockquote:text-[#636363]"
-              dangerouslySetInnerHTML={{ __html: post.body }}
-            />
-          )}
-
-          {/* Share / CTA */}
-          <div className="mt-12 pt-8 border-t-2 border-gray-200">
-            <div className="bg-gray-50 rounded-xl p-6">
-              <h3
-                className="text-2xl font-bold text-[#636363] mb-4"
-                style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
-              >
-                Ready to Get Started?
-              </h3>
-              <p className="text-[#636363] mb-6">
-                Get a personalized mortgage quote from our expert team.
-              </p>
-              <Link
-                href="/quote"
-                className="inline-block bg-[#1daed4] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#17a0c4] transition-colors"
-                style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
-              >
-                Get Your Quote
-              </Link>
-            </div>
-          </div>
-        </article>
-
-        {/* Back to Blog */}
-        <div className="max-w-3xl mx-auto px-6 pb-12">
-          <Link
-            href="/blog"
-            className="inline-flex items-center text-[#1daed4] font-semibold hover:underline"
-          >
-            ← Back to Blog
-          </Link>
-        </div>
-
-        {/* Footer */}
-        <div className="bg-[#636363] text-white py-8 px-6">
-          <div className="max-w-7xl mx-auto text-center">
-            <p className="text-sm">
-              © {new Date().getFullYear()} Custom Mortgage Inc. | Nationwide Lender | FinTech
-              Financing Solutions
-            </p>
+          {/* Back to Blog */}
+          <div className="max-w-3xl mx-auto px-6 pb-12">
+            <Link
+              href="/blog"
+              className="inline-flex items-center text-[#1daed4] font-semibold hover:underline"
+            >
+              ← Back to Blog
+            </Link>
           </div>
         </div>
-      </div>
-    </>
-  );
+      </>
+      );
 }

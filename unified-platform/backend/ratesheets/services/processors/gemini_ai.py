@@ -146,6 +146,10 @@ Return ONLY this JSON structure:
         self.client = genai.Client(api_key=api_key)
         self.model_name = 'gemini-1.5-pro'
 
+    def validate_file_exists(self) -> bool:
+        """Check if the rate sheet file exists."""
+        return os.path.exists(self.file_path)
+
     def process(self) -> Dict[str, Any]:
         """
         Process rate sheet using AI extraction.

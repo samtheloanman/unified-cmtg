@@ -1,5 +1,6 @@
 import streamlit as st
 import sys
+import os
 import pandas as pd
 from pathlib import Path
 
@@ -33,6 +34,7 @@ with st.sidebar:
     
     st.markdown("---")
     st.markdown("**Quick Actions**")
+    # Placeholder for future command runners
     st.button("🚀 Start Track (Coming Soon)", disabled=True)
 
 # Main Content
@@ -49,6 +51,7 @@ with col1:
 
 with col2:
     st.header("GitHub Status")
+    # Fetch GitHub items (cached manually via button for now to avoid API rate limits on every rerun)
     if 'gh_data' not in st.session_state:
         with st.spinner("Fetching GitHub data..."):
             st.session_state.gh_data = agent.get_github_items()
@@ -67,12 +70,14 @@ tasks = agent.get_tasks()
 if tasks:
     df = pd.DataFrame(tasks)
     
+    # Filter options
     phases = ["All"] + list(df['phase'].unique())
     selected_phase = st.selectbox("Filter by Phase", phases)
     
     if selected_phase != "All":
         df = df[df['phase'] == selected_phase]
     
+    # Display as a clean table
     st.dataframe(
         df[['phase', 'status', 'task', 'issue_num']],
         column_config={
@@ -111,31 +116,3 @@ with tab1:
 with tab2:
     for pr in gh_data['prs']:
         st.markdown(f"- [#{pr['number']}]({pr['url']}) {pr['title']}")
-
-# 4. Chat Interface
-st.markdown("---")
-st.header("💬 Command Agent")
-
-# Initialize chat history
-if 'chat_history' not in st.session_state:
-    st.session_state.chat_history = []
-
-# Display chat history
-if st.session_state.chat_history:
-    for msg in st.session_state.chat_history:
-        with st.chat_message(msg["role"]):
-            st.markdown(msg["content"])
-
-# Chat input
-if prompt := st.chat_input("Send a command to the Conductor Agent (e.g., 'sync github', 'list tasks')"):
-    # Add user message to history
-    st.session_state.chat_history.append({"role": "user", "content": prompt})
-    
-    # Execute command
-    response = agent.execute_command(prompt)
-    
-    # Add agent response to history
-    st.session_state.chat_history.append({"role": "assistant", "content": response})
-    
-    # Force rerun to show new messages
-    st.rerun()

@@ -127,7 +127,7 @@
 ## Phase F.7: Next.js CMS Integration (Parallel with F.5, F.6)
 
 **Agent**: Claude Code  
-**Status**: ⏳ Pending
+**Status**: [/] In Progress
 
 - [ ] Create `frontend/src/lib/wagtail-api.ts`
 - [ ] Implement `getPage(slug, type)` function
