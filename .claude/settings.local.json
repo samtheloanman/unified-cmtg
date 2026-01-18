@@ -10,7 +10,10 @@
       "Bash(docker logs:*)",
       "Bash(python3:*)",
       "Bash(ls:*)",
-      "Bash(tee:*)"
+      "Bash(tee:*)",
+      "Bash(gh issue view:*)",
+      "Bash(gh issue comment:*)",
+      "Bash(gh issue close:*)"
     ]
   }
 }

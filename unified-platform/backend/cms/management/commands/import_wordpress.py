@@ -23,17 +23,18 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         self.export_dir = Path(options['input_dir'])
-        
-        # Determine root page (Home)
-        try:
-            self.home_page = Page.objects.filter(depth=2).first()
-            if not self.home_page:
-                self.home_page = Page.objects.get(slug='home')
-        except Page.DoesNotExist:
-            self.stdout.write(self.style.ERROR("Could not find Home Page (depth=2 or slug='home')."))
-            return
 
-        self.stdout.write(f"Attaching content to Home Page: {self.home_page.title}")
+        # Get the site root (should be HomePage)
+        from wagtail.models import Site
+        site = Site.objects.get(is_default_site=True)
+        self.home_page = site.root_page
+
+        self.stdout.write(f"Using site root as Home Page: {self.home_page.title} (ID: {self.home_page.id})")
+
+        # Verify it's a HomePage
+        from cms.models import HomePage
+        if not isinstance(self.home_page.specific, HomePage):
+            self.stdout.write(self.style.WARNING(f"Warning: Site root is not a HomePage, it's {type(self.home_page.specific).__name__}"))
 
         if options['wipe']:
             self.stdout.write("Wiping existing content...")
