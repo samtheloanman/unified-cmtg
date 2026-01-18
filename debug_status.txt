@@ -1,0 +1,78 @@
+=== DOCKER PS ===
+CONTAINER ID   IMAGE          COMMAND       CREATED          STATUS          PORTS                                         NAMES
+6322faee0d9d   ag-companion   "/start.sh"   25 minutes ago   Up 24 minutes   0.0.0.0:8002->8000/tcp, [::]:8002->8000/tcp   ag-companion-test
+=== DOCKER LOGS ===
+TPM: error opening: stat /dev/tpmrm0: no such file or directory
+2026/01/16 23:08:43 logtail started
+2026/01/16 23:08:43 Program starting: v1.92.5-t1c215f6e5-g9b792287b, Go 1.25.5: []string{"/usr/sbin/tailscaled", "--state=/var/lib/tailscale/tailscaled.state", "--socket=/var/run/tailscale/tailscaled.sock", "--tun=userspace-networking"}
+2026/01/16 23:08:43 LogID: 7425640c1df67186ea5def4c32767fba91168abf7c22cf2e8c954a4ebad7e019
+2026/01/16 23:08:43 logpolicy: using system state directory "/var/lib/tailscale"
+logpolicy.ConfigFromFile /var/lib/tailscale/tailscaled.log.conf: open /var/lib/tailscale/tailscaled.log.conf: no such file or directory
+logpolicy.Config.Validate for /var/lib/tailscale/tailscaled.log.conf: config is nil
+2026/01/16 23:08:43 dns: [rc=unknown ret=direct]
+2026/01/16 23:08:43 dns: using "direct" mode
+2026/01/16 23:08:43 dns: using *dns.directManager
+2026/01/16 23:08:43 dns: inotify: NewDirWatcher: context canceled
+2026/01/16 23:08:43 wgengine.NewUserspaceEngine(tun "userspace-networking") ...
+2026/01/16 23:08:43 dns: using dns.noopManager
+2026/01/16 23:08:43 link state: interfaces.State{defaultRoute=eth0 ifs={eth0:[172.17.0.2/16]} v4=true v6=false}
+2026/01/16 23:08:43 magicsock: [warning] failed to force-set UDP read buffer size to 7340032: operation not permitted; using kernel default values (impacts throughput only)
+2026/01/16 23:08:43 magicsock: [warning] failed to force-set UDP write buffer size to 7340032: operation not permitted; using kernel default values (impacts throughput only)
+2026/01/16 23:08:43 magicsock: [warning] failed to force-set UDP read buffer size to 7340032: operation not permitted; using kernel default values (impacts throughput only)
+2026/01/16 23:08:43 magicsock: [warning] failed to force-set UDP write buffer size to 7340032: operation not permitted; using kernel default values (impacts throughput only)
+2026/01/16 23:08:43 magicsock: disco key = d:9e2244885671d4bb
+2026/01/16 23:08:43 Creating WireGuard device...
+2026/01/16 23:08:43 Bringing WireGuard device up...
+2026/01/16 23:08:43 Bringing router up...
+2026/01/16 23:08:43 Clearing router settings...
+2026/01/16 23:08:43 Starting network monitor...
+2026/01/16 23:08:43 Engine created.
+2026/01/16 23:08:43 pm: migrating "_daemon" profile to new format
+2026/01/16 23:08:43 logpolicy: using system state directory "/var/lib/tailscale"
+2026/01/16 23:08:43 got LocalBackend in 14ms
+2026/01/16 23:08:43 Start
+2026/01/16 23:08:43 ipnext: active extensions: portlist, posture, clientupdate, relayserver, taildrop
+2026/01/16 23:08:43 Backend: logs: be:7425640c1df67186ea5def4c32767fba91168abf7c22cf2e8c954a4ebad7e019 fe:
+2026/01/16 23:08:43 Switching ipn state NoState -> NeedsLogin (WantRunning=false, nm=false)
+2026/01/16 23:08:43 blockEngineUpdates(true)
+2026/01/16 23:08:43 health(warnable=wantrunning-false): error: Tailscale is stopped.
+2026/01/16 23:08:43 wgengine: Reconfig: configuring userspace WireGuard config (with 0/0 peers)
+2026/01/16 23:08:43 wgengine: Reconfig: configuring router
+2026/01/16 23:08:43 wgengine: Reconfig: user dialer
+2026/01/16 23:08:43 wgengine: Reconfig: configuring DNS
+2026/01/16 23:08:43 dns: Set: {DefaultResolvers:[] Routes:{} SearchDomains:[] Hosts:0}
+2026/01/16 23:08:43 dns: Resolvercfg: {Routes:{} Hosts:0 LocalDomains:[]}
+2026/01/16 23:08:43 dns: OScfg: {}
+⚠️  Tailscale not authenticated. Run this to auth:
+docker exec -it <container_id> tailscale up
+🚀 Starting Companion Server...
+INFO:ag-companion:Starting server...
+WARNING:ag-companion:⚠️  Database not found at /data/state/state.vscdb. Using MOCK data.
+INFO:     Started server process [29]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     172.17.0.1:49936 - "HEAD / HTTP/1.1" 200 OK
+=== CURL TEST 8002 ===
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0  4300    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+date: Fri, 16 Jan 2026 23:33:43 GMT
+server: uvicorn
+content-type: text/html; charset=utf-8
+accept-ranges: bytes
+content-length: 4300
+last-modified: Fri, 16 Jan 2026 11:30:10 GMT
+etag: "0f8336bd17e06c1639172eec6185a99b"
+
+=== TAILSCALE SERVE STATUS ===
+https://dell-precision.tailf86f63.ts.net (tailnet only)
+|-- / proxy http://localhost:9000
+
+=== TAILSCALE IP ===
+100.104.238.110

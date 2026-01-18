@@ -106,6 +106,38 @@ class ConductorAgent:
             
         return {"issues": issues, "prs": prs}
 
+    def execute_command(self, command: str) -> str:
+        """Execute a command and return the result."""
+        command_lower = command.lower().strip()
+        
+        # Sync GitHub
+        if "sync" in command_lower and "github" in command_lower:
+            gh_items = self.get_github_items()
+            return f"✅ Synced with GitHub:\n- {len(gh_items['issues'])} open issues\n- {len(gh_items['prs'])} open PRs"
+        
+        # List tasks
+        elif "list" in command_lower and "task" in command_lower:
+            tasks = self.get_tasks()
+            in_progress = [t for t in tasks if t['status'] == 'In Progress']
+            pending = [t for t in tasks if t['status'] == 'Pending']
+            return f"📋 Task Summary:\n- {len(in_progress)} in progress\n- {len(pending)} pending\n- {len(tasks)} total"
+        
+        # Show active track
+        elif "track" in command_lower or "status" in command_lower:
+            track = self.get_active_track()
+            return f"🎯 Active Track: {track['name']}\nStatus: {track['status']}"
+        
+        # Help
+        elif "help" in command_lower:
+            return """Available Commands:
+• **sync github** - Refresh GitHub issues and PRs
+• **list tasks** - Show task summary
+• **track status** - Show active track
+• **help** - Show this help message"""
+        
+        else:
+            return f"⚠️ Command not recognized: '{command}'\nType 'help' for available commands."
+
 if __name__ == "__main__":
     agent = ConductorAgent()
     print("Active Track:", agent.get_active_track())

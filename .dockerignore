@@ -1,0 +1,9 @@
+legacy/
+Ratesheet-samples/
+unified-platform/backend/staticfiles/
+unified-platform/frontend/.next/
+unified-platform/frontend/node_modules/
+.git/
+*.db
+*.sqlite
+*.vscdb
