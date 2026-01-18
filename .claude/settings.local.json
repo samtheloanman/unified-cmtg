@@ -3,17 +3,8 @@
     "allow": [
       "Bash(wc:*)",
       "Bash(docker compose:*)",
-      "Bash(curl:*)",
-      "Bash(docker ps:*)",
-      "Bash(docker exec:*)",
-      "Bash(docker restart:*)",
-      "Bash(docker logs:*)",
-      "Bash(python3:*)",
-      "Bash(ls:*)",
-      "Bash(tee:*)",
-      "Bash(gh issue view:*)",
-      "Bash(gh issue comment:*)",
-      "Bash(gh issue close:*)"
+      "Bash(lsof:*)",
+      "mcp__plugin_github_github__list_issues"
     ]
   }
 }

@@ -5,3 +5,4 @@ from .blog import BlogIndexPage, BlogPage
 from .offices import Office
 from .cities import City
 from .local_pages import LocalProgramPage
+from .locations import LocationIndexPage, LocationPage

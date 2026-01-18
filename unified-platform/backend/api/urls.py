@@ -5,6 +5,11 @@ urlpatterns = [
     # Health check
     path('health/', views.health_check, name='health_check'),
 
+    # Locations
+    path('locations/', views.location_list, name='location_list'),
+    path('locations/nearest/', views.location_nearest, name='location_nearest'),
+    path('locations/<slug:slug>/', views.location_detail, name='location_detail'),
+
     # Pricing & quotes
     path('quote/', views.QuoteView.as_view(), name='quote'),
 

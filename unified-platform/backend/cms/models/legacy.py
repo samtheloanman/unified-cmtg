@@ -31,7 +31,7 @@ class HomePage(Page):
         APIField('hero_cta_url'),
     ]
 
-    subpage_types = ['cms.ProgramIndexPage', 'cms.StandardPage', 'cms.FundedLoanIndexPage', 'cms.LegacyIndexPage']
+    subpage_types = ['cms.ProgramIndexPage', 'cms.StandardPage', 'cms.FundedLoanIndexPage', 'cms.LegacyIndexPage', 'cms.LocationIndexPage']
     max_count = 1
 
 

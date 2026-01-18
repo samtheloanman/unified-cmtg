@@ -1,6 +1,7 @@
 """API views for the Unified CMTG Platform."""
 
 import logging
+from math import radians, sin, cos, sqrt, asin
 
 from rest_framework import status
 from rest_framework.decorators import api_view, permission_classes
@@ -10,13 +11,201 @@ from rest_framework.views import APIView
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 from django.conf import settings
+from django.db.models import Q
 
 from pricing.services.matching import LoanMatchingService
 from applications.models import Application
+from cms.models import LocationPage
 from .serializers import LeadSubmitSerializer, ApplicationSerializer
 from .integrations.floify import FloifyClient, FloifyAPIError
 
 logger = logging.getLogger(__name__)
+
+
+# ============================================================================
+# Location API Endpoints
+# ============================================================================
+
+@api_view(['GET'])
+@permission_classes([AllowAny])
+def location_list(request):
+    """
+    GET /api/v1/locations/
+    
+    List all locations with optional search filtering.
+    Query params:
+        - q: Search query (city or state)
+        - state: Filter by state code (e.g., CA)
+        - limit: Max results (default 50)
+    """
+    queryset = LocationPage.objects.live().order_by('city', 'state')
+    
+    # Search query
+    q = request.query_params.get('q', '').strip()
+    if q:
+        queryset = queryset.filter(
+            Q(city__icontains=q) | 
+            Q(state__icontains=q) |
+            Q(title__icontains=q)
+        )
+    
+    # State filter
+    state = request.query_params.get('state', '').strip().upper()
+    if state:
+        queryset = queryset.filter(state=state)
+    
+    # Limit
+    limit = min(int(request.query_params.get('limit', 50)), 200)
+    queryset = queryset[:limit]
+    
+    locations = []
+    for loc in queryset:
+        locations.append({
+            'id': loc.id,
+            'title': loc.title,
+            'slug': loc.slug,
+            'city': loc.city,
+            'state': loc.state,
+            'address': loc.address,
+            'zipcode': loc.zipcode,
+            'phone': loc.phone,
+            'url': loc.url,
+            'latitude': float(loc.latitude) if loc.latitude else None,
+            'longitude': float(loc.longitude) if loc.longitude else None,
+        })
+    
+    return Response({
+        'count': len(locations),
+        'locations': locations
+    })
+
+
+@api_view(['GET'])
+@permission_classes([AllowAny])
+def location_detail(request, slug):
+    """
+    GET /api/v1/locations/<slug>/
+    
+    Get a single location by slug.
+    """
+    try:
+        loc = LocationPage.objects.live().get(slug=slug)
+        
+        return Response({
+            'id': loc.id,
+            'title': loc.title,
+            'slug': loc.slug,
+            'city': loc.city,
+            'state': loc.state,
+            'address': loc.address,
+            'second_address': loc.second_address,
+            'zipcode': loc.zipcode,
+            'country': loc.country,
+            'phone': loc.phone,
+            'url': loc.url,
+            'full_url': loc.full_url,
+            'latitude': float(loc.latitude) if loc.latitude else None,
+            'longitude': float(loc.longitude) if loc.longitude else None,
+            'google_maps_url': loc.google_maps_url,
+            'schema_org': loc.get_schema_org(),
+        })
+    except LocationPage.DoesNotExist:
+        return Response(
+            {'error': 'Location not found'},
+            status=status.HTTP_404_NOT_FOUND
+        )
+
+
+def haversine_distance(lat1, lon1, lat2, lon2):
+    """Calculate distance between two GPS points in miles."""
+    EARTH_RADIUS_MILES = 3959
+    
+    lat1, lon1, lat2, lon2 = map(radians, [lat1, lon1, lat2, lon2])
+    dlat = lat2 - lat1
+    dlon = lon2 - lon1
+    
+    a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
+    c = 2 * asin(sqrt(a))
+    
+    return EARTH_RADIUS_MILES * c
+
+
+@api_view(['GET'])
+@permission_classes([AllowAny])
+def location_nearest(request):
+    """
+    GET /api/v1/locations/nearest/?lat=<lat>&lng=<lng>
+    
+    Find nearest locations to given coordinates.
+    Query params:
+        - lat: Latitude (required)
+        - lng: Longitude (required)
+        - limit: Max results (default 5)
+        - max_distance: Max distance in miles (optional)
+    """
+    lat = request.query_params.get('lat')
+    lng = request.query_params.get('lng')
+    
+    if not lat or not lng:
+        return Response(
+            {'error': 'lat and lng query parameters are required'},
+            status=status.HTTP_400_BAD_REQUEST
+        )
+    
+    try:
+        user_lat = float(lat)
+        user_lng = float(lng)
+    except ValueError:
+        return Response(
+            {'error': 'Invalid lat/lng values'},
+            status=status.HTTP_400_BAD_REQUEST
+        )
+    
+    limit = min(int(request.query_params.get('limit', 5)), 20)
+    max_distance = request.query_params.get('max_distance')
+    
+    # Get all locations with coordinates
+    locations = LocationPage.objects.live().exclude(
+        latitude__isnull=True
+    ).exclude(longitude__isnull=True)
+    
+    # Calculate distances
+    results = []
+    for loc in locations:
+        distance = haversine_distance(
+            user_lat, user_lng,
+            float(loc.latitude), float(loc.longitude)
+        )
+        
+        if max_distance and distance > float(max_distance):
+            continue
+        
+        results.append({
+            'id': loc.id,
+            'title': loc.title,
+            'slug': loc.slug,
+            'city': loc.city,
+            'state': loc.state,
+            'address': loc.address,
+            'phone': loc.phone,
+            'url': loc.url,
+            'distance_miles': round(distance, 1),
+        })
+    
+    # Sort by distance and limit
+    results.sort(key=lambda x: x['distance_miles'])
+    results = results[:limit]
+    
+    return Response({
+        'user_location': {'lat': user_lat, 'lng': user_lng},
+        'count': len(results),
+        'locations': results
+    })
+
+
+# ============================================================================
+# Health Check
+# ============================================================================
 
 @api_view(['GET'])
 def health_check(request):
