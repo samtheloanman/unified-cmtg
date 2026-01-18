@@ -34,15 +34,15 @@
 
 ---
 
-## Phase 2: Core Pricing Engine (Week 2)
+## Phase 2: Core Pricing Engine (Week 2) (Jules - Assigned)
 
-- [ ] **Port Models**: `Lender`, `LoanProgram`, `BaseLoan` from cmtgdirect
+- [ ] **Port Models**: `Lender`, `LoanProgram`, `BaseLoan` from cmtgdirect (Jules - Assigned)
   - Test: `python manage.py makemigrations pricing` creates migration
-- [ ] **Port Logic**: `QualifyView` matching to `pricing/services.py`
+- [ ] **Port Logic**: `QualifyView` matching to `pricing/services.py` (Jules - Assigned)
   - Test: Unit test `test_loan_matching.py` passes
-- [ ] **Rate Adjustment**: FICO × LTV grids
+- [ ] **Rate Adjustment**: FICO × LTV grids (Jules - Assigned)
   - Test: `pytest pricing/tests/test_rate_adjustment.py` passes
-- [ ] **Pricing API**: `/api/v1/quote` endpoint
+- [ ] **Pricing API**: `/api/v1/quote` endpoint (Jules - Assigned)
   - Test: `curl -X POST http://localhost:8001/api/v1/quote/ -d '{...}'` returns rates
 
 ---
@@ -65,35 +65,35 @@
   - Test: `python manage.py verify_content` passed (100% parity for Blogs/Loans) ✅
 
 ### ⏳ In Progress
-- [ ] **Firecrawl Integration**: Refined content extraction source
+- [x] **Firecrawl Integration**: Refined content extraction source (Antigravity - Done ✅)
 
 ---
 
 ## Phase 3a: Programmatic SEO (Phase F.5A - F.5E)
 
 ### ⏳ F.5A: Core Infrastructure (Jules - Current)
-- [ ] **City Model**: `models/cities.py` with priority/launched_at
+- [ ] **City Model**: `models/cities.py` with priority/launched_at (Claude - Assigned)
   - Test: Model exists with correct fields ✅
-- [ ] **SEOContentCache**: `models/seo.py` with expanded schema fields
+- [ ] **SEOContentCache**: `models/seo.py` with expanded schema fields (Claude - Assigned)
   - Test: Model handles content_hash and schema_json ✅
-- [ ] **ProximityService**: Caching + Haversine
+- [ ] **ProximityService**: Caching + Haversine (Claude - Assigned)
   - Test: `find_nearest_office` returns correct office ✅
-- [ ] **SchemaGenerator**: Extended JSON-LD support
+- [ ] **SchemaGenerator**: Extended JSON-LD support (Claude - Assigned)
   - Test: Generates HowTo/Speakable/FinancialProduct ✅
-- [ ] **SEOResolver**: Defensive slug parsing
+- [ ] **SEOResolver**: Defensive slug parsing (Claude - Assigned)
   - Test: Resolves `/dscr-loan-los-angeles-ca/` correctly ✅
 
 ### ⏳ F.5B: Pilot Data (Jules - Next)
-- [ ] **Import Pilot Cities**: Top 5 only
-- [ ] **Office Mapping**: Verify Physical Offices
+- [ ] **Import Pilot Cities**: Top 5 only (Claude - Assigned)
+- [ ] **Office Mapping**: Verify Physical Offices (Claude - Assigned)
 
 ### ⏳ F.5C: Content (Gemini)
-- [ ] **Generate Power 5**: Create 25 perfect pages
-- [ ] **Verify Content**: Manual QA
+- [ ] **Generate Power 5**: Create 25 perfect pages (Claude - Assigned)
+- [ ] **Verify Content**: Manual QA (Claude - Assigned)
 
 ### ⏳ F.5D: Logic & Launch (Antigravity)
-- [ ] **Dynamic Router**: API Endpoint
-- [ ] **Launch**: Active Pilot
+- [ ] **Dynamic Router**: API Endpoint (Claude - Assigned)
+- [ ] **Launch**: Active Pilot (Claude - Assigned)
 
 ---
 
