@@ -12,6 +12,7 @@ urlpatterns = [
 
     # Pricing & quotes
     path('quote/', views.QuoteView.as_view(), name='quote'),
+    path('qualify/', views.QualifyView.as_view(), name='qualify'),
 
     # Lead submission (Floify integration)
     path('leads/', views.LeadSubmitView.as_view(), name='lead_submit'),

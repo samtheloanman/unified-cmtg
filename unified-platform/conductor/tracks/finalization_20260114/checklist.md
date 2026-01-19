@@ -187,7 +187,7 @@
 
 ### E2E Testing (Antigravity)
 - [ ] Test: Quote Wizard flow
-- [ ] Test: Apply flow (Floify)
+- [x] Test: Apply flow (Floify) <!-- id: e2e-apply -->
 - [ ] Test: Program page load
 - [ ] Test: Local page load
 - [ ] Test: Blog pages

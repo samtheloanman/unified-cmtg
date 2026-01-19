@@ -1,55 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Antigravity Companion</title>
-    <!-- Tailwind CSS (CDN for simplicity in prototype) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { 
-            background-color: #0f172a; 
+        body {
+            background-color: #0f172a;
             color: #e2e8f0;
             -webkit-font-smoothing: antialiased;
         }
+
         .card {
             background-color: #1e293b;
             border: 1px solid #334155;
         }
+
         .btn-primary {
             background-color: #3b82f6;
         }
+
         .btn-primary:active {
             background-color: #2563eb;
         }
+
+        .tab-active {
+            border-bottom: 2px solid #3b82f6;
+            color: #3b82f6;
+        }
+
+        .agent-badge {
+            font-size: 10px;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .agent-antigravity {
+            background: #6366f1;
+        }
+
+        .agent-claude {
+            background: #f97316;
+        }
+
+        .agent-gemini {
+            background: #10b981;
+        }
     </style>
 </head>
+
 <body class="p-4 safe-area-inset">
-    
+
     <!-- Header -->
-    <div class="flex justify-between items-center mb-6">
+    <div class="flex justify-between items-center mb-4">
         <h1 class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-            Antigravity
+            Antigravity Companion
         </h1>
         <div id="connection-status" class="w-2 h-2 rounded-full bg-red-500"></div>
     </div>
 
-    <!-- Inbox Container -->
-    <div id="inbox-container" class="space-y-4">
-        <!-- Loading State -->
+    <!-- Tabs -->
+    <div class="flex gap-4 mb-4 border-b border-gray-700 pb-2">
+        <button id="tab-tasks" onclick="switchTab('tasks')" class="text-sm font-medium pb-1 tab-active">
+            📋 Tasks
+        </button>
+        <button id="tab-inbox" onclick="switchTab('inbox')" class="text-sm font-medium pb-1 text-gray-400">
+            📥 Inbox
+        </button>
+    </div>
+
+    <!-- Tasks Container -->
+    <div id="tasks-container" class="space-y-3">
         <div class="text-center text-gray-500 py-10 animate-pulse">
-            Loading inbox...
+            Loading conversations...
         </div>
     </div>
 
-    <!-- Instructions / Empty State -->
+    <!-- Inbox Container (Hidden by default) -->
+    <div id="inbox-container" class="hidden space-y-3">
+        <div class="text-center text-gray-500 py-10">Loading inbox...</div>
+    </div>
+
+    <!-- Empty State -->
     <div id="empty-state" class="hidden text-center py-10 text-gray-500">
         <p>🎉 All caught up!</p>
-        <p class="text-xs mt-2">No pending approvals.</p>
+        <p class="text-xs mt-2">No pending items.</p>
     </div>
 
     <script>
         const API_BASE = '/api';
+        let currentTab = 'tasks';
+
+        function switchTab(tab) {
+            currentTab = tab;
+            document.getElementById('tab-tasks').classList.toggle('tab-active', tab === 'tasks');
+            document.getElementById('tab-tasks').classList.toggle('text-gray-400', tab !== 'tasks');
+            document.getElementById('tab-inbox').classList.toggle('tab-active', tab === 'inbox');
+            document.getElementById('tab-inbox').classList.toggle('text-gray-400', tab !== 'inbox');
+            document.getElementById('tasks-container').classList.toggle('hidden', tab !== 'tasks');
+            document.getElementById('inbox-container').classList.toggle('hidden', tab !== 'inbox');
+            if (tab === 'tasks') fetchConversations();
+            else fetchInbox();
+        }
+
+        async function fetchConversations() {
+            try {
+                const res = await fetch(`${API_BASE}/conversations`);
+                const items = await res.json();
+                renderConversations(items);
+                document.getElementById('connection-status').className = 'w-2 h-2 rounded-full bg-green-500';
+            } catch (e) {
+                console.error("Failed to fetch conversations", e);
+                document.getElementById('connection-status').className = 'w-2 h-2 rounded-full bg-red-500';
+            }
+        }
 
         async function fetchInbox() {
             try {
@@ -67,7 +133,6 @@
             try {
                 const res = await fetch(`${API_BASE}/approve/${id}`, { method: 'POST' });
                 if (res.ok) {
-                    // Remove card with animation
                     const el = document.getElementById(`card-${id}`);
                     el.style.opacity = '0';
                     el.style.transform = 'translateX(100px)';
@@ -78,10 +143,21 @@
             }
         }
 
-        function renderInbox(items) {
-            const container = document.getElementById('inbox-container');
+        function formatTime(isoString) {
+            if (!isoString) return '';
+            const d = new Date(isoString);
+            const now = new Date();
+            const diff = (now - d) / 1000 / 60; // minutes
+            if (diff < 1) return 'Just now';
+            if (diff < 60) return `${Math.floor(diff)}m ago`;
+            if (diff < 1440) return `${Math.floor(diff / 60)}h ago`;
+            return d.toLocaleDateString();
+        }
+
+        function renderConversations(items) {
+            const container = document.getElementById('tasks-container');
             const emptyState = document.getElementById('empty-state');
-            
+
             if (items.length === 0) {
                 container.innerHTML = '';
                 emptyState.classList.remove('hidden');
@@ -89,6 +165,39 @@
             }
 
             emptyState.classList.add('hidden');
+            container.innerHTML = items.slice(0, 15).map(item => `
+                <div class="card rounded-xl p-4 shadow-lg">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="agent-badge agent-${item.agent}">${item.agent}</span>
+                        <span class="text-xs text-gray-400">${formatTime(item.updated_at)}</span>
+                    </div>
+                    <h3 class="font-semibold text-base mb-1 text-white">${item.title}</h3>
+                    ${item.summary ? `<p class="text-gray-400 text-xs line-clamp-2">${item.summary}</p>` : ''}
+                    <div class="flex gap-2 mt-3">
+                        <button onclick="openConversation('${item.id}')" 
+                            class="flex-1 bg-gray-700 text-white py-2 rounded-lg text-sm font-medium active:scale-95 transition-transform">
+                            View
+                        </button>
+                        ${item.has_task ? `
+                        <button onclick="sendMessage('${item.id}')" 
+                            class="flex-1 btn-primary text-white py-2 rounded-lg text-sm font-medium active:scale-95 transition-transform">
+                            💬 Chat
+                        </button>
+                        ` : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function renderInbox(items) {
+            const container = document.getElementById('inbox-container');
+            const emptyState = document.getElementById('empty-state');
+
+            if (items.length === 0) {
+                container.innerHTML = '<div class="text-center py-10 text-gray-500">No pending approvals</div>';
+                return;
+            }
+
             container.innerHTML = items.map(item => `
                 <div id="card-${item.id}" class="card rounded-xl p-4 shadow-lg transition-all duration-300">
                     <div class="flex justify-between items-start mb-2">
@@ -106,9 +215,27 @@
             `).join('');
         }
 
-        // Poll every 2 seconds
-        setInterval(fetchInbox, 2000);
-        fetchInbox();
+        function openConversation(id) {
+            // Placeholder - would open conversation detail
+            alert(`Viewing conversation: ${id}\n\nFull chat history coming soon!`);
+        }
+
+        function sendMessage(id) {
+            const msg = prompt("Send a message to this task:");
+            if (msg) {
+                alert(`Message sent to ${id}: "${msg}"\n\n(Write-back not yet implemented)`);
+            }
+        }
+
+        // Initial load
+        fetchConversations();
+
+        // Poll every 5 seconds
+        setInterval(() => {
+            if (currentTab === 'tasks') fetchConversations();
+            else fetchInbox();
+        }, 5000);
     </script>
 </body>
+
 </html>

@@ -567,6 +567,23 @@
         <div class="header-meta">
             <div>samtheloanman/unified-cmtg</div>
             <div id="last-updated" class="last-updated">Connecting...</div>
+            <div style="margin-top: 0.5rem;">
+                <button id="refresh-btn" onclick="fetchDashboardData()" style="
+                    background: var(--cm-cyan);
+                    color: white;
+                    border: none;
+                    padding: 0.3rem 0.8rem;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    font-size: 0.8rem;
+                    display: flex;
+                    align-items: center;
+                    gap: 0.3rem;
+                    margin-left: auto;
+                ">
+                    🔄 Refresh Data
+                </button>
+            </div>
         </div>
     </header>
 
@@ -744,7 +761,18 @@
         const DATA_URL = '/api/data';
 
         async function fetchDashboardData() {
+            const btn = document.getElementById('refresh-btn');
+            const lastUpdated = document.getElementById('last-updated');
+
             try {
+                // Set loading state
+                if (btn) {
+                    btn.disabled = true;
+                    btn.innerHTML = '⏳ Updating...';
+                    btn.style.opacity = '0.7';
+                }
+                if (lastUpdated) lastUpdated.textContent = 'Updating...';
+
                 // Add timestamp to prevent caching
                 const response = await fetch(`${DATA_URL}?t=${new Date().getTime()}`);
                 if (!response.ok) throw new Error('Network response was not ok');
@@ -752,8 +780,17 @@
                 renderDashboard(data);
             } catch (error) {
                 console.error('Error fetching dashboard data:', error);
-                document.getElementById('last-updated').textContent = 'Error connecting to data';
-                document.getElementById('last-updated').style.color = 'var(--cm-danger)';
+                if (lastUpdated) {
+                    lastUpdated.textContent = 'Error connecting to data';
+                    lastUpdated.style.color = 'var(--cm-danger)';
+                }
+            } finally {
+                // Reset button state
+                if (btn) {
+                    btn.disabled = false;
+                    btn.innerHTML = '🔄 Refresh Data';
+                    btn.style.opacity = '1';
+                }
             }
         }
 

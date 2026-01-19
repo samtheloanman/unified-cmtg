@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    {
+      "id": "1b7f6789",
+      "task": "Phase 2: Core Pricing Engine (Week 2) (Jules - Assigned)\tJules\tPending\t**Port Models**: `Lender`, `LoanProgram`, `BaseLoan` from cmtgdirect (Jules - Assigned)",
+      "repo": "samtheloanman/unified-cmtg",
+      "status": "pending",
+      "created_at": "2026-01-17T21:16:14.263258"
+    },
+    {
+      "id": "7363efbc",
+      "task": "Phase 2: Core Pricing Engine (Week 2) (Jules - Assigned)",
+      "repo": "samtheloanman/unified-cmtg",
+      "status": "pending",
+      "reason": "Repository samtheloanman/unified-cmtg not found in Jules sources. Install Jules GitHub app first.",
+      "created_at": "2026-01-17T21:37:38.899270"
+    },
+    {
+      "id": "c17aaae6",
+      "task": "Test task: say hello",
+      "repo": "samtheloanman/unified-cmtg",
+      "status": "pending",
+      "reason": "API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Invalid JSON payload received. Unknown name \\\"branch\\\" at 'session.source_context': Cannot find field.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\"",
+      "created_at": "2026-01-17T21:40:14.751191"
+    },
+    {
+      "id": "08ce6853",
+      "task": "Test task: say hello",
+      "repo": "samtheloanman/unified-cmtg",
+      "status": "pending",
+      "reason": "API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Invalid JSON payload received. Unknown name \\\"githubRepoContext\\\" at 'session': Cannot find field.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n",
+      "created_at": "2026-01-17T21:41:29.902288"
+    }
+  ]
+}

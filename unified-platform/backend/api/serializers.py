@@ -6,6 +6,7 @@ Serializers for REST API endpoints.
 
 from rest_framework import serializers
 from applications.models import Application
+from loans.models import LoanProgram, Lender
 
 
 class LeadSubmitSerializer(serializers.Serializer):
@@ -114,3 +115,58 @@ class ApplicationListSerializer(serializers.ModelSerializer):
             'status_display',
             'created_at',
         ]
+
+
+class LenderSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Lender
+        fields = ['id', 'company_name', 'include_states', 'company_website']
+
+
+class LoanProgramSerializer(serializers.ModelSerializer):
+    lender = LenderSerializer(read_only=True)
+    lender_id = serializers.PrimaryKeyRelatedField(
+        queryset=Lender.objects.all(), source='lender', write_only=True
+    )
+    class Meta:
+        model = LoanProgram
+        fields = '__all__'
+
+
+class LoanProgramListSerializer(serializers.ModelSerializer):
+    lender_name = serializers.CharField(source='lender.company_name', read_only=True)
+    class Meta:
+        model = LoanProgram
+        fields = ['id', 'name', 'lender_name', 'loan_type', 'min_loan_amount', 'min_credit', 'potential_rate_min']
+
+
+class QualificationRequestSerializer(serializers.Serializer):
+    loan_amount = serializers.IntegerField(min_value=10000)
+    property_value = serializers.IntegerField(min_value=10000)
+    loan_purpose = serializers.CharField()
+    property_type = serializers.CharField()
+    property_state = serializers.CharField(max_length=2)
+    occupancy = serializers.CharField()
+    credit_score = serializers.IntegerField(min_value=300, max_value=850)
+    
+    def validate(self, data):
+        loan_amount = data.get('loan_amount', 0)
+        property_value = data.get('property_value', 1)
+        ltv = (loan_amount / property_value) * 100
+        data['calculated_ltv'] = round(ltv, 2)
+        return data
+
+
+class QualificationResultSerializer(serializers.Serializer):
+    class MatchedProgramSerializer(serializers.Serializer):
+        program_id = serializers.IntegerField()
+        program_name = serializers.CharField()
+        lender_name = serializers.CharField()
+        estimated_rate_range = serializers.CharField()
+        match_score = serializers.IntegerField()
+        notes = serializers.ListField(child=serializers.CharField(), required=False)
+    
+    matched_programs = MatchedProgramSerializer(many=True)
+    total_matches = serializers.IntegerField()
+    calculated_ltv = serializers.FloatField()
+
