@@ -63,7 +63,8 @@ with st.sidebar:
     st.button("🚀 Start Track (Coming Soon)", disabled=True)
     
     st.markdown("---")
-    st.caption(f"Data source: {agent.conductor_dir}")
+    st.markdown("---")
+    st.caption(f"Data source: `{agent.checklist_file}`")
 
 # Main Content
 st.title("Mission Control Center")
@@ -131,7 +132,7 @@ if tasks:
             ),
             "status": st.column_config.SelectboxColumn(
                 "Status",
-                options=["Pending", "In Progress"],
+                options=["Pending", "In Progress", "Done"],
                 required=True,
             ),
             "task": st.column_config.TextColumn("Task Description", disabled=True),
@@ -149,11 +150,23 @@ if tasks:
             for idx, row in edited_df.iterrows():
                 orig_assignment = filtered_df.loc[idx, 'assigned_to'] if idx in filtered_df.index else None
                 new_assignment = row['assigned_to']
+                
+                orig_status = filtered_df.loc[idx, 'status'] if idx in filtered_df.index else None
+                new_status = row['status']
+                
+                update = {'task': row['task']}
+                has_change = False
+                
                 if orig_assignment != new_assignment:
-                    updates.append({
-                        'task': row['task'],
-                        'assigned_to': new_assignment
-                    })
+                    update['assigned_to'] = new_assignment
+                    has_change = True
+                    
+                if orig_status != new_status:
+                    update['status'] = new_status
+                    has_change = True
+                
+                if has_change:
+                    updates.append(update)
             
             if updates:
                 count = agent.bulk_update_assignments(updates)
@@ -163,7 +176,7 @@ if tasks:
                 st.info("No changes to save.")
     
     with col_info:
-        st.caption("Changes are saved directly to `tasks.md`")
+        st.caption("Changes are saved directly to `checklist.md`")
 else:
     st.success("No pending tasks found! All caught up.")
 

@@ -17,6 +17,8 @@ class ConductorAgent:
     def __init__(self):
         self.github_token = self._get_github_token()
         if self.github_token:
+            print(f"DEBUG: Token loaded. Length: {len(self.github_token)}")
+            print(f"DEBUG: Token start: {self.github_token[:4]}... end: ...{self.github_token[-4:]}")
             try:
                 self.g = Github(self.github_token)
                 self.repo = self.g.get_repo(REPO_NAME)
@@ -29,13 +31,24 @@ class ConductorAgent:
             self.repo = None
         
         # Priority to the platform conductor data which is more complete
-        if (PLATFORM_CONDUCTOR / "tasks.md").exists():
+        if (PLATFORM_CONDUCTOR / "tracks.md").exists():
             self.conductor_dir = PLATFORM_CONDUCTOR
         else:
             self.conductor_dir = ROOT_CONDUCTOR
             
         self.tracks_file = self.conductor_dir / "tracks.md"
-        self.tasks_file = self.conductor_dir / "tasks.md"
+        
+        # Determine Active Track and Checklist File
+        self.active_track_id = self._get_active_track_id()
+        if self.active_track_id:
+            self.checklist_file = self.conductor_dir / "tracks" / self.active_track_id / "checklist.md"
+            # Fallback if specific checklist doesn't exist
+            if not self.checklist_file.exists():
+                print(f"Warning: Checklist not found at {self.checklist_file}, falling back to tasks.md")
+                self.checklist_file = self.conductor_dir / "tasks.md"
+        else:
+            self.checklist_file = self.conductor_dir / "tasks.md"
+            
         self.assignments_file = self.conductor_dir / "agent_assignments.md"
         self.current_file = self.conductor_dir / "current.md"
         
@@ -43,6 +56,17 @@ class ConductorAgent:
         self.repo_root = self.conductor_dir.parent.parent if self.conductor_dir.name == "conductor" else self.conductor_dir.parent
         self.sync_report_file = self.repo_root / "SYNC_REPORTS" / "sync-latest.md"
         self.sync_log_file = self.repo_root / ".ralph-loop-state" / "sync-schedule.log"
+
+    def _get_active_track_id(self) -> Optional[str]:
+        """Parse tracks.md to find the active track ID."""
+        if not self.tracks_file.exists():
+            return None
+        
+        content = self.tracks_file.read_text()
+        match = re.search(r"\*\*Track ID\*\*: `(.*?)`", content)
+        if match:
+            return match.group(1).strip()
+        return None
 
     def _get_github_token(self) -> Optional[str]:
         """Get GitHub token from env or gh CLI."""
@@ -83,12 +107,12 @@ class ConductorAgent:
         return {"name": track_name, "status": status, "next_task": next_task}
 
     def get_tasks(self) -> List[Dict[str, str]]:
-        """Parse tasks.md for uncompleted tasks."""
-        if not self.tasks_file.exists():
+        """Parse checklist.md (or tasks.md) for tasks."""
+        if not self.checklist_file.exists():
             return []
 
         tasks = []
-        content = self.tasks_file.read_text()
+        content = self.checklist_file.read_text()
         lines = content.splitlines()
         
         current_phase = "Unknown"
@@ -113,7 +137,12 @@ class ConductorAgent:
                 state_char = match.group(1)
                 text = match.group(2).strip()
                 
-                status = "In Progress" if state_char == "/" else "Pending"
+                if state_char == "x":
+                    status = "Done"
+                elif state_char == "/":
+                    status = "In Progress"
+                else:
+                    status = "Pending"
                 
                 # Check for GitHub issue reference
                 issue_match = re.search(r"#(\d+)", text)
@@ -136,12 +165,36 @@ class ConductorAgent:
         
         return tasks
 
+    def update_task_status(self, task_text: str, new_status: str) -> bool:
+        """Update the status of a specific task in checklist.md."""
+        if not self.checklist_file.exists():
+            return False
+            
+        content = self.checklist_file.read_text()
+        lines = content.splitlines()
+        
+        status_char = " "
+        if new_status == "In Progress":
+            status_char = "/"
+        elif new_status == "Done" or new_status == "Complete":
+            status_char = "x"
+        
+        for i, line in enumerate(lines):
+            # Match strict task text to avoid partial matches
+            if task_text in line and re.match(r"^\s*-\s*\[[ /x]\]", line):
+                # Replace the status char
+                updated_line = re.sub(r"^(\s*-\s*\[)[ /x](\])", f"\\1{status_char}\\2", line)
+                lines[i] = updated_line
+                self.checklist_file.write_text("\n".join(lines))
+                return True
+        return False
+
     def update_task_assignment(self, task_text: str, new_agent: str) -> bool:
-        """Update the assignment for a specific task in tasks.md."""
-        if not self.tasks_file.exists():
+        """Update the assignment for a specific task in checklist.md."""
+        if not self.checklist_file.exists():
             return False
         
-        content = self.tasks_file.read_text()
+        content = self.checklist_file.read_text()
         lines = content.splitlines()
         
         # Find the task line and add/update inline assignment
@@ -156,23 +209,36 @@ class ConductorAgent:
                 lines[i] = updated_line
                 
                 # Write back
-                self.tasks_file.write_text("\n".join(lines))
+                self.checklist_file.write_text("\n".join(lines))
                 return True
         
         return False
 
     def bulk_update_assignments(self, updates: List[Dict]) -> int:
-        """Update multiple task assignments at once.
+        """Update multiple task assignments and statuses at once.
         
         Args:
-            updates: List of dicts with 'task' and 'assigned_to' keys
+            updates: List of dicts with 'task', 'assigned_to', and optionally 'status'
         
         Returns:
             Number of successfully updated tasks
         """
         count = 0
         for update in updates:
-            if self.update_task_assignment(update.get('task', ''), update.get('assigned_to', '')):
+            success = False
+            task = update.get('task', '')
+            
+            # Update assignment if provided
+            if 'assigned_to' in update:
+                if self.update_task_assignment(task, update.get('assigned_to', '')):
+                    success = True
+            
+            # Update status if provided
+            if 'status' in update:
+                if self.update_task_status(task, update.get('status')):
+                    success = True
+            
+            if success:
                 count += 1
         return count
 
@@ -259,6 +325,7 @@ class ConductorAgent:
             if not self.repo:
                 return {"issues": [], "prs": []}
                 
+            print(f"Fetching GitHub items for {self.repo.full_name}...")
             for issue in self.repo.get_issues(state='open'):
                 item = {
                     "number": issue.number,

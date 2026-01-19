@@ -619,24 +619,15 @@ class QualifyView(APIView):
         }
         return Response(QualificationResultSerializer(result).data)
     
-    def _calculate_match_score(self, program, data):
-        score = 50
-        credit_buffer = data['credit_score'] - program.min_credit
-        if credit_buffer >= 100: score += 20
-        elif credit_buffer >= 50: score += 10
-        
-        ltv_buffer = program.max_loan_to_value - Decimal(str(data['calculated_ltv']))
-        if ltv_buffer >= 20: score += 15
-        elif ltv_buffer >= 10: score += 10
-        
         if program.potential_rate_min < 7.0: score += 15
         elif program.potential_rate_min < 8.0: score += 10
         
         return min(score, 100)
     
     def _get_program_notes(self, program, data):
-        notes = []
-        if program.io_offered: notes.append("Interest-only payment option available")
-        if program.ysp_available: notes.append("Lender-paid compensation available")
-        if data['calculated_ltv'] > 80: notes.append("May require mortgage insurance")
-        return notes
+        from loans.services.matching import MatchingService
+        return MatchingService.get_program_notes(program, data)
+        
+    def _calculate_match_score(self, program, data):
+        from loans.services.matching import MatchingService
+        return MatchingService.calculate_match_score(program, data)
