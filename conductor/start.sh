@@ -16,4 +16,4 @@ fi
 # 2. Run Dashboard
 echo "🚀 Launching Conductor Dashboard..."
 source "$VENV_DIR/bin/activate"
-streamlit run "$CONDUCTOR_DIR/dashboard/app.py"
+streamlit run "$CONDUCTOR_DIR/dashboard/app.py" --server.port 8503 --server.fileWatcherType none

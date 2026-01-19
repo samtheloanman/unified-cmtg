@@ -16,8 +16,17 @@ PLATFORM_CONDUCTOR = ROOT_CONDUCTOR.parent / "unified-platform" / "conductor"
 class ConductorAgent:
     def __init__(self):
         self.github_token = self._get_github_token()
-        self.g = Github(self.github_token)
-        self.repo = self.g.get_repo(REPO_NAME)
+        if self.github_token:
+            try:
+                self.g = Github(self.github_token)
+                self.repo = self.g.get_repo(REPO_NAME)
+            except Exception as e:
+                print(f"Warning: Could not connect to GitHub: {e}")
+                self.g = None
+                self.repo = None
+        else:
+            self.g = None
+            self.repo = None
         
         # Priority to the platform conductor data which is more complete
         if (PLATFORM_CONDUCTOR / "tasks.md").exists():
@@ -35,8 +44,14 @@ class ConductorAgent:
         self.sync_report_file = self.repo_root / "SYNC_REPORTS" / "sync-latest.md"
         self.sync_log_file = self.repo_root / ".ralph-loop-state" / "sync-schedule.log"
 
-    def _get_github_token(self) -> str:
-        """Get GitHub token from gh CLI."""
+    def _get_github_token(self) -> Optional[str]:
+        """Get GitHub token from env or gh CLI."""
+        # 1. Try environment variable
+        env_token = os.getenv("GITHUB_TOKEN")
+        if env_token:
+            return env_token
+
+        # 2. Try gh CLI
         try:
             result = subprocess.run(
                 ["gh", "auth", "token"], 
@@ -46,8 +61,8 @@ class ConductorAgent:
             )
             return result.stdout.strip()
         except subprocess.CalledProcessError:
-            print("Error: Could not get GitHub token. Please run 'gh auth login'.")
-            sys.exit(1)
+            print("Warning: Could not get GitHub token via CLI.")
+            return None
 
     def get_active_track(self) -> Dict[str, str]:
         """Parse tracks.md to find the active track."""
@@ -241,6 +256,9 @@ class ConductorAgent:
         prs = []
         
         try:
+            if not self.repo:
+                return {"issues": [], "prs": []}
+                
             for issue in self.repo.get_issues(state='open'):
                 item = {
                     "number": issue.number,
