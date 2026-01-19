@@ -4,7 +4,20 @@
       "Bash(wc:*)",
       "Bash(docker compose:*)",
       "Bash(lsof:*)",
-      "mcp__plugin_github_github__list_issues"
+      "mcp__plugin_github_github__list_issues",
+      "Bash(curl:*)",
+      "Bash(docker exec:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(bash:*)",
+      "Bash(git fetch:*)",
+      "Bash(docker restart:*)",
+      "Bash(git branch:*)",
+      "Bash(column -t:*)",
+      "Bash(git merge-base:*)",
+      "mcp__plugin_github_github__get_me",
+      "mcp__plugin_github_github__list_branches"
     ]
   }
 }
