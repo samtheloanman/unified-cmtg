@@ -41,8 +41,15 @@ export interface WagtailImage {
 // =============================================================================
 
 export interface CMSProgramPage extends WagtailPage {
-  // Program Info
+  // === PROGRAM INFO TAB ===
   program_type: 'residential' | 'commercial' | 'hard_money' | 'nonqm' | 'reverse_mortgage';
+  linked_program_type: number | null;
+  available_states: string[];
+  minimum_loan_amount: string | null;
+  maximum_loan_amount: string | null;
+  min_credit_score: number | null;
+
+  // === PROGRAM DETAILS TAB (Rich Content) ===
   mortgage_program_highlights: string;
   what_are: string;
   details_about_mortgage_loan_program: string;
@@ -50,19 +57,15 @@ export interface CMSProgramPage extends WagtailPage {
   requirements: string;
   how_to_qualify_for: string;
   why_us: string;
-  faq: { type: 'faq_item', value: { question: string, answer: string } }[];
+  faq: { type: 'faq_item'; value: { question: string; answer: string } }[];
 
-  // Financial Terms
-  // Financial Terms (Extended)
+  // === FINANCIAL TERMS TAB ===
   interest_rates: string;
-  minimum_loan_amount: string | null;
-  maximum_loan_amount: string | null;
-  min_credit_score: number | null;
   max_ltv: string;
   max_debt_to_income_ratio: number | null;
   min_dscr: number | null;
 
-  // Property & Loan
+  // === PROPERTY & LOAN TAB ===
   property_types: string[];
   occupancy_types: string[];
   lien_position: string[];
@@ -72,17 +75,21 @@ export interface CMSProgramPage extends WagtailPage {
   income_documentation_type: string[];
   prepayment_penalty: string;
 
-  // Borrower Details
+  // === BORROWER DETAILS TAB ===
   borrower_types: string[];
   citizenship_requirements: string[];
   credit_events_allowed: string[];
   mortgage_lates_allowed: string[];
 
-  // Location
+  // === LOCATION TAB ===
   is_local_variation: boolean;
   target_city: string;
   target_state: string;
   target_region: string;
+
+  // === META ===
+  featured_image: WagtailImage | null;
+  schema_markup: Record<string, unknown> | null;
   source_url: string;
 }
 
