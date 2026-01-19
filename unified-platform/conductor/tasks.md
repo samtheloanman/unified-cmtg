@@ -99,13 +99,13 @@
 
 ## Phase 4: Rate Sheet Agent (Week 5)
 
-- [ ] **Ingestion Script**: Read `Ratesheet List.csv`
+- [ ] **Ingestion Script**: Read `Ratesheet List.csv` (Claude - Assigned)
   - Test: Script reads CSV without error
-- [ ] **Pipeline Class**: `IngestionPipeline` logic
+- [ ] **Pipeline Class**: `IngestionPipeline` logic (Claude - Assigned)
   - Test: Pipeline processes sample PDF
-- [ ] **PDF Extraction**: Gemini 1.5 Pro → JSON
+- [ ] **PDF Extraction**: Gemini 1.5 Pro → JSON (Claude - Assigned)
   - Test: Extracted rates match expected values
-- [ ] **Review UI**: Admin dashboard
+- [ ] **Review UI**: Admin dashboard (Claude - Assigned)
   - Test: Manual review - approve button works
 
 ---
@@ -123,32 +123,32 @@
   - Features: SSG, SEO metadata, BlogPosting schema, full branding
 
 ### ⏳ In Progress / Pending
-- [ ] **Home Page**: Connect CMS fields to Next.js Hero/Features
+- [ ] **Home Page**: Connect CMS fields to Next.js Hero/Features (Claude - Assigned)
   - Test: Home page content matches Wagtail admin
-- [ ] **Quote Wizard**: Complete multi-step form logic
+- [ ] **Quote Wizard**: Complete multi-step form logic (Claude - Assigned)
   - Test: User can complete quote flow
-- [ ] **Quote Results**: Display API results from Pricing Engine
+- [ ] **Quote Results**: Display API results from Pricing Engine (Claude - Assigned)
   - Test: Real rates appear after quote submission
-- [ ] **Local SEO Pages**: Flat URL format `/program-city-state/` (F.5)
+- [ ] **Local SEO Pages**: Flat URL format `/program-city-state/` (F.5) (Claude - Assigned)
   - Test: SSG generates 10,000+ pages
-- [ ] **Styling Policy**: Verify consistent Tailwind branding (Colors/Fonts)
+- [ ] **Styling Policy**: Verify consistent Tailwind branding (Colors/Fonts) (Claude - Assigned)
   - Test: Visual regression check
-- [ ] **Mobile Responsiveness**: Verify layouts on mobile
+- [ ] **Mobile Responsiveness**: Verify layouts on mobile (Jules - Assigned)
   - Test: Chrome DevTools device mode check
 
 ---
 
 ## Phase 6: Production Readiness & Deployment (Week 6)
 
-- [ ] **Security Audit**: Verify `DEBUG=False`, secrets management
+- [ ] **Security Audit**: Verify `DEBUG=False`, secrets management (Antigravity - Assigned)
   - Test: `manage.py check --deploy` passes
-- [ ] **Docker Optimization**: Multi-stage builds for minimal images
+- [ ] **Docker Optimization**: Multi-stage builds for minimal images (Antigravity - Assigned)
   - Test: Image size < 500MB
-- [ ] **Error Handling**: Global error boundaries (404/500)
+- [ ] **Error Handling**: Global error boundaries (404/500) (Antigravity - Assigned)
   - Test: Manually trigger errors
-- [ ] **SEO Verification**: Meta tags, Sitemap.xml, Robots.txt
+- [ ] **SEO Verification**: Meta tags, Sitemap.xml, Robots.txt (Claude - Assigned)
   - Test: Lighthouse SEO score > 90
-- [ ] **Staging Deployment**: Deploy to staging environment
+- [ ] **Staging Deployment**: Deploy to staging environment (Antigravity - Assigned)
   - Test: Full E2E smoke test on staging
 
 
