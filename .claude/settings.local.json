@@ -17,7 +17,8 @@
       "Bash(column -t:*)",
       "Bash(git merge-base:*)",
       "mcp__plugin_github_github__get_me",
-      "mcp__plugin_github_github__list_branches"
+      "mcp__plugin_github_github__list_branches",
+      "Bash(git pull:*)"
     ]
   }
 }
