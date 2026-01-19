@@ -16,7 +16,15 @@ from django.db.models import Q
 from pricing.services.matching import LoanMatchingService
 from applications.models import Application
 from cms.models import LocationPage
-from .serializers import LeadSubmitSerializer, ApplicationSerializer
+from decimal import Decimal
+from django.db import connection
+from loans.models import LoanProgram, Lender
+from .serializers import (
+    LeadSubmitSerializer, 
+    ApplicationSerializer, 
+    QualificationRequestSerializer, 
+    QualificationResultSerializer
+)
 from .integrations.floify import FloifyClient, FloifyAPIError
 
 logger = logging.getLogger(__name__)
@@ -544,3 +552,91 @@ def _handle_application_submitted(payload):
             {'error': 'Internal server error'},
             status=status.HTTP_500_INTERNAL_SERVER_ERROR
         )
+
+
+class QualifyView(APIView):
+    """
+    Pre-qualification endpoint for borrowers.
+    POST /api/v1/qualify/
+    """
+    permission_classes = [AllowAny]
+    
+    def post(self, request):
+        serializer = QualificationRequestSerializer(data=request.data)
+        if not serializer.is_valid():
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        
+        data = serializer.validated_data
+        
+        # Find matching programs
+        # Note: property_state needs to be upper case for matching.
+        # Also, using 'contains' for ChoiceArrayFields.
+        if connection.vendor == 'sqlite':
+            # SQLite fallback: Filter strictly by scalar fields first, then filter array fields in Python
+            initial_programs = LoanProgram.objects.select_related('lender').filter(
+                min_loan_amount__lte=data['loan_amount'],
+                max_loan_amount__gte=data['loan_amount'],
+                min_credit__lte=data['credit_score'],
+                max_loan_to_value__gte=data['calculated_ltv'],
+            )
+            programs = []
+            for p in initial_programs:
+                if data['property_state'].upper() not in p.lender.include_states: continue
+                if data['property_type'] not in p.property_types: continue
+                if data['loan_purpose'] not in p.purpose: continue
+                if data['occupancy'] not in p.occupancy: continue
+                programs.append(p)
+        else:
+            programs = LoanProgram.objects.select_related('lender').filter(
+                lender__include_states__contains=[data['property_state'].upper()],
+                min_loan_amount__lte=data['loan_amount'],
+                max_loan_amount__gte=data['loan_amount'],
+                min_credit__lte=data['credit_score'],
+                max_loan_to_value__gte=data['calculated_ltv'],
+                property_types__contains=[data['property_type']],
+                purpose__contains=[data['loan_purpose']],
+                occupancy__contains=[data['occupancy']],
+            )
+        
+        matched_programs = []
+        for program in programs[:10]:
+            match_score = self._calculate_match_score(program, data)
+            matched_programs.append({
+                'program_id': program.id,
+                'program_name': program.name,
+                'lender_name': program.lender.company_name,
+                'estimated_rate_range': f"{program.potential_rate_min:.2f}% - {program.potential_rate_max:.2f}%",
+                'match_score': match_score,
+                'notes': self._get_program_notes(program, data),
+            })
+        
+        matched_programs.sort(key=lambda x: x['match_score'], reverse=True)
+        
+        result = {
+            'matched_programs': matched_programs,
+            'total_matches': len(matched_programs),
+            'calculated_ltv': data['calculated_ltv'],
+        }
+        return Response(QualificationResultSerializer(result).data)
+    
+    def _calculate_match_score(self, program, data):
+        score = 50
+        credit_buffer = data['credit_score'] - program.min_credit
+        if credit_buffer >= 100: score += 20
+        elif credit_buffer >= 50: score += 10
+        
+        ltv_buffer = program.max_loan_to_value - Decimal(str(data['calculated_ltv']))
+        if ltv_buffer >= 20: score += 15
+        elif ltv_buffer >= 10: score += 10
+        
+        if program.potential_rate_min < 7.0: score += 15
+        elif program.potential_rate_min < 8.0: score += 10
+        
+        return min(score, 100)
+    
+    def _get_program_notes(self, program, data):
+        notes = []
+        if program.io_offered: notes.append("Interest-only payment option available")
+        if program.ysp_available: notes.append("Lender-paid compensation available")
+        if data['calculated_ltv'] > 80: notes.append("May require mortgage insurance")
+        return notes

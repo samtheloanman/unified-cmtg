@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'cms',
     'pricing',
     'ratesheets',
+    'loans',
     'applications.apps.ApplicationsConfig',
     'api',
 ]

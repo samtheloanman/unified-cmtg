@@ -1,0 +1,140 @@
+from localflavor.us.us_states import US_STATES, US_TERRITORIES
+
+STATE_CHOICES = US_STATES + US_TERRITORIES
+
+YES, NO = True, False
+YES_NO_CHOICES = ((YES, "Yes"), (NO, "No"))
+
+# Loan Types
+LOAN_TYPE_CONVENTIONAL = 'conventional'
+LOAN_TYPE_ALT_A = 'Alt-A'
+LOAN_TYPE_SUBPRIME = 'subprime'
+LOAN_TYPE_HARD_MONEY = 'hard money'
+LOAN_TYPE_CONSTRUCTION = 'construction'
+LOAN_TYPE_REVERSE_MTG = 'reverse mtg'
+LOAN_TYPE_LAND = 'land'
+LOAN_TYPE_FIX_AND_FLIP = 'fix and flip'
+
+LOAN_TYPE_CHOICES = (
+    (LOAN_TYPE_CONVENTIONAL, "Conventional"),
+    (LOAN_TYPE_ALT_A, "ALT A"),
+    (LOAN_TYPE_SUBPRIME, "Subprime"),
+    (LOAN_TYPE_HARD_MONEY, "Hard Money"),
+    (LOAN_TYPE_CONSTRUCTION, "Construction"),
+    (LOAN_TYPE_REVERSE_MTG, "Reverse MTG"),
+    (LOAN_TYPE_LAND, "Land"),
+    (LOAN_TYPE_FIX_AND_FLIP, "Fix and Flip"),
+)
+
+# Income Types
+INCOME_TYPE_FULL_DOC = 'full doc'
+INCOME_TYPE_STATED = 'stated'
+INCOME_TYPE_BANK_STATEMENTS = 'bank statements'
+
+INCOME_TYPE_CHOICES = (
+    (INCOME_TYPE_FULL_DOC, "Full Doc"),
+    (INCOME_TYPE_STATED, "Stated Income"),
+    (INCOME_TYPE_BANK_STATEMENTS, "Bank Statements"),
+)
+
+# Occupancy
+OCCUPANCY_OWNER_OCCUPIED = 'owner occupied'
+OCCUPANCY_SECOND_HOME = 'second home'
+OCCUPANCY_INVESTMENT = 'investment'
+
+OCCUPANCY_CHOICES = (
+    (OCCUPANCY_OWNER_OCCUPIED, "Owner Occupied"),
+    (OCCUPANCY_SECOND_HOME, "Second Home"),
+    (OCCUPANCY_INVESTMENT, "Investment")
+)
+
+# Property Types
+PROPERTY_TYPE_RESIDENTIAL = 'residential'
+PROPERTY_TYPE_COMMERCIAL = 'commercial'
+
+PROPERTY_TYPE_CHOICES = (
+    (PROPERTY_TYPE_RESIDENTIAL, "Residential"),
+    (PROPERTY_TYPE_COMMERCIAL, "Commercial"),
+)
+
+# Property Sub Categories (Simplified for brevity, add essential ones)
+PROPERTY_TYPE_SUB_CATEGORY_SINGLE_FAMILY = 'single family'
+PROPERTY_TYPE_SUB_CATEGORY_MULTI_FAMILY = 'multi family'
+
+PROPERTY_TYPE_SUB_CATEGORY_CHOICES = (
+    (PROPERTY_TYPE_SUB_CATEGORY_SINGLE_FAMILY, "Single Family"),
+    (PROPERTY_TYPE_SUB_CATEGORY_MULTI_FAMILY, "Multi Family"),
+)
+
+# Conditions
+PROPERTY_CONDITION_C1 = 'C1'
+PROPERTY_CONDITION_C2 = 'C2'
+PROPERTY_CONDITION_C3 = 'C3'
+PROPERTY_CONDITION_C4 = 'C4'
+PROPERTY_CONDITION_C5 = 'C5'
+PROPERTY_CONDITION_C6 = 'C6'
+
+PROPERTY_CONDITION_CHOICES = (
+    (PROPERTY_CONDITION_C1, "C1"),
+    (PROPERTY_CONDITION_C2, "C2"),
+    (PROPERTY_CONDITION_C3, "C3"),
+    (PROPERTY_CONDITION_C4, "C4"),
+    (PROPERTY_CONDITION_C5, "C5"),
+    (PROPERTY_CONDITION_C6, "C6"),
+)
+
+# Recourse
+RECOURSE_FULL = 'full recourse'
+RECOURSE_NON = 'non-recourse'
+
+RECOURSE_CHOICES = ((RECOURSE_FULL, "Full Recourse"), (RECOURSE_NON, "Non Recourse"))
+
+# Amortization
+AMORTIZATION_TERM_30 = '30'
+AMORTIZATION_TERM_15 = '15'
+
+AMORTIZATION_TERM_CHOICES = ((AMORTIZATION_TERM_30, "30 Year"), (AMORTIZATION_TERM_15, "15 Year"))
+
+# Entity Types
+BORROWING_ENTITY_TYPE_INDIVIDUAL = 'individual'
+BORROWING_ENTITY_TYPE_LLC = 'LLC'
+
+BORROWING_ENTITY_TYPE_CHOICES = (
+    (BORROWING_ENTITY_TYPE_INDIVIDUAL, "Individual"),
+    (BORROWING_ENTITY_TYPE_LLC, "LLC"),
+)
+
+# Employment
+EMPLOYMENT_W2 = 'W2'
+EMPLOYMENT_SELF = 'self'
+
+EMPLOYMENT_CHOICES = ((EMPLOYMENT_W2, "W2"), (EMPLOYMENT_SELF, "Self Employed"))
+
+# Purpose
+LOAN_PURPOSE_PURCHASE = 'purchase'
+LOAN_PURPOSE_REFINANCE = 'refinance'
+
+LOAN_PURPOSE_CHOICES = ((LOAN_PURPOSE_PURCHASE, "Purchase"), (LOAN_PURPOSE_REFINANCE, "Refinance"))
+
+# Refinance Seasoning
+REFINANCE_SEASONING_CHOICES = (('none', "None"), ('6 mo', "6 Months"))
+
+# Prepayment
+PPP_NONE = 'none'
+PPP_CHOICES = ((PPP_NONE, "None"), ('3 yr', "3 Years"))
+
+PPP_COST_CHOICES = (('none', "None"), ('5%', "5 Percent"))
+
+# Rate Lock
+RATE_LOCK_TERMS = ((30, "30 Days"), (45, "45 Days"))
+
+# Lender Contact
+LENDER_CONTACT_TYPE_OWN = 'own'
+LENDER_CONTACT_TYPE_CHOICES = ((LENDER_CONTACT_TYPE_OWN, "Own"),)
+
+# Mortgage Number
+MORTGAGE_NUMBER_1 = '1'
+MORTGAGE_NUMBER_2 = '2'
+MORTGAGE_NUMBER_OTHER = 'other'
+
+MORTGAGE_NUMBER_CHOICES = ((MORTGAGE_NUMBER_1, "1st"), (MORTGAGE_NUMBER_2, "2nd"), (MORTGAGE_NUMBER_OTHER, "Other"))
