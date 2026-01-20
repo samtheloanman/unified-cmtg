@@ -1,5 +1,10 @@
-from django.urls import path
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
 from . import views
+from open_los.views import LoanApplicationViewSet
+
+router = DefaultRouter()
+router.register(r'open-los/loans', LoanApplicationViewSet, basename='open-los-loans')
 
 urlpatterns = [
     # Health check
@@ -18,5 +23,9 @@ urlpatterns = [
     path('leads/', views.LeadSubmitView.as_view(), name='lead_submit'),
 
     # Floify webhooks
+    # Floify webhooks
     path('webhooks/floify/', views.floify_webhook, name='floify_webhook'),
+    
+    # Open LOS API
+    path('', include(router.urls)),
 ]

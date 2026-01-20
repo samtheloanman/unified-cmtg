@@ -6,6 +6,8 @@ services:
       - ./backend:/app
     ports:
       - "8001:8000"
+    env_file:
+      - ./backend/.env.local
     environment:
       - DEBUG=1
       - SECRET_KEY=dev-secret-key-change-in-production
@@ -14,6 +16,7 @@ services:
       - CELERY_RESULT_BACKEND=redis://redis:6379/0
       - DATABASE_URL=postgres://postgres:postgres@db:5432/unified_cmtg
       - GOOGLE_API_KEY=AIzaSyDS-sI28As05O-v83_b1WoHNw5Zf3-58cc
+
     depends_on:
       db:
         condition: service_healthy

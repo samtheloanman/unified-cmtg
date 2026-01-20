@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<MESSAGE MiscObjectDescription="MISMO 3.4 Loan File">
+  <DEAL_SETS>
+    <DEAL_SET>
+      <DEALS>
+        <DEAL>
+          <LOANS>
+            <LOAN LoanRoleType="SubjectLoan">
+              <TERMS_OF_LOAN>
+                <LoanAmount>600000.00</LoanAmount>
+                <LoanPurposeType>Purchase</LoanPurposeType>
+              </TERMS_OF_LOAN>
+            </LOAN>
+          </LOANS>
+          <COLLATERALS>
+            <COLLATERAL>
+              <SUBJECT_PROPERTY>
+                <ADDRESS>
+                  <AddressLineText>100 Mockingbird Ln</AddressLineText>
+                  <StateCode>NY</StateCode>
+                </ADDRESS>
+              </SUBJECT_PROPERTY>
+            </COLLATERAL>
+          </COLLATERALS>
+          <PARTIES>
+            <PARTY>
+              <ROLES>
+                <ROLE>
+                  <ROLE_DETAIL PartyRoleType="Borrower"/>
+                  <BORROWER>
+                    <BORROWER_DETAIL/>
+                    <EMPLOYERS>
+                      <EMPLOYER>
+                        <LegalEntityName>Nuclear Power Plant</LegalEntityName>
+                      </EMPLOYER>
+                    </EMPLOYERS>
+                  </BORROWER>
+                </ROLE>
+              </ROLES>
+              <INDIVIDUAL>
+                <NAME>
+                  <FirstName>Homer</FirstName>
+                  <MiddleName>J</MiddleName>
+                  <LastName>Simpson</LastName>
+                </NAME>
+                <CitizenshipResidencyType>USCitizen</CitizenshipResidencyType>
+                <CONTACT_POINTS>
+                  <CONTACT_POINT>
+                    <ContactPointType>Email</ContactPointType>
+                    <ContactPointValue>homer.simpson@example.com</ContactPointValue>
+                  </CONTACT_POINT>
+                </CONTACT_POINTS>
+              </INDIVIDUAL>
+            </PARTY>
+          </PARTIES>
+          <ASSETS>
+            <ASSET>
+              <ASSET_DETAIL>
+                <AssetType>Checking</AssetType>
+                <AssetAccountIdentifier/>
+                <AssetCashOrMarketValueAmount>1500.00</AssetCashOrMarketValueAmount>
+              </ASSET_DETAIL>
+            </ASSET>
+          </ASSETS>
+          <LIABILITIES>
+            <LIABILITY>
+              <LIABILITY_DETAIL>
+                <LiabilityType>CreditCard</LiabilityType>
+                <LiabilityUnpaidBalanceAmount>500.00</LiabilityUnpaidBalanceAmount>
+                <LiabilityMonthlyPaymentAmount>50.00</LiabilityMonthlyPaymentAmount>
+              </LIABILITY_DETAIL>
+            </LIABILITY>
+          </LIABILITIES>
+        </DEAL>
+      </DEALS>
+    </DEAL_SET>
+  </DEAL_SETS>
+</MESSAGE>

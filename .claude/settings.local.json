@@ -18,11 +18,30 @@
       "Bash(python -m pytest:*)",
       "Bash(gh pr view:*)",
       "Bash(git add:*)",
-      "Bash(git rev-parse:*)",
-      "Bash(gh pr list:*)",
+      "Bash(git commit:*)",
       "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git fetch:*)",
+      "Bash(git branch:*)",
+      "Bash(git rev-parse:*)",
       "Bash(git check-ignore:*)",
-      "mcp__plugin_github_github__list_issues"
+      "Bash(git merge-base:*)",
+      "Bash(gh pr list:*)",
+      "Bash(bash:*)",
+      "Bash(column -t:*)",
+      "mcp__plugin_github_github__list_issues",
+      "mcp__plugin_github_github__get_me",
+      "mcp__plugin_github_github__list_branches",
+      "Bash(for branch in fix/jules-pr-automation-yaml-syntax-7931374785353305100 local-changes-20260116-150528 perf/optimize-sitemap-import-8727035667675285408)",
+      "Bash(do)",
+      "Bash(echo:*)",
+      "Bash(then)",
+      "Bash(else)",
+      "Bash(fi)",
+      "Bash(done)",
+      "Bash(git log:*)",
+      "mcp__plugin_github_github__list_pull_requests",
+      "mcp__plugin_github_github__pull_request_read"
     ]
   }
 }

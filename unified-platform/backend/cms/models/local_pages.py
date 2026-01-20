@@ -24,39 +24,36 @@ class LocalProgramPage(Page):
         ]))
     ], blank=True, use_json_field=True)
     
+    schema_markup = models.JSONField(null=True, blank=True, help_text="Auto-generated JSON-LD schema")
+    
     content_panels = Page.content_panels + [
         FieldPanel('program'),
         FieldPanel('city'),
         FieldPanel('assigned_office'),
         FieldPanel('local_intro'),
         FieldPanel('local_faqs'),
+        FieldPanel('schema_markup'),
     ]
 
     # Override URL pattern for flat structure
     def get_url_parts(self, request=None):
-        # Return: /program-slug-city-state/
-        # This overrides the generated URL, but routing depends on tree location?
-        # If this page is effectively root-level in routing, it works.
-        # Otherwise, this might be purely cosmetic for sitemaps.
-        # Assuming we place these pages in a way that matches, or use custom routing.
-        
+        # Return: /program-slug-city-slug/
+        # Note: city.slug already includes state (e.g., 'los-angeles-ca')
+        # so we don't need to append it again
+
         site_id, root_url, url_path = super().get_url_parts(request)
         if not site_id:
              return None
 
-        # Construct flat slug
-        # Note: ensuring self.slug matches this format is key for standard routing
-        flat_slug = f"{self.program.slug}-{self.city.slug}-{self.city.state.lower()}"
-        
-        # If Wagtail routing is standard, we must ensure the page's actual slug matches this.
-        # But get_url_parts allows forcing the returned URL string.
-        
-        # We'll rely on the slug being set correctly during creation.
-        
+        # Construct flat slug: program-slug + city-slug
+        # City slug format: city-name-state (e.g., 'los-angeles-ca')
+        flat_slug = f"{self.program.slug}-{self.city.slug}"
+
         return (site_id, root_url, f"/{flat_slug}/")
 
     def save(self, *args, **kwargs):
         # Auto-generate slug if missing
+        # City slug already includes state, so just combine program + city
         if not self.slug and self.program and self.city:
-            self.slug = f"{self.program.slug}-{self.city.slug}-{self.city.state.lower()}"
+            self.slug = f"{self.program.slug}-{self.city.slug}"
         super().save(*args, **kwargs)

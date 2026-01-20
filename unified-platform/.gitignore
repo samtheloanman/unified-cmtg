@@ -16,3 +16,7 @@ static/
 .next/
 dist/
 build/
+
+# Local environment variables (contains secrets)
+backend/.env.local
+.env.local

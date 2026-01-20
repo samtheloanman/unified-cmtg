@@ -1,0 +1,59 @@
+{
+    "loanAmount": 600000,
+    "loanPurpose": "Purchase",
+    "subjectPropertyAddress": {
+        "street": "100 Mockingbird Ln",
+        "city": "Springfield",
+        "state": "NY",
+        "zip": "10001"
+    },
+    "applications": [
+        {
+            "borrower": {
+                "personalInfo": {
+                    "legalFullName": {
+                        "firstName": "Homer",
+                        "middleName": "J",
+                        "lastName": "Simpson",
+                        "suffix": ""
+                    },
+                    "citizenship": "citizen",
+                    "email": "homer.simpson@example.com",
+                    "dateOfBirth": "1970-01-01"
+                },
+                "mobilePhoneNumber": "555-555-5555",
+                "ssn": "000-00-0000",
+                "currentAddress": {
+                    "street": "742 Evergreen Terrace",
+                    "city": "Springfield",
+                    "state": "OR",
+                    "zip": "97403"
+                },
+                "employment": [
+                    {
+                        "employerName": "Nuclear Power Plant",
+                        "jobTitle": "Safety Inspector",
+                        "monthlyIncome": 5000,
+                        "employmentStartDate": "2010-01-01",
+                        "isCurrent": true
+                    }
+                ],
+                "assets": [
+                    {
+                        "type": "Checking",
+                        "institutionName": "Springfield First Bank",
+                        "value": 1500
+                    }
+                ],
+                "liabilities": [
+                    {
+                        "type": "CreditCard",
+                        "creditorName": "Visa",
+                        "unpaidBalance": 500,
+                        "monthlyPayment": 50
+                    }
+                ]
+            }
+        }
+    ]
+}

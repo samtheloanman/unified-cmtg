@@ -36,13 +36,13 @@
 
 ## Phase 2: Core Pricing Engine (Week 2) (Jules - Assigned)
 
-- [ ] **Port Models**: `Lender`, `LoanProgram`, `BaseLoan` from cmtgdirect (Jules - Assigned)
+- [x] **Port Models**: `Lender`, `LoanProgram`, `BaseLoan` from cmtgdirect (Jules - Assigned)
   - Test: `python manage.py makemigrations pricing` creates migration
-- [ ] **Port Logic**: `QualifyView` matching to `pricing/services.py` (Jules - Assigned)
+- [x] **Port Logic**: `QualifyView` matching to `pricing/services.py` (Jules - Assigned)
   - Test: Unit test `test_loan_matching.py` passes
-- [ ] **Rate Adjustment**: FICO × LTV grids (Jules - Assigned)
+- [x] **Rate Adjustment**: FICO × LTV grids (Jules - Assigned)
   - Test: `pytest pricing/tests/test_rate_adjustment.py` passes
-- [ ] **Pricing API**: `/api/v1/quote` endpoint (Jules - Assigned)
+- [x] **Pricing API**: `/api/v1/quote` endpoint (Jules - Assigned)
   - Test: `curl -X POST http://localhost:8001/api/v1/quote/ -d '{...}'` returns rates
 
 ---
@@ -72,40 +72,40 @@
 ## Phase 3a: Programmatic SEO (Phase F.5A - F.5E)
 
 ### ⏳ F.5A: Core Infrastructure (Jules - Current)
-- [ ] **City Model**: `models/cities.py` with priority/launched_at (Claude - Assigned)
+- [x] **City Model**: `models/cities.py` with priority/launched_at (Claude - Assigned)
   - Test: Model exists with correct fields ✅
-- [ ] **SEOContentCache**: `models/seo.py` with expanded schema fields (Claude - Assigned)
+- [x] **SEOContentCache**: `models/seo.py` with expanded schema fields (Claude - Assigned)
   - Test: Model handles content_hash and schema_json ✅
-- [ ] **ProximityService**: Caching + Haversine (Claude - Assigned)
+- [x] **ProximityService**: Caching + Haversine (Claude - Assigned)
   - Test: `find_nearest_office` returns correct office ✅
-- [ ] **SchemaGenerator**: Extended JSON-LD support (Claude - Assigned)
+- [x] **SchemaGenerator**: Extended JSON-LD support (Claude - Assigned)
   - Test: Generates HowTo/Speakable/FinancialProduct ✅
-- [ ] **SEOResolver**: Defensive slug parsing (Claude - Assigned)
+- [x] **SEOResolver**: Defensive slug parsing (Claude - Assigned)
   - Test: Resolves `/dscr-loan-los-angeles-ca/` correctly ✅
 
 ### ⏳ F.5B: Pilot Data (Jules - Next)
-- [ ] **Import Pilot Cities**: Top 5 only (Claude - Assigned)
-- [ ] **Office Mapping**: Verify Physical Offices (Claude - Assigned)
+- [x] **Import Pilot Cities**: Top 5 only (Claude - Assigned)
+- [x] **Office Mapping**: Verify Physical Offices (Claude - Assigned)
 
 ### ⏳ F.5C: Content (Gemini)
-- [ ] **Generate Power 5**: Create 25 perfect pages (Claude - Assigned)
-- [ ] **Verify Content**: Manual QA (Claude - Assigned)
+- [x] **Generate Power 5**: Create 25 perfect pages (Claude - Assigned)
+- [x] **Verify Content**: Manual QA (Claude - Assigned)
 
 ### ⏳ F.5D: Logic & Launch (Antigravity)
-- [ ] **Dynamic Router**: API Endpoint (Claude - Assigned)
-- [ ] **Launch**: Active Pilot (Claude - Assigned)
+- [x] **Dynamic Router**: API Endpoint (Claude - Assigned)
+- [x] **Launch**: Active Pilot (Claude - Assigned)
 
 ---
 
 ## Phase 4: Rate Sheet Agent (Week 5)
 
-- [ ] **Ingestion Script**: Read `Ratesheet List.csv` (Claude - Assigned)
+- [x] **Ingestion Script**: Read `Ratesheet List.csv` (Claude - Assigned)
   - Test: Script reads CSV without error
-- [ ] **Pipeline Class**: `IngestionPipeline` logic (Claude - Assigned)
+- [x] **Pipeline Class**: `IngestionPipeline` logic (Claude - Assigned)
   - Test: Pipeline processes sample PDF
-- [ ] **PDF Extraction**: Gemini 1.5 Pro → JSON (Claude - Assigned)
+- [x] **PDF Extraction**: Gemini 1.5 Pro → JSON (Claude - Assigned)
   - Test: Extracted rates match expected values
-- [ ] **Review UI**: Admin dashboard (Claude - Assigned)
+- [x] **Review UI**: Admin dashboard (Claude - Assigned)
   - Test: Manual review - approve button works
 
 ---
@@ -123,17 +123,17 @@
   - Features: SSG, SEO metadata, BlogPosting schema, full branding
 
 ### ⏳ In Progress / Pending
-- [ ] **Home Page**: Connect CMS fields to Next.js Hero/Features (Claude - Assigned)
+- [x] **Home Page**: Connect CMS fields to Next.js Hero/Features (Claude - Assigned)
   - Test: Home page content matches Wagtail admin
-- [ ] **Quote Wizard**: Complete multi-step form logic (Claude - Assigned)
+- [x] **Quote Wizard**: Complete multi-step form logic (Claude - Assigned)
   - Test: User can complete quote flow
-- [ ] **Quote Results**: Display API results from Pricing Engine (Claude - Assigned)
+- [x] **Quote Results**: Display API results from Pricing Engine (Claude - Assigned)
   - Test: Real rates appear after quote submission
-- [ ] **Local SEO Pages**: Flat URL format `/program-city-state/` (F.5) (Claude - Assigned)
+- [x] **Local SEO Pages**: Flat URL format `/program-city-state/` (F.5) (Claude - Assigned)
   - Test: SSG generates 10,000+ pages
-- [ ] **Styling Policy**: Verify consistent Tailwind branding (Colors/Fonts) (Claude - Assigned)
+- [x] **Styling Policy**: Verify consistent Tailwind branding (Colors/Fonts) (Claude - Assigned)
   - Test: Visual regression check
-- [ ] **Mobile Responsiveness**: Verify layouts on mobile (Jules - Assigned)
+- [x] **Mobile Responsiveness**: Verify layouts on mobile (Jules - Assigned)
   - Test: Chrome DevTools device mode check
 
 ---

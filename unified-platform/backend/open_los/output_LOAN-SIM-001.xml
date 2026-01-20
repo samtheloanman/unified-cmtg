@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<MESSAGE MiscObjectDescription="MISMO 3.4 Loan File">
+  <DEAL_SETS>
+    <DEAL_SET>
+      <DEALS>
+        <DEAL>
+          <LOANS>
+            <LOAN LoanRoleType="SubjectLoan">
+              <TERMS_OF_LOAN>
+                <LoanAmount>600000.00</LoanAmount>
+                <LoanPurposeType>Purchase</LoanPurposeType>
+              </TERMS_OF_LOAN>
+            </LOAN>
+          </LOANS>
+          <COLLATERALS>
+            <COLLATERAL>
+              <SUBJECT_PROPERTY>
+                <ADDRESS>
+                  <AddressLineText>100 Mockingbird Ln</AddressLineText>
+                  <StateCode>NY</StateCode>
+                </ADDRESS>
+              </SUBJECT_PROPERTY>
+            </COLLATERAL>
+          </COLLATERALS>
+          <PARTIES>
+            <PARTY>
+              <ROLES>
+                <ROLE>
+                  <ROLE_DETAIL PartyRoleType="Borrower"/>
+                  <BORROWER>
+                    <BORROWER_DETAIL/>
+                    <EMPLOYERS>
+                      <EMPLOYER>
+                        <LegalEntityName>Simulation Inc</LegalEntityName>
+                      </EMPLOYER>
+                    </EMPLOYERS>
+                  </BORROWER>
+                </ROLE>
+              </ROLES>
+              <INDIVIDUAL>
+                <NAME>
+                  <FirstName>Sim</FirstName>
+                  <LastName>User</LastName>
+                </NAME>
+                <CONTACT_POINTS>
+                  <CONTACT_POINT>
+                    <ContactPointType>Email</ContactPointType>
+                    <ContactPointValue>simulation@example.com</ContactPointValue>
+                  </CONTACT_POINT>
+                </CONTACT_POINTS>
+              </INDIVIDUAL>
+            </PARTY>
+          </PARTIES>
+        </DEAL>
+      </DEALS>
+    </DEAL_SET>
+  </DEAL_SETS>
+</MESSAGE>
