@@ -353,11 +353,75 @@ class APIClient {
     pricing: PricingAPI;
     rateSheets: RateSheetAPI;
     leads: LeadsAPI;
+    cms: CMSAPI;
 
     constructor(baseURL: string = API_BASE) {
         this.pricing = new PricingAPI(baseURL);
         this.rateSheets = new RateSheetAPI(baseURL);
         this.leads = new LeadsAPI(baseURL);
+        this.cms = new CMSAPI(baseURL);
+    }
+}
+
+/**
+ * Navigation Item structure
+ */
+export interface NavigationItem {
+    type: 'link' | 'sub_menu';
+    value: {
+        link_text?: string;     // For link
+        link_url?: string;      // For link
+        open_in_new_tab?: boolean;
+        title?: string;         // For sub_menu
+        items?: Array<{          // For sub_menu items
+            link_text: string;
+            link_url: string;
+            open_in_new_tab: boolean;
+        }>;
+    };
+    id: string;
+}
+
+/**
+ * Navigation Menu response
+ */
+export interface NavigationMenu {
+    id: number;
+    name: string;
+    items: NavigationItem[];
+}
+
+/**
+ * Site Configuration response
+ */
+export interface SiteConfiguration {
+    site_name: string;
+    logo_url: string | null;
+    phone_number: string;
+    email: string;
+    address: string;
+    facebook: string;
+    twitter: string;
+    linkedin: string;
+    instagram: string;
+}
+
+/**
+ * CMS API client
+ */
+class CMSAPI extends BaseAPIClient {
+    /**
+     * Get navigation menu by name
+     */
+    async getNavigation(name: string): Promise<APIResponse<NavigationMenu>> {
+        return this.get<NavigationMenu>(`/api/v1/navigation/${name}/`);
+    }
+
+    /**
+     * Get site configuration
+     */
+    async getSiteConfiguration(): Promise<APIResponse<SiteConfiguration>> {
+        return this.get<SiteConfiguration>('/api/v1/site-config/');
     }
 }
 

@@ -21,6 +21,7 @@ django-environ>=0.11
 
 # PDF Processing
 pdfplumber>=0.11.0
+reportlab>=4.0.0
 
 # Google AI
 google-genai>=1.0.0

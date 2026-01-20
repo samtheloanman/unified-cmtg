@@ -80,6 +80,69 @@ class AiContentGenerator:
         response_text = self._generate_text(prompt)
         return self._parse_json(response_text)
 
+    def generate_program_content(self, program_title: str, program_type: str) -> Dict:
+        """
+        Generate full content for a ProgramPage.
+        Returns a dict with keys matching ProgramPage fields.
+        """
+        expert_persona = self._get_expert_persona(program_title)
+        
+        prompt = (
+            f"Act as a {expert_persona}. \n"
+            f"Write comprehensive, high-compliance content for a Mortgage Loan Program page titled '{program_title}' "
+            f"(Type: {program_type}).\n\n"
+            f"Your output must be a valid JSON object with the following keys containing HTML (for RichText) or data:\n"
+            f"1. 'mortgage_program_highlights': HTML bullet points of key features.\n"
+            f"2. 'what_are': HTML definition of the program.\n"
+            f"3. 'details_about_mortgage_loan_program': HTML detailed explanation.\n"
+            f"4. 'benefits_of': HTML section on why a borrower would choose this.\n"
+            f"5. 'requirements': HTML bulleted list of borrower/property requirements.\n"
+            f"6. 'how_to_qualify_for': HTML steps to qualify.\n"
+            f"7. 'why_us': HTML pitch for why choose Custom Mortgage/CMRE.\n"
+            f"8. 'faqs': List of 6 objects {{'question': '...', 'answer': '...'}}.\n"
+            f"9. 'seo_title': Optimized meta title.\n"
+            f"10. 'seo_description': Optimized meta description.\n\n"
+            f"Tone: Professional, authoritative, encouraging. Use <h2> and <h3> tags for structure in HTML fields. "
+            f"Do not use markdown blocks, return raw JSON."
+        )
+        
+        return self._parse_json(self._generate_text(prompt))
+
+    def _get_expert_persona(self, title: str) -> str:
+        """Determine the specific expert persona based on the program title."""
+        t = title.lower()
+        
+        # Base pattern: "Senior Mortgage Copywriter with deep expertise in {Topic}"
+        
+        if 'sba' in t or 'business' in t:
+            topic = "SBA Lending and Business Financing"
+        elif 'commercial' in t or 'apartment' in t or 'retail' in t or 'industrial' in t or 'office' in t:
+            topic = "Commercial Real Estate Financing"
+        elif 'hotel' in t or 'gas station' in t:
+            topic = "Niche Commercial Property Financing"
+        elif 'construction' in t or 'land' in t:
+            topic = "Construction and Land Development Loans"
+        elif 'hard money' in t or 'fix and flip' in t or 'rehab' in t or 'bridge' in t:
+            topic = "Private Money, Bridge, and Rehab Lending"
+        elif 'nonqm' in t or 'non-qm' in t or 'dscr' in t or 'statement' in t or 'depletion' in t or 'no income' in t:
+            topic = "Non-QM and Self-Employed Borrower Solutions"
+        elif 'jumbo' in t:
+            topic = "Luxury Home Financing and Jumbo Loans"
+        elif 'fha' in t:
+            topic = "FHA Lending Guidelines and First-Time Homebuyers"
+        elif 'va' in t:
+            topic = "VA Mortgages and Military Family Financing"
+        elif 'usda' in t:
+            topic = "USDA Rural Housing Loans"
+        elif 'reverse' in t:
+            topic = "Reverse Mortgages and Retirement Financing"
+        elif 'physician' in t:
+            topic = "Medical Professional Loans"
+        else:
+            topic = "Residential Mortgage Lending"
+            
+        return f"Senior Mortgage Copywriter with deep expertise in {topic}"  
+
     def _generate_text(self, prompt: str) -> str:
         """Internal method to call the LLM."""
         try:
@@ -90,7 +153,8 @@ class AiContentGenerator:
                         {"role": "system", "content": "You are a mortgage marketing expert copywriter."},
                         {"role": "user", "content": prompt}
                     ],
-                    temperature=0.7
+                    temperature=0.7,
+                    response_format={"type": "json_object"}
                 )
                 return response.choices[0].message.content.strip()
             else:
@@ -98,7 +162,8 @@ class AiContentGenerator:
                     model=self.gemini_model,
                     contents=[prompt],
                     config=types.GenerateContentConfig(
-                        temperature=0.7
+                        temperature=0.7,
+                        response_mime_type="application/json" 
                     )
                 )
                 return response.text.strip()
@@ -107,9 +172,10 @@ class AiContentGenerator:
             logger.error(f"Error generating content: {e}")
             raise
 
-    def _parse_json(self, text: str) -> List[Dict[str, str]]:
-        """Parse JSON from LLM response, handling potential markdown fences."""
+    def _parse_json(self, text: str) -> Dict:
+        """Parse JSON from LLM response."""
         cleaned_text = text.strip()
+        # Remove markdown fences if present
         if cleaned_text.startswith('```json'):
             cleaned_text = cleaned_text[7:]
         if cleaned_text.startswith('```'):
@@ -118,13 +184,7 @@ class AiContentGenerator:
             cleaned_text = cleaned_text[:-3]
             
         try:
-            data = json.loads(cleaned_text.strip())
-            if not isinstance(data, list):
-                # Try to extract list if wrapped in object
-                if isinstance(data, dict) and 'faqs' in data:
-                    return data['faqs']
-                raise ValueError("Response is not a list")
-            return data
+            return json.loads(cleaned_text.strip())
         except json.JSONDecodeError:
             logger.error(f"Failed to parse JSON: {text}")
-            return []
+            return {}

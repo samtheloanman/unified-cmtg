@@ -1,141 +1,142 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
-
-// Navigation structure matching production site with correct program links
-const navigation = {
-    topBar: {
-        phone: '877-976-5669',
-        applyUrl: 'https://custommortgage.floify.com/',
-    },
-    mainNav: [
-        {
-            label: 'Residential Mortgage',
-            href: '/programs',
-            children: [
-                { label: 'FHA VOE Only Mortgage', href: '/programs/fha-voe-only-mortgage-loans' },
-                { label: 'Super Jumbo Loans', href: '/programs/super-jumbo-residential-mortgage-loans' },
-                { label: 'FHA Streamline Mortgage', href: '/programs/fha-streamline-mortgage-loans' },
-                { label: 'Reverse Mortgage', href: '/programs/reverse-mortgages-loan-programs' },
-                { label: 'VA Loans', href: '/programs/verterain-va-loans' },
-                { label: 'Construction Loans', href: '/programs/construction-loans-2' },
-                { label: 'View All Residential →', href: '/programs' },
-            ],
-        },
-        {
-            label: 'Commercial Mortgage',
-            href: '/programs/commercial-mortgage-loans',
-            children: [
-                { label: 'Stated Income Commercial', href: '/programs/stated-income-commercial-loans' },
-                { label: 'SBA Loans', href: '/programs/business-loans' },
-                { label: 'Church Financing', href: '/programs/cmre' },
-                { label: 'Multifamily Loans', href: '/programs/apartment-finance-mortgage-loans' },
-                { label: 'Mixed Use Loans', href: '/programs/retail-property-loans' },
-                { label: 'View All Commercial →', href: '/programs' },
-            ],
-        },
-        {
-            label: 'NonQM / Stated Income',
-            href: '/programs',
-            children: [
-                { label: 'Bank Statement Loans', href: '/programs/bank-statement-loans' },
-                { label: 'Asset Depletion', href: '/programs/asset-depletion-loans' },
-                { label: 'No Ratio Loans', href: '/programs/no-ratio-loans' },
-                { label: '1099 Only Loans', href: '/programs/1099-only-loans' },
-                { label: 'View All NonQM →', href: '/programs' },
-            ],
-        },
-        {
-            label: 'Hard Money',
-            href: '/programs/hard-money-loans',
-            children: [
-                { label: 'Fix and Flip', href: '/programs/fix-flip-rehab-loan-rehab-mortgage-loans' },
-                { label: 'Bridge Loans', href: '/programs/rehab-loans' },
-                { label: 'Create Your Own Terms', href: '/programs/hard-money-mortgage-loans' },
-                { label: 'View All Hard Money →', href: '/programs' },
-            ],
-        },
-        { label: 'Recently Funded', href: '/funded-loans' },
-        { label: 'Blog', href: '/blog' },
-    ],
-};
+import { useState, useEffect } from 'react';
+import { apiClient, NavigationMenu, SiteConfiguration } from '@/lib/api-client';
 
 export default function Header() {
     const [openDropdown, setOpenDropdown] = useState<string | null>(null);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+    const [navData, setNavData] = useState<NavigationMenu | null>(null);
+    const [siteConfig, setSiteConfig] = useState<SiteConfiguration | null>(null);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        async function fetchData() {
+            try {
+                const [navRes, configRes] = await Promise.all([
+                    apiClient.cms.getNavigation('Main Header'),
+                    apiClient.cms.getSiteConfiguration()
+                ]);
+
+                if (navRes.success) setNavData(navRes.data);
+                if (configRes.success) setSiteConfig(configRes.data);
+            } catch (error) {
+                console.error("Failed to fetch header data", error);
+            } finally {
+                setLoading(false);
+            }
+        }
+        fetchData();
+    }, []);
+
+    // Fallback if loading or error (keep skeleton or minimal)
+    if (loading) {
+        return <header className="h-24 bg-white animate-pulse" />;
+    }
+
+    const phoneDisplay = siteConfig?.phone_number || '(877) 976-5669';
+    const phoneHref = `tel:${phoneDisplay.replace(/[^0-9]/g, '')}`;
+
     return (
-        <header className="sticky top-0 z-50">
-            {/* Top Bar */}
-            <div className="bg-[#1daed4] text-white text-sm py-2 px-4">
+        <header className="sticky top-0 z-50 shadow-md">
+            {/* Top Bar - Premium Dark Gradient */}
+            <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white text-xs md:text-sm py-2 px-4 border-b border-white/10">
                 <div className="max-w-7xl mx-auto flex justify-between items-center">
-                    <a href={`tel:${navigation.topBar.phone.replace(/-/g, '')}`} className="flex items-center gap-2 hover:underline">
-                        📞 {navigation.topBar.phone}
+                    <a href={phoneHref} className="flex items-center gap-2 hover:text-[var(--primary)] transition-colors font-medium">
+                        <span className="text-[var(--primary)]">📞</span> {phoneDisplay}
                     </a>
                     <div className="flex items-center gap-4">
-                        <Link href="/quote" className="hover:underline hidden sm:inline">Get Quote</Link>
-                        <a href={navigation.topBar.applyUrl} target="_blank" rel="noopener noreferrer"
-                            className="bg-white text-[#1daed4] px-4 py-1 rounded font-bold hover:bg-gray-100 transition-colors">
-                            APPLY NOW
+                        <Link href="/quote" className="hover:text-[var(--primary)] transition-colors hidden sm:inline font-medium uppercase tracking-wider">
+                            Get Quote
+                        </Link>
+                        <a href="https://custommortgage.floify.com/" target="_blank" rel="noopener noreferrer"
+                            className="bg-[var(--primary)] hover:bg-[var(--primary-dark)] text-white px-5 py-1.5 rounded-full font-bold text-xs uppercase tracking-widest transition-all shadow-lg hover:shadow-[var(--primary)]/30">
+                            Apply Now
                         </a>
                     </div>
                 </div>
             </div>
 
-            {/* Main Navigation */}
-            <nav className="bg-[#636363] text-white">
+            {/* Main Navigation - Glassmorphism */}
+            <nav className="bg-white/95 backdrop-blur-md border-b border-gray-100 text-slate-800">
                 <div className="max-w-7xl mx-auto px-4">
-                    <div className="flex justify-between items-center h-16">
+                    <div className="flex justify-between items-center h-20">
                         {/* Logo */}
-                        <Link href="/" className="text-2xl md:text-3xl font-bold tracking-wide" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
-                            CUSTOM MORTGAGE
+                        <Link href="/" className="flex items-center gap-3 group">
+                            {siteConfig?.logo_url ? (
+                                <img src={siteConfig.logo_url} alt={siteConfig.site_name} className="h-12 w-auto object-contain" />
+                            ) : (
+                                <span className="text-3xl font-heading font-normal tracking-wide text-slate-900 group-hover:text-[var(--primary)] transition-colors">
+                                    {siteConfig?.site_name || 'CUSTOM MORTGAGE'}
+                                </span>
+                            )}
                         </Link>
 
                         {/* Desktop Navigation */}
                         <div className="hidden lg:flex items-center space-x-1">
-                            {navigation.mainNav.map((item) => (
-                                <div
-                                    key={item.label}
-                                    className="relative"
-                                    onMouseEnter={() => item.children && setOpenDropdown(item.label)}
-                                    onMouseLeave={() => setOpenDropdown(null)}
-                                >
-                                    <Link
-                                        href={item.href}
-                                        className={`px-3 py-2 text-sm font-medium hover:text-[#1daed4] transition-colors flex items-center gap-1 ${openDropdown === item.label ? 'text-[#1daed4]' : ''
-                                            }`}
-                                        style={{ fontFamily: 'Bebas Neue, Arial, sans-serif', letterSpacing: '0.05em' }}
-                                    >
-                                        {item.label}
-                                        {item.children && (
-                                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                                            </svg>
-                                        )}
-                                    </Link>
+                            {navData?.items.map((item) => {
+                                // Sub Menu
+                                if (item.type === 'sub_menu' && item.value.items) {
+                                    return (
+                                        <div
+                                            key={item.id}
+                                            className="relative group"
+                                            onMouseEnter={() => setOpenDropdown(item.id)}
+                                            onMouseLeave={() => setOpenDropdown(null)}
+                                        >
+                                            <button
+                                                className={`px-4 py-2 text-sm font-bold uppercase tracking-wider hover:text-[var(--primary)] transition-colors flex items-center gap-1 font-heading
+                                                    ${openDropdown === item.id ? 'text-[var(--primary)]' : 'text-slate-600'}`}
+                                            >
+                                                {item.value.title}
+                                                <svg className={`w-3 h-3 transition-transform ${openDropdown === item.id ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                                                </svg>
+                                            </button>
 
-                                    {/* Dropdown */}
-                                    {item.children && openDropdown === item.label && (
-                                        <div className="absolute left-0 top-full w-64 bg-white text-[#636363] shadow-xl rounded-b-lg overflow-hidden z-50">
-                                            {item.children.map((child) => (
-                                                <Link
-                                                    key={child.label}
-                                                    href={child.href}
-                                                    className="block px-4 py-3 text-sm hover:bg-[#1daed4] hover:text-white transition-colors border-b border-gray-100 last:border-b-0"
-                                                >
-                                                    {child.label}
-                                                </Link>
-                                            ))}
+                                            {/* Dropdown Menu */}
+                                            {openDropdown === item.id && (
+                                                <div className="absolute left-0 top-full w-72 bg-white shadow-2xl rounded-b-xl overflow-hidden z-50 border-t-2 border-[var(--primary)] animate-in fade-in slide-in-from-top-2 duration-200">
+                                                    <div className="py-2">
+                                                        {item.value.items.map((subItem, idx) => (
+                                                            <Link
+                                                                key={idx}
+                                                                href={subItem.link_url || '#'}
+                                                                target={subItem.open_in_new_tab ? '_blank' : undefined}
+                                                                className="block px-6 py-3 text-sm text-slate-600 hover:bg-slate-50 hover:text-[var(--primary)] hover:pl-7 transition-all border-b border-slate-50 last:border-0"
+                                                            >
+                                                                {subItem.link_text}
+                                                            </Link>
+                                                        ))}
+                                                    </div>
+                                                </div>
+                                            )}
                                         </div>
-                                    )}
-                                </div>
-                            ))}
+                                    );
+                                }
+
+                                // Simple Link
+                                if (item.type === 'link') {
+                                    return (
+                                        <Link
+                                            key={item.id}
+                                            href={item.value.link_url || '#'}
+                                            target={item.value.open_in_new_tab ? '_blank' : undefined}
+                                            className="px-4 py-2 text-sm font-bold uppercase tracking-wider text-slate-600 hover:text-[var(--primary)] transition-colors font-heading"
+                                        >
+                                            {item.value.link_text}
+                                        </Link>
+                                    );
+                                }
+                                return null;
+                            })}
                         </div>
 
                         {/* Mobile Menu Button */}
                         <button
-                            className="lg:hidden p-2"
+                            className="lg:hidden p-2 text-slate-600"
                             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                             aria-label="Toggle menu"
                         >
@@ -152,44 +153,54 @@ export default function Header() {
                     </div>
                 </div>
 
-                {/* Mobile Menu */}
+                {/* Mobile Menu Overlay */}
                 {mobileMenuOpen && (
-                    <div className="lg:hidden bg-[#636363] border-t border-gray-500">
-                        <div className="px-4 py-4 space-y-2">
-                            {navigation.mainNav.map((item) => (
-                                <div key={item.label}>
-                                    <Link
-                                        href={item.href}
-                                        className="block py-2 text-lg font-medium hover:text-[#1daed4]"
-                                        style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
-                                        onClick={() => setMobileMenuOpen(false)}
-                                    >
-                                        {item.label}
-                                    </Link>
-                                    {item.children && (
-                                        <div className="pl-4 space-y-1">
-                                            {item.children.slice(0, 3).map((child) => (
-                                                <Link
-                                                    key={child.label}
-                                                    href={child.href}
-                                                    className="block py-1 text-sm text-gray-300 hover:text-[#1daed4]"
-                                                    onClick={() => setMobileMenuOpen(false)}
-                                                >
-                                                    {child.label}
-                                                </Link>
-                                            ))}
+                    <div className="lg:hidden bg-slate-900 border-t border-slate-800 absolute w-full h-[calc(100vh-80px)] overflow-y-auto">
+                        <div className="px-6 py-8 space-y-6">
+                            {navData?.items.map((item) => {
+                                if (item.type === 'sub_menu' && item.value.items) {
+                                    return (
+                                        <div key={item.id}>
+                                            <h3 className="text-[var(--primary)] text-sm font-bold uppercase tracking-widest mb-3 font-heading">
+                                                {item.value.title}
+                                            </h3>
+                                            <div className="space-y-3 pl-4 border-l border-slate-700">
+                                                {item.value.items.map((subItem, idx) => (
+                                                    <Link
+                                                        key={idx}
+                                                        href={subItem.link_url || '#'}
+                                                        className="block text-slate-300 hover:text-white text-base font-medium"
+                                                        onClick={() => setMobileMenuOpen(false)}
+                                                    >
+                                                        {subItem.link_text}
+                                                    </Link>
+                                                ))}
+                                            </div>
                                         </div>
-                                    )}
-                                </div>
-                            ))}
-                            <div className="pt-4 border-t border-gray-500">
+                                    );
+                                }
+                                if (item.type === 'link') {
+                                    return (
+                                        <Link
+                                            key={item.id}
+                                            href={item.value.link_url || '#'}
+                                            className="block text-white text-xl font-heading font-normal tracking-wide hover:text-[var(--primary)]"
+                                            onClick={() => setMobileMenuOpen(false)}
+                                        >
+                                            {item.value.link_text}
+                                        </Link>
+                                    );
+                                }
+                                return null;
+                            })}
+
+                            <div className="pt-8 mt-8 border-t border-slate-800">
                                 <Link
                                     href="/quote"
-                                    className="block w-full text-center py-3 bg-[#1daed4] text-white font-bold rounded-lg"
-                                    style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
+                                    className="block w-full text-center py-4 bg-[var(--primary)] text-white font-bold rounded-lg uppercase tracking-widest shadow-lg shadow-[var(--primary)]/20"
                                     onClick={() => setMobileMenuOpen(false)}
                                 >
-                                    GET YOUR QUOTE
+                                    Get Your Quote
                                 </Link>
                             </div>
                         </div>

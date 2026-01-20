@@ -7,6 +7,7 @@ from cms.services.proximity import ProximityService
 from cms.services.schema_generator import SchemaGenerator
 import time
 import logging
+import json
 
 logger = logging.getLogger(__name__)
 

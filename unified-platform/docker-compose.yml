@@ -15,7 +15,7 @@ services:
       - CELERY_BROKER_URL=redis://redis:6379/0
       - CELERY_RESULT_BACKEND=redis://redis:6379/0
       - DATABASE_URL=postgres://postgres:postgres@db:5432/unified_cmtg
-      - GOOGLE_API_KEY=AIzaSyDS-sI28As05O-v83_b1WoHNw5Zf3-58cc
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
 
     depends_on:
       db:
