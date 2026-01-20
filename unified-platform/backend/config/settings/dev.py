@@ -1,15 +1,18 @@
+"""
+Development settings for Unified CMTG Platform.
+"""
+
 from .base import *
-import os
-import dj_database_url
 
 DEBUG = True
-ALLOWED_HOSTS = ['*']
-if os.environ.get("DATABASE_URL"):
-    DATABASES = {
-        "default": dj_database_url.config(
-            default=os.environ.get("DATABASE_URL"),
-            conn_max_age=600
-        )
-    }
 
+ALLOWED_HOSTS = ['*']
+
+# Relax CORS for development
 CORS_ALLOW_ALL_ORIGINS = True
+
+# Use console backend for emails
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# Optional: Disable password validators for easier testing
+AUTH_PASSWORD_VALIDATORS = []
