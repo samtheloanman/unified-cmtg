@@ -98,6 +98,44 @@ describe('APIClient', () => {
             });
         });
 
+        describe('qualify', () => {
+            it('should successfully fetch qualification matches', async () => {
+                const mockResponse = {
+                    total_matches: 2,
+                    calculated_ltv: 75.0,
+                    matched_programs: [
+                        {
+                            program_id: 101,
+                            program_name: 'Super Prime',
+                            lender: 'Acme Lending',
+                            estimated_rate_range: '6.5-7.0',
+                            match_score: 95,
+                            notes: ['Great fit'],
+                        },
+                    ],
+                };
+
+                mockFetch.mockResolvedValueOnce({
+                    ok: true,
+                    json: async () => mockResponse,
+                });
+
+                const result = await apiClient.pricing.qualify({
+                    loan_amount: 500000,
+                    property_value: 650000,
+                    credit_score: 720,
+                    property_state: 'CA',
+                });
+
+                expect(result.success).toBe(true);
+                if (result.success) {
+                    expect(result.data.total_matches).toBe(2);
+                    expect(result.data.matched_programs).toHaveLength(1);
+                    expect(result.data.matched_programs[0].match_score).toBe(95);
+                }
+            });
+        });
+
         describe('healthCheck', () => {
             it('should return healthy status', async () => {
                 mockFetch.mockResolvedValueOnce({
