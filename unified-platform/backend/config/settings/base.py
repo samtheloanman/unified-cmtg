@@ -68,6 +68,7 @@ INSTALLED_APPS = [
     "ratesheets",
     "loans",
     "applications.apps.ApplicationsConfig",
+    "open_los",
 ]
 
 MIDDLEWARE = [

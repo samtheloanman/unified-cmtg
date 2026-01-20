@@ -26,6 +26,7 @@ from .serializers import (
     QualificationResultSerializer
 )
 from .integrations.floify import FloifyClient, FloifyAPIError
+from open_los.services import Ingest1003Service
 
 logger = logging.getLogger(__name__)
 
@@ -461,6 +462,36 @@ def _handle_application_created(payload):
         action = "Created" if created else "Updated"
         logger.info(f"{action} application {application.id} from Floify {floify_id}")
 
+
+        # NEW: Open LOS Ingestion
+        try:
+            # Re-use the existing client context if possible, but here we opened a new one
+            # The previous context manager closed, so we open a new one or should have kept it open.
+            # actually `with FloifyClient() as client:` block ended above at line 442. 
+            # We need to fetch 1003 data.
+            with FloifyClient() as client:
+                logger.info(f"Fetching 1003 data for {floify_id}")
+                # Note: get_1003_json takes loan_id, not prospect_id (floify_id).
+                # The app_data from get_application usually has 'loanId' if it's converted.
+                # If it's just a prospect, get_1003_json might fail or return partial.
+                # But `application.floify_loan_id` should be populated if available.
+                
+                target_id = application.floify_loan_id or application.floify_id
+                # Only try if we have a target, though for prospects 1003 might not exist yet.
+                # Floify docs say 1003 export is for Loans. Let's try only if we have loanId.
+                
+                if application.floify_loan_id:
+                     json_1003 = client.get_1003_json(application.floify_loan_id)
+                     if json_1003:
+                         Ingest1003Service.ingest_floify_json(application.floify_loan_id, json_1003)
+                         logger.info(f"Open LOS Ingested 1003 for {application.floify_loan_id}")
+                else:
+                    logger.info(f"Skipping 1003 ingest for {floify_id} - No Loan ID yet")
+
+        except Exception as e:
+            # Swallow error so we don't fail the webhook response
+            logger.error(f"Open LOS Ingestion failed for {floify_id}: {e}")
+
         return Response({'processed': True, 'application_id': application.id})
 
     except FloifyAPIError as e:
@@ -509,6 +540,20 @@ def _handle_application_updated(payload):
                 f"Updated application {application.id} status: "
                 f"{old_status} -> {application.status}"
             )
+
+
+        # Open LOS Ingestion on Update
+        try:
+             # Reload app to get latest IDs
+            app_refresh = Application.objects.get(id=application.id)
+            if app_refresh.floify_loan_id:
+                with FloifyClient() as client:
+                    json_1003 = client.get_1003_json(app_refresh.floify_loan_id)
+                    if json_1003:
+                        Ingest1003Service.ingest_floify_json(app_refresh.floify_loan_id, json_1003)
+                        logger.info(f"Open LOS Ingested 1003 update for {app_refresh.floify_loan_id}")
+        except Exception as e:
+             logger.error(f"Open LOS Ingestion failed (update) for {floify_id}: {e}")
 
         return Response({'processed': True, 'application_id': application.id})
 

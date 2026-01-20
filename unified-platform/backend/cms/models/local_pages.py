@@ -24,12 +24,15 @@ class LocalProgramPage(Page):
         ]))
     ], blank=True, use_json_field=True)
     
+    schema_markup = models.JSONField(null=True, blank=True, help_text="Auto-generated JSON-LD schema")
+    
     content_panels = Page.content_panels + [
         FieldPanel('program'),
         FieldPanel('city'),
         FieldPanel('assigned_office'),
         FieldPanel('local_intro'),
         FieldPanel('local_faqs'),
+        FieldPanel('schema_markup'),
     ]
 
     # Override URL pattern for flat structure

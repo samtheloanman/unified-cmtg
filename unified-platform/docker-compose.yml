@@ -16,7 +16,7 @@ services:
       - CELERY_RESULT_BACKEND=redis://redis:6379/0
       - DATABASE_URL=postgres://postgres:postgres@db:5432/unified_cmtg
       - GOOGLE_API_KEY=AIzaSyDS-sI28As05O-v83_b1WoHNw5Zf3-58cc
-      - FLOIFY_API_KEY=${FLOIFY_API_KEY:-}
+
     depends_on:
       db:
         condition: service_healthy
