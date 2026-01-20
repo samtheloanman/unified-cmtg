@@ -32,9 +32,12 @@ class NavigationMenu(TranslatableMixin, models.Model):
         ('sub_menu', SubMenuBlock()),
     ], use_json_field=True)
 
+    raw_html = models.TextField(blank=True, help_text="Override authentication items with raw HTML. Takes precedence over items.")
+
     panels = [
         FieldPanel('name'),
         FieldPanel('items'),
+        FieldPanel('raw_html'),
     ]
 
     def __str__(self):
@@ -67,6 +70,9 @@ class SiteConfiguration(TranslatableMixin, models.Model):
     linkedin = models.URLField(blank=True)
     instagram = models.URLField(blank=True)
     
+    # Raw HTML Footer Override
+    footer_raw_html = models.TextField(blank=True, help_text="Override entire footer with raw HTML.")
+
     panels = [
         FieldPanel('site_name'),
         FieldPanel('logo'),
@@ -81,6 +87,7 @@ class SiteConfiguration(TranslatableMixin, models.Model):
             FieldPanel('linkedin'),
             FieldPanel('instagram'),
         ], heading="Social Media"),
+        FieldPanel('footer_raw_html'),
     ]
 
     def __str__(self):

@@ -36,59 +36,77 @@ export default function Header() {
         return <header className="h-24 bg-white animate-pulse" />;
     }
 
+    // Raw HTML Override
+    if (navData?.raw_html) {
+        return <div dangerouslySetInnerHTML={{ __html: navData.raw_html }} />;
+    }
+
     const phoneDisplay = siteConfig?.phone_number || '(877) 976-5669';
     const phoneHref = `tel:${phoneDisplay.replace(/[^0-9]/g, '')}`;
 
     return (
-        <header className="sticky top-0 z-50 shadow-md">
-            {/* Top Bar - Premium Dark Gradient */}
-            <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white text-xs md:text-sm py-2 px-4 border-b border-white/10">
-                <div className="max-w-7xl mx-auto flex justify-between items-center">
-                    <a href={phoneHref} className="flex items-center gap-2 hover:text-[var(--primary)] transition-colors font-medium">
-                        <span className="text-[var(--primary)]">📞</span> {phoneDisplay}
-                    </a>
-                    <div className="flex items-center gap-4">
-                        <Link href="/quote" className="hover:text-[var(--primary)] transition-colors hidden sm:inline font-medium uppercase tracking-wider">
-                            Get Quote
-                        </Link>
+        <header className="sticky top-0 z-50 shadow-sm font-sans">
+            {/* Top Bar - Cyan Background to match production */}
+            <div className="bg-[#1daed4] text-white py-2 px-4 shadow-sm relative z-20">
+                <div className="max-w-7xl mx-auto flex justify-between items-center text-sm font-bold tracking-wide">
+                    {/* Left: Apply Now Button + Sign In */}
+                    <div className="flex items-center gap-6">
                         <a href="https://custommortgage.floify.com/" target="_blank" rel="noopener noreferrer"
-                            className="bg-[var(--primary)] hover:bg-[var(--primary-dark)] text-white px-5 py-1.5 rounded-full font-bold text-xs uppercase tracking-widest transition-all shadow-lg hover:shadow-[var(--primary)]/30">
-                            Apply Now
+                            className="flex items-center gap-2 hover:text-white/90 transition-opacity">
+                            <span className="text-white text-lg">✓</span>
+                            <span className="uppercase">Apply Now</span>
                         </a>
+
+                        <a href="#" className="flex items-center gap-2 hover:text-white/90 transition-opacity">
+                            <span className="text-white text-lg">➜</span>
+                            <span>Sign In</span>
+                        </a>
+                    </div>
+
+                    {/* Center/Right: Phone */}
+                    <div className="flex items-center gap-2">
+                        <span className="transform flip-x">📞</span>
+                        <a href={phoneHref} className="hover:text-white/90 transition-opacity text-base">
+                            {phoneDisplay}
+                        </a>
+                    </div>
+
+                    {/* Far Right: Request Call Back (Hidden on mobile usually) */}
+                    <div className="hidden md:block uppercase text-xs tracking-widest font-normal opacity-90">
+                        Request Call Back
                     </div>
                 </div>
             </div>
 
-            {/* Main Navigation - Glassmorphism */}
-            <nav className="bg-white/95 backdrop-blur-md border-b border-gray-100 text-slate-800">
+            {/* Main Navigation - White Background */}
+            <nav className="bg-white border-b border-gray-100 text-slate-900 relative z-10">
                 <div className="max-w-7xl mx-auto px-4">
-                    <div className="flex justify-between items-center h-20">
+                    <div className="flex justify-between items-center h-24">
                         {/* Logo */}
-                        <Link href="/" className="flex items-center gap-3 group">
+                        <Link href="/" className="flex items-center shrink-0">
                             {siteConfig?.logo_url ? (
-                                <img src={siteConfig.logo_url} alt={siteConfig.site_name} className="h-12 w-auto object-contain" />
+                                <img src={siteConfig.logo_url} alt={siteConfig.site_name} className="h-16 w-auto object-contain" />
                             ) : (
-                                <span className="text-3xl font-heading font-normal tracking-wide text-slate-900 group-hover:text-[var(--primary)] transition-colors">
-                                    {siteConfig?.site_name || 'CUSTOM MORTGAGE'}
+                                <span className="text-4xl font-heading font-black tracking-tighter text-slate-900">
+                                    CM<span className="text-[var(--primary)]">+</span>RE
                                 </span>
                             )}
                         </Link>
 
-                        {/* Desktop Navigation */}
-                        <div className="hidden lg:flex items-center space-x-1">
+                        {/* Desktop Navigation - Centered & Bold */}
+                        <div className="hidden lg:flex items-center justify-center flex-1 ml-12 space-x-8">
                             {navData?.items.map((item) => {
                                 // Sub Menu
                                 if (item.type === 'sub_menu' && item.value.items) {
                                     return (
                                         <div
                                             key={item.id}
-                                            className="relative group"
+                                            className="relative group h-full flex items-center"
                                             onMouseEnter={() => setOpenDropdown(item.id)}
                                             onMouseLeave={() => setOpenDropdown(null)}
                                         >
                                             <button
-                                                className={`px-4 py-2 text-sm font-bold uppercase tracking-wider hover:text-[var(--primary)] transition-colors flex items-center gap-1 font-heading
-                                                    ${openDropdown === item.id ? 'text-[var(--primary)]' : 'text-slate-600'}`}
+                                                className={`py-2 text-sm font-bold uppercase tracking-widest hover:text-[var(--primary)] transition-colors flex items-center gap-1 font-heading text-slate-800`}
                                             >
                                                 {item.value.title}
                                                 <svg className={`w-3 h-3 transition-transform ${openDropdown === item.id ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -98,14 +116,14 @@ export default function Header() {
 
                                             {/* Dropdown Menu */}
                                             {openDropdown === item.id && (
-                                                <div className="absolute left-0 top-full w-72 bg-white shadow-2xl rounded-b-xl overflow-hidden z-50 border-t-2 border-[var(--primary)] animate-in fade-in slide-in-from-top-2 duration-200">
-                                                    <div className="py-2">
+                                                <div className="absolute left-0 top-full pt-4 w-64 z-50">
+                                                    <div className="bg-white shadow-xl border-t-4 border-[var(--primary)] py-2">
                                                         {item.value.items.map((subItem, idx) => (
                                                             <Link
                                                                 key={idx}
                                                                 href={subItem.link_url || '#'}
                                                                 target={subItem.open_in_new_tab ? '_blank' : undefined}
-                                                                className="block px-6 py-3 text-sm text-slate-600 hover:bg-slate-50 hover:text-[var(--primary)] hover:pl-7 transition-all border-b border-slate-50 last:border-0"
+                                                                className="block px-6 py-3 text-sm text-slate-600 hover:bg-slate-50 hover:text-[var(--primary)] transition-all border-b border-gray-50 last:border-0 font-medium"
                                                             >
                                                                 {subItem.link_text}
                                                             </Link>
@@ -124,7 +142,7 @@ export default function Header() {
                                             key={item.id}
                                             href={item.value.link_url || '#'}
                                             target={item.value.open_in_new_tab ? '_blank' : undefined}
-                                            className="px-4 py-2 text-sm font-bold uppercase tracking-wider text-slate-600 hover:text-[var(--primary)] transition-colors font-heading"
+                                            className="py-2 text-sm font-bold uppercase tracking-widest text-slate-800 hover:text-[var(--primary)] transition-colors font-heading"
                                         >
                                             {item.value.link_text}
                                         </Link>
@@ -136,16 +154,16 @@ export default function Header() {
 
                         {/* Mobile Menu Button */}
                         <button
-                            className="lg:hidden p-2 text-slate-600"
+                            className="lg:hidden p-2 text-slate-800"
                             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                             aria-label="Toggle menu"
                         >
                             {mobileMenuOpen ? (
-                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                                 </svg>
                             ) : (
-                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                                 </svg>
                             )}
@@ -155,21 +173,21 @@ export default function Header() {
 
                 {/* Mobile Menu Overlay */}
                 {mobileMenuOpen && (
-                    <div className="lg:hidden bg-slate-900 border-t border-slate-800 absolute w-full h-[calc(100vh-80px)] overflow-y-auto">
+                    <div className="lg:hidden bg-white fixed inset-0 top-[115px] z-50 overflow-y-auto pb-20">
                         <div className="px-6 py-8 space-y-6">
                             {navData?.items.map((item) => {
                                 if (item.type === 'sub_menu' && item.value.items) {
                                     return (
-                                        <div key={item.id}>
+                                        <div key={item.id} className="border-b border-gray-100 pb-4">
                                             <h3 className="text-[var(--primary)] text-sm font-bold uppercase tracking-widest mb-3 font-heading">
                                                 {item.value.title}
                                             </h3>
-                                            <div className="space-y-3 pl-4 border-l border-slate-700">
+                                            <div className="space-y-3 pl-4 border-l-2 border-gray-100">
                                                 {item.value.items.map((subItem, idx) => (
                                                     <Link
                                                         key={idx}
                                                         href={subItem.link_url || '#'}
-                                                        className="block text-slate-300 hover:text-white text-base font-medium"
+                                                        className="block text-slate-600 hover:text-[var(--primary)] text-base font-medium"
                                                         onClick={() => setMobileMenuOpen(false)}
                                                     >
                                                         {subItem.link_text}
@@ -184,7 +202,7 @@ export default function Header() {
                                         <Link
                                             key={item.id}
                                             href={item.value.link_url || '#'}
-                                            className="block text-white text-xl font-heading font-normal tracking-wide hover:text-[var(--primary)]"
+                                            className="block text-slate-900 text-xl font-heading font-bold tracking-wide hover:text-[var(--primary)] border-b border-gray-100 pb-4"
                                             onClick={() => setMobileMenuOpen(false)}
                                         >
                                             {item.value.link_text}
@@ -194,10 +212,10 @@ export default function Header() {
                                 return null;
                             })}
 
-                            <div className="pt-8 mt-8 border-t border-slate-800">
+                            <div className="pt-4">
                                 <Link
                                     href="/quote"
-                                    className="block w-full text-center py-4 bg-[var(--primary)] text-white font-bold rounded-lg uppercase tracking-widest shadow-lg shadow-[var(--primary)]/20"
+                                    className="block w-full text-center py-4 bg-[var(--primary)] text-white font-bold rounded shadow-lg uppercase tracking-widest"
                                     onClick={() => setMobileMenuOpen(false)}
                                 >
                                     Get Your Quote

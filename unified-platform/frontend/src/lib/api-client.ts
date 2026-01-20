@@ -389,6 +389,7 @@ export interface NavigationMenu {
     id: number;
     name: string;
     items: NavigationItem[];
+    raw_html?: string;
 }
 
 /**
@@ -404,6 +405,7 @@ export interface SiteConfiguration {
     twitter: string;
     linkedin: string;
     instagram: string;
+    footer_raw_html?: string;
 }
 
 /**

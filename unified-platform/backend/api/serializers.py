@@ -176,10 +176,14 @@ from cms.models import NavigationMenu, SiteConfiguration
 class NavigationMenuSerializer(serializers.ModelSerializer):
     class Meta:
         model = NavigationMenu
-        fields = ['id', 'name', 'translation_key', 'locale']
+        fields = ['id', 'name', 'translation_key', 'locale', 'raw_html']
 
     def to_representation(self, instance):
         rep = super().to_representation(instance)
+        
+        # If raw_html is present, we might skip items if frontend handles it, 
+        # but let's send both just in case.
+        
         # Custom streamfield serialization
         blocks = []
         for block in instance.items:
@@ -228,7 +232,7 @@ class SiteConfigurationSerializer(serializers.ModelSerializer):
         fields = [
             'site_name', 'logo_url', 'phone_number', 'email', 'address',
             'facebook', 'twitter', 'linkedin', 'instagram',
-            'translation_key', 'locale'
+            'translation_key', 'locale', 'footer_raw_html'
         ]
 
     def get_logo_url(self, obj):

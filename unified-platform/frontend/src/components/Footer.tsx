@@ -24,51 +24,62 @@ export default function Footer() {
         fetchFooterData();
     }, []);
 
+    // Raw HTML Override
+    if (siteConfig?.footer_raw_html) {
+        return <div dangerouslySetInnerHTML={{ __html: siteConfig.footer_raw_html }} />;
+    } else if (footerMenu?.raw_html) {
+        return <div dangerouslySetInnerHTML={{ __html: footerMenu.raw_html }} />;
+    }
+
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="bg-slate-900 text-white border-t border-slate-800">
+        <footer className="bg-[#1c4b57] text-white border-t border-[#133740]">
             {/* Main Footer Content */}
             <div className="max-w-7xl mx-auto py-16 px-6">
-                <div className="grid md:grid-cols-4 gap-12">
+                <div className="grid md:grid-cols-4 gap-12 text-center md:text-left">
 
                     {/* Brand Column */}
                     <div className="col-span-1 md:col-span-1">
-                        <h3 className="text-3xl font-heading mb-6 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400">
-                            {siteConfig?.site_name || 'CUSTOM MORTGAGE'}
-                        </h3>
-                        <p className="text-slate-400 text-sm leading-relaxed mb-6">
-                            Nationwide Mortgage Lender for Commercial and Residential properties.
-                            Specializing in Non-QM, Bridge, Hard Money, and innovative financing solutions.
+                        <Link href="/" className="inline-block mb-6">
+                            {siteConfig?.logo_url ? (
+                                <img src={siteConfig.logo_url} alt={siteConfig.site_name} className="h-12 w-auto object-contain brightness-0 invert" />
+                            ) : (
+                                <span className="text-3xl font-heading font-bold tracking-wide text-white">
+                                    CM+RE
+                                </span>
+                            )}
+                        </Link>
+
+                        <p className="text-white/80 text-sm leading-relaxed mb-6 font-headings">
+                            A fintech real estate and finance agency for individuals and businesses.
+                            <br /><br />
+                            Residential • Commercial
                         </p>
-                        <div className="flex gap-4">
-                            {/* Social Icons placeholders if URL exists */}
-                            {siteConfig?.linkedin && <a href={siteConfig.linkedin} className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-[var(--primary)] transition-colors">in</a>}
-                            {siteConfig?.facebook && <a href={siteConfig.facebook} className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-[var(--primary)] transition-colors">fb</a>}
-                            {siteConfig?.instagram && <a href={siteConfig.instagram} className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-[var(--primary)] transition-colors">ig</a>}
+                        <div className="flex gap-4 justify-center md:justify-start">
+                            {siteConfig?.linkedin && <a href={siteConfig.linkedin} className="w-10 h-10 rounded-full bg-white text-[#1c4b57] flex items-center justify-center hover:bg-[#1daed4] hover:text-white transition-colors">in</a>}
+                            {siteConfig?.facebook && <a href={siteConfig.facebook} className="w-10 h-10 rounded-full bg-white text-[#1c4b57] flex items-center justify-center hover:bg-[#1daed4] hover:text-white transition-colors">fb</a>}
+                            {siteConfig?.instagram && <a href={siteConfig.instagram} className="w-10 h-10 rounded-full bg-white text-[#1c4b57] flex items-center justify-center hover:bg-[#1daed4] hover:text-white transition-colors">ig</a>}
                         </div>
                     </div>
 
                     {/* Navigation Columns (Dynamic) */}
                     {Object.keys(footerMenu?.items || {}).length > 0 ? (
-                        /* If dynamic menu items exist, we try to map them. 
-                           For footer we might expect sub_menus to be columns */
                         footerMenu?.items.map((item) => {
                             if (item.type === 'sub_menu') {
                                 return (
                                     <div key={item.id}>
-                                        <h4 className="text-lg font-heading text-white mb-6 uppercase tracking-wider border-b border-slate-800 pb-2 inline-block">
+                                        <h4 className="text-lg font-heading font-bold text-white mb-6 uppercase tracking-wider">
                                             {item.value.title}
                                         </h4>
-                                        <ul className="space-y-3 text-sm text-slate-400">
+                                        <ul className="space-y-3 text-sm text-white/80">
                                             {item.value.items?.map((subItem, idx) => (
                                                 <li key={idx}>
                                                     <Link
                                                         href={subItem.link_url || '#'}
                                                         target={subItem.open_in_new_tab ? '_blank' : undefined}
-                                                        className="hover:text-[var(--primary)] transition-colors flex items-center gap-2 group"
+                                                        className="hover:text-[#1daed4] transition-colors"
                                                     >
-                                                        <span className="w-1 h-1 rounded-full bg-slate-600 group-hover:bg-[var(--primary)] transition-colors"></span>
                                                         {subItem.link_text}
                                                     </Link>
                                                 </li>
@@ -83,19 +94,19 @@ export default function Footer() {
                         /* Fallback Static Columns if no menu found yet */
                         <>
                             <div>
-                                <h4 className="text-lg font-heading mb-6 uppercase tracking-wider">Quick Links</h4>
-                                <ul className="space-y-3 text-sm text-slate-400">
-                                    <li><Link href="/programs" className="hover:text-[var(--primary)]">Loan Programs</Link></li>
-                                    <li><Link href="/funded-loans" className="hover:text-[var(--primary)]">Recently Funded</Link></li>
-                                    <li><Link href="/quote" className="hover:text-[var(--primary)]">Get a Quote</Link></li>
+                                <h4 className="text-xl font-heading font-bold mb-6 uppercase tracking-wider">Quick Links</h4>
+                                <ul className="space-y-3 text-base text-white/90">
+                                    <li><Link href="/programs" className="hover:text-[#1daed4]">Loan Programs</Link></li>
+                                    <li><Link href="/funded-loans" className="hover:text-[#1daed4]">Recently Funded</Link></li>
+                                    <li><Link href="/quote" className="hover:text-[#1daed4]">Get a Quote</Link></li>
                                 </ul>
                             </div>
                             <div>
-                                <h4 className="text-lg font-heading mb-6 uppercase tracking-wider">Loan Types</h4>
-                                <ul className="space-y-3 text-sm text-slate-400">
-                                    <li><Link href="/programs/residential" className="hover:text-[var(--primary)]">Residential</Link></li>
-                                    <li><Link href="/programs/commercial" className="hover:text-[var(--primary)]">Commercial</Link></li>
-                                    <li><Link href="/programs/hard-money" className="hover:text-[var(--primary)]">Hard Money</Link></li>
+                                <h4 className="text-xl font-heading font-bold mb-6 uppercase tracking-wider">Info</h4>
+                                <ul className="space-y-3 text-base text-white/90">
+                                    <li><Link href="/disclaimer" className="hover:text-[#1daed4]">Disclaimer</Link></li>
+                                    <li><Link href="/support" className="hover:text-[#1daed4]">Support</Link></li>
+                                    <li><Link href="/privacy" className="hover:text-[#1daed4]">Privacy Policy</Link></li>
                                 </ul>
                             </div>
                         </>
@@ -103,42 +114,47 @@ export default function Footer() {
 
                     {/* Contact Info */}
                     <div>
-                        <h4 className="text-lg font-heading mb-6 uppercase tracking-wider">Contact Us</h4>
-                        <ul className="space-y-4 text-sm text-slate-400">
+                        <h4 className="text-xl font-heading font-bold mb-6 uppercase tracking-wider">Contact</h4>
+                        <ul className="space-y-4 text-base text-white/90">
+                            {siteConfig?.address && (
+                                <li className="flex items-start gap-3 justify-center md:justify-start">
+                                    <span className="text-[#1daed4]">📍</span>
+                                    <span className="whitespace-pre-line text-left">{siteConfig.address}</span>
+                                </li>
+                            )}
                             {siteConfig?.phone_number && (
-                                <li className="flex items-start gap-3">
-                                    <span className="text-[var(--primary)]">📞</span>
+                                <li className="flex items-start gap-3 justify-center md:justify-start">
+                                    <span className="text-[#1daed4]">📞</span>
                                     <a href={`tel:${siteConfig.phone_number}`} className="hover:text-white transition-colors">{siteConfig.phone_number}</a>
                                 </li>
                             )}
-                            {siteConfig?.email && (
-                                <li className="flex items-start gap-3">
-                                    <span className="text-[var(--primary)]">📧</span>
-                                    <a href={`mailto:${siteConfig.email}`} className="hover:text-white transition-colors">{siteConfig.email}</a>
-                                </li>
-                            )}
-                            {siteConfig?.address && (
-                                <li className="flex items-start gap-3">
-                                    <span className="text-[var(--primary)]">📍</span>
-                                    <span className="whitespace-pre-line">{siteConfig.address}</span>
-                                </li>
-                            )}
+                            <li className="flex items-start gap-3 justify-center md:justify-start">
+                                <span className="text-[#1daed4]">🕒</span>
+                                <span>Monday - Friday:<br />9:00 AM - 9:00 PM PST</span>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            {/* Bottom Bar */}
-            <div className="border-t border-slate-800 bg-slate-950/50">
-                <div className="max-w-7xl mx-auto py-6 px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500">
-                    <p>
-                        © {currentYear} {siteConfig?.site_name || 'Custom Mortgage Inc.'} | All Rights Reserved.
+            {/* Bottom Bar - Legal */}
+            <div className="bg-[#133740] py-8 px-6">
+                <div className="max-w-7xl mx-auto text-xs text-white/60 text-center space-y-4">
+                    <p className="font-bold italic">
+                        COPYRIGHT © 2001-{currentYear} CUSTOM MTG INC DBA CUSTOM MORTGAGE AND REAL ESTATE -- ** ALL INFORMATION IN THIS SITE IS DEEMED RELIABLE BUT IS NOT GUARANTEED AND IS SUBJECT TO CHANGE.
                     </p>
-                    <div className="flex gap-6">
-                        <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
-                        <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
-                        <Link href="/disclosures" className="hover:text-white transition-colors">Disclosures</Link>
+                    <p>
+                        Custom MTG Inc is not responsible for any errors or omissions in the information provided.
+                    </p>
+                    <div className="pt-4 border-t border-white/10 mt-4">
+                        <p className="uppercase tracking-wider font-bold">
+                            CUSTOM MTG INC., 16501 VENTURA BLVD STE 400, ENCINO, CA 91436 <br />
+                            CALBRE # 02018146 - NMLS # 1556995
+                        </p>
                     </div>
+                    <p className="text-[10px] opacity-50">
+                        COMMERCIAL AND HARD MONEY LOANS AVAILABLE NATIONWIDE
+                    </p>
                 </div>
             </div>
         </footer>
