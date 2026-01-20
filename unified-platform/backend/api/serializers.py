@@ -205,7 +205,8 @@ class NavigationMenuSerializer(serializers.ModelSerializer):
 
             elif block.block_type == 'sub_menu':
                 # Similar logic for items inside
-                for sub_item in val.get('items', []):
+                sub_items = list(val.get('items', []))
+                for sub_item in sub_items:
                     # sub_item is a LinkBlock value dict
                     if sub_item.get('link_page'):
                          try:
@@ -213,6 +214,10 @@ class NavigationMenuSerializer(serializers.ModelSerializer):
                          except:
                              sub_item['link_url'] = None
                          sub_item.pop('link_page', None)
+                # Overwrite with clean list
+                val = dict(val)
+                val['items'] = sub_items
+
 
             blocks.append({
                 'type': block.block_type,

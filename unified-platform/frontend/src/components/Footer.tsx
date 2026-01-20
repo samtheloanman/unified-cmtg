@@ -25,11 +25,12 @@ export default function Footer() {
     }, []);
 
     // Raw HTML Override
-    if (siteConfig?.footer_raw_html) {
+    if (siteConfig?.footer_raw_html && siteConfig.footer_raw_html.trim()) {
         return <div dangerouslySetInnerHTML={{ __html: siteConfig.footer_raw_html }} />;
-    } else if (footerMenu?.raw_html) {
+    } else if (footerMenu?.raw_html && footerMenu.raw_html.trim()) {
         return <div dangerouslySetInnerHTML={{ __html: footerMenu.raw_html }} />;
     }
+
 
     const currentYear = new Date().getFullYear();
 

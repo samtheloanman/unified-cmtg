@@ -37,7 +37,7 @@ export default function Header() {
     }
 
     // Raw HTML Override
-    if (navData?.raw_html) {
+    if (navData?.raw_html && navData.raw_html.trim()) {
         return <div dangerouslySetInnerHTML={{ __html: navData.raw_html }} />;
     }
 
