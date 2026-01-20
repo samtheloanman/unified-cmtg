@@ -58,7 +58,7 @@ export default function Header() {
                             <span>Apply Now</span>
                         </a>
 
-                        <a href="#" className="flex items-center gap-2 hover:text-white/80 transition-opacity pl-6">
+                        <a href="https://custommortgage.floify.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white/80 transition-opacity pl-6">
                             <span className="text-white text-lg">➜</span>
                             <span>Sign In</span>
                         </a>

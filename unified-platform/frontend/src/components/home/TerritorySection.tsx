@@ -74,7 +74,7 @@ export default function TerritorySection() {
                                 ))
                             ) : (
                                 <div className="p-8 text-center text-gray-500 font-mono">
-                                    NO TERRITORIES FOUND MATCHING "{searchTerm}"
+                                    NO TERRITORIES FOUND MATCHING &quot;{searchTerm}&quot;
                                 </div>
                             )}
                         </div>

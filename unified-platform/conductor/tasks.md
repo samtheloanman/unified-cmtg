@@ -91,9 +91,13 @@
 - [x] **Generate Power 5**: Create 25 perfect pages (Claude - Assigned)
 - [x] **Verify Content**: Manual QA (Claude - Assigned)
 
-### ⏳ F.5D: Logic & Launch (Antigravity)
-- [x] **Dynamic Router**: API Endpoint (Claude - Assigned)
-- [x] **Launch**: Active Pilot (Claude - Assigned)
+### ✅ F.5D: Site Links & Final Polish (Antigravity)
+- [x] Audit all site links (Header, Footer, Home)
+- [x] Fix "Sign In" link in Header
+- [x] Standardize Footer links (Privacy, Terms, About, Contact)
+- [x] Enhance Frontend catch-all route to handle standard Wagtail pages
+- [x] Create stub pages in Wagtail for missing core content
+- [x] Final end-to-end verification of site navigation
 
 ---
 

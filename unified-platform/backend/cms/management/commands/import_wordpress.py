@@ -109,6 +109,9 @@ class Command(BaseCommand):
         # Create new
         img = Image(title=filename)
         img.file.name = relative_path
+        # Set dummy dimensions to avoid IntegrityError if image file isn't physically read by Wagtail
+        img.width = 800
+        img.height = 600
         img.save()
         return img
 

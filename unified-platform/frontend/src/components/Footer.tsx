@@ -107,8 +107,8 @@ export default function Footer() {
                             <div className="md:col-span-2">
                                 <h4 className="text-xl font-bold text-[#1daed4] mb-8 uppercase tracking-widest font-heading" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>Company</h4>
                                 <ul className="space-y-4 text-xs font-bold tracking-wide uppercase text-white/70">
-                                    <li><Link href="/about" className="hover:text-white hover:translate-x-1 inline-block transition-all">About Us</Link></li>
-                                    <li><Link href="/contact" className="hover:text-white hover:translate-x-1 inline-block transition-all">Contact</Link></li>
+                                    <li><Link href="/about-us-cmre" className="hover:text-white hover:translate-x-1 inline-block transition-all">About Us</Link></li>
+                                    <li><Link href="/contact-us" className="hover:text-white hover:translate-x-1 inline-block transition-all">Contact</Link></li>
                                     <li><Link href="/careers" className="hover:text-white hover:translate-x-1 inline-block transition-all">Careers</Link></li>
                                 </ul>
                             </div>
@@ -151,9 +151,9 @@ export default function Footer() {
                         © 2001-{currentYear} Custom MTG Inc. All Rights Reserved.
                     </p>
                     <div className="flex gap-6">
-                        <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
-                        <Link href="/terms" className="hover:text-white transition-colors">Terms of Use</Link>
-                        <Link href="/licensing" className="hover:text-white transition-colors">Licensing</Link>
+                        <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
+                        <Link href="/terms-of-use" className="hover:text-white transition-colors">Terms of Use</Link>
+                        <Link href="/disclosures-licenses" className="hover:text-white transition-colors">Licensing</Link>
                     </div>
                 </div>
                 <div className="max-w-7xl mx-auto mt-6 text-[9px] text-white/20 text-center leading-relaxed">

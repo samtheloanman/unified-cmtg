@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { getLocationBySlug, getLocations, getStateName } from '@/lib/locations-api';
 
 interface Props {
-    params: { slug: string };
+    params: Promise<{ slug: string }>;
 }
 
 export async function generateStaticParams() {
@@ -20,20 +20,32 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-    const location = await getLocationBySlug(params.slug);
+    try {
+        const { slug } = await params;
+        const location = await getLocationBySlug(slug);
 
-    if (!location) {
-        return { title: 'Location Not Found' };
+        if (!location) {
+            return { title: 'Location Not Found' };
+        }
+
+        return {
+            title: `${location.city}, ${location.state} | Custom Mortgage`,
+            description: `Contact Custom Mortgage in ${location.city}, ${getStateName(location.state)}. Address: ${location.address}. Phone: ${location.phone}`,
+        };
+    } catch (error) {
+        console.error('Failed to fetch location metadata:', error);
+        return { title: 'Location | Custom Mortgage' };
     }
-
-    return {
-        title: `${location.city}, ${location.state} | Custom Mortgage`,
-        description: `Contact Custom Mortgage in ${location.city}, ${getStateName(location.state)}. Address: ${location.address}. Phone: ${location.phone}`,
-    };
 }
 
 export default async function LocationDetailPage({ params }: Props) {
-    const location = await getLocationBySlug(params.slug);
+    let location = null;
+    try {
+        const { slug } = await params;
+        location = await getLocationBySlug(slug);
+    } catch (error) {
+        console.error('Failed to fetch location detail:', error);
+    }
 
     if (!location) {
         notFound();

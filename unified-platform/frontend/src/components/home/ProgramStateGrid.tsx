@@ -52,7 +52,7 @@ export default function ProgramStateGrid() {
                                 </tr>
                             </thead>
                             <tbody className="text-sm font-bold text-gray-700">
-                                {filteredData.map((row, idx) => (
+                                {filteredData.map((row) => (
                                     <tr key={row.state} className="border-b border-gray-100 hover:bg-gray-50 transition-colors group">
                                         <td className="p-4 border-r border-gray-100 group-hover:text-[#1daed4]">{row.state}</td>
                                         <td className="p-4 border-r border-gray-100">
@@ -73,7 +73,7 @@ export default function ProgramStateGrid() {
                         </table>
                         {filteredData.length === 0 && (
                             <div className="p-8 text-center text-gray-500 font-mono">
-                                NO STATES FOUND MATCHING "{searchTerm}"
+                                NO STATES FOUND MATCHING &quot;{searchTerm}&quot;
                             </div>
                         )}
                     </div>

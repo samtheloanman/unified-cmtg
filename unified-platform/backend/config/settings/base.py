@@ -110,7 +110,7 @@ import dj_database_url
 
 DATABASES = {
     'default': dj_database_url.config(
-        default=env('DATABASE_URL', default='postgres://postgres:postgres@db:5432/unified_cmtg'),
+        default=env('DATABASE_URL', default=f'sqlite:///{BASE_DIR}/db.sqlite3'),
         conn_max_age=600,
     )
 }

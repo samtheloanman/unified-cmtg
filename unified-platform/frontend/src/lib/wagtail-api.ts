@@ -177,7 +177,8 @@ export async function getPages<T extends WagtailPage>(
 
   // Cleanup params to remove 'limit' so we don't send >20 to API (which causes 400)
   // We manage the total limit client-side by aggregating batches
-  const { limit: _unused, ...queryParams } = params || {};
+  const { limit: _limit, ...queryParams } = params || {};
+  void _limit;
 
   while (true) {
     const searchParams = new URLSearchParams({
@@ -188,9 +189,15 @@ export async function getPages<T extends WagtailPage>(
       ...queryParams,
     });
 
-    const response = await fetch(`${WAGTAIL_API}/pages/?${searchParams}`, {
-      next: { revalidate: 60 }, // ISR: revalidate every 60 seconds
-    });
+    let response: Response;
+    try {
+      response = await fetch(`${WAGTAIL_API}/pages/?${searchParams}`, {
+        next: { revalidate: 60 }, // ISR: revalidate every 60 seconds
+      });
+    } catch (error) {
+      console.error(`Fetch error in getPages:`, error);
+      break;
+    }
 
     if (!response.ok) {
       console.error(`Failed to fetch pages: ${response.status} ${response.statusText}`);
@@ -230,9 +237,15 @@ export async function getPageBySlug<T extends WagtailPage>(
     searchParams.append('type', type);
   }
 
-  const response = await fetch(`${WAGTAIL_API}/pages/?${searchParams}`, {
-    next: { revalidate: 60 },
-  });
+  let response: Response;
+  try {
+    response = await fetch(`${WAGTAIL_API}/pages/?${searchParams}`, {
+      next: { revalidate: 60 },
+    });
+  } catch (error) {
+    console.error(`Fetch error in getPageBySlug:`, error);
+    return null;
+  }
 
   if (!response.ok) {
     console.error(`Failed to fetch page by slug: ${response.status}`);
@@ -247,9 +260,15 @@ export async function getPageBySlug<T extends WagtailPage>(
  * Fetch a single page by ID
  */
 export async function getPageById<T extends WagtailPage>(id: number): Promise<T | null> {
-  const response = await fetch(`${WAGTAIL_API}/pages/${id}/?fields=*`, {
-    next: { revalidate: 60 },
-  });
+  let response: Response;
+  try {
+    response = await fetch(`${WAGTAIL_API}/pages/${id}/?fields=*`, {
+      next: { revalidate: 60 },
+    });
+  } catch (error) {
+    console.error(`Fetch error in getPageById:`, error);
+    return null;
+  }
 
   if (!response.ok) {
     console.error(`Failed to fetch page by ID: ${response.status}`);
@@ -349,7 +368,7 @@ export function formatLoanAmount(amount: string | null): string {
 
 export interface RouterResponse {
   type: string; // 'program_location' | 'other'
-  data: any;
+  data: unknown;
 }
 
 /**
