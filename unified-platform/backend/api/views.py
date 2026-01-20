@@ -676,3 +676,37 @@ class QualifyView(APIView):
     def _calculate_match_score(self, program, data):
         from loans.services.matching import MatchingService
         return MatchingService.calculate_match_score(program, data)
+
+
+# ============================================================================
+# CMS / Snippets
+# ============================================================================
+from cms.models import NavigationMenu, SiteConfiguration
+from .serializers import NavigationMenuSerializer, SiteConfigurationSerializer
+
+@api_view(['GET'])
+@permission_classes([AllowAny])
+def navigation_menu_detail(request, name):
+    """
+    GET /api/v1/navigation/<name>/
+    Retrieve a navigation menu by name (e.g. 'Main Header').
+    """
+    try:
+        # Case insensitive match
+        menu = NavigationMenu.objects.get(name__iexact=name)
+        return Response(NavigationMenuSerializer(menu).data)
+    except NavigationMenu.DoesNotExist:
+        return Response({'error': 'Menu not found'}, status=status.HTTP_404_NOT_FOUND)
+
+@api_view(['GET'])
+@permission_classes([AllowAny])
+def site_configuration(request):
+    """
+    GET /api/v1/site-config/
+    Retrieve the singleton site configuration.
+    """
+    # Assuming one config, or get the first one
+    config = SiteConfiguration.objects.first()
+    if not config:
+        return Response({})
+    return Response(SiteConfigurationSerializer(config).data)

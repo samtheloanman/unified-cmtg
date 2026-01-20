@@ -28,4 +28,8 @@ urlpatterns = [
     
     # Open LOS API
     path('', include(router.urls)),
+
+    # CMS Snippets
+    path('navigation/<str:name>/', views.navigation_menu_detail, name='navigation_detail'),
+    path('site-config/', views.site_configuration, name='site_configuration'),
 ]

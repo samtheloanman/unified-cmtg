@@ -170,3 +170,69 @@ class QualificationResultSerializer(serializers.Serializer):
     total_matches = serializers.IntegerField()
     calculated_ltv = serializers.FloatField()
 
+
+from cms.models import NavigationMenu, SiteConfiguration
+
+class NavigationMenuSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = NavigationMenu
+        fields = ['id', 'name', 'translation_key', 'locale']
+
+    def to_representation(self, instance):
+        rep = super().to_representation(instance)
+        # Custom streamfield serialization
+        blocks = []
+        for block in instance.items:
+            # StructBlock values are dicts, already serializable usually
+            # But Pages in PageChoosers need handling if present (LinkBlock has page chooser)
+            
+            val = block.value
+            # For LinkBlock, handle page link
+            if block.block_type == 'link':
+                if val.get('link_page'):
+                    # val['link_page'] is a Page object or ID depending on context, usually Page object in python
+                    # We want the url
+                    try:
+                        val['link_url'] = val['link_page'].url
+                    except:
+                         val['link_url'] = None
+                    # Remove the page object from dict to make it serializable
+                    val.pop('link_page', None)
+
+            elif block.block_type == 'sub_menu':
+                # Similar logic for items inside
+                for sub_item in val.get('items', []):
+                    # sub_item is a LinkBlock value dict
+                    if sub_item.get('link_page'):
+                         try:
+                             sub_item['link_url'] = sub_item['link_page'].url
+                         except:
+                             sub_item['link_url'] = None
+                         sub_item.pop('link_page', None)
+
+            blocks.append({
+                'type': block.block_type,
+                'value': val,
+                'id': getattr(block, 'id', None),
+            })
+        
+        rep['items'] = blocks
+        return rep
+
+
+class SiteConfigurationSerializer(serializers.ModelSerializer):
+    logo_url = serializers.SerializerMethodField()
+    
+    class Meta:
+        model = SiteConfiguration
+        fields = [
+            'site_name', 'logo_url', 'phone_number', 'email', 'address',
+            'facebook', 'twitter', 'linkedin', 'instagram',
+            'translation_key', 'locale'
+        ]
+
+    def get_logo_url(self, obj):
+        if obj.logo:
+            return obj.logo.file.url
+        return None
+
