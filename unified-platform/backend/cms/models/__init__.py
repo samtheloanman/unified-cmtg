@@ -1,4 +1,4 @@
-from .legacy import HomePage, StandardPage, LegacyIndexPage, LegacyRecreatedPage
+from .legacy import HomePage, StandardPage, LegacyIndexPage, LegacyRecreatedPage, FeaturedProgram
 from .programs import ProgramIndexPage, ProgramPage
 from .funded_loans import FundedLoanIndexPage, FundedLoanPage
 from .blog import BlogIndexPage, BlogPage

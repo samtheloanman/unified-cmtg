@@ -4,6 +4,11 @@ from wagtail.fields import RichTextField
 from wagtail.admin.panels import FieldPanel, MultiFieldPanel
 from wagtail.api import APIField
 from wagtail.images.models import Image
+from modelcluster.fields import ParentalKey
+from wagtail.models import Page, Orderable
+from django.db import models
+from wagtail.admin.panels import FieldPanel, MultiFieldPanel, InlinePanel
+
 
 # =============================================================================
 # HOME PAGE
@@ -22,17 +27,38 @@ class HomePage(Page):
             FieldPanel('hero_cta_text'),
             FieldPanel('hero_cta_url'),
         ], heading="Hero Section"),
+        InlinePanel('featured_programs', label="Featured Programs"),
     ]
+
 
     api_fields = [
         APIField('hero_title'),
         APIField('hero_subtitle'),
         APIField('hero_cta_text'),
         APIField('hero_cta_url'),
+        APIField('featured_programs'),
     ]
+
 
     subpage_types = ['cms.ProgramIndexPage', 'cms.StandardPage', 'cms.FundedLoanIndexPage', 'cms.LegacyIndexPage', 'cms.LocationIndexPage']
     max_count = 1
+
+class FeaturedProgram(Orderable):
+    page = ParentalKey(HomePage, on_delete=models.CASCADE, related_name='featured_programs')
+    program = models.ForeignKey(
+        'cms.ProgramPage',
+        on_delete=models.CASCADE,
+        related_name='+'
+    )
+
+    panels = [
+        FieldPanel('program'),
+    ]
+
+    api_fields = [
+        APIField('program'),
+    ]
+
 
 
 # =============================================================================

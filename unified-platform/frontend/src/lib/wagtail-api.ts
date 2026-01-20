@@ -224,7 +224,7 @@ export async function getHomePage(): Promise<HomePage | null> {
  * Get all program pages
  */
 export async function getProgramPages(): Promise<CMSProgramPage[]> {
-  return getPages<CMSProgramPage>('cms.ProgramPage');
+  return getPages<CMSProgramPage>('cms.ProgramPage', { limit: '200' });
 }
 
 /**
