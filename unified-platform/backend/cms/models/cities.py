@@ -14,18 +14,23 @@ class City(models.Model):
     median_income = models.IntegerField(null=True, blank=True)
     
     # SEO
-    slug = models.SlugField(unique=True)
+    slug = models.SlugField()
     
     # Phased Rollout
-    priority = models.IntegerField(default=0, help_text="Higher number = higher priority")
+    priority = models.IntegerField(default=999, help_text="Lower number = higher priority")
     launched_at = models.DateTimeField(null=True, blank=True)
     
     class Meta:
         verbose_name_plural = "Cities"
+        unique_together = ('slug', 'state')
         indexes = [
-            models.Index(fields=['state']),
-            models.Index(fields=['slug']),
+            models.Index(fields=['state', 'slug']),
+            models.Index(fields=['priority']),
         ]
 
     def __str__(self):
         return f"{self.name}, {self.state}"
+    
+    @property
+    def is_launched(self):
+        return self.launched_at is not None
