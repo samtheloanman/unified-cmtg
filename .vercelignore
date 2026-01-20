@@ -1,0 +1,25 @@
+legacy/
+**/legacy/
+node_modules/
+.venv/
+venv/
+**/node_modules/
+**/venv/
+.git/
+.github/
+.conductor-state/
+.ralph-loop-*
+unified-platform/backend/
+unified-platform/conductor/
+unified-platform/dashboard/
+unified-platform/docs/
+unified-platform/scripts/
+unified-platform/tools/
+unified-platform/venv/
+unified-platform/media/
+unified-platform/staticfiles/
+unified-platform/.pytest_cache/
+unified-platform/__pycache__/
+unified-platform/db.sqlite3
+# Only keep frontend
+!unified-platform/frontend/

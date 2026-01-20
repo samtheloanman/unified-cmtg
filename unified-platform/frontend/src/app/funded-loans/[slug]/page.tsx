@@ -25,26 +25,31 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-    const { slug } = await params;
-    const loan = await getFundedLoanBySlug(slug);
+    try {
+        const { slug } = await params;
+        const loan = await getFundedLoanBySlug(slug);
 
-    if (!loan) {
-        return { title: 'Loan Not Found | Custom Mortgage' };
-    }
+        if (!loan) {
+            return { title: 'Loan Not Found | Custom Mortgage' };
+        }
 
-    const description =
-        loan.description?.replace(/<[^>]*>/g, '').slice(0, 160) ||
-        `Funded loan case study: ${loan.title} in ${loan.location || 'US'}.`;
+        const description =
+            loan.description?.replace(/<[^>]*>/g, '').slice(0, 160) ||
+            `Funded loan case study: ${loan.title} in ${loan.location || 'US'}.`;
 
-    return {
-        title: `${loan.title} | Funded Loans`,
-        description,
-        openGraph: {
+        return {
             title: `${loan.title} | Funded Loans`,
             description,
-            type: 'article',
-        },
-    };
+            openGraph: {
+                title: `${loan.title} | Funded Loans`,
+                description,
+                type: 'article',
+            },
+        };
+    } catch (error) {
+        console.error('Failed to fetch funded loan metadata:', error);
+        return { title: 'Funded Loan | Custom Mortgage' };
+    }
 }
 
 function RichTextContent({ html, className }: { html: string; className?: string }) {

@@ -34,26 +34,31 @@ export async function generateStaticParams() {
  * Generate metadata for SEO
  */
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params;
-  const program = await getProgramBySlug(slug);
+  try {
+    const { slug } = await params;
+    const program = await getProgramBySlug(slug);
 
-  if (!program) {
-    return { title: 'Program Not Found | Custom Mortgage' };
-  }
+    if (!program) {
+      return { title: 'Program Not Found | Custom Mortgage' };
+    }
 
-  const description =
-    program.mortgage_program_highlights?.replace(/<[^>]*>/g, '').slice(0, 160) ||
-    `Learn about ${program.title} from Custom Mortgage. Competitive rates and expert service.`;
+    const description =
+      program.mortgage_program_highlights?.replace(/<[^>]*>/g, '').slice(0, 160) ||
+      `Learn about ${program.title} from Custom Mortgage. Competitive rates and expert service.`;
 
-  return {
-    title: `${program.title} | Custom Mortgage`,
-    description,
-    openGraph: {
+    return {
       title: `${program.title} | Custom Mortgage`,
       description,
-      type: 'website',
-    },
-  };
+      openGraph: {
+        title: `${program.title} | Custom Mortgage`,
+        description,
+        type: 'website',
+      },
+    };
+  } catch (error) {
+    console.error('Failed to fetch program metadata:', error);
+    return { title: 'Program | Custom Mortgage' };
+  }
 }
 
 /**
@@ -96,8 +101,13 @@ function RichTextContent({ html, className }: { html: string; className?: string
 }
 
 export default async function ProgramDetailPage({ params }: Props) {
-  const { slug } = await params;
-  const program = await getProgramBySlug(slug);
+  let program = null;
+  try {
+    const { slug } = await params;
+    program = await getProgramBySlug(slug);
+  } catch (error) {
+    console.error('Failed to fetch program detail:', error);
+  }
 
   if (!program) {
     notFound();

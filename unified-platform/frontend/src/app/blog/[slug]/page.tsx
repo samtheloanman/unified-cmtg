@@ -7,11 +7,6 @@ interface Props {
   params: Promise<{ slug: string }>;
 }
 
-/**
- * Generate static paths for all blog posts at build time
- * Returns empty array if API is unavailable (e.g., during Vercel build)
- * Pages will be generated on-demand instead
- */
 export async function generateStaticParams() {
   try {
     const posts = await getBlogPages();
@@ -28,28 +23,33 @@ export async function generateStaticParams() {
  * Generate metadata for SEO
  */
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params;
-  const post = await getBlogBySlug(slug);
+  try {
+    const { slug } = await params;
+    const post = await getBlogBySlug(slug);
 
-  if (!post) {
-    return { title: 'Post Not Found | Custom Mortgage' };
-  }
+    if (!post) {
+      return { title: 'Post Not Found | Custom Mortgage' };
+    }
 
-  const description =
-    post.intro?.replace(/<[^>]*>/g, '').slice(0, 160) ||
-    `Read ${post.title} on the Custom Mortgage blog.`;
+    const description =
+      post.intro?.replace(/<[^>]*>/g, '').slice(0, 160) ||
+      `Read ${post.title} on the Custom Mortgage blog.`;
 
-  return {
-    title: `${post.title} | Custom Mortgage Blog`,
-    description,
-    openGraph: {
+    return {
       title: `${post.title} | Custom Mortgage Blog`,
       description,
-      type: 'article',
-      publishedTime: post.date,
-      authors: post.author ? [post.author] : undefined,
-    },
-  };
+      openGraph: {
+        title: `${post.title} | Custom Mortgage Blog`,
+        description,
+        type: 'article',
+        publishedTime: post.date,
+        authors: post.author ? [post.author] : undefined,
+      },
+    };
+  } catch (error) {
+    console.error('Failed to fetch blog metadata:', error);
+    return { title: 'Blog | Custom Mortgage' };
+  }
 }
 
 /**

@@ -36,3 +36,5 @@ env/
 .env.production.local
 ratesheet_cache/
 dashboard-data.json
+.vercel
+.env*.local
