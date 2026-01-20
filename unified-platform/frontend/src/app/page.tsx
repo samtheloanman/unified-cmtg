@@ -35,7 +35,7 @@ export default async function Home() {
             dangerouslySetInnerHTML={{ __html: homePage?.hero_subtitle || "<p>FinTech Financing Solutions Tailored for Your Unique Needs</p>" }} />
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/quote"
+            <Link href={homePage?.hero_cta_url || "/quote"}
               className="inline-block bg-white text-[#1daed4] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg"
               style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
               {homePage?.hero_cta_text || "Get Your Quote"}
