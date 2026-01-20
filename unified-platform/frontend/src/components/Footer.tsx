@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { apiClient, SiteConfiguration, NavigationMenu } from '@/lib/api-client';
 
@@ -43,14 +44,15 @@ export default function Footer() {
                     {/* Brand Column (Span 4) */}
                     <div className="md:col-span-4">
                         <Link href="/" className="inline-block mb-8">
-                            {siteConfig?.logo_url ? (
-                                <img src={siteConfig.logo_url} alt={siteConfig.site_name} className="h-16 w-auto object-contain brightness-0 invert" />
-                            ) : (
-                                <div className="text-4xl font-heading font-black tracking-tighter text-white uppercase leading-none" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>
-                                    Custom<span className="text-[#1daed4]">Mtg</span><br />
-                                    <span className="text-lg tracking-[0.2em] opacity-50">Inc.</span>
-                                </div>
-                            )}
+                            <div className="relative">
+                                <Image
+                                    src="/assets/logo-white.png"
+                                    alt="Custom Mortgage + Real Estate"
+                                    width={260}
+                                    height={80}
+                                    className="h-20 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity"
+                                />
+                            </div>
                         </Link>
 
                         <p className="text-white/60 text-sm leading-relaxed mb-8 max-w-sm">

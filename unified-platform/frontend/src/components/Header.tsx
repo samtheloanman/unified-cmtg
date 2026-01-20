@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { apiClient, NavigationMenu, SiteConfiguration } from '@/lib/api-client';
 
@@ -84,14 +85,14 @@ export default function Header() {
                     <div className="flex justify-between items-center h-24">
                         {/* Logo */}
                         <Link href="/" className="flex items-center shrink-0">
-                            {siteConfig?.logo_url ? (
-                                <img src={siteConfig.logo_url} alt={siteConfig.site_name} className="h-16 w-auto object-contain" />
-                            ) : (
-                                <div className="text-4xl font-heading font-black tracking-tighter text-[#0f2933] uppercase leading-none" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>
-                                    Custom<span className="text-[#1daed4]">Mtg</span><br />
-                                    <span className="text-lg tracking-[0.2em] text-[#636363]">Inc.</span>
-                                </div>
-                            )}
+                            <Image
+                                src="/assets/logo-color.png"
+                                alt="Custom Mortgage + Real Estate"
+                                width={240}
+                                height={64}
+                                className="h-16 w-auto object-contain"
+                                priority
+                            />
                         </Link>
 
                         {/* Desktop Navigation - Centered & Bold */}

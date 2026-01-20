@@ -2,25 +2,32 @@
 
 :root {
   /* designOS Premium Brand Colors */
-  --primary: #1daed4;          /* Cyan */
-  --primary-dark: #158ca8;     /* Darker Cyan */
-  --accent: #2c2c2c;           /* Deep Charcoal */
-  --secondary: #a5a5a5;        /* Light Gray */
-  
+  --primary: #1daed4;
+  /* Cyan (Style Guide) */
+  --primary-dark: #158ca8;
+  /* Darker Cyan */
+  --accent: #636363;
+  /* Dark Gray (Style Guide) */
+  --secondary: #a5a5a5;
+  /* Light Gray (Style Guide) */
+
   /* Backgrounds */
   --background: #ffffff;
-  --background-dark: #0f172a;  /* Slate 900 */
+  --background-dark: #0f2933;
+  /* Deep Obsidian (Production Match) */
   --surface: #f8fafc;
-  
+
   /* Text */
-  --foreground: #334155;       /* Slate 700 */
-  --foreground-dark: #e2e8f0;  /* Slate 200 */
+  --foreground: #636363;
+  /* Slate 700 -> Dark Gray per Style Guide */
+  --foreground-dark: #e2e8f0;
+  /* Slate 200 */
 
   /* Glassmorphism */
   --glass-bg: rgba(255, 255, 255, 0.7);
   --glass-border: rgba(255, 255, 255, 0.5);
   --glass-blur: 12px;
-  
+
   /* Gradients */
   --gradient-primary: linear-gradient(135deg, #1daed4 0%, #0e7490 100%);
   --gradient-dark: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
@@ -33,7 +40,7 @@
   --color-secondary: var(--secondary);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  
+
   --font-sans: 'Lato', system-ui, sans-serif;
   --font-heading: 'Bebas Neue', 'Arial Narrow', sans-serif;
 }
@@ -47,10 +54,16 @@ body {
 }
 
 /* Typography Overrides */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
   letter-spacing: 0.05em;
-  font-weight: 400; /* Bebas is naturally bold/thick */
+  font-weight: 400;
+  /* Bebas is naturally bold/thick */
 }
 
 /* Utility Classes for Fonts */
