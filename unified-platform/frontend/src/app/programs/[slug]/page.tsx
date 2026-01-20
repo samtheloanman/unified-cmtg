@@ -134,7 +134,6 @@ export default async function ProgramDetailPage({ params }: Props) {
                 </p>
                 <h2
                   className="text-5xl font-bold text-[#636363] mb-4"
-                  style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
                 >
                   {program.title}
                 </h2>
@@ -146,8 +145,7 @@ export default async function ProgramDetailPage({ params }: Props) {
               </div>
               <Link
                 href="/quote"
-                className="inline-block bg-[#1daed4] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#17a0c4] transition-colors shadow-lg text-center"
-                style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
+                className="inline-block bg-[#1daed4] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#17a0c4] transition-colors shadow-lg text-center font-heading"
               >
                 Get Your Quote
               </Link>
@@ -204,7 +202,7 @@ export default async function ProgramDetailPage({ params }: Props) {
         {/* Detailed Specifications */}
         <div className="max-w-7xl mx-auto pb-8 px-6">
           <div className="bg-white border text-[#636363] border-gray-200 rounded-xl p-8 shadow-sm">
-            <h3 className="text-3xl font-bold text-[#636363] mb-8" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+            <h3 className="text-3xl font-bold text-[#636363] mb-8">
               Program Specifications
             </h3>
             <div className="grid md:grid-cols-3 gap-8">
@@ -343,7 +341,6 @@ export default async function ProgramDetailPage({ params }: Props) {
                 <section>
                   <h3
                     className="text-3xl font-bold text-[#636363] mb-6 border-l-4 border-[#1daed4] pl-4"
-                    style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
                   >
                     Program Highlights
                   </h3>
@@ -356,7 +353,6 @@ export default async function ProgramDetailPage({ params }: Props) {
                 <section>
                   <h3
                     className="text-3xl font-bold text-[#636363] mb-6 border-l-4 border-[#1daed4] pl-4"
-                    style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
                   >
                     What Are {program.title}?
                   </h3>
@@ -369,7 +365,6 @@ export default async function ProgramDetailPage({ params }: Props) {
                 <section>
                   <h3
                     className="text-3xl font-bold text-[#636363] mb-6 border-l-4 border-[#1daed4] pl-4"
-                    style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
                   >
                     Program Details
                   </h3>
@@ -382,7 +377,6 @@ export default async function ProgramDetailPage({ params }: Props) {
                 <section>
                   <h3
                     className="text-3xl font-bold text-[#636363] mb-6 border-l-4 border-[#1daed4] pl-4"
-                    style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
                   >
                     Benefits
                   </h3>
@@ -395,7 +389,6 @@ export default async function ProgramDetailPage({ params }: Props) {
                 <section>
                   <h3
                     className="text-3xl font-bold text-[#636363] mb-6 border-l-4 border-[#1daed4] pl-4"
-                    style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
                   >
                     Requirements
                   </h3>
@@ -408,7 +401,6 @@ export default async function ProgramDetailPage({ params }: Props) {
                 <section>
                   <h3
                     className="text-3xl font-bold text-[#636363] mb-6 border-l-4 border-[#1daed4] pl-4"
-                    style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
                   >
                     How to Qualify
                   </h3>
@@ -421,7 +413,6 @@ export default async function ProgramDetailPage({ params }: Props) {
                 <section className="bg-gray-50 rounded-xl p-8 border border-gray-200">
                   <h3
                     className="text-3xl font-bold text-[#636363] mb-8"
-                    style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
                   >
                     Frequently Asked Questions
                   </h3>
@@ -446,7 +437,6 @@ export default async function ProgramDetailPage({ params }: Props) {
                 <div className="bg-[#636363] text-white rounded-xl p-8 shadow-lg">
                   <h4
                     className="text-2xl font-bold mb-4"
-                    style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
                   >
                     Speak with an Expert
                   </h4>
@@ -455,15 +445,13 @@ export default async function ProgramDetailPage({ params }: Props) {
                   </p>
                   <Link
                     href="/quote"
-                    className="block w-full text-center py-4 bg-[#1daed4] text-white font-bold rounded-lg hover:bg-[#17a0c4] transition-colors shadow-md"
-                    style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
+                    className="block w-full text-center py-4 bg-[#1daed4] text-white font-bold rounded-lg hover:bg-[#17a0c4] transition-colors shadow-md font-heading"
                   >
                     Get Started
                   </Link>
                   <a
                     href="tel:8779765669"
-                    className="block w-full text-center py-4 mt-4 bg-transparent border-2 border-white/30 text-white font-bold rounded-lg hover:bg-white/10 transition-colors"
-                    style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
+                    className="block w-full text-center py-4 mt-4 bg-transparent border-2 border-white/30 text-white font-bold rounded-lg hover:bg-white/10 transition-colors font-heading"
                   >
                     Call (877) 976-5669
                   </a>
@@ -474,7 +462,6 @@ export default async function ProgramDetailPage({ params }: Props) {
                   <div className="bg-white border-2 border-gray-100 rounded-xl p-6 shadow-sm">
                     <h4
                       className="text-xl font-bold text-[#636363] mb-4"
-                      style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
                     >
                       Eligible Properties
                     </h4>
@@ -498,7 +485,7 @@ export default async function ProgramDetailPage({ params }: Props) {
         {/* Final CTA */}
         <section className="py-20 px-6 bg-[#636363] text-white">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Nationwide {program.title} Lending
             </h2>
             <p className="text-xl mb-10 opacity-90">
@@ -506,8 +493,7 @@ export default async function ProgramDetailPage({ params }: Props) {
               Our technology-driven approach ensures faster approvals and competitive rates.
             </p>
             <Link href="/quote"
-              className="inline-block bg-[#1daed4] text-white px-10 py-5 rounded-lg font-bold text-xl hover:bg-[#17a0c4] transition-colors shadow-xl"
-              style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+              className="inline-block bg-[#1daed4] text-white px-10 py-5 rounded-lg font-bold text-xl hover:bg-[#17a0c4] transition-colors shadow-xl font-heading">
               Get Your Custom Quote
             </Link>
           </div>

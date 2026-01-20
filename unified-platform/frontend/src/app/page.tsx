@@ -27,7 +27,7 @@ export default async function Home() {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-[#1daed4] to-[#17a0c4] text-white py-20 px-6">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+          <h1 className="text-5xl md:text-6xl font-bold mb-4 font-heading">
             {homePage?.hero_title || "Custom Mortgage – Nationwide Lender"}
           </h1>
 
@@ -36,13 +36,11 @@ export default async function Home() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href={homePage?.hero_cta_url || "/quote"}
-              className="inline-block bg-white text-[#1daed4] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg"
-              style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+              className="inline-block bg-white text-[#1daed4] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg font-heading">
               {homePage?.hero_cta_text || "Get Your Quote"}
             </Link>
             <a href="https://custommortgage.floify.com/" target="_blank" rel="noopener noreferrer"
-              className="inline-block border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors"
-              style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+              className="inline-block border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors font-heading">
               Start Application
             </a>
           </div>
@@ -52,7 +50,7 @@ export default async function Home() {
       {/* Program Type Cards */}
       <section className="py-16 px-6 bg-gray-50">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#636363] mb-12" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#636363] mb-12">
             Loan Programs
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -60,7 +58,7 @@ export default async function Home() {
               <Link key={program.name} href={program.href}
                 className="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow border border-gray-100 text-center group">
                 <div className="text-4xl mb-3">{program.icon}</div>
-                <h3 className="text-lg font-bold text-[#636363] group-hover:text-[#1daed4] transition-colors" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+                <h3 className="text-lg font-bold text-[#636363] group-hover:text-[#1daed4] transition-colors">
                   {program.name}
                 </h3>
                 <p className="text-sm text-gray-500 mt-2">{program.description}</p>
@@ -79,14 +77,14 @@ export default async function Home() {
       {programs.length > 0 && (
         <section className="py-16 px-6 bg-white">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-[#636363] mb-8" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+            <h2 className="text-3xl md:text-4xl font-bold text-center text-[#636363] mb-8">
               Featured Loan Programs
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {programs.map((program) => (
                 <Link key={program.id} href={`/programs/${program.meta.slug}`}
                   className="block bg-gray-50 rounded-lg p-6 hover:bg-[#1daed4]/10 transition-colors border border-gray-200">
-                  <h3 className="text-lg font-bold text-[#636363]" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+                  <h3 className="text-lg font-bold text-[#636363]">
                     {program.title}
                   </h3>
                   <span className="text-[#1daed4] text-sm mt-2 inline-block">Learn More →</span>
@@ -100,7 +98,7 @@ export default async function Home() {
       {/* Recently Funded Section */}
       <section className="py-16 px-6 bg-[#636363] text-white">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
             Recently Funded
           </h2>
           {fundedLoans.length > 0 ? (
@@ -128,12 +126,12 @@ export default async function Home() {
       <section className="py-16 px-6 bg-white">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-[#636363] mb-6" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#636363] mb-6">
               A FinTech Real Estate and Finance Agency
             </h2>
             <p className="text-gray-600 mb-4">
               We combine industry expertise with a FinTech approach to meet all your real estate and financial needs.
-              Whether you're looking to secure the perfect mortgage, invest in a new property, or refinance an existing loan,
+              Whether you&apos;re looking to secure the perfect mortgage, invest in a new property, or refinance an existing loan,
               our team of professionals is here to guide you every step of the way.
             </p>
             <a href="tel:8779765669" className="inline-block bg-[#1daed4] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#17a0c4] transition-colors">
@@ -164,15 +162,14 @@ export default async function Home() {
       {/* CTA Section */}
       <section className="py-16 px-6 bg-[#1daed4] text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-4" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+          <h2 className="text-4xl font-bold mb-4 font-heading">
             Ready to Get Started?
           </h2>
           <p className="text-xl mb-8 opacity-90">
             Get a personalized mortgage quote in minutes. Our expert team is ready to help you find the perfect financing solution.
           </p>
           <Link href="/quote"
-            className="inline-block bg-white text-[#1daed4] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg"
-            style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+            className="inline-block bg-white text-[#1daed4] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg font-heading">
             Get Your Quote Now
           </Link>
         </div>
@@ -184,4 +181,4 @@ export default async function Home() {
 export const metadata: Metadata = {
   title: 'Custom Mortgage - Nationwide Lender | FinTech Financing Solutions',
   description: 'Nationwide Mortgage Lender for Commercial and Residential properties - Bridge Hard money loans, and Stated Income available. Call (877) 976-5669',
-}
+};

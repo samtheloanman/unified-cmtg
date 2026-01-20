@@ -1,12 +1,7 @@
-import { getPages, LegacyIndexPage } from '@/lib/wagtail-api';
+import { getPages, type LegacyIndexPage, type LegacyRecreatedPage } from '@/lib/wagtail-api';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import Link from 'next/link';
-
-async function getLegacyIndex(): Promise<LegacyIndexPage | null> {
-    const pages = await getPages<LegacyIndexPage>('cms.LegacyIndexPage');
-    return pages[0] ?? null;
-}
 
 export const metadata: Metadata = {
     title: 'Legacy Site Archive | Custom Mortgage',
@@ -15,10 +10,11 @@ export const metadata: Metadata = {
 
 export default async function LegacyArchivePage() {
     // Fetch the Legacy Index Page to get intro content
-    const indexPage = await getLegacyIndex();
+    const pages = await getPages<LegacyIndexPage>('cms.LegacyIndexPage');
+    const indexPage = pages[0];
 
     // Fetch all legacy recreated pages
-    const legacyPages = await getPages('cms.LegacyRecreatedPage');
+    const legacyPages = await getPages<LegacyRecreatedPage>('cms.LegacyRecreatedPage');
 
     return (
         <div className="min-h-screen bg-white">
@@ -26,11 +22,11 @@ export default async function LegacyArchivePage() {
             <div className="bg-[#636363] text-white py-4 px-6 md:px-12">
                 <div className="max-w-7xl mx-auto flex justify-between items-center">
                     <Link href="/">
-                        <h1 className="text-3xl font-bold tracking-wide" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+                        <h1 className="text-3xl font-bold tracking-wide font-heading">
                             CUSTOM MORTGAGE
                         </h1>
                     </Link>
-                    <span className="text-sm tracking-widest hidden sm:block" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+                    <span className="text-sm tracking-widest hidden sm:block font-heading">
                         LEGACY ARCHIVE
                     </span>
                 </div>
@@ -52,7 +48,7 @@ export default async function LegacyArchivePage() {
                     </div>
                 </div>
 
-                <h1 className="text-4xl font-bold text-[#636363] mb-8" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+                <h1 className="text-4xl font-bold text-[#636363] mb-8 font-heading">
                     Legacy Content Archive
                 </h1>
 

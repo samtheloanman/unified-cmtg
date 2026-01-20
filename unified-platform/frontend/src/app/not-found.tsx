@@ -6,7 +6,7 @@ export default function NotFound() {
             {/* Header */}
             <div className="bg-[#636363] text-white py-4 px-6">
                 <div className="max-w-7xl mx-auto flex justify-between items-center">
-                    <Link href="/" className="text-3xl font-bold tracking-wide" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+                    <Link href="/" className="text-3xl font-bold tracking-wide font-heading">
                         CUSTOM MORTGAGE
                     </Link>
                 </div>
