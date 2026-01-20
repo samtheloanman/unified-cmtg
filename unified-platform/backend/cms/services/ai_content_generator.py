@@ -59,10 +59,15 @@ class AiContentGenerator:
             f"landing page specifically for borrowers in {city_name}, {state}. "
             f"Mention local real estate market context if generally known, but keep it evergreen. "
             f"Focus on the benefits of this loan program for local residents. "
-            f"Do not include headers or markdown formatting, just paragraphs."
+            f"Return a valid JSON object with a single key 'content' containing the text."
         )
         
-        return self._generate_text(prompt)
+        response = self._generate_text(prompt)
+        try:
+            data = self._parse_json(response)
+            return data.get('content', response)
+        except Exception:
+            return response
 
     def generate_local_faqs(self, program_title: str, city_name: str, state: str) -> List[Dict[str, str]]:
         """

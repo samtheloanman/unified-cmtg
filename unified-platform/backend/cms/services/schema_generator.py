@@ -16,12 +16,12 @@ class SchemaGenerator:
         product_schema = {
             "@type": "MortgageLoan",
             "name": f"{program.title} in {city.name}, {city.state}",
-            "description": program.program_description[:160] if program.program_description else f"{program.title} available in {city.name}.",
+            "description": program.search_description[:160] if program.search_description else f"{program.title} available in {city.name}.",
             "amount": {
                 "@type": "MonetaryAmount",
                 "currency": "USD",
-                "minValue": str(program.min_loan_amount) if program.min_loan_amount else "0",
-                "maxValue": str(program.max_loan_amount) if program.max_loan_amount else "0"
+                "minValue": str(program.minimum_loan_amount) if getattr(program, 'minimum_loan_amount', None) else "0",
+                "maxValue": str(program.maximum_loan_amount) if getattr(program, 'maximum_loan_amount', None) else "0"
             },
             "interestRate": {
                 "@type": "QuantitativeValue",
