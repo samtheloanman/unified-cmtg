@@ -664,10 +664,7 @@ class QualifyView(APIView):
         }
         return Response(QualificationResultSerializer(result).data)
     
-        if program.potential_rate_min < 7.0: score += 15
-        elif program.potential_rate_min < 8.0: score += 10
-        
-        return min(score, 100)
+
     
     def _get_program_notes(self, program, data):
         from loans.services.matching import MatchingService
