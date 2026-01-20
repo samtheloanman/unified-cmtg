@@ -47,6 +47,34 @@ export interface QuoteResponse {
     matches_found: number;
 }
 
+export interface QualificationRequest {
+    loan_amount: number;
+    property_value: number;
+    credit_score: number;
+    property_state: string;
+    // Optional fields with intelligent defaults on backend
+    loan_purpose?: string;
+    property_type?: string;
+    occupancy?: string;
+    entity_type?: string;
+}
+
+export interface MatchedProgram {
+    program_id: number;
+    program_name: string;
+    lender: string; // lender_name in python
+    estimated_rate_range: string;
+    match_score: number;
+    notes: string[];
+}
+
+export interface QualificationResponse {
+    total_matches: number;
+    matched_programs: MatchedProgram[];
+    calculated_ltv: number;
+}
+
+
 /**
  * Health check response
  */
@@ -208,11 +236,19 @@ class PricingAPI extends BaseAPIClient {
     }
 
     /**
+     * Get pre-qualification matches
+     */
+    async qualify(request: QualificationRequest): Promise<APIResponse<QualificationResponse>> {
+        return this.post<QualificationResponse>('/api/v1/qualify/', request);
+    }
+
+    /**
      * Get list of all loan programs
      */
     async getPrograms(): Promise<APIResponse<ProgramsListResponse>> {
         return this.get<ProgramsListResponse>('/api/v1/programs/');
     }
+
 
     /**
      * Health check endpoint

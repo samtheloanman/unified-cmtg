@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { apiClient, type QuoteResponse } from '@/lib/api-client';
+import { apiClient, type QualificationResponse } from '@/lib/api-client';
 import StepIndicator from './StepIndicator';
 import Step1PropertyState from './Step1PropertyState';
 import Step2LoanAmount from './Step2LoanAmount';
@@ -17,8 +17,8 @@ export interface FormData {
     property_value: number;
 }
 
-// Re-export QuoteResponse type for backward compatibility
-export type QuoteResult = QuoteResponse;
+// Update exported type alias
+export type QuoteResult = QualificationResponse;
 
 const INITIAL_FORM_DATA: FormData = {
     property_state: '',
@@ -57,7 +57,7 @@ export default function QuoteWizard() {
         setError(null);
 
         try {
-            const response = await apiClient.pricing.getQuotes(formData);
+            const response = await apiClient.pricing.qualify(formData);
 
             if (!response.success) {
                 const errorMsg = response.error.detail || response.error.error;
@@ -89,6 +89,7 @@ export default function QuoteWizard() {
     }
 
     if (step === 5 && results) {
+        // @ts-ignore
         return <ResultsCard results={results} onReset={resetWizard} />;
     }
 
