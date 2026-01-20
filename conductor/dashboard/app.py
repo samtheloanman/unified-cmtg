@@ -118,11 +118,21 @@ if tasks:
     if selected_agent != "All Agents":
         filtered_df = filtered_df[filtered_df['assigned_to'] == selected_agent]
     
+    # Map Status to Action for UI
+    def map_status_to_action(status):
+        if status == "In Progress": return "Start"
+        if status == "Pending": return "Stop"
+        if status == "Paused": return "Pause"
+        if status == "Done": return "Finish"
+        return "Stop" # Default
+
+    filtered_df['action'] = filtered_df['status'].apply(map_status_to_action)
+    
     # Editable table
     st.caption("💡 **Tip**: To assign tasks to an agent, edit the phase header in `tasks.md` with `(AgentName - Status)`")
     
     edited_df = st.data_editor(
-        filtered_df[['phase', 'assigned_to', 'status', 'task']],
+        filtered_df[['phase', 'assigned_to', 'action', 'task']],
         column_config={
             "phase": st.column_config.TextColumn("Phase", disabled=True),
             "assigned_to": st.column_config.SelectboxColumn(
@@ -130,10 +140,11 @@ if tasks:
                 options=["Jules", "Antigravity", "Claude", "Gemini", None],
                 help="Select agent to assign this task"
             ),
-            "status": st.column_config.SelectboxColumn(
-                "Status",
-                options=["Pending", "In Progress", "Done"],
+            "action": st.column_config.SelectboxColumn(
+                "Action",
+                options=["Start", "Stop", "Pause", "Finish"],
                 required=True,
+                help="Start, Stop, Pause (Rate Limit), or Finish task"
             ),
             "task": st.column_config.TextColumn("Task Description", disabled=True),
         },
@@ -151,8 +162,8 @@ if tasks:
                 orig_assignment = filtered_df.loc[idx, 'assigned_to'] if idx in filtered_df.index else None
                 new_assignment = row['assigned_to']
                 
-                orig_status = filtered_df.loc[idx, 'status'] if idx in filtered_df.index else None
-                new_status = row['status']
+                orig_action = filtered_df.loc[idx, 'action'] if idx in filtered_df.index else None
+                new_action = row['action']
                 
                 update = {'task': row['task']}
                 has_change = False
@@ -161,7 +172,13 @@ if tasks:
                     update['assigned_to'] = new_assignment
                     has_change = True
                     
-                if orig_status != new_status:
+                if orig_action != new_action:
+                    # Map Action back to Status
+                    new_status = "Pending"
+                    if new_action == "Start": new_status = "In Progress"
+                    elif new_action == "Pause": new_status = "Paused"
+                    elif new_action == "Finish": new_status = "Done"
+                    
                     update['status'] = new_status
                     has_change = True
                 

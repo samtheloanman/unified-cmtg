@@ -130,9 +130,9 @@ class ConductorAgent:
                 agent_match = re.search(r"\((.*?)\s*-", line)
                 current_header_agent = agent_match.group(1) if agent_match else current_header_agent
             
-            # Match uncompleted tasks: - [ ] or - [/]
+            # Match uncompleted tasks: - [ ] or - [/] or - [x] or - [-]
             # Capture the task text
-            match = re.search(r"^\s*-\s*\[([ /])\]\s*(.*)", line)
+            match = re.search(r"^\s*-\s*\[([ /x-])\]\s*(.*)", line)
             if match:
                 state_char = match.group(1)
                 text = match.group(2).strip()
@@ -141,6 +141,8 @@ class ConductorAgent:
                     status = "Done"
                 elif state_char == "/":
                     status = "In Progress"
+                elif state_char == "-":
+                    status = "Paused"
                 else:
                     status = "Pending"
                 
@@ -178,12 +180,14 @@ class ConductorAgent:
             status_char = "/"
         elif new_status == "Done" or new_status == "Complete":
             status_char = "x"
+        elif new_status == "Paused":
+            status_char = "-"
         
         for i, line in enumerate(lines):
             # Match strict task text to avoid partial matches
-            if task_text in line and re.match(r"^\s*-\s*\[[ /x]\]", line):
+            if task_text in line and re.match(r"^\s*-\s*\[[ /x-]\]", line):
                 # Replace the status char
-                updated_line = re.sub(r"^(\s*-\s*\[)[ /x](\])", f"\\1{status_char}\\2", line)
+                updated_line = re.sub(r"^(\s*-\s*\[)[ /x-](\])", f"\\1{status_char}\\2", line)
                 lines[i] = updated_line
                 self.checklist_file.write_text("\n".join(lines))
                 return True
@@ -200,7 +204,7 @@ class ConductorAgent:
         # Find the task line and add/update inline assignment
         for i, line in enumerate(lines):
             # Match the task by its text content
-            if task_text in line and re.match(r"^\s*-\s*\[[ /x]\]", line):
+            if task_text in line and re.match(r"^\s*-\s*\[[ /x-]\]", line):
                 # Remove existing inline assignment if present
                 updated_line = re.sub(r"\s*\([^)]*-[^)]*\)\s*$", "", line)
                 # Add new assignment

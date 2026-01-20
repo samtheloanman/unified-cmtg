@@ -98,11 +98,11 @@
 - [x] Implement Haversine distance formula
 - [x] Implement `find_nearest_office(city: City) -> Office`
 - [x] Create `backend/cms/management/commands/import_cities.py`
-- [ ] Import 150-500 cities with GPS (Wait for CSV)
+- [ ] Import 150-500 cities with GPS (Wait for CSV) (Claude - Assigned)
 - [x] Create `backend/cms/services/schema_generator.py`
 - [x] Generate dual schema (MortgageLoan + LocalBusiness)
-- [ ] Test: Create 1 LocalProgramPage manually in admin
-- [ ] Verify URL format: `/program-city-state/`
+- [ ] Test: Create 1 LocalProgramPage manually in admin (Claude - Assigned)
+- [ ] Verify URL format: `/program-city-state/` (Claude - Assigned)
 
 ---
 
@@ -111,16 +111,16 @@
 **Agent**: Gemini CLI  
 **Status**: ⏳ Pending
 
-- [ ] Create `backend/cms/services/ai_content_generator.py`
-- [ ] Implement `generate_local_intro(program, city, office)`
-- [ ] Implement `generate_local_faqs(program, city)`
-- [ ] Create `backend/cms/management/commands/generate_local_pages.py`
-- [ ] Add arguments: `--programs`, `--cities`, `--use-openai`, `--batch-size`
-- [ ] Implement proximity assignment logic
-- [ ] Implement rate limiting (1 sec between API calls)
-- [ ] Test with 10 cities × 5 programs = 50 pages
-- [ ] Verify content uniqueness
-- [ ] Verify schema markup in generated pages
+- [ ] Create `backend/cms/services/ai_content_generator.py` (Claude - Assigned)
+- [ ] Implement `generate_local_intro(program, city, office)` (Antigravity - Assigned)
+- [ ] Implement `generate_local_faqs(program, city)` (Antigravity - Assigned)
+- [ ] Create `backend/cms/management/commands/generate_local_pages.py` (Antigravity - Assigned)
+- [ ] Add arguments: `--programs`, `--cities`, `--use-openai`, `--batch-size` (Antigravity - Assigned)
+- [ ] Implement proximity assignment logic (Antigravity - Assigned)
+- [ ] Implement rate limiting (1 sec between API calls) (Antigravity - Assigned)
+- [ ] Test with 10 cities × 5 programs = 50 pages (Antigravity - Assigned)
+- [ ] Verify content uniqueness (Antigravity - Assigned)
+- [ ] Verify schema markup in generated pages (Antigravity - Assigned)
 
 ---
 
