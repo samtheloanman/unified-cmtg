@@ -146,6 +146,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Wagtail settings
 WAGTAIL_SITE_NAME = 'Unified CMTG Platform'
 WAGTAILADMIN_BASE_URL = env('WAGTAILADMIN_BASE_URL', default='http://localhost:8001')
+WAGTAILAPI_LIMIT_MAX = 500  # Allow frontend to request up to 500 items (ProgramsIndex requests 200)
 
 
 # Django REST Framework

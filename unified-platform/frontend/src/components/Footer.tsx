@@ -13,7 +13,7 @@ export default function Footer() {
             try {
                 const [configRes, menuRes] = await Promise.all([
                     apiClient.cms.getSiteConfiguration(),
-                    apiClient.cms.getNavigation('Footer') // Assuming "Footer" menu exists
+                    apiClient.cms.getNavigation('Footer')
                 ]);
                 if (configRes.success) setSiteConfig(configRes.data);
                 if (menuRes.success) setFooterMenu(menuRes.data);
@@ -35,51 +35,51 @@ export default function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="bg-[#1c4b57] text-white border-t border-[#133740]">
+        <footer className="bg-[#0f2933] text-white border-t-4 border-[#1daed4]">
             {/* Main Footer Content */}
-            <div className="max-w-7xl mx-auto py-16 px-6">
-                <div className="grid md:grid-cols-4 gap-12 text-center md:text-left">
+            <div className="max-w-7xl mx-auto py-20 px-6">
+                <div className="grid md:grid-cols-12 gap-12">
 
-                    {/* Brand Column */}
-                    <div className="col-span-1 md:col-span-1">
-                        <Link href="/" className="inline-block mb-6">
+                    {/* Brand Column (Span 4) */}
+                    <div className="md:col-span-4">
+                        <Link href="/" className="inline-block mb-8">
                             {siteConfig?.logo_url ? (
-                                <img src={siteConfig.logo_url} alt={siteConfig.site_name} className="h-12 w-auto object-contain brightness-0 invert" />
+                                <img src={siteConfig.logo_url} alt={siteConfig.site_name} className="h-16 w-auto object-contain brightness-0 invert" />
                             ) : (
-                                <span className="text-3xl font-heading font-bold tracking-wide text-white">
-                                    CM+RE
-                                </span>
+                                <div className="text-4xl font-heading font-black tracking-tighter text-white uppercase leading-none" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>
+                                    Custom<span className="text-[#1daed4]">Mtg</span><br />
+                                    <span className="text-lg tracking-[0.2em] opacity-50">Inc.</span>
+                                </div>
                             )}
                         </Link>
 
-                        <p className="text-white/80 text-sm leading-relaxed mb-6 font-headings">
-                            A fintech real estate and finance agency for individuals and businesses.
-                            <br /><br />
-                            Residential • Commercial
+                        <p className="text-white/60 text-sm leading-relaxed mb-8 max-w-sm">
+                            A fintech real estate and finance agency providing precision lending solutions for residential and commercial clients nationwide.
                         </p>
-                        <div className="flex gap-4 justify-center md:justify-start">
-                            {siteConfig?.linkedin && <a href={siteConfig.linkedin} className="w-10 h-10 rounded-full bg-white text-[#1c4b57] flex items-center justify-center hover:bg-[#1daed4] hover:text-white transition-colors">in</a>}
-                            {siteConfig?.facebook && <a href={siteConfig.facebook} className="w-10 h-10 rounded-full bg-white text-[#1c4b57] flex items-center justify-center hover:bg-[#1daed4] hover:text-white transition-colors">fb</a>}
-                            {siteConfig?.instagram && <a href={siteConfig.instagram} className="w-10 h-10 rounded-full bg-white text-[#1c4b57] flex items-center justify-center hover:bg-[#1daed4] hover:text-white transition-colors">ig</a>}
+
+                        <div className="flex gap-3">
+                            {siteConfig?.linkedin && <a href={siteConfig.linkedin} className="w-10 h-10 border border-white/10 text-white/50 flex items-center justify-center hover:bg-[#1daed4] hover:text-white hover:border-[#1daed4] transition-all">in</a>}
+                            {siteConfig?.facebook && <a href={siteConfig.facebook} className="w-10 h-10 border border-white/10 text-white/50 flex items-center justify-center hover:bg-[#1daed4] hover:text-white hover:border-[#1daed4] transition-all">fb</a>}
+                            {siteConfig?.instagram && <a href={siteConfig.instagram} className="w-10 h-10 border border-white/10 text-white/50 flex items-center justify-center hover:bg-[#1daed4] hover:text-white hover:border-[#1daed4] transition-all">ig</a>}
                         </div>
                     </div>
 
-                    {/* Navigation Columns (Dynamic) */}
+                    {/* Navigation Columns (Span 2 each) */}
                     {Object.keys(footerMenu?.items || {}).length > 0 ? (
-                        footerMenu?.items.map((item) => {
+                        footerMenu?.items.map((item, idx) => {
                             if (item.type === 'sub_menu') {
                                 return (
-                                    <div key={item.id}>
-                                        <h4 className="text-lg font-heading font-bold text-white mb-6 uppercase tracking-wider">
+                                    <div key={item.id} className="md:col-span-2">
+                                        <h4 className="text-lg font-bold text-[#1daed4] mb-8 uppercase tracking-widest font-heading" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>
                                             {item.value.title}
                                         </h4>
-                                        <ul className="space-y-3 text-sm text-white/80">
-                                            {item.value.items?.map((subItem, idx) => (
-                                                <li key={idx}>
+                                        <ul className="space-y-4 text-xs font-bold tracking-wide uppercase text-white/70">
+                                            {item.value.items?.map((subItem, subIdx) => (
+                                                <li key={subIdx}>
                                                     <Link
                                                         href={subItem.link_url || '#'}
                                                         target={subItem.open_in_new_tab ? '_blank' : undefined}
-                                                        className="hover:text-[#1daed4] transition-colors"
+                                                        className="hover:text-white hover:translate-x-1 inline-block transition-all"
                                                     >
                                                         {subItem.link_text}
                                                     </Link>
@@ -92,70 +92,71 @@ export default function Footer() {
                             return null;
                         })
                     ) : (
-                        /* Fallback Static Columns if no menu found yet */
+                        /* Fallback Columns */
                         <>
-                            <div>
-                                <h4 className="text-xl font-heading font-bold mb-6 uppercase tracking-wider">Quick Links</h4>
-                                <ul className="space-y-3 text-base text-white/90">
-                                    <li><Link href="/programs" className="hover:text-[#1daed4]">Loan Programs</Link></li>
-                                    <li><Link href="/funded-loans" className="hover:text-[#1daed4]">Recently Funded</Link></li>
-                                    <li><Link href="/quote" className="hover:text-[#1daed4]">Get a Quote</Link></li>
+                            <div className="md:col-span-2">
+                                <h4 className="text-xl font-bold text-[#1daed4] mb-8 uppercase tracking-widest font-heading" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>Programs</h4>
+                                <ul className="space-y-4 text-xs font-bold tracking-wide uppercase text-white/70">
+                                    <li><Link href="/programs" className="hover:text-white hover:translate-x-1 inline-block transition-all">View All</Link></li>
+                                    <li><Link href="/programs/commercial" className="hover:text-white hover:translate-x-1 inline-block transition-all">Commercial</Link></li>
+                                    <li><Link href="/programs/residential" className="hover:text-white hover:translate-x-1 inline-block transition-all">Residential</Link></li>
                                 </ul>
                             </div>
-                            <div>
-                                <h4 className="text-xl font-heading font-bold mb-6 uppercase tracking-wider">Info</h4>
-                                <ul className="space-y-3 text-base text-white/90">
-                                    <li><Link href="/disclaimer" className="hover:text-[#1daed4]">Disclaimer</Link></li>
-                                    <li><Link href="/support" className="hover:text-[#1daed4]">Support</Link></li>
-                                    <li><Link href="/privacy" className="hover:text-[#1daed4]">Privacy Policy</Link></li>
+                            <div className="md:col-span-2">
+                                <h4 className="text-xl font-bold text-[#1daed4] mb-8 uppercase tracking-widest font-heading" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>Company</h4>
+                                <ul className="space-y-4 text-xs font-bold tracking-wide uppercase text-white/70">
+                                    <li><Link href="/about" className="hover:text-white hover:translate-x-1 inline-block transition-all">About Us</Link></li>
+                                    <li><Link href="/contact" className="hover:text-white hover:translate-x-1 inline-block transition-all">Contact</Link></li>
+                                    <li><Link href="/careers" className="hover:text-white hover:translate-x-1 inline-block transition-all">Careers</Link></li>
                                 </ul>
                             </div>
                         </>
                     )}
 
-                    {/* Contact Info */}
-                    <div>
-                        <h4 className="text-xl font-heading font-bold mb-6 uppercase tracking-wider">Contact</h4>
-                        <ul className="space-y-4 text-base text-white/90">
-                            {siteConfig?.address && (
-                                <li className="flex items-start gap-3 justify-center md:justify-start">
-                                    <span className="text-[#1daed4]">📍</span>
-                                    <span className="whitespace-pre-line text-left">{siteConfig.address}</span>
-                                </li>
-                            )}
+                    {/* Contact Info (Span 4) */}
+                    <div className="md:col-span-4 pl-0 md:pl-8 border-l border-white/5">
+                        <h4 className="text-xl font-bold text-white mb-8 uppercase tracking-widest font-heading" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>Contact Us</h4>
+
+                        <div className="space-y-6">
                             {siteConfig?.phone_number && (
-                                <li className="flex items-start gap-3 justify-center md:justify-start">
-                                    <span className="text-[#1daed4]">📞</span>
-                                    <a href={`tel:${siteConfig.phone_number}`} className="hover:text-white transition-colors">{siteConfig.phone_number}</a>
-                                </li>
+                                <div>
+                                    <p className="text-[10px] uppercase text-[#1daed4] tracking-widest mb-1">Phone</p>
+                                    <a href={`tel:${siteConfig.phone_number}`} className="text-2xl font-bold text-white hover:text-[#1daed4] transition-colors">{siteConfig.phone_number}</a>
+                                </div>
                             )}
-                            <li className="flex items-start gap-3 justify-center md:justify-start">
-                                <span className="text-[#1daed4]">🕒</span>
-                                <span>Monday - Friday:<br />9:00 AM - 9:00 PM PST</span>
-                            </li>
-                        </ul>
+
+                            {siteConfig?.address && (
+                                <div>
+                                    <p className="text-[10px] uppercase text-[#1daed4] tracking-widest mb-1">Headquarters</p>
+                                    <p className="text-white/60 text-sm whitespace-pre-line leading-relaxed">{siteConfig.address}</p>
+                                </div>
+                            )}
+
+                            <div>
+                                <Link href="/quote" className="inline-block mt-4 bg-[#1daed4] text-white px-8 py-4 font-bold uppercase tracking-widest text-sm hover:bg-white hover:text-[#0f2933] transition-all">
+                                    Start Application
+                                </Link>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
             {/* Bottom Bar - Legal */}
-            <div className="bg-[#133740] py-8 px-6">
-                <div className="max-w-7xl mx-auto text-xs text-white/60 text-center space-y-4">
-                    <p className="font-bold italic">
-                        COPYRIGHT © 2001-{currentYear} CUSTOM MTG INC DBA CUSTOM MORTGAGE AND REAL ESTATE -- ** ALL INFORMATION IN THIS SITE IS DEEMED RELIABLE BUT IS NOT GUARANTEED AND IS SUBJECT TO CHANGE.
-                    </p>
+            <div className="bg-[#0a1f26] py-10 px-6 border-t border-white/5">
+                <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] text-white/30 uppercase tracking-widest font-bold">
                     <p>
-                        Custom MTG Inc is not responsible for any errors or omissions in the information provided.
+                        © 2001-{currentYear} Custom MTG Inc. All Rights Reserved.
                     </p>
-                    <div className="pt-4 border-t border-white/10 mt-4">
-                        <p className="uppercase tracking-wider font-bold">
-                            CUSTOM MTG INC., 16501 VENTURA BLVD STE 400, ENCINO, CA 91436 <br />
-                            CALBRE # 02018146 - NMLS # 1556995
-                        </p>
+                    <div className="flex gap-6">
+                        <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
+                        <Link href="/terms" className="hover:text-white transition-colors">Terms of Use</Link>
+                        <Link href="/licensing" className="hover:text-white transition-colors">Licensing</Link>
                     </div>
-                    <p className="text-[10px] opacity-50">
-                        COMMERCIAL AND HARD MONEY LOANS AVAILABLE NATIONWIDE
-                    </p>
+                </div>
+                <div className="max-w-7xl mx-auto mt-6 text-[9px] text-white/20 text-center leading-relaxed">
+                    Customer Service: (877) 976-5669 | 16501 Ventura Blvd Ste 400, Encino, CA 91436 | CalBRE # 02018146 | NMLS # 1556995 <br />
+                    All information in this site is deemed reliable but is not guaranteed and is subject to change.
                 </div>
             </div>
         </footer>
