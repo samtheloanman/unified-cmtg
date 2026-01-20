@@ -97,6 +97,20 @@
 
 ---
 
+## Phase 3b: AI Content Generation (Phase F.6)
+
+### ✅ Completed (Antigravity)
+- [x] **AiContentGenerator Service**: Gemini 2.0 Integration with Dynamic Persona Support
+  - Test: Generates JSON content for "Business Loans" with SBA Expert persona ✅
+- [x] **Management Commands**:
+  - `generate_program_content`: Batch generation for Program Pages
+  - `generate_local_pages`: Batch generation for Local Landing Pages
+- [x] **Program Hierarchy**: 100+ Program Shells created and verified ✅
+- [x] **Schema Markup**: JSON-LD for Local and Program pages ✅
+- [x] **Secure API Handling**: Key rotation and .env configuration ✅
+
+---
+
 ## Phase 4: Rate Sheet Agent (Week 5)
 
 - [x] **Ingestion Script**: Read `Ratesheet List.csv` (Claude - Assigned)
