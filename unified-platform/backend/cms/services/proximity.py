@@ -60,4 +60,20 @@ class ProximityService:
         if min_distance > 500 and hq:
             return hq
         
-        return nearest or hq
+    @classmethod
+    def get_nearest_cities(cls, target_lat, target_lon, limit=5):
+        """
+        Finds the nearest cities to a given latitude/longitude.
+        """
+        if target_lat is None or target_lon is None:
+            return []
+            
+        cities = City.objects.exclude(latitude__isnull=True).exclude(longitude__isnull=True)
+        
+        scored_cities = []
+        for city in cities:
+            distance = cls.haversine_distance(target_lat, target_lon, city.latitude, city.longitude)
+            scored_cities.append((city, distance))
+                
+        scored_cities.sort(key=lambda x: x[1])
+        return [item[0] for item in scored_cities[:limit]]

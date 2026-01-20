@@ -7,3 +7,4 @@ from .cities import City
 from .local_pages import LocalProgramPage
 from .locations import LocationIndexPage, LocationPage
 from .navigation import NavigationMenu, SiteConfiguration
+from .seo import SEOContentCache

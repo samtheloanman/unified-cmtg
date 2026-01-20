@@ -1,18 +1,21 @@
-
-import { getPages } from '@/lib/wagtail-api';
+import { getPages, LegacyIndexPage } from '@/lib/wagtail-api';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import Link from 'next/link';
+
+async function getLegacyIndex(): Promise<LegacyIndexPage | null> {
+    const pages = await getPages<LegacyIndexPage>('cms.LegacyIndexPage');
+    return pages[0] ?? null;
+}
 
 export const metadata: Metadata = {
     title: 'Legacy Site Archive | Custom Mortgage',
     description: 'Archive of pages from the previous version of the Custom Mortgage website.',
 };
 
-export default async function LegacyIndexPage() {
+export default async function LegacyArchivePage() {
     // Fetch the Legacy Index Page to get intro content
-    const pages = await getPages('cms.LegacyIndexPage');
-    const indexPage = pages[0];
+    const indexPage = await getLegacyIndex();
 
     // Fetch all legacy recreated pages
     const legacyPages = await getPages('cms.LegacyRecreatedPage');
@@ -65,7 +68,7 @@ export default async function LegacyIndexPage() {
                             className="block bg-white border border-gray-200 rounded-lg hover:shadow-lg transition-shadow p-6"
                         >
                             <h2 className="text-xl font-bold text-[#1daed4] mb-2">{page.title}</h2>
-                            <p className="text-sm text-gray-500 mb-4">Original URL: {page.original_url || 'N/A'}</p>
+                            <p className="text-sm text-gray-500 mb-4">Original URL: {(page as any).original_url || 'N/A'}</p>
                             <span className="text-sm font-medium text-[#636363] hover:text-[#1daed4]">
                                 View Archived Page &rarr;
                             </span>

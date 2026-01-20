@@ -130,6 +130,10 @@ export interface HomePage extends WagtailPage {
   hero_cta_url: string;
 }
 
+export interface LegacyIndexPage extends WagtailPage {
+  intro: string;
+}
+
 // =============================================================================
 // API RESPONSE TYPES
 // =============================================================================
@@ -152,23 +156,54 @@ export async function getPages<T extends WagtailPage>(
   type: string,
   params?: Record<string, string>
 ): Promise<T[]> {
-  const searchParams = new URLSearchParams({
-    type,
-    fields: '*',
-    ...params,
-  });
+  let items: T[] = [];
+  let offset = 0;
+  const BATCH_SIZE = 20;
 
-  const response = await fetch(`${WAGTAIL_API}/pages/?${searchParams}`, {
-    next: { revalidate: 60 }, // ISR: revalidate every 60 seconds
-  });
+  // Handle optional user-requested limit (e.g. 200 items), while API forces 20 per request
+  const userLimit = params?.limit ? parseInt(params.limit) : undefined;
 
-  if (!response.ok) {
-    console.error(`Failed to fetch pages: ${response.status} ${response.statusText}`);
-    return [];
+  // Cleanup params to remove 'limit' so we don't send >20 to API (which causes 400)
+  // We manage the total limit client-side by aggregating batches
+  const { limit: _unused, ...queryParams } = params || {};
+
+  while (true) {
+    const searchParams = new URLSearchParams({
+      type,
+      fields: '*',
+      limit: BATCH_SIZE.toString(),
+      offset: offset.toString(),
+      ...queryParams,
+    });
+
+    const response = await fetch(`${WAGTAIL_API}/pages/?${searchParams}`, {
+      next: { revalidate: 60 }, // ISR: revalidate every 60 seconds
+    });
+
+    if (!response.ok) {
+      console.error(`Failed to fetch pages: ${response.status} ${response.statusText}`);
+      break;
+    }
+
+    const data: WagtailPagesResponse<T> = await response.json();
+    items = items.concat(data.items);
+
+    // Stop if we received fewer items than requested (end of list)
+    if (data.items.length < BATCH_SIZE) break;
+
+    // Stop if we reached the user-requested global limit
+    if (userLimit && items.length >= userLimit) {
+      items = items.slice(0, userLimit);
+      break;
+    }
+
+    offset += BATCH_SIZE;
+
+    // Safety break to prevent infinite loops in case of API weirdness
+    if (offset > 1000) break;
   }
 
-  const data: WagtailPagesResponse<T> = await response.json();
-  return data.items;
+  return items;
 }
 
 /**
@@ -294,4 +329,40 @@ export function formatLoanAmount(amount: string | null): string {
     minimumFractionDigits: 0,
     maximumFractionDigits: 0,
   }).format(num);
+}
+
+// =============================================================================
+// DYNAMIC ROUTER
+// =============================================================================
+
+export interface RouterResponse {
+  type: string; // 'program_location' | 'other'
+  data: any;
+}
+
+/**
+ * Resolve a path via the Backend Dynamic Router.
+ * Used for SEO pages like /jumbo-loans/in-los-angeles-ca/
+ */
+export async function resolvePath(path: string): Promise<RouterResponse | null> {
+  // Use backend internal URL if available, else public API URL
+  // The API_URL logic from page.tsx might be useful here, but for now let's reuse WAGTAIL_API base
+  // WAGTAIL_API is usually .../api/v2. We need .../api/v1/router/resolve
+
+  const baseUrl = WAGTAIL_API.replace('/api/v2', '');
+  const endpoint = `${baseUrl}/api/v1/router/resolve/?path=${encodeURIComponent(path)}`;
+
+  try {
+    const res = await fetch(endpoint, {
+      next: { revalidate: 3600 }, // Cache for 1 hour
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if (res.ok) {
+      return await res.json();
+    }
+  } catch (e) {
+    console.error("Router resolution failed", e);
+  }
+  return null;
 }

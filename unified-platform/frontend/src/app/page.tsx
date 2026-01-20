@@ -1,6 +1,6 @@
-
 import Link from "next/link";
 import { Metadata } from 'next';
+import { getFundedLoanPages, getProgramPages, getHomePage } from '@/lib/wagtail-api';
 
 // Program type cards matching production site
 const programTypes = [
@@ -14,56 +14,13 @@ const programTypes = [
   { name: "Super Jumbo", description: "High-value residential mortgages", href: "/programs/super-jumbo-residential-mortgage-loans", icon: "💎" },
 ];
 
-// API URL for server-side fetching (Docker internal network)
-const API_URL = process.env.INTERNAL_API_URL || process.env.NEXT_PUBLIC_WAGTAIL_API?.replace('/api/v2', '') || 'http://backend:8000';
-
-interface FundedLoan {
-  id: number;
-  title: string;
-  meta: { slug: string };
-}
-
-interface Program {
-  id: number;
-  title: string;
-  meta: { slug: string };
-}
-
-async function getFundedLoans(): Promise<FundedLoan[]> {
-  try {
-    const res = await fetch(`${API_URL}/api/v2/pages/?type=cms.FundedLoanPage&fields=title&limit=8`, {
-      cache: 'no-store',
-      headers: { 'Accept': 'application/json' }
-    });
-    if (res.ok) {
-      const data = await res.json();
-      return data.items || [];
-    }
-  } catch (e) {
-    console.error('Error fetching funded loans:', e);
-  }
-  return [];
-}
-
-async function getPrograms(): Promise<Program[]> {
-  try {
-    const res = await fetch(`${API_URL}/api/v2/pages/?type=cms.ProgramPage&fields=title&limit=10`, {
-      cache: 'no-store',
-      headers: { 'Accept': 'application/json' }
-    });
-    if (res.ok) {
-      const data = await res.json();
-      return data.items || [];
-    }
-  } catch (e) {
-    console.error('Error fetching programs:', e);
-  }
-  return [];
-}
-
 export default async function Home() {
-  const fundedLoans = await getFundedLoans();
-  const programs = await getPrograms();
+  // Parallel Data Fetching
+  const [fundedLoans, programs, homePage] = await Promise.all([
+    getFundedLoanPages(),
+    getProgramPages(),
+    getHomePage()
+  ]);
 
   return (
     <div className="bg-white">
@@ -71,16 +28,17 @@ export default async function Home() {
       <section className="relative bg-gradient-to-br from-[#1daed4] to-[#17a0c4] text-white py-20 px-6">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-4" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
-            Custom Mortgage – Nationwide Lender
+            {homePage?.hero_title || "Custom Mortgage – Nationwide Lender"}
           </h1>
-          <p className="text-xl md:text-2xl mb-8 opacity-90">
-            FinTech Financing Solutions Tailored for Your Unique Needs
-          </p>
+
+          <div className="text-xl md:text-2xl mb-8 opacity-90 prose prose-invert max-w-none text-white [&>p]:text-white"
+            dangerouslySetInnerHTML={{ __html: homePage?.hero_subtitle || "<p>FinTech Financing Solutions Tailored for Your Unique Needs</p>" }} />
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/quote"
               className="inline-block bg-white text-[#1daed4] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg"
               style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
-              Get Your Quote
+              {homePage?.hero_cta_text || "Get Your Quote"}
             </Link>
             <a href="https://custommortgage.floify.com/" target="_blank" rel="noopener noreferrer"
               className="inline-block border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors"

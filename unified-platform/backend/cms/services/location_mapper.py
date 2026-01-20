@@ -9,21 +9,50 @@ import re
 import math
 from typing import List, Dict, Optional, Tuple
 from decimal import Decimal
-
+from cms.models.cities import City
+from cms.models.offices import Office
 
 class LocationMapper:
     """
     Maps WordPress location data to Wagtail Location model.
-
-    WordPress stores locations in wp_cmtg_locations table with structure:
-    - city
-    - state
-    - latitude
-    - longitude
-    - target_url (slug)
-    - meta_title
-    - meta_description
+    Also maps logical Cities to physical Offices.
     """
+    
+    @staticmethod
+    def get_closest_office(city: City):
+        """
+        Returns the closest active Office to the given City.
+        """
+        offices = Office.objects.filter(is_active=True)
+        if not offices.exists():
+            return None
+            
+        closest_office = None
+        min_distance = float('inf')
+        
+        for office in offices:
+            if office.latitude is None or office.longitude is None:
+                continue
+                
+            if city.latitude is None or city.longitude is None:
+                continue
+                
+            # Use internal DistanceCalculator
+            dist = DistanceCalculator.haversine_distance(
+                float(city.latitude), float(city.longitude),
+                float(office.latitude), float(office.longitude)
+            )
+            
+            if dist < min_distance:
+                min_distance = dist
+                closest_office = office
+                
+        if closest_office is None:
+            return Office.objects.filter(is_headquarters=True).first()
+            
+        return closest_office
+
+
 
     def __init__(self):
         """Initialize location mapper."""

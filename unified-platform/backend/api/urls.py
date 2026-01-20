@@ -1,6 +1,10 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from . import views
+# Import explicitly if not exposed in views/__init__.py yet, 
+# or ensure views/__init__.py exposes it.
+# Let's assume we modify views/__init__.py next, or import directly here.
+from cms.views import router_view as cms_router_views
 from open_los.views import LoanApplicationViewSet
 
 router = DefaultRouter()
@@ -32,4 +36,7 @@ urlpatterns = [
     # CMS Snippets
     path('navigation/<str:name>/', views.navigation_menu_detail, name='navigation_detail'),
     path('site-config/', views.site_configuration, name='site_configuration'),
+    
+    # Dynamic Router
+    path('router/resolve/', cms_router_views.resolve_path, name='router_resolve'),
 ]

@@ -1,105 +1,58 @@
 from django.core.management.base import BaseCommand
-from cms.models import ProgramPage, BlogPage, FundedLoanPage
-from pathlib import Path
-import csv
+from cms.models.seo import SEOContentCache
+from cms.models.programs import ProgramPage
+from cms.models.cities import City
+from django.utils.text import slugify
 
 class Command(BaseCommand):
-    help = 'Verify URL parity between WordPress export and Wagtail'
+    help = 'Verifies content integrity for Power 5 Pilot'
 
-    def handle(self, *args, **options):
-        self.stdout.write("Starting URL Parity Verification...")
+    def handle(self, *args, **kwargs):
+        programs = ProgramPage.objects.all()
+        cities = City.objects.filter(priority=100)
         
-        # Locate url_mapping.csv
-        # If in Docker: /app/wp_export/url_mapping.csv
-        # If local: unified-platform/backend/wp_export/url_mapping.csv
+        missing = []
+        invalid = []
+        checked = 0
         
-        potential_paths = [
-            Path('wp_export/url_mapping.csv'),
-            Path('unified-platform/backend/wp_export/url_mapping.csv'),
-        ]
-        
-        mapping_path = None
-        for p in potential_paths:
-            if p.exists():
-                mapping_path = p
-                break
-        
-        if not mapping_path:
-            self.stdout.write(self.style.ERROR("Could not find url_mapping.csv"))
-            return
+        if not programs.exists() or not cities.exists():
+             self.stdout.write(self.style.ERROR("Programs or Pilot Cities missing. Cannot verify."))
+             return
 
-        # 1. Load Intended URLs
-        intended_programs = set()
-        intended_blogs = set()
-        intended_loans = set()
-        
-        with open(mapping_path, 'r', encoding='utf-8') as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                url = row['new_url'].strip('/')
-                ctype = row.get('content_type', '')
-                if ctype == 'program':
-                    intended_programs.add(url)
-                elif ctype == 'blog':
-                    intended_blogs.add(url)
-                elif ctype == 'funded-loan':
-                    intended_loans.add(url)
-        
-        # Check Site Config
-        from wagtail.models import Site
-        site = Site.objects.filter(is_default_site=True).first()
-        if not site:
-            self.stdout.write(self.style.WARNING("⚠️  No default Wagtail Site configured. URLs may be None."))
-        else:
-            self.stdout.write(f"Default Site: {site} (Root: {site.root_page})")
-
-        # 2. Load Actual Wagtail URLs
-        actual_programs = set()
-        for page in ProgramPage.objects.live():
-            url = page.url
-            if url:
-                 actual_programs.add(url.strip('/'))
-            else:
-                 # Fallback/Error
-                 self.stdout.write(self.style.WARNING(f"Program {page.slug} has no URL"))
-
-        actual_blogs = set()
-        for page in BlogPage.objects.live():
-            url = page.url
-            if url:
-                actual_blogs.add(url.strip('/'))
-            else:
-                 self.stdout.write(self.style.WARNING(f"Blog {page.slug} has no URL"))
-
-        actual_loans = set()
-        for page in FundedLoanPage.objects.live():
-             url = page.url
-             if url:
-                 actual_loans.add(url.strip('/'))
-             else:
-                 self.stdout.write(self.style.WARNING(f"Loan {page.slug} has no URL"))
-
-        # 3. Compare
-        self.verify_category("Programs", intended_programs, actual_programs)
-        self.verify_category("Blogs", intended_blogs, actual_blogs)
-        self.verify_category("Funded Loans", intended_loans, actual_loans)
-
-    def verify_category(self, name, intended, actual):
-        self.stdout.write(f"\n--- Verifying {name} ---")
-        missing = intended - actual
-        extra = actual - intended
-        
-        self.stdout.write(f"Intended: {len(intended)} | Actual: {len(actual)}")
-        
+        for program in programs:
+            if program.slug not in ['jumbo-loans', 'conventional-loans', 'fha-loans', 'va-loans', 'dscr-loans']:
+                continue
+                
+            for city in cities:
+                city_part = slugify(f"{city.name}-{city.state}")
+                path = f"/{program.slug}/in-{city_part}/"
+                checked += 1
+                
+                try:
+                    cache = SEOContentCache.objects.get(url_path=path)
+                    
+                    # Validation Checks
+                    if not cache.title_tag:
+                        invalid.append(f"{path} (Missing Title)")
+                    if not cache.h1_header:
+                        invalid.append(f"{path} (Missing H1)")
+                    if not cache.schema_json:
+                        invalid.append(f"{path} (Missing Schema)")
+                        
+                except SEOContentCache.DoesNotExist:
+                    missing.append(path)
+                    
         if missing:
-            self.stdout.write(self.style.ERROR(f"MISSING ({len(missing)}):"))
-            for url in sorted(missing)[:5]:
-                self.stdout.write(f" - {url}")
-        
-        if extra:
-            self.stdout.write(self.style.WARNING(f"EXTRA ({len(extra)}):"))
-            for url in sorted(extra)[:5]:
-                self.stdout.write(f" + {url}")
-        
-        if not missing:
-            self.stdout.write(self.style.SUCCESS(f"✅ {name} Parity Achieved"))
+            self.stdout.write(self.style.ERROR(f"Missing {len(missing)} pages:"))
+            for p in missing:
+                self.stdout.write(f"- {p}")
+                
+        if invalid:
+            self.stdout.write(self.style.ERROR(f"Invalid {len(invalid)} pages:"))
+            for p in invalid:
+                self.stdout.write(f"- {p}")
+                
+        if not missing and not invalid:
+            self.stdout.write(self.style.SUCCESS(f"All {checked} pages verified successfully!"))
+        else:
+            raise Exception("Verification Failed")

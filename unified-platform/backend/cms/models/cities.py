@@ -16,6 +16,10 @@ class City(models.Model):
     # SEO
     slug = models.SlugField(unique=True)
     
+    # Phased Rollout
+    priority = models.IntegerField(default=0, help_text="Higher number = higher priority")
+    launched_at = models.DateTimeField(null=True, blank=True)
+    
     class Meta:
         verbose_name_plural = "Cities"
         indexes = [

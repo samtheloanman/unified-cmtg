@@ -1,366 +1,131 @@
-import { notFound } from 'next/navigation'
-import { Metadata } from 'next'
+import { resolvePath } from '@/lib/wagtail-api';
+import { notFound } from 'next/navigation';
+import { Metadata } from 'next';
+import Link from 'next/link';
 
-interface PageData {
-    id: number
-    title: string
-    meta: {
-        type: string
-        slug: string
-        html_url: string
-    }
-    program_type?: string
-    mortgage_program_highlights?: string
-    details_about_mortgage_loan_program?: string
-    benefits_of?: string
-    requirements?: string
-    how_to_qualify_for?: string
-    why_us?: string
-    program_faq?: string
-    interest_rates?: string
-    minimum_loan_amount?: number
-    maximum_loan_amount?: number
-    min_credit_score?: number
-    max_ltv?: string
-    body?: string
-    original_url?: string
-    original_title?: string
-    intro?: string
+interface Props {
+    params: Promise<{ slug: string[] }>;
 }
 
-// For server-side fetching within Docker, use the service name
-const API_URL = process.env.INTERNAL_API_URL || 'http://backend:8000'
+/**
+ * Generate Metadata for SEO
+ */
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+    const { slug } = await params;
+    const path = '/' + slug.join('/') + '/';
 
-async function getPageByPath(slug: string[]): Promise<PageData | null> {
-    // Validate slug array
-    if (!slug || !Array.isArray(slug) || slug.length === 0) {
-        console.error('Invalid slug array:', slug)
-        return null
+    const result = await resolvePath(path);
+    if (!result || result.type !== 'program_location') {
+        return {};
     }
 
-    // Get the last segment as the slug to search for
-    const lastSlug = slug[slug.length - 1]
-
-    if (!lastSlug || typeof lastSlug !== 'string') {
-        console.error('Invalid lastSlug:', lastSlug)
-        return null
-    }
-
-    try {
-        // Build URL with proper encoding
-        const url = new URL(`${API_URL}/api/v2/pages/`)
-        url.searchParams.set('slug', lastSlug)
-        url.searchParams.set('fields', '*')
-
-        console.log(`Fetching: ${url.toString()}`)
-
-        const response = await fetch(url.toString(), {
-            cache: 'no-store', // Disable caching for debugging
-            headers: {
-                'Accept': 'application/json',
-            }
-        })
-
-        if (!response.ok) {
-            console.error(`API returned ${response.status} for slug: ${lastSlug}`)
-            // Try without fields parameter
-            const simpleUrl = `${API_URL}/api/v2/pages/?slug=${encodeURIComponent(lastSlug)}`
-            const simpleResponse = await fetch(simpleUrl, { cache: 'no-store' })
-            if (simpleResponse.ok) {
-                const data = await simpleResponse.json()
-                if (data.items && data.items.length > 0) {
-                    // Get full details by ID
-                    const detailRes = await fetch(`${API_URL}/api/v2/pages/${data.items[0].id}/`, { cache: 'no-store' })
-                    if (detailRes.ok) {
-                        return await detailRes.json()
-                    }
-                    return data.items[0]
-                }
-            }
-            return null
-        }
-
-        const data = await response.json()
-        if (data.items && data.items.length > 0) {
-            return data.items[0]
-        }
-
-        return null
-    } catch (error) {
-        console.error('Error fetching page:', error)
-        return null
-    }
+    const data = result.data;
+    return {
+        title: data.title,
+        description: data.meta_description,
+    };
 }
 
-export default async function DynamicPage({
-    params
-}: {
-    params: Promise<{ slug?: string[] }>
-}) {
-    let page: PageData | null = null
+export default async function DynamicSEOPage({ params }: Props) {
+    const { slug } = await params;
+    const path = '/' + slug.join('/') + '/'; // Construct path: /program/in-city-state/
 
-    try {
-        const resolvedParams = await params
-        const slugArray = resolvedParams?.slug
-        const slug = Array.isArray(slugArray) ? slugArray : []
+    const result = await resolvePath(path);
 
-        if (slug.length === 0) {
-            console.log('Empty slug array, returning 404')
-            notFound()
-        }
-
-        page = await getPageByPath(slug)
-
-        if (!page) {
-            console.log('Page not found for slug:', slug)
-            notFound()
-        }
-    } catch (error) {
-        console.error('Error in DynamicPage:', error)
-        notFound()
+    if (!result) {
+        notFound();
     }
 
-    // This should never happen due to notFound() calls above, but TypeScript needs it
-    if (!page) {
-        notFound()
-    }
+    // Handle Program + Location Page
+    if (result.type === 'program_location') {
+        const { data } = result;
+        const { program, location, content, schema } = data;
 
-    // Render based on page type
-    const pageType = page.meta?.type
+        return (
+            <>
+                {/* Schema Markup */}
+                {schema && (
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+                    />
+                )}
 
-    return (
-        <main className="min-h-screen bg-gray-50">
-            {/* Header */}
-            <header className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
-                <div className="container mx-auto px-4">
-                    <h1 className="text-4xl md:text-5xl font-bold mb-4">{page.title}</h1>
-                    {pageType === 'cms.ProgramPage' && page.program_type && (
-                        <span className="inline-block px-4 py-2 bg-white/20 rounded-full text-sm font-medium">
-                            {page.program_type.replace('_', ' ').toUpperCase()}
-                        </span>
-                    )}
-                </div>
-            </header>
-
-            <div className="container mx-auto px-4 py-12">
-                {/* Program Page */}
-                {pageType === 'cms.ProgramPage' && (
-                    <div className="grid md:grid-cols-3 gap-8">
-                        {/* Main Content */}
-                        <div className="md:col-span-2 space-y-8">
-                            {page.mortgage_program_highlights && (
-                                <section className="bg-white rounded-lg shadow-md p-6">
-                                    <h2 className="text-2xl font-bold text-blue-900 mb-4">Program Highlights</h2>
-                                    <div
-                                        className="prose max-w-none"
-                                        dangerouslySetInnerHTML={{ __html: page.mortgage_program_highlights }}
-                                    />
-                                </section>
-                            )}
-
-                            {page.details_about_mortgage_loan_program && (
-                                <section className="bg-white rounded-lg shadow-md p-6">
-                                    <h2 className="text-2xl font-bold text-blue-900 mb-4">Program Details</h2>
-                                    <div
-                                        className="prose max-w-none"
-                                        dangerouslySetInnerHTML={{ __html: page.details_about_mortgage_loan_program }}
-                                    />
-                                </section>
-                            )}
-
-                            {page.benefits_of && (
-                                <section className="bg-white rounded-lg shadow-md p-6">
-                                    <h2 className="text-2xl font-bold text-blue-900 mb-4">Benefits</h2>
-                                    <div
-                                        className="prose max-w-none"
-                                        dangerouslySetInnerHTML={{ __html: page.benefits_of }}
-                                    />
-                                </section>
-                            )}
-
-                            {page.requirements && (
-                                <section className="bg-white rounded-lg shadow-md p-6">
-                                    <h2 className="text-2xl font-bold text-blue-900 mb-4">Requirements</h2>
-                                    <div
-                                        className="prose max-w-none"
-                                        dangerouslySetInnerHTML={{ __html: page.requirements }}
-                                    />
-                                </section>
-                            )}
-
-                            {page.how_to_qualify_for && (
-                                <section className="bg-white rounded-lg shadow-md p-6">
-                                    <h2 className="text-2xl font-bold text-blue-900 mb-4">How to Qualify</h2>
-                                    <div
-                                        className="prose max-w-none"
-                                        dangerouslySetInnerHTML={{ __html: page.how_to_qualify_for }}
-                                    />
-                                </section>
-                            )}
-
-                            {page.program_faq && (
-                                <section className="bg-white rounded-lg shadow-md p-6">
-                                    <h2 className="text-2xl font-bold text-blue-900 mb-4">FAQs</h2>
-                                    <div
-                                        className="prose max-w-none"
-                                        dangerouslySetInnerHTML={{ __html: page.program_faq }}
-                                    />
-                                </section>
-                            )}
+                <div className="min-h-screen bg-white">
+                    {/* Breadcrumb */}
+                    <div className="bg-gray-50 border-b border-gray-200 py-3 px-6">
+                        <div className="max-w-7xl mx-auto">
+                            <nav className="text-sm">
+                                <Link href="/" className="text-[#1daed4] hover:underline">
+                                    Home
+                                </Link>
+                                <span className="mx-2 text-gray-400">/</span>
+                                <Link href="/programs" className="text-[#1daed4] hover:underline">
+                                    Programs
+                                </Link>
+                                <span className="mx-2 text-gray-400">/</span>
+                                <span className="text-[#636363]">{program.title} in {location.city}</span>
+                            </nav>
                         </div>
+                    </div>
 
-                        {/* Sidebar */}
-                        <div className="md:col-span-1">
-                            <div className="bg-white rounded-lg shadow-md p-6 sticky top-8">
-                                <h3 className="text-xl font-bold text-blue-900 mb-4">Quick Facts</h3>
-                                <dl className="space-y-3">
-                                    {page.interest_rates && (
-                                        <>
-                                            <dt className="text-sm text-gray-500">Interest Rates</dt>
-                                            <dd className="text-lg font-semibold">{page.interest_rates}</dd>
-                                        </>
-                                    )}
-                                    {page.min_credit_score && (
-                                        <>
-                                            <dt className="text-sm text-gray-500">Min Credit Score</dt>
-                                            <dd className="text-lg font-semibold">{page.min_credit_score}</dd>
-                                        </>
-                                    )}
-                                    {page.max_ltv && (
-                                        <>
-                                            <dt className="text-sm text-gray-500">Max LTV</dt>
-                                            <dd className="text-lg font-semibold">{page.max_ltv}</dd>
-                                        </>
-                                    )}
-                                    {page.minimum_loan_amount && (
-                                        <>
-                                            <dt className="text-sm text-gray-500">Min Loan Amount</dt>
-                                            <dd className="text-lg font-semibold">
-                                                ${page.minimum_loan_amount.toLocaleString()}
-                                            </dd>
-                                        </>
-                                    )}
-                                    {page.maximum_loan_amount && (
-                                        <>
-                                            <dt className="text-sm text-gray-500">Max Loan Amount</dt>
-                                            <dd className="text-lg font-semibold">
-                                                ${page.maximum_loan_amount.toLocaleString()}
-                                            </dd>
-                                        </>
-                                    )}
-                                </dl>
+                    {/* Hero */}
+                    <div className="bg-gradient-to-r from-gray-50 to-white py-12 px-6 border-b-4 border-[#1daed4]">
+                        <div className="max-w-7xl mx-auto">
+                            <p className="text-[#1daed4] font-semibold mb-2">
+                                {formatProgramType(program.slug)} in {location.state}
+                            </p>
+                            <h1 className="text-5xl font-bold text-[#636363] mb-4" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+                                {data.h1}
+                            </h1>
+                            <p className="text-lg text-[#636363] mb-6">
+                                Serving {location.city} from our {location.office.name}
+                            </p>
+                            <Link
+                                href="/quote"
+                                className="inline-block bg-[#1daed4] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#17a0c4] transition-colors shadow-lg"
+                                style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
+                            >
+                                Get {location.city} Rates
+                            </Link>
+                        </div>
+                    </div>
 
-                                <div className="mt-6 pt-6 border-t">
+                    {/* Main Content */}
+                    <div className="max-w-7xl mx-auto py-12 px-6">
+                        <div className="grid md:grid-cols-3 gap-12">
+                            <div className="md:col-span-2 prose prose-lg max-w-none prose-headings:text-[#636363] prose-p:text-[#636363] prose-li:text-[#636363] prose-a:text-[#1daed4]">
+                                <div dangerouslySetInnerHTML={{ __html: content }} />
+                            </div>
+
+                            {/* Sidebar */}
+                            <div className="md:col-span-1">
+                                <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm sticky top-6">
+                                    <h3 className="text-xl font-bold text-[#636363] mb-4" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+                                        Local Office
+                                    </h3>
+                                    <p className="font-bold text-[#1daed4]">{location.office.name}</p>
+                                    <p className="text-gray-600 mb-4">{location.office.address}</p>
+
                                     <a
-                                        href="/quote"
-                                        className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition"
+                                        href={`tel:${location.office.phone}`}
+                                        className="block w-full text-center py-3 bg-[#636363] text-white font-bold rounded-lg hover:bg-gray-700 transition-colors"
                                     >
-                                        Get Your Quote
+                                        Call {location.office.phone}
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                )}
+                </div>
+            </>
+        );
+    }
 
-                {/* Index Pages */}
-                {(pageType === 'cms.ProgramIndexPage' || pageType === 'cms.FundedLoanIndexPage' || pageType === 'cms.LegacyIndexPage') && (
-                    <div className="bg-white rounded-lg shadow-md p-6">
-                        {page.intro && (
-                            <div
-                                className="prose max-w-none mb-8"
-                                dangerouslySetInnerHTML={{ __html: page.intro }}
-                            />
-                        )}
-                        <p className="text-gray-600">
-                            Browse the pages in this section using the navigation or search.
-                        </p>
-                    </div>
-                )}
-
-                {/* Standard Page / Legacy Page */}
-                {(pageType === 'cms.StandardPage' || pageType === 'cms.LegacyRecreatedPage') && (
-                    <div className="bg-white rounded-lg shadow-md p-6">
-                        {pageType === 'cms.LegacyRecreatedPage' && page.original_url && (
-                            <div className="mb-6 p-4 bg-yellow-50 border border-yellow-200 rounded">
-                                <p className="text-sm text-yellow-800">
-                                    <strong>Legacy Page:</strong> This is a recreated version of the original page at{' '}
-                                    <a href={page.original_url} className="underline" target="_blank" rel="noopener noreferrer">
-                                        {page.original_url}
-                                    </a>
-                                </p>
-                            </div>
-                        )}
-                        {page.body && (
-                            <div
-                                className="prose max-w-none"
-                                dangerouslySetInnerHTML={{ __html: page.body }}
-                            />
-                        )}
-                    </div>
-                )}
-
-                {/* Funded Loan Page */}
-                {pageType === 'cms.FundedLoanPage' && (
-                    <div className="bg-white rounded-lg shadow-md p-6">
-                        <div className="grid md:grid-cols-2 gap-6">
-                            <div>
-                                <h2 className="text-2xl font-bold text-blue-900 mb-4">Loan Details</h2>
-                                {/* Add funded loan specific fields here when populated */}
-                            </div>
-                        </div>
-                    </div>
-                )}
-
-                {/* CTA Section */}
-                <section className="mt-12 bg-gradient-to-r from-blue-900 to-blue-700 text-white rounded-lg p-8 text-center">
-                    <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
-                    <p className="text-lg mb-6 opacity-90">
-                        Get a personalized quote in minutes with our easy online calculator.
-                    </p>
-                    <a
-                        href="/quote"
-                        className="inline-block bg-white text-blue-900 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
-                    >
-                        Get Your Quote Now
-                    </a>
-                </section>
-            </div>
-        </main>
-    )
+    // Fallback
+    notFound();
 }
 
-export async function generateMetadata({
-    params
-}: {
-    params: Promise<{ slug?: string[] }>
-}): Promise<Metadata> {
-    try {
-        const resolvedParams = await params
-        const slugArray = resolvedParams?.slug
-        const slug = Array.isArray(slugArray) ? slugArray : []
-
-        if (slug.length === 0) {
-            return { title: 'Page Not Found' }
-        }
-
-        const page = await getPageByPath(slug)
-
-        if (!page) {
-            return { title: 'Page Not Found' }
-        }
-
-        // Strip HTML tags for description
-        const stripHtml = (html: string) => html.replace(/<[^>]*>/g, '').substring(0, 160)
-
-        return {
-            title: `${page.title} | Custom Mortgage Inc`,
-            description: page.mortgage_program_highlights
-                ? stripHtml(page.mortgage_program_highlights)
-                : `Learn about ${page.title} from Custom Mortgage Inc, a nationwide mortgage lender.`
-        }
-    } catch (error) {
-        console.error('Error in generateMetadata:', error)
-        return { title: 'Page Not Found' }
-    }
+function formatProgramType(slug: string) {
+    return slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
 }
