@@ -8,10 +8,15 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-    const locations = await getLocations({ limit: 200 });
-    return locations.map((location) => ({
-        slug: location.slug,
-    }));
+    try {
+        const locations = await getLocations({ limit: 200 });
+        return locations.map((location) => ({
+            slug: location.slug,
+        }));
+    } catch (error) {
+        console.warn('Failed to fetch locations for static generation:', error);
+        return []; // Return empty array - pages will be generated on-demand
+    }
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

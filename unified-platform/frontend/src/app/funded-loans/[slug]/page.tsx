@@ -13,10 +13,15 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-    const loans = await getFundedLoanPages();
-    return loans.map((loan) => ({
-        slug: loan.meta.slug,
-    }));
+    try {
+        const loans = await getFundedLoanPages();
+        return loans.map((loan) => ({
+            slug: loan.meta.slug,
+        }));
+    } catch (error) {
+        console.warn('Failed to fetch funded loans for static generation:', error);
+        return []; // Return empty array - pages will be generated on-demand
+    }
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

@@ -33,7 +33,14 @@ function stripHtml(html: string): string {
 }
 
 export default async function BlogIndexPage() {
-  const posts = await getBlogPages();
+  let posts: BlogPage[] = [];
+
+  try {
+    posts = await getBlogPages();
+  } catch (error) {
+    console.error('Failed to fetch blog posts:', error);
+    // posts remains empty array
+  }
 
   return (
     <div className="bg-white">

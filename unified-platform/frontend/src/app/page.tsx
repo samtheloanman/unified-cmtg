@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Metadata } from 'next';
-import { getFundedLoanPages, getProgramPages, getHomePage } from '@/lib/wagtail-api';
+import { getFundedLoanPages, getProgramPages, getHomePage, FundedLoanPage, CMSProgramPage, HomePage } from '@/lib/wagtail-api';
 
 // Program type cards matching production site
 const programTypes = [
@@ -15,12 +15,21 @@ const programTypes = [
 ];
 
 export default async function Home() {
-  // Parallel Data Fetching
-  const [fundedLoans, programs, homePage] = await Promise.all([
-    getFundedLoanPages(),
-    getProgramPages(),
-    getHomePage()
-  ]);
+  // Parallel Data Fetching with error handling
+  let fundedLoans: FundedLoanPage[] = [];
+  let programs: CMSProgramPage[] = [];
+  let homePage: HomePage | null = null;
+
+  try {
+    [fundedLoans, programs, homePage] = await Promise.all([
+      getFundedLoanPages(),
+      getProgramPages(),
+      getHomePage()
+    ]);
+  } catch (error) {
+    console.error('Failed to fetch home page data:', error);
+    // Continue with empty data - page will still render with fallback content
+  }
 
   return (
     <div className="bg-white">

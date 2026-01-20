@@ -32,7 +32,15 @@ function groupByProgramType(programs: CMSProgramPage[]): Record<string, CMSProgr
 }
 
 export default async function ProgramsIndexPage() {
-    const programs = await getProgramPages();
+    let programs: CMSProgramPage[] = [];
+
+    try {
+        programs = await getProgramPages();
+    } catch (error) {
+        console.error('Failed to fetch programs:', error);
+        // programs remains empty array
+    }
+
     const groupedPrograms = groupByProgramType(programs);
 
     // Order of program type display

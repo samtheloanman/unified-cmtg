@@ -9,12 +9,20 @@ export const metadata: Metadata = {
 };
 
 export default async function LegacyArchivePage() {
-    // Fetch the Legacy Index Page to get intro content
-    const pages = await getPages<LegacyIndexPage>('cms.LegacyIndexPage');
-    const indexPage = pages[0];
+    let indexPage: LegacyIndexPage | undefined;
+    let legacyPages: LegacyRecreatedPage[] = [];
 
-    // Fetch all legacy recreated pages
-    const legacyPages = await getPages<LegacyRecreatedPage>('cms.LegacyRecreatedPage');
+    try {
+        // Fetch the Legacy Index Page to get intro content
+        const pages = await getPages<LegacyIndexPage>('cms.LegacyIndexPage');
+        indexPage = pages[0];
+
+        // Fetch all legacy recreated pages
+        legacyPages = await getPages<LegacyRecreatedPage>('cms.LegacyRecreatedPage');
+    } catch (error) {
+        console.error('Failed to fetch legacy pages:', error);
+        // indexPage and legacyPages remain undefined/empty
+    }
 
     return (
         <div className="min-h-screen bg-white">

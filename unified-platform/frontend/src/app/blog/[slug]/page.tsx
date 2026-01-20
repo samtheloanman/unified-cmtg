@@ -9,12 +9,19 @@ interface Props {
 
 /**
  * Generate static paths for all blog posts at build time
+ * Returns empty array if API is unavailable (e.g., during Vercel build)
+ * Pages will be generated on-demand instead
  */
 export async function generateStaticParams() {
-  const posts = await getBlogPages();
-  return posts.map((post) => ({
-    slug: post.meta.slug,
-  }));
+  try {
+    const posts = await getBlogPages();
+    return posts.map((post) => ({
+      slug: post.meta.slug,
+    }));
+  } catch (error) {
+    console.warn('Failed to fetch blog posts for static generation:', error);
+    return []; // Return empty array - pages will be generated on-demand
+  }
 }
 
 /**

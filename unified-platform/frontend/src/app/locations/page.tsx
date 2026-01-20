@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { getLocations, getStateName } from '@/lib/locations-api';
+import { getLocations, getStateName, Location } from '@/lib/locations-api';
 
 export const metadata: Metadata = {
     title: 'Locations | Custom Mortgage',
@@ -8,7 +8,14 @@ export const metadata: Metadata = {
 };
 
 export default async function LocationsPage() {
-    const locations = await getLocations({ limit: 200 });
+    let locations: Location[] = [];
+
+    try {
+        locations = await getLocations({ limit: 200 });
+    } catch (error) {
+        console.error('Failed to fetch locations:', error);
+        // locations remains empty array
+    }
 
     // Group locations by state
     const byState: Record<string, typeof locations> = {};

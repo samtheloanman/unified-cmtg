@@ -15,12 +15,19 @@ interface Props {
 
 /**
  * Generate static paths for all program pages at build time
+ * Returns empty array if API is unavailable (e.g., during Vercel build)
+ * Pages will be generated on-demand instead
  */
 export async function generateStaticParams() {
-  const programs = await getProgramPages();
-  return programs.map((program) => ({
-    slug: program.meta.slug,
-  }));
+  try {
+    const programs = await getProgramPages();
+    return programs.map((program) => ({
+      slug: program.meta.slug,
+    }));
+  } catch (error) {
+    console.warn('Failed to fetch programs for static generation:', error);
+    return []; // Return empty array - pages will be generated on-demand
+  }
 }
 
 /**

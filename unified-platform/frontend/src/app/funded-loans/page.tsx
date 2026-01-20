@@ -1,4 +1,4 @@
-import { getFundedLoanPages, formatLoanAmount } from '@/lib/wagtail-api';
+import { getFundedLoanPages, formatLoanAmount, FundedLoanPage } from '@/lib/wagtail-api';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
@@ -15,7 +15,14 @@ export const metadata: Metadata = {
 };
 
 export default async function FundedLoansIndexPage() {
-    const loans = await getFundedLoanPages();
+    let loans: FundedLoanPage[] = [];
+
+    try {
+        loans = await getFundedLoanPages();
+    } catch (error) {
+        console.error('Failed to fetch funded loans:', error);
+        // loans remains empty array
+    }
 
     return (
         <div className="bg-white">
