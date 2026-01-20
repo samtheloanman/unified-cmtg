@@ -171,17 +171,23 @@ def _handle_legacy_format(lender, extracted_json_string):
         ).delete()
 
         # Create new adjustments
+        new_adjustments = []
         for adj_data in adjustments:
-            RateAdjustment.objects.create(
-                offering=offering,
-                adjustment_type=RateAdjustment.ADJUSTMENT_TYPE_FICO_LTV,
-                row_min=adj_data.get("min_fico"),
-                row_max=adj_data.get("max_fico"),
-                col_min=adj_data.get("min_ltv"),
-                col_max=adj_data.get("max_ltv"),
-                adjustment_points=adj_data.get("adjustment"),
+            new_adjustments.append(
+                RateAdjustment(
+                    offering=offering,
+                    adjustment_type=RateAdjustment.ADJUSTMENT_TYPE_FICO_LTV,
+                    row_min=adj_data.get("min_fico"),
+                    row_max=adj_data.get("max_fico"),
+                    col_min=adj_data.get("min_ltv"),
+                    col_max=adj_data.get("max_ltv"),
+                    adjustment_points=adj_data.get("adjustment"),
+                )
             )
-            adjustments_created += 1
+
+        if new_adjustments:
+            RateAdjustment.objects.bulk_create(new_adjustments, batch_size=1000)
+            adjustments_created += len(new_adjustments)
 
     summary = (
         f"Processing complete for {lender.company_name}. "

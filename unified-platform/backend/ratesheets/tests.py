@@ -1,6 +1,6 @@
 import uuid
 from unittest.mock import patch
-from django.test import TestCase
+from django.test import TestCase, override_settings
 from django.core.files.uploadedfile import SimpleUploadedFile
 from celery import current_app
 from pricing.models import Lender
@@ -36,6 +36,7 @@ class RateSheetModelTest(TestCase):
         self.assertEqual(ratesheet.status, RateSheet.STATUS_PENDING)
 
 # --- Task and Integration Tests ---
+@override_settings(GOOGLE_API_KEY='fake-key')
 class RateSheetProcessingTest(TestCase):
 
     @classmethod
