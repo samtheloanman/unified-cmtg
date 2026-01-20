@@ -30,18 +30,26 @@ function getTermYears(programName: string): number {
     return termMatch ? parseInt(termMatch[1]) : 999; // Default to high value for unknown
 }
 
-export default function ProgramComparison({ quotes, sortField, sortDirection, onSort, onApply }: ProgramComparisonProps) {
-    const SortIcon = ({ field }: { field: SortField }) => {
-        if (sortField !== field) {
-            return <span className="text-[#a5a5a5] ml-1">↕</span>;
-        }
-        return <span className="text-[#1daed4] ml-1">{sortDirection === 'asc' ? '↑' : '↓'}</span>;
-    };
+const SortIcon = ({
+    field,
+    currentSortField,
+    sortDirection
+}: {
+    field: SortField;
+    currentSortField: SortField;
+    sortDirection: SortDirection;
+}) => {
+    if (currentSortField !== field) {
+        return <span className="text-[#a5a5a5] ml-1">↕</span>;
+    }
+    return <span className="text-[#1daed4] ml-1">{sortDirection === 'asc' ? '↑' : '↓'}</span>;
+};
 
+export default function ProgramComparison({ quotes, sortField, sortDirection, onSort, onApply }: ProgramComparisonProps) {
     return (
         <div className="bg-white border-2 border-[#a5a5a5] rounded-lg shadow-lg overflow-hidden">
             <div className="bg-[#636363] text-white px-6 py-4">
-                <h4 className="text-xl font-bold" style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}>
+                <h4 className="text-xl font-bold font-heading">
                     Compare All Programs
                 </h4>
             </div>
@@ -54,7 +62,7 @@ export default function ProgramComparison({ quotes, sortField, sortDirection, on
                                 className="px-6 py-4 text-left text-sm font-semibold text-[#636363] cursor-pointer hover:bg-gray-100 transition-colors"
                                 onClick={() => onSort('lender')}
                             >
-                                Lender <SortIcon field="lender" />
+                                Lender <SortIcon field="lender" currentSortField={sortField} sortDirection={sortDirection} />
                             </th>
                             <th className="px-6 py-4 text-left text-sm font-semibold text-[#636363]">
                                 Program
@@ -63,19 +71,19 @@ export default function ProgramComparison({ quotes, sortField, sortDirection, on
                                 className="px-6 py-4 text-center text-sm font-semibold text-[#636363] cursor-pointer hover:bg-gray-100 transition-colors"
                                 onClick={() => onSort('term')}
                             >
-                                Term <SortIcon field="term" />
+                                Term <SortIcon field="term" currentSortField={sortField} sortDirection={sortDirection} />
                             </th>
                             <th
                                 className="px-6 py-4 text-center text-sm font-semibold text-[#636363] cursor-pointer hover:bg-gray-100 transition-colors"
                                 onClick={() => onSort('rate')}
                             >
-                                Rate <SortIcon field="rate" />
+                                Rate <SortIcon field="rate" currentSortField={sortField} sortDirection={sortDirection} />
                             </th>
                             <th
                                 className="px-6 py-4 text-center text-sm font-semibold text-[#636363] cursor-pointer hover:bg-gray-100 transition-colors"
                                 onClick={() => onSort('points')}
                             >
-                                Points <SortIcon field="points" />
+                                Points <SortIcon field="points" currentSortField={sortField} sortDirection={sortDirection} />
                             </th>
                             <th className="px-6 py-4 text-center text-sm font-semibold text-[#636363]">
                                 Action

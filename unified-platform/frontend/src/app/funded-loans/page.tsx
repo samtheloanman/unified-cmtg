@@ -24,12 +24,11 @@ export default async function FundedLoansIndexPage() {
                 <div className="max-w-7xl mx-auto">
                     <h1
                         className="text-5xl font-bold text-[#636363] mb-4"
-                        style={{ fontFamily: 'Bebas Neue, Arial, sans-serif' }}
                     >
                         Recent Funded Loans
                     </h1>
                     <p className="text-lg text-[#636363] max-w-2xl">
-                        See real examples of loans we've closed for our clients. From complex non-QM scenarios to standard residential purchases.
+                        See real examples of loans we&apos;ve closed for our clients. From complex non-QM scenarios to standard residential purchases.
                     </p>
                 </div>
             </div>

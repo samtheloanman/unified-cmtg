@@ -120,6 +120,18 @@ export interface BlogPage extends WagtailPage {
 }
 
 // =============================================================================
+// LEGACY PAGES
+// =============================================================================
+
+export interface LegacyIndexPage extends WagtailPage {
+  intro: string;
+}
+
+export interface LegacyRecreatedPage extends WagtailPage {
+  original_url: string;
+}
+
+// =============================================================================
 // HOME PAGE
 // =============================================================================
 

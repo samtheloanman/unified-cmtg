@@ -150,7 +150,7 @@ export default function LeadSubmitModal({
                                 placeholder="john@example.com"
                             />
                             <p className="text-xs text-[#a5a5a5] mt-1">
-                                We'll send your application link to this email
+                                We&apos;ll send your application link to this email
                             </p>
                         </div>
 
@@ -196,7 +196,7 @@ export default function LeadSubmitModal({
                         </button>
 
                         <p className="text-xs text-center text-[#a5a5a5]">
-                            By clicking "Start Your Application" you agree to receive email
+                            By clicking &quot;Start Your Application&quot; you agree to receive email
                             communication from Custom Mortgage Inc.
                         </p>
                     </form>

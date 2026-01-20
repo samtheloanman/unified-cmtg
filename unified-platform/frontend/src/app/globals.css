@@ -53,6 +53,17 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400; /* Bebas is naturally bold/thick */
 }
 
+/* Utility Classes for Fonts */
+.font-heading {
+  font-family: var(--font-heading);
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
 /* Glass Utility Classes */
 .glass {
   background: var(--glass-bg);
@@ -67,17 +78,6 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-backdrop-filter: blur(var(--glass-blur));
   border: 1px solid rgba(255, 255, 255, 0.1);
   color: white;
-}
-
-/* Headings */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-  letter-spacing: -0.025em;
 }
 
 /* Inputs */
