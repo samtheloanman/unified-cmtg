@@ -141,14 +141,22 @@ class TestCreateProspect:
 
     def test_create_prospect_without_api_key_raises_error(self):
         """Test that create_prospect raises error when API key is missing"""
-        client = FloifyClient(api_key=None)
+        with patch('api.integrations.floify.settings') as mock_settings:
+            # Typechecking mock attribute needs to be handled carefully or just use a new client with empty settings
+            mock_settings.FLOIFY_API_KEY = None
+            # We must pass empty string or None to override any potential env var, 
+            # but since we mocked settings, getattr(settings) will return None if we set it so.
+            # But the init logic is: api_key or getattr(...). 
+            # So passing None to init + mocking settings to None = None.
+            
+            client = FloifyClient(api_key=None)
 
-        with pytest.raises(FloifyAPIError, match="FLOIFY_API_KEY is not configured"):
-            client.create_prospect(
-                first_name="John",
-                last_name="Doe",
-                email="john@example.com"
-            )
+            with pytest.raises(FloifyAPIError, match="FLOIFY_API_KEY is not configured"):
+                client.create_prospect(
+                    first_name="John",
+                    last_name="Doe",
+                    email="john@example.com"
+                )
 
     def test_create_prospect_http_error_400(self, mock_httpx_client):
         """Test handling of HTTP 400 Bad Request"""

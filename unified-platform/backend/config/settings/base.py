@@ -180,3 +180,7 @@ FLOIFY_WEBHOOK_SECRET = env('FLOIFY_WEBHOOK_SECRET', default='')
 
 # Google API
 GOOGLE_API_KEY = env("GOOGLE_API_KEY", default="")
+
+# Auth Redirects
+LOGIN_REDIRECT_URL = '/admin/'
+LOGOUT_REDIRECT_URL = '/'
