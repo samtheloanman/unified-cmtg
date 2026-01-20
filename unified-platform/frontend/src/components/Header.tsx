@@ -45,19 +45,19 @@ export default function Header() {
     const phoneHref = `tel:${phoneDisplay.replace(/[^0-9]/g, '')}`;
 
     return (
-        <header className="sticky top-0 z-50 shadow-sm font-sans">
+        <header className="sticky top-0 z-50 font-sans">
             {/* Top Bar - Cyan Background to match production */}
-            <div className="bg-[#1daed4] text-white py-2 px-4 shadow-sm relative z-20">
-                <div className="max-w-7xl mx-auto flex justify-between items-center text-sm font-bold tracking-wide">
+            <div className="bg-[#1daed4] text-white py-0 px-4 relative z-20 border-b border-[#0f8aab]">
+                <div className="max-w-7xl mx-auto flex justify-between items-center text-sm font-bold tracking-widest uppercase h-10">
                     {/* Left: Apply Now Button + Sign In */}
-                    <div className="flex items-center gap-6">
+                    <div className="flex items-center gap-6 divide-x divide-white/20">
                         <a href="https://custommortgage.floify.com/" target="_blank" rel="noopener noreferrer"
-                            className="flex items-center gap-2 hover:text-white/90 transition-opacity">
+                            className="flex items-center gap-2 hover:text-white/80 transition-opacity pr-6">
                             <span className="text-white text-lg">✓</span>
-                            <span className="uppercase">Apply Now</span>
+                            <span>Apply Now</span>
                         </a>
 
-                        <a href="#" className="flex items-center gap-2 hover:text-white/90 transition-opacity">
+                        <a href="#" className="flex items-center gap-2 hover:text-white/80 transition-opacity pl-6">
                             <span className="text-white text-lg">➜</span>
                             <span>Sign In</span>
                         </a>
@@ -66,20 +66,20 @@ export default function Header() {
                     {/* Center/Right: Phone */}
                     <div className="flex items-center gap-2">
                         <span className="transform flip-x">📞</span>
-                        <a href={phoneHref} className="hover:text-white/90 transition-opacity text-base">
+                        <a href={phoneHref} className="hover:text-white/80 transition-opacity text-base">
                             {phoneDisplay}
                         </a>
                     </div>
 
                     {/* Far Right: Request Call Back (Hidden on mobile usually) */}
-                    <div className="hidden md:block uppercase text-xs tracking-widest font-normal opacity-90">
+                    <div className="hidden md:block text-xs font-normal opacity-90">
                         Request Call Back
                     </div>
                 </div>
             </div>
 
             {/* Main Navigation - White Background */}
-            <nav className="bg-white border-b border-gray-100 text-slate-900 relative z-10">
+            <nav className="bg-white border-b border-gray-200 text-[#0f2933] relative z-10 shadow-sm">
                 <div className="max-w-7xl mx-auto px-4">
                     <div className="flex justify-between items-center h-24">
                         {/* Logo */}
@@ -87,26 +87,28 @@ export default function Header() {
                             {siteConfig?.logo_url ? (
                                 <img src={siteConfig.logo_url} alt={siteConfig.site_name} className="h-16 w-auto object-contain" />
                             ) : (
-                                <span className="text-4xl font-heading font-black tracking-tighter text-slate-900">
-                                    CM<span className="text-[var(--primary)]">+</span>RE
-                                </span>
+                                <div className="text-4xl font-heading font-black tracking-tighter text-[#0f2933] uppercase leading-none" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>
+                                    Custom<span className="text-[#1daed4]">Mtg</span><br />
+                                    <span className="text-lg tracking-[0.2em] text-[#636363]">Inc.</span>
+                                </div>
                             )}
                         </Link>
 
                         {/* Desktop Navigation - Centered & Bold */}
-                        <div className="hidden lg:flex items-center justify-center flex-1 ml-12 space-x-8">
+                        <div className="hidden lg:flex items-center justify-center flex-1 ml-12 space-x-12">
                             {navData?.items.map((item) => {
                                 // Sub Menu
                                 if (item.type === 'sub_menu' && item.value.items) {
                                     return (
                                         <div
                                             key={item.id}
-                                            className="relative group h-full flex items-center"
+                                            className="relative group h-full flex items-center h-24"
                                             onMouseEnter={() => setOpenDropdown(item.id)}
                                             onMouseLeave={() => setOpenDropdown(null)}
                                         >
                                             <button
-                                                className={`py-2 text-sm font-bold uppercase tracking-widest hover:text-[var(--primary)] transition-colors flex items-center gap-1 font-heading text-slate-800`}
+                                                className={`py-2 text-lg font-bold uppercase tracking-wide hover:text-[#1daed4] transition-colors flex items-center gap-1 font-heading text-[#0f2933]`}
+                                                style={{ fontFamily: 'Bebas Neue, sans-serif' }}
                                             >
                                                 {item.value.title}
                                                 <svg className={`w-3 h-3 transition-transform ${openDropdown === item.id ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -114,16 +116,16 @@ export default function Header() {
                                                 </svg>
                                             </button>
 
-                                            {/* Dropdown Menu */}
+                                            {/* Mega Menu Dropdown */}
                                             {openDropdown === item.id && (
-                                                <div className="absolute left-0 top-full pt-4 w-64 z-50">
-                                                    <div className="bg-white shadow-xl border-t-4 border-[var(--primary)] py-2">
+                                                <div className="absolute left-0 top-full pt-0 w-64 z-50">
+                                                    <div className="bg-white border-t-4 border-[#1daed4] border-x border-b border-gray-100 shadow-2xl py-0">
                                                         {item.value.items.map((subItem, idx) => (
                                                             <Link
                                                                 key={idx}
                                                                 href={subItem.link_url || '#'}
                                                                 target={subItem.open_in_new_tab ? '_blank' : undefined}
-                                                                className="block px-6 py-3 text-sm text-slate-600 hover:bg-slate-50 hover:text-[var(--primary)] transition-all border-b border-gray-50 last:border-0 font-medium"
+                                                                className="block px-6 py-4 text-sm font-bold text-gray-600 hover:bg-[#f8f9fa] hover:text-[#1daed4] hover:pl-8 transition-all border-b border-gray-100 last:border-0 uppercase tracking-wider"
                                                             >
                                                                 {subItem.link_text}
                                                             </Link>
@@ -142,7 +144,8 @@ export default function Header() {
                                             key={item.id}
                                             href={item.value.link_url || '#'}
                                             target={item.value.open_in_new_tab ? '_blank' : undefined}
-                                            className="py-2 text-sm font-bold uppercase tracking-widest text-slate-800 hover:text-[var(--primary)] transition-colors font-heading"
+                                            className="py-2 text-lg font-bold uppercase tracking-wide text-[#0f2933] hover:text-[#1daed4] transition-colors font-heading"
+                                            style={{ fontFamily: 'Bebas Neue, sans-serif' }}
                                         >
                                             {item.value.link_text}
                                         </Link>
@@ -154,7 +157,7 @@ export default function Header() {
 
                         {/* Mobile Menu Button */}
                         <button
-                            className="lg:hidden p-2 text-slate-800"
+                            className="lg:hidden p-2 text-[#0f2933]"
                             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                             aria-label="Toggle menu"
                         >
@@ -179,7 +182,7 @@ export default function Header() {
                                 if (item.type === 'sub_menu' && item.value.items) {
                                     return (
                                         <div key={item.id} className="border-b border-gray-100 pb-4">
-                                            <h3 className="text-[var(--primary)] text-sm font-bold uppercase tracking-widest mb-3 font-heading">
+                                            <h3 className="text-[#1daed4] text-xl font-bold uppercase tracking-wide mb-3 font-heading" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>
                                                 {item.value.title}
                                             </h3>
                                             <div className="space-y-3 pl-4 border-l-2 border-gray-100">
@@ -187,7 +190,7 @@ export default function Header() {
                                                     <Link
                                                         key={idx}
                                                         href={subItem.link_url || '#'}
-                                                        className="block text-slate-600 hover:text-[var(--primary)] text-base font-medium"
+                                                        className="block text-gray-600 hover:text-[#1daed4] text-sm font-bold uppercase tracking-wider"
                                                         onClick={() => setMobileMenuOpen(false)}
                                                     >
                                                         {subItem.link_text}
@@ -202,7 +205,8 @@ export default function Header() {
                                         <Link
                                             key={item.id}
                                             href={item.value.link_url || '#'}
-                                            className="block text-slate-900 text-xl font-heading font-bold tracking-wide hover:text-[var(--primary)] border-b border-gray-100 pb-4"
+                                            className="block text-[#0f2933] text-2xl font-heading font-bold tracking-wide hover:text-[#1daed4] border-b border-gray-100 pb-4"
+                                            style={{ fontFamily: 'Bebas Neue, sans-serif' }}
                                             onClick={() => setMobileMenuOpen(false)}
                                         >
                                             {item.value.link_text}
@@ -215,7 +219,8 @@ export default function Header() {
                             <div className="pt-4">
                                 <Link
                                     href="/quote"
-                                    className="block w-full text-center py-4 bg-[var(--primary)] text-white font-bold rounded shadow-lg uppercase tracking-widest"
+                                    className="block w-full text-center py-4 bg-[#1daed4] text-white font-bold text-xl uppercase tracking-widest hover:bg-[#17a0c4] transition-colors"
+                                    style={{ fontFamily: 'Bebas Neue, sans-serif' }}
                                     onClick={() => setMobileMenuOpen(false)}
                                 >
                                     Get Your Quote
@@ -228,3 +233,4 @@ export default function Header() {
         </header>
     );
 }
+
