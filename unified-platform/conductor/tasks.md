@@ -161,13 +161,13 @@
 
 - [ ] **Security Audit**: Verify `DEBUG=False`, secrets management (Antigravity - Assigned)
   - Test: `manage.py check --deploy` passes
-- [ ] **Docker Optimization**: Multi-stage builds for minimal images (Antigravity - Assigned)
-  - Test: Image size < 500MB
+- [ ] **Vercel Config**: `vercel.json` for monorepo (Antigravity - Assigned)
+  - Test: `vercel build` passes
 - [ ] **Error Handling**: Global error boundaries (404/500) (Antigravity - Assigned)
   - Test: Manually trigger errors
 - [ ] **SEO Verification**: Meta tags, Sitemap.xml, Robots.txt (Claude - Assigned)
   - Test: Lighthouse SEO score > 90
-- [ ] **Staging Deployment**: Deploy to staging environment (Antigravity - Assigned)
+- [ ] **Staging Deployment**: Deploy to Vercel Staging (Antigravity - Assigned)
   - Test: Full E2E smoke test on staging
 
 

@@ -1,0 +1,38 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "unified-platform/backend/manage.py",
+            "use": "@vercel/python",
+            "config": {
+                "maxLambdaSize": "15mb",
+                "runtime": "python3.11"
+            }
+        },
+        {
+            "src": "unified-platform/frontend/package.json",
+            "use": "@vercel/next"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/api/v1/(.*)",
+            "dest": "/unified-platform/backend/manage.py"
+        },
+        {
+            "src": "/admin/(.*)",
+            "dest": "/unified-platform/backend/manage.py"
+        },
+        {
+            "src": "/static/(.*)",
+            "dest": "/unified-platform/backend/manage.py"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/unified-platform/frontend/$1"
+        }
+    ],
+    "env": {
+        "DJANGO_SETTINGS_MODULE": "config.settings.production"
+    }
+}
