@@ -15,6 +15,24 @@ function formatSlug(slug: string) {
     return slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
 }
 
+interface ProgramLocationData {
+    title: string;
+    meta_description: string;
+    h1: string;
+    program: { title: string; slug: string };
+    location: {
+        city: string;
+        state: string;
+        office?: {
+            name: string;
+            address: string;
+            phone: string;
+        };
+    };
+    content: string;
+    schema?: Record<string, unknown>;
+}
+
 /**
  * Generate Metadata for SEO
  */
@@ -26,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         // 1. Try resolving as Programmatic SEO Page
         const result = await resolvePath(path);
         if (result && result.type === 'program_location') {
-            const data = result.data as any;
+            const data = result.data as ProgramLocationData;
             return {
                 title: data.title,
                 description: data.meta_description,
@@ -65,7 +83,7 @@ export default async function CatchAllPage({ params }: Props) {
         const result = await resolvePath(path);
 
         if (result && result.type === 'program_location') {
-            const { data } = result as any;
+            const data = result.data as ProgramLocationData;
             const { program, location, content, schema } = data;
 
             return (
@@ -138,7 +156,7 @@ export default async function CatchAllPage({ params }: Props) {
     // 2. Fallback to Standard Wagtail Page
     try {
         const pageSlug = slug[slug.length - 1];
-        const page = await getPageBySlug<any>(pageSlug);
+        const page = await getPageBySlug<WagtailPage & { body?: string; content?: string }>(pageSlug);
 
         if (page) {
             return (
@@ -147,9 +165,9 @@ export default async function CatchAllPage({ params }: Props) {
                         <h1 className="text-5xl font-bold text-[#0f2933] mb-12 uppercase tracking-tighter" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>
                             {page.title}
                         </h1>
-                        <div 
+                        <div
                             className="prose prose-lg max-w-none prose-headings:text-[#0f2933] prose-p:text-gray-600"
-                            dangerouslySetInnerHTML={{ __html: page.body || page.content || '<p>No content available.</p>' }} 
+                            dangerouslySetInnerHTML={{ __html: page.body || page.content || '<p>No content available.</p>' }}
                         />
                     </div>
                 </div>

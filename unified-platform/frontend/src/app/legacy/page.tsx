@@ -72,7 +72,7 @@ export default async function LegacyArchivePage() {
                             className="block bg-white border border-gray-200 rounded-lg hover:shadow-lg transition-shadow p-6"
                         >
                             <h2 className="text-xl font-bold text-[#1daed4] mb-2">{page.title}</h2>
-                            <p className="text-sm text-gray-500 mb-4">Original URL: {(page as any).original_url || 'N/A'}</p>
+                            <p className="text-sm text-gray-500 mb-4">Original URL: {page.original_url || 'N/A'}</p>
                             <span className="text-sm font-medium text-[#636363] hover:text-[#1daed4]">
                                 View Archived Page &rarr;
                             </span>
