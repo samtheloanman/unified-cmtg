@@ -31,8 +31,8 @@ class SyncAgent:
         # Documentation files
         self.tasks_file = self.unified_platform / "conductor" / "tasks.md"
         self.current_file = self.unified_platform / "conductor" / "current.md"
-        self.status_file = self.repo_root / "PROJECT_STATUS_REVIEW.md"
-        self.dashboard_file = self.repo_root / "dashboard-data.json"
+        self.status_file = self.repo_root / "docs" / "history" / "PROJECT_STATUS_REVIEW.md"
+        self.dashboard_file = self.repo_root / "dashboard" / "dashboard-data.json"
 
         # Reports and logs
         self.reports_dir = self.repo_root / "SYNC_REPORTS"
@@ -316,9 +316,9 @@ Generated: {self.start_time.strftime("%Y-%m-%d %H:%M:%S %Z")}
         files_to_stage = [
             "unified-platform/conductor/tasks.md",
             "unified-platform/conductor/current.md",
-            "PROJECT_STATUS_REVIEW.md",
+            "docs/history/PROJECT_STATUS_REVIEW.md",
             "SYNC_REPORTS/sync-latest.md",
-            "dashboard-data.json"
+            "dashboard/dashboard-data.json"
         ]
 
         for file in files_to_stage:

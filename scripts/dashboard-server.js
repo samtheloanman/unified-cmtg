@@ -5,9 +5,9 @@ const { exec } = require('child_process');
 
 const PORT = 9000;
 const PROJECT_ROOT = path.join(__dirname, '..');
-const DASHBOARD_HTML = path.join(PROJECT_ROOT, 'dashboard.html');
+const DASHBOARD_HTML = path.join(PROJECT_ROOT, 'dashboard', 'dashboard.html');
 const GENERATE_SCRIPT = path.join(PROJECT_ROOT, 'scripts', 'generate-dashboard.sh');
-const DATA_FILE = path.join(PROJECT_ROOT, 'dashboard-data.json');
+const DATA_FILE = path.join(PROJECT_ROOT, 'dashboard', 'dashboard-data.json');
 
 // MIME types for serving files
 const MIME_TYPES = {

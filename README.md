@@ -85,6 +85,9 @@ docker compose up -d
 |----------|-------------|
 | [GEMINI.md](./GEMINI.md) | AI agent context (read this first) |
 | [PRD.md](./PRD.md) | Product Requirements Document |
+| [docs/analysis/](./docs/analysis/) | Technical analysis & deep dives |
+| [docs/integrations/](./docs/integrations/) | Integration guides (Zapier, Floify, etc.) |
+| [docs/history/](./docs/history/) | Historical project status & audits |
 | [knowledge-base/](./knowledge-base/) | Rate sheet SOPs and field mappings |
 
 ---

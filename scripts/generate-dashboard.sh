@@ -7,7 +7,7 @@ set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
-DATA_FILE="$PROJECT_ROOT/dashboard-data.json"
+DATA_FILE="$PROJECT_ROOT/dashboard/dashboard-data.json"
 CHECKLIST_FILE="$PROJECT_ROOT/unified-platform/conductor/tracks/finalization_20260114/checklist.md"
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M %Z')
 TIMESTAMP_ISO=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
