@@ -89,7 +89,6 @@ export default function QuoteWizard() {
     }
 
     if (step === 5 && results) {
-        // @ts-expect-error - ResultsCard expects Results type mismatch from API
         return <ResultsCard results={results} onReset={resetWizard} />;
     }
 

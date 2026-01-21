@@ -61,3 +61,31 @@ class SEOResolver:
         
         # No matching city found
         raise Http404(f"Could not parse city from URL: {slug}")
+
+    @classmethod
+    def resolve_path(cls, path):
+        """
+        Parse a full URL path and return (program_slug, city_slug, state_code).
+        Expected Pattern: /program-slug/in-city-slug-state/
+        Example: /jumbo-loans/in-los-angeles-ca/
+        """
+        import re
+        # Normalize: strip slashes and convert to lowercase
+        normalized_path = path.strip('/').lower()
+        
+        # Pattern match: {program_slug}/in-{city_slug}-{state_code}
+        # city_slug can contain hyphens, state_code is exactly 2 letters
+        pattern = r'^([^/]+)/in-([a-z0-9-]+)-([a-z]{2})$'
+        match = re.match(pattern, normalized_path)
+        
+        if match:
+            program_slug = match.group(1)
+            city_slug = match.group(2)
+            state_code = match.group(3).upper()
+            
+            # Validation (required by tests)
+            if ProgramPage.objects.live().filter(slug=program_slug).exists() and \
+               City.objects.filter(slug=city_slug, state=state_code).exists():
+                return program_slug, city_slug, state_code
+            
+        return None, None, None

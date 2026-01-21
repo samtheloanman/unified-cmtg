@@ -13,8 +13,8 @@ class AcraParsingTest(TestCase):
 
     def setUp(self):
         current_app.conf.update(task_always_eager=True)
-        # Read real fixture
-        fixture_path = "/app/ratesheets/fixtures/acra.pdf"
+        # Use relative path to fixture
+        fixture_path = os.path.join(os.path.dirname(__file__), "fixtures", "acra.pdf")
         with open(fixture_path, "rb") as f:
             content = f.read()
             
@@ -32,10 +32,12 @@ class AcraParsingTest(TestCase):
         """
         process_ratesheet.delay(self.ratesheet.id)
         self.ratesheet.refresh_from_db()
+
+        if self.ratesheet.status != RateSheet.STATUS_PROCESSED:
+            print(f"DEBUG: Status is {self.ratesheet.status}")
+            print(f"DEBUG: Log contains:\n{self.ratesheet.log}")
         
-        print(f"Log Output:\n{self.ratesheet.log}")
-        
-        self.assertEqual(self.ratesheet.status, RateSheet.STATUS_PROCESSED)
+        self.assertEqual(self.ratesheet.status, RateSheet.STATUS_PROCESSED, f"Processing failed. Log:\n{self.ratesheet.log}")
         # Check logs for extraction success
         self.assertIn("Found Date: 01/09/2026", self.ratesheet.log)
         self.assertIn("Found Potential Pricing Table", self.ratesheet.log)
