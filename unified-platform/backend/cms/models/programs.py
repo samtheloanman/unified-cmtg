@@ -46,6 +46,12 @@ class ProgramPage(Page):
         blank=True,
         help_text="Link to pricing engine program type"
     )
+    legacy_id = models.IntegerField(
+        null=True, 
+        blank=True, 
+        unique=True, 
+        help_text="Legacy ID from old system (e.g. 9101) to identify canonical programs"
+    )
     available_states = models.JSONField(default=list, blank=True, help_text="List of available state codes")
 
     # Moved from Financial per spec
