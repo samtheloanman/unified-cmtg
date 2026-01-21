@@ -32,7 +32,7 @@ class SyncAgent:
         self.tasks_file = self.unified_platform / "conductor" / "tasks.md"
         self.current_file = self.unified_platform / "conductor" / "current.md"
         self.status_file = self.repo_root / "docs" / "history" / "PROJECT_STATUS_REVIEW.md"
-        self.dashboard_file = self.repo_root / "dashboard" / "dashboard-data.json"
+        self.dashboard_file = self.repo_root / "dashboard-data.json"
 
         # Reports and logs
         self.reports_dir = self.repo_root / "SYNC_REPORTS"
