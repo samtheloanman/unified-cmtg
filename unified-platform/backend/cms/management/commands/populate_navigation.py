@@ -15,7 +15,7 @@ class Command(BaseCommand):
 
         # Get or create the menu
         menu, created = NavigationMenu.objects.get_or_create(
-            name="Main Header"
+            name="main-header"
         )
         
         # Clear existing items to rebuild
@@ -115,5 +115,17 @@ class Command(BaseCommand):
 
         menu.items = stream_data
         menu.save()
+        self.stdout.write(self.style.SUCCESS(f"Successfully populated 'main-header' with {len(stream_data)} items."))
 
-        self.stdout.write(self.style.SUCCESS(f"Successfully populated 'Main Header' with {len(stream_data)} items."))
+        # 4. Populate Footer Menu
+        self.stdout.write("Populating Footer navigation...")
+        footer_menu, _ = NavigationMenu.objects.get_or_create(name="Footer")
+        footer_data = [
+            {'type': 'link', 'value': {'link_text': 'Home', 'link_url': '/', 'open_in_new_tab': False}},
+            {'type': 'link', 'value': {'link_text': 'All Programs', 'link_url': '/programs', 'open_in_new_tab': False}},
+            {'type': 'link', 'value': {'link_text': 'Privacy Policy', 'link_url': '/privacy-policy', 'open_in_new_tab': False}},
+            {'type': 'link', 'value': {'link_text': 'Terms of Service', 'link_url': '/terms-of-service', 'open_in_new_tab': False}},
+        ]
+        footer_menu.items = footer_data
+        footer_menu.save()
+        self.stdout.write(self.style.SUCCESS("Successfully populated 'Footer' menu."))

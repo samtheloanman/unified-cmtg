@@ -232,21 +232,21 @@ class PricingAPI extends BaseAPIClient {
      * Get loan quotes based on qualification criteria
      */
     async getQuotes(request: QuoteRequest): Promise<APIResponse<QuoteResponse>> {
-        return this.post<QuoteResponse>('/api/v1/quote/', request);
+        return this.post<QuoteResponse>('/api/v1/quote', request);
     }
 
     /**
      * Get pre-qualification matches
      */
     async qualify(request: QualificationRequest): Promise<APIResponse<QualificationResponse>> {
-        return this.post<QualificationResponse>('/api/v1/qualify/', request);
+        return this.post<QualificationResponse>('/api/v1/qualify', request);
     }
 
     /**
      * Get list of all loan programs
      */
     async getPrograms(): Promise<APIResponse<ProgramsListResponse>> {
-        return this.get<ProgramsListResponse>('/api/v1/programs/');
+        return this.get<ProgramsListResponse>('/api/v1/programs');
     }
 
 
@@ -254,7 +254,7 @@ class PricingAPI extends BaseAPIClient {
      * Health check endpoint
      */
     async healthCheck(): Promise<APIResponse<HealthResponse>> {
-        return this.get<HealthResponse>('/api/v1/health/');
+        return this.get<HealthResponse>('/api/v1/health');
     }
 }
 
@@ -342,7 +342,7 @@ class LeadsAPI extends BaseAPIClient {
      * to complete their loan application.
      */
     async submitLead(request: LeadSubmitRequest): Promise<APIResponse<LeadSubmitResponse>> {
-        return this.post<LeadSubmitResponse>('/api/v1/leads/', request);
+        return this.post<LeadSubmitResponse>('/api/v1/leads', request);
     }
 }
 
@@ -416,14 +416,14 @@ class CMSAPI extends BaseAPIClient {
      * Get navigation menu by name
      */
     async getNavigation(name: string): Promise<APIResponse<NavigationMenu>> {
-        return this.get<NavigationMenu>(`/api/v1/navigation/${name}/`);
+        return this.get<NavigationMenu>(`/api/v1/navigation/${name}`);
     }
 
     /**
      * Get site configuration
      */
     async getSiteConfiguration(): Promise<APIResponse<SiteConfiguration>> {
-        return this.get<SiteConfiguration>('/api/v1/site-config/');
+        return this.get<SiteConfiguration>('/api/v1/site-config');
     }
 }
 

@@ -17,7 +17,7 @@ export default function Header() {
         async function fetchData() {
             try {
                 const [navRes, configRes] = await Promise.all([
-                    apiClient.cms.getNavigation('Main Header'),
+                    apiClient.cms.getNavigation('main-header'),
                     apiClient.cms.getSiteConfiguration()
                 ]);
 

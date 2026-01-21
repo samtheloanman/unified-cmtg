@@ -12,19 +12,19 @@ router.register(r'open-los/loans', LoanApplicationViewSet, basename='open-los-lo
 
 urlpatterns = [
     # Health check
-    path('health/', views.health_check, name='health_check'),
+    path('health', views.health_check, name='health_check'),
 
     # Locations
-    path('locations/', views.location_list, name='location_list'),
-    path('locations/nearest/', views.location_nearest, name='location_nearest'),
-    path('locations/<slug:slug>/', views.location_detail, name='location_detail'),
+    path('locations', views.location_list, name='location_list'),
+    path('locations/nearest', views.location_nearest, name='location_nearest'),
+    path('locations/<slug:slug>', views.location_detail, name='location_detail'),
 
     # Pricing & quotes
-    path('quote/', views.QuoteView.as_view(), name='quote'),
-    path('qualify/', views.QualifyView.as_view(), name='qualify'),
+    path('quote', views.QuoteView.as_view(), name='quote'),
+    path('qualify', views.QualifyView.as_view(), name='qualify'),
 
     # Lead submission (Floify integration)
-    path('leads/', views.LeadSubmitView.as_view(), name='lead_submit'),
+    path('leads', views.LeadSubmitView.as_view(), name='lead_submit'),
 
     # Floify webhooks
     # Floify webhooks
@@ -34,9 +34,9 @@ urlpatterns = [
     path('', include(router.urls)),
 
     # CMS Snippets
-    path('navigation/<str:name>/', views.navigation_menu_detail, name='navigation_detail'),
-    path('site-config/', views.site_configuration, name='site_configuration'),
+    path('navigation/<str:name>', views.navigation_menu_detail, name='navigation_detail'),
+    path('site-config', views.site_configuration, name='site_configuration'),
     
     # Dynamic Router
-    path('router/resolve/', cms_router_views.resolve_path, name='router_resolve'),
+    path('router/resolve', cms_router_views.resolve_path, name='router_resolve'),
 ]

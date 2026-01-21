@@ -35,12 +35,15 @@ export default async function ProgramsIndexPage() {
     let programs: CMSProgramPage[] = [];
 
     try {
+        console.log('--- FETCHING PROGRAMS ---');
         programs = await getProgramPages();
+        console.log(`--- FETCHED ${programs.length} PROGRAMS ---`);
     } catch (error) {
         console.error('Failed to fetch programs:', error);
     }
 
     const groupedPrograms = groupByProgramType(programs);
+    console.log(`--- GROUPED BY TYPE: ${Object.keys(groupedPrograms).join(', ')} ---`);
 
     // Order of program type display
     const typeOrder = ['residential', 'commercial', 'nonqm', 'hard_money', 'reverse_mortgage'];
