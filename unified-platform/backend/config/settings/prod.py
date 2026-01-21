@@ -14,7 +14,14 @@ DEBUG = False
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = env("SECRET_KEY")
 
-ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=["unified-cmtg.fly.dev", "localhost"])
+ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=[
+    "legacy1.c-mtg.com",
+    "cmre.c-mtg.com",
+    ".up.railway.app",  # Add Railway subdomains
+    "unified-cmtg.fly.dev",  # Keep for grace period
+    "localhost",
+    "127.0.0.1",
+])
 
 # HTTPS Security
 SECURE_SSL_REDIRECT = env.bool("SECURE_SSL_REDIRECT", default=True)
