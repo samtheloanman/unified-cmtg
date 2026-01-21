@@ -98,6 +98,7 @@
 - [x] Enhance Frontend catch-all route to handle standard Wagtail pages
 - [x] Create stub pages in Wagtail for missing core content
 - [x] Final end-to-end verification of site navigation
+- [ ] 🔴 CRITICAL: Fix production backend URL (unified-cmtg.fly.dev is NXDOMAIN)
 
 ---
 
