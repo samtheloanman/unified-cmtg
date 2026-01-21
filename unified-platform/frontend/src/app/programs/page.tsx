@@ -77,7 +77,7 @@ export default async function ProgramsIndexPage() {
                 {programs.length === 0 ? (
                     <div className="text-center py-20">
                         <div className="w-16 h-16 border-4 border-[#1daed4] border-t-transparent rounded-full animate-spin mx-auto mb-6" />
-                        <p className="text-gray-500 text-lg">Loading programs...</p>
+                        <p className="text-gray-500 text-lg">No programs found or backend unreachable.</p>
                     </div>
                 ) : (
                     <div className="space-y-24">
