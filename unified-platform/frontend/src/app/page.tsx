@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 };
 
 export default async function Home() {
+  // Syncing server/client versions to fix hydration mismatch
   // Parallel Data Fetching
   let fundedLoans: FundedLoanPage[] = [];
   let programs: CMSProgramPage[] = [];
