@@ -17,6 +17,7 @@ SECRET_KEY = env("SECRET_KEY")
 ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=[
     "legacy1.c-mtg.com",
     "cmre.c-mtg.com",
+    ".up.railway.app",  # Add Railway subdomains
     "unified-cmtg.fly.dev",  # Keep for grace period
     "localhost",
     "127.0.0.1",
