@@ -5,8 +5,11 @@
  * Uses ISR (Incremental Static Regeneration) with 60-second revalidation.
  */
 
-const WAGTAIL_API = process.env.NEXT_PUBLIC_WAGTAIL_API || 
-  (process.env.INTERNAL_API_URL ? `${process.env.INTERNAL_API_URL}/api/v2` : 'http://localhost:8001/api/v2');
+const isServer = typeof window === 'undefined';
+
+const WAGTAIL_API = isServer
+  ? (process.env.INTERNAL_API_URL ? `${process.env.INTERNAL_API_URL}/api/v2` : 'http://127.0.0.1:8001/api/v2')
+  : '/api/v2';
 
 // =============================================================================
 // BASE TYPES
