@@ -38,3 +38,5 @@ ratesheet_cache/
 dashboard-data.json
 .vercel
 .env*.local
+
+!.agent/
